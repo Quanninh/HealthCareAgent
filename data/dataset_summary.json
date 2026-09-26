@@ -1,0 +1,18 @@
+{
+  "total_documents": 6694,
+  "total_words": 3420466,
+  "avg_words_per_case": 511.0,
+  "unique_target_diseases_count": 55,
+  "sample_diseases": [
+    "Leishmaniasis",
+    "Neurocysticercosis, Covid19",
+    "Malaria, Covid19",
+    "Leprosy",
+    "Lymphatic Filariasis",
+    "Tuberculosis, Neurocysticercosis",
+    "Tuberculosis, Paragonimiasis",
+    "Tuberculosis, Neurocysticercosis, Covid19",
+    "Tuberculosis, Malaria",
+    "Tuberculosis, Malaria, Covid19, Dengue"
+  ]
+}
