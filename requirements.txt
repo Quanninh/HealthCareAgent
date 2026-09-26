@@ -1,0 +1,9 @@
+rank-bm25
+sentence-transformers
+torch
+faiss-cpu
+tqdm
+numpy
+openai
+tiktoken
+python-liquid
