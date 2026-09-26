@@ -1,3 +1,18 @@
 .env
 medical_datasets
 /payload_for_ref/payloads
+
+# Byte-compiled / optimized / cache files
+MedRAG/src/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+
+# Large corpora and generated datasets
+# corpus/
+# MedRAG/corpus/
+# data/
