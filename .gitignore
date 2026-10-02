@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+
+Demos/medical_datasets/
+*.parquet
+*.zip
+*.tar.gz
+*.webp
+*.jpg
+*.png
+
+.vscode/
+.ipynb_checkpoints/
