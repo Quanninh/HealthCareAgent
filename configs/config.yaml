@@ -1,0 +1,34 @@
+# MedGemma GraphRAG Configuration
+# Supports both Local (RTX 4050 6GB) and Remote Server (A100 40GB)
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "password"
+  database: "neo4j"
+
+model:
+  model_id: "google/medgemma-1.5-4b-it"
+  # Automatic hardware adaptation:
+  # On local RTX 4050 (<=8GB VRAM), load_in_4bit is activated to fit in ~2.8GB.
+  # On remote A100 (40GB VRAM), full torch.bfloat16 is used automatically.
+  load_in_4bit: true
+  max_new_tokens: 512
+  temperature: 0.1
+  top_p: 0.9
+
+data:
+  raw_zip_path: "payload_for_ref/payloads.zip"
+  train_cases_path: "data/train_cases.jsonl"
+  test_cases_path: "data/test_cases.jsonl"
+  train_ratio: 0.8
+  random_seed: 42
+
+rag:
+  max_symptom_query_limit: 10
+  top_k_candidate_diseases: 5
+  min_symptom_matches: 1
+
+evaluation:
+  top_k_list: [1, 3, 5]
+  results_output_path: "evaluation_results.json"
