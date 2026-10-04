@@ -1,0 +1,2975 @@
+{
+  "doc-be67c6a452b3283e6cc3d1181db49725": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Positive myositis-specific autoantibodies during COVID-19: a case report\nSource: Pan Afr Med J (2022) DOI: 10.11604/pamj.2022.43.181.36322\nPatient Demographics: Case ID: PMC10007705_01 | Age: 27.0 | Gender: Female\n...",
+    "content_length": 1773,
+    "created_at": "2026-09-26T02:42:35.700329+00:00",
+    "updated_at": "2026-09-26T02:43:44.146434+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_094235_d195d468",
+    "content_hash": "be67c6a452b3283e6cc3d1181db49725",
+    "metadata": {
+      "parse_start_time": 1790390555,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790390555,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790390555,
+      "process_end_time": 1790390624,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-be67c6a452b3283e6cc3d1181db49725-chunk-000"
+    ]
+  },
+  "doc-3b02ad23c5895936b3c0b71851649c2a": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Positive myositis-specific autoantibodies during COVID-19: a case report\nSource: Pan Afr Med J (2022) DOI: 10.11604/pamj.2022.43.181.36322\nPatient Demographics: Case ID: PMC10007705_02 | Age: 27.0 | Gender: Female\n...",
+    "content_length": 3836,
+    "created_at": "2026-09-26T02:43:44.149521+00:00",
+    "updated_at": "2026-09-26T02:47:25.841559+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_094344_4af20614",
+    "content_hash": "3b02ad23c5895936b3c0b71851649c2a",
+    "metadata": {
+      "parse_start_time": 1790390624,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790390624,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790390624,
+      "process_end_time": 1790390845,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-3b02ad23c5895936b3c0b71851649c2a-chunk-000",
+      "doc-3b02ad23c5895936b3c0b71851649c2a-chunk-001",
+      "doc-3b02ad23c5895936b3c0b71851649c2a-chunk-002"
+    ]
+  },
+  "doc-cd00db0ae9ecbe44b58bb940c8d22e91": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Rare Case of COVID-19-Induced Acute Exacerbation of Oral Dermatitis Herpetiformis in a Geriatric Patient\nSource: Int Med Case Rep J (2023) DOI: 10.2147/IMCRJ.S401775\nPatient Demographics: Case ID: PMC10010120_01 ...",
+    "content_length": 9085,
+    "created_at": "2026-09-26T02:47:25.847811+00:00",
+    "updated_at": "2026-09-26T02:53:53.748744+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_094725_d142db08",
+    "content_hash": "cd00db0ae9ecbe44b58bb940c8d22e91",
+    "metadata": {
+      "parse_start_time": 1790390845,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790390845,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790390845,
+      "process_end_time": 1790391233,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 7"
+    },
+    "chunks_count": 7,
+    "chunks_list": [
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-000",
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-001",
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-002",
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-003",
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-004",
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-005",
+      "doc-cd00db0ae9ecbe44b58bb940c8d22e91-chunk-006"
+    ]
+  },
+  "doc-f9c970bb217606784f35fb18a674f8a4": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Bloodstream Infections Caused by Drug Resistant Ralstonia species: A Case Series During the COVID-19 Pandemic\nSource: Infect Drug Resist (2023) DOI: 10.2147/IDR.S403830\nPatient Demographics: Case ID: PMC10010739_01...",
+    "content_length": 3203,
+    "created_at": "2026-09-26T02:53:53.752057+00:00",
+    "updated_at": "2026-09-26T02:57:25.079882+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_095353_c0e81e37",
+    "content_hash": "f9c970bb217606784f35fb18a674f8a4",
+    "metadata": {
+      "parse_start_time": 1790391233,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790391233,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790391233,
+      "process_end_time": 1790391445,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-f9c970bb217606784f35fb18a674f8a4-chunk-000",
+      "doc-f9c970bb217606784f35fb18a674f8a4-chunk-001"
+    ]
+  },
+  "doc-6a5889e2c77746885a05d3aeb6ed5e4a": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Full-Term Delivery and Complete Lung Recovery following VV ECMO Support Midpregnancy in a Patient with COVID-19 ARDS\nSource: Case Rep Crit Care (2023) DOI: 10.1155/2023/3472718\nPatient Demographics: Case ID: PMC100...",
+    "content_length": 5878,
+    "created_at": "2026-09-26T02:57:25.082819+00:00",
+    "updated_at": "2026-09-26T03:02:25.389238+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_095725_9e1cbd6b",
+    "content_hash": "6a5889e2c77746885a05d3aeb6ed5e4a",
+    "metadata": {
+      "parse_start_time": 1790391445,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790391445,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790391445,
+      "process_end_time": 1790391745,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-6a5889e2c77746885a05d3aeb6ed5e4a-chunk-000",
+      "doc-6a5889e2c77746885a05d3aeb6ed5e4a-chunk-001",
+      "doc-6a5889e2c77746885a05d3aeb6ed5e4a-chunk-002",
+      "doc-6a5889e2c77746885a05d3aeb6ed5e4a-chunk-003"
+    ]
+  },
+  "doc-8e2b2829047cd45b23c8d541e98ba364": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Rare Case of Acute Pancreatitis as Dengue Complication\nSource: Case Rep Infect Dis (2023) DOI: 10.1155/2023/2619785\nPatient Demographics: Case ID: PMC10010886_01 | Age: 31.0 | Gender: Male\nTarget Disease Indicati...",
+    "content_length": 2486,
+    "created_at": "2026-09-26T03:02:25.391788+00:00",
+    "updated_at": "2026-09-26T03:04:31.291573+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_100225_2128f444",
+    "content_hash": "8e2b2829047cd45b23c8d541e98ba364",
+    "metadata": {
+      "parse_start_time": 1790391745,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790391745,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790391745,
+      "process_end_time": 1790391871,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-8e2b2829047cd45b23c8d541e98ba364-chunk-000",
+      "doc-8e2b2829047cd45b23c8d541e98ba364-chunk-001"
+    ]
+  },
+  "doc-1b5c3d014d26e07b37236ea91978fa49": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Effectiveness of levosimendan and role of cardiac magnetic resonance in cardiogenic shock due to COVID-19 related lymphocytic myocarditis in the course of viral sepsis\nSource: Arch Clin Cases (2023) DOI: 10.22551/2...",
+    "content_length": 12009,
+    "created_at": "2026-09-26T03:04:31.294852+00:00",
+    "updated_at": "2026-09-26T03:15:04.842121+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_100431_28b78e61",
+    "content_hash": "1b5c3d014d26e07b37236ea91978fa49",
+    "metadata": {
+      "parse_start_time": 1790391871,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790391871,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790391871,
+      "process_end_time": 1790392504,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 8"
+    },
+    "chunks_count": 8,
+    "chunks_list": [
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-000",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-001",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-002",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-003",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-004",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-005",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-006",
+      "doc-1b5c3d014d26e07b37236ea91978fa49-chunk-007"
+    ]
+  },
+  "doc-c2bab568fd0945ca97229932b3958ca4": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Increased troponin level in 125 children during COVID-19\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1059685\nPatient Demographics: Case ID: PMC10014588_01 | Age: 0.0 | Gender: Unknown\nTarget Di...",
+    "content_length": 3685,
+    "created_at": "2026-09-26T03:15:04.848848+00:00",
+    "updated_at": "2026-09-26T03:18:55.407164+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_101504_0a0cad39",
+    "content_hash": "c2bab568fd0945ca97229932b3958ca4",
+    "metadata": {
+      "parse_start_time": 1790392504,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790392504,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790392504,
+      "process_end_time": 1790392735,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-c2bab568fd0945ca97229932b3958ca4-chunk-000",
+      "doc-c2bab568fd0945ca97229932b3958ca4-chunk-001",
+      "doc-c2bab568fd0945ca97229932b3958ca4-chunk-002",
+      "doc-c2bab568fd0945ca97229932b3958ca4-chunk-003"
+    ]
+  },
+  "doc-bd19502a29f3f6f294b8182dbd43e0b9": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Idiopathic Granulomatous Mastitis as an Unusual Cause of Erythema Nodosum in a Malagasy Woman\nSource: Int Med Case Rep J (2023) DOI: 10.2147/IMCRJ.S403050\nPatient Demographics: Case ID: PMC10016364_01 | Age: 29.0 |...",
+    "content_length": 4512,
+    "created_at": "2026-09-26T03:18:55.417145+00:00",
+    "updated_at": "2026-09-26T03:23:27.212994+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_101855_7bcce123",
+    "content_hash": "bd19502a29f3f6f294b8182dbd43e0b9",
+    "metadata": {
+      "parse_start_time": 1790392735,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790392735,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790392735,
+      "process_end_time": 1790393007,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-bd19502a29f3f6f294b8182dbd43e0b9-chunk-000",
+      "doc-bd19502a29f3f6f294b8182dbd43e0b9-chunk-001",
+      "doc-bd19502a29f3f6f294b8182dbd43e0b9-chunk-002"
+    ]
+  },
+  "doc-e31462b2b61662a5cdda18b771b6a9fe": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Report of Bowel Perforation in a Gravid COVID-19 Patient\nSource: Case Rep Med (2023) DOI: 10.1155/2023/7737433\nPatient Demographics: Case ID: PMC10017220_01 | Age: 35.0 | Gender: Female\nTarget Disease Indica...",
+    "content_length": 3301,
+    "created_at": "2026-09-26T03:23:27.217529+00:00",
+    "updated_at": "2026-09-26T03:25:57.238494+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_102327_a83f4aeb",
+    "content_hash": "e31462b2b61662a5cdda18b771b6a9fe",
+    "metadata": {
+      "parse_start_time": 1790393007,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790393007,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790393007,
+      "process_end_time": 1790393157,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-e31462b2b61662a5cdda18b771b6a9fe-chunk-000",
+      "doc-e31462b2b61662a5cdda18b771b6a9fe-chunk-001"
+    ]
+  },
+  "doc-cd24aad1fdc5de922a50ab7953f43a3f": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: SARS-CoV-2 specific T-cells are associated with myocarditis after COVID-19 vaccination with mRNA-1273\nSource: Front Med (Lausanne) (2023) DOI: 10.3389/fmed.2023.1088764\nPatient Demographics: Case ID: P...",
+    "content_length": 5312,
+    "created_at": "2026-09-26T03:25:57.241752+00:00",
+    "updated_at": "2026-09-26T03:34:26.140289+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_102557_eae65e9f",
+    "content_hash": "cd24aad1fdc5de922a50ab7953f43a3f",
+    "metadata": {
+      "parse_start_time": 1790393157,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790393157,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790393157,
+      "process_end_time": 1790393666,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-cd24aad1fdc5de922a50ab7953f43a3f-chunk-000",
+      "doc-cd24aad1fdc5de922a50ab7953f43a3f-chunk-001",
+      "doc-cd24aad1fdc5de922a50ab7953f43a3f-chunk-002",
+      "doc-cd24aad1fdc5de922a50ab7953f43a3f-chunk-003"
+    ]
+  },
+  "doc-df05bfef1a077e0155db5a2319d2e5ed": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Alopecia areata and subsequent Marie Antoinette syndrome following COVID-19 infection and vaccination: A case report\nSource: SAGE Open Med Case Rep (2023) DOI: 10.1177/2050313X231152065\nPatient Demographics: Case I...",
+    "content_length": 2659,
+    "created_at": "2026-09-26T03:34:26.145894+00:00",
+    "updated_at": "2026-09-26T03:36:13.942948+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_103426_8f40ee3b",
+    "content_hash": "df05bfef1a077e0155db5a2319d2e5ed",
+    "metadata": {
+      "parse_start_time": 1790393666,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790393666,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790393666,
+      "process_end_time": 1790393773,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-df05bfef1a077e0155db5a2319d2e5ed-chunk-000",
+      "doc-df05bfef1a077e0155db5a2319d2e5ed-chunk-001"
+    ]
+  },
+  "doc-89bffd3876aa466a76dee1dbdb10edec": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Fairness and efficiency considerations in COVID-19 vaccine allocation strategies: A case study comparing front-line workers and 65-74 year olds in the United States\nSource: PLOS Glob Public Health (2023) DOI: 10.13...",
+    "content_length": 6854,
+    "created_at": "2026-09-26T03:36:13.946470+00:00",
+    "updated_at": "2026-09-26T03:40:29.284942+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_103613_20b6c71d",
+    "content_hash": "89bffd3876aa466a76dee1dbdb10edec",
+    "metadata": {
+      "parse_start_time": 1790393773,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790393773,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790393773,
+      "process_end_time": 1790394029,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-89bffd3876aa466a76dee1dbdb10edec-chunk-000",
+      "doc-89bffd3876aa466a76dee1dbdb10edec-chunk-001",
+      "doc-89bffd3876aa466a76dee1dbdb10edec-chunk-002",
+      "doc-89bffd3876aa466a76dee1dbdb10edec-chunk-003"
+    ]
+  },
+  "doc-bf3851fafc435e3a862d3953c0d0905e": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Fairness and efficiency considerations in COVID-19 vaccine allocation strategies: A case study comparing front-line workers and 65-74 year olds in the United States\nSource: PLOS Glob Public Health (2023) DOI: 10.13...",
+    "content_length": 664,
+    "created_at": "2026-09-26T03:40:29.287867+00:00",
+    "updated_at": "2026-09-26T03:41:17.661211+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_104029_3bf0d9b6",
+    "content_hash": "bf3851fafc435e3a862d3953c0d0905e",
+    "metadata": {
+      "parse_start_time": 1790394029,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394029,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394029,
+      "process_end_time": 1790394077,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-bf3851fafc435e3a862d3953c0d0905e-chunk-000"
+    ]
+  },
+  "doc-711f3ca920e59950529742ab80092493": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Fairness and efficiency considerations in COVID-19 vaccine allocation strategies: A case study comparing front-line workers and 65-74 year olds in the United States\nSource: PLOS Glob Public Health (2023) DOI: 10.13...",
+    "content_length": 1139,
+    "created_at": "2026-09-26T03:41:17.663760+00:00",
+    "updated_at": "2026-09-26T03:42:23.867836+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_104117_f0aa351a",
+    "content_hash": "711f3ca920e59950529742ab80092493",
+    "metadata": {
+      "parse_start_time": 1790394077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394077,
+      "process_end_time": 1790394143,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-711f3ca920e59950529742ab80092493-chunk-000"
+    ]
+  },
+  "doc-c6aa32dd002a5968c0b16b9f0c196293": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Fairness and efficiency considerations in COVID-19 vaccine allocation strategies: A case study comparing front-line workers and 65-74 year olds in the United States\nSource: PLOS Glob Public Health (2023) DOI: 10.13...",
+    "content_length": 2883,
+    "created_at": "2026-09-26T03:42:23.871620+00:00",
+    "updated_at": "2026-09-26T03:44:48.759476+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_104223_61befd8e",
+    "content_hash": "c6aa32dd002a5968c0b16b9f0c196293",
+    "metadata": {
+      "parse_start_time": 1790394143,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394143,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394143,
+      "process_end_time": 1790394288,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-c6aa32dd002a5968c0b16b9f0c196293-chunk-000",
+      "doc-c6aa32dd002a5968c0b16b9f0c196293-chunk-001"
+    ]
+  },
+  "doc-8d80c32250bbbf7ad55cf221040fa307": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Fairness and efficiency considerations in COVID-19 vaccine allocation strategies: A case study comparing front-line workers and 65-74 year olds in the United States\nSource: PLOS Glob Public Health (2023) DOI: 10.13...",
+    "content_length": 2055,
+    "created_at": "2026-09-26T03:44:48.762984+00:00",
+    "updated_at": "2026-09-26T03:46:16.919111+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_104448_d256bf80",
+    "content_hash": "8d80c32250bbbf7ad55cf221040fa307",
+    "metadata": {
+      "parse_start_time": 1790394288,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394288,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394288,
+      "process_end_time": 1790394376,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-8d80c32250bbbf7ad55cf221040fa307-chunk-000"
+    ]
+  },
+  "doc-f1ed1cbbadb94ac628986b1fddff0b21": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Lumbar Spine Infection with Eikenella corrodens Presented as Abdominal Pain: A Case Report and Literature Review\nSource: Infect Drug Resist (2023) DOI: 10.2147/IDR.S400451\nPatient Demographics: Case ID: PMC10022453...",
+    "content_length": 6615,
+    "created_at": "2026-09-26T03:46:16.923506+00:00",
+    "updated_at": "2026-09-26T03:50:32.576968+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_104616_2498a387",
+    "content_hash": "f1ed1cbbadb94ac628986b1fddff0b21",
+    "metadata": {
+      "parse_start_time": 1790394376,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394376,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394377,
+      "process_end_time": 1790394632,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-f1ed1cbbadb94ac628986b1fddff0b21-chunk-000",
+      "doc-f1ed1cbbadb94ac628986b1fddff0b21-chunk-001",
+      "doc-f1ed1cbbadb94ac628986b1fddff0b21-chunk-002",
+      "doc-f1ed1cbbadb94ac628986b1fddff0b21-chunk-003"
+    ]
+  },
+  "doc-95ac51e5947b5b1fb36826322f42f310": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Clearance of longstanding, immune-deficiency-associated, vaccine-derived polio virus infection following remdesivir therapy for chronic SARS-CoV-2 infection\nSource: Front Immunol (2023) DOI: 10.3389/fi...",
+    "content_length": 7756,
+    "created_at": "2026-09-26T03:50:32.580006+00:00",
+    "updated_at": "2026-09-26T03:55:03.194659+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_105032_96de68a9",
+    "content_hash": "95ac51e5947b5b1fb36826322f42f310",
+    "metadata": {
+      "parse_start_time": 1790394632,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394632,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394632,
+      "process_end_time": 1790394903,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 5"
+    },
+    "chunks_count": 5,
+    "chunks_list": [
+      "doc-95ac51e5947b5b1fb36826322f42f310-chunk-000",
+      "doc-95ac51e5947b5b1fb36826322f42f310-chunk-001",
+      "doc-95ac51e5947b5b1fb36826322f42f310-chunk-002",
+      "doc-95ac51e5947b5b1fb36826322f42f310-chunk-003",
+      "doc-95ac51e5947b5b1fb36826322f42f310-chunk-004"
+    ]
+  },
+  "doc-c4d950b29becfb92828ce9bf62c55083": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Recurrent Pericardial Effusion Due to Panhypopituitarism: A Rare Case Report\nSource: Int J Endocrinol Metab (2023) DOI: 10.5812/ijem-131341\nPatient Demographics: Case ID: PMC10024806_01 | Age: 48.0 | Gender: Female...",
+    "content_length": 3504,
+    "created_at": "2026-09-26T03:55:03.198421+00:00",
+    "updated_at": "2026-09-26T03:58:03.143219+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_105503_cf6c4c14",
+    "content_hash": "c4d950b29becfb92828ce9bf62c55083",
+    "metadata": {
+      "parse_start_time": 1790394903,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790394903,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790394903,
+      "process_end_time": 1790395083,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-c4d950b29becfb92828ce9bf62c55083-chunk-000",
+      "doc-c4d950b29becfb92828ce9bf62c55083-chunk-001"
+    ]
+  },
+  "doc-7060f720f9ba041c95cc7423476c26f6": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Dysphagia after COVID-19 infection in a stroke patient-Is neurostimulation a potential management?\nSource: Front Neurol (2023) DOI: 10.3389/fneur.2023.1126390\nPatient Demographics: Case ID: PMC10025385...",
+    "content_length": 7343,
+    "created_at": "2026-09-26T03:58:03.147822+00:00",
+    "updated_at": "2026-09-26T04:03:10.990406+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_105803_6b0b1404",
+    "content_hash": "7060f720f9ba041c95cc7423476c26f6",
+    "metadata": {
+      "parse_start_time": 1790395083,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790395083,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790395083,
+      "process_end_time": 1790395390,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-7060f720f9ba041c95cc7423476c26f6-chunk-000",
+      "doc-7060f720f9ba041c95cc7423476c26f6-chunk-001",
+      "doc-7060f720f9ba041c95cc7423476c26f6-chunk-002",
+      "doc-7060f720f9ba041c95cc7423476c26f6-chunk-003"
+    ]
+  },
+  "doc-1e92dc21bb4588246b53715015ededc3": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A fatal case of COVID-19-associated meningoencephalitis in a patient coinfected with influenza A\nSource: Rev Inst Med Trop Sao Paulo (2023) DOI: 10.1590/S1678-9946202365022\nPatient Demographics: Case ID: PMC1002706...",
+    "content_length": 2076,
+    "created_at": "2026-09-26T04:03:10.993416+00:00",
+    "updated_at": "2026-09-26T04:04:20.502651+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_110310_12e75004",
+    "content_hash": "1e92dc21bb4588246b53715015ededc3",
+    "metadata": {
+      "parse_start_time": 1790395390,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790395391,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790395391,
+      "process_end_time": 1790395460,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-1e92dc21bb4588246b53715015ededc3-chunk-000"
+    ]
+  },
+  "doc-82d7afa230de1929c75d7a1ae481a664": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Rapid Onset Severe Immune Thrombocytopenia following mRNA COVID-19 Vaccine in a Young Patient\nSource: Case Rep Hematol (2023) DOI: 10.1155/2023/7877536\nPatient Demographics: Case ID: PMC10027455_01 | Age: 25.0 | Ge...",
+    "content_length": 5072,
+    "created_at": "2026-09-26T04:04:20.505988+00:00",
+    "updated_at": "2026-09-26T04:09:23.492441+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_110420_5c194bf3",
+    "content_hash": "82d7afa230de1929c75d7a1ae481a664",
+    "metadata": {
+      "parse_start_time": 1790395460,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790395460,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790395460,
+      "process_end_time": 1790395763,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-82d7afa230de1929c75d7a1ae481a664-chunk-000",
+      "doc-82d7afa230de1929c75d7a1ae481a664-chunk-001",
+      "doc-82d7afa230de1929c75d7a1ae481a664-chunk-002",
+      "doc-82d7afa230de1929c75d7a1ae481a664-chunk-003"
+    ]
+  },
+  "doc-409a49e99d7838aa055c73cca5cc3731": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Real-World COPD Management Over 3 Years at the Community Health Service Center of Shanghai During the COVID-19 Pandemic in China\nSource: Int J Chron Obstruct Pulmon Dis (2023) DOI: 10.2147/COPD.S391908\nPatient Demo...",
+    "content_length": 1945,
+    "created_at": "2026-09-26T04:09:23.499777+00:00",
+    "updated_at": "2026-09-26T04:10:05.374994+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_110923_5b6d456d",
+    "content_hash": "409a49e99d7838aa055c73cca5cc3731",
+    "metadata": {
+      "parse_start_time": 1790395763,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790395763,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790395763,
+      "process_end_time": 1790395805,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-409a49e99d7838aa055c73cca5cc3731-chunk-000"
+    ]
+  },
+  "doc-9e2af8011ab47c55dd96b1f453c4d299": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Tension Hydropneumothorax Caused by a Ruptured Hydatic Cyst in the Pleural Cavity: Case Report\nSource: Glob Pediatr Health (2023) DOI: 10.1177/2333794X231156044\nPatient Demographics: Case ID: PMC10031588_01 | Age: ...",
+    "content_length": 2427,
+    "created_at": "2026-09-26T04:10:05.382930+00:00",
+    "updated_at": "2026-09-26T04:12:16.318014+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_111005_5e1df4bc",
+    "content_hash": "9e2af8011ab47c55dd96b1f453c4d299",
+    "metadata": {
+      "parse_start_time": 1790395805,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790395805,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790395805,
+      "process_end_time": 1790395936,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-9e2af8011ab47c55dd96b1f453c4d299-chunk-000",
+      "doc-9e2af8011ab47c55dd96b1f453c4d299-chunk-001"
+    ]
+  },
+  "doc-ae74db97de9299ba839d02b2fb047120": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19-Associated Rhino-orbital mucormycosis: Presentation and outcome\nSource: Saudi J Ophthalmol (2022) DOI: 10.4103/sjopt.sjopt_154_21\nPatient Demographics: Case ID: PMC10032291_01 | Age: 38.0 | Gender: Female\n...",
+    "content_length": 2709,
+    "created_at": "2026-09-26T04:12:16.321862+00:00",
+    "updated_at": "2026-09-26T04:14:15.085604+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_111216_310d1b9a",
+    "content_hash": "ae74db97de9299ba839d02b2fb047120",
+    "metadata": {
+      "parse_start_time": 1790395936,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790395936,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790395936,
+      "process_end_time": 1790396055,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-ae74db97de9299ba839d02b2fb047120-chunk-000",
+      "doc-ae74db97de9299ba839d02b2fb047120-chunk-001"
+    ]
+  },
+  "doc-b080e34ba849deda0a52f2644b80d098": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19-Associated Rhino-orbital mucormycosis: Presentation and outcome\nSource: Saudi J Ophthalmol (2022) DOI: 10.4103/sjopt.sjopt_154_21\nPatient Demographics: Case ID: PMC10032291_02 | Age: 65.0 | Gender: Female\n...",
+    "content_length": 2403,
+    "created_at": "2026-09-26T04:14:15.088868+00:00",
+    "updated_at": "2026-09-26T04:16:18.036160+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_111415_f75c87d6",
+    "content_hash": "b080e34ba849deda0a52f2644b80d098",
+    "metadata": {
+      "parse_start_time": 1790396055,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790396055,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790396055,
+      "process_end_time": 1790396178,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-b080e34ba849deda0a52f2644b80d098-chunk-000",
+      "doc-b080e34ba849deda0a52f2644b80d098-chunk-001"
+    ]
+  },
+  "doc-2323a4e5c479a9a4883b91755458cce6": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19-Associated Rhino-orbital mucormycosis: Presentation and outcome\nSource: Saudi J Ophthalmol (2022) DOI: 10.4103/sjopt.sjopt_154_21\nPatient Demographics: Case ID: PMC10032291_03 | Age: 56.0 | Gender: Male\nTa...",
+    "content_length": 1657,
+    "created_at": "2026-09-26T04:16:18.038942+00:00",
+    "updated_at": "2026-09-26T04:17:38.000988+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_111618_7eda0918",
+    "content_hash": "2323a4e5c479a9a4883b91755458cce6",
+    "metadata": {
+      "parse_start_time": 1790396178,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790396178,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790396178,
+      "process_end_time": 1790396258,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-2323a4e5c479a9a4883b91755458cce6-chunk-000"
+    ]
+  },
+  "doc-2a48181c30a06acf48481008b6747a40": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19-Associated Rhino-orbital mucormycosis: Presentation and outcome\nSource: Saudi J Ophthalmol (2022) DOI: 10.4103/sjopt.sjopt_154_21\nPatient Demographics: Case ID: PMC10032291_04 | Age: 62.0 | Gender: Male\nTa...",
+    "content_length": 2138,
+    "created_at": "2026-09-26T04:17:38.005947+00:00",
+    "updated_at": "2026-09-26T04:20:00.851858+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_111738_23fe4824",
+    "content_hash": "2a48181c30a06acf48481008b6747a40",
+    "metadata": {
+      "parse_start_time": 1790396258,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790396258,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790396258,
+      "process_end_time": 1790396400,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-2a48181c30a06acf48481008b6747a40-chunk-000",
+      "doc-2a48181c30a06acf48481008b6747a40-chunk-001"
+    ]
+  },
+  "doc-936f3c0323bd4447ee7bbc89993bf6ea": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: 'Granulomatosis with polyangiitis after Pfizer vaccination': a case report\nSource: Ther Adv Rare Dis (2022) DOI: 10.1177/26330040221130084\nPatient Demographics: Case ID: PMC10032451_01 | Age: 27.0 | Gender: Male\nTa...",
+    "content_length": 3457,
+    "created_at": "2026-09-26T04:20:00.855765+00:00",
+    "updated_at": "2026-09-26T04:22:55.311547+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_112000_beab7573",
+    "content_hash": "936f3c0323bd4447ee7bbc89993bf6ea",
+    "metadata": {
+      "parse_start_time": 1790396400,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790396400,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790396400,
+      "process_end_time": 1790396575,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-936f3c0323bd4447ee7bbc89993bf6ea-chunk-000",
+      "doc-936f3c0323bd4447ee7bbc89993bf6ea-chunk-001"
+    ]
+  },
+  "doc-aa260e9207bb6144bb25f98ed8b77838": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A case of spontaneous pneumothorax due to paragonimiasis in North America with literature review\nSource: IDCases (2023) DOI: 10.1016/j.idcr.2023.e01742\nPatient Demographics: Case ID: PMC10034413_01 | Age: 41.0 | Ge...",
+    "content_length": 7329,
+    "created_at": "2026-09-26T04:22:55.316330+00:00",
+    "updated_at": "2026-09-26T04:29:37.446366+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_112255_fe45aedb",
+    "content_hash": "aa260e9207bb6144bb25f98ed8b77838",
+    "metadata": {
+      "parse_start_time": 1790396575,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790396575,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790396575,
+      "process_end_time": 1790396977,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 5"
+    },
+    "chunks_count": 5,
+    "chunks_list": [
+      "doc-aa260e9207bb6144bb25f98ed8b77838-chunk-000",
+      "doc-aa260e9207bb6144bb25f98ed8b77838-chunk-001",
+      "doc-aa260e9207bb6144bb25f98ed8b77838-chunk-002",
+      "doc-aa260e9207bb6144bb25f98ed8b77838-chunk-003",
+      "doc-aa260e9207bb6144bb25f98ed8b77838-chunk-004"
+    ]
+  },
+  "doc-5366ece68b092861bfb2a01aff52f363": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: IgG3 Antibody Response to COVID-19 Vaccination in a Patient With a Large Heavy Chain Deletion\nSource: Ther Adv Allergy Rhinol (2023) DOI: 10.1177/27534030231156206\nPatient Demographics: Case ID: PMC10035523_01 | Ag...",
+    "content_length": 2475,
+    "created_at": "2026-09-26T04:29:37.450229+00:00",
+    "updated_at": "2026-09-26T04:30:54.804166+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_112937_83991523",
+    "content_hash": "5366ece68b092861bfb2a01aff52f363",
+    "metadata": {
+      "parse_start_time": 1790396977,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790396977,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790396977,
+      "process_end_time": 1790397054,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-5366ece68b092861bfb2a01aff52f363-chunk-000",
+      "doc-5366ece68b092861bfb2a01aff52f363-chunk-001"
+    ]
+  },
+  "doc-9830f31d51c915a5d63cd25e5ee2876c": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Recurrent Acute Disseminated Encephalomyelitis (ADEM) after COVID-19-vaccination and after subsequent COVID-19-infection: A case report (part II)\nSource: Front Neurol (2023) DOI: 10.3389/fneur.2023.1149612\nPatient ...",
+    "content_length": 6091,
+    "created_at": "2026-09-26T04:30:54.808092+00:00",
+    "updated_at": "2026-09-26T04:36:11.182502+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_113054_6924f456",
+    "content_hash": "9830f31d51c915a5d63cd25e5ee2876c",
+    "metadata": {
+      "parse_start_time": 1790397054,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790397054,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790397054,
+      "process_end_time": 1790397371,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-9830f31d51c915a5d63cd25e5ee2876c-chunk-000",
+      "doc-9830f31d51c915a5d63cd25e5ee2876c-chunk-001",
+      "doc-9830f31d51c915a5d63cd25e5ee2876c-chunk-002",
+      "doc-9830f31d51c915a5d63cd25e5ee2876c-chunk-003"
+    ]
+  },
+  "doc-397d75bf96c654d226460be3bdf675fd": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Clinical course and treatment of SARS-CoV-2 in a pediatric CAR-T cell recipient with persistent hypogammaglobulinemia\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1076686\nPatient Demographics: C...",
+    "content_length": 10284,
+    "created_at": "2026-09-26T04:36:11.186830+00:00",
+    "updated_at": "2026-09-26T04:46:14.569362+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_113611_b12d2d4e",
+    "content_hash": "397d75bf96c654d226460be3bdf675fd",
+    "metadata": {
+      "parse_start_time": 1790397371,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790397371,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790397371,
+      "process_end_time": 1790397974,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 7"
+    },
+    "chunks_count": 7,
+    "chunks_list": [
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-000",
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-001",
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-002",
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-003",
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-004",
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-005",
+      "doc-397d75bf96c654d226460be3bdf675fd-chunk-006"
+    ]
+  },
+  "doc-ddb189d08becfbc31626442a6e6080f1": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Hydrocephalus Caused by Tuberculous Meningitis in an Immunocompetent Young Adult: A Case Report\nSource: Int Med Case Rep J (2023) DOI: 10.2147/IMCRJ.S389204\nPatient Demographics: Case ID: PMC10038010_01 | Age: 26.0...",
+    "content_length": 4968,
+    "created_at": "2026-09-26T04:46:14.576105+00:00",
+    "updated_at": "2026-09-26T04:51:23.015156+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_114614_feeaa010",
+    "content_hash": "ddb189d08becfbc31626442a6e6080f1",
+    "metadata": {
+      "parse_start_time": 1790397974,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790397974,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790397974,
+      "process_end_time": 1790398283,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-ddb189d08becfbc31626442a6e6080f1-chunk-000",
+      "doc-ddb189d08becfbc31626442a6e6080f1-chunk-001",
+      "doc-ddb189d08becfbc31626442a6e6080f1-chunk-002",
+      "doc-ddb189d08becfbc31626442a6e6080f1-chunk-003"
+    ]
+  },
+  "doc-70206bf5a955ae83322d2cf6035a3ef9": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case Report: Unusual Cause of Fever in Ulcerative Colitis Treated with Infliximab\nSource: J Inflamm Res (2023) DOI: 10.2147/JIR.S403371\nPatient Demographics: Case ID: PMC10041989_01 | Age: 51.0 | Gender: Male\nTarge...",
+    "content_length": 4885,
+    "created_at": "2026-09-26T04:51:23.019923+00:00",
+    "updated_at": "2026-09-26T04:56:02.483798+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_115123_796ca6a5",
+    "content_hash": "70206bf5a955ae83322d2cf6035a3ef9",
+    "metadata": {
+      "parse_start_time": 1790398283,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790398283,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790398283,
+      "process_end_time": 1790398562,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-70206bf5a955ae83322d2cf6035a3ef9-chunk-000",
+      "doc-70206bf5a955ae83322d2cf6035a3ef9-chunk-001",
+      "doc-70206bf5a955ae83322d2cf6035a3ef9-chunk-002",
+      "doc-70206bf5a955ae83322d2cf6035a3ef9-chunk-003"
+    ]
+  },
+  "doc-f020ad0a2c0ecdec4208d99f1323b71a": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Pharmacokinetics of Antituberculosis Drugs in Plasma and Cerebrospinal Fluid in a Patient with Pre-Extensive Drug Resistant Tuberculosis Meningitis\nSource: Infect Drug Resist (2023) DOI: 10.2147/IDR.S401281\nPatient...",
+    "content_length": 9665,
+    "created_at": "2026-09-26T04:56:02.488631+00:00",
+    "updated_at": "2026-09-26T05:03:24.992625+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_115602_558ef6e6",
+    "content_hash": "f020ad0a2c0ecdec4208d99f1323b71a",
+    "metadata": {
+      "parse_start_time": 1790398562,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790398562,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790398562,
+      "process_end_time": 1790399004,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 7"
+    },
+    "chunks_count": 7,
+    "chunks_list": [
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-000",
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-001",
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-002",
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-003",
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-004",
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-005",
+      "doc-f020ad0a2c0ecdec4208d99f1323b71a-chunk-006"
+    ]
+  },
+  "doc-5ef80c1f6a3937583bd83719f09a7443": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Blood parasite load by qPCR as therapeutic monitoring in visceral leishmaniasis patients in Brazil: a case series study\nSource: Rev Soc Bras Med Trop (2023) DOI: 10.1590/0037-8682-0456-2022\nPatient Demographics: Ca...",
+    "content_length": 1934,
+    "created_at": "2026-09-26T05:03:24.996057+00:00",
+    "updated_at": "2026-09-26T05:04:10.904506+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_120324_82df1981",
+    "content_hash": "5ef80c1f6a3937583bd83719f09a7443",
+    "metadata": {
+      "parse_start_time": 1790399005,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399005,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399005,
+      "process_end_time": 1790399050,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-5ef80c1f6a3937583bd83719f09a7443-chunk-000"
+    ]
+  },
+  "doc-3fe52622b806c3dde023d8b421f5077a": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Muscular tuberculosis with lower-extremity muscular masses as the initial presentation: Clinicopathological analysis of two cases and review of the literature\nSource: Front Med (Lausanne) (2023) DOI: 1...",
+    "content_length": 4668,
+    "created_at": "2026-09-26T05:04:10.910061+00:00",
+    "updated_at": "2026-09-26T05:08:36.495971+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_120410_0135fa3f",
+    "content_hash": "3fe52622b806c3dde023d8b421f5077a",
+    "metadata": {
+      "parse_start_time": 1790399050,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399050,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399050,
+      "process_end_time": 1790399316,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-3fe52622b806c3dde023d8b421f5077a-chunk-000",
+      "doc-3fe52622b806c3dde023d8b421f5077a-chunk-001",
+      "doc-3fe52622b806c3dde023d8b421f5077a-chunk-002",
+      "doc-3fe52622b806c3dde023d8b421f5077a-chunk-003"
+    ]
+  },
+  "doc-049ea1a9ce8bf1994b5a4f69969915b5": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Muscular tuberculosis with lower-extremity muscular masses as the initial presentation: Clinicopathological analysis of two cases and review of the literature\nSource: Front Med (Lausanne) (2023) DOI: 1...",
+    "content_length": 3055,
+    "created_at": "2026-09-26T05:08:36.499513+00:00",
+    "updated_at": "2026-09-26T05:11:25.889513+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_120836_eb0c6fcb",
+    "content_hash": "049ea1a9ce8bf1994b5a4f69969915b5",
+    "metadata": {
+      "parse_start_time": 1790399316,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399316,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399316,
+      "process_end_time": 1790399485,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-049ea1a9ce8bf1994b5a4f69969915b5-chunk-000",
+      "doc-049ea1a9ce8bf1994b5a4f69969915b5-chunk-001"
+    ]
+  },
+  "doc-3e6fac4d0ace145ccea7831fee370c35": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Considerations for the use of immunosuppression for the management of pemphigus during the COVID-19 pandemic with a focus on rituximab: Case reports from a single center experience in Australia\nSource: Front Med (L...",
+    "content_length": 2771,
+    "created_at": "2026-09-26T05:11:25.893268+00:00",
+    "updated_at": "2026-09-26T05:13:23.898837+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_121125_dde46de1",
+    "content_hash": "3e6fac4d0ace145ccea7831fee370c35",
+    "metadata": {
+      "parse_start_time": 1790399485,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399485,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399485,
+      "process_end_time": 1790399603,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-3e6fac4d0ace145ccea7831fee370c35-chunk-000",
+      "doc-3e6fac4d0ace145ccea7831fee370c35-chunk-001"
+    ]
+  },
+  "doc-3e3f3c4d8f66d7495a702536a1895bbb": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Considerations for the use of immunosuppression for the management of pemphigus during the COVID-19 pandemic with a focus on rituximab: Case reports from a single center experience in Australia\nSource: Front Med (L...",
+    "content_length": 2848,
+    "created_at": "2026-09-26T05:13:23.903689+00:00",
+    "updated_at": "2026-09-26T05:16:07.853239+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_121323_4853db7d",
+    "content_hash": "3e3f3c4d8f66d7495a702536a1895bbb",
+    "metadata": {
+      "parse_start_time": 1790399603,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399603,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399603,
+      "process_end_time": 1790399767,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-3e3f3c4d8f66d7495a702536a1895bbb-chunk-000",
+      "doc-3e3f3c4d8f66d7495a702536a1895bbb-chunk-001"
+    ]
+  },
+  "doc-a4cac2addca2717d86125cd3a997e5bd": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Considerations for the use of immunosuppression for the management of pemphigus during the COVID-19 pandemic with a focus on rituximab: Case reports from a single center experience in Australia\nSource: Front Med (L...",
+    "content_length": 2621,
+    "created_at": "2026-09-26T05:16:07.856298+00:00",
+    "updated_at": "2026-09-26T05:18:22.418393+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_121607_d21031de",
+    "content_hash": "a4cac2addca2717d86125cd3a997e5bd",
+    "metadata": {
+      "parse_start_time": 1790399767,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399767,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399767,
+      "process_end_time": 1790399902,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-a4cac2addca2717d86125cd3a997e5bd-chunk-000",
+      "doc-a4cac2addca2717d86125cd3a997e5bd-chunk-001"
+    ]
+  },
+  "doc-b74fd1be0bac20260caf978512133533": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Overlapping clinical features of systemic juvenile idiopathic arthritis and SARS-CoV-2-related multisystem inflammatory syndrome in children\nSource: Reumatologia (2023) DOI: 10.5114/reum/161185\nPatient Demographics...",
+    "content_length": 4413,
+    "created_at": "2026-09-26T05:18:22.421352+00:00",
+    "updated_at": "2026-09-26T05:22:03.989512+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_121822_5a5c3aab",
+    "content_hash": "b74fd1be0bac20260caf978512133533",
+    "metadata": {
+      "parse_start_time": 1790399902,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790399902,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790399902,
+      "process_end_time": 1790400123,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-b74fd1be0bac20260caf978512133533-chunk-000",
+      "doc-b74fd1be0bac20260caf978512133533-chunk-001",
+      "doc-b74fd1be0bac20260caf978512133533-chunk-002"
+    ]
+  },
+  "doc-b671f12d433daec53ffa3034d0f5e82f": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19 case prediction using emotion trends via Twitter emoji analysis: A case study in Japan\nSource: Front Public Health (2023) DOI: 10.3389/fpubh.2023.1079315\nPatient Demographics: Case ID: PMC10045477_01 | Gen...",
+    "content_length": 5326,
+    "created_at": "2026-09-26T05:22:03.993102+00:00",
+    "updated_at": "2026-09-26T05:26:02.326674+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_122203_cf70e267",
+    "content_hash": "b671f12d433daec53ffa3034d0f5e82f",
+    "metadata": {
+      "parse_start_time": 1790400123,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790400124,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790400124,
+      "process_end_time": 1790400362,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-b671f12d433daec53ffa3034d0f5e82f-chunk-000",
+      "doc-b671f12d433daec53ffa3034d0f5e82f-chunk-001",
+      "doc-b671f12d433daec53ffa3034d0f5e82f-chunk-002",
+      "doc-b671f12d433daec53ffa3034d0f5e82f-chunk-003"
+    ]
+  },
+  "doc-f20b43850bf66bd2b3a28373aa471cc9": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Coronavirus Disease 2019 (COVID-19) modified RNA vaccination-induced Adult-Onset Still's Disease with fulminant myocarditis as initial presentation\nSource: Front Cardiovasc Med (2023) DOI: 10.3389/fcvm...",
+    "content_length": 7394,
+    "created_at": "2026-09-26T05:26:02.332905+00:00",
+    "updated_at": "2026-09-26T05:32:42.760204+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_122602_d1c77c2b",
+    "content_hash": "f20b43850bf66bd2b3a28373aa471cc9",
+    "metadata": {
+      "parse_start_time": 1790400362,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790400362,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790400362,
+      "process_end_time": 1790400762,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 5"
+    },
+    "chunks_count": 5,
+    "chunks_list": [
+      "doc-f20b43850bf66bd2b3a28373aa471cc9-chunk-000",
+      "doc-f20b43850bf66bd2b3a28373aa471cc9-chunk-001",
+      "doc-f20b43850bf66bd2b3a28373aa471cc9-chunk-002",
+      "doc-f20b43850bf66bd2b3a28373aa471cc9-chunk-003",
+      "doc-f20b43850bf66bd2b3a28373aa471cc9-chunk-004"
+    ]
+  },
+  "doc-7ee35c7abc79991f387a1d3d1a056a98": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Report of Acute Severe Necrotizing Pancreatitis following the Johnson & Johnson Vaccine against the Novel SARS-CoV-2\nSource: Case Rep Infect Dis (2023) DOI: 10.1155/2023/9965435\nPatient Demographics: Case ID...",
+    "content_length": 2155,
+    "created_at": "2026-09-26T05:32:42.764655+00:00",
+    "updated_at": "2026-09-26T05:33:32.250517+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_123242_79e47c07",
+    "content_hash": "7ee35c7abc79991f387a1d3d1a056a98",
+    "metadata": {
+      "parse_start_time": 1790400762,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790400762,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790400762,
+      "process_end_time": 1790400812,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-7ee35c7abc79991f387a1d3d1a056a98-chunk-000"
+    ]
+  },
+  "doc-7c64194b27f68aaa72cdd59bdab53127": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Post-COVID-19 polyautoimmunity - Fact or coincidence: A case report\nSource: Front Med (Lausanne) (2023) DOI: 10.3389/fmed.2023.1013125\nPatient Demographics: Case ID: PMC10060632_01 | Age: 33.0 | Gender: Male\nTarget...",
+    "content_length": 5267,
+    "created_at": "2026-09-26T05:33:32.257958+00:00",
+    "updated_at": "2026-09-26T05:38:19.476949+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_123332_f557ee35",
+    "content_hash": "7c64194b27f68aaa72cdd59bdab53127",
+    "metadata": {
+      "parse_start_time": 1790400812,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790400812,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790400812,
+      "process_end_time": 1790401099,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-7c64194b27f68aaa72cdd59bdab53127-chunk-000",
+      "doc-7c64194b27f68aaa72cdd59bdab53127-chunk-001",
+      "doc-7c64194b27f68aaa72cdd59bdab53127-chunk-002",
+      "doc-7c64194b27f68aaa72cdd59bdab53127-chunk-003"
+    ]
+  },
+  "doc-a6b1da4c7da3290d7d05a67bc6887c2b": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: COVID-19-associated mucormycosis co-infection with Lomentospora prolificans: The first case and review on multiple fungal co-infections during COVID-19 pandemic\nSource: Front Med (Lausanne) (2023) DOI:...",
+    "content_length": 8804,
+    "created_at": "2026-09-26T05:38:19.481243+00:00",
+    "updated_at": "2026-09-26T05:47:30.778564+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_123819_4dabc55a",
+    "content_hash": "a6b1da4c7da3290d7d05a67bc6887c2b",
+    "metadata": {
+      "parse_start_time": 1790401099,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790401099,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790401099,
+      "process_end_time": 1790401650,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 7"
+    },
+    "chunks_count": 7,
+    "chunks_list": [
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-000",
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-001",
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-002",
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-003",
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-004",
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-005",
+      "doc-a6b1da4c7da3290d7d05a67bc6887c2b-chunk-006"
+    ]
+  },
+  "doc-ba5e005ddacf8aab5cb36806ac1d7eff": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Bilateral disc edema: An unusual presentation of renal tuberculosis in a child\nSource: Oman J Ophthalmol (2023) DOI: 10.4103/ojo.ojo_12_22\nPatient Demographics: Case ID: PMC10062070_01 | Age: 15.0 | Gender: Female\n...",
+    "content_length": 4609,
+    "created_at": "2026-09-26T05:47:30.782900+00:00",
+    "updated_at": "2026-09-26T05:50:52.310854+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_124730_59e58e01",
+    "content_hash": "ba5e005ddacf8aab5cb36806ac1d7eff",
+    "metadata": {
+      "parse_start_time": 1790401650,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790401650,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790401650,
+      "process_end_time": 1790401852,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-ba5e005ddacf8aab5cb36806ac1d7eff-chunk-000",
+      "doc-ba5e005ddacf8aab5cb36806ac1d7eff-chunk-001",
+      "doc-ba5e005ddacf8aab5cb36806ac1d7eff-chunk-002"
+    ]
+  },
+  "doc-d6b43f294f7182a81a8f52320634abb2": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A rare case of bilateral optic neuritis post-Covishield (ChAdOx1-S [recombinant]) vaccination\nSource: Oman J Ophthalmol (2023) DOI: 10.4103/ojo.ojo_31_22\nPatient Demographics: Case ID: PMC10062071_01 | Age: 44.0 | ...",
+    "content_length": 4197,
+    "created_at": "2026-09-26T05:50:52.314242+00:00",
+    "updated_at": "2026-09-26T05:53:21.681654+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_125052_846a0995",
+    "content_hash": "d6b43f294f7182a81a8f52320634abb2",
+    "metadata": {
+      "parse_start_time": 1790401852,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790401852,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790401852,
+      "process_end_time": 1790402001,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-d6b43f294f7182a81a8f52320634abb2-chunk-000",
+      "doc-d6b43f294f7182a81a8f52320634abb2-chunk-001",
+      "doc-d6b43f294f7182a81a8f52320634abb2-chunk-002"
+    ]
+  },
+  "doc-f30730d0b132091e96ea437177bae6cf": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Optical coherence tomography angiography features of dengue retinopathy manifesting as acute macular neuroretinopathy, branch vein vasculitis and neurosensory detachment\nSource: Oman J Ophthalmol (2022) DOI: 10.410...",
+    "content_length": 3745,
+    "created_at": "2026-09-26T05:53:21.686147+00:00",
+    "updated_at": "2026-09-26T05:56:08.511407+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_125321_d764de2b",
+    "content_hash": "f30730d0b132091e96ea437177bae6cf",
+    "metadata": {
+      "parse_start_time": 1790402001,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790402001,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790402001,
+      "process_end_time": 1790402168,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-f30730d0b132091e96ea437177bae6cf-chunk-000",
+      "doc-f30730d0b132091e96ea437177bae6cf-chunk-001",
+      "doc-f30730d0b132091e96ea437177bae6cf-chunk-002"
+    ]
+  },
+  "doc-9119ecde5d1c7cc671aaff07c77ee2e1": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Delirium in a Relatively Young Person due to COVID-19 Infection\nSource: Case Rep Psychiatry (2023) DOI: 10.1155/2023/6215386\nPatient Demographics: Case ID: PMC10063355_01 | Age: 39.0 | Gender: Female\nTarget Disease...",
+    "content_length": 2998,
+    "created_at": "2026-09-26T05:56:08.515218+00:00",
+    "updated_at": "2026-09-26T05:58:43.394124+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_125608_fe959099",
+    "content_hash": "9119ecde5d1c7cc671aaff07c77ee2e1",
+    "metadata": {
+      "parse_start_time": 1790402168,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790402168,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790402168,
+      "process_end_time": 1790402323,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-9119ecde5d1c7cc671aaff07c77ee2e1-chunk-000",
+      "doc-9119ecde5d1c7cc671aaff07c77ee2e1-chunk-001"
+    ]
+  },
+  "doc-95b580a63c7343d8b7f976e925b74120": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Neonatal COVID-19 with Atypical Lung Cystic Lesions Mimicking Congenital Pulmonary Airway Malformation - A Diagnostic Dilemma\nSource: Int Med Case Rep J (2023) DOI: 10.2147/IMCRJ.S405684\nPatient Demographics: Case ...",
+    "content_length": 4763,
+    "created_at": "2026-09-26T05:58:43.397450+00:00",
+    "updated_at": "2026-09-26T06:03:23.557380+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_125843_04c96af1",
+    "content_hash": "95b580a63c7343d8b7f976e925b74120",
+    "metadata": {
+      "parse_start_time": 1790402323,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790402323,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790402323,
+      "process_end_time": 1790402603,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-95b580a63c7343d8b7f976e925b74120-chunk-000",
+      "doc-95b580a63c7343d8b7f976e925b74120-chunk-001",
+      "doc-95b580a63c7343d8b7f976e925b74120-chunk-002",
+      "doc-95b580a63c7343d8b7f976e925b74120-chunk-003"
+    ]
+  },
+  "doc-20bba48c069ffccbeda48a1c9126ecab": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Platypnea-Orthodeoxia Syndrome in Coronavirus Disease 2019 Pneumonia: A Case Report and Literature Review\nSource: Int Med Case Rep J (2023) DOI: 10.2147/IMCRJ.S402537\nPatient Demographics: Case ID: PMC10065003_01 |...",
+    "content_length": 6350,
+    "created_at": "2026-09-26T06:03:23.562615+00:00",
+    "updated_at": "2026-09-26T06:09:45.920375+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_130323_370de34c",
+    "content_hash": "20bba48c069ffccbeda48a1c9126ecab",
+    "metadata": {
+      "parse_start_time": 1790402603,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790402603,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790402603,
+      "process_end_time": 1790402985,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-20bba48c069ffccbeda48a1c9126ecab-chunk-000",
+      "doc-20bba48c069ffccbeda48a1c9126ecab-chunk-001",
+      "doc-20bba48c069ffccbeda48a1c9126ecab-chunk-002",
+      "doc-20bba48c069ffccbeda48a1c9126ecab-chunk-003"
+    ]
+  },
+  "doc-99344a0282b93f21f96885a4d6804355": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A brief online mindful parenting program: Feasibility and initial effects pilot in a community sample\nSource: J Child Fam Stud (2023) DOI: 10.1007/s10826-023-02571-7\nPatient Demographics: Case ID: PMC10066963_01 | ...",
+    "content_length": 6900,
+    "created_at": "2026-09-26T06:09:45.924397+00:00",
+    "updated_at": "2026-09-26T06:14:35.136158+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_130945_c3be26f8",
+    "content_hash": "99344a0282b93f21f96885a4d6804355",
+    "metadata": {
+      "parse_start_time": 1790402985,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790402985,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790402985,
+      "process_end_time": 1790403275,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-99344a0282b93f21f96885a4d6804355-chunk-000",
+      "doc-99344a0282b93f21f96885a4d6804355-chunk-001",
+      "doc-99344a0282b93f21f96885a4d6804355-chunk-002",
+      "doc-99344a0282b93f21f96885a4d6804355-chunk-003"
+    ]
+  },
+  "doc-37b86b5550564c8fffdac9d2aa3847fa": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: An Unforeseen Outcome of COVID-19: The Triggering of Adult-Onset Still's Disease\nSource: Clin Med Insights Arthritis Musculoskelet Disord (2023) DOI: 10.1177/11795441231161640\nPatient Demographics: Case ID: PMC1006...",
+    "content_length": 4086,
+    "created_at": "2026-09-26T06:14:35.139970+00:00",
+    "updated_at": "2026-09-26T06:17:25.676629+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_131435_540a360b",
+    "content_hash": "37b86b5550564c8fffdac9d2aa3847fa",
+    "metadata": {
+      "parse_start_time": 1790403275,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790403275,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790403275,
+      "process_end_time": 1790403445,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-37b86b5550564c8fffdac9d2aa3847fa-chunk-000",
+      "doc-37b86b5550564c8fffdac9d2aa3847fa-chunk-001"
+    ]
+  },
+  "doc-7eb60a9a94338d8cb72e8be2c77c851d": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Aggressive progression of acute heart failure due to juvenile tuberculosis-associated Takayasu arteritis with aortic stenosis and thrombosis\nSource: Front Cardiovasc Med (2023) DOI: 10.3389/fcvm.2023.1...",
+    "content_length": 9339,
+    "created_at": "2026-09-26T06:17:25.680962+00:00",
+    "updated_at": "2026-09-26T06:25:37.018321+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_131725_af43fc54",
+    "content_hash": "7eb60a9a94338d8cb72e8be2c77c851d",
+    "metadata": {
+      "parse_start_time": 1790403445,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790403445,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790403445,
+      "process_end_time": 1790403937,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 7"
+    },
+    "chunks_count": 7,
+    "chunks_list": [
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-000",
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-001",
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-002",
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-003",
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-004",
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-005",
+      "doc-7eb60a9a94338d8cb72e8be2c77c851d-chunk-006"
+    ]
+  },
+  "doc-427e6ff68cdb25df461dc4bf22a75452": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Post-COVID mucormycosis in presentation of periodontal abscess\nSource: J Family Med Prim Care (2023) DOI: 10.4103/jfmpc.jfmpc_1462_22\nPatient Demographics: Case ID: PMC10071921_01 | Age: 48.0 | Gender: Male\nTarget ...",
+    "content_length": 4174,
+    "created_at": "2026-09-26T06:25:37.022457+00:00",
+    "updated_at": "2026-09-26T06:27:48.069025+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_132537_02f18c9a",
+    "content_hash": "427e6ff68cdb25df461dc4bf22a75452",
+    "metadata": {
+      "parse_start_time": 1790403937,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790403937,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790403937,
+      "process_end_time": 1790404068,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-427e6ff68cdb25df461dc4bf22a75452-chunk-000",
+      "doc-427e6ff68cdb25df461dc4bf22a75452-chunk-001",
+      "doc-427e6ff68cdb25df461dc4bf22a75452-chunk-002"
+    ]
+  },
+  "doc-cd200d4caaaecdb4624319bee02b76c5": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Series on Pregnant Patients with Mild Covid-19 Infection and Signs of Severe Placental Insufficiency\nSource: Case Rep Obstet Gynecol (2023) DOI: 10.1155/2023/2018551\nPatient Demographics: Case ID: PMC1007296...",
+    "content_length": 1724,
+    "created_at": "2026-09-26T06:27:48.074435+00:00",
+    "updated_at": "2026-09-26T06:28:57.379356+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_132748_46b114c6",
+    "content_hash": "cd200d4caaaecdb4624319bee02b76c5",
+    "metadata": {
+      "parse_start_time": 1790404068,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404068,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404068,
+      "process_end_time": 1790404137,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-cd200d4caaaecdb4624319bee02b76c5-chunk-000"
+    ]
+  },
+  "doc-02f7ce6eaf67eaba449ef966a1b3c4f1": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Series on Pregnant Patients with Mild Covid-19 Infection and Signs of Severe Placental Insufficiency\nSource: Case Rep Obstet Gynecol (2023) DOI: 10.1155/2023/2018551\nPatient Demographics: Case ID: PMC1007296...",
+    "content_length": 1522,
+    "created_at": "2026-09-26T06:28:57.383159+00:00",
+    "updated_at": "2026-09-26T06:29:43.168355+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_132857_0d0b9ba0",
+    "content_hash": "02f7ce6eaf67eaba449ef966a1b3c4f1",
+    "metadata": {
+      "parse_start_time": 1790404137,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404137,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404137,
+      "process_end_time": 1790404183,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-02f7ce6eaf67eaba449ef966a1b3c4f1-chunk-000"
+    ]
+  },
+  "doc-b99c4c782b43e8dd210d981201a8a953": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Series on Pregnant Patients with Mild Covid-19 Infection and Signs of Severe Placental Insufficiency\nSource: Case Rep Obstet Gynecol (2023) DOI: 10.1155/2023/2018551\nPatient Demographics: Case ID: PMC1007296...",
+    "content_length": 1645,
+    "created_at": "2026-09-26T06:29:43.172199+00:00",
+    "updated_at": "2026-09-26T06:30:57.516159+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_132943_708abb63",
+    "content_hash": "b99c4c782b43e8dd210d981201a8a953",
+    "metadata": {
+      "parse_start_time": 1790404183,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404183,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404183,
+      "process_end_time": 1790404257,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-b99c4c782b43e8dd210d981201a8a953-chunk-000"
+    ]
+  },
+  "doc-93e32e19c1d947daad01ca031b5a271a": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Series on Pregnant Patients with Mild Covid-19 Infection and Signs of Severe Placental Insufficiency\nSource: Case Rep Obstet Gynecol (2023) DOI: 10.1155/2023/2018551\nPatient Demographics: Case ID: PMC1007296...",
+    "content_length": 1807,
+    "created_at": "2026-09-26T06:30:57.519124+00:00",
+    "updated_at": "2026-09-26T06:31:56.796189+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_133057_57af933f",
+    "content_hash": "93e32e19c1d947daad01ca031b5a271a",
+    "metadata": {
+      "parse_start_time": 1790404257,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404257,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404257,
+      "process_end_time": 1790404316,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-93e32e19c1d947daad01ca031b5a271a-chunk-000"
+    ]
+  },
+  "doc-2ec6f442e5c020f9b0b7b83376a75c5d": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case Series on Pregnant Patients with Mild Covid-19 Infection and Signs of Severe Placental Insufficiency\nSource: Case Rep Obstet Gynecol (2023) DOI: 10.1155/2023/2018551\nPatient Demographics: Case ID: PMC1007296...",
+    "content_length": 1427,
+    "created_at": "2026-09-26T06:31:56.799584+00:00",
+    "updated_at": "2026-09-26T06:32:53.679407+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_133156_26559bbd",
+    "content_hash": "2ec6f442e5c020f9b0b7b83376a75c5d",
+    "metadata": {
+      "parse_start_time": 1790404316,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404316,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404316,
+      "process_end_time": 1790404373,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-2ec6f442e5c020f9b0b7b83376a75c5d-chunk-000"
+    ]
+  },
+  "doc-57faa2d924d9b2d056dba1b6e206d7cf": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Severe immune thrombocytopenia that developed immediately after COVID-19 in a school-aged patient: A case report\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1120093\nPatient Demographics: Case ID: PMC1007346...",
+    "content_length": 4368,
+    "created_at": "2026-09-26T06:32:53.682781+00:00",
+    "updated_at": "2026-09-26T06:36:20.424301+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_133253_4752e04c",
+    "content_hash": "57faa2d924d9b2d056dba1b6e206d7cf",
+    "metadata": {
+      "parse_start_time": 1790404373,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404373,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404373,
+      "process_end_time": 1790404580,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-57faa2d924d9b2d056dba1b6e206d7cf-chunk-000",
+      "doc-57faa2d924d9b2d056dba1b6e206d7cf-chunk-001",
+      "doc-57faa2d924d9b2d056dba1b6e206d7cf-chunk-002"
+    ]
+  },
+  "doc-ecdc8b1f690cefbadcea14d1e5c40975": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Tenon's patch graft to the rescue during COVID-19 pandemic\nSource: GMS Ophthalmol Cases (2023) DOI: 10.3205/oc000218\nPatient Demographics: Case ID: PMC10073980_01 | Age: 47.0 | Gender: Male\nTarget Disease Indicatio...",
+    "content_length": 6095,
+    "created_at": "2026-09-26T06:36:20.428267+00:00",
+    "updated_at": "2026-09-26T06:41:31.361504+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_133620_9fb63651",
+    "content_hash": "ecdc8b1f690cefbadcea14d1e5c40975",
+    "metadata": {
+      "parse_start_time": 1790404580,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404580,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404580,
+      "process_end_time": 1790404891,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-ecdc8b1f690cefbadcea14d1e5c40975-chunk-000",
+      "doc-ecdc8b1f690cefbadcea14d1e5c40975-chunk-001",
+      "doc-ecdc8b1f690cefbadcea14d1e5c40975-chunk-002",
+      "doc-ecdc8b1f690cefbadcea14d1e5c40975-chunk-003"
+    ]
+  },
+  "doc-8faeb94ce116f4335d47a4477fb5a990": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Autoimmune hepatitis and primary biliary cholangitis overlap syndrome after COVID-19\nSource: Autops Case Rep (2023) DOI: 10.4322/acr.2023.422\nPatient Demographics: Case ID: PMC10075219_01 | Age: 45.0 | Gender: Male...",
+    "content_length": 3965,
+    "created_at": "2026-09-26T06:41:31.365185+00:00",
+    "updated_at": "2026-09-26T06:45:30.460111+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_134131_ff106704",
+    "content_hash": "8faeb94ce116f4335d47a4477fb5a990",
+    "metadata": {
+      "parse_start_time": 1790404891,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790404891,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790404891,
+      "process_end_time": 1790405130,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-8faeb94ce116f4335d47a4477fb5a990-chunk-000",
+      "doc-8faeb94ce116f4335d47a4477fb5a990-chunk-001",
+      "doc-8faeb94ce116f4335d47a4477fb5a990-chunk-002"
+    ]
+  },
+  "doc-5ecce322107159be253436bffad4f7f3": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Community Health Representative Workforce: Integration across systems and teams to address the social determinants of indigenous health and wellbeing\nSource: Front Public Health (2023) DOI: 10.3389/fpubh.2023.10471...",
+    "content_length": 16875,
+    "created_at": "2026-09-26T06:45:30.465202+00:00",
+    "updated_at": "2026-09-26T06:54:09.116948+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_134530_0b24a1f1",
+    "content_hash": "5ecce322107159be253436bffad4f7f3",
+    "metadata": {
+      "parse_start_time": 1790405130,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790405130,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790405130,
+      "process_end_time": 1790405649,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 9"
+    },
+    "chunks_count": 9,
+    "chunks_list": [
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-000",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-001",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-002",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-003",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-004",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-005",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-006",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-007",
+      "doc-5ecce322107159be253436bffad4f7f3-chunk-008"
+    ]
+  },
+  "doc-5ab176aa592a8ca65da80ba579c42d79": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: An Approach to Acute SARS-CoV-2 Management with Complementary Neuraltherapeutic Medicine: A Case Report\nSource: Clin Med Insights Case Rep (2023) DOI: 10.1177/11795476231159584\nPatient Demographics: Case ID: PMC100...",
+    "content_length": 3159,
+    "created_at": "2026-09-26T06:54:09.120909+00:00",
+    "updated_at": "2026-09-26T06:56:35.031739+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_135409_2ab7c494",
+    "content_hash": "5ab176aa592a8ca65da80ba579c42d79",
+    "metadata": {
+      "parse_start_time": 1790405649,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790405649,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790405649,
+      "process_end_time": 1790405795,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-5ab176aa592a8ca65da80ba579c42d79-chunk-000",
+      "doc-5ab176aa592a8ca65da80ba579c42d79-chunk-001"
+    ]
+  },
+  "doc-e7d3cb765e58261eaeb4bbf22e966a97": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Digital cities and the spread of COVID-19: Characterizing the impact of non-pharmaceutical interventions in five cities in Spain\nSource: Front Public Health (2023) DOI: 10.3389/fpubh.2023.1122230\nPatient Demographi...",
+    "content_length": 1487,
+    "created_at": "2026-09-26T06:56:35.035545+00:00",
+    "updated_at": "2026-09-26T06:57:36.843153+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_135635_837defb7",
+    "content_hash": "e7d3cb765e58261eaeb4bbf22e966a97",
+    "metadata": {
+      "parse_start_time": 1790405795,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790405795,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790405795,
+      "process_end_time": 1790405856,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-e7d3cb765e58261eaeb4bbf22e966a97-chunk-000"
+    ]
+  },
+  "doc-08669e27bbc2e2674eec7add19a93511": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Digital cities and the spread of COVID-19: Characterizing the impact of non-pharmaceutical interventions in five cities in Spain\nSource: Front Public Health (2023) DOI: 10.3389/fpubh.2023.1122230\nPatient Demographi...",
+    "content_length": 4112,
+    "created_at": "2026-09-26T06:57:36.846521+00:00",
+    "updated_at": "2026-09-26T06:59:11.835774+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_135736_db2ec2c9",
+    "content_hash": "08669e27bbc2e2674eec7add19a93511",
+    "metadata": {
+      "parse_start_time": 1790405856,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790405856,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790405856,
+      "process_end_time": 1790405951,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-08669e27bbc2e2674eec7add19a93511-chunk-000",
+      "doc-08669e27bbc2e2674eec7add19a93511-chunk-001"
+    ]
+  },
+  "doc-008ee60306f4a10654dbe249e43597e3": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Digital cities and the spread of COVID-19: Characterizing the impact of non-pharmaceutical interventions in five cities in Spain\nSource: Front Public Health (2023) DOI: 10.3389/fpubh.2023.1122230\nPatient Demographi...",
+    "content_length": 950,
+    "created_at": "2026-09-26T06:59:11.840191+00:00",
+    "updated_at": "2026-09-26T06:59:45.368985+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_135911_aa173ed8",
+    "content_hash": "008ee60306f4a10654dbe249e43597e3",
+    "metadata": {
+      "parse_start_time": 1790405951,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790405951,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790405951,
+      "process_end_time": 1790405985,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-008ee60306f4a10654dbe249e43597e3-chunk-000"
+    ]
+  },
+  "doc-bbea15b10c736d5d3c31f11139cbca1c": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Digital cities and the spread of COVID-19: Characterizing the impact of non-pharmaceutical interventions in five cities in Spain\nSource: Front Public Health (2023) DOI: 10.3389/fpubh.2023.1122230\nPatient Demographi...",
+    "content_length": 8466,
+    "created_at": "2026-09-26T06:59:45.373057+00:00",
+    "updated_at": "2026-09-26T07:04:35.695299+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_135945_d935dc88",
+    "content_hash": "bbea15b10c736d5d3c31f11139cbca1c",
+    "metadata": {
+      "parse_start_time": 1790405985,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790405985,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790405985,
+      "process_end_time": 1790406275,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 5"
+    },
+    "chunks_count": 5,
+    "chunks_list": [
+      "doc-bbea15b10c736d5d3c31f11139cbca1c-chunk-000",
+      "doc-bbea15b10c736d5d3c31f11139cbca1c-chunk-001",
+      "doc-bbea15b10c736d5d3c31f11139cbca1c-chunk-002",
+      "doc-bbea15b10c736d5d3c31f11139cbca1c-chunk-003",
+      "doc-bbea15b10c736d5d3c31f11139cbca1c-chunk-004"
+    ]
+  },
+  "doc-b3d902b1975b05b77d807a4a3e76d22d": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: The immunologically high-risk kidney recipient in the early post-COVID-19 period. To do or not to do? A case report\nSource: Front Med (Lausanne) (2023) DOI: 10.3389/fmed.2023.1147835\nPatient Demographics: Case ID: ...",
+    "content_length": 5841,
+    "created_at": "2026-09-26T07:04:35.719326+00:00",
+    "updated_at": "2026-09-26T07:09:05.008063+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_140435_73cf0341",
+    "content_hash": "b3d902b1975b05b77d807a4a3e76d22d",
+    "metadata": {
+      "parse_start_time": 1790406275,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790406275,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790406275,
+      "process_end_time": 1790406545,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-b3d902b1975b05b77d807a4a3e76d22d-chunk-000",
+      "doc-b3d902b1975b05b77d807a4a3e76d22d-chunk-001",
+      "doc-b3d902b1975b05b77d807a4a3e76d22d-chunk-002",
+      "doc-b3d902b1975b05b77d807a4a3e76d22d-chunk-003"
+    ]
+  },
+  "doc-4301fdd6d220edec2508fe3ab73d329f": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Depression and brain fog as long-COVID mental health consequences: Difficult, complex and partially successful treatment of a 72-year-old patient-A case report\nSource: Front Psychiatry (2023) DOI: 10.3389/fpsyt.202...",
+    "content_length": 5347,
+    "created_at": "2026-09-26T07:09:05.011768+00:00",
+    "updated_at": "2026-09-26T07:14:17.156367+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_140905_86c5344e",
+    "content_hash": "4301fdd6d220edec2508fe3ab73d329f",
+    "metadata": {
+      "parse_start_time": 1790406545,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790406545,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790406545,
+      "process_end_time": 1790406857,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-4301fdd6d220edec2508fe3ab73d329f-chunk-000",
+      "doc-4301fdd6d220edec2508fe3ab73d329f-chunk-001",
+      "doc-4301fdd6d220edec2508fe3ab73d329f-chunk-002"
+    ]
+  },
+  "doc-fcfa57204c968485db6ce958a32798b1": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Unilateral Axillary Lymphadenopathy in Cancer Patients Post-COVID-19 Vaccination: Review and Case Series\nSource: Case Rep Oncol (2023) DOI: 10.1159/000529913\nPatient Demographics: Case ID: PMC10080460_01 | Age: 53....",
+    "content_length": 2822,
+    "created_at": "2026-09-26T07:14:17.160922+00:00",
+    "updated_at": "2026-09-26T07:16:31.886478+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_141417_e3977fb7",
+    "content_hash": "fcfa57204c968485db6ce958a32798b1",
+    "metadata": {
+      "parse_start_time": 1790406857,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790406857,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790406857,
+      "process_end_time": 1790406991,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-fcfa57204c968485db6ce958a32798b1-chunk-000",
+      "doc-fcfa57204c968485db6ce958a32798b1-chunk-001"
+    ]
+  },
+  "doc-929f6f72ad279f7c0268ecc7ede98566": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Unilateral Axillary Lymphadenopathy in Cancer Patients Post-COVID-19 Vaccination: Review and Case Series\nSource: Case Rep Oncol (2023) DOI: 10.1159/000529913\nPatient Demographics: Case ID: PMC10080460_02 | Age: 39....",
+    "content_length": 2165,
+    "created_at": "2026-09-26T07:16:31.891270+00:00",
+    "updated_at": "2026-09-26T07:18:25.434072+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_141631_1d0aa24e",
+    "content_hash": "929f6f72ad279f7c0268ecc7ede98566",
+    "metadata": {
+      "parse_start_time": 1790406991,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790406991,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790406991,
+      "process_end_time": 1790407105,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-929f6f72ad279f7c0268ecc7ede98566-chunk-000"
+    ]
+  },
+  "doc-ba679de338676145ac42d51c4033cdd5": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Implementation of eMental health technologies for informal caregivers: A multiple case study\nSource: Front Digit Health (2023) DOI: 10.3389/fdgth.2023.1130866\nPatient Demographics: Case ID: PMC10081674_01 | Gender:...",
+    "content_length": 12166,
+    "created_at": "2026-09-26T07:18:25.437801+00:00",
+    "updated_at": "2026-09-26T07:24:44.792244+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_141825_1c25430c",
+    "content_hash": "ba679de338676145ac42d51c4033cdd5",
+    "metadata": {
+      "parse_start_time": 1790407105,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790407105,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790407105,
+      "process_end_time": 1790407484,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "3 -> 7"
+    },
+    "chunks_count": 7,
+    "chunks_list": [
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-000",
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-001",
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-002",
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-003",
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-004",
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-005",
+      "doc-ba679de338676145ac42d51c4033cdd5-chunk-006"
+    ]
+  },
+  "doc-32b6a56be066361ebb16cfb363677abc": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Association of Toll-like Receptors 1, 2, 4, 6, 8, 9 and 10 Genes Polymorphisms and Susceptibility to Pulmonary Tuberculosis in Sudanese Patients\nSource: Immunotargets Ther (2023) DOI: 10.2147/ITT.S404915\nPatient De...",
+    "content_length": 4479,
+    "created_at": "2026-09-26T07:24:44.796730+00:00",
+    "updated_at": "2026-09-26T07:31:46.195031+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_142444_1a419270",
+    "content_hash": "32b6a56be066361ebb16cfb363677abc",
+    "metadata": {
+      "parse_start_time": 1790407484,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790407484,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790407484,
+      "process_end_time": 1790407906,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-32b6a56be066361ebb16cfb363677abc-chunk-000",
+      "doc-32b6a56be066361ebb16cfb363677abc-chunk-001",
+      "doc-32b6a56be066361ebb16cfb363677abc-chunk-002",
+      "doc-32b6a56be066361ebb16cfb363677abc-chunk-003"
+    ]
+  },
+  "doc-45342268eca0e779888f14d37fa7cfca": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Coronavirus One of the New Etiologies of Facial Nerve Paralysis? A Case Report Study\nSource: Adv Biomed Res (2023) DOI: 10.4103/abr.abr_222_21\nPatient Demographics: Case ID: PMC10086654_01 | Age: 60.0 | Gender: Fem...",
+    "content_length": 2817,
+    "created_at": "2026-09-26T07:31:46.199733+00:00",
+    "updated_at": "2026-09-26T07:34:15.842973+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_143146_5b9747ab",
+    "content_hash": "45342268eca0e779888f14d37fa7cfca",
+    "metadata": {
+      "parse_start_time": 1790407906,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790407906,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790407906,
+      "process_end_time": 1790408055,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-45342268eca0e779888f14d37fa7cfca-chunk-000",
+      "doc-45342268eca0e779888f14d37fa7cfca-chunk-001"
+    ]
+  },
+  "doc-9da2af97eccd3fa32f10c928182ea713": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Acute Aortic Syndrome in a patient with COVID-19\nSource: Arch Clin Cases (2023) DOI: 10.22551/2023.38.1001.10239\nPatient Demographics: Case ID: PMC10088050_01 | Age: 66.0 | Gender: Male\nTarget Disease Indications: ...",
+    "content_length": 3174,
+    "created_at": "2026-09-26T07:34:15.847546+00:00",
+    "updated_at": "2026-09-26T07:36:43.108103+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_143415_c5f4b9dd",
+    "content_hash": "9da2af97eccd3fa32f10c928182ea713",
+    "metadata": {
+      "parse_start_time": 1790408055,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790408055,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790408055,
+      "process_end_time": 1790408203,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-9da2af97eccd3fa32f10c928182ea713-chunk-000",
+      "doc-9da2af97eccd3fa32f10c928182ea713-chunk-001"
+    ]
+  },
+  "doc-2be3e7c3dc3ecb08fc87beaebc3f75f1": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case Report: Psychiatric Symptoms Associated With the Moderna mRNA COVID-19 Vaccine Administration and Their Resolution\nSource: Clin Med Insights Case Rep (2023) DOI: 10.1177/11795476231166626\nPatient Demographics:...",
+    "content_length": 2345,
+    "created_at": "2026-09-26T07:36:43.112355+00:00",
+    "updated_at": "2026-09-26T07:37:33.915907+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_143643_c6e93b3a",
+    "content_hash": "2be3e7c3dc3ecb08fc87beaebc3f75f1",
+    "metadata": {
+      "parse_start_time": 1790408203,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790408203,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790408203,
+      "process_end_time": 1790408253,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-2be3e7c3dc3ecb08fc87beaebc3f75f1-chunk-000"
+    ]
+  },
+  "doc-e94cb18054004eece1d4588c51369a24": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Autosomal recessive IL12RB1 mutation: A case report of a Sudanese child and his father\nSource: Front Immunol (2023) DOI: 10.3389/fimmu.2023.1135824\nPatient Demographics: Case ID: PMC10102344_01 | Age: 7.0 | Gender:...",
+    "content_length": 1322,
+    "created_at": "2026-09-26T07:37:33.920929+00:00",
+    "updated_at": "2026-09-26T07:38:43.370838+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_143733_3fdfc2f7",
+    "content_hash": "e94cb18054004eece1d4588c51369a24",
+    "metadata": {
+      "parse_start_time": 1790408253,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790408253,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790408253,
+      "process_end_time": 1790408323,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-e94cb18054004eece1d4588c51369a24-chunk-000"
+    ]
+  },
+  "doc-4389b6cb92af87d5a04e2441adde5d99": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Autosomal recessive IL12RB1 mutation: A case report of a Sudanese child and his father\nSource: Front Immunol (2023) DOI: 10.3389/fimmu.2023.1135824\nPatient Demographics: Case ID: PMC10102344_02 | Age: 40.0 | Gender...",
+    "content_length": 6831,
+    "created_at": "2026-09-26T07:38:43.376388+00:00",
+    "updated_at": "2026-09-26T07:45:26.868266+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_143843_ea4e3974",
+    "content_hash": "4389b6cb92af87d5a04e2441adde5d99",
+    "metadata": {
+      "parse_start_time": 1790408323,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790408323,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790408323,
+      "process_end_time": 1790408726,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 5"
+    },
+    "chunks_count": 5,
+    "chunks_list": [
+      "doc-4389b6cb92af87d5a04e2441adde5d99-chunk-000",
+      "doc-4389b6cb92af87d5a04e2441adde5d99-chunk-001",
+      "doc-4389b6cb92af87d5a04e2441adde5d99-chunk-002",
+      "doc-4389b6cb92af87d5a04e2441adde5d99-chunk-003",
+      "doc-4389b6cb92af87d5a04e2441adde5d99-chunk-004"
+    ]
+  },
+  "doc-8796f4ace49bbe8576f6ef1d7428f138": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Catastrophic Antiphospholipid Syndrome as a Complication of COVID-19 Infection\nSource: J Investig Med High Impact Case Rep (2023) DOI: 10.1177/23247096231165736\nPatient Demographics: Case ID: PMC10102817_01 | Age: ...",
+    "content_length": 3216,
+    "created_at": "2026-09-26T07:45:26.873723+00:00",
+    "updated_at": "2026-09-26T07:49:40.166371+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_144526_e3127648",
+    "content_hash": "8796f4ace49bbe8576f6ef1d7428f138",
+    "metadata": {
+      "parse_start_time": 1790408726,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790408726,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790408726,
+      "process_end_time": 1790408980,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-8796f4ace49bbe8576f6ef1d7428f138-chunk-000",
+      "doc-8796f4ace49bbe8576f6ef1d7428f138-chunk-001"
+    ]
+  },
+  "doc-ea8bc1e08bf193a9e2d5cfe0cfa7cb03": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Learning from real world data about combinatorial treatment selection for COVID-19\nSource: Front Artif Intell (2023) DOI: 10.3389/frai.2023.1123285\nPatient Demographics: Case ID: PMC10106735_01 | Age: 60.0 | Gender...",
+    "content_length": 4413,
+    "created_at": "2026-09-26T07:49:40.176608+00:00",
+    "updated_at": "2026-09-26T07:53:47.501766+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_144940_0ea8b875",
+    "content_hash": "ea8bc1e08bf193a9e2d5cfe0cfa7cb03",
+    "metadata": {
+      "parse_start_time": 1790408980,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790408980,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790408980,
+      "process_end_time": 1790409227,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-ea8bc1e08bf193a9e2d5cfe0cfa7cb03-chunk-000",
+      "doc-ea8bc1e08bf193a9e2d5cfe0cfa7cb03-chunk-001",
+      "doc-ea8bc1e08bf193a9e2d5cfe0cfa7cb03-chunk-002"
+    ]
+  },
+  "doc-d4d80759040f52b3ede49f42699d78ee": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cerebral venous sinus thrombosis following ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine\nSource: JRSM Cardiovasc Dis (2023) DOI: 10.1177/20480040231169464\nPatient Demographics: Case ID: PMC10107960_01 | Gender: Fema...",
+    "content_length": 667,
+    "created_at": "2026-09-26T07:53:47.506915+00:00",
+    "updated_at": "2026-09-26T07:54:36.427498+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_145347_a60dda56",
+    "content_hash": "d4d80759040f52b3ede49f42699d78ee",
+    "metadata": {
+      "parse_start_time": 1790409227,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790409227,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790409227,
+      "process_end_time": 1790409276,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-d4d80759040f52b3ede49f42699d78ee-chunk-000"
+    ]
+  },
+  "doc-ef76abe0052f290f4f25188fbc72ce38": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cerebral venous sinus thrombosis following ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine\nSource: JRSM Cardiovasc Dis (2023) DOI: 10.1177/20480040231169464\nPatient Demographics: Case ID: PMC10107960_02 | Gender: Fema...",
+    "content_length": 1202,
+    "created_at": "2026-09-26T07:54:36.432861+00:00",
+    "updated_at": "2026-09-26T07:55:27.857088+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_145436_d6e1f76f",
+    "content_hash": "ef76abe0052f290f4f25188fbc72ce38",
+    "metadata": {
+      "parse_start_time": 1790409276,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790409276,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790409276,
+      "process_end_time": 1790409327,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-ef76abe0052f290f4f25188fbc72ce38-chunk-000"
+    ]
+  },
+  "doc-67fd22a190eacc0568e9819986f6c1fb": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cerebral venous sinus thrombosis following ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine\nSource: JRSM Cardiovasc Dis (2023) DOI: 10.1177/20480040231169464\nPatient Demographics: Case ID: PMC10107960_03 | Gender: Fema...",
+    "content_length": 2457,
+    "created_at": "2026-09-26T07:55:27.862643+00:00",
+    "updated_at": "2026-09-26T07:57:49.850722+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_145527_f7b7b1f1",
+    "content_hash": "67fd22a190eacc0568e9819986f6c1fb",
+    "metadata": {
+      "parse_start_time": 1790409327,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790409327,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790409328,
+      "process_end_time": 1790409469,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-67fd22a190eacc0568e9819986f6c1fb-chunk-000",
+      "doc-67fd22a190eacc0568e9819986f6c1fb-chunk-001"
+    ]
+  },
+  "doc-64461aee1df8d8614f176b6b66640954": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cerebral venous sinus thrombosis following ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine\nSource: JRSM Cardiovasc Dis (2023) DOI: 10.1177/20480040231169464\nPatient Demographics: Case ID: PMC10107960_04 | Gender: Fema...",
+    "content_length": 988,
+    "created_at": "2026-09-26T07:57:49.857442+00:00",
+    "updated_at": "2026-09-26T07:59:27.564707+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_145749_47c4fae6",
+    "content_hash": "64461aee1df8d8614f176b6b66640954",
+    "metadata": {
+      "parse_start_time": 1790409469,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790409469,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790409469,
+      "process_end_time": 1790409567,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-64461aee1df8d8614f176b6b66640954-chunk-000"
+    ]
+  },
+  "doc-6be885e2ac421cdf4adeacfd81d4896a": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Fulminant type 1 diabetes following paucisymptomatic SARS-CoV-2 infection during late pregnancy\nSource: Front Endocrinol (Lausanne) (2023) DOI: 10.3389/fendo.2023.1168927\nPatient Demographics: Case ID:...",
+    "content_length": 3648,
+    "created_at": "2026-09-26T07:59:27.572029+00:00",
+    "updated_at": "2026-09-26T08:02:46.897861+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_145927_0fed6518",
+    "content_hash": "6be885e2ac421cdf4adeacfd81d4896a",
+    "metadata": {
+      "parse_start_time": 1790409567,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790409567,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790409567,
+      "process_end_time": 1790409766,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-6be885e2ac421cdf4adeacfd81d4896a-chunk-000",
+      "doc-6be885e2ac421cdf4adeacfd81d4896a-chunk-001"
+    ]
+  },
+  "doc-6f41dbcd0ad3671a2ac5da13460b3f44": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Progressive Central Artery Occlusion, Ophthalmic Artery Occlusion, and Hemispheric Intracranial Thrombosis after COVID-19 mRNA Vaccine Application: Case Report\nSource: Case Rep Ophthalmol (2023) DOI: 10.1159/000529...",
+    "content_length": 5318,
+    "created_at": "2026-09-26T08:02:46.905659+00:00",
+    "updated_at": "2026-09-26T08:09:13.022877+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_150246_6fcfe6e6",
+    "content_hash": "6f41dbcd0ad3671a2ac5da13460b3f44",
+    "metadata": {
+      "parse_start_time": 1790409766,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790409766,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790409767,
+      "process_end_time": 1790410153,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-6f41dbcd0ad3671a2ac5da13460b3f44-chunk-000",
+      "doc-6f41dbcd0ad3671a2ac5da13460b3f44-chunk-001",
+      "doc-6f41dbcd0ad3671a2ac5da13460b3f44-chunk-002",
+      "doc-6f41dbcd0ad3671a2ac5da13460b3f44-chunk-003"
+    ]
+  },
+  "doc-8e81c2beca3c37ea5e8eb28df0ada85d": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Septic shock, hyperferritinemic syndrome, and multiple organ dysfunction without respiratory failure in a patient with disseminated histoplasmosis and advanced HIV disease\nSource: Rev Inst Med Trop Sao Paulo (2023)...",
+    "content_length": 5737,
+    "created_at": "2026-09-26T08:09:13.028338+00:00",
+    "updated_at": "2026-09-26T08:13:42.972076+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_150913_30482db1",
+    "content_hash": "8e81c2beca3c37ea5e8eb28df0ada85d",
+    "metadata": {
+      "parse_start_time": 1790410153,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790410153,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790410153,
+      "process_end_time": 1790410422,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-8e81c2beca3c37ea5e8eb28df0ada85d-chunk-000",
+      "doc-8e81c2beca3c37ea5e8eb28df0ada85d-chunk-001",
+      "doc-8e81c2beca3c37ea5e8eb28df0ada85d-chunk-002",
+      "doc-8e81c2beca3c37ea5e8eb28df0ada85d-chunk-003"
+    ]
+  },
+  "doc-c530646384f0bb3ff33d92dcc9dd5836": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: A Case of Laryngeal Cryptococcosis that Responded to Itraconazole\nSource: Case Rep Otolaryngol (2023) DOI: 10.1155/2023/8847838\nPatient Demographics: Case ID: PMC10115524_01 | Age: 88.0 | Gender: Female\nTarget Dise...",
+    "content_length": 2887,
+    "created_at": "2026-09-26T08:13:42.979178+00:00",
+    "updated_at": "2026-09-26T08:15:30.976889+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_151342_aa45958d",
+    "content_hash": "c530646384f0bb3ff33d92dcc9dd5836",
+    "metadata": {
+      "parse_start_time": 1790410422,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790410422,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790410423,
+      "process_end_time": 1790410530,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-c530646384f0bb3ff33d92dcc9dd5836-chunk-000",
+      "doc-c530646384f0bb3ff33d92dcc9dd5836-chunk-001"
+    ]
+  },
+  "doc-f14a7f62e056d22fda25084ef5245cb4": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Generalized Pustular Psoriasis Flare-Up after Both Doses of BBIBP-CorV Vaccination in a Patient under Adalimumab Treatment: A Case Report\nSource: Case Rep Dermatol (2023) DOI: 10.1159/000530074\nPatient Demographics...",
+    "content_length": 2859,
+    "created_at": "2026-09-26T08:15:30.986342+00:00",
+    "updated_at": "2026-09-26T08:18:37.517047+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_151530_3517b71a",
+    "content_hash": "f14a7f62e056d22fda25084ef5245cb4",
+    "metadata": {
+      "parse_start_time": 1790410530,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790410531,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790410531,
+      "process_end_time": 1790410717,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-f14a7f62e056d22fda25084ef5245cb4-chunk-000",
+      "doc-f14a7f62e056d22fda25084ef5245cb4-chunk-001"
+    ]
+  },
+  "doc-b11d21ed4c1de5a364f9078d6a43e651": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Ruptured Pulmonary Hydatid Cyst\nSource: J Glob Infect Dis (2022) DOI: 10.4103/jgid.jgid_137_22\nPatient Demographics: Case ID: PMC10118214_01 | Age: 37.0 | Gender: Male\nTarget Disease Indications: Echinococcosis\n---...",
+    "content_length": 2623,
+    "created_at": "2026-09-26T08:18:37.523427+00:00",
+    "updated_at": "2026-09-26T08:21:47.416021+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_151837_499595b2",
+    "content_hash": "b11d21ed4c1de5a364f9078d6a43e651",
+    "metadata": {
+      "parse_start_time": 1790410717,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790410717,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790410717,
+      "process_end_time": 1790410907,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 2"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "doc-b11d21ed4c1de5a364f9078d6a43e651-chunk-000",
+      "doc-b11d21ed4c1de5a364f9078d6a43e651-chunk-001"
+    ]
+  },
+  "doc-4e6ad227758be9acc011baf12582f069": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Thyrotoxicosis after COVID-19 Infection with a Delay in Graves' Disease Antibody Positivity\nSource: Case Rep Endocrinol (2023) DOI: 10.1155/2023/8402725\nPatient Demographics: Case ID: PMC10118873_01 | Age: 65.0 | G...",
+    "content_length": 3843,
+    "created_at": "2026-09-26T08:21:47.421221+00:00",
+    "updated_at": "2026-09-26T08:24:41.713471+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_152147_b4dc1ce2",
+    "content_hash": "4e6ad227758be9acc011baf12582f069",
+    "metadata": {
+      "parse_start_time": 1790410907,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790410907,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790410907,
+      "process_end_time": 1790411081,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-4e6ad227758be9acc011baf12582f069-chunk-000",
+      "doc-4e6ad227758be9acc011baf12582f069-chunk-001",
+      "doc-4e6ad227758be9acc011baf12582f069-chunk-002"
+    ]
+  },
+  "doc-03b0a8dfeb808417cea94ea14849fbdf": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Primary Chest Wall Hydatid Disease: A Case Report with Multimodality Imaging Findings\nSource: Case Rep Radiol (2023) DOI: 10.1155/2023/5313067\nPatient Demographics: Case ID: PMC10118874_01 | Age: 22.0 | Gender: Mal...",
+    "content_length": 4534,
+    "created_at": "2026-09-26T08:24:41.718009+00:00",
+    "updated_at": "2026-09-26T08:28:51.918457+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_152441_194ad1dd",
+    "content_hash": "03b0a8dfeb808417cea94ea14849fbdf",
+    "metadata": {
+      "parse_start_time": 1790411081,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790411081,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790411081,
+      "process_end_time": 1790411331,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "1 -> 3"
+    },
+    "chunks_count": 3,
+    "chunks_list": [
+      "doc-03b0a8dfeb808417cea94ea14849fbdf-chunk-000",
+      "doc-03b0a8dfeb808417cea94ea14849fbdf-chunk-001",
+      "doc-03b0a8dfeb808417cea94ea14849fbdf-chunk-002"
+    ]
+  },
+  "doc-08b0574b124b4b202cf913a692661565": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Coincidental or mimicking acute appendicitis secondary to MIS-C associated with SARS-CoV-2: A case report\nSource: SAGE Open Med Case Rep (2023) DOI: 10.1177/2050313X231167375\nPatient Demographics: Case ID: PMC10119...",
+    "content_length": 6268,
+    "created_at": "2026-09-26T08:28:51.922856+00:00",
+    "updated_at": "2026-09-26T08:34:10.349863+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_152851_debe619a",
+    "content_hash": "08b0574b124b4b202cf913a692661565",
+    "metadata": {
+      "parse_start_time": 1790411331,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790411331,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790411331,
+      "process_end_time": 1790411650,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-08b0574b124b4b202cf913a692661565-chunk-000",
+      "doc-08b0574b124b4b202cf913a692661565-chunk-001",
+      "doc-08b0574b124b4b202cf913a692661565-chunk-002",
+      "doc-08b0574b124b4b202cf913a692661565-chunk-003"
+    ]
+  },
+  "doc-5bdb1a3963218454e869ba51d8709816": {
+    "status": "processed",
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Acute respiratory distress syndrome after treating ipsilateral femoral shaft and neck fracture with reamed intramedullary nailing in an asymptomatic COVID-19 patient\nSource: SAGE Open Med Case Rep (2023) DOI: 10.11...",
+    "content_length": 5112,
+    "created_at": "2026-09-26T08:34:10.354747+00:00",
+    "updated_at": "2026-09-26T08:40:11.125306+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260926_153410_6eb9ac24",
+    "content_hash": "5bdb1a3963218454e869ba51d8709816",
+    "metadata": {
+      "parse_start_time": 1790411650,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1790411650,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1790411650,
+      "process_end_time": 1790412011,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100",
+      "hard_fallback_split": "2 -> 4"
+    },
+    "chunks_count": 4,
+    "chunks_list": [
+      "doc-5bdb1a3963218454e869ba51d8709816-chunk-000",
+      "doc-5bdb1a3963218454e869ba51d8709816-chunk-001",
+      "doc-5bdb1a3963218454e869ba51d8709816-chunk-002",
+      "doc-5bdb1a3963218454e869ba51d8709816-chunk-003"
+    ]
+  }
+}

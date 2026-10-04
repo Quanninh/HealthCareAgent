@@ -1,0 +1,9717 @@
+{
+  "doc-be67c6a452b3283e6cc3d1181db49725": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1790390622,
+    "update_time": 1790390622,
+    "_id": "doc-be67c6a452b3283e6cc3d1181db49725"
+  },
+  "doc-3b02ad23c5895936b3c0b71851649c2a": {
+    "relation_pairs": [
+      [
+        "ALT (alanine aminotransferase)",
+        "Ketacidosis"
+      ],
+      [
+        "AST (aspartate aminotransferase)",
+        "Ketacidosis"
+      ],
+      [
+        "Anti-SRP antibodies",
+        "Ketacidosis"
+      ],
+      [
+        "Autoimmune manifestations",
+        "Diabetes"
+      ],
+      [
+        "Autoimmune manifestations",
+        "SARS-CoV-2"
+      ],
+      [
+        "C reactive protein (CRP)",
+        "CK (creatine kinase)"
+      ],
+      [
+        "C reactive protein (CRP)",
+        "Ketacidosis"
+      ],
+      [
+        "CK (creatine kinase)",
+        "Ketacidosis"
+      ],
+      [
+        "CK (creatine kinase)",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19",
+        "Diabetes"
+      ],
+      [
+        "COVID-19",
+        "Ketacidosis"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "Diabetes",
+        "Insulin therapy"
+      ],
+      [
+        "Diabetes",
+        "SARS-CoV-2"
+      ],
+      [
+        "Diabetes",
+        "Table 1"
+      ],
+      [
+        "EUROIMMUN",
+        "Lubeck, Germany)"
+      ],
+      [
+        "EUROIMMUN , Lubeck, Germany)",
+        "Myositis-specific autoantibodies (anti-SRP)"
+      ],
+      [
+        "Insulin therapy",
+        "Ketacidosis"
+      ],
+      [
+        "Ketacidosis",
+        "LDH (lactate dehydrogenase)"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1790390844,
+    "update_time": 1790390844,
+    "_id": "doc-3b02ad23c5895936b3c0b71851649c2a"
+  },
+  "doc-cd00db0ae9ecbe44b58bb940c8d22e91": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "Geriatric Patient"
+      ],
+      [
+        "COVID-19",
+        "dermatitis herpetiformis"
+      ],
+      [
+        "COVID-19",
+        "pathology"
+      ],
+      [
+        "Concept",
+        "Subtype"
+      ],
+      [
+        "Concept",
+        "Type"
+      ],
+      [
+        "Department of Dermatology and Venereology",
+        "Dr. Hasan Sadikin Hospital"
+      ],
+      [
+        "Department of Dermatology and Venereology",
+        "Patient"
+      ],
+      [
+        "Department of Oral Medicine",
+        "Dr. Hasan Sadikin Hospital"
+      ],
+      [
+        "Department of Oral Medicine",
+        "Patient"
+      ],
+      [
+        "Dr. Hasan Sadikin Hospital",
+        "Patient"
+      ],
+      [
+        "Eosinophil cells",
+        "Neutrophil cells"
+      ],
+      [
+        "Geriatric Patient",
+        "Hematology tests"
+      ],
+      [
+        "Geriatric Patient",
+        "Oral Dermatitis Herpetiformis"
+      ],
+      [
+        "H&E",
+        "Histopathological examination"
+      ],
+      [
+        "Helsinki",
+        "Institution"
+      ],
+      [
+        "Helsinki",
+        "Patient"
+      ],
+      [
+        "Hematology tests",
+        "Oral Dermatitis Herpetiformis"
+      ],
+      [
+        "Institution",
+        "Patient"
+      ],
+      [
+        "Methylene blue",
+        "Taxonomy"
+      ],
+      [
+        "Oral Dermatitis Herpetiformis",
+        "Skin biopsy"
+      ],
+      [
+        "Oral lesions",
+        "Treatment"
+      ],
+      [
+        "Pathology",
+        "Taxonomy"
+      ],
+      [
+        "Patient",
+        "Ranitidine"
+      ],
+      [
+        "chest",
+        "image"
+      ],
+      [
+        "chest",
+        "lung"
+      ],
+      [
+        "dermatitis herpetiformis",
+        "pathology"
+      ],
+      [
+        "image",
+        "lesion"
+      ],
+      [
+        "image",
+        "lesions"
+      ],
+      [
+        "lesion",
+        "lung"
+      ],
+      [
+        "lesions",
+        "treatment"
+      ],
+      [
+        "radiology",
+        "x_ray"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1790391231,
+    "update_time": 1790391231,
+    "_id": "doc-cd00db0ae9ecbe44b58bb940c8d22e91"
+  },
+  "doc-f9c970bb217606784f35fb18a674f8a4": {
+    "relation_pairs": [
+      [
+        "Acinetobacter baumannii",
+        "Colistin"
+      ],
+      [
+        "Acinetobacter baumannii",
+        "PMCHospital"
+      ],
+      [
+        "Acinetobacter baumannii",
+        "Ralstonia pickettii"
+      ],
+      [
+        "Acinetobacter baumannii",
+        "Trimethoprim-Sulfamethoxazole"
+      ],
+      [
+        "Acinetobacter baumannii",
+        "Trimethoprim-sulfamethoxazole"
+      ],
+      [
+        "COVID-19",
+        "Central line"
+      ],
+      [
+        "COVID-19",
+        "Khaldoon Al-Jaroudi"
+      ],
+      [
+        "COVID-19",
+        "PCR"
+      ],
+      [
+        "COVID-19",
+        "Sepsis"
+      ],
+      [
+        "COVID-19",
+        "Severe respiratory failure"
+      ],
+      [
+        "Cepheid Genexpert carba-r kit",
+        "Khaldoon Al-Jaroudi"
+      ],
+      [
+        "Cepheid Genexpert carba-r kit",
+        "PMCHospital"
+      ],
+      [
+        "Cerebrospinal fluid culture",
+        "patient"
+      ],
+      [
+        "Cochlear otosclerosis",
+        "Ventriculoperitoneal shunt"
+      ],
+      [
+        "Cochlear otosclerosis",
+        "patient"
+      ],
+      [
+        "Colistin",
+        "Ralstonia pickettii"
+      ],
+      [
+        "Corynebacterium spp.",
+        "Meropenem"
+      ],
+      [
+        "Corynebacterium spp.",
+        "patient"
+      ],
+      [
+        "Hydrocephalus",
+        "Ventriculoperitoneal shunt"
+      ],
+      [
+        "Hydrocephalus",
+        "patient"
+      ],
+      [
+        "Khaldoon Al-Jaroudi",
+        "OXA-48"
+      ],
+      [
+        "Khaldoon Al-Jaroudi",
+        "Ralstonia mannitolilytica"
+      ],
+      [
+        "Meropenem",
+        "Ralstonia pickettii"
+      ],
+      [
+        "Meropenem",
+        "patient"
+      ],
+      [
+        "OXA-48 genes",
+        "Ralstonia pickettii"
+      ],
+      [
+        "PMCHospital",
+        "Trimethoprim-sulfamethoxazole"
+      ],
+      [
+        "Prednisolone",
+        "patient"
+      ],
+      [
+        "Ralstonia pickettii",
+        "Severe Bacteremia"
+      ],
+      [
+        "Ralstonia pickettii",
+        "Trimethoprim-Sulfamethoxazole"
+      ],
+      [
+        "Ralstonia pickettii",
+        "Trimethoprim-sulfamethoxazole"
+      ],
+      [
+        "Ventriculoperitoneal shunt",
+        "patient"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1790391429,
+    "update_time": 1790391429,
+    "_id": "doc-f9c970bb217606784f35fb18a674f8a4"
+  },
+  "doc-6a5889e2c77746885a05d3aeb6ed5e4a": {
+    "relation_pairs": [
+      [
+        "APGAR",
+        "Baby A"
+      ],
+      [
+        "APGAR",
+        "Baby B"
+      ],
+      [
+        "ARDS",
+        "Patient"
+      ],
+      [
+        "Acute Rehabilitation",
+        "Patient"
+      ],
+      [
+        "BPP",
+        "Patient"
+      ],
+      [
+        "Baby A",
+        "Baby B"
+      ],
+      [
+        "Baby A",
+        "NICU"
+      ],
+      [
+        "Baby A",
+        "Patient"
+      ],
+      [
+        "Baby B",
+        "NICU"
+      ],
+      [
+        "Baby B",
+        "Patient"
+      ],
+      [
+        "Bedside ultrasound",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Pregnancy"
+      ],
+      [
+        "COVID-19",
+        "patient"
+      ],
+      [
+        "COVID-19 ARDS",
+        "ECMO"
+      ],
+      [
+        "CT chest",
+        "patient"
+      ],
+      [
+        "Cesarean delivery",
+        "Patient"
+      ],
+      [
+        "Chest X-ray",
+        "Patient"
+      ],
+      [
+        "Dexamethasone",
+        "ECMO centre"
+      ],
+      [
+        "Dexamethasone",
+        "Patient"
+      ],
+      [
+        "ECMO cannulation",
+        "VV ECMO"
+      ],
+      [
+        "ECMO centre",
+        "Intravenous methylprednisolone"
+      ],
+      [
+        "ECMO centre",
+        "Patient"
+      ],
+      [
+        "ECMO centre",
+        "Remedesivir"
+      ],
+      [
+        "ECMO centre",
+        "Vitamins C, D, and Zinc"
+      ],
+      [
+        "Head MRI",
+        "Intraparenchymal Hemorrhage"
+      ],
+      [
+        "Head MRI",
+        "Patient"
+      ],
+      [
+        "Head MRI of the head",
+        "Patient"
+      ],
+      [
+        "High-risk pregnancy clinic",
+        "Patient"
+      ],
+      [
+        "ICU",
+        "Patient"
+      ],
+      [
+        "Intraparenchymal Hemorrhage",
+        "VV ECMO"
+      ],
+      [
+        "Intravenous methylprednisolone",
+        "Patient"
+      ],
+      [
+        "NICU",
+        "hospital"
+      ],
+      [
+        "NICU",
+        "patient"
+      ],
+      [
+        "NICU",
+        "pregnancy clinic"
+      ],
+      [
+        "Neuro ICU",
+        "Patient"
+      ],
+      [
+        "Neurosurgery Team",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Remdesivir"
+      ],
+      [
+        "Patient",
+        "Right-Sided Intraparenchymal Hemorrhage"
+      ],
+      [
+        "Patient",
+        "VV ECMO"
+      ],
+      [
+        "Patient",
+        "Vitamins C, D, and Zinc"
+      ],
+      [
+        "baby A",
+        "baby B"
+      ],
+      [
+        "high-risk pregnancy clinic",
+        "patient"
+      ],
+      [
+        "hospital",
+        "patient"
+      ],
+      [
+        "patient",
+        "pregnancy clinic"
+      ],
+      [
+        "patient",
+        "pulmonary function tests"
+      ]
+    ],
+    "count": 46,
+    "create_time": 1790391744,
+    "update_time": 1790391744,
+    "_id": "doc-6a5889e2c77746885a05d3aeb6ed5e4a"
+  },
+  "doc-8e2b2829047cd45b23c8d541e98ba364": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1790391870,
+    "update_time": 1790391870,
+    "_id": "doc-8e2b2829047cd45b23c8d541e98ba364"
+  },
+  "doc-1b5c3d014d26e07b37236ea91978fa49": {
+    "relation_pairs": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "ImageNote"
+      ],
+      [
+        "A",
+        "TIR/T2w sequences"
+      ],
+      [
+        "Abdominal Ultrasonography",
+        "Patient"
+      ],
+      [
+        "Arch Clin Cases",
+        "PMC10012167_01"
+      ],
+      [
+        "B",
+        "ImageNote"
+      ],
+      [
+        "B",
+        "TIR/T2w sequences"
+      ],
+      [
+        "CMR",
+        "LV myocardial segments"
+      ],
+      [
+        "CMR",
+        "LVEF"
+      ],
+      [
+        "CMR",
+        "MRI"
+      ],
+      [
+        "CMR",
+        "SSFp-CINE"
+      ],
+      [
+        "CMR",
+        "TAPSE"
+      ],
+      [
+        "CMR",
+        "TIR/T2w sequences"
+      ],
+      [
+        "Clinical Cases",
+        "PMC10012167_01"
+      ],
+      [
+        "Covid19",
+        "PMC10012167_01"
+      ],
+      [
+        "Crystalloid Hydration",
+        "Patient"
+      ],
+      [
+        "Daptomycin",
+        "Patient"
+      ],
+      [
+        "ECG",
+        "electrocardiogram"
+      ],
+      [
+        "EDema in other areas",
+        "LGE sequences"
+      ],
+      [
+        "EDema in other areas",
+        "LV myocardial segments"
+      ],
+      [
+        "EDema in other areas",
+        "Pericardium"
+      ],
+      [
+        "EGE Sequences",
+        "LGE Sequences"
+      ],
+      [
+        "Edema",
+        "Enhancement"
+      ],
+      [
+        "IVC",
+        "echocardiogram"
+      ],
+      [
+        "Inferior Basal Wall",
+        "Interventricular Septum"
+      ],
+      [
+        "Inferior Basal Wall",
+        "Lateral Wall"
+      ],
+      [
+        "Interventricular Septum",
+        "LV Myocardial Segments"
+      ],
+      [
+        "Interventricular Septum",
+        "Lateral Wall"
+      ],
+      [
+        "Interventricular septum",
+        "LV myocardial segments"
+      ],
+      [
+        "LGE Sequences",
+        "Lateral Wall"
+      ],
+      [
+        "LV",
+        "LV myocardial segments"
+      ],
+      [
+        "LV",
+        "RV"
+      ],
+      [
+        "LV EF",
+        "Levosimendan"
+      ],
+      [
+        "LV Myocardial Segments",
+        "Myocardium"
+      ],
+      [
+        "LV and RV size, Norepinephrine rate infusion",
+        "afterload"
+      ],
+      [
+        "LV and RV systolic and diastolic function",
+        "echocardiogram, ECG"
+      ],
+      [
+        "LV myocardial segments",
+        "Pericardium"
+      ],
+      [
+        "LV myocardial segments",
+        "RV free wall"
+      ],
+      [
+        "LV myocardial segments",
+        "Subendocardial"
+      ],
+      [
+        "LV myocardial segments",
+        "TIR/t2w sequences"
+      ],
+      [
+        "LV myocardial segments",
+        "edema"
+      ],
+      [
+        "LV myocardial segments",
+        "lymphocytic myocarditis"
+      ],
+      [
+        "LVEF",
+        "echocardiogram"
+      ],
+      [
+        "Levosimendan",
+        "Norepinephrine"
+      ],
+      [
+        "Levosimendan",
+        "Patient"
+      ],
+      [
+        "MRI",
+        "TIR/t2w sequences"
+      ],
+      [
+        "Nasal Cannula Ventilatory Therapy",
+        "Patient"
+      ],
+      [
+        "Norepinephrine",
+        "Patient"
+      ],
+      [
+        "Norepinephrine",
+        "afterload"
+      ],
+      [
+        "PMC10012167_01",
+        "cardiac magnetic resonance"
+      ],
+      [
+        "PMC10012167_01",
+        "levosimendan"
+      ],
+      [
+        "PMC10012167_01",
+        "viral sepsis"
+      ],
+      [
+        "Patient",
+        "Pericardial Effusion"
+      ],
+      [
+        "Patient",
+        "Pulmonary Adipose Tissue Imbibition"
+      ],
+      [
+        "Patient",
+        "Thoracic Computed Tomography Scan"
+      ],
+      [
+        "Patient",
+        "Valvulopathy"
+      ],
+      [
+        "TIR/t2w sequences",
+        "chart"
+      ],
+      [
+        "TIR/t2w sequences",
+        "edema"
+      ],
+      [
+        "TTE",
+        "echocardiogram"
+      ],
+      [
+        "TTE",
+        "levosimendan infusion"
+      ],
+      [
+        "blood culture",
+        "levosimendal infusion"
+      ],
+      [
+        "cardiac magnetic resonance imaging (CMR)",
+        "early gadolinium enhancement"
+      ],
+      [
+        "cardiac magnetic resonance imaging (CMR)",
+        "late gadolinium enhancement"
+      ],
+      [
+        "cardiac magnetic resonance imaging (CMR)",
+        "steedy state free precession-CINE"
+      ],
+      [
+        "chart",
+        "concomitant change"
+      ],
+      [
+        "chart",
+        "graph"
+      ],
+      [
+        "coronary circulation",
+        "electrocardiogram"
+      ],
+      [
+        "coronary circulation",
+        "pericardium"
+      ],
+      [
+        "echocardiogram",
+        "electrocardiogram"
+      ],
+      [
+        "echocardiogram",
+        "tissue Doppler imaging"
+      ],
+      [
+        "immune-mediated myocarditis",
+        "inferolateral walls"
+      ],
+      [
+        "immune-mediated myocarditis",
+        "lymphocytic myocarditis"
+      ],
+      [
+        "infarction",
+        "pericardium"
+      ],
+      [
+        "levosimendan",
+        "levosimendan infusion"
+      ],
+      [
+        "pericardium",
+        "thorax"
+      ]
+    ],
+    "count": 75,
+    "create_time": 1790392481,
+    "update_time": 1790392481,
+    "_id": "doc-1b5c3d014d26e07b37236ea91978fa49"
+  },
+  "doc-c2bab568fd0945ca97229932b3958ca4": {
+    "relation_pairs": [
+      [
+        "Children with COVID-19",
+        "Respiratory failure"
+      ],
+      [
+        "Congenital Heart Disease",
+        "Down Syndrome"
+      ],
+      [
+        "Congenital Heart Disease",
+        "Group of Infected Children"
+      ],
+      [
+        "Congenital Heart Disease",
+        "Patient"
+      ],
+      [
+        "Congenital Heart Disease",
+        "Respiratory Failure"
+      ],
+      [
+        "Down Syndrome",
+        "Group of Infected Children"
+      ],
+      [
+        "Down Syndrome",
+        "Patient"
+      ],
+      [
+        "Down Syndrome",
+        "Respiratory Failure"
+      ],
+      [
+        "ECG abnormalities",
+        "MIS-C group"
+      ],
+      [
+        "ECG abnormalities",
+        "Patients with increased troponin"
+      ],
+      [
+        "ECG abnormalities",
+        "patients with MIS-C"
+      ],
+      [
+        "Echocardiographic anomalies",
+        "Ejection fraction reduction"
+      ],
+      [
+        "Echocardiographic anomalies",
+        "MIS-C group"
+      ],
+      [
+        "Echocardiographic anomalies",
+        "Patients with increased troponin"
+      ],
+      [
+        "Echocardiographic anomalies",
+        "Pericardial effusion"
+      ],
+      [
+        "Echocardiographic anomalies",
+        "Valve regurgitation"
+      ],
+      [
+        "Front Pediatr",
+        "PMC10014588_01"
+      ],
+      [
+        "MIS-C",
+        "children"
+      ],
+      [
+        "MIS-C",
+        "troponin"
+      ],
+      [
+        "MIS-C group",
+        "Patients with increased troponin"
+      ],
+      [
+        "MIS-C group",
+        "Pediatric Intensive Care Unit"
+      ],
+      [
+        "Patients without MIS-C",
+        "Pediatric Intensive Care Unit"
+      ],
+      [
+        "children",
+        "troponin"
+      ],
+      [
+        "children",
+        "vaccinated"
+      ],
+      [
+        "patients with MIS-C",
+        "patients without MIS-C"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1790392733,
+    "update_time": 1790392733,
+    "_id": "doc-c2bab568fd0945ca97229932b3958ca4"
+  },
+  "doc-bd19502a29f3f6f294b8182dbd43e0b9": {
+    "relation_pairs": [
+      [
+        "Acid-fast bacilli staining",
+        "Tuberculosis"
+      ],
+      [
+        "Amoxicillin-clavulanic acid",
+        "Tuberculosis"
+      ],
+      [
+        "Bacteria",
+        "Gram staining"
+      ],
+      [
+        "Biopsy",
+        "Mastitis"
+      ],
+      [
+        "Breast",
+        "Erythema Nodosum"
+      ],
+      [
+        "COVID-19",
+        "Corynebacterium kroppenstedtii"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19 vaccine",
+        "Corynebacterium kroppenstedtii"
+      ],
+      [
+        "Carcinoma",
+        "Periodic acid-Schiff staining"
+      ],
+      [
+        "Chest X-ray",
+        "Tuberculosis"
+      ],
+      [
+        "Colchicine",
+        "Mastitis"
+      ],
+      [
+        "Corynebacterium kroppenstedtii",
+        "TB quantiferon"
+      ],
+      [
+        "Erythema Nodosum",
+        "Image"
+      ],
+      [
+        "Erythema Nodosum",
+        "Tuberculosis"
+      ],
+      [
+        "Erythema nodosum",
+        "Tuberculosis"
+      ],
+      [
+        "Fungus",
+        "Grocott methenamine silver staining"
+      ],
+      [
+        "Granulomatous inflammation",
+        "Mastitis"
+      ],
+      [
+        "Hemat",
+        "Leukemia"
+      ],
+      [
+        "IgG",
+        "SARS-CoV-2"
+      ],
+      [
+        "Image",
+        "Tuberculosis"
+      ],
+      [
+        "Mammography",
+        "Mastitis"
+      ],
+      [
+        "Mastitis",
+        "Polymerase chain reaction"
+      ],
+      [
+        "Mastitis",
+        "Prednisone"
+      ],
+      [
+        "Mastitis",
+        "Ultrasonography"
+      ],
+      [
+        "Pristinamycin",
+        "Tuberculosis"
+      ],
+      [
+        "Sarcoidosis",
+        "Tuberculosis"
+      ],
+      [
+        "TB quantiferon",
+        "Tuberculosis"
+      ],
+      [
+        "Trimethoprim-sulfamethoxazole",
+        "Tuberculosis"
+      ],
+      [
+        "Tuberculosis",
+        "Ziehl-Neelsen staining"
+      ],
+      [
+        "diseases",
+        "woman"
+      ]
+    ],
+    "count": 30,
+    "create_time": 1790392986,
+    "update_time": 1790392986,
+    "_id": "doc-bd19502a29f3f6f294b8182dbd43e0b9"
+  },
+  "doc-e31462b2b61662a5cdda18b771b6a9fe": {
+    "relation_pairs": [
+      [
+        "Abdomen",
+        "Computed Tomography (CT) scan"
+      ],
+      [
+        "Abdomen",
+        "Right hemicolectomy"
+      ],
+      [
+        "Abdomen",
+        "Subdiaphragmatic area"
+      ],
+      [
+        "Adhesive band",
+        "Patient"
+      ],
+      [
+        "Appendicitis",
+        "Ileus"
+      ],
+      [
+        "Case Rep Med",
+        "PMCID10017220"
+      ],
+      [
+        "Computed Tomography (CT) scan",
+        "Patient"
+      ],
+      [
+        "Covid19",
+        "PMCID10017220"
+      ],
+      [
+        "Fecaloid peritoneal fluid",
+        "Patient"
+      ],
+      [
+        "Free intraperitoneal air",
+        "Peritoneum"
+      ],
+      [
+        "Free intraperitoneal air",
+        "Pneumoperitoneum"
+      ],
+      [
+        "Gravid COVID-19 Patient",
+        "PMCID10017220"
+      ],
+      [
+        "Histopathology",
+        "Specimen"
+      ],
+      [
+        "Ileus",
+        "Pneumoperitoneum"
+      ],
+      [
+        "NGT (Naso-gastric tube)",
+        "Patient"
+      ],
+      [
+        "Nonreassuring fetal status",
+        "PMCID10017220"
+      ],
+      [
+        "PMCID10017220",
+        "PMCID10017220_01"
+      ],
+      [
+        "PMCID10017220",
+        "PMCID10017220_01's fetus"
+      ],
+      [
+        "PMCID10017220",
+        "Severe COVID-19 infection"
+      ],
+      [
+        "PMCID10017220_01",
+        "Severe COVID-19 infection"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1790393156,
+    "update_time": 1790393156,
+    "_id": "doc-e31462b2b61662a5cdda18b771b6a9fe"
+  },
+  "doc-cd24aad1fdc5de922a50ab7953f43a3f": {
+    "relation_pairs": [
+      [
+        "CD137",
+        "HLA"
+      ],
+      [
+        "CD137+",
+        "SARS-CoV-2 M protein"
+      ],
+      [
+        "CD137+",
+        "SARS-CoV-2 N protein"
+      ],
+      [
+        "CD137+",
+        "SARS-CoV-2 S protein"
+      ],
+      [
+        "CD154",
+        "SARS-CoV-2 M protein"
+      ],
+      [
+        "CD154",
+        "SARS-CoV-2 N protein"
+      ],
+      [
+        "CD154",
+        "SARS-CoV-2 S protein"
+      ],
+      [
+        "CD154+",
+        "SARS-CoV-2 M protein"
+      ],
+      [
+        "CD154+",
+        "SARS-CoV-2 N protein"
+      ],
+      [
+        "CD154+",
+        "SARS-CoV-2 S protein"
+      ],
+      [
+        "CD154+CD137+ sample",
+        "SARS-CoV-2 specific T-cells"
+      ],
+      [
+        "CD4+ T cells",
+        "SARS-CoV-2 M protein"
+      ],
+      [
+        "CD4+ T cells",
+        "SARS-CoV-2 N protein"
+      ],
+      [
+        "CD4+ T cells",
+        "SARS-CoV-2 S protein"
+      ],
+      [
+        "CD8+ T cells",
+        "SARS-CoV-2 M protein"
+      ],
+      [
+        "CD8+ T cells",
+        "SARS-CoV-2 N protein"
+      ],
+      [
+        "CD8+ T cells",
+        "SARS-CoV-2 S protein"
+      ],
+      [
+        "HLA",
+        "SARS-CoV-2 M protein"
+      ],
+      [
+        "HLA",
+        "SARS-CoV-2 N protein"
+      ],
+      [
+        "HLA",
+        "SARS-CoV-2 S protein"
+      ],
+      [
+        "SARS-CoV",
+        "SARS-CoV-2"
+      ],
+      [
+        "SARS-CoV",
+        "Severe Acute Respiratory Syndrome"
+      ],
+      [
+        "SARS-CoV-2",
+        "clonotypes"
+      ],
+      [
+        "SARS-CoV-2",
+        "myocardium infiltrating T cells"
+      ],
+      [
+        "SARS-CoV-2",
+        "t cell receptor (TCR)"
+      ],
+      [
+        "SARS-CoV-2 M protein",
+        "TCR beta chain"
+      ],
+      [
+        "SARS-CoV-2 M protein",
+        "myocardium"
+      ],
+      [
+        "SARS-CoV-2 M protein",
+        "next generation sequencing"
+      ],
+      [
+        "SARS-CoV-2 M protein",
+        "t cell receptor (TCR)"
+      ],
+      [
+        "SARS-CoV-2 N protein",
+        "TCR beta chain"
+      ],
+      [
+        "SARS-CoV-2 N protein",
+        "myocardium"
+      ],
+      [
+        "SARS-CoV-2 N protein",
+        "next generation sequencing"
+      ],
+      [
+        "SARS-CoV-2 N protein",
+        "t cell receptor (TCR)"
+      ],
+      [
+        "SARS-CoV-2 S protein",
+        "TCR beta chain"
+      ],
+      [
+        "SARS-CoV-2 S protein",
+        "myocardium"
+      ],
+      [
+        "SARS-CoV-2 S protein",
+        "next generation sequencing"
+      ],
+      [
+        "SARS-CoV-2 S protein",
+        "t cell receptor (TCR)"
+      ],
+      [
+        "SARS-CoV-2 peptides",
+        "peripheral blood mononuclear cells (PBMCs)"
+      ],
+      [
+        "SARS-CoV-2-specific T cells",
+        "myocardium"
+      ],
+      [
+        "acute myocardiatis",
+        "adenovirus"
+      ],
+      [
+        "acute myocardiatis",
+        "bacteria"
+      ],
+      [
+        "acute myocardiatis",
+        "cytomegalovirus"
+      ],
+      [
+        "acute myocardiatis",
+        "enterovirus"
+      ],
+      [
+        "acute myocardiatis",
+        "epstein barr virus"
+      ],
+      [
+        "acute myocardiatis",
+        "human herpes virus (HHV) 6a,"
+      ],
+      [
+        "acute myocardiatis",
+        "human herpes virus (HHV) 6b,"
+      ],
+      [
+        "acute myocardiatis",
+        "myocardial damage"
+      ],
+      [
+        "acute myocardiatis",
+        "parvovirus B19"
+      ],
+      [
+        "acute myocardiatis",
+        "patient"
+      ],
+      [
+        "acute myocardiatis",
+        "supplied oxygen"
+      ],
+      [
+        "acute myocardiatis",
+        "t cell receptor (TCR)"
+      ],
+      [
+        "adenovirus",
+        "patient"
+      ],
+      [
+        "blood sample",
+        "clonotypes"
+      ],
+      [
+        "blood sample",
+        "myocardium infiltrating T cells"
+      ],
+      [
+        "clonotypes",
+        "myocardium infiltrating T cells"
+      ],
+      [
+        "heart biopsy",
+        "myocardium infiltrating T cells"
+      ],
+      [
+        "myocardial damage",
+        "patient"
+      ]
+    ],
+    "count": 57,
+    "create_time": 1790393641,
+    "update_time": 1790393641,
+    "_id": "doc-cd24aad1fdc5de922a50ab7953f43a3f"
+  },
+  "doc-df05bfef1a077e0155db5a2319d2e5ed": {
+    "relation_pairs": [
+      [
+        "CBC",
+        "He"
+      ],
+      [
+        "COVID-19",
+        "Covid19"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "Figure 1(a)",
+        "alopecia areata"
+      ],
+      [
+        "He",
+        "albumin"
+      ],
+      [
+        "He",
+        "alopecia areata"
+      ],
+      [
+        "He",
+        "family physician"
+      ],
+      [
+        "He",
+        "ferritin"
+      ],
+      [
+        "He",
+        "prostate specific antigen"
+      ],
+      [
+        "He",
+        "thyroid-stimulating hormone"
+      ],
+      [
+        "He",
+        "triglyceride"
+      ],
+      [
+        "He",
+        "vaccination"
+      ],
+      [
+        "alopecia areata",
+        "scalp"
+      ],
+      [
+        "family physician",
+        "vaccination"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1790393773,
+    "update_time": 1790393773,
+    "_id": "doc-df05bfef1a077e0155db5a2319d2e5ed"
+  },
+  "doc-89bffd3876aa466a76dee1dbdb10edec": {
+    "relation_pairs": [
+      [
+        "CDC",
+        "US"
+      ],
+      [
+        "COVID-19",
+        "CoV-2"
+      ],
+      [
+        "COVID-19",
+        "policy F"
+      ],
+      [
+        "COVID-19",
+        "policy S"
+      ],
+      [
+        "COVID-19 deaths",
+        "COVID-19 vaccine allocation strategies"
+      ],
+      [
+        "COVID-19 deaths",
+        "NCHS"
+      ],
+      [
+        "COVID-19 deaths",
+        "Patient Demographics"
+      ],
+      [
+        "COVID-19 deaths in nursing homes and long-term care facilities",
+        "National Center for Health Statistics"
+      ],
+      [
+        "COVID-19 vaccine allocation strategies",
+        "PLOS Glob Public Health"
+      ],
+      [
+        "COVID-19 vaccine allocation strategies",
+        "Patient Demographics"
+      ],
+      [
+        "COVID-19 vaccine allocation strategies",
+        "US states"
+      ],
+      [
+        "Deaths counts ranging between 1 and 9",
+        "NCHS"
+      ],
+      [
+        "Eq 2",
+        "policy S"
+      ],
+      [
+        "Front-line workers",
+        "PLOS Glob Public Health"
+      ],
+      [
+        "Mutambudzi et al.",
+        "non-essential workers"
+      ],
+      [
+        "Nijk",
+        "policy S"
+      ],
+      [
+        "PLOS Glob Pub Health",
+        "PMC10021220_01"
+      ],
+      [
+        "PLOS Glob Public Health",
+        "Race/Ethnicity groups"
+      ],
+      [
+        "PLOS Glob Public Health",
+        "United States"
+      ],
+      [
+        "PMC10021220_01",
+        "United States"
+      ],
+      [
+        "age i",
+        "policy S"
+      ],
+      [
+        "education workers",
+        "food workers"
+      ],
+      [
+        "non-essential workers",
+        "transport workers"
+      ],
+      [
+        "policy F",
+        "policy S"
+      ],
+      [
+        "policy F",
+        "v"
+      ],
+      [
+        "policy F",
+        "vaccine efficacy"
+      ],
+      [
+        "policy S",
+        "race/ethnicity group j"
+      ],
+      [
+        "policy S",
+        "state k"
+      ],
+      [
+        "vaccine",
+        "vaccine courses"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1790394028,
+    "update_time": 1790394028,
+    "_id": "doc-89bffd3876aa466a76dee1dbdb10edec"
+  },
+  "doc-bf3851fafc435e3a862d3953c0d0905e": {
+    "relation_pairs": [
+      [
+        "**Age Category 65-74**",
+        "**Covid19**"
+      ],
+      [
+        "**Age Category 65-74**",
+        "**Front-line workers**"
+      ],
+      [
+        "**Covid19**",
+        "**PMC10021220_02**"
+      ],
+      [
+        "**Covid19**",
+        "**United States**"
+      ],
+      [
+        "**Equations**",
+        "**Front-line workers**"
+      ],
+      [
+        "**Front-line workers**",
+        "**United States**"
+      ],
+      [
+        "**PLOS Glob Public Health**",
+        "**PMC10021220_02**"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790394077,
+    "update_time": 1790394077,
+    "_id": "doc-bf3851fafc435e3a862d3953c0d0905e"
+  },
+  "doc-711f3ca920e59950529742ab80092493": {
+    "relation_pairs": [
+      [
+        "2023",
+        "PLOS Glob Public Health"
+      ],
+      [
+        "COVID-19",
+        "LSjk"
+      ],
+      [
+        "COVID-19",
+        "PLOS Glob Public Health"
+      ],
+      [
+        "COVID-19",
+        "United States"
+      ],
+      [
+        "D65-74jk",
+        "PMC10021220_03"
+      ],
+      [
+        "LSjk",
+        "PMC10021220_03"
+      ],
+      [
+        "N65-74jk",
+        "PMC10021220_03"
+      ],
+      [
+        "PLOS Glob Public Health",
+        "PMC10021220_03"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790394115,
+    "update_time": 1790394115,
+    "_id": "doc-711f3ca920e59950529742ab80092493"
+  },
+  "doc-c6aa32dd002a5968c0b16b9f0c196293": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1790394288,
+    "update_time": 1790394288,
+    "_id": "doc-c6aa32dd002a5968c0b16b9f0c196293"
+  },
+  "doc-8d80c32250bbbf7ad55cf221040fa307": {
+    "relation_pairs": [
+      [
+        "Case ID: PMC10021220_05",
+        "WHO Global Health Observatory (GHO)"
+      ],
+      [
+        "Covid19",
+        "Martinez et al."
+      ],
+      [
+        "Martinez et al.",
+        "PLOS Glob Public Health"
+      ],
+      [
+        "Martinez et al.",
+        "WHO Global Health Observatory (GHO)"
+      ],
+      [
+        "PLOS Glob Public Health",
+        "United States"
+      ],
+      [
+        "PLOS Glob Public Health",
+        "WHO Global Health Observatory (GHO)"
+      ],
+      [
+        "United States",
+        "WHO Global Health Observatory (GHO)"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790394376,
+    "update_time": 1790394376,
+    "_id": "doc-8d80c32250bbbf7ad55cf221040fa307"
+  },
+  "doc-f1ed1cbbadb94ac628986b1fddff0b21": {
+    "relation_pairs": [
+      [
+        "Abdominal symptoms",
+        "Patient"
+      ],
+      [
+        "Amoxicillin and clavulanate potassium tablets",
+        "Patient"
+      ],
+      [
+        "Condition",
+        "Patient"
+      ],
+      [
+        "Disease",
+        "Eikenella corrodens"
+      ],
+      [
+        "Disease",
+        "Patient"
+      ],
+      [
+        "Doctor",
+        "Hospital"
+      ],
+      [
+        "Doctor",
+        "Patient"
+      ],
+      [
+        "Eikenella corrodens",
+        "Pathological examination"
+      ],
+      [
+        "Eikenella corrodens",
+        "mNGS"
+      ],
+      [
+        "Hospital",
+        "Patient"
+      ],
+      [
+        "Intraoperative samples",
+        "Pathological examination"
+      ],
+      [
+        "Levofloxacin",
+        "PST"
+      ],
+      [
+        "Levofloxacin",
+        "Piperacillin Sodium and Tazobactam Sodium (PSTS)"
+      ],
+      [
+        "Levofloxacin",
+        "mNGS"
+      ],
+      [
+        "Life",
+        "Patient"
+      ],
+      [
+        "Lumbar Spine",
+        "Patient"
+      ],
+      [
+        "Lumbar spine (L3/4)",
+        "Patient"
+      ],
+      [
+        "Lumbar spine (L3/4)",
+        "Radiology examination"
+      ],
+      [
+        "PST",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Radiology Images"
+      ],
+      [
+        "Patient",
+        "Radiology examination"
+      ],
+      [
+        "Patient",
+        "Supplementary surgical Technique"
+      ],
+      [
+        "Patient",
+        "Treatment"
+      ],
+      [
+        "Patient",
+        "Visit"
+      ],
+      [
+        "Patient",
+        "Vital signs"
+      ],
+      [
+        "Patient",
+        "Waist Brace"
+      ],
+      [
+        "Patient",
+        "Work"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1790394631,
+    "update_time": 1790394631,
+    "_id": "doc-f1ed1cbbadb94ac628986b1fddff0b21"
+  },
+  "doc-95ac51e5947b5b1fb36826322f42f310": {
+    "relation_pairs": [
+      [
+        "10.3389/fimmu.2023.1135834",
+        "50-yrs-old"
+      ],
+      [
+        "10.3389/fimmu.2023.1135834",
+        "Front Immunol"
+      ],
+      [
+        "50-yrs-old",
+        "CVID"
+      ],
+      [
+        "50-yrs-old",
+        "Front Immunol"
+      ],
+      [
+        "50-yrs-old",
+        "Human breast milk"
+      ],
+      [
+        "50-yrs-old",
+        "OPV vaccination"
+      ],
+      [
+        "50-yrs-old",
+        "Oral polio vaccine"
+      ],
+      [
+        "50-yrs-old",
+        "Pleconaril"
+      ],
+      [
+        "50-yrs-old",
+        "Poliovirus"
+      ],
+      [
+        "50-yrs-old",
+        "Remdesivir"
+      ],
+      [
+        "50-yrs-old",
+        "Ribavirin"
+      ],
+      [
+        "Anti-SARS-CoV-2SpikeIgG",
+        "Patient"
+      ],
+      [
+        "Hizentra",
+        "Patient"
+      ],
+      [
+        "Human",
+        "Type 2 Poliovirus"
+      ],
+      [
+        "Human Breast Milk",
+        "Type 2 Poliovirus"
+      ],
+      [
+        "InflammatoryMarkers",
+        "Remdesivir"
+      ],
+      [
+        "Patient",
+        "Remdesivir"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2SpikeIgG"
+      ],
+      [
+        "Patient",
+        "T-cellResponse"
+      ],
+      [
+        "Pleconaril",
+        "Type 2 Poliovirus"
+      ],
+      [
+        "Poliovirus",
+        "SARS-CoV-2"
+      ],
+      [
+        "RT-qPCR",
+        "SARS-CoV-2"
+      ],
+      [
+        "Remdesivir",
+        "SARS-CoV-2"
+      ],
+      [
+        "Remdesivir",
+        "Type 2 Poliovirus"
+      ],
+      [
+        "Ribavirin",
+        "Type 2 Poliovirus"
+      ],
+      [
+        "SARS-CoV-2",
+        "SARS-CoV-2-specific neutralising monoclonal antibodies"
+      ],
+      [
+        "SARS-CoV-2",
+        "T-cellResponse"
+      ],
+      [
+        "SARS-CoV-2",
+        "remdesivir"
+      ],
+      [
+        "Type 2 Poliovirus",
+        "WHO biosafety containment recommendations"
+      ],
+      [
+        "pocapavir",
+        "poliovirus"
+      ],
+      [
+        "poliovirus",
+        "remdesivir"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1790394902,
+    "update_time": 1790394902,
+    "_id": "doc-95ac51e5947b5b1fb36826322f42f310"
+  },
+  "doc-c4d950b29becfb92828ce9bf62c55083": {
+    "relation_pairs": [
+      [
+        "Cardiomegaly",
+        "Chest X-ray"
+      ],
+      [
+        "Central hypothyroidism",
+        "Panhypopituitarism"
+      ],
+      [
+        "Central hypothyroidism",
+        "Panhypopituitarism Investigation"
+      ],
+      [
+        "Central hypothyroidism",
+        "Patient"
+      ],
+      [
+        "Chest X-ray",
+        "Patient"
+      ],
+      [
+        "Chest X-ray",
+        "Pulmonary edema"
+      ],
+      [
+        "Echocardiogram",
+        "Patient"
+      ],
+      [
+        "Electrocardiogram",
+        "Hypocortisolism"
+      ],
+      [
+        "Electrocardiogram",
+        "Patient"
+      ],
+      [
+        "Emergency pericardiocentesis",
+        "Patient"
+      ],
+      [
+        "Hypocortisolism",
+        "Panhypopituitarism"
+      ],
+      [
+        "Hypocortisolism",
+        "Panhypopituitarism Investigation"
+      ],
+      [
+        "Int J Endocrinol Metab",
+        "Patient"
+      ],
+      [
+        "Panhypopituitarism",
+        "Panhypopituitarism Investigation"
+      ],
+      [
+        "Patient",
+        "Patient Demographics"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1790395052,
+    "update_time": 1790395052,
+    "_id": "doc-c4d950b29becfb92828ce9bf62c55083"
+  },
+  "doc-7060f720f9ba041c95cc7423476c26f6": {
+    "relation_pairs": [
+      [
+        "10.3389/fneur.2023.1126390",
+        "Front Neurol (2023)"
+      ],
+      [
+        "Brain MRI",
+        "patient"
+      ],
+      [
+        "Brunnstrom's staging",
+        "patient"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "patient"
+      ],
+      [
+        "Cerebral infarction",
+        "Left medial temporal lobe"
+      ],
+      [
+        "Chronic kidney disease",
+        "Hypertension"
+      ],
+      [
+        "Chronic kidney disease",
+        "Type 2 diabetes"
+      ],
+      [
+        "Cough with sputum",
+        "Patient"
+      ],
+      [
+        "Cough with sputum",
+        "Rhinorrhea"
+      ],
+      [
+        "Cough with sputum,",
+        "Fever"
+      ],
+      [
+        "Covid19",
+        "PMC10025385_01"
+      ],
+      [
+        "Fever",
+        "Patient"
+      ],
+      [
+        "Fever",
+        "Rhinorrhea"
+      ],
+      [
+        "Front Neurol",
+        "Patient"
+      ],
+      [
+        "Front Neurol (2023)",
+        "Patient"
+      ],
+      [
+        "Hypertension",
+        "Type 2 diabetes"
+      ],
+      [
+        "October 7, 2022",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Rehabilitation Team"
+      ],
+      [
+        "Patient",
+        "Rhinorrhea"
+      ],
+      [
+        "Patient",
+        "Right hemiplegia"
+      ],
+      [
+        "Patient",
+        "SWallowing Exercises"
+      ],
+      [
+        "Patient",
+        "Swallowing Exercises"
+      ],
+      [
+        "Patient",
+        "nasogastric tube"
+      ],
+      [
+        "Rehabilitation Team",
+        "Swallowing Exercises"
+      ],
+      [
+        "VFSS",
+        "patient"
+      ],
+      [
+        "gag reflexes",
+        "patient"
+      ],
+      [
+        "molnupiravir",
+        "patient"
+      ],
+      [
+        "muscle strength",
+        "patient"
+      ],
+      [
+        "nasogastric tube",
+        "patient"
+      ],
+      [
+        "patient",
+        "rTMS"
+      ],
+      [
+        "patient",
+        "rehabilitation ward"
+      ],
+      [
+        "patient",
+        "swallowing reflux"
+      ]
+    ],
+    "count": 33,
+    "create_time": 1790395390,
+    "update_time": 1790395390,
+    "_id": "doc-7060f720f9ba041c95cc7423476c26f6"
+  },
+  "doc-1e92dc21bb4588246b53715015ededc3": {
+    "relation_pairs": [
+      [
+        "A fatal case of COVID-19-associated meningoencephalitis in a patient coinfected with influenza A",
+        "Rev Inst Med Trop Sao Paulo"
+      ],
+      [
+        "Anticonvulsant drugs",
+        "Patient"
+      ],
+      [
+        "COVID-19-associated meningoencephalitis",
+        "Cerebrospinal fluid (CSF) analysis"
+      ],
+      [
+        "COVID-19-associated meningoencephalitis",
+        "Patient"
+      ],
+      [
+        "COVID-19-associated meningoencephalitis",
+        "SARS-CoV-2"
+      ],
+      [
+        "Cardiopulmonary arrest",
+        "Patient"
+      ],
+      [
+        "Case ID: PMC10027061_01",
+        "Rev Inst Med Trop Sao Paulo"
+      ],
+      [
+        "Chest radiography",
+        "Patient"
+      ],
+      [
+        "Influenza A",
+        "Patient"
+      ],
+      [
+        "Influenza A",
+        "qPCR"
+      ],
+      [
+        "Intensive Care Unit (ICU)",
+        "Patient"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790395459,
+    "update_time": 1790395459,
+    "_id": "doc-1e92dc21bb4588246b53715015ededc3"
+  },
+  "doc-82d7afa230de1929c75d7a1ae481a664": {
+    "relation_pairs": [
+      [
+        "COVID-19 mRNA vaccination",
+        "daptomycin"
+      ],
+      [
+        "CT scan",
+        "patient"
+      ],
+      [
+        "Case Rep Hematol",
+        "pmc10027455_01"
+      ],
+      [
+        "Coronavirus nucleocapsid protein antibodies",
+        "mRNA COVID-19 vaccination"
+      ],
+      [
+        "Coronavirus nucleocapsid protein antibodies (anti-N abs)",
+        "mRNA COVID-19 vaccination"
+      ],
+      [
+        "Covid19",
+        "pmc10027455_01"
+      ],
+      [
+        "D-dimer",
+        "PLT"
+      ],
+      [
+        "Emergency Department",
+        "pmc10027455_01"
+      ],
+      [
+        "Hgb",
+        "WBC"
+      ],
+      [
+        "Homeless Encampment",
+        "pmc10027455_01"
+      ],
+      [
+        "ID service",
+        "patient"
+      ],
+      [
+        "MRSA",
+        "Sepsis"
+      ],
+      [
+        "MRSA",
+        "Staphylococcus aureus"
+      ],
+      [
+        "PLT",
+        "fibrinogen"
+      ],
+      [
+        "SARS-CoV-2",
+        "vaccine"
+      ],
+      [
+        "SARS-CoV-2 antigens",
+        "mRNA COVID-19 vaccination"
+      ],
+      [
+        "SARS-CoV-2 nucleocapsid protein antibodies",
+        "patient"
+      ],
+      [
+        "Young Patient",
+        "pmc10027455_01"
+      ],
+      [
+        "cardiothoracic surgery",
+        "patient"
+      ],
+      [
+        "case Rep Hematol",
+        "pmc10027455_01"
+      ],
+      [
+        "ceftaroline",
+        "infectious disease (ID) service"
+      ],
+      [
+        "ceftaroline",
+        "patient"
+      ],
+      [
+        "ceftaroline",
+        "thrombocytopenia"
+      ],
+      [
+        "chest tube placement",
+        "loculated pulmonary effusion"
+      ],
+      [
+        "daptomycin",
+        "patient"
+      ],
+      [
+        "dexamethasone",
+        "platelet count"
+      ],
+      [
+        "empyema",
+        "pleural space"
+      ],
+      [
+        "immune thrombocytopenic purpura (ITP)",
+        "infectious disease (ID) service"
+      ],
+      [
+        "intravenous immunoglobulin (IVIG)",
+        "patient"
+      ],
+      [
+        "intravenous immunoglobulin (IVIG)",
+        "transfusion-related acute lung injury (TRALI)"
+      ],
+      [
+        "mRNA COVID-19 Vaccine",
+        "pmc10027455_01"
+      ],
+      [
+        "mRNA COVID-19 vaccination",
+        "patient"
+      ],
+      [
+        "mRSA",
+        "patient"
+      ],
+      [
+        "patient",
+        "pfizer vaccination"
+      ]
+    ],
+    "count": 34,
+    "create_time": 1790395714,
+    "update_time": 1790395714,
+    "_id": "doc-82d7afa230de1929c75d7a1ae481a664"
+  },
+  "doc-409a49e99d7838aa055c73cca5cc3731": {
+    "relation_pairs": [
+      [
+        "COPD",
+        "COPDMIC"
+      ],
+      [
+        "COPD",
+        "Covid19"
+      ],
+      [
+        "COPDMIC",
+        "MICHC platform"
+      ],
+      [
+        "China",
+        "Shanghai"
+      ],
+      [
+        "MICHC platform",
+        "PMC10029936_01"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1790395804,
+    "update_time": 1790395804,
+    "_id": "doc-409a49e99d7838aa055c73cca5cc3731"
+  },
+  "doc-9e2af8011ab47c55dd96b1f453c4d299": {
+    "relation_pairs": [
+      [
+        "Chest X-ray",
+        "Pleural effusion"
+      ],
+      [
+        "Computed Tomography Scan",
+        "Hydatid Cyst"
+      ],
+      [
+        "Computed Tomography Scan",
+        "Tension Hydropneumothorax"
+      ],
+      [
+        "Hydatid Cyst",
+        "Thoracoscopy procedure"
+      ],
+      [
+        "Pleural-thoracic empyema",
+        "Thoracoscopy procedure"
+      ],
+      [
+        "Tension Hydropneumothorax",
+        "Thoracoscopy procedure"
+      ],
+      [
+        "bronchopleural fistula",
+        "patient"
+      ],
+      [
+        "cefalothin",
+        "patient"
+      ],
+      [
+        "chest X-ray",
+        "patient"
+      ],
+      [
+        "chest tube",
+        "patient"
+      ],
+      [
+        "gentamycin",
+        "patient"
+      ],
+      [
+        "germinative membrane",
+        "patient"
+      ],
+      [
+        "hydatic cyst",
+        "patient"
+      ],
+      [
+        "hydropneumothorax",
+        "pleural-thoracic empyema"
+      ],
+      [
+        "patient",
+        "pleural-thoracic empyema"
+      ],
+      [
+        "patient",
+        "thoracoscopy procedure"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1790395935,
+    "update_time": 1790395935,
+    "_id": "doc-9e2af8011ab47c55dd96b1f453c4d299"
+  },
+  "doc-ae74db97de9299ba839d02b2fb047120": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "methylprednisolone"
+      ],
+      [
+        "COVID-19",
+        "rhino-orbital mucormycosis"
+      ],
+      [
+        "Complete Blood Counts",
+        "PMC10032291_01"
+      ],
+      [
+        "Covid19",
+        "Target Disease Indications"
+      ],
+      [
+        "Hypovolemic Shock",
+        "Patient"
+      ],
+      [
+        "Kidney Function Tests (KFTs)",
+        "Patient"
+      ],
+      [
+        "Liposomal Amphotericin B",
+        "Patient"
+      ],
+      [
+        "Our Hospital",
+        "Patient"
+      ],
+      [
+        "PMC10032291_01",
+        "Patient Demographics"
+      ],
+      [
+        "PMC10032291_01",
+        "Target Disease Indications"
+      ],
+      [
+        "PMC10032291_01",
+        "gadolinium contrast-enhanced magnetic resonance imaging"
+      ],
+      [
+        "PMC10032291_01",
+        "liposomal amphotericin B"
+      ],
+      [
+        "PMC10032291_01",
+        "nasal swab"
+      ],
+      [
+        "Patient",
+        "Sino-Orbital Mucormycosis"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1790396035,
+    "update_time": 1790396035,
+    "_id": "doc-ae74db97de9299ba839d02b2fb047120"
+  },
+  "doc-b080e34ba849deda0a52f2644b80d098": {
+    "relation_pairs": [
+      [
+        "Conjunctival chemosis",
+        "nonreactive, fixed pupil"
+      ],
+      [
+        "Histopathological examination",
+        "eschar"
+      ],
+      [
+        "amphotericin B",
+        "patient's consciousness"
+      ],
+      [
+        "eschar",
+        "nasal swab"
+      ],
+      [
+        "liposomal amphotericin B",
+        "pulmonary complications"
+      ],
+      [
+        "maxillary sinus",
+        "orbital tissues"
+      ],
+      [
+        "patient's consciousness",
+        "pulmonary complications"
+      ],
+      [
+        "patient's death",
+        "pulmonary complications"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790396175,
+    "update_time": 1790396175,
+    "_id": "doc-b080e34ba849deda0a52f2644b80d098"
+  },
+  "doc-2323a4e5c479a9a4883b91755458cce6": {
+    "relation_pairs": [
+      [
+        "**Breathlessness**",
+        "**Patient**"
+      ],
+      [
+        "**COVID-19**",
+        "**SARS-COV-2**"
+      ],
+      [
+        "**Dexamethasone**",
+        "**Patient**"
+      ],
+      [
+        "**Dry cough**",
+        "**Patient**"
+      ],
+      [
+        "**Exenteration**",
+        "**Patient**"
+      ],
+      [
+        "**Fever**",
+        "**Patient**"
+      ],
+      [
+        "**Intravenous liposomal amphotericin B**",
+        "**Patient**"
+      ],
+      [
+        "**Liposomal amphotericin B 300 mg**",
+        "**Patient**"
+      ],
+      [
+        "**MRI**",
+        "**Patient**"
+      ],
+      [
+        "**Oral posaconazole**",
+        "**Patient**"
+      ],
+      [
+        "**Patient**",
+        "**Posaconazole 300 mg**"
+      ],
+      [
+        "**Patient**",
+        "**Rhino-orbital mucormycosis**"
+      ],
+      [
+        "**Patient**",
+        "**SARS-COV-2**"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1790396257,
+    "update_time": 1790396257,
+    "_id": "doc-2323a4e5c479a9a4883b91755458cce6"
+  },
+  "doc-2a48181c30a06acf48481008b6747a40": {
+    "relation_pairs": [
+      [
+        "Amphotericin B",
+        "Central Retinal Artery Occlusion"
+      ],
+      [
+        "Amphotericin B",
+        "Patient ID"
+      ],
+      [
+        "Amphotericin B",
+        "Rhino-orbital Mucormycosis"
+      ],
+      [
+        "COVID-19",
+        "Central Retinal Artery Occlusion"
+      ],
+      [
+        "COVID-19",
+        "Mucormycosis"
+      ],
+      [
+        "COVID-19",
+        "PM C10032291_04"
+      ],
+      [
+        "COVID-19",
+        "Patient ID"
+      ],
+      [
+        "COVID-19",
+        "Rhino-orbital Mucormycosis"
+      ],
+      [
+        "COVID-19-Mucormycosis patient",
+        "Central Retinal Artery Occlusion"
+      ],
+      [
+        "Central Retinal Artery Occlusion",
+        "Patient ID"
+      ],
+      [
+        "Central Retinal Artery Occlusion",
+        "Photograph"
+      ],
+      [
+        "Central Retinal Artery Occlusion",
+        "Proptosis"
+      ],
+      [
+        "Central Retinal Artery Occlusion",
+        "Rhino-orbital Mucormycosis"
+      ],
+      [
+        "Image",
+        "Photograph"
+      ],
+      [
+        "Patient ID",
+        "Rhino-orbital Mucormycosis"
+      ],
+      [
+        "Patient ID",
+        "Saudi J Ophthalmol"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1790396370,
+    "update_time": 1790396370,
+    "_id": "doc-2a48181c30a06acf48481008b6747a40"
+  },
+  "doc-936f3c0323bd4447ee7bbc89993bf6ea": {
+    "relation_pairs": [
+      [
+        "Computed Tomography",
+        "Patient"
+      ],
+      [
+        "Granulomatosis with polyangiitis",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Pfizer-BioNTech"
+      ],
+      [
+        "Patient",
+        "Prednisone"
+      ],
+      [
+        "Patient",
+        "Rheumatology specialists"
+      ],
+      [
+        "Patient",
+        "Ther Adv Rare Dis"
+      ],
+      [
+        "Patient",
+        "Transthoracic echocardiogram"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790396574,
+    "update_time": 1790396574,
+    "_id": "doc-936f3c0323bd4447ee7bbc89993bf6ea"
+  },
+  "doc-aa260e9207bb6144bb25f98ed8b77838": {
+    "relation_pairs": [
+      [
+        "41-year-old male",
+        "Case ID: PMC10034413_01"
+      ],
+      [
+        "41-year-old male",
+        "Emergency department"
+      ],
+      [
+        "41-year-old male",
+        "ICCases (2023)"
+      ],
+      [
+        "41-year-old male",
+        "Lung cancer"
+      ],
+      [
+        "41-year-old male",
+        "Paragonimiasis"
+      ],
+      [
+        "AEC",
+        "Eosinophils"
+      ],
+      [
+        "Augmentin",
+        "Patient"
+      ],
+      [
+        "Bupivacaine",
+        "Exparel"
+      ],
+      [
+        "CTS Team",
+        "Patient"
+      ],
+      [
+        "CTS_clinic",
+        "VATS_procedure>"
+      ],
+      [
+        "CXR",
+        "IR_team"
+      ],
+      [
+        "CXR",
+        "pneumothorax"
+      ],
+      [
+        "Eggs",
+        "P. kellicotti"
+      ],
+      [
+        "Fibrin",
+        "Patient"
+      ],
+      [
+        "Histoplasmosis",
+        "P. kellicotti"
+      ],
+      [
+        "IR_team",
+        "VATS_procedure>"
+      ],
+      [
+        "IR_team",
+        "chest_tube"
+      ],
+      [
+        "Infectious Disease (ID) Team",
+        "Patient"
+      ],
+      [
+        "Keflex",
+        "infection"
+      ],
+      [
+        "Left lung",
+        "Pleura"
+      ],
+      [
+        "P. kellicotti",
+        "Pneumocystis"
+      ],
+      [
+        "Paragonimus kellicotti",
+        "Patient"
+      ],
+      [
+        "Pathology",
+        "thorax"
+      ],
+      [
+        "Patient",
+        "Pleural Fluid"
+      ],
+      [
+        "Patient",
+        "Pleurectomy"
+      ],
+      [
+        "Patient",
+        "Praziquantel"
+      ],
+      [
+        "Patient",
+        "Wedge Resection"
+      ],
+      [
+        "Pleur-evac",
+        "air_leak"
+      ],
+      [
+        "Pleur-evac",
+        "persistent_air_leak"
+      ],
+      [
+        "Radiology",
+        "thorax"
+      ],
+      [
+        "VATS_clinic",
+        "VATS_procedure"
+      ],
+      [
+        "atelectasis",
+        "othorax"
+      ],
+      [
+        "chest_tube",
+        "heimlich_valve"
+      ],
+      [
+        "chest_tube",
+        "pneumothorax"
+      ],
+      [
+        "chest_tube",
+        "primary_team"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1790396934,
+    "update_time": 1790396934,
+    "_id": "doc-aa260e9207bb6144bb25f98ed8b77838"
+  },
+  "doc-5366ece68b092861bfb2a01aff52f363": {
+    "relation_pairs": [
+      [
+        "BioNTech 162b2 mRNA COVID-19 vaccine",
+        "IgG3 Antibody"
+      ],
+      [
+        "BioNTech 162b2 mRNA COVID-19 vaccine",
+        "Patient"
+      ],
+      [
+        "Coronavirus spike protein",
+        "Patient"
+      ],
+      [
+        "IgG3 Antibody",
+        "Pneumococcal virulence proteins"
+      ],
+      [
+        "IgG3 Antibody",
+        "Pneumovax"
+      ],
+      [
+        "IgH Chain Deletion",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2 spike protein"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790397054,
+    "update_time": 1790397054,
+    "_id": "doc-5366ece68b092861bfb2a01aff52f363"
+  },
+  "doc-9830f31d51c915a5d63cd25e5ee2876c": {
+    "relation_pairs": [
+      [
+        "ADEM",
+        "COVID-19-vaccination"
+      ],
+      [
+        "ADEM",
+        "Patient"
+      ],
+      [
+        "ADEM",
+        "Pfizer-BioNTech"
+      ],
+      [
+        "ADEM",
+        "T1"
+      ],
+      [
+        "ADEM",
+        "T2"
+      ],
+      [
+        "ADEM Episode",
+        "Graus' Criteria"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19-vaccination",
+        "Patient"
+      ],
+      [
+        "CSF",
+        "N-IgG"
+      ],
+      [
+        "CSF",
+        "RBDo-IgG"
+      ],
+      [
+        "CSF",
+        "S1/RBD/RBDd-IgG"
+      ],
+      [
+        "CSF analysis",
+        "ic ADEM"
+      ],
+      [
+        "Graves' disease",
+        "Patient"
+      ],
+      [
+        "Graves' disease",
+        "ic ADEM"
+      ],
+      [
+        "Holmes Tremor",
+        "Levodopa"
+      ],
+      [
+        "Orchiectomy",
+        "Patient"
+      ],
+      [
+        "PCR-based diagnosis",
+        "SARS-CoV-2"
+      ],
+      [
+        "Patient",
+        "Rehabilitation"
+      ],
+      [
+        "Patient",
+        "Rituximab"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2"
+      ],
+      [
+        "Patient",
+        "Sars-CoV-2-VOC"
+      ],
+      [
+        "Polymerase Chain Reaction",
+        "Rituximab"
+      ],
+      [
+        "SARS-CoV-2",
+        "World Health Organization international standard calibration"
+      ],
+      [
+        "SARS-CoV-2",
+        "omicron variant"
+      ],
+      [
+        "Sars-CoV-2-VOC",
+        "ViraChip"
+      ],
+      [
+        "albumin",
+        "ic ADEM"
+      ],
+      [
+        "cerebellar peduncle",
+        "ic ADEM"
+      ],
+      [
+        "glucose",
+        "ic ADEM"
+      ],
+      [
+        "ic ADEM",
+        "immunoglobulin G (IgG)"
+      ],
+      [
+        "ic ADEM",
+        "interleukin-2-receptor"
+      ],
+      [
+        "ic ADEM",
+        "lactate"
+      ],
+      [
+        "ic ADEM",
+        "medulla oblongata"
+      ],
+      [
+        "ic ADEM",
+        "occupational therapy"
+      ],
+      [
+        "ic ADEM",
+        "patient"
+      ],
+      [
+        "ic ADEM",
+        "physical therapy"
+      ],
+      [
+        "ic ADEM",
+        "pons"
+      ],
+      [
+        "ic ADEM",
+        "psychotherapy"
+      ],
+      [
+        "ic ADEM",
+        "rehabilitation"
+      ],
+      [
+        "ic ADEM",
+        "rituximab"
+      ],
+      [
+        "ic ADEM",
+        "soluble interleukin-2-receptor"
+      ],
+      [
+        "ic ADEM",
+        "speech therapy"
+      ],
+      [
+        "ic ADEM",
+        "ventral medulla oblongata"
+      ]
+    ],
+    "count": 42,
+    "create_time": 1790397369,
+    "update_time": 1790397369,
+    "_id": "doc-9830f31d51c915a5d63cd25e5ee2876c"
+  },
+  "doc-397d75bf96c654d226460be3bdf675fd": {
+    "relation_pairs": [
+      [
+        "Admission to hospital",
+        "Fever"
+      ],
+      [
+        "B cell aplasia",
+        "Case report: Clinical course and treatment of SARS-CoV-2"
+      ],
+      [
+        "B cell aplasia",
+        "SARS-CoV-2"
+      ],
+      [
+        "B cells",
+        "T cells"
+      ],
+      [
+        "B-ALL",
+        "HSCT"
+      ],
+      [
+        "B-ALL diagnosis",
+        "Pulmonary function testing"
+      ],
+      [
+        "Bilateral patchy consolidations",
+        "Pneumonia"
+      ],
+      [
+        "Blinatumomab",
+        "Case report: Clinical course and treatment of SARS-CoV-2"
+      ],
+      [
+        "C-reactive protein",
+        "CRP"
+      ],
+      [
+        "C-reactive protein (CRP)",
+        "Ferritin"
+      ],
+      [
+        "C-reactive protein (CRP)",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Case report: Clinical course and treatment of SARS-CoV-2"
+      ],
+      [
+        "COVID-19",
+        "Multiple family members"
+      ],
+      [
+        "COVID-19",
+        "Multisystem Inflammatory Syndrome in Children (MIS-C)"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19 diagnosis",
+        "Fever"
+      ],
+      [
+        "COVID-19 diagnosis",
+        "Viral infections"
+      ],
+      [
+        "CRP",
+        "ferritin"
+      ],
+      [
+        "CRP levels",
+        "Dexamethasone"
+      ],
+      [
+        "CRP levels",
+        "Patient"
+      ],
+      [
+        "Case ID: PMC10036744_01",
+        "Case report: Clinical course and treatment of SARS-CoV-2"
+      ],
+      [
+        "Case report: Clinical course and treatment of SARS-CoV-2",
+        "PMCID"
+      ],
+      [
+        "Case report: Clinical course and treatment of SARS-CoV-2",
+        "SARS-CoV-2"
+      ],
+      [
+        "Casirivimab/imdevimab",
+        "SARS-CoV-2 Delta Variant"
+      ],
+      [
+        "Cd8 cells",
+        "T cell count"
+      ],
+      [
+        "Chart",
+        "Patient"
+      ],
+      [
+        "Chest",
+        "Computed Tomography"
+      ],
+      [
+        "Chest X-ray",
+        "Computed Tomography (CT)"
+      ],
+      [
+        "Chest imaging",
+        "Ground glass opacities"
+      ],
+      [
+        "Computed Tomography",
+        "chest"
+      ],
+      [
+        "Content",
+        "Taxonomy"
+      ],
+      [
+        "Cuvitru",
+        "IVIg"
+      ],
+      [
+        "Cuvitru",
+        "IgG supplementation"
+      ],
+      [
+        "Dexamethasone",
+        "T cell activity"
+      ],
+      [
+        "Energy",
+        "Patient"
+      ],
+      [
+        "Fever",
+        "Patient symptom"
+      ],
+      [
+        "Fever curve",
+        "Patient"
+      ],
+      [
+        "Front Pediatr",
+        "case report: Clinical course and treatment of SARS-CoV-2"
+      ],
+      [
+        "IVIg",
+        "IgG supplementation"
+      ],
+      [
+        "IVIg",
+        "hypogammaglobulinemia"
+      ],
+      [
+        "Image",
+        "Patient"
+      ],
+      [
+        "Image",
+        "Taxonomy"
+      ],
+      [
+        "Medical Imaging",
+        "Patient"
+      ],
+      [
+        "NP swab",
+        "SARS-CoV-2"
+      ],
+      [
+        "Patient",
+        "Therapy"
+      ],
+      [
+        "Patient",
+        "casirivimab/imdevimab"
+      ],
+      [
+        "Patient",
+        "daily maximum temperature (Tmax)"
+      ],
+      [
+        "Patient",
+        "dexamethasone"
+      ],
+      [
+        "Patient",
+        "remdesivir"
+      ],
+      [
+        "Patient Demographics: Case ID: PMC10036744_01",
+        "case report: Clinical course and treatment of SARS-CoV-2"
+      ],
+      [
+        "Patient symptom",
+        "Viral infections"
+      ],
+      [
+        "Peripheral neuropathy",
+        "covid-19"
+      ],
+      [
+        "Remdesivir",
+        "SARS-CoV-2"
+      ],
+      [
+        "SARS-CoV-2",
+        "Viral load"
+      ],
+      [
+        "SARS-CoV-2",
+        "casirivimab/imdevimab"
+      ],
+      [
+        "SARS-CoV-2",
+        "dexamethasone"
+      ],
+      [
+        "SARS-CoV-2",
+        "hypogammaglobulinemia"
+      ],
+      [
+        "SARS-CoV-2",
+        "remdesivir"
+      ],
+      [
+        "community-acquired pneumonia",
+        "peripheral neuropathy"
+      ],
+      [
+        "patient",
+        "relapse"
+      ]
+    ],
+    "count": 60,
+    "create_time": 1790397939,
+    "update_time": 1790397939,
+    "_id": "doc-397d75bf96c654d226460be3bdf675fd"
+  },
+  "doc-ddb189d08becfbc31626442a6e6080f1": {
+    "relation_pairs": [
+      [
+        "COVID-19 Vaccination",
+        "Tuberculous Meningitis"
+      ],
+      [
+        "Glasgow Coma Scale",
+        "Hydrocephalus"
+      ],
+      [
+        "Glasgow Coma Scale Score",
+        "Hydrocephalus"
+      ],
+      [
+        "HIV",
+        "ceftriaxone"
+      ],
+      [
+        "HIV",
+        "patient"
+      ],
+      [
+        "Hydrocephalus",
+        "Patient Relatives"
+      ],
+      [
+        "Hydrocephalus",
+        "Tuberculous Meningitis"
+      ],
+      [
+        "Hydrocephalus",
+        "Tuberculous Meningitis Diagnosis"
+      ],
+      [
+        "ICU",
+        "tuberculous meningitis"
+      ],
+      [
+        "Image",
+        "Region Granular"
+      ],
+      [
+        "Int Med Case Rep J",
+        "PMC10038010_01"
+      ],
+      [
+        "Int Med Case Rep J",
+        "Patient"
+      ],
+      [
+        "Labels",
+        "Region Granular"
+      ],
+      [
+        "Region",
+        "Taxonomy"
+      ],
+      [
+        "Region Granular",
+        "Taxonomy"
+      ],
+      [
+        "Region Granular",
+        "View"
+      ],
+      [
+        "basilar enhancement",
+        "ventriculomegaly"
+      ],
+      [
+        "ceftriaxone",
+        "patient"
+      ],
+      [
+        "ceftriaxone",
+        "tuberculous meningitis"
+      ],
+      [
+        "dexamethasone",
+        "patient"
+      ],
+      [
+        "dexamethasone",
+        "toxoplasmosis"
+      ],
+      [
+        "hospital ward",
+        "patient"
+      ],
+      [
+        "hypertonic saline",
+        "patient"
+      ],
+      [
+        "lumbar puncture",
+        "tuberculous meningitis"
+      ],
+      [
+        "paracetamol",
+        "patient"
+      ],
+      [
+        "patient",
+        "seizures"
+      ],
+      [
+        "patient",
+        "third nerve palsy"
+      ],
+      [
+        "patient",
+        "toxoplasmosis"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1790398281,
+    "update_time": 1790398281,
+    "_id": "doc-ddb189d08becfbc31626442a6e6080f1"
+  },
+  "doc-70206bf5a955ae83322d2cf6035a3ef9": {
+    "relation_pairs": [
+      [
+        "Acinetobacter baumannii",
+        "Cryptococcus neoformans pneumonia"
+      ],
+      [
+        "Colitis",
+        "Patient"
+      ],
+      [
+        "Colonoscopy",
+        "Infliximab"
+      ],
+      [
+        "Colonoscopy",
+        "Radiology"
+      ],
+      [
+        "Cryptococcosis",
+        "Patient"
+      ],
+      [
+        "Cryptococcus neoformans pneumonia",
+        "Patient"
+      ],
+      [
+        "Endoscopy",
+        "Lung Lesions"
+      ],
+      [
+        "Endoscopy",
+        "Pathology"
+      ],
+      [
+        "Fungal Infections",
+        "Voriconazole"
+      ],
+      [
+        "Ganciclovir",
+        "Patient"
+      ],
+      [
+        "Hospital",
+        "Patient"
+      ],
+      [
+        "Hospital",
+        "Ulcerative Colitis"
+      ],
+      [
+        "Infliximab",
+        "Patient"
+      ],
+      [
+        "Lung Lesions",
+        "Vedolizumab"
+      ],
+      [
+        "Methylprednisolone",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Ulcerative Colitis"
+      ],
+      [
+        "endoscopy",
+        "radiology"
+      ],
+      [
+        "endoscopy",
+        "voriconazole"
+      ],
+      [
+        "lung lesions",
+        "voriconazole"
+      ],
+      [
+        "radiology",
+        "taxomony"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1790398513,
+    "update_time": 1790398513,
+    "_id": "doc-70206bf5a955ae83322d2cf6035a3ef9"
+  },
+  "doc-f020ad0a2c0ecdec4208d99f1323b71a": {
+    "relation_pairs": [
+      [
+        "AB SCIEX 4500 Series of Instruments",
+        "Patient"
+      ],
+      [
+        "Brain",
+        "Brain MRI and CT scan at admission."
+      ],
+      [
+        "CSF",
+        "Venous blood"
+      ],
+      [
+        "CT",
+        "Head"
+      ],
+      [
+        "CT",
+        "MRI"
+      ],
+      [
+        "CT Scan",
+        "patient"
+      ],
+      [
+        "Chart",
+        "Timeline of major clinical events"
+      ],
+      [
+        "Clofazimine",
+        "Moxifloxacin"
+      ],
+      [
+        "December 23, 2021",
+        "Patient"
+      ],
+      [
+        "GeneXpert MTB/RIF",
+        "Patient"
+      ],
+      [
+        "GeneXpert MTB/RIF",
+        "TBM-DNA"
+      ],
+      [
+        "Glasgow Coma Scale",
+        "Patient"
+      ],
+      [
+        "Head",
+        "MRI"
+      ],
+      [
+        "Head",
+        "X_ray"
+      ],
+      [
+        "High-performance liquid chromatography-tandem mass spectrometry (LC-MS/MS)",
+        "Patient"
+      ],
+      [
+        "Infect Drug Resist",
+        "The clinical case report"
+      ],
+      [
+        "Isoniazid",
+        "Linezolid"
+      ],
+      [
+        "LTEVD",
+        "Patient"
+      ],
+      [
+        "LTVED",
+        "Patient"
+      ],
+      [
+        "MRI",
+        "patient"
+      ],
+      [
+        "Ommaya reservoir implantation",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "TBM"
+      ],
+      [
+        "Patient",
+        "Vellore grading system"
+      ],
+      [
+        "Pharmacokinetics of Antituberculosis Drugs in Plasma and Cerebrospinal Fluid in a Patient with Pre-Extensive Drug Resistant Tuberculosis Meningitis",
+        "The clinical case report"
+      ],
+      [
+        "TBMH",
+        "Vellore grading system"
+      ],
+      [
+        "The Third People's Hospital of Shenzhen",
+        "The hospital medical staff"
+      ],
+      [
+        "The Third People's Hospital of Shenzhen",
+        "The patient"
+      ],
+      [
+        "The patient",
+        "had a chest CT scan"
+      ],
+      [
+        "The patient",
+        "had a magnetic resonance imaging (MRI) scan"
+      ],
+      [
+        "The patient",
+        "had symptoms"
+      ],
+      [
+        "The patient",
+        "underwent a lumbar puncture"
+      ],
+      [
+        "The patient",
+        "visited"
+      ],
+      [
+        "Whole-genome sequencing",
+        "rpoB"
+      ],
+      [
+        "anemia",
+        "peripheral_neuritis"
+      ],
+      [
+        "isoniazid",
+        "patient"
+      ],
+      [
+        "linezolid",
+        "patient"
+      ]
+    ],
+    "count": 36,
+    "create_time": 1790399003,
+    "update_time": 1790399003,
+    "_id": "doc-f020ad0a2c0ecdec4208d99f1323b71a"
+  },
+  "doc-5ef80c1f6a3937583bd83719f09a7443": {
+    "relation_pairs": [
+      [
+        "L-AmB",
+        "Leishmaniasis"
+      ],
+      [
+        "L. donovani",
+        "Sudarshan et al."
+      ],
+      [
+        "L. infantum",
+        "Verrest et al."
+      ],
+      [
+        "Leishmaniasis",
+        "Rev Soc Bras Med Trop"
+      ],
+      [
+        "Rev Soc Bras Med Trop",
+        "VL patients"
+      ],
+      [
+        "Rev Soc Bras Med Trop",
+        "qPCR"
+      ],
+      [
+        "VL patients",
+        "Verrest et al."
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790399050,
+    "update_time": 1790399050,
+    "_id": "doc-5ef80c1f6a3937583bd83719f09a7443"
+  },
+  "doc-3fe52622b806c3dde023d8b421f5077a": {
+    "relation_pairs": [
+      [
+        "18 F-fluorodeoxyglucose positron emission tomography-computed tomography (18 F-FDG-PETCT)",
+        "Computed tomography (CT)"
+      ],
+      [
+        "18 F-fluorodeoxyglucose positron emission tomography-computed tomography (18 F-FDG-PETCT)",
+        "Tuberculin skin test"
+      ],
+      [
+        "ASO",
+        "Tuberculin antibody IgG"
+      ],
+      [
+        "Acid-fast bacilli stain",
+        "Muscle biopsy"
+      ],
+      [
+        "Acid-fast bacilli stain",
+        "Mycobacterium tuberculosis"
+      ],
+      [
+        "Age",
+        "Patient"
+      ],
+      [
+        "C-reactive protein (CRP)",
+        "Positron emission tomography-computed tomography (PETCT)"
+      ],
+      [
+        "C-reactive protein (CRP)",
+        "Tuberculin antibody IgG"
+      ],
+      [
+        "CD3",
+        "T1-weighted turbo spin-echo (T1W-TSE) image"
+      ],
+      [
+        "Case 1",
+        "T2-weighted spectral presaturation attenuated inversion recovery (T2W-SPAIR)"
+      ],
+      [
+        "Case report: Muscular tuberculosis",
+        "Patient Demographics"
+      ],
+      [
+        "Chest computed tomography (CT)",
+        "Purified protein derivative"
+      ],
+      [
+        "Computed tomography (CT)",
+        "Gadolinium"
+      ],
+      [
+        "Computed tomography (CT)",
+        "Radiation therapy"
+      ],
+      [
+        "Cytokeratin (AE1/AE3)",
+        "Muscle biopsy"
+      ],
+      [
+        "Distal motor latency",
+        "Electromyography"
+      ],
+      [
+        "F wave",
+        "Motor unit potential (MUP)"
+      ],
+      [
+        "Front Med (Lausanne)",
+        "Patient Demographics"
+      ],
+      [
+        "Gadolinium",
+        "T1-weighed turbo spin-echo (T1W-TSE)"
+      ],
+      [
+        "Gastrocnemius muscle",
+        "T2-weighted spectral presaturation attenuated inversion recovery (T2W-SPAIR)"
+      ],
+      [
+        "Gender",
+        "Patient"
+      ],
+      [
+        "Hypermetabolic lesions",
+        "Tuberculin antibody IgG"
+      ],
+      [
+        "Lower-extremity muscular masses",
+        "Patient"
+      ],
+      [
+        "MT",
+        "PCR for the mycobacterium tuberculosis complex"
+      ],
+      [
+        "Muscle biopsy",
+        "Mycobacterium tuberculosis"
+      ],
+      [
+        "Muscle biopsy",
+        "Ultrasound"
+      ],
+      [
+        "Muscular tuberculosis",
+        "Patient"
+      ],
+      [
+        "Mycobacterium tuberculosis",
+        "T1-weighted turbo spin-echo (T1W-TSE) image"
+      ],
+      [
+        "PCR for the mycobacterium tuberculosis complex",
+        "Paraffin-embedded samples"
+      ],
+      [
+        "Patient",
+        "pulmonary TB"
+      ],
+      [
+        "Patient",
+        "tuberculous pleurisy"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1790399315,
+    "update_time": 1790399315,
+    "_id": "doc-3fe52622b806c3dde023d8b421f5077a"
+  },
+  "doc-049ea1a9ce8bf1994b5a4f69969915b5": {
+    "relation_pairs": [
+      [
+        "Case ID: PMC10043165_02",
+        "Muscular tuberculosis"
+      ],
+      [
+        "Case ID: PMC10043165_02",
+        "Patient ID 2"
+      ],
+      [
+        "Epithelioid granulomas",
+        "Histopathologic examination"
+      ],
+      [
+        "Front Med (Lausanne)",
+        "Patient ID 1"
+      ],
+      [
+        "Histopathologic examination",
+        "MT"
+      ],
+      [
+        "Histopathologic examination",
+        "PCR for TB"
+      ],
+      [
+        "Histopathologic examination",
+        "Patients in cases 1 and 2"
+      ],
+      [
+        "Histopathologic examination",
+        "TB"
+      ],
+      [
+        "Isoniazid and rifampicin",
+        "Patients in cases 1 and 2"
+      ],
+      [
+        "Isotzid and riflampicin",
+        "Patients in cases 1 and 2"
+      ],
+      [
+        "Lower-extremity muscular masses",
+        "Right calf"
+      ],
+      [
+        "MT",
+        "PCR for TB"
+      ],
+      [
+        "Muscular tuberculosis",
+        "Patient ID 1"
+      ],
+      [
+        "Musculus soleus",
+        "Patient ID 2"
+      ],
+      [
+        "Patient ID 1 and 2",
+        "Tuberculosis"
+      ],
+      [
+        "Patients in cases 1 and 2",
+        "Standard oral antituberculosis treatment"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1790399462,
+    "update_time": 1790399462,
+    "_id": "doc-049ea1a9ce8bf1994b5a4f69969915b5"
+  },
+  "doc-3e6fac4d0ace145ccea7831fee370c35": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "Patient One"
+      ],
+      [
+        "COVID-19",
+        "Rituximab"
+      ],
+      [
+        "Covid19",
+        "PMC10043414_01"
+      ],
+      [
+        "Diarrhea",
+        "Fever"
+      ],
+      [
+        "Diarrhea",
+        "Sore Throat"
+      ],
+      [
+        "Fever",
+        "Headache"
+      ],
+      [
+        "Front Med (Lausanne)",
+        "PMC10043414_01"
+      ],
+      [
+        "IVIG",
+        "PMC10043414_01"
+      ],
+      [
+        "PCR test",
+        "Patient One"
+      ],
+      [
+        "PDAI",
+        "Patient One"
+      ],
+      [
+        "PMC10043414_01",
+        "PV"
+      ],
+      [
+        "PMC10043414_01",
+        "Pfizer-BioNTech"
+      ],
+      [
+        "PMC10043414_01",
+        "Prednisone"
+      ],
+      [
+        "PMC10043414_01",
+        "Rituximab"
+      ],
+      [
+        "PV",
+        "Patient One"
+      ],
+      [
+        "Patient One",
+        "Rituximab"
+      ],
+      [
+        "Pfizer-BioNTech",
+        "rituximab: Case reports from a single center experience in Australia"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1790399603,
+    "update_time": 1790399603,
+    "_id": "doc-3e6fac4d0ace145ccea7831fee370c35"
+  },
+  "doc-3e3f3c4d8f66d7495a702536a1895bbb": {
+    "relation_pairs": [
+      [
+        "AstraZeneca COVID-19 vaccination booster",
+        "COVID-19 pandemic"
+      ],
+      [
+        "AstraZeneca COVID-19 vaccination booster",
+        "Indian descent patient"
+      ],
+      [
+        "Australian Center",
+        "Indian descent patient"
+      ],
+      [
+        "Australian Center",
+        "Mycophenolate"
+      ],
+      [
+        "Australian Center",
+        "Prednisone"
+      ],
+      [
+        "Australian Center",
+        "Rituximab"
+      ],
+      [
+        "COVID-19",
+        "Patient Two"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19 pandemic",
+        "Indian descent patient"
+      ],
+      [
+        "COVID-19 pandemic",
+        "Moderna mRNA vaccinations"
+      ],
+      [
+        "COVID-19 pandemic",
+        "Pfizer-BioNTech COVID-19 vaccinations"
+      ],
+      [
+        "COVID-19 pandemic",
+        "Rituximab"
+      ],
+      [
+        "Indian descent patient",
+        "Moderna mRNA vaccinations"
+      ],
+      [
+        "Indian descent patient",
+        "Mycophenolate"
+      ],
+      [
+        "Indian descent patient",
+        "PDAI activity score"
+      ],
+      [
+        "Indian descent patient",
+        "Pfizer-BioNTech COVID-19 vaccinations"
+      ],
+      [
+        "Indian descent patient",
+        "Prednisone"
+      ],
+      [
+        "Indian descent patient",
+        "Rituximab"
+      ],
+      [
+        "Moderna",
+        "Patient Two"
+      ],
+      [
+        "Mycophenolate",
+        "PV (Pemphigus vulgaris)"
+      ],
+      [
+        "PV (Pemphigus vulgaris)",
+        "Prednisone"
+      ],
+      [
+        "Patient Two",
+        "Pfizer-BioNTech"
+      ],
+      [
+        "Patient Two",
+        "Rituximab"
+      ]
+    ],
+    "count": 23,
+    "create_time": 1790399744,
+    "update_time": 1790399744,
+    "_id": "doc-3e3f3c4d8f66d7495a702536a1895bbb"
+  },
+  "doc-a4cac2addca2717d86125cd3a997e5bd": {
+    "relation_pairs": [
+      [
+        "Administered to",
+        "Pfizer COVID-19 vaccinations"
+      ],
+      [
+        "Affected by",
+        "B cells"
+      ],
+      [
+        "Affects",
+        "Pemphigus"
+      ],
+      [
+        "Affects demographic of",
+        "Caucasian"
+      ],
+      [
+        "Australia",
+        "Experienced by"
+      ],
+      [
+        "B-cell suppression",
+        "patient three"
+      ],
+      [
+        "COVID-19",
+        "DSG 3 antibody"
+      ],
+      [
+        "COVID-19",
+        "antiviral therapy"
+      ],
+      [
+        "COVID-19",
+        "patient three"
+      ],
+      [
+        "COVID-19",
+        "rituximab"
+      ],
+      [
+        "Considered for",
+        "IVIG"
+      ],
+      [
+        "DSG 3 antibody",
+        "pandemic"
+      ],
+      [
+        "December 2021",
+        "patient three"
+      ],
+      [
+        "Front Med (Lausanne)",
+        "Published in by"
+      ],
+      [
+        "Front Med (Lausanne)",
+        "Raised awareness about"
+      ],
+      [
+        "Image C1",
+        "patient three"
+      ],
+      [
+        "Image C2",
+        "patient three"
+      ],
+      [
+        "Images C1 and C2",
+        "Timeline"
+      ],
+      [
+        "Lausanne",
+        "Location of"
+      ],
+      [
+        "Prednisone",
+        "Used for"
+      ],
+      [
+        "Rituximab",
+        "Used for"
+      ],
+      [
+        "patient three",
+        "rituximab"
+      ],
+      [
+        "patient three",
+        "treatment"
+      ]
+    ],
+    "count": 23,
+    "create_time": 1790399901,
+    "update_time": 1790399901,
+    "_id": "doc-a4cac2addca2717d86125cd3a997e5bd"
+  },
+  "doc-b74fd1be0bac20260caf978512133533": {
+    "relation_pairs": [
+      [
+        "2023",
+        "Reumatologia"
+      ],
+      [
+        "Acetylsalicylic acid",
+        "Patient"
+      ],
+      [
+        "Antinuclear antibodies",
+        "Patient"
+      ],
+      [
+        "Autism Spectrum Disorder",
+        "Patient's Brother"
+      ],
+      [
+        "C-reactive protein",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "Caesarean Section",
+        "Patient"
+      ],
+      [
+        "Case Presentation",
+        "PMC10044031_01"
+      ],
+      [
+        "D-dimer",
+        "Patient"
+      ],
+      [
+        "Fever",
+        "Patient"
+      ],
+      [
+        "Fibrinogen",
+        "Patient"
+      ],
+      [
+        "IgG-related antibodies",
+        "Patient"
+      ],
+      [
+        "JIA",
+        "MIS-C"
+      ],
+      [
+        "JIA",
+        "Patient"
+      ],
+      [
+        "MIS-C",
+        "Patient"
+      ],
+      [
+        "Methylprednisolone",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Procalcitonin"
+      ],
+      [
+        "Patient",
+        "Rheumatoid factors"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2-Related Multisystem Inflammatory Syndrome"
+      ],
+      [
+        "Patient",
+        "Systemic Juvenile Idiopathic Arthritis"
+      ],
+      [
+        "Patient",
+        "Thrombocytes"
+      ],
+      [
+        "SARS-CoV-2-Related Multisystem Inflammatory Syndrome",
+        "Systemic Juvenile Idiopathic Arthritis"
+      ],
+      [
+        "folic acid",
+        "methotrexate"
+      ],
+      [
+        "folic acid",
+        "systemic juvenile idiopathic arthritis"
+      ],
+      [
+        "methotrexate",
+        "methylprednisolone"
+      ],
+      [
+        "methotrexate",
+        "synovitis"
+      ],
+      [
+        "methotrexate",
+        "systemic juvenile idiopathic arthritis"
+      ],
+      [
+        "methylprednisolone",
+        "synovitis"
+      ],
+      [
+        "methylprednisolone",
+        "systemic juvenile idiopathic arthritis"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1790400085,
+    "update_time": 1790400085,
+    "_id": "doc-b74fd1be0bac20260caf978512133533"
+  },
+  "doc-b671f12d433daec53ffa3034d0f5e82f": {
+    "relation_pairs": [
+      [
+        "76.92-81.87%",
+        "our system"
+      ],
+      [
+        "Air quality measures",
+        "Google Cloud AI"
+      ],
+      [
+        "COVID-19",
+        "Characterized by"
+      ],
+      [
+        "COVID-19",
+        "Has"
+      ],
+      [
+        "COVID-19 Public Forecasts",
+        "Google Cloud AI"
+      ],
+      [
+        "Compared to",
+        "Figure 7"
+      ],
+      [
+        "Compared to",
+        "Our system"
+      ],
+      [
+        "Figure 6",
+        "Published in"
+      ],
+      [
+        "Figure 7",
+        "Table 5"
+      ],
+      [
+        "Front Public Health",
+        "Published by"
+      ],
+      [
+        "Google Cloud AI",
+        "Governmental policies"
+      ],
+      [
+        "Google Cloud AI",
+        "Hospital patient experience rating"
+      ],
+      [
+        "Google Cloud AI",
+        "Mobility index"
+      ],
+      [
+        "Google Cloud AI",
+        "Per capita income"
+      ],
+      [
+        "India",
+        "Other countries"
+      ],
+      [
+        "Japan",
+        "Located in"
+      ],
+      [
+        "Our system",
+        "Uses"
+      ],
+      [
+        "Published in",
+        "Table 2"
+      ],
+      [
+        "Published in",
+        "Table 3"
+      ],
+      [
+        "Twitter",
+        "Used by"
+      ],
+      [
+        "forecast date",
+        "next 7, 14, 21, and 28 days"
+      ],
+      [
+        "forecast date",
+        "our system"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1790400361,
+    "update_time": 1790400361,
+    "_id": "doc-b671f12d433daec53ffa3034d0f5e82f"
+  },
+  "doc-f20b43850bf66bd2b3a28373aa471cc9": {
+    "relation_pairs": [
+      [
+        "72-year-old female",
+        "Coronavirus Disease 2019 (COVID-19)"
+      ],
+      [
+        "72-year-old female",
+        "Diabetes mellitus"
+      ],
+      [
+        "72-year-old female",
+        "Hyperlipidemia"
+      ],
+      [
+        "72-year-old female",
+        "Osteoporosis"
+      ],
+      [
+        "72-year-old female",
+        "mRNA COVID-19 vaccine BNT162b2"
+      ],
+      [
+        "AOSD",
+        "CRP"
+      ],
+      [
+        "AOSD",
+        "Ferritin"
+      ],
+      [
+        "AOSD",
+        "GLS"
+      ],
+      [
+        "AOSD",
+        "Indomethacin"
+      ],
+      [
+        "AOSD",
+        "LVEF"
+      ],
+      [
+        "AOSD",
+        "Multidisciplinary team"
+      ],
+      [
+        "AOSD",
+        "Pet-CT"
+      ],
+      [
+        "AOSD",
+        "Prednisolone"
+      ],
+      [
+        "AOSD",
+        "Yamaguchi criteria"
+      ],
+      [
+        "Anti-Double Stranded DNA (anti-dsDNA)",
+        "Gastritis"
+      ],
+      [
+        "Anti-Double Stranded DNA (anti-dsDNA)",
+        "Myocarditis"
+      ],
+      [
+        "Anti-Extractable Nuclear Antigens (anti-ENA)",
+        "Myocarditis"
+      ],
+      [
+        "Antinuclear Antibody",
+        "Myocarditis"
+      ],
+      [
+        "Atrial Fibrillation",
+        "Patient"
+      ],
+      [
+        "Bilateral Axillary Area",
+        "Lymphadenopathy"
+      ],
+      [
+        "C-reactive protein (CRP)",
+        "Ferritin"
+      ],
+      [
+        "Cardiac Strain Analysis",
+        "Global Longitudinal Strain"
+      ],
+      [
+        "Cardiac Strain Analysis",
+        "Key Investigations"
+      ],
+      [
+        "Cardiac Strain Analysis",
+        "LVEF"
+      ],
+      [
+        "Cardiac Strain Analysis",
+        "PET-CT"
+      ],
+      [
+        "Case Presentation",
+        "Patient Demographics"
+      ],
+      [
+        "Cervical Area",
+        "Lymphadenopathy"
+      ],
+      [
+        "Coronary Angiogram",
+        "Patient"
+      ],
+      [
+        "Coronavirus Disease 2019 (COVID-19)",
+        "Target Disease Indications"
+      ],
+      [
+        "Count of C",
+        "coronary angiography"
+      ],
+      [
+        "Electrocardiogram",
+        "Patient"
+      ],
+      [
+        "Epicardium to Mid-Myocardium",
+        "Patient"
+      ],
+      [
+        "Ferritin",
+        "Myocarditis"
+      ],
+      [
+        "GLS",
+        "LVEF"
+      ],
+      [
+        "Hilar Area",
+        "Lymphadenopathy"
+      ],
+      [
+        "Hydrocortisone",
+        "Patient"
+      ],
+      [
+        "ImageNote",
+        "PET-CT"
+      ],
+      [
+        "Liver parenchymal enzymes",
+        "alanine transaminase (ALT)"
+      ],
+      [
+        "Liver parenchymal enzymes",
+        "aspartate aminotransferase (AST)"
+      ],
+      [
+        "Lymphadenopathy",
+        "Mediastinal Area"
+      ],
+      [
+        "Lymphadenopathy",
+        "PET-CT"
+      ],
+      [
+        "Lymphadenopathy",
+        "Patient"
+      ],
+      [
+        "Lymphadenopathy",
+        "Peripancreatic Area"
+      ],
+      [
+        "Lymphadenopathy",
+        "Porta Hepatis Area"
+      ],
+      [
+        "Methotrexate",
+        "Patient"
+      ],
+      [
+        "Microbiological investigations",
+        "Myocarditis"
+      ],
+      [
+        "Myocarditis",
+        "cardiac magnetic resonance imaging"
+      ],
+      [
+        "Myocarditis",
+        "culture"
+      ],
+      [
+        "Myocarditis",
+        "erythrocyte sedimentation rate (ESR)"
+      ],
+      [
+        "Myocarditis",
+        "nucleic acid detection by polymerase chain reaction"
+      ],
+      [
+        "Myocarditis",
+        "serology"
+      ],
+      [
+        "Patient",
+        "Positron Emission Tomography (PET-CT)"
+      ],
+      [
+        "Patient",
+        "Transthoracic Echocardiography"
+      ],
+      [
+        "Table",
+        "Table 2"
+      ],
+      [
+        "Table 3",
+        "Yamaguchi criteria"
+      ],
+      [
+        "alanine transaminase (ALT)",
+        "aspartate aminotransferase (AST)"
+      ],
+      [
+        "echocardiography",
+        "left ventricular ejection fraction (LVEF)"
+      ],
+      [
+        "echocardiography",
+        "pulmonary congestion"
+      ]
+    ],
+    "count": 58,
+    "create_time": 1790400761,
+    "update_time": 1790400761,
+    "_id": "doc-f20b43850bf66bd2b3a28373aa471cc9"
+  },
+  "doc-7ee35c7abc79991f387a1d3d1a056a98": {
+    "relation_pairs": [
+      [
+        "2023",
+        "Case Rep Infect Dis"
+      ],
+      [
+        "Acute Severe Necrotizing Pancreatitis",
+        "Johnson & Johnson Vaccine"
+      ],
+      [
+        "Acute Severe Necrotizing Pancreatitis",
+        "PMCTOC10060063_01"
+      ],
+      [
+        "COVID-19",
+        "Case Rep Infect Dis"
+      ],
+      [
+        "Case Rep Infect Dis",
+        "Johnson & Johnson Vaccine"
+      ],
+      [
+        "J&J Vaccine",
+        "PMCTOC10060063_01"
+      ],
+      [
+        "Lactated Ringer",
+        "PMCTOC10060063_01"
+      ],
+      [
+        "Meropenem",
+        "PMCTOC10060063_01"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790400811,
+    "update_time": 1790400811,
+    "_id": "doc-7ee35c7abc79991f387a1d3d1a056a98"
+  },
+  "doc-7c64194b27f68aaa72cdd59bdab53127": {
+    "relation_pairs": [
+      [
+        "AIP",
+        "ICDC"
+      ],
+      [
+        "AIP",
+        "Patient"
+      ],
+      [
+        "AIP",
+        "UC-like colitis"
+      ],
+      [
+        "AIP",
+        "autoantibodies"
+      ],
+      [
+        "AIP",
+        "azathioprine"
+      ],
+      [
+        "AIP",
+        "liver enzyme"
+      ],
+      [
+        "AIP",
+        "patient"
+      ],
+      [
+        "AIP",
+        "steroids"
+      ],
+      [
+        "Acute pancreatitis",
+        "Patient"
+      ],
+      [
+        "Amylase",
+        "Patient"
+      ],
+      [
+        "Anti-smooth muscle antibodies",
+        "Patient"
+      ],
+      [
+        "Antinuclear antibodies",
+        "Patient"
+      ],
+      [
+        "Autoantibodies",
+        "Patient"
+      ],
+      [
+        "Case ID PMC10060632_01",
+        "Post-COVID-19 polyautoimmunity"
+      ],
+      [
+        "Case ID PMCs10060632_01",
+        "Patient Demographics"
+      ],
+      [
+        "Case ID PMCs10060632_01",
+        "acute pancreatitis"
+      ],
+      [
+        "Chronic diarrhea",
+        "Patient"
+      ],
+      [
+        "Covid19",
+        "Front Med (Lausanne)"
+      ],
+      [
+        "Doctor",
+        "Patient"
+      ],
+      [
+        "Hospital",
+        "Patient"
+      ],
+      [
+        "International Consensus Diagnostic Criteria",
+        "Patient"
+      ],
+      [
+        "Lipase",
+        "Patient"
+      ],
+      [
+        "MRCP",
+        "Patient"
+      ],
+      [
+        "MRI",
+        "Patient"
+      ],
+      [
+        "Nasopharyngeal swab",
+        "Patient"
+      ],
+      [
+        "PCR test",
+        "SARS-CoV-2"
+      ],
+      [
+        "Pancreas divisum",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Prednisolone"
+      ],
+      [
+        "Patient",
+        "Primary sclerosing cholangitis"
+      ],
+      [
+        "Patient",
+        "Serum IgG"
+      ],
+      [
+        "Patient",
+        "Soluble liver antigen antibodies"
+      ],
+      [
+        "Patient",
+        "UC-like colitis"
+      ],
+      [
+        "Patient",
+        "Viral hepatitis"
+      ],
+      [
+        "Pfizer",
+        "Sinopharm"
+      ],
+      [
+        "Subtype",
+        "Type"
+      ],
+      [
+        "Subtype",
+        "endoscopy"
+      ],
+      [
+        "Taxonomy",
+        "Type"
+      ],
+      [
+        "Taxonomy",
+        "endoscopy"
+      ],
+      [
+        "UC",
+        "UC-like colitis"
+      ],
+      [
+        "UC-like colitis",
+        "mesalazine"
+      ],
+      [
+        "UC-like colitis",
+        "patient"
+      ],
+      [
+        "acute pancreatitis",
+        "chronic diarrhea"
+      ],
+      [
+        "acute pancreatitis",
+        "metronidazole"
+      ],
+      [
+        "autoantibodies",
+        "patient"
+      ],
+      [
+        "liver enzyme",
+        "patient"
+      ],
+      [
+        "patient",
+        "steroids"
+      ],
+      [
+        "patient",
+        "viral hepatitis"
+      ]
+    ],
+    "count": 47,
+    "create_time": 1790401097,
+    "update_time": 1790401097,
+    "_id": "doc-7c64194b27f68aaa72cdd59bdab53127"
+  },
+  "doc-a6b1da4c7da3290d7d05a67bc6887c2b": {
+    "relation_pairs": [
+      [
+        ",Methylprednisolone",
+        "Amphotericin B"
+      ],
+      [
+        "25 C",
+        "Lomentospora prolificans"
+      ],
+      [
+        "25 C",
+        "pathology"
+      ],
+      [
+        "AFST",
+        "Lomentospora prolificans"
+      ],
+      [
+        "AFST",
+        "Table 1"
+      ],
+      [
+        "ATCC 22019",
+        "C. parapsilosis"
+      ],
+      [
+        "C. parapsilosis",
+        "NCBI"
+      ],
+      [
+        "CAM",
+        "fungal infection"
+      ],
+      [
+        "COVID-19",
+        "Necrosis of the Hard Palate"
+      ],
+      [
+        "COVID-19",
+        "PMC10061085_01"
+      ],
+      [
+        "COVID-19",
+        "Right Periorbital Edema"
+      ],
+      [
+        "Dexamethasone",
+        "Methylprednisolone"
+      ],
+      [
+        "GenBank",
+        "Lomentospora prolificans"
+      ],
+      [
+        "GenBank",
+        "Rhizopus oryzae"
+      ],
+      [
+        "Gram",
+        "Pathology"
+      ],
+      [
+        "Isfahan University of Medical Sciences",
+        "Lomentospora prolificans"
+      ],
+      [
+        "Isfahan University of Medical Sciences",
+        "Rhizopus oryzae"
+      ],
+      [
+        "Lomentospora proliferans",
+        "Sabouraud dextrose agar"
+      ],
+      [
+        "Lomentospora prolificans",
+        "NCBI"
+      ],
+      [
+        "Lomentospora prolificans",
+        "Rhizopus oryzae"
+      ],
+      [
+        "Lomentospora prolificans",
+        "Sabouraud dextrose agar"
+      ],
+      [
+        "Lomentospora prolificans",
+        "Surface and reverse"
+      ],
+      [
+        "NCBI",
+        "Rhizopus oryzae"
+      ],
+      [
+        "Rhizopus oryzae",
+        "Sabouraud dextrose agar"
+      ],
+      [
+        "Rhizopus oryzae",
+        "Surface and reverse"
+      ],
+      [
+        "axial",
+        "head"
+      ],
+      [
+        "ct",
+        "head"
+      ],
+      [
+        "endoscopic sinus and nasal surgery",
+        "hypoxia"
+      ],
+      [
+        "fungal infection",
+        "invasive mucorm"
+      ],
+      [
+        "gram",
+        "pathology"
+      ],
+      [
+        "h&e histopathological examination",
+        "tissue necrosis"
+      ],
+      [
+        "head",
+        "radiology"
+      ],
+      [
+        "head",
+        "sagittal"
+      ],
+      [
+        "head",
+        "spect"
+      ],
+      [
+        "hypoxia",
+        "inflammatory biomarkers"
+      ],
+      [
+        "hypoxia",
+        "methylprednisolone"
+      ],
+      [
+        "hypoxia",
+        "respiratory distress"
+      ],
+      [
+        "koh preparation",
+        "tissue necrosis"
+      ],
+      [
+        "patient",
+        "sars-cov-2"
+      ]
+    ],
+    "count": 39,
+    "create_time": 1790401547,
+    "update_time": 1790401547,
+    "_id": "doc-a6b1da4c7da3290d7d05a67bc6887c2b"
+  },
+  "doc-ba5e005ddacf8aab5cb36806ac1d7eff": {
+    "relation_pairs": [
+      [
+        "Acid-fast bacilli stain",
+        "Patient"
+      ],
+      [
+        "Antitubercular Treatment",
+        "Patient"
+      ],
+      [
+        "Blood Urea",
+        "Patient"
+      ],
+      [
+        "CBNAAT",
+        "Patient"
+      ],
+      [
+        "Cerebrospinal Fluid",
+        "Patient"
+      ],
+      [
+        "Chest Radiography",
+        "Patient"
+      ],
+      [
+        "Chest radiography",
+        "Patient"
+      ],
+      [
+        "Epithelioid Cell Granuloma",
+        "Interstitial Nephritis"
+      ],
+      [
+        "Interstitial Nephritis",
+        "TB"
+      ],
+      [
+        "Langhans_type_giant_cell",
+        "renal_biopsy_image"
+      ],
+      [
+        "Magnetic Resonance Imaging",
+        "Patient"
+      ],
+      [
+        "Magnetic Resonance Venography",
+        "Patient"
+      ],
+      [
+        "Mantoux Test",
+        "Patient"
+      ],
+      [
+        "Mantoux test",
+        "Patient"
+      ],
+      [
+        "Ophthalmology department",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Refractory Hypertension"
+      ],
+      [
+        "Patient",
+        "Renal Biopsy"
+      ],
+      [
+        "Patient",
+        "Serum Creatinine"
+      ],
+      [
+        "Patient",
+        "Urine bacterial culture"
+      ],
+      [
+        "Procedure",
+        "Urine microscopy"
+      ],
+      [
+        "caseous_necrosis",
+        "renal_biopsy_image"
+      ],
+      [
+        "fundus_photograph",
+        "pathology_report"
+      ],
+      [
+        "fundus_photograph",
+        "renal_biopsy_image"
+      ],
+      [
+        "pathology_report",
+        "renal_biopsy"
+      ],
+      [
+        "pathology_report",
+        "renal_biopsy_image"
+      ],
+      [
+        "renal_biopsy",
+        "renal_biopsy_image"
+      ],
+      [
+        "renal_biopsy",
+        "renal_biopsy_specimen"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1790401851,
+    "update_time": 1790401851,
+    "_id": "doc-ba5e005ddacf8aab5cb36806ac1d7eff"
+  },
+  "doc-d6b43f294f7182a81a8f52320634abb2": {
+    "relation_pairs": [
+      [
+        "1-month follow-up",
+        "optic neuritis"
+      ],
+      [
+        "Batch No. 4120Z011",
+        "PMC10062071_01"
+      ],
+      [
+        "COVID-19 vaccination",
+        "optic neuritis"
+      ],
+      [
+        "Case ID: PMC10062071_01",
+        "PMC10062071_01"
+      ],
+      [
+        "Covid19",
+        "PMC10062071_01"
+      ],
+      [
+        "Covishield",
+        "PMC10062071_01"
+      ],
+      [
+        "HFA 30-2",
+        "Left Eye"
+      ],
+      [
+        "HFA 30-2",
+        "Right Eye"
+      ],
+      [
+        "Humphrey visual field analysis (HFA 30-2)",
+        "left eye"
+      ],
+      [
+        "Humphrey visual field analysis (HFA 30-2)",
+        "right eye"
+      ],
+      [
+        "Left Eye",
+        "Optic Disc Edema"
+      ],
+      [
+        "Left Eye",
+        "Right Eye"
+      ],
+      [
+        "Oman J Ophthalmol",
+        "PMC10062071_01"
+      ],
+      [
+        "Optic Disc Edema",
+        "Right Eye"
+      ],
+      [
+        "fundus fluorescein angiography",
+        "left eye"
+      ],
+      [
+        "left eye",
+        "optic disc swelling"
+      ],
+      [
+        "left eye",
+        "right eye"
+      ],
+      [
+        "left eye",
+        "visual evoked potential (VEP)"
+      ],
+      [
+        "methyl prednisolone pulse therapy",
+        "optic neuritis"
+      ],
+      [
+        "methyl prednisolone pulse therapy",
+        "right eye"
+      ],
+      [
+        "optic disc swelling",
+        "right eye"
+      ],
+      [
+        "right eye",
+        "visual evoked potential (VEP)"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1790402001,
+    "update_time": 1790402001,
+    "_id": "doc-d6b43f294f7182a81a8f52320634abb2"
+  },
+  "doc-f30730d0b132091e96ea437177bae6cf": {
+    "relation_pairs": [
+      [
+        "Age: 28.0",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Best-corrected-visual-acuity (BCVA)",
+        "Patient Demographics"
+      ],
+      [
+        "Central macular thickness",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Dengue",
+        "Oman J Ophthalmol"
+      ],
+      [
+        "Dengue",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Fluorescein Angiography",
+        "Ophthalmic Angiography"
+      ],
+      [
+        "Fluorescein Angiography",
+        "Optical Coherence Tomography"
+      ],
+      [
+        "Fluorescein Angiography",
+        "Taxonomy"
+      ],
+      [
+        "Gender: Male",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Intravitreal triamcinolone acetonide",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Macular edema",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "OCT",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Oman J Ophthalmol",
+        "Optical coherence tomography angiography (OCTA)"
+      ],
+      [
+        "Ophthalmic Imaging",
+        "Optical Coherence Tomography"
+      ],
+      [
+        "Optical coherence tomography angiography (OCTA)",
+        "Platelet count: 84,000"
+      ],
+      [
+        "Optical coherence tomography angiography (OCTA)",
+        "Triamcinolone acetonide"
+      ],
+      [
+        "Retinal Layers",
+        "Retinal Thinning"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1790402167,
+    "update_time": 1790402167,
+    "_id": "doc-f30730d0b132091e96ea437177bae6cf"
+  },
+  "doc-9119ecde5d1c7cc671aaff07c77ee2e1": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "X"
+      ],
+      [
+        "ED",
+        "X"
+      ],
+      [
+        "X",
+        "chest X-ray"
+      ],
+      [
+        "X",
+        "complete blood count"
+      ],
+      [
+        "X",
+        "computed tomography (CT) scan of the brain"
+      ],
+      [
+        "X",
+        "electrolytes"
+      ],
+      [
+        "X",
+        "general practitioner"
+      ],
+      [
+        "X",
+        "liver function tests (LFTs)"
+      ],
+      [
+        "X",
+        "polymerase chain reaction (PCR)"
+      ],
+      [
+        "X",
+        "psychiatrist"
+      ],
+      [
+        "X",
+        "thyroid profile"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790402321,
+    "update_time": 1790402321,
+    "_id": "doc-9119ecde5d1c7cc671aaff07c77ee2e1"
+  },
+  "doc-95b580a63c7343d8b7f976e925b74120": {
+    "relation_pairs": [
+      [
+        "Black Arrows",
+        "Right Lung Cystic Lesions"
+      ],
+      [
+        "Case Worker",
+        "Patient"
+      ],
+      [
+        "Chest-CT Scan",
+        "Right Lung Cystic Lesions"
+      ],
+      [
+        "Chest-CT after 8 weeks",
+        "Right Lung Cystic Lesions"
+      ],
+      [
+        "Covid19",
+        "Disease Indication"
+      ],
+      [
+        "Disease Indication",
+        "Patient"
+      ],
+      [
+        "Doctor",
+        "Neonatologist"
+      ],
+      [
+        "Doctor",
+        "Pathologist"
+      ],
+      [
+        "Doctor",
+        "Patient"
+      ],
+      [
+        "Family Member",
+        "Patient"
+      ],
+      [
+        "Government Institution",
+        "Neonatal ICU"
+      ],
+      [
+        "Government Institution",
+        "Pathologist"
+      ],
+      [
+        "Inflammatory Zones",
+        "Right Lung Cystic Lesions"
+      ],
+      [
+        "Medical Professional",
+        "Patient"
+      ],
+      [
+        "Neonatologist",
+        "Pathologist"
+      ],
+      [
+        "Neonatologist",
+        "Patient"
+      ],
+      [
+        "Pathologist",
+        "Patient"
+      ],
+      [
+        "Radiology",
+        "Thorax"
+      ],
+      [
+        "Resolution",
+        "Right Lung Cystic Lesions"
+      ],
+      [
+        "Right Lung Cystic Lesions",
+        "Thorax"
+      ],
+      [
+        "Sagittal",
+        "Thorax"
+      ],
+      [
+        "baby",
+        "chest X-ray"
+      ],
+      [
+        "baby",
+        "chest-CT Scan"
+      ],
+      [
+        "baby",
+        "control chest-CT Scan"
+      ],
+      [
+        "baby",
+        "doctor"
+      ],
+      [
+        "baby",
+        "echocardiogram"
+      ],
+      [
+        "baby",
+        "multidisciplinary team"
+      ],
+      [
+        "baby",
+        "nasal flow cannula"
+      ],
+      [
+        "baby",
+        "neonatal intensive care team"
+      ],
+      [
+        "baby",
+        "pediatric radiology team"
+      ],
+      [
+        "chest X-ray",
+        "doctor"
+      ],
+      [
+        "chest-CT Scan",
+        "echocardiogram"
+      ],
+      [
+        "chest-CT Scan",
+        "pediatric radiology team"
+      ],
+      [
+        "ct",
+        "radiology"
+      ],
+      [
+        "ct",
+        "thorax"
+      ],
+      [
+        "doctor",
+        "multidisciplinary team"
+      ],
+      [
+        "doctor",
+        "multiple teams"
+      ],
+      [
+        "doctor",
+        "pediatric radiology team"
+      ],
+      [
+        "echocardiogram",
+        "pediatric cardiology team"
+      ],
+      [
+        "echocardiogram",
+        "pediatric radiology team"
+      ],
+      [
+        "nasal flow cannula",
+        "neonatal intensive care team"
+      ],
+      [
+        "neonatal intensive care team",
+        "pediatric pulmonology team"
+      ],
+      [
+        "radiology",
+        "thorax"
+      ]
+    ],
+    "count": 43,
+    "create_time": 1790402585,
+    "update_time": 1790402585,
+    "_id": "doc-95b580a63c7343d8b7f976e925b74120"
+  },
+  "doc-20bba48c069ffccbeda48a1c9126ecab": {
+    "relation_pairs": [
+      [
+        "CT",
+        "Pulmonary embolus"
+      ],
+      [
+        "Computed tomography",
+        "PO2"
+      ],
+      [
+        "Computed tomography",
+        "Patient"
+      ],
+      [
+        "D-dimer",
+        "Pulmonary embolus"
+      ],
+      [
+        "D-dimer",
+        "SARS-CoV-2"
+      ],
+      [
+        "Doxaban",
+        "Methylprednisolone"
+      ],
+      [
+        "Doxaban",
+        "Mycophenolate mofetil"
+      ],
+      [
+        "Dyspnea",
+        "Patient"
+      ],
+      [
+        "Dyspnea and desaturation",
+        "Oxygen saturation"
+      ],
+      [
+        "E. coli",
+        "Urinalysis"
+      ],
+      [
+        "E. coli",
+        "Urinary tract infection"
+      ],
+      [
+        "EDoxaban",
+        "Methylprednisolone"
+      ],
+      [
+        "EDoxaban",
+        "Pulmonary embolus"
+      ],
+      [
+        "Escherichia coli",
+        "Urinary tract infection"
+      ],
+      [
+        "Meropenem",
+        "Patient"
+      ],
+      [
+        "Methylprednisolone",
+        "Patient"
+      ],
+      [
+        "Mycophenolate mofetil",
+        "Oxygen supply"
+      ],
+      [
+        "Mycophenolate mofetil",
+        "Viral infection"
+      ],
+      [
+        "Orthodeoxia",
+        "Oxygen dependence"
+      ],
+      [
+        "Oxygen therapy",
+        "Patient"
+      ],
+      [
+        "PO2",
+        "Patient"
+      ],
+      [
+        "PO2",
+        "SARS-CoV-2"
+      ],
+      [
+        "Patient",
+        "Portable toilet"
+      ],
+      [
+        "Patient",
+        "Pulmonary embolism"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2"
+      ],
+      [
+        "Patient",
+        "Viral infection"
+      ],
+      [
+        "Pulmonary embolus",
+        "SARS-CoV-2"
+      ],
+      [
+        "Relationship",
+        "The patient was given meropenem intravenously"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1790402930,
+    "update_time": 1790402930,
+    "_id": "doc-20bba48c069ffccbeda48a1c9126ecab"
+  },
+  "doc-99344a0282b93f21f96885a4d6804355": {
+    "relation_pairs": [
+      [
+        "Abidin",
+        "PSI-SF"
+      ],
+      [
+        "Abidin,",
+        "de Bruin et al.,)"
+      ],
+      [
+        "Bogels",
+        "MPP Evaluation Form"
+      ],
+      [
+        "Bogels",
+        "Restifo"
+      ],
+      [
+        "Bogels et al.",
+        "MPP (Bogels & Restifo)"
+      ],
+      [
+        "Bogels&Restifo",
+        "Item 1"
+      ],
+      [
+        "Bogels&Restifo",
+        "Program Evaluation"
+      ],
+      [
+        "Bogels&Restifo",
+        "The Two Hearts Parent Program"
+      ],
+      [
+        "Germer & Neff",
+        "Two Hearts program"
+      ],
+      [
+        "Germer&Neff",
+        "Program Videos"
+      ],
+      [
+        "HADS",
+        "Zigmond"
+      ],
+      [
+        "Item 1",
+        "Program Evaluation"
+      ],
+      [
+        "Iyengar Yoga",
+        "Program Videos"
+      ],
+      [
+        "Jacobson&Truax",
+        "Program Videos"
+      ],
+      [
+        "MPP",
+        "Program Videos"
+      ],
+      [
+        "MPP (Bogels & Restifo)",
+        "Two Hearts Parent Workbook"
+      ],
+      [
+        "MPP (Bogels & Restifo)",
+        "Two Hearts program"
+      ],
+      [
+        "Module 1",
+        "Program Videos"
+      ],
+      [
+        "Module 3",
+        "Program Videos"
+      ],
+      [
+        "Parenting stress",
+        "Two Hearts program"
+      ],
+      [
+        "Participants",
+        "Research team"
+      ],
+      [
+        "Program Videos",
+        "Two Hearts Parent Program"
+      ],
+      [
+        "Program developers",
+        "Susan Bogels"
+      ],
+      [
+        "Snaith",
+        "Zigmond"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1790403274,
+    "update_time": 1790403274,
+    "_id": "doc-99344a0282b93f21f96885a4d6804355"
+  },
+  "doc-37b86b5550564c8fffdac9d2aa3847fa": {
+    "relation_pairs": [
+      [
+        "ANA",
+        "patient"
+      ],
+      [
+        "AOSD",
+        "patient"
+      ],
+      [
+        "Abdominal echography",
+        "patient"
+      ],
+      [
+        "Acetaminophen",
+        "Adult-Onset Still's Disease"
+      ],
+      [
+        "Acetaminophen",
+        "Patient"
+      ],
+      [
+        "Adult-Onset Still's Disease",
+        "COVID-19"
+      ],
+      [
+        "Adult-Onset Still's Disease",
+        "Dex"
+      ],
+      [
+        "Adult-Onset Still's Disease",
+        "NSAIDs"
+      ],
+      [
+        "Adult-Onset Still's Disease",
+        "Parenteral Dex"
+      ],
+      [
+        "Anti-CCP",
+        "patient"
+      ],
+      [
+        "COVID-19",
+        "patient"
+      ],
+      [
+        "COVID-19 IgM antibodies",
+        "hospital"
+      ],
+      [
+        "COVID-19 IgM antibodies",
+        "patient"
+      ],
+      [
+        "COVID-19-positive patient",
+        "Patient"
+      ],
+      [
+        "Clin Med Insights Arthritis Musculoskelet Disord",
+        "PMC10067467_01"
+      ],
+      [
+        "NSAIDs",
+        "patient"
+      ],
+      [
+        "Naproxine",
+        "patient"
+      ],
+      [
+        "RF",
+        "patient"
+      ],
+      [
+        "Table 1",
+        "patient"
+      ],
+      [
+        "Widal test",
+        "hospital"
+      ],
+      [
+        "Wright test",
+        "hospital"
+      ],
+      [
+        "acetaminophen",
+        "patient"
+      ],
+      [
+        "anti-DNA antibodies",
+        "patient"
+      ],
+      [
+        "blood cultures",
+        "hospital"
+      ],
+      [
+        "dexamethasone",
+        "patient"
+      ],
+      [
+        "echocardiography",
+        "hospital"
+      ],
+      [
+        "hospital",
+        "scanning computed tomography (CT) imaging"
+      ],
+      [
+        "hospital",
+        "urine analysis"
+      ],
+      [
+        "indomethacin",
+        "patient"
+      ],
+      [
+        "lupus erythematosus",
+        "patient"
+      ],
+      [
+        "patient",
+        "prednisolone"
+      ],
+      [
+        "patient",
+        "rheumatoid arthritis"
+      ]
+    ],
+    "count": 32,
+    "create_time": 1790403444,
+    "update_time": 1790403444,
+    "_id": "doc-37b86b5550564c8fffdac9d2aa3847fa"
+  },
+  "doc-7eb60a9a94338d8cb72e8be2c77c851d": {
+    "relation_pairs": [
+      [
+        "AHF",
+        "Abdominal pain"
+      ],
+      [
+        "AHF",
+        "BP"
+      ],
+      [
+        "AHF",
+        "Cardiac function"
+      ],
+      [
+        "AHF",
+        "Chest tightness"
+      ],
+      [
+        "AHF",
+        "Day 60"
+      ],
+      [
+        "AHF",
+        "Day 66"
+      ],
+      [
+        "AHF",
+        "Heart rate"
+      ],
+      [
+        "AHF",
+        "Hemoptysis"
+      ],
+      [
+        "AHF",
+        "High Fracture"
+      ],
+      [
+        "AHF",
+        "LVEF"
+      ],
+      [
+        "AHF",
+        "PH"
+      ],
+      [
+        "AHF",
+        "Shortness of breath"
+      ],
+      [
+        "BP",
+        "TCZ"
+      ],
+      [
+        "C-reactive protein",
+        "N-terminal pro-brain natriuretic peptide"
+      ],
+      [
+        "CRP",
+        "High Fracture"
+      ],
+      [
+        "CRP",
+        "NT-proBNP"
+      ],
+      [
+        "CRP",
+        "tuberculosis-associated TA"
+      ],
+      [
+        "CTA",
+        "MPR"
+      ],
+      [
+        "CTA",
+        "Radiology"
+      ],
+      [
+        "CTA",
+        "thrombus"
+      ],
+      [
+        "Cerebral Meningeal Arteries",
+        "Descending Aorta"
+      ],
+      [
+        "Day 78",
+        "Low-molecular-weight heparin"
+      ],
+      [
+        "Days 78-IVMP therapy",
+        "Low-molecular-weight heparin"
+      ],
+      [
+        "Descending Aorta",
+        "Thorax"
+      ],
+      [
+        "Descending Aorta",
+        "Thrombus"
+      ],
+      [
+        "Descending Aorta",
+        "Upper Abdominal Aorta"
+      ],
+      [
+        "Descending Aorta",
+        "Vascular Wall"
+      ],
+      [
+        "Descending aorta",
+        "Extensive collateral circulation"
+      ],
+      [
+        "Descending aorta",
+        "Large thrombus"
+      ],
+      [
+        "ESR",
+        "High Fracture"
+      ],
+      [
+        "ESR",
+        "tuberculosis-associated TA"
+      ],
+      [
+        "Extensive collateral circulation",
+        "Neck and upper mediastinum"
+      ],
+      [
+        "Extensive collateral circulation",
+        "Right intrathoracic artery"
+      ],
+      [
+        "FLAIR",
+        "MR"
+      ],
+      [
+        "Hemoptysis",
+        "TCZ"
+      ],
+      [
+        "High Fracture",
+        "Intravenous MP therapy"
+      ],
+      [
+        "IVMP",
+        "TCZ"
+      ],
+      [
+        "IVMP therapy",
+        "patient"
+      ],
+      [
+        "Intravascular methylprednisolone pulse",
+        "Tocilizumab"
+      ],
+      [
+        "MIP",
+        "VR"
+      ],
+      [
+        "MIP image",
+        "descending aorta"
+      ],
+      [
+        "NT-proBNP",
+        "tuberculosis-associated TA"
+      ],
+      [
+        "PPD skin test",
+        "tuberculosis- associated TA"
+      ],
+      [
+        "Region",
+        "Taxonomy"
+      ],
+      [
+        "Right Intrathoracic Artery",
+        "Throacic Vessels"
+      ],
+      [
+        "Thorax",
+        "Throacic Vessels"
+      ],
+      [
+        "VR reconstruction",
+        "descending aorta"
+      ],
+      [
+        "acute heart failure",
+        "blood potassium"
+      ],
+      [
+        "acute heart failure",
+        "hemoglobin"
+      ],
+      [
+        "acute heart failure",
+        "methylprednisolone"
+      ],
+      [
+        "acute heart failure",
+        "prednisone"
+      ],
+      [
+        "acute heart failure",
+        "serum creatinine"
+      ],
+      [
+        "acute heart failure",
+        "sodium"
+      ],
+      [
+        "acute heart failure",
+        "tocilizumab (TCZ)"
+      ],
+      [
+        "acute heart failure",
+        "urea"
+      ],
+      [
+        "both occipital lobes",
+        "right frontal-parietal lobe"
+      ],
+      [
+        "catheter-directed thrombolysis",
+        "patient"
+      ],
+      [
+        "collateral circulation",
+        "patient"
+      ],
+      [
+        "descending aorta",
+        "neck"
+      ],
+      [
+        "descending aorta",
+        "patient"
+      ],
+      [
+        "descending aorta",
+        "right intrathoracic artery"
+      ],
+      [
+        "descending aorta",
+        "thrombus"
+      ],
+      [
+        "descending aorta",
+        "upper mediastinum"
+      ],
+      [
+        "diazepam",
+        "patient"
+      ],
+      [
+        "high-Flow therapy",
+        "patient"
+      ],
+      [
+        "interferon-gamma release assay (IGRA)",
+        "tuberculosis-associated TA"
+      ],
+      [
+        "metoprolol",
+        "tuberculosis-associated TA"
+      ]
+    ],
+    "count": 67,
+    "create_time": 1790403934,
+    "update_time": 1790403934,
+    "_id": "doc-7eb60a9a94338d8cb72e8be2c77c851d"
+  },
+  "doc-427e6ff68cdb25df461dc4bf22a75452": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "Mucormycosis"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Periodontal abscess"
+      ],
+      [
+        "Doctor",
+        "Patient"
+      ],
+      [
+        "Mucormycosis",
+        "Patient"
+      ],
+      [
+        "Oral and Maxillofacial Department",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Periodontal abscess"
+      ],
+      [
+        "Patient",
+        "Right Maxillary Sinus"
+      ],
+      [
+        "ontology",
+        "taxonomy"
+      ],
+      [
+        "radiology",
+        "uses, pathology"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1790404067,
+    "update_time": 1790404067,
+    "_id": "doc-427e6ff68cdb25df461dc4bf22a75452"
+  },
+  "doc-cd200d4caaaecdb4624319bee02b76c5": {
+    "relation_pairs": [
+      [
+        "Case Rep Obstet Gynecol",
+        "Patient"
+      ],
+      [
+        "Cesarean section",
+        "Patient"
+      ],
+      [
+        "Covid19",
+        "Infant"
+      ],
+      [
+        "Covid19",
+        "Patient"
+      ],
+      [
+        "Immunohistochemistry",
+        "Placenta"
+      ],
+      [
+        "Infant",
+        "Mild asphyxia"
+      ],
+      [
+        "Infant",
+        "Molecular analysis"
+      ],
+      [
+        "Infant",
+        "Placenta"
+      ],
+      [
+        "Infant",
+        "Ultrasound"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1790404136,
+    "update_time": 1790404136,
+    "_id": "doc-cd200d4caaaecdb4624319bee02b76c5"
+  },
+  "doc-02f7ce6eaf67eaba449ef966a1b3c4f1": {
+    "relation_pairs": [
+      [
+        "Covid-19",
+        "The Patient"
+      ],
+      [
+        "Covid-19",
+        "The Placenta"
+      ],
+      [
+        "Mild Covid-19 Infection",
+        "The Patient"
+      ],
+      [
+        "Mild Covid-19 Infection",
+        "The Placenta"
+      ],
+      [
+        "Placental Insufficiency",
+        "The Patient"
+      ],
+      [
+        "Severe Asphyxia",
+        "The Umbilical Cord"
+      ],
+      [
+        "The Doctor",
+        "The Patient"
+      ],
+      [
+        "The Obstetric Emergency Unit",
+        "The Patient"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790404182,
+    "update_time": 1790404182,
+    "_id": "doc-02f7ce6eaf67eaba449ef966a1b3c4f1"
+  },
+  "doc-b99c4c782b43e8dd210d981201a8a953": {
+    "relation_pairs": [
+      [
+        "Arterial Blood Flow",
+        "Umbilical artery blood flow"
+      ],
+      [
+        "Case Report",
+        "Patient Demographics"
+      ],
+      [
+        "Cesarean Section",
+        "Patient Demographics"
+      ],
+      [
+        "Covid19",
+        "Patient Demographics"
+      ],
+      [
+        "Covid19",
+        "Placental Insufficiency"
+      ],
+      [
+        "Covid19",
+        "SARS-CoV-2"
+      ],
+      [
+        "FIGURE 3",
+        "Placental Insufficiency"
+      ],
+      [
+        "Nulliparous",
+        "Patient Demographics"
+      ],
+      [
+        "Patient Demographics",
+        "Placental Insufficiency"
+      ],
+      [
+        "Patient Demographics",
+        "Pregnant Patients with Mild Covid-19 Infection and Signs of Severe Placental Insufficiency"
+      ],
+      [
+        "Placenta",
+        "Umbilical cord gases"
+      ],
+      [
+        "Placental Insufficiency",
+        "SARS-CoV-2"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1790404256,
+    "update_time": 1790404256,
+    "_id": "doc-b99c4c782b43e8dd210d981201a8a953"
+  },
+  "doc-93e32e19c1d947daad01ca031b5a271a": {
+    "relation_pairs": [
+      [
+        "**Case Rep Obstet Gynecol**",
+        "**PMC10072962_04**"
+      ],
+      [
+        "**Covid-19**",
+        "**PCRTM**"
+      ],
+      [
+        "**Covid-19**",
+        "**Placental Insufficiency**"
+      ],
+      [
+        "**Figures 5 and 6**",
+        "**Placental pathology**"
+      ],
+      [
+        "**PCRTM**",
+        "**SARS-CoV-2**"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1790404316,
+    "update_time": 1790404316,
+    "_id": "doc-93e32e19c1d947daad01ca031b5a271a"
+  },
+  "doc-2ec6f442e5c020f9b0b7b83376a75c5d": {
+    "relation_pairs": [
+      [
+        "Patient",
+        "PregnantWomen"
+      ],
+      [
+        "Patient",
+        "WomanWithPulmonarySarcoidosis"
+      ],
+      [
+        "Placenta",
+        "SeverePlacentalInsufficiency"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1790404373,
+    "update_time": 1790404373,
+    "_id": "doc-2ec6f442e5c020f9b0b7b83376a75c5d"
+  },
+  "doc-57faa2d924d9b2d056dba1b6e206d7cf": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "ITP"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "RT-PCR"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19",
+        "Severe immune thrombocytopenia"
+      ],
+      [
+        "Contact Sports",
+        "Patient"
+      ],
+      [
+        "Day 10",
+        "Patient"
+      ],
+      [
+        "Day 108",
+        "Patient"
+      ],
+      [
+        "Day 24",
+        "Patient"
+      ],
+      [
+        "Front Pediatr",
+        "PMC10073461_01"
+      ],
+      [
+        "ITP",
+        "IVIG"
+      ],
+      [
+        "ITP",
+        "Patient"
+      ],
+      [
+        "IVIG",
+        "Patient"
+      ],
+      [
+        "Life-Threatening Hemorrhage",
+        "Patient"
+      ],
+      [
+        "Lower legs",
+        "Patient"
+      ],
+      [
+        "Outpatient follow-up",
+        "Patient"
+      ],
+      [
+        "PMC10073461_01",
+        "SARS-CoV-2"
+      ],
+      [
+        "PMC10073461_01",
+        "Severe immune thrombocytopenia"
+      ],
+      [
+        "Patient",
+        "Plt"
+      ],
+      [
+        "Patient",
+        "Plt-associated IgG"
+      ],
+      [
+        "Patient",
+        "Purpura"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1790404525,
+    "update_time": 1790404525,
+    "_id": "doc-57faa2d924d9b2d056dba1b6e206d7cf"
+  },
+  "doc-ecdc8b1f690cefbadcea14d1e5c40975": {
+    "relation_pairs": [
+      [
+        "26-G needle",
+        "Physician"
+      ],
+      [
+        "6/60 vision in the left eye",
+        "Recurrent Mooren's Ulcer"
+      ],
+      [
+        "AM (Amniotic Membrane)",
+        "Physician"
+      ],
+      [
+        "AMG",
+        "Tenon's patch graft (TPG)"
+      ],
+      [
+        "Air",
+        "Physician"
+      ],
+      [
+        "Figure 2D",
+        "Mooren's ulcer"
+      ],
+      [
+        "Figure 2D",
+        "Pre-operative picture of RE"
+      ],
+      [
+        "Imature Cataract",
+        "Recurrent Mooren's Ulcer"
+      ],
+      [
+        "Mooren's ulcer",
+        "Peripheral corneal perforation with iris prolapse"
+      ],
+      [
+        "Mooren's ulcer",
+        "Physician"
+      ],
+      [
+        "Mooren's ulcer",
+        "Post-operative 1 month"
+      ],
+      [
+        "Mooren's ulcer",
+        "Post-operative day 1"
+      ],
+      [
+        "Mooren's ulcer",
+        "Pre-operative picture of LE"
+      ],
+      [
+        "Mooren's ulcer",
+        "Pre-operative picture of RE"
+      ],
+      [
+        "Mooren's ulcer",
+        "Tenon's patch graft anchored to recipient bed with cross suture"
+      ],
+      [
+        "Mooren's ulcer",
+        "Tenor's patch graft anchored to recipient bed with cross suture"
+      ],
+      [
+        "Physician",
+        "Tenon's"
+      ],
+      [
+        "Physician",
+        "Tenon's graft"
+      ],
+      [
+        "Physician",
+        "Weck-Cell sponge"
+      ],
+      [
+        "Physician",
+        "carboxymethylcellulose"
+      ],
+      [
+        "Physician",
+        "conjunctival resection"
+      ],
+      [
+        "Physician",
+        "homatropine hydrobromide"
+      ],
+      [
+        "Physician",
+        "moxifloxacin hydrochloride"
+      ],
+      [
+        "Physician",
+        "prednisolone"
+      ],
+      [
+        "Physician",
+        "prednisolone acetate"
+      ],
+      [
+        "Tenon's patch graft (TPG)",
+        "corneal epithelium"
+      ],
+      [
+        "Tenon's patch graft (TPG)",
+        "multilayered AMG"
+      ],
+      [
+        "Tenon's patch graft (TPG)",
+        "post-operative"
+      ],
+      [
+        "Tenon's patch graft (TPG)",
+        "post-operative day"
+      ],
+      [
+        "corneal epithelium",
+        "mooren's ulcer"
+      ],
+      [
+        "figure",
+        "mooren's ulcer"
+      ],
+      [
+        "moxifloxacin hydrochloride",
+        "prednisolone acetate"
+      ]
+    ],
+    "count": 32,
+    "create_time": 1790404889,
+    "update_time": 1790404889,
+    "_id": "doc-ecdc8b1f690cefbadcea14d1e5c40975"
+  },
+  "doc-8faeb94ce116f4335d47a4477fb5a990": {
+    "relation_pairs": [
+      [
+        "ALP",
+        "ALT"
+      ],
+      [
+        "AST",
+        "GGT"
+      ],
+      [
+        "AZA",
+        "TB"
+      ],
+      [
+        "Abdominal Ultrasound",
+        "Patient"
+      ],
+      [
+        "Autoimmune Hepatitis",
+        "Autoreactive Immune Response"
+      ],
+      [
+        "Autoimmune Hepatitis",
+        "Primary Biliary Cholangitis"
+      ],
+      [
+        "Autops Case Rep",
+        "Patient"
+      ],
+      [
+        "Azathioprine",
+        "Liver"
+      ],
+      [
+        "Bilirubins",
+        "Liver"
+      ],
+      [
+        "Covid19",
+        "RT-PCR-SARS-CoV-2"
+      ],
+      [
+        "Covid19",
+        "SARS-CoV-2"
+      ],
+      [
+        "Figure 2",
+        "Taxonomy"
+      ],
+      [
+        "Liver",
+        "Liver Enzymes"
+      ],
+      [
+        "Liver",
+        "Magnetic Resonance Cholangiography"
+      ],
+      [
+        "Liver",
+        "Patient"
+      ],
+      [
+        "Liver",
+        "Prednisone"
+      ],
+      [
+        "Liver",
+        "Ursodeoxycholic Acid (UDCA)"
+      ],
+      [
+        "Liver Biopsy",
+        "Patient"
+      ],
+      [
+        "Loratadine",
+        "SARS-CoV-2"
+      ],
+      [
+        "PMC10075219_01",
+        "Patient"
+      ],
+      [
+        "TB",
+        "UDCA"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1790405047,
+    "update_time": 1790405047,
+    "_id": "doc-8faeb94ce116f4335d47a4477fb5a990"
+  },
+  "doc-5ecce322107159be253436bffad4f7f3": {
+    "relation_pairs": [
+      [
+        "AADE Diabetes Educator certification",
+        "Arizona CHR managers"
+      ],
+      [
+        "AIAN populations",
+        "chr program managers"
+      ],
+      [
+        "AIAN populations",
+        "tribal emergency response team"
+      ],
+      [
+        "Arizona",
+        "Community Health Representative"
+      ],
+      [
+        "Arizona CHR workforce",
+        "CHW Core Consensus Project"
+      ],
+      [
+        "BIPOC communities",
+        "COVID-19 inequities"
+      ],
+      [
+        "CHR",
+        "EHR"
+      ],
+      [
+        "CHR",
+        "Program"
+      ],
+      [
+        "CHR",
+        "Tribe's 638 hospitals"
+      ],
+      [
+        "CHR",
+        "case management"
+      ],
+      [
+        "CHR",
+        "huddles"
+      ],
+      [
+        "CHR",
+        "team"
+      ],
+      [
+        "CHR Managers",
+        "FEMA"
+      ],
+      [
+        "CHR Program",
+        "COVID clinic"
+      ],
+      [
+        "CHR Program",
+        "FEMA"
+      ],
+      [
+        "CHR Program",
+        "First Things First"
+      ],
+      [
+        "CHR Program",
+        "Joint Incident Command team"
+      ],
+      [
+        "CHR Program",
+        "Tribal health professionals"
+      ],
+      [
+        "CHR Program",
+        "Tribe"
+      ],
+      [
+        "CHR Program",
+        "aging and senior service programs"
+      ],
+      [
+        "CHR Program",
+        "behavioral health"
+      ],
+      [
+        "CHR Program",
+        "environmental protection"
+      ],
+      [
+        "CHR Program",
+        "food distribution"
+      ],
+      [
+        "CHR Program",
+        "parks and recreation"
+      ],
+      [
+        "CHR Program",
+        "social services"
+      ],
+      [
+        "CHR Program",
+        "vocational rehabilitation"
+      ],
+      [
+        "CHR Program Managers",
+        "National Supply Center"
+      ],
+      [
+        "CHR Program Managers",
+        "chr program managers"
+      ],
+      [
+        "CHR Program Managers",
+        "national supply center"
+      ],
+      [
+        "CHR Programs",
+        "FEMA"
+      ],
+      [
+        "CHR Programs",
+        "IHS"
+      ],
+      [
+        "CHR Programs",
+        "IHS PHN"
+      ],
+      [
+        "CHR manager",
+        "Emergencies Operation Center"
+      ],
+      [
+        "CHR managers",
+        "CHWs"
+      ],
+      [
+        "CHRs",
+        "CHRs managers/supervisors"
+      ],
+      [
+        "CHRs",
+        "CNA"
+      ],
+      [
+        "CHRs",
+        "COVID-19"
+      ],
+      [
+        "CHRs",
+        "Community members"
+      ],
+      [
+        "CHRs",
+        "Healthcare Team"
+      ],
+      [
+        "CHRs",
+        "IHS PHN"
+      ],
+      [
+        "CHRs",
+        "IHS staff"
+      ],
+      [
+        "CHRs",
+        "Likert Scale"
+      ],
+      [
+        "CHRs",
+        "PHN"
+      ],
+      [
+        "CHRs",
+        "Public health services"
+      ],
+      [
+        "CHRs",
+        "Tribal health professionals"
+      ],
+      [
+        "CHRs",
+        "tribal organization"
+      ],
+      [
+        "CHRs, Tribal health professionals",
+        "Joint Incident Command team"
+      ],
+      [
+        "CHW Core Consensus Project",
+        "Community Health Worker Core Roles"
+      ],
+      [
+        "CHW workforce",
+        "COVID-19 inequities"
+      ],
+      [
+        "CLINICAL CASE REPORT",
+        "Covid19"
+      ],
+      [
+        "COVID-19",
+        "Community Health Representative"
+      ],
+      [
+        "Certified Lactation Counselor",
+        "Community Health Representative"
+      ],
+      [
+        "Certified Nursing Assistant",
+        "Community Health Representative"
+      ],
+      [
+        "Community Health Representative",
+        "First Aid/Basic Life Support"
+      ],
+      [
+        "Community Health Representative",
+        "Front Public Health"
+      ],
+      [
+        "Community Health Worker roles",
+        "Indian Health Services"
+      ],
+      [
+        "Covid19",
+        "Front Public Health"
+      ],
+      [
+        "FQCHC",
+        "IHS PHN"
+      ],
+      [
+        "Front Public Health",
+        "PMC10075253_01"
+      ],
+      [
+        "Healthcare Team",
+        "Likeert Scale"
+      ],
+      [
+        "Healthcare Team",
+        "Managers"
+      ],
+      [
+        "IHS",
+        "Tribe"
+      ],
+      [
+        "IHS PHN",
+        "Tribal Emergency Management"
+      ],
+      [
+        "IHS PHN",
+        "Tribal health professionals"
+      ],
+      [
+        "Likert Scale",
+        "Managers"
+      ]
+    ],
+    "count": 65,
+    "create_time": 1790405648,
+    "update_time": 1790405648,
+    "_id": "doc-5ecce322107159be253436bffad4f7f3"
+  },
+  "doc-5ab176aa592a8ca65da80ba579c42d79": {
+    "relation_pairs": [
+      [
+        "El Tunal Hospital",
+        "Patient"
+      ],
+      [
+        "Hepatic function",
+        "Patient"
+      ],
+      [
+        "NMT service",
+        "Patient"
+      ],
+      [
+        "Neutrophilia",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Procaine"
+      ],
+      [
+        "Patient",
+        "Renal function"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790405794,
+    "update_time": 1790405794,
+    "_id": "doc-5ab176aa592a8ca65da80ba579c42d79"
+  },
+  "doc-e7d3cb765e58261eaeb4bbf22e966a97": {
+    "relation_pairs": [
+      [
+        "Barcelona",
+        "Spain"
+      ],
+      [
+        "COVID-19",
+        "Front Public Health"
+      ],
+      [
+        "Front Public Health",
+        "PMCHuman"
+      ],
+      [
+        "Front Public Health (2023)",
+        "PMC10076648"
+      ],
+      [
+        "Front Public Health (2023)",
+        "Spain"
+      ],
+      [
+        "PMCHuman",
+        "Supplementary material"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1790405835,
+    "update_time": 1790405835,
+    "_id": "doc-e7d3cb765e58261eaeb4bbf22e966a97"
+  },
+  "doc-08669e27bbc2e2674eec7add19a93511": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "Case ID"
+      ],
+      [
+        "Case ID",
+        "District"
+      ],
+      [
+        "City",
+        "University"
+      ],
+      [
+        "Company",
+        "Social Security"
+      ],
+      [
+        "Company",
+        "Workers"
+      ],
+      [
+        "Front Public Health",
+        "PMC10076648_02"
+      ],
+      [
+        "National statistics",
+        "Synthetic population"
+      ],
+      [
+        "School patch",
+        "Teachers"
+      ],
+      [
+        "Spanish Ministry of Education",
+        "University"
+      ],
+      [
+        "Student",
+        "University"
+      ],
+      [
+        "Synthetic population",
+        "Teachers"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790405951,
+    "update_time": 1790405951,
+    "_id": "doc-08669e27bbc2e2674eec7add19a93511"
+  },
+  "doc-008ee60306f4a10654dbe249e43597e3": {
+    "relation_pairs": [
+      [
+        "Front Public Health",
+        "Nursing homes"
+      ],
+      [
+        "Front Public Health",
+        "PMC10076648_03"
+      ],
+      [
+        "Front Public Health",
+        "Spain"
+      ],
+      [
+        "Nursing homes",
+        "PMC10076648_03"
+      ],
+      [
+        "Nursing homes",
+        "Spain"
+      ],
+      [
+        "PMC10076648_03",
+        "Spain"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1790405985,
+    "update_time": 1790405985,
+    "_id": "doc-008ee60306f4a10654dbe249e43597e3"
+  },
+  "doc-bbea15b10c736d5d3c31f11139cbca1c": {
+    "relation_pairs": [
+      [
+        "25%",
+        "school layer"
+      ],
+      [
+        "25%",
+        "small group's policy"
+      ],
+      [
+        "25%",
+        "university layer"
+      ],
+      [
+        "COVASIM",
+        "COVASIM Software"
+      ],
+      [
+        "COVASIM",
+        "COVID-19"
+      ],
+      [
+        "COVASIM",
+        "Patient Demographics"
+      ],
+      [
+        "COVASIM",
+        "Spain"
+      ],
+      [
+        "COVASIM",
+        "Supplementary Figure S1"
+      ],
+      [
+        "COVID-19",
+        "Community layer"
+      ],
+      [
+        "COVID-19",
+        "State of Alarm"
+      ],
+      [
+        "COVID-19",
+        "community layer"
+      ],
+      [
+        "COVID-19",
+        "first wave"
+      ],
+      [
+        "COVID-19",
+        "school layer"
+      ],
+      [
+        "COVID-19",
+        "university layer"
+      ],
+      [
+        "COVID-19",
+        "workers"
+      ],
+      [
+        "Cities",
+        "Spanish Ministry of Health"
+      ],
+      [
+        "Counterfactual Scenarios",
+        "Dealing"
+      ],
+      [
+        "Epidemiological Parameters",
+        "SecondWave"
+      ],
+      [
+        "Government Bodies",
+        "Non-Pharmaceutical Interventions"
+      ],
+      [
+        "June 1st",
+        "community layer"
+      ],
+      [
+        "June 20th",
+        "community layer"
+      ],
+      [
+        "Non-Pharmaceutical Interventions",
+        "Testing and Contact Tracing"
+      ],
+      [
+        "Pandemic interventions",
+        "Spanish Ministry of Health"
+      ],
+      [
+        "Prem et al.",
+        "Spain"
+      ],
+      [
+        "Restaurants and Bars",
+        "Restrictions"
+      ],
+      [
+        "Restaurants and Bars",
+        "State of Alarm"
+      ],
+      [
+        "School opening",
+        "Zaragoza"
+      ],
+      [
+        "SecondWave",
+        "Testing and Contact Tracing"
+      ],
+      [
+        "Spanish Ministry of Health",
+        "Zaragoza"
+      ],
+      [
+        "State of Alarm",
+        "Workers"
+      ],
+      [
+        "State of Alarm",
+        "community layer"
+      ],
+      [
+        "State of Alarm",
+        "first wave"
+      ],
+      [
+        "State of Alarm",
+        "workers"
+      ],
+      [
+        "bars",
+        "community layer"
+      ],
+      [
+        "bars",
+        "workers"
+      ],
+      [
+        "community layer",
+        "first wave"
+      ],
+      [
+        "community layer",
+        "restaurants"
+      ],
+      [
+        "community layer",
+        "workers"
+      ],
+      [
+        "counterfactuals",
+        "second wave"
+      ],
+      [
+        "first wave",
+        "section 3.2"
+      ],
+      [
+        "interventions",
+        "schools"
+      ],
+      [
+        "interventions",
+        "second wave"
+      ],
+      [
+        "restaurants",
+        "workers"
+      ],
+      [
+        "school layer",
+        "workers"
+      ],
+      [
+        "university layer",
+        "workers"
+      ]
+    ],
+    "count": 45,
+    "create_time": 1790406274,
+    "update_time": 1790406274,
+    "_id": "doc-bbea15b10c736d5d3c31f11139cbca1c"
+  },
+  "doc-b3d902b1975b05b77d807a4a3e76d22d": {
+    "relation_pairs": [
+      [
+        "BioNTech",
+        "COVID-19"
+      ],
+      [
+        "BioNTech",
+        "Molnupiravir"
+      ],
+      [
+        "COVID-19",
+        "Molnupiravir"
+      ],
+      [
+        "COVID-19",
+        "Pfizer"
+      ],
+      [
+        "COVID-19 infection",
+        "Molnupiravir"
+      ],
+      [
+        "ClearSight system",
+        "Dopamine"
+      ],
+      [
+        "ClearSight system",
+        "Edwards Lifesciences"
+      ],
+      [
+        "Covid19",
+        "Patient"
+      ],
+      [
+        "Dopamine",
+        "Molnupiravir"
+      ],
+      [
+        "Molnupiravir",
+        "Pfizer"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1790406520,
+    "update_time": 1790406520,
+    "_id": "doc-b3d902b1975b05b77d807a4a3e76d22d"
+  },
+  "doc-4301fdd6d220edec2508fe3ab73d329f": {
+    "relation_pairs": [
+      [
+        "2022-03-01",
+        "Covid19"
+      ],
+      [
+        "72-year-old patient-A",
+        "Covid19"
+      ],
+      [
+        "72-year-old patient-A",
+        "Depression"
+      ],
+      [
+        "72-year-old patient-A",
+        "Front Psychiatry (2023)"
+      ],
+      [
+        "72-year-old patient-A",
+        "Table 1"
+      ],
+      [
+        "72-year-old patient-A",
+        "brain fog"
+      ],
+      [
+        "72-year-old patient-A",
+        "electroencephalogram"
+      ],
+      [
+        "72-year-old patient-A",
+        "entreal feeding"
+      ],
+      [
+        "72-year-old patient-A",
+        "mirtazapine"
+      ],
+      [
+        "72-year-old patient-A",
+        "sertraline"
+      ],
+      [
+        "Afternoon",
+        "Depression"
+      ],
+      [
+        "Anxiety",
+        "Event"
+      ],
+      [
+        "Anxiety",
+        "Patient"
+      ],
+      [
+        "Appetite",
+        "Patient"
+      ],
+      [
+        "Artifact",
+        "Electroencephalogram"
+      ],
+      [
+        "Artifact",
+        "Enteral Feeding"
+      ],
+      [
+        "Artifact",
+        "Magnetic Resonance Imaging (MRI)"
+      ],
+      [
+        "COVID-19 Infection",
+        "Neurological Day Hospital"
+      ],
+      [
+        "Clinical Global Impressions scale (CGI-S)",
+        "Content"
+      ],
+      [
+        "Clinical Global Impressions scale-Improvement (CGI-I)",
+        "Content"
+      ],
+      [
+        "Content",
+        "Dance and Movement Therapy"
+      ],
+      [
+        "Content",
+        "Drama"
+      ],
+      [
+        "Content",
+        "Music"
+      ],
+      [
+        "Content",
+        "Occupational Therapy"
+      ],
+      [
+        "Content",
+        "Patient Health Questionnaire-9 (PHQ-9)"
+      ],
+      [
+        "Content",
+        "Physiotherapy"
+      ],
+      [
+        "Content",
+        "Psychotherapy"
+      ],
+      [
+        "Content",
+        "Visual Art"
+      ],
+      [
+        "Depression",
+        "Evening"
+      ],
+      [
+        "Depression",
+        "Morning"
+      ],
+      [
+        "Depression",
+        "Patient"
+      ],
+      [
+        "Difficulty concentrating",
+        "Patient"
+      ],
+      [
+        "Enteral feeding",
+        "Patient"
+      ],
+      [
+        "Event",
+        "Generalized Fatigue"
+      ],
+      [
+        "Event",
+        "Hospital Discharge"
+      ],
+      [
+        "Event",
+        "Oncological Disease"
+      ],
+      [
+        "Event",
+        "Weight Loss"
+      ],
+      [
+        "Family",
+        "Organization"
+      ],
+      [
+        "Forgetfulness",
+        "Patient"
+      ],
+      [
+        "Hospital",
+        "Location"
+      ],
+      [
+        "Hospital Discharge",
+        "Patient"
+      ],
+      [
+        "Neurological Day Hospital",
+        "Patient"
+      ],
+      [
+        "Neurologist",
+        "Person"
+      ],
+      [
+        "Patient",
+        "Psychiatric Inpatient Unit"
+      ],
+      [
+        "Patient",
+        "Psychiatrist"
+      ],
+      [
+        "Patient",
+        "Rapid fatigability"
+      ],
+      [
+        "Patient",
+        "Trazodone"
+      ],
+      [
+        "Patient",
+        "Unclear thinking"
+      ],
+      [
+        "Patient",
+        "Venlafaxine"
+      ],
+      [
+        "Patient",
+        "Ventilafaxine"
+      ],
+      [
+        "Patient",
+        "Weight"
+      ],
+      [
+        "Patient",
+        "Work"
+      ],
+      [
+        "Person",
+        "Psychiatrist"
+      ]
+    ],
+    "count": 53,
+    "create_time": 1790406836,
+    "update_time": 1790406836,
+    "_id": "doc-4301fdd6d220edec2508fe3ab73d329f"
+  },
+  "doc-fcfa57204c968485db6ce958a32798b1": {
+    "relation_pairs": [
+      [
+        "Axillary Lymphadenopathy",
+        "Covid19"
+      ],
+      [
+        "Axillary Lymphadenopathy",
+        "Right Breast Cancer"
+      ],
+      [
+        "Cancer Patients Post-COVID-19 Vaccination",
+        "Case ID"
+      ],
+      [
+        "Cancer Patients Post-COVID-19 Vaccination",
+        "Patient with Recurrent Metastatic Breast Carcinoma"
+      ],
+      [
+        "Cancer Patients Post-COVID-19 Vaccination",
+        "Pfizer COVID-19 vaccine"
+      ],
+      [
+        "Denosumab",
+        "Right Breast Cancer"
+      ],
+      [
+        "False-positive PET-CT scan findings",
+        "Pfizer COVID-19 vaccine"
+      ],
+      [
+        "First-Dose Pfizer COVID-19 Vaccine",
+        "Patient in Case No. 1"
+      ],
+      [
+        "Focused Ultrasound Study",
+        "Patient"
+      ],
+      [
+        "Focused Ultrasound Study",
+        "Patient in Case No. 1"
+      ],
+      [
+        "Human Epidermal Growth Factor Receptor 2 Negative",
+        "Laparoscopic Bilateral Salpingo-Oophorectomy"
+      ],
+      [
+        "Laparoscopic Bilateral Salpingo-oophorectomy",
+        "Right Breast Cancer"
+      ],
+      [
+        "Letrozole",
+        "Right Breast Cancer"
+      ],
+      [
+        "PET-CT Scan",
+        "Patient"
+      ],
+      [
+        "PET-CT Scan",
+        "Patient in Case No. 1"
+      ],
+      [
+        "PET-CT Scan",
+        "Right Breast Cancer"
+      ],
+      [
+        "PET-CT Scan (May 2021)",
+        "Patient in Case No. 1"
+      ],
+      [
+        "Palbociclib",
+        "Right Breast Cancer"
+      ],
+      [
+        "Patient in Case No. 1",
+        "Pfizer COVID-19 Vaccine"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1790406991,
+    "update_time": 1790406991,
+    "_id": "doc-fcfa57204c968485db6ce958a32798b1"
+  },
+  "doc-929f6f72ad279f7c0268ecc7ede98566": {
+    "relation_pairs": [
+      [
+        "BioNTech",
+        "Pfizer SARS-CoV-2 vaccine"
+      ],
+      [
+        "Case Rep Oncol",
+        "invasive ductal carcinoma"
+      ],
+      [
+        "Pertuzumab",
+        "neo-adjuvant therapy with anthracyclines followed by paclitaxel, trastuzumab, and pertuzumab"
+      ],
+      [
+        "Pfizer",
+        "Pfizer SARS-CoV-2 vaccine"
+      ],
+      [
+        "Pfizer SARS-CoV-2 vaccine",
+        "left breast"
+      ],
+      [
+        "adjuvant trastuzumab maintenance therapy",
+        "invasive ductal carcinoma"
+      ],
+      [
+        "breast magnetic resonance imaging",
+        "invasive ductal carcinoma"
+      ],
+      [
+        "core biopsy from the left axillary lymph node",
+        "reactive follicular hyperplasia"
+      ],
+      [
+        "estrogen receptor negative",
+        "invasive ductal carcinoma"
+      ],
+      [
+        "human epidermal growth factor receptor 2-positive",
+        "invasive ductal carcinoma"
+      ],
+      [
+        "invasive ductal carcinoma",
+        "left axillary lymph nodes"
+      ],
+      [
+        "invasive ductal carcinoma",
+        "left-sided mastectomy"
+      ],
+      [
+        "invasive ductal carcinoma",
+        "neo-adjuvant therapy with anthracyclines followed by paclitaxel, trastuzumab, and pertuzumab"
+      ],
+      [
+        "invasive ductal carcinoma",
+        "progesterone receptor negative"
+      ],
+      [
+        "invasive ductal carcinoma",
+        "sentinel lymph node biopsy"
+      ],
+      [
+        "left axillary lymph nodes",
+        "left breast"
+      ],
+      [
+        "left-sided mastectomy",
+        "surgical pathology"
+      ],
+      [
+        "lump in the left breast",
+        "mammography"
+      ],
+      [
+        "lump in the left breast",
+        "ultrasound"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1790407104,
+    "update_time": 1790407104,
+    "_id": "doc-929f6f72ad279f7c0268ecc7ede98566"
+  },
+  "doc-ba679de338676145ac42d51c4033cdd5": {
+    "relation_pairs": [
+      [
+        "Acceptance and Commitment Theory",
+        "Covid19"
+      ],
+      [
+        "Anziani e non solo",
+        "Me-We"
+      ],
+      [
+        "Anziani e non solo e-learning platform",
+        "Caregivers"
+      ],
+      [
+        "Anziani e non solo e-learning platform",
+        "Case 7"
+      ],
+      [
+        "Anziani e non solo e-learning platform",
+        "Me-We"
+      ],
+      [
+        "App stores",
+        "Me-We"
+      ],
+      [
+        "Case 6",
+        "Me-We"
+      ],
+      [
+        "CeHRes Roadmap",
+        "ans"
+      ],
+      [
+        "CeHRes Roadmap",
+        "interviewee"
+      ],
+      [
+        "Covid19",
+        "Front Digit Health"
+      ],
+      [
+        "DNA-V model",
+        "Me-We"
+      ],
+      [
+        "DNA-V model",
+        "Me-we"
+      ],
+      [
+        "Front Digit Health",
+        "Mantelzorg Balans"
+      ],
+      [
+        "Front Digit Health",
+        "PMC10081674_01"
+      ],
+      [
+        "Front Digit Health",
+        "Partner In Balans"
+      ],
+      [
+        "Front Digit Health",
+        "eMental health technologies"
+      ],
+      [
+        "Front Digit Health",
+        "health insurer"
+      ],
+      [
+        "Italian Adaptation of Me-We",
+        "Me-We"
+      ],
+      [
+        "Luna",
+        "caregivers"
+      ],
+      [
+        "Mantelzorg",
+        "Minddistrict"
+      ],
+      [
+        "Mantelzorg",
+        "Therapieland"
+      ],
+      [
+        "Mantelzorg",
+        "Transfore"
+      ],
+      [
+        "Mantelzorg Balans",
+        "health insurer"
+      ],
+      [
+        "Me-we",
+        "Minddistrict"
+      ],
+      [
+        "Minddistrict",
+        "Transfore"
+      ],
+      [
+        "Minddistrict",
+        "grant agreement"
+      ],
+      [
+        "Partners In Balans",
+        "eMental health technologies"
+      ],
+      [
+        "Terug in balans (voor naasten)",
+        "caregiver burden"
+      ],
+      [
+        "Terug in balans (voor naasten)",
+        "informal caregivers"
+      ],
+      [
+        "Terug in balans (voor naasten)",
+        "interviewee"
+      ],
+      [
+        "ans",
+        "business modeling"
+      ],
+      [
+        "ans",
+        "co-design"
+      ],
+      [
+        "ans",
+        "grant agreement"
+      ],
+      [
+        "ans",
+        "informal caregivers"
+      ],
+      [
+        "caregiving time",
+        "informal caregivers"
+      ],
+      [
+        "financing",
+        "informal caregivers"
+      ]
+    ],
+    "count": 36,
+    "create_time": 1790407483,
+    "update_time": 1790407483,
+    "_id": "doc-ba679de338676145ac42d51c4033cdd5"
+  },
+  "doc-32b6a56be066361ebb16cfb363677abc": {
+    "relation_pairs": [
+      [
+        "Apple",
+        "Steve Jobs"
+      ],
+      [
+        "Germany",
+        "Penzberg,"
+      ],
+      [
+        "Germany",
+        "st. Leon-rot,"
+      ],
+      [
+        "has part",
+        "rs11536878"
+      ],
+      [
+        "has part",
+        "rs11536879"
+      ],
+      [
+        "has part",
+        "rs11536889"
+      ],
+      [
+        "has part",
+        "rs11536897"
+      ],
+      [
+        "has part",
+        "rs11536898"
+      ],
+      [
+        "has part",
+        "rs1554973"
+      ],
+      [
+        "has part",
+        "rs4986790"
+      ],
+      [
+        "has part",
+        "rs4986791"
+      ],
+      [
+        "has part",
+        "rs7873784"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1790407905,
+    "update_time": 1790407905,
+    "_id": "doc-32b6a56be066361ebb16cfb363677abc"
+  },
+  "doc-45342268eca0e779888f14d37fa7cfca": {
+    "relation_pairs": [
+      [
+        "Acetylcholine Receptor Antibody",
+        "Patient"
+      ],
+      [
+        "Acyclovir",
+        "Patient"
+      ],
+      [
+        "Brain Computed Tomography",
+        "Patient"
+      ],
+      [
+        "Brain Magnetic Resonance Imaging (MRI)",
+        "Patient"
+      ],
+      [
+        "CT Angiography",
+        "Pulmonary Thromboembolism"
+      ],
+      [
+        "Coronavirus",
+        "Patient"
+      ],
+      [
+        "Deep Vein Thrombosis",
+        "Patient"
+      ],
+      [
+        "Doctor",
+        "Patient"
+      ],
+      [
+        "Doctors",
+        "Patient"
+      ],
+      [
+        "Hematoma",
+        "Patient"
+      ],
+      [
+        "Hemoglobin Decreased",
+        "Patient"
+      ],
+      [
+        "Image",
+        "Patient"
+      ],
+      [
+        "ImageNote",
+        "Patient"
+      ],
+      [
+        "Neurologist",
+        "Patient"
+      ],
+      [
+        "Ophthalmic Ointment",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Physiotherapist"
+      ],
+      [
+        "Patient",
+        "Sina Hospital"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1790408015,
+    "update_time": 1790408015,
+    "_id": "doc-45342268eca0e779888f14d37fa7cfca"
+  },
+  "doc-9da2af97eccd3fa32f10c928182ea713": {
+    "relation_pairs": [
+      [
+        "Aortic Filing Defect",
+        "Patient"
+      ],
+      [
+        "Contrast Substanace",
+        "Patient"
+      ],
+      [
+        "Contrast Substanace",
+        "Thoracic Computed Tomography"
+      ],
+      [
+        "Figure 2",
+        "Patient"
+      ],
+      [
+        "Low-molecular-weight Heparin",
+        "Patient"
+      ],
+      [
+        "Oral Anticoagulation",
+        "Patient"
+      ],
+      [
+        "Patient",
+        "Thoracic Computed Tomography"
+      ],
+      [
+        "Patient",
+        "Thrombus"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790408200,
+    "update_time": 1790408200,
+    "_id": "doc-9da2af97eccd3fa32f10c928182ea713"
+  },
+  "doc-2be3e7c3dc3ecb08fc87beaebc3f75f1": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1790408253,
+    "update_time": 1790408253,
+    "_id": "doc-2be3e7c3dc3ecb08fc87beaebc3f75f1"
+  },
+  "doc-e94cb18054004eece1d4588c51369a24": {
+    "relation_pairs": [
+      [
+        "BCGitis",
+        "IV-4's Father"
+      ],
+      [
+        "Fine-needle aspiration cytology",
+        "Sudanese Child"
+      ],
+      [
+        "IV-4",
+        "Proband"
+      ],
+      [
+        "IV-4's Father",
+        "Patient"
+      ],
+      [
+        "IV-4's Father",
+        "Sudanese Child"
+      ],
+      [
+        "IV-4's Father",
+        "Tuberculosis"
+      ],
+      [
+        "Proband",
+        "Sudanese Child"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790408322,
+    "update_time": 1790408322,
+    "_id": "doc-e94cb18054004eece1d4588c51369a24"
+  },
+  "doc-4389b6cb92af87d5a04e2441adde5d99": {
+    "relation_pairs": [
+      [
+        "Abdominal Ultrasound scan",
+        "patient"
+      ],
+      [
+        "Altare et al.",
+        "IL12RB1"
+      ],
+      [
+        "Aspergillus fungal hyphae",
+        "patient"
+      ],
+      [
+        "Bilateral Prominent Hilar Lymph Nodes",
+        "Lymph Nodes"
+      ],
+      [
+        "Bronchiectasis",
+        "Chest X-Ray"
+      ],
+      [
+        "Bronchiectasis",
+        "Lymph Nodes"
+      ],
+      [
+        "Bronchiectasis",
+        "Patient"
+      ],
+      [
+        "Chest X-Ray",
+        "Lymph Nodes"
+      ],
+      [
+        "Chest X-Ray",
+        "Patient"
+      ],
+      [
+        "ClinVar",
+        "variant"
+      ],
+      [
+        "Exon 9",
+        "c.913A>T"
+      ],
+      [
+        "Exon 9, c.913A>T",
+        "NextSeq Illumina"
+      ],
+      [
+        "Family member III-11",
+        "proband's father"
+      ],
+      [
+        "Father",
+        "Figure 1A"
+      ],
+      [
+        "Father",
+        "Tuberculosis"
+      ],
+      [
+        "Figure 1B",
+        "Tuberculosis"
+      ],
+      [
+        "IL12RB1",
+        "IgA"
+      ],
+      [
+        "IL12RB1",
+        "Patient's Variant"
+      ],
+      [
+        "IL12RB1",
+        "Tuberculosis"
+      ],
+      [
+        "IL12RB1",
+        "father"
+      ],
+      [
+        "IL12RB1",
+        "mother"
+      ],
+      [
+        "IL12RB1 Exon 9",
+        "father's genotype"
+      ],
+      [
+        "IL12RB1 Exon 9",
+        "mother"
+      ],
+      [
+        "IgA level",
+        "patient"
+      ],
+      [
+        "IgG subclasses and specific antibody titers for protein and polysaccharide vaccines",
+        "Sudan"
+      ],
+      [
+        "Immunoglobulin G level",
+        "patient"
+      ],
+      [
+        "Invitae",
+        "c.913A>T"
+      ],
+      [
+        "MSMD",
+        "variant"
+      ],
+      [
+        "Nyala hospital",
+        "patient"
+      ],
+      [
+        "PCRs",
+        "patient"
+      ],
+      [
+        "Patient's Complete Blood Count",
+        "Table 1"
+      ],
+      [
+        "Patient's Lymphocyte Subset",
+        "Table 2"
+      ],
+      [
+        "Pediatric Tropical and Infectious Diseases unit",
+        "Proband"
+      ],
+      [
+        "TB adenitis",
+        "patient"
+      ],
+      [
+        "Table 1",
+        "Table 2"
+      ],
+      [
+        "Tuberculosis",
+        "Widal test"
+      ],
+      [
+        "acid-fast Bacillus (AFB) stain",
+        "patient"
+      ],
+      [
+        "c.913A>T",
+        "gnomAD"
+      ],
+      [
+        "chest x-ray",
+        "patient"
+      ],
+      [
+        "father",
+        "patient"
+      ],
+      [
+        "father",
+        "variant"
+      ],
+      [
+        "histopathology",
+        "patient"
+      ],
+      [
+        "mother",
+        "patient"
+      ],
+      [
+        "mother",
+        "variant"
+      ],
+      [
+        "paternal aunt (III-1)",
+        "patient"
+      ],
+      [
+        "paternal cousin (IV-2)",
+        "patient"
+      ],
+      [
+        "patient",
+        "proband"
+      ],
+      [
+        "patient",
+        "proband's father"
+      ],
+      [
+        "patient",
+        "proband's mother"
+      ],
+      [
+        "patient",
+        "tuberculous meningitis"
+      ],
+      [
+        "patient",
+        "variant"
+      ],
+      [
+        "proband's father",
+        "proband's mother"
+      ]
+    ],
+    "count": 52,
+    "create_time": 1790408699,
+    "update_time": 1790408699,
+    "_id": "doc-4389b6cb92af87d5a04e2441adde5d99"
+  },
+  "doc-8796f4ace49bbe8576f6ef1d7428f138": {
+    "relation_pairs": [
+      [
+        "Anticoagulation",
+        "Enoxaparin"
+      ],
+      [
+        "Anticoagulation",
+        "Warfarin"
+      ],
+      [
+        "Autoimmune Workup",
+        "Connective Tissue Diseases"
+      ],
+      [
+        "Autoimmune Workup",
+        "Systemic Lupus Erythematosus"
+      ],
+      [
+        "Autoimmune Workup",
+        "Thrombosis"
+      ],
+      [
+        "CAPS",
+        "Enoxaparin"
+      ],
+      [
+        "CAPS",
+        "Malignancy"
+      ],
+      [
+        "CAPS",
+        "PLEX (Plasma Exchange)"
+      ],
+      [
+        "CAPS",
+        "Rituximab"
+      ],
+      [
+        "CAPS",
+        "Thrombosis"
+      ],
+      [
+        "CAPS",
+        "Warfarin"
+      ],
+      [
+        "CEA",
+        "Carcinoma Antiphospholipid Syndrome (CAPS)"
+      ],
+      [
+        "CEA",
+        "protein"
+      ],
+      [
+        "CEA (Carcinoembryonic Antigen)",
+        "Malignancy"
+      ],
+      [
+        "Carcinoma Antiphospholipid Syndrome (CAPS)",
+        "Patient"
+      ],
+      [
+        "Carcinoma Antiphospholipid Syndrome (CAPS)",
+        "Rheumatology Clinic"
+      ],
+      [
+        "Carcinoma Antiphospholipid Syndrome (CAPS)",
+        "Thrombosis"
+      ],
+      [
+        "Connective Tissue Diseases",
+        "Systemic Lupus Erythematosus"
+      ],
+      [
+        "Connective Tissue Diseases",
+        "Thrombosis"
+      ],
+      [
+        "LLUMC",
+        "Patient"
+      ],
+      [
+        "LLUMC",
+        "Rheumatology Clinic"
+      ],
+      [
+        "Patient",
+        "Rheumatology Clinic"
+      ],
+      [
+        "Patient",
+        "Systemic Lupus Erythematosus"
+      ],
+      [
+        "Patient",
+        "Thrombosis"
+      ],
+      [
+        "Rheumatology Clinic",
+        "Systemic Lupus Erythematosus"
+      ],
+      [
+        "Thrombosis",
+        "Warfarin"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1790408966,
+    "update_time": 1790408966,
+    "_id": "doc-8796f4ace49bbe8576f6ef1d7428f138"
+  },
+  "doc-ea8bc1e08bf193a9e2d5cfe0cfa7cb03": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "Front Artif Intell"
+      ],
+      [
+        "CRP",
+        "drug combination 12"
+      ],
+      [
+        "Figure 6",
+        "Front Artif Intell"
+      ],
+      [
+        "Front Artif Intell",
+        "PMC10106735_01"
+      ],
+      [
+        "PMC10106735_01",
+        "Table 3"
+      ],
+      [
+        "PMC10106735_01",
+        "drug combination 12"
+      ],
+      [
+        "PMC10106735_01",
+        "drug combination 123"
+      ],
+      [
+        "PMC10106735_01",
+        "drug combination 126"
+      ],
+      [
+        "SBP",
+        "drug combination 12"
+      ],
+      [
+        "age",
+        "drug combination 12"
+      ],
+      [
+        "age",
+        "drug combination 126"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790409199,
+    "update_time": 1790409199,
+    "_id": "doc-ea8bc1e08bf193a9e2d5cfe0cfa7cb03"
+  },
+  "doc-d4d80759040f52b3ede49f42699d78ee": {
+    "relation_pairs": [
+      [
+        "2021",
+        "ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine"
+      ],
+      [
+        "2021",
+        "Female"
+      ],
+      [
+        "2021",
+        "PMC10107960"
+      ],
+      [
+        "A woman in her mid-twenties",
+        "Cerebral venous sinus thrombosis"
+      ],
+      [
+        "A woman in her mid-twenties",
+        "ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine"
+      ],
+      [
+        "Cerebral venous sinus thrombosis",
+        "Female"
+      ],
+      [
+        "ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine",
+        "Covid19"
+      ],
+      [
+        "ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine",
+        "Female"
+      ],
+      [
+        "JRSM Cardiovasc Dis",
+        "PMC10107960"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1790409275,
+    "update_time": 1790409275,
+    "_id": "doc-d4d80759040f52b3ede49f42699d78ee"
+  },
+  "doc-ef76abe0052f290f4f25188fbc72ce38": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1790409325,
+    "update_time": 1790409325,
+    "_id": "doc-ef76abe0052f290f4f25188fbc72ce38"
+  },
+  "doc-67fd22a190eacc0568e9819986f6c1fb": {
+    "relation_pairs": [
+      [
+        "COVID-19",
+        "COVID-PCR tests"
+      ],
+      [
+        "CT",
+        "malignancy"
+      ],
+      [
+        "CT",
+        "patient"
+      ],
+      [
+        "CVST",
+        "venogram"
+      ],
+      [
+        "Carbimazole 15 mg once daily",
+        "Thyroid stimulating hormone (TSH) and free thyroxine (FT4)"
+      ],
+      [
+        "Case ID: PMC10107960_03",
+        "Patient"
+      ],
+      [
+        "ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine",
+        "Levadex"
+      ],
+      [
+        "ChAdOx1 nCoV-19 AstraZeneca COVID-19 vaccine",
+        "Patient"
+      ],
+      [
+        "International Normalised Ratio",
+        "venogram"
+      ],
+      [
+        "International Normalised Ratio",
+        "warfarin"
+      ],
+      [
+        "LMWH",
+        "patient"
+      ],
+      [
+        "MRV",
+        "venogram"
+      ],
+      [
+        "doctors",
+        "patient"
+      ],
+      [
+        "doctors",
+        "warfarin"
+      ],
+      [
+        "headache",
+        "patient"
+      ],
+      [
+        "nausea",
+        "patient"
+      ],
+      [
+        "patient",
+        "pill"
+      ],
+      [
+        "patient",
+        "venogram"
+      ],
+      [
+        "patient",
+        "warfarin"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1790409468,
+    "update_time": 1790409468,
+    "_id": "doc-67fd22a190eacc0568e9819986f6c1fb"
+  },
+  "doc-64461aee1df8d8614f176b6b66640954": {
+    "relation_pairs": [
+      [
+        "Age restriction",
+        "ChAdOx1 nCoV-19 vaccine"
+      ],
+      [
+        "Alternative vaccine",
+        "National guidelines"
+      ],
+      [
+        "AstraZeneca",
+        "ChAdOx1 nCoV-19 vaccine"
+      ],
+      [
+        "COVID-19 pandemic",
+        "Cerebral venous sinus thrombosis"
+      ],
+      [
+        "COVID-19 vaccine",
+        "Ten days"
+      ],
+      [
+        "Cerebral venous sinus thrombosis",
+        "JRSM Cardiovasc Dis"
+      ],
+      [
+        "ChAdOx1 nCoV-19 vaccine",
+        "University of Oxford"
+      ],
+      [
+        "Femaleref",
+        "Patient Demographics"
+      ],
+      [
+        "Femaleref",
+        "Second does of vaccine"
+      ],
+      [
+        "Femaleref",
+        "Stroke"
+      ],
+      [
+        "JRSM Cardiovasc Dis",
+        "Journal publication"
+      ],
+      [
+        "National guidelines",
+        "Stroke"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1790409566,
+    "update_time": 1790409566,
+    "_id": "doc-64461aee1df8d8614f176b6b66640954"
+  },
+  "doc-6be885e2ac421cdf4adeacfd81d4896a": {
+    "relation_pairs": [
+      [
+        "35 weeks gestation",
+        "Case report: Fulminant type 1 diabetes following paucisymptomatic SARS-CoV-2 infection during late pregnancy"
+      ],
+      [
+        "Arterial pH",
+        "Woman"
+      ],
+      [
+        "C-Section",
+        "Pregnancy"
+      ],
+      [
+        "Case report: Fulminant type 1 diabetes following paucisymptomatic SARS-CoV-2 infection during late pregnancy",
+        "Covid19"
+      ],
+      [
+        "Case report: Fulminant type 1 diabetes following paucisymptomatic SARS-CoV-2 infection during late pregnancy",
+        "Front Endocrinol (Lausanne)"
+      ],
+      [
+        "Case report: Fulminant type 1 diabetes following paucisymptomatic SARS-CoV-2 infection during late pregnancy",
+        "PMC10112664_01"
+      ],
+      [
+        "Cesarean Section",
+        "Woman"
+      ],
+      [
+        "Chinese woman",
+        "Fulminant type 1 diabetes"
+      ],
+      [
+        "Chinese woman",
+        "SARS-CoV-2"
+      ],
+      [
+        "Fetus",
+        "Woman"
+      ],
+      [
+        "High Triglycerides",
+        "Woman"
+      ],
+      [
+        "Obstetric Ultrasound",
+        "Pregnancy"
+      ],
+      [
+        "Obstetric Ultrasound",
+        "Woman"
+      ],
+      [
+        "Pregnancy",
+        "Woman"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1790409706,
+    "update_time": 1790409706,
+    "_id": "doc-6be885e2ac421cdf4adeacfd81d4896a"
+  },
+  "doc-6f41dbcd0ad3671a2ac5da13460b3f44": {
+    "relation_pairs": [
+      [
+        "ANAIgG",
+        "vasculitis"
+      ],
+      [
+        "Atherosclerosis",
+        "Polycythemia vera"
+      ],
+      [
+        "Atrial fibrillation",
+        "Patient"
+      ],
+      [
+        "C-Reactive Protein",
+        "Polycythemia vera"
+      ],
+      [
+        "C-reactive protein",
+        "Patient"
+      ],
+      [
+        "COVID-19 mRNA Vaccine",
+        "Patient"
+      ],
+      [
+        "CTA head/neck",
+        "vasculitis"
+      ],
+      [
+        "Cardiac intraventricular thrombus",
+        "Patient"
+      ],
+      [
+        "Cerebellar ischemic stroke",
+        "stroke"
+      ],
+      [
+        "Covid19",
+        "Patient"
+      ],
+      [
+        "Distal left internal jugular vein occlusion",
+        "Polycythemia vera"
+      ],
+      [
+        "Elevated erythropoietin level",
+        "Polycythemia vera"
+      ],
+      [
+        "Erythrocyte sedimentation rate",
+        "Patient"
+      ],
+      [
+        "Erythrocyte sedimentation rate",
+        "Polycythemia vera"
+      ],
+      [
+        "Erythropoietin",
+        "Patient"
+      ],
+      [
+        "Factor V Leiden",
+        "Polycythemia vera"
+      ],
+      [
+        "Graves' disease",
+        "Patient"
+      ],
+      [
+        "Hematocrit (Hct)",
+        "Patient"
+      ],
+      [
+        "Hydroxyurea",
+        "Polycythemia vera"
+      ],
+      [
+        "Hypertension",
+        "Patient"
+      ],
+      [
+        "JAK2 mutation",
+        "Patient"
+      ],
+      [
+        "JAK2 mutation",
+        "vasculitis"
+      ],
+      [
+        "Losartan",
+        "Patient"
+      ],
+      [
+        "Multiple arterial thromboses",
+        "Polycythemia vera"
+      ],
+      [
+        "Nausea and vertigo",
+        "Patient"
+      ],
+      [
+        "Patent foramen ovale",
+        "Polycythemia vera"
+      ],
+      [
+        "Patient",
+        "Pfizer-BioNTech (BNT162b2 mRNA)"
+      ],
+      [
+        "Patient",
+        "Tobacco use"
+      ],
+      [
+        "Patient",
+        "Warfarin"
+      ],
+      [
+        "Patient",
+        "macular whitening"
+      ],
+      [
+        "Platelet count",
+        "Polycythemia vera"
+      ],
+      [
+        "Polycythemia vera",
+        "Stroke"
+      ],
+      [
+        "RF",
+        "vasculitis"
+      ],
+      [
+        "aspirin",
+        "fondaparinux"
+      ],
+      [
+        "atherosclerosis",
+        "stroke"
+      ],
+      [
+        "atrophic retina",
+        "ophthalmic artery occlusion"
+      ],
+      [
+        "atrophic retina",
+        "ropoietin"
+      ],
+      [
+        "atrophic retina",
+        "stroke"
+      ],
+      [
+        "atrophic retina",
+        "vasculitis"
+      ],
+      [
+        "brain",
+        "stroke"
+      ],
+      [
+        "central retinal artery occlusion",
+        "ropoietin"
+      ],
+      [
+        "hydroxyurea",
+        "ropoietin"
+      ],
+      [
+        "ropoietin",
+        "serial phlebotomy"
+      ]
+    ],
+    "count": 43,
+    "create_time": 1790410130,
+    "update_time": 1790410130,
+    "_id": "doc-6f41dbcd0ad3671a2ac5da13460b3f44"
+  },
+  "doc-8e81c2beca3c37ea5e8eb28df0ada85d": {
+    "relation_pairs": [
+      [
+        "CD4 count of 4 cells/mm3",
+        "Histoplasmosis"
+      ],
+      [
+        "Case ID: PMC10115450_01",
+        "Histoplasmosis"
+      ],
+      [
+        "HIV",
+        "critically ill patient"
+      ],
+      [
+        "HIV-1 infection",
+        "Histoplasmosis"
+      ],
+      [
+        "Histoplasmosis",
+        "Patient with disseminated histoplasmosis and advanced HIV disease"
+      ],
+      [
+        "PMCID: PMC10115450_01",
+        "Patient with disseminated histoplasmosis and advanced HIV disease"
+      ],
+      [
+        "amphotericin B",
+        "critically ill patient"
+      ],
+      [
+        "antiretroviral therapy",
+        "critically ill patient"
+      ],
+      [
+        "critically ill patient",
+        "darunavir/ritonavir"
+      ],
+      [
+        "critically ill patient",
+        "dolutegravir"
+      ],
+      [
+        "critically ill patient",
+        "itraconazole"
+      ],
+      [
+        "critically ill patient",
+        "lamivudine"
+      ],
+      [
+        "critically ill patient",
+        "liposomal amphotericin B"
+      ],
+      [
+        "critically ill patient",
+        "oplasma spp."
+      ],
+      [
+        "critically ill patient",
+        "prophylactic trimethoprim-sulfamethoxazole"
+      ],
+      [
+        "disseminated histoplasmosis",
+        "oplasma spp."
+      ],
+      [
+        "histoplasmosis",
+        "oplasma spp."
+      ]
+    ],
+    "count": 17,
+    "create_time": 1790410391,
+    "update_time": 1790410391,
+    "_id": "doc-8e81c2beca3c37ea5e8eb28df0ada85d"
+  },
+  "doc-c530646384f0bb3ff33d92dcc9dd5836": {
+    "relation_pairs": [
+      [
+        "A Case of Laryngeal Cryptococcosis that Responded to Itraconazole",
+        "Laryngeal Cryptococcosis"
+      ],
+      [
+        "Caused By",
+        "Cryptococcosis"
+      ],
+      [
+        "FLCZ",
+        "laryngeal cryptococcosis"
+      ],
+      [
+        "ITCZ",
+        "erlotinib"
+      ],
+      [
+        "ITCZ",
+        "laryngeal cryptococcosis"
+      ],
+      [
+        "ITCZ",
+        "lung adenocarcinoma"
+      ],
+      [
+        "ITCZ",
+        "pleural effusion"
+      ],
+      [
+        "Laryngeal Cryptococcosis",
+        "Treats"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790410528,
+    "update_time": 1790410528,
+    "_id": "doc-c530646384f0bb3ff33d92dcc9dd5836"
+  },
+  "doc-f14a7f62e056d22fda25084ef5245cb4": {
+    "relation_pairs": [
+      [
+        "BBIBP-CorV Vaccine",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "COVID-19 PCR test"
+      ],
+      [
+        "COVID-19",
+        "Generalized Pustular Psoriasis"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "Generalized Pustular Psoriasis",
+        "Neotigason"
+      ],
+      [
+        "Generalized Pustular Psoriasis",
+        "Sinopharm"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1790410649,
+    "update_time": 1790410649,
+    "_id": "doc-f14a7f62e056d22fda25084ef5245cb4"
+  },
+  "doc-b11d21ed4c1de5a364f9078d6a43e651": {
+    "relation_pairs": [
+      [
+        "Chest X-ray",
+        "Echinococcosis"
+      ],
+      [
+        "Chest X-ray",
+        "Hydatid cyst"
+      ],
+      [
+        "Chest X-ray",
+        "Ruptured Pulmonary Hydatid Cyst"
+      ],
+      [
+        "Comput tomography of the chest",
+        "Ruptured Pulmonary Hydatid Cyst"
+      ],
+      [
+        "Computed Tomography of the Chest",
+        "Ruptured Pulmonary Hydatid Cyst"
+      ],
+      [
+        "Echinococcosis",
+        "J Global Infectious Diseases"
+      ],
+      [
+        "Echinococcosis",
+        "Ruptured Pulmonary Hydatid Cyst"
+      ],
+      [
+        "Echinococcosis",
+        "albendazole"
+      ],
+      [
+        "Echinococcus",
+        "hydatid disease"
+      ],
+      [
+        "Echinococcus infection",
+        "albendazole"
+      ],
+      [
+        "Hydatid cyst",
+        "Pleural fluid"
+      ],
+      [
+        "Intercostal tube drainage",
+        "Pleural fluid"
+      ],
+      [
+        "Pleural fluid",
+        "Ruptured Pulmonary Hydatid Cyst"
+      ],
+      [
+        "albendazole",
+        "hydatid disease"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1790410891,
+    "update_time": 1790410891,
+    "_id": "doc-b11d21ed4c1de5a364f9078d6a43e651"
+  },
+  "doc-4e6ad227758be9acc011baf12582f069": {
+    "relation_pairs": [
+      [
+        "Methimazole",
+        "Nashua"
+      ],
+      [
+        "Nashua",
+        "RVR"
+      ],
+      [
+        "Nashua",
+        "TRAb"
+      ],
+      [
+        "Nashua",
+        "TSI"
+      ],
+      [
+        "Nashua",
+        "digoxin"
+      ],
+      [
+        "Nashua",
+        "metoprolol"
+      ],
+      [
+        "methimazole",
+        "patient"
+      ],
+      [
+        "patient",
+        "thyroid storm"
+      ],
+      [
+        "patient",
+        "thyroid-stimulating immunoglobulin (TSI)"
+      ],
+      [
+        "patient",
+        "thyrotropin receptor antibody (TRAb)"
+      ],
+      [
+        "thyroid-stimulating immunoglobulin (TSI)",
+        "thyroiditis"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790411078,
+    "update_time": 1790411078,
+    "_id": "doc-4e6ad227758be9acc011baf12582f069"
+  },
+  "doc-03b0a8dfeb808417cea94ea14849fbdf": {
+    "relation_pairs": [
+      [
+        "CT scan",
+        "hydatid disease"
+      ],
+      [
+        "Cercospora chrysanthemi",
+        "albendazole (dose)"
+      ],
+      [
+        "Echinococcus granulosus",
+        "hydatid disease"
+      ],
+      [
+        "Entity",
+        "Goats and camels"
+      ],
+      [
+        "Figure 4",
+        "MRI (interval rupture)"
+      ],
+      [
+        "MRI (imaging finding)",
+        "patient"
+      ],
+      [
+        "MRI (interval rupture)",
+        "hyd"
+      ],
+      [
+        "MRI (interval rupture)",
+        "surgery"
+      ],
+      [
+        "adhesions",
+        "lung"
+      ],
+      [
+        "albendazole (dose)",
+        "patient"
+      ],
+      [
+        "albendazole for 9 months",
+        "patient"
+      ],
+      [
+        "calcifications",
+        "hydatid disease"
+      ],
+      [
+        "cyst",
+        "hydatid disease"
+      ],
+      [
+        "cyst",
+        "hypertonic saline"
+      ],
+      [
+        "history, description",
+        "surgery"
+      ],
+      [
+        "hydatid disease",
+        "hydropneumothorax"
+      ],
+      [
+        "hydatid disease",
+        "mixed inflammatory infiltrate"
+      ],
+      [
+        "hydatid disease",
+        "protoscolices"
+      ],
+      [
+        "hypertonic saline",
+        "surgery"
+      ],
+      [
+        "patient",
+        "surgery"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1790411308,
+    "update_time": 1790411308,
+    "_id": "doc-03b0a8dfeb808417cea94ea14849fbdf"
+  },
+  "doc-08b0574b124b4b202cf913a692661565": {
+    "relation_pairs": [
+      [
+        "Appendectomy",
+        "Patient"
+      ],
+      [
+        "Appendix",
+        "Ultrasound"
+      ],
+      [
+        "Aspirin",
+        "MIS-C"
+      ],
+      [
+        "Aspirin",
+        "Patient"
+      ],
+      [
+        "COV-2 IgG",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Elevated D-dimer"
+      ],
+      [
+        "COVID-19",
+        "Enoxaparin"
+      ],
+      [
+        "COVID-19",
+        "Family"
+      ],
+      [
+        "COVID-19",
+        "IVIG"
+      ],
+      [
+        "COVID-19",
+        "MIS-C"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "SARS-CoV-2"
+      ],
+      [
+        "COVID-19",
+        "Table 1"
+      ],
+      [
+        "Catarrhal Appendicitis",
+        "Patient"
+      ],
+      [
+        "Catarrhal Appendicitis",
+        "Vasoactive Drugs"
+      ],
+      [
+        "Catarrhal Appendicitis Diagnosis",
+        "Histopathological Examination"
+      ],
+      [
+        "D-Dimer",
+        "Vasoactive Drugs"
+      ],
+      [
+        "Dobutamine",
+        "Heart Dysfunction"
+      ],
+      [
+        "Echocardiogram",
+        "Heart Dysfunction"
+      ],
+      [
+        "Heart Dysfunction",
+        "MIS-C"
+      ],
+      [
+        "Hospital",
+        "Patient"
+      ],
+      [
+        "Hospital Day 4",
+        "Patient"
+      ],
+      [
+        "IVIG",
+        "MIS-C"
+      ],
+      [
+        "IVIG",
+        "Methylprednisolone"
+      ],
+      [
+        "Inflammatory Parameters",
+        "Patient"
+      ],
+      [
+        "Left Ventricle (LV)",
+        "Vasoactive Drugs"
+      ],
+      [
+        "Left Ventricle (LV) Function",
+        "Normal Biventricular Function"
+      ],
+      [
+        "Patient",
+        "RT-PCR"
+      ],
+      [
+        "Patient",
+        "SARS-CoV-2"
+      ],
+      [
+        "Patient",
+        "Vasoactive Drugs"
+      ],
+      [
+        "Patient",
+        "covid-19 vaccine"
+      ],
+      [
+        "Patient",
+        "dopamine"
+      ],
+      [
+        "Patient",
+        "enoxaparin"
+      ],
+      [
+        "Patient",
+        "grandfather"
+      ],
+      [
+        "SARS-CoV-2",
+        "grandfather"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1790411613,
+    "update_time": 1790411613,
+    "_id": "doc-08b0574b124b4b202cf913a692661565"
+  },
+  "doc-5bdb1a3963218454e869ba51d8709816": {
+    "relation_pairs": [
+      [
+        "ARDS",
+        "Berlin definition"
+      ],
+      [
+        "ARDS",
+        "COVID-19"
+      ],
+      [
+        "Acute respiratory distress syndrome",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Chest computed tomography"
+      ],
+      [
+        "COVID-19",
+        "N-95 facemask"
+      ],
+      [
+        "COVID-19",
+        "Patient"
+      ],
+      [
+        "COVID-19",
+        "Remedesivir"
+      ],
+      [
+        "COVID-19",
+        "air-purifying respirator"
+      ],
+      [
+        "COVID-19",
+        "isolation ward"
+      ],
+      [
+        "COVID-19",
+        "our hospital"
+      ],
+      [
+        "COVID-19",
+        "pH"
+      ],
+      [
+        "COVID-19",
+        "patient"
+      ],
+      [
+        "COVID-19",
+        "piperacillin/tazobactam"
+      ],
+      [
+        "COVID-19",
+        "remdesivir"
+      ],
+      [
+        "COVID-19",
+        "respiratory parameters"
+      ],
+      [
+        "CPAP",
+        "patient"
+      ],
+      [
+        "Daegu Catholic University Medical Center",
+        "Patient"
+      ],
+      [
+        "Daegu Catholic University Medical Center Institutional Review Board",
+        "Patient"
+      ],
+      [
+        "Daegu Catholic University Medical Center Institutional Review Board",
+        "sAGE Open Med Case Rep"
+      ],
+      [
+        "HFNO",
+        "patient"
+      ],
+      [
+        "IM nail fixation",
+        "femoral fractures"
+      ],
+      [
+        "Ipsilateral shaft fracture",
+        "Patient"
+      ],
+      [
+        "Level D personal protective equipment",
+        "femoral fractures"
+      ],
+      [
+        "Patient",
+        "Throat swab"
+      ],
+      [
+        "SAGE Open Med Case Rep.",
+        "Target Disease Indications"
+      ],
+      [
+        "SpO2",
+        "dyspnea"
+      ],
+      [
+        "SpO2",
+        "hypoxia"
+      ],
+      [
+        "biological isolation chamber",
+        "femoral fractures"
+      ],
+      [
+        "bronchopneumonia",
+        "patient"
+      ],
+      [
+        "bronchopneumonia",
+        "radiographs"
+      ],
+      [
+        "cephallomedullary screws",
+        "femoral fractures"
+      ],
+      [
+        "femoral fractures",
+        "general anesthesia"
+      ],
+      [
+        "femoral fractures",
+        "intubation via video scope"
+      ],
+      [
+        "femoral fractures",
+        "negative-pressure operating room"
+      ],
+      [
+        "femoral fractures",
+        "our hospital"
+      ],
+      [
+        "femoral fractures",
+        "radiograph"
+      ],
+      [
+        "hemodynamic parameters",
+        "surgery"
+      ],
+      [
+        "hypoxemia",
+        "patient"
+      ],
+      [
+        "hypoxia",
+        "patient"
+      ],
+      [
+        "hypoxia",
+        "spO2"
+      ],
+      [
+        "pCO2",
+        "pH"
+      ],
+      [
+        "patient",
+        "radiographs"
+      ],
+      [
+        "patient",
+        "surgery"
+      ]
+    ],
+    "count": 43,
+    "create_time": 1790411965,
+    "update_time": 1790411965,
+    "_id": "doc-5bdb1a3963218454e869ba51d8709816"
+  }
+}
