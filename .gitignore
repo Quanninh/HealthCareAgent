@@ -1,3 +1,6 @@
 .env
 medical_datasets
 payload_for_ref
+
+/payload_for_ref/payloads
+.DS_Store
