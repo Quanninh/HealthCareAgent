@@ -1,0 +1,192 @@
+[
+    {
+        "case_id": "PMC10007705_01",
+        "predicted_disease": "dengue",
+        "confidence": "0.38",
+        "evidence_used": [
+            "aching muscles",
+            "myalgia",
+            "general weakness",
+            "weakness",
+            "blood creatine phosphokinase increased",
+            "elevated creatine kinase (ck)"
+        ]
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "predicted_disease": "dengue",
+        "confidence": "0.38",
+        "evidence_used": [
+            "pain distress question",
+            "abdominal pain",
+            "female humans",
+            "vomiting",
+            "heart beats per minute",
+            "tachycardia",
+            "pyrexial",
+            "febrile at 40 c",
+            "heart beats per minute",
+            "tachycardia at 100 beats per minute",
+            "spo2 saturation of peripheral oxygen",
+            "peripheral oxygen saturation of 98%",
+            "decreased muscle strength",
+            "muscle weakness",
+            "aching muscles",
+            "myalgia in the lower limbs",
+            "set of skeletal muscles",
+            "sensitivity of the lower limbs"
+        ]
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "confidence": "0.17",
+        "evidence_used": []
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "predicted_disease": "dengue",
+        "confidence": "0.38",
+        "evidence_used": [
+            "fever symptoms finding",
+            "fever",
+            "cephalodynia",
+            "headache",
+            "tiredness",
+            "fatigue",
+            "male individual",
+            "coma",
+            "elevated proteins",
+            "prominent elevated protein level",
+            "finding of glucose level",
+            "low glucose level",
+            "calcium buildup in soft tissues of body",
+            "nodules with calcification",
+            "air space opacification",
+            "consolidations in both lower lobes",
+            "medical imaging magnetic resonance nuclear magnetic resonance",
+            "ventriculomegaly",
+            "enhance action",
+            "meningeal enhancement",
+            "medical imaging magnetic resonance nuclear magnetic resonance",
+            "hydrocephalus",
+            "cognitive functions confusion",
+            "confusion",
+            "ns neck stiffness",
+            "neck stiffness"
+        ]
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "confidence": "0.17",
+        "evidence_used": [
+            "mass of body structure",
+            "mass",
+            "deadness numbness",
+            "numbness",
+            "pain observations",
+            "painful isolated mass",
+            "mass of body structure",
+            "isolated mass",
+            "systemic symptoms",
+            "good general condition",
+            "mass of body structure",
+            "tender mass",
+            "physical assessment findings",
+            "irregular indistinct borders",
+            "bone structure of knee joint region",
+            "knee pain"
+        ]
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "confidence": "0.17",
+        "evidence_used": [
+            "mass of body structure",
+            "mass",
+            "indurated nodule",
+            "indurated nodule",
+            "physical assessment findings",
+            "physical examination",
+            "indurated nodule",
+            "indurated nodule",
+            "physical assessment findings",
+            "no tenderness or elevation of local temperature",
+            "physical assessment findings",
+            "8 x 5 cm in size",
+            "no abnormalities",
+            "no abnormality of distal vascularity or sensation",
+            "no limitation",
+            "no limitation of movement",
+            "normal capillary refill time",
+            "normal blood count",
+            "lft liver function test",
+            "liver function tests",
+            "aso antistreptolysin o antibody titer",
+            "aso titers"
+        ]
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "predicted_disease": "dengue",
+        "confidence": "0.38",
+        "evidence_used": [
+            "high grade fever",
+            "high-grade fever",
+            "cephalodynia",
+            "chills",
+            "cephalodynia",
+            "headaches",
+            "aching muscles",
+            "muscle aches",
+            "cephalodynia",
+            "fatigue",
+            "frequency of diarrhea",
+            "diarrhea",
+            "physical assessment findings",
+            "abdominal pain",
+            "structure of lower extremity",
+            "petechiae",
+            "liking",
+            "burning-like abdominal pain",
+            "observation of nausea",
+            "nausea",
+            "observation of nausea",
+            "vomiting"
+        ]
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "confidence": "0.17",
+        "evidence_used": [
+            "structure of eyeball",
+            "blurring of vision in the left eye (le)",
+            "cephalodynia",
+            "headache",
+            "pathological constriction",
+            "focal constriction of arteries and veins, soft exudates, dot-blot and flame-shaped hemorrhages in branch vein distribution, attempt at macular fan formation, and area of macular edema",
+            "cmo cystoid macular oedema",
+            "neurosensory detachment with cystoid macular edema",
+            "thousand per liter",
+            "intravitreal triamcinolone acetonide (4 mg/0.1 ml)",
+            "six months",
+            "persistent micropsia",
+            "anatomical layer",
+            "retinal thinning with the restoration of retinal layers",
+            "deep resection margin",
+            "distortion of retinal superficial and deep capillary plexus (scp-dcp) inferotemporal to foveal center"
+        ]
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "confidence": "0.17",
+        "evidence_used": [
+            "moderate intensity",
+            "moderate-intensity, continuous crushing chest pain radiating to the lower jaw and the left shoulder"
+        ]
+    }
+]

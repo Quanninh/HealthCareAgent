@@ -1,0 +1,578 @@
+[
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "myalgia",
+        "cui": "C0231528",
+        "standard_name": "Aching Muscles",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "weakness",
+        "cui": "C3714552",
+        "standard_name": "General Weakness",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "elevated creatine kinase (CK)",
+        "cui": "C0853034",
+        "standard_name": "Blood Creatine Phosphokinase Increased",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "abdominal pain",
+        "cui": "C4085211",
+        "standard_name": "Pain Distress Question",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "vomiting",
+        "cui": "C0043210",
+        "standard_name": "Female Humans",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "tachycardia",
+        "cui": "C0439385",
+        "standard_name": "Heart Beats Per Minute",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "febrile at 40 C",
+        "cui": "C0015967",
+        "standard_name": "Pyrexial",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "tachycardia at 100 beats per minute",
+        "cui": "C0439385",
+        "standard_name": "Heart Beats Per Minute",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "peripheral oxygen saturation of 98%",
+        "cui": "C2317096",
+        "standard_name": "Spo2 Saturation Of Peripheral Oxygen",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "muscle weakness",
+        "cui": "C0151786",
+        "standard_name": "Decreased Muscle Strength",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "myalgia in the lower limbs",
+        "cui": "C0231528",
+        "standard_name": "Aching Muscles",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "sensitivity of the lower limbs",
+        "cui": "C1995013",
+        "standard_name": "Set Of Skeletal Muscles",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "fever",
+        "cui": "C0424755",
+        "standard_name": "Fever Symptoms Finding",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "headache",
+        "cui": "C0018681",
+        "standard_name": "Cephalodynia",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "fatigue",
+        "cui": "C0015672",
+        "standard_name": "Tiredness",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "coma",
+        "cui": "C0086582",
+        "standard_name": "Male Individual",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "prominent elevated protein level",
+        "cui": "C0748024",
+        "standard_name": "Elevated Proteins",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "low glucose level",
+        "cui": "C0428548",
+        "standard_name": "Finding Of Glucose Level",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "nodules with calcification",
+        "cui": "C0006663",
+        "standard_name": "Calcium Buildup In Soft Tissues Of Body",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "consolidations in both lower lobes",
+        "cui": "C0521530",
+        "standard_name": "Air Space Opacification",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "ventriculomegaly",
+        "cui": "C0024485",
+        "standard_name": "Medical Imaging Magnetic Resonance Nuclear Magnetic Resonance",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "meningeal enhancement",
+        "cui": "C2349975",
+        "standard_name": "Enhance Action",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "hydrocephalus",
+        "cui": "C0024485",
+        "standard_name": "Medical Imaging Magnetic Resonance Nuclear Magnetic Resonance",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "confusion",
+        "cui": "C0009676",
+        "standard_name": "Cognitive Functions Confusion",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "neck stiffness",
+        "cui": "C0151315",
+        "standard_name": "Ns Neck Stiffness",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "mass",
+        "cui": "C0577559",
+        "standard_name": "Mass Of Body Structure",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "numbness",
+        "cui": "C0028643",
+        "standard_name": "Deadness Numbness",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "painful isolated mass",
+        "cui": "C0030193",
+        "standard_name": "Pain Observations",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "isolated mass",
+        "cui": "C0577559",
+        "standard_name": "Mass Of Body Structure",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "good general condition",
+        "cui": "C2039684",
+        "standard_name": "Systemic Symptoms",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "tender mass",
+        "cui": "C0577559",
+        "standard_name": "Mass Of Body Structure",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "irregular indistinct borders",
+        "cui": "C1509143",
+        "standard_name": "Physical Assessment Findings",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "knee pain",
+        "cui": "C0022742",
+        "standard_name": "Bone Structure Of Knee Joint Region",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "mass",
+        "cui": "C0577559",
+        "standard_name": "Mass Of Body Structure",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "indurated nodule",
+        "cui": "C5139202",
+        "standard_name": "Indurated Nodule",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "physical examination",
+        "cui": "C1509143",
+        "standard_name": "Physical Assessment Findings",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "indurated nodule",
+        "cui": "C5139202",
+        "standard_name": "Indurated Nodule",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "no tenderness or elevation of local temperature",
+        "cui": "C1509143",
+        "standard_name": "Physical Assessment Findings",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "8 x 5 cm in size",
+        "cui": "C1509143",
+        "standard_name": "Physical Assessment Findings",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "no abnormality of distal vascularity or sensation",
+        "cui": "C3809765",
+        "standard_name": "No Abnormalities",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "no limitation of movement",
+        "cui": "C3845941",
+        "standard_name": "No Limitation",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "normal blood count",
+        "cui": "C0232357",
+        "standard_name": "Normal Capillary Refill Time",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "liver function tests",
+        "cui": "C0023901",
+        "standard_name": "Lft Liver Function Test",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "ASO titers",
+        "cui": "C1318462",
+        "standard_name": "Aso Antistreptolysin O Antibody Titer",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "high-grade fever",
+        "cui": "C0239573",
+        "standard_name": "High Grade Fever",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "chills",
+        "cui": "C0018681",
+        "standard_name": "Cephalodynia",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "headaches",
+        "cui": "C0018681",
+        "standard_name": "Cephalodynia",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "muscle aches",
+        "cui": "C0231528",
+        "standard_name": "Aching Muscles",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "fatigue",
+        "cui": "C0018681",
+        "standard_name": "Cephalodynia",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "diarrhea",
+        "cui": "C4085317",
+        "standard_name": "Frequency Of Diarrhea",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "abdominal pain",
+        "cui": "C1509143",
+        "standard_name": "Physical Assessment Findings",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "petechiae",
+        "cui": "C0023216",
+        "standard_name": "Structure Of Lower Extremity",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "burning-like abdominal pain",
+        "cui": "C0870814",
+        "standard_name": "Liking",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "nausea",
+        "cui": "C0027497",
+        "standard_name": "Observation Of Nausea",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "vomiting",
+        "cui": "C0027497",
+        "standard_name": "Observation Of Nausea",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "blurring of vision in the left eye (LE)",
+        "cui": "C0015392",
+        "standard_name": "Structure Of Eyeball",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "headache",
+        "cui": "C0018681",
+        "standard_name": "Cephalodynia",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "focal constriction of arteries and veins, soft exudates, dot-blot and flame-shaped hemorrhages in branch vein distribution, attempt at macular fan formation, and area of macular edema",
+        "cui": "C1261287",
+        "standard_name": "Pathological Constriction",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "neurosensory detachment with cystoid macular edema",
+        "cui": "C0024440",
+        "standard_name": "Cmo Cystoid Macular Oedema",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "intravitreal triamcinolone acetonide (4 mg/0.1 ml)",
+        "cui": "C3642221",
+        "standard_name": "Thousand Per Liter",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "persistent micropsia",
+        "cui": "C4082120",
+        "standard_name": "Six Months",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "retinal thinning with the restoration of retinal layers",
+        "cui": "C0934502",
+        "standard_name": "Anatomical Layer",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "distortion of retinal superficial and deep capillary plexus (SCP-DCP) inferotemporal to foveal center",
+        "cui": "C4318566",
+        "standard_name": "Deep Resection Margin",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "moderate-intensity, continuous crushing chest pain radiating to the lower jaw and the left shoulder",
+        "cui": "C4081855",
+        "standard_name": "Moderate Intensity",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    }
+]

@@ -5,12 +5,10 @@ import json
 import pandas as pd
 import numpy as np
 from medcat.cat import CAT
-from huggingface_hub import InferenceClient
-from dotenv import load_dotenv
 
 try:
     from snorkel.labeling import labeling_function, PandasLFApplier
-    from snorkel.labeling.model import LabelModel
+    from snorkel.labeling.model import LabelModel, MajorityLabelVoter
 except ImportError as e:
     print(f"\n WARNING: Snorkel failed to import. The exact error is:\n{e}\n")
 
@@ -22,15 +20,33 @@ def step3_ontology_grounding(clinical_entities):
     grounded_entities = []
     
     for entity in clinical_entities:
-        text = entity.get("text_span", "")
+        # Safely handle None values from JSON
+        text_span = entity.get("text_span") or ""
+        text_span = text_span.lower()
         
-        # Pass the extracted string to MedCAT
-        medcat_results = cat.get_entities(text)
-        
-        if medcat_results and len(medcat_results['entities']) > 0:
-            # Grab the best match
-            best_match = list(medcat_results['entities'].values())[0]
+        # Use the full sentence for context, fallback to text_span if missing or None
+        context = entity.get("sentence_context")
+        if not context:
+            context = text_span
             
+        # Pass the ENTIRE sentence to MedCAT. 
+        # This gives MedCAT the surrounding words it needs to correctly disambiguate!
+        medcat_results = cat.get_entities(str(context))
+        
+        best_match = None
+        if medcat_results and len(medcat_results['entities']) > 0:
+            # MedCAT found concepts in the sentence. We need to find the one that matches our specific text_span.
+            for ent_id, ent_data in medcat_results['entities'].items():
+                medcat_word = ent_data['source_value'].lower()
+                # If MedCAT's found word overlaps with our LLM's text span, we found our target!
+                if medcat_word in text_span or text_span in medcat_word:
+                    best_match = ent_data
+                    break
+            
+            # Fallback: if string matching fails, just take the most confident entity MedCAT found
+            if not best_match:
+                best_match = list(medcat_results['entities'].values())[0]
+                
             entity["ontology_mapping"] = {
                 "umls_cui": best_match['cui'],
                 "standard_name": best_match['pretty_name'],
@@ -129,9 +145,8 @@ def step4_apply_snorkel(df_entities):
     print("Applying Labeling Functions to all entities...")
     L_train = applier.apply(df=df_entities)
     
-    print("Training Snorkel LabelModel...")
-    label_model = LabelModel(cardinality=2, verbose=False)
-    label_model.fit(L_train=L_train, n_epochs=500, log_freq=100, seed=123)
+    print("Computing probabilities with Majority Vote (LabelModel shrinks scores on small datasets)...")
+    label_model = MajorityLabelVoter(cardinality=2)
     
     probs = label_model.predict_proba(L_train)
 
@@ -149,16 +164,19 @@ def step5_route_entities(df_entities, threshold=0.85):
     
     for index, row in df_entities.iterrows():
         prob = row['valid_probability']
+        ontology = row.get('ontology_mapping', {})
+        
         record = {
             "case_id": row['case_id'],
             "entity": row['text_span'],
-            "cui": row.get('ontology_mapping', {}).get('umls_cui'),
+            "cui": ontology.get('umls_cui'),
+            "standard_name": ontology.get('standard_name'),
             "probability": f"{prob:.2f}",
             "assertion": row['assertion'],
             "experiencer": row['experiencer']
         }
         
-        if prob >= threshold or prob <= (1 - threshold): 
+        if prob >= threshold: 
             auto_accepted.append(record)
         else:
             human_review.append(record)
@@ -167,129 +185,197 @@ def step5_route_entities(df_entities, threshold=0.85):
 
 
 # ==========================================
-# STEP 6: Document-Level Diagnosis Verification
+# STEP 6 (STAGE 2): DISEASE PREDICTION
 # ==========================================
-def step6_verify_gold_disease(raw_data, accepted_entities):
+# 1. Define the Stage 2 Label Space
+ABSTAIN = -1
+COVID19 = 0
+TUBERCULOSIS = 1
+DENGUE = 2
+
+# Map indices to names for output
+DISEASE_MAP = {COVID19: "covid19", TUBERCULOSIS: "tuberculosis", 
+               DENGUE: "dengue"}
+
+# 2. Declare all clinical signs in distinct lists (The Ground Truth for Stage 2)
+COVID19_SIGNS = ["ground-glass opacities", "dyspnea", "hypoxemia", "anosmia", "ageusia", "loss of taste", "loss of smell", "bilateral infiltrates", "acute respiratory distress syndrome", "ards"]
+TUBERCULOSIS_SIGNS = ["hemoptysis", "night sweats", "weight loss", "chronic cough", "cavitary lesion", "apical infiltrate", "ghon focus", "miliary pattern", "caseating granuloma"]
+DENGUE_SIGNS = ["fever", "high fever", "myalgia", "rash", "hepatitis", "jaundice", "right hypochondrium pain", "leukopenia", "transaminitis", "chills", "rigors", "vomiting", "thrombocytopenia", "coagulopathy", "hematuria", "respiratory distress", "shock"]
+
+# Automatically run MedCAT on our lists to generate their UMLS standard names!
+def standardize_signs(signs):
+    mapped_signs = set(signs) # Keep original words as a fallback
+    for sign in signs:
+        res = cat.get_entities(sign)
+        if res and res['entities']:
+            for ent in res['entities'].values():
+                mapped_signs.add(ent['pretty_name'].lower())
+    return list(mapped_signs)
+
+COVID19_SIGNS = standardize_signs(COVID19_SIGNS)
+TUBERCULOSIS_SIGNS = standardize_signs(TUBERCULOSIS_SIGNS)
+DENGUE_SIGNS = standardize_signs(DENGUE_SIGNS)
+
+# ECHINOCOCCOSIS_SIGNS = ["hydatid cyst", "cyst", "abdominal mass", "liver cyst"]
+# CRYPTOCOCCOSIS_SIGNS = ["headache", "neck stiffness", "meningitis", "confusion"]
+
+# 3. The Stage 2 Labeling Functions
+@labeling_function()
+def lf_diagnose_covid(x):
+    if any(sign in x.valid_symptoms for sign in COVID19_SIGNS):
+        return COVID19
+    return ABSTAIN
+
+@labeling_function()
+def lf_diagnose_tb(x):
+    if any(sign in x.valid_symptoms for sign in TUBERCULOSIS_SIGNS):
+        return TUBERCULOSIS
+    return ABSTAIN
+
+# @labeling_function()
+# def lf_diagnose_chikungunya(x):
+#     if any(sign in x.valid_symptoms for sign in CHIKUNGUNYA_SIGNS):
+#         return CHIKUNGUNYA
+#     return ABSTAIN
+
+@labeling_function()
+def lf_diagnose_dengue(x):
+    if any(sign in x.valid_symptoms for sign in DENGUE_SIGNS):
+        return DENGUE
+    return ABSTAIN
+
+# @labeling_function()
+# def lf_diagnose_echinococcosis(x):
+#     if any(sign in x.valid_symptoms for sign in ECHINOCOCCOSIS_SIGNS):
+#         return ECHINOCOCCOSIS
+#     return ABSTAIN
+
+# @labeling_function()
+# def lf_diagnose_crypto(x):
+#     if any(sign in x.valid_symptoms for sign in CRYPTOCOCCOSIS_SIGNS):
+#         return CRYPTOCOCCOSIS
+#     return ABSTAIN
+
+def step6_stage2_disease_prediction(raw_data, accepted_entities):
     """
-    Evaluates the 'gold_disease' based purely on the mathematically validated entities.
+    Stage 2: Uses a second Snorkel model to predict the disease 
+    based purely on the validated symptoms from Stage 1.
     """
-    # Initialize the client ONCE outside the loop to make it run faster
-    load_dotenv()
-    HF_TOKEN = os.getenv("HF_TOKEN")
-    client = InferenceClient(model="meta-llama/Meta-Llama-3-8B-Instruct", token=HF_TOKEN)
-    # 1. Group validated entities by case (only keeping the VALID ones)
+    # 1. Group VALID entities by case using UMLS standard_name when available!
     valid_by_case = {}
     for r in accepted_entities:
         cid = r['case_id']
         if cid not in valid_by_case:
             valid_by_case[cid] = []
-        
-        # Only keep it if it was classified as VALID (> 0.85)
         if float(r['probability']) >= 0.85:
+            # Safely add BOTH the MedCAT standard_name AND the raw LLM text
+            # This ensures your LF lists can match against either the official term or the raw slang!
+            if r.get('standard_name'):
+                valid_by_case[cid].append(r['standard_name'].lower())
             valid_by_case[cid].append(r['entity'].lower())
-        
-    results = []
-    
-    # 2. Evaluate each case
+            
+    # 2. Build the Document-Level DataFrame (No gold_disease here!)
+    patient_cases = []
     for case in raw_data:
         cid = case['case_id']
-        gold = str(case.get('gold_disease', 'Unknown')).lower()
-        valid_symptoms = valid_by_case.get(cid, [])
+        patient_cases.append({
+            "case_id": cid,
+            "valid_symptoms": valid_by_case.get(cid, [])
+        })
         
-        # Method 1 Check (Direct Mention)
-        evidence = [symp for symp in valid_symptoms if gold in symp or symp in gold]
+    df_patients = pd.DataFrame(patient_cases)
+    
+    # 3. Apply Stage 2 LFs
+    lfs_stage_2 = [
+        lf_diagnose_covid, 
+        lf_diagnose_tb, 
+        lf_diagnose_dengue
+    ]
+    applier = PandasLFApplier(lfs=lfs_stage_2)
+    
+    L_train_stage2 = applier.apply(df=df_patients)
+    
+    # Cardinality = 6 for our 6 diseases
+    disease_model = LabelModel(cardinality=6, verbose=False)
+    disease_model.fit(L_train=L_train_stage2, n_epochs=500, seed=123)
+    
+    # 4. Predict probabilities (Pick the highest score!)
+    probs = disease_model.predict_proba(L_train_stage2)
+    predicted_indices = np.argmax(probs, axis=1)
+    
+    # 5. Format results
+    results = []
+    for i, row in df_patients.iterrows():
+        best_index = predicted_indices[i]
+        winning_score = probs[i][best_index]
         
-        if len(evidence) > 0:
-            status = "VERIFIED (Direct diagnostic mention found and validated)"
+        # If the model abstained entirely (score is evenly split, e.g., 0.2 for 5 classes)
+        if winning_score <= 0.25:
+            predicted_disease = "UNKNOWN (Insufficient Evidence)"
         else:
-            # Method 2 Check (Qwen LLM Evaluation)
-            prompt = (f"You are a medical AI. The patient was diagnosed with {gold}. "
-                      f"Their mathematically validated clinical symptoms are: {valid_symptoms}. "
-                      f"Based purely on medical knowledge, do these symptoms clinically support "
-                      f"the diagnosis of {gold}? Answer with only the word YES or NO.")
-            try:
-                # Send the prompt to Qwen
-                response = client.chat_completion(
-                    messages=[{"role": "user", "content": prompt}],
-                    max_tokens=10
-                )
-                
-                answer = response.choices[0].message.content.strip().upper()
-                
-                if "YES" in answer:
-                    status = f"VERIFIED (Qwen LLM successfully matched symptoms to {gold})"
-                else:
-                    status = f"UNVERIFIED (Qwen LLM determined symptoms do not match {gold})"
-                    
-            except Exception as e:
-                status = f"API Error: {e}"
-        
-        # FIXED: Pulled this back so it runs regardless of which method was used!
-        results.append({"case_id": cid, "gold_disease": gold, "status": status, "evidence": evidence, "valid_findings": valid_symptoms})
+            predicted_disease = DISEASE_MAP.get(best_index, "Unknown")
             
+        results.append({
+            "case_id": row['case_id'],
+            "predicted_disease": predicted_disease,
+            "confidence": f"{winning_score:.2f}",
+            "evidence_used": row['valid_symptoms']
+        })
+        
     return results
+
 # ==========================================
 # MAIN EXECUTION
 # ==========================================
-if __name__ == "__main__":
-    file_path = "labeled_cases_top5.jsonl"
-    
-    print("Loading case documents...\n")
-    raw_data = []
-    with open(file_path, 'r') as f:
-        for line in f:
-            raw_data.append(json.loads(line))
-            
-    print("--- RUNNING STEP 3: ONTOLOGY GROUNDING ---")
-    for record in raw_data:
-        record['clinical_entities'] = step3_ontology_grounding(record['clinical_entities'])
-    
-    # Flatten the data for Snorkel
-    flattened_entities = []
-    for record in raw_data:
-        for ent in record['clinical_entities']:
-            ent['case_id'] = record['case_id']
-            # NEW: Attach the raw text to the entity so Snorkel can cross-check it!
-            ent['case_presentation'] = record.get('case_presentation', '')
-            flattened_entities.append(ent)
-            
-    df_entities = pd.DataFrame(flattened_entities)
-    print(f"Flattened data into {len(df_entities)} individual clinical entities.\n")
-    
-    print("--- RUNNING STEP 4: SNORKEL WEAK SUPERVISION ---")
-    if 'LabelModel' in globals():
-        df_entities = step4_apply_snorkel(df_entities)
-        
-        print("\n--- RUNNING STEP 5: ENTITY ROUTING (Threshold = 0.85) ---")
-        accepted, review = step5_route_entities(df_entities, threshold=0.85)
-        print(accepted)
-        
-        print(f"\n AUTO-ACCEPTED ENTITIES ({len(accepted)}):")
-        for r in accepted[:10]: 
-            status = "VALID" if float(r['probability']) >= 0.85 else "INVALID/IGNORED"
-            print(f"  -> [{r['case_id']}] '{r['entity']}' | Decision: {status} (Prob: {r['probability']})")
-        if len(accepted) > 10: print("  -> ...and more")
-            
-        print(f"\n HUMAN REVIEW QUEUE ({len(review)}):")
-        for r in review: 
-            print(f"  -> [{r['case_id']}] '{r['entity']}' | CONFLICTING SIGNALS (Prob: {r['probability']})")
-            print(f"       Details: assertion={r['assertion']}, experiencer={r['experiencer']}")
+file_path = "extracted_cases_top3.jsonl"
 
-        print("\n===========================================")
-        print("--- RUNNING STEP 6: GOLD DISEASE VERIFICATION ---")
-        verification_results = step6_verify_gold_disease(raw_data, accepted)
-        for res in verification_results:
-            print(f"\n  [{res['case_id']}] Gold Label: {res['gold_disease']}")
-            print(f"  Status: {res['status']}")
-            print(f"  Supporting Evidence Found: {res['evidence']}")
-            
-        # --- NEW: Store Step 6 results to a file ---
-        output_filename = "final_verification_results.json"
-        with open(output_filename, "w") as out_f:
-            json.dump(verification_results, out_f, indent=4)
+print("Loading case documents...\n")
+raw_data = []
+with open(file_path, 'r') as f:
+    for line in f:
+        raw_data.append(json.loads(line))
         
-        print(f"\n SUCCESS: Verification results saved to {output_filename}")
-        print("===========================================\n")
+print("--- RUNNING STEP 3: ONTOLOGY GROUNDING ---")
+for record in raw_data:
+    record['clinical_entities'] = step3_ontology_grounding(record['clinical_entities'])
 
-    else:
-        print("Snorkel not installed. Skipping Step 4.\n")
+# Flatten the data for Snorkel
+flattened_entities = []
+for record in raw_data:
+    for ent in record['clinical_entities']:
+        ent['case_id'] = record['case_id']
+        # NEW: Attach the raw text to the entity so Snorkel can cross-check it!
+        ent['case_presentation'] = record.get('case_presentation', '')
+        flattened_entities.append(ent)
+        
+df_entities = pd.DataFrame(flattened_entities)
+print(f"Flattened data into {len(df_entities)} individual clinical entities.\n")
+
+print("--- RUNNING STEP 4: SNORKEL WEAK SUPERVISION ---")
+if 'LabelModel' in globals():
+    df_entities = step4_apply_snorkel(df_entities)
+    
+    print("\n--- RUNNING STEP 5: ENTITY ROUTING (Threshold = 0.85) ---")
+    accepted, review = step5_route_entities(df_entities, threshold=0.85)
+    
+    # --- NEW: Asynchronous Human Review Export ---
+    
+    # 1. Save the AUTO-ACCEPTED entities
+    accepted_filename = "accepted_entities.json"
+    with open(accepted_filename, "w") as f:
+        json.dump(accepted, f, indent=4)
+    print(f"Saved {len(accepted)} AUTO-ACCEPTED entities to {accepted_filename}.")
+    
+    # 2. Add 'PENDING' flag and save the HUMAN REVIEW queue
+    review_filename = "human_review_queue.json"
+    for r in review:
+        r['expert_decision'] = "PENDING"
+        
+    with open(review_filename, "w") as f:
+        json.dump(review, f, indent=4)
+    print(f"Saved {len(review)} entities to {review_filename} for expert review.")
+    print("Please review the JSON file, change 'PENDING' to 'APPROVED', and then run stage2_prediction.py!")
+    print("\n===========================================\n")
+
+else:
+    print("Snorkel not installed. Skipping Step 4.\n")

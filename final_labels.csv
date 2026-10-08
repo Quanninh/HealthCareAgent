@@ -1,0 +1,10 @@
+case_id,predicted_disease
+PMC10007705_01,dengue
+PMC10007705_02,dengue
+PMC10010120_01,UNKNOWN (Insufficient Evidence)
+PMC10041991_01,dengue
+PMC10043165_01,UNKNOWN (Insufficient Evidence)
+PMC10043165_02,UNKNOWN (Insufficient Evidence)
+PMC10010886_01,dengue
+PMC10062082_01,UNKNOWN (Insufficient Evidence)
+PMC10402786_01,UNKNOWN (Insufficient Evidence)
