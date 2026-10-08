@@ -1,6 +1,7 @@
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
+import re
 import json
 import pandas as pd
 import numpy as np
@@ -43,15 +44,18 @@ def step3_ontology_grounding(clinical_entities):
                     best_match = ent_data
                     break
             
-            # Fallback: if string matching fails, just take the most confident entity MedCAT found
-            if not best_match:
-                best_match = list(medcat_results['entities'].values())[0]
-                
-            entity["ontology_mapping"] = {
-                "umls_cui": best_match['cui'],
-                "standard_name": best_match['pretty_name'],
-                "status": "Mapped"
-            }
+            if best_match:
+                entity["ontology_mapping"] = {
+                    "umls_cui": best_match['cui'],
+                    "standard_name": best_match['pretty_name'],
+                    "status": "Mapped"
+                }
+            else:
+                entity["ontology_mapping"] = {
+                    "umls_cui": None,
+                    "standard_name": None,
+                    "status": "Unmapped"
+                }
         else:
             entity["ontology_mapping"] = {
                 "umls_cui": None,
@@ -79,8 +83,11 @@ def lf_regex_negation(x):
     text_span = str(x.text_span).lower()
     raw_text = str(x.case_presentation).lower()
     
-    # Check for common negation phrases right next to the disease name
-    if f"rules out {text_span}" in raw_text or f"denies {text_span}" in raw_text or f"no evidence of {text_span}" in raw_text:
+    # Check for common negation phrases allowing for up to 3 intermediate words
+    escaped_span = re.escape(text_span)
+    negation_pattern = re.compile(rf"(rules out|denies|no evidence of)(?:\s+\w+){{0,3}}\s+{escaped_span}")
+    
+    if negation_pattern.search(raw_text):
         return INVALID
         
     return ABSTAIN
@@ -112,7 +119,7 @@ def lf_medcat_validation(x):
     mapping = x.ontology_mapping if pd.notnull(x.ontology_mapping) else {}
     if mapping.get('status') == 'Unmapped' or mapping.get('umls_cui') is None:
         return INVALID
-    return ABSTAIN
+    return VALID
 
 @labeling_function()
 def lf_raw_text_check(x):
@@ -125,7 +132,7 @@ def lf_raw_text_check(x):
     
     if text_span not in raw_text:
         return INVALID
-    return ABSTAIN
+    return VALID
 
 
 def step4_apply_snorkel(df_entities):
@@ -197,10 +204,9 @@ DENGUE = 2
 DISEASE_MAP = {COVID19: "covid19", TUBERCULOSIS: "tuberculosis", 
                DENGUE: "dengue"}
 
-# 2. Declare all clinical signs in distinct lists (The Ground Truth for Stage 2)
-COVID19_SIGNS = ["ground-glass opacities", "dyspnea", "hypoxemia", "anosmia", "ageusia", "loss of taste", "loss of smell", "bilateral infiltrates", "acute respiratory distress syndrome", "ards"]
-TUBERCULOSIS_SIGNS = ["hemoptysis", "night sweats", "weight loss", "chronic cough", "cavitary lesion", "apical infiltrate", "ghon focus", "miliary pattern", "caseating granuloma"]
-DENGUE_SIGNS = ["fever", "high fever", "myalgia", "rash", "hepatitis", "jaundice", "right hypochondrium pain", "leukopenia", "transaminitis", "chills", "rigors", "vomiting", "thrombocytopenia", "coagulopathy", "hematuria", "respiratory distress", "shock"]
+COVID19_SIGNS = ["covid", "sars-cov-2", "coronavirus", "ground-glass", "anosmia", "ageusia", "loss of taste", "loss of smell"]
+TUBERCULOSIS_SIGNS = ["tuberculosis", "tb", "mycobacterium", "hemoptysis", "night sweats", "cavitary lesion", "granuloma", "caseous"]
+DENGUE_SIGNS = ["dengue", "tourniquet test", "ns1 antigen", "retro-orbital pain", "breakbone fever", "dengue hemorrhagic fever", "petechiae", "thrombocytopenia"]
 
 # Automatically run MedCAT on our lists to generate their UMLS standard names!
 def standardize_signs(signs):
@@ -295,8 +301,8 @@ def step6_stage2_disease_prediction(raw_data, accepted_entities):
     
     L_train_stage2 = applier.apply(df=df_patients)
     
-    # Cardinality = 6 for our 6 diseases
-    disease_model = LabelModel(cardinality=6, verbose=False)
+    # Cardinality = 3 for our 3 diseases
+    disease_model = LabelModel(cardinality=3, verbose=False)
     disease_model.fit(L_train=L_train_stage2, n_epochs=500, seed=123)
     
     # 4. Predict probabilities (Pick the highest score!)
@@ -309,8 +315,8 @@ def step6_stage2_disease_prediction(raw_data, accepted_entities):
         best_index = predicted_indices[i]
         winning_score = probs[i][best_index]
         
-        # If the model abstained entirely (score is evenly split, e.g., 0.2 for 5 classes)
-        if winning_score <= 0.25:
+        # If the model abstained entirely (score is evenly split, i.e., ~0.33 for 3 classes)
+        if winning_score <= 0.34:
             predicted_disease = "UNKNOWN (Insufficient Evidence)"
         else:
             predicted_disease = DISEASE_MAP.get(best_index, "Unknown")

@@ -1,6 +1,33 @@
 [
     {
         "case_id": "PMC10007705_01",
+        "entity": "fever",
+        "cui": "C0424755",
+        "standard_name": "Fever Symptoms Finding",
+        "probability": "1.00",
+        "assertion": "suspected",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "cough",
+        "cui": "C0687152",
+        "standard_name": "Does Cough",
+        "probability": "1.00",
+        "assertion": "suspected",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "neurological manifestations",
+        "cui": "C0027854",
+        "standard_name": "Neurologic Manifestations Of General Diseases",
+        "probability": "1.00",
+        "assertion": "suspected",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_01",
         "entity": "myalgia",
         "cui": "C0231528",
         "standard_name": "Aching Muscles",
@@ -38,8 +65,17 @@
     {
         "case_id": "PMC10007705_02",
         "entity": "vomiting",
-        "cui": "C0043210",
-        "standard_name": "Female Humans",
+        "cui": null,
+        "standard_name": null,
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "fever",
+        "cui": "C0015967",
+        "standard_name": "Pyrexial",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -47,8 +83,26 @@
     {
         "case_id": "PMC10007705_02",
         "entity": "tachycardia",
-        "cui": "C0439385",
-        "standard_name": "Heart Beats Per Minute",
+        "cui": null,
+        "standard_name": null,
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "dyspnea",
+        "cui": "C0013404",
+        "standard_name": "Sob Shortness Of Breath",
+        "probability": "1.00",
+        "assertion": "negated",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "type 2 diabetes mellitus",
+        "cui": "C4014362",
+        "standard_name": "Type 2 Diabetes Mellitus T2D",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -101,8 +155,80 @@
     {
         "case_id": "PMC10007705_02",
         "entity": "sensitivity of the lower limbs",
-        "cui": "C1995013",
-        "standard_name": "Set Of Skeletal Muscles",
+        "cui": null,
+        "standard_name": null,
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "itchy",
+        "cui": "C0033774",
+        "standard_name": "Pruritic Dermatitis",
+        "probability": "1.00",
+        "assertion": "suspected",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "painful",
+        "cui": "C0030193",
+        "standard_name": "Pain Observations",
+        "probability": "1.00",
+        "assertion": "suspected",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "blisters",
+        "cui": "C0344311",
+        "standard_name": "Blistering Eruption",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "canker sores",
+        "cui": "C0038363",
+        "standard_name": "Aphthous Ulcer Of Mouth",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "ulcer",
+        "cui": "C0041582",
+        "standard_name": "Ulcerative Lesion",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "crusts",
+        "cui": "C0205204",
+        "standard_name": "Cutaneous Crust",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "diameter of 0.5 cm",
+        "cui": "C1301886",
+        "standard_name": "Diameter Qualifier Value",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "diameter of 0.5 cm",
+        "cui": "C1301886",
+        "standard_name": "Diameter Qualifier Value",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -120,7 +246,7 @@
         "case_id": "PMC10041991_01",
         "entity": "headache",
         "cui": "C0018681",
-        "standard_name": "Cephalodynia",
+        "standard_name": "Pain In Head",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -137,8 +263,8 @@
     {
         "case_id": "PMC10041991_01",
         "entity": "coma",
-        "cui": "C0086582",
-        "standard_name": "Male Individual",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -182,8 +308,8 @@
     {
         "case_id": "PMC10041991_01",
         "entity": "ventriculomegaly",
-        "cui": "C0024485",
-        "standard_name": "Medical Imaging Magnetic Resonance Nuclear Magnetic Resonance",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -200,8 +326,8 @@
     {
         "case_id": "PMC10041991_01",
         "entity": "hydrocephalus",
-        "cui": "C0024485",
-        "standard_name": "Medical Imaging Magnetic Resonance Nuclear Magnetic Resonance",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -237,7 +363,7 @@
         "case_id": "PMC10043165_01",
         "entity": "numbness",
         "cui": "C0028643",
-        "standard_name": "Deadness Numbness",
+        "standard_name": "Loss Of Sensation",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -262,9 +388,45 @@
     },
     {
         "case_id": "PMC10043165_01",
+        "entity": "numbness in toes",
+        "cui": "C0028643",
+        "standard_name": "Loss Of Sensation",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "history of contact with patients with suspected TB",
+        "cui": "C0262512",
+        "standard_name": "History Of Present Illness Finding",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "father had had pulmonary TB 10 years previously",
+        "cui": "C0205156",
+        "standard_name": "Previously",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "family_member"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "daughter had had tuberculous pleurisy 7 years previously",
+        "cui": "C0205156",
+        "standard_name": "Previously",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "family_member"
+    },
+    {
+        "case_id": "PMC10043165_01",
         "entity": "good general condition",
-        "cui": "C2039684",
-        "standard_name": "Systemic Symptoms",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -281,8 +443,8 @@
     {
         "case_id": "PMC10043165_01",
         "entity": "irregular indistinct borders",
-        "cui": "C1509143",
-        "standard_name": "Physical Assessment Findings",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -335,8 +497,8 @@
     {
         "case_id": "PMC10043165_02",
         "entity": "no tenderness or elevation of local temperature",
-        "cui": "C1509143",
-        "standard_name": "Physical Assessment Findings",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -344,8 +506,8 @@
     {
         "case_id": "PMC10043165_02",
         "entity": "8 x 5 cm in size",
-        "cui": "C1509143",
-        "standard_name": "Physical Assessment Findings",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -390,7 +552,7 @@
         "case_id": "PMC10043165_02",
         "entity": "ASO titers",
         "cui": "C1318462",
-        "standard_name": "Aso Antistreptolysin O Antibody Titer",
+        "standard_name": "Aso Antistreptolysin O Antibody Titre",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -407,8 +569,8 @@
     {
         "case_id": "PMC10010886_01",
         "entity": "chills",
-        "cui": "C0018681",
-        "standard_name": "Cephalodynia",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -417,7 +579,7 @@
         "case_id": "PMC10010886_01",
         "entity": "headaches",
         "cui": "C0018681",
-        "standard_name": "Cephalodynia",
+        "standard_name": "Pain In Head",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -434,8 +596,8 @@
     {
         "case_id": "PMC10010886_01",
         "entity": "fatigue",
-        "cui": "C0018681",
-        "standard_name": "Cephalodynia",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -451,9 +613,18 @@
     },
     {
         "case_id": "PMC10010886_01",
+        "entity": "over-the-counter acetaminophen",
+        "cui": null,
+        "standard_name": null,
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
         "entity": "abdominal pain",
-        "cui": "C1509143",
-        "standard_name": "Physical Assessment Findings",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -461,8 +632,8 @@
     {
         "case_id": "PMC10010886_01",
         "entity": "petechiae",
-        "cui": "C0023216",
-        "standard_name": "Structure Of Lower Extremity",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -488,8 +659,17 @@
     {
         "case_id": "PMC10010886_01",
         "entity": "vomiting",
-        "cui": "C0027497",
-        "standard_name": "Observation Of Nausea",
+        "cui": null,
+        "standard_name": null,
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "minimal peripheral ground-glass opacities",
+        "cui": "C5539411",
+        "standard_name": "Ground Glass Opacification",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -507,7 +687,7 @@
         "case_id": "PMC10062082_01",
         "entity": "headache",
         "cui": "C0018681",
-        "standard_name": "Cephalodynia",
+        "standard_name": "Pain In Head",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -541,9 +721,27 @@
     },
     {
         "case_id": "PMC10062082_01",
+        "entity": "DF 22 days before the presentation",
+        "cui": "C0449450",
+        "standard_name": "Presentations",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "positive immunoglobulin M enzyme-linked immunosorbent assay serology for the Dengue virus",
+        "cui": "C1446409",
+        "standard_name": "Positive",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10062082_01",
         "entity": "persistent micropsia",
-        "cui": "C4082120",
-        "standard_name": "Six Months",
+        "cui": null,
+        "standard_name": null,
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
@@ -571,6 +769,69 @@
         "entity": "moderate-intensity, continuous crushing chest pain radiating to the lower jaw and the left shoulder",
         "cui": "C4081855",
         "standard_name": "Moderate Intensity",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "fever, headache, retro-orbital pain, general body aches, and joint pain",
+        "cui": "C0424755",
+        "standard_name": "Fever Symptoms Finding",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "reverse transcriptase polymerase chain reaction (RT-PCR)",
+        "cui": "C0599161",
+        "standard_name": "Reverse Transcription Polymerase Chain Reaction",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "hemodynamically stable with no signs of heart failure",
+        "cui": "C0578150",
+        "standard_name": "Haemodynamically Stable",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "chest-radiography",
+        "cui": "C0039985",
+        "standard_name": "Radiologic Examination Of Chest",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "sinus rhythm with a heart rate of 95 beats per minute",
+        "cui": "C0232201",
+        "standard_name": "Coronary Sinus Rhythm",
+        "probability": "1.00",
+        "assertion": "affirmed",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "acute coronary syndrome with ST-segment elevation",
+        "cui": "C0948089",
+        "standard_name": "Acs Acute Coronary Syndrome",
+        "probability": "1.00",
+        "assertion": "suspected",
+        "experiencer": "patient"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "transthoracic echocardiogram",
+        "cui": "C0430462",
+        "standard_name": "Transthoracic Echocardiography",
         "probability": "1.00",
         "assertion": "affirmed",
         "experiencer": "patient"
