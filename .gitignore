@@ -1,7 +1,22 @@
+# Environment & Secrets
 .env
+.env.*
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Datasets, model packs, and local reference files
 medical_datasets
 payload_for_ref
-
 /payload_for_ref/payloads
+MedCAT/
+*.zip
+
+# OS artifacts
 .DS_Store
-MedCAT
+Thumbs.db

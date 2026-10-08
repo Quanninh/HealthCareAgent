@@ -1,0 +1,342 @@
+[
+    {
+        "case_id": "PMC10007705_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5135,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            }
+        },
+        "evidence_used": [
+            "fever symptoms finding",
+            "fever",
+            "does cough",
+            "cough",
+            "neurologic manifestations of general diseases",
+            "neurological manifestations",
+            "aching muscles",
+            "myalgia",
+            "general weakness",
+            "weakness",
+            "blood creatine phosphokinase increased",
+            "elevated creatine kinase (ck)"
+        ]
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5406,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            }
+        },
+        "evidence_used": [
+            "pain distress question",
+            "abdominal pain",
+            "vomiting",
+            "pyrexial",
+            "fever",
+            "tachycardia",
+            "sob shortness of breath",
+            "dyspnea",
+            "type 2 diabetes mellitus t2d",
+            "type 2 diabetes mellitus",
+            "pyrexial",
+            "febrile at 40 c",
+            "heart beats per minute",
+            "tachycardia at 100 beats per minute",
+            "spo2 saturation of peripheral oxygen",
+            "peripheral oxygen saturation of 98%",
+            "decreased muscle strength",
+            "muscle weakness",
+            "aching muscles",
+            "myalgia in the lower limbs",
+            "sensitivity of the lower limbs"
+        ]
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            }
+        },
+        "evidence_used": [
+            "pruritic dermatitis",
+            "itchy",
+            "pain observations",
+            "painful",
+            "blistering eruption",
+            "blisters",
+            "aphthous ulcer of mouth",
+            "canker sores",
+            "ulcerative lesion",
+            "ulcer",
+            "cutaneous crust",
+            "crusts",
+            "diameter qualifier value",
+            "diameter of 0.5 cm",
+            "diameter qualifier value",
+            "diameter of 0.5 cm"
+        ]
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5135,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            }
+        },
+        "evidence_used": [
+            "fever symptoms finding",
+            "fever",
+            "pain in head",
+            "headache",
+            "tiredness",
+            "fatigue",
+            "coma",
+            "elevated proteins",
+            "prominent elevated protein level",
+            "finding of glucose level",
+            "low glucose level",
+            "calcium buildup in soft tissues of body",
+            "nodules with calcification",
+            "air space opacification",
+            "consolidations in both lower lobes",
+            "ventriculomegaly",
+            "enhance action",
+            "meningeal enhancement",
+            "hydrocephalus",
+            "cognitive functions confusion",
+            "confusion",
+            "ns neck stiffness",
+            "neck stiffness"
+        ]
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5135,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            }
+        },
+        "evidence_used": [
+            "mass of body structure",
+            "mass",
+            "loss of sensation",
+            "numbness",
+            "pain observations",
+            "painful isolated mass",
+            "mass of body structure",
+            "isolated mass",
+            "loss of sensation",
+            "numbness in toes",
+            "history of present illness finding",
+            "history of contact with patients with suspected tb",
+            "previously",
+            "father had had pulmonary tb 10 years previously",
+            "previously",
+            "daughter had had tuberculous pleurisy 7 years previously",
+            "good general condition",
+            "mass of body structure",
+            "tender mass",
+            "irregular indistinct borders",
+            "bone structure of knee joint region",
+            "knee pain"
+        ]
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            }
+        },
+        "evidence_used": [
+            "mass of body structure",
+            "mass",
+            "indurated nodule",
+            "indurated nodule",
+            "physical assessment findings",
+            "physical examination",
+            "indurated nodule",
+            "indurated nodule",
+            "no tenderness or elevation of local temperature",
+            "8 x 5 cm in size",
+            "no abnormalities",
+            "no abnormality of distal vascularity or sensation",
+            "no limitation",
+            "no limitation of movement",
+            "normal capillary refill time",
+            "normal blood count",
+            "lft liver function test",
+            "liver function tests",
+            "aso antistreptolysin o antibody titre",
+            "aso titers"
+        ]
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5406,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.9995,
+                "label": "POSITIVE"
+            }
+        },
+        "evidence_used": [
+            "high grade fever",
+            "high-grade fever",
+            "chills",
+            "pain in head",
+            "headaches",
+            "aching muscles",
+            "muscle aches",
+            "fatigue",
+            "frequency of diarrhea",
+            "diarrhea",
+            "over-the-counter acetaminophen",
+            "abdominal pain",
+            "petechiae",
+            "liking",
+            "burning-like abdominal pain",
+            "observation of nausea",
+            "nausea",
+            "vomiting",
+            "ground glass opacification",
+            "minimal peripheral ground-glass opacities"
+        ]
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.9995,
+                "label": "POSITIVE"
+            }
+        },
+        "evidence_used": [
+            "structure of eyeball",
+            "blurring of vision in the left eye (le)",
+            "pain in head",
+            "headache",
+            "pathological constriction",
+            "focal constriction of arteries and veins, soft exudates, dot-blot and flame-shaped hemorrhages in branch vein distribution, attempt at macular fan formation, and area of macular edema",
+            "cmo cystoid macular oedema",
+            "neurosensory detachment with cystoid macular edema",
+            "thousand per liter",
+            "intravitreal triamcinolone acetonide (4 mg/0.1 ml)",
+            "presentations",
+            "df 22 days before the presentation",
+            "positive",
+            "positive immunoglobulin m enzyme-linked immunosorbent assay serology for the dengue virus",
+            "persistent micropsia",
+            "anatomical layer",
+            "retinal thinning with the restoration of retinal layers",
+            "deep resection margin",
+            "distortion of retinal superficial and deep capillary plexus (scp-dcp) inferotemporal to foveal center"
+        ]
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "diagnoses": {
+            "covid19": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "tuberculosis": {
+                "probability": 0.5,
+                "label": "UNCERTAIN"
+            },
+            "dengue": {
+                "probability": 0.9886,
+                "label": "POSITIVE"
+            }
+        },
+        "evidence_used": [
+            "moderate intensity",
+            "moderate-intensity, continuous crushing chest pain radiating to the lower jaw and the left shoulder",
+            "fever symptoms finding",
+            "fever, headache, retro-orbital pain, general body aches, and joint pain",
+            "reverse transcription polymerase chain reaction",
+            "reverse transcriptase polymerase chain reaction (rt-pcr)",
+            "haemodynamically stable",
+            "hemodynamically stable with no signs of heart failure",
+            "radiologic examination of chest",
+            "chest-radiography",
+            "coronary sinus rhythm",
+            "sinus rhythm with a heart rate of 95 beats per minute",
+            "acs acute coronary syndrome",
+            "acute coronary syndrome with st-segment elevation",
+            "transthoracic echocardiography",
+            "transthoracic echocardiogram"
+        ]
+    }
+]

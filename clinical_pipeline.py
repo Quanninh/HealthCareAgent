@@ -13,10 +13,17 @@ try:
 except ImportError as e:
     print(f"\n WARNING: Snorkel failed to import. The exact error is:\n{e}\n")
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 """Step 3"""
 
+medcat_path = os.getenv("MEDCAT_MODEL_PATH", "MedCAT/umls_self_train_model_pt2ch_3760d588371755d0.zip")
 print("Loading MedCAT UMLS Model (This may take a minute...)")
-cat = CAT.load_model_pack("MedCAT/umls_self_train_model_pt2ch_3760d588371755d0.zip") 
+cat = CAT.load_model_pack(medcat_path) 
 def step3_ontology_grounding(clinical_entities):
     grounded_entities = []
     
