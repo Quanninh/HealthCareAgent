@@ -1,0 +1,385 @@
+{
+  "run_id": "annotation-run-20261009T100513Z",
+  "total_cases_input": 7043,
+  "total_cases_valid": 7043,
+  "total_cases_invalid": 0,
+  "label_distribution": {
+    "POSITIVE": 3850,
+    "EXCLUDED_NON_SINGLE_PATIENT": 141,
+    "EXCLUDED_NON_TARGET_CASE": 1830,
+    "NEGATIVE": 549,
+    "EXCLUDED_NON_HUMAN": 29,
+    "UNRESOLVED": 644
+  },
+  "confidence_distribution": {
+    "HIGH": 6417,
+    "MEDIUM": 609,
+    "LOW": 17
+  },
+  "failure_flag_counts": {
+    "F2_SCOPE_COHORT": 124,
+    "F4_ASSERTION_TEMPORAL": 87,
+    "F5_DISCOURSE_CONTEXT": 1565,
+    "F6_EVIDENCE_SPECIFICITY": 710,
+    "F3_AGGREGATE_COHORT": 20,
+    "F1_EPIDEMIOLOGICAL_BACKGROUND": 19,
+    "F2_TEMPORALITY_MISMATCH": 7,
+    "F4_NON_HUMAN": 1,
+    "F5_UNRESOLVED_DISCORDANCE": 2,
+    "F1_LEXICAL_HOMONYM": 172,
+    "F4_HISTORICAL_PAST_EPISODE": 2,
+    "F2_STUDY_LEVEL_AGGREGATE": 3
+  },
+  "disease_summary": {
+    "COVID-19": {
+      "input_cases": 3087,
+      "valid_annotations": 3087,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 1245,
+        "EXCLUDED_NON_SINGLE_PATIENT": 23,
+        "EXCLUDED_NON_TARGET_CASE": 1145,
+        "NEGATIVE": 192,
+        "EXCLUDED_NON_HUMAN": 12,
+        "UNRESOLVED": 470
+      },
+      "confidence_distribution": {
+        "HIGH": 2618,
+        "MEDIUM": 469
+      },
+      "failure_flag_counts": {
+        "F2_SCOPE_COHORT": 18,
+        "F4_ASSERTION_TEMPORAL": 43,
+        "F5_DISCOURSE_CONTEXT": 1091,
+        "F6_EVIDENCE_SPECIFICITY": 469,
+        "F3_AGGREGATE_COHORT": 5,
+        "F1_EPIDEMIOLOGICAL_BACKGROUND": 7,
+        "F2_TEMPORALITY_MISMATCH": 4,
+        "F4_NON_HUMAN": 1
+      }
+    },
+    "Tuberculosis": {
+      "input_cases": 1539,
+      "valid_annotations": 1539,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "NEGATIVE": 102,
+        "POSITIVE": 1045,
+        "EXCLUDED_NON_TARGET_CASE": 231,
+        "UNRESOLVED": 142,
+        "EXCLUDED_NON_SINGLE_PATIENT": 15,
+        "EXCLUDED_NON_HUMAN": 4
+      },
+      "confidence_distribution": {
+        "HIGH": 1397,
+        "LOW": 10,
+        "MEDIUM": 132
+      },
+      "failure_flag_counts": {
+        "F5_DISCOURSE_CONTEXT": 211,
+        "F6_EVIDENCE_SPECIFICITY": 187,
+        "F2_SCOPE_COHORT": 11,
+        "F5_UNRESOLVED_DISCORDANCE": 2,
+        "F4_ASSERTION_TEMPORAL": 10,
+        "F2_TEMPORALITY_MISMATCH": 3,
+        "F3_AGGREGATE_COHORT": 8,
+        "F1_LEXICAL_HOMONYM": 6,
+        "F1_EPIDEMIOLOGICAL_BACKGROUND": 1
+      }
+    },
+    "HIV_AIDS": {
+      "input_cases": 1390,
+      "valid_annotations": 1390,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 923,
+        "NEGATIVE": 187,
+        "EXCLUDED_NON_TARGET_CASE": 239,
+        "EXCLUDED_NON_SINGLE_PATIENT": 39,
+        "UNRESOLVED": 1,
+        "EXCLUDED_NON_HUMAN": 1
+      },
+      "confidence_distribution": {
+        "HIGH": 1389,
+        "LOW": 1
+      },
+      "failure_flag_counts": {
+        "F1_LEXICAL_HOMONYM": 20,
+        "F5_DISCOURSE_CONTEXT": 213,
+        "F2_SCOPE_COHORT": 33,
+        "F4_ASSERTION_TEMPORAL": 2,
+        "F1_EPIDEMIOLOGICAL_BACKGROUND": 4,
+        "F3_AGGREGATE_COHORT": 7,
+        "F6_EVIDENCE_SPECIFICITY": 12
+      }
+    },
+    "Malaria": {
+      "input_cases": 256,
+      "valid_annotations": 256,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 122,
+        "EXCLUDED_NON_TARGET_CASE": 87,
+        "EXCLUDED_NON_HUMAN": 2,
+        "EXCLUDED_NON_SINGLE_PATIENT": 25,
+        "NEGATIVE": 18,
+        "UNRESOLVED": 2
+      },
+      "confidence_distribution": {
+        "HIGH": 253,
+        "LOW": 2,
+        "MEDIUM": 1
+      },
+      "failure_flag_counts": {
+        "F1_LEXICAL_HOMONYM": 75,
+        "F2_SCOPE_COHORT": 25,
+        "F5_DISCOURSE_CONTEXT": 11,
+        "F4_ASSERTION_TEMPORAL": 5,
+        "F6_EVIDENCE_SPECIFICITY": 4
+      }
+    },
+    "Dengue": {
+      "input_cases": 190,
+      "valid_annotations": 190,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 127,
+        "EXCLUDED_NON_SINGLE_PATIENT": 11,
+        "EXCLUDED_NON_TARGET_CASE": 24,
+        "UNRESOLVED": 6,
+        "NEGATIVE": 22
+      },
+      "confidence_distribution": {
+        "HIGH": 184,
+        "MEDIUM": 5,
+        "LOW": 1
+      },
+      "failure_flag_counts": {
+        "F2_SCOPE_COHORT": 12,
+        "F1_EPIDEMIOLOGICAL_BACKGROUND": 7,
+        "F6_EVIDENCE_SPECIFICITY": 6,
+        "F4_ASSERTION_TEMPORAL": 18,
+        "F1_LEXICAL_HOMONYM": 8,
+        "F5_DISCOURSE_CONTEXT": 1
+      }
+    },
+    "Brucellosis": {
+      "input_cases": 155,
+      "valid_annotations": 155,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "EXCLUDED_NON_SINGLE_PATIENT": 5,
+        "POSITIVE": 116,
+        "EXCLUDED_NON_TARGET_CASE": 31,
+        "NEGATIVE": 2,
+        "EXCLUDED_NON_HUMAN": 1
+      },
+      "confidence_distribution": {
+        "HIGH": 155
+      },
+      "failure_flag_counts": {
+        "F2_SCOPE_COHORT": 5,
+        "F4_ASSERTION_TEMPORAL": 2,
+        "F1_LEXICAL_HOMONYM": 28,
+        "F5_DISCOURSE_CONTEXT": 2
+      }
+    },
+    "Leishmaniasis": {
+      "input_cases": 145,
+      "valid_annotations": 145,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 124,
+        "EXCLUDED_NON_HUMAN": 4,
+        "EXCLUDED_NON_SINGLE_PATIENT": 5,
+        "EXCLUDED_NON_TARGET_CASE": 7,
+        "UNRESOLVED": 3,
+        "NEGATIVE": 2
+      },
+      "confidence_distribution": {
+        "HIGH": 142,
+        "LOW": 3
+      },
+      "failure_flag_counts": {
+        "F2_SCOPE_COHORT": 5,
+        "F5_DISCOURSE_CONTEXT": 5,
+        "F6_EVIDENCE_SPECIFICITY": 3,
+        "F4_ASSERTION_TEMPORAL": 3,
+        "F1_LEXICAL_HOMONYM": 1
+      }
+    },
+    "Leptospirosis": {
+      "input_cases": 66,
+      "valid_annotations": 66,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "UNRESOLVED": 3,
+        "POSITIVE": 50,
+        "NEGATIVE": 10,
+        "EXCLUDED_NON_SINGLE_PATIENT": 1,
+        "EXCLUDED_NON_HUMAN": 2
+      },
+      "confidence_distribution": {
+        "HIGH": 66
+      },
+      "failure_flag_counts": {
+        "F5_DISCOURSE_CONTEXT": 1,
+        "F6_EVIDENCE_SPECIFICITY": 3,
+        "F2_SCOPE_COHORT": 1
+      }
+    },
+    "Typhoid_Fever": {
+      "input_cases": 47,
+      "valid_annotations": 47,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "UNRESOLVED": 7,
+        "POSITIVE": 26,
+        "EXCLUDED_NON_TARGET_CASE": 10,
+        "NEGATIVE": 4
+      },
+      "confidence_distribution": {
+        "HIGH": 46,
+        "MEDIUM": 1
+      },
+      "failure_flag_counts": {
+        "F6_EVIDENCE_SPECIFICITY": 12,
+        "F1_LEXICAL_HOMONYM": 5,
+        "F4_ASSERTION_TEMPORAL": 2,
+        "F4_HISTORICAL_PAST_EPISODE": 2,
+        "F5_DISCOURSE_CONTEXT": 4
+      }
+    },
+    "Zika": {
+      "input_cases": 46,
+      "valid_annotations": 46,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "EXCLUDED_NON_SINGLE_PATIENT": 3,
+        "POSITIVE": 24,
+        "EXCLUDED_NON_TARGET_CASE": 13,
+        "NEGATIVE": 5,
+        "UNRESOLVED": 1
+      },
+      "confidence_distribution": {
+        "HIGH": 45,
+        "MEDIUM": 1
+      },
+      "failure_flag_counts": {
+        "F2_SCOPE_COHORT": 2,
+        "F1_LEXICAL_HOMONYM": 8,
+        "F5_DISCOURSE_CONTEXT": 3,
+        "F4_ASSERTION_TEMPORAL": 2,
+        "F2_STUDY_LEVEL_AGGREGATE": 1,
+        "F6_EVIDENCE_SPECIFICITY": 3
+      }
+    },
+    "Ebola_Filovirus": {
+      "input_cases": 33,
+      "valid_annotations": 33,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "EXCLUDED_NON_TARGET_CASE": 24,
+        "POSITIVE": 4,
+        "EXCLUDED_NON_SINGLE_PATIENT": 4,
+        "UNRESOLVED": 1
+      },
+      "confidence_distribution": {
+        "HIGH": 33
+      },
+      "failure_flag_counts": {
+        "F1_LEXICAL_HOMONYM": 21,
+        "F5_DISCOURSE_CONTEXT": 3,
+        "F2_SCOPE_COHORT": 3,
+        "F2_STUDY_LEVEL_AGGREGATE": 1,
+        "F6_EVIDENCE_SPECIFICITY": 1
+      }
+    },
+    "Chikungunya": {
+      "input_cases": 28,
+      "valid_annotations": 28,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 20,
+        "EXCLUDED_NON_TARGET_CASE": 3,
+        "UNRESOLVED": 1,
+        "NEGATIVE": 4
+      },
+      "confidence_distribution": {
+        "HIGH": 28
+      },
+      "failure_flag_counts": {
+        "F5_DISCOURSE_CONTEXT": 3,
+        "F6_EVIDENCE_SPECIFICITY": 2
+      }
+    },
+    "Cholera": {
+      "input_cases": 28,
+      "valid_annotations": 28,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 18,
+        "EXCLUDED_NON_SINGLE_PATIENT": 10
+      },
+      "confidence_distribution": {
+        "HIGH": 28
+      },
+      "failure_flag_counts": {
+        "F2_SCOPE_COHORT": 9,
+        "F5_DISCOURSE_CONTEXT": 1,
+        "F2_STUDY_LEVEL_AGGREGATE": 1
+      }
+    },
+    "Rabies": {
+      "input_cases": 25,
+      "valid_annotations": 25,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "EXCLUDED_NON_HUMAN": 3,
+        "EXCLUDED_NON_TARGET_CASE": 12,
+        "UNRESOLVED": 7,
+        "POSITIVE": 3
+      },
+      "confidence_distribution": {
+        "HIGH": 25
+      },
+      "failure_flag_counts": {
+        "F5_DISCOURSE_CONTEXT": 12,
+        "F6_EVIDENCE_SPECIFICITY": 8
+      }
+    },
+    "Yellow_Fever": {
+      "input_cases": 8,
+      "valid_annotations": 8,
+      "invalid_records": 0,
+      "output_exists": true,
+      "label_counts": {
+        "POSITIVE": 3,
+        "EXCLUDED_NON_TARGET_CASE": 4,
+        "NEGATIVE": 1
+      },
+      "confidence_distribution": {
+        "HIGH": 8
+      },
+      "failure_flag_counts": {
+        "F5_DISCOURSE_CONTEXT": 4
+      }
+    }
+  },
+  "agent_results": [],
+  "merged_output": "code/data/gold_standard/pair_annotations_02b_unified.jsonl"
+}

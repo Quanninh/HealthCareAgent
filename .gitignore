@@ -1,0 +1,14 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Excluded project folders
+guideline/
+milestone*/
+reports/
+
+# In scripts/, only include 02_create_clinical_candidate_pairs.py
+scripts/*
+!scripts/02_create_clinical_candidate_pairs.py

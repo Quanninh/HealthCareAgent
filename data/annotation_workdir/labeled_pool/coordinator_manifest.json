@@ -1,0 +1,131 @@
+{
+  "pool_name": "labeled_pool",
+  "description": "Validated 12-step gold standard clinical annotations (Phase 1, 02b-A rescue, 02b-B suppressed, gap 13)",
+  "annotation_version": "1.0-unified",
+  "total_pairs": 7043,
+  "unique_cases": 6705,
+  "total_diseases": 15,
+  "status": "completed",
+  "diseases": [
+    {
+      "disease": "COVID-19",
+      "slug": "covid_19",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_covid_19.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_covid_19.jsonl",
+      "pair_count": 3087,
+      "status": "completed"
+    },
+    {
+      "disease": "Tuberculosis",
+      "slug": "tuberculosis",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_tuberculosis.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_tuberculosis.jsonl",
+      "pair_count": 1539,
+      "status": "completed"
+    },
+    {
+      "disease": "HIV_AIDS",
+      "slug": "hiv_aids",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_hiv_aids.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_hiv_aids.jsonl",
+      "pair_count": 1390,
+      "status": "completed"
+    },
+    {
+      "disease": "Malaria",
+      "slug": "malaria",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_malaria.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_malaria.jsonl",
+      "pair_count": 256,
+      "status": "completed"
+    },
+    {
+      "disease": "Dengue",
+      "slug": "dengue",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_dengue.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_dengue.jsonl",
+      "pair_count": 190,
+      "status": "completed"
+    },
+    {
+      "disease": "Brucellosis",
+      "slug": "brucellosis",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_brucellosis.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_brucellosis.jsonl",
+      "pair_count": 155,
+      "status": "completed"
+    },
+    {
+      "disease": "Leishmaniasis",
+      "slug": "leishmaniasis",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_leishmaniasis.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_leishmaniasis.jsonl",
+      "pair_count": 145,
+      "status": "completed"
+    },
+    {
+      "disease": "Leptospirosis",
+      "slug": "leptospirosis",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_leptospirosis.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_leptospirosis.jsonl",
+      "pair_count": 66,
+      "status": "completed"
+    },
+    {
+      "disease": "Typhoid_Fever",
+      "slug": "typhoid_fever",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_typhoid_fever.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_typhoid_fever.jsonl",
+      "pair_count": 47,
+      "status": "completed"
+    },
+    {
+      "disease": "Zika",
+      "slug": "zika",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_zika.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_zika.jsonl",
+      "pair_count": 46,
+      "status": "completed"
+    },
+    {
+      "disease": "Ebola_Filovirus",
+      "slug": "ebola_filovirus",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_ebola_filovirus.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_ebola_filovirus.jsonl",
+      "pair_count": 33,
+      "status": "completed"
+    },
+    {
+      "disease": "Chikungunya",
+      "slug": "chikungunya",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_chikungunya.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_chikungunya.jsonl",
+      "pair_count": 28,
+      "status": "completed"
+    },
+    {
+      "disease": "Cholera",
+      "slug": "cholera",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_cholera.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_cholera.jsonl",
+      "pair_count": 28,
+      "status": "completed"
+    },
+    {
+      "disease": "Rabies",
+      "slug": "rabies",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_rabies.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_rabies.jsonl",
+      "pair_count": 25,
+      "status": "completed"
+    },
+    {
+      "disease": "Yellow_Fever",
+      "slug": "yellow_fever",
+      "input_file": "code/data/annotation_workdir/labeled_pool/input/input_yellow_fever.jsonl",
+      "output_file": "code/data/annotation_workdir/labeled_pool/output/output_yellow_fever.jsonl",
+      "pair_count": 8,
+      "status": "completed"
+    }
+  ]
+}
