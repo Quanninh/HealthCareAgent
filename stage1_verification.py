@@ -20,7 +20,6 @@ from typing import Optional
 # Suppress OpenMP duplicate errors, tokenizer deadlocks, and legacy conversion blocks
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
-os.environ['MEDCAT_AVOID_LECACY_CONVERSION'] = 'False'
 
 # Suppress noisy spaCy compatibility warnings and MedCAT unpickling logs
 warnings.filterwarnings('ignore', category=UserWarning)
