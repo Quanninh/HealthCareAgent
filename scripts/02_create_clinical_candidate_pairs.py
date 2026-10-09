@@ -30,11 +30,11 @@ Historical baselines (preserved as ablations):
   code/scripts/02b_B_create_candidate_pairs.py             [02b-B ablation]
 
 Outputs:
-  - Parquet: code/data/raw_filtered/tropical_infectious_candidate_pairs.parquet
-  - Summary: code/reports/02_candidate_pairs_summary.json
+  - Parquet: data/raw_filtered/tropical_infectious_candidate_pairs.parquet
+  - Summary: reports/02_candidate_pairs_summary.json
 
 Usage:
-  python code/scripts/02_create_clinical_candidate_pairs.py [--output PATH] [--summary PATH]
+  python scripts/02_create_clinical_candidate_pairs.py [--output PATH] [--summary PATH]
 """
 
 import json
@@ -46,18 +46,24 @@ from pathlib import Path
 from typing import Dict, List, Any, Tuple, Iterable
 
 # ---------------------------------------------------------------------------
-# Path configuration
+# Path configuration (Relative to repository root)
 # ---------------------------------------------------------------------------
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-RAW_DATA_DIR = BASE_DIR / "multicare_dataset_repo"
-CONFIG_PATH = BASE_DIR / "code" / "config" / "disease_taxonomy.json"
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
+DEFAULT_CONFIG_PATH = REPO_ROOT / "config" / "disease_taxonomy.json"
 DEFAULT_PARQUET_OUT = (
-    BASE_DIR / "code" / "data" / "raw_filtered"
+    REPO_ROOT / "data" / "raw_filtered"
     / "tropical_infectious_candidate_pairs.parquet"
 )
 DEFAULT_SUMMARY_OUT = (
-    BASE_DIR / "code" / "reports" / "02_candidate_pairs_summary.json"
+    REPO_ROOT / "reports" / "02_candidate_pairs_summary.json"
+)
+
+# Auto-detect multicare_dataset_repo: inside repo or at parent workspace level
+DEFAULT_RAW_DATA_DIR = (
+    REPO_ROOT / "multicare_dataset_repo"
+    if (REPO_ROOT / "multicare_dataset_repo").exists()
+    else REPO_ROOT.parent / "multicare_dataset_repo"
 )
 
 # ---------------------------------------------------------------------------
@@ -503,6 +509,14 @@ def parse_args() -> argparse.Namespace:
         )
     )
     parser.add_argument(
+        "--config", type=str, default=str(DEFAULT_CONFIG_PATH),
+        help=f"Disease taxonomy configuration JSON path (default: {DEFAULT_CONFIG_PATH})",
+    )
+    parser.add_argument(
+        "--raw-data-dir", type=str, default=str(DEFAULT_RAW_DATA_DIR),
+        help=f"Path to multicare_dataset_repo directory (default: {DEFAULT_RAW_DATA_DIR})",
+    )
+    parser.add_argument(
         "--output", type=str, default=str(DEFAULT_PARQUET_OUT),
         help=f"Output parquet path (default: {DEFAULT_PARQUET_OUT})",
     )
@@ -523,13 +537,16 @@ def parse_args() -> argparse.Namespace:
 
 def main():
     args = parse_args()
+    config_path = Path(args.config)
+    raw_data_dir = Path(args.raw_data_dir)
     output_parquet = Path(args.output)
     summary_path = Path(args.summary)
 
     print("=" * 80)
     print("SCRIPT 02 (PROPOSED METHOD): PAIR-LEVEL HIGH-RECALL CANDIDATE GENERATOR")
     print("=" * 80)
-    print(f"Taxonomy Config:  {CONFIG_PATH}")
+    print(f"Taxonomy Config:  {config_path}")
+    print(f"Raw Data Dir:     {raw_data_dir}")
     print(f"Output Parquet:   {output_parquet}")
     print(f"Summary Report:   {summary_path}")
     if args.dry_run:
@@ -539,7 +556,7 @@ def main():
     # ------------------------------------------------------------------
     # Step 0: Load taxonomy and compile patterns
     # ------------------------------------------------------------------
-    taxonomy = load_taxonomy(CONFIG_PATH)
+    taxonomy = load_taxonomy(config_path)
     target_diseases = taxonomy["target_diseases"]
     print(f"\nLoaded {len(target_diseases)} target disease definitions.")
 
@@ -579,8 +596,8 @@ def main():
     # ------------------------------------------------------------------
     # Step 1: Article-level signals (Tier 1 metadata + Tier 2 abstract)
     # ------------------------------------------------------------------
-    meta_path = RAW_DATA_DIR / "metadata.parquet"
-    abst_path = RAW_DATA_DIR / "abstracts.parquet"
+    meta_path = raw_data_dir / "metadata.parquet"
+    abst_path = raw_data_dir / "abstracts.parquet"
 
     print(f"\n[1/5] Loading metadata from {meta_path}...")
     df_meta_raw = pd.read_parquet(meta_path)
@@ -599,7 +616,7 @@ def main():
     # cases.parquet, streamed. Independent of the candidate filter.
     # ------------------------------------------------------------------
     print("\n[2/5] Building global BM25 IDF table over entire cases.parquet...")
-    cases_path = RAW_DATA_DIR / "cases.parquet"
+    cases_path = raw_data_dir / "cases.parquet"
 
     def _iter_all_case_texts():
         for row in pd.read_parquet(cases_path).itertuples(index=False):
@@ -626,7 +643,7 @@ def main():
     print(f"\n[3/5] Constructing candidate pairs from {cases_path}...")
     df_cases_raw = pd.read_parquet(cases_path)
 
-    cap_path = RAW_DATA_DIR / "captions_and_labels.csv"
+    cap_path = raw_data_dir / "captions_and_labels.csv"
     image_map = load_image_map(cap_path)
 
 
@@ -793,8 +810,8 @@ def main():
                 "A3: Tier 3 = any disease keyword mention in case_text (high-recall mention layer)",
             ],
             "output_parquet": (
-                str(output_parquet.relative_to(BASE_DIR))
-                if output_parquet.is_relative_to(BASE_DIR) else str(output_parquet)
+                str(output_parquet.relative_to(REPO_ROOT))
+                if output_parquet.is_relative_to(REPO_ROOT) else str(output_parquet)
             ),
             "total_cases_scanned": stats["total_cases_scanned"],
             "cases_with_candidates": stats["cases_with_candidates"],
