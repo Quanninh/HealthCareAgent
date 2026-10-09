@@ -1,4 +1,4 @@
-# 🏥 MultiCaRe Clinical Gold Standard & Multi-Agent Annotation Pipeline
+# MultiCaRe Clinical Gold Standard & Multi-Agent Annotation Pipeline
 
 > **Branch:** `nguyenkhoa-clinical-labeling`  
 > **Repository:** [HealthCareAgent](https://github.com/Quanninh/HealthCareAgent)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This branch hosts the **Clinical Gold Standard Annotation Pipeline and Dataset** for the MultiCaRe corpus (~98,000 clinical cases extracted from PMC case reports). 
 
@@ -14,7 +14,7 @@ Standard classification often treats a case as having a single exclusive diagnos
 
 ---
 
-## 🏗️ Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -67,7 +67,7 @@ Standard classification often treats a case as having a single exclusive diagnos
 
 ---
 
-## 🎯 Key Methodological Foundations
+## Key Methodological Foundations
 
 ### 1. Pair-Level Abstraction `(case_id, target_disease)`
 Rather than labeling a case with a single categorical label:
@@ -90,7 +90,7 @@ Each candidate pair is discovered through a three-tier hierarchical sieve:
 
 ---
 
-## 🦠 The 15 Target Diseases
+## The 15 Target Diseases
 
 The taxonomy in [`config/disease_taxonomy.json`](config/disease_taxonomy.json) defines synonyms, ICD/MeSH mappings, gold standard diagnostic tests, clinical signs, and therapeutic evidence for:
 
@@ -114,7 +114,7 @@ The taxonomy in [`config/disease_taxonomy.json`](config/disease_taxonomy.json) d
 
 ---
 
-## 📊 Dataset Breakdown
+## Dataset Breakdown
 
 | Dataset Pool | Pair Count | Status | Description |
 |---|:---:|:---:|---|
@@ -127,7 +127,7 @@ The taxonomy in [`config/disease_taxonomy.json`](config/disease_taxonomy.json) d
 
 ---
 
-## 🤖 Multi-Agent Annotation Framework
+## Multi-Agent Annotation Framework
 
 Located under [`.agents/skills/`](.agents/skills/), the system implements a hybrid clinical decision protocol:
 1. **Clinical Annotator Coordinator (`clinical-annotator`):**
@@ -139,7 +139,7 @@ Located under [`.agents/skills/`](.agents/skills/), the system implements a hybr
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Requirements
 - Python 3.10+
@@ -181,7 +181,7 @@ Use `--dry-run` to inspect corpus statistics without writing files.
 
 ---
 
-## 📜 Citation & Credits
+## Citation & Credits
 
 This pipeline is built on top of:
 - **MultiCaRe Dataset**: [doi:10.5281/zenodo.10079369](https://doi.org/10.5281/zenodo.10079369)
