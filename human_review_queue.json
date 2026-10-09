@@ -1,12 +1,62 @@
 [
     {
         "case_id": "PMC10007705_01",
-        "entity": "fatigue",
+        "entity": "COVID-19",
         "cui": null,
         "standard_name": null,
         "probability": "0.50",
-        "assertion": "suspected",
+        "assertion": "affirmed",
         "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "diabetic",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.00",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "acido-ketosis decompensation",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "respiratory distress",
+        "cui": "C0035237",
+        "standard_name": "Structure Of Respiratory System",
+        "probability": "0.00",
+        "assertion": "suspected",
+        "experiencer": "other",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "fever",
+        "cui": "C0424755",
+        "standard_name": "Fever Symptoms Finding",
+        "probability": "0.00",
+        "assertion": "suspected",
+        "experiencer": "other",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "fatigue",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.00",
+        "assertion": "suspected",
+        "experiencer": "other",
         "expert_decision": "PENDING"
     },
     {
@@ -14,9 +64,9 @@
         "entity": "anosmia",
         "cui": null,
         "standard_name": null,
-        "probability": "0.50",
+        "probability": "0.00",
         "assertion": "suspected",
-        "experiencer": "patient",
+        "experiencer": "other",
         "expert_decision": "PENDING"
     },
     {
@@ -24,9 +74,19 @@
         "entity": "ageusia",
         "cui": null,
         "standard_name": null,
-        "probability": "0.50",
+        "probability": "0.00",
         "assertion": "suspected",
-        "experiencer": "patient",
+        "experiencer": "other",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "cough",
+        "cui": "C0687152",
+        "standard_name": "Does Cough",
+        "probability": "0.00",
+        "assertion": "suspected",
+        "experiencer": "other",
         "expert_decision": "PENDING"
     },
     {
@@ -34,64 +94,124 @@
         "entity": "nasal congestion",
         "cui": null,
         "standard_name": null,
-        "probability": "0.50",
-        "assertion": "suspected",
-        "experiencer": "patient",
-        "expert_decision": "PENDING"
-    },
-    {
-        "case_id": "PMC10007705_01",
-        "entity": "gastrointestinal manifestations",
-        "cui": null,
-        "standard_name": null,
         "probability": "0.00",
         "assertion": "suspected",
-        "experiencer": "patient",
+        "experiencer": "other",
         "expert_decision": "PENDING"
     },
     {
         "case_id": "PMC10007705_01",
-        "entity": "ocular manifestations",
-        "cui": null,
-        "standard_name": null,
+        "entity": "myalgia",
+        "cui": "C0231528",
+        "standard_name": "Aching Muscles",
         "probability": "0.00",
         "assertion": "suspected",
-        "experiencer": "patient",
+        "experiencer": "other",
         "expert_decision": "PENDING"
     },
     {
         "case_id": "PMC10007705_01",
-        "entity": "cardiac manifestations",
-        "cui": "C0018787",
-        "standard_name": "Cardiac Structure",
-        "probability": "0.50",
+        "entity": "weakness",
+        "cui": "C3714552",
+        "standard_name": "General Weakness",
+        "probability": "0.00",
         "assertion": "suspected",
+        "experiencer": "other",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_01",
+        "entity": "elevated creatine kinase (CK)",
+        "cui": "C0853034",
+        "standard_name": "Blood Creatine Phosphokinase Increased",
+        "probability": "0.00",
+        "assertion": "suspected",
+        "experiencer": "other",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "vomiting",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
         "experiencer": "patient",
         "expert_decision": "PENDING"
     },
     {
         "case_id": "PMC10007705_02",
-        "entity": "obesity",
-        "cui": null,
-        "standard_name": null,
+        "entity": "Cough",
+        "cui": "C0687152",
+        "standard_name": "Does Cough",
         "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "dyspnea",
+        "cui": "C0013404",
+        "standard_name": "Sob Shortness Of Breath",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "respiratory symptoms",
+        "cui": "C0037090",
+        "standard_name": "Signs And Symptoms Respiratory",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "type 2 diabetes mellitus",
+        "cui": "C4014362",
+        "standard_name": "Type 2 Diabetes Mellitus T2D",
+        "probability": "0.50",
         "assertion": "affirmed",
         "experiencer": "patient",
         "expert_decision": "PENDING"
     },
     {
-        "case_id": "PMC10010120_01",
-        "entity": "burning",
+        "case_id": "PMC10007705_02",
+        "entity": "acetoneuria",
         "cui": null,
         "standard_name": null,
-        "probability": "0.00",
-        "assertion": "suspected",
+        "probability": "0.50",
+        "assertion": "affirmed",
         "experiencer": "patient",
         "expert_decision": "PENDING"
     },
     {
-        "case_id": "PMC10010120_01",
-        "entity": "erosion",
+        "case_id": "PMC10007705_02",
+        "entity": "uncompensated metabolic acidosis",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "increase in CK to 3730 UI/L",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10007705_02",
+        "entity": "SARS-CoV-2 infection",
         "cui": null,
         "standard_name": null,
         "probability": "0.50",
@@ -101,7 +221,57 @@
     },
     {
         "case_id": "PMC10010120_01",
-        "entity": "haemorrhagic purpura",
+        "entity": "blisters on the skin",
+        "cui": "C0344311",
+        "standard_name": "Blistering Eruption",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "burning, sore, and itchy",
+        "cui": "C0033774",
+        "standard_name": "Pruritic Dermatitis",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "painful canker sores in the oral cavity",
+        "cui": "C0030193",
+        "standard_name": "Pain Observations",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "multiple crusts on the neck, buttocks, and upper and lower extremities",
+        "cui": "C0205204",
+        "standard_name": "Cutaneous Crust",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "dermatitis herpetiformis",
+        "cui": "C0011608",
+        "standard_name": "Dh Dermatitis Herpetiformis",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010120_01",
+        "entity": "COVID-19",
         "cui": null,
         "standard_name": null,
         "probability": "0.50",
@@ -111,7 +281,37 @@
     },
     {
         "case_id": "PMC10010120_01",
-        "entity": "root remnants",
+        "entity": "right bronchopneumonia",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "comatose",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "ventriculomegaly",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10041991_01",
+        "entity": "hydrocephalus",
         "cui": null,
         "standard_name": null,
         "probability": "0.50",
@@ -121,9 +321,99 @@
     },
     {
         "case_id": "PMC10043165_01",
-        "entity": "no complaints of systemic symptoms",
-        "cui": "C5441521",
-        "standard_name": "Presenting Complaint",
+        "entity": "father had had pulmonary TB 10 years previously",
+        "cui": "C0205156",
+        "standard_name": "Previously",
+        "probability": "0.00",
+        "assertion": "affirmed",
+        "experiencer": "family_member",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "daughter had had tuberculous pleurisy 7 years previously",
+        "cui": "C0205156",
+        "standard_name": "Previously",
+        "probability": "0.00",
+        "assertion": "affirmed",
+        "experiencer": "family_member",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "night sweats",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "weight loss",
+        "cui": "C3540682",
+        "standard_name": "Losing Weight Question",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "anorexia",
+        "cui": "C0003123",
+        "standard_name": "Decreased Appetite",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "fatigue",
+        "cui": "C0015672",
+        "standard_name": "Weariness",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "intermittent fever",
+        "cui": "C0277799",
+        "standard_name": "Intermittent Fever Finding",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "Caseous necrosis",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_01",
+        "entity": "MT",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "cough",
+        "cui": null,
+        "standard_name": null,
         "probability": "0.00",
         "assertion": "negated",
         "experiencer": "patient",
@@ -131,21 +421,101 @@
     },
     {
         "case_id": "PMC10043165_02",
-        "entity": "no symptoms of cough or weight loss",
-        "cui": "C0231221",
-        "standard_name": "Asymptomatic Finding",
-        "probability": "0.50",
+        "entity": "weight loss",
+        "cui": "C3540682",
+        "standard_name": "Losing Weight Question",
+        "probability": "0.00",
         "assertion": "negated",
         "experiencer": "patient",
         "expert_decision": "PENDING"
     },
     {
         "case_id": "PMC10043165_02",
-        "entity": "history of intramuscular injection at the site concerned or of any contact with TB",
+        "entity": "contact with TB",
+        "cui": "C0332158",
+        "standard_name": "Contact With",
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "painless muscular nodules",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10043165_02",
+        "entity": "MT",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "chills",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "fatigue",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "abdominal pain",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.00",
+        "assertion": "negated",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10010886_01",
+        "entity": "vomiting",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "history of DF 22 days before the presentation",
         "cui": "C0262512",
         "standard_name": "History Of Present Illness Finding",
         "probability": "0.50",
-        "assertion": "negated",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10062082_01",
+        "entity": "positive immunoglobulin M enzyme-linked immunosorbent assay serology for the Dengue virus",
+        "cui": "C1446409",
+        "standard_name": "Positive",
+        "probability": "0.50",
+        "assertion": "affirmed",
         "experiencer": "patient",
         "expert_decision": "PENDING"
     },
@@ -160,8 +530,8 @@
         "expert_decision": "PENDING"
     },
     {
-        "case_id": "PMC10402786_01",
-        "entity": "dengue test (ELISA IgM)",
+        "case_id": "PMC10062082_01",
+        "entity": "persistent micropsia",
         "cui": null,
         "standard_name": null,
         "probability": "0.50",
@@ -171,9 +541,9 @@
     },
     {
         "case_id": "PMC10402786_01",
-        "entity": "ST segment elevation of 2 mm in leads II, III, aVF, and V4 to V6",
-        "cui": "C0520886",
-        "standard_name": "Electrocardiogram St Segment Elevation",
+        "entity": "fever",
+        "cui": "C0424755",
+        "standard_name": "Fever Symptoms Finding",
         "probability": "0.50",
         "assertion": "affirmed",
         "experiencer": "patient",
@@ -181,11 +551,81 @@
     },
     {
         "case_id": "PMC10402786_01",
-        "entity": "coronary angiography",
-        "cui": "C0085532",
-        "standard_name": "Cardiac Catheterization Coronary Angiography",
+        "entity": "headache",
+        "cui": "C0018681",
+        "standard_name": "Pain In Head",
         "probability": "0.50",
-        "assertion": "negated",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "retro-orbital pain",
+        "cui": "C0743724",
+        "standard_name": "Retro Orbital Eye Pain",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "general body aches",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.00",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "joint pain",
+        "cui": "C0003862",
+        "standard_name": "Articular Pain",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "dengue test (ELISA IgM) was performed, yielding a positive result",
+        "cui": "C1446409",
+        "standard_name": "Positive",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "reverse transcriptase polymerase chain reaction (RT-PCR)",
+        "cui": "C0599161",
+        "standard_name": "Reverse Transcription Polymerase Chain Reaction",
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "NT-proBNP) level of 678 pg/mL",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
+        "experiencer": "patient",
+        "expert_decision": "PENDING"
+    },
+    {
+        "case_id": "PMC10402786_01",
+        "entity": "dengue myocarditis",
+        "cui": null,
+        "standard_name": null,
+        "probability": "0.50",
+        "assertion": "affirmed",
         "experiencer": "patient",
         "expert_decision": "PENDING"
     }

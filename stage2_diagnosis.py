@@ -350,6 +350,20 @@ def run_stage2_multilabel_diagnosis(
         lambda p: _classify_label(p, pos_threshold, neg_threshold)
     )
 
+    # 5. Determine the single most likely disease (highest probability above baseline 0.5)
+    def _get_top_disease(row):
+        probs = {
+            "covid19": row["p_covid19"],
+            "tuberculosis": row["p_tuberculosis"],
+            "dengue": row["p_dengue"],
+        }
+        best_disease, max_p = max(probs.items(), key=lambda item: item[1])
+        if max_p > 0.50:
+            return best_disease
+        return "UNKNOWN (Insufficient Evidence)"
+
+    df_patients["predicted_disease"] = df_patients.apply(_get_top_disease, axis=1)
+
     return df_patients, {"covid": L_covid, "tb": L_tb, "dengue": L_dengue}
 
 
@@ -369,6 +383,7 @@ def save_diagnosis_outputs(
     for _, row in df_patients.iterrows():
         results.append({
             "case_id": row["case_id"],
+            "predicted_disease": row["predicted_disease"],
             "diagnoses": {
                 "covid19": {
                     "probability": round(float(row["p_covid19"]), 4),
@@ -390,9 +405,12 @@ def save_diagnosis_outputs(
         json.dump(results, f, indent=4)
     print(f"\nSaved diagnosis report to {report_file}")
 
-    # CSV labels
-    csv_df = df_patients[["case_id", "p_covid19", "p_tuberculosis", "p_dengue",
-                           "covid19_label", "tuberculosis_label", "dengue_label"]].copy()
+    # CSV labels - include predicted_disease right after case_id
+    csv_df = df_patients[[
+        "case_id", "predicted_disease",
+        "p_covid19", "p_tuberculosis", "p_dengue",
+        "covid19_label", "tuberculosis_label", "dengue_label"
+    ]].copy()
     csv_df.to_csv(csv_file, index=False)
     print(f"Saved tabular labels to {csv_file}")
 
@@ -439,7 +457,7 @@ if __name__ == "__main__":
     print(f"  MULTI-LABEL DIAGNOSIS RESULTS")
     print(f"{'='*70}")
     for _, row in df_patients.iterrows():
-        print(f"\n  [{row['case_id']}]")
+        print(f"\n  [{row['case_id']}] -> Most Likely: {row['predicted_disease'].upper()}")
         print(f"    COVID-19:      P={row['p_covid19']:.4f}  -> {row['covid19_label']}")
         print(f"    Tuberculosis:  P={row['p_tuberculosis']:.4f}  -> {row['tuberculosis_label']}")
         print(f"    Dengue:        P={row['p_dengue']:.4f}  -> {row['dengue_label']}")
@@ -458,4 +476,10 @@ if __name__ == "__main__":
     print_lf_diagnostics(L_matrices["tb"], TB_LFS)
     print("\n--- Dengue LFs ---")
     print_lf_diagnostics(L_matrices["dengue"], DENGUE_LFS)
+
+    # Cleanly exit to prevent hanging on background threads
+    import sys
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)
 

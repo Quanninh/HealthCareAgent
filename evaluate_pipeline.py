@@ -153,13 +153,13 @@ def run_full_evaluation(df_patients: pd.DataFrame):
 
     print(f"\n  Evaluating {len(gold_covid)} cases with gold labels.\n")
 
-    evaluate_gold_holdout(gold_covid, pred_covid, threshold=0.5, disease_name="COVID-19")
-    evaluate_gold_holdout(gold_tb, pred_tb, threshold=0.5, disease_name="Tuberculosis")
-    evaluate_gold_holdout(gold_dengue, pred_dengue, threshold=0.5, disease_name="Dengue")
+    evaluate_gold_holdout(gold_covid, pred_covid, threshold=0.6, disease_name="COVID-19")
+    evaluate_gold_holdout(gold_tb, pred_tb, threshold=0.6, disease_name="Tuberculosis")
+    evaluate_gold_holdout(gold_dengue, pred_dengue, threshold=0.6, disease_name="Dengue")
 
     # Summary confusion table
     print("\n" + "-" * 70)
-    print("  CASE-LEVEL PREDICTION SUMMARY")
+    print("  CASE-LEVEL PREDICTION SUMMARY (MOST LIKELY DISEASE)")
     print("-" * 70)
     print(f"  {'Case ID':<22} {'Gold':<20} {'Predicted':<30} {'Match?'}")
     print(f"  {'-'*22} {'-'*20} {'-'*30} {'-'*6}")
@@ -178,17 +178,18 @@ def run_full_evaluation(df_patients: pd.DataFrame):
         gold_diseases = [d for d, v in gold.items() if v == 1]
         gold_str = ", ".join(gold_diseases) if gold_diseases else "none"
 
-        # Predicted disease(s)
-        pred_diseases = []
-        if row["p_covid19"] >= 0.5:
-            pred_diseases.append("covid19")
-        if row["p_tuberculosis"] >= 0.5:
-            pred_diseases.append("tuberculosis")
-        if row["p_dengue"] >= 0.5:
-            pred_diseases.append("dengue")
-        pred_str = ", ".join(pred_diseases) if pred_diseases else "none"
+        # Predicted disease: select the single most likely disease (argmax)
+        probs = {
+            "covid19": float(row["p_covid19"]),
+            "tuberculosis": float(row["p_tuberculosis"]),
+            "dengue": float(row["p_dengue"]),
+        }
+        top_disease, max_prob = max(probs.items(), key=lambda item: item[1])
+        
+        # Only predict if probability strictly exceeds the neutral prior (0.50)
+        pred_str = top_disease if max_prob > 0.50 else "none"
 
-        match = set(gold_diseases) == set(pred_diseases)
+        match = pred_str in gold_diseases
         if match:
             correct += 1
         total += 1
@@ -216,12 +217,18 @@ if __name__ == "__main__":
     for entry in report:
         rows.append({
             "case_id": entry["case_id"],
+            "predicted_disease": entry.get("predicted_disease"),
             "p_covid19": entry["diagnoses"]["covid19"]["probability"],
             "p_tuberculosis": entry["diagnoses"]["tuberculosis"]["probability"],
             "p_dengue": entry["diagnoses"]["dengue"]["probability"],
-            "valid_symptoms": entry["evidence_used"],
+            "valid_symptoms": entry.get("evidence_used", []),
         })
 
     df_patients = pd.DataFrame(rows)
     run_full_evaluation(df_patients)
+
+    import os, sys
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)
 

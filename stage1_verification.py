@@ -12,20 +12,48 @@ Key Fix: Uses cardinality=2 (binary: INVALID/VALID) instead of the old
 cardinality=6 which diluted probability mass across phantom classes.
 """
 import os
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
-
+import sys
+import warnings
+import logging
 from typing import Optional
+
+# Suppress OpenMP duplicate errors, tokenizer deadlocks, and legacy conversion blocks
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+os.environ['MEDCAT_AVOID_LECACY_CONVERSION'] = 'False'
+
+# Suppress noisy spaCy compatibility warnings and MedCAT unpickling logs
+warnings.filterwarnings('ignore', category=UserWarning)
+warnings.filterwarnings('ignore', message='.*spaCy.*')
+logging.getLogger('medcat').setLevel(logging.ERROR)
 
 try:
     from dotenv import load_dotenv
-    load_dotenv()
+    load_dotenv(override=True)
 except ImportError:
     pass
+
+# Keep legacy conversion enabled even if overridden by external environment
+os.environ['MEDCAT_AVOID_LECACY_CONVERSION'] = 'False'
 
 import re
 import json
 import pandas as pd
 import numpy as np
+
+# Compatibility patch for legacy MedCAT v1 model unpickling
+try:
+    import medcat.config
+    if not hasattr(medcat.config, '_DefPartial'):
+        class _DefPartial:
+            pass
+        medcat.config._DefPartial = _DefPartial
+    if not hasattr(medcat.config, 'weighted_average'):
+        def weighted_average(*args, **kwargs):
+            return 0.0
+        medcat.config.weighted_average = weighted_average
+except Exception:
+    pass
 
 try:
     from medcat.cat import CAT
@@ -51,7 +79,7 @@ from schemas import EntityValidity
 
 def load_medcat_model(model_path: Optional[str] = None):
     """
-    Load the MedCAT UMLS model pack.
+    Load the MedCAT UMLS model pack directly from disk.
     Reads from model_path argument if provided, otherwise falls back to MEDCAT_MODEL_PATH from .env.
     """
     if not MEDCAT_AVAILABLE:
@@ -65,10 +93,10 @@ def load_medcat_model(model_path: Optional[str] = None):
         return None
 
     if not os.path.exists(model_path):
-        print(f"WARNING: MedCAT model file not found at path configured in .env: {model_path}")
+        print(f"WARNING: MedCAT model path not found: {model_path}")
         return None
 
-    print(f"Loading MedCAT UMLS Model (This may take a minute...)...")
+    print(f"Loading MedCAT UMLS Model from: {model_path}...")
     return CAT.load_model_pack(model_path)
 
 
@@ -367,3 +395,8 @@ if __name__ == "__main__":
     print(f"  Auto-accepted: {len(accepted)}")
     print(f"  Human review:  {len(review)}")
     print("=" * 60)
+
+    # Flush all output buffers and immediately exit to prevent hanging on background OpenMP/spaCy worker threads
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)
