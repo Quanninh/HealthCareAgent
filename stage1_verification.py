@@ -81,6 +81,13 @@ try:
 except ImportError as e:
     SNORKEL_AVAILABLE = False
     print(f"WARNING: Snorkel failed to import: {e}")
+    def labeling_function(name=None):
+        def decorator(f):
+            return f
+        return decorator
+    PandasLFApplier = None
+    LabelModel = None
+    MajorityLabelVoter = None
 
 from schemas import EntityValidity
 
