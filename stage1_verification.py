@@ -20,11 +20,24 @@ from typing import Optional
 # Suppress OpenMP duplicate errors, tokenizer deadlocks, and legacy conversion blocks
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+os.environ['PYTHONWARNINGS'] = 'ignore:resource_tracker:UserWarning'
 
 # Suppress noisy spaCy compatibility warnings and MedCAT unpickling logs
 warnings.filterwarnings('ignore', category=UserWarning)
 warnings.filterwarnings('ignore', message='.*spaCy.*')
 logging.getLogger('medcat').setLevel(logging.ERROR)
+
+# Compatibility patch for macOS Python 3.10 multiprocessing resource_tracker false-positive warning
+try:
+    import multiprocessing.resource_tracker
+    _orig_register = multiprocessing.resource_tracker.register
+    def _safe_register(name, rtype):
+        if rtype == "semaphore":
+            return
+        return _orig_register(name, rtype)
+    multiprocessing.resource_tracker.register = _safe_register
+except Exception:
+    pass
 
 try:
     from dotenv import load_dotenv

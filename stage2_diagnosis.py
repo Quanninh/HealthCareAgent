@@ -12,6 +12,19 @@ if the evidence supports it.
 """
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+os.environ['PYTHONWARNINGS'] = 'ignore:resource_tracker:UserWarning'
+
+# Compatibility patch for macOS Python 3.10 multiprocessing resource_tracker false-positive warning
+try:
+    import multiprocessing.resource_tracker
+    _orig_register = multiprocessing.resource_tracker.register
+    def _safe_register(name, rtype):
+        if rtype == "semaphore":
+            return
+        return _orig_register(name, rtype)
+    multiprocessing.resource_tracker.register = _safe_register
+except Exception:
+    pass
 
 import json
 import pandas as pd
