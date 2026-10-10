@@ -41,13 +41,12 @@ class ClinicalEntity(BaseModel):
     valid_probability: Optional[float] = None
 
 
+class DiseaseDiagnosis(BaseModel):
+    probability: float
+    label: str
+
 class DiagnosisResult(BaseModel):
     """Multi-label diagnosis output for a single patient case."""
     case_id: str
-    p_covid19: float = Field(ge=0.0, le=1.0)
-    p_tuberculosis: float = Field(ge=0.0, le=1.0)
-    p_dengue: float = Field(ge=0.0, le=1.0)
-    covid19_label: str = ""     # POSITIVE / NEGATIVE / UNCERTAIN
-    tuberculosis_label: str = ""
-    dengue_label: str = ""
+    diagnoses: Dict[str, DiseaseDiagnosis] = Field(default_factory=dict)
     evidence_used: List[str] = Field(default_factory=list)

@@ -2,82 +2,49 @@
 clinical_knowledge.py: Granular medical profiles separating hallmark pathognomonic
 signs from non-specific systemic symptoms.
 
-Design Rationale:
-- Pathognomonic / High-Specificity markers carry high diagnostic weight and are
-  used in standalone hallmark LFs.
-- Shared systemic symptoms (fever, myalgia, etc.) are only meaningful in
-  constellation / co-occurrence LFs to avoid false attribution.
-- Negative exclusion triggers allow LFs to vote NEGATIVE when definitive
-  rule-out evidence is present.
+Dynamically loaded from disease_taxonomy.json for 15 diseases.
 """
 
-# ═══════════════════════════════════════════════════════════════════════
-#  COVID-19
-# ═══════════════════════════════════════════════════════════════════════
+import json
+import os
 
-COVID19_HALLMARKS = [
-    "anosmia", "loss of smell", "ageusia", "loss of taste",
-    "ground-glass opacities", "ground-glass appearance", "ground glass opacification",
-    "bilateral infiltrates",
-    "positive sars-cov-2", "positive rrt-pcr", "rrt-pcr", "anti-sars-cov-2",
-    "sars-cov-2 infection", "covid-19", "coronavirus",
-    "covid-19 swab", "which was positive",
-]
+_taxonomy_path = os.path.join(os.path.dirname(__file__), "disease_taxonomy.json")
+with open(_taxonomy_path, "r") as f:
+    taxonomy = json.load(f)
 
-COVID19_EXCLUSIONS = [
-    "negative sars-cov-2", "negative rrt-pcr", "covid-19 swab negative",
-]
+DISEASES = taxonomy["target_diseases"]
 
-# ═══════════════════════════════════════════════════════════════════════
-#  TUBERCULOSIS
-# ═══════════════════════════════════════════════════════════════════════
+DISEASE_HALLMARKS = {}
+DISEASE_LAB_TESTS = {}
+DISEASE_EXCLUSIONS = {}
 
-TUBERCULOSIS_HALLMARKS = [
-    "hemoptysis", "cavitary lesion", "cavitary lesions",
-    "caseating granuloma", "caseous necrosis", "caseating necrosis",
-    "epithelioid granulomas", "epithelioid granuloma",
-    "nodular epithelioid granulomas",
-    "genexpert mtb/rif", "genexpert", "mtb/rif",
-    "mycobacterium tuberculosis", "mycobacterium",
-    "tuberculous meningitis", "tuberculosis", "tb", "mt",
-    "ghon focus", "miliary pattern",
-    "granulomatous inflammation",
-    "pcr for tb was positive", "pcr for the mycobacterium tuberculosis",
-    "positive in frozen sections",
-    "non-necrotizing epithelioid granulomas compatible with tb",
-    "antituberculosis",
-]
-
-TB_EXCLUSIONS = [
-    "acid-fast bacilli stain was negative", "pcr for tb was negative",
-    "tuberculin skin test negative",
-]
-
-# ═══════════════════════════════════════════════════════════════════════
-#  DENGUE FEVER
-# ═══════════════════════════════════════════════════════════════════════
-
-DENGUE_HALLMARKS = [
-    "retro-orbital pain", "retro-orbital",
-    "thrombocytopenia", "platelet count decreased", "platelet count",
-    "positive ns1 antigen", "ns1 antigen test", "ns1 antigen",
-    "dengue virus", "dengue", "dengue fever", "df",
-    "elisa igm", "dengue test",
-    "petechiae",
-    "dengue retinopathy", "dengue myocarditis",
-    "immunoglobulin m enzyme-linked immunosorbent assay serology for the dengue virus",
-]
-
-DENGUE_EXCLUSIONS = [
-    "normal platelet count", "dengue serology negative",
-]
-
-# ═══════════════════════════════════════════════════════════════════════
-#  SHARED SYSTEMIC (Non-Specific) — Only for constellation LFs
-# ═══════════════════════════════════════════════════════════════════════
+for disease, data in DISEASES.items():
+    hallmarks = []
+    hallmarks.extend([k.lower() for k in data.get("keywords", [])])
+    hallmarks.extend([m.lower() for m in data.get("mesh_terms", [])])
+    
+    evidence = data.get("evidence_terms", {})
+    clinical_signs = [s.lower() for s in evidence.get("clinical_signs", [])]
+    gold_tests = [t.lower() for t in evidence.get("gold_tests", [])]
+    
+    hallmarks.extend(clinical_signs)
+    
+    DISEASE_HALLMARKS[disease] = list(set(hallmarks))
+    DISEASE_LAB_TESTS[disease] = list(set(gold_tests))
+    
+    # Generic exclusion by negating the gold tests
+    DISEASE_EXCLUSIONS[disease] = [f"negative {t}" for t in gold_tests] + [f"no {s}" for s in clinical_signs]
 
 SHARED_SYSTEMIC_SYMPTOMS = [
     "fever", "high-grade fever", "febrile", "chills", "fatigue",
     "headache", "headaches", "myalgia", "muscle aches", "weakness",
     "nausea", "vomiting", "diarrhea",
 ]
+
+# For backwards compatibility with other scripts if needed, though we'll update them to use the dicts
+COVID19_HALLMARKS = DISEASE_HALLMARKS.get("COVID-19", [])
+COVID19_EXCLUSIONS = DISEASE_EXCLUSIONS.get("COVID-19", [])
+TUBERCULOSIS_HALLMARKS = DISEASE_HALLMARKS.get("Tuberculosis", [])
+TB_EXCLUSIONS = DISEASE_EXCLUSIONS.get("Tuberculosis", [])
+DENGUE_HALLMARKS = DISEASE_HALLMARKS.get("Dengue", [])
+DENGUE_EXCLUSIONS = DISEASE_EXCLUSIONS.get("Dengue", [])

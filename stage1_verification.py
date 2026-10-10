@@ -309,7 +309,7 @@ def step5_route_entities(df_entities: pd.DataFrame, threshold: float = 0.85):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def run_stage1_pipeline(
-    input_file: str = "extracted_cases_top3_new.jsonl",
+    input_file: str = "extracted_cases_100per_disease.jsonl",
     threshold: float = 0.85,
     accepted_output: str = "accepted_entities.json",
     review_output: str = "human_review_queue.json",

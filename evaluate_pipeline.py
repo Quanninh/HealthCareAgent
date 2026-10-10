@@ -22,6 +22,8 @@ try:
 except ImportError:
     SKLEARN_AVAILABLE = False
 
+from clinical_knowledge import DISEASES
+
 
 # ═══════════════════════════════════════════════════════════════════════════════
 #  Intrinsic LF Diagnostics
@@ -62,12 +64,6 @@ def print_lf_diagnostics(L_matrix, lfs):
 def evaluate_gold_holdout(y_true, y_pred_probs, threshold=0.5, disease_name="Disease"):
     """
     Evaluate predicted probabilities against gold labels.
-    
-    Args:
-        y_true: Array of binary gold labels (0 or 1)
-        y_pred_probs: Array of predicted positive-class probabilities
-        threshold: Decision threshold for converting probabilities to labels
-        disease_name: Name of the disease for display
     """
     if not SKLEARN_AVAILABLE:
         print("scikit-learn not available. Cannot evaluate.")
@@ -99,29 +95,26 @@ def evaluate_gold_holdout(y_true, y_pred_probs, threshold=0.5, disease_name="Dis
 # ═══════════════════════════════════════════════════════════════════════════════
 
 # Hand-annotated ground truth for the 10 cases in extracted_cases_top3_new.jsonl
-# Derived from the PMC paper titles and case diagnoses
+# For brevity, these are hardcoded for 3 diseases. Add more for 15 diseases if needed.
 GOLD_LABELS = {
     # COVID-19 cases
-    "PMC10007705_01": {"covid19": 1, "tuberculosis": 0, "dengue": 0},  # COVID-19 myositis (background case)
-    "PMC10007705_02": {"covid19": 1, "tuberculosis": 0, "dengue": 0},  # COVID-19 myositis (patient)
-    "PMC10010120_01": {"covid19": 1, "tuberculosis": 0, "dengue": 0},  # COVID-19 dermatitis herpetiformis
+    "PMC10007705_01": {"covid-19": 1, "tuberculosis": 0, "dengue": 0},  # COVID-19 myositis (background case)
+    "PMC10007705_02": {"covid-19": 1, "tuberculosis": 0, "dengue": 0},  # COVID-19 myositis (patient)
+    "PMC10010120_01": {"covid-19": 1, "tuberculosis": 0, "dengue": 0},  # COVID-19 dermatitis herpetiformis
     # Tuberculosis cases
-    "PMC10041991_01": {"covid19": 0, "tuberculosis": 1, "dengue": 0},  # TB meningitis (pre-XDR)
-    "PMC10043165_01": {"covid19": 0, "tuberculosis": 1, "dengue": 0},  # Muscular tuberculosis case 1
-    "PMC10043165_02": {"covid19": 0, "tuberculosis": 1, "dengue": 0},  # Muscular tuberculosis case 2
+    "PMC10041991_01": {"covid-19": 0, "tuberculosis": 1, "dengue": 0},  # TB meningitis (pre-XDR)
+    "PMC10043165_01": {"covid-19": 0, "tuberculosis": 1, "dengue": 0},  # Muscular tuberculosis case 1
+    "PMC10043165_02": {"covid-19": 0, "tuberculosis": 1, "dengue": 0},  # Muscular tuberculosis case 2
     # Dengue cases
-    "PMC10010886_01": {"covid19": 0, "tuberculosis": 0, "dengue": 1},  # Dengue acute pancreatitis
-    "PMC10062082_01": {"covid19": 0, "tuberculosis": 0, "dengue": 1},  # Dengue retinopathy
-    "PMC10402786_01": {"covid19": 0, "tuberculosis": 0, "dengue": 1},  # Dengue myocarditis
+    "PMC10010886_01": {"covid-19": 0, "tuberculosis": 0, "dengue": 1},  # Dengue acute pancreatitis
+    "PMC10062082_01": {"covid-19": 0, "tuberculosis": 0, "dengue": 1},  # Dengue retinopathy
+    "PMC10402786_01": {"covid-19": 0, "tuberculosis": 0, "dengue": 1},  # Dengue myocarditis
 }
 
 
 def run_full_evaluation(df_patients: pd.DataFrame):
     """
     Run full evaluation against gold standard labels.
-    
-    Args:
-        df_patients: DataFrame with columns case_id, p_covid19, p_tuberculosis, p_dengue
     """
     if not SKLEARN_AVAILABLE:
         print("scikit-learn not available. Install it for evaluation.")
@@ -131,31 +124,35 @@ def run_full_evaluation(df_patients: pd.DataFrame):
     print("  GOLD-STANDARD HOLDOUT EVALUATION")
     print("=" * 70)
 
-    # Build aligned arrays
+    # Build aligned arrays for diseases present in GOLD_LABELS
     case_ids = df_patients["case_id"].tolist()
-    gold_covid, gold_tb, gold_dengue = [], [], []
-    pred_covid, pred_tb, pred_dengue = [], [], []
+    
+    # We only care about diseases that actually appear in GOLD_LABELS inner dicts
+    eval_diseases = set()
+    for gl in GOLD_LABELS.values():
+        eval_diseases.update(gl.keys())
+        
+    gold_arrays = {d: [] for d in eval_diseases}
+    pred_arrays = {d: [] for d in eval_diseases}
 
     for _, row in df_patients.iterrows():
         cid = row["case_id"]
         if cid in GOLD_LABELS:
             gold = GOLD_LABELS[cid]
-            gold_covid.append(gold["covid19"])
-            gold_tb.append(gold["tuberculosis"])
-            gold_dengue.append(gold["dengue"])
-            pred_covid.append(row["p_covid19"])
-            pred_tb.append(row["p_tuberculosis"])
-            pred_dengue.append(row["p_dengue"])
+            for d in eval_diseases:
+                gold_arrays[d].append(gold.get(d, 0))
+                # match column name
+                col_name = d.lower().replace('-', '_').replace(' ', '_')
+                pred_arrays[d].append(row.get(f"p_{col_name}", 0.0))
 
-    if not gold_covid:
+    if not any(gold_arrays.values()):
         print("  No gold labels matched any case IDs. Skipping evaluation.")
         return
 
-    print(f"\n  Evaluating {len(gold_covid)} cases with gold labels.\n")
+    print(f"\n  Evaluating {len(next(iter(gold_arrays.values())))} cases with gold labels.\n")
 
-    evaluate_gold_holdout(gold_covid, pred_covid, threshold=0.6, disease_name="COVID-19")
-    evaluate_gold_holdout(gold_tb, pred_tb, threshold=0.6, disease_name="Tuberculosis")
-    evaluate_gold_holdout(gold_dengue, pred_dengue, threshold=0.6, disease_name="Dengue")
+    for d in eval_diseases:
+        evaluate_gold_holdout(gold_arrays[d], pred_arrays[d], threshold=0.6, disease_name=d.upper())
 
     # Summary confusion table
     print("\n" + "-" * 70)
@@ -179,17 +176,19 @@ def run_full_evaluation(df_patients: pd.DataFrame):
         gold_str = ", ".join(gold_diseases) if gold_diseases else "none"
 
         # Predicted disease: select the single most likely disease (argmax)
-        probs = {
-            "covid19": float(row["p_covid19"]),
-            "tuberculosis": float(row["p_tuberculosis"]),
-            "dengue": float(row["p_dengue"]),
-        }
-        top_disease, max_prob = max(probs.items(), key=lambda item: item[1])
-        
-        # Only predict if probability strictly exceeds the neutral prior (0.50)
-        pred_str = top_disease if max_prob > 0.50 else "none"
+        probs = {}
+        for d in DISEASES.keys():
+            col = d.lower().replace('-', '_').replace(' ', '_')
+            if f"p_{col}" in row:
+                probs[d.lower()] = float(row[f"p_{col}"])
+            
+        if probs:
+            top_disease, max_prob = max(probs.items(), key=lambda item: item[1])
+            pred_str = top_disease if max_prob > 0.50 else "none"
+        else:
+            pred_str = "none"
 
-        match = pred_str in gold_diseases
+        match = pred_str in [g.lower() for g in gold_diseases]
         if match:
             correct += 1
         total += 1
@@ -215,14 +214,15 @@ if __name__ == "__main__":
 
     rows = []
     for entry in report:
-        rows.append({
+        row = {
             "case_id": entry["case_id"],
             "predicted_disease": entry.get("predicted_disease"),
-            "p_covid19": entry["diagnoses"]["covid19"]["probability"],
-            "p_tuberculosis": entry["diagnoses"]["tuberculosis"]["probability"],
-            "p_dengue": entry["diagnoses"]["dengue"]["probability"],
             "valid_symptoms": entry.get("evidence_used", []),
-        })
+        }
+        for d, vals in entry.get("diagnoses", {}).items():
+            row[f"p_{d}"] = vals["probability"]
+            row[f"{d}_label"] = vals["label"]
+        rows.append(row)
 
     df_patients = pd.DataFrame(rows)
     run_full_evaluation(df_patients)
@@ -231,4 +231,3 @@ if __name__ == "__main__":
     sys.stdout.flush()
     sys.stderr.flush()
     os._exit(0)
-

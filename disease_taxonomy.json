@@ -1,0 +1,191 @@
+{
+  "description": "Taxonomy mapping for Tropical and Infectious Diseases in MultiCaRe dataset",
+  "version": "2.0",
+  "target_diseases": {
+    "Dengue": {
+      "category": "Viral Haemorrhagic / Arbovirus",
+      "mesh_terms": ["Dengue", "Dengue Virus", "Severe Dengue", "Dengue Hemorrhagic Fever"],
+      "keywords": ["dengue", "dengue hemorrhagic fever", "dengue shock syndrome", "dengue virus", "dengue fever", "ns1 antigen", "dengue-related"],
+      "pathogens": ["DENV-1", "DENV-2", "DENV-3", "DENV-4", "Flavivirus"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Dengue Case Definition, WHO Dengue Guidelines",
+        "gold_tests": ["ns1", "ns1 antigen", "rt-pcr", "dengue pcr", "mac-elisa", "igm elisa", "prnt", "tourniquet test", "serology"],
+        "clinical_signs": ["retro-orbital pain", "thrombocytopenia", "petechiae", "purpura", "ecchymosis", "plasma leakage", "hemoconcentration", "pleural effusion", "ascites", "breakbone fever", "maculopapular rash"],
+        "treatment": ["fluid resuscitation", "crystalloid", "colloid", "platelet transfusion", "supportive care", "hydration", "iv fluids"]
+      }
+    },
+    "Malaria": {
+      "category": "Parasitic / Vector-borne",
+      "mesh_terms": ["Malaria", "Malaria, Falciparum", "Malaria, Vivax", "Plasmodium", "Plasmodium falciparum", "Plasmodium vivax"],
+      "keywords": ["malaria", "plasmodium", "falciparum", "vivax", "ovale", "malariae", "knowlesi", "trophozoite", "schizont", "blackwater fever"],
+      "pathogens": ["Plasmodium falciparum", "Plasmodium vivax", "Plasmodium ovale", "Plasmodium malariae"],
+      "evidence_terms": {
+        "source": "CDC DPDx Malaria, WHO Malaria Guidelines",
+        "gold_tests": ["blood smear", "thick smear", "thin smear", "giemsa stain", "rapid diagnostic test", "rdt", "parasitemia", "parasite density", "pcr"],
+        "clinical_signs": ["chills", "rigors", "splenomegaly", "hepatomegaly", "hemolytic anemia", "jaundice", "cerebral malaria", "blackwater fever", "hemoglobinuria", "febrile paroxysm"],
+        "treatment": ["artemisinin", "artesunate", "artemether", "lumefantrine", "chloroquine", "primaquine", "mefloquine", "quinine", "act", "atovaquone", "proguanil"]
+      }
+    },
+    "Ebola_Filovirus": {
+      "category": "Viral Haemorrhagic Fever",
+      "mesh_terms": ["Ebolavirus", "Hemorrhagic Fever, Ebola", "Marburgvirus", "Filoviridae Infections"],
+      "keywords": ["ebola", "ebolavirus", "marburg", "marburgvirus", "filovirus", "filoviral", "ebola virus disease", "evd"],
+      "pathogens": ["Zaire ebolavirus", "Sudan ebolavirus", "Marburg virus"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Viral Hemorrhagic Fevers, WHO Ebola Fact Sheet",
+        "gold_tests": ["rt-pcr", "antigen capture elisa", "igm elisa", "virus isolation", "serum neutralization"],
+        "clinical_signs": ["unexplained bleeding", "hemorrhage", "petechiae", "melena", "hematemesis", "maculopapular rash", "conjunctival injection", "multi-organ failure"],
+        "treatment": ["inmazeb", "atoltivimab", "ebanga", "ansuvimab", "monoclonal antibody", "fluid resuscitation", "electrolyte replacement"]
+      }
+    },
+    "Tuberculosis": {
+      "category": "Bacterial Mycobacterial",
+      "mesh_terms": ["Tuberculosis", "Tuberculosis, Pulmonary", "Mycobacterium tuberculosis", "Tuberculosis, Multidrug-Resistant"],
+      "keywords": ["tuberculosis", "mycobacterium tuberculosis", "m. tuberculosis", "pulmonary tuberculosis", "tb", "acid-fast bacilli", "afb", "ghon focus", "miliary tuberculosis"],
+      "pathogens": ["Mycobacterium tuberculosis", "Mycobacterium bovis"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Tuberculosis, WHO Tuberculosis Guidelines",
+        "gold_tests": ["acid-fast bacilli", "afb smear", "ziehl-neelsen", "mycobacterial culture", "lowenstein-jensen", "gene xpert", "xpert mtb/rif", "quantiferon", "igra", "tuberculin skin test", "mantoux"],
+        "clinical_signs": ["hemoptysis", "night sweats", "weight loss", "chronic cough", "cavitary lesion", "apical infiltrate", "ghon focus", "miliary pattern", "caseating granuloma"],
+        "treatment": ["isoniazid", "rifampin", "rifampicin", "pyrazinamide", "ethambutol", "rife", "linezolid", "bedaquiline", "anti-tubercular"]
+      }
+    },
+    "COVID-19": {
+      "category": "Viral Respiratory",
+      "mesh_terms": ["COVID-19", "SARS-CoV-2", "Coronavirus Infections"],
+      "keywords": ["covid-19", "sars-cov-2", "coronavirus", "novel coronavirus", "covid19", "covid pneumonia"],
+      "pathogens": ["SARS-CoV-2"],
+      "evidence_terms": {
+        "source": "CDC NNDSS COVID-19 Case Definition, WHO COVID-19 Surveillance",
+        "gold_tests": ["rt-pcr", "sars-cov-2 pcr", "rapid antigen test", "nucleocapsid antigen", "viral rna", "nasopharyngeal swab"],
+        "clinical_signs": ["ground-glass opacities", "dyspnea", "hypoxemia", "anosmia", "ageusia", "loss of taste", "loss of smell", "bilateral infiltrates", "acute respiratory distress syndrome", "ards"],
+        "treatment": ["paxlovid", "nirmatrelvir", "ritonavir", "remdesivir", "dexamethasone", "tocilizumab", "baricitinib", "oxygen therapy", "prone positioning"]
+      }
+    },
+    "HIV_AIDS": {
+      "category": "Viral Immunodeficiency / Opportunistic",
+      "mesh_terms": ["HIV Infections", "HIV-1", "Acquired Immunodeficiency Syndrome"],
+      "keywords": ["hiv", "human immunodeficiency virus", "aids", "acquired immunodeficiency syndrome", "cd4 count", "opportunistic infection"],
+      "pathogens": ["HIV-1", "HIV-2"],
+      "evidence_terms": {
+        "source": "CDC NNDSS HIV Case Definition, WHO HIV Testing Guidelines",
+        "gold_tests": ["cd4 count", "cd4+ t-cell", "viral load", "hiv rna", "western blot", "4th generation immunoassay", "rapid hiv test", "antigen/antibody combo"],
+        "clinical_signs": ["opportunistic infection", "pneumocystis", "pcp", "kaposi sarcoma", "oral thrush", "candidiasis", "cryptococcal meningitis", "toxoplasmosis", "wasting syndrome"],
+        "treatment": ["antiretroviral therapy", "art", "tenofovir", "emtricitabine", "dolutegravir", "efavirenz", "lamivudine", "biktarvy", "cotrimoxazole"]
+      }
+    },
+    "Chikungunya": {
+      "category": "Viral Arbovirus",
+      "mesh_terms": ["Chikungunya Fever", "Chikungunya virus"],
+      "keywords": ["chikungunya", "chikungunya fever", "chikungunya virus", "chkv"],
+      "pathogens": ["Chikungunya virus", "Alphavirus"],
+      "evidence_terms": {
+        "source": "CDC Chikungunya Clinical Overview, WHO Chikungunya Fact Sheet",
+        "gold_tests": ["rt-pcr", "chikungunya igm", "mac-elisa", "prnt", "serology"],
+        "clinical_signs": ["severe arthralgia", "polyarthralgia", "joint swelling", "bilateral arthritis", "maculopapular rash", "tenosynovitis", "periarticular edema"],
+        "treatment": ["nsaids", "acetaminophen", "paracetamol", "analgesics", "supportive care"]
+      }
+    },
+    "Zika": {
+      "category": "Viral Arbovirus",
+      "mesh_terms": ["Zika Virus Infection", "Zika Virus"],
+      "keywords": ["zika", "zika virus", "zika fever", "zikv", "congenital zika syndrome"],
+      "pathogens": ["Zika virus", "Flavivirus"],
+      "evidence_terms": {
+        "source": "CDC Zika Clinical Overview, WHO Zika Guidelines",
+        "gold_tests": ["rt-pcr", "zika rna", "trioplex pcr", "igm elisa", "prnt"],
+        "clinical_signs": ["microcephaly", "congenital zika syndrome", "guillain-barre syndrome", "conjunctivitis", "maculopapular rash", "retro-orbital pain"],
+        "treatment": ["supportive care", "acetaminophen", "rest", "hydration"]
+      }
+    },
+    "Brucellosis": {
+      "category": "Bacterial Zoonosis",
+      "mesh_terms": ["Brucellosis", "Brucella", "Brucella abortus", "Brucella melitensis"],
+      "keywords": ["brucellosis", "brucella", "undulant fever", "malta fever", "mediterranean fever", "brucella melitensis"],
+      "pathogens": ["Brucella melitensis", "Brucella abortus", "Brucella suis"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Brucellosis, WHO Brucellosis Fact Sheet",
+        "gold_tests": ["blood culture", "bone marrow culture", "serum agglutination test", "sat", "standard tube agglutination", "brucellacapt", "elisa igm/igg"],
+        "clinical_signs": ["undulant fever", "drenching sweats", "malodorous sweat", "sacroiliitis", "spondylodiscitis", "epididymo-orchitis", "hepatosplenomegaly"],
+        "treatment": ["doxycycline", "rifampin", "streptomycin", "gentamicin", "cotrimoxazole", "ciprofloxacin"]
+      }
+    },
+    "Leishmaniasis": {
+      "category": "Parasitic Protozoan",
+      "mesh_terms": ["Leishmaniasis", "Leishmaniasis, Visceral", "Leishmaniasis, Cutaneous", "Leishmania"],
+      "keywords": ["leishmaniasis", "leishmania", "kala-azar", "visceral leishmaniasis", "cutaneous leishmaniasis", "amastigote", "donovan body"],
+      "pathogens": ["Leishmania donovani", "Leishmania major", "Leishmania infantum"],
+      "evidence_terms": {
+        "source": "CDC DPDx Leishmaniasis, WHO Leishmaniasis Fact Sheet",
+        "gold_tests": ["amastigotes", "leishman-donovan bodies", "ld bodies", "bone marrow aspirate", "splenic aspirate", "rk39 rapid test", "rk39 immunochromatographic", "nnn medium culture"],
+        "clinical_signs": ["kala-azar", "splenomegaly", "massive splenomegaly", "hepatomegaly", "pancytopenia", "hypergammaglobulinemia", "cutaneous ulcer", "oriental sore"],
+        "treatment": ["liposomal amphotericin b", "amphotericin", "miltefosine", "sodium stibogluconate", "meglumine antimoniate", "pentavalent antimonial", "paromomycin"]
+      }
+    },
+    "Typhoid_Fever": {
+      "category": "Bacterial Enteric",
+      "mesh_terms": ["Typhoid Fever", "Salmonella typhi"],
+      "keywords": ["typhoid", "typhoid fever", "salmonella typhi", "enteric fever", "widal test"],
+      "pathogens": ["Salmonella enterica serovar Typhi"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Typhoid Fever, WHO Typhoid Fact Sheet",
+        "gold_tests": ["blood culture", "bone marrow culture", "stool culture", "widal test", "tubex", "typhidot"],
+        "clinical_signs": ["step-ladder fever", "rose spots", "relative bradycardia", "faget sign", "pea-soup diarrhea", "intestinal perforation", "ileal perforation", "toxic encephalopathy"],
+        "treatment": ["ceftriaxone", "azithromycin", "ciprofloxacin", "chloramphenicol", "ampicillin", "meropenem", "cefixime"]
+      }
+    },
+    "Cholera": {
+      "category": "Bacterial Enteric",
+      "mesh_terms": ["Cholera", "Vibrio cholerae"],
+      "keywords": ["cholera", "vibrio cholerae", "rice-water stool"],
+      "pathogens": ["Vibrio cholerae"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Cholera, WHO Cholera Fact Sheet",
+        "gold_tests": ["stool culture", "tcbs agar", "crystal vc", "darkfield microscopy", "vibrio serotyping"],
+        "clinical_signs": ["rice-water stool", "profuse watery diarrhea", "severe dehydration", "sunken eyes", "loss of skin turgor", "washerwoman hands", "hypovolemic shock", "hypokalemia"],
+        "treatment": ["oral rehydration salts", "ors", "ringer lactate", "iv rehydration", "doxycycline", "azithromycin", "ciprofloxacin", "zinc supplementation"]
+      }
+    },
+    "Rabies": {
+      "category": "Viral Zoonosis",
+      "mesh_terms": ["Rabies", "Rabies virus"],
+      "keywords": ["rabies", "rabies virus", "hydrophobia", "lyssavirus", "negri body"],
+      "pathogens": ["Rabies lyssavirus"],
+      "evidence_terms": {
+        "source": "CDC Rabies Diagnosis, WHO Rabies Fact Sheet",
+        "gold_tests": ["direct fluorescent antibody", "dfa", "saliva rt-pcr", "nuchal skin biopsy", "rabies neutralizing antibody", "rffit", "negri bodies"],
+        "clinical_signs": ["hydrophobia", "aerophobia", "encephalopathy", "agitation", "hypersalivation", "autonomic instability", "paresthesia at bite site", "paralytic rabies"],
+        "treatment": ["rabies vaccine", "post-exposure prophylaxis", "pep", "rabies immune globulin", "rig", "milwaukee protocol", "palliative sedation"]
+      }
+    },
+    "Leptospirosis": {
+      "category": "Bacterial Zoonosis",
+      "mesh_terms": ["Leptospirosis", "Leptospira"],
+      "keywords": ["leptospirosis", "leptospira", "weil's disease", "leptospira interrogans"],
+      "pathogens": ["Leptospira interrogans"],
+      "evidence_terms": {
+        "source": "CDC NNDSS Leptospirosis, WHO Leptospirosis Guidelines",
+        "gold_tests": ["microscopic agglutination test", "mat", "leptospira pcr", "igm elisa", "darkfield microscopy", "emjh medium"],
+        "clinical_signs": ["weil's disease", "conjunctival suffusion", "jaundice", "acute kidney injury", "renal failure", "pulmonary hemorrhage", "calf tenderness", "oliguria"],
+        "treatment": ["penicillin", "penicillin g", "doxycycline", "ceftriaxone", "ampicillin", "dialysis", "supportive care"]
+      }
+    },
+    "Yellow_Fever": {
+      "category": "Viral Haemorrhagic / Arbovirus",
+      "mesh_terms": ["Yellow Fever", "Yellow fever virus"],
+      "keywords": ["yellow fever", "yellow fever virus", "flavivirus yellow fever"],
+      "pathogens": ["Yellow fever virus"],
+      "evidence_terms": {
+        "source": "CDC Yellow Fever Clinical, WHO Yellow Fever Guidelines",
+        "gold_tests": ["rt-pcr", "yellow fever pcr", "mac-elisa", "prnt", "yellow fever igm", "councilman bodies"],
+        "clinical_signs": ["jaundice", "black vomitus", "hematemesis", "faget sign", "relative bradycardia", "epigastric pain", "oliguria", "coagulopathy", "toxic phase"],
+        "treatment": ["supportive care", "fluid management", "hemodialysis", "blood transfusion", "avoid nsaids"]
+      }
+    }
+  },
+  "diagnostic_image_modalities": {
+    "radiology": ["x_ray", "ct", "mri", "ultrasound"],
+    "pathology": ["microscopy", "histopathology", "immunostaining", "smear", "blood_smear", "biopsy"],
+    "medical_photograph": ["clinical_photograph", "dermatology_lesion"]
+  }
+}
