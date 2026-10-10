@@ -12,3 +12,6 @@ reports/
 # In scripts/, only include 02_create_clinical_candidate_pairs.py
 scripts/*
 !scripts/02_create_clinical_candidate_pairs.py
+
+# add .env
+.env
