@@ -6,25 +6,25 @@
   },
   "overall_summary": {
     "total_cases": 981,
-    "exact_match_correct": 118,
-    "overall_accuracy": 0.1203,
+    "exact_match_correct": 157,
+    "overall_accuracy": 0.16,
     "confirmed_positive_cases": {
       "total": 602,
-      "correctly_diagnosed": 118,
-      "accuracy": 0.196,
-      "missed_or_misdiagnosed": 484
+      "correctly_diagnosed": 157,
+      "accuracy": 0.2608,
+      "missed_or_misdiagnosed": 445
     },
     "non_positive_cases": {
       "total": 379,
-      "correctly_rejected_unknown": 223,
-      "rejection_rate": 0.5884,
-      "incorrectly_given_positive": 156
+      "correctly_rejected_unknown": 235,
+      "rejection_rate": 0.6201,
+      "incorrectly_given_positive": 144
     },
     "macro_averages": {
-      "precision": 0.141,
-      "recall": 0.4271,
-      "f1_score": 0.1828,
-      "roc_auc": 0.6586
+      "precision": 0.2048,
+      "recall": 0.4063,
+      "f1_score": 0.2453,
+      "roc_auc": 0.6724
     }
   },
   "disease_benchmarks": [
@@ -33,90 +33,90 @@
       "pos_count": 55,
       "neg_count": 926,
       "total": 981,
-      "precision": 0.13736263736263737,
+      "precision": 0.20161290322580644,
       "recall": 0.45454545454545453,
-      "f1_score": 0.2109704641350211,
-      "roc_auc": 0.6486942862752798
+      "f1_score": 0.27932960893854747,
+      "roc_auc": 0.6811996858433144
     },
     {
       "disease": "MALARIA",
       "pos_count": 50,
       "neg_count": 931,
       "total": 981,
-      "precision": 0.12871287128712872,
+      "precision": 0.1566265060240964,
       "recall": 0.52,
-      "f1_score": 0.20634920634920634,
-      "roc_auc": 0.672094522019334
+      "f1_score": 0.24074074074074073,
+      "roc_auc": 0.6945864661654135
     },
     {
       "disease": "EBOLA_FILOVIRUS",
       "pos_count": 4,
       "neg_count": 977,
       "total": 981,
-      "precision": 0.02631578947368421,
+      "precision": 0.03571428571428571,
       "recall": 0.5,
-      "f1_score": 0.05,
-      "roc_auc": 0.7182702149437052
+      "f1_score": 0.06666666666666667,
+      "roc_auc": 0.7282497441146366
     },
     {
       "disease": "TUBERCULOSIS",
       "pos_count": 77,
       "neg_count": 904,
       "total": 981,
-      "precision": 0.21428571428571427,
+      "precision": 0.2535211267605634,
       "recall": 0.4675324675324675,
-      "f1_score": 0.2938775510204082,
-      "roc_auc": 0.6704545454545454
+      "f1_score": 0.3287671232876712,
+      "roc_auc": 0.6843322606596942
     },
     {
       "disease": "COVID-19",
       "pos_count": 50,
       "neg_count": 931,
       "total": 981,
-      "precision": 0.0970873786407767,
+      "precision": 0.12987012987012986,
       "recall": 0.2,
-      "f1_score": 0.13071895424836602,
-      "roc_auc": 0.5515359828141783
+      "f1_score": 0.15748031496062992,
+      "roc_auc": 0.5649409237379163
     },
     {
       "disease": "HIV_AIDS",
       "pos_count": 65,
       "neg_count": 916,
       "total": 981,
-      "precision": 0.39655172413793105,
+      "precision": 0.4107142857142857,
       "recall": 0.35384615384615387,
-      "f1_score": 0.37398373983739835,
-      "roc_auc": 0.6595817937520995
+      "f1_score": 0.38016528925619836,
+      "roc_auc": 0.6603207927443735
     },
     {
       "disease": "CHIKUNGUNYA",
       "pos_count": 20,
       "neg_count": 961,
       "total": 981,
-      "precision": 0.06944444444444445,
-      "recall": 0.5,
-      "f1_score": 0.12195121951219512,
-      "roc_auc": 0.6830385015608741
+      "precision": 0.14814814814814814,
+      "recall": 0.4,
+      "f1_score": 0.21621621621621623,
+      "roc_auc": 0.6808532778355879
     },
     {
       "disease": "ZIKA",
       "pos_count": 24,
       "neg_count": 957,
       "total": 981,
-      "precision": 0.06557377049180328,
-      "recall": 0.3333333333333333,
-      "f1_score": 0.1095890410958904,
-      "roc_auc": 0.6098920236851272
+      "precision": 0.15789473684210525,
+      "recall": 0.25,
+      "f1_score": 0.1935483870967742,
+      "roc_auc": 0.6105668756530825
     },
     {
       "disease": "BRUCELLOSIS",
       "pos_count": 72,
       "neg_count": 909,
       "total": 981,
-      "precision": 0.1443850267379679,
-      "recall": 0.375,
-      "f1_score": 0.2084942084942085,
-      "roc_auc": 0.6056029214032514
+      "precision": 0.19696969696969696,
+      "recall": 0.3611111111111111,
+      "f1_score": 0.2549019607843137,
+      "roc_auc": 0.6358406674000733
     },
     {
       "disease": "LEISHMANIASIS",
@@ -133,30 +133,30 @@
       "pos_count": 26,
       "neg_count": 955,
       "total": 981,
-      "precision": 0.08396946564885496,
-      "recall": 0.4230769230769231,
-      "f1_score": 0.14012738853503184,
-      "roc_auc": 0.6533628674989932
+      "precision": 0.24242424242424243,
+      "recall": 0.3076923076923077,
+      "f1_score": 0.2711864406779661,
+      "roc_auc": 0.6444824808699154
     },
     {
       "disease": "CHOLERA",
       "pos_count": 18,
       "neg_count": 963,
       "total": 981,
-      "precision": 0.0975609756097561,
+      "precision": 0.4,
       "recall": 0.4444444444444444,
-      "f1_score": 0.16,
-      "roc_auc": 0.6811468789661935
+      "f1_score": 0.42105263157894735,
+      "roc_auc": 0.7153571016499366
     },
     {
       "disease": "RABIES",
       "pos_count": 3,
       "neg_count": 978,
       "total": 981,
-      "precision": 0.058823529411764705,
+      "precision": 0.13333333333333333,
       "recall": 0.6666666666666666,
-      "f1_score": 0.10810810810810811,
-      "roc_auc": 0.8227675528289025
+      "f1_score": 0.2222222222222222,
+      "roc_auc": 0.8275391956373551
     },
     {
       "disease": "LEPTOSPIROSIS",
@@ -166,17 +166,17 @@
       "precision": 0.09523809523809523,
       "recall": 0.4,
       "f1_score": 0.15384615384615385,
-      "roc_auc": 0.6237593984962405
+      "roc_auc": 0.6248872180451127
     },
     {
       "disease": "YELLOW_FEVER",
       "pos_count": 3,
       "neg_count": 978,
       "total": 981,
-      "precision": 0.005780346820809248,
+      "precision": 0.016129032258064516,
       "recall": 0.3333333333333333,
-      "f1_score": 0.011363636363636364,
-      "roc_auc": 0.5845262440354464
+      "f1_score": 0.03076923076923077,
+      "roc_auc": 0.6385480572597136
     }
   ],
   "case_evaluations": [
@@ -197,7 +197,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -207,7 +207,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Malaria",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -337,7 +337,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -367,8 +367,8 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Brucellosis",
+      "match": true
     },
     {
       "index": 20,
@@ -417,7 +417,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Brucellosis EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -427,7 +427,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -477,7 +477,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -537,8 +537,8 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Brucellosis",
-      "match": true
+      "predicted_disease": "COVID-19",
+      "match": false
     },
     {
       "index": 37,
@@ -557,7 +557,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Typhoid_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -577,8 +577,8 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Brucellosis",
+      "match": true
     },
     {
       "index": 41,
@@ -597,7 +597,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -747,7 +747,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -767,7 +767,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Typhoid_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -837,8 +837,8 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Brucellosis",
+      "match": true
     },
     {
       "index": 67,
@@ -887,7 +887,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "EXCLUDED_NON_SINGLE_PATIENT",
       "ground_truth_label": "Brucellosis EXCLUDED_NON_SINGLE_PATIENT",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -907,7 +907,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -927,8 +927,8 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Tuberculosis",
-      "match": false
+      "predicted_disease": "Brucellosis",
+      "match": true
     },
     {
       "index": 76,
@@ -1107,7 +1107,7 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -1177,8 +1177,8 @@
       "target_disease": "Brucellosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Brucellosis",
-      "predicted_disease": "Brucellosis",
-      "match": true
+      "predicted_disease": "Tuberculosis",
+      "match": false
     },
     {
       "index": 101,
@@ -1207,7 +1207,7 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -1217,8 +1217,8 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "COVID-19",
+      "match": true
     },
     {
       "index": 105,
@@ -1297,7 +1297,7 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -1357,7 +1357,7 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -1367,8 +1367,8 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "COVID-19",
+      "match": true
     },
     {
       "index": 120,
@@ -1717,7 +1717,7 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -1727,7 +1727,7 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -1797,7 +1797,7 @@
       "target_disease": "COVID-19",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "COVID-19 UNRESOLVED",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -1887,7 +1887,7 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -1907,7 +1907,7 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "COVID-19",
+      "predicted_disease": "Brucellosis",
       "match": false
     },
     {
@@ -2037,8 +2037,8 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "COVID-19",
+      "match": true
     },
     {
       "index": 187,
@@ -2077,7 +2077,7 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -2157,7 +2157,7 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -2207,7 +2207,7 @@
       "target_disease": "Chikungunya",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Chikungunya EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "Zika",
       "match": false
     },
     {
@@ -2247,7 +2247,7 @@
       "target_disease": "Chikungunya",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Chikungunya NEGATIVE",
-      "predicted_disease": "Leptospirosis",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -2257,7 +2257,7 @@
       "target_disease": "Chikungunya",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Chikungunya NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -2297,8 +2297,8 @@
       "target_disease": "Chikungunya",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Chikungunya",
-      "predicted_disease": "Dengue",
-      "match": false
+      "predicted_disease": "Chikungunya",
+      "match": true
     },
     {
       "index": 213,
@@ -2327,7 +2327,7 @@
       "target_disease": "Chikungunya",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Chikungunya",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -2367,7 +2367,7 @@
       "target_disease": "Chikungunya",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Chikungunya NEGATIVE",
-      "predicted_disease": "Zika",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -2377,8 +2377,8 @@
       "target_disease": "Chikungunya",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Chikungunya",
-      "predicted_disease": "Chikungunya",
-      "match": true
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": false
     },
     {
       "index": 221,
@@ -2387,8 +2387,8 @@
       "target_disease": "Chikungunya",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Chikungunya",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Chikungunya",
+      "match": true
     },
     {
       "index": 222,
@@ -2477,8 +2477,8 @@
       "target_disease": "Cholera",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Cholera",
-      "predicted_disease": "Chikungunya",
-      "match": false
+      "predicted_disease": "Cholera",
+      "match": true
     },
     {
       "index": 231,
@@ -2487,7 +2487,7 @@
       "target_disease": "Cholera",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Cholera",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -2497,7 +2497,7 @@
       "target_disease": "Cholera",
       "validated_label": "EXCLUDED_NON_SINGLE_PATIENT",
       "ground_truth_label": "Cholera EXCLUDED_NON_SINGLE_PATIENT",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Cholera",
       "match": false
     },
     {
@@ -2507,7 +2507,7 @@
       "target_disease": "Cholera",
       "validated_label": "EXCLUDED_NON_SINGLE_PATIENT",
       "ground_truth_label": "Cholera EXCLUDED_NON_SINGLE_PATIENT",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -2547,8 +2547,8 @@
       "target_disease": "Cholera",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Cholera",
-      "predicted_disease": "Chikungunya",
-      "match": false
+      "predicted_disease": "Cholera",
+      "match": true
     },
     {
       "index": 238,
@@ -2577,8 +2577,8 @@
       "target_disease": "Cholera",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Cholera",
-      "predicted_disease": "Chikungunya",
-      "match": false
+      "predicted_disease": "Cholera",
+      "match": true
     },
     {
       "index": 241,
@@ -2787,7 +2787,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -2797,7 +2797,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Malaria",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -2807,8 +2807,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 264,
@@ -2827,7 +2827,7 @@
       "target_disease": "Dengue",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Dengue UNRESOLVED",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -2857,8 +2857,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 269,
@@ -2877,7 +2877,7 @@
       "target_disease": "Dengue",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Dengue EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -2887,7 +2887,7 @@
       "target_disease": "Dengue",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Dengue EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -2907,8 +2907,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Leptospirosis",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 274,
@@ -2927,7 +2927,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -2967,7 +2967,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -2987,8 +2987,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 282,
@@ -3037,7 +3037,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Ebola_Filovirus",
       "match": false
     },
     {
@@ -3067,8 +3067,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 290,
@@ -3077,7 +3077,7 @@
       "target_disease": "Dengue",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Dengue EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -3157,7 +3157,7 @@
       "target_disease": "Dengue",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Dengue EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -3167,7 +3167,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "Chikungunya",
       "match": false
     },
     {
@@ -3217,8 +3217,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 305,
@@ -3257,8 +3257,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 309,
@@ -3327,7 +3327,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -3337,7 +3337,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -3427,7 +3427,7 @@
       "target_disease": "Dengue",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Dengue EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Zika",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -3447,8 +3447,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 328,
@@ -3487,8 +3487,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 332,
@@ -3497,7 +3497,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -3537,7 +3537,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -3627,7 +3627,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -3647,7 +3647,7 @@
       "target_disease": "Dengue",
       "validated_label": "EXCLUDED_NON_SINGLE_PATIENT",
       "ground_truth_label": "Dengue EXCLUDED_NON_SINGLE_PATIENT",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Ebola_Filovirus",
       "match": false
     },
     {
@@ -3687,7 +3687,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Typhoid_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -3697,7 +3697,7 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -3707,8 +3707,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 354,
@@ -3717,7 +3717,7 @@
       "target_disease": "Dengue",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Dengue NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -3727,8 +3727,8 @@
       "target_disease": "Dengue",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Dengue",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Dengue",
+      "match": true
     },
     {
       "index": 356,
@@ -3757,7 +3757,7 @@
       "target_disease": "Ebola_Filovirus",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Ebola_Filovirus EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Ebola_Filovirus",
       "match": false
     },
     {
@@ -3767,7 +3767,7 @@
       "target_disease": "Ebola_Filovirus",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Ebola_Filovirus EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -3807,8 +3807,8 @@
       "target_disease": "Ebola_Filovirus",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Ebola_Filovirus",
-      "predicted_disease": "Typhoid_Fever",
-      "match": false
+      "predicted_disease": "Ebola_Filovirus",
+      "match": true
     },
     {
       "index": 364,
@@ -3987,7 +3987,7 @@
       "target_disease": "Ebola_Filovirus",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Ebola_Filovirus",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -4017,7 +4017,7 @@
       "target_disease": "Ebola_Filovirus",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Ebola_Filovirus EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Ebola_Filovirus",
       "match": false
     },
     {
@@ -4277,7 +4277,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -4317,7 +4317,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -4417,7 +4417,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "HIV_AIDS EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -4537,7 +4537,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "HIV_AIDS NEGATIVE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -4577,7 +4577,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Brucellosis",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -4637,8 +4637,8 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Chikungunya",
-      "match": false
+      "predicted_disease": "HIV_AIDS",
+      "match": true
     },
     {
       "index": 447,
@@ -4697,7 +4697,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "HIV_AIDS EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Ebola_Filovirus",
+      "predicted_disease": "HIV_AIDS",
       "match": false
     },
     {
@@ -4757,7 +4757,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "HIV_AIDS EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -4847,7 +4847,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "Zika",
       "match": false
     },
     {
@@ -4857,7 +4857,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "HIV_AIDS NEGATIVE",
-      "predicted_disease": "Brucellosis",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -4867,8 +4867,8 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "HIV_AIDS",
+      "match": true
     },
     {
       "index": 470,
@@ -5037,8 +5037,8 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "POSITIVE",
       "ground_truth_label": "HIV_AIDS",
-      "predicted_disease": "Leishmaniasis",
-      "match": false
+      "predicted_disease": "HIV_AIDS",
+      "match": true
     },
     {
       "index": 487,
@@ -5067,7 +5067,7 @@
       "target_disease": "HIV_AIDS",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "HIV_AIDS EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -5187,8 +5187,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Leishmaniasis",
-      "match": true
+      "predicted_disease": "HIV_AIDS",
+      "match": false
     },
     {
       "index": 502,
@@ -5247,7 +5247,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -5257,7 +5257,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -5267,7 +5267,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -5337,8 +5337,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Leishmaniasis",
+      "match": true
     },
     {
       "index": 517,
@@ -5347,7 +5347,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Leishmaniasis UNRESOLVED",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -5367,7 +5367,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Leishmaniasis EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -5457,8 +5457,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Leishmaniasis",
+      "match": true
     },
     {
       "index": 529,
@@ -5597,7 +5597,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Zika",
       "match": false
     },
     {
@@ -5637,8 +5637,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Tuberculosis",
-      "match": false
+      "predicted_disease": "Leishmaniasis",
+      "match": true
     },
     {
       "index": 547,
@@ -5687,8 +5687,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Tuberculosis",
-      "match": false
+      "predicted_disease": "Leishmaniasis",
+      "match": true
     },
     {
       "index": 552,
@@ -5707,8 +5707,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Leishmaniasis",
-      "match": true
+      "predicted_disease": "HIV_AIDS",
+      "match": false
     },
     {
       "index": 554,
@@ -5757,7 +5757,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -5797,8 +5797,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Tuberculosis",
-      "match": false
+      "predicted_disease": "Leishmaniasis",
+      "match": true
     },
     {
       "index": 563,
@@ -5827,7 +5827,7 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -5957,8 +5957,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "Leishmaniasis",
-      "match": true
+      "predicted_disease": "HIV_AIDS",
+      "match": false
     },
     {
       "index": 579,
@@ -6107,8 +6107,8 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Malaria",
-      "match": false
+      "predicted_disease": "Leptospirosis",
+      "match": true
     },
     {
       "index": 594,
@@ -6127,7 +6127,7 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -6257,7 +6257,7 @@
       "target_disease": "Leptospirosis",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Leptospirosis NEGATIVE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -6307,7 +6307,7 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -6327,8 +6327,8 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Leptospirosis",
+      "match": true
     },
     {
       "index": 616,
@@ -6347,8 +6347,8 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Malaria",
-      "match": false
+      "predicted_disease": "Leptospirosis",
+      "match": true
     },
     {
       "index": 618,
@@ -6357,8 +6357,8 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Malaria",
-      "match": false
+      "predicted_disease": "Leptospirosis",
+      "match": true
     },
     {
       "index": 619,
@@ -6427,7 +6427,7 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "COVID-19",
       "match": false
     },
     {
@@ -6517,8 +6517,8 @@
       "target_disease": "Leptospirosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leptospirosis",
-      "predicted_disease": "Malaria",
-      "match": false
+      "predicted_disease": "Leptospirosis",
+      "match": true
     },
     {
       "index": 635,
@@ -6547,7 +6547,7 @@
       "target_disease": "Leptospirosis",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Leptospirosis NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Brucellosis",
       "match": false
     },
     {
@@ -6567,7 +6567,7 @@
       "target_disease": "Leptospirosis",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Leptospirosis EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Typhoid_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -6757,8 +6757,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 659,
@@ -6767,7 +6767,7 @@
       "target_disease": "Malaria",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Malaria EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -6787,8 +6787,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 662,
@@ -6957,8 +6957,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Malaria",
-      "match": true
+      "predicted_disease": "Leptospirosis",
+      "match": false
     },
     {
       "index": 679,
@@ -6997,7 +6997,7 @@
       "target_disease": "Malaria",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Malaria NEGATIVE",
-      "predicted_disease": "Leptospirosis",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -7027,8 +7027,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 686,
@@ -7057,7 +7057,7 @@
       "target_disease": "Malaria",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Malaria NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -7067,8 +7067,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 690,
@@ -7187,8 +7187,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 702,
@@ -7197,7 +7197,7 @@
       "target_disease": "Malaria",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Malaria NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -7217,7 +7217,7 @@
       "target_disease": "Malaria",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Malaria EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -7237,7 +7237,7 @@
       "target_disease": "Malaria",
       "validated_label": "EXCLUDED_NON_SINGLE_PATIENT",
       "ground_truth_label": "Malaria EXCLUDED_NON_SINGLE_PATIENT",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -7457,7 +7457,7 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -7497,7 +7497,7 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -7537,8 +7537,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 737,
@@ -7597,7 +7597,7 @@
       "target_disease": "Malaria",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Malaria NEGATIVE",
-      "predicted_disease": "Malaria",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -7707,8 +7707,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 754,
@@ -7727,8 +7727,8 @@
       "target_disease": "Malaria",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Malaria",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Malaria",
+      "match": true
     },
     {
       "index": 756,
@@ -7807,7 +7807,7 @@
       "target_disease": "Rabies",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Rabies EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -7817,8 +7817,8 @@
       "target_disease": "Rabies",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Rabies",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Rabies",
+      "match": true
     },
     {
       "index": 765,
@@ -7837,7 +7837,7 @@
       "target_disease": "Rabies",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Rabies UNRESOLVED",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -7907,7 +7907,7 @@
       "target_disease": "Rabies",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Rabies EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -7927,8 +7927,8 @@
       "target_disease": "Rabies",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Rabies",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Rabies",
+      "match": true
     },
     {
       "index": 776,
@@ -7977,7 +7977,7 @@
       "target_disease": "Rabies",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Rabies EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Rabies",
       "match": false
     },
     {
@@ -7997,8 +7997,8 @@
       "target_disease": "Tuberculosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Tuberculosis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Tuberculosis",
+      "match": true
     },
     {
       "index": 783,
@@ -8097,7 +8097,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Tuberculosis NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -8127,7 +8127,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Tuberculosis UNRESOLVED",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -8277,8 +8277,8 @@
       "target_disease": "Tuberculosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Tuberculosis",
-      "predicted_disease": "Dengue",
-      "match": false
+      "predicted_disease": "Tuberculosis",
+      "match": true
     },
     {
       "index": 811,
@@ -8497,7 +8497,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Tuberculosis UNRESOLVED",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -8537,7 +8537,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Tuberculosis NEGATIVE",
-      "predicted_disease": "Brucellosis",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -8587,7 +8587,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Tuberculosis UNRESOLVED",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -8597,7 +8597,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Tuberculosis",
-      "predicted_disease": "Malaria",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -8657,7 +8657,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Tuberculosis UNRESOLVED",
-      "predicted_disease": "Typhoid_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -8907,7 +8907,7 @@
       "target_disease": "Tuberculosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Tuberculosis",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "HIV_AIDS",
       "match": false
     },
     {
@@ -8947,8 +8947,8 @@
       "target_disease": "Tuberculosis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Tuberculosis",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Tuberculosis",
+      "match": true
     },
     {
       "index": 878,
@@ -8987,7 +8987,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Typhoid_Fever UNRESOLVED",
-      "predicted_disease": "Tuberculosis",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -9017,7 +9017,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -9087,7 +9087,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Typhoid_Fever UNRESOLVED",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -9117,8 +9117,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Typhoid_Fever",
+      "match": true
     },
     {
       "index": 895,
@@ -9127,8 +9127,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Typhoid_Fever",
-      "match": true
+      "predicted_disease": "Malaria",
+      "match": false
     },
     {
       "index": 896,
@@ -9157,8 +9157,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Typhoid_Fever",
-      "match": true
+      "predicted_disease": "Leptospirosis",
+      "match": false
     },
     {
       "index": 899,
@@ -9167,7 +9167,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Typhoid_Fever EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Malaria",
       "match": false
     },
     {
@@ -9187,8 +9187,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Typhoid_Fever",
-      "match": true
+      "predicted_disease": "COVID-19",
+      "match": false
     },
     {
       "index": 902,
@@ -9227,7 +9227,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Typhoid_Fever EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -9247,8 +9247,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Yellow_Fever",
-      "match": false
+      "predicted_disease": "Typhoid_Fever",
+      "match": true
     },
     {
       "index": 908,
@@ -9287,8 +9287,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Typhoid_Fever",
-      "match": true
+      "predicted_disease": "Leishmaniasis",
+      "match": false
     },
     {
       "index": 912,
@@ -9357,7 +9357,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Tuberculosis",
       "match": false
     },
     {
@@ -9367,7 +9367,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "UNRESOLVED",
       "ground_truth_label": "Typhoid_Fever UNRESOLVED",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -9397,8 +9397,8 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Typhoid_Fever",
-      "predicted_disease": "Typhoid_Fever",
-      "match": true
+      "predicted_disease": "Malaria",
+      "match": false
     },
     {
       "index": 923,
@@ -9417,7 +9417,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Typhoid_Fever EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -9437,7 +9437,7 @@
       "target_disease": "Typhoid_Fever",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Typhoid_Fever EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -9497,7 +9497,7 @@
       "target_disease": "Yellow_Fever",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Yellow_Fever NEGATIVE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Chikungunya",
       "match": false
     },
     {
@@ -9517,7 +9517,7 @@
       "target_disease": "Yellow_Fever",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Yellow_Fever EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Leptospirosis",
       "match": false
     },
     {
@@ -9567,8 +9567,8 @@
       "target_disease": "Zika",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Zika",
-      "predicted_disease": "Dengue",
-      "match": false
+      "predicted_disease": "Zika",
+      "match": true
     },
     {
       "index": 940,
@@ -9617,7 +9617,7 @@
       "target_disease": "Zika",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Zika EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -9627,7 +9627,7 @@
       "target_disease": "Zika",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Zika EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -9637,8 +9637,8 @@
       "target_disease": "Zika",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Zika",
-      "predicted_disease": "Zika",
-      "match": true
+      "predicted_disease": "Dengue",
+      "match": false
     },
     {
       "index": 947,
@@ -9647,7 +9647,7 @@
       "target_disease": "Zika",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Zika",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -9707,7 +9707,7 @@
       "target_disease": "Zika",
       "validated_label": "EXCLUDED_NON_SINGLE_PATIENT",
       "ground_truth_label": "Zika EXCLUDED_NON_SINGLE_PATIENT",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Dengue",
       "match": false
     },
     {
@@ -9717,7 +9717,7 @@
       "target_disease": "Zika",
       "validated_label": "NEGATIVE",
       "ground_truth_label": "Zika NEGATIVE",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "Chikungunya",
       "match": false
     },
     {
@@ -9777,8 +9777,8 @@
       "target_disease": "Zika",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Zika",
-      "predicted_disease": "Zika",
-      "match": true
+      "predicted_disease": "Dengue",
+      "match": false
     },
     {
       "index": 961,
@@ -9907,7 +9907,7 @@
       "target_disease": "Zika",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Zika",
-      "predicted_disease": "Chikungunya",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -9947,7 +9947,7 @@
       "target_disease": "Zika",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Zika",
-      "predicted_disease": "Dengue",
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
       "match": false
     },
     {
@@ -9957,7 +9957,7 @@
       "target_disease": "Zika",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Zika EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "Zika",
       "match": false
     },
     {
@@ -9987,7 +9987,7 @@
       "target_disease": "Zika",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Zika EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "Yellow_Fever",
+      "predicted_disease": "HIV_AIDS",
       "match": false
     }
   ]

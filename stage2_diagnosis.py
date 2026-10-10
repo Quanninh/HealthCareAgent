@@ -54,6 +54,7 @@ from clinical_knowledge import (
     DISEASE_LAB_CUIS,
     DISEASES,
     SHARED_SYSTEMIC_SYMPTOMS,
+    GENERIC_AND_SPURIOUS_CUI_BLACKLIST,
 )
 
 
@@ -206,7 +207,7 @@ def run_stage2_multilabel_diagnosis(
 
         if float(r.get("probability", 1.0)) >= 0.85:
             cui = r.get("cui")
-            if cui:
+            if cui and cui not in GENERIC_AND_SPURIOUS_CUI_BLACKLIST:
                 cuis_by_case[cid].add(cui)
             if r.get("standard_name"):
                 valid_by_case[cid].append(r["standard_name"].lower())

@@ -1,19 +1,13 @@
 {
   "Dengue": {
     "hallmark_cuis": {
-      "C0015967": "Pyrexial",
       "C0376300": "Dengue Shock Syndrome",
       "C0019100": "Double Dengue Hemorrhagic Disease",
       "C0743724": "Retro Orbital Eye Pain",
-      "C0392386": "Platelet Count Below Reference Range",
       "C3812660": "Bruised Skin",
-      "C1253943": "Pleural Effusion Fluid",
-      "C0443253": "Maculo Papular",
-      "C0015230": "Eruption Of Skin"
+      "C1253943": "Pleural Effusion Fluid"
     },
-    "lab_cuis": {
-      "C0036745": "Study Of Serum"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "dengue",
       "dengue hemorrhagic fever",
@@ -52,21 +46,15 @@
   },
   "Malaria": {
     "hallmark_cuis": {
-      "C0015967": "Pyrexial",
       "C0024535": "Plasmodium Falciparum Malaria Unspecified",
       "C0024537": "Vivax Malaria Benign Tertian",
-      "C0424790": "Rigor Temperature Associated Observation",
-      "C0038002": "Enlargement Of Spleen",
-      "C0019209": "Hepatomegaly",
-      "C0002878": "Haemolytic Anaemia",
-      "C0022346": "Jaundiced"
+      "C0002878": "Haemolytic Anaemia"
     },
     "lab_cuis": {
       "C2238079": "Peripheral Blood Smear",
       "C2827969": "Thick Smear Technique",
       "C2827970": "Thin Smear Technique",
       "C0017542": "Giemsa Stains",
-      "C0086143": "Diagnostic Test Procedure",
       "C0242723": "Parasitemias"
     },
     "raw_keywords": [
@@ -113,17 +101,9 @@
     "hallmark_cuis": {
       "C0282687": "Viral Haemorrhagic Fever Ebola",
       "C0242917": "Disease Due To Filoviridae",
-      "C0025222": "Altered Blood In Stool",
-      "C0018926": "Vomiting Of Blood",
-      "C0443253": "Maculo Papular",
-      "C0015230": "Eruption Of Skin",
-      "C0026766": "Mods Multiple Organ Dysfunction Syndrome"
+      "C0025222": "Altered Blood In Stool"
     },
-    "lab_cuis": {
-      "C5139976": "Capture",
-      "C0204727": "Isolation Precautions",
-      "C1551404": "Serum Neutralization"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "ebola",
       "ebolavirus",
@@ -161,23 +141,15 @@
       "C0041321": "Mtb Miliary Tuberculosis",
       "C0206526": "Multi Drug Resistant Tuberculosis",
       "C0019079": "Coughing Up Blood",
-      "C0240526": "On Omni Nocte",
-      "C0038984": "Portion Of Sweat",
-      "C3540682": "Losing Weight Question",
       "C0010201": "Chronic Cough",
-      "C0221198": "Visible Lesion",
       "C5539831": "Miliary",
       "C0018188": "Epithelioid Granulomas"
     },
     "lab_cuis": {
       "C1318720": "Acid Fast Stains",
-      "C0444186": "Smear Tests",
       "C0440051": "Zn Ziehl Neelsen Stain",
       "C0521015": "Mycobacterial",
-      "C0010453": "Anthropological Culture",
-      "C3665438": "Juxtapapillary Focal Retinitis And Retinochoroiditis",
-      "C3178802": "Release Assays Interferon Gamma",
-      "C0037296": "Special Dermatological Testing"
+      "C3178802": "Release Assays Interferon Gamma"
     },
     "raw_keywords": [
       "tuberculosis",
@@ -222,16 +194,11 @@
       "C5203676": "Severe Acute Respiratory Syndrome Coronavirus 2",
       "C5203670": "Severe Acute Respiratory Syndrome Coronavirus 2 Infection",
       "C5539411": "Ground Glass Opacification",
-      "C0013404": "Sob Shortness Of Breath",
       "C2364111": "Absence Of Sense Of Taste",
-      "C0037361": "Sensory Perception Of Smell",
-      "C0332448": "Infiltration Into Tissue",
       "C0748355": "Respiratory Distress Syndrome Acute"
     },
     "lab_cuis": {
-      "C0729856": "Antigen Testing",
-      "C0035736": "Viral Rna",
-      "C0183753": "Swab Speciman"
+      "C0035736": "Viral Rna"
     },
     "raw_keywords": [
       "covid-19",
@@ -273,12 +240,8 @@
       "C0010415": "Cryptococcus Species"
     },
     "lab_cuis": {
-      "C1167909": "Lymphocytes T Cells",
-      "C1708715": "Loading Technique",
       "C4330330": "Human Immunodeficiency Virus Rna",
-      "C1705493": "West Direction",
-      "C0019682": "Acquired Immune Deficiency Syndrome Virus",
-      "C0368675": "Antibodies Antigens"
+      "C0019682": "Acquired Immune Deficiency Syndrome Virus"
     },
     "raw_keywords": [
       "hiv",
@@ -314,16 +277,9 @@
   "Chikungunya": {
     "hallmark_cuis": {
       "C0008055": "Mosquito Borne Viral Fever Chikungunya",
-      "C5203119": "Intensity And Distress 5",
-      "C0038999": "Observation Of Swelling",
-      "C0003864": "Inflammatory Arthritis",
-      "C0443253": "Maculo Papular",
-      "C0015230": "Eruption Of Skin",
-      "C0013604": "Interstitial Oedema"
+      "C0003864": "Inflammatory Arthritis"
     },
-    "lab_cuis": {
-      "C0036745": "Study Of Serum"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "chikungunya",
       "chikungunya fever",
@@ -349,11 +305,8 @@
   },
   "Zika": {
     "hallmark_cuis": {
-      "C0015967": "Pyrexial",
       "C0318793": "Zika Virus",
       "C4546023": "Congenital Zika Virus Infection",
-      "C0443253": "Maculo Papular",
-      "C0015230": "Eruption Of Skin",
       "C0743724": "Retro Orbital Eye Pain"
     },
     "lab_cuis": {
@@ -384,17 +337,10 @@
   },
   "Brucellosis": {
     "hallmark_cuis": {
-      "C0015967": "Pyrexial",
       "C0006309": "Infection Due To Brucella",
-      "C0240321": "Mediterranean",
-      "C0038984": "Portion Of Sweat",
-      "C2228527": "Excessive Malodorous Sweating",
-      "C0014533": "Epididymal Structures",
-      "C0019214": "Hepatosplenomegaly"
+      "C2228527": "Excessive Malodorous Sweating"
     },
     "lab_cuis": {
-      "C0200949": "Blood Culture Procedure",
-      "C1254426": "Bone Marrow Culture",
       "C3836019": "Serum Agglutination",
       "C1441470": "Standard Tube Agglutination"
     },
@@ -431,18 +377,12 @@
     "hallmark_cuis": {
       "C0686878": "Amastigote Of Kingdom Protozoa",
       "C0023290": "Infection By Visceral Leishmaniasis",
-      "C0038002": "Enlargement Of Spleen",
       "C0241231": "Massive Splenomegaly",
-      "C0019209": "Hepatomegaly",
       "C0037299": "Cutaneous Ulcer"
     },
     "lab_cuis": {
       "C0686878": "Amastigote Of Kingdom Protozoa",
-      "C0440052": "Leishman Stain",
-      "C0857285": "Human Bone Marrow Aspirate",
-      "C0037993": "Reticuloendothelial System Spleen",
-      "C0370199": "Aspirate Substance",
-      "C0010454": "Culture Mediums"
+      "C0440052": "Leishman Stain"
     },
     "raw_keywords": [
       "leishmaniasis",
@@ -479,22 +419,11 @@
   "Typhoid_Fever": {
     "hallmark_cuis": {
       "C0041466": "Infection By Salmonella Typhi",
-      "C1304890": "Enteric",
-      "C0015967": "Pyrexial",
       "C0240915": "Rose Spot",
-      "C0428977": "Decreased Heart Rate",
-      "C0311392": "Physical Findings",
-      "C0011991": "Observation Of Diarrhoea",
       "C0021845": "Perforation Of Intestine",
-      "C0020885": "Small Intestine Ileum",
-      "C0549099": "Perforation Observation",
       "C0149504": "Toxic Induced Encephalopathy"
     },
-    "lab_cuis": {
-      "C0200949": "Blood Culture Procedure",
-      "C1254426": "Bone Marrow Culture",
-      "C0430414": "Microbial Stool Culture"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "typhoid",
       "typhoid fever",
@@ -525,14 +454,9 @@
     "hallmark_cuis": {
       "C0278009": "Passage Of Rice Water Stools",
       "C0239182": "Watery Diarrhoea",
-      "C5203119": "Intensity And Distress 5",
-      "C0277937": "Turgor Skin",
       "C0020683": "Hypovolaemic Shock"
     },
-    "lab_cuis": {
-      "C0430414": "Microbial Stool Culture",
-      "C1553151": "Darkfield Microscopy"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "cholera",
       "vibrio cholerae",
@@ -559,17 +483,9 @@
   "Rabies": {
     "hallmark_cuis": {
       "C0242351": "Negri Bodies",
-      "C0085631": "Agitated Behaviour",
-      "C0004388": "Autonomic Nervous System Structure",
-      "C0005658": "Bite Injury",
-      "C0205145": "Sites",
       "C1532094": "Dumb Form Of Rabies"
     },
     "lab_cuis": {
-      "C1947931": "Direct Qualifier",
-      "C0016318": "Fluorescent Identification Of Anti Nuclear Antibody",
-      "C1123023": "Integumental System",
-      "C0003241": "Little Not Otherwise Specified Antibody",
       "C0242351": "Negri Bodies"
     },
     "raw_keywords": [
@@ -602,16 +518,9 @@
   "Leptospirosis": {
     "hallmark_cuis": {
       "C0043102": "Infection Due To Leptospira Icterohemorrhagiae",
-      "C0022346": "Jaundiced",
-      "C4552597": "Acute Kidney Injury Ctcae",
-      "C0035078": "Renal Insufficiency Syndrome",
-      "C0151701": "Intrapulmonary Haemorrhage",
-      "C0238883": "Calf Tenderness",
-      "C0028961": "Decreased Urine Volume"
+      "C0151701": "Intrapulmonary Haemorrhage"
     },
-    "lab_cuis": {
-      "C1553151": "Darkfield Microscopy"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "leptospirosis",
       "leptospira",
@@ -639,21 +548,9 @@
   },
   "Yellow_Fever": {
     "hallmark_cuis": {
-      "C0015967": "Pyrexial",
-      "C0022346": "Jaundiced",
-      "C0439541": "Black Coloring",
-      "C0018926": "Vomiting Of Blood",
-      "C0311392": "Physical Findings",
-      "C0428977": "Decreased Heart Rate",
-      "C4085211": "Pain Distress Question",
-      "C0028961": "Decreased Urine Volume",
-      "C0005779": "Blood Coagulation Disorder",
-      "C0600688": "Effects Toxics",
-      "C0205390": "Phases"
+      "C0043399": "Yellow Fever"
     },
-    "lab_cuis": {
-      "C0015967": "Pyrexial"
-    },
+    "lab_cuis": {},
     "raw_keywords": [
       "yellow fever",
       "yellow fever virus",
