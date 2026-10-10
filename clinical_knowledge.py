@@ -14,6 +14,21 @@ with open(_taxonomy_path, "r") as f:
 
 DISEASES = taxonomy["target_diseases"]
 
+_cui_taxonomy_path = os.path.join(os.path.dirname(__file__), "disease_cui_taxonomy.json")
+DISEASE_CUI_TAXONOMY = {}
+if os.path.exists(_cui_taxonomy_path):
+    with open(_cui_taxonomy_path, "r") as f:
+        DISEASE_CUI_TAXONOMY = json.load(f)
+
+DISEASE_HALLMARK_CUIS = {
+    d: set(data.get("hallmark_cuis", {}).keys()) 
+    for d, data in DISEASE_CUI_TAXONOMY.items()
+}
+DISEASE_LAB_CUIS = {
+    d: set(data.get("lab_cuis", {}).keys()) 
+    for d, data in DISEASE_CUI_TAXONOMY.items()
+}
+
 DISEASE_HALLMARKS = {}
 DISEASE_LAB_TESTS = {}
 DISEASE_EXCLUSIONS = {}

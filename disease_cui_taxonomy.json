@@ -1,0 +1,682 @@
+{
+  "Dengue": {
+    "hallmark_cuis": {
+      "C0015967": "Pyrexial",
+      "C0376300": "Dengue Shock Syndrome",
+      "C0019100": "Double Dengue Hemorrhagic Disease",
+      "C0743724": "Retro Orbital Eye Pain",
+      "C0392386": "Platelet Count Below Reference Range",
+      "C3812660": "Bruised Skin",
+      "C1253943": "Pleural Effusion Fluid",
+      "C0443253": "Maculo Papular",
+      "C0015230": "Eruption Of Skin"
+    },
+    "lab_cuis": {
+      "C0036745": "Study Of Serum"
+    },
+    "raw_keywords": [
+      "dengue",
+      "dengue hemorrhagic fever",
+      "dengue shock syndrome",
+      "dengue virus",
+      "dengue fever",
+      "ns1 antigen",
+      "dengue-related",
+      "dengue",
+      "dengue virus",
+      "severe dengue",
+      "dengue hemorrhagic fever",
+      "retro-orbital pain",
+      "thrombocytopenia",
+      "petechiae",
+      "purpura",
+      "ecchymosis",
+      "plasma leakage",
+      "hemoconcentration",
+      "pleural effusion",
+      "ascites",
+      "breakbone fever",
+      "maculopapular rash"
+    ],
+    "raw_labs": [
+      "ns1",
+      "ns1 antigen",
+      "rt-pcr",
+      "dengue pcr",
+      "mac-elisa",
+      "igm elisa",
+      "prnt",
+      "tourniquet test",
+      "serology"
+    ]
+  },
+  "Malaria": {
+    "hallmark_cuis": {
+      "C0015967": "Pyrexial",
+      "C0024535": "Plasmodium Falciparum Malaria Unspecified",
+      "C0024537": "Vivax Malaria Benign Tertian",
+      "C0424790": "Rigor Temperature Associated Observation",
+      "C0038002": "Enlargement Of Spleen",
+      "C0019209": "Hepatomegaly",
+      "C0002878": "Haemolytic Anaemia",
+      "C0022346": "Jaundiced"
+    },
+    "lab_cuis": {
+      "C2238079": "Peripheral Blood Smear",
+      "C2827969": "Thick Smear Technique",
+      "C2827970": "Thin Smear Technique",
+      "C0017542": "Giemsa Stains",
+      "C0086143": "Diagnostic Test Procedure",
+      "C0242723": "Parasitemias"
+    },
+    "raw_keywords": [
+      "malaria",
+      "plasmodium",
+      "falciparum",
+      "vivax",
+      "ovale",
+      "malariae",
+      "knowlesi",
+      "trophozoite",
+      "schizont",
+      "blackwater fever",
+      "malaria",
+      "malaria, falciparum",
+      "malaria, vivax",
+      "plasmodium",
+      "plasmodium falciparum",
+      "plasmodium vivax",
+      "chills",
+      "rigors",
+      "splenomegaly",
+      "hepatomegaly",
+      "hemolytic anemia",
+      "jaundice",
+      "cerebral malaria",
+      "blackwater fever",
+      "hemoglobinuria",
+      "febrile paroxysm"
+    ],
+    "raw_labs": [
+      "blood smear",
+      "thick smear",
+      "thin smear",
+      "giemsa stain",
+      "rapid diagnostic test",
+      "rdt",
+      "parasitemia",
+      "parasite density",
+      "pcr"
+    ]
+  },
+  "Ebola_Filovirus": {
+    "hallmark_cuis": {
+      "C0282687": "Viral Haemorrhagic Fever Ebola",
+      "C0242917": "Disease Due To Filoviridae",
+      "C0025222": "Altered Blood In Stool",
+      "C0018926": "Vomiting Of Blood",
+      "C0443253": "Maculo Papular",
+      "C0015230": "Eruption Of Skin",
+      "C0026766": "Mods Multiple Organ Dysfunction Syndrome"
+    },
+    "lab_cuis": {
+      "C5139976": "Capture",
+      "C0204727": "Isolation Precautions",
+      "C1551404": "Serum Neutralization"
+    },
+    "raw_keywords": [
+      "ebola",
+      "ebolavirus",
+      "marburg",
+      "marburgvirus",
+      "filovirus",
+      "filoviral",
+      "ebola virus disease",
+      "evd",
+      "ebolavirus",
+      "hemorrhagic fever, ebola",
+      "marburgvirus",
+      "filoviridae infections",
+      "unexplained bleeding",
+      "hemorrhage",
+      "petechiae",
+      "melena",
+      "hematemesis",
+      "maculopapular rash",
+      "conjunctival injection",
+      "multi-organ failure"
+    ],
+    "raw_labs": [
+      "rt-pcr",
+      "antigen capture elisa",
+      "igm elisa",
+      "virus isolation",
+      "serum neutralization"
+    ]
+  },
+  "Tuberculosis": {
+    "hallmark_cuis": {
+      "C0026926": "Mycobacterium Tuberculosis Variant Tuberculosis",
+      "C1318720": "Acid Fast Stains",
+      "C0041321": "Mtb Miliary Tuberculosis",
+      "C0206526": "Multi Drug Resistant Tuberculosis",
+      "C0019079": "Coughing Up Blood",
+      "C0240526": "On Omni Nocte",
+      "C0038984": "Portion Of Sweat",
+      "C3540682": "Losing Weight Question",
+      "C0010201": "Chronic Cough",
+      "C0221198": "Visible Lesion",
+      "C5539831": "Miliary",
+      "C0018188": "Epithelioid Granulomas"
+    },
+    "lab_cuis": {
+      "C1318720": "Acid Fast Stains",
+      "C0444186": "Smear Tests",
+      "C0440051": "Zn Ziehl Neelsen Stain",
+      "C0521015": "Mycobacterial",
+      "C0010453": "Anthropological Culture",
+      "C3665438": "Juxtapapillary Focal Retinitis And Retinochoroiditis",
+      "C3178802": "Release Assays Interferon Gamma",
+      "C0037296": "Special Dermatological Testing"
+    },
+    "raw_keywords": [
+      "tuberculosis",
+      "mycobacterium tuberculosis",
+      "m. tuberculosis",
+      "pulmonary tuberculosis",
+      "tb",
+      "acid-fast bacilli",
+      "afb",
+      "ghon focus",
+      "miliary tuberculosis",
+      "tuberculosis",
+      "tuberculosis, pulmonary",
+      "mycobacterium tuberculosis",
+      "tuberculosis, multidrug-resistant",
+      "hemoptysis",
+      "night sweats",
+      "weight loss",
+      "chronic cough",
+      "cavitary lesion",
+      "apical infiltrate",
+      "ghon focus",
+      "miliary pattern",
+      "caseating granuloma"
+    ],
+    "raw_labs": [
+      "acid-fast bacilli",
+      "afb smear",
+      "ziehl-neelsen",
+      "mycobacterial culture",
+      "lowenstein-jensen",
+      "gene xpert",
+      "xpert mtb/rif",
+      "quantiferon",
+      "igra",
+      "tuberculin skin test",
+      "mantoux"
+    ]
+  },
+  "COVID-19": {
+    "hallmark_cuis": {
+      "C5203676": "Severe Acute Respiratory Syndrome Coronavirus 2",
+      "C5203670": "Severe Acute Respiratory Syndrome Coronavirus 2 Infection",
+      "C5539411": "Ground Glass Opacification",
+      "C0013404": "Sob Shortness Of Breath",
+      "C2364111": "Absence Of Sense Of Taste",
+      "C0037361": "Sensory Perception Of Smell",
+      "C0332448": "Infiltration Into Tissue",
+      "C0748355": "Respiratory Distress Syndrome Acute"
+    },
+    "lab_cuis": {
+      "C0729856": "Antigen Testing",
+      "C0035736": "Viral Rna",
+      "C0183753": "Swab Speciman"
+    },
+    "raw_keywords": [
+      "covid-19",
+      "sars-cov-2",
+      "coronavirus",
+      "novel coronavirus",
+      "covid19",
+      "covid pneumonia",
+      "covid-19",
+      "sars-cov-2",
+      "coronavirus infections",
+      "ground-glass opacities",
+      "dyspnea",
+      "hypoxemia",
+      "anosmia",
+      "ageusia",
+      "loss of taste",
+      "loss of smell",
+      "bilateral infiltrates",
+      "acute respiratory distress syndrome",
+      "ards"
+    ],
+    "raw_labs": [
+      "rt-pcr",
+      "sars-cov-2 pcr",
+      "rapid antigen test",
+      "nucleocapsid antigen",
+      "viral rna",
+      "nasopharyngeal swab"
+    ]
+  },
+  "HIV_AIDS": {
+    "hallmark_cuis": {
+      "C0019682": "Acquired Immune Deficiency Syndrome Virus",
+      "C0001175": "Immunodeficiency Due To Human Immunodeficiency Virus Infection",
+      "C0597258": "Pneumocystis Species",
+      "C0036220": "Ks Kaposi S Sarcoma",
+      "C0006849": "Candida Infection Of Mouth",
+      "C0010415": "Cryptococcus Species"
+    },
+    "lab_cuis": {
+      "C1167909": "Lymphocytes T Cells",
+      "C1708715": "Loading Technique",
+      "C4330330": "Human Immunodeficiency Virus Rna",
+      "C1705493": "West Direction",
+      "C0019682": "Acquired Immune Deficiency Syndrome Virus",
+      "C0368675": "Antibodies Antigens"
+    },
+    "raw_keywords": [
+      "hiv",
+      "human immunodeficiency virus",
+      "aids",
+      "acquired immunodeficiency syndrome",
+      "cd4 count",
+      "opportunistic infection",
+      "hiv infections",
+      "hiv-1",
+      "acquired immunodeficiency syndrome",
+      "opportunistic infection",
+      "pneumocystis",
+      "pcp",
+      "kaposi sarcoma",
+      "oral thrush",
+      "candidiasis",
+      "cryptococcal meningitis",
+      "toxoplasmosis",
+      "wasting syndrome"
+    ],
+    "raw_labs": [
+      "cd4 count",
+      "cd4+ t-cell",
+      "viral load",
+      "hiv rna",
+      "western blot",
+      "4th generation immunoassay",
+      "rapid hiv test",
+      "antigen/antibody combo"
+    ]
+  },
+  "Chikungunya": {
+    "hallmark_cuis": {
+      "C0008055": "Mosquito Borne Viral Fever Chikungunya",
+      "C5203119": "Intensity And Distress 5",
+      "C0038999": "Observation Of Swelling",
+      "C0003864": "Inflammatory Arthritis",
+      "C0443253": "Maculo Papular",
+      "C0015230": "Eruption Of Skin",
+      "C0013604": "Interstitial Oedema"
+    },
+    "lab_cuis": {
+      "C0036745": "Study Of Serum"
+    },
+    "raw_keywords": [
+      "chikungunya",
+      "chikungunya fever",
+      "chikungunya virus",
+      "chkv",
+      "chikungunya fever",
+      "chikungunya virus",
+      "severe arthralgia",
+      "polyarthralgia",
+      "joint swelling",
+      "bilateral arthritis",
+      "maculopapular rash",
+      "tenosynovitis",
+      "periarticular edema"
+    ],
+    "raw_labs": [
+      "rt-pcr",
+      "chikungunya igm",
+      "mac-elisa",
+      "prnt",
+      "serology"
+    ]
+  },
+  "Zika": {
+    "hallmark_cuis": {
+      "C0015967": "Pyrexial",
+      "C0318793": "Zika Virus",
+      "C4546023": "Congenital Zika Virus Infection",
+      "C0443253": "Maculo Papular",
+      "C0015230": "Eruption Of Skin",
+      "C0743724": "Retro Orbital Eye Pain"
+    },
+    "lab_cuis": {
+      "C3179033": "Triplex Polymerase Chain Reaction"
+    },
+    "raw_keywords": [
+      "zika",
+      "zika virus",
+      "zika fever",
+      "zikv",
+      "congenital zika syndrome",
+      "zika virus infection",
+      "zika virus",
+      "microcephaly",
+      "congenital zika syndrome",
+      "guillain-barre syndrome",
+      "conjunctivitis",
+      "maculopapular rash",
+      "retro-orbital pain"
+    ],
+    "raw_labs": [
+      "rt-pcr",
+      "zika rna",
+      "trioplex pcr",
+      "igm elisa",
+      "prnt"
+    ]
+  },
+  "Brucellosis": {
+    "hallmark_cuis": {
+      "C0015967": "Pyrexial",
+      "C0006309": "Infection Due To Brucella",
+      "C0240321": "Mediterranean",
+      "C0038984": "Portion Of Sweat",
+      "C2228527": "Excessive Malodorous Sweating",
+      "C0014533": "Epididymal Structures",
+      "C0019214": "Hepatosplenomegaly"
+    },
+    "lab_cuis": {
+      "C0200949": "Blood Culture Procedure",
+      "C1254426": "Bone Marrow Culture",
+      "C3836019": "Serum Agglutination",
+      "C1441470": "Standard Tube Agglutination"
+    },
+    "raw_keywords": [
+      "brucellosis",
+      "brucella",
+      "undulant fever",
+      "malta fever",
+      "mediterranean fever",
+      "brucella melitensis",
+      "brucellosis",
+      "brucella",
+      "brucella abortus",
+      "brucella melitensis",
+      "undulant fever",
+      "drenching sweats",
+      "malodorous sweat",
+      "sacroiliitis",
+      "spondylodiscitis",
+      "epididymo-orchitis",
+      "hepatosplenomegaly"
+    ],
+    "raw_labs": [
+      "blood culture",
+      "bone marrow culture",
+      "serum agglutination test",
+      "sat",
+      "standard tube agglutination",
+      "brucellacapt",
+      "elisa igm/igg"
+    ]
+  },
+  "Leishmaniasis": {
+    "hallmark_cuis": {
+      "C0686878": "Amastigote Of Kingdom Protozoa",
+      "C0023290": "Infection By Visceral Leishmaniasis",
+      "C0038002": "Enlargement Of Spleen",
+      "C0241231": "Massive Splenomegaly",
+      "C0019209": "Hepatomegaly",
+      "C0037299": "Cutaneous Ulcer"
+    },
+    "lab_cuis": {
+      "C0686878": "Amastigote Of Kingdom Protozoa",
+      "C0440052": "Leishman Stain",
+      "C0857285": "Human Bone Marrow Aspirate",
+      "C0037993": "Reticuloendothelial System Spleen",
+      "C0370199": "Aspirate Substance",
+      "C0010454": "Culture Mediums"
+    },
+    "raw_keywords": [
+      "leishmaniasis",
+      "leishmania",
+      "kala-azar",
+      "visceral leishmaniasis",
+      "cutaneous leishmaniasis",
+      "amastigote",
+      "donovan body",
+      "leishmaniasis",
+      "leishmaniasis, visceral",
+      "leishmaniasis, cutaneous",
+      "leishmania",
+      "kala-azar",
+      "splenomegaly",
+      "massive splenomegaly",
+      "hepatomegaly",
+      "pancytopenia",
+      "hypergammaglobulinemia",
+      "cutaneous ulcer",
+      "oriental sore"
+    ],
+    "raw_labs": [
+      "amastigotes",
+      "leishman-donovan bodies",
+      "ld bodies",
+      "bone marrow aspirate",
+      "splenic aspirate",
+      "rk39 rapid test",
+      "rk39 immunochromatographic",
+      "nnn medium culture"
+    ]
+  },
+  "Typhoid_Fever": {
+    "hallmark_cuis": {
+      "C0041466": "Infection By Salmonella Typhi",
+      "C1304890": "Enteric",
+      "C0015967": "Pyrexial",
+      "C0240915": "Rose Spot",
+      "C0428977": "Decreased Heart Rate",
+      "C0311392": "Physical Findings",
+      "C0011991": "Observation Of Diarrhoea",
+      "C0021845": "Perforation Of Intestine",
+      "C0020885": "Small Intestine Ileum",
+      "C0549099": "Perforation Observation",
+      "C0149504": "Toxic Induced Encephalopathy"
+    },
+    "lab_cuis": {
+      "C0200949": "Blood Culture Procedure",
+      "C1254426": "Bone Marrow Culture",
+      "C0430414": "Microbial Stool Culture"
+    },
+    "raw_keywords": [
+      "typhoid",
+      "typhoid fever",
+      "salmonella typhi",
+      "enteric fever",
+      "widal test",
+      "typhoid fever",
+      "salmonella typhi",
+      "step-ladder fever",
+      "rose spots",
+      "relative bradycardia",
+      "faget sign",
+      "pea-soup diarrhea",
+      "intestinal perforation",
+      "ileal perforation",
+      "toxic encephalopathy"
+    ],
+    "raw_labs": [
+      "blood culture",
+      "bone marrow culture",
+      "stool culture",
+      "widal test",
+      "tubex",
+      "typhidot"
+    ]
+  },
+  "Cholera": {
+    "hallmark_cuis": {
+      "C0278009": "Passage Of Rice Water Stools",
+      "C0239182": "Watery Diarrhoea",
+      "C5203119": "Intensity And Distress 5",
+      "C0277937": "Turgor Skin",
+      "C0020683": "Hypovolaemic Shock"
+    },
+    "lab_cuis": {
+      "C0430414": "Microbial Stool Culture",
+      "C1553151": "Darkfield Microscopy"
+    },
+    "raw_keywords": [
+      "cholera",
+      "vibrio cholerae",
+      "rice-water stool",
+      "cholera",
+      "vibrio cholerae",
+      "rice-water stool",
+      "profuse watery diarrhea",
+      "severe dehydration",
+      "sunken eyes",
+      "loss of skin turgor",
+      "washerwoman hands",
+      "hypovolemic shock",
+      "hypokalemia"
+    ],
+    "raw_labs": [
+      "stool culture",
+      "tcbs agar",
+      "crystal vc",
+      "darkfield microscopy",
+      "vibrio serotyping"
+    ]
+  },
+  "Rabies": {
+    "hallmark_cuis": {
+      "C0242351": "Negri Bodies",
+      "C0085631": "Agitated Behaviour",
+      "C0004388": "Autonomic Nervous System Structure",
+      "C0005658": "Bite Injury",
+      "C0205145": "Sites",
+      "C1532094": "Dumb Form Of Rabies"
+    },
+    "lab_cuis": {
+      "C1947931": "Direct Qualifier",
+      "C0016318": "Fluorescent Identification Of Anti Nuclear Antibody",
+      "C1123023": "Integumental System",
+      "C0003241": "Little Not Otherwise Specified Antibody",
+      "C0242351": "Negri Bodies"
+    },
+    "raw_keywords": [
+      "rabies",
+      "rabies virus",
+      "hydrophobia",
+      "lyssavirus",
+      "negri body",
+      "rabies",
+      "rabies virus",
+      "hydrophobia",
+      "aerophobia",
+      "encephalopathy",
+      "agitation",
+      "hypersalivation",
+      "autonomic instability",
+      "paresthesia at bite site",
+      "paralytic rabies"
+    ],
+    "raw_labs": [
+      "direct fluorescent antibody",
+      "dfa",
+      "saliva rt-pcr",
+      "nuchal skin biopsy",
+      "rabies neutralizing antibody",
+      "rffit",
+      "negri bodies"
+    ]
+  },
+  "Leptospirosis": {
+    "hallmark_cuis": {
+      "C0043102": "Infection Due To Leptospira Icterohemorrhagiae",
+      "C0022346": "Jaundiced",
+      "C4552597": "Acute Kidney Injury Ctcae",
+      "C0035078": "Renal Insufficiency Syndrome",
+      "C0151701": "Intrapulmonary Haemorrhage",
+      "C0238883": "Calf Tenderness",
+      "C0028961": "Decreased Urine Volume"
+    },
+    "lab_cuis": {
+      "C1553151": "Darkfield Microscopy"
+    },
+    "raw_keywords": [
+      "leptospirosis",
+      "leptospira",
+      "weil's disease",
+      "leptospira interrogans",
+      "leptospirosis",
+      "leptospira",
+      "weil's disease",
+      "conjunctival suffusion",
+      "jaundice",
+      "acute kidney injury",
+      "renal failure",
+      "pulmonary hemorrhage",
+      "calf tenderness",
+      "oliguria"
+    ],
+    "raw_labs": [
+      "microscopic agglutination test",
+      "mat",
+      "leptospira pcr",
+      "igm elisa",
+      "darkfield microscopy",
+      "emjh medium"
+    ]
+  },
+  "Yellow_Fever": {
+    "hallmark_cuis": {
+      "C0015967": "Pyrexial",
+      "C0022346": "Jaundiced",
+      "C0439541": "Black Coloring",
+      "C0018926": "Vomiting Of Blood",
+      "C0311392": "Physical Findings",
+      "C0428977": "Decreased Heart Rate",
+      "C4085211": "Pain Distress Question",
+      "C0028961": "Decreased Urine Volume",
+      "C0005779": "Blood Coagulation Disorder",
+      "C0600688": "Effects Toxics",
+      "C0205390": "Phases"
+    },
+    "lab_cuis": {
+      "C0015967": "Pyrexial"
+    },
+    "raw_keywords": [
+      "yellow fever",
+      "yellow fever virus",
+      "flavivirus yellow fever",
+      "yellow fever",
+      "yellow fever virus",
+      "jaundice",
+      "black vomitus",
+      "hematemesis",
+      "faget sign",
+      "relative bradycardia",
+      "epigastric pain",
+      "oliguria",
+      "coagulopathy",
+      "toxic phase"
+    ],
+    "raw_labs": [
+      "rt-pcr",
+      "yellow fever pcr",
+      "mac-elisa",
+      "prnt",
+      "yellow fever igm",
+      "councilman bodies"
+    ]
+  }
+}

@@ -47,7 +47,14 @@ except ImportError as e:
     MajorityLabelVoter = None
 
 from schemas import BinaryDiseaseLabel
-from clinical_knowledge import DISEASE_HALLMARKS, DISEASE_LAB_TESTS, DISEASE_EXCLUSIONS, DISEASES, SHARED_SYSTEMIC_SYMPTOMS
+from clinical_knowledge import (
+    DISEASE_HALLMARKS,
+    DISEASE_LAB_TESTS,
+    DISEASE_HALLMARK_CUIS,
+    DISEASE_LAB_CUIS,
+    DISEASES,
+    SHARED_SYSTEMIC_SYMPTOMS,
+)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -76,48 +83,56 @@ def _count_matches(symptoms: list, targets: list) -> int:
     return count
 
 # ═══════════════════════════════════════════════════════════════════════════════
-#  Dynamic Labeling Functions Factory
+#  Dynamic Labeling Functions Factory (CUI-Grounded & Affirmed Evidence)
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def make_lfs_for_disease(disease_name: str):
-    """Dynamically generate labeling functions for a given disease."""
+    """
+    Dynamically generate labeling functions for a given disease using
+    UMLS CUI set intersection with raw keyword fallback.
+    Negation LF has been removed since negated entities are excluded.
+    """
     hallmarks = DISEASE_HALLMARKS.get(disease_name, [])
     lab_tests = DISEASE_LAB_TESTS.get(disease_name, [])
-    exclusions = DISEASE_EXCLUSIONS.get(disease_name, [])
+    hallmark_cuis = DISEASE_HALLMARK_CUIS.get(disease_name, set())
+    lab_cuis = DISEASE_LAB_CUIS.get(disease_name, set())
     
     sanitized_name = disease_name.lower().replace('-', '_').replace(' ', '_')
 
-    # Note: Default arguments used in the lambda/functions below are necessary to capture
-    # the variables in the closure instead of late-binding them in a loop.
-    
+    # Note: Default arguments capture variables in the closure
     @labeling_function(name=f"lf_{sanitized_name}_hallmarks")
-    def lf_hallmarks(x, hm=hallmarks):
+    def lf_hallmarks(x, hm=hallmarks, hm_cuis=hallmark_cuis):
+        # 1. High-precision UMLS CUI intersection (synonym-immune)
+        patient_cuis = getattr(x, "affirmed_cuis", set())
+        if patient_cuis & hm_cuis:
+            return BinaryDiseaseLabel.POSITIVE
+        # 2. Fallback text match for unmapped tokens
         if _symptom_match(x.valid_symptoms, hm):
             return BinaryDiseaseLabel.POSITIVE
         return BinaryDiseaseLabel.ABSTAIN
 
     @labeling_function(name=f"lf_{sanitized_name}_lab_confirmation")
-    def lf_lab(x, lt=lab_tests):
+    def lf_lab(x, lt=lab_tests, lt_cuis=lab_cuis):
+        # 1. High-precision UMLS CUI intersection
+        patient_cuis = getattr(x, "affirmed_cuis", set())
+        if patient_cuis & lt_cuis:
+            return BinaryDiseaseLabel.POSITIVE
+        # 2. Fallback text match
         if _symptom_match(x.valid_symptoms, lt):
             return BinaryDiseaseLabel.POSITIVE
         return BinaryDiseaseLabel.ABSTAIN
 
     @labeling_function(name=f"lf_{sanitized_name}_constellation")
-    def lf_constellation(x, hm=hallmarks, sys_sym=SHARED_SYSTEMIC_SYMPTOMS):
+    def lf_constellation(x, hm=hallmarks, hm_cuis=hallmark_cuis, sys_sym=SHARED_SYSTEMIC_SYMPTOMS):
         has_systemic = _symptom_match(x.valid_symptoms, sys_sym)
-        has_specific = _symptom_match(x.valid_symptoms, hm)
-        # If the patient has a general systemic symptom AND a disease-specific hallmark
+        patient_cuis = getattr(x, "affirmed_cuis", set())
+        has_specific = bool(patient_cuis & hm_cuis) or _symptom_match(x.valid_symptoms, hm)
         if has_systemic and has_specific:
             return BinaryDiseaseLabel.POSITIVE
         return BinaryDiseaseLabel.ABSTAIN
 
-    @labeling_function(name=f"lf_{sanitized_name}_negative_test")
-    def lf_neg(x, ex=exclusions):
-        if _symptom_match(x.valid_symptoms, ex):
-            return BinaryDiseaseLabel.NEGATIVE
-        return BinaryDiseaseLabel.ABSTAIN
-
-    return [lf_hallmarks, lf_lab, lf_constellation, lf_neg]
+    # NOTE: lf_neg has been deleted as agreed (negated entities filtered in Stage 1)
+    return [lf_hallmarks, lf_lab, lf_constellation]
 
 
 DISEASE_LFS = {disease: make_lfs_for_disease(disease) for disease in DISEASES.keys()}
@@ -176,17 +191,27 @@ def run_stage2_multilabel_diagnosis(
         print("Snorkel not available. Cannot run Stage 2.")
         return pd.DataFrame(), {}
 
-    # 1. Group VALID entities by case_id
+    # 1. Group VALID affirmed entities by case_id into CUIs and symptom tokens
     valid_by_case = {}
+    cuis_by_case = {}
     for r in accepted_entities:
         cid = r["case_id"]
         if cid not in valid_by_case:
             valid_by_case[cid] = []
-        if float(r["probability"]) >= 0.85:
-            # Add both the MedCAT standard_name AND the raw LLM text
+            cuis_by_case[cid] = set()
+            
+        # Ensure entity is affirmed (negated entities kept out)
+        if r.get("assertion") == "negated":
+            continue
+
+        if float(r.get("probability", 1.0)) >= 0.85:
+            cui = r.get("cui")
+            if cui:
+                cuis_by_case[cid].add(cui)
             if r.get("standard_name"):
                 valid_by_case[cid].append(r["standard_name"].lower())
-            valid_by_case[cid].append(r["entity"].lower())
+            if r.get("entity"):
+                valid_by_case[cid].append(r["entity"].lower())
 
     # 2. Build patient-level DataFrame
     patient_cases = []
@@ -194,6 +219,7 @@ def run_stage2_multilabel_diagnosis(
         cid = case["case_id"]
         patient_cases.append({
             "case_id": cid,
+            "affirmed_cuis": cuis_by_case.get(cid, set()),
             "valid_symptoms": valid_by_case.get(cid, []),
         })
     df_patients = pd.DataFrame(patient_cases)
