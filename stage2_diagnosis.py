@@ -37,6 +37,14 @@ try:
 except ImportError as e:
     SNORKEL_AVAILABLE = False
     print(f"WARNING: Snorkel failed to import: {e}")
+    # Dummy fallbacks to prevent NameError when defining the functions
+    def labeling_function(name=None):
+        def decorator(f):
+            return f
+        return decorator
+    PandasLFApplier = None
+    LabelModel = None
+    MajorityLabelVoter = None
 
 from schemas import BinaryDiseaseLabel
 from clinical_knowledge import DISEASE_HALLMARKS, DISEASE_LAB_TESTS, DISEASE_EXCLUSIONS, DISEASES, SHARED_SYSTEMIC_SYMPTOMS
