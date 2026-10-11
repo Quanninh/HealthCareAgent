@@ -65,6 +65,9 @@ from clinical_knowledge import (
     NON_HUMAN_PATTERNS,
     DISEASE_ORGANISMS,
     is_valid_relational_affirmation,
+    parse_brucellosis_titer,
+    parse_leptospirosis_titer,
+    parse_leishmaniasis_titer,
 )
 import re
 
@@ -182,16 +185,24 @@ def make_lfs_for_disease(disease_name: str):
         combined = f"{title_text} {case_text}"
         if is_valid_relational_affirmation(combined, d_name):
             return BinaryDiseaseLabel.POSITIVE
+        if d_name == "Brucellosis" and parse_brucellosis_titer(case_text):
+            return BinaryDiseaseLabel.POSITIVE
+        if d_name == "Leptospirosis" and parse_leptospirosis_titer(case_text, 400):
+            return BinaryDiseaseLabel.POSITIVE
+        if d_name == "Leishmaniasis" and parse_leishmaniasis_titer(case_text, 800):
+            return BinaryDiseaseLabel.POSITIVE
         return BinaryDiseaseLabel.ABSTAIN
 
     # 2. Tier 2 (E2): Strong Serology / High Titer
     @labeling_function(name=f"lf_{sanitized_name}_e2_strong_serology")
-    def lf_e2_serology(x, e2=e2_serology):
+    def lf_e2_serology(x, d_name=disease_name, e2=e2_serology):
         valid_syms = getattr(x, "valid_symptoms", [])
         if _symptom_match(valid_syms, e2):
             return BinaryDiseaseLabel.POSITIVE
         case_text = getattr(x, "case_presentation", "")
         if _text_contains(case_text, e2):
+            return BinaryDiseaseLabel.POSITIVE
+        if d_name == "Leptospirosis" and parse_leptospirosis_titer(case_text, 100):
             return BinaryDiseaseLabel.POSITIVE
         return BinaryDiseaseLabel.ABSTAIN
 
@@ -239,7 +250,15 @@ def make_lfs_for_disease(disease_name: str):
             return BinaryDiseaseLabel.POSITIVE
         return BinaryDiseaseLabel.ABSTAIN
 
-    # 6. Tier 4A: Negative Laboratory Test Exclusion / Ruled Out (Votes 0)
+    # 6. Dense Semantic Similarity LF (Phase 4)
+    @labeling_function(name=f"lf_{sanitized_name}_dense_semantic_similarity")
+    def lf_dense_sim(x, col=sanitized_name, threshold=0.70):
+        sim = getattr(x, f"sim_{col}", 0.0)
+        if sim >= threshold:
+            return BinaryDiseaseLabel.POSITIVE
+        return BinaryDiseaseLabel.ABSTAIN
+
+    # 7. Tier 4A: Negative Laboratory Test Exclusion / Ruled Out (Votes 0)
     @labeling_function(name=f"lf_{sanitized_name}_negative_lab_exclusion")
     def lf_neg_lab(x, d_name=disease_name, exc=exclusions_lab):
         case_text = getattr(x, "case_presentation", "")
@@ -259,7 +278,7 @@ def make_lfs_for_disease(disease_name: str):
             return BinaryDiseaseLabel.NEGATIVE
         return BinaryDiseaseLabel.ABSTAIN
 
-    # 7. Tier 4B: Lexical Homonym & Discourse / Vaccine Exclusion (Votes 0)
+    # 8. Tier 4B: Lexical Homonym & Discourse / Vaccine Exclusion (Votes 0)
     @labeling_function(name=f"lf_{sanitized_name}_homonym_and_discourse_exclusion")
     def lf_homonym(x, d_name=disease_name, hom=homonyms, e1=e1_labs, lt_cuis=lab_cuis):
         if not hom:
@@ -279,7 +298,7 @@ def make_lfs_for_disease(disease_name: str):
                 return BinaryDiseaseLabel.NEGATIVE
         return BinaryDiseaseLabel.ABSTAIN
 
-    # 8. Tier 4C: Document Scope / Cohort / Non-Human Exclusion (Votes 0)
+    # 9. Tier 4C: Document Scope / Cohort / Non-Human Exclusion (Votes 0)
     @labeling_function(name=f"lf_{sanitized_name}_scope_cohort_exclusion")
     def lf_scope_cohort(x, cohort_patterns=COMPILED_COHORT_PATTERNS, animal_patterns=COMPILED_NON_HUMAN_PATTERNS, anchor_pattern=COMPILED_SINGLE_PATIENT_ANCHOR):
         case_text = getattr(x, "case_presentation", "")
@@ -290,17 +309,18 @@ def make_lfs_for_disease(disease_name: str):
             return BinaryDiseaseLabel.NEGATIVE
         return BinaryDiseaseLabel.ABSTAIN
 
-
     return [
         lf_e1_lab,
         lf_e2_serology,
         lf_e3_hallmarks,
         lf_e3_constellation,
         lf_e3_exposure,
+        lf_dense_sim,
         lf_neg_lab,
         lf_homonym,
         lf_scope_cohort,
     ]
+
 
 
 DISEASE_LFS = {disease: make_lfs_for_disease(disease) for disease in DISEASES.keys()}
@@ -382,6 +402,18 @@ def run_stage2_multilabel_diagnosis(
             if r.get("entity"):
                 valid_by_case[cid].append(r["entity"].lower())
 
+    # Also ingest raw clinical entities from extracted_cases_100per_disease.jsonl (Phase 1)
+    for case in raw_data:
+        cid = case["case_id"]
+        if cid not in valid_by_case:
+            valid_by_case[cid] = []
+            cuis_by_case[cid] = set()
+        for ent in case.get("clinical_entities", []):
+            if ent.get("assertion") != "negated" and ent.get("experiencer") != "family":
+                span = ent.get("text_span")
+                if span:
+                    valid_by_case[cid].append(span.lower())
+
     # 2. Build patient-level DataFrame with full-text fallback
     patient_cases = []
     for case in raw_data:
@@ -394,6 +426,34 @@ def run_stage2_multilabel_diagnosis(
             "title": str(case.get("title") or "").lower(),
         })
     df_patients = pd.DataFrame(patient_cases)
+
+    # Phase 4: Precompute Dense Semantic Similarity
+    try:
+        from sentence_transformers import SentenceTransformer
+        from sklearn.metrics.pairwise import cosine_similarity
+        print("Pre-encoding cases with all-MiniLM-L6-v2 for dense semantic similarity...")
+        embedder = SentenceTransformer("all-MiniLM-L6-v2")
+        crit_texts = []
+        disease_keys = list(DISEASES.keys())
+        for d in disease_keys:
+            d_clean = d.replace('_', ' ').replace('-', ' ')
+            e1_terms = ", ".join(DISEASE_E1_LABS.get(d, [])[:6])
+            e2_terms = ", ".join(DISEASE_E2_SEROLOGY.get(d, [])[:6])
+            crit_texts.append(f"Confirmed clinical case and diagnosis of {d_clean}. Confirmatory tests: {e1_terms}. Clinical evidence: {e2_terms}.")
+        crit_embs = embedder.encode(crit_texts, show_progress_bar=False)
+        
+        patient_texts = [f"{r['title']} {r['case_presentation'][:600]}" for r in patient_cases]
+        patient_embs = embedder.encode(patient_texts, batch_size=64, show_progress_bar=False)
+        sim_matrix = cosine_similarity(patient_embs, crit_embs)
+        for idx, d in enumerate(disease_keys):
+            col_name = d.lower().replace('-', '_').replace(' ', '_')
+            df_patients[f"sim_{col_name}"] = sim_matrix[:, idx]
+        print("Dense semantic similarities precomputed successfully.")
+    except Exception as e:
+        print(f"Dense semantic similarity failed ({e}). Defaulting sim columns to 0.0.")
+        for d in DISEASES.keys():
+            col_name = d.lower().replace('-', '_').replace(' ', '_')
+            df_patients[f"sim_{col_name}"] = 0.0
 
     print(f"\n{'='*60}")
     print(f"  STAGE 2: MULTI-LABEL DISEASE PREDICTION")
@@ -419,51 +479,66 @@ def run_stage2_multilabel_diagnosis(
 
     # 5. Determine the single most likely disease (satisfying Step 11 VPD Gate)
     def _get_top_disease(row):
-        case_text = str(row.get("case_presentation") or "")
-        title_text = str(row.get("title") or "")
+        case_text = str(row.get("case_presentation") or "").lower()
+        title_text = str(row.get("title") or "").lower()
         combined = f"{title_text} {case_text}"
 
         # Global Document Scope Gate (Protocol Steps 1 & 2): Cohorts, case series, non-human
         is_single = bool(COMPILED_SINGLE_PATIENT_ANCHOR.search(case_text[:300]))
         is_cohort = (not is_single) and _regex_matches(combined, COMPILED_COHORT_PATTERNS)
-        is_animal = _regex_matches(combined, COMPILED_NON_HUMAN_PATTERNS)
+        is_animal = (not is_single) and _regex_matches(combined, COMPILED_NON_HUMAN_PATTERNS)
         if is_cohort or is_animal:
             return "UNKNOWN (Insufficient Evidence)"
 
-        # Sort candidate diseases by predicted probability descending
-        candidates = []
+        # Rank candidate diseases by Clinical Evidence Hierarchy + Model Probability
+        candidate_scores = []
         for d in DISEASES.keys():
             col = d.lower().replace('-', '_').replace(' ', '_')
             p = float(row[f"p_{col}"])
-            candidates.append((d, p))
-        candidates.sort(key=lambda item: item[1], reverse=True)
+            if p < 0.50:
+                continue
 
-        for best_disease, max_p in candidates:
-            # Baseline probability threshold (must exceed pos_threshold or 0.50)
-            if max_p < 0.50:
-                break
-
-            e1_labs = DISEASE_E1_LABS.get(best_disease, [])
-            e2_sero = DISEASE_E2_SEROLOGY.get(best_disease, [])
-            hm_cuis = DISEASE_HALLMARK_CUIS.get(best_disease, set())
-            lt_cuis = DISEASE_LAB_CUIS.get(best_disease, set())
-            exc_labs = DISEASE_EXCLUSIONS_LAB.get(best_disease, [])
-            homonyms = DISEASE_HOMONYMS.get(best_disease, [])
+            e1_labs = DISEASE_E1_LABS.get(d, [])
+            e2_sero = DISEASE_E2_SEROLOGY.get(d, [])
+            hm_cuis = DISEASE_HALLMARK_CUIS.get(d, set())
+            lt_cuis = DISEASE_LAB_CUIS.get(d, set())
+            exc_labs = DISEASE_EXCLUSIONS_LAB.get(d, [])
+            homonyms = DISEASE_HOMONYMS.get(d, [])
 
             patient_cuis = row.get("affirmed_cuis", set())
             valid_syms = row.get("valid_symptoms", [])
 
+            d_clean = d.lower().replace('_', ' ').replace('-', ' ')
+            orgs = DISEASE_ORGANISMS.get(d, [d_clean])
+
+            # Check title congruence and position
+            title_pos = -1
+            in_title = False
+            for org in [d_clean] + orgs:
+                pos = title_text.find(org)
+                if pos != -1:
+                    in_title = True
+                    if title_pos == -1 or pos < title_pos:
+                        title_pos = pos
+
             # Confirmatory E1 evidence check
+            has_titer_e1 = False
+            if d == "Brucellosis" and parse_brucellosis_titer(case_text):
+                has_titer_e1 = True
+            elif d == "Leptospirosis" and parse_leptospirosis_titer(case_text, 400):
+                has_titer_e1 = True
+            elif d == "Leishmaniasis" and parse_leishmaniasis_titer(case_text, 800):
+                has_titer_e1 = True
+
             has_e1 = (
                 bool(patient_cuis & lt_cuis)
                 or _symptom_match(valid_syms, e1_labs)
                 or _text_contains(case_text, e1_labs)
-                or is_valid_relational_affirmation(combined, best_disease)
+                or is_valid_relational_affirmation(combined, d)
+                or has_titer_e1
             )
 
-            # Check direct generic disease negation (explicit clinical exclusion)
-            has_neg_lab = _text_contains(case_text, exc_labs) or _symptom_match(valid_syms, exc_labs)
-            d_clean = best_disease.lower().replace('_', ' ').replace('-', ' ')
+            # Check direct generic disease negation (only reject if no confirmatory E1)
             generic_neg = [
                 f"negative for {d_clean}",
                 f"ruled out {d_clean}",
@@ -472,41 +547,75 @@ def run_stage2_multilabel_diagnosis(
                 f"tested negative for {d_clean}",
                 f"no evidence of {d_clean}",
             ]
-            if _text_contains(case_text, generic_neg):
+            has_generic_neg = _text_contains(case_text, generic_neg)
+            if has_generic_neg and not has_e1:
                 continue
 
-            # Check analyte-specific negation or negative lab (overridden if E1 confirmatory lab present)
-            neg_flag = has_neg_lab or is_disease_explicitly_negated(combined, best_disease)
+            # Check negative lab
+            has_neg_lab = _text_contains(case_text, exc_labs) or _symptom_match(valid_syms, exc_labs)
+            neg_flag = has_neg_lab or is_disease_explicitly_negated(combined, d)
             if neg_flag and not has_e1:
                 continue
 
-            # Check for homonym trap on candidate disease
+            # Check homonyms
             if homonyms and _text_contains(combined, homonyms):
                 if not has_e1:
                     continue
 
-            # Protocol Step 11 VPD Gate: E1 or E2 evidence (or verified hallmark CUI or relational affirmation) required
-            has_e1_or_e2 = (
+            # Check E2 evidence
+            has_titer_e2 = False
+            if d == "Leptospirosis" and parse_leptospirosis_titer(case_text, 100):
+                has_titer_e2 = True
+
+            has_e2 = (
                 bool(patient_cuis & (hm_cuis | lt_cuis))
-                or _symptom_match(valid_syms, e1_labs)
                 or _symptom_match(valid_syms, e2_sero)
-                or _text_contains(case_text, e1_labs)
                 or _text_contains(case_text, e2_sero)
-                or is_valid_relational_affirmation(combined, best_disease)
+                or has_titer_e2
             )
 
-            # Disease mention context (must mention the disease or its specific hallmarks)
-            disease_mentioned = d_clean in combined or any(k in combined for k in DISEASE_HALLMARKS.get(best_disease, []))
+            hm = DISEASE_HALLMARKS.get(d, [])
+            has_hm = _text_contains(case_text, hm) or _symptom_match(valid_syms, hm)
+            has_constellation = in_title and (has_hm or (p >= 0.60))
 
-            if has_e1_or_e2 and disease_mentioned:
-                return best_disease
+            # Protocol Step 11 VPD Gate: MUST have E1, E2, or Hallmark Constellation evidence!
+            if not (has_e1 or has_e2 or has_constellation):
+                continue
 
-        return "UNKNOWN (Insufficient Evidence)"
+            # Disease mention context in text
+            disease_mentioned = in_title or (d_clean in combined) or any(k in combined for k in hm)
+            if not disease_mentioned:
+                continue
 
+            # Composite clinical evidence score:
+            # E1 confirmatory lab: 100 points
+            # Title congruence: 50 points
+            # Earlier title appearance bonus: up to 15 points
+            # E2 strong evidence: 25 points
+            # Hallmark Constellation: 10 points
+            # Model probability: p * 10 points
+            title_order_bonus = (15 - min(15, title_pos / 5)) if (in_title and title_pos >= 0) else 0
+            score = (
+                (100 if has_e1 else 0)
+                + (50 if in_title else 0)
+                + title_order_bonus
+                + (25 if has_e2 else 0)
+                + (10 if has_constellation else 0)
+                + (p * 10)
+            )
+            candidate_scores.append((d, score, p))
+
+        if not candidate_scores:
+            return "UNKNOWN (Insufficient Evidence)"
+
+        # Sort by clinical composite score descending, then by probability
+        candidate_scores.sort(key=lambda item: (item[1], item[2]), reverse=True)
+        return candidate_scores[0][0]
 
     df_patients["predicted_disease"] = df_patients.apply(_get_top_disease, axis=1)
 
     return df_patients, L_matrices
+
 
 
 
