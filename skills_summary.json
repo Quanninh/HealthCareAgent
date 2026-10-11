@@ -1,0 +1,137 @@
+{
+  "brucellosis": {
+    "e1": "- Isolation/culture of *Brucella* spp. from an appropriate clinical specimen.\n- Validated pathogen-specific molecular confirmation when clinically and laboratorily appropriate.\n\nCDC's reference guide identifies culture as the gold-standard test and notes that PCR can provide rapid detection. \ue200cite\ue202turn235361search48\ue201",
+    "e2": "- Disease-specific serology interpreted according to the appropriate testing strategy.\n- Paired sera demonstrating the expected change in antibody response.\n\nCDC notes that some serologic diagnoses require two sera and that single-sample interpretation may only support a probable diagnosis. \ue200cite\ue202turn235361search1\ue201",
+    "e3": "- Undulating fever.\n- Arthralgia.\n- Hepatosplenomegaly.\n- Exposure to unpasteurized dairy or infected animals.",
+    "e0": "",
+    "confusable": "```text\nBrucellosis \u2194 tuberculosis\nBrucellosis \u2194 typhoid fever\nBrucellosis \u2194 Q fever / other zoonoses\n```",
+    "contradiction": "Negative serology alone should not be encoded as universal exclusion, especially in early or complicated disease.\n\n---\n\n---",
+    "traps": "Standard serology may fail to detect *B. canis* or Brucella RB51; culture may be required. \ue200cite\ue202turn235361search1\ue201"
+  },
+  "chikungunya": {
+    "e1": "- RT-PCR or other molecular detection during the acute phase.\n- Validated virus detection/culture where available.\n\nWHO and CDC both describe molecular testing as the principal early diagnostic approach. \ue200cite\ue202turn382910search7\ue202turn550161search6\ue201",
+    "e2": "- Chikungunya-specific serology after the first week.\n- Positive IgM followed by confirmatory neutralizing antibody testing when indicated.\n\nCDC notes that positive IgM can be false-positive and should be confirmed in appropriate cases. \ue200cite\ue202turn550161search6\ue201",
+    "e3": "- Abrupt fever.\n- Severe polyarthralgia.\n- Rash.\n- Compatible travel/vector exposure.",
+    "e0": "",
+    "confusable": "```text\nChikungunya \u2194 dengue\nChikungunya \u2194 Zika\n```\n\nWHO explicitly notes clinical overlap with dengue and Zika. \ue200cite\ue202turn382910search7\ue201",
+    "contradiction": "Acute-phase negative molecular testing does not universally exclude infection when timing/sample limitations apply; convalescent serology may be required.\n\n---\n\n---",
+    "traps": ""
+  },
+  "cholera": {
+    "e1": "- Laboratory confirmation of *Vibrio cholerae* by culture.\n- PCR confirmation where an appropriate validated assay is used.\n- Serologic confirmation/serogrouping of the isolate where applicable.\n\nWHO states that RDTs are useful for early detection of probable cholera outbreaks, but confirmation requires laboratory testing by culture, seroagglutination or PCR. \ue200cite\ue202turn382910search15\ue201",
+    "e2": "- Positive RDT in a compatible outbreak/epidemiological setting.\n- Concordant stool microbiology.",
+    "e3": "- Acute profuse watery diarrhea.\n- Rapid dehydration.\n- Epidemiological outbreak context.",
+    "e0": "",
+    "confusable": "```text\nCholera \u2194 other acute watery diarrhea\nCholera \u2194 enterotoxigenic E. coli\nCholera \u2194 viral gastroenteritis\n```",
+    "contradiction": "Negative RDT does not rule out disease; performance and outbreak context matter.\n\n---\n\n---",
+    "traps": ""
+  },
+  "covid_19": {
+    "e1": "- Positive SARS-CoV-2 NAAT/RT-PCR from an appropriate respiratory specimen.\n- A validated positive viral diagnostic test identifying current SARS-CoV-2 infection.\n\nWHO's current clinical management guidance recommends respiratory-specimen NAAT as the minimum molecular diagnostic approach for suspected cases; CDC describes NAAT as highly sensitive and highly specific for detecting viral RNA. \ue200cite\ue202turn877452search164\ue202turn550161search9\ue201",
+    "e2": "- Positive antigen test in a patient being evaluated for current infection.\n- Repeated/confirmatory testing when initial antigen evidence is uncertain.\n\nCDC states that positive antigen results indicate current infection, while negative antigen results are less sensitive and may require repeat testing or NAAT confirmation. \ue200cite\ue202turn550161search9\ue201",
+    "e3": "- Fever, cough, dyspnea.\n- Ground-glass pulmonary imaging.\n- Epidemiological exposure.\n- Lymphopenia or other non-specific laboratory changes.",
+    "e0": "- COVID-19 vaccination.\n- Hospital infection-control precautions.\n- \u201cCOVID-19 pandemic\u201d as a temporal background.\n- Staff-exposure minimization.\n- COVID-19 listed only in differential diagnosis.",
+    "confusable": "```text\nCOVID-19 infection\n\u2194 vaccination\n\u2194 exposure-control context\n\u2194 post-COVID history\n\u2194 differential diagnosis\n```",
+    "contradiction": "A negative antigen result does **not** universally exclude COVID-19. A negative NAAT is materially stronger, but interpretation still depends on specimen, timing and clinical context. \ue200cite\ue202turn550161search9\ue201",
+    "traps": ""
+  },
+  "dengue": {
+    "e1": "- Positive dengue NAAT/RT-PCR during the acute phase.\n- Positive dengue NS1 antigen test in the appropriate diagnostic setting.\n\nCDC explicitly classifies positive NAAT or NS1 antigen results as confirmed acute dengue infection. \ue200cite\ue202turn550161search0\ue202turn550161search1\ue202turn550161search5\ue201",
+    "e2": "- Dengue IgM supporting recent infection, especially after the first week.\n- Paired-serum seroconversion or other disease-specific confirmatory serologic strategy.\n- PRNT when required to discriminate dengue from related flaviviruses.",
+    "e3": "- Fever.\n- Rash.\n- Thrombocytopenia.\n- Hemoconcentration.\n- Plasma leakage.",
+    "e0": "",
+    "confusable": "```text\nDengue \u2194 Zika\nDengue \u2194 chikungunya\nDengue \u2194 malaria\nDengue \u2194 leptospirosis\n```\n\nWHO explicitly notes that dengue cannot be clinically differentiated from several other vector-borne infections during the febrile phase. \ue200cite\ue202turn382910search4\ue201",
+    "contradiction": "Negative NAAT or NS1 does not rule out dengue. CDC recommends time-appropriate serology or convalescent testing when initial testing is negative or unavailable. \ue200cite\ue202turn550161search0\ue202turn550161search5\ue201\n\n---\n\n---",
+    "traps": ""
+  },
+  "ebola_filovirus": {
+    "e1": "- RT-PCR identifying an orthoebolavirus infection in an appropriate clinical specimen.\n- Antigen-capture detection or virus isolation within a validated diagnostic framework.\n\nWHO states that laboratory confirmation is critical because Ebola can be difficult to distinguish clinically from other infectious diseases; accepted methods include RT-PCR, antigen-capture ELISA, antibody-capture ELISA and culture. \ue200cite\ue202turn382910search5\ue202turn382910search12\ue201",
+    "e2": "- Validated antigen detection.\n- Appropriate serologic evidence in the relevant phase.\n- Concordant repeated laboratory evidence.",
+    "e3": "- Febrile hemorrhagic/viral syndrome.\n- Exposure during a recognized outbreak.\n- Compatible travel or contact history.",
+    "e0": "",
+    "confusable": "```text\nEbola \u2194 Marburg disease\nEbola \u2194 malaria\nEbola \u2194 other viral hemorrhagic fevers\nEbola \u2194 severe bacterial sepsis\n```",
+    "contradiction": "A negative early molecular result may need to be interpreted with timing and repeat-testing procedures; a universal \u201cnegative RT-PCR = impossible\u201d rule is not justified.\n\n---\n\n---",
+    "traps": ""
+  },
+  "hiv_aids": {
+    "e1": "- A complete laboratory HIV diagnostic algorithm leading to a confirmed HIV infection diagnosis.\n- Reactive HIV-1/2 antigen-antibody screening followed by appropriate supplemental differentiation testing and NAT resolution when required.\n\nCDC's current laboratory guidance continues to distinguish the screening, differentiation and NAT stages; a single reactive screening assay should not be treated as the final diagnosis. \ue200cite\ue202turn235361search2\ue202turn235361search3\ue201",
+    "e2": "- HIV-1 RNA/NAT demonstrating infection in an appropriate diagnostic context, including suspected acute infection.\n- Concordant confirmatory laboratory results.",
+    "e3": "- Opportunistic infection.\n- Low CD4 count.\n- Weight loss / constitutional symptoms.\n- Exposure history.\n\nThese may support clinical suspicion but are not equivalent to laboratory confirmation of HIV infection.",
+    "e0": "- HIV testing performed with a negative result.\n- \u201cHIV exposure.\u201d\n- Partner/family HIV history.\n- AIDS-related disease discussion without patient-level HIV evidence.\n- \u201cAIDS\u201d used in a non-HIV phrase such as `walking aids`.",
+    "confusable": "```text\nwalking aids\n       \u2260\nAIDS / HIV infection\n```\n\nThe mention must be normalized semantically before it can become a disease concept.",
+    "contradiction": "A negative test result can be decisive within an appropriate completed algorithm, but timing and testing strategy matter for early infection. A raw phrase such as `nonreactive` must therefore be attached to the specific test and patient anchor.",
+    "traps": ""
+  },
+  "leishmaniasis": {
+    "e1": "- Direct parasitological identification of *Leishmania* in an appropriate lesion/tissue specimen.\n- Validated PCR demonstrating *Leishmania* where appropriate.\n\nWHO states that parasite identification remains the gold standard; diagnostic strategy differs by visceral, cutaneous and mucocutaneous disease. \ue200cite\ue202turn382910search1\ue202turn382910search16\ue201",
+    "e2": "- Visceral leishmaniasis serology / rK39 in an appropriate endemic setting.\n- Supportive parasitology + compatible clinical syndrome.",
+    "e3": "- Fever.\n- Splenomegaly.\n- Pancytopenia.\n- Chronic skin ulceration.",
+    "e0": "",
+    "confusable": "Cutaneous lesions can resemble tuberculosis, fungal infection, leprosy, psoriasis and other ulcers. WHO explicitly notes the low specificity of lesion appearance. \ue200cite\ue202turn382910search1\ue201",
+    "contradiction": "Serology is less useful in some cutaneous/mucocutaneous presentations; a negative serology result should not be treated as a universal exclusion.\n\n---\n\n---",
+    "traps": ""
+  },
+  "leptospirosis": {
+    "e1": "- Detection of *Leptospira* DNA by a suitable molecular assay in an appropriate specimen and disease phase.\n- Serological evidence of infection using an accepted diagnostic strategy, particularly demonstration of the expected antibody response.\n- MAT-based confirmation where appropriately interpreted.\n\nCDC states that diagnosis is based on detection of *Leptospira* DNA or antibody response, with test choice dependent on illness duration. WHO identifies MAT as the reference serologic method and emphasizes sequential specimens. \ue200cite\ue202turn550161search11\ue202turn877452search165\ue201",
+    "e2": "- Positive MAT with appropriate titer/paired-serum interpretation.\n- Appropriate serologic conversion or rising titer.",
+    "e3": "- Fever.\n- Myalgia.\n- Headache.\n- Conjunctival suffusion.\n- Jaundice.\n- Renal failure.\n- Exposure to contaminated water/animals.",
+    "e0": "",
+    "confusable": "```text\nLeptospirosis \u2194 dengue\nLeptospirosis \u2194 malaria\nLeptospirosis \u2194 viral hepatitis\nLeptospirosis \u2194 hantavirus\n```",
+    "contradiction": "Timing matters strongly. Early serology may be negative before the antibody response develops.\n\n---\n\n---",
+    "traps": ""
+  },
+  "malaria": {
+    "e1": "- Detection of malaria parasites on appropriately performed blood microscopy.\n- Positive quality-assured malaria RDT detecting a validated malaria antigen in the correct clinical context.\n- Validated molecular detection of malaria parasite DNA/RNA where used as a diagnostic method.\n\nWHO recommends prompt parasite-based diagnosis by microscopy or RDT for suspected malaria; microscopy can detect malaria-causing *Plasmodium* species and requires examination of thick and thin films. \ue200cite\ue202turn382910search0\ue202turn382910search2\ue202turn382910search9\ue201",
+    "e2": "- Species-level *Plasmodium* identification by microscopy.\n- Molecular confirmation and speciation.\n- RDT plus compatible clinical and epidemiological context when microscopy is unavailable.",
+    "e3": "- Fever.\n- Thrombocytopenia.\n- Hemolysis.\n- Splenomegaly.\n- Travel/residence in endemic region.",
+    "e0": "- \u201cMalaria\u201d in differential diagnosis.\n- Malaria discussed in background literature.\n- Treatment with antimalarials without diagnostic evidence.",
+    "confusable": "```text\nPlasmodium ovale\n      \u2194\npatent foramen ovale (lexical confounder)\n\nPlasmodium-positive evidence\n      \u2194\nother hemoparasites / non-malarial fever\n\nhuman malaria\n      \u2194\nCytauxzoon felis in veterinary text\n```",
+    "contradiction": "A single negative smear/RDT does not necessarily exclude malaria because parasite density, timing, prior treatment and test characteristics matter. WHO emphasizes parasite-based testing and repeated/appropriate testing strategies rather than a lexical negative rule. \ue200cite\ue202turn382910search10\ue202turn382910search11\ue201",
+    "traps": ""
+  },
+  "rabies": {
+    "e1": "**Post-mortem:**\n\n- Detection of rabies virus antigen in appropriate brain tissue by fluorescent antibody testing or equivalent validated methods.\n\nWHO considers brain-tissue antigen detection by FAT the post-mortem gold standard. \ue200cite\ue202turn235361search0\ue202turn877452search7\ue201\n\n**Ante-mortem:**\n\n- Concordant laboratory evidence from the appropriate combination of saliva, nuchal skin biopsy, CSF/serum and other validated tests.\n\nCDC states that no single antemortem test is sufficient in humans. \ue200cite\ue202turn550161search2\ue201",
+    "e2": "- RT-PCR on appropriate serial specimens.\n- Positive antigen/serologic evidence integrated with the clinical syndrome.",
+    "e3": "- Acute progressive encephalitis.\n- Hydrophobia/aerophobia.\n- Compatible animal exposure.",
+    "e0": "",
+    "confusable": "```text\nRabies \u2194 other viral encephalitides\nRabies \u2194 autoimmune encephalitis\nRabies \u2194 severe toxic/metabolic encephalopathy\n```",
+    "contradiction": "A negative single antemortem RT-PCR or saliva specimen does not necessarily exclude rabies because viral shedding can be intermittent. WHO explicitly cautions that negative RT-PCR results do not always rule out infection. \ue200cite\ue202turn235361search46\ue201\n\n---\n\n---",
+    "traps": ""
+  },
+  "tuberculosis": {
+    "e1": "- Identification of *Mycobacterium tuberculosis* complex by an accepted molecular test on an appropriate clinical specimen.\n- Culture isolation of *M. tuberculosis* complex.\n- Other accepted bacteriological confirmation explicitly identifying TB according to the applicable diagnostic algorithm.\n\nWHO's 2025 consolidated diagnostic guidance recommends molecular WHO-recommended rapid diagnostics for initial TB diagnosis in relevant populations and explicitly distinguishes diagnostic technologies by specimen and clinical setting. WHO also defines bacteriologically confirmed TB using positive smear microscopy, culture or a WHO-recommended diagnostic test; however, for this dataset's **pathogen-discriminative evidence matrix**, smear alone is insufficiently specific when nontuberculous mycobacteria remain plausible. \ue200cite\ue202turn877452search1\ue202turn877452search12\ue201",
+    "e2": "- Histopathology compatible with TB when integrated with microbiology and clinical findings.\n- Positive molecular evidence that is strong but limited by specimen or assay context.\n- Culture showing a mycobacterial organism with additional evidence establishing *M. tuberculosis*.",
+    "e3": "- AFB smear positive without organism identification.\n- Granulomatous inflammation.\n- Cavitary lesions / compatible imaging.\n- Chronic cough, fever, weight loss.\n- TB exposure history.",
+    "e0": "- \u201cHistory of TB\u201d in a relative.\n- TB mentioned as differential diagnosis.\n- TB contact investigation without evidence that the patient has TB disease.\n- TB vaccination / BCG discussion.",
+    "confusable": "| Apparent evidence | Possible alternative | Interpretation |\n|---|---|---|\n| AFB-positive smear | *M. avium* complex | Does not identify *M. tuberculosis* |\n| AFB-positive smear | *M. leprae* | Does not establish TB |\n| \u201cBCG infection\u201d | *M. bovis* BCG | Not equivalent to human TB disease caused by *M. tuberculosis* |\n| \u201ctuberculosis\u201d in text | historical/contact/differential | Requires assertion and role analysis |",
+    "contradiction": "A negative TB molecular test can be materially contradictory without universally excluding TB, particularly when disease site, specimen quality, or organism burden limits sensitivity. WHO's current guidance explicitly uses specimen- and population-specific algorithms and discusses discordant/negative testing. \ue200cite\ue202turn877452search5\ue202turn877452search12\ue201",
+    "traps": ""
+  },
+  "typhoid_fever": {
+    "e1": "- Isolation of *Salmonella Typhi* or *Salmonella Paratyphi* from an appropriate clinical specimen, especially blood culture.\n- Bone-marrow culture is highly sensitive and may remain positive despite prior antibiotics.\n\nCDC describes blood culture as the mainstay of diagnosis and notes that bone-marrow culture can retain substantial sensitivity. \ue200cite\ue202turn550161search10\ue201",
+    "e2": "- Validated molecular detection of *S. Typhi/Paratyphi* used in an appropriate diagnostic setting.\n- Concordant microbiological evidence from repeated specimens.",
+    "e3": "- Prolonged fever.\n- Abdominal symptoms.\n- Relative bradycardia where documented.\n- Leukopenia.\n- Travel/exposure history.",
+    "e0": "- Widal test.\n- \u201cTyphoid treated empirically\u201d.\n\nCDC specifically does not recommend Widal because of false-positive rates. \ue200cite\ue202turn550161search10\ue201",
+    "confusable": "```text\nTyphoid \u2194 malaria\nTyphoid \u2194 dengue\nTyphoid \u2194 brucellosis\nTyphoid \u2194 other invasive Salmonella infections\n```",
+    "contradiction": "A negative blood culture does not universally exclude typhoid because sensitivity is affected by prior antibiotics and number/volume of cultures.\n\n---\n\n---",
+    "traps": ""
+  },
+  "yellow_fever": {
+    "e1": "- RT-PCR / molecular detection in the early phase when viral RNA is detectable.\n- Appropriately interpreted serologic confirmation in later disease.\n\nWHO describes early RT-PCR and later antibody testing; CDC emphasizes the importance of distinguishing wild-type infection from vaccine-induced antibodies and using more specific neutralization testing when needed. \ue200cite\ue202turn382910search8\ue202turn550161search8\ue201",
+    "e2": "- Yellow fever IgM with appropriate epidemiological context and confirmatory neutralization testing when flavivirus cross-reactivity is possible.\n- Compatible laboratory and clinical findings interpreted together.",
+    "e3": "- Fever.\n- Jaundice.\n- Hemorrhagic features.\n- Exposure to endemic area/vector.",
+    "e0": "",
+    "confusable": "```text\nYellow fever \u2194 dengue\nYellow fever \u2194 malaria\nYellow fever \u2194 leptospirosis\nYellow fever \u2194 viral hepatitis\nYellow fever \u2194 other flavivirus infections\n```\n\nWHO notes that severe yellow fever can resemble malaria, leptospirosis, viral hepatitis and dengue. \ue200cite\ue202turn382910search8\ue201\n\n### Critical vaccination confounder\n\nYellow-fever vaccine can produce antibodies that are not distinguishable by some routine serologic assays from antibodies generated by wild-type infection. Vaccination history must therefore be part of evidence interpretation. \ue200cite\ue202turn550161search8\ue201\n\n---\n\n---",
+    "contradiction": "",
+    "traps": ""
+  },
+  "zika": {
+    "e1": "- Detection of Zika viral RNA by NAAT in an appropriate specimen and diagnostic window.\n\nCDC describes NAAT as the preferred method because it can provide confirmed evidence of infection. \ue200cite\ue202turn550161search3\ue201",
+    "e2": "- Zika-specific serology in the appropriate setting.\n- IgM followed by confirmatory neutralization testing when required to address flavivirus cross-reactivity.\n\nWHO states that IgM testing requires differentiation from related flaviviruses such as dengue. \ue200cite\ue202turn382910search13\ue201",
+    "e3": "- Rash.\n- Fever.\n- Conjunctivitis.\n- Arthralgia.\n- Compatible pregnancy/travel exposure.",
+    "e0": "",
+    "confusable": "```text\nZika \u2194 dengue\nZika \u2194 chikungunya\nZika \u2194 other flavivirus infection\n```",
+    "contradiction": "Negative NAAT may be non-definitive if the specimen or timing is inappropriate. IgM alone may remain ambiguous because of flavivirus cross-reactivity.\n\n---\n\n---",
+    "traps": ""
+  }
+}

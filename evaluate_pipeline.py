@@ -355,9 +355,11 @@ def run_full_evaluation(
         gold_str = case_gold["ground_truth_label"]
         v_label = case_gold.get("validated_label", "")
 
-        # Predicted disease: prefer explicit predicted_disease from report/model
+        # Predicted disease: respect explicit predicted_disease from report/model
         pred_disease = row.get("predicted_disease")
-        if not pred_disease or pred_disease == "UNKNOWN (Insufficient Evidence)":
+        if pred_disease is not None and str(pred_disease).strip() != "":
+            pred_str = str(pred_disease)
+        else:
             probs = {}
             for d in eval_diseases:
                 col = _clean_disease_name(d)
@@ -368,8 +370,6 @@ def run_full_evaluation(
                 pred_str = best_d if max_p > 0.50 else "UNKNOWN (Insufficient Evidence)"
             else:
                 pred_str = "UNKNOWN (Insufficient Evidence)"
-        else:
-            pred_str = str(pred_disease)
 
         # Match calculation:
         # If validated_label == 'POSITIVE': gold is target_disease. Matches iff pred_str == target_disease.
