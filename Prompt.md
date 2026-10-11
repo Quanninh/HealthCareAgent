@@ -18,4 +18,8 @@ Wrong Experiencer: The condition belongs to a family member or close contact (e.
 Differentials / Suspected only: It is merely a differential diagnosis being pondered without clinical affirmation.
 Hallucination: The entity does not actually exist in the raw text or is taken completely out of clinical context.
 
-Output Instructions: Do not provide a conversational response. Output ONLY the updated JSON code for human_review_queue.json, keeping the exact original schema, but with the expert_decision fields correctly updated to "APPROVED" or "REJECTED".
+Output Instructions: Do not provide a conversational response. Output ONLY the updated JSON code for human_review_queue.json, keeping the exact original schema, but with the expert_decision fields correctly updated to "APPROVED" or "REJECTED". Evaluate directly on human_review_queue.json
+
+Note: You must process entities with indices from 20001 to 20432
+1 to 4000
+4001 to 8000, 8001 to 12000, 12001 to 16000, 16001 to 20000, 20001 to 20432
