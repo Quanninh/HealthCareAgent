@@ -20,3 +20,6 @@ MedCAT/
 # OS artifacts
 .DS_Store
 Thumbs.db
+
+# related paper
+related_materials/
