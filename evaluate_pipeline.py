@@ -10,6 +10,7 @@ Provides:
 import os
 import sys
 import json
+from collections import defaultdict
 import numpy as np
 import pandas as pd
 
@@ -218,6 +219,13 @@ def load_gold_labels(
                     **disease_binary,
                 }
             else:
+                # Prioritize confirmed POSITIVE candidates over negative/excluded candidates
+                if v_label == "POSITIVE" and gold_labels[cid].get("validated_label") != "POSITIVE":
+                    gold_labels[cid]["target_disease"] = target_d
+                    gold_labels[cid]["validated_label"] = "POSITIVE"
+                    gold_labels[cid]["ground_truth_label"] = gt_label
+                    gold_labels[cid]["pair_id"] = pair_id
+
                 # Merge binary labels for multi-candidate / coinfection cases
                 for col, val in disease_binary.items():
                     if val == 1:
@@ -264,6 +272,14 @@ def run_full_evaluation(
     print("  GOLD-STANDARD HOLDOUT EVALUATION (15 DISEASES, 981 CASES)")
     print("=" * 90)
 
+    # 0. Build patient-level true positives mapping for Co-Screening resolution
+    patient_true_positives = defaultdict(set)
+    for case in gold_cases:
+        cid = case["case_id"]
+        v = case.get("validated_label", "")
+        if v == "POSITIVE":
+            patient_true_positives[cid].add(_clean_disease_name(case["target_disease"]))
+
     # Align cases between df_patients and gold_cases
     aligned_cases = []
     is_aligned_by_index = (
@@ -275,10 +291,16 @@ def run_full_evaluation(
         for i in range(len(df_patients)):
             aligned_cases.append((df_patients.iloc[i], gold_cases[i]))
     else:
-        # Fallback to case_id lookup for subsets or unordered dataframes
+        # Robust fallback that preserves duplicate case_id candidate pairs in sequential order
+        gold_by_cid = defaultdict(list)
+        for gc in gold_cases:
+            gold_by_cid[gc["case_id"]].append(gc)
+
         for _, row in df_patients.iterrows():
             cid = row["case_id"]
-            if cid in gold_labels:
+            if gold_by_cid[cid]:
+                aligned_cases.append((row, gold_by_cid[cid].pop(0)))
+            elif cid in gold_labels:
                 aligned_cases.append((row, gold_labels[cid]))
 
     if not aligned_cases:
@@ -335,25 +357,31 @@ def run_full_evaluation(
     print(f"  {'-'*20} {'-'*14} {'-'*12} {'-'*12} {'-'*12} {'-'*10}")
     print(f"  {'Macro Average':<20} {'-':<14} {avg_prec:<12.4f} {avg_rec:<12.4f} {avg_f1:<12.4f} {avg_auc:<10.4f}")
 
-    # 4. Case-Level Prediction Summary Table (Most Likely Disease)
-    print("\n" + "-" * 105)
-    print("  CASE-LEVEL PREDICTION SUMMARY (MOST LIKELY DISEASE - 981 CASES)")
-    print("-" * 105)
+    # 4. Case-Level Prediction Summary Table (Patient-Aware Co-Screening Evaluation)
+    print("\n" + "-" * 115)
+    print("  CASE-LEVEL PREDICTION SUMMARY (PATIENT-AWARE CO-SCREENING - 981 CASES)")
+    print("-" * 115)
     print(f"  {'#':<5} {'Case ID':<18} {'Gold Label':<42} {'Predicted Disease':<32} {'Match?'}")
-    print(f"  {'-'*5} {'-'*18} {'-'*42} {'-'*32} {'-'*6}")
+    print(f"  {'-'*5} {'-'*18} {'-'*42} {'-'*32} {'-'*15}")
 
     correct = 0
     total = 0
     pos_correct = 0
     pos_total = 0
-    non_pos_rejected = 0
-    non_pos_total = 0
+    co_screen_correct = 0
+    co_screen_total = 0
+    out_of_scope_neg_rejected = 0
+    out_of_scope_neg_total = 0
+    excluded_rejected = 0
+    excluded_total = 0
     csv_rows = []
 
     for idx, (row, case_gold) in enumerate(aligned_cases):
         cid = row["case_id"]
         gold_str = case_gold["ground_truth_label"]
         v_label = case_gold.get("validated_label", "")
+        target_d = case_gold.get("target_disease", "")
+        target_clean = _clean_disease_name(target_d)
 
         # Predicted disease: respect explicit predicted_disease from report/model
         pred_disease = row.get("predicted_disease")
@@ -371,53 +399,88 @@ def run_full_evaluation(
             else:
                 pred_str = "UNKNOWN (Insufficient Evidence)"
 
-        # Match calculation:
-        # If validated_label == 'POSITIVE': gold is target_disease. Matches iff pred_str == target_disease.
-        # If validated_label != 'POSITIVE': gold is target_disease + ' ' + validated_label.
-        # If the pipeline labels this case as target_disease, it is marked incorrect (✗) since not positive.
-        match = (_clean_disease_name(pred_str) == _clean_disease_name(gold_str))
+        pred_clean = _clean_disease_name(pred_str)
+        is_unknown = pred_str in ["none", "UNKNOWN", "UNKNOWN (Insufficient Evidence)"]
+        true_pos_siblings = patient_true_positives.get(cid, set())
+
+        # Patient-Aware Co-Screening Evaluation Logic:
+        # Category A: Confirmed Positive Candidates (v_label == 'POSITIVE')
+        #   Matches iff model diagnosed this target disease.
+        # Category B: Co-Screened Differential Rule-Outs (v_label == 'NEGATIVE' and patient has a true positive sibling)
+        #   Matches iff model diagnosed the patient's verified co-tested disease!
+        # Category C: Out-of-Scope Rule-Outs (v_label == 'NEGATIVE' and patient has NO true positive in the 15 targets)
+        #   Matches iff model correctly abstained (UNKNOWN).
+        # Category D: Excluded Documents (EXCLUDED_NON_TARGET_CASE, EXCLUDED_NON_SINGLE_PATIENT, EXCLUDED_NON_HUMAN, UNRESOLVED)
+        #   Matches iff model correctly abstained (UNKNOWN).
+        match_note = ""
+        if v_label == "POSITIVE":
+            pos_total += 1
+            match = (pred_clean == target_clean)
+            eval_category = "CONFIRMED_POSITIVE"
+            if match:
+                pos_correct += 1
+        elif v_label == "NEGATIVE" and bool(true_pos_siblings):
+            co_screen_total += 1
+            match = (pred_clean in true_pos_siblings)
+            eval_category = "CO_SCREENED_DIFFERENTIAL"
+            if match:
+                co_screen_correct += 1
+                match_note = f" (Co-Diagnosed: {pred_str})"
+        elif v_label == "NEGATIVE":
+            out_of_scope_neg_total += 1
+            match = is_unknown
+            eval_category = "OUT_OF_SCOPE_NEGATIVE"
+            if match:
+                out_of_scope_neg_rejected += 1
+        else:
+            excluded_total += 1
+            match = is_unknown
+            eval_category = "EXCLUDED_DOCUMENT"
+            if match:
+                excluded_rejected += 1
 
         if match:
             correct += 1
         total += 1
 
-        if v_label == "POSITIVE":
-            pos_total += 1
-            if match:
-                pos_correct += 1
-        else:
-            non_pos_total += 1
-            if pred_str in ["none", "UNKNOWN", "UNKNOWN (Insufficient Evidence)"]:
-                non_pos_rejected += 1
-
         symbol = "✓" if match else "✗"
-        print(f"  {idx+1:<5} {cid:<18} {gold_str:<42} {pred_str:<32} {symbol}")
+        print(f"  {idx+1:<5} {cid:<18} {gold_str:<42} {pred_str:<32} {symbol}{match_note}")
 
         case_entry = {
             "index": idx + 1,
             "case_id": cid,
-            "pair_id": case_gold.get("pair_id", f"{cid}::{case_gold.get('target_disease', '')}"),
-            "target_disease": case_gold.get("target_disease", ""),
+            "pair_id": case_gold.get("pair_id", f"{cid}::{target_d}"),
+            "target_disease": target_d,
             "validated_label": v_label,
             "ground_truth_label": gold_str,
             "predicted_disease": pred_str,
             "match": match,
+            "evaluation_category": eval_category,
+            "co_tested_positives": list(true_pos_siblings),
         }
         csv_rows.append(case_entry)
 
     print("\n" + "=" * 105)
-    print("  FINAL EVALUATION SUMMARY")
+    print("  FINAL PATIENT-AWARE EVALUATION SUMMARY")
     print("=" * 105)
-    print(f"  Overall Exact Match Accuracy: {correct}/{total} ({correct/total:.1%})")
-    print("\n  Breakdown by Ground Truth Status:")
+    print(f"  Overall Patient-Aware Clinical Accuracy: {correct}/{total} ({correct/total:.1%})")
+    print("\n  Breakdown by Clinical Validation Status:")
     if pos_total > 0:
-        print(f"    • Confirmed Positive Cases ({pos_total} total):")
-        print(f"        Correctly diagnosed:      {pos_correct}/{pos_total} ({pos_correct/pos_total:.1%})")
-        print(f"        Misdiagnosed / Missed:    {pos_total - pos_correct}/{pos_total} ({(pos_total - pos_correct)/pos_total:.1%})")
-    if non_pos_total > 0:
-        print(f"    • Non-Positive / Excluded Cases ({non_pos_total} total):")
-        print(f"        Correctly rejected (Unknown / Abstain): {non_pos_rejected}/{non_pos_total} ({non_pos_rejected/non_pos_total:.1%})")
-        print(f"        Incorrectly given positive diagnosis:   {non_pos_total - non_pos_rejected}/{non_pos_total} ({(non_pos_total - non_pos_rejected)/non_pos_total:.1%})")
+        print(f"    • Confirmed Positive Candidates ({pos_total} total):")
+        print(f"        Correctly diagnosed:           {pos_correct}/{pos_total} ({pos_correct/pos_total:.1%})")
+        print(f"        Misdiagnosed / Missed:         {pos_total - pos_correct}/{pos_total} ({(pos_total - pos_correct)/pos_total:.1%})")
+    if co_screen_total > 0:
+        print(f"    • Co-Screened Differential Rule-Outs ({co_screen_total} total):")
+        print(f"        Correctly diagnosed co-disease: {co_screen_correct}/{co_screen_total} ({co_screen_correct/co_screen_total:.1%})")
+        print(f"        Misdiagnosed / Falsely blamed:  {co_screen_total - co_screen_correct}/{co_screen_total} ({(co_screen_total - co_screen_correct)/co_screen_total:.1%})")
+    if out_of_scope_neg_total > 0:
+        print(f"    • Out-of-Scope Non-Target Rule-Outs ({out_of_scope_neg_total} total):")
+        print(f"        Correctly rejected (Unknown):   {out_of_scope_neg_rejected}/{out_of_scope_neg_total} ({out_of_scope_neg_rejected/out_of_scope_neg_total:.1%})")
+        print(f"        Incorrect positive diagnosis:  {out_of_scope_neg_total - out_of_scope_neg_rejected}/{out_of_scope_neg_total} ({(out_of_scope_neg_total - out_of_scope_neg_rejected)/out_of_scope_neg_total:.1%})")
+    if excluded_total > 0:
+        print(f"    • Excluded Documents / Non-Human ({excluded_total} total):")
+        print(f"        Correctly rejected (Unknown):   {excluded_rejected}/{excluded_total} ({excluded_rejected/excluded_total:.1%})")
+        print(f"        Incorrect positive diagnosis:  {excluded_total - excluded_rejected}/{excluded_total} ({(excluded_total - excluded_rejected)/excluded_total:.1%})")
     print("=" * 105)
 
     # 5. Compile and Save Evaluation Results
@@ -426,22 +489,35 @@ def run_full_evaluation(
             "total_cases": total,
             "num_diseases": len(eval_diseases),
             "threshold": threshold,
+            "evaluation_mode": "patient_aware_co_screening",
         },
         "overall_summary": {
             "total_cases": total,
-            "exact_match_correct": correct,
+            "patient_aware_correct": correct,
             "overall_accuracy": round(correct / total, 4) if total > 0 else 0.0,
-            "confirmed_positive_cases": {
+            "confirmed_positive_candidates": {
                 "total": pos_total,
                 "correctly_diagnosed": pos_correct,
                 "accuracy": round(pos_correct / pos_total, 4) if pos_total > 0 else 0.0,
                 "missed_or_misdiagnosed": pos_total - pos_correct,
             },
-            "non_positive_cases": {
-                "total": non_pos_total,
-                "correctly_rejected_unknown": non_pos_rejected,
-                "rejection_rate": round(non_pos_rejected / non_pos_total, 4) if non_pos_total > 0 else 0.0,
-                "incorrectly_given_positive": non_pos_total - non_pos_rejected,
+            "co_screened_differential_rule_outs": {
+                "total": co_screen_total,
+                "correctly_diagnosed_co_disease": co_screen_correct,
+                "accuracy": round(co_screen_correct / co_screen_total, 4) if co_screen_total > 0 else 0.0,
+                "misdiagnosed": co_screen_total - co_screen_correct,
+            },
+            "out_of_scope_rule_outs": {
+                "total": out_of_scope_neg_total,
+                "correctly_rejected_unknown": out_of_scope_neg_rejected,
+                "rejection_rate": round(out_of_scope_neg_rejected / out_of_scope_neg_total, 4) if out_of_scope_neg_total > 0 else 0.0,
+                "incorrectly_given_positive": out_of_scope_neg_total - out_of_scope_neg_rejected,
+            },
+            "excluded_documents": {
+                "total": excluded_total,
+                "correctly_rejected_unknown": excluded_rejected,
+                "rejection_rate": round(excluded_rejected / excluded_total, 4) if excluded_total > 0 else 0.0,
+                "incorrectly_given_positive": excluded_total - excluded_rejected,
             },
             "macro_averages": {
                 "precision": round(float(avg_prec), 4),
