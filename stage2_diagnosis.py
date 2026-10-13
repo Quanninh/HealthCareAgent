@@ -140,6 +140,145 @@ def _count_matches(symptoms: list, targets: list) -> int:
             count += 1
     return count
 
+# for the embedding sentences
+def _select_representative_terms(terms: list, max_count: int = 12) -> list:
+    """
+    Selects up to max_count distinct, non-redundant diagnostic evidence phrases
+    to keep reference embedding prompts within sentence transformer token limits.
+    """
+    selected = []
+    for t in terms:
+        t_clean = str(t).strip()
+        if not t_clean:
+            continue
+        # Avoid exact or near-identical substring duplicates
+        if any(t_clean == s or (len(t_clean) > 8 and t_clean in s) for s in selected):
+            continue
+        selected.append(t_clean)
+        if len(selected) >= max_count:
+            break
+    if len(selected) < max_count:
+        for t in terms:
+            t_clean = str(t).strip()
+            if t_clean and t_clean not in selected:
+                selected.append(t_clean)
+                if len(selected) >= max_count:
+                    break
+    return selected
+
+# for the embedding sentences
+def extract_salient_clinical_snippet(
+    text: str,
+    title: str,
+    disease_terms: list,
+    evidence_terms: list,
+    target_len: int = 600,
+) -> str:
+    """
+    Extracts a high-information focal window (~target_len chars) from clinical presentation text:
+      1. Diagnostic Anchor (Tier 1): Search for explicit disease mentions. If found,
+         extract a window centered around the match (± target_len // 2 chars).
+      2. Confirmatory Evidence Anchor (Tier 2): Search for E1/E2 lab/serology terms. If found,
+         extract window starting shortly before the match [-60, +target_len - 60].
+      3. Terminal Course Fallback (Tier 3): If neither is found, fall back to the tail
+         (last target_len chars), where final diagnosis/discharge summary usually resides.
+    Snaps window boundaries to whitespace to avoid severing words, and prepends the case title.
+    """
+    if not text:
+        return title.strip() if title else ""
+
+    text_clean = text.strip()
+    t_len = len(text_clean)
+
+    if t_len <= target_len:
+        snippet = text_clean
+    else:
+        t_lower = text_clean.lower()
+        match_start = -1
+        match_tier = 0
+        matched_term = ""
+
+        # Tier 1: Explicit disease mentions (prefer latest occurrence)
+        for term in disease_terms:
+            if not term:
+                continue
+            pos = t_lower.rfind(term)
+            if pos != -1 and pos > match_start:
+                match_start = pos
+                match_tier = 1
+                matched_term = term
+
+        # Tier 2: E1 / E2 confirmatory evidence (if no Tier 1 match)
+        if match_tier == 0:
+            for term in evidence_terms:
+                if not term:
+                    continue
+                pos = t_lower.rfind(term)
+                if pos != -1 and pos > match_start:
+                    match_start = pos
+                    match_tier = 2
+                    matched_term = term
+
+        if match_tier == 1:
+            # Center around the disease match (± target_len // 2)
+            half = target_len // 2
+            mid = match_start + len(matched_term) // 2
+            raw_start = max(0, mid - half)
+            raw_end = min(t_len, raw_start + target_len)
+            if raw_end == t_len:
+                raw_start = max(0, t_len - target_len)
+
+            start = raw_start
+            if start > 0:
+                space_idx = text_clean.find(" ", start)
+                if space_idx != -1 and space_idx - start <= 30 and space_idx < match_start:
+                    start = space_idx + 1
+
+            end = raw_end
+            if end < t_len:
+                space_idx = text_clean.rfind(" ", start, end)
+                if space_idx != -1 and end - space_idx <= 30 and space_idx > match_start:
+                    end = space_idx
+
+            snippet = text_clean[start:end].strip()
+
+        elif match_tier == 2:
+            # Lead slightly before the evidence match [-60, +target_len - 60]
+            raw_start = max(0, match_start - 60)
+            raw_end = min(t_len, raw_start + target_len)
+            if raw_end == t_len:
+                raw_start = max(0, t_len - target_len)
+
+            start = raw_start
+            if start > 0:
+                space_idx = text_clean.find(" ", start)
+                if space_idx != -1 and space_idx - start <= 30 and space_idx <= match_start:
+                    start = space_idx + 1
+
+            end = raw_end
+            if end < t_len:
+                space_idx = text_clean.rfind(" ", start, end)
+                if space_idx != -1 and end - space_idx <= 30 and space_idx > match_start:
+                    end = space_idx
+
+            snippet = text_clean[start:end].strip()
+
+        else:
+            # Tier 3: Tail fallback (last target_len chars)
+            raw_start = max(0, t_len - target_len)
+            start = raw_start
+            if start > 0:
+                space_idx = text_clean.find(" ", start)
+                if space_idx != -1 and space_idx - start <= 30:
+                    start = space_idx + 1
+            snippet = text_clean[start:].strip()
+
+    title_str = title.strip() if title else ""
+    if title_str:
+        clean_title = title_str.rstrip(".!?;:")
+        return f"{clean_title}. {snippet}".strip()
+    return snippet
+
 
 # ═══════════════════════════════════════════════════════════════════════════════
 #  Dynamic Multi-Tiered Labeling Functions Factory (8 LFs per Disease)
@@ -433,16 +572,50 @@ def run_stage2_multilabel_diagnosis(
         from sklearn.metrics.pairwise import cosine_similarity
         print("Pre-encoding cases with all-MiniLM-L6-v2 for dense semantic similarity...")
         embedder = SentenceTransformer("all-MiniLM-L6-v2")
-        crit_texts = []
+        
         disease_keys = list(DISEASES.keys())
+        
+        # Build search vocabularies for strategic extraction
+        disease_search_terms = []
+        for d in disease_keys:
+            d_clean = d.lower().replace('_', ' ').replace('-', ' ')
+            disease_search_terms.append(d_clean)
+            if d.lower() != d_clean:
+                disease_search_terms.append(d.lower())
+        disease_search_terms = sorted(list(dict.fromkeys(disease_search_terms)), key=len, reverse=True)
+
+        evidence_search_terms = []
+        for d in disease_keys:
+            for t in DISEASE_E1_LABS.get(d, []):
+                if t:
+                    evidence_search_terms.append(str(t).lower().strip())
+            for t in DISEASE_E2_SEROLOGY.get(d, []):
+                if t:
+                    evidence_search_terms.append(str(t).lower().strip())
+        evidence_search_terms = sorted(list(dict.fromkeys(evidence_search_terms)), key=len, reverse=True)
+
+        # Build disease criteria reference embeddings with representative terms (safe under 256 tokens)
+        crit_texts = []
         for d in disease_keys:
             d_clean = d.replace('_', ' ').replace('-', ' ')
-            e1_terms = ", ".join(DISEASE_E1_LABS.get(d, [])[:6])
-            e2_terms = ", ".join(DISEASE_E2_SEROLOGY.get(d, [])[:6])
+            e1_selected = _select_representative_terms(DISEASE_E1_LABS.get(d, []), max_count=10)
+            e2_selected = _select_representative_terms(DISEASE_E2_SEROLOGY.get(d, []), max_count=10)
+            e1_terms = ", ".join(e1_selected)
+            e2_terms = ", ".join(e2_selected)
             crit_texts.append(f"Confirmed clinical case and diagnosis of {d_clean}. Confirmatory tests: {e1_terms}. Clinical evidence: {e2_terms}.")
         crit_embs = embedder.encode(crit_texts, show_progress_bar=False)
         
-        patient_texts = [f"{r['title']} {r['case_presentation'][:600]}" for r in patient_cases]
+        # Strategic salient extraction for patient presentations (Tier 1 disease -> Tier 2 evidence -> Tier 3 tail)
+        patient_texts = [
+            extract_salient_clinical_snippet(
+                text=r["case_presentation"],
+                title=r["title"],
+                disease_terms=disease_search_terms,
+                evidence_terms=evidence_search_terms,
+                target_len=600,
+            )
+            for r in patient_cases
+        ]
         patient_embs = embedder.encode(patient_texts, batch_size=64, show_progress_bar=False)
         sim_matrix = cosine_similarity(patient_embs, crit_embs)
         for idx, d in enumerate(disease_keys):
