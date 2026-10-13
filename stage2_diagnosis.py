@@ -68,6 +68,9 @@ from clinical_knowledge import (
     parse_brucellosis_titer,
     parse_leptospirosis_titer,
     parse_leishmaniasis_titer,
+    CONCLUDING_DIAGNOSIS_PATTERNS,
+    COMMON_NON_TARGET_DISEASE_TERMS,
+    GENERIC_COMPLICATION_BLACKLIST,
 )
 import re
 
@@ -75,6 +78,7 @@ import re
 COMPILED_COHORT_PATTERNS = [re.compile(p, re.IGNORECASE) for p in COHORT_AND_AGGREGATE_PATTERNS]
 COMPILED_NON_HUMAN_PATTERNS = [re.compile(p, re.IGNORECASE) for p in NON_HUMAN_PATTERNS]
 COMPILED_SINGLE_PATIENT_ANCHOR = re.compile(SINGLE_PATIENT_ANCHOR_PATTERNS[0], re.IGNORECASE)
+COMPILED_CONCLUDING_DIAGNOSIS_PATTERNS = [re.compile(p, re.IGNORECASE) for p in CONCLUDING_DIAGNOSIS_PATTERNS]
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -319,7 +323,7 @@ def make_lfs_for_disease(disease_name: str):
         if _text_contains(case_text, e1):
             return BinaryDiseaseLabel.POSITIVE
         title_text = getattr(x, "title", "")
-        combined = f"{title_text} {case_text}"
+        combined = f"{title_text}. {case_text}" if title_text else case_text
         if is_valid_relational_affirmation(combined, d_name):
             return BinaryDiseaseLabel.POSITIVE
         if d_name == "Brucellosis" and parse_brucellosis_titer(case_text):
@@ -415,6 +419,65 @@ def make_lfs_for_disease(disease_name: str):
             return BinaryDiseaseLabel.NEGATIVE
         return BinaryDiseaseLabel.ABSTAIN
 
+    # 8. Tier 4B: Alternative Confirmed Diagnosis Exclusion (Votes 0)
+    @labeling_function(name=f"lf_{sanitized_name}_alternative_confirmed_diagnosis")
+    def lf_alternative_diagnosis(x, d_name=disease_name, e1=e1_labs, lt_cuis=lab_cuis):
+        case_text = getattr(x, "case_presentation", "")
+        title_text = getattr(x, "title", "")
+        combined = f"{title_text}. {case_text}" if title_text else case_text
+        # 1. Guard against overriding true positives: ABSTAIN if target disease has E1 confirmatory lab
+        patient_cuis = getattr(x, "affirmed_cuis", set())
+        valid_syms = getattr(x, "valid_symptoms", [])
+        has_e1 = (
+            bool(patient_cuis & lt_cuis)
+            or _symptom_match(valid_syms, e1)
+            or _text_contains(case_text, e1)
+            or is_valid_relational_affirmation(combined, d_name)
+        )
+        if has_e1:
+            return BinaryDiseaseLabel.ABSTAIN
+        # 2. Extract concluding clinical narrative (last 600 chars, stripping trailing consent boilerplate)
+        tail_text = case_text[-600:].lower() if len(case_text) > 600 else case_text.lower()
+        title_lower = title_text.lower()
+        # 3. Check for explicit non-target disease mention in title or concluding narrative
+        d_clean = d_name.lower().replace('_', ' ').replace('-', ' ')
+        orgs = DISEASE_ORGANISMS.get(d_name, [d_clean])
+        in_title = any(org in title_lower for org in [d_clean] + orgs)
+        has_alt_diagnosis = False
+        # Check explicit common non-target disease terms with word boundaries
+        for non_target in COMMON_NON_TARGET_DISEASE_TERMS:
+            # Word boundary check prevents acronyms like "sle" from matching "slept"
+            if re.search(rf"\b{re.escape(non_target)}\b", title_lower) or re.search(rf"\b{re.escape(non_target)}\b", tail_text):
+                # Ensure the non-target string doesn't match any target disease organism
+                if not any(org in non_target for org in orgs):
+                    # If target disease is titled, narrative tail mentions of complications/history don't override it
+                    if in_title and not re.search(rf"\b{re.escape(non_target)}\b", title_lower):
+                        continue
+                    has_alt_diagnosis = True
+                    break
+        # Check syntactic concluding diagnostic patterns
+        if not has_alt_diagnosis:
+            for pattern in COMPILED_CONCLUDING_DIAGNOSIS_PATTERNS:
+                match = pattern.search(tail_text)
+                if match:
+                    # Captured candidate disease span
+                    groups = [g for g in match.groups() if g and len(g.strip()) >= 3]
+                    if groups:
+                        extracted_disease = groups[-1].strip().lower()
+                        # Reject if the extracted term is a generic complication of target diseases
+                        if any(comp in extracted_disease for comp in GENERIC_COMPLICATION_BLACKLIST):
+                            continue
+                        # Reject if the extracted term matches the current target disease
+                        if any(org in extracted_disease for org in orgs) or extracted_disease in [d_clean, d_name.lower()]:
+                            continue
+                        if in_title:
+                            continue
+                        has_alt_diagnosis = True
+                        break
+        if has_alt_diagnosis:
+            return BinaryDiseaseLabel.NEGATIVE
+        return BinaryDiseaseLabel.ABSTAIN
+
     return [
         lf_e1_lab,             # Tier 1 (E1): Gold standard confirmatory labs (+1)
         lf_e2_serology,        # Tier 2 (E2): High-titer serology & pathognomonic signs (+1)
@@ -422,7 +485,8 @@ def make_lfs_for_disease(disease_name: str):
         lf_e3_constellation,   # Tier 3B (E3): Clinical constellation (+1)
         lf_e3_exposure,        # Tier 3C (E3): Epidemiological exposure & vectors (+1)
         lf_dense_sim,          # Dense semantic similarity (+1)
-        lf_neg_lab,            # Tier 4: Explicit negative lab / ruled out (0)
+        lf_neg_lab,            # Tier 4A: Explicit negative lab / ruled out (0)
+        lf_alternative_diagnosis, # Tier 4B: Alternative confirmed diagnosis (0)
     ]
 
 
@@ -619,7 +683,8 @@ def run_stage2_multilabel_diagnosis(
     def _get_top_disease(row):
         case_text = str(row.get("case_presentation") or "").lower()
         title_text = str(row.get("title") or "").lower()
-        combined = f"{title_text} {case_text}"
+        combined = f"{title_text}. {case_text}" if title_text else case_text
+        tail_text = case_text[-600:].lower() if len(case_text) > 600 else case_text.lower()
 
         # Global Document Scope Gate (Protocol Steps 1 & 2): Cohorts, case series, non-human
         is_single = bool(COMPILED_SINGLE_PATIENT_ANCHOR.search(case_text[:300]))
@@ -721,6 +786,41 @@ def run_stage2_multilabel_diagnosis(
                 if not has_e1:
                     continue
 
+            # not suitable as a guardrail
+            # # Tier 4B: Alternative Confirmed Diagnosis Exclusion
+            # has_alt_diagnosis = False
+            # for non_target in COMMON_NON_TARGET_DISEASE_TERMS:
+            #     if re.search(rf"\b{re.escape(non_target)}\b", title_text) or re.search(rf"\b{re.escape(non_target)}\b", tail_text):
+            #         if not any(org in non_target for org in orgs):
+            #             if in_title and not re.search(rf"\b{re.escape(non_target)}\b", title_text):
+            #                 continue
+            #             has_alt_diagnosis = True
+            #             break
+            # if not has_alt_diagnosis:
+            #     for pattern in COMPILED_CONCLUDING_DIAGNOSIS_PATTERNS:
+            #         match = pattern.search(tail_text)
+            #         if match:
+            #             groups = [g for g in match.groups() if g and len(g.strip()) >= 3]
+            #             if groups:
+            #                 extracted_disease = groups[-1].strip().lower()
+            #                 if any(comp in extracted_disease for comp in GENERIC_COMPLICATION_BLACKLIST):
+            #                     continue
+            #                 if any(org in extracted_disease for org in orgs) or extracted_disease in [d_clean, d.lower()]:
+            #                     continue
+            #                 if in_title:
+            #                     continue
+            #                 has_alt_diagnosis = True
+            #                 break
+
+            # has_direct_e1 = (
+            #     bool(patient_cuis & lt_cuis)
+            #     or _symptom_match(valid_syms, e1_labs)
+            #     or _text_contains(case_text, e1_labs)
+            #     or is_valid_relational_affirmation(combined, d)
+            # )
+            # if has_alt_diagnosis and not has_direct_e1:
+            #     continue
+
             # Check E2 evidence
             has_titer_e2 = False
             if d == "Leptospirosis" and parse_leptospirosis_titer(case_text, 100):
@@ -768,7 +868,7 @@ def run_stage2_multilabel_diagnosis(
             return "UNKNOWN (Insufficient Evidence)"
 
         # Sort by clinical composite score descending, then by probability
-        candidate_scores.sort(key=lambda item: (item[1], item[2]), reverse=True)
+        candidate_scores.sort(key=lambda item: (item[2], item[1]), reverse=True)
         return candidate_scores[0][0]
 
     df_patients["predicted_disease"] = df_patients.apply(_get_top_disease, axis=1)

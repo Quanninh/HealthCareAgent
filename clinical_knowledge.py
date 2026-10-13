@@ -511,6 +511,64 @@ DISEASE_HOMONYMS = {
     ],
 }
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Concluding Diagnostic Frames & Alternative Disease Indicators
+# ─────────────────────────────────────────────────────────────────────────────
+# Explicit diagnostic confirmation phrasing typically found in title or concluding narrative
+CONCLUDING_DIAGNOSIS_PATTERNS = [
+    r"\b(final|definitive|confirmed|discharge|primary|histological|pathological)\s+diagnosis\s+(?:was|is|of)\s+([a-zA-Z\s\-]{3,45})",
+    r"\bwas\s+(?:finally\s+)?diagnosed\s+with\s+([a-zA-Z\s\-]{3,45})",
+    r"\bdiagnosis\s+of\s+([a-zA-Z\s\-]{3,45})\s+was\s+(?:confirmed|established|made)\b",
+    r"\b(?:biopsy|histopathology|surgical pathology|pathology)\s+(?:revealed|confirmed|showed)\s+([a-zA-Z\s\-]{3,45})",
+    r"\bconsistent\s+with\s+(?:a\s+diagnosis\s+of\s+)?([a-zA-Z\s\-]{3,45})",
+    r"\bstarted\s+on\s+[^.\n]{0,30}\s+(?:for|to treat)\s+([a-zA-Z\s\-]{3,45})",
+]
+# Explicit non-target disease entities frequently encountered in rule-out case series
+COMMON_NON_TARGET_DISEASE_TERMS = [
+    "familial mediterranean fever", "fmf",
+    "adenocarcinoma", "carcinoma", "lymphoma", "leukemia", "sarcoma", "melanoma",
+    "systemic lupus erythematosus", "lupus", "sle",
+    "felty syndrome", "rheumatoid arthritis", "juvenile idiopathic arthritis",
+    "acinetobacter", "pseudomonas", "klebsiella", "leptotrichia", "enterococcus",
+    "kawasaki disease", "still's disease", "adult-onset still",
+    "sarcoidosis", "syphilis", "treponema pallidum", "endocarditis",
+    "pheochromocytoma", "iga vasculitis", "henoch-schonlein", "vasculitis",
+    "hidradenitis suppurativa", "hereditary angioedema", "c1-inh",
+    "chagas", "trypanosoma", "cruzi",
+    "west nile", "west nile virus", "wnv",
+    "cryptococcal", "cryptococcus", "cryptococcosis",
+    "leprosy", "mycobacterium leprae", "hansen's disease",
+    "cystic fibrosis",
+    "lupus nephritis",
+    "monkeypox", "mpox",
+    "lassa fever",
+    "powassan",
+    "ramsay hunt", "herpes zoster",
+    "cryptosporidium", "cryptosporidiosis",
+    "patent foramen ovale", "foramen ovale", "atrial septal defect",
+    "vitt", "vaccine-induced immune thrombotic thrombocytopenia",
+    "coronary artery atresia",
+    "compartment syndrome",
+    "necrotizing soft tissue infection", "necrotizing fasciitis",
+    "post dengue mania",
+    "amebic liver abscess", "entamoeba histolytica",
+    "mycobacterium mucogenicum", "non-tuberculous mycobacteria", "ntm",
+]
+# Generic complications of infectious diseases that must NEVER be flagged as "alternative diseases"
+GENERIC_COMPLICATION_BLACKLIST = {
+    "ards", "acute respiratory distress syndrome",
+    "septic shock", "sepsis", "severe sepsis",
+    "multi-organ failure", "multiorgan failure", "multiple organ dysfunction",
+    "acute kidney injury", "aki", "renal failure",
+    "hepatic failure", "acute liver failure",
+    "cardiac arrest", "heart failure", "cardiogenic shock",
+    "respiratory failure", "hypoxemic respiratory failure",
+    "disseminated intravascular coagulation", "dic",
+    "thrombocytopenia", "severe thrombocytopenia",
+    "secondary bacterial pneumonia", "bacterial superinfection",
+    "encephalopathy", "coagulopathy",
+}
+
 # Document Scope Filters: Aggregate Cohorts, Population Studies, and Reviews (Must be excluded)
 COHORT_AND_AGGREGATE_PATTERNS = [
     r"\ba total of \d+ (cases|patients)\b",
@@ -562,10 +620,10 @@ NON_HUMAN_PATTERNS = [
 # Pathogen / Organism keywords for Relational Evidence Grounding
 DISEASE_ORGANISMS = {
     "Dengue": ["dengue", "denv", "denv-1", "denv-2", "denv-3", "denv-4"],
-    "Malaria": ["malaria", "plasmodium", "falciparum", "vivax", "ovale", "malariae", "knowlesi"],
+    "Malaria": ["malaria", "plasmodium", "falciparum", "vivax", "plasmodium ovale", "p. ovale", "malariae", "knowlesi"],
     "Ebola_Filovirus": ["ebola", "marburg", "filovirus", "ebolavirus", "zaire", "sudan ebolavirus"],
     "Tuberculosis": ["tuberculosis", "mycobacterium", "m. tuberculosis", "mtb", "mtbc", "acid-fast", "afb", "tb", "tuberculous", "tubercular"],
-    "COVID-19": ["sars-cov-2", "covid-19", "coronavirus disease 2019", "covid19", "2019-ncov", "omicron"],
+    "COVID-19": ["sars-cov-2", "covid-19", "coronavirus disease 2019", "covid19", "2019-ncov", "omicron", "covid"],
     "HIV_AIDS": ["hiv", "human immunodeficiency virus", "aids", "hiv-1", "hiv-2", "antiretroviral", "haart"],
     "Chikungunya": ["chikungunya", "chkv", "chikv", "chicungunha"],
     "Zika": ["zika", "zikv"],
@@ -590,7 +648,7 @@ import re
 
 # Strict negation regex with word boundaries to avoid matching "abnormal" as "normal"
 COMPILED_NEGATIONS = re.compile(
-    r"\b(negative|not detected|no growth|non-reactive|nonreactive|undetectable|ruled out|no evidence|unremarkable|failed to detect|absence of|sterile|did not show)\b|(?<!ab)\bnormal\b",
+    r"\b(negative|not detected|no growth|non-reactive|nonreactive|undetectable|ruled out|no evidence|unremarkable|unrevealing|failed to detect|absence of|sterile|did not show|misinterpretation|misinterpreted|misidentification|misidentified)\b|(?<!ab)\bnormal\b",
     re.IGNORECASE
 )
 
@@ -700,9 +758,7 @@ def is_valid_relational_affirmation(text: str, disease_name: str) -> bool:
     if not text:
         return False
 
-    # Check disease-specific mathematical titers first
-    if disease_name == "Brucellosis" and parse_brucellosis_titer(text):
-        return True
+    # Check disease-specific confirmatory mathematical titers (E1)
     if disease_name == "Leptospirosis" and parse_leptospirosis_titer(text, min_denom=400):
         return True
     if disease_name == "Leishmaniasis" and parse_leishmaniasis_titer(text, min_denom=800):
@@ -712,6 +768,7 @@ def is_valid_relational_affirmation(text: str, disease_name: str) -> bool:
     if not orgs:
         return False
 
+    homonyms = DISEASE_HOMONYMS.get(disease_name, [])
     t_lower = text.lower()
 
     # Split into clauses by sentence endings and conjunctions
@@ -719,6 +776,10 @@ def is_valid_relational_affirmation(text: str, disease_name: str) -> bool:
     for clause in clauses:
         clause = clause.strip()
         if not clause:
+            continue
+
+        # Skip clauses matching known disease homonyms (e.g., rabies vaccine, foramen ovale)
+        if any(h in clause for h in homonyms):
             continue
 
         # Check if clause contains target pathogen
