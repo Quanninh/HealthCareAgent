@@ -7,13 +7,13 @@
   },
   "overall_summary": {
     "total_cases": 981,
-    "patient_aware_correct": 722,
-    "overall_accuracy": 0.736,
+    "patient_aware_correct": 729,
+    "overall_accuracy": 0.7431,
     "confirmed_positive_candidates": {
       "total": 602,
-      "correctly_diagnosed": 544,
-      "accuracy": 0.9037,
-      "missed_or_misdiagnosed": 58
+      "correctly_diagnosed": 545,
+      "accuracy": 0.9053,
+      "missed_or_misdiagnosed": 57
     },
     "co_screened_differential_rule_outs": {
       "total": 21,
@@ -29,14 +29,14 @@
     },
     "excluded_documents": {
       "total": 307,
-      "correctly_rejected_unknown": 143,
-      "rejection_rate": 0.4658,
-      "incorrectly_given_positive": 164
+      "correctly_rejected_unknown": 149,
+      "rejection_rate": 0.4853,
+      "incorrectly_given_positive": 158
     },
     "macro_averages": {
-      "precision": 0.2225,
+      "precision": 0.2246,
       "recall": 0.9839,
-      "f1_score": 0.3438,
+      "f1_score": 0.3473,
       "roc_auc": 0.9178
     }
   },
@@ -59,7 +59,7 @@
       "precision": 0.13440860215053763,
       "recall": 1.0,
       "f1_score": 0.23696682464454977,
-      "roc_auc": 0.8341675617615467
+      "roc_auc": 0.8346831364124597
     },
     {
       "disease": "EBOLA_FILOVIRUS",
@@ -69,27 +69,27 @@
       "precision": 0.026143790849673203,
       "recall": 1.0,
       "f1_score": 0.050955414012738856,
-      "roc_auc": 0.9329580348004094
+      "roc_auc": 0.9339815762538383
     },
     {
       "disease": "TUBERCULOSIS",
       "pos_count": 77,
       "neg_count": 904,
       "total": 981,
-      "precision": 0.21652421652421652,
+      "precision": 0.2177650429799427,
       "recall": 0.987012987012987,
-      "f1_score": 0.35514018691588783,
-      "roc_auc": 0.8489685093667394
+      "f1_score": 0.3568075117370892,
+      "roc_auc": 0.849025974025974
     },
     {
       "disease": "COVID-19",
       "pos_count": 50,
       "neg_count": 931,
       "total": 981,
-      "precision": 0.18115942028985507,
+      "precision": 0.19607843137254902,
       "recall": 1.0,
-      "f1_score": 0.3067484662576687,
-      "roc_auc": 0.8891084854994629
+      "f1_score": 0.32786885245901637,
+      "roc_auc": 0.8909774436090225
     },
     {
       "disease": "HIV_AIDS",
@@ -99,7 +99,7 @@
       "precision": 0.19626168224299065,
       "recall": 0.9692307692307692,
       "f1_score": 0.32642487046632124,
-      "roc_auc": 0.8389821968424589
+      "roc_auc": 0.8384699361773598
     },
     {
       "disease": "CHIKUNGUNYA",
@@ -109,7 +109,7 @@
       "precision": 0.25333333333333335,
       "recall": 0.95,
       "f1_score": 0.4,
-      "roc_auc": 0.9455515088449532
+      "roc_auc": 0.9447190426638917
     },
     {
       "disease": "ZIKA",
@@ -119,7 +119,7 @@
       "precision": 0.2926829268292683,
       "recall": 1.0,
       "f1_score": 0.4528301886792453,
-      "roc_auc": 0.9723092998955067
+      "roc_auc": 0.9723092998955069
     },
     {
       "disease": "BRUCELLOSIS",
@@ -139,7 +139,7 @@
       "precision": 0.41379310344827586,
       "recall": 0.9882352941176471,
       "f1_score": 0.5833333333333334,
-      "roc_auc": 0.9300420168067228
+      "roc_auc": 0.9301930147058823
     },
     {
       "disease": "TYPHOID_FEVER",
@@ -149,7 +149,7 @@
       "precision": 0.38333333333333336,
       "recall": 0.8846153846153846,
       "f1_score": 0.5348837209302325,
-      "roc_auc": 0.9245871929118002
+      "roc_auc": 0.9226540475231575
     },
     {
       "disease": "CHOLERA",
@@ -166,10 +166,10 @@
       "pos_count": 3,
       "neg_count": 978,
       "total": 981,
-      "precision": 0.034482758620689655,
+      "precision": 0.05,
       "recall": 1.0,
-      "f1_score": 0.06666666666666667,
-      "roc_auc": 0.9780163599182005
+      "f1_score": 0.09523809523809523,
+      "roc_auc": 0.9785276073619632
     },
     {
       "disease": "LEPTOSPIROSIS",
@@ -179,7 +179,7 @@
       "precision": 0.2620320855614973,
       "recall": 0.98,
       "f1_score": 0.41350210970464135,
-      "roc_auc": 0.9235445757250268
+      "roc_auc": 0.923233082706767
     },
     {
       "disease": "YELLOW_FEVER",
@@ -2012,8 +2012,8 @@
       "target_disease": "COVID-19",
       "validated_label": "POSITIVE",
       "ground_truth_label": "COVID-19",
-      "predicted_disease": "COVID-19",
-      "match": true,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
         "covid_19"
@@ -2038,8 +2038,8 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_HUMAN",
-      "predicted_disease": "COVID-19",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -2050,8 +2050,8 @@
       "target_disease": "COVID-19",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "COVID-19 EXCLUDED_NON_HUMAN",
-      "predicted_disease": "COVID-19",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -2739,8 +2739,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "covid_19",
-        "hiv_aids"
+        "hiv_aids",
+        "covid_19"
       ]
     },
     {
@@ -4059,8 +4059,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "yellow_fever",
-        "dengue"
+        "dengue",
+        "yellow_fever"
       ]
     },
     {
@@ -5396,8 +5396,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -5771,8 +5771,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -5786,8 +5786,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -5801,8 +5801,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -5828,8 +5828,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "covid_19",
-        "hiv_aids"
+        "hiv_aids",
+        "covid_19"
       ]
     },
     {
@@ -6129,8 +6129,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -6212,8 +6212,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -6295,8 +6295,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "leishmaniasis",
-        "hiv_aids"
+        "hiv_aids",
+        "leishmaniasis"
       ]
     },
     {
@@ -6416,8 +6416,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -6431,8 +6431,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -6446,8 +6446,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -6651,8 +6651,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "leishmaniasis",
-        "hiv_aids"
+        "hiv_aids",
+        "leishmaniasis"
       ]
     },
     {
@@ -6782,8 +6782,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Leishmaniasis EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Leishmaniasis",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -6826,8 +6826,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "leishmaniasis",
-        "hiv_aids"
+        "hiv_aids",
+        "leishmaniasis"
       ]
     },
     {
@@ -6855,8 +6855,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "leishmaniasis",
-        "hiv_aids"
+        "hiv_aids",
+        "leishmaniasis"
       ]
     },
     {
@@ -6906,8 +6906,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Leishmaniasis EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Leishmaniasis",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -7494,8 +7494,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
-      "match": false,
+      "predicted_disease": "Leishmaniasis",
+      "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
         "leishmaniasis"
@@ -7602,8 +7602,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Leishmaniasis EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Leishmaniasis",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -7766,8 +7766,8 @@
       "target_disease": "Leishmaniasis",
       "validated_label": "POSITIVE",
       "ground_truth_label": "Leishmaniasis",
-      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
-      "match": false,
+      "predicted_disease": "Leishmaniasis",
+      "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
         "leishmaniasis"
@@ -8734,8 +8734,8 @@
       "target_disease": "Leptospirosis",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Leptospirosis EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Leptospirosis",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -9625,8 +9625,8 @@
       "target_disease": "Malaria",
       "validated_label": "EXCLUDED_NON_HUMAN",
       "ground_truth_label": "Malaria EXCLUDED_NON_HUMAN",
-      "predicted_disease": "Malaria",
-      "match": false,
+      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+      "match": true,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -10526,8 +10526,8 @@
       "target_disease": "Rabies",
       "validated_label": "EXCLUDED_NON_TARGET_CASE",
       "ground_truth_label": "Rabies EXCLUDED_NON_TARGET_CASE",
-      "predicted_disease": "UNKNOWN (Insufficient Evidence)",
-      "match": true,
+      "predicted_disease": "Rabies",
+      "match": false,
       "evaluation_category": "EXCLUDED_DOCUMENT",
       "co_tested_positives": []
     },
@@ -10694,8 +10694,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11089,8 +11089,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11116,8 +11116,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11131,8 +11131,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11512,8 +11512,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11625,8 +11625,8 @@
       "match": false,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11832,8 +11832,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11847,8 +11847,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -11862,8 +11862,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "tuberculosis",
-        "hiv_aids"
+        "hiv_aids",
+        "tuberculosis"
       ]
     },
     {
@@ -12573,8 +12573,8 @@
       "match": true,
       "evaluation_category": "CONFIRMED_POSITIVE",
       "co_tested_positives": [
-        "yellow_fever",
-        "dengue"
+        "dengue",
+        "yellow_fever"
       ]
     },
     {

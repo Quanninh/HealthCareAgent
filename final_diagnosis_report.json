@@ -4,35 +4,35 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -40,27 +40,27 @@
                 "label": "POSITIVE"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -5537,35 +5537,35 @@
         "predicted_disease": "Brucellosis",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -5573,27 +5573,27 @@
                 "label": "POSITIVE"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -6708,7 +6708,7 @@
         "predicted_disease": "Brucellosis",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
@@ -6716,8 +6716,8 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
@@ -6732,11 +6732,11 @@
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -6748,23 +6748,23 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -7148,35 +7148,35 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.999,
+                "probability": 0.9988,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -7184,27 +7184,27 @@
                 "label": "POSITIVE"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -7221,35 +7221,35 @@
         "predicted_disease": "Brucellosis",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -7257,27 +7257,27 @@
                 "label": "POSITIVE"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -9105,35 +9105,35 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -9141,15 +9141,15 @@
                 "label": "POSITIVE"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
@@ -9157,11 +9157,11 @@
                 "label": "POSITIVE"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -13560,19 +13560,19 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
@@ -13580,43 +13580,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -17004,19 +17004,19 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.999,
+                "probability": 0.9988,
                 "label": "POSITIVE"
             },
             "covid_19": {
@@ -17024,43 +17024,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -17071,19 +17071,19 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
@@ -17091,43 +17091,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -17140,10 +17140,10 @@
     },
     {
         "case_id": "PMC7652926_02",
-        "predicted_disease": "COVID-19",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
@@ -17151,11 +17151,11 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
@@ -17163,43 +17163,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -17235,19 +17235,19 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
@@ -17255,43 +17255,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -17320,22 +17320,22 @@
     },
     {
         "case_id": "PMC7652926_04",
-        "predicted_disease": "COVID-19",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
@@ -17343,43 +17343,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -17398,22 +17398,22 @@
     },
     {
         "case_id": "PMC7652926_05",
-        "predicted_disease": "COVID-19",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.999,
+                "probability": 0.9988,
                 "label": "POSITIVE"
             },
             "covid_19": {
@@ -17421,43 +17421,43 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -20160,7 +20160,7 @@
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 1.0,
+                "probability": 0.9985,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
@@ -21662,7 +21662,7 @@
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 1.0,
+                "probability": 0.9985,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
@@ -22178,12 +22178,12 @@
                 "label": "POSITIVE"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
@@ -22198,39 +22198,39 @@
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -25925,8 +25925,8 @@
                 "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.7604,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "covid_19": {
                 "probability": 1.0,
@@ -26081,7 +26081,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -30723,8 +30723,8 @@
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.314,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "chikungunya": {
                 "probability": 0.5,
@@ -34265,8 +34265,8 @@
                 "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.7604,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "covid_19": {
                 "probability": 1.0,
@@ -34965,7 +34965,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -35215,7 +35215,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -35378,7 +35378,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -36660,7 +36660,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -38992,7 +38992,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.9759,
+                "probability": 0.976,
                 "label": "POSITIVE"
             },
             "tuberculosis": {
@@ -39354,31 +39354,31 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -39386,16 +39386,16 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
                 "probability": 1.0,
@@ -41109,7 +41109,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -41709,8 +41709,8 @@
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.97,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 0.5,
@@ -43555,7 +43555,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -43917,7 +43917,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -48539,7 +48539,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 1.0,
+                "probability": 0.998,
                 "label": "POSITIVE"
             },
             "tuberculosis": {
@@ -50496,7 +50496,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 1.0,
+                "probability": 0.998,
                 "label": "POSITIVE"
             },
             "tuberculosis": {
@@ -54747,7 +54747,7 @@
                 "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.9973,
+                "probability": 0.9988,
                 "label": "POSITIVE"
             },
             "chikungunya": {
@@ -56381,23 +56381,23 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.999,
+                "probability": 0.9988,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.9991,
+                "probability": 0.9985,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
@@ -56405,39 +56405,39 @@
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -56985,59 +56985,59 @@
                 "label": "POSITIVE"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -57614,8 +57614,8 @@
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.9839,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
                 "probability": 0.5,
@@ -61228,7 +61228,7 @@
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 1.0,
+                "probability": 0.9985,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
@@ -61868,7 +61868,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -62008,63 +62008,63 @@
         "predicted_disease": "HIV_AIDS",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.997,
+                "probability": 0.9965,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -66597,42 +66597,42 @@
     },
     {
         "case_id": "PMC9848784_01",
-        "predicted_disease": "Leishmaniasis",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.9984,
+                "probability": 0.9986,
                 "label": "POSITIVE"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -66640,23 +66640,23 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -67095,7 +67095,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -67829,42 +67829,42 @@
     },
     {
         "case_id": "PMC9745029_01",
-        "predicted_disease": "Leishmaniasis",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -67872,23 +67872,23 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -68549,39 +68549,39 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -68589,23 +68589,23 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.9902,
+                "probability": 0.9769,
                 "label": "POSITIVE"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -69078,7 +69078,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -73270,7 +73270,7 @@
     },
     {
         "case_id": "PMC4085831_01",
-        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "predicted_disease": "Leishmaniasis",
         "diagnoses": {
             "dengue": {
                 "probability": 1.0,
@@ -73281,27 +73281,27 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
@@ -73313,16 +73313,16 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
                 "probability": 1.0,
@@ -74231,42 +74231,42 @@
     },
     {
         "case_id": "PMC7995465_01",
-        "predicted_disease": "Leishmaniasis",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.9984,
+                "probability": 0.9986,
                 "label": "POSITIVE"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -74274,23 +74274,23 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -75568,42 +75568,42 @@
     },
     {
         "case_id": "PMC7304266_01",
-        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "predicted_disease": "Leishmaniasis",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.9889,
+                "probability": 0.995,
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -75611,23 +75611,23 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -79653,7 +79653,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -84744,7 +84744,7 @@
     },
     {
         "case_id": "PMC9932277_01",
-        "predicted_disease": "Leptospirosis",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
                 "probability": 0.5,
@@ -84795,7 +84795,7 @@
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.9771,
+                "probability": 0.9769,
                 "label": "POSITIVE"
             },
             "leptospirosis": {
@@ -90044,7 +90044,7 @@
                 "label": "POSITIVE"
             },
             "malaria": {
-                "probability": 1.0,
+                "probability": 0.9989,
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
@@ -92519,7 +92519,7 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -95141,7 +95141,7 @@
     },
     {
         "case_id": "PMC6005283_01",
-        "predicted_disease": "Malaria",
+        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
                 "probability": 0.5,
@@ -97237,8 +97237,8 @@
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.97,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 0.5,
@@ -99344,8 +99344,8 @@
                 "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.314,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "chikungunya": {
                 "probability": 0.5,
@@ -101705,51 +101705,51 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
@@ -101757,11 +101757,11 @@
                 "label": "POSITIVE"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -102022,7 +102022,7 @@
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.9999,
+                "probability": 0.9963,
                 "label": "POSITIVE"
             },
             "leptospirosis": {
@@ -103258,63 +103258,63 @@
         "predicted_disease": "UNKNOWN (Insufficient Evidence)",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.9956,
+                "probability": 0.998,
                 "label": "POSITIVE"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.9991,
+                "probability": 0.9985,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.9959,
+                "probability": 0.9963,
                 "label": "POSITIVE"
             },
             "rabies": {
-                "probability": 0.9984,
+                "probability": 0.9963,
                 "label": "POSITIVE"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -104044,43 +104044,43 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.9543,
+                "probability": 0.9245,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
@@ -104088,11 +104088,11 @@
                 "label": "POSITIVE"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -104161,66 +104161,66 @@
     },
     {
         "case_id": "PMC10495567_01",
-        "predicted_disease": "UNKNOWN (Insufficient Evidence)",
+        "predicted_disease": "Rabies",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.9991,
+                "probability": 0.9985,
                 "label": "POSITIVE"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 1.0,
+                "probability": 0.9999,
                 "label": "POSITIVE"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -108645,7 +108645,7 @@
                 "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.9996,
+                "probability": 0.9988,
                 "label": "POSITIVE"
             },
             "covid_19": {
@@ -110408,12 +110408,12 @@
                 "label": "POSITIVE"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
@@ -110428,39 +110428,39 @@
                 "label": "POSITIVE"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -113692,8 +113692,8 @@
                 "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.314,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "chikungunya": {
                 "probability": 0.5,
@@ -125953,8 +125953,8 @@
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.97,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
                 "probability": 1.0,
@@ -126622,63 +126622,63 @@
         "predicted_disease": "Zika",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },
@@ -127245,7 +127245,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -127495,7 +127495,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -127658,7 +127658,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -128728,31 +128728,31 @@
                 "label": "POSITIVE"
             },
             "ebola_filovirus": {
-                "probability": 0.3112,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "tuberculosis": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
-                "probability": 0.4602,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
@@ -128760,16 +128760,16 @@
                 "label": "POSITIVE"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
                 "probability": 1.0,
@@ -129128,7 +129128,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -130249,7 +130249,7 @@
                 "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.3641,
+                "probability": 0.3636,
                 "label": "NEGATIVE"
             },
             "tuberculosis": {
@@ -132404,63 +132404,63 @@
         "predicted_disease": "Zika",
         "diagnoses": {
             "dengue": {
-                "probability": 0.4523,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "malaria": {
-                "probability": 0.3111,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "ebola_filovirus": {
-                "probability": 0.9481,
+                "probability": 0.976,
                 "label": "POSITIVE"
             },
             "tuberculosis": {
-                "probability": 0.5421,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "covid_19": {
-                "probability": 0.6298,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "hiv_aids": {
-                "probability": 0.4789,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "chikungunya": {
-                "probability": 0.3579,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "zika": {
                 "probability": 1.0,
                 "label": "POSITIVE"
             },
             "brucellosis": {
-                "probability": 0.5804,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "leishmaniasis": {
-                "probability": 0.585,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "typhoid_fever": {
-                "probability": 0.3735,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "cholera": {
-                "probability": 0.4753,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             },
             "rabies": {
-                "probability": 0.7039,
-                "label": "POSITIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "leptospirosis": {
-                "probability": 0.3853,
-                "label": "NEGATIVE"
+                "probability": 0.5,
+                "label": "UNCERTAIN"
             },
             "yellow_fever": {
-                "probability": 0.4341,
+                "probability": 0.5,
                 "label": "UNCERTAIN"
             }
         },

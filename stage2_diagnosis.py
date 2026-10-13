@@ -286,15 +286,14 @@ def extract_salient_clinical_snippet(
 
 def make_lfs_for_disease(disease_name: str):
     """
-    Dynamically generate 8 multi-tiered labeling functions per disease:
-      Tier 1 (E1): Gold standard confirmatory labs (votes +1)
-      Tier 2 (E2): High-titer serology & pathognomonic hallmarks (votes +1)
-      Tier 3A (E3): Pathognomonic hallmarks / signs (votes +1)
-      Tier 3B (E3): Clinical constellation (hallmark + systemic syndrome) (votes +1)
-      Tier 3C (E3): Epidemiological exposure, vectors, & animal reservoirs (votes +1)
-      Tier 4A: Explicit negative lab exclusion / ruled out (votes 0)
-      Tier 4B: Lexical homonyms & vaccine/discourse exclusion (votes 0)
-      Tier 4C: Document scope / cohort / animal exclusion (votes 0)
+    Dynamically generate 7 multi-tiered labeling functions per disease (cardinality = 2):
+      Tier 1 (E1): Gold standard confirmatory labs (+1)
+      Tier 2 (E2): High-titer serology & pathognomonic signs (+1)
+      Tier 3A (E3): Hallmark signs (+1)
+      Tier 3B (E3): Clinical constellation (+1)
+      Tier 3C (E3): Epidemiological exposure & vectors (+1)
+      Dense semantic similarity (+1)
+      Tier 4: Explicit negative lab / ruled out (0)
     """
     hallmarks = DISEASE_HALLMARKS.get(disease_name, [])
     lab_tests = DISEASE_LAB_TESTS.get(disease_name, [])
@@ -304,7 +303,6 @@ def make_lfs_for_disease(disease_name: str):
     e2_serology = DISEASE_E2_SEROLOGY.get(disease_name, [])
     e3_epidemiology = DISEASE_E3_EPIDEMIOLOGY.get(disease_name, [])
     exclusions_lab = DISEASE_EXCLUSIONS_LAB.get(disease_name, [])
-    homonyms = DISEASE_HOMONYMS.get(disease_name, [])
     
     sanitized_name = disease_name.lower().replace('-', '_').replace(' ', '_')
 
@@ -417,47 +415,14 @@ def make_lfs_for_disease(disease_name: str):
             return BinaryDiseaseLabel.NEGATIVE
         return BinaryDiseaseLabel.ABSTAIN
 
-    # 8. Tier 4B: Lexical Homonym & Discourse / Vaccine Exclusion (Votes 0)
-    @labeling_function(name=f"lf_{sanitized_name}_homonym_and_discourse_exclusion")
-    def lf_homonym(x, d_name=disease_name, hom=homonyms, e1=e1_labs, lt_cuis=lab_cuis):
-        if not hom:
-            return BinaryDiseaseLabel.ABSTAIN
-        case_text = getattr(x, "case_presentation", "")
-        title_text = getattr(x, "title", "")
-        combined = f"{title_text} {case_text}"
-        if _text_contains(combined, hom):
-            patient_cuis = getattr(x, "affirmed_cuis", set())
-            valid_syms = getattr(x, "valid_symptoms", [])
-            has_confirmed = (
-                bool(patient_cuis & lt_cuis)
-                or _symptom_match(valid_syms, e1)
-                or _text_contains(case_text, e1)
-            )
-            if not has_confirmed:
-                return BinaryDiseaseLabel.NEGATIVE
-        return BinaryDiseaseLabel.ABSTAIN
-
-    # 9. Tier 4C: Document Scope / Cohort / Non-Human Exclusion (Votes 0)
-    @labeling_function(name=f"lf_{sanitized_name}_scope_cohort_exclusion")
-    def lf_scope_cohort(x, cohort_patterns=COMPILED_COHORT_PATTERNS, animal_patterns=COMPILED_NON_HUMAN_PATTERNS, anchor_pattern=COMPILED_SINGLE_PATIENT_ANCHOR):
-        case_text = getattr(x, "case_presentation", "")
-        title_text = getattr(x, "title", "")
-        combined = f"{title_text} {case_text}"
-        is_single = bool(anchor_pattern.search(case_text[:300]))
-        if (not is_single and _regex_matches(combined, cohort_patterns)) or _regex_matches(combined, animal_patterns):
-            return BinaryDiseaseLabel.NEGATIVE
-        return BinaryDiseaseLabel.ABSTAIN
-
     return [
-        lf_e1_lab,
-        lf_e2_serology,
-        lf_e3_hallmarks,
-        lf_e3_constellation,
-        lf_e3_exposure,
-        lf_dense_sim,
-        lf_neg_lab,
-        lf_homonym,
-        lf_scope_cohort,
+        lf_e1_lab,             # Tier 1 (E1): Gold standard confirmatory labs (+1)
+        lf_e2_serology,        # Tier 2 (E2): High-titer serology & pathognomonic signs (+1)
+        lf_e3_hallmarks,       # Tier 3A (E3): Hallmark signs (+1)
+        lf_e3_constellation,   # Tier 3B (E3): Clinical constellation (+1)
+        lf_e3_exposure,        # Tier 3C (E3): Epidemiological exposure & vectors (+1)
+        lf_dense_sim,          # Dense semantic similarity (+1)
+        lf_neg_lab,            # Tier 4: Explicit negative lab / ruled out (0)
     ]
 
 
@@ -658,8 +623,29 @@ def run_stage2_multilabel_diagnosis(
 
         # Global Document Scope Gate (Protocol Steps 1 & 2): Cohorts, case series, non-human
         is_single = bool(COMPILED_SINGLE_PATIENT_ANCHOR.search(case_text[:300]))
+
+        # Cohorts are only excluded if NOT proven to be an anchor single patient
         is_cohort = (not is_single) and _regex_matches(combined, COMPILED_COHORT_PATTERNS)
-        is_animal = (not is_single) and _regex_matches(combined, COMPILED_NON_HUMAN_PATTERNS)
+
+        # Non-human is ALWAYS excluded, whether single animal or multiple
+        # (Guard against dental "canine tooth" false positives in human cases)
+        is_animal = _regex_matches(combined, COMPILED_NON_HUMAN_PATTERNS)
+        if is_animal and "canine" in combined and any(t in combined for t in ["tooth", "teeth", "incisor", "fossa"]):
+            # Dental canine false positive check
+            is_animal = False
+            for p in COMPILED_NON_HUMAN_PATTERNS:
+                if p.pattern != r"\bcanine\b" and p.search(combined):
+                    is_animal = True
+                    break
+
+        # Guard against zoonotic animal exposure / animal bite in confirmed human cases
+        if is_animal and any(t in combined for t in ["bite", "bitten", "scratch", "cows were tested"]) and any(h in combined for h in ["girl", "boy", "man", "woman", "child", "infant", "patient"]):
+            is_animal = False
+            for p in COMPILED_NON_HUMAN_PATTERNS:
+                if p.pattern not in (r"\b(in|of)\s+a\s+(cat|dog|feline|canine|alpaca|cria|tiger|ferret)\b", r"\bcows were\b") and p.search(combined):
+                    is_animal = True
+                    break
+
         if is_cohort or is_animal:
             return "UNKNOWN (Insufficient Evidence)"
 

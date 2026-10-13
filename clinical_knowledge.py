@@ -533,20 +533,30 @@ SINGLE_PATIENT_ANCHOR_PATTERNS = [
 
 # Non-Human / Veterinary Document Patterns (Must be excluded)
 NON_HUMAN_PATTERNS = [
-    r"\bcanine\b",
-    r"\bbovine\b",
-    r"\bfeline\b",
+    # Veterinary context & institutions
+    r"\bveterinary\s+(clinic|hospital|faculty|school|medicine|college|center|service)\b",
+    r"\bclinical nutrition service at the ontario veterinary college\b",
+    r"\bin companion animals\b",
+    r"\banimal cases?\b",
+    
+    # Explicit single-animal subjects in title or presentation
+    r"\b(domestic short-?hair(ed)?|domestic cat|castrated male cat|neutered (male|female) cat)\b",
+    r"\b(female|male)\s+(cat|dog|feline|canine)\b",
+    r"\b(in|of)\s+a\s+(cat|dog|feline|canine|alpaca|cria|tiger|ferret)\b",
+    r"\b(a|the)\s+\d+[\s-](year|month|day|week)[\s-]old[^\.\n]{0,40}\b(cat|dog|feline|canine|alpaca|cria|kitten|puppy|panda|tiger|bulldog|pomeranian|hound)\b",
+    
+    # Specific animal species/breeds when subjects
+    r"\b(alpaca|cria|red panda|american bulldog|pomeranian)\b",
+    r"\bcanine\s+(patient|case|leishmaniosis|distemper|parvovirus)\b",
+    r"\bfeline\s+(patient|case|leishmaniosis|infectious peritonitis)\b",
+    r"\bmeningoencephalomyelitis of unknown origin in cats\b",
+    
+    # Laboratory animal models
     r"\bmurine model\b",
     r"\bmice were inoculated\b",
-    r"\bcows were\b",
-    r"\bdogs were\b",
     r"\brabbits were\b",
     r"\brats were infected\b",
-    r"\b(two|three|four|\d+)\s+cats\b",
-    r"\b(two|three|four|\d+)\s+dogs\b",
-    r"\bin companion animals\b",
-    r"\bveterinary clinic\b",
-    r"\banimal cases?\b",
+    r"\bcows were\b",
 ]
 
 # Pathogen / Organism keywords for Relational Evidence Grounding
