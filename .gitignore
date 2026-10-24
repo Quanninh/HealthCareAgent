@@ -1,4 +1,71 @@
+# Environment & Secrets
 .env
-medical_datasets
-/payload_for_ref/payloads
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.cache/
+*.cache
+
+# Testing & Linting Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Caches
+.ipynb_checkpoints/
+
+# Model & Large NLP Assets
+checkpoints/
+models/
+MedCAT/
+.huggingface/
+
+# PDFs & Research Documents
+*.pdf
+related_materials/
+
+# Datasets, Batches & Local Reference Files
+medical_datasets/
+/payload_for_ref/payloads/
+batches/
+guideline/
+milestone*/
+reports/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+snorkel.db
+
+# Logs & Temporary Backups
+*.log
+*.bak
+*.tmp
+
+# Operating System Artifacts
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# IDEs & Text Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
