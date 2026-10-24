@@ -1,0 +1,5911 @@
+{
+  "doc-58493541d4b5843c90e44f5c28253b2c": {
+    "relation_pairs": [
+      [
+        "Methylprednisolone",
+        "Skin Rashes"
+      ],
+      [
+        "Altered Mental Status",
+        "Glasgow Coma Scale (GCS)"
+      ],
+      [
+        "Initial Imaging Findings",
+        "Non-Contrast Computed Tomography (CT) Head"
+      ],
+      [
+        "Seizures",
+        "Tongue Biting"
+      ],
+      [
+        "Fexofenadine",
+        "Skin Rashes"
+      ],
+      [
+        "Seizures",
+        "Urinary Incontinence"
+      ],
+      [
+        "Albendazole",
+        "Neurocysticercosis Treatment"
+      ],
+      [
+        "Initial Laboratory Investigations",
+        "Transaminases"
+      ],
+      [
+        "Blood-Tinged Frothing",
+        "Seizures"
+      ],
+      [
+        "Cysticercal Encephalitis",
+        "Neurocysticercosis"
+      ],
+      [
+        "Levetiracetam",
+        "Seizures"
+      ],
+      [
+        "Altered Sensorium",
+        "Neurocysticercosis"
+      ],
+      [
+        "Skin Rashes",
+        "Topical Steroids"
+      ],
+      [
+        "Headache",
+        "Neurocysticercosis"
+      ],
+      [
+        "Neurocysticercosis",
+        "Seizures"
+      ],
+      [
+        "Cureus",
+        "Publication Source"
+      ],
+      [
+        "Carbamazepine",
+        "Seizures"
+      ],
+      [
+        "Anatomy",
+        "Left Transverse Sinus"
+      ],
+      [
+        "Neurocysticercosis",
+        "Tapeworm Taenia solium"
+      ],
+      [
+        "Initial Imaging Findings",
+        "Magnetic Resonance Imaging (MRI) Brain"
+      ],
+      [
+        "Altered Mental Status",
+        "Neurocysticercosis"
+      ],
+      [
+        "Low-Grade Fever",
+        "Neurocysticercosis"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1790421794,
+    "update_time": 1790421794,
+    "_id": "doc-58493541d4b5843c90e44f5c28253b2c"
+  },
+  "doc-6c40e4c62280dbc714557364dfa070a3": {
+    "relation_pairs": [
+      [
+        "Patient",
+        "Takes"
+      ],
+      [
+        "Patient",
+        "Tests"
+      ],
+      [
+        "Affects",
+        "Neonate"
+      ],
+      [
+        "Patient",
+        "Receives"
+      ],
+      [
+        "Liver Transaminase Level",
+        "Table 2"
+      ],
+      [
+        "Patient",
+        "Shows"
+      ],
+      [
+        "Figure 2",
+        "Liver Transaminase Level"
+      ],
+      [
+        "Acute hepatitis",
+        "Caused_By"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790422541,
+    "update_time": 1790422541,
+    "_id": "doc-6c40e4c62280dbc714557364dfa070a3"
+  },
+  "doc-bfd0b1968385a3570094d7d4622ba66a": {
+    "relation_pairs": [
+      [
+        "Left-to-right shunt",
+        "Neonate"
+      ],
+      [
+        "Choked when feeding",
+        "Neonate"
+      ],
+      [
+        "Bilateral lung markings",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Transaminase level"
+      ],
+      [
+        "Duplex kidney",
+        "Neonate"
+      ],
+      [
+        "30-hour intermittent fever",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Occasional cough"
+      ],
+      [
+        "Acute Hepatitis",
+        "Covid19"
+      ],
+      [
+        "Mild bilateral hydronephrosis",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Superficial skin cooling"
+      ],
+      [
+        "Neonate",
+        "Stuffy nose with clear rhinorrhea"
+      ],
+      [
+        "Neonate",
+        "Vomiting"
+      ],
+      [
+        "Diarrhea",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Normal saline"
+      ],
+      [
+        "Covid19",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "PFO"
+      ],
+      [
+        "Hydronephrosis",
+        "Neonate"
+      ],
+      [
+        "C-section delivery",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Right kidney"
+      ],
+      [
+        "Neonate",
+        "Unchanged appetite"
+      ],
+      [
+        "Fetal hydronephrosis with the right duplex kidney",
+        "Neonate"
+      ],
+      [
+        "Bilirubin",
+        "Neonate"
+      ],
+      [
+        "Increased work of breathing",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Piperacillin/tazobactam"
+      ],
+      [
+        "Glycyrrhizin",
+        "Neonate"
+      ],
+      [
+        "Globotriaosylceramide",
+        "Neonate"
+      ],
+      [
+        "38.5 C",
+        "Neonate"
+      ],
+      [
+        "Bicyclol",
+        "Neonate"
+      ],
+      [
+        "Calculus in the right kidney",
+        "Neonate"
+      ],
+      [
+        "Bilirubin levels",
+        "Neonate"
+      ],
+      [
+        "Acute Hepatitis",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Sputum in the throat"
+      ],
+      [
+        "Nasal drops",
+        "Neonate"
+      ],
+      [
+        "ICU",
+        "Neonate"
+      ]
+    ],
+    "count": 34,
+    "create_time": 1790423127,
+    "update_time": 1790423127,
+    "_id": "doc-bfd0b1968385a3570094d7d4622ba66a"
+  },
+  "doc-7ff9630096d279dc8d337ce73d790954": {
+    "relation_pairs": [
+      [
+        "AST",
+        "Clinical_Sign"
+      ],
+      [
+        "Piperacillin/Tazobactam",
+        "Pneumonia"
+      ],
+      [
+        "15-day-old girl",
+        "Bicyclol"
+      ],
+      [
+        "Female",
+        "Fever"
+      ],
+      [
+        "ALT",
+        "Clinical_Sign"
+      ],
+      [
+        "Glycyrrhizin",
+        "Hepatoprotective Treatment"
+      ],
+      [
+        "15-day-old girl",
+        "Fever"
+      ],
+      [
+        "Fever",
+        "Mild Cough"
+      ],
+      [
+        "Budesonide Nebulization Treatments",
+        "Butesonide"
+      ],
+      [
+        "15-day-old girl",
+        "ALT"
+      ],
+      [
+        "Bicyclol",
+        "Hepatoprotective Treatment"
+      ],
+      [
+        "Fever",
+        "Recurrent Fever"
+      ],
+      [
+        "15-day-old girl",
+        "Glycyrrhizin"
+      ],
+      [
+        "COVID-19",
+        "PCR Test"
+      ],
+      [
+        "15-day-old girl",
+        "Chest X-Ray"
+      ],
+      [
+        "Ipratropium Bromide",
+        "Ipratropium Bromide Nasal Drops"
+      ],
+      [
+        "15-day-old girl",
+        "Female"
+      ],
+      [
+        "15-day-old girl",
+        "Patchy Shadows"
+      ],
+      [
+        "Fever",
+        "Stuffy Nose"
+      ],
+      [
+        "15-day-old girl",
+        "Piperacillin/Tazobactam"
+      ],
+      [
+        "15-day-old girl",
+        "Budesonide"
+      ],
+      [
+        "Chest X-Ray",
+        "Patchy Shadows"
+      ],
+      [
+        "AST",
+        "Acute Hepatitis"
+      ],
+      [
+        "ALT",
+        "Acute Hepatitis"
+      ],
+      [
+        "15-day-old girl",
+        "Ipratropium Bromide"
+      ],
+      [
+        "15-day-old girl",
+        "AST"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1790423554,
+    "update_time": 1790423554,
+    "_id": "doc-7ff9630096d279dc8d337ce73d790954"
+  },
+  "doc-e340435990fefbb72d405e7ae4e5934f": {
+    "relation_pairs": [
+      [
+        "Cardiac ultrasound",
+        "Neonate"
+      ],
+      [
+        "ALT",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Fever"
+      ],
+      [
+        "Electrolytes",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Piperacillin/tazobactam"
+      ],
+      [
+        "ALT",
+        "ALT Level Trend by Patient (chart)"
+      ],
+      [
+        "Neonate",
+        "Stool test"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Liver"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Seizure"
+      ],
+      [
+        "Neonate",
+        "Transaminase"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "PCR"
+      ],
+      [
+        "AST",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Electrolytes"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Watery diarrhea"
+      ],
+      [
+        "CBC",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "CBC"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Acute hepatitis"
+      ],
+      [
+        "Cyanosis",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Blood gas"
+      ],
+      [
+        "Blood gas",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Nebulization"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Cough"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Stool test"
+      ],
+      [
+        "Bilirubin",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Bilirubin"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Cyanosis"
+      ],
+      [
+        "Neonate",
+        "Piperacillin/tazobactam"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Transaminase"
+      ],
+      [
+        "Lethargy",
+        "Neonate"
+      ],
+      [
+        "Fever",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Omicron SARS-CoV-2 variant"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Cardiac ultrasound"
+      ],
+      [
+        "Neonate",
+        "Seizure"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "AST"
+      ],
+      [
+        "Acute hepatitis",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "PCR"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Neonates"
+      ],
+      [
+        "Neonate",
+        "Watery diarrhea"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Lethargy"
+      ],
+      [
+        "Nebulization",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Cesarean delivery"
+      ],
+      [
+        "Cough",
+        "Neonate"
+      ],
+      [
+        "ALT Level Trend by Patient (chart)",
+        "Spleen"
+      ]
+    ],
+    "count": 43,
+    "update_time": 1790424428,
+    "_id": "doc-e340435990fefbb72d405e7ae4e5934f"
+  },
+  "doc-9ddd287f130d69c758ab6c64233da79b": {
+    "relation_pairs": [
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "White Blood Cells"
+      ],
+      [
+        "Comparative_Analysis",
+        "Gender: Female"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "White Blood Cells"
+      ],
+      [
+        "Gender",
+        "Mortality"
+      ],
+      [
+        "Diarrhea",
+        "SARS"
+      ],
+      [
+        "Age",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Hypertension"
+      ],
+      [
+        "Hypertension",
+        "SARS"
+      ],
+      [
+        "Cardiovascular Diseases",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Hypertension"
+      ],
+      [
+        "Chronic Lung Diseases",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Fever",
+        "SARS"
+      ],
+      [
+        "Cough",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Cardiovascular Diseases",
+        "SARS"
+      ],
+      [
+        "Chronic Lung Diseases",
+        "SARS"
+      ],
+      [
+        "Covid19",
+        "Disease"
+      ],
+      [
+        "Cough",
+        "Gender"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Severe Pneumonia"
+      ],
+      [
+        "Cough",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "Diabetes",
+        "SARS"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Severe Pneumonia"
+      ],
+      [
+        "Critical Pneumonia",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Serum Creatinine"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "Pneumonia"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Serum Creatinine"
+      ],
+      [
+        "Comparative_Analysis",
+        "Gender: Male"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "Kaplan-Meier Survival Curve"
+      ],
+      [
+        "Diabetes",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "Hypertension"
+      ],
+      [
+        "Cough",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Diabetes",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "Critical Pneumonia",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Hemoglobin"
+      ],
+      [
+        "Gender",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Gender",
+        "Pneumonia"
+      ],
+      [
+        "Diarrhea",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Mortality Rate"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Hemoglobin"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Mortality Rate"
+      ],
+      [
+        "Diarrhea",
+        "Gender"
+      ],
+      [
+        "Diarrhea",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "Fever",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "SARS"
+      ],
+      [
+        "Cardiovascular Diseases",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Kaplan-Meier Survival Curve",
+        "P-value"
+      ],
+      [
+        "Chronic Lung Diseases",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Mild or Moderate Pneumonia"
+      ],
+      [
+        "Gender",
+        "Hypertension"
+      ],
+      [
+        "SARS",
+        "Symptom"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC7/PMC72/PMC7201103_fpubh-08-00152-g0001_undivided_1_1.webp",
+        "Visual_Analysis"
+      ],
+      [
+        "Fever",
+        "Gender"
+      ],
+      [
+        "Fever",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "Cardiovascular Diseases",
+        "Gender"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Hazard Ratio"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Mild or Moderate Pneumonia"
+      ],
+      [
+        "Cardiovascular Diseases",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "P < 0.05",
+        "Statistical_Significance"
+      ],
+      [
+        "Chronic Lung Diseases",
+        "Gender"
+      ],
+      [
+        "Chronic Lung Diseases",
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)"
+      ],
+      [
+        "Chi-square (chi2) Test",
+        "Statistical_Test"
+      ],
+      [
+        "Diabetes",
+        "Gender"
+      ],
+      [
+        "Covid19",
+        "Symptom"
+      ],
+      [
+        "Pneumonia",
+        "SARS"
+      ],
+      [
+        "Cough",
+        "SARS"
+      ],
+      [
+        "Gender",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Fever",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "Mortality"
+      ],
+      [
+        "COVID-19",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "SARS"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC7/PMC72/PMC7201103_fpubh-08-00152-g0003_A_1_4.webp",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "SARS Patients"
+      ],
+      [
+        "Diabetes",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ],
+      [
+        "Gender Severity Comparison in COVID-19 Case Series with χ² test (image)",
+        "Neutrophils"
+      ],
+      [
+        "Case ID: PMC7201103_01",
+        "Patient_Cohort"
+      ],
+      [
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)",
+        "Neutrophils"
+      ],
+      [
+        "Females",
+        "Survival"
+      ],
+      [
+        "Gender Survival Comparison in SARS (graphic)",
+        "Male Patients"
+      ],
+      [
+        "Disease",
+        "SARS"
+      ],
+      [
+        "Female Patients",
+        "Gender Survival Comparison in SARS (graphic)"
+      ],
+      [
+        "Diarrhea",
+        "Gender-Based Age Distribution in SARS Patients (Box-and-Whisker Plots) (image)"
+      ]
+    ],
+    "count": 80,
+    "update_time": 1790425897,
+    "_id": "doc-9ddd287f130d69c758ab6c64233da79b"
+  },
+  "doc-1168e2eb286ac24f9814aa54152ca7b3": {
+    "relation_pairs": [
+      [
+        "Anastomotic Leak",
+        "Urgent relaparotomy"
+      ],
+      [
+        "Anastomotic Stricture",
+        "Intestinal Stones"
+      ],
+      [
+        "Abdominal Exploration",
+        "Anastomotic Stricture"
+      ],
+      [
+        "Anastomotic Stricture",
+        "Enterolithiasis"
+      ],
+      [
+        "Abdominal X-ray",
+        "Multiple Enterolithiasis"
+      ],
+      [
+        "Computed Tomography Scan",
+        "Multiple Enterolithiasis"
+      ],
+      [
+        "Bowel Obstruction",
+        "Intestinal Stones"
+      ],
+      [
+        "Marked Malnutrition",
+        "Total Parenteral Nutrition (TPN)"
+      ],
+      [
+        "Anastomotic Leak",
+        "Anastomotic Stricture"
+      ],
+      [
+        "Bowel Obstruction",
+        "Hypogastrium"
+      ],
+      [
+        "Anastomotic Stricture",
+        "Multiple enterolithiasis"
+      ],
+      [
+        "Anastomotic Leak",
+        "Intestinal Stones"
+      ],
+      [
+        "Anastomotic Stricture",
+        "Total Colectomy"
+      ],
+      [
+        "Left Salpingo-Oophorectomy",
+        "Pelvic Cyst"
+      ],
+      [
+        "Abdominal Exploration",
+        "Pelvic Cyst"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1790426254,
+    "update_time": 1790426254,
+    "_id": "doc-1168e2eb286ac24f9814aa54152ca7b3"
+  },
+  "doc-38bc0c5926f93833cc7305cb9f3e9e0e": {
+    "relation_pairs": [
+      [
+        "Diffuse abdominal pain",
+        "Fulminant Necrotising Amoebic Colitis"
+      ],
+      [
+        "Abdominal distension",
+        "Fulminant Necrotising Amoebic Colitis"
+      ],
+      [
+        "Fulminant Necrotising Amoebic Colitis",
+        "Obstipation"
+      ],
+      [
+        "Amoebiasis",
+        "Recurrent episodes of loose stools mixed with mucous and blood"
+      ],
+      [
+        "Amoebiasis",
+        "Fulminant Necrotising Amoebic Colitis"
+      ],
+      [
+        "Amoebiasis",
+        "Intermittent crampy lower abdominal pain"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1790426529,
+    "update_time": 1790426529,
+    "_id": "doc-38bc0c5926f93833cc7305cb9f3e9e0e"
+  },
+  "doc-30d791623be1b85724e729207e29f37a": {
+    "relation_pairs": [
+      [
+        "Contrast-Enhanced CT Scan",
+        "Diagnostic_Test"
+      ],
+      [
+        "Right Adrenal Gland",
+        "Treatment"
+      ],
+      [
+        "Echinococcosis",
+        "Patient_Cohort"
+      ],
+      [
+        "Adrenal Lymphangioma",
+        "Disease"
+      ],
+      [
+        "Absolute Eosinophil Counts",
+        "Diagnostic_Test"
+      ],
+      [
+        "Anti-Echinococcus IgG Antibody",
+        "Diagnostic_Test"
+      ],
+      [
+        "Diagnostic_Test",
+        "WBC"
+      ],
+      [
+        "Abdominal Pain",
+        "Patient_Cohort"
+      ],
+      [
+        "Diagnostic_Test",
+        "Middle Right Abdominal Region"
+      ],
+      [
+        "Laparotomy Surgery",
+        "Treatment"
+      ],
+      [
+        "Diagnostic_Test",
+        "Serum Tumor Markers"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790426786,
+    "update_time": 1790426786,
+    "_id": "doc-30d791623be1b85724e729207e29f37a"
+  },
+  "doc-051b661fbc9a280a90f8d99e00265993": {
+    "relation_pairs": [
+      [
+        "Abdominal Mass",
+        "Calcified Shell"
+      ],
+      [
+        "Fibroplasia",
+        "Paraganglioma"
+      ],
+      [
+        "Ki-67",
+        "Paraganglioma"
+      ],
+      [
+        "Echinococcosis",
+        "Right Hepatic Lobe"
+      ],
+      [
+        "55-year-old Woman",
+        "Right Hepatic Lobe"
+      ],
+      [
+        "Calcified Shell",
+        "Hepatic CE (CE-5 type)"
+      ],
+      [
+        "55-year-old Woman",
+        "Abdominal Mass"
+      ],
+      [
+        "Paraganglioma",
+        "Syn, HMB45, CD56, CD68, and CK"
+      ],
+      [
+        "Echinococcosis",
+        "Hepatic CE (CE-5 type)"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1790427010,
+    "update_time": 1790427010,
+    "_id": "doc-051b661fbc9a280a90f8d99e00265993"
+  },
+  "doc-b62510d63b496c8d79e5e0b4ef3291aa": {
+    "relation_pairs": [
+      [
+        "Mute function",
+        "Patient_Cohort"
+      ],
+      [
+        "Pandemic context",
+        "Patient_Cohort"
+      ],
+      [
+        "Patient_Cohort",
+        "Virtual concert video"
+      ],
+      [
+        "Patient_Cohort",
+        "Sectionals"
+      ],
+      [
+        "Patient_Cohort",
+        "Unmute function"
+      ],
+      [
+        "Covid19",
+        "Patient_Cohort"
+      ],
+      [
+        "Conductors on keyboards",
+        "Patient_Cohort"
+      ],
+      [
+        "Break-out rooms",
+        "Patient_Cohort"
+      ],
+      [
+        "Full band rehearsals",
+        "Patient_Cohort"
+      ],
+      [
+        "Patient_Cohort",
+        "Thematic analysis"
+      ],
+      [
+        "Patient_Cohort",
+        "Recordings of the repertoire"
+      ],
+      [
+        "Conductor A",
+        "Patient_Cohort"
+      ],
+      [
+        "Patient_Cohort",
+        "Run-through of a piece"
+      ],
+      [
+        "Patient_Cohort",
+        "Virtual bands' rehearsals"
+      ],
+      [
+        "13 open-ended questions",
+        "Patient_Cohort"
+      ],
+      [
+        "Music theory and music history lessons",
+        "Patient_Cohort"
+      ],
+      [
+        "Patient_Cohort",
+        "Semi-structured interviews"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1790427235,
+    "update_time": 1790427235,
+    "_id": "doc-b62510d63b496c8d79e5e0b4ef3291aa"
+  },
+  "doc-18fd428acf2f64b8def73d95b7ae7fe5": {
+    "relation_pairs": [
+      [
+        "chest computed tomography (CT)",
+        "ground-glass opacities"
+      ],
+      [
+        "left pulmonary lesion",
+        "patient"
+      ],
+      [
+        "Allplex 2019-nCoV Assay",
+        "SARS-CoV-2"
+      ],
+      [
+        "hyposmia, hypogeusia, imbalance, dizziness, vomiting",
+        "patient"
+      ],
+      [
+        "oxygen therapy, high-flow nasal cannula, low-flow venturi mask",
+        "patient"
+      ],
+      [
+        "C. Besta Neurological Institute",
+        "patient"
+      ],
+      [
+        "patient",
+        "propofol, dexmedetomidine"
+      ],
+      [
+        "patient",
+        "quetiapine, chlorpromazine"
+      ],
+      [
+        "Cerebellar lesions",
+        "patient"
+      ],
+      [
+        "C. Besta Neurological Institute",
+        "PMC8168796_01"
+      ],
+      [
+        "RT-PCR",
+        "SARS-CoV-2"
+      ],
+      [
+        "patient",
+        "wide-based gait, uncoordinated limb movements, nystagmus on extreme gaze"
+      ],
+      [
+        "IgG antibodies, S1/S2 antigens",
+        "serological test"
+      ],
+      [
+        "fever, acute respiratory failure",
+        "patient"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1790427621,
+    "update_time": 1790427621,
+    "_id": "doc-18fd428acf2f64b8def73d95b7ae7fe5"
+  },
+  "doc-418633c29d4ec61ace46a6d914aa9c16": {
+    "relation_pairs": [
+      [
+        "Artesunate",
+        "Neonate"
+      ],
+      [
+        "Jinja Regional Referral Hospital",
+        "Neonate"
+      ],
+      [
+        "Direct Bilirubin",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Total Serum Bilirubin"
+      ],
+      [
+        "Irritability",
+        "Neonate"
+      ],
+      [
+        "Neonate",
+        "Poor Breastfeeding"
+      ],
+      [
+        "Cloxacillin",
+        "Neonate"
+      ],
+      [
+        "High-Grade Fever",
+        "Neonate"
+      ],
+      [
+        "Cefotaxime",
+        "Neonate"
+      ],
+      [
+        "Axillary Temperature",
+        "Neonate"
+      ],
+      [
+        "Jaundice",
+        "Neonate"
+      ],
+      [
+        "CRP",
+        "Neonate"
+      ],
+      [
+        "Congenital Malaria",
+        "Neonate"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1790427919,
+    "update_time": 1790427919,
+    "_id": "doc-418633c29d4ec61ace46a6d914aa9c16"
+  },
+  "doc-58f6a9b17126322e201c99a36043601b": {
+    "relation_pairs": [
+      [
+        "Coagulation Test",
+        "INR"
+      ],
+      [
+        "Gastrointestinal Bleeding",
+        "Heparin Infusion"
+      ],
+      [
+        "Intestinal Ischemia",
+        "Laparotomy"
+      ],
+      [
+        "Partial Thromboplastin Time (PTT)",
+        "Treatment-Resistant Sepsis"
+      ],
+      [
+        "Decreased",
+        "Platelet Count"
+      ],
+      [
+        "Intestinal Ischemia",
+        "Mesenteric Vascular Thrombosis"
+      ],
+      [
+        "Fibrinogen",
+        "Treatment-Resistant Sepsis"
+      ],
+      [
+        "Platelet Count",
+        "Thrombocytopenia"
+      ],
+      [
+        "C-RP",
+        "Inflammation Marker"
+      ],
+      [
+        "Intestinal Resection",
+        "Sepsis"
+      ],
+      [
+        "Coagulation Test",
+        "Fibrinogen"
+      ],
+      [
+        "Disseminated Intravascular Coagulation",
+        "Treatment-Resistant Sepsis"
+      ],
+      [
+        "Coagulation Factors",
+        "PT and PTT"
+      ],
+      [
+        "Covid19",
+        "RT-PCR"
+      ],
+      [
+        "Hematological Abnormalities",
+        "Heparin Infusion"
+      ],
+      [
+        "Acute Abdominal Pain",
+        "Diagnosis"
+      ],
+      [
+        "Covid19",
+        "Disease"
+      ],
+      [
+        "Intravascular Thrombosis",
+        "Mesenteric Tissue"
+      ],
+      [
+        "International Normalized Ratio (INR)",
+        "Treatment-Resistant Sepsis"
+      ],
+      [
+        "Cr",
+        "Renal Function"
+      ],
+      [
+        "Death",
+        "Disease"
+      ],
+      [
+        "DIC",
+        "Heparin Infusion"
+      ],
+      [
+        "Leukocytosis",
+        "WBC Count"
+      ],
+      [
+        "Prothrombin Time (PT)",
+        "Treatment-Resistant Sepsis"
+      ],
+      [
+        "Heparin Infusion",
+        "Sepsis"
+      ],
+      [
+        "Amylase",
+        "Pancreatic Enzyme"
+      ],
+      [
+        "Abdominal Pain",
+        "Intestinal Ischemia"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1790428355,
+    "update_time": 1790428355,
+    "_id": "doc-58f6a9b17126322e201c99a36043601b"
+  },
+  "doc-cd8dafc73685ca7193f8ba955f6a0145": {
+    "relation_pairs": [
+      [
+        "Chest Wall",
+        "Slow-growing Primary Marginal Zone B-Cell Lymphoma"
+      ],
+      [
+        "MRI",
+        "Slow-growing Primary Marginal Zone B-Cell Lymphoma"
+      ],
+      [
+        "Case ID",
+        "PM3736967_01"
+      ],
+      [
+        "DWI",
+        "MRI"
+      ],
+      [
+        "Radiation Therapy",
+        "Treatment"
+      ],
+      [
+        "Signal",
+        "T1WI, T2WI, DWI, ADC"
+      ],
+      [
+        "MRI",
+        "T2WI"
+      ],
+      [
+        "MRI",
+        "T1WI"
+      ],
+      [
+        "Both Lesions",
+        "Marginal Zone B-Cell Lymphoma"
+      ],
+      [
+        "Patient Demographics",
+        "Slow-growing Primary Marginal Zone B-Cell Lymphoma"
+      ],
+      [
+        "ADC",
+        "DWI"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790428560,
+    "update_time": 1790428560,
+    "_id": "doc-cd8dafc73685ca7193f8ba955f6a0145"
+  },
+  "doc-bd4ebdb4b66875b120006ddca483a7af": {
+    "relation_pairs": [
+      [
+        "Ethambutol",
+        "HRZE"
+      ],
+      [
+        "Left 7th Rib, T7 Vertebral Body",
+        "T7 Vertebral Body, Left Posterolateral Portion"
+      ],
+      [
+        "T7 Left Pedicle",
+        "T7 Vertebral Body"
+      ],
+      [
+        "HRZE, HR",
+        "Isoniazid"
+      ],
+      [
+        "HRZE, HR",
+        "Rifampicin"
+      ],
+      [
+        "12 Months Follow-Up",
+        "Clinical Healing, Radiological Healing"
+      ],
+      [
+        "Isolation Costotransverse Joint",
+        "Mycobacterium tuberculosis"
+      ],
+      [
+        "T7 Left Pedicle",
+        "T7 Vertebral Body, Left Posterolateral Portion"
+      ],
+      [
+        "GeneXpert",
+        "Mycobacterium tuberculosis"
+      ],
+      [
+        "HRZE",
+        "Pyrazinamide"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1790428857,
+    "update_time": 1790428857,
+    "_id": "doc-bd4ebdb4b66875b120006ddca483a7af"
+  },
+  "doc-b9c6d4e455180fd10ad3fb45aaab66de": {
+    "relation_pairs": [
+      [
+        "Cystic Fibrosis",
+        "Genetic Testing Timeline Scatter Plot (chart)"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Hepatomegaly (4 cm below the ribs with soft texture)"
+      ],
+      [
+        "Genetic Test",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Infant Weight Change Over Time Line Graph (image)",
+        "White-Colored Stool"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Tuberculosis"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "White Colored Stool"
+      ],
+      [
+        "Hepatomegaly (4 cm below the ribs with soft texture)",
+        "Hepatosplenomegaly"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Liver Function Tests"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Pitting Edema of Both Lower Limbs"
+      ],
+      [
+        "Hepatitis C",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Patient",
+        "Pitting Edema"
+      ],
+      [
+        "Diagnosis: Cystic Fibrosis",
+        "Liver Parenchyma Echoes, Hepatosplenomegaly, Genetic Test, CFTR Hemizygous Mutation Site (c.223C>T) in Exon 3 and Exon 2-3 Heterozygous Deletion Mutation"
+      ],
+      [
+        "Genetic Test",
+        "Genetic Testing Timeline Scatter Plot (chart)"
+      ],
+      [
+        "Patient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male",
+        "Ursodeoxycholic Acid (UDCA), Aspergillus Oryzae Pancreatic Enzymes Tablets, Fat-Soluble Vitamins A, D, E, and K, Lactose-Free Fortified Medium-Chain Fatty Acid Milk Powder"
+      ],
+      [
+        "Infant Weight Change Over Time Line Graph (image)",
+        "Syphilis"
+      ],
+      [
+        "Genetic Test, CFTR Hemizygous Mutation Site (c.223C>T) in Exon 3 and Exon 2-3 Heterozygous Deletion Mutation, Genetic Test of the Infant and the Parents, Genetic verification of the infant's parents, Pancreatic Exocrine Insufficiency, Fecal Pancreas Elasta",
+        "Patient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male"
+      ],
+      [
+        "Infant Weight Change Over Time Line Graph (image)",
+        "TORCH"
+      ],
+      [
+        "Infant Weight Change Over Time Line Graph (image)",
+        "Liver Function Tests"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Infant"
+      ],
+      [
+        "Patient",
+        "White-Colored Stool"
+      ],
+      [
+        "Lactose-Free Fortified Medium-Chain Fatty Acid Milk Powder Feeding, Ursodeoxycholic Acid, Fat-Soluble Vitamins, Pancreatic Enzymes",
+        "Patient"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Liver Parenchyma Echoes"
+      ],
+      [
+        "Cytomegalovirus IgM Test",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Hepatomegaly, Pitting Edema, Liver Function Abnormalities",
+        "Patient"
+      ],
+      [
+        "Aspergillus Oryzae Pancreatic Enzymes Tablets",
+        "Genetic Testing Timeline Scatter Plot (chart)"
+      ],
+      [
+        "Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) Gene Mutation",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Lactose-Free Fortified Medium-Chain Fatty Acid Milk Powder"
+      ],
+      [
+        "Liver Function Tests, Hemoglobin, Platelets",
+        "Patient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male"
+      ],
+      [
+        "Hepatomegaly (4 cm below the ribs with soft texture), Pitting Edema of Both Lower Limbs, Stool Color Change to Yellow, Patient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male",
+        "Liver Function Tests"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Ursodeoxycholic Acid (UDCA)"
+      ],
+      [
+        "Cystic Fibrosis",
+        "White Colored Stool"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Hepatosplenomegaly"
+      ],
+      [
+        "Cardiac Ultrasound",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Hemoglobin"
+      ],
+      [
+        "CFTR Gene Mutation",
+        "Patient"
+      ],
+      [
+        "EBV DNA",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Abdominal Ultrasound",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Hepatitis B",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Stool Color Change to Yellow"
+      ],
+      [
+        "HIV",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Patient",
+        "Yellow-Colored Stool"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Platelets"
+      ],
+      [
+        "Fat-Soluble Vitamins A, D, E, and K",
+        "Genetic Testing Timeline Scatter Plot (chart)"
+      ],
+      [
+        "Genetic Testing Timeline Scatter Plot (chart)",
+        "Weight Increase"
+      ],
+      [
+        "Liver Function Tests, Cardiac Ultrasound, Abdominal Ultrasound",
+        "Patient"
+      ],
+      [
+        "Abdominal Ultrasound",
+        "Hepatosplenomegaly"
+      ],
+      [
+        "Patient",
+        "Weight"
+      ],
+      [
+        "Diagnosis: Cystic Fibrosis",
+        "Stool Color Change to Yellow, Weight Increase"
+      ],
+      [
+        "Stool Color Change to Yellow, Weight Increase",
+        "Treatment: Ursodeoxycholic Acid (UDCA), Aspergillus Oryzae Pancreatic Enzymes Tablets, Fat-Soluble Vitamins A, D, E, and K, Lactose-Free Fortified Medium-Chain Fatty Acid Milk Powder"
+      ],
+      [
+        "Cystic Fibrosis",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Hepatomegaly",
+        "Patient"
+      ],
+      [
+        "EBV-IgM Antibody",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Hepatitis A",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Aspergillus Oryzae Pancreatic Enzymes",
+        "Patient"
+      ],
+      [
+        "Infant Weight Change Over Time Line Graph (image)",
+        "Pitting Edema"
+      ],
+      [
+        "Genetic Test, CFTR Hemizygous Mutation Site (c.223C>T) in Exon 3 and Exon 2-3 Heterozygous Deletion Mutation",
+        "Patient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male"
+      ],
+      [
+        "Hepatomegaly",
+        "Infant Weight Change Over Time Line Graph (image)"
+      ],
+      [
+        "Genetic Test",
+        "Patient"
+      ],
+      [
+        "Infant",
+        "Patient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male"
+      ],
+      [
+        "CFTR Hemizygous Mutation Site (c.223C>T) in Exon 3 and Exon 2-3 Heterozygous Deletion Mutation",
+        "Genetic Testing Timeline Scatter Plot (chart)"
+      ]
+    ],
+    "count": 60,
+    "update_time": 1790430615,
+    "_id": "doc-b9c6d4e455180fd10ad3fb45aaab66de"
+  },
+  "doc-3bfcdaff7986ebf2b04d96cad9c921e7": {
+    "relation_pairs": [
+      [
+        "Acholic_Stool",
+        "Infant"
+      ],
+      [
+        "Delayed_Growth",
+        "Infant"
+      ],
+      [
+        "Delayed_Meconium_Discharge",
+        "Infant"
+      ],
+      [
+        "Hypoproteinemia",
+        "Infant"
+      ],
+      [
+        "Chest_CT_Scan",
+        "Infant"
+      ],
+      [
+        "Cholestasis",
+        "Infant"
+      ],
+      [
+        "Infant",
+        "UDCA"
+      ],
+      [
+        "Cystic_Fibrosis",
+        "White_Colored_Stool"
+      ],
+      [
+        "Cough",
+        "Infant"
+      ],
+      [
+        "F508del",
+        "Infant"
+      ],
+      [
+        "Infant",
+        "Yellow_Soft_Stools"
+      ],
+      [
+        "Anemia",
+        "Infant"
+      ],
+      [
+        "Abdominal_Ultrasound",
+        "Infant"
+      ],
+      [
+        "Enlarged_Liver",
+        "Infant"
+      ],
+      [
+        "Edema",
+        "Infant"
+      ],
+      [
+        "Hepatomegaly",
+        "Infant"
+      ],
+      [
+        "Cystic_Fibrosis",
+        "Infant"
+      ],
+      [
+        "Infant",
+        "Liver_Function_Test"
+      ],
+      [
+        "Infant",
+        "Splenomegaly"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1790430973,
+    "update_time": 1790430973,
+    "_id": "doc-3bfcdaff7986ebf2b04d96cad9c921e7"
+  },
+  "doc-31231dfe227603d4eab0720dddafe1a9": {
+    "relation_pairs": [
+      [
+        "Persistent Cough",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Forced Vital Capacity (FVC)",
+        "Pulmonary Function Tests"
+      ],
+      [
+        "Mucosal Ischemia",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Ground Glass Opacities",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Intraoperative Hemorrhage",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Subpleural Cysts"
+      ],
+      [
+        "Mucous Plugging",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Chronic Hypoxemic Respiratory Failure",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Bronchus Stenosis",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Pulmonary Function Tests"
+      ],
+      [
+        "Bilateral Lung Transplantation",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Pulmonary Trunk"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Right Cardiac Chamber"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Pulmonary Artery Hypertension"
+      ],
+      [
+        "Hispanic Male",
+        "Pulmonary Function Tests"
+      ],
+      [
+        "Interventricular Septum",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Right Heart Catheterization"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Shortness of Breath"
+      ],
+      [
+        "Diffusing Capacity of the Lung for Carbon Monoxide (DLCO)",
+        "Pulmonary Function Tests"
+      ],
+      [
+        "Leukocytosis",
+        "Pulmonary Alveolar Microlithiasis"
+      ],
+      [
+        "Pulmonary Alveolar Microlithiasis",
+        "Punctate Calcifications"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1790432324,
+    "update_time": 1790432324,
+    "_id": "doc-31231dfe227603d4eab0720dddafe1a9"
+  },
+  "doc-35d4754ce88e3f7b153a9fe6463e8b21": {
+    "relation_pairs": [
+      [
+        "CSF Culture",
+        "Cryptococcus gattii"
+      ],
+      [
+        "Frontal Lobe",
+        "MRI of the Brain"
+      ],
+      [
+        "Cryptococcus gattii",
+        "Lumbar Puncture"
+      ],
+      [
+        "Cryptococcosis",
+        "Cryptococcus gattii"
+      ],
+      [
+        "Ceftriaxone, Amoxicillin/Clavulanic Acid, Vancomycin, Ampicillin, Acyclovir",
+        "Lumbar Puncture"
+      ],
+      [
+        "Large Brainstem Lacunar Stroke",
+        "MRI of the Brain"
+      ],
+      [
+        "Low Testosterone, Hypertension, Benign Prostatic Hyperplasia",
+        "Lumbar Puncture"
+      ],
+      [
+        "Amoxicillin/Clavulanic Acid, Ceftriaxone, Ampicillin, Acyclovir",
+        "Community-Acquired Pneumonia"
+      ],
+      [
+        "Lumbar Puncture",
+        "Vancomycin"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1790432593,
+    "update_time": 1790432593,
+    "_id": "doc-35d4754ce88e3f7b153a9fe6463e8b21"
+  },
+  "doc-eb1938b3d11b6c555ae384d118ed3ed6": {
+    "relation_pairs": [
+      [
+        "CT Scan",
+        "Complete Response"
+      ],
+      [
+        "Patient 1",
+        "Right Hemicolectomy"
+      ],
+      [
+        "Disease Stabilization",
+        "Maintenance/Depotentiated Treatment"
+      ],
+      [
+        "IgG Anti-SARS-CoV-2 Titer",
+        "Severe COVID-19"
+      ],
+      [
+        "Disease Stabilization",
+        "First-Line Chemotherapy FOLFOX/BEVA"
+      ],
+      [
+        "Patient 1",
+        "Severe COVID-19"
+      ],
+      [
+        "Right Hemicolectomy",
+        "pT4apN1b"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790432800,
+    "update_time": 1790432800,
+    "_id": "doc-eb1938b3d11b6c555ae384d118ed3ed6"
+  },
+  "doc-70b0e3c49b8b15cdf110a73e83fe55e1": {
+    "relation_pairs": [
+      [
+        "Left Hemicolectomy",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "IgG Anti-SARS-CoV-2",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "Covid19",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "FOLFOX/BEVA",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "Liver",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "Metastatic Colorectal Cancer",
+        "Segment VI"
+      ],
+      [
+        "Metastatic Colorectal Cancer",
+        "Segment VII"
+      ],
+      [
+        "Metastatic Colorectal Cancer",
+        "SARS-CoV-2"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1790432981,
+    "update_time": 1790432981,
+    "_id": "doc-70b0e3c49b8b15cdf110a73e83fe55e1"
+  },
+  "doc-4e400f404a15117b7828e4faeb89105b": {
+    "relation_pairs": [
+      [
+        "Left Hemicolectomy",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "FOLFIRI/PANI",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "CT Total-Body Scan",
+        "Peritoneum Nodule"
+      ],
+      [
+        "Disease Stabilization",
+        "FOLFOX Therapy"
+      ],
+      [
+        "COVID-19",
+        "IgG Anti-SARS-CoV-2 Titer"
+      ],
+      [
+        "Left Hemicolectomy",
+        "Oxaliplatin and Leucovorin with 5-fluorouracil"
+      ],
+      [
+        "COVID-19",
+        "Unexpected Reduction of Peritoneal and Lung Disease"
+      ],
+      [
+        "FOLFOX Therapy",
+        "Metastatic Colorectal Cancer"
+      ],
+      [
+        "Lung Nodule",
+        "Peritoneum Nodule"
+      ],
+      [
+        "CT Total-Body Scan",
+        "Lung Nodule"
+      ],
+      [
+        "FOLFIRI/PANI",
+        "Irinotecan, Leucovorin, 5-fluorouracil, and Panitumumab"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790433245,
+    "update_time": 1790433245,
+    "_id": "doc-4e400f404a15117b7828e4faeb89105b"
+  },
+  "doc-aff5ecfb23f5561a4e8dae6dcf201063": {
+    "relation_pairs": [
+      [
+        "Clinical Findings",
+        "Swelling and mild tenderness in the right knee and calf, sclerosis with loss of skin flexibility, finger ulcers"
+      ],
+      [
+        "Continued anti-tuberculosis therapy for 12 months, ultrasonography and fluid aspiration, negative fluid tests",
+        "Treatment Follow-up"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "prednisolone"
+      ],
+      [
+        "Isoniazide",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "mixed connective tissue disease"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "acid fast bacillus (AFB) stain"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "polymerase chain reaction"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "guided ultrasonography"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "anti-tuberculosis medications"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "chest computerized tomography (CT)"
+      ],
+      [
+        "Antinuclear antibody (ANA) 1:5120",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "U1-RNP antibody 3678 IU/mL"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "erythrocyte sedimentation rate (ESR)"
+      ],
+      [
+        "Discontinuation of anti-tuberculosis therapy, persistence of small cysts, negative follow-up tests",
+        "Outcome"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "extracorporeal abscess"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "right knee pain and swelling"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "digital vasculitis"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "tissue inflammation"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "arthrit"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "interstitial lung disease"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "Venereal Disease Research Laboratory (VDRL)"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Mycobacterium avium"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Right knee"
+      ],
+      [
+        "Epithelioid Histiocytes",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "Hb 12.9 g/dL",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "Caseous Necrosis",
+        "Patient's Clinical Situation"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "WBC 6,400/mm3"
+      ],
+      [
+        "AFB stain positive, PCR for M. avium positive, culture for M. avium negative",
+        "Microbiological Testing"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "histopathology"
+      ],
+      [
+        "Mycobacterium avium",
+        "Patient Demographics"
+      ],
+      [
+        "Case ID: PMC4531616_01, Gender: Female",
+        "Patient Demographics"
+      ],
+      [
+        "Mycobacterium avium",
+        "pyrazinamide"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Rifampicin"
+      ],
+      [
+        "calf swelling",
+        "symptom of"
+      ],
+      [
+        "Anatomy",
+        "knee"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Prednisolone"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "rifampicin"
+      ],
+      [
+        "Image Path",
+        "mri"
+      ],
+      [
+        "Granulomatous Inflammation",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "ulcerations"
+      ],
+      [
+        "Histopathology",
+        "granulomas"
+      ],
+      [
+        "M. tuberculosis",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "tissue inflammation",
+        "visualized by"
+      ],
+      [
+        "Caseous central necrosis, granuloma",
+        "Pathology"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "polymerase chain reaction (PCR) for mycobacterium tuberculosis"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "triamcinolone"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "Mycobacterium avium"
+      ],
+      [
+        "Histopathology",
+        "caseous central necrosis"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "digital vasculitis"
+      ],
+      [
+        "C-reactive protein (CRP) 1.7 mg/dL",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "calf swelling"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Total excision of the abscess"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "mri"
+      ],
+      [
+        "Erythrocyte sedimentation rate (ESR) 46 mm/h",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "isochain"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "hemoglobin"
+      ],
+      [
+        "AFB Stain",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "Mycobacterium avium",
+        "causes"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "u1-rnp antibody"
+      ],
+      [
+        "calf",
+        "site of"
+      ],
+      [
+        "Patient Demographics",
+        "rifampicin"
+      ],
+      [
+        "Patient's Clinical Situation",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "Epithelioid Histiocytes",
+        "Granuloma"
+      ],
+      [
+        "Image Path",
+        "ultrasound"
+      ],
+      [
+        "Patient Presenting Complaints",
+        "Right knee pain and swelling, calf swelling"
+      ],
+      [
+        "Patient Demographics",
+        "mycobacterium tuberculosis"
+      ],
+      [
+        "Granulomatous Inflammation",
+        "Patient's Clinical Situation"
+      ],
+      [
+        "Extra-articular abscess",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "arthritis"
+      ],
+      [
+        "Granuloma",
+        "Inflammatory Cells"
+      ],
+      [
+        "PCR for mycobacterium tuberculosis",
+        "negative for"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Right arm"
+      ],
+      [
+        "guided ultrasonography",
+        "used to aspirate"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "prednisolone"
+      ],
+      [
+        "M. tuberculosis",
+        "Patient's Clinical Situation"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Mixed connective tissue disease (MCTD)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "tuberculosis"
+      ],
+      [
+        "Patient Demographics",
+        "isochain"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Platelets 205,500/mm3"
+      ],
+      [
+        "Patient Demographics",
+        "right knee arthritis"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "U1-RNP antibody"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Tuberculosis"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "esr"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "ultrasound"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "mycobacterium tuberculosis"
+      ],
+      [
+        "Cycloserin",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "triamcinolone"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "ethambutol"
+      ],
+      [
+        "M. avium",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "Mycobacterium avium"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "anti-nuclear antibody test"
+      ],
+      [
+        "Anti-tuberculosis medications: isoniazide, rifampicin, ethambutol, pyrazinamide",
+        "Treatment Initiation"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Triamcinolone"
+      ],
+      [
+        "HIV, VDRL",
+        "negative for"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "calf swelling"
+      ],
+      [
+        "Mycro-bacterium Organisms",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "ultrasonography"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "magnetic resonance image (MRI)"
+      ],
+      [
+        "ANA, U1-RNP antibody",
+        "positive for"
+      ],
+      [
+        "Mycobacterium avium",
+        "rifampicin"
+      ],
+      [
+        "Image Path",
+        "sagittal mri"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "crp"
+      ],
+      [
+        "Patient Demographics",
+        "mycobacterium avium"
+      ],
+      [
+        "AFB stain",
+        "positive for"
+      ],
+      [
+        "Mycobacterium avium",
+        "cycloserine"
+      ],
+      [
+        "AFB Stain",
+        "Mycro-bacterium Organisms"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "platelets"
+      ],
+      [
+        "added to",
+        "cycloserin"
+      ],
+      [
+        "right knee pain and swelling",
+        "symptom of"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "sclerodactly"
+      ],
+      [
+        "Granuloma",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "Patient Demographics",
+        "tuberculosis"
+      ],
+      [
+        "Patient Demographics",
+        "triamcinolone"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "sclerosis"
+      ],
+      [
+        "digital vasculitis",
+        "symptom of"
+      ],
+      [
+        "Patient Demographics",
+        "ethambutol"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "calf"
+      ],
+      [
+        "prednisolone",
+        "used for treatment of"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "antinuclear antibody (ANA)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "right knee"
+      ],
+      [
+        "CT, ultrasonography, MRI",
+        "used to diagnose"
+      ],
+      [
+        "Mycobacterium avium",
+        "isochain"
+      ],
+      [
+        "Inflammatory Cells",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "Interstitial lung disease",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "acid fast bacillus stain"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "pyrazinamide"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "Raynaud's phenomenon"
+      ],
+      [
+        "isoniazide, rifampicin, ethambutol, pyrazinamide",
+        "used for"
+      ],
+      [
+        "triamcinolone",
+        "used for treatment of"
+      ],
+      [
+        "Axial MRI of the knee, poor definition of the mass lesion, hypointensity of the mass, inflammatory enhancement of the muscle and fat planes",
+        "Imaging Findings"
+      ],
+      [
+        "M. avium",
+        "Mycro-bacterium Organisms"
+      ],
+      [
+        "right knee",
+        "site of"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "right knee pain and swelling"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "human immunodeficiency virus (HIV)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "interstitial lung disease"
+      ],
+      [
+        "C-reactive protein (CRP)",
+        "Lower Leg MRI (Sagittal View) (medical image)"
+      ],
+      [
+        "Granuloma",
+        "Patient's Clinical Situation"
+      ],
+      [
+        "Diagnostics",
+        "WBC 6,400/mm3, Hb 12.9 g/dL, platelets 205,500/mm3, ESR 46 mm/h, CRP 1.7 mg/dL, ANA 1:5120, U1-RNP 3678 IU/mL, negative anti-ds DNA, negative anti-SS-A/Ro, negative anti-SS-B/La, negative anti-Sm, negative anti-Scl 70, negative anti-centromere, negative HI"
+      ],
+      [
+        "Patient Demographics",
+        "prednisolone"
+      ],
+      [
+        "sclerosis",
+        "symptom of"
+      ],
+      [
+        "Ethambutol",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "wbc"
+      ],
+      [
+        "Image Path",
+        "lower_limb"
+      ],
+      [
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)",
+        "Pyrazinamide"
+      ],
+      [
+        "Caseous Necrosis",
+        "histopathological granulomatous inflammation sample indicative of mycobacterial infection (M. avium) (image)"
+      ],
+      [
+        "ESR, CRP",
+        "used to assess"
+      ],
+      [
+        "Mycobacterium avium",
+        "ethambutol"
+      ],
+      [
+        "MRI Sagittal Lower Limb Mass Lesion (image)",
+        "sclerosis"
+      ],
+      [
+        "Patient Demographics",
+        "pyrazinamide"
+      ],
+      [
+        "Arthritis",
+        "Knee MRI showing intra-articular mass and peripheral enhancement (image)"
+      ],
+      [
+        "Lower Leg MRI (Sagittal View) (medical image)",
+        "cycle of the antibiotics"
+      ]
+    ],
+    "count": 151,
+    "update_time": 1790436377,
+    "_id": "doc-aff5ecfb23f5561a4e8dae6dcf201063"
+  },
+  "doc-44f02d6d624218a953861f21bba40498": {
+    "relation_pairs": [
+      [
+        "Plasma Transfusions",
+        "chronic lymphoid leukemia"
+      ],
+      [
+        "ConVirus-Transfusion-Effects (diagram)",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "ferritin"
+      ],
+      [
+        "Convalescent Plasma Therapy Antibody Kinetics (image)",
+        "SARS-CoV-2 Pseudovirus Neutralization Assay"
+      ],
+      [
+        "convalescent plasma therapy",
+        "convalescent plasma transfusion"
+      ],
+      [
+        "Cytotoxic effector-memory T cells",
+        "Plasma Transfusion Effects on T Cell Counts (image)"
+      ],
+      [
+        "B (1 cell/mm3)",
+        "B Cell Count Trend Post Plasma Transfusion (graph)"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "diarrhea"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "Convalescent Plasma Transfusion"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "convalescent plasma therapy"
+      ],
+      [
+        "Anti-viral Therapy",
+        "ConVirus-Transfusion-Effects (diagram)"
+      ],
+      [
+        "Plasma Transfusion Effects on T Cell Counts (image)",
+        "moderate neutropenia, severe T and B lymphopenia"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "C-reactive protein"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "asthenia"
+      ],
+      [
+        "Age: 74.0, Gender: Male",
+        "Patient Demographics"
+      ],
+      [
+        "ground-glass opacities",
+        "unhealthy_lungs_indication"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "Plasma Transfusion"
+      ],
+      [
+        "Bilateral multifocal subpleural and peribronchial ground-glass opacities",
+        "Covid19"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "S1 (spike)-protein"
+      ],
+      [
+        "B cell count",
+        "convalescent plasma"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "loss of weight"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "T (114 cell/mm3)"
+      ],
+      [
+        "Plasma Transfusions",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Medical Plasma Therapy Therapy Response Follow-Up (image)",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "neutropenia"
+      ],
+      [
+        "Covid19",
+        "SARS-CoV-2"
+      ],
+      [
+        "Fish",
+        "Nasopharyngeal Swabs"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "Fish"
+      ],
+      [
+        "B cell count",
+        "Convalescent plasma"
+      ],
+      [
+        "C-reactive protein, ferritin, inflammatory markers",
+        "Covid19"
+      ],
+      [
+        "Medical Plasma Therapy Therapy Response Follow-Up (image)",
+        "chronic lymphoid leukemia"
+      ],
+      [
+        "Fish",
+        "Plasma Transfusion"
+      ],
+      [
+        "C-reactive protein and ferritin",
+        "Plasma Transfusion Effects on T Cell Counts (image)"
+      ],
+      [
+        "SARS-CoV-2 Pseudovirus Neutralization Assay",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "SARS-CoV-2"
+      ],
+      [
+        "B cell count",
+        "IgG antibody titers"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "dry cough"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "3x200 ml/donor",
+        "B Cell Count Trend Post Plasma Transfusion (graph)"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "Medical Plasma Therapy Therapy Response Follow-Up (image)"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "IgM"
+      ],
+      [
+        "Plasma Transfusion Effects on T Cell Counts (image)",
+        "plasma transfusions"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "ferritin"
+      ],
+      [
+        "B (1 cell/mm3)",
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)"
+      ],
+      [
+        "bilateral multifocal subpleural and peribronchial ground-glass opacities",
+        "chest computed tomography"
+      ],
+      [
+        "Plasma Transfusion",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Medical Plasma Therapy Therapy Response Follow-Up (image)",
+        "SARS-CoV-2"
+      ],
+      [
+        "Covid19",
+        "convalescent plasma"
+      ],
+      [
+        "Convalescent plasma",
+        "Euroimmun ELISA"
+      ],
+      [
+        "Covid19",
+        "Plasma Transfusion Effects on T Cell Counts (image)"
+      ],
+      [
+        "Nasopharyngeal Swabs",
+        "Plasma Transfusion"
+      ],
+      [
+        "Anti-SARS-CoV-2 antibody",
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "SARS-CoV-2 Pseudovirus Neutralization Assay"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "asthenia"
+      ],
+      [
+        "ground-glass opacities",
+        "positive_outcome"
+      ],
+      [
+        "Medical Plasma Therapy Therapy Response Follow-Up (image)",
+        "Plasma Transfusions"
+      ],
+      [
+        "SARS-CoV-2",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "inflammatory markers"
+      ],
+      [
+        "Anti-SARS-CoV-2 antibody",
+        "Plasma Transfusion Effects on T Cell Counts (image)"
+      ],
+      [
+        "Fish",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Plasma Transfusion Effects on T Cell Counts (image)",
+        "convalescent plasma therapy"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "days 72 and 73"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "S1 (spike)-protein"
+      ],
+      [
+        "Convalescent Plasma Transfusion",
+        "SARS-CoV-2 Pseudovirus Neutralization Assay"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "Convalescent Plasma Therapy Antibody Kinetics (image)"
+      ],
+      [
+        "asthenia",
+        "loss of weight, dry cough, diarrhea"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "sub-febrile episodes"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "neutropenia"
+      ],
+      [
+        "10 to 15 days apart",
+        "B Cell Count Trend Post Plasma Transfusion (graph)"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "SARS-CoV-2"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "diarrhea"
+      ],
+      [
+        "B(1 cell/mm3), T(114 cell/mm3)",
+        "Covid19"
+      ],
+      [
+        "Nasopharyngeal Swabs",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "Plasma Transfusions"
+      ],
+      [
+        "ConVirus-Transfusion-Effects (diagram)",
+        "Nasopharyngeal Swabs"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "SARS-CoV-2"
+      ],
+      [
+        "Plasma Transfusion Effects on T Cell Counts (image)",
+        "asthenia, loss of weight, dry cough and diarrhea"
+      ],
+      [
+        "Anti-SARS-CoV-2 antibody",
+        "IgG, IgM"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "Covid19"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "Euroimmun ELISA"
+      ],
+      [
+        "Chest computed tomography (CT)",
+        "Plasma Transfusion Effects on T Cell Counts (image)"
+      ],
+      [
+        "convalescent plasma therapy",
+        "reduced_immunosuppressive_status"
+      ],
+      [
+        "clinical condition deterioration",
+        "neutropenia"
+      ],
+      [
+        "ConVirus-Transfusion-Effects (diagram)",
+        "Plasma Transfusion"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "chest computed tomography"
+      ],
+      [
+        "Plasma Transfusion Effects on T Cell Counts (image)",
+        "SARS-CoV-2"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "IgG"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "T (114 cell/mm3)"
+      ],
+      [
+        "C-reactive protein, ferritin",
+        "inflammatory markers"
+      ],
+      [
+        "T (114 cell/mm3), B (1 cell/mm3)",
+        "cell_counts_decrease"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "Chronic Lymphoid Leukemia"
+      ],
+      [
+        "Anti-SARS-CoV-2 Antibody",
+        "ConVirus-Transfusion-Effects (diagram)"
+      ],
+      [
+        "Covid19",
+        "Target Disease Indications"
+      ],
+      [
+        "Anti-inflammatory Therapy",
+        "ConVirus-Transfusion-Effects (diagram)"
+      ],
+      [
+        "C-reactive protein",
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)"
+      ],
+      [
+        "Convalescent Plasma Therapy Antibody Kinetics (image)",
+        "SARS-CoV-2 mRNA"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "ground-glass opacities"
+      ],
+      [
+        "C-reactive protein, ferritin",
+        "inflammatory markers_increase"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "COVID-19 pneumonia"
+      ],
+      [
+        "B Cell Count Trend Post Plasma Transfusion (graph)",
+        "convalescent plasma"
+      ],
+      [
+        "Medical Plasma Therapy Therapy Response Follow-Up (image)",
+        "immunostaining"
+      ],
+      [
+        "Convalescent Plasma Therapy Effect on T Cell Counts (graph)",
+        "dry cough"
+      ]
+    ],
+    "count": 102,
+    "update_time": 1790438215,
+    "_id": "doc-44f02d6d624218a953861f21bba40498"
+  },
+  "doc-e67133bdd4e52e61f394be8d52c1e71b": {
+    "relation_pairs": [
+      [
+        "Subluxation of Hand Joints",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Swollen Fingers and Toes",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Hypesthetic Hypopigmented Macules",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Leprosy",
+        "Synovial Fluid"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Swollen Fingers and Toes"
+      ],
+      [
+        "Leprosy",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Leonine Facies",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Bacterial Index",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Foot Deformities",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Claw Fingers, Drop Wrist",
+        "Mycobacterium Leprae"
+      ],
+      [
+        "Fingers and Toes",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Hand Deformities",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Chronic Arthritis",
+        "Multidrug Therapy (MDT)"
+      ],
+      [
+        "Chronic Arthritis",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Madarosis",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)",
+        "Toes"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Mycobacterium Leprae"
+      ],
+      [
+        "Bone Erosion",
+        "Leprosy"
+      ],
+      [
+        "Osteolysis and Destruction of Phalanges",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Glove and Stocking Hypesthesia",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Interphalangeal Joint",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Mycobacterium Leprae",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Synovial Fluid",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Leprosy",
+        "Subluxation of Hand Joints"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Muscle Atrophy, Contracture"
+      ],
+      [
+        "Hypesthetic Hypopigmented Macules",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Multidrug Therapy (MDT)",
+        "Swollen Fingers and Toes"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Proximal and Distal Interphalangeal Joints"
+      ],
+      [
+        "Hand and Foot Deformities",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Fingers",
+        "Swollen Fingers and Toes"
+      ],
+      [
+        "Leonine Facies",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Leprosy",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Mycobacterium Leprae",
+        "Osteomyelitis"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC8/PMC81/PMC8184239_IMCRJ-14-371-g0003_undivided_1_1.webp",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Bacterial Index",
+        "Mycobacterium Leprae"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Synovial Fluid"
+      ],
+      [
+        "Morphological Index",
+        "Mycobacterium Leprae"
+      ],
+      [
+        "Interphalangeal Joint",
+        "Swollen Fingers and Toes"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Multidrug Therapy (MDT)"
+      ],
+      [
+        "Hypesthetic Hypopigmented Macules",
+        "Leprosy"
+      ],
+      [
+        "Chronic Arthritis",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Leprosy",
+        "Swollen Fingers and Toes"
+      ],
+      [
+        "Leonine Facies",
+        "Leprosy"
+      ],
+      [
+        "Leprosy",
+        "Synovial Acid-fast Smear (image)"
+      ],
+      [
+        "Leprosy",
+        "Osteolysis and Destruction of Phalanges"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Osteomyelitis"
+      ],
+      [
+        "Glove and Stocking Hypesthesia",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Microscopic Slide of Synovial Fluid Smear (image)",
+        "Morphological Index"
+      ],
+      [
+        "Hand and Foot Deformities",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Osteomyelitis",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Leprosy",
+        "Mycobacterium Leprae"
+      ],
+      [
+        "Bone Erosion",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Swollen Fingers and Toes",
+        "Toes"
+      ],
+      [
+        "Multibacillary (MB) Leprosy",
+        "Multidrug Therapy (MDT)"
+      ],
+      [
+        "Claw Fingers, Drop Wrist",
+        "Microscopic Slide of Synovial Fluid Smear (image)"
+      ],
+      [
+        "Glove and Stocking Hypesthesia",
+        "Leprosy"
+      ],
+      [
+        "Multibacillary (MB) Leprosy",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Leprosy",
+        "Madarosis"
+      ],
+      [
+        "Madarosis",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Multidrug Therapy (MDT)",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Hand and Foot Deformities",
+        "Leprosy"
+      ],
+      [
+        "Fingers",
+        "Synovial Fluid Aspiration in Leprosy-Related Chronic Arthritis (medical_photograph)"
+      ],
+      [
+        "Interphalangeal Joint",
+        "Synovial Fluid"
+      ],
+      [
+        "Multidrug Therapy (MDT)",
+        "Osteomyelitis"
+      ]
+    ],
+    "count": 64,
+    "update_time": 1790440802,
+    "_id": "doc-e67133bdd4e52e61f394be8d52c1e71b"
+  },
+  "doc-d109aaea651ce7046b31e356570b0908": {
+    "relation_pairs": [
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "ethambutol"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "generalized weakness"
+      ],
+      [
+        "Anti-tuberculosis medication-induced oculogyric crisis",
+        "ECG Showing Normal Sinus Rhythm (image)"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "RHEZ"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "isyozinid"
+      ],
+      [
+        "OGC",
+        "Rifampicin"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "diphenhydramine 25 mg intravenously"
+      ],
+      [
+        "Diphenhydramine",
+        "Disease Indications"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "rifampicin 600 mg"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "isoniazid 300 mg"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "rifampicin"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "light-headedness"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "near syncope"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "Tuberculosis"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "anaphylaxis-like reaction"
+      ],
+      [
+        "Nodular opacities",
+        "RHEZ"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "abdominal discomfort"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "tuberculosis"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "pyrazinamide"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "nausea"
+      ],
+      [
+        "OGC",
+        "rifampicin containing regimen"
+      ],
+      [
+        "Diphenhydramine",
+        "Focal Nodular Opacities (Left Upper Zone) (image)"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "diaphoresis"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "ethambutol 1.6 g"
+      ],
+      [
+        "Tuberculosis",
+        "nodule"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "OGC"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "mycobacterium tuberculosis polymerase chain reaction"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "OGC"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "electrocardiogram (Figure 3)"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "isanizid"
+      ],
+      [
+        "drug regimen",
+        "pyridoxine"
+      ],
+      [
+        "Diphenhydramine",
+        "OGC"
+      ],
+      [
+        "OGC",
+        "rifampicin"
+      ],
+      [
+        "rifampicin",
+        "rifampicin-containing regimen"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "nodule"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "Granulomatous reactions"
+      ],
+      [
+        "OGC",
+        "light-headedness"
+      ],
+      [
+        "Granulomatous reactions",
+        "Nodular opacities"
+      ],
+      [
+        "OGC",
+        "abdominal discomfort"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "Tuberculosis Control Unit"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "ethambutol"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "left upper zone"
+      ],
+      [
+        "RHEZ",
+        "Tuberculosis"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "generalized weakness"
+      ],
+      [
+        "OGC",
+        "diaphoresis"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "blood cultures"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "diaphoresis"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "pleural plaque"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "syncope"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "small calcified pleural plaque"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "rheumatology, allergy and immunology department"
+      ],
+      [
+        "isanizid",
+        "isanizid-containing regimen"
+      ],
+      [
+        "ethambutol",
+        "ethambutol-containing regimen"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "pyridoxine"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "rifampicin"
+      ],
+      [
+        "Chest X-ray",
+        "Posteroanterior view"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "Department of Rheumatology, Allergy and Immunology"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "light-headedness"
+      ],
+      [
+        "Tuberculosis",
+        "pleural plaque"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "pyrazinamide"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "abdominal discomfort"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "sputum cultures"
+      ],
+      [
+        "OGC",
+        "generalized weakness"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "nausea"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "granulomata"
+      ],
+      [
+        "Diagnosis",
+        "Tuberculosis Control Unit"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "RHEZ"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "tuberculosis control unit"
+      ],
+      [
+        "Department of Rheumatology, Allergy and Immunology",
+        "Diagnosis"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "RHEZ"
+      ],
+      [
+        "pyrazinamide",
+        "pyrazinamide-containing regimen"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "idiosyncratic reaction to rifampicin"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "vital signs"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "pyridoxine 10 mg"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "Rifampicin"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "Posteroanterior view"
+      ],
+      [
+        "Patient Demographics",
+        "Tuberculosis"
+      ],
+      [
+        "Chest X-ray of 66-year-old male TB patient with nodular opacities (image)",
+        "Tuberculosis"
+      ],
+      [
+        "Focal Nodular Opacities (Left Upper Zone) (image)",
+        "Nodular opacities"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "wide-staring gaze with upward and lateral deviation of eyes"
+      ],
+      [
+        "OGC",
+        "nausea"
+      ],
+      [
+        "OGC",
+        "diagnosis"
+      ],
+      [
+        "ECG Showing Normal Sinus Rhythm (image)",
+        "pyrazinamide 1.75 g"
+      ]
+    ],
+    "count": 83,
+    "update_time": 1790442287,
+    "_id": "doc-d109aaea651ce7046b31e356570b0908"
+  },
+  "doc-ac7c9d342e29c1d5d1cce632be77bcf0": {
+    "relation_pairs": [
+      [
+        "Guillain-Barré Syndrome",
+        "Lower limb weakness"
+      ],
+      [
+        "GBS",
+        "Mao et al."
+      ],
+      [
+        "Lower limb weakness",
+        "Mao et al."
+      ],
+      [
+        "COVID-19",
+        "Guillain-Barré Syndrome"
+      ],
+      [
+        "12 year old patient",
+        "Tanzania"
+      ],
+      [
+        "Facial diplegia",
+        "Guillain-Barré Syndrome"
+      ],
+      [
+        "Ataxia",
+        "Guillain-Barré Syndrome"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790442526,
+    "update_time": 1790442526,
+    "_id": "doc-ac7c9d342e29c1d5d1cce632be77bcf0"
+  },
+  "doc-f04f9725e649cf5a54929d99c413730e": {
+    "relation_pairs": [
+      [
+        "Dengue",
+        "Patient Demographics"
+      ],
+      [
+        "Diagnostic_Test",
+        "RT-PCR"
+      ],
+      [
+        "Diagnostic_Test",
+        "Light Cycler"
+      ],
+      [
+        "Index Patient",
+        "Patient Demographics"
+      ],
+      [
+        "Berlin",
+        "Location"
+      ],
+      [
+        "Diagnostic_Test",
+        "IgG ELISA"
+      ],
+      [
+        "Fever",
+        "Symptom"
+      ],
+      [
+        "Hepatitis",
+        "Symptom"
+      ],
+      [
+        "Diagnostic_Test",
+        "IgM Capture ELISA"
+      ],
+      [
+        "Equipment",
+        "QIAamp Viral RNA Mini Kit"
+      ],
+      [
+        "Needlestick Injury",
+        "Treatment"
+      ],
+      [
+        "Ibuprofen",
+        "Medication"
+      ],
+      [
+        "Clinical_Sign",
+        "Fever"
+      ],
+      [
+        "Light Cycler",
+        "Organization"
+      ],
+      [
+        "Clinical_Sign",
+        "Lymphadenopathy"
+      ],
+      [
+        "Antiseptic",
+        "Treatment"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1790444284,
+    "update_time": 1790444284,
+    "_id": "doc-f04f9725e649cf5a54929d99c413730e"
+  },
+  "doc-988e048d11d57a8946165ab48e5b523e": {
+    "relation_pairs": [
+      [
+        "A-3 Months-Old-Boy",
+        "HIV ELISA"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Fluoroquinolones"
+      ],
+      [
+        "M. tuberculosis",
+        "X-pert MTB/RIF"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Para-aminosalicylic Acid"
+      ],
+      [
+        "Gancyclovir",
+        "Optic Toxic Neuropathy"
+      ],
+      [
+        "A-3 Months-Old-Boy",
+        "CD4%"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Hematologic Adverse Effects"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Second-Line Injectable Agents"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Tuberculosis"
+      ],
+      [
+        "Para-aminosalicylic Acid",
+        "Tuberculosis"
+      ],
+      [
+        "CD4%",
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Raised Bilirubin"
+      ],
+      [
+        "CMV Infection",
+        "Gancyclovir"
+      ],
+      [
+        "Linezolid",
+        "Tuberculosis"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Gancyclovir"
+      ],
+      [
+        "CMV IgM and PCR Negative",
+        "CMV Retinitis"
+      ],
+      [
+        "Moxifloxacin",
+        "Tuberculosis"
+      ],
+      [
+        "Ethambutol",
+        "Tuberculosis"
+      ],
+      [
+        "A-3 Months-Old-Boy",
+        "Severe Malnutrition"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Congenital Cytomegalovirus Infection"
+      ],
+      [
+        "CMV Retinitis",
+        "Optic Toxic Neuropathy"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "HIV ELISA"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Right Perihilar Infiltrate"
+      ],
+      [
+        "Cycloserine",
+        "Tuberculosis"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Mild to Moderate Hearing Loss"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "pre-XDR-TB"
+      ],
+      [
+        "Chest X-Ray",
+        "Right Upper-Middle Lung Field"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Linezolid"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "MDR-TB"
+      ],
+      [
+        "Second-Line LPA",
+        "pre-XDR-TB"
+      ],
+      [
+        "M. tuberculosis",
+        "pre-XDR-TB"
+      ],
+      [
+        "A-3 Months-Old-Boy",
+        "Mild to Moderate Hearing Loss"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Cycloserine"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Cytomegalovirus (CMV) IgM"
+      ],
+      [
+        "Fluoroquinolones",
+        "pre-XDR-TB"
+      ],
+      [
+        "Right Perihilar Infiltrate",
+        "Tuberculosis"
+      ],
+      [
+        "Atrial Septal Defect",
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Severe Malnutrition"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Neurologic Adverse Effects (Peripheral and Toxic Optic Neuropathy)"
+      ],
+      [
+        "Chest X-Ray",
+        "Frontal Chest X-Ray"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Moxifloxacin"
+      ],
+      [
+        "A-3 Months-Old-Boy",
+        "Atrial Septal Defect"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Ethambutol"
+      ],
+      [
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)",
+        "Liver Enzymes (Alanine and Aspartate Transaminases)"
+      ],
+      [
+        "A-3 Months-Old-Boy",
+        "Tuberculosis"
+      ],
+      [
+        "Raised Liver Enzymes",
+        "Tuberculosis"
+      ],
+      [
+        "M. tuberculosis",
+        "Resistant to Isoniazid and Rifampicin"
+      ],
+      [
+        "CMV Retinitis",
+        "Chest X-ray of a 3-month-old boy with Pre-XDR TB showing right upper lung infiltrate (image)"
+      ]
+    ],
+    "count": 48,
+    "update_time": 1790446419,
+    "_id": "doc-988e048d11d57a8946165ab48e5b523e"
+  },
+  "doc-bb673cf90db019660f7d1ee9df7b140f": {
+    "relation_pairs": [
+      [
+        "Left_apex",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Ethionamide",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Pre-XDR Tuberculosis Chest X-Ray (image)",
+        "Pyrazinamide"
+      ],
+      [
+        "Pre-XDR Tuberculosis Chest X-Ray (image)",
+        "Severe_weight_loss"
+      ],
+      [
+        "Pre-XDR Tuberculosis Chest X-Ray (image)",
+        "Right_hilar"
+      ],
+      [
+        "Left_hilar",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Levofloxacin",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "MDR-TB",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Pre-XDR Tuberculosis Chest X-Ray (image)",
+        "X-pert_MTB/RIF"
+      ],
+      [
+        "Cycloserine",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Nutritional_status",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Para-aminosalicylic_acid",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Mycobacterium_tuberculosis",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Fever",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Bedaquiline",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Bilateral_peri-hilar_lymph_nodes",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Hemoptysis",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ],
+      [
+        "Linezolid",
+        "Pre-XDR Tuberculosis Chest X-Ray (image)"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1790448598,
+    "update_time": 1790448598,
+    "_id": "doc-bb673cf90db019660f7d1ee9df7b140f"
+  },
+  "doc-cd736e8dbb953e53528eabe2a2d5dc79": {
+    "relation_pairs": [
+      [
+        "MDT",
+        "Treatment"
+      ],
+      [
+        "Biopsy report",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Itraconazole"
+      ],
+      [
+        "Bilateral Greater Auricular Nerve",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Leprosy",
+        "Standard nerve stimulation test"
+      ],
+      [
+        "Multibacillary Nodular Leprosy",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Fite-Faraco Stain",
+        "Multibacillary Nodular Leprosy Microscopy Image (image)"
+      ],
+      [
+        "Biopsy",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Axonal sensory mononeuritis multiplex",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "21-year-old male",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Multibacillary Nodular Leprosy Microscopy Image (image)",
+        "Mycobacterium"
+      ],
+      [
+        "Acid-Fast Bacilli",
+        "Fite-Faraco Stain"
+      ],
+      [
+        "H&E Staining",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Mycobacterium leprae",
+        "ZN stain results"
+      ],
+      [
+        "Improvement",
+        "MDT"
+      ],
+      [
+        "Left knee",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC5/PMC50/PMC5015501_JLP-9-57-g001_undivided_1_1.webp",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC5/PMC50/PMC5015501_JLP-9-57-g003_E_1_1.webp",
+        "Improvement"
+      ],
+      [
+        "Multibacillary Nodular Leprosy",
+        "Patient ID: PMC5015501_01"
+      ],
+      [
+        "Amoxicillin-clavulanic acid",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "Axonal Sensory Polyneuropathy",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Bilateral Common Peroneal Nerve",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Bilateral Greater Auricular Nerve, Bilateral Ulnar Nerve, Bilateral Common Peroneal Nerve",
+        "Histopathological Examination"
+      ],
+      [
+        "Leprosy",
+        "Multibacillary Nodular Leprosy Microscopy Image (image)"
+      ],
+      [
+        "AFB (Acid-fast Bacilli)",
+        "Modified Ziehl-Neelsen (ZN) staining"
+      ],
+      [
+        "Nodular Lesions Presentation Image (medical_photograph)",
+        "Ziehl-Neelsen staining"
+      ],
+      [
+        "Acid-Fast Bacilli",
+        "Multibacillary Nodular Leprosy Microscopy Image (image)"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Modified Ziehl-Neelsen Staining"
+      ],
+      [
+        "Axonal sensory mononeuritis multiplex, Axonal sensory polyneuropathy",
+        "Standard nerve stimulation test"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC5/PMC50/PMC5015501_JLP-9-57-g003_E_1_1.webp",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "AFB staining",
+        "Mycobacterium leprae"
+      ],
+      [
+        "5% Sulfuric Acid",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "AFB (Acid-fast Bacilli)",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "Ears",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "AFB staining",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Leprosy",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Biopsy",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)",
+        "Multidrug therapy (MDT)"
+      ],
+      [
+        "Axonal sensory polyneuropathy",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "Axonal Sensory Mononeuritis Multiplex",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Nodular Lesions Presentation Image (medical_photograph)",
+        "Standard nerve stimulation test"
+      ],
+      [
+        "Histopathological examination",
+        "Mycobacterium leprae"
+      ],
+      [
+        "Leprosy",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Multibacillary Nodular Leprosy"
+      ],
+      [
+        "21-year-old male",
+        "Patient ID: PMC5015501_01"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Mycobacterium leprae"
+      ],
+      [
+        "A21-year-old man",
+        "Leprosy"
+      ],
+      [
+        "Itraconazole",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Leprosy",
+        "Reddish raised small lesions"
+      ],
+      [
+        "Acid-Fast Bacilli",
+        "Pathology"
+      ],
+      [
+        "Biopsy",
+        "Multibacillary Nodular Leprosy"
+      ],
+      [
+        "Amoxicillin-clavulanic acid",
+        "Fungal infection"
+      ],
+      [
+        "Leprosy",
+        "MDT"
+      ],
+      [
+        "AFB Staining",
+        "Histopathological Examination"
+      ],
+      [
+        "Nodular Leprosy",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Acid-Fast Bacilli",
+        "Leprosy"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Subcutaneous Mycoses"
+      ],
+      [
+        "AFB Staining",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Mycobacterium leprae",
+        "Ziehl-Neelsen staining"
+      ],
+      [
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)",
+        "Nerve stimulation test"
+      ],
+      [
+        "MDT",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Fungal infection",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "21-year-old man",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "21-year-old man",
+        "Patient Demographics"
+      ],
+      [
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)",
+        "Mycobacterium leprae"
+      ],
+      [
+        "Generalized raised nodular lesions",
+        "Leprosy"
+      ],
+      [
+        "Fite-Faraco stain",
+        "Mycobacterium leprae"
+      ],
+      [
+        "Modified Ziehl-Neelsen Staining",
+        "Mycobacterium leprae"
+      ],
+      [
+        "Fite-Faraco stain",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Bilateral Ulnar Nerve",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Axonal Sensory Mononeuritis Multiplex, Axonal Sensory Polyneuropathy",
+        "Histopathological Examination"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Leprosy"
+      ],
+      [
+        "Ampicillin-Clavulanic Acid",
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)"
+      ],
+      [
+        "Amoxicillin-clavulanic acid",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Fungal infection",
+        "Itraconazole"
+      ],
+      [
+        "Nodular Lesions Presentation Image (medical_photograph)",
+        "Patient ID: PMC5015501_01"
+      ],
+      [
+        "Elbows",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Acid-Fast Bacilli",
+        "Mycobacterium"
+      ],
+      [
+        "Itraconazole",
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)"
+      ],
+      [
+        "AFB (Acid-fast Bacilli)",
+        "Mycobacterium leprae"
+      ],
+      [
+        "Mycobacterium leprae",
+        "Nodular Lesions Presentation Image (medical_photograph)"
+      ],
+      [
+        "Improvement",
+        "Leprosy"
+      ],
+      [
+        "Nodular Lesions Presentation Image (medical_photograph)",
+        "Right knee"
+      ],
+      [
+        "Biopsy report",
+        "Multibacillary Nodular Leprosy"
+      ],
+      [
+        "Histopathological biopsy slide of dermis showing polymorphous inflammation with foamy histiocytes, plasma cells, neutrophils, and lymphocytes (image)",
+        "Myco"
+      ],
+      [
+        "AFB (Acid-fast Bacilli)",
+        "Histopathological examination"
+      ],
+      [
+        "Leprosy",
+        "Target Disease Indications"
+      ],
+      [
+        "Modified Ziehl-Neelsen Stained ZN Acid-fast Bacilli (image)",
+        "Multibacillary Nodular Leprosy"
+      ]
+    ],
+    "count": 88,
+    "update_time": 1790451326,
+    "_id": "doc-cd736e8dbb953e53528eabe2a2d5dc79"
+  },
+  "doc-0856198c883e2dd5fbb1571ad5fcf281": {
+    "relation_pairs": [
+      [
+        "65-Year-Old Female",
+        "Cov19"
+      ],
+      [
+        "MCP Joints 2 and 5",
+        "Synovitis"
+      ],
+      [
+        "65-Year-Old Female",
+        "Anti-CCP"
+      ],
+      [
+        "Musculoskeletal Ultrasound",
+        "Synovitis"
+      ],
+      [
+        "65-Year-Old Female",
+        "RA Factor"
+      ],
+      [
+        "Synovitis",
+        "Wrist Joints"
+      ],
+      [
+        "PIP Joints 2 to 4",
+        "Synovitis"
+      ],
+      [
+        "65-Year-Old Female",
+        "Synovitis"
+      ],
+      [
+        "Bony Erosions",
+        "Power Doppler"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1790451483,
+    "update_time": 1790451483,
+    "_id": "doc-0856198c883e2dd5fbb1571ad5fcf281"
+  },
+  "doc-1297748dae48df279efa8b98394d0b21": {
+    "relation_pairs": [
+      [
+        "RA factor",
+        "anti-CCP"
+      ],
+      [
+        "Covid19",
+        "MTP joints"
+      ],
+      [
+        "Covid19",
+        "Wrist"
+      ],
+      [
+        "Covid19",
+        "PIP joints"
+      ],
+      [
+        "Covid19",
+        "Synovitis"
+      ],
+      [
+        "Covid19",
+        "MCP joints"
+      ],
+      [
+        "Achilles tendonitis",
+        "Anatomy"
+      ],
+      [
+        "Anatomy",
+        "Ankle"
+      ],
+      [
+        "Ankle",
+        "Covid19"
+      ],
+      [
+        "Anatomy",
+        "MCP joints"
+      ],
+      [
+        "Anatomy",
+        "PIP joints"
+      ],
+      [
+        "Anatomy",
+        "Wrist"
+      ],
+      [
+        "Anatomy",
+        "MTP joints"
+      ],
+      [
+        "Achilles tendonitis",
+        "Covid19"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1790451708,
+    "update_time": 1790451708,
+    "_id": "doc-1297748dae48df279efa8b98394d0b21"
+  },
+  "doc-fd0cdbfbd72b34d4c20c3030350a9f7c": {
+    "relation_pairs": [
+      [
+        "Covid19",
+        "RA factor"
+      ],
+      [
+        "Covid19",
+        "MCP Joints"
+      ],
+      [
+        "Covid19",
+        "Generalized Joint Pains"
+      ],
+      [
+        "Covid19",
+        "anti-CCP"
+      ],
+      [
+        "Ankles",
+        "Covid19"
+      ],
+      [
+        "Covid19",
+        "Morning Stiffness"
+      ],
+      [
+        "Covid19",
+        "Swelling"
+      ],
+      [
+        "Covid19",
+        "Wrist Joints"
+      ],
+      [
+        "Covid19",
+        "MTP Joints"
+      ],
+      [
+        "Covid19",
+        "Tenderness"
+      ],
+      [
+        "Covid19",
+        "Warmth"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1790451944,
+    "update_time": 1790451944,
+    "_id": "doc-fd0cdbfbd72b34d4c20c3030350a9f7c"
+  },
+  "doc-44a7680d902283b4fc12540c4e5c3658": {
+    "relation_pairs": [
+      [
+        "Inflammatory Arthritis",
+        "Wrist"
+      ],
+      [
+        "Inflammatory Arthritis",
+        "Musculoskeletal Ultrasound"
+      ],
+      [
+        "Inflammatory Arthritis",
+        "RA Factor"
+      ],
+      [
+        "Inflammatory Arthritis",
+        "MCP Joint 2"
+      ],
+      [
+        "Anti-CCP",
+        "Inflammatory Arthritis"
+      ],
+      [
+        "Morning Stiffness",
+        "Patient"
+      ],
+      [
+        "Inflammatory Arthritis",
+        "PIP Joint 2 to 5"
+      ],
+      [
+        "Joint Pain",
+        "Patient"
+      ],
+      [
+        "Covid19",
+        "Inflammatory Arthritis"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1790452140,
+    "update_time": 1790452140,
+    "_id": "doc-44a7680d902283b4fc12540c4e5c3658"
+  },
+  "doc-265f5339bf561dcb610960385773dddf": {
+    "relation_pairs": [
+      [
+        "Prednisone",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ],
+      [
+        "MCP Joints",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ],
+      [
+        "Musculoskeletal Ultrasound",
+        "Power Doppler"
+      ],
+      [
+        "Anti-CCP",
+        "Rheumatoid Arthritis"
+      ],
+      [
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)",
+        "Synovitis"
+      ],
+      [
+        "Hydroxychloroquine",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ],
+      [
+        "RA Factor",
+        "Rheumatoid Arthritis"
+      ],
+      [
+        "Covid19",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ],
+      [
+        "Etoricoxib",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ],
+      [
+        "Bony Erosions",
+        "Rheumatoid Arthritis"
+      ],
+      [
+        "Rheumatoid Arthritis",
+        "Synovitis"
+      ],
+      [
+        "Leflunomide",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ],
+      [
+        "PIP Joints",
+        "Seronegative Post-COVID-19 Inflammatory Arthritis (Polyarticular)"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1790452498,
+    "update_time": 1790452498,
+    "_id": "doc-265f5339bf561dcb610960385773dddf"
+  },
+  "doc-fda95250b320481cbd9c985a1ee0667c": {
+    "relation_pairs": [
+      [
+        "Chest_X-ray",
+        "Diagnostic_Test"
+      ],
+      [
+        "ICU",
+        "Treatment"
+      ],
+      [
+        "Disease",
+        "Severe_acute_respiratory_distress syndrome (ARDS)"
+      ],
+      [
+        "Patient_Cohort",
+        "Pro-BNP"
+      ],
+      [
+        "Anatomy",
+        "Widespread_bilateral_alveolo-interstitial_infiltrates"
+      ],
+      [
+        "Lymphopenia",
+        "Patient_Cohort"
+      ],
+      [
+        "Patient_Cohort",
+        "Respiratory_failure"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790453051,
+    "update_time": 1790453051,
+    "_id": "doc-fda95250b320481cbd9c985a1ee0667c"
+  },
+  "doc-eea2cd2f8d466a73d8c53a7c6a597ab9": {
+    "relation_pairs": [
+      [
+        "Covid19",
+        "pheochromocytoma"
+      ],
+      [
+        "MRI",
+        "Slight Edema"
+      ],
+      [
+        "24-h blood pressure monitoring",
+        "pheochromocytoma"
+      ],
+      [
+        "general anesthesia",
+        "operative_treatment"
+      ],
+      [
+        "pheochromocytoma",
+        "vertebral disc herniation L5-S1, sacroiliac joint compression"
+      ],
+      [
+        "pheochromocytoma",
+        "right retroperitoneoscopic adrenalectomy"
+      ],
+      [
+        "cerebral MRI, lumbar MRI, pelvic MRI",
+        "pheochromocytoma"
+      ],
+      [
+        "MRI",
+        "Rheumatic Inflammatory Genesis"
+      ],
+      [
+        "pheochromocytoma",
+        "right facial paresthesia, inguinal pain, and hypoesthesia"
+      ],
+      [
+        "pheochromocytoma",
+        "plasma normetanephrine"
+      ],
+      [
+        "Covid19",
+        "dizziness, chronic fatigue, profuse sweating"
+      ],
+      [
+        "pheochromocytoma",
+        "right adrenalectomy"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1790454539,
+    "update_time": 1790454539,
+    "_id": "doc-eea2cd2f8d466a73d8c53a7c6a597ab9"
+  },
+  "doc-e6f55a09af80fb0dbfb6d9f7245be87a": {
+    "relation_pairs": [
+      [
+        "Surgical Site with Intestinal Perforation (image)",
+        "Tenofovir"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "HIV viral load"
+      ],
+      [
+        "Intestinal Perforation",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Ganciclovir"
+      ],
+      [
+        "Intestinal Perforation",
+        "PMC6796728_gr1_A_1_3.webp"
+      ],
+      [
+        "Granulomas within Lymph Nodes",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Intestinal Perforation"
+      ],
+      [
+        "Crystalloids",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Labored Breathing",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Piperacillin/Tazobactam",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Resection",
+        "Side-to-side Ileotransverse Anastomosis"
+      ],
+      [
+        "Antiretroviral Therapy (ART)",
+        "Patient"
+      ],
+      [
+        "Surgical Site with Intestinal Perforation (image)",
+        "Tuberculosis"
+      ],
+      [
+        "Ganciclovir",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Efavirenz",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Tenofovir, Emtricitabine, Efavirenz"
+      ],
+      [
+        "Peritonitis",
+        "Terminal Ileum"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Tuberculosis"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Mild Leukocytosis, Neutrophilia"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "PMC6796728_01"
+      ],
+      [
+        "Mild Leukocytosis, Neutrophilia, Metabolic Acidosis, Hyperlactatemia",
+        "Patient"
+      ],
+      [
+        "Side-to-side Ileotransverse Anastomosis",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Intestinal Perforation",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Fungal Infections",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Kaposi sarcoma"
+      ],
+      [
+        "Surgical Site with Intestinal Perforation (image)",
+        "Terminal Ileum"
+      ],
+      [
+        "Multiple Ulcers",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "PMC6796728_gr1_A_1_3.webp",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Efavirenz",
+        "Medication"
+      ],
+      [
+        "Diffuse Peritonitis",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Ganciclovir",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Hypotension, Tachycardia",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Chronic Inflammation",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Piperacillin/Tazobactam"
+      ],
+      [
+        "Patient",
+        "Piperacillin/Tazobactam"
+      ],
+      [
+        "HIV",
+        "Past Medical History"
+      ],
+      [
+        "Metabolic Acidosis with Hyperlactatemia",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Mycobacterial Infections",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "ETHICON Linear Cutter NTLC75",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Peritonitis",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Cecum",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "PM6796728_01",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "PMC6796728_01, 26.0, Female",
+        "Patient"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Intestinal tuberculosis"
+      ],
+      [
+        "Intestinal Perforation",
+        "Tuberculosis"
+      ],
+      [
+        "CD4 T Cells",
+        "Diffuse Peritonitis"
+      ],
+      [
+        "Antiretroviral Therapy (ART)",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "HIV",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Medication",
+        "Tenofovir"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Metabolic Acidosis, Hyperlactatemia"
+      ],
+      [
+        "Pathogen",
+        "Tuboerenchitis"
+      ],
+      [
+        "Emtricitabine",
+        "Medication"
+      ],
+      [
+        "Cytomegalovirus (CMV)",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Antiretroviral Therapy (ART)",
+        "Bowel Perforation at Terminal Ileum (image)"
+      ],
+      [
+        "Emtricitabine",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Intestinal Perforation at Cecum",
+        "PMC6796728_gr1_A_1_3.webp"
+      ],
+      [
+        "Metabolic Acidosis with Hyperlactatemia",
+        "Peritonitis"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Right Colectomy"
+      ],
+      [
+        "Cecum",
+        "Peritonitis"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Tenofovir"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Fungal infection"
+      ],
+      [
+        "Ganciclovir",
+        "Patient"
+      ],
+      [
+        "Neoplastic Disease or Kaposi Sarcoma",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Peritonitis"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Piperacillin/Tazobactam"
+      ],
+      [
+        "Hypotension, Tachycardia, Labored Breathing",
+        "Patient"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Colonic tuberculosis"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "CD4 counts"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "HIV"
+      ],
+      [
+        "HIV",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "500 ml of pus",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Multiple Granulomas",
+        "Surgical Site with Intestinal Perforation (image)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Efavirenz"
+      ],
+      [
+        "Patient",
+        "Tenofovir, Emtricitabine, Efavirenz"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "CMV infection"
+      ],
+      [
+        "Laparotomy Wound Postoperatively (photograph)",
+        "Side-to-side ileotransverse anastomosis"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Mycobacterial infection"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Pathology report"
+      ],
+      [
+        "2 x 1 cm and 3 x 2 cm bowel perforations",
+        "Laparotomy Wound Postoperatively (photograph)"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Neoplastic disease"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "HIV antibodies"
+      ],
+      [
+        "Bowel Perforation at Terminal Ileum (image)",
+        "Emtricitabine"
+      ]
+    ],
+    "count": 82,
+    "create_time": 1790457590,
+    "update_time": 1790457590,
+    "_id": "doc-e6f55a09af80fb0dbfb6d9f7245be87a"
+  },
+  "doc-eb43944802e510dedf35e54d06c3823b": {
+    "relation_pairs": [
+      [
+        "TB of the Left Calcaneum and Right Hip",
+        "Tuberculosis"
+      ],
+      [
+        "CT Scan of the Left Foot",
+        "Diagnosis of Osteogenic Sarcoma"
+      ],
+      [
+        "Right Femoral Head",
+        "TB of the Left Calcaneum and Right Hip"
+      ],
+      [
+        "Microscopic Examination",
+        "TB of the Left Calcaneum and Right Hip"
+      ],
+      [
+        "Sequestrectomy",
+        "Treatment of Left Calcaneum"
+      ],
+      [
+        "Left Calcaneum",
+        "TB of the Left Calcaneum and Right Hip"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1790457829,
+    "update_time": 1790457829,
+    "_id": "doc-eb43944802e510dedf35e54d06c3823b"
+  },
+  "doc-e80033bbc623cf7342f64a72b2269b42": {
+    "relation_pairs": [
+      [
+        "Enoxaparin",
+        "Weakness"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Procalcitonin"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Weakness"
+      ],
+      [
+        "Acetylsalicylic acid",
+        "Weakness"
+      ],
+      [
+        "Acetylsalicylic acid",
+        "Coronavirus Disease"
+      ],
+      [
+        "Covid19",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Infarction",
+        "Weakness"
+      ],
+      [
+        "Enoxaparin",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Coronavirus Disease",
+        "D-dimer"
+      ],
+      [
+        "C-Reactive Protein",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Infarction",
+        "Coronavirus Disease"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Levofloxacin"
+      ],
+      [
+        "Acetylsalicylic acid",
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Thromboembolic Complications"
+      ],
+      [
+        "Cerebral Infarction",
+        "Treatment"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "c-reactive protein"
+      ],
+      [
+        "D-dimer",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Infarction",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Cough"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Procalcitonin"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Weakness"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Coronavirus Disease"
+      ],
+      [
+        "Coronavirus Disease",
+        "Favipivir"
+      ],
+      [
+        "Fibrinogen",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Severe Acute Respiratory Syndrome Coronavirus 2"
+      ],
+      [
+        "Anticoagulants",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Favipavir",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Coronavirus Disease",
+        "Enoxaparin"
+      ],
+      [
+        "Coronavirus Disease",
+        "Leukocyte"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Right Frontal Lobe"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Ferritin"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Levofloxacin"
+      ],
+      [
+        "Elderly Patient",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Coronavirus_sars2"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Thromboembolic Complications"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Oxygen Saturation"
+      ],
+      [
+        "Figure 2",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Left Arm Weakness"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "PMC7269521_1678-9849-rsbmt-53-e20200307-gf2_A_1_2.webp"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Fibrinogen"
+      ],
+      [
+        "Brain Diffusion Magnetic Resonance Imaging",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Cerebral Infarction"
+      ],
+      [
+        "Cough",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Neutrophil"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "D-dimer"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Lymphocyte"
+      ],
+      [
+        "Acetylsalicylic Acid",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Favipivir"
+      ],
+      [
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)",
+        "Loss of Muscle Tone"
+      ],
+      [
+        "Favipivir",
+        "Weakness"
+      ],
+      [
+        "Ferritin",
+        "Ischemic Stroke MRI: Hyperacute to Subacute Phase (image)"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Enoxaparin"
+      ],
+      [
+        "Cerebral Diffusion MRI Slice with Hypointense Infarction (image)",
+        "Leukocyte"
+      ],
+      [
+        "Coronavirus Disease",
+        "Levofloxacin"
+      ]
+    ],
+    "count": 54,
+    "update_time": 1790458951,
+    "_id": "doc-e80033bbc623cf7342f64a72b2269b42"
+  },
+  "doc-52b2d40f6a3fb46b33de3727a20901b0": {
+    "relation_pairs": [
+      [
+        "Clinical Sign",
+        "Subpleural Curvilinear Shadow"
+      ],
+      [
+        "Clinical Sign",
+        "Consolidation"
+      ],
+      [
+        "Medication",
+        "Pravastatin"
+      ],
+      [
+        "Clinical Sign",
+        "Oxygen Saturation"
+      ],
+      [
+        "Cough",
+        "Symptom"
+      ],
+      [
+        "Medication",
+        "Simvastatin"
+      ],
+      [
+        "C-Reactive Protein (CRP)",
+        "Diagnostic Test"
+      ],
+      [
+        "Clinical Sign",
+        "Ground-Glass Pattern"
+      ],
+      [
+        "Diagnostic Test",
+        "White Blood Cell (WBC) Count"
+      ],
+      [
+        "Diagnostic Test",
+        "Ferritin Level 866 ng/mL"
+      ],
+      [
+        "Diagnostic Test",
+        "Lymphocyte Count"
+      ],
+      [
+        "Diagnostic Test",
+        "Sodium Level"
+      ],
+      [
+        "Chest CT Scan",
+        "Diagnostic Test"
+      ],
+      [
+        "C-Reactive Protein 12.21 mg/dL",
+        "Diagnostic Test"
+      ],
+      [
+        "Clinical Sign",
+        "Crazy-Paving Appearance"
+      ],
+      [
+        "Clinical Sign",
+        "Ground-Glass Opacity (GGO)"
+      ],
+      [
+        "Diagnostic Test",
+        "RT-PCR"
+      ],
+      [
+        "Lopinavir/Ritonavir",
+        "Treatment"
+      ],
+      [
+        "Covid19",
+        "Patient Demographics"
+      ],
+      [
+        "Diagnostic Test",
+        "WBC 7,900/muL"
+      ],
+      [
+        "Fever",
+        "Symptom"
+      ],
+      [
+        "Chest X-ray",
+        "Diagnostic Test"
+      ],
+      [
+        "Hyperlipidemia",
+        "Medication"
+      ],
+      [
+        "Diagnostic Test",
+        "Sodium Level 132 mmol/L"
+      ],
+      [
+        "Diagnostic Test",
+        "Lymphocyte 711/mL"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1790459416,
+    "update_time": 1790459416,
+    "_id": "doc-52b2d40f6a3fb46b33de3727a20901b0"
+  },
+  "doc-2420c52fbaf9efd3626d28d518dc7ab2": {
+    "relation_pairs": [
+      [
+        "Hypertension",
+        "Telmisartan"
+      ],
+      [
+        "Covid19",
+        "GGO"
+      ],
+      [
+        "Hypertension",
+        "Trichlormethiazide"
+      ],
+      [
+        "CT Scan",
+        "Covid19"
+      ],
+      [
+        "Chest X-ray",
+        "Covid19"
+      ],
+      [
+        "Bicalutamide",
+        "Prostate Cancer"
+      ],
+      [
+        "Covid19",
+        "LPV/r"
+      ],
+      [
+        "Covid19",
+        "Infiltrative Shadow"
+      ],
+      [
+        "Prostate Cancer",
+        "Tamsulosin Hydrochloride"
+      ],
+      [
+        "Covid19",
+        "Hyponatremia"
+      ],
+      [
+        "Covid19",
+        "Fever"
+      ],
+      [
+        "Prostate Cancer",
+        "Prostate Gland"
+      ],
+      [
+        "Covid19",
+        "PMC7248319_02"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1790459711,
+    "update_time": 1790459711,
+    "_id": "doc-2420c52fbaf9efd3626d28d518dc7ab2"
+  },
+  "doc-be4d0677b9eed306cc4f0cb83796c34f": {
+    "relation_pairs": [
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "Covid19"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "infiltrative shadows"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "LPV/r"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Ferritin"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Infiltrative Shadows"
+      ],
+      [
+        "Clinical Course",
+        "Patient 3"
+      ],
+      [
+        "Chest X-ray (CXP)",
+        "Clinical Course Tracking Chart (image)"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "immunostaining"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "oxygen inhalation"
+      ],
+      [
+        "COVID-19 Pneumonia",
+        "Clinical Course Tracking Chart (image)"
+      ],
+      [
+        "Covid19",
+        "LPV/r"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Polymerase chain reaction (PCR) test"
+      ],
+      [
+        "Body temperature (BT)",
+        "Clinical Course Tracking Chart (image)"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "day 15"
+      ],
+      [
+        "CT Scan",
+        "Patient 3"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "Figures 1-3"
+      ],
+      [
+        "CT Scan",
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)"
+      ],
+      [
+        "0.06 mg/dL",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "two consecutive negative RT-PCR results"
+      ],
+      [
+        "Infiltrative Shadows",
+        "Pneumonia"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Sodium Level"
+      ],
+      [
+        "3/5/3 2 Oxygen (L/min) 1",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Fever"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "WBC"
+      ],
+      [
+        "Hyponatremia",
+        "Sodium Level"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Dry cough"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Lymphocyte"
+      ],
+      [
+        "Ferritin",
+        "Hyperferritinemia"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Lopinavir/Ritonavir (LPV/r)"
+      ],
+      [
+        "CRP",
+        "Fever"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Gastrointestinal adverse events"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "red and blue arrows"
+      ],
+      [
+        "Gastrointestinal Adverse Events",
+        "Patient 3"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "Figures 4"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "Lopinavir/Ritonavir"
+      ],
+      [
+        "CT Scan",
+        "Infiltrative Shadows"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "RT-PCR"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "oxygen levels"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Infiltrative shadows"
+      ],
+      [
+        "20 ng/mL",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Covid19",
+        "RT-PCR"
+      ],
+      [
+        "Fever",
+        "Patient 2"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "consolidations"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Cough"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "pathology"
+      ],
+      [
+        "Fever",
+        "Oxygen Inhalation"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "FEVER"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Computed Tomographic (CT) scan"
+      ],
+      [
+        "1,224/mL",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "gastrointestinal adverse events"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Pneumonia"
+      ],
+      [
+        "3,600/muL",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "CXP",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "LPV/r",
+        "Patient 2"
+      ],
+      [
+        "CRP",
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)"
+      ],
+      [
+        "136 mmol/L",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Lymphopenia"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "Lopinavir/Ritonavir (LPV/r)"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Covid19"
+      ],
+      [
+        "38 C",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Consolidations"
+      ],
+      [
+        "Lymphopenia",
+        "WBC"
+      ],
+      [
+        "Clinical Course Tracking Chart (image)",
+        "Hyponatremia"
+      ],
+      [
+        "CT",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Gastrointestinal Adverse Events"
+      ],
+      [
+        "Clinical Temperature Monitoring of COVID-19 Patient (image)",
+        "Dry Cough"
+      ],
+      [
+        "/Users/Me/Desktop/Khailambaitest/final_year/chatbot/project/medical_datasets/whole_multicare_dataset/PMC7/PMC72/PMC7248319_fmed-07-00241-g0001_undivided_1_1.webp",
+        "Clinical Progression Timeline with Therapeutic Impact (image)"
+      ],
+      [
+        "Clinical Progression Timeline with Therapeutic Impact (image)",
+        "clinical course of patient 1"
+      ]
+    ],
+    "count": 68,
+    "update_time": 1790461608,
+    "_id": "doc-be4d0677b9eed306cc4f0cb83796c34f"
+  },
+  "doc-1beca89a35d0a27034ba4d8ff67ae28d": {
+    "relation_pairs": [
+      [
+        "Covid19",
+        "Patient_Cohort"
+      ],
+      [
+        "Future Generations",
+        "Yourself"
+      ],
+      [
+        "Disposable Plastics",
+        "Patient_Cohort"
+      ],
+      [
+        "Disposable Plastics",
+        "Future Generations"
+      ],
+      [
+        "Disposable Plastics",
+        "Yourself"
+      ],
+      [
+        "Anatomy",
+        "Future Generations"
+      ],
+      [
+        "Anatomy",
+        "Yourself"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1790461791,
+    "update_time": 1790461791,
+    "_id": "doc-1beca89a35d0a27034ba4d8ff67ae28d"
+  }
+}

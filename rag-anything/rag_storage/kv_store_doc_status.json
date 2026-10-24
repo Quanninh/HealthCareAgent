@@ -1,0 +1,996 @@
+{
+  "doc-58493541d4b5843c90e44f5c28253b2c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-58493541d4b5843c90e44f5c28253b2c"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cysticercal Encephalitis in a Young Female: A Rare Presentation of Neurocysticercosis\nSource: Cureus (2023) DOI: 10.7759/cureus.33931\nPatient Demographics: Case ID: PMC9937515_01 | Age: 24.0 | Gender: Female\nTarget...",
+    "content_length": 2537,
+    "created_at": "2026-09-26T11:15:59.959075+00:00",
+    "updated_at": "2026-09-26T11:23:16+00:00",
+    "file_path": "PMC_PMC9937515_01.json",
+    "track_id": "insert_20260926_181559_9242e9b3",
+    "metadata": {
+      "processing_start_time": 1790421359,
+      "processing_end_time": 1790421794
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-6c40e4c62280dbc714557364dfa070a3": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-6c40e4c62280dbc714557364dfa070a3",
+      "chunk-15e148b7f5dbc3294d43d24935101df2"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Acute hepatitis in neonates with COVID-19 during the Omicron SARS-CoV-2 variant wave: a report of four cases\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1179402\nPatient Demographics: Case ID: P...",
+    "content_length": 4547,
+    "created_at": "2026-09-26T11:23:16.881214+00:00",
+    "updated_at": "2026-09-26T11:35:41+00:00",
+    "file_path": "PMC_PMC10196249_01.json",
+    "track_id": "insert_20260926_182316_414f1423",
+    "metadata": {
+      "processing_start_time": 1790421796,
+      "processing_end_time": 1790422541
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-bfd0b1968385a3570094d7d4622ba66a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-bfd0b1968385a3570094d7d4622ba66a"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Acute hepatitis in neonates with COVID-19 during the Omicron SARS-CoV-2 variant wave: a report of four cases\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1179402\nPatient Demographics: Case ID: P...",
+    "content_length": 3229,
+    "created_at": "2026-09-26T11:35:41.470503+00:00",
+    "updated_at": "2026-09-26T11:45:27+00:00",
+    "file_path": "PMC_PMC10196249_02.json",
+    "track_id": "insert_20260926_183541_ae3bd9fd",
+    "metadata": {
+      "processing_start_time": 1790422541,
+      "processing_end_time": 1790423127
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-7ff9630096d279dc8d337ce73d790954": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7ff9630096d279dc8d337ce73d790954"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Acute hepatitis in neonates with COVID-19 during the Omicron SARS-CoV-2 variant wave: a report of four cases\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1179402\nPatient Demographics: Case ID: P...",
+    "content_length": 2353,
+    "created_at": "2026-09-26T11:45:27.061740+00:00",
+    "updated_at": "2026-09-26T11:52:34+00:00",
+    "file_path": "PMC_PMC10196249_03.json",
+    "track_id": "insert_20260926_184527_c7db16fd",
+    "metadata": {
+      "processing_start_time": 1790423127,
+      "processing_end_time": 1790423554
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-e340435990fefbb72d405e7ae4e5934f": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-d2cca34c71e88accab9345a13cbb98a7",
+      "chunk-2e982d6115b02797f58ea35175ed9701"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Acute hepatitis in neonates with COVID-19 during the Omicron SARS-CoV-2 variant wave: a report of four cases\nSource: Front Pediatr (2023) DOI: 10.3389/fped.2023.1179402\nPatient Demographics: Case ID: P...",
+    "content_length": 3034,
+    "created_at": "2026-09-26T11:52:34.543356+00:00",
+    "updated_at": "2026-09-26T12:07:08+00:00",
+    "file_path": "PMC_PMC10196249_04.json",
+    "track_id": "insert_20260926_185234_9a92e6c0",
+    "metadata": {
+      "processing_start_time": 1790423554,
+      "processing_end_time": 1790423968
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-9ddd287f130d69c758ab6c64233da79b": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-2c9bdb79e953d0396483ee80616ff435",
+      "chunk-26c14658402ba7da04aadddfbb3e2029",
+      "chunk-eac406802869d73c248ce01bced8320b",
+      "chunk-5cc477d943069e397d165d3fc513c4e6"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Gender Differences in Patients With COVID-19: Focus on Severity and Mortality\nSource: Front Public Health (2020) DOI: 10.3389/fpubh.2020.00152\nPatient Demographics: Case ID: PMC7201103_01 | Gender: Female\nTarget Di...",
+    "content_length": 2836,
+    "created_at": "2026-09-26T12:07:08.879289+00:00",
+    "updated_at": "2026-09-26T12:31:37+00:00",
+    "file_path": "PMC_PMC7201103_01.json",
+    "track_id": "insert_20260926_190708_750ec758",
+    "metadata": {
+      "processing_start_time": 1790424428,
+      "processing_end_time": 1790424842
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-1168e2eb286ac24f9814aa54152ca7b3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1168e2eb286ac24f9814aa54152ca7b3"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Intestinal stones: A rare cause of bowel obstruction\nSource: SAGE Open Med Case Rep (2019) DOI: 10.1177/2050313X19849837\nPatient Demographics: Case ID: PMC6537081_01 | Age: 21.0 | Gender: Female\nTarget Disease Indi...",
+    "content_length": 2862,
+    "created_at": "2026-09-26T12:31:37.859558+00:00",
+    "updated_at": "2026-09-26T12:37:34+00:00",
+    "file_path": "PMC_PMC6537081_01.json",
+    "track_id": "insert_20260926_193137_3db28ad6",
+    "metadata": {
+      "processing_start_time": 1790425897,
+      "processing_end_time": 1790426254
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-38bc0c5926f93833cc7305cb9f3e9e0e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-38bc0c5926f93833cc7305cb9f3e9e0e"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Fulminant Necrotising Amoebic Colitis of Whole of Large Bowel: A Rare Complication of a Common Infectious Disease\nSource: Case Rep Infect Dis (2020) DOI: 10.1155/2020/8845263\nPatient Demographics: Case ID: PMC74391...",
+    "content_length": 4299,
+    "created_at": "2026-09-26T12:37:34.212485+00:00",
+    "updated_at": "2026-09-26T12:42:09+00:00",
+    "file_path": "PMC_PMC7439188_01.json",
+    "track_id": "insert_20260926_193734_33e4a552",
+    "metadata": {
+      "processing_start_time": 1790426254,
+      "processing_end_time": 1790426529
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-30d791623be1b85724e729207e29f37a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-30d791623be1b85724e729207e29f37a"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Uncommon abdominal \"egg-shelled\" lesions mimic hepatic echinococcosis: Two cases report\nSource: Front Surg (2022) DOI: 10.3389/fsurg.2022.944980\nPatient Demographics: Case ID: PMC9500339_01 | Age: 44.0 | Gender: Fe...",
+    "content_length": 2332,
+    "created_at": "2026-09-26T12:42:09.182434+00:00",
+    "updated_at": "2026-09-26T12:46:26+00:00",
+    "file_path": "PMC_PMC9500339_01.json",
+    "track_id": "insert_20260926_194209_89ae1556",
+    "metadata": {
+      "processing_start_time": 1790426529,
+      "processing_end_time": 1790426786
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-051b661fbc9a280a90f8d99e00265993": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-051b661fbc9a280a90f8d99e00265993"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Uncommon abdominal \"egg-shelled\" lesions mimic hepatic echinococcosis: Two cases report\nSource: Front Surg (2022) DOI: 10.3389/fsurg.2022.944980\nPatient Demographics: Case ID: PMC9500339_02 | Age: 55.0 | Gender: Fe...",
+    "content_length": 2420,
+    "created_at": "2026-09-26T12:46:26.870647+00:00",
+    "updated_at": "2026-09-26T12:50:10+00:00",
+    "file_path": "PMC_PMC9500339_02.json",
+    "track_id": "insert_20260926_194626_1a2169de",
+    "metadata": {
+      "processing_start_time": 1790426786,
+      "processing_end_time": 1790427010
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-b62510d63b496c8d79e5e0b4ef3291aa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b62510d63b496c8d79e5e0b4ef3291aa"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Online Group Music-Making in Community Concert Bands: Perspectives From Conductors and Older Amateur Musicians\nSource: Front Psychol (2022) DOI: 10.3389/fpsyg.2022.878307\nPatient Demographics: Case ID: PMC9285893_0...",
+    "content_length": 5743,
+    "created_at": "2026-09-26T12:50:10.854523+00:00",
+    "updated_at": "2026-09-26T12:53:55+00:00",
+    "file_path": "PMC_PMC9285893_01.json",
+    "track_id": "insert_20260926_195010_e053e592",
+    "metadata": {
+      "processing_start_time": 1790427010,
+      "processing_end_time": 1790427235
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-18fd428acf2f64b8def73d95b7ae7fe5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-18fd428acf2f64b8def73d95b7ae7fe5"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Reactivation of COVID-19 in a neurosurgical patient with early neuropsychiatric presentation. Does seroconversion mean immunity?\nSource: Surg Neurol Int (2021) DOI: 10.25259/SNI_831_2020\nPatient Demographics: Case ...",
+    "content_length": 3937,
+    "created_at": "2026-09-26T12:53:55.489070+00:00",
+    "updated_at": "2026-09-26T13:00:21+00:00",
+    "file_path": "PMC_PMC8168796_01.json",
+    "track_id": "insert_20260926_195355_60d5dfcd",
+    "metadata": {
+      "processing_start_time": 1790427235,
+      "processing_end_time": 1790427621
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-418633c29d4ec61ace46a6d914aa9c16": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-418633c29d4ec61ace46a6d914aa9c16"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Congenital Malaria in a 2-Day-Old Neonate: A Case Report and Literature Review\nSource: Case Rep Infect Dis (2021) DOI: 10.1155/2021/9960006\nPatient Demographics: Case ID: PMC8282370_01 | Age: 29.0 | Gender: Female\n...",
+    "content_length": 2473,
+    "created_at": "2026-09-26T13:00:21.335464+00:00",
+    "updated_at": "2026-09-26T13:05:19+00:00",
+    "file_path": "PMC_PMC8282370_01.json",
+    "track_id": "insert_20260926_200021_4fb80281",
+    "metadata": {
+      "processing_start_time": 1790427621,
+      "processing_end_time": 1790427919
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-58f6a9b17126322e201c99a36043601b": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-58f6a9b17126322e201c99a36043601b",
+      "chunk-3eacb7e0cf51e8c865783c1d868c9ccc"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Intestinal Ischemia Due to Mesenteric Vascular Thrombosis in a Patient with Positive SARS-Cov-2 RNA without Primary Pulmonary Symptom: A Case Report\nSource: Middle East J Dig Dis (2021) DOI: 10.34172/mejdd.2021.208...",
+    "content_length": 4421,
+    "created_at": "2026-09-26T13:05:19.092530+00:00",
+    "updated_at": "2026-09-26T13:12:35+00:00",
+    "file_path": "PMC_PMC8531932_01.json",
+    "track_id": "insert_20260926_200519_7dcd0894",
+    "metadata": {
+      "processing_start_time": 1790427919,
+      "processing_end_time": 1790428355
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-cd8dafc73685ca7193f8ba955f6a0145": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cd8dafc73685ca7193f8ba955f6a0145"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Slow-growing primary marginal zone B-cell lymphoma arising in the chest wall in a patient without a history of tuberculosis\nSource: Acta Radiol Short Rep (2013) DOI: 10.1177/2047981613477402\nPatient Demographics: C...",
+    "content_length": 2144,
+    "created_at": "2026-09-26T13:12:35.494666+00:00",
+    "updated_at": "2026-09-26T13:16:00+00:00",
+    "file_path": "PMC_PMC3736967_01.json",
+    "track_id": "insert_20260926_201235_186377aa",
+    "metadata": {
+      "processing_start_time": 1790428355,
+      "processing_end_time": 1790428560
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-bd4ebdb4b66875b120006ddca483a7af": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-bd4ebdb4b66875b120006ddca483a7af"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Isolated costotransverse joint tuberculosis - A rare location for tubercular arthritis\nSource: Surg Neurol Int (2022) DOI: 10.25259/SNI_398_2022\nPatient Demographics: Case ID: PMC9282816_01 | Age: 25.0 | Gender: Fe...",
+    "content_length": 1993,
+    "created_at": "2026-09-26T13:16:00.152913+00:00",
+    "updated_at": "2026-09-26T13:20:57+00:00",
+    "file_path": "PMC_PMC9282816_01.json",
+    "track_id": "insert_20260926_201600_069001f4",
+    "metadata": {
+      "processing_start_time": 1790428560,
+      "processing_end_time": 1790428857
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-b9c6d4e455180fd10ad3fb45aaab66de": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-ac270fef85aabf4bb28e9e7f4c192c65",
+      "chunk-9efd733ba221c73d504ec124afde6a10",
+      "chunk-3b65a112e0008cd7355ad93c218b4985"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case Report: White Colored Stool: An Early Sign of Cystic Fibrosis in Infants\nSource: Front Pediatr (2021) DOI: 10.3389/fped.2021.656584\nPatient Demographics: Case ID: PMC8081048_01 | Age: 0.0 | Gender: Male\nTarget...",
+    "content_length": 4135,
+    "created_at": "2026-09-26T13:20:57.233633+00:00",
+    "updated_at": "2026-09-26T13:50:15+00:00",
+    "file_path": "PMC_PMC8081048_01.json",
+    "track_id": "insert_20260926_202057_da64b73a",
+    "metadata": {
+      "processing_start_time": 1790428857,
+      "processing_end_time": 1790429249
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-3bfcdaff7986ebf2b04d96cad9c921e7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3bfcdaff7986ebf2b04d96cad9c921e7"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case Report: White Colored Stool: An Early Sign of Cystic Fibrosis in Infants\nSource: Front Pediatr (2021) DOI: 10.3389/fped.2021.656584\nPatient Demographics: Case ID: PMC8081048_02 | Age: 0.0 | Gender: Female\nTarg...",
+    "content_length": 2475,
+    "created_at": "2026-09-26T13:50:15.143897+00:00",
+    "updated_at": "2026-09-26T13:56:13+00:00",
+    "file_path": "PMC_PMC8081048_02.json",
+    "track_id": "insert_20260926_205015_9365b318",
+    "metadata": {
+      "processing_start_time": 1790430615,
+      "processing_end_time": 1790430973
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-03d0c9b3b8b6d10eb80afb70d5e09481": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-03d0c9b3b8b6d10eb80afb70d5e09481"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Human immunodeficiency virus neuropathy: A new mimicker of leprous neuropathy\nSource: Indian J Sex Transm Dis AIDS (2018) DOI: 10.4103/ijstd.IJSTD_90_16\nPatient Demographics: Case ID: PMC6111644_01 | Age: 46.0 | Ge...",
+    "content_length": 1970,
+    "created_at": "2026-09-26T13:56:13.547833+00:00",
+    "updated_at": "2026-09-26T14:02:26+00:00",
+    "file_path": "PMC_PMC6111644_01.json",
+    "track_id": "insert_20260926_205613_59ea5242",
+    "metadata": {
+      "processing_start_time": 1790430973,
+      "processing_end_time": 1790431346
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-31231dfe227603d4eab0720dddafe1a9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-31231dfe227603d4eab0720dddafe1a9"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Pulmonary Alveolar Microlithiasis: An Isolated Case in a Hispanic Male\nSource: Case Rep Pathol (2020) DOI: 10.1155/2020/6247920\nPatient Demographics: Case ID: PMC7204375_01 | Age: 24.0 | Gender: Male\nTarget Disease...",
+    "content_length": 2626,
+    "created_at": "2026-09-26T14:02:26.598150+00:00",
+    "updated_at": "2026-09-26T14:18:44+00:00",
+    "file_path": "PMC_PMC7204375_01.json",
+    "track_id": "insert_20260926_210226_e98c8d8a",
+    "metadata": {
+      "processing_start_time": 1790431346,
+      "processing_end_time": 1790432324
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-35d4754ce88e3f7b153a9fe6463e8b21": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-35d4754ce88e3f7b153a9fe6463e8b21"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: False-Negative CSF Cryptococcal Antigen with Cryptococcus gattii Meningoencephalitis in Southeastern United States: A Case Report and Literature Review\nSource: Case Rep Infect Dis (2020) DOI: 10.1155/2020/8232178\nP...",
+    "content_length": 3155,
+    "created_at": "2026-09-26T14:18:44.525863+00:00",
+    "updated_at": "2026-09-26T14:23:13+00:00",
+    "file_path": "PMC_PMC7376414_01.json",
+    "track_id": "insert_20260926_211844_c733682d",
+    "metadata": {
+      "processing_start_time": 1790432324,
+      "processing_end_time": 1790432593
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-eb1938b3d11b6c555ae384d118ed3ed6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eb1938b3d11b6c555ae384d118ed3ed6"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Unexpected tumor reduction in metastatic colorectal cancer patients during SARS-Cov-2 infection\nSource: Ther Adv Med Oncol (2021) DOI: 10.1177/17588359211011455\nPatient Demographics: Case ID: PMC8107669_01 | Age: 6...",
+    "content_length": 1452,
+    "created_at": "2026-09-26T14:23:13.875154+00:00",
+    "updated_at": "2026-09-26T14:26:40+00:00",
+    "file_path": "PMC_PMC8107669_01.json",
+    "track_id": "insert_20260926_212313_c6014e16",
+    "metadata": {
+      "processing_start_time": 1790432593,
+      "processing_end_time": 1790432800
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-70b0e3c49b8b15cdf110a73e83fe55e1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-70b0e3c49b8b15cdf110a73e83fe55e1"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Unexpected tumor reduction in metastatic colorectal cancer patients during SARS-Cov-2 infection\nSource: Ther Adv Med Oncol (2021) DOI: 10.1177/17588359211011455\nPatient Demographics: Case ID: PMC8107669_02 | Age: 5...",
+    "content_length": 1165,
+    "created_at": "2026-09-26T14:26:40.910483+00:00",
+    "updated_at": "2026-09-26T14:29:41+00:00",
+    "file_path": "PMC_PMC8107669_02.json",
+    "track_id": "insert_20260926_212640_90c8a7cf",
+    "metadata": {
+      "processing_start_time": 1790432800,
+      "processing_end_time": 1790432981
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-4e400f404a15117b7828e4faeb89105b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4e400f404a15117b7828e4faeb89105b"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Unexpected tumor reduction in metastatic colorectal cancer patients during SARS-Cov-2 infection\nSource: Ther Adv Med Oncol (2021) DOI: 10.1177/17588359211011455\nPatient Demographics: Case ID: PMC8107669_03 | Age: 6...",
+    "content_length": 1529,
+    "created_at": "2026-09-26T14:29:41.417966+00:00",
+    "updated_at": "2026-09-26T14:34:06+00:00",
+    "file_path": "PMC_PMC8107669_03.json",
+    "track_id": "insert_20260926_212941_918935ce",
+    "metadata": {
+      "processing_start_time": 1790432981,
+      "processing_end_time": 1790433245
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-a458b802993e4128c15b78d035ebdb20": {
+    "status": "processed",
+    "error_msg": "",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a458b802993e4128c15b78d035ebdb20"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Epstein-Barr Virus Coinfection in COVID-19\nSource: J Investig Med High Impact Case Rep (2021) DOI: 10.1177/23247096211040626\nPatient Demographics: Case ID: PMC8392798_01 | Age: 62.0 | Gender: Male\nTarget Disease In...",
+    "content_length": 4213,
+    "created_at": "2026-09-26T14:34:06.091677+00:00",
+    "updated_at": "2026-09-26T14:54:07+00:00",
+    "file_path": "PMC_PMC8392798_01.json",
+    "track_id": "insert_20260926_213406_3c71f203",
+    "metadata": {
+      "processing_start_time": 1790433246,
+      "processing_end_time": 1790434447
+    },
+    "multimodal_processed": true
+  },
+  "doc-aff5ecfb23f5561a4e8dae6dcf201063": {
+    "status": "processed",
+    "chunks_count": 5,
+    "chunks_list": [
+      "chunk-85f7798f74ba342e1976048479bcf496",
+      "chunk-0c49e42d66fcac95cdbce479d9fe4692",
+      "chunk-7092528bd06b1104facbd2062da6c532",
+      "chunk-befd8f367c5b300fe816ba1568be8b49",
+      "chunk-84f7a1b41f501c2663cab6143153d78d"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Mycobacterium avium arthritis with extra-articular abscess in a patient with mixed connective tissue disease\nSource: Korean J Intern Med (2003) DOI: 10.3904/kjim.2003.18.2.119\nPatient Demographics: Case ID: PMC4531...",
+    "content_length": 3801,
+    "created_at": "2026-09-26T14:54:07.242439+00:00",
+    "updated_at": "2026-09-26T15:26:17+00:00",
+    "file_path": "PMC_PMC4531616_01.json",
+    "track_id": "insert_20260926_215407_aba1ced0",
+    "metadata": {
+      "processing_start_time": 1790434447,
+      "processing_end_time": 1790434795
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-44f02d6d624218a953861f21bba40498": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-2e36aac1f616e68f0770b300e0c9970d",
+      "chunk-1b5a37285af05fa7ba0ad87b0f128254",
+      "chunk-9ea56f705e6b7ee02212c93ec6cdd675",
+      "chunk-b93232fe06a8069efee087618b1b07d0",
+      "chunk-a7648857e0b8acaf9d06a3fd0585b90c",
+      "chunk-6b36ae367b9ecf677772ac204079878e",
+      "chunk-95efb344cb843349f29739d226cd92bc"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case Report: Stepwise Anti-Inflammatory and Anti-SARS-CoV-2 Effects Following Convalescent Plasma Therapy With Full Clinical Recovery\nSource: Front Immunol (2021) DOI: 10.3389/fimmu.2021.613502\nPatient Demographics...",
+    "content_length": 2767,
+    "created_at": "2026-09-26T15:26:17.776548+00:00",
+    "updated_at": "2026-09-26T15:56:55+00:00",
+    "file_path": "PMC_PMC8097002_01.json",
+    "track_id": "insert_20260926_222617_907f200d",
+    "metadata": {
+      "processing_start_time": 1790436377,
+      "processing_end_time": 1790436623
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-e67133bdd4e52e61f394be8d52c1e71b": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-aacfc6d7d3cc205cac72c8b8558bd157",
+      "chunk-94513ac90298144829224f0a47c2e282",
+      "chunk-f1eb426e138141a83709091f7abda682",
+      "chunk-2c09d2a5aee55f57446381e1e10bc52b"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Leprosy-Related Chronic Arthritis with an Abundance of Mycobacterium Leprae in the Synovial Fluid: A Rare Case\nSource: Int Med Case Rep J (2021) DOI: 10.2147/IMCRJ.S312355\nPatient Demographics: Case ID: PMC8184239_...",
+    "content_length": 2547,
+    "created_at": "2026-09-26T15:56:55.558173+00:00",
+    "updated_at": "2026-09-26T16:40:03+00:00",
+    "file_path": "PMC_PMC8184239_01.json",
+    "track_id": "insert_20260926_225655_9b7bccea",
+    "metadata": {
+      "processing_start_time": 1790438215,
+      "processing_end_time": 1790438426
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-d109aaea651ce7046b31e356570b0908": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-165836f88e88091f092ccedc334c4381",
+      "chunk-fa8224d75d6912e376e2f1c68d10a040",
+      "chunk-9d87326356ec28ada0f9438ddcbd885d",
+      "chunk-6dd181ec075dc20d751360903e9a26f3"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Anti-tuberculosis medication-induced oculogyric crisis and the importance of proper history taking\nSource: Int Med Case Rep J (2017) DOI: 10.2147/IMCRJ.S147779\nPatient Demographics: Case ID: PMC5648305_01 | Age: 66...",
+    "content_length": 2536,
+    "created_at": "2026-09-26T16:40:03.146993+00:00",
+    "updated_at": "2026-09-26T17:04:47+00:00",
+    "file_path": "PMC_PMC5648305_01.json",
+    "track_id": "insert_20260926_234003_fda6eb31",
+    "metadata": {
+      "processing_start_time": 1790440803,
+      "processing_end_time": 1790441224
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-ac7c9d342e29c1d5d1cce632be77bcf0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ac7c9d342e29c1d5d1cce632be77bcf0"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Guillain-Barré syndrome associated with COVID-19 infection\nSource: Pan Afr Med J (2020) DOI: 10.11604/pamj.supp.2020.35.2.25003\nPatient Demographics: Case ID: PMC7687474_01 | Age: 12.0 | Gender: Unknown\nTarget Dise...",
+    "content_length": 1576,
+    "created_at": "2026-09-26T17:04:47.378812+00:00",
+    "updated_at": "2026-09-26T17:08:46+00:00",
+    "file_path": "PMC_PMC7687474_01.json",
+    "track_id": "insert_20260927_000447_d335740a",
+    "metadata": {
+      "processing_start_time": 1790442287,
+      "processing_end_time": 1790442526
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-d7dc6697253828d6364aa767eaa65b2f": {
+    "status": "processed",
+    "error_msg": "",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-21cafc04c511d2ce1987c427cb5995d1",
+      "chunk-0dcf223faaec7f338bb96fdd61d421e7",
+      "chunk-6dc3191a883ccb77f94320837498ccfa"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Guillain-Barré syndrome associated with COVID-19 infection\nSource: Pan Afr Med J (2020) DOI: 10.11604/pamj.supp.2020.35.2.25003\nPatient Demographics: Case ID: PMC7687474_02 | Age: 12.0 | Gender: Male\nTarget Disease...",
+    "content_length": 5145,
+    "created_at": "2026-09-26T17:08:46.623457+00:00",
+    "updated_at": "2026-09-26T17:33:17+00:00",
+    "file_path": "PMC_PMC7687474_02.json",
+    "track_id": "insert_20260927_000846_c7ebfb6f",
+    "metadata": {
+      "processing_start_time": 1790442526,
+      "processing_end_time": 1790443727
+    },
+    "multimodal_processed": true
+  },
+  "doc-f04f9725e649cf5a54929d99c413730e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f04f9725e649cf5a54929d99c413730e"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Nosocomial acquisition of dengue\nSource: Emerg Infect Dis (2004) DOI: 10.3201/eid1010.031037\nPatient Demographics: Case ID: PMC3323263_01 | Age: 26.0 | Gender: Female\nTarget Disease Indications: Dengue\n------------...",
+    "content_length": 3374,
+    "created_at": "2026-09-26T17:33:17.493128+00:00",
+    "updated_at": "2026-09-26T17:38:04+00:00",
+    "file_path": "PMC_PMC3323263_01.json",
+    "track_id": "insert_20260927_003317_05f1696f",
+    "metadata": {
+      "processing_start_time": 1790443997,
+      "processing_end_time": 1790444284
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-988e048d11d57a8946165ab48e5b523e": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-5d15eda5686b07a6da217bd63d583b39",
+      "chunk-fb618b6665901ffc0f57a25f3a513657"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Two cases of pre-extensively drug resistant tuberculosis in children in Indonesia\nSource: Respir Med Case Rep (2021) DOI: 10.1016/j.rmcr.2021.101544\nPatient Demographics: Case ID: PMC8605226_01 | Age: 0.0 | Gender:...",
+    "content_length": 3240,
+    "created_at": "2026-09-26T17:38:04.727633+00:00",
+    "updated_at": "2026-09-26T18:13:39+00:00",
+    "file_path": "PMC_PMC8605226_01.json",
+    "track_id": "insert_20260927_003804_8ec7f652",
+    "metadata": {
+      "processing_start_time": 1790444284,
+      "processing_end_time": 1790444600
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-bb673cf90db019660f7d1ee9df7b140f": {
+    "status": "processed",
+    "error_msg": "",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-0b518e56f66bd9b92b3c4dd8388cd340",
+      "chunk-bb37dc355bf610a1523e7d7b2e462a07"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Two cases of pre-extensively drug resistant tuberculosis in children in Indonesia\nSource: Respir Med Case Rep (2021) DOI: 10.1016/j.rmcr.2021.101544\nPatient Demographics: Case ID: PMC8605226_02 | Age: 14.0 | Gender...",
+    "content_length": 2979,
+    "created_at": "2026-09-26T18:13:39.783348+00:00",
+    "updated_at": "2026-09-26T18:49:58+00:00",
+    "file_path": "PMC_PMC8605226_02.json",
+    "track_id": "insert_20260927_011339_cde8c1e4",
+    "metadata": {
+      "processing_start_time": 1790446419,
+      "processing_end_time": 1790447620
+    },
+    "multimodal_processed": true
+  },
+  "doc-32e3b280d3a692d6012a00b364039143": {
+    "status": "processed",
+    "error_msg": "",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-32e3b280d3a692d6012a00b364039143"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Positive melioidosis serology in a patient with adult onset Still's disease: a case report of a diagnostic dilemma\nSource: BMC Rheumatol (2018) DOI: 10.1186/s41927-018-0044-5\nPatient Demographics: Case ID: PMC63905...",
+    "content_length": 4760,
+    "created_at": "2026-09-26T18:49:58.461520+00:00",
+    "updated_at": "2026-09-26T19:09:59+00:00",
+    "file_path": "PMC_PMC6390555_01.json",
+    "track_id": "insert_20260927_014958_dd32d251",
+    "metadata": {
+      "processing_start_time": 1790448598,
+      "processing_end_time": 1790449799
+    },
+    "multimodal_processed": true
+  },
+  "doc-cd736e8dbb953e53528eabe2a2d5dc79": {
+    "status": "processed",
+    "chunks_count": 5,
+    "chunks_list": [
+      "chunk-b29572607c3213ef68a42c95afe1e7de",
+      "chunk-535d4f572fe217b62d898b4c97d6bb51",
+      "chunk-b367f233d3a93db9f073205e4bf895d9",
+      "chunk-01cfff69b043c675347f1e3e2ae86480",
+      "chunk-22753ff3fe2f938925b4e44f6c8c23bf"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Unusual Presentation of Multibacillary Nodular Leprosy\nSource: J Lab Physicians (2017) DOI: 10.4103/0974-2727.187919\nPatient Demographics: Case ID: PMC5015501_01 | Age: 21.0 | Gender: Male\nTarget Disease Indication...",
+    "content_length": 3260,
+    "created_at": "2026-09-26T19:09:59.571724+00:00",
+    "updated_at": "2026-09-26T19:35:26+00:00",
+    "file_path": "PMC_PMC5015501_01.json",
+    "track_id": "insert_20260927_020959_f5276bca",
+    "metadata": {
+      "processing_start_time": 1790449799,
+      "processing_end_time": 1790450115
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-0856198c883e2dd5fbb1571ad5fcf281": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0856198c883e2dd5fbb1571ad5fcf281"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19: An Emerging Culprit of Inflammatory Arthritis\nSource: Case Rep Rheumatol (2021) DOI: 10.1155/2021/6610340\nPatient Demographics: Case ID: PMC8077721_01 | Age: 65.0 | Gender: Female\nTarget Disease Indicatio...",
+    "content_length": 1305,
+    "created_at": "2026-09-26T19:35:26.646337+00:00",
+    "updated_at": "2026-09-26T19:38:04+00:00",
+    "file_path": "PMC_PMC8077721_01.json",
+    "track_id": "insert_20260927_023526_d93287f8",
+    "metadata": {
+      "processing_start_time": 1790451326,
+      "processing_end_time": 1790451483
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-1297748dae48df279efa8b98394d0b21": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1297748dae48df279efa8b98394d0b21"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19: An Emerging Culprit of Inflammatory Arthritis\nSource: Case Rep Rheumatol (2021) DOI: 10.1155/2021/6610340\nPatient Demographics: Case ID: PMC8077721_02 | Age: 35.0 | Gender: Male\nTarget Disease Indications...",
+    "content_length": 1511,
+    "created_at": "2026-09-26T19:38:04.127740+00:00",
+    "updated_at": "2026-09-26T19:41:48+00:00",
+    "file_path": "PMC_PMC8077721_02.json",
+    "track_id": "insert_20260927_023804_a3ecc9bc",
+    "metadata": {
+      "processing_start_time": 1790451484,
+      "processing_end_time": 1790451708
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-fd0cdbfbd72b34d4c20c3030350a9f7c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fd0cdbfbd72b34d4c20c3030350a9f7c"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19: An Emerging Culprit of Inflammatory Arthritis\nSource: Case Rep Rheumatol (2021) DOI: 10.1155/2021/6610340\nPatient Demographics: Case ID: PMC8077721_03 | Age: 25.0 | Gender: Female\nTarget Disease Indicatio...",
+    "content_length": 1020,
+    "created_at": "2026-09-26T19:41:48.698230+00:00",
+    "updated_at": "2026-09-26T19:45:45+00:00",
+    "file_path": "PMC_PMC8077721_03.json",
+    "track_id": "insert_20260927_024148_3d1755f1",
+    "metadata": {
+      "processing_start_time": 1790451708,
+      "processing_end_time": 1790451944
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-44a7680d902283b4fc12540c4e5c3658": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-44a7680d902283b4fc12540c4e5c3658"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19: An Emerging Culprit of Inflammatory Arthritis\nSource: Case Rep Rheumatol (2021) DOI: 10.1155/2021/6610340\nPatient Demographics: Case ID: PMC8077721_04 | Age: 32.0 | Gender: Female\nTarget Disease Indicatio...",
+    "content_length": 1155,
+    "created_at": "2026-09-26T19:45:45.199200+00:00",
+    "updated_at": "2026-09-26T19:49:00+00:00",
+    "file_path": "PMC_PMC8077721_04.json",
+    "track_id": "insert_20260927_024545_01ca5829",
+    "metadata": {
+      "processing_start_time": 1790451945,
+      "processing_end_time": 1790452140
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-265f5339bf561dcb610960385773dddf": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-265f5339bf561dcb610960385773dddf"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: COVID-19: An Emerging Culprit of Inflammatory Arthritis\nSource: Case Rep Rheumatol (2021) DOI: 10.1155/2021/6610340\nPatient Demographics: Case ID: PMC8077721_05 | Age: 40.0 | Gender: Male\nTarget Disease Indications...",
+    "content_length": 2195,
+    "created_at": "2026-09-26T19:49:00.383600+00:00",
+    "updated_at": "2026-09-26T19:54:58+00:00",
+    "file_path": "PMC_PMC8077721_05.json",
+    "track_id": "insert_20260927_024900_b15eb9c2",
+    "metadata": {
+      "processing_start_time": 1790452140,
+      "processing_end_time": 1790452498
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-fda95250b320481cbd9c985a1ee0667c": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-00a3c8edd23010123baf8ffb4e62933d",
+      "chunk-bcf42bd5a5c9b84428ea3d8a63b1f520",
+      "chunk-b6d6dc3629a95b80183543abf8a49c74",
+      "chunk-de8884faf32a3f7020d3d5b624e8ba4d"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case Report: Severe COVID-19 Pneumonia in a Patient With Relapsed/Refractory Hodgkin's Lymphoma\nSource: Front Oncol (2021) DOI: 10.3389/fonc.2021.601709\nPatient Demographics: Case ID: PMC8013978_01 | Age: 55.0 | Ge...",
+    "content_length": 4475,
+    "created_at": "2026-09-26T19:54:58.990296+00:00",
+    "updated_at": "2026-09-26T20:13:24+00:00",
+    "file_path": "PMC_PMC8013978_01.json",
+    "track_id": "insert_20260927_025458_35684a65",
+    "metadata": {
+      "processing_start_time": 1790452498,
+      "processing_end_time": 1790453051
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-eea2cd2f8d466a73d8c53a7c6a597ab9": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-eea2cd2f8d466a73d8c53a7c6a597ab9",
+      "chunk-754b63628b25f7cee17793b41b0d5de9"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Case report: Incidentally discovered case of pheochromocytoma as a cause of long COVID-19 syndrome\nSource: Front Endocrinol (Lausanne) (2022) DOI: 10.3389/fendo.2022.967995\nPatient Demographics: Case ID: PMC9551989...",
+    "content_length": 5109,
+    "created_at": "2026-09-26T20:13:24.668480+00:00",
+    "updated_at": "2026-09-26T20:28:59+00:00",
+    "file_path": "PMC_PMC9551989_01.json",
+    "track_id": "insert_20260927_031324_f5cb3e64",
+    "metadata": {
+      "processing_start_time": 1790453604,
+      "processing_end_time": 1790454539
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-e6f55a09af80fb0dbfb6d9f7245be87a": {
+    "status": "processed",
+    "error_msg": "",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-96373994f235c476cdc1b9fcd2f3340b",
+      "chunk-d5f6aae56840e7d2be196c200973bea4",
+      "chunk-8420d940cc94f5f2c7d42b15dadca359",
+      "chunk-18689adfaf43826f75f6fec596543a0b"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Intestinal perforation due to intestinal and colonic tuberculosis in a patient with HIV, a nearly lethal complication due to lack of adequate treatment and control in a limited resource country, a case report\nSourc...",
+    "content_length": 5046,
+    "created_at": "2026-09-26T20:28:59.957511+00:00",
+    "updated_at": "2026-09-26T21:19:50+00:00",
+    "file_path": "PMC_PMC6796728_01.json",
+    "track_id": "insert_20260927_032859_b42da4db",
+    "metadata": {
+      "processing_start_time": 1790454539,
+      "processing_end_time": 1790455741
+    },
+    "multimodal_processed": true
+  },
+  "doc-eb43944802e510dedf35e54d06c3823b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eb43944802e510dedf35e54d06c3823b"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Tuberculosis of the Left Calcaneum and Collapsed Right Femoral Head: A Case Report\nSource: J Orthop Case Rep (2021) DOI: 10.13107/jocr.2021.v11.i01.1962\nPatient Demographics: Case ID: PMC8046462_01 | Age: 9.0 | Gen...",
+    "content_length": 4104,
+    "created_at": "2026-09-26T21:19:50.785959+00:00",
+    "updated_at": "2026-09-26T21:23:50+00:00",
+    "file_path": "PMC_PMC8046462_01.json",
+    "track_id": "insert_20260927_041950_0d9d1a85",
+    "metadata": {
+      "processing_start_time": 1790457590,
+      "processing_end_time": 1790457829
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-e80033bbc623cf7342f64a72b2269b42": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-2465a8b7b79ed2ab9c5a121f5147751e",
+      "chunk-5434d2404d7232c7144f162bc69cae54",
+      "chunk-140d3d0c7e1ef87de0cec1328c1d5ae7"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cerebral Infarction in an Elderly Patient with Coronavirus Disease\nSource: Rev Soc Bras Med Trop (2020) DOI: 10.1590/0037-8682-0307-2020\nPatient Demographics: Case ID: PMC7269521_01 | Age: 82.0 | Gender: Male\nTarge...",
+    "content_length": 1892,
+    "created_at": "2026-09-26T21:23:50.266091+00:00",
+    "updated_at": "2026-09-26T21:42:31+00:00",
+    "file_path": "PMC_PMC7269521_01.json",
+    "track_id": "insert_20260927_042350_a987ce66",
+    "metadata": {
+      "processing_start_time": 1790457830,
+      "processing_end_time": 1790458228
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-52b2d40f6a3fb46b33de3727a20901b0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-52b2d40f6a3fb46b33de3727a20901b0"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Three Novel COVID-19 Pneumonia Cases Successfully Treated With Lopinavir/Ritonavir\nSource: Front Med (Lausanne) (2020) DOI: 10.3389/fmed.2020.00241\nPatient Demographics: Case ID: PMC7248319_01 | Age: 60.0 | Gender:...",
+    "content_length": 2332,
+    "created_at": "2026-09-26T21:42:31.863119+00:00",
+    "updated_at": "2026-09-26T21:50:16+00:00",
+    "file_path": "PMC_PMC7248319_01.json",
+    "track_id": "insert_20260927_044231_db7c12d3",
+    "metadata": {
+      "processing_start_time": 1790458951,
+      "processing_end_time": 1790459416
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-2420c52fbaf9efd3626d28d518dc7ab2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2420c52fbaf9efd3626d28d518dc7ab2"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Three Novel COVID-19 Pneumonia Cases Successfully Treated With Lopinavir/Ritonavir\nSource: Front Med (Lausanne) (2020) DOI: 10.3389/fmed.2020.00241\nPatient Demographics: Case ID: PMC7248319_02 | Age: 88.0 | Gender:...",
+    "content_length": 1831,
+    "created_at": "2026-09-26T21:50:16.546341+00:00",
+    "updated_at": "2026-09-26T21:55:11+00:00",
+    "file_path": "PMC_PMC7248319_02.json",
+    "track_id": "insert_20260927_045016_3768e3c9",
+    "metadata": {
+      "processing_start_time": 1790459416,
+      "processing_end_time": 1790459711
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-be4d0677b9eed306cc4f0cb83796c34f": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-3e265dc78f10a432b84e3246e5ba2f74",
+      "chunk-c7938e98dfd63af8bc010aa58aabdac8",
+      "chunk-129811c308b367dfe53ac65e34d6aad1",
+      "chunk-eeeea77c44b480e21303b89609a382cd"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Three Novel COVID-19 Pneumonia Cases Successfully Treated With Lopinavir/Ritonavir\nSource: Front Med (Lausanne) (2020) DOI: 10.3389/fmed.2020.00241\nPatient Demographics: Case ID: PMC7248319_03 | Age: 44.0 | Gender:...",
+    "content_length": 2368,
+    "created_at": "2026-09-26T21:55:11.481367+00:00",
+    "updated_at": "2026-09-26T22:26:49+00:00",
+    "file_path": "PMC_PMC7248319_03.json",
+    "track_id": "insert_20260927_045511_4a1a855c",
+    "metadata": {
+      "processing_start_time": 1790459711,
+      "processing_end_time": 1790459993
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-1beca89a35d0a27034ba4d8ff67ae28d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1beca89a35d0a27034ba4d8ff67ae28d"
+    ],
+    "content_summary": "=== CLINICAL CASE REPORT ===\nTitle: Cross-cultural comparison of nudging effects for environmental protection: A case-study of risk-averse attitudes toward disposable plastics\nSource: PLoS One (2022) DOI: 10.1371/journal.pone.0277183\nPatient Demograp...",
+    "content_length": 3247,
+    "created_at": "2026-09-26T22:26:49.304342+00:00",
+    "updated_at": "2026-09-26T22:29:51+00:00",
+    "file_path": "PMC_PMC9632847_01.json",
+    "track_id": "insert_20260927_052649_b40b24da",
+    "metadata": {
+      "processing_start_time": 1790461609,
+      "processing_end_time": 1790461791
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  }
+}
