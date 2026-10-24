@@ -31,3 +31,7 @@ reports/
 
 # In scripts/, only include candidate extraction script
 scripts/*
+
+related_materials
+.env
+rag-anything/rag_eval_langsmith_ragas
