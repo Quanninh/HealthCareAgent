@@ -15,3 +15,6 @@ scripts/*
 
 # add .env
 .env
+
+# add my pdf dir
+related_materials
