@@ -2,7 +2,7 @@
 name: disease-agent-ebola_filovirus
 description: >
   Clinical annotation agent for Ebola Filovirus.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_ebola_filovirus.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_ebola_filovirus.jsonl
   following the 12-step protocol with Ebola Filovirus-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `Ebola_Filovirus`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_ebola_filovirus.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_ebola_filovirus.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_ebola_filovirus.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_ebola_filovirus.jsonl`
 
 ---
 

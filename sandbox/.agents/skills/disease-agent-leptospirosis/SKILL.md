@@ -2,7 +2,7 @@
 name: disease-agent-leptospirosis
 description: >
   Clinical annotation agent for Leptospirosis.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_leptospirosis.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_leptospirosis.jsonl
   following the 12-step protocol with Leptospirosis-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `Leptospirosis`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_leptospirosis.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_leptospirosis.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_leptospirosis.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_leptospirosis.jsonl`
 
 ---
 

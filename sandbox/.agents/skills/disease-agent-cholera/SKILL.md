@@ -2,7 +2,7 @@
 name: disease-agent-cholera
 description: >
   Clinical annotation agent for Cholera.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_cholera.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_cholera.jsonl
   following the 12-step protocol with Cholera-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `Cholera`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_cholera.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_cholera.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_cholera.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_cholera.jsonl`
 
 ---
 

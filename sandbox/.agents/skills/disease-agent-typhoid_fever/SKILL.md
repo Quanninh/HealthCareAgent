@@ -2,7 +2,7 @@
 name: disease-agent-typhoid_fever
 description: >
   Clinical annotation agent for Typhoid Fever.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_typhoid_fever.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_typhoid_fever.jsonl
   following the 12-step protocol with Typhoid Fever-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `Typhoid_Fever`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_typhoid_fever.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_typhoid_fever.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_typhoid_fever.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_typhoid_fever.jsonl`
 
 ---
 

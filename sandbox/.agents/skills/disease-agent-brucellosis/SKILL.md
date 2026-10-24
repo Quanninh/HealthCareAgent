@@ -2,7 +2,7 @@
 name: disease-agent-brucellosis
 description: >
   Clinical annotation agent for Brucellosis.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_brucellosis.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_brucellosis.jsonl
   following the 12-step protocol with Brucellosis-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `Brucellosis`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_brucellosis.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_brucellosis.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_brucellosis.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_brucellosis.jsonl`
 
 ---
 

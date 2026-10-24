@@ -2,7 +2,7 @@
 name: disease-agent-hiv_aids
 description: >
   Clinical annotation agent for HIV AIDS.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_hiv_aids.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_hiv_aids.jsonl
   following the 12-step protocol with HIV AIDS-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `HIV_AIDS`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_hiv_aids.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_hiv_aids.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_hiv_aids.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_hiv_aids.jsonl`
 
 ---
 

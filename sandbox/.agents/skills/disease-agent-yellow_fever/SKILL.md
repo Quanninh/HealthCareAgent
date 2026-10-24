@@ -2,7 +2,7 @@
 name: disease-agent-yellow_fever
 description: >
   Clinical annotation agent for Yellow Fever.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_yellow_fever.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_yellow_fever.jsonl
   following the 12-step protocol with Yellow Fever-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `Yellow_Fever`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_yellow_fever.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_yellow_fever.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_yellow_fever.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_yellow_fever.jsonl`
 
 ---
 

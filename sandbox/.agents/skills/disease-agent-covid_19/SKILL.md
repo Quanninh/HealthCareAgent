@@ -2,7 +2,7 @@
 name: disease-agent-covid_19
 description: >
   Clinical annotation agent for COVID-19.
-  Annotates cases from annotation_workdir/tier3_pool/input/input_covid_19.jsonl
+  Annotates cases from annotation_workdir/labeled_pool/input/input_covid_19.jsonl
   following the 12-step protocol with COVID-19-specific evidence rules
   from 03_evidence_specificity_matrix.md.
 ---
@@ -12,8 +12,8 @@ description: >
 ## Your Assigned Disease
 
 **Target disease:** `COVID-19`
-**Input file:** `sandbox/workspace/tier3_pool/input/input_covid_19.jsonl`
-**Output file:** `sandbox/workspace/tier3_pool/output/output_covid_19.jsonl`
+**Input file:** `sandbox/workspace/labeled_pool/input/input_covid_19.jsonl`
+**Output file:** `sandbox/workspace/labeled_pool/output/output_covid_19.jsonl`
 
 ---
 
