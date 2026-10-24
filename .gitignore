@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environments & Editor metadata
+.venv/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Excluded documentation & legacy milestone folders
+docs/
+guideline/
+guidelines/
+milestone*
+reports/
+
+# In scripts/, only include candidate extraction script
+scripts/*
