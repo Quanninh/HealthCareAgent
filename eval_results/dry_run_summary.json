@@ -1,0 +1,188 @@
+{
+  "total_evaluated": 796,
+  "confusion_matrix": {
+    "TP": 544,
+    "FP": 0,
+    "TN": 252,
+    "FN": 0
+  },
+  "overall_metrics": {
+    "accuracy": 1.0,
+    "sensitivity_recall": 1.0,
+    "specificity": 1.0,
+    "precision_ppv": 1.0,
+    "negative_predictive_value": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_score": 1.0
+  },
+  "per_disease_breakdown": {
+    "Brucellosis": {
+      "total_samples": 9,
+      "TP": 4,
+      "FP": 0,
+      "TN": 5,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Cholera": {
+      "total_samples": 3,
+      "TP": 0,
+      "FP": 0,
+      "TN": 3,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    },
+    "COVID-19": {
+      "total_samples": 392,
+      "TP": 269,
+      "FP": 0,
+      "TN": 123,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Dengue": {
+      "total_samples": 6,
+      "TP": 3,
+      "FP": 0,
+      "TN": 3,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Ebola_Filovirus": {
+      "total_samples": 3,
+      "TP": 0,
+      "FP": 0,
+      "TN": 3,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    },
+    "HIV_AIDS": {
+      "total_samples": 161,
+      "TP": 124,
+      "FP": 0,
+      "TN": 37,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Leishmaniasis": {
+      "total_samples": 5,
+      "TP": 2,
+      "FP": 0,
+      "TN": 3,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Leptospirosis": {
+      "total_samples": 2,
+      "TP": 0,
+      "FP": 0,
+      "TN": 2,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    },
+    "Malaria": {
+      "total_samples": 13,
+      "TP": 1,
+      "FP": 0,
+      "TN": 12,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Rabies": {
+      "total_samples": 3,
+      "TP": 0,
+      "FP": 0,
+      "TN": 3,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    },
+    "Tuberculosis": {
+      "total_samples": 194,
+      "TP": 141,
+      "FP": 0,
+      "TN": 53,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision_ppv": 1.0,
+      "f1_score": 1.0
+    },
+    "Typhoid_Fever": {
+      "total_samples": 3,
+      "TP": 0,
+      "FP": 0,
+      "TN": 3,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    },
+    "Yellow_Fever": {
+      "total_samples": 1,
+      "TP": 0,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    },
+    "Zika": {
+      "total_samples": 1,
+      "TP": 0,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "accuracy": 1.0,
+      "sensitivity_recall": 0.0,
+      "specificity": 1.0,
+      "precision_ppv": 0.0,
+      "f1_score": 0.0
+    }
+  }
+}

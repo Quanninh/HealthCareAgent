@@ -1,0 +1,13 @@
+# Core PyTorch and Hugging Face dependencies
+torch>=2.2.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.29.0
+peft>=0.10.0
+trl>=0.8.6
+bitsandbytes>=0.43.0
+
+# Tokenization & Serialization
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+scipy>=1.11.0
