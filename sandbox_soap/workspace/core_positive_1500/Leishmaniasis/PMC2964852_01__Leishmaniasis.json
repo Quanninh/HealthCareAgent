@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC2964852_01",
+  "pair_id": "PMC2964852_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 61-year-old immunocompetent Italian man, born and residing in Abruzzo, presented to our observation because of the persistence of multiple ulcerative nodules on the skin of his right cheek (larger nodule measured 2 cm in maximum diameter), partially covered by scaly scabs.\nA complete blood picture was normal. The patient referred no travels and had received several topical treatments (antibiotics, antimycotics, steroids), which had failed. After cleaning off the excess blood, cytology smears were performed by sampling cells from the ulcer with a sterile lancet and by smearing the sample directly onto glass slides. Pathological examination showed the presence of a large number of intra- and extracellular Leishmania promastigotes and a massive histiocyte infiltration, laden with amastigotes (Leishman-Donovan bodies) [Figure 1].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 61-year-old male presented with persistent multiple ulcerative skin nodules on his right cheek.",
+      "history_of_present_illness": "The patient presented with chronic, persistent ulcerative nodules on his right cheek, partially covered by scabs, that failed to respond to multiple courses of topical antibiotics, antifungals, and corticosteroid therapies.",
+      "past_medical_history": "Immunocompetent. Born and residing in Abruzzo, Italy, with no travel history. Prior failed topical treatments including antibiotics, antimycotics, and corticosteroids.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Dermatologic examination revealed multiple ulcerative nodules on the skin of the right cheek, partially covered with scaly scabs, the largest measuring 2 cm in maximum diameter.",
+      "routine_investigations": "Complete blood count (CBC): normal.",
+      "advanced_workup": "Direct scraping cytology of right cheek ulcer: smears demonstrated massive histiocytic infiltration with intracellular and extracellular flagellated and aflagellated protozoan organisms."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Cytology smears from the right cheek ulcer demonstrated a large number of intra- and extracellular Leishmania promastigotes and a massive histiocytic infiltrate laden with Leishmania amastigotes (Leishman-Donovan bodies), confirming cutaneous leishmaniasis. Differential diagnoses of bacterial, fungal, and non-infectious inflammatory dermatoses were excluded by clinical failure of topical antimicrobials and cytological visualization of parasites. Management and Outcome: No specific treatment regimen or follow-up details documented in the provided text."
+    }
+  }
+}

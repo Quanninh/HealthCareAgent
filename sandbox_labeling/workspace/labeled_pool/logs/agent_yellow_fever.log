@@ -1,0 +1,12 @@
+{
+  "disease": "Yellow_Fever",
+  "slug": "yellow_fever",
+  "total_input": 8,
+  "total_output": 8,
+  "label_counts": {
+    "POSITIVE": 3,
+    "EXCLUDED_NON_TARGET_CASE": 4,
+    "NEGATIVE": 1
+  },
+  "status": "complete"
+}

@@ -1,0 +1,13 @@
+{
+  "disease": "Ebola_Filovirus",
+  "slug": "ebola_filovirus",
+  "total_input": 33,
+  "total_output": 33,
+  "label_counts": {
+    "EXCLUDED_NON_TARGET_CASE": 25,
+    "EXCLUDED_NON_SINGLE_PATIENT": 4,
+    "POSITIVE": 3,
+    "UNRESOLVED": 1
+  },
+  "status": "complete"
+}

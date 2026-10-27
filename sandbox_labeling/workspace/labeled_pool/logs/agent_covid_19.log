@@ -1,0 +1,24 @@
+{
+  "disease": "COVID-19",
+  "slug": "covid_19",
+  "total_input": 3087,
+  "total_output": 3087,
+  "label_counts": {
+    "POSITIVE": 1877,
+    "EXCLUDED_NON_TARGET_CASE": 554,
+    "NEGATIVE": 346,
+    "EXCLUDED_NON_SINGLE_PATIENT": 255,
+    "UNRESOLVED": 45,
+    "EXCLUDED_NON_HUMAN": 10
+  },
+  "constraints_verified": {
+    "vpd_equivalence": "step11_vpd_satisfied == (step12_dataset_label == 'POSITIVE') [0 violations]",
+    "negative_assertion": "step6_assertion_type == 'ABSENT_NEGATIVE' for all NEGATIVE [0 violations]",
+    "positive_assertion": "step6_assertion_type == 'CONFIRMED_PRESENT' for all POSITIVE [0 violations]"
+  },
+  "notes": "100% standardized across 23 canonical schema keys and clinical consistency rules.",
+  "output_file": "annotation_workdir/labeled_pool/output/output_covid_19.jsonl",
+  "status": "complete",
+  "annotator_id": "disease_agent_covid_19",
+  "annotation_version": "1.0-labeled_pool"
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3810313_01",
+  "pair_id": "PMC3810313_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 27-year-old man from center of Iran noted a small pimple on eyelid 4 months before presentation. The eyelid lesion enlarged slowly. It was as a well-defined, firm, nontender, and subcutaneous skin-colored nodule. The lesion measured 1 cm x 1 cm in diameter (Figure 1).\nThe lesion had been enlarging slowly and had slightly erythematous, raised borders and was crusty and painless. CBC (complete blood cell count), ESR (erythrocyte sedimentation rate), CRP (C-reactive protein), and blood chemistries gave results within normal limits. Sample culture of the lesion grew Staphylococcus aureus. Various treatments with cephalexin, cloxacillin, amoxicillin-claulanate, and steroids failed to heal the lesion. These treatments were performed for 10 days Although there was cutaneous leishmaniasis in the patient's residence, and also because lack of response to treatment, cutaneous leishmaniasis or basal cell carcinoma was proposed as a differential diagnosis for him.\nA slit-skin smear was taken from the edge of the nodule before a biopsy could be taken. Giemsa stain of the sample showed numerous leishman bodies within the macrophages (Figure 2), and the diagnosis of cutaneous leishmaniasis was confirmed. The patient was treated with meglumine antimonate (glucantime) in a dose of 20 mg/kg/body weight intramuscularly for 20 days, with slow but definite improvement of the lesion. The patient reported mild arthralgias and mild myalgias but otherwise tolerated the meglumine antimonate well. After one year of followup, there has been no relapse or new lesion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 27-year-old male presented with a slowly enlarging, painless nodule on his eyelid of 4 months duration.",
+      "history_of_present_illness": "The patient noticed a small pimple-like lesion on his eyelid 4 months prior that gradually enlarged into a firm, crusted, non-tender nodule with raised erythematous borders. Multiple 10-day courses of oral antibiotics (cephalexin, cloxacillin, amoxicillin-clavulanate) and corticosteroids failed to heal the lesion.",
+      "past_medical_history": "Prior antibiotic therapies: cephalexin, cloxacillin, and amoxicillin-clavulanate. Epidemiological history: resident of central Iran (an endemic region for cutaneous leishmaniasis).",
+      "review_of_systems": "Reports the eyelid lesion is completely painless; denies fever, visual disturbance, or constitutional symptoms."
+    },
+    "objective": {
+      "physical_examination": "Ophthalmic/dermatologic examination: well-defined, firm, non-tender, subcutaneous skin-colored nodule on the eyelid measuring 1 cm x 1 cm, featuring slightly erythematous raised borders and a crusted center.",
+      "routine_investigations": "Complete blood cell count (CBC), erythrocyte sedimentation rate (ESR), C-reactive protein (CRP), and serum chemistries: all within normal limits. Bacterial culture of lesion exudate: grew Staphylococcus aureus.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Giemsa stain of a slit-skin smear from the margin of the eyelid nodule revealed numerous intracellular Leishmania amastigotes (Leishman bodies) within macrophages, confirming cutaneous leishmaniasis. Basal cell carcinoma and primary bacterial pyoderma were ruled out (S. aureus growth represented secondary colonization). Management and Outcome: Treated with intramuscular meglumine antimonate (Glucantime) at 20 mg/kg/day for 20 days. The patient experienced mild, self-limited arthralgias and myalgias, with slow but complete lesion resolution and no recurrence at 1-year follow-up."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5763020_01",
+  "pair_id": "PMC5763020_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "The patient was a 37-year-old Japanese man without a significant medical history. Two weeks prior to admission, he had returned to Japan from Nigeria after a 6-month business visit. He had taken no chemoprophylaxis for malaria. He had not used any repellent and was sometimes bitten by mosquitoes. Six days prior to admission, he experienced general malaise, fever, and headache. Five days prior to admission, he visited a clinic nearby and was diagnosed with common cold. Loxoprofen and cefaclor were prescribed. Three days prior to admission, he visited another clinic and was again diagnosed with common cold. His symptoms had not improved, and his mental state appeared altered. He was transferred to the Japanese Red Cross Narita Hospital by ambulance. On admission, his mental status was E4V4M6. His vital signs were as follows: blood pressure of 138/87 mm Hg, heart rate of 126 beats/min, body temperature of 38.5 C, respiratory rate of 28 breaths/min, and oxygen saturation on room air of 98%. His physical examination results revealed slight jaundice on the conjunctiva. Laboratory test results revealed anemia with a hemoglobin level of 12.5 g/dL, thrombocytopenia with a platelet count of 17 000 /muL, high bilirubinemia with a total bilirubin level of 5.1 mg/dL, and elevated inflammatory markers, with elevated C-reactive protein levels of 23.14 mg/dL. The examination of his peripheral blood smear showed P. falciparum-infected erythrocytes with a parasitemia index of 5.4% (Figure 1). A rapid immunographic test (Binax NOW Malaria Test; Binax, Portland, OR) result for P. falciparum was positive. P. falciparum infection was later confirmed by performing polymerase chain reaction. We administered intravenous quinine. After an initial increase in his parasitemia index to 8.6%, it decreased to <0.1% on hospital day 3. Intravenous quinine was replaced with artemether/lumefantrine and was continued for 3 days. He recovered fully and was discharged on hospital day 10.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 37-year-old male presenting with fever, headache, malaise for six days, and altered mental status.",
+      "history_of_present_illness": "The patient developed general malaise, fever, and headache six days prior to admission. He visited two outpatient clinics five and three days prior to presentation, where he was diagnosed with a common cold and treated with loxoprofen and cefaclor without improvement. His mental state deteriorated progressively, prompting emergency ambulance transfer.",
+      "past_medical_history": "No significant past medical history. Epidemiological exposure: Returned to Japan from Nigeria two weeks prior to admission following a 6-month business visit; took no antimalarial chemoprophylaxis, used no repellent, and reported mosquito bites.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Neurological: Mental status Glasgow Coma Scale E4V4M6 (confused, altered). Vital signs: Blood pressure 138/87 mmHg, heart rate 126 beats/min, body temperature 38.5 °C, respiratory rate 28 breaths/min, SpO2 98% on room air. General: Scleral/conjunctival icterus noted on examination.",
+      "routine_investigations": "Hemoglobin 12.5 g/dL; platelet count 17,000/microL; total bilirubin 5.1 mg/dL; C-reactive protein 23.14 mg/dL.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe cerebral Plasmodium falciparum malaria. Peripheral blood smear examination demonstrated P. falciparum-infected erythrocytes with an initial parasitemia index of 5.4%, rapid immunochromatographic test (BinaxNOW) was positive for P. falciparum, and infection was confirmed by polymerase chain reaction (PCR).\nPlan & Outcome: Treated with intravenous quinine, during which parasitemia peaked at 8.6% before decreasing to <0.1% on hospital day 3. Intravenous quinine was then transitioned to oral artemether/lumefantrine for 3 days. The patient made a full recovery and was discharged home on hospital day 10."
+    }
+  }
+}

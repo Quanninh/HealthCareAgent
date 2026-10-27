@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3310273_04",
+  "pair_id": "PMC3310273_04::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "The child underwent tonsillectomy, for a clinical diagnosis of chronic tonsillitis. Histopathological examination of bilateral tonsils revealed caseating and noncaseating epithelioid cell granulomas with Langhans giant cells (Figures 1, 2, and 3). Ziehl-Neelsen stain for acid fast bacillus was positive (Figure 4). Features were consistent with a diagnosis of tuberculosis of tonsils.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A pediatric patient presenting for elective tonsillectomy for chronic tonsillitis.",
+      "history_of_present_illness": "A pediatric patient underwent elective tonsillectomy for a clinical diagnosis of chronic tonsillitis.",
+      "past_medical_history": "Clinical diagnosis of chronic tonsillitis.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Histopathological examination of bilateral resected tonsils revealed caseating and noncaseating epithelioid cell granulomas with Langhans giant cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Tuberculosis of the tonsils (primary tonsillar tuberculosis).\nDiagnostic confirmation: Histopathological examination of bilateral tonsils demonstrated caseating and noncaseating epithelioid cell granulomas with Langhans multinucleated giant cells, and Ziehl-Neelsen staining was positive for acid-fast bacilli.\nManagement: Fragment of published case record; post-tonsillectomy antituberculosis chemotherapy detailed in subsequent clinical report."
+    }
+  }
+}

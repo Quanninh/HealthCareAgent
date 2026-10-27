@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC11834581_01",
+  "pair_id": "PMC11834581_01::Chikungunya",
+  "target_disease": "Chikungunya",
+  "raw_case_text": "The patient, a 38-year-old woman, presented with acute onset bilaterally symmetrical inflammatory polyarthritis of both large and small joints over a period of 20 days. She had no previous comorbidities. In addition, she had no history of antecedent events or substance abuse. Clinical examination revealed multiple tender joints with bilateral ankle tenosynovitis. Notably, she exhibited hyperpigmented, nonpruritic skin lesions over the tip of the nose with cutaneous thickening (A). Additional areas of hyperpigmentation were observed over the palms (B), knuckles, beneath the ear lobes, and on the pinnae. Further evaluation revealed high markers of inflammation (erythrocyte sedimentation rate 68 mm/1st hour, C-reactive protein 40 mg/L) with positive chikungunya serology (anti-chikungunya IgM). Her hormonal profile and autoimmune panel were normal. She was diagnosed with post chikungunya arthritis with classical CHIK sign (A and B). The patient was initiated on nonsteroidal anti-inflammatory drugs and low-dose glucocorticoids, leading to symptomatic improvement. Post chikungunya arthritis is a common clinical scenario in tropical countries. Nasal hyperpigmentation, initially thought to be a unique manifestation of chikungunya infection, has also been rarely observed in dengue. Increased intraepidermal melanin dispersion or retention triggered by virus is likely the cause of hyperpigmentation. A recent case series of six patients from India had described a phenotype named \"COVID-19 nose\" resembling \"chik sign.\" Although both viral diseases are associated with brownish black nasal hyperpigmentation with post-infective arthritis, there was a significant delay in the presentation in COVID-19 than chikungunya, which appears one to three weeks after fever defervescence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old woman presented with acute-onset bilaterally symmetrical inflammatory polyarthritis of large and small joints for 20 days.",
+      "history_of_present_illness": "The patient developed acute-onset bilaterally symmetrical inflammatory polyarthritis involving both large and small joints over a period of 20 days prior to presentation. She had no history of antecedent events.",
+      "past_medical_history": "No previous comorbidities; no history of substance abuse.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Multiple tender joints with bilateral ankle tenosynovitis. Hyperpigmented, nonpruritic skin lesions over the tip of the nose with cutaneous thickening. Additional areas of hyperpigmentation were observed over the palms, knuckles, beneath the ear lobes, and on the pinnae.",
+      "routine_investigations": "Erythrocyte sedimentation rate: 68 mm/1st hour; C-reactive protein: 40 mg/L. Hormonal profile and autoimmune panel were normal.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Positive serology for anti-chikungunya IgM, confirming post-chikungunya arthritis with classical 'chik sign' (nasal and acral hyperpigmentation). Treatment and course: Initiated on nonsteroidal anti-inflammatory drugs and low-dose glucocorticoids, leading to symptomatic improvement."
+    }
+  }
+}

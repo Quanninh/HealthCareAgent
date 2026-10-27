@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8749146_01",
+  "pair_id": "PMC8749146_01::Yellow_Fever",
+  "target_disease": "Yellow_Fever",
+  "raw_case_text": "The patient is from the municipality of Sao Bernardo do Campo and was admitted to a public hospital of the same city in July 2018, showing clinical symptomatology compatible with an arbovirus: fever, myalgia and headache.\nBiochemical, serological and molecular tests were requested to detect arboviruses. Serum RNA was extracted using the QIAamp Viral RNA Mini kit (Qiagen, Hilden, Germany), and the RNA was then converted into cDNA using the QuantiNova Reverse Transcription kit (Qiagen, Hilden, Germany) and multiplex qRT-PCR composed of two platforms to determine the virus (platform A: four viral serotypes of dengue, yellow fever, Zika, chikungunya; and platform B: Mayaro, Rocio, St Louis and West Nile) was performed in an ABI 7500 thermal cycler. Primers and probes were designed with the assistance of the IDT First Design program (PrimerQuest program, IDT, Coralville, IA, USA).\nLaboratory tests revealed a leukocytosis of 20.9 103 mm-3, an increase in direct bilirubin of 0.9 mg dl-1, alanine aminotransferase (ALT) of 68 mu l-1, aspartate transaminase (AST) of 60 mu l-1, gamma-glutamyl transferase (GGT) of 301 mu l-1 and C-reactive protein (C-PR) of 240.59 mg dl-1 (Table 1). Haemoculture and urine cultures were both negative. Serology for hepatitis B, C and HIV I and II were all negative, while IgG was positive for toxoplasmosis, cytomegalovirus and Epstein-Barr virus. Rapid antibody tests for dengue (IgM and IgG) and viral protein NS1 were negative, while the test for YFV IgM was inconclusive. In multiplex qRT-PCR, genetic material from DENV2 and YFV was detected.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An adult male presenting with acute fever, headache, and severe myalgia.",
+      "history_of_present_illness": "The patient presented to a public hospital in Sao Bernardo do Campo, Brazil, in July 2018 with acute onset of high fever, severe generalized myalgia, and headache characteristic of an acute arboviral syndrome.",
+      "past_medical_history": "Resident of the municipality of Sao Bernardo do Campo, Sao Paulo State, Brazil. No prior medical illnesses documented.",
+      "review_of_systems": "Acute fever, headache, generalized myalgia."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Complete blood count: leukocytosis of 20.9 x 10^3 mm^-3. Hepatic and inflammatory markers: direct bilirubin 0.9 mg dl^-1, alanine aminotransferase (ALT) 68 mu l^-1, aspartate transaminase (AST) 60 mu l^-1, gamma-glutamyl transferase (GGT) 301 mu l^-1, C-reactive protein (C-PR) 240.59 mg dl^-1. Blood culture (haemoculture) and urine culture: both negative. Viral serologies: hepatitis B, hepatitis C, and HIV I and II all negative; past infection IgG antibodies positive for toxoplasmosis, cytomegalovirus, and Epstein-Barr virus. Rapid antibody tests for dengue (IgM and IgG) and viral protein NS1 were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of acute arboviral coinfection with Yellow Fever Virus (YFV) and Dengue Virus Serotype 2 (DENV2): Multiplex quantitative real-time RT-PCR (multiplex qRT-PCR performed on an ABI 7500 thermal cycler with QuantiNova RT kit following QIAamp viral RNA extraction) detected genetic material from both DENV2 and YFV. Rapid tests for dengue NS1 antigen, IgM, and IgG were negative, and serology for YFV IgM was inconclusive. Bacterial sepsis was ruled out by sterile blood and urine cultures; acute hepatitis B, hepatitis C, and HIV were excluded. Patient managed supportively."
+    }
+  }
+}

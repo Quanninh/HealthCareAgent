@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3987999_04",
+  "pair_id": "PMC3987999_04::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "Clinical data: A 41-year-old female patient reporting fever for 2 days, weakness, fainting, sweating, yellow discharge, epigastric and abdominal pain. Laboratory workup demonstrated hematocrit of 48% and leukocytosis. Ultrasound showed fluid in the abdominal cavity. Patient died with a clinical diagnosis of dengue hemorrhagic fever causing an acute pulmonary edema (causa mortis).\n Necropsy data: The autopsy revealed a presence of tracheal hyperemia, externally reddish wall of the duodenum, esophageal mucosa with irregular dark wall, pulmonary edema, bilateral pleural effusion, hypertrophic cardiomyopathy and yellowish brown myocardium, mild retroperitoneal hemorrhage, visceral polycongestion, ascites, yellowish hepatic parenchyma and spleen with diffluent parenchyma.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old female presenting with a 2-day history of fever, weakness, syncope, diaphoresis, yellow discharge, and epigastric and abdominal pain.",
+      "history_of_present_illness": "The patient presented with a 2-day history of acute fever, generalized weakness, syncopal episodes (fainting), diaphoresis, yellow discharge, and epigastric and abdominal pain. Following presentation, she rapidly deteriorated with acute respiratory distress and pulmonary edema, culminating in death.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, weakness, fainting, sweating, yellow vaginal/cervical discharge, and epigastric/abdominal pain. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Acutely ill, rapidly deteriorating with signs of acute pulmonary edema.",
+      "routine_investigations": "Hematocrit: 48% (hemoconcentration), leukocytosis present. Abdominal ultrasound: Free fluid in the abdominal cavity (ascites).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Fatal severe dengue / dengue hemorrhagic fever complicated by severe plasma leakage, ascites, and acute pulmonary edema (cause of death). Necropsy confirmation: Tracheal hyperemia, reddish duodenal serosa, irregular dark esophageal mucosa, severe pulmonary edema, bilateral pleural effusions, hypertrophic cardiomyopathy with yellowish-brown myocardium, mild retroperitoneal hemorrhage, visceral polycongestion, ascites, yellowish hepatic parenchyma, and spleen with diffluent parenchyma.\nPlan & Outcome: Emergency resuscitation for severe plasma leakage and acute pulmonary edema. The patient deteriorated rapidly and died."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7248319_03",
+  "pair_id": "PMC7248319_03::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "A 44-year-old female without past medical history who is healthcare personnel and had close contact with COVID-19 pneumonia patients recognized fever without any other symptoms (day 0). An RT-PCR test was positive on day 2, and she was admitted to our hospital on day 3. On admission, she was symptom-free without any abnormality on physical examination. Her laboratory test results were as follow: WBC 3,600/muL, lymphocyte 1,224/mL, sodium level 136 mmol/L, Ferritin 20 ng/mL, and CRP 0.06 mg/dL. She developed a fever and dry cough on day 5 but had no severe respiratory symptoms such as difficulty in breathing, chest pain, or productive sputum. However, infiltrative shadows were observed in the right upper and left lower area on chest X-ray on day 6, and CT scan showed consolidations in the same areas on day 7. After obtaining consent, we started LPV/r on day 8, but she suffered from gastrointestinal adverse events and discontinued LPV/r on day 11. She had no concurrent medication. Improvement of pneumonia was observed on day 15, and she was discharged after two consecutive negative RT-PCR results. Interestingly, following the improvement of pneumonia without any symptoms or abnormality in blood examinations, RT-PCR remained positive during her follow-up RT-PCR testing.\nPatients 1 and 2 developed a fever over 38 C and required oxygen inhalation, but neither were observed throughout the clinical course in Patient 3 (Figures 1-3). Pneumonia developed 8, 12, and 7 days after the onset of illness in Patients 1, 2, and 3, respectively (Figure 4; P1A, P2A, and P3A). After LPV/r was initiated, body temperature decreased, with improvement of cough, lymphopenia, hyponatremia, hyper-ferritinemia, and infiltrative shadows in Patients 1 and 2 (P1B, P2B). This effect was rapid in Patient 1 and gradual in Patient 2. No abnormal laboratory test results except for increased CRP were observed in Patient 3. The duration of treatment with LPV/r was 10, 12, and 3 days for patients 1, 2, and 3, respectively.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old female healthcare worker presenting with a 3-day history of transient fever following occupational exposure to patients with viral pneumonia.",
+      "history_of_present_illness": "A 44-year-old female healthcare worker experienced an isolated fever on illness day 0 after close occupational contact with infected patients. Following positive diagnostic testing on day 2, she was admitted on day 3 asymptomatic. On illness day 5, she developed recurrent fever and a new dry cough, without dyspnea, chest pain, or sputum production.",
+      "past_medical_history": "No prior chronic medical conditions documented. Epidemiological exposure: healthcare worker with direct close contact with patients hospitalized for pandemic viral pneumonia.",
+      "review_of_systems": "Positive for fever and dry cough. Negative for shortness of breath, chest pain, sputum production, nausea, vomiting, or diarrhea. Home medications: none. Allergies: none documented."
+    },
+    "objective": {
+      "physical_examination": "Upon admission (day 3): afebrile, vital signs normal, physical examination completely unremarkable without respiratory distress or abnormal lung sounds.",
+      "routine_investigations": "Admission labs (day 3): WBC count: 3,600/muL; absolute lymphocyte count: 1,224/muL; serum sodium: 136 mmol/L; serum ferritin: 20 ng/mL; C-reactive protein (CRP): 0.06 mg/dL (subsequently mildly increased during pneumonia development). Chest X-ray (day 6): infiltrative opacities in the right upper and left lower lung zones.",
+      "advanced_workup": "Chest computed tomography (CT) on day 7: focal consolidations corresponding to the right upper lobe and left lower lobe."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Mild COVID-19 pneumonia, confirmed by positive nasopharyngeal SARS-CoV-2 RT-PCR on illness day 2. Management & Plan: Antiviral therapy with lopinavir/ritonavir (LPV/r) was initiated on day 8; however, due to gastrointestinal adverse effects, LPV/r was discontinued after 3 days (on day 11). Radiographic and symptomatic pneumonia resolution was confirmed by day 15. The patient achieved full clinical recovery and was discharged following two consecutive negative SARS-CoV-2 RT-PCR tests."
+    }
+  }
+}

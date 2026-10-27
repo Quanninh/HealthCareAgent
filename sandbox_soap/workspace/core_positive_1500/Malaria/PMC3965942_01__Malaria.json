@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3965942_01",
+  "pair_id": "PMC3965942_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "The case is of a 65-year-old migrant from Sierra Leone who has been living in the United States for more than a decade. The patient has had history of multiple episodes of malaria infection in childhood but no reported episode after emigrating to the United States. The patient had last been to the malaria endemic region of Sierra Leone in 2009 and denied any sickness during her trip or immediately after returning to the United States. She had her first episode of malaria in August of 2010 during which she was treated with full course of quinine and clindamycin. Her blood smears examined for parasites were reported as positive for Plasmodium falciparum trophozoites with very low parasite titer. The patient was readmitted in September of 2012 with complaint of recurrent fever and chills. She had no interval history of travel to any malaria endemic region. Blood smears obtained on the second hospitalization were reported showing Plasmodium malariae trophozoites. The patient's peripheral blood smears from the current and prior hospitalization were reviewed by the hospital's chief pathologist to answer why two different malariae species were identified on the two occasions without any evidence of reexposure. The final pathology report stated that the malaria parasite seen on both occasions was that of Plasmodium malariae and the initial reports of the parasite being Plasmodium falciparum were flawed. After this report the patient was treated with full course of chloroquine with resolution of fever and parasitemia. At 2-month followup a blood smear was obtained which did not show any parasites in her blood.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old female presenting with recurrent fevers and chills 3 years after last residing in West Africa and 2 years following an incompletely characterized parasitic episode.",
+      "history_of_present_illness": "The patient, who emigrated from Sierra Leone over a decade earlier and last visited in 2009 without acute illness, presented in August 2010 with fever and was treated with oral quinine and clindamycin. In September 2012, she was readmitted with recurrent paroxysmal fevers and chills without any interval travel to endemic regions. Comparative pathology review of peripheral smears was requested to adjudicate disparate diagnostic findings between admissions.",
+      "past_medical_history": "Emigrated from Sierra Leone over a decade prior; last travel to Sierra Leone in 2009. History of multiple childhood febrile illnesses. Treated with oral quinine and clindamycin in August 2010 for a febrile illness. No interval travel between 2010 and 2012.",
+      "review_of_systems": "Positive for recurrent fevers and chills. Negative for localized pain, cough, nausea, vomiting, or weight loss. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Febrile during paroxysms; general and systemic physical examination was otherwise unremarkable.",
+      "routine_investigations": "Routine blood investigations unremarkable except for microscopic evaluation of peripheral blood films.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Recrudescent quartan malaria due to chronic persistent Plasmodium malariae infection, originally misidentified as Plasmodium falciparum.\nDiagnostic confirmation: Formal pathology review by the hospital's chief pathologist of peripheral blood smears from both the August 2010 and September 2012 admissions confirmed identical Plasmodium malariae trophozoites on both occasions, correcting the initial erroneous identification of P. falciparum.\nPlan & Outcome: Treated with a full standard therapeutic course of oral chloroquine. Fevers and parasitemia resolved promptly. Repeat peripheral blood smear at 2-month follow-up confirmed complete parasite clearance with no detectable intraerythrocytic organisms."
+    }
+  }
+}

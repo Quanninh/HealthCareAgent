@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6390258_01",
+  "pair_id": "PMC6390258_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "We describe a clinical case of a 56-year-old woman from Angola, with diabetic end-stage kidney disease under maintenance hemodialysis and chronic anemia with frequent blood transfusion requirements, who presented with lumbar back pain and lower extremity muscle weakness for 3 months. The patient reported myalgia, rigors, and epigastric pain for 1 month, which had worsened in the previous 7 days, at which time she travelled to Portugal. At presentation, the patient's vital signs were normal, and physical examination was remarkable for pallor and proximal weakness of the lower limbs. Blood tests on admission revealed anemia (hemoglobin 6 g/dL, mean corpuscular volume 67.1 fL, mean corpuscular hemoglobin concentration 20.5 pg, hematocrit 19.6%, and red cell distribution width 28%), leukocyte count 8.6 x 109/L and platelet count 77 x 109/L, C-reactive protein 26.88 mg/dL, creatinine 8.36 mg/dL, and urea 141 mg/dL, with no evidence of hemolysis. The peripheral blood smear revealed trophozoites and schizonts of Plasmodium malariae, and the patient was treated with artemether/lumefantrine for 3 days, under cardiac monitoring with electrocardiogram and blood potassium monitoring. No infected erythrocytes were identified on peripheral blood smear after treatment conclusion, and no adverse events were reported.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 56-year-old female presenting with myalgias, rigors, and epigastric pain worsening over seven days, on a background of three months of back pain and leg weakness.",
+      "history_of_present_illness": "The patient reported a 3-month history of lumbar back pain and lower extremity weakness. Over the preceding month, she developed progressive generalized myalgias, rigors, and epigastric pain, which sharply worsened over the seven days prior to presentation following her travel from Angola to Portugal.",
+      "past_medical_history": "End-stage renal disease (ESRD) secondary to diabetic nephropathy on maintenance hemodialysis; chronic anemia requiring frequent blood transfusions; type 2 diabetes mellitus. Epidemiological history: Resident of Angola, recently traveled to Portugal.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Vital signs were within normal limits. General appearance: Severe mucosal pallor. Neuromuscular examination: Symmetrical proximal muscle weakness of the lower extremities; lumbar spinal tenderness.",
+      "routine_investigations": "Hemoglobin 6 g/dL, hematocrit 19.6%, MCV 67.1 fL, MCHC 20.5 pg, RDW 28%; white blood cell count 8.6 x 10^9/L; platelet count 77 x 10^9/L; C-reactive protein 26.88 mg/dL; serum creatinine 8.36 mg/dL; blood urea 141 mg/dL; absence of biochemical hemolysis.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Uncomplicated Plasmodium malariae infection (quartan malaria) in a patient with diabetic end-stage renal disease on hemodialysis. Peripheral blood smear examination demonstrated characteristic trophozoites and schizonts of Plasmodium malariae.\nPlan & Outcome: Hospitalized and treated with oral artemether/lumefantrine for 3 days, accompanied by continuous cardiac telemetry and frequent serum potassium monitoring. Repeat blood smear after treatment completion confirmed complete parasite eradication without adverse cardiac or metabolic events."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5176231_01",
+  "pair_id": "PMC5176231_01::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "A previously healthy 45-year-old man became ill 1 day after returning to the United Kingdom from a 1-week holiday in Rio de Janeiro, Brazil, in February 2016. His illness lasted for 10 days and consisted of severe retro-orbital headache, arthralgia, myalgia, and high fevers, followed by a pruritic maculopapular rash. He had no symptoms of prostatitis or gross hematospermia. He had no history of immunocompromise, and he was not on any regular medication. On day 3 of his illness, Zika virus RNA was detected in urine but not in serum; Zika virus IgM and IgG were not detected in serum by an ELISA IgM and IgG kit (EUROIMMUN AG, Lubeck, Germany). Results of serologic testing for chikungunya, dengue, and yellow fever were negative by commercial assays. \nSeventeen days after the initial testing, Zika virus IgM and IgG were detected in a new serum sample from the patient. The patient and his partner were planning to conceive and were reluctant to wait the 6 months recommended by Public Health England. Therefore, PCR for Zika virus RNA was performed on serial semen samples by using the Rare and Imported Pathogens Laboratory's in-house real-time reverse transcription PCR (rRT-PCR), based on an assay used by Pyke et al.. Zika virus RNA was detected 22, 55, and 92 days after symptom onset (cycle threshold values 21.3, 30.1, and 37.2, respectively). No microhematospermia was detected, and Zika virus could not be cultured at any point. No Zika virus RNA was detected in semen at day 132 or day 174. The patient and his partner did not have unprotected sex during this period; his partner remained well and was not tested for Zika virus.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "45-year-old male presenting with severe retro-orbital headache, arthralgia, myalgia, high fever, and pruritic maculopapular rash lasting 10 days after returning from Brazil.",
+      "history_of_present_illness": "A 45-year-old man developed an acute febrile illness 1 day after returning to the United Kingdom from a 1-week holiday in Rio de Janeiro, Brazil, in February 2016. His illness lasted for 10 days and consisted of severe retro-orbital headache, arthralgia, myalgia, and high fevers, followed by the appearance of a pruritic maculopapular rash. He reported no symptoms of prostatitis or gross hematospermia.",
+      "past_medical_history": "Previously healthy; no history of immunocompromise; epidemiological exposure: 1-week travel to Rio de Janeiro, Brazil in February 2016.",
+      "review_of_systems": "Denies gross hematospermia, prostatitis symptoms, or other systemic complaints. No regular medications."
+    },
+    "objective": {
+      "physical_examination": "High fevers and pruritic maculopapular rash documented during illness.",
+      "routine_investigations": "Semen analysis: No microhematospermia detected.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute Zika virus infection with prolonged viral RNA shedding in semen. Initial diagnostic testing on day 3 of illness detected Zika virus RNA in urine by RT-PCR, while serum RT-PCR was negative and serum Zika virus IgM and IgG were negative by ELISA. Serological assays for chikungunya, dengue, and yellow fever were negative. Follow-up serum testing 17 days later demonstrated seroconversion with detectable Zika virus IgM and IgG. Serial semen rRT-PCR demonstrated persistent Zika virus RNA at days 22 (Ct 21.3), 55 (Ct 30.1), and 92 (Ct 37.2) post-symptom onset, with clearance confirmed at days 132 and 174; viral culture of semen was negative at all time points. The patient and his partner practiced protected intercourse, and his partner remained healthy."
+    }
+  }
+}

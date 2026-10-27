@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6532492_01",
+  "pair_id": "PMC6532492_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 3.5-year-old male child born in April 2012 was brought to a private hospital in Mumbai in April 2015. The child had a history of parotitis and a 3-month long history of recurrent fever, cough, and symptoms suggestive of respiratory tract infection in March 2015. The child was found to be infected by HIV. His absolute CD4+ count (CD4%) and plasma viral load were 388 cells/mm3(13.4%) and 191,000 copies/ml, respectively. This signified severe immunosuppression for his age and suggested that the HIV infection had not been acquired recently. Both the parents were tested and found to be HIV negative. The discordant result of mother and child was baffling, and an explanation was sought for alternate source of infection.\nThe parents had a nonconsanguineous marriage, and the child was delivered vaginally at term without any complications. He was immunized appropriately for his age. There was no history of sexual abuse, blood transfusion, tattooing, or piercing of body parts of the child. There was no history of surrogate breastfeeding to the child and sharing of a toothbrush or nail clipper. There was no history of premastication according to the family members.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 3.5-year-old male presenting with a three-month history of recurrent fever, persistent cough, and symptoms of respiratory tract infection.",
+      "history_of_present_illness": "The patient presented with a 3-month history of recurrent fevers, cough, and frequent respiratory infections. He had a prior documented episode of acute parotitis. Following persistent illness, diagnostic serological evaluation revealed advanced immunodeficiency, prompting an investigation into non-vertical routes of transmission given negative parental serologies.",
+      "past_medical_history": "Full-term normal vaginal delivery without perinatal complications to non-consanguineous parents; fully immunized for age; episode of acute parotitis. Negative history for blood transfusions, child abuse, skin puncture/tattooing, surrogate breastfeeding, premastication of food, or sharing of sharp personal items.",
+      "review_of_systems": "Recurrent fevers, productive cough, parotid swelling; denies chronic diarrhea, failure to thrive, seizures, or rash."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Advanced pediatric human immunodeficiency virus type 1 (HIV-1) infection (CDC Category 3 severe immunosuppression for age: absolute CD4+ count 388 cells/microL [13.4%], plasma HIV-1 RNA 191,000 copies/mL) acquired via a non-vertical, household route, with confirmed seronegativity in both biological parents.\nPlan & Outcome: Comprehensive epidemiological and molecular phylogenetic investigation initiated to identify household transmission sources, alongside enrollment into pediatric HIV specialty care for initiation of combination antiretroviral therapy."
+    }
+  }
+}

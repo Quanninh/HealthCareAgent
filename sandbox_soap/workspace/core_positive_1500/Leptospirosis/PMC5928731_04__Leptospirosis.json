@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5928731_04",
+  "pair_id": "PMC5928731_04::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "raw_case_text": "A 22-year-old male was evaluated at the ED on March 24, 2014, because of a 3-day history of fever, malaise, myalgia, nausea, rhinorrhea, sore throat, and headache. Physical examination revealed fever, underweight (body mass index = 18.1), and tachycardia. He was given acetaminophen and discharged from the ED with a diagnosis of viral syndrome.\nSerum collected on day 2 of illness was negative by PCR and MAT. Convalescent serum collected 18 days after illness onset was positive by MAT with a reciprocal titer of 800 against serogroups Bataviae (serovar Bataviae) and Canicola (serovar Canicola) and was also positive for detection of anti-dengue virus IgM antibodies.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 22-year-old male presenting with a 3-day history of fever, malaise, myalgia, nausea, rhinorrhea, sore throat, and headache.",
+      "history_of_present_illness": "The patient presented to the emergency department on March 24, 2014, with a 3-day history of fever, malaise, myalgias, nausea, rhinorrhea, sore throat, and headache. Following clinical examination, he received symptomatic therapy and was discharged home with a diagnosis of viral syndrome.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed fever, tachycardia, and an underweight body habitus with a body mass index (BMI) of 18.1 kg/m2.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Leptospirosis with dengue virus co-infection. Convalescent serum obtained 18 days post-onset demonstrated positive MAT with a reciprocal titer of 800 against serogroups Bataviae (serovar Bataviae) and Canicola (serovar Canicola), alongside positive anti-dengue virus IgM antibodies. Acute-phase serum drawn on illness day 2 was negative by both PCR and MAT.\nPlan & Outcome: Treated with oral acetaminophen in the emergency department for presumptive viral syndrome and discharged home with uneventful recovery."
+    }
+  }
+}

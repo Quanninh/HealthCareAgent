@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9634947_01",
+  "pair_id": "PMC9634947_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "An 18-year-old male patient was commenced on ART in September 2010, at seven years of age. His baseline CD4 count was 145 cells/muL. His first-line ART regimens were stavudine/lamivudine (3TC)/nevirapine, followed by stavudine/3TC/efavirenz (EFV), followed by zidovudine/3TC/EFV. Viral load (VL) results were not available until 2014, at which time he was noted to have virological treatment failure. An HIV genotypic resistance test done in January 2015 showed significant nucleoside reverse transcriptase inhibitor (NRTI) and non-nucleoside reverse transcriptase inhibitor (NNRTI) DRMs with no protease inhibitor resistance (see Table 1 for DRMs and sensitivity results). In January 2015 he was switched to second-line treatment with abacavir (ABC)/3TC/lopinavir/ritonavir (LPV/r), which was later simplified to ABC/3TC/Atazanavir/ritonavir (ATZ/r). Virological suppression was maintained for the duration of protease inhibitor therapy. In August 2019 he was switched to a single tablet regimen of tenofovir (TDF)/3TC/DTG; his VL was suppressed at the time of switch.\nVirological rebound occurred 11 months after initiation of the InSTI regimen. The patient reported a history of suboptimal adherence to TDF/3TC/DTG; no other risk factors for virological failure were identified. Despite adherence counselling his VL remained high, and an HIV genotypic resistance test taken 14 months after TDF/3TC/DTG initiation showed persistent NRTI and NNRTI DRMs, and extensive InSTI DRMs (see Table 1 for mutations and sensitivity analysis).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old male presenting for longitudinal evaluation of antiretroviral treatment failure and drug resistance.",
+      "history_of_present_illness": "The patient presented for therapeutic monitoring following documented virological rebound 11 months after transition to an integrase strand transfer inhibitor-based single-tablet regimen. He acknowledged suboptimal medication adherence. Despite structured adherence counseling, high-level viral replication persisted, prompting specialized resistance profiling.",
+      "past_medical_history": "Receiving antiretroviral therapy since 7 years of age (September 2010); previously treated with sequential first-line regimens (stavudine/lamivudine/nevirapine, stavudine/lamivudine/efavirenz, and zidovudine/lamivudine/efavirenz) until treatment failure in 2014; second-line protease inhibitor regimens (abacavir/lamivudine/lopinavir/ritonavir and abacavir/lamivudine/atazanavir/ritonavir) from 2015 to 2019 with virological suppression; switched in August 2019 to tenofovir/lamivudine/dolutegravir.",
+      "review_of_systems": "Reports feeling clinically well; denies opportunistic symptoms, weight loss, fever, or chronic diarrhea."
+    },
+    "objective": {
+      "physical_examination": "Patient is an 18-year-old male in good general health without acute distress; physical examination was clinically unremarkable without focal signs of opportunistic disease.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Virological rebound and emergent integrase strand transfer inhibitor (InSTI) resistance complicating long-standing human immunodeficiency virus (HIV) infection (initial baseline CD4 count 145 cells/microL). Diagnostic confirmation: HIV genotypic resistance testing at 14 months post-InSTI switch revealed emergent multidrug resistance with extensive InSTI drug-resistance mutations (DRMs), alongside persistent nucleoside reverse transcriptase inhibitor (NRTI) and non-nucleoside reverse transcriptase inhibitor (NNRTI) DRMs, following initial genotypic testing in 2015 showing dual NRTI/NNRTI resistance without protease inhibitor resistance. Plan & Outcome: Provided adherence counseling and reassessed salvage antiretroviral therapy options based on genotypic sensitivity profile."
+    }
+  }
+}

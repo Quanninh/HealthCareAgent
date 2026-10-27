@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3323255_03",
+  "pair_id": "PMC3323255_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "The likely source of laboratory worker 1's infection was found after reassessing Gram stains performed in laboratory 1 in August, September, and October 2001. A 76-year-old woman visited the emergency room served by laboratory 1 in early September 2001. The patient had had fever (temperature 38.3oC) for 1 day and headache for 3 weeks. She received one dose of ciprofloxacin for a possible urinary tract infection and was discharged. After 4 days of incubation, a Gram stain of this patient's blood culture specimen showed tiny, gram-negative coccobacilli, reported as coryneform bacilli. As part of the investigation for the source of infection for laboratory worker 1, this patient's prepared Gram stain slide was referred to the Wadsworth Center, where small, gram-variable cocci were identified. More than 1 year after being seen in the emergency room, this patient was offered Brucella SAT and a repeat blood culture. She refused Brucella SAT, and her physician did not identify symptoms consistent with brucellosis. Six months after this identification, further experimental analysis by the Wadsworth Center with polymerase chain reaction tests performed on Gram stain material detected B. melitensis DNA (Wadsworth Center, NYSDOH, unpub. data). The patient was again contacted, and Brucella SAT (>1.5 years after her initial blood culture) showed a titer of 1:80 (indeterminate). Repeat blood cultures were negative. Upon interview, the patient denied any visits outside the United States since 1989, when she emigrated from Peru. She also denied consuming any unpasteurized products from the United States or abroad. An additional interview was scheduled, but the patient died unexpectedly.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 76-year-old female presented to the emergency department with a 1-day history of fever (38.3 °C) and a 3-week history of headache.",
+      "history_of_present_illness": "The patient presented in early September 2001 with a 3-week history of headache and 1 day of fever (38.3 °C). She was evaluated for a suspected urinary tract infection, administered a single dose of oral ciprofloxacin, and discharged. Blood cultures were collected at that time. More than 1 year later, an epidemiologic trace-back investigation of laboratory-acquired febrile illness led to re-evaluation of her historical blood culture specimen.",
+      "past_medical_history": "Emigrated from Peru in 1989; denied travel outside the United States since 1989. Denied consuming unpasteurized dairy products from the United States or abroad. Prior medical history and comorbidities not documented.",
+      "review_of_systems": "Headache for 3 weeks; fever for 1 day. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Temperature: 38.3 °C. Other vital signs and physical examination findings not documented.",
+      "routine_investigations": "Blood culture (September 2001): incubated for 4 days; Gram stain showed tiny gram-negative coccobacilli, originally reported as coryneform bacilli. Repeat blood cultures performed >1.5 years later were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Brucellosis caused by Brucella melitensis.\nConfirmation: Review of the original prepared Gram stain slide by the Wadsworth Center identified small gram-variable cocci; experimental PCR analysis of Gram stain material performed at Wadsworth Center detected Brucella melitensis DNA. Repeat Brucella serum agglutination test (SAT) performed >1.5 years later showed an indeterminate titer of 1:80.\nDifferentials ruled out: Suspected urinary tract infection; coryneform contamination ruled out by PCR confirmation of B. melitensis DNA.\nTreatment & Outcome: Received a single dose of ciprofloxacin in the emergency department in 2001. Found to be asymptomatic when evaluated >1 year later. An additional follow-up interview was planned, but the patient died unexpectedly from an unrelated cause."
+    }
+  }
+}

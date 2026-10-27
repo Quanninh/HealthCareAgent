@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3140149_02",
+  "pair_id": "PMC3140149_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 52-year-old HIV-positive man from Rajasthan presented with multiple papulonodular lesions mainly on dorsum of hand, forearm, thighs, and back for past 3 months [Figure 2]. Differential diagnosis of Hansen's disease, sarcoidosis, and leishmaniasis were performed. Routine blood parameters were in normal limits. His CD4 count was 170/muL. Slit skin smear revealed multiple intra- and extracellular leishman donovan bodies with giemsa stain. Biopsy of lesion revealed mixed dermal lymphocytes and histiocytes showing intracellular leishman donovan bodies [Figure 3].\nBoth the patients were referred to ART center for the management of HIV infection. They were given capsule rifampicin 600 mg od along with ketoconozole 200 mg od for 3 months along with first-line anti-retroviral therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old HIV-positive male presented with multiple papulonodular skin lesions on his limbs and trunk for 3 months.",
+      "history_of_present_illness": "The patient presented with a 3-month history of eruptive, non-resolving papulonodular skin lesions distributed over the dorsum of the hands, forearms, thighs, and back.",
+      "past_medical_history": "Known HIV infection. Epidemiological history: resident of Rajasthan, India.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Dermatologic examination demonstrated multiple papulonodular lesions located primarily over the dorsum of the hands, forearms, thighs, and back.",
+      "routine_investigations": "Routine blood parameters were within normal limits. CD4 count: 170 cells/muL.",
+      "advanced_workup": "Skin lesion biopsy: mixed dermal infiltrate composed of lymphocytes and histiocytes containing intracellular protozoal organisms."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Giemsa-stained slit skin smear demonstrated multiple intra- and extracellular Leishman-Donovan (LD) bodies. Skin lesion biopsy confirmed mixed dermal lymphohistiocytic infiltration with intracellular Leishman-Donovan bodies, establishing cutaneous leishmaniasis in the setting of HIV coinfection. Hansen's disease and sarcoidosis were ruled out. Management and Outcome: Referred to the antiretroviral therapy (ART) center and treated with oral rifampicin 600 mg once daily and oral ketoconazole 200 mg once daily for 3 months in conjunction with first-line ART."
+    }
+  }
+}

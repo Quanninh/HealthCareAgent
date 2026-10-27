@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9082236_01",
+  "pair_id": "PMC9082236_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "An antiretroviral therapy (ART)-naive woman was asymptomatic for tuberculosis (TB) at presentation and started on first-line ART (see Table 1 for more information). She rapidly deteriorated and presented again after 10 days with night sweats, a cough, and abdominal pain. She met the criteria for AlereLAM testing on this date, which revealed a strongly positive (4+) result. The patient was placed onto TB treatment and sputum was sent for Xpert MTB/RIF Ultra and mycobacterial culture, along with urine for mycobacterial culture.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An ART-naive woman presented with night sweats, cough, and abdominal pain ten days after initiating first-line antiretroviral therapy.",
+      "history_of_present_illness": "An ART-naive woman with newly diagnosed HIV was asymptomatic for tuberculosis at baseline and started on first-line antiretroviral therapy. She deteriorated rapidly over the subsequent 10 days, presenting with night sweats, cough, and abdominal pain, fulfilling clinical criteria for urinary lipoarabinomannan testing.",
+      "past_medical_history": "Recently diagnosed HIV infection, ART-naive until initiating first-line antiretroviral therapy 10 days prior. Prior medical history, travel, or TB exposures not documented.",
+      "review_of_systems": "Reports night sweats, cough, and abdominal pain; denies hemoptysis, vomiting, or diarrhea. Home medications: first-line ART. Allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Assessed and met WHO clinical criteria for rapid diagnostic lipoarabinomannan testing; specific physical examination findings not documented.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Disseminated tuberculosis unmasked by immune reconstitution inflammatory syndrome (unmasking TB-IRIS) following first-line antiretroviral therapy initiation.\nConfirmation: AlereLAM urine assay was strongly positive (4+); sputum and urine specimens were submitted for Xpert MTB/RIF Ultra and mycobacterial culture.\nDifferentials ruled out: Acute antiretroviral adverse reaction and alternative opportunistic infections.\nTreatment & Outcome: Promptly started on standard anti-tuberculosis therapy alongside continued antiretroviral therapy and supportive care."
+    }
+  }
+}

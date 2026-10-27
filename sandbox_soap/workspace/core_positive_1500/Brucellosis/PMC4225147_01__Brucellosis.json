@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4225147_01",
+  "pair_id": "PMC4225147_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "64-year-old man farmar was admitted to our department with low back pain radiating to the lower extremities. He had a history of febrile illness and loss of appetite 2 years before admission. Four months after the start of the febrile illness, the patient started to complain of backache and spinal movements were restricted and painful. He had no other neurologic symptoms. Radiography of the spine revealed parrot's peak appearance (Pedro Pons' sign) at the anterior superior end of the L3 vertebra which is characterized by osteosclerosis and osteophyte (A, arrows). Magnetic resonance imaging (MRI) after the administration of gadolinium revealed L2-L3 epiduritis, an erosive change of the anterior portion of L4 and L5, abnormal signal change with enhancement in T12, L2, L3, L5 and S1 body with probable spondylodiscitis in L2/L3 and L5/S1 levels (B). Pathological analysis of a specimen obtained with CT-guided aspiration revealed non caseating granulomas, which were culture positive for Micrococcus melitensis. Rose Bengal test for brucellosis was positive and Brucella standard tube agglutination confirmed this finding with 1/321 titer. Antibiotic treatment (doxycyline 200 mg/d and rifampicin 600 mg/d) was initiated and the patient's complaints were diminished gradually. He was discharged from hospital and recommended to complete his treatment to 90 days and a follow-up MRI showed sclerosis and reactive osteophyte formation indicating the healing phase of inflammatory tissue at the same levels. Pedro Pons' sign, known as anterior superior end erosion, which occurs together with rounding of the vertebral end and level deformity, is a characteristic radiologic finding of brucellar spondylitis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old male farmer presented with low back pain radiating to the lower extremities and restricted spinal mobility.",
+      "history_of_present_illness": "The patient experienced a febrile illness associated with anorexia 2 years prior to admission. Four months after the febrile illness began, he developed persistent low back pain with restricted and painful spinal movements, which gradually radiated to both lower extremities. He had no other neurological symptoms.",
+      "past_medical_history": "Occupation: farmer. Past history of febrile illness and anorexia 2 years prior. Other medical comorbidities, prior antibiotic exposure, and animal contact details not documented.",
+      "review_of_systems": "Low back pain radiating to lower extremities, painful restricted spinal mobility, anorexia. Denied other neurological symptoms. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Spinal mobility was severely restricted and painful. Neurological examination was otherwise normal without focal motor or sensory deficits.",
+      "routine_investigations": "Spine radiography: 'parrot's peak' appearance (Pedro Pons' sign) at the anterior superior end of L3 vertebra characterized by osteosclerosis and osteophyte formation.",
+      "advanced_workup": "Spine MRI (gadolinium-enhanced): L2-L3 epiduritis, erosive changes of anterior L4 and L5, abnormal signal enhancement in T12, L2, L3, L5, and S1 vertebral bodies with probable spondylodiscitis at L2-L3 and L5-S1 levels. CT-guided vertebral aspiration: histopathology of aspirate revealed non-caseating granulomas. Follow-up MRI: demonstrated sclerosis and reactive osteophyte formation indicating healing of inflammatory tissue at affected levels."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Brucellar spondylodiscitis with multi-level vertebral involvement (T12, L2, L3, L4, L5, S1) and L2-L3 epiduritis.\nConfirmation: Culture of CT-guided vertebral aspirate positive for Micrococcus melitensis (Brucella melitensis); Rose Bengal screening test positive; standard tube agglutination test confirmed Brucella titer of 1/321.\nTreatment & Outcome: Treated with oral doxycycline (200 mg/day) and oral rifampicin (600 mg/day). Symptoms diminished gradually, and he was discharged to complete a 90-day antimicrobial course; follow-up MRI confirmed resolution and healing with reactive sclerosis."
+    }
+  }
+}

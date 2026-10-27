@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8486024_03",
+  "pair_id": "PMC8486024_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "A 58-year-old male, a farmer by occupation presented with persistent watering and intermittent discharge for 1 year. He had had multiple consultations earlier and was treated with topical antibiotics. Ocular examination showed edema of the right lower eyelid localized to the medial aspect with a pouting punctum. Canalicular curettage revealed the presence of pus and concretions which were sent for microbiological evaluation. Gram's stain of the smear showed Gram-positive branching filamentous organisms and Gram-positive cocci in clusters.\nNonhemolytic nonpigmented small gray colonies [Figure 3] grew on blood agar. These were identified as Brucella melitensis. Staphylococcus epidermidis and Actinomycetes were also isolated from culture. The organisms were sensitive to chloramphenicol [Table 1].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 58-year-old male presented with persistent watering and intermittent discharge from the right eye for one year.",
+      "history_of_present_illness": "The patient presented with a 1-year history of persistent right eye tearing (epiphora) and intermittent discharge. He had sought multiple medical consultations previously and was treated empirically with courses of topical ophthalmic antibiotics without lasting symptom resolution.",
+      "past_medical_history": "History of prior topical ophthalmic antibiotic therapy for chronic eye symptoms. Epidemiological exposure/Occupation: Farmer.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Ocular examination: Localized edema of the medial aspect of the right lower eyelid with a pouting lacrimal punctum.",
+      "routine_investigations": "Diagnostic canalicular curettage: Pus and concretions expressed. Gram stain smear: Demonstrated Gram-positive branching filamentous organisms and Gram-positive cocci in clusters.",
+      "advanced_workup": "Antimicrobial susceptibility testing: Isolated organisms demonstrated in vitro susceptibility to chloramphenicol."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Chronic canaliculitis with polymicrobial infection, confirmed by bacterial culture of canalicular concretions growing nonhemolytic nonpigmented small gray colonies identified as Brucella melitensis, alongside Staphylococcus epidermidis and Actinomyces species. Isolates were sensitive to chloramphenicol.\nPlan & Clinical Course: Treated with surgical canalicular curettage and removal of concretions along with targeted topical antimicrobial therapy guided by chloramphenicol susceptibility."
+    }
+  }
+}

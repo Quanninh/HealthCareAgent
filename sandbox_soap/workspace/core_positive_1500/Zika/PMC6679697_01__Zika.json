@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6679697_01",
+  "pair_id": "PMC6679697_01::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "In June 2016, a 25-year-old woman, who was pregnant for the second time, carried a female fetus that displayed multiple congenital abnormalities. The pregnancy started in December 2015 and was without abnormalities until February 2016. At 10 weeks of pregnancy, the mother presented rash in the face and superior limbs, conjunctival hyperemia, arthralgia, headache, myalgia, and fever. A ZIKV infection was suspected and RT-PCR was performed, which showed a positive result at 10 weeks of gestation. As a result, a ZIKV congenital infection was suspected and continuous ultrasonography monitoring was performed from weeks 10 to 17, with no evidence of birth defects observed. As part of the prenatal care, TORCH testing was performed, and the most prevalent congenital infections were eliminated as causal factors including toxoplasmosis, syphilis, HIV, rubella, cytomegalovirus, hepatitis B, herpes virus 1 and 2, and parvovirus B19 (Table 1). \nAt 23.3 weeks of gestation, the first brain abnormalities were observed. Ultrasonography showed asymmetric fetal growth during pregnancy, cephalic perimeter and biparietal diameter below the 5th percentile, intracranial calcifications, and ventriculomegaly (atrial diameter of 21.1 mm) without other structural malformations. Combined with the previous positive Zika RT-PCR and ultrasonography findings, congenital ZIKV syndrome was diagnosed. Because of the poor fetal prognosis, the parents decided to terminate the pregnancy following National Legislation and Medical Team approval. When the fetus was born, the only morphological finding was microcephaly. An entire genetic assessment was performed on the fetus, including an assessment of inheritance genetic disorders; an autopsy was also performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "25-year-old pregnant female (gravida 2) at 23.3 weeks gestation presenting for prenatal evaluation following first-trimester febrile exanthematous illness, with fetal ultrasound demonstrating severe ventriculomegaly, intracranial calcifications, and microcephaly.",
+      "history_of_present_illness": "At 10 weeks of pregnancy (February 2016), the patient developed fever, facial and upper extremity rash, conjunctival hyperemia, arthralgia, headache, and myalgias. Serial prenatal ultrasounds from weeks 10 to 17 showed normal fetal anatomy. At 23.3 weeks gestation, follow-up ultrasound identified asymmetric fetal growth, microcephaly, intracranial calcifications, and severe ventriculomegaly.",
+      "past_medical_history": "Gravida 2; no prior chronic medical illnesses reported.",
+      "review_of_systems": "Headache, arthralgia, myalgias, and rash during the first trimester; denies other acute complaints."
+    },
+    "objective": {
+      "physical_examination": "Maternal: Documented fever, facial and upper limb rash, and conjunctival hyperemia at 10 weeks gestation. Post-delivery fetal evaluation: Female fetus with severe microcephaly as the sole external dysmorphic feature.",
+      "routine_investigations": "Fetal ultrasound (weeks 10 to 17): Normal fetal development without detectable anomalies. Fetal ultrasound (23.3 weeks): Asymmetric fetal growth, cephalic perimeter and biparietal diameter <5th percentile, intracranial calcifications, and marked ventriculomegaly with an atrial diameter of 21.1 mm, without other structural malformations.",
+      "advanced_workup": "Fetal genetic evaluation for inherited genetic disorders and postmortem fetal autopsy were performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Congenital Zika virus syndrome secondary to maternal first-trimester infection, resulting in severe fetal brain disruption and microcephaly. Maternal infection was confirmed by positive Zika virus RT-PCR at 10 weeks of gestation. Maternal TORCH screening ruled out toxoplasmosis, syphilis, HIV, rubella, cytomegalovirus, hepatitis B, herpes simplex virus 1 and 2, and parvovirus B19. Due to poor fetal neurological prognosis, therapeutic pregnancy termination was performed in accordance with national legal and clinical frameworks."
+    }
+  }
+}

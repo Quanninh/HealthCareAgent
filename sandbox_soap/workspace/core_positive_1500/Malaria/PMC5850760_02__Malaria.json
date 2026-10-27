@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5850760_02",
+  "pair_id": "PMC5850760_02::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "An 8-year-old female child from Vizianagaram district, Andhra Pradesh, was admitted with fever for 10 days. PF rapid diagnostic test (RDT) was positive. She received injection artesunate for 3 days and SP was administered on day 2. In view of anemia and persistence of fever, she was referred to our hospital. Her peripheral smear confirmed ring forms of PF. Sickling test was negative. Probable artesunate resistance was suspected. Similar treatment with quinine, clindamycin, and primaquine was given. Smear after 72 h and on 28th day was negative for malarial parasites.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old female presenting with persistent fever for ten days and pallor.",
+      "history_of_present_illness": "The patient presented with a 10-day history of persistent fever. She had received parenteral artesunate for three days and sulfadoxine/pyrimethamine on day two at an outside hospital, but fever persisted and anemia developed, prompting referral to tertiary care.",
+      "past_medical_history": "Resident of Vizianagaram district, Andhra Pradesh, India. Recent treatment with injectable artesunate (3 days) and sulfadoxine/pyrimethamine.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Fever and mucosal pallor documented on clinical examination.",
+      "routine_investigations": "Laboratory testing showed anemia; sickling test was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Plasmodium falciparum malaria with suspected artesunate resistance (treatment failure). Rapid diagnostic test (RDT) was positive for P. falciparum at initial facility, and repeat peripheral blood smear confirmed persistent P. falciparum ring forms after full artesunate-SP therapy. Sickle cell disease was excluded by negative sickling test.\nPlan & Outcome: Treated with rescue therapy consisting of parenteral quinine, clindamycin, and primaquine. Follow-up blood smears showed complete parasitological clearance at 72 hours and remained negative on Day 28."
+    }
+  }
+}

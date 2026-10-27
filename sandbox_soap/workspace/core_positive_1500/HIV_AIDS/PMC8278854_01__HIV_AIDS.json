@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8278854_01",
+  "pair_id": "PMC8278854_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Ms PM is a 28-year-old female, originally from Eastern Cape Province in South Africa (SA). She was first admitted in July 2017 for severe respiratory distress at a district hospital in Gauteng Province, with a working diagnosis of multi-lobar pneumonia. Further examination revealed significant wasting, pallor and oral candidiasis. Her oxygen saturation was 82% on room air, which improved to 100% on supplemental oxygen. She was hypotensive (blood pressure 89/65 mmHg), and tachycardic (120 beats per minute) due to sepsis. \n Her chest X-ray showed diffuse, multiple thin-walled cysts (one with air-fluid level) of varying sizes in both lung fields; as well as the peri-cardiac region (Fig. 1). Due to the patient's rural background, hydatid lung disease was now the working diagnosis. A computed tomography (CT) scan of the chest could not be performed at this district hospital as the scan machine was not operational. \n Blood results showed acute kidney injury (resolved with crystalloid fluids), a raised c-reactive protein (CRP) of 143 mmol/L, and a normocytic anaemia attributed to her HIV infection. The hydatid serology and the serum cryptococcal latex antigen test (sCLAT) performed was negative. Sputum investigations were negative for tuberculosis, yeast and/or fungal species. Bronchoscopy equipment was not available at this hospital, and no further biological samples could be collected.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old female presenting with severe acute respiratory distress, hypotension, and tachycardia.",
+      "history_of_present_illness": "A 28-year-old female was admitted in July 2017 to a district hospital with acute severe respiratory distress, hypoxemia, and septic shock. She was noted to have profound cachexia, pallor, and oral mucosal lesions, with an initial working diagnosis of multilobar pneumonia.",
+      "past_medical_history": "Epidemiological history: Originating from Eastern Cape Province, residing in Gauteng Province, South Africa; rural background.",
+      "review_of_systems": "Severe dyspnea and respiratory distress; denies localized chest trauma or prior chronic cough."
+    },
+    "objective": {
+      "physical_examination": "General: Severe wasting and cachexia, marked conjunctival/mucosal pallor. Vitals: Oxygen saturation 82% on room air (correcting to 100% on supplemental oxygen), blood pressure 89/65 mmHg (hypotension), heart rate 120 beats/min (tachycardia). Oropharynx: Oral candidiasis / thrush. Respiratory: Bilateral respiratory distress.",
+      "routine_investigations": "Complete blood count: Normocytic anemia. Serum biochemistry: Acute kidney injury (resolved with IV crystalloids), C-reactive protein (CRP) markedly elevated at 143 mmol/L. Sputum diagnostics: Sputum microscopy and cultures negative for Mycobacterium tuberculosis, yeasts, and fungal pathogens. Serology: Hydatid serology negative; serum cryptococcal latex antigen test (sCLAT) negative. Chest radiograph: Diffuse, multiple thin-walled cysts of varying sizes throughout both lung fields (one demonstrating an air-fluid level) and in the pericardiac region.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe pulmonary cystic disease (consistent with severe Pneumocystis jirovecii pneumonia with pneumatocele formation versus hydatid disease) complicated by septic shock, hypoxemic respiratory failure, normocytic anemia, and acute kidney injury in a patient with human immunodeficiency virus (HIV) infection.\nDiagnostic Evaluation & Clinical Management: Sputum evaluation for tuberculosis and fungal pathogens, serum cryptococcal antigen, and hydatid serology were negative. CT scan was unavailable due to equipment failure and bronchoscopy was not accessible. Management included oxygen therapy, intravenous crystalloid resuscitation resulting in resolution of acute kidney injury, and antimicrobial therapy for sepsis."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6754851_04",
+  "pair_id": "PMC6754851_04::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 45 years old patient, chronic smoker, presented with unilateral lymphadenopathy gradually increasing in size with weight loss, associated with nasal obstruction and hearing loss of the right ear. Clinical examination found a painless firm lymphadenopathy of the right jugular era measuring 3cm and a secretory otitis media. The endoscopy found a tumor in the right posterolateral wall of the nasopharynx. CT scan showed a mass in the posterior wall of the nasopharynx with retropharyngeal lymphadenopathies. A biopsy was performed.\nIn four cases, histopathological study showed nasopharyngitis and granulomas with histiocytic, epithelioid, and giant multinucleated Langhans cells as well as caseous necrosis (Figure 4). Further examinations searching for other locations were negative confirming the diagnosis of primary nasopharyngeal tuberculosis. All patients received anti bacillary treatment based on rifampicin 10mg/kg/day, isoniazid 5mg/kg/day, pyrazinamide 20mg/kg/day during 2 months followed by rifampicin and isoniazid during 4 months. A clinical, endoscopic and histological surveillance was implemented and the evolution was favorable in all cases.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old male presented with a progressively enlarging right neck mass, weight loss, nasal obstruction, and right-sided hearing loss.",
+      "history_of_present_illness": "The patient presented with a unilateral cervical lymphadenopathy that had been gradually increasing in size, accompanied by unintentional weight loss, nasal obstruction, and right ear hearing loss.",
+      "past_medical_history": "Chronic tobacco smoking.",
+      "review_of_systems": "Reported nasal obstruction, hearing loss in the right ear, and weight loss. Home medications and allergies: unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Painless, firm lymphadenopathy measuring 3 cm in the right jugular area; otoscopic examination revealed right secretory otitis media.",
+      "routine_investigations": null,
+      "advanced_workup": "Nasal endoscopy: identified a tumor mass in the right posterolateral wall of the nasopharynx. CT scan of head and neck: demonstrated a mass on the posterior wall of the nasopharynx with associated retropharyngeal lymphadenopathy. Diagnostic nasopharyngeal biopsy was performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Primary nasopharyngeal tuberculosis. Histopathological examination of nasopharyngeal biopsy confirmed granulomatous nasopharyngitis with epithelioid histiocytes, Langhans multinucleated giant cells, and central caseous necrosis; extensive workup excluded secondary or pulmonary foci. Nasopharyngeal carcinoma was ruled out.\nTreatment & Outcome: Treated with antitubercular regimen consisting of rifampicin (10 mg/kg/day), isoniazid (5 mg/kg/day), and pyrazinamide (20 mg/kg/day) for 2 months, followed by rifampicin and isoniazid for 4 months. Follow-up clinical, endoscopic, and histological surveillance documented complete favorable evolution."
+    }
+  }
+}

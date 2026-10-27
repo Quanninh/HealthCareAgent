@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3987999_03",
+  "pair_id": "PMC3987999_03::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "Clinical data: A 21-year-old female patient who experienced fever, myalgia and headache for 8 days and symptoms progressed to metrorrhagia, nausea, vomiting and diarrhea. Before hospitalization, she was examined in another health service with a hypothesized dengue diagnosis due to severe leukopenia and thrombocytopenia (platelet 10.000/mm3). The patient was admitted in the intensive care unit (ICU) at the Hospital Universitario Clementino Fraga Filho with respiratory failure, followed by the evolution of multiple organ failure and refractory shock. Biochemical parameters evaluated in the serum: aspartate aminotransferase 149 IU/L; alanine aminotransferase 66 IU/L; glucose 158 mg/dL; creatinine 1.10 mg/dL; urea 9.0 mg/dL.\n Necropsy data: Ecchymosis, conjunctival hemorrhage, bilateral pleural effusion, pulmonary hemorrhage, renal congestion and splenomegaly.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 21-year-old female presenting with an 8-day history of fever, myalgia, and headache, progressing to metrorrhagia, nausea, vomiting, and diarrhea.",
+      "history_of_present_illness": "The patient experienced fever, myalgia, and headache for 8 days, which progressed to nausea, vomiting, diarrhea, and metrorrhagia. She was initially evaluated at another clinic and found to have profound bicytopenia, before being admitted to the university intensive care unit due to acute respiratory failure, rapid clinical deterioration, and refractory shock.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, myalgia, headache, metrorrhagia, nausea, vomiting, and diarrhea. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Acutely ill in respiratory failure; clinical progression to refractory shock and multiorgan failure.",
+      "routine_investigations": "Complete blood count: Severe leukopenia and profound thrombocytopenia with platelet count 10,000/mm3. Serum biochemistry: AST 149 IU/L, ALT 66 IU/L, glucose 158 mg/dL, creatinine 1.10 mg/dL, urea 9.0 mg/dL.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Fatal severe dengue / dengue hemorrhagic fever presenting with profound thrombocytopenia, metrorrhagia, acute respiratory failure, and refractory shock. Necropsy confirmation: Widespread ecchymoses, conjunctival hemorrhage, bilateral pleural effusions, pulmonary hemorrhage, marked renal congestion, and splenomegaly.\nPlan & Outcome: Admitted to the intensive care unit and managed with critical care resuscitation and mechanical respiratory support. Despite intensive measures, she suffered multiorgan failure and refractory shock, resulting in death."
+    }
+  }
+}

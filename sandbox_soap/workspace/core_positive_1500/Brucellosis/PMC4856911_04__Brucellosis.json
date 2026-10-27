@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4856911_04",
+  "pair_id": "PMC4856911_04::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "Patient 4. A 68-year-old man presented with (R) knee swelling and back pain for 4 months. He was initially diagnosed as OA and spondylitis. He is known to have DM, HTN, and IHD with a permanent pacemaker. CT scan showed degenerative spinal canal stenosis at L4-L5 with mild degree of bilateral SI joints degeneration. He had received epidural injection of steroid and (R) knee injection with temporary improvement. There was no history of fever or contact with TB patients; however, there was strong history of animal contact. He received one month of antibiotics prior to presentation but without improvement. General examination was normal but the (R) knee was swollen, tender, and with decreased ROM (10-15). CT scan showed moderate to large effusion of the (R) knee with associated synovial thickening and OA changes (Figure 4). The WBC was normal, ESR 70 mm/hr., and CRP 47 mg/mL, and rheumatoid factor was negative. The blood urea and creatinine was raised at 16.8 mmol/L and 140 mumol/L. Synovial fluid cultures were positive for Brucella species but the blood culture was negative. Blood serology for brucella was 1 : 10240. He received 3/12 of doxycycline rifampicin with full functional recovery.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 68-year-old man presented with right knee swelling and back pain for 4 months.",
+      "history_of_present_illness": "The patient presented with a 4-month history of right knee swelling and back pain, initially diagnosed as osteoarthritis and spondylitis. He received an epidural steroid injection and a right knee injection with only temporary relief. He had completed a one-month course of antibiotics prior to presentation without improvement. He had no history of fever or contact with tuberculosis patients.",
+      "past_medical_history": "Known history of diabetes mellitus (DM), hypertension (HTN), and ischemic heart disease (IHD) status post permanent pacemaker implantation. Prior epidural steroid injection, right knee injection, and one month of prior antibiotic therapy. Epidemiological history: strong history of animal contact; no contact with tuberculosis patients.",
+      "review_of_systems": "Denied fever. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "General examination was normal. Right knee examination: swollen, tender, with decreased range of motion (ROM 10-15 degrees). Vitals not documented.",
+      "routine_investigations": "WBC normal, ESR 70 mm/hr, CRP 47 mg/mL, rheumatoid factor negative. Renal panel: blood urea 16.8 mmol/L, serum creatinine 140 mumol/L.",
+      "advanced_workup": "CT spine: degenerative spinal canal stenosis at L4-L5 with mild degree of bilateral sacroiliac joint degeneration. CT right knee: moderate to large effusion with associated synovial thickening and osteoarthritic changes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Brucellosis manifesting as septic arthritis of the right knee and spondylitis. Confirmed by synovial fluid cultures positive for Brucella species and blood serology for Brucella of 1 : 10240. Blood culture was negative.\nPlan & Outcome: Treated with 3 months (3/12) of doxycycline and rifampicin with full functional recovery."
+    }
+  }
+}

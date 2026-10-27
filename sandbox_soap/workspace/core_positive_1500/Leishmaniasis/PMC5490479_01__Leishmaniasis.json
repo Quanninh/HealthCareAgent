@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5490479_01",
+  "pair_id": "PMC5490479_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 9-year-old male patient presented at our clinic with multiple papular lesions located in the left cheek. He had had these lesion for three months, and they had gradually enlarged. The medical history revealed that the patient had a follow-up after diagnosis of CL located in the nose two years ago, and presented with complete regression after he was started on intralesional meglumine antimonate.\nDermatological examination revealed multiple, coalescing, rough, slightly elevated, yellowish-brown papular lesions 3-6 mm in diameter located in the left cheek ( Figure 1). In addition, he had large atrophic scar on the nose. Nothing of interest was noted in his family history or his laboratory tests. After staining with Giemsa, a parasitological smear showed numerous leishmania parasites in their amastigote form ( Figure 2).\nThe patient was diagnosed with lupoid CL based on his medical history, and his clinical and microscopy findings. He was started on intralesional meglumine antimonate injection per week. After the 4 sessions of treatment, significant improvement was observed in the patient's lesions ( Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 9-year-old male presented with multiple papular lesions on his left cheek for 3 months.",
+      "history_of_present_illness": "A 9-year-old male presented with a 3-month history of multiple, gradually enlarging papular lesions on his left cheek. He had a history of cutaneous leishmaniasis on his nose 2 years earlier, which had completely regressed following intralesional therapy.",
+      "past_medical_history": "History of cutaneous leishmaniasis on the nose 2 years prior, successfully treated with complete regression following intralesional meglumine antimoniate. Family history unremarkable.",
+      "review_of_systems": "Left cheek papular eruptions. Denied facial pain, pruritus, fever, weight loss, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination revealed multiple, coalescing, rough, slightly elevated, yellowish-brown papular lesions measuring 3-6 mm in diameter on the left cheek. In addition, an extensive atrophic scar was present on the nose corresponding to the previous healed lesion.",
+      "routine_investigations": "Routine laboratory evaluations were within normal reference ranges.",
+      "advanced_workup": "Parasitological skin smear prepared from the cheek lesions and stained with Giemsa: light microscopy revealed numerous intracellular microorganisms within macrophages."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive Diagnosis: Lupoid cutaneous leishmaniasis (leishmaniasis recidivans) of the cheek.\nDiagnostic Confirmation: Giemsa-stained parasitological smear revealed numerous Leishmania parasites in amastigote form within dermal macrophages, characteristic of lupoid recidivans relapse.\nDifferentials Ruled Out: Lupus vulgaris (cutaneous tuberculosis), sarcoidosis, foreign body granuloma, and discoid lupus erythematosus.\nTreatment & Clinical Course: The patient was treated with weekly intralesional meglumine antimoniate injections. After 4 treatment sessions, significant clinical regression and marked resolution of the facial lesions were observed."
+    }
+  }
+}

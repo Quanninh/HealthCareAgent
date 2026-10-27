@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3322787_01",
+  "pair_id": "PMC3322787_01::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "raw_case_text": "In mid-January, a 38-year-old man went duck hunting in flooded rice fields in Butte County; he also stayed in a trailer that had stood vacant for some time, where he recalled cleaning up rodent droppings. On January 27, jaundice, pulmonary infiltrates, and renal failure developed. Laboratory studies showed bilirubin of 48 mg/dL and platelets of 13,000/muL.\nSerologic testing for hantavirus was negative. IHA for leptospirosis at a private laboratory 9 days later yielded an initially ambiguous titer of 1:50, and a second test 11 days after that yielded a titer of 1:800 (Table 2), greater than the fourfold rise required to confirm the diagnosis. He was treated successfully with doxycycline.\nIn 2000, the largest known common-source outbreak of leptospirosis in California involved three men vacationing on a houseboat in the New Melones Lake in Tuolomne County May 5-7. Three of eight men who shared the houseboat reported swimming to a remote cove and hiking along a creek draining into the main reservoir on May 7. They were exposed there to muddied waters after an overnight thundershower. Each of these three men went individually to his own doctor and independent health system in Redwood City 10-15 days later, with a constellation of signs and symptoms including fever, headache, myalgias, nausea, and vomiting. In each, the salient common clinical feature of renal failure developed, manifested by elevated creatinine levels that in one case required hemodialysis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old man presented with acute onset of jaundice, pulmonary infiltrates, and acute renal failure following an outdoor hunting trip.",
+      "history_of_present_illness": "In mid-January, the patient went duck hunting in flooded fields and stayed in a vacant trailer. On January 27, he developed acute jaundice, pulmonary infiltrates, and oliguric renal failure necessitating immediate medical evaluation.",
+      "past_medical_history": "Epidemiological exposures: duck hunting in flooded rice fields in Butte County, California, and cleaning rodent droppings in a long-vacant trailer. Prior medical history, home medications, and allergies are unmentioned.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Physical examination demonstrated profound jaundice. Complete vital signs and detailed physical examination findings are not documented.",
+      "routine_investigations": "Total bilirubin: 48 mg/dL; platelets: 13,000/muL. Laboratory testing confirmed acute renal failure. Chest imaging revealed bilateral pulmonary infiltrates. Serologic testing for hantavirus was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe leptospirosis (Weil's disease) presenting with profound jaundice, acute renal failure, severe thrombocytopenia, and pulmonary infiltrates. Confirmed by indirect hemagglutination assay (IHA) demonstrating a greater than fourfold rise in antibody titers from an initial ambiguous titer of 1:50 (drawn 9 days post-presentation) to 1:800 (drawn 11 days later). Hantavirus infection was excluded serologically. Treatment & Outcome: Successfully treated with oral doxycycline, achieving complete clinical recovery."
+    }
+  }
+}

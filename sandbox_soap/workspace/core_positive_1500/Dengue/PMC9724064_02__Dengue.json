@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9724064_02",
+  "pair_id": "PMC9724064_02::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 10-year-old male presented with a 12-day history of high-grade fever and chills. He also had headaches, retro-orbital pain and occasional episodes of vomiting. He developed an acute onset of right upper and lower limb weakness five days later, followed by weakness of the left upper limb and a decreased level of consciousness. Haematological investigations revealed a platelet count of 80 000/microl with anti-dengue positive IgM and negative IgG status. Dual antigen for malaria and serology markers for Japanese encephalitis and herpes simplex virus (HSV-1) were negative.\nBrain MRI revealed multiple patchy hyperintense areas on T2-weighted and FLAIR images in the left temporoparietal lobe and bilateral cerebellar hemispheres, involving the cortex and subcortical white matter, the body of the corpus callosum and the lower medulla (Figures 3a-e). The lesions showed no diffusion restriction and no enhancement on post-contrast T1FS images (Figure 3f). MRI screening of the spine revealed T2 hyperintense signal in the inferior part of the medulla, at the cervicomedullary junction and spinal cord up to the C3 vertebral level as well as in the terminal dorsal cord and conus medullaris from the T11 to the L1 vertebral level (Figure 4a-c).\nA diagnosis of acute disseminated encephalomyelitis (ADEM) secondary to dengue infection was made based on the clinical history, laboratory findings and typical MRI findings.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old male presenting with high-grade fever and chills for 12 days, followed by acute-onset asymmetric limb weakness and decreased consciousness.",
+      "history_of_present_illness": "A 10-year-old male presented with a 12-day history of high-grade fever, chills, headache, retro-orbital pain, and vomiting. Five days after fever onset, he developed acute-onset right hemiparesis (upper and lower extremity weakness), followed sequentially by left upper extremity weakness and progressive obtundation/decreased consciousness.",
+      "past_medical_history": null,
+      "review_of_systems": "Headache, retro-orbital pain, vomiting, chills; absence of sensory complaints or bowel/bladder dysfunction."
+    },
+    "objective": {
+      "physical_examination": "Decreased level of consciousness/altered sensorium; asymmetric quadriparesis with prominent weakness of the right upper and lower extremities and left upper extremity.",
+      "routine_investigations": "Platelet count: 80,000/microL. Diagnostic serologies: Dual antigen for malaria negative; serological markers for Japanese encephalitis virus and herpes simplex virus (HSV-1) negative.",
+      "advanced_workup": "Brain MRI: Multiple patchy hyperintense lesions on T2-weighted and FLAIR sequences in the left temporoparietal lobe and bilateral cerebellar hemispheres involving cortex and subcortical white matter, corpus callosum body, and lower medulla, without diffusion restriction or post-contrast enhancement on T1FS images. Whole spine MRI: T2 hyperintense signal in the inferior medulla, cervicomedullary junction, cervical cord up to C3 vertebral level, and terminal dorsal cord/conus medullaris (T11 to L1 vertebral levels)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute disseminated encephalomyelitis (ADEM) with extensive brainstem and spinal cord involvement secondary to confirmed Dengue virus infection. Confirmed by positive anti-Dengue IgM antibody with negative IgG antibody. Malaria, Japanese encephalitis, and HSV-1 were excluded.\nPlan & Outcome: Inpatient neurocritical care and immunomodulatory supportive management based on neuroimaging confirmation of post-infectious demyelination."
+    }
+  }
+}

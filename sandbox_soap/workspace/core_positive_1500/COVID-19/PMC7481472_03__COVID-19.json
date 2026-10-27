@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_03",
+  "pair_id": "PMC7481472_03::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Patient 2: 60-year-old male, the patient has no medical history with relevance to COVID-19, attending the emergency department for fever and dry cough lasting 1 week, with a blood pressure of 115/60, a heart rate of 91 beats per minute, SpO2 98%, and elevated D-Dimer levels. Chest X-ray: Diffuse bilateral interstitial pattern with opacities in the middle third of the right hemithorax and both lung bases was detected, probably related to atypical infectious pneumonia. Confirmation of COVID-19 was made by RT-PCR using a throat swab. He was treated with hydroxychloroquine (for 5 days), and then with lithium carbonate (starting on day 5, 400 mg/d). The patient was discharged after 20 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old male presented to the emergency department with fever and dry cough lasting 1 week.",
+      "history_of_present_illness": "A 60-year-old male presented to the emergency department with fever and dry cough lasting 1 week.",
+      "past_medical_history": "No relevant prior medical history.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 115/60 mmHg, heart rate 91 beats per minute, SpO2 98%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Diffuse bilateral interstitial pattern with opacities in the middle third of the right hemithorax and both lung bases was detected, probably related to atypical infectious pneumonia.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. He was treated with hydroxychloroquine (for 5 days), and then with lithium carbonate (starting on day 5, 400 mg/d). The patient was discharged after 20 days."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3108579_01",
+  "pair_id": "PMC3108579_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 44-year-old HIV-positive lady presented with a right breast mass in the upper outer quadrant and was diagnosed with a triple negative (i.e., oestrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor 2 (HER2) negative), grade 3 invasive ductal carcinoma (IDC), 15 mm x 15 mm in size, with zero out of 3 sentinel nodes involved.\nShe initially noticed a lump in her right breast, alongside skin and shape changes in the breast and nipple discharge. There was no history of oral contraceptive use, nor any family history of breast/ovarian cancer. Her CD4 count measured 450 cells/mm3 with an HIV-1 viral load of approximately 500 copies/mL. Mammography, ultrasound, and core biopsy of the right breast confirmed the presence of the tumor. Figures of her breast pathology may be seen below (Figures 1 and 2). CD4 and CD8 lymphocyte staining of the tissue sample showed significant lymphocytic infiltration adjacent to the tumor (but not within it).\nThe patient's treatment included a wide local excision of the lump with right axillary sentinel lymph node biopsy. The patient underwent 6 cycles of FEC75 chemotherapy requiring substantial dose reductions and G-CSF support, while remaining concurrently on HAART. A bone scan and a CT showed no sign of distant metastases. At the time of submission, she is completing her chemotherapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old female presenting with a palpable lump in the upper outer quadrant of the right breast accompanied by skin and contour changes and nipple discharge.",
+      "history_of_present_illness": "The patient discovered a discrete lump in the upper outer quadrant of her right breast, accompanied by visible cutaneous and contour distortion and spontaneous nipple discharge, prompting medical evaluation.",
+      "past_medical_history": "History of chronic retroviral infection maintained on antiretroviral therapy (CD4 count 450 cells/mm3, viral load approximately 500 copies/mL). Denied history of oral contraceptive use. Family history negative for breast or ovarian malignancy.",
+      "review_of_systems": "Positive for breast mass, skin and contour changes, and nipple discharge; negative for bone pain, weight loss, or respiratory symptoms. Home medications: combination antiretroviral therapy (HAART). Allergies: unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Palpable firm mass in the upper outer quadrant of the right breast with overlying skin and contour changes and nipple discharge. No clinically palpable axillary lymphadenopathy. Remainder of physical examination unremarkable.",
+      "routine_investigations": "Baseline laboratory blood tests within acceptable parameters for cytotoxic therapy. Mammography and ultrasound of the right breast confirmed a solid tumor measuring 15 mm x 15 mm.",
+      "advanced_workup": "Core needle biopsy of right breast: triple-negative (estrogen receptor negative, progesterone receptor negative, HER2 negative), Grade 3 invasive ductal carcinoma (IDC) measuring 15 mm x 15 mm, with prominent peritumoral CD4+ and CD8+ lymphocytic infiltration. Right axillary sentinel lymph node biopsy: 0 of 3 sentinel lymph nodes involved (0/3). Staging bone scintigraphy and CT: negative for distant metastases."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Triple-negative (ER-/PR-/HER2-), Grade 3 invasive ductal carcinoma of the right breast (Stage I, cT1c pN0 cM0) in a patient with human immunodeficiency virus (HIV-1) infection (CD4 count 450 cells/mm3, viral load ~500 copies/mL). Metastatic disease ruled out by negative bone scan and staging CT. Management & Outcome: Underwent wide local excision (lumpectomy) with right axillary sentinel lymph node biopsy, followed by adjuvant chemotherapy with 6 cycles of FEC75 (fluorouracil, epirubicin, cyclophosphamide) supported by G-CSF and dose reductions, while safely continuing concurrent HAART. Completed chemotherapy without evidence of recurrence."
+    }
+  }
+}

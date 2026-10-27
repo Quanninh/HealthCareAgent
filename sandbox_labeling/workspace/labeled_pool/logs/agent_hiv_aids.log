@@ -1,0 +1,38 @@
+{
+  "disease": "HIV_AIDS",
+  "slug": "hiv_aids",
+  "total_input": 1390,
+  "total_output": 1390,
+  "label_counts": {
+    "POSITIVE": 928,
+    "NEGATIVE": 272,
+    "EXCLUDED_NON_SINGLE_PATIENT": 103,
+    "EXCLUDED_NON_TARGET_CASE": 86,
+    "UNRESOLVED": 1
+  },
+  "assertion_types": {
+    "CONFIRMED_PRESENT": 939,
+    "ABSENT_NEGATIVE": 197,
+    "CONFIRMED_ABSENT": 117,
+    "NOT_APPLICABLE": 80,
+    "ABSENT_NOT_MENTIONED": 57
+  },
+  "evidence_strengths": {
+    "E1_CONFIRMATORY_LAB": 730,
+    "E2_HIGHLY_SPECIFIC_CLINICAL": 352,
+    "E0_NO_EVIDENCE": 299,
+    "E0_CONTRADICTED": 6,
+    "E3_CLINICAL_DIAGNOSIS": 3
+  },
+  "failure_flags": {
+    "F2_SCOPE_COHORT": 105,
+    "F5_DISCOURSE_CONTEXT": 58,
+    "F1_LEXICAL_HOMONYM": 23,
+    "F3_SUBJECT_COREFERENCE": 16,
+    "F4_ASSERTION_TEMPORAL": 6
+  },
+  "output_file": "annotation_workdir/labeled_pool/output/output_hiv_aids.jsonl",
+  "status": "complete",
+  "annotator_id": "disease_agent_hiv_aids",
+  "annotation_version": "1.0-labeled_pool"
+}

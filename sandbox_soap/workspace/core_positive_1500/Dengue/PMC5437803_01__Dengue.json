@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5437803_01",
+  "pair_id": "PMC5437803_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 14-year-old male child presented with fever associated with chills of 3 days duration. He also had dull aching continuous holocranial headache associated with 3-4 episodes of vomiting. On the 3rd day of fever, he noticed giddiness associated with difficulty in sitting and standing; needing support of family members; and swaying while walking. There was blurring of vision but no dysphagia, dysarthria, weakness or incoordination of limbs, sensory symptoms, or myoclonic jerks. On examination, his vitals were stable. He was conscious and oriented. The speech was normal. Pupils were equal and reactive. Oculomotor abnormality in the form of sudden conjugate horizontal saccadic oscillations without intersaccadic interval (ocular flutter) occurring spontaneously, with eyes open and closed, during pursuit and saccades, and mainly in horizontal than vertical direction of gaze was seen [Video 1]. Other cranial nerves were normal. Motor examination showed normal tone and muscle power with sluggish deep tendon reflexes. Sensory examination was normal. He had titubation with truncal, stance, and gait ataxia. Plantar response was mute. Other system examination showed mild hepatosplenomegaly. Complete hemogram showed low platelet count (0.76 lakh). Liver function test showed transaminitis (aspartate aminotransferase: 110 IU/L; alanine aminotransferase: 156 IU/L). Serum dengue nonstructural 1 antigen and immunoglobulin M antibodies were positive. Magnetic resonance imaging brain plain was normal. Cerebrospinal fluid (CSF) analysis was normal. He was treated with antipyretics and intravenous fluids. His fever subsided, but ocular flutter and ataxia persisted. He was given 5 days course of intravenous methylprednisolone after fever subsided. The patient had symptomatic improvement in the form that his ataxia improved and ocular flutter decreased [Video 2]. He was able to walk without support and was discharged with tapering dose of oral steroids.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old male presenting with a 3-day history of fever, chills, holocranial headache, vomiting, acute giddiness, gait ataxia, and ocular flutter.",
+      "history_of_present_illness": "A 14-year-old male presented with a 3-day history of fever with chills, dull aching continuous holocranial headache, and 3 to 4 episodes of vomiting. On day 3 of fever, he developed acute giddiness, difficulty sitting and standing, requirement of support to walk, swaying while walking, and blurred vision. He had no dysphagia, dysarthria, limb weakness, sensory symptoms, or myoclonic jerks.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, chills, holocranial headache, vomiting, giddiness, blurred vision, and gait imbalance. Negative for dysphagia, dysarthria, limb weakness, or sensory deficits. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Conscious, oriented, vitals stable. Speech normal. Pupils equal and reactive. Cranial nerves: Sudden conjugate horizontal saccadic oscillations without intersaccadic interval (ocular flutter), present spontaneously with eyes open and closed, during pursuit and saccades, greater horizontally than vertically. Motor: Normal muscle tone and power; sluggish deep tendon reflexes; mute plantar responses. Sensory exam normal. Cerebellar: Titubation, truncal ataxia, stance and gait ataxia. Abdomen: Mild hepatosplenomegaly.",
+      "routine_investigations": "Platelet count: 76,000/muL (0.76 lakh/muL), AST: 110 IU/L, ALT: 156 IU/L. Cerebrospinal fluid (CSF) analysis: Normal.",
+      "advanced_workup": "Brain MRI (plain): Normal without parenchymal brain lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Dengue-associated acute cerebellitis presenting with ocular flutter and ataxia. Diagnostic confirmation: Positive serum dengue non-structural protein 1 (NS1) antigen and dengue virus IgM antibodies; normal brain MRI and CSF analysis.\nPlan & Outcome: Initial supportive care with antipyretics and intravenous fluids; fever subsided while ocular flutter and cerebellar ataxia persisted. Treated with a 5-day course of intravenous methylprednisolone, resulting in marked improvement in ataxia, reduction in ocular flutter, and ability to ambulate unassisted. Discharged on a tapering course of oral steroids."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5850760_04",
+  "pair_id": "PMC5850760_04::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 4-year-old female child from Vizianagaram district, Andhra Pradesh, having fever for 5 days was tested positive for PF on smear examination. She was started on IV artesunate as monotherapy. She developed ascites, icterus, severe anemia, and hemoglobinuria requiring multiple blood transfusion. She was referred after 7 days of IV artesunate as she had persistent fever. At admission, her blood smear showed multiple PF. She was started on quinine and clindamycin, along with primaquine. Serial smears were obtained and parasitological clearance was documented after 4 days of therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 4-year-old female presenting with fever for five days, dark urine, jaundice, and abdominal distension.",
+      "history_of_present_illness": "The child had a 5-day history of fever when she was diagnosed with malaria at an outside hospital and initiated on intravenous artesunate monotherapy. Over the course of seven days of therapy, she developed persistent fever, progressive jaundice, abdominal distension, severe anemia, and dark hemoglobinuria requiring multiple blood transfusions, prompting tertiary referral.",
+      "past_medical_history": "Resident of Vizianagaram district, Andhra Pradesh, India. Received 7 days of IV artesunate monotherapy and multiple blood transfusions prior to transfer.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Persistent fever, mucosal pallor, jaundice, and clinically evident ascites on abdominal examination.",
+      "routine_investigations": "Severe anemia requiring multiple blood transfusions; presence of hemoglobinuria.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Artesunate-resistant Plasmodium falciparum malaria complicated by blackwater fever (severe intravascular hemolysis and hemoglobinuria), ascites, and severe anemia. Initial and referral peripheral blood smears confirmed persistent P. falciparum parasitemia despite 7 days of IV artesunate.\nPlan & Outcome: Initiated on rescue therapy with parenteral quinine and clindamycin along with primaquine, alongside blood transfusions and supportive care. Serial blood smears documented complete parasitological clearance after 4 days of therapy."
+    }
+  }
+}

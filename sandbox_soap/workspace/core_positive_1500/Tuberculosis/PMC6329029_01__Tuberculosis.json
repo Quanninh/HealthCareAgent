@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6329029_01",
+  "pair_id": "PMC6329029_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "An 18-year-old girl with type 1 diabetes mellitus presented with focal convulsions in September 2012. She was detected to have multiple tuberculomas. Biopsy of one of the lesion grew MTB. She was on second-line ATT since September 2012 as drug-sensitivity testing (DST) of the tuberculous lesion showed resistance to isoniazid (INH), rifampicin (R), pyrazinamide (Z), ethambutol (E), moxifloxacin (Mfx), ofloxacin (Ofx) and ethionamide (Eth). Her cererbrospinal fluid (CSF) examination was normal. She was put on capreomycin, PAS, cycloserine (Cys), clofazimine and linezolid (Lnz) along with carbamazepine and levetiracetam and prednisolone (1 mg/kg/day for 30 days and then tapered off in next 1 month). In February 2013, she had moderate sensorineural hearing loss, and capreomycin was omitted. Her serial magnetic resonance imaging (MRI) brain till August 2013 showed decrease in size and number of the granulomas in the frontal periventricular parenchyma bilaterally, but the left frontoparietal granuloma remained the same. In February 2014, Lnz and Cys were stopped and clarithromycin was added due to tingling and numbness in the right leg. In February 2015, computed tomography (CT) brain still showed presence of left frontal granuloma. In May 2015, her ATT was stopped, as she had completed 2 years 6 months of therapy and was asymptomatic except for persistence of left frontal granuloma. In April 2016 (Figure 1), granulomas remained the same in the frontal parenchyma, while the rest of the lesions had calcified, but the patient remained asymptomatic.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old female with type 1 diabetes mellitus presented with focal convulsions.",
+      "history_of_present_illness": "The patient presented in September 2012 with new-onset focal convulsions.",
+      "past_medical_history": "Type 1 diabetes mellitus.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Cerebrospinal fluid (CSF) examination: normal. Serial brain MRI (through August 2013): multiple bilateral frontal periventricular and left frontoparietal parenchymal granulomas, demonstrating regression in size and number of frontal periventricular lesions while the left frontoparietal lesion remained stable. Brain CT (February 2015): persistent left frontal granuloma. Follow-up imaging (April 2016): stable frontal parenchymal granulomas with calcification of the remaining lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Extensively drug-resistant central nervous system tuberculomas (Mycobacterium tuberculosis). Biopsy of an intracranial lesion grew Mycobacterium tuberculosis; drug-sensitivity testing (DST) confirmed resistance to isoniazid, rifampicin, pyrazinamide, ethambutol, moxifloxacin, ofloxacin, and ethionamide.\nTreatment and course: Initiated on second-line antitubercular therapy consisting of capreomycin, para-aminosalicylic acid (PAS), cycloserine, clofazimine, and linezolid, alongside carbamazepine, levetiracetam, and oral prednisolone (1 mg/kg/day for 30 days, then tapered over 1 month). In February 2013, capreomycin was discontinued due to moderate sensorineural hearing loss. In February 2014, linezolid and cycloserine were discontinued and clarithromycin was substituted due to peripheral neuropathy (right leg tingling and numbness). Antitubercular therapy was successfully completed and discontinued in May 2015 after 2.5 years; at follow-up in April 2016, the patient remained clinically asymptomatic with calcification of intracranial lesions."
+    }
+  }
+}

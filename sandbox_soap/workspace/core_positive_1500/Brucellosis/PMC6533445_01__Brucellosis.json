@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6533445_01",
+  "pair_id": "PMC6533445_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "A 25-year-old female was referred to our clinic with double vision and restricted right eye abduction. In the ophthalmic examination, both pupils were round and reactive to light and accommodation. Extraocular movements were intact with the exception that the right eye was unable to abduct (Figure 1 (Fig. 1), Figure 2 (Fig. 2)). No nystagmus was detected and visual acuity was normal. Visual field examination revealed the enlargement of the blind spot and constriction of the peripheral fields. On fundus examination, bilateral papilledema with blurring of the disc margins was present.\nQuestioning her history revealed that the first symptoms were weakness and numbness in her lower limbs which had resolved spontaneously. Afterwards, she had developed an intractable headache associated with right gaze difficulty and diplopia and was referred from the emergency room to the neurology department. Magnetic resonance (MR) imaging revealed no pathology. After our finding of papilledema, despite the history of transient weakness in the lower limbs, the cause was firstly considered as idiopathic intracranial hypertension (IIH) and lumbar puncture was planned. But because she developed fever and neck rigidity at that time, she was referred to the department of infectious diseases to rule out meningitis.\nThe patient underwent a lumbar puncture, opening pressure was 255 mm H2O and the examination of the cerebrospinal fluid (CSF) showed 85 leukocytes/mul. Her Rose Bengal test was positive and the CSF culture yielded Brucella melitensis and diagnosis of neurobrucellosis was established. The patient was treated with a combination of doxycycline, rifampin, cotrimoxazole, and dexamethasone for 6 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old female presented with persistent headache, diplopia, restricted right eye abduction, and acute fever with neck stiffness.",
+      "history_of_present_illness": "The patient initially experienced transient weakness and numbness in her lower extremities that resolved spontaneously. She subsequently developed an intractable headache accompanied by difficulty looking to the right and binocular horizontal diplopia. Following an unremarkable brain MRI, idiopathic intracranial hypertension was initially suspected, but the acute emergence of fever and neck rigidity prompted referral for urgent evaluation of infectious meningitis.",
+      "past_medical_history": "Prior episode of transient weakness and numbness in the lower extremities that resolved spontaneously. Epidemiological exposure and prior medical comorbidities not documented.",
+      "review_of_systems": "Diplopia, right gaze restriction, intractable headache, prior lower extremity numbness/weakness, fever, neck rigidity. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Febrile with nuchal rigidity. Neuro-ophthalmic examination: visual acuity normal, pupils round and reactive to light and accommodation; extraocular movements intact except complete failure of right eye abduction (right cranial nerve VI / abducens nerve palsy); no nystagmus. Visual field testing: enlargement of the blind spot and peripheral field constriction. Fundoscopy: bilateral papilledema with blurring of the optic disc margins.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain magnetic resonance imaging (MRI): unremarkable, no structural pathology. Lumbar puncture: opening pressure elevated at 255 mm H2O; cerebrospinal fluid analysis revealed 85 leukocytes/microL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Neurobrucellosis presenting with pseudotumor cerebri-like syndrome, intracranial hypertension, bilateral papilledema, and isolated right sixth cranial nerve (abducens) palsy. Confirmed by CSF culture isolating Brucella melitensis and positive serum Rose Bengal test. Idiopathic intracranial hypertension (IIH) and non-brucellar infectious meningitis were ruled out.\nPlan & Outcome: Treated with combination antimicrobial and anti-inflammatory therapy comprising oral doxycycline, rifampin, cotrimoxazole, and dexamethasone for a total duration of 6 months, resulting in resolution of intracranial hypertension and cranial neuropathy."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9920493_02",
+  "pair_id": "PMC9920493_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A female patient is 60 years old and was born in Guinea-Bissau, where she worked in rice fields and had daily contact with water. The patient had moved to Portugal two weeks prior to her admission to the emergency department, where she presented with a history of fever for the previous 15 days, weight loss, and fatigue. The patient's medical history included chronic venous insufficiency, diagnosed five years prior. At the time she visited the emergency department, an ulcer with a diameter of 3 cm that had begun four months earlier, was visible on her left foot. A blood test revealed a haemoglobin level of 10.2 g/dL, a white blood cell count of 3.2 x 103 cells/muL (81% neutrophils), a platelet count of 190 x 103 cells/muL, and a C-reactive protein level of 12.0 mg/dL with normal liver and kidney function. The patient's HIV antibody tests were also positive, and a diagnosis of HIV-1 was made. The HIV-1 viral load was 7180 copies/mL, and the CD4 T lymphocyte count was 167 cells/muL. S. algae was isolated from blood cultures and from a swab containing pus from the ulcer. The patient was medicated with cefotaxime and gentamicin for 10 days and started on ART with FTC/TDF plus DTG. At a follow-up appointment one month later, the patient no longer had a fever, inflammatory biomarkers were negative, and the ulcer was healing.\nCase 3",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old female presenting with a 15-day history of fever, fatigue, weight loss, and a chronic ulcer on her left foot.",
+      "history_of_present_illness": "The patient presented with a 15-day history of systemic fevers, generalized fatigue, and unintentional weight loss, in the setting of a chronic non-healing ulcer on her left foot that had been present for four months. She had emigrated from Guinea-Bissau to Portugal two weeks prior to emergency department evaluation.",
+      "past_medical_history": "Chronic venous insufficiency diagnosed 5 years earlier. Epidemiological exposure: Born in Guinea-Bissau; occupational history of working in flooded rice fields with daily stagnant water exposure.",
+      "review_of_systems": "Fever, profound fatigue, unintentional weight loss, and chronic left foot ulcer; denies chest pain, shortness of breath, or bowel changes."
+    },
+    "objective": {
+      "physical_examination": "General: Febrile and fatigued. Extremities/Vascular: Chronic venous stasis changes; well-demarcated ulcerative lesion measuring 3 cm in diameter with purulent base on the left foot.",
+      "routine_investigations": "Hemoglobin: 10.2 g/dL. White blood cell count: 3.2 x 10^3 cells/microL (81% neutrophils, indicating leukopenia). Platelet count: 190 x 10^3 cells/microL. C-reactive protein (CRP): 12.0 mg/dL. Renal and hepatic panels: Within normal limits.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Shewanella algae bacteremia and complicated chronic foot ulceration in a patient with newly diagnosed human immunodeficiency virus type 1 (HIV-1) infection (CD4+ T-lymphocyte count 167 cells/microL, HIV-1 viral load 7,180 copies/mL). Diagnostic confirmation: Positive HIV antibody screening and confirmatory assay; Shewanella algae isolated concurrently from multiple blood cultures and wound pus swab. Plan & Outcome: Treated with intravenous cefotaxime and gentamicin for 10 days, resulting in bacteremic clearance and defervescence. Combination antiretroviral therapy was initiated with emtricitabine/tenofovir disoproxil fumarate (FTC/TDF) plus dolutegravir (DTG). At 1-month follow-up, the patient remained afebrile, inflammatory markers normalized, and the foot ulcer was progressively healing."
+    }
+  }
+}

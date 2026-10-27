@@ -1,0 +1,14 @@
+{
+  "disease": "Brucellosis",
+  "slug": "brucellosis",
+  "total_input": 155,
+  "total_output": 155,
+  "label_counts": {
+    "EXCLUDED_NON_SINGLE_PATIENT": 7,
+    "POSITIVE": 113,
+    "NEGATIVE": 3,
+    "EXCLUDED_NON_TARGET_CASE": 31,
+    "EXCLUDED_NON_HUMAN": 1
+  },
+  "status": "complete"
+}

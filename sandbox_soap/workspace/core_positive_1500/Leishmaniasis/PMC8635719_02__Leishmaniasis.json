@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8635719_02",
+  "pair_id": "PMC8635719_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 53-year-old woman with no significant underlying medical history was admitted to our hospital with a 1-month history of intermittent fever. She ever picked Zanthoxylum seeds in Hancheng, China 8 years ago, and she had a history of mosquito bites. She had a history of esophageal cancer and received surgical treatment one and a half years ago, and there was no recurrence after operation. Past medical, past surgical, drug and family histories were not significant. Her body weight was 55 kg. Physical examination revealed splenomegaly and axillary and inguinal lymphadenopathy. Laboratory tests revealed high levels of CRP (97.3 mg/L; reference value, <10.0 mg/L), as well as elevated liver enzyme levels, abnormal coagulation, and pancytopenia. Her PCT level was 1.24 ng/mL. Antibodies against Leishmania were detected in her blood. A positive PCR result for Leishmania in bone marrow aspirate confirmed the diagnosis of VL. She received prompt treatment with L-AmB at an initial dose of 5 mg (~0.10 mg/kg) on the first day. The L-AmB protocol for the patient is presented in Figure 3. During L-AmB dose escalation, laboratory tests of renal functions and electrolytes uncovered no particular abnormality during treatment. Routine blood parameters gradually normalized during therapy, and her spleen size gradually decreased. No VL recurrence was observed at the 1-year follow-up visit.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 53-year-old female presented with a 1-month history of intermittent fever.",
+      "history_of_present_illness": "The patient developed intermittent fevers evolving over 1 month without localizing infectious symptoms, leading to hospital evaluation.",
+      "past_medical_history": "History of esophageal carcinoma treated with surgical resection 1.5 years prior without postoperative recurrence; epidemiological exposure: harvested Zanthoxylum seeds in Hancheng, Shaanxi Province, China 8 years earlier with a history of insect and mosquito bites; past medical, surgical, drug, and family histories otherwise non-contributory.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Body weight: 55 kg. Abdomen: splenomegaly. Lymphatic: palpable axillary and inguinal lymphadenopathy.",
+      "routine_investigations": "Complete blood count revealed pancytopenia. C-reactive protein (CRP): 97.3 mg/L (reference <10.0 mg/L), procalcitonin (PCT): 1.24 ng/mL. Elevated liver enzymes and abnormal coagulation parameters. Serial renal function tests and serum electrolytes showed no abnormality during treatment.",
+      "advanced_workup": "Bone marrow aspiration was performed for diagnostic evaluation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of visceral leishmaniasis (VL): anti-Leishmania antibodies were detected in peripheral blood; bone marrow aspirate polymerase chain reaction (PCR) was positive for Leishmania. Malignancy recurrence was ruled out. She was treated promptly with liposomal amphotericin B (L-AmB) at an initial dose of 5 mg (~0.10 mg/kg) on day 1 followed by protocol dose escalation. During therapy, renal function and electrolytes remained entirely normal, routine blood cell counts normalized, splenomegaly gradually resolved, and no VL recurrence was detected at 1-year follow-up."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6329029_04",
+  "pair_id": "PMC6329029_04::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A four-and-half-year-old boy presented with progressive left-sided facial palsy and hemiparesis with spasticity in July 2012. He had previously been treated for multiple tuberculomas from June 2010 till January 2012 with first-line ATT. At that time, he had focal convulsions with facial palsy. CSF examination has shown 10 cells/hpf, (8 lymphocytes) and 159 mg/dL proteins. MRI brain in July 2012 showed multiple tuberculomas. He was restarted on ATT (HRSEZ) along with prednisolone (2 mg/kg/day for a month and then tapered off and kept on a minimal dose of 2.5 mg/day till April 2013). Streptomycin was stopped after 2 months. In October 2012, MRI brain showed similar picture as that of July 2012. Drug-resistant TB was suspected. Hence, second-line drugs which included Am, Mfx, Eth, PAS and Cys were started. In April 2013, MRI brain showed decrease in the number and size of the lesions. Am was stopped after 6 months of therapy. Cys was subsequently stopped in June 2013 in view of hyperactivity and hyperintensity in the dentate nucleus (Figure 2). In February 2015, most of the granulomas had regressed though right sylvian fissure nodule (0.5 x 1.0 cm) increased in size. ATT was stopped in February 2015. In August 2016, MRI brain continues to remain the same, but the child is asymptomatic.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 4.5-year-old male presented with progressive left-sided facial palsy and spastic hemiparesis.",
+      "history_of_present_illness": "The patient presented in July 2012 with progressive left-sided facial palsy and spastic hemiparesis. He had a prior presentation in June 2010 with focal convulsions and facial palsy.",
+      "past_medical_history": "Previously treated for multiple intracranial tuberculomas from June 2010 to January 2012 with first-line antitubercular therapy.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Left-sided facial palsy and hemiparesis with spasticity.",
+      "routine_investigations": null,
+      "advanced_workup": "Historical CSF examination (June 2010): 10 cells/hpf (8 lymphocytes), protein 159 mg/dL. Brain MRI (July 2012 and October 2012): multiple intracranial tuberculomas, showing stable lesion burden between scans. Brain MRI (April 2013): decrease in the size and number of lesions. Brain MRI (June 2013): hyperintensity in the dentate nucleus. Brain MRI (February 2015 and August 2016): regression of most granulomas, with slight enlargement of a right sylvian fissure nodule (0.5 x 1.0 cm) in 2015, remaining stable in 2016."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Relapsed and drug-resistant central nervous system tuberculomas / tuberculosis. Treatment and clinical course: Re-initiated on HRSEZ (isoniazid, rifampicin, streptomycin, ethambutol, pyrazinamide) with oral prednisolone (2 mg/kg/day for 1 month, tapered to 2.5 mg/day until April 2013); streptomycin was discontinued after 2 months. Due to radiographic non-response in October 2012, second-line regimen was instituted: amikacin, moxifloxacin, ethionamide, para-aminosalicylic acid (PAS), and cycloserine. Amikacin was discontinued after 6 months; cycloserine was stopped in June 2013 due to drug-induced hyperactivity and dentate nucleus hyperintensity. Antitubercular therapy was completed and ceased in February 2015; follow-up in August 2016 confirmed the child was completely asymptomatic."
+    }
+  }
+}

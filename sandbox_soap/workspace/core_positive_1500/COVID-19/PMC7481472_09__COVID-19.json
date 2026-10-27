@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_09",
+  "pair_id": "PMC7481472_09::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Control 2: 66-year-old male with ischemic dilated cardiomyopathy, whom had a heart transplant in 2011 and carries a pacemaker, attending the emergency department for persistent fever, dry cough and with respiratory failure. His blood pressure was 143/67, heart rate 70 beats per minute, SpO2 95%, and he had elevated D-Dimer levels. Chest X-ray: We found a minimal reticular interstitial pattern of basal predominance. Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with hydroxychloroquine, prednisone, lopinavir-ritonavir, vancomycin, and tacrolimus, and he remains in the intensive care unit.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old male presented to the emergency department with persistent fever, dry cough, and respiratory failure.",
+      "history_of_present_illness": "A 66-year-old male presented to the emergency department with persistent fever, dry cough, and respiratory failure.",
+      "past_medical_history": "Ischemic dilated cardiomyopathy, status post heart transplant in 2011, and pacemaker carrier.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 143/67 mmHg, heart rate 70 beats per minute, SpO2 95%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Minimal reticular interstitial pattern of basal predominance.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with hydroxychloroquine, prednisone, lopinavir-ritonavir, vancomycin, and tacrolimus. The patient remains in the intensive care unit."
+    }
+  }
+}

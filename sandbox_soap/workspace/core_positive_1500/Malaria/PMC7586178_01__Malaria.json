@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7586178_01",
+  "pair_id": "PMC7586178_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "On January 6, 2018, a 5-month-old male presented with a 4-day history of fever to the emergency room at the Jurua Regional Hospital and was diagnosed with Plasmodium falciparum by microscopy. The patient was treated following the Brazilian Ministry of Health national treatment guidelines: 3 days of twice daily Coartem (fixed combination of artemether (20 mg) and lumefantrine (120 mg)).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 5-month-old male presenting with a four-day history of fever.",
+      "history_of_present_illness": "A 5-month-old male presented to the emergency room at Jurua Regional Hospital with a 4-day history of fever.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Plasmodium falciparum malaria, confirmed by microscopic identification on peripheral blood smear.\nPlan & Outcome: Treated following the Brazilian Ministry of Health national treatment guidelines with a 3-day course of twice-daily oral artemether (20 mg) and lumefantrine (120 mg) fixed-dose combination (Coartem)."
+    }
+  }
+}

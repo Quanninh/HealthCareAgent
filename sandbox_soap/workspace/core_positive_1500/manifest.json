@@ -1,0 +1,24 @@
+{
+  "dataset_name": "core_positive_1500_soap_templates",
+  "description": "835 Core Positive cases prepared with empty 8-field SOAP templates",
+  "source_master_file": "/mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/core_positive_1500/core_positive_pairs.jsonl",
+  "total_cases_exported": 835,
+  "exported_at": "2026-10-26T09:08:41.441738+00:00",
+  "disease_breakdown": {
+    "Brucellosis": 100,
+    "COVID-19": 100,
+    "Dengue": 100,
+    "HIV_AIDS": 100,
+    "Leishmaniasis": 100,
+    "Malaria": 100,
+    "Tuberculosis": 100,
+    "Leptospirosis": 49,
+    "Typhoid_Fever": 31,
+    "Chikungunya": 20,
+    "Zika": 20,
+    "Cholera": 6,
+    "Ebola_Filovirus": 3,
+    "Rabies": 3,
+    "Yellow_Fever": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8213119_02",
+  "pair_id": "PMC8213119_02::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "There was another 11-year-old male child admitted to pediatrics emergency with the complaint of fever (15 days), red color urine, black terry color stool, and nasal bleeding past 3 days for whom peripheral smear for Pf malaria came out to be positive. Hematological as well other laboratory parameters were suggestive as HLH and child respond to anti-malarial therapy.\nIn both cases, sHLH is the cause of pancytopenia. After anti-malarial therapy, both children responded very well and hematological parameters starting to improve within a week of therapy [Table 1]. All these cases are in regular follow-up and till the last follow-up at 6 weeks of discharge there both children were doing well and were hematological parameters also improved.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 11-year-old male presenting with fever for 15 days, hematuria, melena, and epistaxis for three days.",
+      "history_of_present_illness": "An 11-year-old male presented to the pediatric emergency unit with a 15-day history of fever, complicated in the preceding 3 days by red-colored urine (hematuria), black tarry stools (melena), and nasal bleeding (epistaxis).",
+      "past_medical_history": null,
+      "review_of_systems": "Red-colored urine, black tarry stools, and epistaxis."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Hematological and biochemical parameters revealed severe pancytopenia with hyperferritinemia, hypofibrinogenemia, elevated lactate dehydrogenase, and hypertriglyceridemia consistent with secondary hemophagocytic lymphohistiocytosis (sHLH).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Plasmodium falciparum malaria complicated by secondary hemophagocytic lymphohistiocytosis (sHLH), severe pancytopenia, and hemorrhagic manifestations (hematuria, melena, epistaxis). Confirmed by positive peripheral blood smear demonstrating Plasmodium falciparum malaria parasites along with diagnostic laboratory parameters for HLH.\nPlan & Outcome: Commenced on targeted antimalarial therapy and supportive care. Marked clinical response with hematological parameters beginning to improve within 1 week of therapy. Maintained regular follow-up with sustained recovery documented at 6 weeks post-discharge."
+    }
+  }
+}

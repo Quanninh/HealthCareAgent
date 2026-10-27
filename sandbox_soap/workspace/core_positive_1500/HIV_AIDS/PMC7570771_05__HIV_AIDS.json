@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7570771_05",
+  "pair_id": "PMC7570771_05::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "On hospital day 1, despite continued management, he showed no significant improvement with an elevated uric acid of 13.8 mg/dL. His renal function remained severely compromised with persistent severe metabolic acidosis; creatine kinase (CK) remained elevated at 2185 U/L with continued electrolyte abnormalities (hypokalemia, hypocalcemia, hyperphosphatemia, hypermagnesemia). Chest X-ray showed persistent patchy peripheral infiltrates in the right lung with lesser patchy peripheral infiltrates just above the left lung base (Figure 2). Given his intractable acidosis, a hemodialysis catheter was placed for emergent dialysis. Lopinavir and ritonavir were held due to nephrotoxicity. Viral HIV load was low at 47 HIV-1 RNA copies/mL. Patient was closely monitored in supplementary ICU area until discharged on hospital day 7.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A male inpatient presenting with acute renal failure, persistent intractable metabolic acidosis, rhabdomyolysis, and severe electrolyte abnormalities on hospital day one.",
+      "history_of_present_illness": "The patient demonstrated lack of clinical improvement on hospital day 1 of admission, developing severe acute kidney injury, intractable metabolic acidosis, hyperuricemia, and rhabdomyolysis accompanied by persistent bilateral pulmonary infiltrates.",
+      "past_medical_history": "Underlying chronic viral condition managed with lopinavir/ritonavir (held on hospital day 1); active respiratory illness and severe metabolic decompensation.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Inpatient ICU monitoring: Intractable metabolic derangement and respiratory compromise.",
+      "routine_investigations": "Serum biochemistry: Uric acid 13.8 mg/dL, creatine kinase (CK) 2185 U/L, persistent severe metabolic acidosis, hypokalemia, hypocalcemia, hyperphosphatemia, and hypermagnesemia. Chest X-ray: Persistent patchy peripheral infiltrates in the right lung with lesser patchy peripheral infiltrates just above the left lung base.",
+      "advanced_workup": "Vascular access: Hemodialysis catheter placed for emergent renal replacement therapy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute kidney injury with intractable metabolic acidosis, rhabdomyolysis (CK 2185 U/L, hyperuricemia 13.8 mg/dL, multiple electrolyte disturbances), and bilateral pneumonia in a patient with virologically controlled human immunodeficiency virus (HIV; plasma HIV-1 RNA viral load 47 copies/mL).\nManagement & Outcome: Lopinavir and ritonavir were discontinued due to nephrotoxicity. A hemodialysis catheter was placed and emergent hemodialysis was initiated for refractory acidosis and uremia. The patient was managed in a supplementary intensive care unit with supportive therapy and clinical stabilization, successfully discharged on hospital day 7."
+    }
+  }
+}

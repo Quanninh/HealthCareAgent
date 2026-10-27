@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC10204151_01",
+  "pair_id": "PMC10204151_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "In June 2021, a 7-year-old male without comorbidities from the south of Bahia (northeastern Brazil), residing in a peri-urban area, reported fever, chills, fatigue, headache, myalgia, dyspnea, pallor, apathy, and reduced food intake. Other family members reported similar symptoms. The patient was transferred to a reference hospital for infectious diseases in Salvador/Bahia. The patient presented with pallor, tachycardia, and tachypnea without signs of respiratory distress. A physical examination revealed painless hepatomegaly and splenomegaly. Laboratory tests identified hemoglobin 6.2 g/dL, hematocrit 17.4%, leukocytes 5,820/mm3 and platelets 50,000/microL. The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgM rapid test result was positive, although the nasal swab SARS-CoV-2 reverse transcription-quantitative PCR (RT-qPCR) result was negative. \nAlthough a non-malaria-endemic region, a recent malaria outbreak was confirmed in a rural settlement neighboring the region where the patient and his family resided. A rapid test for malaria was positive for P. vivax, confirmed by microscopy and quantitative PCR (qPCR) after genomic DNA extraction from slides (). A thin blood-smear examination identified 378.3 parasites/microL of blood, parasitemia of half a cross. The patient was initially treated with three doses of intravenous artesunate 2.4 mg/kg/dose every 12 h, then two doses of 2.4 mg/kg/dose daily, followed by oral chloroquine with primaquine, resulting in full recovery.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-year-old male presenting with fever, chills, fatigue, headache, myalgia, dyspnea, pallor, and apathy.",
+      "history_of_present_illness": "A 7-year-old boy from south Bahia, Brazil, presented with fever, chills, fatigue, headache, myalgia, dyspnea, marked pallor, apathy, and reduced oral intake of acute onset. Other family members experienced similar febrile illness. Due to progressive symptoms, he was transferred to a reference hospital for infectious diseases in Salvador, Bahia.",
+      "past_medical_history": "No known comorbidities. Epidemiological exposure: resided in a peri-urban area of south Bahia (extra-Amazonian, non-endemic region) adjacent to a rural settlement experiencing a confirmed malaria outbreak.",
+      "review_of_systems": "Positive for fever, chills, fatigue, headache, myalgia, dyspnea, pallor, apathy, and anorexia. Denied nausea, vomiting, diarrhea, or urinary complaints. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Significant pallor, tachycardia, and tachypnea without signs of respiratory distress. Abdomen: painless hepatomegaly and splenomegaly. Cardiovascular and respiratory examinations otherwise unremarkable.",
+      "routine_investigations": "Laboratory tests: hemoglobin 6.2 g/dL, hematocrit 17.4%, leukocytes 5,820/mm3, and platelets 50,000/microL. Rapid point-of-care test for SARS-CoV-2 IgM was positive, but nasopharyngeal swab SARS-CoV-2 RT-qPCR was negative. Peripheral blood smear performed.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe Plasmodium vivax malaria complicated by severe anemia (hemoglobin 6.2 g/dL), thrombocytopenia (50,000/microL), and hepatosplenomegaly, occurring within an extra-Amazonian outbreak in northeastern Brazil.\nDiagnostic confirmation: Rapid diagnostic test positive for Plasmodium vivax; confirmed by thin blood smear microscopy demonstrating 378.3 parasites/microL (parasitemia of half a cross) and slide-extracted genomic DNA quantitative PCR (qPCR).\nTreatment & Outcome: Treated with intravenous artesunate at 2.4 mg/kg/dose every 12 hours for three doses, followed by two daily doses of 2.4 mg/kg/dose, and completed with oral chloroquine and primaquine, achieving complete parasitological and clinical cure."
+    }
+  }
+}

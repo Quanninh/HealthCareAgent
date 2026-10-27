@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7784231_01",
+  "pair_id": "PMC7784231_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "Patient 1 was a 59-year-old female with a background history of diabetes mellitus and hypertension. Her medications included perindopril, amlodipine, metformin and gliclazide. She was diagnosed with pulmonary tuberculosis one month prior to admission (PTA), having presented with 3-month history of fever, cough and constitutional symptoms. She was started on antituberculosis treatment. Unfortunately, she developed epigastric pain and vomiting and was started on pantoprazole a month later. She requested at-own-risk discharge from hospital on two days after starting the PPI.\nThree days later, she was admitted again due to persistent vomiting and epigastric pain. On her 1st hospital day (HD) she developed an episode of narrow-complex tachycardia with prolonged QTc and went into respiratory distress. She required intubation and was transferred to the intensive care unit. Her blood investigations showed multiple electrolyte abnormalities, including hypomagnesaemia, hypocalcaemia, hypophosphatemia and hypokalemia. She was given multiple doses of parenteral magnesium sulfate, calcium gluconate and potassium chloride to correct those deficiencies. However, the serum magnesium, potassium and calcium levels failed to return to normal despite multiple corrections given.\nOn the 3rd HD, pantoprazole was discontinued. Thereafter, the serum levels of magnesium, potassium and calcium started to respond to the IV corrections and slowly returned to normal. (Table 1 and Figure 1). Unfortunately, the patient developed hospital-acquired pneumonia and succumbed to septicemia two weeks later.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 59-year-old female presenting with persistent vomiting, epigastric pain, and acute respiratory distress.",
+      "history_of_present_illness": "The patient presented with refractory epigastric pain and vomiting one month after starting antitubercular therapy, which persisted despite initiation of pantoprazole. On hospital day 1, she developed sudden-onset narrow-complex tachycardia with prolonged QTc interval and rapid progression to acute respiratory failure requiring endotracheal intubation.",
+      "past_medical_history": "Diagnosed with a pulmonary mycobacterial/respiratory infection 1 month prior to admission (following a 3-month history of fever, cough, and constitutional symptoms) and started on antitubercular therapy. History of diabetes mellitus and hypertension.",
+      "review_of_systems": "Complained of persistent vomiting and epigastric pain. Home medications: perindopril, amlodipine, metformin, gliclazide, antitubercular medications, and pantoprazole. Allergies: unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Severe respiratory distress requiring emergency endotracheal intubation and mechanical ventilation. Hemodynamics showed narrow-complex tachycardia.",
+      "routine_investigations": "Serum biochemistry: severe multiple electrolyte abnormalities including hypomagnesemia, hypocalcemia, hypophosphatemia, and hypokalemia, which initially failed to respond to parenteral magnesium sulfate, calcium gluconate, and potassium chloride infusions. Electrocardiogram (ECG): narrow-complex tachycardia with marked QTc prolongation.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Proton pump inhibitor (pantoprazole)-induced severe refractory hypomagnesemia, hypocalcemia, and hypokalemia precipitating narrow-complex tachycardia, prolonged QTc, and acute respiratory failure in a patient being treated for pulmonary tuberculosis; complicated by fatal hospital-acquired pneumonia and septic shock. Pulmonary tuberculosis was previously confirmed 1 month prior and treated with standard antitubercular therapy.\nManagement & Outcome: Pantoprazole was discontinued on hospital day 3, allowing serum magnesium, potassium, and calcium levels to correct with intravenous replacement. However, the patient developed ventilator-associated/hospital-acquired pneumonia and succumbed to refractory septicemia two weeks later."
+    }
+  }
+}

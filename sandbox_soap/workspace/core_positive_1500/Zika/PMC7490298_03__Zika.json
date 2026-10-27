@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7490298_03",
+  "pair_id": "PMC7490298_03::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "Case 3: A 21 year old patient that reported fever in the second trimester of pregnancy. Her IgM serology for ZIKV was positive and non-reactive for dengue, chikungunya, rubella, toxoplasmosis, HIV, syphilis and cytomegalovirus. The PRNT90% was positive for neutralizing antibodies. Her IgG serology was positive for cytomegalovirus and rubella. At 41 weeks of gestation, her baby girl was born by cesarean delivery that presented a cephalic circumference of 36 cm.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "21-year-old pregnant female presenting with fever in the second trimester of gestation.",
+      "history_of_present_illness": "The patient experienced an episode of fever during the second trimester of pregnancy. The pregnancy continued without documented maternal complications to 41 weeks of gestation, when she delivered an infant girl via cesarean section.",
+      "past_medical_history": "Second trimester of pregnancy; no prior medical illnesses reported.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Maternal: Documented fever during second trimester. Neonatal: Female infant delivered at 41 weeks gestation via cesarean delivery with cephalic circumference of 36 cm.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Maternal second-trimester Zika virus infection confirmed by positive ZIKV IgM serology and positive PRNT90% for neutralizing antibodies. Serological differential testing was non-reactive for dengue, chikungunya, rubella, toxoplasmosis, HIV, syphilis, and cytomegalovirus IgM (positive IgG for CMV and rubella indicated prior immunity). Delivery at 41 weeks gestation yielded a normocephalic infant girl (head circumference 36 cm)."
+    }
+  }
+}

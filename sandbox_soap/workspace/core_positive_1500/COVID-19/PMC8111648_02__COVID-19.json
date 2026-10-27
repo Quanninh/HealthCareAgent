@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8111648_02",
+  "pair_id": "PMC8111648_02::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "A 35 year-old male, with hypertension, post-LRRT on triple immunosuppression, and telmisartan 40mg daily, and 5 years posttransplant, was admitted with high grade fever for 5 days and few episodes of vomiting since morning. BP was 104/70 with tachycardia (Pulse: 110/minute). The patient received IV fluid resuscitation on arrival and his antihypertensive medication was withheld. Viral serology for CMV, BKV was negative and the result of urine examination was normal. His last serum creatinine was 0.9 mg/dL (2 months ago) and it was 2.3 mg/dL during hospitalization. There was lymphopenia (14% lymphocytes) with normal haemoglobin of 12g/dL. There was a 3-fold increase in AST and ALT with normal bilirubin in liver function test. X-ray chest and abdominal ultrasound and graft was normal. Blood and urine cultures were sterile. RT PCR from nasopharyngeal swab was positive for SARS-CoV2. The patient was continued on tacrolimus 1mg (morning) and 0.5mg (evening). Prednisolone was increased from 5mg OD to 20 mg OD. \n Mycophenolate sodium was stopped. Oral azithromycin, along with hydroxychloroquine and oseltamivir, was given and haemodynamic and fluid status were closely monitored. The patient became afebrile on day 4 and serum creatinine gradually decreased to 1.1 mg/dL on day 15. RT PCR was negative on day 21. He was given antihypertensive medication again and continued the dual immunosuppression at hospital discharge. On follow-up (telephonic), the patient was doing well. His tacrolimus level was 7ng/mL and leukopenia had completely settled. The patient was resumed on triple immunosuppression with the same dose of tacrolimus, prednisolone 10mg, and mycophenolate sodium 360 mg, BD, and is doing well with the latest creatinine of 1mg/dL.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old male presenting with high-grade fever for five days and vomiting since the morning of presentation.",
+      "history_of_present_illness": "The patient is a 35-year-old male with a history of kidney transplantation who presented with a 5-day history of high-grade fever and several episodes of vomiting starting on the morning of presentation. He received intravenous fluid resuscitation on arrival, and his antihypertensive therapy was temporarily withheld.",
+      "past_medical_history": "Live-related renal transplant (LRRT) 5 years prior; hypertension.",
+      "review_of_systems": "Home medications: Triple immunosuppression regimen including tacrolimus, prednisolone 5 mg once daily, and mycophenolate sodium; telmisartan 40 mg daily. Allergies: None documented."
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 104/70 mmHg; pulse 110 beats/min (tachycardia).",
+      "routine_investigations": "Hemoglobin 12 g/dL; differential revealed lymphopenia (14% lymphocytes); serum creatinine 2.3 mg/dL (baseline 0.9 mg/dL two months prior); liver function tests showed a 3-fold elevation in AST and ALT with normal total bilirubin; urinalysis was normal; viral serologies for CMV and BKV were negative; blood and urine cultures were sterile; chest X-ray was normal; abdominal and renal allograft ultrasound was normal.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed SARS-CoV-2 infection (COVID-19) confirmed by nasopharyngeal swab RT-PCR, complicated by acute kidney injury. Serologies for CMV and BKV, and blood and urine cultures were negative.\nPlan & Outcome: Immunosuppression was adjusted: mycophenolate sodium was discontinued, prednisolone increased from 5 mg once daily to 20 mg once daily, and tacrolimus continued at 1 mg morning / 0.5 mg evening. Antimicrobial and antiviral therapy was administered with oral azithromycin, hydroxychloroquine, and oseltamivir, with close monitoring of hemodynamic and fluid status. The patient became afebrile on day 4, and serum creatinine decreased to 1.1 mg/dL by day 15. Nasopharyngeal RT-PCR turned negative on day 21. Antihypertensive therapy was resumed, and he was discharged on dual immunosuppression. On follow-up, he remained well with a tacrolimus trough of 7 ng/mL, resolved leukopenia, normal creatinine of 1 mg/dL, and successful resumption of triple immunosuppression (tacrolimus same dose, prednisolone 10 mg daily, and mycophenolate sodium 360 mg BID)."
+    }
+  }
+}

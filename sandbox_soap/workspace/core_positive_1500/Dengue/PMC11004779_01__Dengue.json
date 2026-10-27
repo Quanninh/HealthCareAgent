@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC11004779_01",
+  "pair_id": "PMC11004779_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 25-year-old female was admitted after 3 days of progressive abdominal pain located in the epigastrium of a stabbing type intensity 9/10, associated with vomiting. Physical examination showed a distended abdomen, increased frequency of bowel sounds, and tenderness in the upper abdominal area on palpation. Dry mucous membranes, skin and sclera with jaundice ++/+++. The following laboratory tests were performed: complete blood count, amylase, lipase, liver profile (albumin, globulins, total and fractionated bilirubin, glutamic oxaloacetic transaminase GOT, glutamic pyruvic transaminase GPT, alkaline phosphatase), urea, creatinine, and urine test. Leukopenia 3500 cells/mul, hemoglobin 11.2 g/dl, hematocrit 33.6%, platelets 175,000 cells/mul, total bilirubin 4.76 mg/dl, direct bilirubin 4.58 mg/dl, albumin 3.4 g/dl, GOT 1989, GPT 2540, leukocytes in urine >100 cells/field and bilirubin in urine 1+ and reactive hepatitis A virus antibodies were found. She was hospitalized and given hydration, antiemetics and analgesics. During her hospital stay, vomiting decreased in frequency, but nausea and fever persisted. On her 5th day of hospitalization, a reactive result was obtained for IgM IgG for dengue positive and NS1 negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old female presented with severe epigastric abdominal pain and vomiting for 3 days.",
+      "history_of_present_illness": "The patient presented with a 3-day history of progressive, severe stabbing epigastric abdominal pain rated 9/10 in intensity, accompanied by frequent vomiting. During hospitalization, she was treated with intravenous hydration, analgesics, and antiemetics; vomiting improved, but low-grade fever and nausea persisted through hospital day 5.",
+      "past_medical_history": null,
+      "review_of_systems": "Reported severe epigastric pain, nausea, and vomiting. Denied diarrhea, hematemesis, or melena."
+    },
+    "objective": {
+      "physical_examination": "Dry mucous membranes with cutaneous and scleral jaundice (++ / +++). Abdomen was distended with increased bowel sounds and marked tenderness on palpation over the upper abdominal region without reported rebound tenderness.",
+      "routine_investigations": "Complete blood count: Leukocyte count 3,500 cells/muL (leukopenia), hemoglobin 11.2 g/dL, hematocrit 33.6%, platelet count 175,000 cells/muL.\nLiver function tests: Total bilirubin 4.76 mg/dL, direct bilirubin 4.58 mg/dL, AST (GOT) 1,989 U/L, ALT (GPT) 2,540 U/L, serum albumin 3.4 g/dL.\nUrinalysis: Bilirubin 1+, urinary leukocytes >100 cells/high-power field.\nViral serologies: Reactive hepatitis A virus antibodies.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Dengue fever complicated by acute hepatitis / severe transaminitis and concurrent reactive hepatitis A serology, confirmed on hospital day 5 by positive dengue virus IgM and IgG serology (NS1 antigen negative).\nTreatment and outcome: Managed supportively with intravenous fluid resuscitation, analgesics, and antiemetic therapy with gradual clinical stabilization."
+    }
+  }
+}

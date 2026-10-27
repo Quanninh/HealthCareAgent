@@ -1,0 +1,15 @@
+{
+  "disease": "Tuberculosis",
+  "slug": "tuberculosis",
+  "total_input": 1539,
+  "total_output": 1539,
+  "label_counts": {
+    "NEGATIVE": 103,
+    "POSITIVE": 1042,
+    "EXCLUDED_NON_TARGET_CASE": 232,
+    "UNRESOLVED": 142,
+    "EXCLUDED_NON_SINGLE_PATIENT": 16,
+    "EXCLUDED_NON_HUMAN": 4
+  },
+  "status": "complete"
+}

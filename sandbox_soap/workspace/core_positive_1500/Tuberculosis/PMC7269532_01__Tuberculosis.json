@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7269532_01",
+  "pair_id": "PMC7269532_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 43-year-old man presented to our clinic due to headache persisting for the previous 15 days, and with fever, vomiting, and altered consciousness for two days. At physical examination, the patient was somnolent, and signs of meningeal irritation were positive. Cerebrospinal fluid (CSF) analysis revealed microprotein: 138 mg/dL, chloride: 120 mmol/L, and glucose: 32 mg/dL (simultaneous blood sugar: 128 mg/dL). The headache persisted on the seventh day of anti-microbial therapy. Magnetic resonance imaging (MRI) revealed a millimeter-scale cerebellar lesion (Figure 1). PCR for Mycobacterium tuberculosis and Quantiferon tests of CSF were positive. The patient was commenced on isoniazid, 300 mg/day, rifampicin 600 mg/day, ethambutol 2 g/day and pyrazinamide 2 g/day. CSF culture testing over the first month of treatment was reported as M. tuberculosis, susceptible to anti-tuberculous drugs. In the second month of treatment, the patient was reexamined, complaining of severe headache. MRI of the brain revealed an increased number of lesions and basilar occlusion (Figure 2). Moxifloxacin and anti-edematous therapy were added to four-drug anti-tuberculous therapy. The symptoms resolved in the third month of five-drug anti-tuberculous therapy, and treatment was maintained with two-drug anti-tuberculous therapy. Improvement was recorded by MRI in the fifth month of treatment (Figure 3).\nCentral nervous system tuberculosis is a rare form of tuberculosis in immunocompetent individuals. It can lead to excessive tuberculosis protein release in association with basilar obliteration, particularly in tuberculous meningitis, in patients receiving anti-tuberculous therapy. This protein can lead to tuberculoma expansion, or to identification of previously unseen tuberculomas  .",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 43-year-old male presented with a 15-day history of headache, and a 2-day history of fever, vomiting, and altered consciousness.",
+      "history_of_present_illness": "The patient presented with persistent headache for 15 days, followed by acute worsening over 2 days with high fever, vomiting, and progressive somnolence.",
+      "past_medical_history": null,
+      "review_of_systems": "Complained of headache, fever, vomiting, and somnolence. Home medications and allergies: unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Somnolent with positive signs of meningeal irritation (nuchal rigidity).",
+      "routine_investigations": "Simultaneous blood glucose: 128 mg/dL.",
+      "advanced_workup": "Lumbar puncture / CSF analysis: microprotein 138 mg/dL, chloride 120 mmol/L, glucose 32 mg/dL (CSF-to-blood glucose ratio 0.25). Brain MRI (initial): demonstrated a millimeter-scale focal cerebellar lesion. Brain MRI (month 2): demonstrated interval expansion with an increased number of intracranial lesions and basilar artery occlusion. Brain MRI (month 5): documented significant radiological resolution."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Tuberculous meningitis complicated by cerebellar tuberculoma and a paradoxical neuro-inflammatory reaction with basilar artery occlusion. Confirmed by positive CSF PCR for Mycobacterium tuberculosis, positive CSF QuantiFERON test, and CSF cultures yielding Mycobacterium tuberculosis fully susceptible to first-line agents.\nTreatment & Course: Initiated on four-drug antitubercular therapy: isoniazid 300 mg/day, rifampicin 600 mg/day, ethambutol 2 g/day, and pyrazinamide 2 g/day. Due to clinical deterioration in the second month with severe headache and basilar vasculopathy on MRI, moxifloxacin and anti-edematous corticosteroid therapy were added to make a five-drug regimen. Symptoms resolved by the third month, and the patient transitioned to two-drug maintenance therapy (isoniazid and rifampicin) with marked radiologic healing confirmed on month 5 MRI."
+    }
+  }
+}

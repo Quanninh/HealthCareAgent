@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9637879_01",
+  "pair_id": "PMC9637879_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "We report on a 32 year-old male with a history of contact eczema, residing at Djelfa town, in Algeria.\nThe patient reported a 6-week history of painless, and non-healing skin lesions on his right hand, he admitted having applied topical corticosteroids and antiseptics without any improvement, and then he had received two courses of antibiotics (pristinamycin, amoxicillin + clavulanic acid), with no significant results, moreover, there was an extension of the lesions leading to an imperative reevaluation of the condition. After being referred to our institution, the patient presented limited erythematous-papular plaque of 8 cm of diameter, located on the dorsal side of the right hand, the lesion was formed by the confluence of several papules (Fig. 1), with satellite lesions on the periphery, the initial plaque was associated with several firm and painless subcutaneous nodules 0.5-1.5 in diameter, following a lymphatic drainage to the elbow joint (Fig. 2). The patient didn't remembered being bitten by an insect, and other body surfaces did not reveal similar lesions. Furthermore examination of the other systems was unremarkable. Parasitological examination revealed abundant amastigote forms of Leishmania sp (Fig. 1), while direct mycological examination as well as the culture on Sabouraud medium at 25  C, and on the BHI medium (Brain Heart Infusion) at 37  C were both negative for fungal presence. In addition, culture on NNN medium (Novy- MacNeal-Nicolle), associated to species identification based on isoenzyme electrophoresis revealed Leishmania major as etiological agent.\nThe patient was started on Meglumine antimoniate (Glucantime ) as first line treatment 60 mg/kg/day for 15 days, which induced a reduction of the lesions after 10 days (Fig. 3), and favorable outcome at day 15 of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old male presented with a 6-week history of a painless, non-healing erythematous plaque on the right hand with ascending nodular lesions.",
+      "history_of_present_illness": "The patient developed a painless skin lesion on the dorsal aspect of his right hand 6 weeks prior to presentation. Despite application of topical corticosteroids and antiseptics and two oral antibiotic courses (pristinamycin and amoxicillin-clavulanic acid), the lesion progressively enlarged and developed satellite subcutaneous nodules ascending toward the elbow.",
+      "past_medical_history": "History of contact eczema; resident of Djelfa town, Algeria; denied recollection of insect or vector bites.",
+      "review_of_systems": "Denies fever, pain, or lesions on other body surfaces."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination of the right upper extremity revealed an 8-cm well-demarcated erythematous-papular plaque on the dorsum of the right hand formed by confluent papules with peripheral satellite lesions, accompanied by several firm, painless subcutaneous nodules (0.5 to 1.5 cm in diameter) ascending along the lymphatic drainage tract to the right elbow joint. Other body surfaces were clear, and systemic examination was unremarkable.",
+      "routine_investigations": "Direct mycological examination and fungal cultures on Sabouraud dextrose agar at 25 °C and brain heart infusion (BHI) medium at 37 °C were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of sporotrichoid cutaneous leishmaniasis caused by Leishmania major: direct microscopic examination of dermal smears demonstrated abundant Leishmania amastigote forms; promastigote culture on Novy-MacNeal-Nicolle (NNN) medium followed by isoenzyme electrophoresis confirmed Leishmania major. Deep fungal sporotrichosis was ruled out by negative mycological cultures. The patient was treated with intramuscular meglumine antimoniate (Glucantime) at 60 mg/kg/day for 15 days. Lesion regression was noted by day 10, achieving complete healing and an excellent clinical outcome at day 15 of follow-up."
+    }
+  }
+}

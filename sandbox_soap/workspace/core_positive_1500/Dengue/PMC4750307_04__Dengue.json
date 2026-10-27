@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4750307_04",
+  "pair_id": "PMC4750307_04::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 45-year-old male patient, presented with high-grade continuous fever for 5 days without chills and rigor, persistent headache for 5 days, recurrent episodes of vomiting, and GTCS followed by drowsiness for last 3 days.\nHe was semiconscious (GCS E3M4V2) on first examination, and neurological examination showed he had only neck rigidity with positive Kernig sign. Deep tendon reflexes are all absent and planter was bilaterally extensor. Rest of the CNS examination could not be done. Other systems were also within normal limit.\nMRI brain (plain and contrast), done on the 6th day of fever, showed bilateral symmetrical T2 hyperintensities in both thalamic regions [Figure 5]. So, the diagnosis of dengue meningoencephalitis was done.\nThis patient also was treated only with IV fluid, paracetamol as antipyretic and anticonvulsant. On 2nd day onward he had no event focal or generalized convulsion. Patient improved gradually, and neck rigidity was absent on the 11th day of hospital stay. Patient had uneventful hospital stay in the rest of the days and was discharged on the 14th day.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old male presenting with a 5-day history of continuous high-grade fever, persistent headache, recurrent vomiting, drowsiness, and generalized tonic-clonic seizures.",
+      "history_of_present_illness": "High-grade continuous fever without chills or rigors and persistent headache began 5 days prior to admission. Recurrent vomiting, generalized tonic-clonic convulsions, and progressive drowsiness developed over the 3 days preceding presentation.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, persistent headache, recurrent vomiting, convulsions, and drowsiness. Negative for chills and rigors. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Semiconscious, GCS score E3M4V2 (9/15). Nuchal rigidity present with positive Kernig's sign. Deep tendon reflexes: Generalized areflexia (all absent). Plantar responses: Bilaterally extensor. Remainder of systemic examination was within normal limits.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI (plain and contrast) on day 6 of fever: Bilateral symmetrical T2 hyperintensities in both thalamic regions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute dengue meningoencephalitis with bilateral thalamic involvement and generalized areflexia. Diagnosed in the setting of acute dengue infection with characteristic thalamic neuroimaging and meningeal presentation.\nPlan & Outcome: Managed with intravenous fluid therapy, paracetamol as an antipyretic, and anticonvulsant therapy. Convulsions ceased from hospital day 2 onward. Clinical status improved gradually, sensorium cleared, and nuchal rigidity resolved by hospital day 11. The remainder of the hospital course was uneventful and the patient was discharged on day 14."
+    }
+  }
+}

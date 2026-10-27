@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4214559_01",
+  "pair_id": "PMC4214559_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 64-year-old woman with past medical history of diabetes mellitus type 1, referred to our dermatology department for a 20-month nonpruritic erythematous ulcerated lesions of the two legs. Upon physical examination, a large oval erythematoviolaceous plaque covering more than the half of the right pretibial region was observed. The border was slightly elevated, indurated and infiltrative, the center was scattered by small necrotic, crusted ulcers and by small atrophic areas. Similar smaller plaques occurred on the left leg (A). No other systemic abnormalities were detected particularly regional lymphadenopathy. There was no history of trauma or insect bite. She denied having fever or any other systemic symptoms. Blood count, routine biochemical tests, urine analysis and chest radiography were normal except hyperglycemia at 11.8 mmol/l. Bacteriological tests were negative. Skin biopsy showed a dense lymphocytic infiltrate throughout the entire dermis admixed with multiple granuloma without necrosis. At higher magnification, epitheloid cells, histiocytes and multinucleated giant cells were observed within the granulomatous zones. These latter were outlined by a dense infiltrate of lymphocytes (B) Basophilic regular structures in the intracellular spaces corresponding to amastigotes belonging to leishmania were determined with the Giemsa stain (C). The patient was treated intramuscularly with 20 mg/Kg/day systemic meglumine antimoniate for 15 days. The clinical course was characterized by the healing of her ulcer but onset of some atrophic scars.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old female presented with nonpruritic, erythematous, ulcerated skin plaques on both legs of 20 months' duration.",
+      "history_of_present_illness": "A 64-year-old woman presented to the dermatology department with a 20-month history of nonpruritic erythematous ulcerated plaques on both lower extremities. The lesions had gradually enlarged without response to local skin care. She denied fever, chills, pruritus, or any systemic symptoms. There was no preceding trauma or recognized insect bite.",
+      "past_medical_history": "Type 1 diabetes mellitus. Prior antibiotic therapy, travel history, or animal contact not documented.",
+      "review_of_systems": "Bilateral lower extremity ulcerated plaques. Denied fever, weight loss, night sweats, pruritus, or musculoskeletal symptoms."
+    },
+    "objective": {
+      "physical_examination": "Large oval erythematoviolaceous plaque covering more than half of the right pretibial region, with slightly elevated, indurated, infiltrative borders, and a center studded with small necrotic crusted ulcers and atrophic areas. Similar smaller plaques were present on the left leg. No regional lymphadenopathy. Remainder of physical examination was unremarkable.",
+      "routine_investigations": "Complete blood count, routine biochemistry, urinalysis, and chest radiography were normal, except for hyperglycemia with blood glucose of 11.8 mmol/L. Bacteriological cultures of wound swabs were negative.",
+      "advanced_workup": "Skin punch biopsy of the right pretibial plaque revealed a dense lymphocytic infiltrate extending throughout the entire dermis admixed with multiple non-necrotizing granulomas containing epithelioid cells, histiocytes, and multinucleated giant cells. Giemsa staining revealed regular basophilic intracellular structures within histiocytic cytoplasm."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive Diagnosis: Cutaneous leishmaniasis presenting as atypical chronic pretibial plaques in a diabetic patient.\nDiagnostic Confirmation: Skin biopsy histopathology with Giemsa stain demonstrated characteristic intracellular Leishmania amastigotes within dermal macrophages.\nDifferentials Ruled Out: Necrobiosis lipoidica diabeticorum, pyoderma gangrenosum, cutaneous tuberculosis, deep fungal infection (chromomycosis, sporotrichosis), secondary bacterial ulceration (negative bacteriological tests), and cutaneous malignancy.\nTreatment & Clinical Course: Treated with intramuscular meglumine antimoniate at 20 mg/kg/day for 15 days. The clinical course resulted in complete healing of the ulcerative lesions with residual atrophic scarring."
+    }
+  }
+}

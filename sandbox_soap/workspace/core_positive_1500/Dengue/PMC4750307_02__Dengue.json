@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4750307_02",
+  "pair_id": "PMC4750307_02::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 26-year-old girl presented with high-grade continuous fever associated with chills and rigor for 5 days, severe headache anorexia, nausea, multiple episodes of vomiting for 4 days, and disorientation for 2 days. There was a history of one episode of GTCS convulsion day before admission. There was no similar illness in the past.\nOn neurological examination, she had neck rigidity with positive Kernig sign. GCS Score was E4M5V3. No cranial nerve abnormality was noted. Motor function, sensory function, reflexes, cerebellar function, and autonomic function were all within normal limit. Planter was bilateral extensor.\nMRI scan of brain (plain and contrast) done on 6th day of fever, showed mild diffusion restricted nonenhancing altered signal intensity (hypointense in T1, hyperintense in T2 and FLAIR) in both thalamic and left medial temporal lobe suggestive of encephalitis [Figure 4]. The patient was diagnosed as dengue meningoencephalitis.\nPatient was treated only with IV fluid and paracetamol as antipyretic. Patient improved gradually with normal sensorium gained on the 10th day of hospital stay with no neck rigidity. He had uneventful hospital stay thereafter and was discharged after 2 weeks.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old female presenting with a 5-day history of high-grade continuous fever with chills and rigors, headache, vomiting, disorientation, and a generalized tonic-clonic convulsion.",
+      "history_of_present_illness": "Symptoms began 5 days prior to admission with continuous high-grade fever, chills, and rigors. Severe headache, anorexia, nausea, and repeated vomiting developed 4 days prior, followed by disorientation for 2 days and a generalized tonic-clonic seizure 1 day prior to presentation.",
+      "past_medical_history": "No similar illness in the past.",
+      "review_of_systems": "Positive for fever, chills, rigors, headache, anorexia, nausea, vomiting, disorientation, and convulsions. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination: GCS score E4M5V3 (12/15). Nuchal rigidity present with positive Kernig's sign. Bilateral extensor plantar responses (Babinski positive bilaterally). Cranial nerves, motor strength, sensory exam, deep tendon reflexes, cerebellar function, and autonomic function were normal.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI (plain and contrast) on day 6 of fever: Mild diffusion-restricted non-enhancing altered signal intensity (hypointense on T1, hyperintense on T2 and FLAIR) in both thalami and the left medial temporal lobe, suggestive of viral encephalitis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute dengue meningoencephalitis with bilateral thalamic and left medial temporal lobe encephalitis. Diagnosed clinically, serologically, and neuro-radiologically during an epidemic dengue outbreak.\nPlan & Outcome: Managed supportively with intravenous fluids and paracetamol as an antipyretic. The patient improved gradually, regaining normal sensorium and complete resolution of nuchal rigidity by hospital day 10. The remainder of the hospital stay was uneventful, and she was discharged in stable condition after 2 weeks."
+    }
+  }
+}

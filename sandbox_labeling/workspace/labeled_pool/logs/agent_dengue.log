@@ -1,0 +1,14 @@
+{
+  "disease": "Dengue",
+  "slug": "dengue",
+  "total_input": 190,
+  "total_output": 190,
+  "label_counts": {
+    "POSITIVE": 119,
+    "EXCLUDED_NON_SINGLE_PATIENT": 18,
+    "EXCLUDED_NON_TARGET_CASE": 26,
+    "NEGATIVE": 21,
+    "UNRESOLVED": 6
+  },
+  "status": "complete"
+}

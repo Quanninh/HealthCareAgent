@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7269521_01",
+  "pair_id": "PMC7269521_01::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "An 82-year-old man presented with cough and weakness and admitted to our clinic. His body temperature was 380 C, heart rate 93 beats/min, respiratory rate 22 breaths/min, blood pressure 100/60 mmHg, and oxygen saturation 86% (oxygen mask 5 L/min). His blood leukocyte, neutrophil, lymphocyte, D-dimer, fibrinogen, c-reactive protein, ferritin, and procalcitonin levels were 8.56 x 103/microL, 7.4x103/microL, 0.62x 103/microL, 2304 ng/mL, 638 mg/dL, 183 mg/L, 720 ng/mL, and 0.2 ng/mL, respectively. Computed tomography of the thorax revealed a suspected diagnosis of coronavirus disease (COVID-19) (Figure 1). Antiviral (Favipavir 2 x 1600 mg loading, 2 x 600 mg maintenance) and antibacterial (levofloxacin 500 mg/day) therapies were initiated. The patient's oronasopharyngal swab specimen was positive for severe acute respiratory syndrome coronavirus 2 nucleic acid. Weakness and loss of muscle tone developed in the left arm on day 3 of treatment. Brain diffusion magnetic resonance imaging showed multiple advanced stage infarctions (Figure 2). Enoxaparin 0.5 mg/kg once every 12 hours and acetylsalicylic acid 100 mg 1x1 were added to treatment. The laboratory parameters improved. The patient was discharged on day 20.\nCOVID-19 can result in cerebral infarction and death in the elderly  . Anticoagulants are useful in elderly patients with high D-dimer due to the risk of coagulation dysfunction and cerebral infarction. Thromboembolic complications must be considered in COVID-19 patients with known risk factors and abnormal laboratory findings.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 82-year-old male presenting with cough, generalized weakness, fever, and acute hypoxemia.",
+      "history_of_present_illness": "An 82-year-old male presented with a history of fever, cough, and generalized weakness. Upon admission, he exhibited acute hypoxemic respiratory failure requiring high-flow supplemental oxygen. On hospital day 3, his course was acutely complicated by the sudden development of left upper extremity weakness and flaccid hypotonia.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for cough, fever, generalized weakness, and acute left arm weakness. Other systems, home medications, and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Temperature: 38.0 °C, heart rate: 93 beats/min, blood pressure: 100/60 mmHg, respiratory rate: 22 breaths/min, SpO2: 86% on oxygen mask at 5 L/min. Neurological exam (day 3): acute left upper extremity motor weakness with loss of muscle tone.",
+      "routine_investigations": "WBC count: 8.56 x 10^3/microL; absolute neutrophil count: 7.4 x 10^3/microL; absolute lymphocyte count: 0.62 x 10^3/microL; D-dimer: 2,304 ng/mL; serum fibrinogen: 638 mg/dL; C-reactive protein (CRP): 183 mg/L; serum ferritin: 720 ng/mL; procalcitonin: 0.2 ng/mL.",
+      "advanced_workup": "Thoracic CT scan: bilateral parenchymal infiltrates and ground-glass changes consistent with viral pneumonia. Brain diffusion-weighted MRI (day 3): multiple acute-to-subacute cerebral infarctions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe COVID-19 pneumonia complicated by acute hypercoagulability and multiple acute ischemic cerebral infarctions (acute ischemic stroke), confirmed by positive SARS-CoV-2 nucleic acid detection from an oronasopharyngeal swab. Management & Outcome: Initiated on oral favipiravir (1,600 mg twice daily loading, followed by 600 mg twice daily maintenance) and intravenous levofloxacin (500 mg daily). Following acute stroke manifestation on day 3, therapeutic anticoagulation with subcutaneous enoxaparin (0.5 mg/kg every 12 hours) and antiplatelet therapy with acetylsalicylic acid (100 mg daily) were added. Laboratory abnormalities and neurological deficits improved, and the patient was successfully discharged on hospital day 20."
+    }
+  }
+}

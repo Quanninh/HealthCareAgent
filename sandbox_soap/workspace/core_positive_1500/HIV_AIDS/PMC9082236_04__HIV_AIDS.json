@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9082236_04",
+  "pair_id": "PMC9082236_04::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A man with recently diagnosed HIV and cryptococcal meningitis had been started on ART one month prior to this (see Table 1 for more information). He presented with WHO 'seriously ill' criteria and an AlereLAM was performed, revealing a strongly positive (4+) result. He was started on TB treatment on the same day. A month later, he deteriorated clinically and required hospital admission. A blood culture during this admission cultured Mycobacterium avium. With this result, azithromycin was added to his TB treatment and pyrazinamide was stopped. The patient died as an inpatient 17 months after initial presentation. No Xpert MTB/RIF or cultures identified M. tb, although he was diagnosed with TB meningitis based on CT brain features during the protracted illness course.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An adult male presenting with acute clinical deterioration meeting seriously ill criteria one month after initiating antiretroviral therapy.",
+      "history_of_present_illness": "The patient presented meeting World Health Organization 'seriously ill' criteria one month following the initiation of antiretroviral therapy. Despite starting empiric antimicrobial therapy, his condition deteriorated further over the following month, necessitating inpatient hospitalization. He subsequently experienced a protracted, debilitating illness course over 17 months.",
+      "past_medical_history": "Recent history of cryptococcal meningitis treated within the preceding weeks; commenced on combination antiretroviral therapy one month prior to presentation.",
+      "review_of_systems": "Severe constitutional decline and weakness; denies isolated peripheral joint swelling or focal rash."
+    },
+    "objective": {
+      "physical_examination": "Patient classified as meeting WHO 'seriously ill' criteria; detailed vital signs and systemic examination findings not documented in raw text.",
+      "routine_investigations": "Urine and blood samples collected and submitted for mycobacterial cultures and diagnostic antigen screening.",
+      "advanced_workup": "Computed tomography (CT) of the brain: Features consistent with tuberculous meningitis with basal meningeal enhancement and secondary changes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Disseminated Mycobacterium avium complex (MAC) bacteremia and presumed tuberculous meningitis complicating newly diagnosed human immunodeficiency virus (HIV) infection and prior cryptococcal meningitis. Diagnostic confirmation: Blood culture grew Mycobacterium avium; AlereLAM was strongly positive (4+); diagnostic molecular testing (Xpert MTB/RIF) and cultures did not isolate Mycobacterium tuberculosis, but TB meningitis was diagnosed based on neuroimaging. Plan & Outcome: Initiated on empiric anti-tuberculosis therapy on day of presentation. Following blood culture isolation of M. avium, pyrazinamide was discontinued and azithromycin was added. The patient suffered a protracted disease course and died as an inpatient 17 months after initial presentation."
+    }
+  }
+}

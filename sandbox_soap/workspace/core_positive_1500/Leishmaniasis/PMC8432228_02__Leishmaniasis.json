@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8432228_02",
+  "pair_id": "PMC8432228_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 7-month-old male infant presented with fever for 10 days associated with hepatosplenomegaly, bicytopenia, pallor, anasarca, and increased ferritin. Immunochromatographic rapid test with rK39 antigen was positive for Leishmania spp., and amastigotes were detected in a myelogram, which also presented hemophagocytosis. Complete treatment with lipossomal amphotericin was started and cefepime was used due to fever-associated neutropenia. In addition, he underwent transfusion of platelets, red blood cells, and albumin. After a diagnosis of HLHS, corticotherapy was started. The patient recovered after 3 days of treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-month-old male infant presented with a 10-day history of fever, pallor, and generalized swelling.",
+      "history_of_present_illness": "A 7-month-old male infant developed persistent fever over 10 days, accompanied by progressive abdominal distension, severe cutaneous pallor, and generalized anasarca.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Marked cutaneous pallor, generalized anasarca, and hepatosplenomegaly.",
+      "routine_investigations": "Laboratory testing showed bicytopenia, neutropenia, and markedly elevated serum ferritin.",
+      "advanced_workup": "Bone marrow aspirate (myelogram) demonstrated active hemophagocytosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of visceral leishmaniasis complicated by secondary hemophagocytic lymphohistiocytosis (HLH/HLHS): rapid immunochromatographic test with rK39 antigen was positive for Leishmania spp., and bone marrow myelogram detected Leishmania amastigotes alongside active hemophagocytic histiocytes. The patient received complete treatment with intravenous liposomal amphotericin B, intravenous cefepime for fever-associated neutropenia, transfusions of platelets, packed red blood cells, and albumin, and corticosteroid therapy for HLH. Rapid clinical recovery occurred within 3 days of initiating targeted therapy."
+    }
+  }
+}

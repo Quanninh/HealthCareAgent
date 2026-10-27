@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4674743_02",
+  "pair_id": "PMC4674743_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 41-year-old, White British MSM receiving treatment for Pneumocystis jiroveci pneumonia was diagnosed with HIV. The virus was subtype B and fully antiretroviral susceptible (VL 260,000 copies/mL, log10 5.4, CD4 count 4 x 106/L, 2.5%). He was commenced on tenofovir, emtricitabine and efavirenz. He improved clinically, but the CD4 count plateaued at 11 x 106/L, 2.6%) and the VL only decreased to 88,000 copies/mL (log10 4.9) at 4 weeks and stalled at 56,000 copies/mL (log10 4.7) at 12 weeks. He reported no side-effects, no new sexual contacts and 100% adherence to HAART. He gave no travel history of note. Resistance testing revealed K65KR, M184V, K101E, Y181CY and G190CS. Comparison of the two sequences revealed only four out of 1007 sequences nucleotide changes between baseline and the second test, excluding residues exhibiting mixed bases, of which three resulted in amino acid changes within known resistance foci at RT residues 101, 184 and 190. The fourth was a synonymous nucleotide change. Based on the fact that the patient denied lack of exposure, reported good adherence and the commonly under drug pressure observed mutations, this lack of sufficient VL response was thought to be due to an unmasking of a primary minority species virus under drug pressure, rather than HIV superinfection. The patient's treatment was switched to zidovudine, lamivudine, raltegravir and boosted darunavir. Twenty-four weeks later he was feeling well and his VL was 41 copies/mL (log10 1.6) and his CD4 count 155 x 106/L, 17%.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old male undergoing treatment for opportunistic pneumonia presenting for antiretroviral therapy initiation and monitoring.",
+      "history_of_present_illness": "The patient presented while undergoing inpatient therapy for acute pulmonary infection. Following initiation of combination antiretroviral therapy, he improved clinically; however, outpatient virological monitoring demonstrated an incomplete virological response with viral load plateauing at 4 and 12 weeks despite 100% medication adherence, absence of adverse effects, and no new sexual contacts.",
+      "past_medical_history": "Active pulmonary infection receiving antimicrobial treatment. Epidemiological history: White British man who has sex with men (MSM); no notable travel history.",
+      "review_of_systems": "Reports feeling well; denies adverse drug effects, fever, dyspnea, or cough."
+    },
+    "objective": {
+      "physical_examination": "Clinically stable and improved from respiratory presentation.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Human immunodeficiency virus type 1 (HIV-1, subtype B) infection presenting with Pneumocystis jirovecii pneumonia, complicated by early virologic failure secondary to unmasking of pre-existing drug-resistant minority species under selective antiretroviral pressure (rather than superinfection).\nConfirmatory & Resistance Testing: Baseline HIV viral load 260,000 copies/mL (log10 5.4), CD4 count 4 x 10^6/L (2.5%). Stalled virologic response showed CD4 plateauing at 11 x 10^6/L (2.6%) and viral load decreasing only to 88,000 copies/mL (log10 4.9) at 4 weeks and stalling at 56,000 copies/mL (log10 4.7) at 12 weeks. Genotypic resistance testing revealed reverse transcriptase mutations K65KR, M184V, K101E, Y181CY, and G190CS, with sequence comparison demonstrating only four nucleotide changes (three non-synonymous amino acid changes at RT residues 101, 184, and 190, and one synonymous change) between baseline and failure, confirming pre-existing minority variant selection.\nPlan & Outcome: Initial regimen of tenofovir, emtricitabine, and efavirenz was discontinued. Treatment was switched to zidovudine, lamivudine, raltegravir, and boosted darunavir. At 24 weeks post-switch, the patient was clinically well with viral load suppressed to 41 copies/mL (log10 1.6) and CD4 count reconstituted to 155 x 10^6/L (17%)."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3177425_01",
+  "pair_id": "PMC3177425_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 42-year-old man with complaints of dry cough and breathlessness for 15 days was referred to the Radiology Department for Computed Tomography of the thorax. His chest X-ray showed cavitation and fibrosis with patchy consolidation in the right upper zone. Patient was a diagnosed case of sputum-positive pulmonary tuberculosis and had received the complete course of antitubercular treatment 2 years earlier. On present Computed Tomography of the thorax (axial images), there were multiple thick-walled cavitary lesions in the posterior segment of right upper lobe with multiple parenchymal nodular opacities indicative of endobronchial spread of infection [Figure 1]. In addition to these findings, there was an air-filled tubular structure alongside the esophagus on the left side, beginning at the level of the T2 vertebra and communicating with the normal esophagus at the level of carina [Figure 2]. We considered a provisional diagnosis of pulsion diverticula or possibly proximal esophageal duplication as an incidental finding along with the findings of sequelae of post-primary pulmonary tuberculosis.\nBarium swallow study [Figure 3] was done to rule out diverticulum. On barium study, a contrast-filled tubular structure was seen alongside the normal esophagus on the left side extending from the T2 to the T4 vertebral level and communicating with the esophagus both superiorly and inferiorly. Fluoroscopically, swallowing mechanism was normal with normal mucosa and presence of peristalsis in the duplicated segment. There was no evidence of any aspiration or gastroesophageal reflux. Gastroesophageal junction was normal. With these definitive findings, diagnosis of incomplete communicating tubular duplication of upper esophagus was considered.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old male presenting with dry cough and breathlessness for 15 days.",
+      "history_of_present_illness": "The patient presented with a 15-day history of persistent dry cough and exertional breathlessness. He was referred to the Radiology Department for computed tomography of the thorax after a routine chest radiograph demonstrated upper zone cavitary and fibrotic changes.",
+      "past_medical_history": "Diagnosed case of sputum-positive pulmonary tuberculosis 2 years previously, having completed a full course of antitubercular treatment.",
+      "review_of_systems": "Dry cough, breathlessness. Denies hemoptysis, fever, dysphagia, regurgitation, or chest pain."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Chest radiograph showed cavitation, fibrosis, and patchy consolidation in the right upper zone.",
+      "advanced_workup": "Thoracic computed tomography (axial images) demonstrated multiple thick-walled cavitary lesions in the posterior segment of the right upper lobe accompanied by multiple parenchymal nodular opacities indicative of endobronchial spread; an incidental air-filled tubular structure was visualized alongside the esophagus on the left side, arising at the T2 vertebral level and communicating with the esophagus at the carina. Barium swallow study confirmed a contrast-filled tubular structure adjacent to the left esophagus extending from T2 to T4 vertebral levels, communicating superiorly and inferiorly, with normal peristalsis and mucosal folds; no aspiration or gastroesophageal reflux was noted; gastroesophageal junction was normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Cavitary sequelae of post-primary pulmonary tuberculosis with endobronchial spread, and an incidental congenital incomplete communicating tubular duplication of the upper esophagus.\nDiagnostic confirmation: Thoracic CT and barium fluoroscopy demonstrated communicating tubular esophageal duplication from T2 to T4 with preserved mucosal architecture, excluding pulsion diverticulum, in conjunction with thick-walled right upper lobe tuberculous cavities.\nManagement and outcome: Radiographic and fluoroscopic confirmation completed; patient was evaluated for post-primary tuberculous reactivation and conservative follow-up of benign congenital esophageal duplication."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3065044_01",
+  "pair_id": "PMC3065044_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 14-year-old boy presented to us in July 2009 with low-grade, evening rise fever since March 2008. He also complained of reduction in appetite and weight loss of 8 kg during this period. He had a mild dry cough. However, there was no history of shortness of breath, chest pain, hemoptysis, hoarseness of voice, or dysphagia. There was no other significant history to localize the cause of fever. He received antituberculosis therapy (ATT) for these symptoms and abnormal chest radiograph. He was treated for the first time for 4 months from March to June 2008 and then for 6 months in a private hospital without any relief in his symptoms.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old male presenting with prolonged low-grade evening-rise fever, anorexia, and weight loss for 16 months.",
+      "history_of_present_illness": "The patient presented in July 2009 with a 16-month history of low-grade fever with characteristic evening rise since March 2008. The fever was accompanied by a reduction in appetite, an unintentional weight loss of 8 kg, and a mild dry cough. He had no shortness of breath, chest pain, hemoptysis, hoarseness of voice, or dysphagia. Based on initial symptoms and an abnormal chest radiograph, he received empiric antituberculosis therapy twice (first from March to June 2008 for 4 months, and subsequently for 6 months at a private hospital) without any resolution of symptoms.",
+      "past_medical_history": "Abnormal chest radiograph in 2008; treated with two separate courses of empirical antituberculosis therapy (4 months and 6 months) without clinical improvement. No other significant past illnesses.",
+      "review_of_systems": "Low-grade fever with evening rise, mild dry cough, anorexia, 8 kg weight loss. Denies dyspnea, chest pain, hemoptysis, hoarseness, dysphagia, or localizing symptoms."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Chest radiograph showed persistent abnormal findings (prior radiograph demonstrated abnormalities prompting two empirical courses of antitubercular therapy).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Assessment: Prolonged pyrexia of unknown origin with evening rise, chronic dry cough, anorexia, and 8 kg weight loss refractory to two full courses of empirical antituberculosis therapy (ATT), requiring comprehensive diagnostic workup for multidrug-resistant tuberculosis (MDR-TB), atypical mycobacterial disease, deep-seated fungal infection, or non-infectious inflammatory/malignant etiology.\nOutcome: Patient presented for specialized tertiary evaluation; further microbiological confirmation and outcome not documented in the available record."
+    }
+  }
+}

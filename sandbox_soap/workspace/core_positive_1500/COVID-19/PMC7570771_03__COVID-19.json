@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7570771_03",
+  "pair_id": "PMC7570771_03::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Urinalysis was significant for a white blood cell (WBC) > 100/high-power field (HPF), red blood cell (RBC) 3/HPF, and pH 5.0. Bedside electrocardiogram (EKG) showed tachycardia (105 beats/min) and a prolonged QTc (518 ms) (Figure 1). A rapid nasopharyngeal swab collected was positive for SARS-CoV-2, prompting contact and droplet precautions. Patient was tested for Hepatitis B and C which were both negative; however, the patient was not tested for concomitant influenza. Chest X-ray showed patchy infiltrates laterally in the right midlung and the right base with lesser peripheral patchy infiltrates laterally from left mid to lower lung.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Urinalysis: white blood cell (WBC) > 100/high-power field (HPF), red blood cell (RBC) 3/HPF, pH 5.0. Bedside electrocardiogram (EKG): tachycardia (105 beats/min) and prolonged QTc (518 ms). Chest X-ray: patchy infiltrates laterally in the right midlung and the right base, with lesser peripheral patchy infiltrates laterally from left mid to lower lung.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Rapid nasopharyngeal swab was positive for SARS-CoV-2, prompting contact and droplet precautions. Serologic screening for Hepatitis B and Hepatitis C was negative; testing for concomitant influenza was not performed."
+    }
+  }
+}

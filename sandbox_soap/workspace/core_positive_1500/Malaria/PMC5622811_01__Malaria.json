@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5622811_01",
+  "pair_id": "PMC5622811_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 29 year old male was consulted for a sudden drop in visual acuity and more severe at right eye, which occurred in febrile context. For the clinical examination: the patient was prostrate, visual acuity consisted of the patient being able to see a waving hand from his right eye, and a tenth of it from his left eye, with no improvement upon using both eyes. A bilateral reactive mydriasis was also present. Intraocular pressure measured 11 mmHg and 13mmhg on the right eye and left eye respectively. The eyes backgrounds revealed rounded retinal hemorrhages, some with clear centers scattered throughout the retina, more pronounced in the right eye; bleaching areas of the retina in the macular area more pronounced in the right eye (Figure 1, A,B). And discoloration of peripheral vessels on the inferior temporal in the right eye (Figure 1, C). The fluorescein angiography revealed: intra-retinal hemorrhages, retinal ischemia on the inferior temporal of the right eye (Figure 1 D). Thick smear was positive with two thousand trophozoides by field. The blood count was in favor of a microcytic hypochromic anemia with a hemoglobin rate of 11g / l. We noted a lack of immature cells in the blood smear. The support consisted of patient hospitalization and administration of quinine at a rate of 8 mg / kg diluted in 250cc serum glucose every 8 hours for 5 days. The evolution under treatment at Day 60 was marked by an improvement in visual acuity to a tenth in the right eye and three tenths in the left eye, in addition to a disappearance of retinal signs (Figure 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old male presenting with acute severe loss of visual acuity, predominantly in the right eye, during a febrile illness.",
+      "history_of_present_illness": "The patient presented with a sudden, profound drop in visual acuity affecting both eyes but worse in the right eye, occurring in the setting of an acute febrile episode.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "General: Patient was prostrated. Ophthalmological examination: Visual acuity limited to seeing waving hand movements from the right eye and 1/10 from the left eye, with no improvement binocularly. Bilateral reactive mydriasis present. Intraocular pressure: 11 mmHg right eye, 13 mmHg left eye. Fundoscopy: Rounded retinal hemorrhages, some with clear centers (Roth spots) scattered throughout the retina (worse in right eye); macular retinal bleaching/whitening (worse in right eye); and discoloration of peripheral inferior temporal retinal vessels in the right eye.",
+      "routine_investigations": "Complete blood count: Microcytic hypochromic anemia with hemoglobin level of 11 g/l; blood smear noted absence of immature blast cells.",
+      "advanced_workup": "Fluorescein fundus angiography: Intra-retinal hemorrhages and retinal ischemia involving the inferior temporal quadrant of the right eye."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe malaria complicated by malarial retinopathy and acute visual impairment, confirmed by thick peripheral blood smear showing 2,000 trophozoites per high-power field.\nPlan & Outcome: Hospitalized and treated with intravenous quinine at 8 mg/kg diluted in 250 cc 5% glucose serum every 8 hours for 5 days. At Day 60 follow-up, visual acuity improved to 1/10 in the right eye and 3/10 in the left eye, accompanied by complete resolution of retinal hemorrhages and retinopathy signs."
+    }
+  }
+}

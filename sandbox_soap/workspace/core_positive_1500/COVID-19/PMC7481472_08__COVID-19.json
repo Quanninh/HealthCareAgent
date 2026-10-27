@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_08",
+  "pair_id": "PMC7481472_08::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Control 1: 57-year-old male with obesity, attending the emergency department for fever that was present for 10 days, as well as a cough and respiratory failure. His blood pressure was 121/78, heart rate 110 beats per minute, SpO2 94-95%, and he had elevated D-Dimer levels. Chest X-ray: A bilateral alveolar reticulum interstitial pattern of peripheral predominance and right base was observed which was suggestive of an atypical infection. Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with hydroxychloroquine and lopinavir-ritonavir, and they remain in the hospital.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 57-year-old male presented to the emergency department with fever for 10 days, cough, and respiratory failure.",
+      "history_of_present_illness": "A 57-year-old male presented to the emergency department for fever that was present for 10 days, as well as a cough and respiratory failure.",
+      "past_medical_history": "Obesity.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 121/78 mmHg, heart rate 110 beats per minute, SpO2 94-95%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Bilateral alveolar reticulum interstitial pattern of peripheral predominance and right base was observed which was suggestive of an atypical infection.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with hydroxychloroquine and lopinavir-ritonavir. The patient remains in the hospital."
+    }
+  }
+}

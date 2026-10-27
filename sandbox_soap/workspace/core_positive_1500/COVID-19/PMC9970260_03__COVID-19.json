@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9970260_03",
+  "pair_id": "PMC9970260_03::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "An 83-year-old male Hispanic patient with a history of controlled diabetes mellitus, hypertension, sleep apnea, and a history of smoking called the outpatient clinic stating that he had a severe headache, sore, dry throat with a burning sensation, a slight cough, and congestion for the last 24 hours. He was on lisinopril for hypertension, using a continuous positive airway pressure (CPAP) device for sleep apnea, and received three doses of the COVID-19 vaccine 40 days prior to study. On presentation to the clinic, a COVID-19 antigen test was performed, which tested positive. The patient-reported experiencing severe headache, sore throat, dry throat with a burning sensation, coughing, and nasal congestion for the last 24 hours. Additionally, the patient reported malaise, fever, and fatigue. Treatment was started with Vitamin C 1000 mg twice a day, zinc 100 mg once a day, Vitamin D3 5000IU once a day, and ibuprofen or acetaminophen as needed, plus daily follow-up. Treatment with oral CPM spray was started. The patient reported significant improvement in the burning sensation immediately after the spray was applied, and by the end of the first day, he felt somewhat better from hoarseness. On day 2, the doctor added fluticasone nasal spray for treatment, but sore throat, hoarseness, and burning improved by more than 50% as reported by the patient. The fever lasted three days, and the muscle pain for about six days. By day 7, the patient recovered (Figure 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 83-year-old male presenting with a 24-hour history of severe headache, sore throat with burning sensation, mild cough, and nasal congestion.",
+      "history_of_present_illness": "An 83-year-old male called the outpatient clinic with a 24-hour history of acute severe headache, sore and dry throat with a distinct burning sensation, slight cough, and nasal congestion. He additionally reported systemic malaise, fever, and fatigue. Following clinical presentation and diagnostic testing, he was managed with a topical antiseptic throat spray, fluticasone nasal spray, and supportive oral therapies, experiencing prompt improvement in throat symptoms and complete recovery by day 7.",
+      "past_medical_history": "Essential hypertension, type 2 diabetes mellitus (well-controlled), obstructive sleep apnea on continuous positive airway pressure (CPAP) therapy, and remote history of tobacco smoking. Current medications: lisinopril. Vaccinated with three doses of pandemic respiratory vaccine 40 days prior.",
+      "review_of_systems": "Severe headache, sore throat, dry throat with burning sensation, hoarseness, cough, nasal congestion, fever, malaise, fatigue, and myalgias."
+    },
+    "objective": {
+      "physical_examination": "Outpatient physical examination: Patient in mild discomfort due to pharyngeal irritation, afebrile or low-grade pyrexia, hemodynamically stable without respiratory distress. Oropharynx revealed mucosal erythema.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Mild COVID-19 upper respiratory tract infection (confirmed by positive COVID-19 rapid antigen test on presentation) in an elderly patient with hypertension, diabetes mellitus, and sleep apnea.\n\nManagement and outcome: Managed as an outpatient with topical cetylpyridinium chloride (CPM) oral spray, fluticasone nasal spray added on day 2, vitamin C 1,000 mg BID, zinc 100 mg daily, vitamin D3 5,000 IU daily, and as-needed ibuprofen/acetaminophen with daily outpatient follow-up. Burning throat pain resolved immediately after initial spray; hoarseness and sore throat improved by > 50% by day 2. Fever resolved after 3 days, muscle aches lasted 6 days, and complete recovery was achieved by day 7."
+    }
+  }
+}

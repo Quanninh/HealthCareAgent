@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7083181_01",
+  "pair_id": "PMC7083181_01::Typhoid_Fever",
+  "target_disease": "Typhoid_Fever",
+  "raw_case_text": "The authors present a case of a 72-year-old male, with a past medical history of diabetes mellitus and arterial hypertension, who was admitted to the emergency department due to fever and diarrhoea with 4-day evolution. On the physical evaluation, the patient was hypotensive (blood pressure of 84/44 mmHg) and dehydrated, without any other significant findings. Blood analysis revealed leucocytosis (12,200/mm3) with neutrophilia (10,800/mm3), elevated C-reactive protein (9.5 mg/dl) and an acute kidney injury (creatinine 7.34 mg/dl). Due to haemodynamic instability, the patient needed aminergic support and renal replacement therapy. Blood cultures isolated Salmonella Typhi. The patient was treated with ciprofloxacin, in accordance with bacterial antibiotic susceptibility tests. With a positive clinical evolution he was discharged after completing antibiotic treatment, clinically asymptomatic.\nThree weeks after discharge, the patient was evaluated on a follow-up consult and complained of testicular pain and weight loss of 5 kg over the previous 15 days. On the physical evaluation, he presented multiple purpuric lesions with ulcers, pustules and necrotic tissue on his legs (Figs. 1 and 2) and petechiae on his arms. A cutaneous biopsy was performed, showing areas with detachment of the corneal layer with keratinocyte necrosis and abundant polymorphonuclear cells (Fig. 3) and polymorphonuclear infiltration of the arteries of the deep dermis and hypodermis with focal signs of vasculitis (Fig. 4), compatible with polyarteritis nodosa. The patient was treated with prednisolone, starting with 60 mg followed by progressive dose reduction, with complete remission of the skin lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old male presented with fever and diarrhea of 4 days duration.",
+      "history_of_present_illness": "Fever and diarrhea began 4 days prior to emergency admission. Three weeks following discharge after successful antimicrobial treatment, he presented to a follow-up consultation with testicular pain, a 5 kg weight loss over the prior 15 days, and new necrotizing cutaneous lesions on his lower and upper extremities.",
+      "past_medical_history": "Diabetes mellitus and arterial hypertension. No other past medical history or travel documented.",
+      "review_of_systems": "Testicular pain, 5 kg weight loss over 15 days, skin lesions."
+    },
+    "objective": {
+      "physical_examination": "Initial admission: Hypotensive (blood pressure 84/44 mmHg) and dehydrated, without other significant findings. Follow-up visit: Multiple purpuric lesions with ulcers, pustules, and necrotic tissue on bilateral legs, and petechiae on arms.",
+      "routine_investigations": "White blood cell count: 12,200/mm3 with neutrophilia of 10,800/mm3. C-reactive protein: elevated at 9.5 mg/dL. Renal function: severe acute kidney injury with serum creatinine 7.34 mg/dL.",
+      "advanced_workup": "Cutaneous biopsy: detachment of the corneal layer with keratinocyte necrosis and abundant polymorphonuclear cells, along with polymorphonuclear infiltration of the arteries of the deep dermis and hypodermis with focal signs of vasculitis, compatible with polyarteritis nodosa."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Typhoid fever (Salmonella enterica serotype Typhi bacteremia) complicated by septic shock and acute renal failure, followed by post-infectious secondary polyarteritis nodosa (PAN). Blood cultures isolated Salmonella Typhi, susceptible to ciprofloxacin. Initial management: hemodynamic stabilization with aminergic (vasopressor) support, renal replacement therapy (hemodialysis), and intravenous ciprofloxacin according to susceptibility tests, resulting in resolution of infection and normal discharge. For secondary polyarteritis nodosa: oral prednisolone initiated at 60 mg daily with progressive tapering, achieving complete remission of cutaneous vasculitic lesions."
+    }
+  }
+}

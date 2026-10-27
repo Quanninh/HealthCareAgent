@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3625586_01",
+  "pair_id": "PMC3625586_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 25-year-old male, resident of Srinagar, businessman by occupation returned to Srinagar after a weeklong trip to Delhi in October 2012. The patient started developing fever, chills, myalgias, and headache two days following his return and self-treated himself with Paracetamol. Prophylactic treatment for malaria was not given either before or during the trip. The patient subsequently developed severe headache and high grade fever of 102 F and was admitted to our hospital. Physical examination was unremarkable and haemogram revealed a normal study except for a low platelet count of 86,000/mm3. His renal and liver function tests, spot urine examination, chest X-ray, and USG abdomen were ordered and all parameters were within normal limits. Since the patient had visited Delhi during an outbreak of dengue and was found to have a low platelet count, a viral serology test using IgM ELISA for dengue virus was carried out that turned out to be positive. A diagnosis of dengue fever was made and supportive therapy was initiated. Patient continued to have fever spikes and chills despite the therapy. Since Delhi is also endemic for malaria, rapid card test for malaria along with thick and thin blood smears for malarial parasite was also carried out. The Malaria Ag (pLDH/HRP2) card test was positive for both Plasmodium vivax as well as Plasmodium falciparum and blood smears showed ring forms of Plasmodium falciparum. This suggested that the patient had concurrent dengue fever and malaria. The tests for Malaria were repeated to ensure conformity and the tests were again positive for both Plasmodium vivax and Plasmodium falciparum. The patient was put on 600 mg of oral Chloroquine Phosphate followed by 300 mg after six hours and then 300 mg daily for two days. Patient responded well to the treatment. Fever subsided and his general condition improved. He was also put on radical cure for malaria with 30 mg of Primaquine daily for 14 days (after his G6PD levels returned to normal).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old male presenting with high-grade fever of 102 F, chills, myalgias, and severe headache following travel to Delhi.",
+      "history_of_present_illness": "The patient developed fever, chills, myalgias, and headache 2 days after returning from a 1-week business trip to Delhi, self-treating with paracetamol without relief. With progressive severe headache and high-grade fever of 102 F, he was admitted to the hospital. Persistent febrile spikes and chills continued despite initial supportive management.",
+      "past_medical_history": "Traveled to Delhi for 1 week in October 2012, returning 2 days prior to symptom onset. Denied receiving chemoprophylaxis before or during travel. No other prior medical history documented.",
+      "review_of_systems": "Positive for fever, chills, myalgias, and severe headache. Denied cough, abdominal pain, diarrhea, or rash. Home medications: paracetamol. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Temperature: 102 F (38.9 C). Physical examination was completely unremarkable.",
+      "routine_investigations": "Complete hemogram: Normal study except for thrombocytopenia with platelet count 86,000/mm3. Renal function tests, liver function tests, spot urinalysis, chest X-ray, and abdominal ultrasound: All within normal limits. Glucose-6-phosphate dehydrogenase (G6PD) screen: Normal level.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Concurrent acute dengue fever and mixed Plasmodium infection (Plasmodium vivax and Plasmodium falciparum).\nDiagnostic confirmation: Positive dengue virus IgM ELISA; positive rapid Malaria Ag (pLDH/HRP2) card test for both Plasmodium vivax and Plasmodium falciparum, confirmed on repeat testing; peripheral blood smears demonstrated ring forms of Plasmodium falciparum. Normal G6PD level confirmed.\nPlan & Outcome: Initial supportive care with antipyretics and hydration. Targeted antimalarial therapy with oral chloroquine phosphate (600 mg initially, 300 mg at 6 hours, then 300 mg daily for 2 days), followed by oral primaquine 30 mg daily for 14 days for radical cure. Fever subsided promptly, general condition improved, and the patient made a complete recovery."
+    }
+  }
+}

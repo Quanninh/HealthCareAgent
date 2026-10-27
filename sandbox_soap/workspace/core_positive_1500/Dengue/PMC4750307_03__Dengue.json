@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4750307_03",
+  "pair_id": "PMC4750307_03::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 37-year-old man presented with high-grade continuous fever associated with chills and rigor for 6 days, severe headache, multiple episodes of vomiting for 5 days, and disorientation for 2 days. There was a history of repeated GTCS in last 2 days. There was no similar illness in the past. He was drowsy but arousable on examination (GCS E3M6V5).\nOn neurological examination, he had only neck rigidity with positive Kernig sign and planter was bilateral extensor. Rest of the CNS examination was within normal limit. Other systems were also within normal limit.\nMRI of brain, done on 7th day of fever, showed diffuse brain edema without any structural abnormality, and the patient was diagnosed as dengue meningoencephalitis based on clinical presentation, MAC ELISA reactivity of IgM dengue, CSF profile, and normal routine blood test during and after GTCS.\nPatient was treated only with IV fluid, paracetamol as antipyretic and anticonvulsant (IV phenytoin). On 3rd day onward he had no focal or generalized convulsion. Patient improved gradually, and neck rigidity was absent on the 5th day of hospital stay. Thereafter he had an uneventful hospital stay and was discharged on the 14th day.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 37-year-old male presenting with a 6-day history of continuous high-grade fever with chills and rigors, severe headache, vomiting, disorientation, and recurrent generalized tonic-clonic seizures.",
+      "history_of_present_illness": "Symptoms began 6 days prior with continuous high-grade fever accompanied by chills and rigors. Severe headache and multiple episodes of vomiting developed 5 days prior, followed by disorientation and recurrent generalized tonic-clonic seizures over the 2 days preceding presentation.",
+      "past_medical_history": "No similar illness in the past.",
+      "review_of_systems": "Positive for fever, chills, rigors, headache, vomiting, disorientation, and seizures. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Drowsy but arousable, GCS score E3M6V5 (14/15). Nuchal rigidity present with positive Kernig's sign. Bilateral extensor plantar responses. Remainder of central nervous system and other systemic examinations were within normal limits.",
+      "routine_investigations": "Routine blood tests during and after GTCS: Normal.",
+      "advanced_workup": "Lumbar puncture / CSF profile: Suggestive of viral meningoencephalitis. Brain MRI on day 7 of fever: Diffuse cerebral edema without focal structural lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute dengue meningoencephalitis with diffuse cerebral edema and recurrent generalized seizures. Diagnostic confirmation: Serum IgM dengue reactivity by MAC-ELISA, supportive CSF cytochemical profile, and neuroimaging demonstrating diffuse brain edema.\nPlan & Outcome: Managed with intravenous fluid support, paracetamol as an antipyretic, and intravenous anticonvulsant therapy (phenytoin). Convulsions ceased from hospital day 3 onward. Nuchal rigidity resolved by hospital day 5, sensorium normalized, and the patient made an uneventful recovery and was discharged on day 14."
+    }
+  }
+}

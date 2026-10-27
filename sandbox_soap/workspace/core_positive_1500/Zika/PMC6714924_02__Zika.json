@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6714924_02",
+  "pair_id": "PMC6714924_02::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "In the subsequent month, a 53-year-old Brazilian Caucasian male presented to the same emergency department with fever, asthenia, headache, and arthralgia in the elbows, knees, and shoulders, with onset 5 days previously. The arthralgia had increased in intensity and was accompanied by pain in the left calf and bilateral edema of the ankles, more intense on the left (Figure 2). No additional patient risk factors for thrombosis that may have predisposed them was recorded. Color Doppler ultrasonography examination confirmed thrombosis of the left popliteal vein. The patient was treated with low-molecular weight heparin and VKA therapy and had a full recovery. He also tested positive for Zika virus.\nIn January 2017, a case was reported of a patient who developed thrombosis of the right popliteal vein after being admitted for treatment of severe polyarthralgia and fever caused by Chikungunya infection. This clinical cases claimed our attention for the possible association between this viral infections and VTE.\nAs of now, there is no strong data supporting the relationship between Zika and Chikungunya and VTE. We, therefore, measured D-dimer levels in 172 consecutive patients who presented to the emergency department of a university hospital in an endemic region of Brazil (Sergipe) with either Zika or Chikungunya infections confirmed by PCR tests. The nature of the study was exploratory.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "53-year-old male presenting with a 5-day history of fever, asthenia, headache, polyarthralgia, left calf pain, and asymmetric ankle edema.",
+      "history_of_present_illness": "The patient presented to the emergency department with a 5-day history of fever, asthenia, headache, and polyarthralgia affecting the elbows, knees, and shoulders. The arthralgia worsened over several days and was subsequently accompanied by localized pain in the left calf and bilateral ankle edema, which was markedly more severe on the left side.",
+      "past_medical_history": "Caucasian male residing in Sergipe, Brazil; no documented underlying chronic diseases or prior predisposing risk factors for venous thromboembolism.",
+      "review_of_systems": "Asthenia, headache, polyarthralgia of the elbows, knees, and shoulders, left calf pain; denies chest pain or hemoptysis."
+    },
+    "objective": {
+      "physical_examination": "Fever; bilateral ankle edema, more prominent on the left; localized tenderness and swelling of the left calf.",
+      "routine_investigations": "Color Doppler ultrasonography: Confirmed deep vein thrombosis of the left popliteal vein.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute Zika virus infection confirmed by polymerase chain reaction (PCR), complicated by left popliteal deep vein thrombosis. The patient was managed with therapeutic low-molecular-weight heparin bridged to oral vitamin K antagonist (VKA) therapy, achieving complete clinical recovery."
+    }
+  }
+}

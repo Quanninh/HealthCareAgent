@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7171606_02",
+  "pair_id": "PMC7171606_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 38-year-old woman who is from and lives in Central Africa consulted for solid lesions and purple-colored patches on her right leg and foot that had been evolving for six months. The patient's interview revealed a notion of pain of the affected limb, an antecedent of trauma of the same limb in a road accident that had occurred ten years before and that resulted in a leg lymphoedema. The physical examination found the patient in good general condition, without fever. Locally, there were infiltrated purple macula associated with angiomatous papulo-nodules and lymphoedema of the right leg. The external part of the lower third of the same leg is the seat of an unsightly and atrophic scar and erosion of the external malleolus (Figure 1). At palpation of the pulse, there was no thrill or associated breath at auscultation. The mucous were unharmed. There was no sign of impairment of other organs. So, the diagnosis of endemic KD was evoked in view of the geographical origin of the patient, with a pseudo-Kaposi of Stewart-Bluefarb and an epidemic KD being differentially diagnosed. Hemogram revealed nothing particular. C-reactive protein was positive at 35  mg/L. The histopathology of the lesions and the ultrasonography of the affected limb have not been performed. HIV serology was positive to HIV1. The CD4 count was 600 cells/mm3. The diagnosis of epidemic KD on an anteriorly traumatized leg in a patient from Central Africa was retained.\nThe patient was put on a combination of antiretrovirals including two nucleoside reverse transcriptase inhibitors (emtricitabine-tenofovir) and a non-nucleoside reverse transcriptase inhibitor (efavirenz). The development was marked by the complete disappearance of the pain and an important regression of the lesions after six months of treatment, with however the persistence of residual lymphoedema (Figure 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old woman presenting with solid lesions, purple patches, and pain on her right lower extremity evolving for six months.",
+      "history_of_present_illness": "A 38-year-old woman presented with a 6-month history of painful, progressive nodular and purpuric cutaneous lesions involving her right leg and foot. Ten years prior, she sustained lower extremity trauma in a motor vehicle accident that resulted in chronic post-traumatic lymphedema of the affected limb.",
+      "past_medical_history": "Prior limb trauma sustained in a road traffic accident 10 years earlier resulting in chronic right leg lymphedema. Epidemiological origin: Born and residing in Central Africa.",
+      "review_of_systems": "Pain in the right lower extremity; denies constitutional symptoms, fever, mucosal lesions, or symptoms in other organ systems."
+    },
+    "objective": {
+      "physical_examination": "Good general condition, afebrile. Dermatologic / Extremities: Right lower extremity showed infiltrated purple macules with angiomatous papules and nodules, accompanied by lymphedema; lower third of right lateral leg showed an unsightly atrophic scar with erosion of the external malleolus. Vascular: Peripheral pulses palpable without thrill or audible bruit on auscultation. Mucous membranes: Intact, uninvolved. No evidence of systemic organ involvement.",
+      "routine_investigations": "Complete blood count (hemogram): Normal / unremarkable. C-reactive protein (CRP): Positive at 35 mg/L.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Epidemic Kaposi disease (KD) occurring on a previously traumatized and lymphedematous limb in a patient with human immunodeficiency virus type 1 (HIV-1) infection.\nDiagnostic Evaluation: HIV-1 serology positive, CD4 count 600 cells/mm3. Differentials considered and ruled out included endemic Kaposi disease and Stewart-Bluefarb pseudo-Kaposi sarcoma. Histopathology and Doppler ultrasound were not performed.\nTreatment & Outcome: Initiated on combination antiretroviral therapy comprising emtricitabine, tenofovir disoproxil fumarate, and efavirenz. At six months of treatment, the patient achieved complete pain resolution and substantial regression of vascular lesions, with persistent residual lymphedema."
+    }
+  }
+}

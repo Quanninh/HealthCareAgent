@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC10838024_02",
+  "pair_id": "PMC10838024_02::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "The infant clinically improved. Hemoglobin rose to 91 g/L. Septic workup and HIV screen were negative. Malaria smears showed parasite clearance at 72 h. The infant was transitioned to oral quinine and clindamycin for a total 7-day course. She remained well in follow-up, with no parasite recrudescence or post-artesunate delayed hemolysis. The mother was assessed by the local Tropical Disease Unit. She was clinically well, and malaria thick and thin blood films and rapid diagnostic test were negative. Given the diagnosis of congenital P. ovale malaria in her child, she was treated with 3 days of oral atovaquone-proguanil followed by 14 days of oral primaquine 30 mg (base) per day, following G6PD testing. Infant G6PD testing was not done due to recent red blood cell transfusion and cessation of breastfeeding prior to maternal primaquine course.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 5-week-old female infant presenting for post-resuscitation monitoring and completion of antimicrobial therapy for congenital parasitic infection.",
+      "history_of_present_illness": "Continuation of inpatient management for a 5-week-old infant who demonstrated rapid clinical improvement following emergency transfusion and parenteral antiparasitic therapy. Her feeding, vigor, and hemolytic parameters stabilized, with complete microscopic resolution of acute intraerythrocytic inclusions. Concurrently, the infant's mother was referred to and evaluated at the regional Tropical Disease Unit for maternal screening and radical cure.",
+      "past_medical_history": "Infant: severe congenital neonatal infection successfully treated with blood transfusion and intravenous artesunate. Mother: treated for gestational malaria in Nigeria and Canada, peripartum fever. Infant G6PD testing was deferred due to recent red blood cell transfusion.",
+      "review_of_systems": "Infant: alert, active, feeding vigorously without desaturations or seizures. Mother: asymptomatic, denies fever, chills, night sweats, or fatigue. Medications: infant completed IV artesunate; mother: none currently. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Infant: clinically improved, well-perfused, pink, clear breath sounds, normal heart sounds without murmurs, soft non-tender abdomen without palpable organomegaly. Mother: afebrile, normotensive, systemic examination completely normal.",
+      "routine_investigations": "Infant: hemoglobin rose from 55 g/L to 91 g/L post-transfusion. Full septic workup and HIV screening: negative. Serial thick and thin blood smears performed at 72 hours. Mother: thick and thin blood films negative; rapid diagnostic test negative; G6PD enzymatic screening performed and normal.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Complete parasitological clearance of severe congenital Plasmodium ovale malaria in the infant, and maternal latent hepatic carriage of Plasmodium ovale requiring radical hypnozoitocidal therapy.\nDiagnostic confirmation: Infant peripheral blood smears confirmed complete parasite clearance at 72 hours; maternal blood smears and rapid antigen tests were negative, consistent with dormant hypnozoite carriage; maternal G6PD screening confirmed normal enzymatic activity.\nTreatment & Outcome: Infant was transitioned to oral quinine and clindamycin to complete a total 7-day course, resulting in sustained recovery without parasite recrudescence or post-artesunate delayed hemolysis. Mother discontinued breastfeeding and was treated with oral atovaquone-proguanil for 3 days followed by oral primaquine 30 mg (base) daily for 14 days for radical cure. Both mother and infant remained healthy and free of relapse on outpatient follow-up."
+    }
+  }
+}

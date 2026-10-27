@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9920493_01",
+  "pair_id": "PMC9920493_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A female patient is 56 years old and was born in Sao Tome and Principe. She has a medical history of human immunodeficiency virus (HIV) infection, diagnosed seven years ago when she moved to Portugal. At the time of diagnosis, the patient's CD4 T lymphocyte count was 34 cells/muL with no opportunistic infections. The patient was started on antiretroviral therapy (ART) with lamivudine/tenofovir disoproxil fumarate (FTC/TDF) plus dolutegravir (DTG). The patient stopped attending follow-up appointments, and a few months later she was admitted to the hospital's emergency department, complaining of pain from an ulcer in her right foot that had begun three months prior (Figure 1). After a brief inquiry, she informed the medical team that she had been in Sao Tome and Principe for the previous nine months and that she stopped ART during that period. In Sao Tome and Principe, the patient lived at her family's home and was in contact with seawater and river water every day for cleaning and housekeeping purposes. A blood test revealed a haemoglobin level of 11.0 g/dL, a white blood cell count of 8.2 x 103 cells/muL, and a C-reactive protein level of 3.0 mg/dL. The patient's HIV-1 viral load was 79,300 copies/mL, and her CD4 T lymphocyte count was 240 cells/muL. The medical team collected pus from the ulcer for microbiologic analysis, and S. algae was isolated. The patient was treated with ciprofloxacin for 6 weeks, and ART was reinstated. The patient was evaluated by a plastic surgeon, and a skin graft was performed four weeks later. Figure 2 depicts the ulcer two weeks after the initiation of antibiotic treatment, and Figure 3 depicts the ulcer after the conclusion of the six-week antibiotic treatment and skin grafting. The patient currently maintains regular follow-up appointments at the infectious disease clinic.\nCase 2",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 56-year-old female presenting with a painful, chronic cutaneous ulcer on her right foot for three months.",
+      "history_of_present_illness": "The patient presented with a 3-month history of a painful, non-healing ulcer on her right foot that developed while residing in Sao Tome and Principe. She had discontinued all chronic medications for nine months prior to admission, prompting emergency department presentation for wound care.",
+      "past_medical_history": "Underlying chronic retroviral infection diagnosed seven years prior in Portugal; previously maintained on combination antiretroviral therapy (emtricitabine, tenofovir disoproxil fumarate, and dolutegravir) but defaulted from therapy and follow-up nine months prior. Epidemiological exposure: Born in Sao Tome and Principe; daily contact with marine and river freshwater environments for cleaning and housekeeping purposes during the preceding nine months.",
+      "review_of_systems": "Painful foot ulceration; denies fevers, chills, nausea, vomiting, or respiratory symptoms."
+    },
+    "objective": {
+      "physical_examination": "Dermatologic/Extremities: Chronic cutaneous ulcer on the right foot with purulent exudate and peripheral tissue inflammation; no systemic fevers; vital signs hemodynamically stable.",
+      "routine_investigations": "Hemoglobin: 11.0 g/dL. White blood cell count: 8.2 x 10^3 cells/microL. C-reactive protein (CRP): 3.0 mg/dL.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe cutaneous Shewanella algae soft tissue ulceration in a patient with human immunodeficiency virus type 1 (HIV-1) virological rebound secondary to treatment default (CD4+ T-cell count 240 cells/microL, HIV-1 RNA 79,300 copies/mL; nadir CD4 34 cells/microL). Diagnostic confirmation: Isolation and microbiological identification of Shewanella algae from ulcer purulent exudate cultures, correlated with daily seawater and river water exposure. Plan & Outcome: Treated with oral ciprofloxacin for 6 weeks, alongside wound debridement and reinstatement of antiretroviral therapy (FTC/TDF plus dolutegravir). Underwent successful split-thickness autologous skin grafting by plastic surgery at four weeks, achieving complete re-epithelialization and sustained healing at outpatient follow-up."
+    }
+  }
+}

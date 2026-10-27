@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3322787_02",
+  "pair_id": "PMC3322787_02::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "raw_case_text": "A 35-year-old Caucasian man went to an urgent care clinic twice before being admitted to the hospital with fever as high as 39.4 C, myalgias, and renal insufficiency later. Additional symptoms included headache, photophobia, nausea, and anorexia, starting 10 days after returning from the boating trip. Signs included subtle diffuse flushing and conjunctival suffusions. Initial laboratory values showed a mild hepatitis with a rising creatinine that increased daily to peak at 4.0 mg/dL. Liver enzymes were elevated with peak values of alanine aminotransferase (ALT) 258 U/L, alkaline phosphatase 189 U/L, and bilirubin 3.5 mg/dL. Results of examination of the cerebrospinal fluid were normal. Leukocyte count was within normal range at 4.7 k/muL. By the third day of hospitalization, after IV rehydration and broad-spectrum antimicrobial agents, the patient's fever subsided with improvement of his myalgias and headache. He was discharged and given doxycyline 100 mg twice daily for 10 days. He had no clinical sequelae.\nSerologic tests for infectious hepatitis A, B, C, and brucella, and a Monospot test were negative. MAT and IgM-ELISA for leptospirosis were processed at the Centers for Disease Control and Prevention (CDC), and the California Department of Health Services (CDHS), respectively. Titers from serum drawn 15 days after the initial exposure were negative; however, convalescent-phase serum drawn 17 days later tested positive for leptospira by IgM-ELISA at CDHS, and MAT at CDC showed the strongest reaction with serovars from L. interrogans serogroups Australis and Mini (Table 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old man presented with fever up to 39.4 °C, severe myalgias, and acute renal insufficiency 10 days after a recreational boating trip.",
+      "history_of_present_illness": "Symptoms began 10 days after returning from a boating trip with high fever up to 39.4 °C, myalgias, headache, photophobia, nausea, and anorexia. He was evaluated at an urgent care clinic twice before being admitted to the hospital due to persistent symptoms and rising renal function markers.",
+      "past_medical_history": "Epidemiological exposure: participated in a recreational house-boating trip to New Melones Reservoir, California, with exposure to muddied creek and runoff waters. Baseline medical history, medications, and allergies are unmentioned.",
+      "review_of_systems": "Positive for high fever, headache, photophobia, generalized myalgias, nausea, and anorexia. Home medications and allergies are unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Temperature: up to 39.4 °C. General appearance showed subtle diffuse facial and bodily flushing. Eyes: prominent bilateral conjunctival suffusion.",
+      "routine_investigations": "WBC count: 4.7 x 10^3/muL (normal range). Renal panel: rising serum creatinine increasing daily to a peak of 4.0 mg/dL. Hepatic panel: ALT: 258 U/L; alkaline phosphatase: 189 U/L; total bilirubin: 3.5 mg/dL. Serologic tests for hepatitis A, B, and C, Brucella, and Monospot test were all negative.",
+      "advanced_workup": "Lumbar puncture: cerebrospinal fluid (CSF) analysis demonstrated normal findings."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Leptospirosis manifesting with fever, conjunctival suffusion, acute kidney injury, and hepatitis. Confirmed by CDC and CDHS serologic testing: acute serum (drawn 15 days post-exposure) was negative, but convalescent serum (drawn 17 days later) tested positive by IgM-ELISA at CDHS and by microscopic agglutination testing (MAT) at CDC, reacting most strongly with Leptospira interrogans serogroups Australis and Mini. Acute viral hepatitis A, B, C, Brucella, and Epstein-Barr virus mononucleosis were excluded. Treatment & Outcome: Managed with intravenous rehydration and empiric broad-spectrum antimicrobial agents for 3 days, leading to defervescence and resolution of headache and myalgias. Transitioned at discharge to oral doxycycline 100 mg twice daily for 10 days, achieving complete recovery without clinical sequelae."
+    }
+  }
+}

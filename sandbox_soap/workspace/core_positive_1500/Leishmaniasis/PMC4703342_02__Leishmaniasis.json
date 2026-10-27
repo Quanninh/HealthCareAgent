@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4703342_02",
+  "pair_id": "PMC4703342_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 15-month-old female infant from Georgia arrived in France in September 2010. She had fever, sweats, hepatosplenomegaly, pancytopenia and 213,000 Leishmania/ml. Leishmania amastigotes were observed in the bone marrow. There was no underlying immunosuppression. Treatment with 20 mg/kg of L-AmB resulted in complete resolution of symptoms and parasite clearance from the blood (PCR). Four months later, clinical symptoms recurred with 50 Leishmania/ml. The patient was treated with L-AmB then miltefosine for 28 days, resulting in complete clinical and parasitological response (Fig 1B). Five months later a second overt relapse occurred with typical symptoms and 20 Leishmania/ml. The patient was treated thereafter with meglumine antimoniate with a one-week break for QT interval prolongation. Upon EKG normalization, the course was reinstated with no further QT modifications. All VL clinical signs and laboratory abnormalities resolved. The patient remained relapse-free and PCR-negative 42 months of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-month-old female infant presented with fever, sweats, and abdominal distension.",
+      "history_of_present_illness": "A 15-month-old female infant from Georgia arrived in France in September 2010 with fever, sweats, hepatosplenomegaly, and pancytopenia. She achieved initial cure following liposomal amphotericin B (L-AmB). Four months later, she experienced a clinical relapse, treated with L-AmB followed by 28 days of miltefosine with full response. Five months thereafter, she suffered a second overt clinical relapse with typical symptoms. Meglumine antimoniate was administered, briefly paused due to electrocardiographic changes, and completed successfully without further relapse.",
+      "past_medical_history": "Born in Georgia; immigrated to France in September 2010. No underlying immunosuppression or congenital disease. Prior antibiotic therapy not documented.",
+      "review_of_systems": "Fever, diaphoresis, irritability, abdominal distension. Denied vomiting, diarrhea, or rash."
+    },
+    "objective": {
+      "physical_examination": "Febrile, irritable infant. Abdominal examination revealed marked hepatosplenomegaly. No peripheral lymphadenopathy or petechial lesions.",
+      "routine_investigations": "Pancytopenia noted on complete blood count. Electrocardiogram (ECG) during antimonial therapy revealed QT interval prolongation, which completely normalized after a 1-week treatment interruption.",
+      "advanced_workup": "Bone marrow aspirate revealed intracellular microorganisms within bone marrow mononuclear phagocytes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive Diagnosis: Recurrent visceral leishmaniasis in an immunocompetent infant.\nDiagnostic Confirmation: Bone marrow aspirate demonstrated intracellular Leishmania amastigotes. Quantitative peripheral blood PCR revealed 213,000 Leishmania/mL at presentation, 50 Leishmania/mL at first relapse, and 20 Leishmania/mL at second relapse.\nDifferentials Ruled Out: Primary immunodeficiency, hematologic malignancy, and viral/bacterial sepsis.\nTreatment & Clinical Course: Initial treatment with liposomal amphotericin B (L-AmB; 20 mg/kg total) cleared parasitemia. First relapse treated with L-AmB followed by oral miltefosine for 28 days. Second relapse treated with meglumine antimoniate; therapy was held for 1 week upon detection of QT prolongation on EKG and safely resumed upon normalization. All clinical signs and lab abnormalities resolved completely; patient remained relapse-free and PCR-negative through 42 months of follow-up."
+    }
+  }
+}

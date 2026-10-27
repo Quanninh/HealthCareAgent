@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6329029_03",
+  "pair_id": "PMC6329029_03::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A seven-and-a-half-year-old boy had focal convulsions in February 2012. He was diagnosed to have tuberculomas on CT brain, and CSF examination was normal and was started on four drug ATT (HRZE) in February 2012 along with prednisolone (2 mg/kg/day for a month and then tapered off in next 1 month) but had no response and had increase in size of granulomas even after 1 year of ATT. In February 2013, histopathological examination done on an excised lesion removed by right parietal craniotomy which showed large granulomatous lesions with central caseous necrosis. Acid-fast bacilli (AFB) was not seen, and TB culture was also negative. He was started on second-line drugs consisting of Mfx, Eth, PAS, Cys, Lnz, amikacin (Am) and clofazimine along with prednisolone (2 mg/kg/day for a month and then tapered off in the next 3 months). In August 2013, Am was discontinued. By August 2014, MRI brain showed calcified granulomas (left occipital 36 x 19 mm and right parietal 24 x 19 mm). ATT was stopped in August 2014. On last follow-up in October 2016, he continues to remain asymptomatic, and granulomas have regressed further but still are persistent.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7.5-year-old male presented with focal convulsions.",
+      "history_of_present_illness": "The patient presented with focal convulsions in February 2012.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Brain CT (initial): demonstrated multiple intracranial granulomatous lesions/tuberculomas. Cerebrospinal fluid (CSF) examination: normal. Histopathological examination of excised brain lesion (via right parietal craniotomy): large granulomatous lesions with central caseous necrosis. Follow-up brain MRI (August 2014): calcified granulomas in the left occipital (36 x 19 mm) and right parietal (24 x 19 mm) lobes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Central nervous system tuberculomas / tuberculosis with initial treatment failure on first-line therapy. Histopathology confirmed large granulomatous lesions with central caseous necrosis; acid-fast bacilli (AFB) stain was negative and mycobacterial culture was negative.\nTreatment and clinical course: Initially treated with four-drug first-line ATT (HRZE: isoniazid, rifampicin, pyrazinamide, ethambutol) plus prednisolone (2 mg/kg/day for 1 month, then tapered over 1 month), but showed disease progression and lesion enlargement over 1 year. In February 2013, switched to second-line regimen: moxifloxacin, ethionamide, para-aminosalicylic acid (PAS), cycloserine, linezolid, amikacin, and clofazimine, alongside prednisolone (2 mg/kg/day for 1 month, tapered over 3 months). Amikacin was discontinued in August 2013. Therapy was completed and stopped in August 2014. At follow-up in October 2016, the patient remained asymptomatic with further regression of residual lesions."
+    }
+  }
+}

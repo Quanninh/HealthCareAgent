@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5748105_01",
+  "pair_id": "PMC5748105_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 47-year-old man, surgeon in \"Hopital de l'Esperance,\" a private hospital in the north of Togo about 550 km from Lome, the capital, consulted in the same hospital on February 12, 2016, for fever. He was vaccinated against yellow fever. The thick smear performed was positive for malaria and received artemether/lumefantrine without any favorable clinical course after six days. Due to the persistence of high-grade fever and a generalized weakness, he was hospitalized in a private room and a nurse was designated for his care. On day 6 after consultation, he complained of fever, chills, malaise, headaches, pharyngitis hypoacusis, and diffuse abdominal pain. Laboratory tests showed leukopenia (1,100 cells/mm3) and thrombocytopenia (65,000/mm3). His epigastric pain gradually exacerbated. Based on syndromic abdominal pain with febrile illness, an exploratory laparotomy was conducted, which was followed by a bleeding on the operative wound. He was thus air-lifted using an air ambulance from Togo to Cologne, Germany, on day 13. Before the evacuation, the patient was transfused with two units of packaged red blood cells in the airport as his hemoglobin dropped to 6.8 g/dL with evidence of hemolysis symptoms. Despite intensive medical care in Germany, the patient's condition deteriorated rapidly on the second day of admission, and he died on day 14. A postmortem diagnosis of Lassa fever was confirmed by polymerase chain reaction (PCR) in Germany.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old male presenting with persistent fever and generalized weakness for six days.",
+      "history_of_present_illness": "The patient, a surgeon working in northern Togo, developed fever on February 12, 2016, and was prescribed outpatient oral antimalarial therapy. After six days of treatment without clinical improvement, he was hospitalized for high-grade fever, chills, malaise, headaches, pharyngitis, hypoacusis, and worsening diffuse abdominal pain localized primarily to the epigastrium.",
+      "past_medical_history": "Occupation: Surgeon at Hopital de l'Esperance in northern Togo (~550 km from Lome). Vaccinated against yellow fever. No other prior medical history documented.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "General appearance: Severe generalized weakness, high-grade fever. Abdomen: Progressive severe epigastric tenderness and guarding prompting exploratory laparotomy; post-procedure examination revealed bleeding from the surgical wound.",
+      "routine_investigations": "Complete blood count: Leukopenia with WBC count 1,100 cells/mm3; thrombocytopenia with platelet count 65,000/mm3; hemoglobin subsequently decreased acutely to 6.8 g/dL with clinical and laboratory signs of active hemolysis.",
+      "advanced_workup": "Exploratory laparotomy: Performed for acute syndromic surgical abdomen, followed by postoperative wound hemorrhage."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Lassa fever (viral hemorrhagic fever) confirmed postmortem by reverse transcription polymerase chain reaction (RT-PCR) in Germany, with initial thick smear positive for malaria (malaria coinfection or background parasitemia).\nPlan & Outcome: Initially treated with oral artemether/lumefantrine for 6 days without clinical response. Exploratory laparotomy was performed for syndromic abdominal pain, complicated by wound hemorrhage and severe hemolytic anemia. Transfused with 2 units of packed red blood cells and air-evacuated to Cologne, Germany, on Day 13. Despite intensive medical therapy in the intensive care unit, he suffered catastrophic multiorgan failure and died on Day 14."
+    }
+  }
+}

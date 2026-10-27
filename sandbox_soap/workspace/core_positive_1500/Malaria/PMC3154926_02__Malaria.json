@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3154926_02",
+  "pair_id": "PMC3154926_02::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "This 26-year old Zimbabwean-born Caucasian patient had lived in the UK for four years and reported having malaria 3 times before moving to the UK. The patient presented with circulating P. falciparum trophozoites and schizonts at a parasitaemia of 1.3% following a visit to Mozambique (Mapute/Tete) for a period of three weeks, during which no chemoprophylaxis or treatment was taken. A single pre-treatment blood sample was analysed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old male presenting with acute febrile symptoms following travel to Mozambique.",
+      "history_of_present_illness": "A 26-year-old male who had resided in the UK for four years presented with an acute febrile syndrome following a three-week trip to Mozambique (Maputo and Tete), during which he did not take chemoprophylaxis or antimalarial treatment.",
+      "past_medical_history": "Zimbabwean-born Caucasian male residing in the UK for four years. Past history of three episodes of malaria prior to moving to the UK. Travel to Mozambique (Maputo/Tete) for three weeks without chemoprophylaxis.",
+      "review_of_systems": "Positive for acute fever and malaise. Other systems: null. Medications: none. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Pre-treatment peripheral blood film performed.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Uncomplicated Plasmodium falciparum malaria acquired during travel in Mozambique.\nDiagnostic confirmation: Peripheral blood film demonstrating circulating Plasmodium falciparum trophozoites and schizonts with a parasitemia of 1.3%; massively parallel sequencing (isolate OX003) confirming polyclonal Plasmodium falciparum infection.\nTreatment & Outcome: Treated with standard curative antimalarial therapy following diagnostic blood sampling, achieving full clinical and parasitological cure."
+    }
+  }
+}

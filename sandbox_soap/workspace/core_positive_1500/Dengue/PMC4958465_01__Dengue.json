@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4958465_01",
+  "pair_id": "PMC4958465_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "Patient 1 was a 10-year-old girl admitted with 2 days of fever, retroorbital headache, vomiting, and myalgia. Her white blood cell (WBC) count on the 3rd day was 2.2 x 103 with 65% neutrophils and platelet count of 117,000. Alanine transaminase (ALT) was 17.8 and aspartate transaminase (AST) was 55.2. Treatment was commenced as dengue fever in febrile phase. By the 4th day, she became sleepy and lethargic and the level of consciousness gradually deteriorated. She was moved to high dependency care for further management. On neurological examination, she had increased tone in all four limbs with cogwheel rigidity. The lowest Glasgow coma scale documented was 10/15. Her vital parameters and serial packed cell volume readings remained stable without signs of fluid leakage.\nLowest WBC count (1.9 x 103) was reported on day 5 of the illness and lowest platelet count was 50,000/mm3 on day 6. Liver enzymes deteriorated (ALT: 357, AST: 478) and serum albumin was 38 g/dL and INR was 1.17 on day 6. Tender liver was palpable 2 cm below the costal margin. Renal functions (sodium: 142 mEq/L, potassium: 4.2 mEq/L, blood urea: 7.6 mmol/L, and serum creatinine: 52 mumol/L) remained normal. Serum calcium remained between 2.08 and 2.69 mmol/L. Primary dengue infection was suggested by the presence of IgM antibodies and absence of IgG antibodies to dengue virus. Dengue NS-1 antigen and the viral load were not performed due to lack of laboratory support. A CT scan revealed hypodense areas in bilateral thalamic and basal ganglia regions (Figure 1). Cerebrospinal fluid examination did not reveal any cells and had normal protein levels (42 mg/dL). Over the next 2 weeks following the acute illness, she showed complete recovery with no residual neurological disability.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old girl presenting with a 2-day history of fever, retro-orbital headache, vomiting, and myalgia.",
+      "history_of_present_illness": "A 10-year-old girl presented with 2 days of fever, retro-orbital headache, vomiting, and myalgia. On illness day 4, she became progressively sleepy and lethargic, with deteriorating sensorium requiring transfer to high-dependency care. Vital parameters and serial hematocrit/packed cell volume remained stable without evidence of plasma leakage.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, retro-orbital headache, vomiting, myalgia, sleepiness, and lethargy. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination on day 4: Increased muscle tone in all four limbs with cogwheel rigidity; lowest Glasgow Coma Scale (GCS) score documented was 10/15. Abdominal examination: Tender hepatomegaly palpable 2 cm below the costal margin. Vital signs stable throughout.",
+      "routine_investigations": "Day 3: WBC 2.2 x 10^3/muL (65% neutrophils), platelets 117,000/muL, ALT 17.8 U/L, AST 55.2 U/L. Day 5: Lowest WBC 1.9 x 10^3/muL. Day 6: Lowest platelets 50,000/mm3, ALT 357 U/L, AST 478 U/L, serum albumin 38 g/L, INR 1.17, serum sodium 142 mEq/L, potassium 4.2 mEq/L, blood urea 7.6 mmol/L, serum creatinine 52 mumol/L, serum calcium 2.08-2.69 mmol/L.",
+      "advanced_workup": "Brain CT scan: Hypodense areas in bilateral thalamic and basal ganglia regions. Lumbar puncture / CSF examination: Acellular (no cells), normal protein level (42 mg/dL)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute dengue encephalitis / neurodengue with bilateral basal ganglia and thalamic involvement and extrapyramidal signs (cogwheel rigidity). Diagnostic confirmation: Positive dengue virus IgM antibodies and negative IgG antibodies, confirming primary dengue infection (NS1 antigen and RT-PCR unavailable due to laboratory constraints); CSF cellularity normal; characteristic CT hypodensities in basal ganglia and thalami.\nPlan & Outcome: Managed in high-dependency care with close neuro-monitoring and supportive care. Over the subsequent 2 weeks, sensorium cleared and she achieved complete clinical recovery without residual neurological disability."
+    }
+  }
+}

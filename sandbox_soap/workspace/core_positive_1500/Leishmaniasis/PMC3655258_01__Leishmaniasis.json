@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3655258_01",
+  "pair_id": "PMC3655258_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "Our patient, a fifteen year old male, resident of Bihar had complaints of longstanding fever, abdominal distention, weight loss and generalized weakness since ten months. He then reported to the local district hospital where the rK39, rapid diagnostic test for kala azar was done and found positive. He was given three injections of amphotericin deoxycholate to which he reacted with fever and hypotension. No further medication was given or investigations carried out. The parents were migrant laborers and the boy was brought to the outpatient department of our hospital in New Delhi after another two months when symptoms persisted.\nOn examination, he was febrile, undernourished, with massive splenomegaly and hepatomegaly. Hematological investigations showed moderate pancytopenia, Hb 8.3g/dl, TLC 2000/mm3, platelet count 75,000/mm3. rK 39 Rapid Diagnostic test was repeated and was negative. ELISA tests for HIV, HbsAg and HCV were all negative. Mantoux test was also negative. Liver and renal function tests were within normal limits. Bone marrow aspiration showed reactive plasmacytosis (10%) and no Leishmania donovani (LD) bodies were seen. Napier's aldehyde test was performed which was strongly positive. In view of the strong clinical suspicion of VL and the positive aldehyde test, splenic aspiration was done. Aspirates showed both intracellular as well as extracellular amastigote forms of LD bodies, thus confirming VL (Fig. 1). A combination therapy was started with pulse liposomal amphotericin B (10 mg/kg body weight) i.e. 250 mg as a single dose therapy followed by tablet miltefosine 50mg O.D. for one week. Patient responded well to the therapy. He became afebrile with improvement of the blood counts and regression of the spleen size.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old male presented with a 10-month history of persistent fever, abdominal distension, progressive weight loss, and generalized weakness.",
+      "history_of_present_illness": "The patient developed protracted fever, abdominal distension, progressive weight loss, and weakness 10 months prior to presentation. At a local district hospital, he received three doses of conventional amphotericin B deoxycholate, which were abruptly discontinued due to severe infusion-related fevers and hypotension. His symptoms persisted untreated for two additional months before presentation to a tertiary hospital in New Delhi.",
+      "past_medical_history": "Prior adverse drug reaction: severe fever and hypotension following amphotericin B deoxycholate. Epidemiological history: resident of Bihar, India (endemic for visceral leishmaniasis); son of migrant laborers.",
+      "review_of_systems": "Reports longstanding daily fevers, generalized asthenia, abdominal distension, and significant weight loss."
+    },
+    "objective": {
+      "physical_examination": "Febrile and undernourished adolescent male. Abdominal examination demonstrated massive splenomegaly and palpable hepatomegaly.",
+      "routine_investigations": "Complete blood count revealed moderate pancytopenia: hemoglobin 8.3 g/dL, total leukocyte count (TLC) 2,000/mm^3, and platelet count 75,000/mm^3. Liver function tests and renal function tests: within normal limits. Serologies: HIV, HBsAg, and anti-HCV ELISA all negative. Mantoux tuberculin skin test: negative. Repeat rK39 rapid diagnostic test: negative. Napier's aldehyde test: strongly positive.",
+      "advanced_workup": "Bone marrow aspiration: reactive plasmacytosis (10%) with absence of visible intracellular parasites. Splenic aspiration: cellular aspirate evaluated for protozoal organisms."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Splenic aspiration demonstrated abundant intracellular and extracellular amastigote forms of Leishman-Donovan (LD) bodies, definitively confirming visceral leishmaniasis (kala-azar) despite a false-negative repeat rK39 test and negative bone marrow aspirate. Tuberculosis, viral hepatitis, and HIV infection excluded. Management and Outcome: Treated with combination antileishmanial therapy consisting of a single pulse infusion of liposomal amphotericin B at 10 mg/kg (250 mg) followed by oral miltefosine 50 mg once daily for 7 days. The patient responded rapidly with complete defervescence, significant hematologic recovery, and marked regression of splenomegaly."
+    }
+  }
+}

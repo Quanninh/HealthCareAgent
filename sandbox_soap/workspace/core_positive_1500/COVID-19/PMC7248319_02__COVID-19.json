@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7248319_02",
+  "pair_id": "PMC7248319_02::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "An 88-year-old Japanese male with a history of prostate cancer and hypertension boarded the cruise ship with his wife 16 days before the ship was quarantined. He recognized fever (day 0) and underwent RT-PCR testing on day 4, with a positive result, and was admitted on day 6. On admission, he suffered from fever and fatigue without cough or breathing difficulty. Blood results were as follows: WBC 3,100/muL, lymphocyte 704/mL, AST 39 IU/L, ALT 18 IU/L, sodium 127 mmol/L, and CRP 1.52 mg/dL. Fever and fatigue persisted, and other symptoms such as cough and diarrhea were developed on day 11. Despite our efforts to correct sodium abnormality, hyponatremia continued, ranging from 125 to 127 mmol/L, with a mild oxygen requirement (1-2 L/min). Chest X-ray revealed a new appearance of infiltrative shadow in the bilateral lung, and the CT scan image showed GGO in the outer area with or without consolidation. The diagnosis of COVID-19 pneumonia was made, and LPV/r was initiated after achieving consent. He had continued to take telmisartan 40 mg and trichlormethiazide 1 mg for hypertension, tamsulosin hydrochloride 0.2 mg for dysuria, and bicalutamide, an androgen receptor antagonist, 80 mg for prostate cancer. Symptoms gradually decreased in severity, with improvements in hyponatremia and lymphocytopenia. Although diarrhea and appetite loss due to LPV/r were seen, he was able to continue treatment. On day 25, he tested RT-PCR-negative for two samples and was discharged.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 88-year-old male presenting with a 6-day history of fever and fatigue following exposure on a quarantined cruise ship.",
+      "history_of_present_illness": "An 88-year-old male developed a fever (illness day 0) after boarding a cruise ship that subsequently underwent quarantine. Following a positive viral test on day 4, he was admitted on illness day 6 presenting with persistent fever and fatigue without cough or dyspnea. On illness day 11, he developed cough, diarrhea, and persistent hyponatremia with a new mild supplemental oxygen requirement (1–2 L/min).",
+      "past_medical_history": "Prostate cancer, hypertension, and dysuria. Epidemiological exposure: cruise ship passenger for 16 days prior to vessel quarantine.",
+      "review_of_systems": "Positive for fever, fatigue, dry cough, and diarrhea. Denied dyspnea on admission. Home medications: telmisartan 40 mg daily, trichlormethiazide 1 mg daily, tamsulosin hydrochloride 0.2 mg daily, and bicalutamide 80 mg daily. Allergies: none documented."
+    },
+    "objective": {
+      "physical_examination": "Upon admission (day 6): febrile and fatigued; no respiratory distress. On illness day 11: mild hypoxemia requiring 1–2 L/min supplemental oxygen via nasal cannula.",
+      "routine_investigations": "Admission labs (day 6): WBC count: 3,100/muL; absolute lymphocyte count: 704/muL; AST: 39 IU/L; ALT: 18 IU/L; serum sodium: 127 mmol/L; C-reactive protein (CRP): 1.52 mg/dL. Serial labs: persistent hyponatremia (125–127 mmol/L) until post-treatment resolution. Chest X-ray (day 11): new bilateral pulmonary infiltrative shadows.",
+      "advanced_workup": "Chest computed tomography (CT) on day 11: peripheral/outer ground-glass opacities (GGO) with and without associated consolidative opacities in bilateral lungs."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Moderate-to-severe COVID-19 pneumonia with syndrome of inappropriate antidiuresis/hyponatremia and mild hypoxemia, confirmed by positive SARS-CoV-2 RT-PCR on day 4. Management & Plan: Initiated on antiviral therapy with lopinavir/ritonavir (LPV/r) for a total duration of 12 days, alongside low-flow oxygen therapy (1–2 L/min) and electrolyte management. Ongoing home therapies (telmisartan, trichlormethiazide, tamsulosin, and bicalutamide) were maintained. Adverse effects of LPV/r included mild diarrhea and anorexia, which were tolerated. Following clinical defervescence, radiographic improvement, and normalization of sodium and lymphocytes, the patient was discharged on illness day 25 after two consecutive negative SARS-CoV-2 RT-PCR tests."
+    }
+  }
+}

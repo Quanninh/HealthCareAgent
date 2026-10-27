@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9091447_02",
+  "pair_id": "PMC9091447_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 40-year-old male experienced blurred vision and black shadows in both eyes 2 months after HAART initiation (3TC and Dolutegravir [DTG]). CD4 counts were 160/mul. VA was 20/50 in the right eye and 20/40 in the left eye. Ophthalmic examination showed retinal necrosis and hemorrhages with vitritis (++) in zones 2 and 3. OCT was normal in the macular. He underwent PPV and silicone oil tamponades in the left eye and ganciclovir and steroid intravitreal injections for both eyes. Afterward, immediate PPV and silicone oil tamponades were conducted in the opposite eye for secondary retinal detachment 1 month later. Vitreous DNA sequencing showed a CMV sequence of 446,072 copies. Silicone oil removal was conducted 4 months later for both eyes. Intravitreal injections were conducted eight times separately for both eyes. VA of the patient was 20/20 in both eyes at the last follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old male presenting with bilateral blurred vision and floating shadows two months after initiating antiretroviral therapy.",
+      "history_of_present_illness": "The patient presented with a 2-month history of bilateral blurred vision and dark shadows (floaters) starting two months after initiation of combination antiretroviral therapy. He underwent surgical and medical vitreoretinal management, followed one month later by acute retinal detachment in the contralateral right eye requiring urgent operative intervention.",
+      "past_medical_history": "Receiving combination antiretroviral therapy consisting of lamivudine (3TC) and dolutegravir (DTG) initiated two months prior.",
+      "review_of_systems": "Bilateral blurred vision and vitreous floaters; denies ocular pain, redness, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Ophthalmic Examination: Best-corrected visual acuity was 20/50 in the right eye and 20/40 in the left eye; fundoscopy revealed bilateral necrotizing retinitis and intraretinal hemorrhages with moderate vitritis (++) involving zones 2 and 3.",
+      "routine_investigations": null,
+      "advanced_workup": "Optical coherence tomography (OCT): Normal macular architecture bilaterally. Vitreous fluid sampled for molecular diagnostic DNA sequencing."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Bilateral cytomegalovirus (CMV) retinitis complicated by secondary rhegmatogenous retinal detachment and immune recovery vitritis in a patient with human immunodeficiency virus (HIV) infection on HAART (CD4+ T-cell count 160/microL). Diagnostic confirmation: High-titer vitreous CMV DNA (446,072 copies) on DNA sequencing, consistent with characteristic clinical necrotizing retinitis and vitritis. Plan & Outcome: Underwent urgent pars plana vitrectomy (PPV) and silicone oil tamponade in the left eye, along with bilateral intravitreal ganciclovir and corticosteroid injections. Secondary retinal detachment in the right eye required emergency PPV with silicone oil tamponade one month later. Both eyes received a total of 8 intravitreal injections each. Bilateral silicone oil removal was performed at 4 months. Final visual acuity achieved 20/20 in both eyes at last follow-up."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4856911_01",
+  "pair_id": "PMC4856911_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "Patient 1. A 72-year-old woman was admitted to hospital with (R) knee pain and swelling for 6/52. There are accompanying fever, night sweats, anorexia, and generalized body aches. She is known to have hypothyroid with osteoarthritis (OA) and polycythemia rubra vera. There was a history of raw milk ingestion. Her temperature was 38 C. The (R) knee was swollen, hot, and tender. General examination was normal except for splenomegaly. The WBC was 2.1 x 109 and platelets were 618 x 109 (150-450 x 109). CRP and uric acid were high at 55 mg/L (<5 mg/L) and 624 mumol/L (NR 143-339 mumol/L) consecutively. The differential diagnosis included septic arthritis and crystal arthropathy. X-ray showed moderate left knee osteoarthritis with mild effusion (Figure 1). Synovial fluid aspirate was exudative with protein 34 g/L and high LDH 1036 but was unsuitable for cell count. An initially negative brucella serology, 2 months ago, is now positive 1 : 10240 (Table 1). Blood culture x 6 was positive; however, echocardiogram did not reveal vegetations. After 3-month treatment of rifampicin and doxycycline her symptoms subsided and CRP is 12.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old female presented with a 6-week history of right knee pain, swelling, fever, night sweats, anorexia, and generalized body aches.",
+      "history_of_present_illness": "The patient developed progressive right knee pain and swelling over a 6-week duration, accompanied by fever (38 °C), night sweats, anorexia, and generalized body aches. An initial serologic workup 2 months prior had been negative.",
+      "past_medical_history": "Known history of hypothyroidism, osteoarthritis (OA), and polycythemia rubra vera. Epidemiological exposure: history of raw milk ingestion. Prior antibiotic therapy not documented.",
+      "review_of_systems": "Right knee pain, swelling, fever, night sweats, anorexia, generalized body aches. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Temperature: 38 °C. Right knee: swollen, hot, and tender to palpation. Abdomen: splenomegaly. General physical examination otherwise normal.",
+      "routine_investigations": "WBC: 2.1 x 10^9/L (leukopenia); Platelets: 618 x 10^9/L (thrombocytosis, reference 150-450 x 10^9/L); CRP: 55 mg/L (reference <5 mg/L); Uric acid: 624 mumol/L (reference 143-339 mumol/L). Plain radiograph of knee: moderate osteoarthritis with mild joint effusion. Synovial fluid aspirate: exudative fluid with protein 34 g/L and LDH 1036 U/L (unsuitable for cell count).",
+      "advanced_workup": "Transthoracic echocardiogram: normal, did not reveal vegetations."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Septic arthritis of the right knee and bacteremia due to Brucellosis (Brucella infection), occurring in a patient with underlying osteoarthritis and polycythemia rubra vera.\nConfirmation: Brucella serology significantly positive at a titer of 1:10240 (seroconversion from negative serology 2 months prior); 6 out of 6 blood cultures positive for Brucella.\nDifferentials ruled out: Crystal arthropathy (gout) considered due to hyperuricemia (624 mumol/L); non-brucellar septic arthritis; infective endocarditis ruled out by negative echocardiography.\nTreatment & Outcome: Treated with oral rifampicin and doxycycline for 3 months. Symptoms completely subsided, and follow-up CRP normalized to 12 mg/L."
+    }
+  }
+}

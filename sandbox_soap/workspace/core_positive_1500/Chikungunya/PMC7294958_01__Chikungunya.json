@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7294958_01",
+  "pair_id": "PMC7294958_01::Chikungunya",
+  "target_disease": "Chikungunya",
+  "raw_case_text": "A 15-day-old male infant was referred to our hospital with a history of recurrent apnea, suspected sepsis, neonatal hyperbilirubinemia, and thrombocytopenia. The infant was ventilated at the referring hospital for recurrent apnea and was treated with intravenous antibiotics and other supportive measures. General examination at admission revealed marked hyperpigmentation of the face (Figure 1) and genital region (Figure 2). Systemic examination was unremarkable. The possibility of neonatal chikungunya was considered due to classical hyperpigmentation, clinical presentation, and thrombocytopenia. The patient's mother reported having suffered a fever during the week preceding his delivery. The diagnosis in the neonate was confirmed by positive IgM antibodies to chikungunya. The child was treated symptomatically, recovered gradually, and was extubated on the third day of admission. Platelet count also normalized and the infant was discharged on the tenth day of admission. Transmission of chikungunya from mother to fetus is most likely when the mother is viremic at delivery. Though neurological, ocular, renal, and hematological manifestations have been described, the striking pigmentation of the nose, described as the \"chik sign,\" is the most recognizable feature in the diagnosis of neonatal chikungunya  . Differential diagnoses include congenital lupus, drug rash (due to imipenem, for instance), and bacterial infections (Listeria monocytogenes, Staphylococcus epidermidis), fungi (Candida), and viruses (human herpesvirus 6, enteroviruses). Knowledge of the \"chik sign\" as a cutaneous feature of chikungunya could be useful in resource-poor settings to detect unrecognized outbreaks of this arboviral fever, especially when the facilities for serological confirmation are not available.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-day-old male infant was referred with recurrent apnea, suspected sepsis, neonatal hyperbilirubinemia, and thrombocytopenia.",
+      "history_of_present_illness": "A 15-day-old male neonate was transferred from an outside hospital following intubation and mechanical ventilation for recurrent apnea in the setting of suspected sepsis, neonatal hyperbilirubinemia, and thrombocytopenia. He had received empiric intravenous antibiotics and supportive care.",
+      "past_medical_history": "Born to a mother who suffered from a febrile illness during the week preceding delivery; prior hospitalization and mechanical ventilation at referring facility.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "General examination: Marked hyperpigmentation involving the face (particularly the nose) and the genital region. Systemic examination: Unremarkable.",
+      "routine_investigations": "Thrombocytopenia and neonatal hyperbilirubinemia documented (exact numerical values not reported in case text).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Positive IgM antibodies to Chikungunya virus, confirming vertically transmitted neonatal Chikungunya infection with characteristic facial ('chik sign') and genital hyperpigmentation. Management and course: Managed with supportive intensive care and mechanical ventilation; extubated on the third hospital day. Thrombocytopenia resolved, and the infant was discharged in stable condition on day 10."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3162835_02",
+  "pair_id": "PMC3162835_02::Rabies",
+  "target_disease": "Rabies",
+  "raw_case_text": "A six year-old girl presented with sudden onset of quadriparesis for one day, preceded by fever, myalgia, and vomiting for four days. There was also a history of a dog bite in her right upper arm (Grade III bite) three weeks back.\nThe child was given the PCEC vaccine as per schedule in the deltoid and received a total of four doses before the development of any symptoms. In that case also RIG was not given though it was indicated. The patient was treated conservatively, but the clinical features and the progression of disease was similar to the first case, except for the presence of myoedema, a striking feature of rabies. In spite of good supportive measures, she expired on the 12th day of disease onset.\nResults of laboratory investigations on the 11th day of the illness were also quite similar to the first case. The CSF test was strongly positive for rabies antigen and immune complexes. Neutralizing antibodies to rabies virus were detected in both serum and CSF by the Rapid Fluorescent Focus Inhibition Test (RFFIT).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 6-year-old girl presenting with acute onset of quadriparesis for 1 day, preceded by 4 days of fever, myalgia, and vomiting.",
+      "history_of_present_illness": "Four days prior to presentation, the patient developed fever, diffuse myalgia, and vomiting. One day prior to presentation, she experienced sudden onset of quadriparesis.",
+      "past_medical_history": "History of a Grade III dog bite to the right upper arm 3 weeks prior. Received four doses of purified chick embryo cell (PCEC) vaccine in the deltoid on schedule prior to symptom onset; specific immunoglobulin was indicated but not administered.",
+      "review_of_systems": "Fever, myalgia, vomiting, and acute motor weakness."
+    },
+    "objective": {
+      "physical_examination": "Sudden onset of quadriparesis and prominent myoedema.",
+      "routine_investigations": null,
+      "advanced_workup": "Lumbar puncture performed on day 11 of illness (routine cell count and biochemical parameters not documented)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of rabies: CSF was strongly positive for rabies antigen and immune complexes; neutralizing antibodies to rabies virus were detected in both serum and CSF by the Rapid Fluorescent Focus Inhibition Test (RFFIT). Managed conservatively with supportive intensive measures. Despite interventions, progressive neurological decline ensued, and the patient expired on the 12th day of disease onset."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC11249904_02",
+  "pair_id": "PMC11249904_02::Typhoid_Fever",
+  "target_disease": "Typhoid_Fever",
+  "raw_case_text": "A 24-year-old male presented with a fever for 16 days mild abdominal pain and a weight loss of 4 kg. He was treated outside with cefixime for five days at suboptimal doses. Routine investigations revealed a leucocyte count of 3400/muL with ESR 87 mm/hr with slightly elevated SGOT (62 IU/dL) and SGPT (58 IU/dL), rest parameters were normal. He was evaluated for dengue, malaria, and typhus fever and all workups were negative. Ultrasound showed ileal thickening with few mesenteric lymph nodes (LN) triggering suspicion of Koch's disease. Meanwhile, he underwent a CT abdomen that showed terminal ileal thickening with mesenteric LN of maximum size 12-14 mm and was non-necrotic. In between blood cultures grew S. typhi. He was started antibiotic ceftriaxone, but there was no response till day 7 which prompted us to colonoscopy which showed multiple superficial ulcers with whitish exudate with surrounding erythema in the ascending colon and caecum. The ileocecal valve and ileum showed multiple superficial ulcers with whitish exudate with surrounding erythema. Mucosa edematous, erythematous with a bluish hue seen till 20 cm (Fig. 3). Histopathology revealed diffuse active ileitis with lymphoid hyperplasia and prominent histolytic inflammatory infiltrate. Acid-fast staining did not reveal acid-fast bacilli and Gene Xpert for mycobacterium tuberculosis was negative. The patient responded to ceftriaxone on day 9th and was discharged after 5 days of more intravenous antibiotics. At the 2-month follow-up, the ultrasound was repeated which showed a resolution of ileal thickening.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old male presented with a 16-day history of fever, mild abdominal pain, and weight loss.",
+      "history_of_present_illness": "The patient presented with fever of 16 days' duration, accompanied by mild abdominal pain and an associated 4 kg weight loss. Prior to admission, he was treated outside with suboptimal doses of cefixime for 5 days without clinical benefit.",
+      "past_medical_history": "Treated with a 5-day course of suboptimal oral cefixime prior to admission. No other prior medical history reported.",
+      "review_of_systems": "Reports mild abdominal pain and a 4 kg weight loss. No other complaints reported."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Leucocyte count 3400/muL, ESR 87 mm/hr, SGOT 62 IU/dL, and SGPT 58 IU/dL; remaining baseline laboratory parameters were normal. Diagnostic evaluations for dengue, malaria, and typhus fever were all negative. Abdominal ultrasonography demonstrated ileal thickening with a few mesenteric lymph nodes.",
+      "advanced_workup": "Abdominal CT showed terminal ileal thickening with non-necrotic mesenteric lymph nodes measuring up to 12-14 mm. Colonoscopy revealed multiple superficial ulcers with whitish exudate and surrounding erythema in the ascending colon and caecum; the ileocecal valve and ileum showed multiple superficial ulcers with whitish exudate and surrounding erythema, with edematous, erythematous mucosa and a bluish hue extending up to 20 cm. Histopathology revealed diffuse active ileitis with lymphoid hyperplasia and prominent histiocytic inflammatory infiltrate. Acid-fast staining was negative for acid-fast bacilli and GeneXpert for Mycobacterium tuberculosis was negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Salmonella typhi bacteremia (typhoid fever) confirmed by blood cultures growing S. typhi. Dengue, malaria, typhus fever, and abdominal tuberculosis (Koch's disease) were ruled out based on negative diagnostic panels, negative AFB staining, and negative GeneXpert.\nPlan & Outcome: Initiated on intravenous ceftriaxone. The patient did not show clinical response through day 7, with defervescence occurring on day 9 of ceftriaxone therapy. Intravenous antibiotics were continued for 5 additional days prior to discharge. At 2-month follow-up, repeat ultrasound confirmed complete resolution of ileal thickening."
+    }
+  }
+}

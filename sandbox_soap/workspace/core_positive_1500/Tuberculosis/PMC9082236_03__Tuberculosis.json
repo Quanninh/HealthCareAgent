@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9082236_03",
+  "pair_id": "PMC9082236_03::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A man who was on second-line ART and had a history of TB four times prior presented with weight loss, fatigue and diffuse, hypopigmented skin lesions suggestive of a superficial fungal infection (see Table 1 for more information). The patient was classified as meeting the WHO 'seriously ill' criteria and an AlereLAM revealed a strongly positive (4+) result; he was therefore started on TB treatment. A sputum and urine sample were collected, and both of these later cultured Mycobacterium kansasii. Once the two samples had isolated M. kansasii, a dual infection of M. tb and M. kansasii was diagnosed and azithromycin was added to the patient's regimen. Unfortunately, the patient disengaged from treatment after one year and died as an inpatient two years after initial presentation. Blood culture on that admission was positive for Mycobacterium kansasii. No Xpert MTB/RIF or cultures identified M. tb.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An adult male presented with weight loss, fatigue, and diffuse hypopigmented skin lesions.",
+      "history_of_present_illness": "A man with HIV on second-line antiretroviral therapy and a history of four prior tuberculosis episodes presented with fatigue, weight loss, and widespread hypopigmented skin lesions. He met the WHO 'seriously ill' criteria and was evaluated for opportunistic mycobacterial disease.",
+      "past_medical_history": "HIV infection on second-line ART; four previous episodes of tuberculosis. Other past medical history, travel, or animal exposures not documented.",
+      "review_of_systems": "Reports weight loss, fatigue, and diffuse hypopigmented cutaneous lesions; denies acute cough, hemoptysis, or chest pain. Home medications: second-line ART. Allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Met WHO 'seriously ill' criteria. Dermatologic examination revealed diffuse, hypopigmented superficial cutaneous lesions suggestive of superficial fungal infection.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Disseminated non-tuberculous mycobacterial infection with Mycobacterium kansasii dual infection / cross-reactivity in advanced HIV.\nConfirmation: Urine AlereLAM assay was strongly positive (4+); sputum and urine cultures subsequently isolated Mycobacterium kansasii; blood culture on subsequent admission grew M. kansasii; Xpert MTB/RIF and mycobacterial cultures did not detect M. tuberculosis.\nDifferentials ruled out: Superficial fungal infection considered for skin lesions; Mycobacterium tuberculosis excluded on negative Xpert MTB/RIF and cultures.\nTreatment & Outcome: Initially started on anti-tuberculosis therapy based on strongly positive AlereLAM; azithromycin was added once M. kansasii was isolated. Patient disengaged from treatment after 1 year, was readmitted 2 years after presentation with M. kansasii bacteremia, and expired as an inpatient."
+    }
+  }
+}

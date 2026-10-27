@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7383664_01",
+  "pair_id": "PMC7383664_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 34-year-old man presented with weight loss, progressively worsening gait, confusion, back pain and urinary incontinence. Initial examination of both lower extremities showed Muscle Power Assessment (MRC) 3 out of 5 in both extremities, spastic paraparesis with brisk knee reflexes, absent ankle jerk and diffuse sensory deficits. Skin examination was notable for seborrheic dermatitis and oral thrush. Initial laboratory workup showed lymphopenia with absolute lymphocyte count of 0.90 K/microL (normal 1-4.8 K/microL). MRI brain showed increased T2 signal intensity throughout the periventricular and juxtacortical white matter extending along the corticospinal tracts in the brain stem (Figure 1). MRI of the cervical spine was normal, while imaging of the thoracic spine showed mild diffuse cord atrophy most apparent from T3 to T10 (Figures 2 and 3). MRI lumbar spine showed a small right paracentral disc extrusion at the level of L5-S1 (Figure 4). Lumbar puncture was negative for syphilis, toxoplasmosis, Cryptococcus, Cytomegalovirus and Epstein-Barr Virus. Cerebrospinal fluid (CSF) counts were notable for elevated protein to 163 mg/dL and total white blood cell (WBC) count of 36 cells/microL with 95% lymphocytes. A fourth-generation HIV Ag/Ab assay was found to be positive. Initial HIV viral load was 300,000 copies/mL and CD4+ count was 89 cells/microL. He was started on emtricitabine/tenofovir disoproxil fumarate and Raltegravir. Later, his Raltegravir was switched to dolutegravir.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 34-year-old male presenting with progressively worsening gait, confusion, back pain, urinary incontinence, and weight loss.",
+      "history_of_present_illness": "A 34-year-old male presented with a progressive neurological decline characterized by gait deterioration, confusion, back pain, urinary incontinence, and involuntary weight loss, prompting emergency inpatient evaluation.",
+      "past_medical_history": null,
+      "review_of_systems": "Confusion, progressive gait instability, back pain, urinary incontinence, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Neurological: Bilateral lower extremity motor strength MRC grade 3/5, spastic paraparesis, brisk patellar reflexes, absent Achilles reflexes, and diffuse lower extremity sensory deficits. Mental status: Confusion. Dermatologic / HEENT: Seborrheic dermatitis and oral thrush.",
+      "routine_investigations": "Complete blood count: Lymphopenia with absolute lymphocyte count of 0.90 K/microL (normal range: 1.0-4.8 K/microL).",
+      "advanced_workup": "Brain MRI: Increased T2 signal intensity throughout periventricular and juxtacortical white matter extending along the corticospinal tracts in the brainstem. Spine MRI: Normal cervical cord; mild diffuse thoracic cord atrophy most apparent from T3 to T10; lumbar spine showed small right paracentral disc extrusion at L5-S1. Lumbar puncture / CSF analysis: Protein elevated at 163 mg/dL, total WBC count 36 cells/microL with 95% lymphocytes; CSF studies negative for syphilis, toxoplasmosis, Cryptococcus, Cytomegalovirus, and Epstein-Barr virus."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Newly diagnosed advanced human immunodeficiency virus (HIV) infection complicated by HIV-associated vacuolar myelopathy, HIV encephalopathy, and oral candidiasis.\nConfirmatory Testing: Fourth-generation HIV Ag/Ab assay positive; baseline plasma HIV RNA viral load 300,000 copies/mL; baseline CD4+ T-cell count 89 cells/microL. CSF infectious workup ruled out neurosyphilis, toxoplasmosis, cryptococcal meningitis, CMV, and EBV.\nTreatment & Course: Combination antiretroviral therapy was initiated with emtricitabine/tenofovir disoproxil fumarate plus raltegravir, subsequently transitioned to emtricitabine/tenofovir disoproxil fumarate and dolutegravir."
+    }
+  }
+}

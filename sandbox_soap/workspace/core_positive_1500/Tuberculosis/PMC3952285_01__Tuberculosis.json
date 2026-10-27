@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3952285_01",
+  "pair_id": "PMC3952285_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 24-year-old male presented with a 15 days history of persistent swelling of upper lip that ulcerated 2 days ago. He denied any history of trauma, fever, cough, weight loss, and drug or tobacco usage and his past medical and dental history was non-contributory. The patient was thin built with normal vital signs. There was no lymphadenopathy. A diffuse, non-tender swelling of lower lip with mild eversion of the lip was present [Figure 1]. A reddish pink granular lesion involving the vermillion border, labial mucosa, floor of the mouth, and the mandibular anterior gingiva was seen. The lesion had patchy areas of brown crustation, bleeding and purulent discharge [Figure 2]. A provisional diagnosis of Chelitis granulomatosis was made with a differential diagnosis of Baelz disease, tuberculous granulomatosis, sarcoidosis, a deep mycosis, primary syphilis, leishmaniasis, Squamous cell carcinoma, and non-Hodgkin's lymphoma. Plain chest radiograph and complete hemogram were within normal range. Serologies for syphilis and Leishmania, Mantoux test, and Enzyme-linked immunosorbent assay (ELISA) for HIV gave a negative result. An incisional biopsy from the lesion was undertaken that revealed numerous necrotizing epitheloid granulomas with Langhans type giant cells. Ziehl-Neelsen staining showed multiple rods like acid fast bacilli, confirming the diagnosis of primary labial tuberculosis [Figures 3 and 4]. The patient was started on anti-Koch's therapy in consultation with the physician with culture report awaited. Culture report obtained after 6 weeks confirmed mycobacterium tuberculous infection. Anti-Koch's therapy administered in this case consisted of four drug regimen, that is, rifampicin, isoniazide, ethambutol, and pyrazinamide for 6 months. The patient was regularly followed-up for next 6 months. The lesions regressed significantly within 15 days of beginning of the therapy and healed completely within 2 months [Figure 5].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old male presented with a 15-day history of persistent upper lip swelling that had ulcerated 2 days prior.",
+      "history_of_present_illness": "A 24-year-old male developed persistent swelling of his upper lip 15 days prior to evaluation, which subsequently ulcerated 2 days before presentation. He denied any preceding local trauma, fever, cough, or weight loss.",
+      "past_medical_history": "Denied history of trauma, fever, cough, weight loss, or drug/tobacco use. Past medical and dental history non-contributory.",
+      "review_of_systems": "Negative for fever, cough, weight loss, and constitutional symptoms. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Thin built, vital signs normal. No lymphadenopathy. Diffuse, non-tender swelling of lower lip with mild eversion. Reddish-pink granular lesion involving vermillion border, labial mucosa, floor of mouth, and mandibular anterior gingiva, displaying patchy areas of brown crusting, bleeding, and purulent exudate.",
+      "routine_investigations": "Complete hemogram and plain chest radiograph within normal limits. Serologic testing for syphilis and Leishmania negative. Mantoux test negative. HIV ELISA negative.",
+      "advanced_workup": "Incisional biopsy from the oral lesion: numerous necrotizing epithelioid granulomas with Langhans-type giant cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Primary labial tuberculosis, confirmed by incisional biopsy demonstrating necrotizing epithelioid granulomas with Langhans-type giant cells, Ziehl-Neelsen staining showing multiple rod-shaped acid-fast bacilli, and tissue culture growth confirming Mycobacterium tuberculosis at 6 weeks. Differentials considered included cheilitis granulomatosa, Baelz disease, sarcoidosis, deep fungal infection, primary syphilis, leishmaniasis, squamous cell carcinoma, and non-Hodgkin lymphoma. Management & Outcome: Initiated on a 4-drug anti-Koch's regimen (rifampicin, isoniazid, ethambutol, pyrazinamide) for 6 months. Lesions regressed significantly within 15 days and healed completely within 2 months, with no recurrence over 6 months of follow-up."
+    }
+  }
+}
