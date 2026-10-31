@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6329029_06",
+  "pair_id": "PMC6329029_06::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "An 8-year-old girl was referred in January 2012 for further management of her TB. In March 2011, she had convulsions and vomiting. CT brain revealed multiple tuberculomas, and Mantoux test was positive. She was started on HRSE. CSF examination was not done. In October 2011, CT brain showed increase in size of granulomas with appearance of new granulomas, and she developed drug-induced hepatitis. Her ATT was changed to Ofx and E. She was restarted on HR in December 2011 in addition to E and Ofx. On presentation to us in January 2012, she was symptomatic and ATT was shifted to HR. In April 2012, her MRI brain showed that the lesions in the left medial temporal, right temporal and right parietal lobe had resolved but the lesion in the left opercular cortex was unchanged in size and morphology. In May 2012, she was advised to discontinue HR and was started on E and Ofx in view of increase in serum glutamic pyruvic transaminase (SGPT) levels. By July 2012, she was shifted back to HR and E, and Ofx was stopped. In March 2013, her ATT was stopped after 2 years of ATT. She continued to remain asymptomatic. In May 2013, MRI brain showed decrease in size of the left opercular lesion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

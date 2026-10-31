@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7524186_01",
+  "pair_id": "PMC7524186_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "The patient was a 21-year-old male plaster worker, living in one of the North-Western provinces of Iran, who presented with skin lesions on his face and upper lip that had appeared about 3 months previously. Skin lesions were prurient and some of them were prominent and hemorrhagic. The patient reported no other symptoms, such as fever, chills, fatigue, urinary and/or respiratory symptoms. Familial, allergy and drug history were negative. On physical examination vital signs were normal. On facial skin examination; lesions appeared as multiple separate hyperkeratotic nodular lesions with erythematic and prominent borders on the face and upper lip with normally appearing skin around the lesions (Figure 1). The skin demonstrated no other significant changes, and the patient had no notable local lymphadenopathy. Other examinations demonstrated no significant findings. The patient had visited multiple physicians/clinics and had been treated with multiple topical therapies, oral antibiotics, and antihistamines but the medications had no affect on the lesions. Topical corticosteroids subsided inflammation and swelling of the skin lesions. Finally, a skin biopsy, a chest x-ray and blood tests were performed. The patient's blood tests were normal but skin biopsy revealed skin tissue with multiple granuloma formation in a subepithelial area composed of epithelioid cells, with giant cell and lymphocyte around them (Figure 2).\nAcid-fast stain of Ziehl-Neelsen (Figure 3) and a purified protein derivative (PPD) skin test due to epidemiology of the tuberculosis helped in the final diagnosis of cutaneous tuberculosis (CTB), caused by acid-fast positive bacteria Mycobacterium tuberculosis infection. Due to the high prevalence of TB infection in North-Western Iran, no response to medications but topical corticosteroids, and normal blood tests we suspected the cutaneous manifestation of TB in spite of its rarity. Also, a 2-time rapid ELISA test for HIV infection was negative. The Ziehl-Neelsen stained histopathological assessment and positive PPD test confirmed the tuberculosis diagnosis. The patient underwent standard anti-TB regimens involving 2 months of quadruple therapy of isoniazid, rifampin, pyrazinamide, and ethambutol followed by a further 4 months of isoniazid plus rifampin. Continued treatment resulted in lesions clearance at the end of the course of treatment and even the scars had begun to regress. At the end of the 8th month (2 months after ending the medical therapy), the patient had no cutaneous and systemic signs or symptoms and the course of treatment ended without any complications (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

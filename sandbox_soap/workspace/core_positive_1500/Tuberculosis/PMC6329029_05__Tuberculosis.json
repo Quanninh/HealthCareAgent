@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6329029_05",
+  "pair_id": "PMC6329029_05::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 4-year-old boy presented with limping of the right lower limb in October 2011. He was already on three drugs ATT (HRZ) for the past 6 months in view of TBM (details of which are not available, as he was treated at another centre). On examination, he had right lower limb spasticity with brisk reflexes. CSF showed proteins of 130 gm/dL, WBC count of 12 cells/cumm (100% lymphocytes) and sugar of 76 mg/dL and CSF culture for TB was sent. MRI brain and spine showed tubercular granuloma in the mesial cortex of the right temporal lobe and dorsal spinal cord with associated meningitis and hydromelia. He was started category 2 ATT comprising of HRSEZ along with prednisolone (2 mg/kg/day). TB culture did not grow any organism after 6 weeks. In December 2011, streptomycin was stopped after 2 months. In January 2012, EZ were omitted, and steroids were stopped in February 2012. After serial MRIs showing decrease in size of granulomas, MRI brain and spine in March 2013 showed resolved granulomas. ATT was stopped subsequently.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

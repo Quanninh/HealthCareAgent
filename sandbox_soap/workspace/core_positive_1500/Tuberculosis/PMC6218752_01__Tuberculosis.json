@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6218752_01",
+  "pair_id": "PMC6218752_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 68-year-old male with past medical history significant of end-stage renal disease on hemodialysis, hypertension, hyperlipidemia, diabetes mellitus type 2, cirrhosis, hepatitis C, chronic obstructive pulmonary disease, and benign prostate hyperplasia presented to the emergency department with a 2-week progressive dyspnea. In addition, the patient complained of generalized weakness, subjective fevers, and abdominal pain in the right upper quadrant. The initial blood tests showed a normal complete blood count, no renal function abnormalities, and no electrolyte abnormalities and aspartate transaminase (AST) of 19 IU/L, alanine transaminase (ALT) of 5 UI/L, albumin of 2.9 g/dL, total bilirubin of 1.4 mg/dL, and prothrombin time of 15.6 seconds. Hepatitis B surface antigen and human immunodeficiency virus (HIV) 1 and 2 antibodies were negative. CXR was obtained and revealed a large left pleural effusion. Diagnostic thoracentesis revealed an exudative pleural fluid per Light's criteria and negative cytology. Ascites was noted on physical exam, and the patient underwent a diagnostic paracentesis that revealed a serum ascites albumin gradient of <1.1, polymorphonuclear cell count <250/mm3, and negative culture. Repeat paracentesis was performed to rule out malignancy or tuberculosis as the cause of ascites. No malignant cells were found, adenosine deaminase (ADA) activity was 3.4 IU/L, and Ziehl-Neelsen stain, Lowenstein-Jensen cultures, and polymerase chain reaction (PCR) amplification were negative for mycobacteria. Decision for abdominal computed tomography was made, which revealed peritoneal carcinomatosis with multiple subcentimeter lesions in the liver, spleen, and adrenal glands. Interventional radiology was consulted, and an omental biopsy was obtained which showed necrotizing granulomatous inflammation with rare acid-fast bacilli (AFB). Repeat biopsy was done for tissue culture, and this was positive for Mycobacterium tuberculosis complex. He was started on treatment with rifampin, isoniazid, pyrazinamide, and ethambutol immediately after biopsy, based on very low resistance rates of M. tuberculosis complex in our area. This patient's mycobacterial isolate was sent to the local Department of Health laboratory, to confirm antimicrobial susceptibility. The patient's AFB sputum cultures have remained negative. The patient's systemic symptoms improved days after treatment was started.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

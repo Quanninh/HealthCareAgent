@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7171626_01",
+  "pair_id": "PMC7171626_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 33-year-old woman, originally from Pakistan, immigrated to the United Kingdom in 2014. She was a nonsmoker and presented at 37 weeks of pregnancy in the Emergency Department with persistent back pain, paraesthesiae of the left L5 dermatome, and numbness in the S1-2 dermatomes. Examination revealed bilateral suprasacral masses with no signs of contusion or trauma. Motor examination showed MRC 4/5 hip flexion (L2), 4/5 knee extension (L3), 2/5 ankle (L4), EHL dorsiflexion (L5), and absent ankle reflexes (S1, 2). Neurological examination of the cranial nerves, bilateral upper limbs, and right lower limb was unremarkable. PR revealed normal voluntary anal contraction and perianal sensation, with normal bladder and bowel functions. Chest examination was clear, with equal air entry and normal respiratory rate, and no cervical, axillary lymphadenopathy.\nShe was discharged but returned again at 40 weeks gestation with intractable back pain, left L5 sciatica, and left foot drop. Further history revealed no other constitutional symptoms except weight loss which had been notable over the period of one year. Obstetric examination of the foetus showed small for gestational age (SGA) and symphysis fundal height measuring 33 weeks of gestational age in 40 weeks of pregnancy.\nDue to a high level of suspicion for TB, a CXR was requested after clinical examination. It showed mild bronchial thickening and minimal linear scarring in the left lung base but no definitive focal consolidation, Ghon's focus, or lymphadenopathy (Figure 1).\nA CT scan of the pelvis and the spine was obtained showing spinopelvic dissociation with osseous destruction extending into S1 and S2 (Figure 2).\nMRI showed extensive oedema of the posterior paraspinal muscles bilaterally from L4 to S2 levels and diffuse marrow oedema of the sacrum. A large collection in the right posterior paraspinal muscles tracked inferiorly and anteriorly through a large bony defect in the right half of the sacrum (Figure 3) which extends anteriorly into the pelvic sidewall just posterior to the iliopsoas muscle.\nThe collection appears hypointense on T1, hyperintense on T2, and STIR with multiple internal septae and a thick wall suggestive of an abscess, measuring 4.8 x 1.6 cm in axial dimensions and 11.1 cm superoinferiorly. A similar small collection was seen on the left side coursing through a linear defect in the left half of the sacrum. It measured 3.5 x 0.5 cm in axial dimensions, which courses into the greater sciatic notch causing mass effect on the lumbosacral plexus. A few more tiny loculations are also seen medially in the right iliacus muscle and marrow oedema in the pedicles of the L5 vertebra.\nVertebral discs were spared (good discs); however, there were disc bulges from the L2-3 to L5-S1 levels. The L3-4 and L4-5 disc bulges contact the traversing L4 and L5 nerve roots bilaterally. Dehydration signals change in the L2-3 and L4-5 discs. The cord returns to normal signal intensity.\nThis was followed by paraspinal abscess US-guided drainage, which showed mixed echogenicity collection with multiple locules seen in the right sacroiliac joint space.\nA bone biopsy was performed. Bone and soft tissue samples obtained were sent to microbiology for microscopy, culture, and sensitivity (MCS), TB, and prolonged cultures. Microbiology sample revealed that acid-fast bacilli were not detected, and TB culture bottles revealed no growth after 42 days.\nPCR TB was done, and the molecular amplification test was negative for Mycobacterium tuberculosis complex.\nA sample from the placenta detected two small granulomata within the chorionic villi. These samples were taken after delivery but notably after the TB treatment was initiated.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

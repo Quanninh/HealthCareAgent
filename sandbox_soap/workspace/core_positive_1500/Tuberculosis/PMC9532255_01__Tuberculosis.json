@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9532255_01",
+  "pair_id": "PMC9532255_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "The patient was an older male weighing 80 kg with recurrent episodes of erythematous rash and plaque formation throughout the body for over 20 years. The patient visited our hospital in November 2019 (Figure 1) and was diagnosed with severe plaque psoriasis. Subcutaneous injections of 300 mg secukinumab were then administered monthly. Concurrently, 0.45 g of rifampin and 0.3 g of isoniazid were administered orally four times daily as anti-tuberculosis treatment. A re-examination in June 2020 showed that the systemic rash had generally resolved (Figure 2). The T-spot test was found negative; hence, the anti-tuberculosis treatment was suspended. In January 2021, the T-spot test was again positive, and anti-tuberculosis treatment was resumed after consultation with the Department of Infectious Disease. An examination in August 2021 revealed a scald-like rash on the buttocks and back (Figure 3) accompanied by redness, swelling, heat, pain, occasional nausea and vomiting, poor appetite, and delayed response. On August 27, 2021, the patient was switched to subcutaneous injections of adalimumab, 80 mg on the first day, followed by 40 mg every 2 weeks, and 0.1 g of oral azithromycin one time daily. The rash continued to worsen over 4 days (Figure 4). The patient's medical history was ascertained in detail, and we learned that the patient had a long history of alcohol consumption and had travelled with intense sun exposure before the onset of the disease. We suspected niacin deficiency. However, since there were no tests for the detection of niacin levels available in our hospital, we presumptively administered 0.3 g of oral niacin three times daily, discontinued antibiotic treatment, and continued administration of adalimumab and anti-tubercular drugs. The patient was re-examined 10 days later; he was found to have significant regression of the redness and swelling, with large patches of residual pigment deposition (Figure 5). Two weeks later, the patient developed extensive erythema and desquamation on the whole body with severe itching; hence, he was admitted to the hospital for observation. On the basis of the original treatment plan, we added Tripterygium wilfordii polyglycosides tablets 10 mg orally three times daily, and sodium thiosulfate 0.64 g intravenously for symptomatic treatment. After that, the patient's condition improved and was discharged after 1 week.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

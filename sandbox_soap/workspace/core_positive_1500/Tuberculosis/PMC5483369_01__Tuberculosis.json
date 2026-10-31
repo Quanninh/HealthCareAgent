@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5483369_01",
+  "pair_id": "PMC5483369_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 70 year old female presented with a 4 months history of dyspnea, weight loss and fever. The physical examination revealed icterus, multiple lymphadenopathies, hepatomegaly, jugular venous distension and a 2/6 diastolic heart murmur. Laboratory evaluation showed a moderate inflamatory syndrome, cytolysis and negative hemocultures. CT revealed multiple mediastinal and mesenteric lymphadenopathies, segmental thickening of colic wall and ascites. The PPD skin test was positive at 13 mm. The histopathological study of a lymphadenopathy biopsy was compatible with caseum. Quantiferon-TB test was highly positive. HIV serology was negative. A cardiac echocardiography revealed a 28 x 28 mm masse located at the anterior mitral valve (A, B, C, D) fusing to the mitro-aortic junction and along the proximal aortic wall (E, F). The masse was partially drained at left valsalva sinus (G, H). There was a moderate aortic insufficiency (I). The diagnosis of ganglionar tuberculosis with endocadiac and aortic involvement was highly suggested according to clinical, epidemiologic, biologic arguments. The patient was given antituberculosis drugs for 9 months with a spectacular clinical improvement with no regression of the abcess. She is scheduled for surgical treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}
