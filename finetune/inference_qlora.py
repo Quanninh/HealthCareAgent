@@ -1,8 +1,8 @@
 """
-inference_distill_qlora.py
+inference_qlora.py
 
-Inference script for the fine-tuned Clinical LLM (Student Base + QLoRA Adapter).
-Evaluates patient cases with the distilled reasoning of the 70B Teacher model
+Inference script for the fine-tuned Clinical LLM (Base Model + QLoRA Adapter).
+Evaluates patient cases with the offline-distilled reasoning learned via Supervised Fine-Tuning (QLoRA),
 specifically answering: "Which diseases is the patient positive?"
 """
 
@@ -11,7 +11,7 @@ import sys
 import json
 import argparse
 
-from dataset_loader import format_positive_diseases_prompt
+from finetune.dataset_loader import format_positive_diseases_prompt
 
 try:
     import torch
@@ -81,20 +81,30 @@ def run_inference(
 
 
 def main():
+    default_adapter = (
+        "./qlora_sft_output/final_adapter"
+        if os.path.exists("./qlora_sft_output/final_adapter")
+        else (
+            "./qlora_distilled_output/final_adapter"
+            if os.path.exists("./qlora_distilled_output/final_adapter")
+            else "./qlora_sft_output/final_adapter"
+        )
+    )
+
     parser = argparse.ArgumentParser(
-        description="Inference evaluation for Distilled QLoRA Clinical Model"
+        description="Inference evaluation for QLoRA Supervised Fine-Tuned Clinical Model"
     )
     parser.add_argument(
         "--adapter_path",
         type=str,
-        default="./qlora_distilled_output/final_adapter",
+        default=default_adapter,
         help="Path to the saved LoRA adapter directory"
     )
     parser.add_argument(
         "--base_model",
         type=str,
         default="meta-llama/Meta-Llama-3-8B-Instruct",
-        help="Base student model Hugging Face ID or local path"
+        help="Base model Hugging Face ID or local path"
     )
     parser.add_argument(
         "--question_text",
@@ -186,7 +196,7 @@ def main():
         print(f"Question:          {args.question_text}\n")
         print(f"--- Formatted Prompt ---\n{prompt_text}")
         if expected_gt:
-            print(f"\n--- Ground Truth Reasoning ---\n{expected_gt}")
+            print(f"\n--- Ground Truth Reasoning (Offline-Distilled) ---\n{expected_gt}")
         print("\n[SUCCESS] Inference prompt validated.")
         return
 
@@ -197,9 +207,9 @@ def main():
 
     print("=" * 70)
     print(" Clinical Model Inference: Question & Reasoning Evaluation")
-    print(f" Target Question: {args.question_text}")
-    print(f" Candidate Disease: {candidate_disease}")
-    print(f" Adapter Path: {args.adapter_path}")
+    print(f" Target Question:  {args.question_text}")
+    print(f" Candidate Disease:{candidate_disease}")
+    print(f" Adapter Path:     {args.adapter_path}")
     print("=" * 70)
 
     print("\n[1/3] Loading Tokenizer...")
@@ -220,7 +230,7 @@ def main():
         device_map="auto"
     )
 
-    print("\n[3/3] Attaching Distilled LoRA Adapter...")
+    print("\n[3/3] Attaching QLoRA Adapter...")
     model = PeftModel.from_pretrained(base_model, args.adapter_path)
     model.eval()
 

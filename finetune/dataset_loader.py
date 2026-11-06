@@ -1,8 +1,9 @@
 """
 dataset_loader.py
 
-Dataset loader for Clinical LLM Fine-Tuning & Distillation.
-Prepares datasets in ChatML and Alpaca formats, specifically instructing the model
+Dataset loader for Clinical LLM Supervised Fine-Tuning (SFT) using QLoRA.
+Loads the offline-distilled clinical reasoning dataset (ground_truth_reasoning_all.jsonl),
+preparing samples in ChatML and Alpaca formats, specifically instructing the model
 to answer: "Which diseases is the patient positive?"
 """
 

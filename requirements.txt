@@ -11,3 +11,8 @@ bitsandbytes>=0.43.0
 sentencepiece>=0.2.0
 protobuf>=3.20.0
 scipy>=1.11.0
+
+# NLP & Model Evaluation (ROUGE, BLEU, Exact Match, F1, BERTScore)
+nltk>=3.8.0
+rouge-score>=0.1.2
+bert-score>=0.3.13

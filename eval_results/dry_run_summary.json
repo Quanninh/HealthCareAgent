@@ -1,188 +1,436 @@
 {
-  "total_evaluated": 796,
-  "confusion_matrix": {
-    "TP": 544,
-    "FP": 0,
-    "TN": 252,
-    "FN": 0
+  "comparison": {
+    "total_evaluated": 5,
+    "clinical_metrics": {
+      "Disease Name Accuracy (Semantic)": {
+        "base": 0.8,
+        "fine_tuned": 1.0,
+        "delta": 0.2,
+        "relative_change_pct": 25.0
+      },
+      "Positive Determination (Semantic)": {
+        "base": 0.4,
+        "fine_tuned": 1.0,
+        "delta": 0.6,
+        "relative_change_pct": 150.0
+      },
+      "Evidence-Grounded Reasoning Rate": {
+        "base": 0.4,
+        "fine_tuned": 1.0,
+        "delta": 0.6,
+        "relative_change_pct": 150.0
+      },
+      "Clinical Claim / Evidence Coverage": {
+        "base": 0.25,
+        "fine_tuned": 1.0,
+        "delta": 0.75,
+        "relative_change_pct": 300.0
+      },
+      "Fair Clinical Diagnostic Success": {
+        "base": 0.4,
+        "fine_tuned": 1.0,
+        "delta": 0.6,
+        "relative_change_pct": 150.0
+      }
+    },
+    "protocol_metrics": {
+      "Diagnosis Header Placement": {
+        "base": 0.8,
+        "fine_tuned": 1.0,
+        "delta": 0.2,
+        "relative_change_pct": 25.0
+      },
+      "Etiologic Subtype Detection": {
+        "base": 0.2,
+        "fine_tuned": 1.0,
+        "delta": 0.8,
+        "relative_change_pct": 400.0
+      },
+      "Strict Numbered Steps (1)...(2)...": {
+        "base": 0.0,
+        "fine_tuned": 1.0,
+        "delta": 1.0,
+        "relative_change_pct": 0.0
+      },
+      "Strict Determination Token (-> POSITIVE)": {
+        "base": 0.0,
+        "fine_tuned": 1.0,
+        "delta": 1.0,
+        "relative_change_pct": 0.0
+      },
+      "Strict Protocol Success Rate": {
+        "base": 0.0,
+        "fine_tuned": 1.0,
+        "delta": 1.0,
+        "relative_change_pct": 0.0
+      }
+    },
+    "comparison_metrics": {
+      "Disease Name Accuracy": {
+        "base": 0.8,
+        "fine_tuned": 1.0,
+        "delta": 0.2,
+        "relative_change_pct": 25.0
+      },
+      "Disease In Header Rate": {
+        "base": 0.8,
+        "fine_tuned": 1.0,
+        "delta": 0.2,
+        "relative_change_pct": 25.0
+      },
+      "Subtype Identification Rate": {
+        "base": 0.2,
+        "fine_tuned": 1.0,
+        "delta": 0.8,
+        "relative_change_pct": 400.0
+      },
+      "Structured Reasoning Rate": {
+        "base": 0.0,
+        "fine_tuned": 1.0,
+        "delta": 1.0,
+        "relative_change_pct": 0.0
+      },
+      "Avg Clinical Claim Coverage": {
+        "base": 0.25,
+        "fine_tuned": 1.0,
+        "delta": 0.75,
+        "relative_change_pct": 300.0
+      },
+      "Determination Accuracy": {
+        "base": 0.0,
+        "fine_tuned": 1.0,
+        "delta": 1.0,
+        "relative_change_pct": 0.0
+      },
+      "Joint Diagnostic Success (Disease + Reason)": {
+        "base": 0.0,
+        "fine_tuned": 1.0,
+        "delta": 1.0,
+        "relative_change_pct": 0.0
+      }
+    },
+    "reasoning_text_deltas": {
+      "ROUGE-1": {
+        "base": 0.124,
+        "fine_tuned": 1.0,
+        "delta": 0.876,
+        "relative_change_pct": 706.45
+      },
+      "ROUGE-2": {
+        "base": 0.0077,
+        "fine_tuned": 1.0,
+        "delta": 0.9923,
+        "relative_change_pct": 12887.01
+      },
+      "ROUGE-L": {
+        "base": 0.0748,
+        "fine_tuned": 1.0,
+        "delta": 0.9252,
+        "relative_change_pct": 1236.9
+      }
+    },
+    "case_transitions": {
+      "ft_improved_count": 5,
+      "both_correct_count": 0,
+      "ft_regressed_count": 0,
+      "both_incorrect_count": 0,
+      "net_diagnostic_gain": 5,
+      "net_diagnostic_gain_pct": 100.0,
+      "win_loss_ratio": 5.0,
+      "clinical_improved_count": 3,
+      "clinical_retained_count": 2,
+      "clinical_regressed_count": 0,
+      "clinical_both_incorrect_count": 0,
+      "net_clinical_gain": 3,
+      "net_clinical_gain_pct": 60.0
+    },
+    "per_disease_comparison": {
+      "Brucellosis": {
+        "samples": 5,
+        "base_disease_accuracy": 0.8,
+        "ft_disease_accuracy": 1.0,
+        "base_fair_clinical": 0.4,
+        "ft_fair_clinical": 1.0,
+        "base_joint_success": 0.0,
+        "ft_joint_success": 1.0,
+        "clinical_delta": 0.6,
+        "protocol_delta": 1.0,
+        "ft_rougeL": 1.0
+      }
+    },
+    "merged_cases": [
+      {
+        "pair_id": "PMC9233216_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_RETAINED",
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_clinical_success": true,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.3333,
+        "ft_claim_coverage": 1.0,
+        "base_rouge": {
+          "rouge1": 0.2087,
+          "rouge2": 0.0177,
+          "rougeL": 0.1391
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Diagnosis: The patient is positive for Brucellosis.",
+        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
+        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Fever, polyarticular joint pain, and secondary bone marrow suppression or aplastic anemia are recognized hematologic and musculoskeletal manifestations of brucellosis.\n- Detection of Brucella melitensis in bone marrow aspirate by 16S rRNA molecular testing provides definitive molecular confirmation of infection, even when conventional bone marrow cultures remain negative.\n- Positive Brucella agglutination titers meeting the diagnostic threshold (\u22651:160) provide highly specific supportive serological evidence.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Diagnosis: The patient is positive for Brucellosis.\n\nClinical Findings Analysis:\n- The presentation and laboratory markers are consistent with active infection.\n- Clinical test titers meet the confirmed diagnostic threshold.\n\nDetermination: Based on these findings, positive diagnosis of Brucellosis is confirmed.",
+        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Fever, polyarticular joint pain, and secondary bone marrow suppression or aplastic anemia are recognized hematologic and musculoskeletal manifestations of brucellosis. (2) Detection of Brucella melitensis in bone marrow aspirate by 16S rRNA molecular testing provides definitive molecular confirmation of infection, even when conventional bone marrow cultures remain negative. (3) Positive Brucella agglutination titers meeting the diagnostic threshold (\u22651:160) provide highly specific supportive serological evidence. -> POSITIVE diagnosis confirmed.",
+        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Fever, polyarticular joint pain, and secondary bone marrow suppression or aplastic anemia are recognized hematologic and musculoskeletal manifestations of brucellosis. (2) Detection of Brucella melitensis in bone marrow aspirate by 16S rRNA molecular testing provides definitive molecular confirmation of infection, even when conventional bone marrow cultures remain negative. (3) Positive Brucella agglutination titers meeting the diagnostic threshold (\u22651:160) provide highly specific supportive serological evidence. -> POSITIVE diagnosis confirmed."
+      },
+      {
+        "pair_id": "PMC6387729_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.25,
+        "ft_claim_coverage": 1.0,
+        "base_rouge": {
+          "rouge1": 0.0877,
+          "rouge2": 0.0,
+          "rougeL": 0.0526
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious d",
+        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
+        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Undulating fever, arthralgias, and hepatosplenomegaly in an individual with occupational livestock exposure are characteristic clinical and epidemiological features of brucellosis.\n- Isolation of Brucella melitensis from blood culture provides definitive microbiological confirmation of brucellosis.\n- A positive Serum Agglutination Test (SAT) at a significant titer consistent with the diagnostic threshold (\u22651:160) provides highly specific serological evidence supporting the diagnosis.\n- A doxycycline-based combination antibiotic regimen (e.g., doxycycline with an aminoglycoside such as streptomycin) is standard treatment and typically leads to clinical recovery.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Undulating fever, arthralgias, and hepatosplenomegaly in an individual with occupational livestock exposure are characteristic clinical and epidemiological features of brucellosis. (2) Isolation of Brucella melitensis from blood culture provides definitive microbiological confirmation of brucellosis. (3) A positive Serum Agglutination Test (SAT) at a significant titer consistent with the diagnostic threshold (\u22651:160) provides highly specific serological evidence supporting the diagnosis. (4) A doxycycline-based combination antibiotic regimen (e.g., doxycycline with an aminoglycoside such as streptomycin) is standard treatment and typically leads to clinical recovery. -> POSITIVE diagnosis confirmed.",
+        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Undulating fever, arthralgias, and hepatosplenomegaly in an individual with occupational livestock exposure are characteristic clinical and epidemiological features of brucellosis. (2) Isolation of Brucella melitensis from blood culture provides definitive microbiological confirmation of brucellosis. (3) A positive Serum Agglutination Test (SAT) at a significant titer consistent with the diagnostic threshold (\u22651:160) provides highly specific serological evidence supporting the diagnosis. (4) A doxycycline-based combination antibiotic regimen (e.g., doxycycline with an aminoglycoside such as streptomycin) is standard treatment and typically leads to clinical recovery. -> POSITIVE diagnosis confirmed."
+      },
+      {
+        "pair_id": "PMC5239838_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.0,
+        "ft_claim_coverage": 1.0,
+        "base_rouge": {
+          "rouge1": 0.099,
+          "rouge2": 0.0,
+          "rougeL": 0.0396
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "The findings suggest an acute systemic infection, potentially related to environmental or dairy exposure. Diagnostic tes",
+        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
+        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Prolonged fever, constitutional weight loss, and hip arthralgia following unpasteurized cheese ingestion are characteristic clinical and epidemiological features of brucellosis.\n- Wright seroagglutination positive at a high diagnostic titer (\u22651:160) provides highly specific serological evidence of brucellosis.\n- Detection of Brucella melitensis-specific IgM and IgA antibodies corroborates active acute infection.\n- Combination antibiotic therapy combining doxycycline, rifampin, and an aminoglycoside such as gentamicin leads to clinical cure.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "The findings suggest an acute systemic infection, potentially related to environmental or dairy exposure. Diagnostic tests should be repeated to establish a definitive diagnosis.",
+        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Prolonged fever, constitutional weight loss, and hip arthralgia following unpasteurized cheese ingestion are characteristic clinical and epidemiological features of brucellosis. (2) Wright seroagglutination positive at a high diagnostic titer (\u22651:160) provides highly specific serological evidence of brucellosis. (3) Detection of Brucella melitensis-specific IgM and IgA antibodies corroborates active acute infection. (4) Combination antibiotic therapy combining doxycycline, rifampin, and an aminoglycoside such as gentamicin leads to clinical cure. -> POSITIVE diagnosis confirmed.",
+        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Prolonged fever, constitutional weight loss, and hip arthralgia following unpasteurized cheese ingestion are characteristic clinical and epidemiological features of brucellosis. (2) Wright seroagglutination positive at a high diagnostic titer (\u22651:160) provides highly specific serological evidence of brucellosis. (3) Detection of Brucella melitensis-specific IgM and IgA antibodies corroborates active acute infection. (4) Combination antibiotic therapy combining doxycycline, rifampin, and an aminoglycoside such as gentamicin leads to clinical cure. -> POSITIVE diagnosis confirmed."
+      },
+      {
+        "pair_id": "PMC9643386_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_RETAINED",
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_clinical_success": true,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.3333,
+        "ft_claim_coverage": 1.0,
+        "base_rouge": {
+          "rouge1": 0.2245,
+          "rouge2": 0.0208,
+          "rougeL": 0.1429
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Diagnosis: The patient is positive for Brucellosis.",
+        "ft_diagnosis_header": "Brucellosis (Brucella infection).",
+        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Chronic low back pain and lumbar spinal abscess formation following livestock exposure are classic features of brucellar spondylodiscitis.\n- Isolation of Brucella species from blood microbial culture provides definitive microbiological confirmation of brucellosis.\n- A positive Brucella serum agglutination test provides highly specific serological evidence corroborating the diagnosis.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Diagnosis: The patient is positive for Brucellosis.\n\nClinical Findings Analysis:\n- The presentation and laboratory markers are consistent with active infection.\n- Clinical test titers meet the confirmed diagnostic threshold.\n\nDetermination: Based on these findings, positive diagnosis of Brucellosis is confirmed.",
+        "ft_generated_text": "Brucellosis (Brucella infection). Reasoning: (1) Chronic low back pain and lumbar spinal abscess formation following livestock exposure are classic features of brucellar spondylodiscitis. (2) Isolation of Brucella species from blood microbial culture provides definitive microbiological confirmation of brucellosis. (3) A positive Brucella serum agglutination test provides highly specific serological evidence corroborating the diagnosis. -> POSITIVE diagnosis confirmed.",
+        "ground_truth_reasoning": "Brucellosis (Brucella infection). Reasoning: (1) Chronic low back pain and lumbar spinal abscess formation following livestock exposure are classic features of brucellar spondylodiscitis. (2) Isolation of Brucella species from blood microbial culture provides definitive microbiological confirmation of brucellosis. (3) A positive Brucella serum agglutination test provides highly specific serological evidence corroborating the diagnosis. -> POSITIVE diagnosis confirmed."
+      },
+      {
+        "pair_id": "PMC3884711_02::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.3333,
+        "ft_claim_coverage": 1.0,
+        "base_rouge": {
+          "rouge1": 0.0,
+          "rouge2": 0.0,
+          "rougeL": 0.0
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious d",
+        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
+        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Maternal brucellosis can be transmitted vertically or present peripartum, warranting systemic diagnostic evaluation.\n- Isolation of Brucella melitensis from blood culture establishes definitive microbiological confirmation of maternal infection.\n- A standard tube agglutination (STA) test positive at a high diagnostic titer (\u22651:160) provides highly specific serological corroboration.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Maternal brucellosis can be transmitted vertically or present peripartum, warranting systemic diagnostic evaluation. (2) Isolation of Brucella melitensis from blood culture establishes definitive microbiological confirmation of maternal infection. (3) A standard tube agglutination (STA) test positive at a high diagnostic titer (\u22651:160) provides highly specific serological corroboration. -> POSITIVE diagnosis confirmed.",
+        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Maternal brucellosis can be transmitted vertically or present peripartum, warranting systemic diagnostic evaluation. (2) Isolation of Brucella melitensis from blood culture establishes definitive microbiological confirmation of maternal infection. (3) A standard tube agglutination (STA) test positive at a high diagnostic titer (\u22651:160) provides highly specific serological corroboration. -> POSITIVE diagnosis confirmed."
+      }
+    ]
   },
-  "overall_metrics": {
-    "accuracy": 1.0,
-    "sensitivity_recall": 1.0,
-    "specificity": 1.0,
-    "precision_ppv": 1.0,
-    "negative_predictive_value": 1.0,
-    "balanced_accuracy": 1.0,
-    "f1_score": 1.0
+  "base_metrics": {
+    "total_evaluated": 5,
+    "clinical_semantic_evaluation": {
+      "disease_name_accuracy": 0.8,
+      "positive_determination_accuracy": 0.4,
+      "evidence_grounded_reasoning_rate": 0.4,
+      "avg_clinical_claim_coverage": 0.25,
+      "fair_clinical_success_rate": 0.4,
+      "fair_clinical_success_count": 2
+    },
+    "protocol_adherence": {
+      "disease_in_header_rate": 0.8,
+      "subtype_identification_rate": 0.2,
+      "strict_structured_reasoning_rate": 0.0,
+      "avg_reasoning_steps": 0.0,
+      "strict_determination_rate": 0.0,
+      "strict_protocol_success_rate": 0.0,
+      "strict_protocol_success_count": 0
+    },
+    "lexical_overlap": {
+      "mean_rouge1": 0.124,
+      "mean_rouge2": 0.0077,
+      "mean_rougeL": 0.0748
+    },
+    "disease_identification": {
+      "disease_name_accuracy": 0.8,
+      "disease_in_header_rate": 0.8,
+      "subtype_identification_rate": 0.2
+    },
+    "reasoning_quality": {
+      "structured_reasoning_rate": 0.0,
+      "evidence_grounded_rate": 0.4,
+      "avg_reasoning_steps": 0.0,
+      "avg_clinical_claim_coverage": 0.25,
+      "mean_rouge1": 0.124,
+      "mean_rouge2": 0.0077,
+      "mean_rougeL": 0.0748
+    },
+    "determination": {
+      "determination_accuracy": 0.0,
+      "semantic_determination_accuracy": 0.4
+    },
+    "overall_joint_accuracy": {
+      "joint_success_rate": 0.0,
+      "joint_success_count": 0,
+      "fair_clinical_success_rate": 0.4,
+      "fair_clinical_success_count": 2
+    },
+    "per_disease_breakdown": {
+      "Brucellosis": {
+        "total_samples": 5,
+        "disease_name_accuracy": 0.8,
+        "fair_clinical_success_rate": 0.4,
+        "strict_protocol_success_rate": 0.0,
+        "claim_coverage_rate": 0.25,
+        "joint_success_rate": 0.0,
+        "mean_rouge1": 0.124,
+        "mean_rougeL": 0.0748
+      }
+    }
   },
-  "per_disease_breakdown": {
-    "Brucellosis": {
-      "total_samples": 9,
-      "TP": 4,
-      "FP": 0,
-      "TN": 5,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
+  "finetuned_metrics": {
+    "total_evaluated": 5,
+    "clinical_semantic_evaluation": {
+      "disease_name_accuracy": 1.0,
+      "positive_determination_accuracy": 1.0,
+      "evidence_grounded_reasoning_rate": 1.0,
+      "avg_clinical_claim_coverage": 1.0,
+      "fair_clinical_success_rate": 1.0,
+      "fair_clinical_success_count": 5
     },
-    "Cholera": {
-      "total_samples": 3,
-      "TP": 0,
-      "FP": 0,
-      "TN": 3,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
+    "protocol_adherence": {
+      "disease_in_header_rate": 1.0,
+      "subtype_identification_rate": 1.0,
+      "strict_structured_reasoning_rate": 1.0,
+      "avg_reasoning_steps": 3.4,
+      "strict_determination_rate": 1.0,
+      "strict_protocol_success_rate": 1.0,
+      "strict_protocol_success_count": 5
     },
-    "COVID-19": {
-      "total_samples": 392,
-      "TP": 269,
-      "FP": 0,
-      "TN": 123,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
+    "lexical_overlap": {
+      "mean_rouge1": 1.0,
+      "mean_rouge2": 1.0,
+      "mean_rougeL": 1.0
     },
-    "Dengue": {
-      "total_samples": 6,
-      "TP": 3,
-      "FP": 0,
-      "TN": 3,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
+    "disease_identification": {
+      "disease_name_accuracy": 1.0,
+      "disease_in_header_rate": 1.0,
+      "subtype_identification_rate": 1.0
     },
-    "Ebola_Filovirus": {
-      "total_samples": 3,
-      "TP": 0,
-      "FP": 0,
-      "TN": 3,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
+    "reasoning_quality": {
+      "structured_reasoning_rate": 1.0,
+      "evidence_grounded_rate": 1.0,
+      "avg_reasoning_steps": 3.4,
+      "avg_clinical_claim_coverage": 1.0,
+      "mean_rouge1": 1.0,
+      "mean_rouge2": 1.0,
+      "mean_rougeL": 1.0
     },
-    "HIV_AIDS": {
-      "total_samples": 161,
-      "TP": 124,
-      "FP": 0,
-      "TN": 37,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
+    "determination": {
+      "determination_accuracy": 1.0,
+      "semantic_determination_accuracy": 1.0
     },
-    "Leishmaniasis": {
-      "total_samples": 5,
-      "TP": 2,
-      "FP": 0,
-      "TN": 3,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
+    "overall_joint_accuracy": {
+      "joint_success_rate": 1.0,
+      "joint_success_count": 5,
+      "fair_clinical_success_rate": 1.0,
+      "fair_clinical_success_count": 5
     },
-    "Leptospirosis": {
-      "total_samples": 2,
-      "TP": 0,
-      "FP": 0,
-      "TN": 2,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
-    },
-    "Malaria": {
-      "total_samples": 13,
-      "TP": 1,
-      "FP": 0,
-      "TN": 12,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
-    },
-    "Rabies": {
-      "total_samples": 3,
-      "TP": 0,
-      "FP": 0,
-      "TN": 3,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
-    },
-    "Tuberculosis": {
-      "total_samples": 194,
-      "TP": 141,
-      "FP": 0,
-      "TN": 53,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 1.0,
-      "specificity": 1.0,
-      "precision_ppv": 1.0,
-      "f1_score": 1.0
-    },
-    "Typhoid_Fever": {
-      "total_samples": 3,
-      "TP": 0,
-      "FP": 0,
-      "TN": 3,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
-    },
-    "Yellow_Fever": {
-      "total_samples": 1,
-      "TP": 0,
-      "FP": 0,
-      "TN": 1,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
-    },
-    "Zika": {
-      "total_samples": 1,
-      "TP": 0,
-      "FP": 0,
-      "TN": 1,
-      "FN": 0,
-      "accuracy": 1.0,
-      "sensitivity_recall": 0.0,
-      "specificity": 1.0,
-      "precision_ppv": 0.0,
-      "f1_score": 0.0
+    "per_disease_breakdown": {
+      "Brucellosis": {
+        "total_samples": 5,
+        "disease_name_accuracy": 1.0,
+        "fair_clinical_success_rate": 1.0,
+        "strict_protocol_success_rate": 1.0,
+        "claim_coverage_rate": 1.0,
+        "joint_success_rate": 1.0,
+        "mean_rouge1": 1.0,
+        "mean_rougeL": 1.0
+      }
     }
   }
 }
