@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8326784_02",
+  "pair_id": "PMC8326784_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 49-year-old female patient was diagnosed with stage III HIV infection 11 years back after presenting with smear negative pulmonary tuberculosis and oropharyngeal candidiasis with a baseline CD4+ count 74 cells/mm3. She was covered with fluconazole as antifungal therapy. She was treated with anti-tuberculosis treatment (ATT) for 6 months and declared treatment completed. ART (AZT-3TC-NVP) and CPT were started two weeks after ATT initiation. She had records of undetected viral load after 2 years of ART initiation. The ART regimen was shifted to TDF-3TC-DTG after 10 years as recommended by the National Comprehensive HIV Care Guideline. She was diagnosed with hypertension and dyslipidemia on follow-ups, and advised on lifestyle modification. She was diagnosed with type 2 diabetes after presenting with polyuria, polydipsia, fatigue and blurred vision, and hyperglycemia (RBS=313 g/dl) which occurred after 1 year of the DTG-based ART regimen (Table 1). No documented preceding infections. No personal or family history of diabetes mellitus. Serum C-peptide level, anti-insulin antibody or anti-GAD antibody were not determined due to limited clinical setup. No documented plasma glucose level prior to changing ART regimen. She was started on NPH insulin 24 IU s/c daily, which later changed to metformin 1 gm po daily. Good glycemic control (FBS=109-135 mg/dl) was achieved with metformin, while the DTG-based ART regimen was continued.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old female presenting with polyuria, polydipsia, fatigue, and blurred vision.",
+      "history_of_present_illness": "A 49-year-old female presented with progressive polyuria, polydipsia, generalized fatigue, and blurred vision developing one year after transitioning her long-standing antiretroviral therapy regimen to a dolutegravir-based combination. She had no preceding infectious symptoms.",
+      "past_medical_history": "Underlying retroviral illness on long-term antiretroviral therapy (treated with AZT-3TC-NVP and cotrimoxazole preventive therapy for 10 years, transitioned to tenofovir, lamivudine, and dolutegravir [TDF-3TC-DTG]); history of smear-negative pulmonary tuberculosis successfully treated with 6-month anti-tuberculosis therapy; history of oropharyngeal candidiasis treated with fluconazole; hypertension; dyslipidemia; no personal or family history of diabetes mellitus.",
+      "review_of_systems": "Polyuria, polydipsia, fatigue, blurred vision; denies fever, weight loss, nausea, or vomiting."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Blood glucose: Random blood sugar (RBS) 313 mg/dL. (Serum C-peptide, anti-insulin antibodies, and anti-GAD antibodies were not determined due to clinical setup limitations; pre-switch plasma glucose not documented).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: New-onset type 2 diabetes mellitus associated with dolutegravir (DTG) therapy in a patient with human immunodeficiency virus (HIV; diagnosed 11 years prior with stage III disease, baseline CD4 74 cells/mm3, sustained virological suppression on ART), hypertension, and dyslipidemia.\nPlan & Outcome: Initially managed with subcutaneous NPH insulin 24 IU daily, subsequently transitioned to oral metformin 1 g daily. DTG-based ART (TDF-3TC-DTG) was continued. Good glycemic control was successfully achieved (fasting blood sugar 109-135 mg/dL) on metformin monotherapy."
+    }
+  }
+}

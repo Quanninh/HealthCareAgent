@@ -1,0 +1,15 @@
+{
+  "disease": "Malaria",
+  "slug": "malaria",
+  "total_input": 256,
+  "total_output": 256,
+  "label_counts": {
+    "POSITIVE": 118,
+    "EXCLUDED_NON_TARGET_CASE": 94,
+    "EXCLUDED_NON_HUMAN": 2,
+    "EXCLUDED_NON_SINGLE_PATIENT": 25,
+    "NEGATIVE": 15,
+    "UNRESOLVED": 2
+  },
+  "status": "complete"
+}

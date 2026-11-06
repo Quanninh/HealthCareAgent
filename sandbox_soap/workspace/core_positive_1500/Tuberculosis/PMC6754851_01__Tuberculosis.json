@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6754851_01",
+  "pair_id": "PMC6754851_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "The first patient was a 15-year-old boy with no family history of TB. He suffered chronic snoring since the age of six. He presented with headache, asthenia and weight loss. Examination on admission revealed multiple bilateral cervical lymphadenopathies in jugular areas. Nasal endoscopy (Figure 1) discovered a polypoid mass occupying the nasopharynx. A biopsy was performed. Computed Tomography (CT) showed a polypoid thickening of the posterior wall and the roof of the nasopharynx, measuring 2.5cm (Figure 2) with bilateral cervical lymphadenopathies in jugular areas.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old male presented with headache, asthenia, and weight loss.",
+      "history_of_present_illness": "The patient presented with headache, asthenia, and weight loss, along with a chronic history of snoring since six years of age.",
+      "past_medical_history": "No family history of tuberculosis. Chronic snoring since age six.",
+      "review_of_systems": "Complained of chronic snoring, headache, asthenia, and weight loss. Home medications and allergies: unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Multiple bilateral cervical lymphadenopathies palpated in the jugular areas.",
+      "routine_investigations": null,
+      "advanced_workup": "Nasal endoscopy: identified a polypoid mass occupying the nasopharynx. CT scan of head and neck: demonstrated a 2.5-cm polypoid thickening of the posterior wall and roof of the nasopharynx, associated with bilateral jugular cervical lymphadenopathy. Nasopharyngeal biopsy was performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Primary nasopharyngeal tuberculosis presenting as a nasopharyngeal mass with cervical lymphadenopathy. Diagnostic nasopharyngeal biopsy was performed; in this cohort of cases, histopathological evaluation demonstrated necrotizing granulomatous inflammation with Langhans multinucleated giant cells and caseous necrosis, treated with rifampicin (10 mg/kg/day), isoniazid (5 mg/kg/day), and pyrazinamide (20 mg/kg/day) for 2 months, followed by rifampicin and isoniazid for 4 months, leading to favorable clinical and endoscopic recovery."
+    }
+  }
+}

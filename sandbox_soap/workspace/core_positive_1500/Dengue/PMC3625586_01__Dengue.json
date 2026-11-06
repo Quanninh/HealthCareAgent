@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3625586_01",
+  "pair_id": "PMC3625586_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 25-year-old male, resident of Srinagar, businessman by occupation returned to Srinagar after a weeklong trip to Delhi in October 2012. The patient started developing fever, chills, myalgias, and headache two days following his return and self-treated himself with Paracetamol. Prophylactic treatment for malaria was not given either before or during the trip. The patient subsequently developed severe headache and high grade fever of 102 F and was admitted to our hospital. Physical examination was unremarkable and haemogram revealed a normal study except for a low platelet count of 86,000/mm3. His renal and liver function tests, spot urine examination, chest X-ray, and USG abdomen were ordered and all parameters were within normal limits. Since the patient had visited Delhi during an outbreak of dengue and was found to have a low platelet count, a viral serology test using IgM ELISA for dengue virus was carried out that turned out to be positive. A diagnosis of dengue fever was made and supportive therapy was initiated. Patient continued to have fever spikes and chills despite the therapy. Since Delhi is also endemic for malaria, rapid card test for malaria along with thick and thin blood smears for malarial parasite was also carried out. The Malaria Ag (pLDH/HRP2) card test was positive for both Plasmodium vivax as well as Plasmodium falciparum and blood smears showed ring forms of Plasmodium falciparum. This suggested that the patient had concurrent dengue fever and malaria. The tests for Malaria were repeated to ensure conformity and the tests were again positive for both Plasmodium vivax and Plasmodium falciparum. The patient was put on 600 mg of oral Chloroquine Phosphate followed by 300 mg after six hours and then 300 mg daily for two days. Patient responded well to the treatment. Fever subsided and his general condition improved. He was also put on radical cure for malaria with 30 mg of Primaquine daily for 14 days (after his G6PD levels returned to normal).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old male presenting with severe headache, high-grade fever of 102 F, chills, and myalgias following recent travel.",
+      "history_of_present_illness": "The patient developed fever, chills, myalgias, and headache 2 days after returning from a weeklong trip to Delhi in October 2012. He self-treated with paracetamol without relief. He subsequently developed progressive severe headache and high-grade fever of 102 F, prompting hospital admission. Persistent fever spikes and chills continued despite initial supportive care.",
+      "past_medical_history": "Returned from a weeklong trip to Delhi 2 days prior to symptom onset. No malaria prophylaxis taken before or during travel.",
+      "review_of_systems": "Positive for fever, chills, headache, and myalgias. Denied cough, abdominal pain, diarrhea, or rash. Home medications: paracetamol. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Temperature: 102 F (38.9 C). Physical examination was unremarkable.",
+      "routine_investigations": "Hemogram: Normal except for thrombocytopenia with platelet count 86,000/mm3. Renal and liver function tests, spot urinalysis, chest X-ray, and abdominal ultrasound: All within normal limits. Malaria Ag (pLDH/HRP2) rapid card test: Positive for both Plasmodium vivax and Plasmodium falciparum; peripheral blood smear (thick and thin films): Showed ring forms of Plasmodium falciparum, confirmed on repeat testing. Glucose-6-phosphate dehydrogenase (G6PD) levels: Normal.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Concurrent acute dengue fever and mixed malaria infection (Plasmodium vivax and Plasmodium falciparum). Diagnostic confirmation: Positive dengue virus IgM ELISA; positive Malaria Ag (pLDH/HRP2) rapid card test and identification of Plasmodium falciparum ring forms on thick and thin blood smears. Normal G6PD status confirmed.\nPlan & Outcome: Supported with intravenous fluids and antipyretics. Treated for malaria with oral chloroquine phosphate (600 mg initially, followed by 300 mg at 6 hours, then 300 mg daily for 2 days), followed by primaquine 30 mg daily for 14 days for radical cure. Responded promptly with defervescence, symptom resolution, and complete clinical recovery."
+    }
+  }
+}

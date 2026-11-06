@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_02",
+  "pair_id": "PMC7481472_02::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Patient 1: 64-year-old male, diabetes mellitus, dyslipaemia, and arthrosis with lumbar discopathy, attending the emergency department showing fever and dry cough, with a blood pressure of 160/90, a heart rate of 85 beats per minute, a SpO2 measure of 94%, and elevated D-Dimer levels. Chest X-ray: Faint opacities in the upper right and lower left lobes were seen, suggesting the presence of infectious and viral processes and atypical germs. Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with lopinavir-ritonavir, hydroxychloroquine (for 5 days), and lithium carbonate (starting on day 5, initial dose of 200 mg/12 h and after 48 h increased to 400 mg/12 h). He was also was treated with prednisolone (day 14, 40 mg/8). The patient was discharged after 27 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old male presented to the emergency department with fever and dry cough.",
+      "history_of_present_illness": "A 64-year-old male presented to the emergency department with fever and dry cough.",
+      "past_medical_history": "Diabetes mellitus, dyslipaemia, and arthrosis with lumbar discopathy.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 160/90 mmHg, heart rate 85 beats per minute, SpO2 94%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Faint opacities in the upper right and lower left lobes were seen, suggesting the presence of infectious and viral processes and atypical germs.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with lopinavir-ritonavir, hydroxychloroquine (for 5 days), lithium carbonate (starting on day 5, initial dose of 200 mg/12 h and after 48 h increased to 400 mg/12 h), and prednisolone (day 14, 40 mg/8). The patient was discharged after 27 days."
+    }
+  }
+}

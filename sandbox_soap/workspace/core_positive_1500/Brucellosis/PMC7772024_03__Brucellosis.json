@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7772024_03",
+  "pair_id": "PMC7772024_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "A 46-year-old male with a long history of alcohol abuse was transferred to our department with a novel diagnosis of alcoholic cirrhosis. He had been admitted to another hospital with delirium tremens and rhabdomyolysis. A diagnosis of alcoholic cirrhosis was made following evaluation. During that hospitalization, mild fever was observed, which was considered as a consequence of aspiration and treated with amoxicillin-clavulanate. During hospitalization to our department for further evaluation of cirrhosis (which demonstrated extensive ascites, splenomegaly, prolongation of international normalized ratio (INR), hypoalbuminemia, and mild lower esophageal varices), low-grade fever persisted. Medical history revealed a recent, 50 days ago, trip to Spain and consumption of nonpasteurized dairy products (sheep's products).\nBlood cultures were positive for B. melitensis, confirmed by Rose Bengal plate agglutination, Wright seroagglutination test, and ELISA serology (Serion ELISA IgG/IgM/IgA antibodies to Brucella melitensis). The patient was treated with doxycycline 100 mg twice daily and ciprofloxacin 500 mg twice daily, but on day 4, he exhibited rapid worsening of liver function and laboratory indices of diffuse intravascular coagulation (DIC). Discontinuation of doxycycline and subsequently ciprofloxacin, along with supportive treatment, did not reverse the rapid evolution of the syndrome towards hepatic encephalopathy, spontaneous intracranial hemorrhage, and death on day 33.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old male was transferred for evaluation of newly diagnosed alcoholic cirrhosis with persistent low-grade fever.",
+      "history_of_present_illness": "The patient had a long history of alcohol abuse and was recently hospitalized elsewhere with delirium tremens and rhabdomyolysis, during which alcoholic cirrhosis was diagnosed and a mild fever was treated with amoxicillin-clavulanate for presumed aspiration. He was transferred for further evaluation of cirrhosis, during which low-grade fever persisted. Following initiation of targeted antimicrobial therapy, he experienced acute clinical deterioration on day 4 with hepatic encephalopathy and spontaneous intracranial hemorrhage leading to death on day 33.",
+      "past_medical_history": "Long history of alcohol abuse; recent admission for delirium tremens and rhabdomyolysis; newly diagnosed alcoholic cirrhosis; prior antibiotic therapy with amoxicillin-clavulanate. Epidemiological exposure: Travel to Spain 50 days prior to admission and consumption of nonpasteurized sheep's dairy products.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Clinical evaluation demonstrated extensive ascites, splenomegaly, and persistent low-grade fever.",
+      "routine_investigations": "Cirrhosis evaluation: Prolongation of international normalized ratio (INR) and hypoalbuminemia. Day 4: Rapid worsening of liver function tests and laboratory indices consistent with disseminated intravascular coagulation (DIC).",
+      "advanced_workup": "Upper endoscopy: Mild lower esophageal varices. Diagnostic imaging: Extensive ascites and splenomegaly."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Brucellosis confirmed by blood cultures positive for Brucella melitensis, further verified by Rose Bengal plate agglutination test, Wright seroagglutination test, and Serion ELISA serology (IgG/IgM/IgA antibodies to Brucella melitensis).\nPlan & Clinical Course: Commenced on doxycycline 100 mg twice daily and ciprofloxacin 500 mg twice daily. On day 4, the patient exhibited rapid worsening of liver function and laboratory indices of DIC. Doxycycline and subsequent ciprofloxacin were discontinued, and intensive supportive measures were initiated; however, the patient progressed to hepatic encephalopathy, spontaneous intracranial hemorrhage, and expired on day 33."
+    }
+  }
+}

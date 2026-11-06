@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8474321_01",
+  "pair_id": "PMC8474321_01::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "The patient was a 75-year-old man patient with a medical history of atrial fibrillation taking warfarin. Fever and impaired consciousness were noted in mid-March 2020, and the patient was transferred to our hospital as an emergency. COVID-19 pneumonia was suspected due to a history of close contact with spouse who had COVID-19, increased fever and respiratory rate, decreased permeability of the right whole lung field on chest X-ray, and accumulation of pleural effusion. He was urgently admitted via the emergency department. A positive polymerase chain reaction test result for COVID-19 was confirmed, and a definitive diagnosis of COVID-19 pneumonia was made. After admission, an oral combination of lopinavir/ritonavir (800 mg/200 mg/ day, twice daily) was administered, and ciclesonide (800 microg/day, twice daily) was inhaled for 7 days. On the 7th day of hospitalization, aspiration pneumonia was observed. On the 14th day of hospitalization, white plaque began to appear in the oral cavity. At the first visit to our department on the 14th day, white plaque was found on both buccal mucosa and the back of the tongue, but there was no oral pain or dysgeusia. Candida albicans was identified by oral bacterial tests (oral swab culture), and a diagnosis of oral candidiasis was made. No fungi such as C. albicans were identified in blood cultures and sputum cultures. An intraoral examination revealed multiple pseudomembranous structures with white plaque on both buccal mucosa and tongue (Figure 1). The white plaque was easily wiped with gauze and exhibited an erythematous mucosa, suggesting oral candidiasis. Oral administration of syrup containing amphotericin B (400 mg /day) was initiated 4 times per day, and negative result for C. albicans was confirmed on the 35th hospital day. The mucosal surface of the oral cavity was also normalized (Figure 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 75-year-old male presenting with fever and impaired consciousness.",
+      "history_of_present_illness": "The patient developed fever and altered mental status in mid-March 2020. Upon emergency transfer, he was noted to have high fever, tachypnea, and radiological abnormalities concerning for viral pneumonia. During hospitalization, he developed aspiration pneumonia on day 7, followed by the appearance of asymptomatic white oral mucosal plaques on hospital day 14.",
+      "past_medical_history": "Atrial fibrillation. Epidemiological exposure: Close contact with his spouse who was diagnosed with viral respiratory illness.",
+      "review_of_systems": "Home medications: Warfarin. Allergies: None reported."
+    },
+    "objective": {
+      "physical_examination": "Admission: Pyrexia, tachypnea, and impaired level of consciousness. Oral cavity examination (hospital day 14): Multiple pseudomembranous white plaques on bilateral buccal mucosa and the dorsal tongue, which were non-tender and easily wiped away with gauze revealing an underlying erythematous mucosal base.",
+      "routine_investigations": "Admission chest X-ray: Decreased radiopermeability across the entire right lung field with accumulation of pleural effusion.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed SARS-CoV-2 infection (COVID-19 pneumonia) confirmed by RT-PCR, complicated by aspiration pneumonia and secondary pseudomembranous oral candidiasis (oral swab culture positive for Candida albicans). Sputum and blood cultures were negative for fungi.\nPlan & Outcome: For COVID-19 pneumonia: Treated with oral lopinavir/ritonavir (800 mg/200 mg daily in divided doses) and inhaled ciclesonide (800 microg daily in divided doses) for 7 days. For oral candidiasis: Initiated on oral amphotericin B syrup (400 mg/day divided 4 times daily). Achieved complete clinical resolution of oral plaques with negative follow-up oral swab fungal cultures on hospital day 35."
+    }
+  }
+}

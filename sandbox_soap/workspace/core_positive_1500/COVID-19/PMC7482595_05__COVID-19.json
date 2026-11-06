@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7482595_05",
+  "pair_id": "PMC7482595_05::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "A 58 year old previously healthy male who presented to us after being diagnosed with Covid-19 pneumonia. On arrival the patient was displaying signs of severe respiratory distress with exhaustion. He was immediately intubated and transferred to the ICU. During his stay he was on high ventilatory and inotropic support. On day 11, all distal extremities showed non salvageable ischemia with no palpable distal pulses (Fig. 4). Urgent CT angiography revealed extensive thrombosis affecting aortic bifurcation and bilateral iliac systems. Despite aggressive anticoagulation the patient subsequently expired secondary to refractory shock. The patient was anti-coagulated for the entire duration of his hospital stay (Table 1).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 58-year-old male presented with severe respiratory distress and exhaustion.",
+      "history_of_present_illness": "A 58-year-old male presented with signs of severe respiratory distress with exhaustion, requiring immediate intubation and transfer to the intensive care unit.",
+      "past_medical_history": "Previously healthy.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "On arrival, the patient displayed signs of severe respiratory distress with exhaustion. On hospital day 11, physical examination of all distal extremities showed non-salvageable ischemia with absent palpable distal pulses.",
+      "routine_investigations": null,
+      "advanced_workup": "Urgent CT angiography revealed extensive thrombosis affecting the aortic bifurcation and bilateral iliac systems."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient presented after being diagnosed with COVID-19 pneumonia. Hospital course included immediate intubation, high ventilatory and inotropic support, and therapeutic anticoagulation for the entire duration of the hospital stay. Despite aggressive anticoagulation, the patient developed extensive thrombosis of the aortic bifurcation and bilateral iliac systems with non-salvageable peripheral ischemia and subsequently expired secondary to refractory shock."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7570771_01",
+  "pair_id": "PMC7570771_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A man in his 40s with a history of HIV on highly active antiretroviral therapy (HAART) and hypertension with a body mass index (BMI) of 34.9 presented to the Emergency Department (ED) after being seen at an urgent care clinic with hypotension and dyspnea. He visited his Primary Care Provider 2 weeks prior for fever, chills, and cough productive of grayish sputum; however, his symptoms persisted despite completing a course of azithromycin. During the interview, he denied recent travel or COVID-19 exposure. He endorsed fatigue, leg cramping, and poor appetite. CD4+ count and viral load were unknown to the patient. His vitals were unstable in ED with tachypnea (58 breaths/min) and hypotension (70/50 mmHg), heart rate of 91 beats/min, temperature of 37.1 C, and an oxygen saturation of 92% while on a non-rebreather mask at a flow rate of 15 L. On examination, he was in respiratory distress with decreased breath sounds in bilateral lung fields. The patients' baseline creatinine was unknown at the time of presentation. The remainder of the examination was noncontributory; patient had good skin turgor and appropriate capillary refill. Vital signs for the duration of the visit are provided in Table 1.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A male in his 40s presenting with severe dyspnea, hypotension, fever, chills, and productive cough refractory to outpatient azithromycin.",
+      "history_of_present_illness": "A man in his 40s presented with a 2-week history of fever, chills, and cough productive of grayish sputum that persisted despite outpatient azithromycin therapy. He subsequently developed worsening dyspnea, fatigue, poor appetite, and leg cramping, presenting to an urgent care clinic where hypotension and respiratory distress were identified, prompting immediate transfer to the emergency department.",
+      "past_medical_history": "Underlying chronic viral infection on highly active antiretroviral therapy (HAART; baseline CD4 count and viral load unknown to patient); hypertension; obesity (BMI 34.9 kg/m2); recent course of oral azithromycin. Denied recent travel or known COVID-19 contacts.",
+      "review_of_systems": "Fatigue, leg cramping, anorexia, dyspnea, productive cough with grayish sputum, fever, and chills; denies other systemic complaints."
+    },
+    "objective": {
+      "physical_examination": "General appearance: Severe respiratory distress. Vitals on admission: Blood pressure 70/50 mmHg (hypotension), respiratory rate 58 breaths/min (severe tachypnea), heart rate 91 beats/min, temperature 37.1 °C, oxygen saturation 92% on a non-rebreather mask at 15 L/min. Respiratory: Decreased breath sounds throughout bilateral lung fields. Cardiovascular: Appropriate capillary refill, regular rate. Skin: Good skin turgor; remainder of examination noncontributory.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe refractory community-acquired / atypical pneumonia complicated by septic shock, severe type 1 respiratory failure, and acute respiratory distress in a patient with human immunodeficiency virus (HIV) infection on HAART, class I/II obesity (BMI 34.9 kg/m2), and hypertension.\nPlan & Emergency Management: Patient presented in shock with profound tachypnea and hypoxemia requiring maximal non-rebreather oxygen supplementation (15 L/min). Management prioritized hemodynamic stabilization, aggressive fluid resuscitation, escalation of broad-spectrum antimicrobial coverage, and immediate intensive care unit admission."
+    }
+  }
+}

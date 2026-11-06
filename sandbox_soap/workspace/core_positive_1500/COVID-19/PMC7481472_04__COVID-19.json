@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_04",
+  "pair_id": "PMC7481472_04::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Patient 3: 40-year-old female, with dyslipemia, chronic venous insufficiency, obesity, attending the emergency department for bilateral pneumonia with respiratory failure. Her blood pressure was 107/73, heart rate 79 beats per minute, SpO2 92%, and she had elevated D-Dimer levels. Home treatment: Lorazepam (1 mg), olanzapine (10 mg), risperidone (3 mg), lactitol monohydrate and lactulose. Chest X-ray: Interstitial pattern of right and left basal predominance, with patchy opacities in the middle and upper third of the right hemithorax, suggestive of a viral infectious process. Confirmation of COVID-19 was made by RT-PCR using a throat swab. She was treated with hydroxychloroquine (for 5 days), lopinavir-ritonavir and lithium carbonate (starting on day 2, 400 mg/12 h). The patient was discharged after 11 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old female presented to the emergency department with bilateral pneumonia and respiratory failure.",
+      "history_of_present_illness": "A 40-year-old female presented to the emergency department with bilateral pneumonia and respiratory failure.",
+      "past_medical_history": "Dyslipemia, chronic venous insufficiency, and obesity.",
+      "review_of_systems": "Home treatment: Lorazepam (1 mg), olanzapine (10 mg), risperidone (3 mg), lactitol monohydrate, and lactulose."
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 107/73 mmHg, heart rate 79 beats per minute, SpO2 92%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Interstitial pattern of right and left basal predominance, with patchy opacities in the middle and upper third of the right hemithorax, suggestive of a viral infectious process.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. She was treated with hydroxychloroquine (for 5 days), lopinavir-ritonavir, and lithium carbonate (starting on day 2, 400 mg/12 h). The patient was discharged after 11 days."
+    }
+  }
+}

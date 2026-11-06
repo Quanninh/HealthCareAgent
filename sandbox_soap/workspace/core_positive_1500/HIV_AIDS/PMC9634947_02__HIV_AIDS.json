@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9634947_02",
+  "pair_id": "PMC9634947_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 29-year-old female patient was diagnosed with HIV infection in June 2017 and commenced on TDF/3TC/EFV. Her baseline CD4 count and VL are unknown. Three years later, she was switched to ABC/3TC/ATZ/r following virological failure. Four weeks after treatment switch, she developed pulmonary tuberculosis and in error was given rifampicin with ATZ/r for two months. For treatment optimisation reasons, the ART regimen was switched to ABC/3TC/DTG, but DTG was dosed at 50 mg daily with rifampicin for four months instead of twice daily according to current guidelines. The VL at switch to ABC/3TC/DTG is unknown. The clinical response to treatment was poor and she was referred to Newlands Clinic. A VL taken after seven months on ABC/3TC/DTG was 6540 copies/mL, despite adherence counselling. A genotypic resistance test taken 10 months after initiation of DTG showed extensive NRTI DRMs and one major InSTI DRM (see Table 1 for mutations and sensitivity analysis). This patient admitted to inconsistent adherence both to tuberculosis treatment and ART.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old female presenting with poor clinical response and virological failure during concomitant antiretroviral and antituberculosis therapy.",
+      "history_of_present_illness": "The patient was referred for evaluation of persistent treatment failure following sequential antiretroviral switches and dosing errors during concurrent treatment for pulmonary tuberculosis. Four weeks after switching to second-line protease inhibitor therapy, she contracted pulmonary tuberculosis and erroneously received unboosted atazanavir with rifampicin for two months. She was subsequently transitioned to a dolutegravir-based regimen, but dolutegravir was underdosed at 50 mg once daily instead of twice daily with rifampicin for four months. She exhibited a poor clinical response with persistent viral replication despite adherence support.",
+      "past_medical_history": "Treated with first-line tenofovir/lamivudine/efavirenz (TDF/3TC/EFV) from June 2017 to 2020; switched to abacavir/lamivudine/atazanavir/ritonavir (ABC/3TC/ATZ/r) in 2020 for treatment failure; complicated by active pulmonary tuberculosis receiving rifampicin-based therapy. Patient admitted to inconsistent adherence to both antitubercular medications and antiretrovirals.",
+      "review_of_systems": "Fatigue and persistent respiratory complaints; denies acute hemoptysis or focal neurological deficits."
+    },
+    "objective": {
+      "physical_examination": "Patient appeared chronically ill with signs of poor response to medical therapy; vital signs and specific examination parameters not documented in raw text.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Drug-resistant human immunodeficiency virus (HIV) virological failure with emergent integrase strand transfer inhibitor (InSTI) and NRTI resistance, precipitated by pharmacotherapeutic dosing errors during concurrent rifampicin-based pulmonary tuberculosis treatment. Diagnostic confirmation: Quantitative HIV viral load demonstrated persistent viremia of 6,540 copies/mL at 7 months; genotypic drug resistance testing at 10 months post-DTG confirmed extensive NRTI drug-resistance mutations (DRMs) and one major InSTI DRM selected by subtherapeutic dolutegravir exposure (50 mg once daily rather than 50 mg twice daily with rifampicin). Plan & Outcome: Patient was referred to Newlands Clinic for adherence counseling and optimization of salvage antiretroviral therapy and completion of tuberculosis management."
+    }
+  }
+}

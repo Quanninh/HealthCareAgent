@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4856911_02",
+  "pair_id": "PMC4856911_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "Patient 2. A 21-year-old student presented with fever, drenching sweats, headache, generalized fatigue, and joints pain for three weeks. The general examination was normal except for fever and (R) ankle swelling. The joint was hot and tender with restricted range of movement. US and MRI of the (R) ankle showed large effusion with tibialis posterior tenosynovitis (Figures 2 and 3). His WBC was 7.7 x 109, ESR 45 mm/hr., and CRP 53 mg/L. Synovial fluid was cloudy straw colored. The cell count was 3.3 x 109 with 53% polymorphs. Brucella serology done by immunocapture assay was significantly raised 1 : 10240. Blood culture isolated Brucella species but synovial fluid culture was negative. He, his father, and his brother developed brucellosis concurrently. They all consumed the same raw milk. He received two weeks of streptomycin and a total of three-month rifampicin and doxycycline with full recovery. Follow-up CRP was 2 and ESR 1.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 21-year-old male student presented with a 3-week history of fever, drenching sweats, headache, generalized fatigue, and joint pain.",
+      "history_of_present_illness": "The patient developed acute fever, drenching sweats, headache, generalized fatigue, diffuse joint pain, and right ankle swelling over a 3-week duration. His father and brother concurrently developed identical febrile symptoms.",
+      "past_medical_history": "Occupation: university student. Epidemiological exposure: shared consumption of unpasteurized raw milk with his father and brother. Prior medical history and medications not documented.",
+      "review_of_systems": "Fever, drenching sweats, headache, generalized fatigue, arthralgias, right ankle swelling. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Febrile; right ankle: swollen, hot, and tender to palpation with restricted range of movement. General examination otherwise normal.",
+      "routine_investigations": "WBC: 7.7 x 10^9/L; ESR: 45 mm/hr; CRP: 53 mg/L. Right ankle ultrasound: large joint effusion with tibialis posterior tenosynovitis. Synovial fluid analysis: cloudy straw-colored fluid, cell count 3.3 x 10^9/L with 53% polymorphonuclear leukocytes; synovial fluid culture negative.",
+      "advanced_workup": "Right ankle MRI: confirmed large ankle effusion with prominent tibialis posterior tenosynovitis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute brucellosis with peripheral osteoarticular involvement (right ankle septic arthritis and tibialis posterior tenosynovitis) and bacteremia, as part of a familial foodborne outbreak.\nConfirmation: Brucella immunocapture assay significantly elevated at a titer of 1:10240; blood culture isolated Brucella species. (Synovial fluid culture negative).\nDifferentials ruled out: Non-brucellar bacterial septic arthritis ruled out by negative synovial fluid culture and isolation of Brucella from blood.\nTreatment & Outcome: Treated with parenteral streptomycin for 2 weeks combined with a 3-month course of oral rifampicin and doxycycline, resulting in full clinical recovery and normalization of inflammatory markers (follow-up CRP 2 mg/L, ESR 1 mm/hr)."
+    }
+  }
+}

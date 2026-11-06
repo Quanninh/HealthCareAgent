@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9759007_07",
+  "pair_id": "PMC9759007_07::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "The child returned to the hospital 2 weeks post-second discharge with a 3 day history of weakness and reduced activity. On examination, his pulse was 168 b/min, respiratory rate 42 b/min, temperature 37.9 C, and oxygen saturation of 86% on room air. He was conscious, in respiratory distress, and very pale. All other systems were normal. During this admission, the child's laboratory results were positive for Malaria (P.falciparum) on RDT, HB 2.2 g/dL, WCC 50.9x109/L, and MCV 90.1 FL (Table 4). During his third admission, he was treated for Malaria with severe aaemia (hemolytic crisis) in SCD. He received 2 units of packed red blood cells (160 cc) and Artemether-Lumefantrine 1 tablet initial, then 1 tablet after 8 hours, then 1 tablet PO BD for 2 days, folic acid 5 mg PO OD, deltaprim 1/4 tablet PO weekly. He was discharged on day 7 post-admission with an HB of 12.5 g/dL.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A pediatric male presenting with weakness and reduced activity for three days.",
+      "history_of_present_illness": "A pediatric male with known sickle-cell disease was readmitted to the hospital 2 weeks following his second discharge, presenting with a 3-day history of profound weakness, lethargy, and reduced activity. On admission, he was in severe respiratory distress with marked pallor and hypoxemia.",
+      "past_medical_history": "Known sickle-cell disease (SCD) with two prior hospitalizations in the preceding weeks.",
+      "review_of_systems": "Lethargy, reduced activity, marked weakness."
+    },
+    "objective": {
+      "physical_examination": "Conscious, in respiratory distress, profoundly pale. Pulse rate 168 beats/min (tachycardia), respiratory rate 42 breaths/min (tachypnea), temperature 37.9 °C, SpO2 86% on room air. Remainder of systemic physical examination was normal.",
+      "routine_investigations": "Profound anemia with hemoglobin 2.2 g/dL, leukocytosis with WBC 50.9 x 10^9/L, MCV 90.1 fL.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute Plasmodium falciparum malaria precipitating severe hyperhemolytic crisis and life-threatening anemia (hemoglobin 2.2 g/dL) in a child with sickle-cell disease. Confirmed by positive malaria rapid diagnostic test (RDT) for Plasmodium falciparum.\nPlan & Outcome: Resuscitated with 2 units of packed red blood cells (160 cc) and treated with oral artemether-lumefantrine (1 tablet initially, 1 tablet at 8 hours, then 1 tablet twice daily for 2 days), along with oral folic acid (5 mg daily) and weekly deltaprim (1/4 tablet). Successfully stabilized and discharged on day 7 post-admission with hemoglobin improved to 12.5 g/dL."
+    }
+  }
+}

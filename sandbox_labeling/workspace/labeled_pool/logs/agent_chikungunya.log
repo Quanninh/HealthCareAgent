@@ -1,0 +1,12 @@
+{
+  "disease": "Chikungunya",
+  "slug": "chikungunya",
+  "total_input": 28,
+  "total_output": 28,
+  "label_counts": {
+    "POSITIVE": 20,
+    "EXCLUDED_NON_TARGET_CASE": 5,
+    "NEGATIVE": 3
+  },
+  "status": "complete"
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9034561_04",
+  "pair_id": "PMC9034561_04::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Participant 4: A.O, a 40 -year old married businessman who was a known HIV-Positive patient already on ART (Truvada and Efavirenze) from the source of referral. He presented five hours after observing a progressive left sided weakness. He was not a known hypertensive patient, but a known diabetic patient who was on metformin for the previous two years. The patient did not smoke, but took alcohol occasionally. At entry, he was afebrile to touch, pale but anicteric. He was fully conscious and talking rationally. Power was 3 in the left upper limb and 4 in the left lower limb. Abdominal examination was unremarkable and safe for truncal obesity. Significant results of investigations done were: PCV of 28%, elevated total cholesterol, reduced high density lipoprotein, HDL and elevated low-density lipoprotein, LDL. The random blood glucose at entry was 142 mg/dl. Fasting and two hours post breakfast done the following day were; 5.3 mmol/l and 8.3 mmol/l respectively. Cranial CT confirmed ischaemic stroke. He had stroke care, vitamin E, C, as well as Aspirin. His diabetes control was ensured.\nOutcome: he improved remarkably with physiotherapy, but was lost to follow up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old male presenting with acute, progressive left-sided weakness of five hours' duration.",
+      "history_of_present_illness": "The patient presented to the emergency department 5 hours after noticing acute, progressive weakness involving his left upper and lower extremities. He remained fully conscious and alert, without reported loss of consciousness, speech arrest, facial asymmetry, or convulsions.",
+      "past_medical_history": "Type 2 diabetes mellitus diagnosed two years prior, treated with metformin; receiving combination antiretroviral therapy (tenofovir disoproxil fumarate/emtricitabine [Truvada] and efavirenz). Social history: Businessman; occasional alcohol consumption; non-smoker.",
+      "review_of_systems": "Acute left-sided limb weakness; denies fever, headache, palpitations, chest pain, or visual disturbances."
+    },
+    "objective": {
+      "physical_examination": "General: Fully conscious, alert, and oriented; pale conjunctivae, anicteric; truncal obesity. Vitals: Afebrile. Abdomen: Unremarkable aside from central adiposity. Neurologic: Fluent speech; left hemiparesis with muscle power grade 3/5 in the left upper extremity and grade 4/5 in the left lower extremity.",
+      "routine_investigations": "Packed cell volume (PCV): 28% (anemia). Blood glucose: Random blood glucose at presentation 142 mg/dL; next-day fasting blood glucose 5.3 mmol/L and 2-hour postprandial blood glucose 8.3 mmol/L. Lipid panel: Dyslipidemia characterized by elevated total cholesterol, elevated low-density lipoprotein (LDL), and decreased high-density lipoprotein (HDL).",
+      "advanced_workup": "Cranial computed tomography (CT): Confirmed acute ischemic stroke without intracranial hemorrhage."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute ischemic cerebrovascular accident (ischemic stroke) in a patient with type 2 diabetes mellitus, atherogenic dyslipidemia, and chronic human immunodeficiency virus (HIV) infection receiving combination antiretroviral therapy (Truvada and efavirenz). Plan & Outcome: Managed with antiplatelet therapy (aspirin), antioxidant support (vitamins C and E), dedicated stroke unit care, glycemic optimization, and physiotherapy. The patient demonstrated marked functional motor recovery, but was subsequently lost to outpatient follow-up."
+    }
+  }
+}

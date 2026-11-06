@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3322787_03",
+  "pair_id": "PMC3322787_03::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "raw_case_text": "A 35-year-old Caucasian man went to a hospital emergency department 15 days after returning from a house-boating trip to New Melones Reservoir in the Sierra Nevada foothills of northern California. He reported a 4-day history of headache, fatigue, low back pain, myalgia especially of the calves, vomiting, and fever as high as 40.6 C. Signs included erythema of the left flank, with scattered tiny red macules on the legs. Initial laboratory studies showed proteinuria, a creatinine level that peaked at 1.7 mg/dL, and mild transaminasemia, with ALT 182 U/L and alkaline phosphatase 370 U/L. His leukocyte count was within normal range at 9.0 K/muL.\nOther serologic tests, including for hepatitis A, B, and C, rickettsia, brucella, and ehrlichia, were all negative. He took doxycycline 100 mg orally twice daily for 10 days and made a complete recovery. MAT and IgM-ELISA for leptospirosis were processed at CDC; titers from serum taken 21 days and 36 days after the houseboat trip were most strongly positive with serovars from L. interrogans serogroup Mini (Table 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old man presented with a 4-day history of high fever up to 40.6 °C, severe calf myalgias, headache, low back pain, and vomiting.",
+      "history_of_present_illness": "Symptoms began 11 days after a house-boating trip (4 days prior to emergency department evaluation) with high fever peaking at 40.6 °C, severe myalgias especially prominent in the calves, headache, fatigue, low back pain, and repeated episodes of vomiting.",
+      "past_medical_history": "Epidemiological exposure: house-boating excursion to New Melones Reservoir in the Sierra Nevada foothills of northern California 15 days prior to admission, with exposure to muddied freshwater creeks. Past medical conditions, chronic medications, and allergies are unmentioned.",
+      "review_of_systems": "Positive for high fever, headache, fatigue, low back pain, prominent calf myalgias, and vomiting. Home medications and allergies are unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Temperature: high fever peaking at 40.6 °C. Dermatologic examination revealed erythema of the left flank and scattered tiny red macules on the lower extremities.",
+      "routine_investigations": "WBC count: 9.0 x 10^3/muL (normal range). Renal panel: serum creatinine peaked at 1.7 mg/dL. Urinalysis: proteinuria. Hepatic panel: ALT: 182 U/L; alkaline phosphatase: 370 U/L. Serologic tests for hepatitis A, B, and C, Rickettsia, Brucella, and Ehrlichia were all negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Leptospirosis presenting with high fever, calf myalgias, macular rash, acute kidney injury, and transaminasemia. Confirmed by CDC serology: IgM-ELISA and microscopic agglutination test (MAT) on sera obtained 21 and 36 days post-exposure demonstrated strongly positive titers against Leptospira interrogans serogroup Mini. Serologies for viral hepatitis A, B, C, Rickettsia, Brucella, and Ehrlichia were negative. Treatment & Outcome: Successfully treated with oral doxycycline 100 mg twice daily for 10 days, resulting in rapid symptom resolution and complete clinical recovery."
+    }
+  }
+}

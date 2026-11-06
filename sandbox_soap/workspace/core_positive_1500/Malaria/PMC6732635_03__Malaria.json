@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6732635_03",
+  "pair_id": "PMC6732635_03::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 42-year-old man with no particular history was hospitalized for drowsiness, 38.9 C fever and a heart rate of 140 beats/minute. He weighed 55 kg. The thick peripheral blood smear was positive with 17,400 Plasmodium falciparum trophozoites per mm3. The hemoglobin concentration was 10.3 g/dl, and blood glucose was 9.4 mmol/L. Quinine treatment at a dose of 25 mg/kg per 24 hours was instituted in the emergency department. Obnubilation-type consciousness disorders and conjunctival jaundice appeared after 12 hours of hospitalization. Even though the patient was afebrile, the diagnosis of BWF was evoked due to the port wine color of his urine. The emergency bioassay showed a creatinemia of 720 mumol, urea of 28 mmol, and hemoglobin of 5.5 g/dl. Quinine was immediately stopped, in favor of intramuscularly injected artemether prescribed at a dose of 3.2 mg/kg daily on day 1 and 1.6 mg/kg daily from day 2 to day 5. Unfortunately, the patient only received the first dose because he died less than 24 hours after admission of shock in coma and with anuria.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old male presenting with fever, drowsiness, and rapid heart rate.",
+      "history_of_present_illness": "The patient presented with acute onset of high fever, somnolence, and palpitations. Twelve hours after admission and initiation of parenteral antimalarial therapy, he developed acute clinical deterioration characterized by deep stupor/obnubilation, severe jaundice, and dark port wine-colored urine.",
+      "past_medical_history": "No significant prior medical history documented.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Admission: Body temperature 38.9 °C, heart rate 140 beats/min (severe tachycardia), body weight 55 kg; patient was drowsy. Twelve hours post-admission: Deep obnubilation/coma, conjunctival jaundice, and anuria with port wine-colored urine.",
+      "routine_investigations": "Admission labs: Hemoglobin 10.3 g/dL, blood glucose 9.4 mmol/L. Repeat emergency labs (12 hours later): Hemoglobin dropped acutely to 5.5 g/dL; serum creatinine 720 micromol/L; blood urea 28 mmol/L.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe Plasmodium falciparum malaria complicated by acute blackwater fever (quinine-induced massive intravascular hemolysis, acute hemoglobinuric renal failure with anuria, and refractory shock). Admission thick peripheral blood smear demonstrated 17,400 P. falciparum trophozoites/mm3.\nPlan & Outcome: Initiated in the emergency unit on intravenous quinine at 25 mg/kg/24h. Upon appearance of port wine urine and catastrophic drop in hemoglobin from 10.3 to 5.5 g/dL, quinine was immediately ceased and intramuscular artemether (3.2 mg/kg) administered. However, the patient developed uncal/neurologic herniation or refractory circulatory collapse with anuria, dying within 24 hours of hospital presentation."
+    }
+  }
+}

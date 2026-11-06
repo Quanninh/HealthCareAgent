@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7171606_01",
+  "pair_id": "PMC7171606_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Although the role of HHV8 in KD is demonstrated in the occurrence of KD, cofactors remain poorly understood. We report here a case of KD occurring after a 10-year-old vascular trauma on a patient from Central Africa with HIV infection.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A patient from Central Africa presenting with localized lesions developing after a vascular trauma ten years prior.",
+      "history_of_present_illness": null,
+      "past_medical_history": "Vascular trauma sustained 10 years prior. Epidemiological origin: Central Africa.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Kaposi disease (KD) associated with human herpesvirus 8 (HHV8) and human immunodeficiency virus (HIV) infection occurring in a patient from Central Africa at the site of vascular trauma sustained 10 years previously."
+    }
+  }
+}

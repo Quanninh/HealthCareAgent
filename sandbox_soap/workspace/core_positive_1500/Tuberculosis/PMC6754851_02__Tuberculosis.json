@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6754851_02",
+  "pair_id": "PMC6754851_02::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "The second patient was a 17-year-old girl without family history of TB. She presented with numerous bilateral cervical lymphadenopathies and nasal obstruction. Nasal endoscopy found a polypoid uprising of the superior and posterior nasopharyngeal walls. CT scan showed a nasopharyngeal mass with central hypodensity suggesting tissue necrosis (Figure 3), with multiple cervical lymphadenopathies. A biopsy was performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old female presented with nasal obstruction and bilateral neck swelling.",
+      "history_of_present_illness": "The patient presented with nasal obstruction and numerous bilateral cervical swellings.",
+      "past_medical_history": "No family history of tuberculosis.",
+      "review_of_systems": "Patient reported nasal obstruction. Systemic symptoms, home medications, and allergies: unmentioned."
+    },
+    "objective": {
+      "physical_examination": "Presence of numerous bilateral cervical lymphadenopathies.",
+      "routine_investigations": null,
+      "advanced_workup": "Nasal endoscopy: revealed polypoid swelling and mucosal uprising of the superior and posterior nasopharyngeal walls. CT scan: demonstrated a nasopharyngeal mass with central hypodensity suggestive of tissue necrosis, accompanied by multiple cervical lymphadenopathies. Nasopharyngeal biopsy was performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Primary nasopharyngeal tuberculosis presenting with central necrosis mimicking nasopharyngeal carcinoma. Diagnostic biopsy was performed; across this patient series, histopathology confirmed granulomatous nasopharyngitis with epithelioid histiocytes, Langhans multinucleated giant cells, and caseous necrosis. Managed with antitubercular regimen comprising rifampicin (10 mg/kg/day), isoniazid (5 mg/kg/day), and pyrazinamide (20 mg/kg/day) for 2 months, followed by rifampicin and isoniazid for 4 months, achieving favorable clinical and radiological resolution."
+    }
+  }
+}

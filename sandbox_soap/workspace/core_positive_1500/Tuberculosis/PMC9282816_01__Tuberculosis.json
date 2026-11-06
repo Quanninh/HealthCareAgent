@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9282816_01",
+  "pair_id": "PMC9282816_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 25-year-old female presented with the left dull mid-back pain for 3 months' duration. The pain was moderate and radiated to the left breast/precordium. The physical examination just revealed focal tenderness over the inferior angle of the left scapula/7th costovertebral junction, without swelling or erythema.\nThe patient had a raised erythrocyte sedimentation rate of 40 and C-reactive protein of 6. Serological testing for HIV, hepatitis B, and hepatitis C was all negative.\nThe anteroposterior X-rays of the thoracic spine showed that the T7 vertebral body was scalloped on the left side, and there erosion of the T7 left pedicle and adjoining rib [Figure 1]. The MR showed; a left-sided T7 enhancing periarticular erosive lesion, marrow edema in the posteromedial portion of the left 7th rib, the left posterolateral portion of the T7 vertebral body, and lateral left T7 pedicle. There was also thickening/ enhancement of the synovium of the left 7th costotransverse joint with enhancing soft tissue elevating the overlying pleura, and abutting the descending aorta [Figure 2]. A CT-guided biopsy was diagnostic for TB; it demonstrated caseous necrosis with epithelioid and Langerhans giant cells [Figure 3]. In addition, GeneXpert detected Mycobacterium tuberculosis that showed sensitivity to both isoniazid and rifampicin.\nATT for the first 4 months included rifampicin, isoniazid, pyrazinamide, and ethambutol (HRZE) (intensive phase). For the next 8 months, the patient received rifampicin and isoniazid (HR) (continuation phase). At follow-up (12 months), the patient showed clinical and radiological signs of healing [Figure 4].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old female presented with dull left mid-back pain radiating to the left breast and precordium for three months.",
+      "history_of_present_illness": "A 25-year-old female presented with a 3-month history of moderate, dull left mid-back pain radiating anteriorly to the left breast/precordium.",
+      "past_medical_history": "Denies prior medical conditions, hospitalizations, prior antituberculous treatment, travel, or TB exposures.",
+      "review_of_systems": "Reports left mid-back pain radiating to breast/precordium; denies fever, cough, night sweats, weight loss, or focal neurological deficits. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Focal tenderness over the inferior angle of the left scapula and 7th costovertebral junction, without erythema, swelling, or deformity.",
+      "routine_investigations": "ESR: 40 mm/h; CRP: 6 mg/L; HIV, HBV, HCV serologies: negative; AP thoracic spine X-ray: scalloping of left T7 vertebral body with erosion of T7 left pedicle and adjoining rib.",
+      "advanced_workup": "Thoracic spine MRI: left-sided T7 enhancing periarticular erosive lesion; marrow edema in posteromedial portion of left 7th rib, left posterolateral portion of T7 vertebral body, and lateral left T7 pedicle; synovial thickening/enhancement of left 7th costotransverse joint with soft tissue elevating overlying pleura and abutting descending aorta. CT-guided core biopsy: caseous necrosis with epithelioid histiocytes and Langhans giant cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Extrapulmonary musculoskeletal tuberculosis involving the left T7 vertebra, pedicle, 7th rib, and costotransverse joint (tuberculous costovertebral arthritis and spondylitis).\nConfirmation: CT-guided biopsy showed caseous necrosis with epithelioid and Langhans giant cells; GeneXpert of biopsy specimen detected Mycobacterium tuberculosis with demonstrated sensitivity to isoniazid and rifampicin.\nDifferentials ruled out: Primary bone neoplasm, metastatic malignancy, pyogenic spondylodiscitis, HIV and viral hepatitis (seronegative).\nTreatment & Outcome: 12-month anti-tuberculosis therapy: 4 months of intensive HRZE (rifampicin, isoniazid, pyrazinamide, ethambutol), followed by 8 months of continuation HR (rifampicin, isoniazid). Complete clinical resolution of pain and radiological bone healing confirmed at 12-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8432228_01",
+  "pair_id": "PMC8432228_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 14-month-old female infant was admitted with fever, hepatosplenomegaly, bicytopenia, hypoxemia, and increased serum ferritin. A myelogram revealed Leishmania spp. and hemophagocytosis. She presented liver failure, and lipossomal amphotericin B and corticosteroid were started. She was treated with cefepime and vancomycin due to sepsis (blood cultures revealed Klebsiella spp., and she had skin lesions). After 12 days, she was discharged from the hospital and continued oral corticosteroid therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-month-old female infant presented with fever, abdominal distension, and respiratory distress.",
+      "history_of_present_illness": "The infant presented with persistent fever, progressive abdominal distension secondary to hepatosplenomegaly, bicytopenia, hypoxemia, and acute hepatic failure complicated by secondary sepsis.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Hepatosplenomegaly, hypoxemia, and presence of skin lesions.",
+      "routine_investigations": "Laboratory evaluation revealed bicytopenia, elevated serum ferritin, and acute liver failure. Blood cultures yielded Klebsiella spp. bacteremia.",
+      "advanced_workup": "Bone marrow myelogram demonstrated prominent features of hemophagocytosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of visceral leishmaniasis complicated by secondary hemophagocytosis, acute liver failure, and Klebsiella spp. sepsis: bone marrow myelogram demonstrated Leishmania spp. amastigotes. The patient was treated with intravenous liposomal amphotericin B, systemic corticosteroids, intravenous cefepime, and intravenous vancomycin for bacterial sepsis. Following stabilization and clinical improvement, she was discharged home after 12 days of hospitalization to complete oral corticosteroid therapy."
+    }
+  }
+}

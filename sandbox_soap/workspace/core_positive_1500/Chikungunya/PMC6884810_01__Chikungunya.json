@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6884810_01",
+  "pair_id": "PMC6884810_01::Chikungunya",
+  "target_disease": "Chikungunya",
+  "raw_case_text": "A 40-year-old male traveling from Bangladesh was admitted with fever and joint pain at Nakasero Hospital on 09 Sep 2017. Date of initial symptom onset of illness was 08 Sep 2017. The patient had no significant past medical history, was on no regular medication, and had received yellow fever specific travel-related vaccination. The patient, whose final destination was the Democratic Republic of Congo (DRC) where he worked, became ill while in transit in Dubai before traveling to Uganda. Once in Uganda and at Nakasero Hospital, a blood sample was collected on 09 Sep 2017 and transported to the arbovirus laboratory at UVRI.\nLess detailed information is available for case report 2 involving two sisters who traveled to Ethiopia to visit their father for about 6 weeks. They became ill but got better after a week with treatment in Ethiopia. Their father had been diagnosed with a case of DF 2 months prior to them falling sick. They traveled back to Uganda on 27 Aug 2017. They arrived at the UVRI clinic on 03 Oct 2017, and a blood sample was collected from each person, approximately 5 weeks post-travel. They looked well but requested a DF test to confirm test results performed in Ethiopia.\nA total of 284 serum samples collected in 2017 were tested for yellow virus (YFV), West Nile virus (WNV), DENV1-4, CHIKV and Zika virus (ZIKV) antibodies by IgM capture ELISA. Only the diagnostic testing results for arbovirus infections of the three travel-related cases are shown and summarized in Table 1. All serological testing in case report 1 (ARB01183/Uganda) were negative, while high neutralizing antibodies against DENV2 were found for both sisters that traveled to Ethiopia in case report 2 (ARB01227UVRI and ARB01228UVRI). \nVirus culture on Vero cell monolayers was performed in T25 flasks. The serum sample from the Bangladeshi traveler exhibited prominent and characteristic 100% CPE on day 2 post-infection. RNA extracted from harvested virus supernatant and tested by group-specific RT-PCR was positive for alphavirus and negative for flavivirus and bunyavirus. Further testing by real-time RT-PCR using CHIKV, ONNV and Semliki Forest virus (SFV) specific primers, yielded positive results for CHIKV. Next generation sequencing of the RNA isolated from cell culture supernatant of the CPE-positive culture sample identified a CHIKV genome that genetically clustered within a CHIKV clade containing predominantly Asian CHIKV strains (Fig. 1). The CHIKV strain most related to the virus isolated from ARB01183/Uganda was from Bangladesh collected in 2017 (MF77773566, Fig. 1 insert).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old male presented with acute fever and joint pain of 1 day's duration during travel.",
+      "history_of_present_illness": "A 40-year-old male traveling from Bangladesh to the Democratic Republic of the Congo fell ill with acute fever and joint pain while in transit in Dubai on September 8, 2017, and was admitted to Nakasero Hospital upon arrival in Uganda the following day.",
+      "past_medical_history": "No significant past medical history; yellow fever travel vaccination received; travel route: Bangladesh through Dubai to Uganda and DRC.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Fever and joint pain noted on admission; further physical examination details not documented.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Acute serum viral isolation on Vero cell monolayers showed 100% cytopathic effect (CPE) on day 2; group-specific RT-PCR was positive for alphavirus (negative for flavivirus and bunyavirus), and real-time RT-PCR was positive for Chikungunya virus (negative for O'nyong-nyong and Semliki Forest viruses). Next-generation sequencing confirmed a CHIKV genome clustering with Asian lineage strains (closely matching a 2017 Bangladesh isolate). Acute IgM capture ELISA for YFV, WNV, DENV 1-4, CHIKV, and ZIKV was negative (drawn on day 2 of illness before seroconversion). Management and course: Inpatient supportive care upon diagnosis."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "disease": "Typhoid_Fever",
+  "slug": "typhoid_fever",
+  "total_input": 47,
+  "total_output": 47,
+  "label_counts": {
+    "POSITIVE": 31,
+    "EXCLUDED_NON_TARGET_CASE": 12,
+    "NEGATIVE": 4
+  },
+  "status": "complete"
+}

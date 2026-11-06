@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9356588_02",
+  "pair_id": "PMC9356588_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Patient B: The patient, a 27-year-old man, was just diagnosed with HIV/AIDS (3 months ago) after being tested for HIV serostatus following notification that his wife had tested positive for the virus at a nearby clinic. He has no complaints about anything else. All of the physical evidences were unremarkable. Except for the CD4 count, which was determined to be 77cells/mm3, all baseline examinations, including tuberculosis investigations using a sputum gene expert, were non-revealing, and he subsequently tested for TB LAM, which yielded a positive result. He was subsequently started on anti-TB as recommended, and after a month, he was started on HAART withTenofovir+Lamivudine+Dolutegravir (TLD). He is using his medications without any problems so far, and the viral load will be sent on his six month of HAART initiation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 27-year-old male presenting for evaluation following partner notification of retroviral seropositivity.",
+      "history_of_present_illness": "The patient presented as an asymptomatic contact following spousal notification of seropositivity three months earlier. He reported no active constitutional, respiratory, gastrointestinal, or neurological symptoms.",
+      "past_medical_history": "Epidemiological exposure: Heterosexual contact with a partner with confirmed retroviral infection.",
+      "review_of_systems": "Completely asymptomatic; denies fevers, night sweats, cough, weight loss, or gastrointestinal disturbances."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was completely unremarkable; vital signs, nutritional status, and systemic evaluations were within normal limits.",
+      "routine_investigations": "Sputum GeneXpert MTB/RIF: Negative for Mycobacterium tuberculosis. Urine submitted for lipoarabinomannan (TB LAM) lateral flow testing.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Subclinical disseminated tuberculosis in a patient with profound human immunodeficiency virus (HIV) immunodeficiency (CD4+ T-cell count 77 cells/mm3). Diagnostic confirmation: Positive urine TB LAM test despite negative sputum GeneXpert MTB/RIF in an asymptomatic HIV-seropositive individual. Plan & Outcome: Initiated on first-line anti-tuberculosis therapy according to guidelines. One month into anti-TB treatment, commenced combination antiretroviral therapy (HAART) with tenofovir, lamivudine, and dolutegravir (TLD). Patient tolerated the regimen uneventfully without adverse events, with viral load monitoring scheduled at 6 months post-ART initiation."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6714924_01",
+  "pair_id": "PMC6714924_01::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "In early January 2016, a 46-year-old Brazilian non-Caucasian female previously healthy arrived at the emergency department of the University Hospital of Sergipe with a history of 3 days with high fever (>39 C), joint pain, arthralgia, and a red cutaneous rash. She was treated with hydration and discharged from the hospital with a paracetamol prescription. She returned to the emergency department 4 days later with right upper extremity painful edema, with no prior peripherally inserted central catheter or intravenous infusions in the arm that had brachial thrombosis (Figure 1). An upper limb venous duplex scan revealed right brachial vein thrombosis. She was treated with unfractionated heparin followed by vitamin K antagonists (VKAs). Polymerase chain reaction (PCR) test confirmed Zika infection.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "46-year-old female presenting with high fever (>39 °C), arthralgia, and red cutaneous rash for 3 days, returning 4 days later with painful edema of the right upper extremity.",
+      "history_of_present_illness": "The patient presented to the emergency department with a 3-day history of high fever (>39 °C), diffuse joint pain, and an erythematous cutaneous rash. She received intravenous hydration and was discharged on paracetamol. Four days later, she returned with acute painful swelling of the right upper extremity, with no prior peripherally inserted central catheter, vascular access, or intravenous infusions in that arm.",
+      "past_medical_history": "Previously healthy; non-Caucasian female residing in Sergipe, Brazil; no conventional predisposing risk factors for venous thromboembolism.",
+      "review_of_systems": "High fever, diffuse joint pain, cutaneous rash, acute arm pain and swelling; denies chest pain or shortness of breath."
+    },
+    "objective": {
+      "physical_examination": "Initial presentation: High fever (temperature >39 °C), red cutaneous rash. Subsequent presentation: Painful edema of the right upper extremity without superficial skin breakdown.",
+      "routine_investigations": "Upper limb venous duplex ultrasound: Right brachial vein thrombosis.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute Zika virus infection confirmed by polymerase chain reaction (PCR), complicated by acute right brachial deep vein thrombosis. Patient was treated with therapeutic anticoagulation using intravenous unfractionated heparin bridged to oral vitamin K antagonists (VKAs), resulting in clinical resolution."
+    }
+  }
+}

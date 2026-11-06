@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4856939_01",
+  "pair_id": "PMC4856939_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 68-year-old male patient was admitted to our hospital with chief complaints of recurrent pain in right hypochondrium, loss of appetite, and dyspepsia for the past 1 month. No fever, weight loss, or night sweating was reported. The patient denied any history of tuberculosis or hepatitis. There was no history of jaundice. The general and abdominal examinations revealed nothing significant. Laboratory investigations were normal. No abnormality was found at chest X-ray. At abdominal ultrasound, a gallbladder mass was observed, and the gallbladder was distended with multiple gallstones with associated cholecystitis. Preoperative ESR was 30 mm/h. Contrast-enhanced CT scan revealed a 5 mm thick gallbladder wall, and the interface between liver and gallbladder was not obvious, possibly indicating that gallbladder lesions had infiltrated into the liver parenchyma (Figure 1). Therefore, a diagnosis of gallbladder carcinoma was considered, and the patient underwent a subcostal laparotomy. Intraoperation, we found that the gallbladder size was around 9 cm x 5 cm x 4 cm, and there was edema in gallbladder wall. A stone was incarcerated at the neck, and gallbladder was filled with pus.\nThe gallbladder was resected and sent for intraoperative frozen-section examination, and report indicated that no sign of malignancy was found. The definitive histopathological examination (HPE) of gallbladder reported gallbladder tuberculosis (Figure 2). Microscopical view shows epithelioid granuloma along with typical Langhans giant cells. The Mantoux tuberculin skin test was positive, and no other findings suggestive of tubercular infection were found. Therefore, the patient received antitubercular therapy for 6 months.\nThe patient has been gradually relieved of all symptoms since cholecystectomy and was well at 6-month follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

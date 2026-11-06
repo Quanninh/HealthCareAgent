@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC11378234_01",
+  "pair_id": "PMC11378234_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 17-year-old male recipient of matched-sibling donor transplant for myelodysplastic syndrome, on immunosuppressive agent, presented with fever and body ache on day +317. Donor chimerism at day +180 was >90%. At presentation, CBC showed Hb = 16.5 g/dL, hematocrit (HCT) = 48%, platelet = 90 x 109/L. Physical examination revealed harsh vesicular breathing. Dengue NS1 antigen was detected. Blood cultures were negative. He was managed conservatively for 1 week as inpatient with intravenous hydration, analgesics, and antipyretics. Platelet count dropped to 24 x 109/L followed by recovery without need for transfusion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old male post-allogeneic stem cell transplant presented with fever and body ache on post-transplant day +317.",
+      "history_of_present_illness": "The patient, on immunosuppressive therapy following allogeneic hematopoietic stem cell transplantation, presented on day +317 post-transplant with acute-onset fever and generalized body aches. During inpatient management, his platelet count declined to a nadir of 24 x 10^9/L before spontaneous recovery.",
+      "past_medical_history": "Underwent matched-sibling donor stem cell transplant for myelodysplastic syndrome (donor chimerism >90% at day +180). Maintained on immunosuppressive therapy.",
+      "review_of_systems": "Reported fever and generalized body aches. Denied bleeding manifestations, chills, cough, or dyspnea."
+    },
+    "objective": {
+      "physical_examination": "Chest examination revealed harsh vesicular breath sounds bilaterally. No petechiae, ecchymoses, or mucosal bleeding were identified.",
+      "routine_investigations": "Complete blood count at presentation: Hemoglobin 16.5 g/dL, hematocrit 48%, platelet count 90 x 10^9/L (nadir: 24 x 10^9/L).\nMicrobiology: Blood cultures showed no bacterial growth.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Dengue fever presenting in an allogeneic stem cell transplant recipient with acute thrombocytopenia, confirmed by positive Dengue NS1 antigen detection. Bacterial bloodstream infection was ruled out with negative blood cultures.\nTreatment and outcome: Managed conservatively as an inpatient for 1 week with intravenous fluid hydration, analgesics, and antipyretics. The platelet count recovered spontaneously without requiring platelet transfusions, and he recovered uneventfully."
+    }
+  }
+}

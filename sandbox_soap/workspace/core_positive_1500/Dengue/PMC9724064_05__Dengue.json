@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9724064_05",
+  "pair_id": "PMC9724064_05::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 10-year-old female presented to our hospital in a drowsy state with a history of intermittent moderate-grade fever for four days, not associated with chills or rigor. Her blood pressure was 96/66 mm Hg on admission. She tested positive for NS1 antigen and had a platelet count of 35 000/microl. No rashes or bleeding manifestations were present.\nMRI of the brain demonstrated multiple, symmetrical, patchy hyperintense areas on T2-weighted and FLAIR images in both temporo-occipital lobes and to a lesser extent in the frontoparietal regions, involving the cortex and subcortical white matter (Figures 7a-f). These areas revealed no diffusion restriction, no blooming on GRE images and no post-contrast enhancement (Figures 7f-i).\nBased on the clinical and imaging findings, posterior reversible encephalopathy syndrome (PRES) and dengue encephalitis were considered as possible diagnoses. The patient was managed conservatively and was given dopamine for blood pressure regulation along with methylprednisolone. There was no recorded hypertensive episode throughout the clinical course of the patient in our hospital. The child recovered well and was discharged from the hospital after seven days.\nA follow-up brain MRI four months later revealed complete resolution of the signal abnormalities in the bilateral temporo-occipital and frontoparietal regions (Figures 8a-f). In view of the characteristic imaging findings that resolved on follow-up, clinical and laboratory investigations, a final diagnosis of PRES secondary to dengue fever was made.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old female presenting in a drowsy state with intermittent moderate-grade fever for four days.",
+      "history_of_present_illness": "A 10-year-old female presented with a 4-day history of intermittent moderate-grade fever without chills or rigors, presenting in a progressively drowsy state. She had no recorded episodes of hypertension during admission. Following supportive treatment and targeted pharmacotherapy, her sensorium normalized, and she was discharged home after seven days.",
+      "past_medical_history": null,
+      "review_of_systems": "Absence of chills, rigors, rash, or bleeding manifestations."
+    },
+    "objective": {
+      "physical_examination": "Drowsy sensorium. Blood pressure 96/66 mmHg on admission (no hypertension documented throughout hospital stay). Absence of skin rash or petechiae/bleeding.",
+      "routine_investigations": "Platelet count: 35,000/microL (thrombocytopenia).",
+      "advanced_workup": "Brain MRI (admission): Multiple symmetrical patchy hyperintense areas on T2-weighted and FLAIR images in bilateral temporo-occipital lobes and to a lesser extent frontoparietal regions, involving cortex and subcortical white matter, without diffusion restriction, blooming on GRE, or contrast enhancement. Follow-up Brain MRI (4 months post-discharge): Complete resolution of all previous signal abnormalities in bilateral temporo-occipital and frontoparietal regions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Posterior reversible encephalopathy syndrome (PRES) and dengue encephalitis secondary to confirmed Dengue virus infection. Confirmed by positive Dengue NS1 antigen upon presentation.\nPlan & Outcome: Managed conservatively with intravenous dopamine infusion for blood pressure hemodynamic support and intravenous methylprednisolone. The patient experienced rapid clinical neurological recovery and was discharged after 7 days. Follow-up MRI at 4 months confirmed complete radiologic resolution of encephalopathy."
+    }
+  }
+}

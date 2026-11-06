@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7527865_05",
+  "pair_id": "PMC7527865_05::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "In 2008, a male, 30 years old, Caucasian, unemployed, HIV - negative, with no other concomitant infections, presented with an isolated nodulation in the right leg and he was diagnosed with Tegumentary leishmaniasis. The patient was treated with Glucantime (10 mg/kg/day for 20 days), achieving complete healing of the lesions. In 2014 the patient presented a papule in the inferior eyelid of the right eye. Patient was PCR positive for Leishmania brasiliensis. Lesions progressively appeared in different body surfaces such as the chest, abdomen, back, feet, and mouth. Ulcerated oral lesions were present in the hard palate, as well as the left and right jugal mucosa ( Figure 3a).\nProgression of disease was associate with fever, headache and weight loss. Treatment with glucantime (20 mg/day) for 30 days followed by treatment with amphotericin B at a cumulative dose of 1.5 to 2 g, 50 mg/day. Patient developed acute renal failure secondary to the use of amphotericin B. Treatment was replaced by the liposomal form at a dose of 100 mg/day and patient was discharge one month later with complete remission of lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old male presented with a papule on his right lower eyelid, followed by widespread cutaneous lesions, oral ulcers, fever, headache, and weight loss.",
+      "history_of_present_illness": "The patient presented in 2014 with a papule on the right lower eyelid that rapidly disseminated into widespread skin lesions across his chest, abdomen, back, and feet, along with ulcerations of the oral mucosa, accompanied by fever, headache, and weight loss. Six years earlier (2008), he had been treated for an isolated right leg nodule diagnosed as tegumentary leishmaniasis using Glucantime (10 mg/kg/day for 20 days) with complete healing. For the current disseminated eruption, he received meglumine antimoniate (20 mg/day for 30 days) followed by conventional amphotericin B (50 mg/day up to a cumulative dose of 1.5 to 2 g), but developed acute renal failure, necessitating therapy modification.",
+      "past_medical_history": "Cutaneous leishmaniasis in 2008 (right leg nodule) successfully cured with Glucantime. Negative for HIV and other concomitant infections. Resident of Brazil.",
+      "review_of_systems": "Fever, headache, unintentional weight loss, oral pain. Home medications: none prior to presentation. Allergies: None documented."
+    },
+    "objective": {
+      "physical_examination": "Dermatologic: papule on the right lower eyelid; widespread disseminated cutaneous lesions over the chest, abdomen, back, and feet. Oral: ulcerated mucosal lesions involving the hard palate and bilateral buccal/jugal mucosa.",
+      "routine_investigations": "HIV antibody test: negative. Renal function testing: acute renal failure (elevated serum creatinine and blood urea nitrogen) during conventional amphotericin B therapy.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Disseminated American tegumentary leishmaniasis caused by Leishmania braziliensis, complicated by amphotericin B-induced acute renal failure.\nDiagnostic confirmation: Polymerase chain reaction (PCR) of lesion tissue was positive for Leishmania braziliensis.\nDifferentials ruled out: HIV-associated opportunistic infections (HIV negative), paracoccidioidomycosis, histoplasmosis, secondary syphilis, and cutaneous lymphoma.\nTreatment and clinical course: Conventional amphotericin B was discontinued upon development of nephrotoxicity and replaced with liposomal amphotericin B (100 mg/day). Discharged 1 month later with complete remission of all oral and cutaneous lesions and recovery of renal function."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8371194_02",
+  "pair_id": "PMC8371194_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "We report the case of a 17-month-old female patient from Berkane, born from a consanguineous marriage with the notion of the death of a sister at the age of 6 (unknownetiology), with no other pathological history. She presented for an anarchic fever evolving for 3 months with the anemic syndrome and hemorrhagic syndrome made up of epistaxis with stature retardation. Physical examination revealed a temperature of 39   C, lower limbsedema, paleness of skin and mucous membranes, gingival petechiae, bleached hair and hepatosplenomegaly. Other exams are unremarkable.\nThe complete blood count showed pancytopenia made up of deep aregenerative normochromic normocyticanemia at 3 g/dL, with reticulocyte count at 76.700/mm3, leukocytes at 4860/mm3 made up of neutropenia at 680/mm3 and thrombocytopenia at 12.000/mm3. The blood smear showed no abnormality. We also observed a hypoalbuminemia at 13 g/L, hypertriglyceridemia at 4.57 g/L, hyperferritinemia at 626ug/L, lactate dehydrogenase (LDH) level at 337IU/L, low prothrombin time (PT) at 56 %, and fibrinogen level at 1 g/L. The direct Coombs test was also positive. The hepatic assessment and the renal function are without abnormality. (Table 1) in front of these clinical and biological features, the clinicians taking charge of the patient evoked the diagnosis of MAS. Thus, a cytological study of the bone marrow in search of the features of hemophagocytosis was necessary to confirm the diagnosis. Careful examination of the myelogram revealed the presence of leishmania bodies with figures of hemophagocytosis (Fig. 1, Fig. 2). The diagnosis of visceral leishmaniasis associated with a MAS was retained.\nThe patient was put on liposomal amphotericin B and corticosteroid therapy with good clinical and biological progress and good therapeutic tolerance.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-month-old female presented with a 3-month history of chaotic fever, severe anemia, epistaxis, and growth delay.",
+      "history_of_present_illness": "The patient presented with irregular, anarchic fever evolving over 3 months, associated with progressive anemic syndrome, hemorrhagic manifestations including recurrent epistaxis, and stature retardation leading to hospital admission.",
+      "past_medical_history": "Born to consanguineous parents in Berkane, Morocco; family history notable for the death of an older sister at age 6 years of unknown etiology; no other prior personal pathological history.",
+      "review_of_systems": "Recurrent epistaxis and growth retardation."
+    },
+    "objective": {
+      "physical_examination": "Body temperature: 39 °C. Marked paleness of skin and mucous membranes, gingival petechiae, lower limb edema, bleached hair, and hepatosplenomegaly. Other physical examination findings were unremarkable.",
+      "routine_investigations": "Complete blood count revealed profound pancytopenia: aregenerative normochromic normocytic anemia with hemoglobin: 3 g/dL and reticulocyte count: 76,700/mm^3; leukopenia with WBC: 4,860/mm^3 and absolute neutropenia: 680/mm^3; severe thrombocytopenia with platelets: 12,000/mm^3. Peripheral blood smear: no morphological abnormalities. Serum albumin: 13 g/L (hypoalbuminemia), triglycerides: 4.57 g/L (hypertriglyceridemia), serum ferritin: 626 ug/L (hyperferritinemia), lactate dehydrogenase (LDH): 337 IU/L, prothrombin time (PT): 56%, fibrinogen: 1 g/L. Direct Coombs test: positive. Hepatic transaminases and renal function tests: normal.",
+      "advanced_workup": "Cytological study of the bone marrow aspirate (myelogram) demonstrated prominent features of hemophagocytosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of visceral leishmaniasis (VL) associated with macrophage activation syndrome (MAS): careful microscopic examination of the bone marrow myelogram revealed the presence of characteristic Leishmania bodies (amastigotes) alongside active hemophagocytic histiocytes. The patient was treated with intravenous liposomal amphotericin B and systemic corticosteroid therapy, resulting in excellent therapeutic tolerance and rapid clinical and biological recovery."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7527865_04",
+  "pair_id": "PMC7527865_04::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "In 2017, an eight year-old Caucasian male from Salvador, Bahia, Brazil, presented with a hyperemic and pruritic lesion on the upper lip which had persisted for six months. Patient was treated with acyclovir cream, 5%, 5 times/day and cefadroxil (50 mg/kg/day) for seven days, with no response. He presented worsening of the lesion and Montenegro intradermal examination was performed ( Figure 2a). The patient was positive for American Tegumentary Leishmaniasis. Treatment with glucantime (10 mg/day) for 20 days was initiated. After three days of treatment, the patient developed vomiting episodes, intermittent fever, diarrhea, hypoglycemia, dark urine, and began developing a reaction of cardiotoxicity and hepatoxicity. Treatment with liposomal amphotericin B was initiated (3 mg/kg/day for 5 days, followed by 3 mg/kg). One month later, patient was discharged with remission of the lesion ( Figure 2b). Two months later, the patient was admitted at University Hospital with a new, erythematous and ulcerated lesion on the upper lip lesion, lymphadenopathy, and facial edema. Therapy with amoxicillin 250 mg (1g/day) and amphotericin B (100 mg/day) for 10 days was started. Patient is currently in psychological follow-up due to trauma caused by facial disfiguration and difficulty in returning to social life. Patient maintained outpatient follow-up and did not present with recurrence of the lesion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old male presented with a 6-month history of a persistent pruritic, hyperemic lesion on his upper lip.",
+      "history_of_present_illness": "The patient presented with a 6-month history of an erythematous, itchy lesion on his upper lip that failed to improve after treatment with topical acyclovir cream (5 times daily) and oral cefadroxil (50 mg/kg/day for 7 days). Because of clinical worsening, he underwent Montenegro testing and was diagnosed with American tegumentary leishmaniasis. He was started on meglumine antimoniate (10 mg/day for 20 days), but after 3 days developed acute vomiting, fever, diarrhea, hypoglycemia, dark urine, cardiotoxicity, and hepatotoxicity. He was switched to liposomal amphotericin B (3 mg/kg/day for 5 days, followed by 3 mg/kg) and achieved remission at 1 month. Two months post-discharge, he relapsed with a new erythematous ulcerated upper lip lesion, facial edema, and lymphadenopathy, prompting readmission.",
+      "past_medical_history": "No prior chronic medical illnesses. Resident of Salvador, Bahia, Brazil.",
+      "review_of_systems": "Pruritus of lip lesion; acute vomiting, diarrhea, dark urine, and fever during antimonial toxicity. Home medications: prior courses of acyclovir, cefadroxil, Glucantime, and liposomal amphotericin B. Allergies: Severe toxic reaction to meglumine antimoniate (cardiotoxicity, hepatotoxicity)."
+    },
+    "objective": {
+      "physical_examination": "Initial presentation: hyperemic, pruritic plaque on the upper lip. Relapse presentation: new erythematous, ulcerated lesion on the upper lip, diffuse facial edema, and regional cervical/submandibular lymphadenopathy.",
+      "routine_investigations": "Biochemical and toxicological monitoring: hypoglycemia, elevated liver enzymes (hepatotoxicity), and electrocardiographic abnormalities (cardiotoxicity) documented on day 3 of meglumine antimoniate therapy.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: American tegumentary leishmaniasis of the upper lip with meglumine antimoniate-induced systemic toxicity and subsequent cutaneous relapse.\nDiagnostic confirmation: Positive Montenegro intradermal reaction (skin test).\nDifferentials ruled out: Herpes simplex virus infection (unresponsive to acyclovir) and bacterial impetigo/cellulitis (unresponsive to cefadroxil).\nTreatment and clinical course: Antimonial therapy was permanently discontinued due to life-threatening multiorgan toxicity. Relapse successfully treated with intravenous amphotericin B (100 mg/day for 10 days) alongside amoxicillin (250 mg PO, total 1 g/day), resulting in complete lesion healing without recurrence during follow-up. Enrolled in psychological support for facial disfigurement trauma."
+    }
+  }
+}

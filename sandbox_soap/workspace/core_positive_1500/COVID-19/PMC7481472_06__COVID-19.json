@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_06",
+  "pair_id": "PMC7481472_06::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Patient 5: 68-year-old male, chronic obstructive pulmonary disease and benign prostatic hyperplasia, attending the emergency department for increased dyspnoea in the last 48 h, together with cough and dark expectoration. His blood pressure was 112/81, heart rate 82 beats per minute, SpO2 95%, and elevated D-Dimer levels. Chest X-ray: He had a small nodular infiltrate in the upper left lobe suggesting an infectious process. The radiological pattern was indicative of emphysema (two-basal, varicose bronchiectasis in left hemithorax). Confirmation of COVID-19 was made by RT-PCR using a throat swab. He was treated with hydroxychloroquine (for 5 days), risperidone, lopinavir-ritonavir and lithium carbonate (first dose on day 12, 200 mg/12 h and second dose on day 15, with 600 mg/12 h). The patient was discharged 9 days later.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 68-year-old male presented to the emergency department with increased dyspnoea for 48 hours, cough, and dark expectoration.",
+      "history_of_present_illness": "A 68-year-old male presented to the emergency department with increased dyspnoea in the last 48 hours, together with cough and dark expectoration.",
+      "past_medical_history": "Chronic obstructive pulmonary disease and benign prostatic hyperplasia.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 112/81 mmHg, heart rate 82 beats per minute, SpO2 95%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Small nodular infiltrate in the upper left lobe suggesting an infectious process; radiological pattern was indicative of emphysema (two-basal, varicose bronchiectasis in left hemithorax).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. He was treated with hydroxychloroquine (for 5 days), risperidone, lopinavir-ritonavir, and lithium carbonate (first dose on day 12, 200 mg/12 h and second dose on day 15, with 600 mg/12 h). The patient was discharged 9 days later."
+    }
+  }
+}

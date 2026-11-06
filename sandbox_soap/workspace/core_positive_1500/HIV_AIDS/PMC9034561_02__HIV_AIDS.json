@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9034561_02",
+  "pair_id": "PMC9034561_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Participant 2: Miss O.P, 32-year-old single seamstress admitted with recurrent fever of three months, cough, weight loss and then right sided weakness of one day. She was not a known patient with haemoglobinopathy, hypertension, or diabetes mellitus. No history of significant alcohol consumption, cigarette smoking or use of illicit drugs. She had recurrent diarrhoea for about two months with a positive history of multiple sexual partners. On admission, she had hyperpigmented skin, dehydrated, febrile to touch (temperature- 38 C), anicteric and pale (PCV 22%). There was right hemiparesis, with power of 4 in the right upper limb and 2 in the right lower limb, with chest signs of consolidation on the right side, confirmed on chest radiograph. There was hepatomegaly of 2-4cm, with a tipped spleen. Her blood pressure was 90/60 mmHg. There were hemic murmurs with tachycardia of 102bpm. Blood was sterile on culture. The random blood glucose was 76mg/dl, with normal plasma lipids profile. Aside a hyponatraemia of 131mmol/l her renal assessment was normal. A computerized tomography (CT) scan was not done for financial reasons. She had stroke care, rehydration and systematic antibiotics. A follow-up chest X-ray after antibiotics reveal underlined features suggestive of tuberculosis. Even though she had a smear-negative sputum examination, her genexpert examination was positive.\nOutcome: she improved remarkably, had anti tuberculosis treatment, and was enrolled in the adult HIV services and had ART.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old female presenting with a 3-month history of recurrent fever, cough, and weight loss, and acute right-sided body weakness for one day.",
+      "history_of_present_illness": "The patient presented with a 3-month history of persistent fevers, productive cough, and progressive weight loss, as well as chronic watery diarrhea for two months. Twenty-four hours prior to admission, she experienced the acute onset of right-sided hemiparesis, prompting emergency medical evaluation.",
+      "past_medical_history": "No prior history of hypertension, diabetes mellitus, or hemoglobinopathy. Social/Epidemiological history: Seamstress; reported a history of multiple sexual partners; denies significant alcohol use, cigarette smoking, or illicit drug use.",
+      "review_of_systems": "Recurrent fever, chronic cough, unintentional weight loss, recurrent diarrhea, and right-sided limb weakness."
+    },
+    "objective": {
+      "physical_examination": "General: Febrile (temperature 38.0 °C), dehydrated, hyperpigmented skin, pale conjunctivae, anicteric. Cardiovascular: Blood pressure 90/60 mmHg, heart rate 102 beats/min (tachycardia), audible hemic flow murmurs. Respiratory: Signs of right pulmonary consolidation with bronchial breath sounds and crackles. Abdomen: Hepatomegaly 2 to 4 cm below the right costal margin with a palpable splenic tip. Neurologic: Right-sided hemiparesis with muscle power grade 4/5 in the right upper extremity and grade 2/5 in the right lower extremity.",
+      "routine_investigations": "Packed cell volume (PCV): 22% (severe anemia). Serum electrolytes & renal function: Sodium 131 mmol/L (mild hyponatremia); renal function otherwise normal. Blood glucose & lipids: Random blood glucose 76 mg/dL; lipid profile normal. Blood cultures: Sterile with no bacterial growth. Initial chest radiograph: Right lung consolidation. Follow-up chest radiograph: Persistent infiltrates with cavitation suggestive of pulmonary tuberculosis. Sputum microscopy: Smear-negative for acid-fast bacilli.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Pulmonary tuberculosis and acute ischemic stroke in a patient with newly confirmed human immunodeficiency virus (HIV) infection. Diagnostic confirmation: Sputum GeneXpert MTB/RIF assay was positive for Mycobacterium tuberculosis; HIV infection confirmed by serologic testing. Plan & Outcome: Managed with stroke rehabilitation, IV rehydration, and empirical systemic antibiotics. Upon confirmation of tuberculosis, she was commenced on standard anti-tuberculosis therapy (ATT), resulting in marked clinical improvement, and was enrolled into adult HIV clinic services for combination antiretroviral therapy (ART)."
+    }
+  }
+}

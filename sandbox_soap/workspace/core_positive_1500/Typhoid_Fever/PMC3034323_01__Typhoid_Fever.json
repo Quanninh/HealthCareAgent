@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3034323_01",
+  "pair_id": "PMC3034323_01::Typhoid_Fever",
+  "target_disease": "Typhoid_Fever",
+  "raw_case_text": "A previously healthy 14-year-old boy from Rawalpindi, Pakistan, was admitted in July 2002 to Combined Military Hospital, Rawalpindi, with a 7-day history of a high fever (>38 C) and vomiting. He had relative bradycardia (heart rate 84 bpm) and a soft palpable spleen. His total leukocyte count was 3 x 109/L. Malarial parasites were not seen on examination of thin and thick smears of peripheral blood. The results of a routine urinalysis and chest radiographs were normal. A blood Widal test showed a titer of 320 against \"O\" (somatic) antigen of Salmonella enterica serovar Typhi. Blood culture yielded the growth of Salmonella Typhi. The isolate was found to be resistant to the conventional antityphoid drugs by using modified Kirby-Bauer disk diffusion technique according to the criteria of the National Committee for Clinical Laboratory Standards (NCCLS). The disks of antimicrobial drugs used were chloramphenicol (30 mug), co-trimoxazole (1.25/23.75 mug), ampicillin (10 mug), ciprofloxacin (5 mug), and ceftriaxone (30 mug). The isolate appeared susceptible to ciprofloxacin and ceftriaxone.\nThe patient was given ciprofloxacin, 500 mg, every 12 hours, orally, on admission but remained febrile after 3 days of treatment. When the blood culture report was received, and in view of the susceptibility pattern, intravenous ciprofloxacin, 200 mg every 12 hours, was administered. Despite 8 days of treatment, his fever did not resolve. The isolate was reviewed and the MIC of ciprofloxacin was determined by Kirby-Bauer broth dilution technique; it was 0.5 mug/mL; well below the NCCLS recommended break point value of 1 mug/mL. However, in light of the treatment failure with ciprofloxacin, intravenous ceftriaxone,1 g every 12 hours, was administered, and the patient responded within 3 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old male presented with a 7-day history of high fever (>38 °C) and vomiting.",
+      "history_of_present_illness": "A previously healthy 14-year-old boy presented with high fevers exceeding 38 °C and persistent vomiting of 7 days' duration, leading to hospital admission in July 2002.",
+      "past_medical_history": "Previously healthy with no chronic medical conditions. Resident of Rawalpindi, Pakistan.",
+      "review_of_systems": "High-grade fever and vomiting. Denies other systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Body temperature >38 °C, relative bradycardia with heart rate 84 bpm. Abdominal examination revealed a soft, palpable spleen.",
+      "routine_investigations": "Total leukocyte count 3 x 10^9/L (leukopenia). Routine urinalysis was normal. Chest radiographs were normal. Thin and thick peripheral blood smears were negative for malarial parasites.",
+      "advanced_workup": "Modified Kirby-Bauer disc diffusion susceptibility testing of the blood isolate demonstrated resistance to conventional first-line agents (chloramphenicol 30 mug, co-trimoxazole 1.25/23.75 mug, and ampicillin 10 mug) and apparent disc susceptibility to ciprofloxacin 5 mug and ceftriaxone 30 mug. Broth dilution minimum inhibitory concentration (MIC) testing demonstrated a ciprofloxacin MIC of 0.5 mug/mL (below the NCCLS breakpoint of 1 mug/mL, indicating reduced ciprofloxacin susceptibility)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Multidrug-resistant (MDR) Salmonella enterica serovar Typhi bacteremia (typhoid fever) with reduced fluoroquinolone susceptibility (ciprofloxacin MIC 0.5 mug/mL), confirmed by positive blood culture and Widal serology (titer 320 against O somatic antigen). Malaria was ruled out by negative thin and thick blood smears.\nPlan & Outcome: The patient was initially treated with oral ciprofloxacin 500 mg every 12 hours on admission; fever persisted after 3 days. Following blood culture and initial disc sensitivity results, he was transitioned to IV ciprofloxacin 200 mg every 12 hours, but remained febrile despite 8 days of fluoroquinolone therapy (clinical treatment failure due to reduced quinolone susceptibility / NARST phenotype). In response, therapy was switched to intravenous ceftriaxone 1 g every 12 hours, resulting in complete defervescence and clinical recovery within 3 days."
+    }
+  }
+}

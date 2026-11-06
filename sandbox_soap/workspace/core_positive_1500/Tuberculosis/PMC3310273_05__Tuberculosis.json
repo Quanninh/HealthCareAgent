@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3310273_05",
+  "pair_id": "PMC3310273_05::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "The patient was treated with 2HRZE/4HR regimen of Isoniazid (300 mg), Rifampicin (450 mg), Ethambutol (800 mg), and Pyrazinamide (1500 mg) on alternate days thrice a week for two months, followed by Rifampicin (450 mg) and Isoniazid (300 mg) on alternate days, thrice a week for the next four months. The patient showed marked improvement in symptoms and became asymptomatic within two months. The child is presently under followup to complete the prescribed regimen.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Antimicrobial regimen and outcome: Treated with an intermittent 2HRZE/4HR antitubercular regimen consisting of isoniazid (300 mg), rifampicin (450 mg), ethambutol (800 mg), and pyrazinamide (1500 mg) on alternate days thrice weekly for 2 months, followed by rifampicin (450 mg) and isoniazid (300 mg) on alternate days thrice weekly for the subsequent 4 months. The pediatric patient demonstrated marked symptomatic improvement and became completely asymptomatic within 2 months, remaining under active follow-up to complete the prescribed 6-month regimen."
+    }
+  }
+}

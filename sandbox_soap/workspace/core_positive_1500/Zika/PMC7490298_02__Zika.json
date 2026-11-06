@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7490298_02",
+  "pair_id": "PMC7490298_02::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "Case 2: A 23 year old patient that reported fever, arthralgia, exanthema and pruritus in the third trimester of gestation. Her IgM serology was positive for Zika, the PRNT90% was positive (Supplementary Table S1) and the qPCR was positive for Zika in serum (820 copies/ml) and urine (160 copies/ml). Her IgG serology was positive for cytomegalovirus and rubella. The test for dengue NS1 was negative. At 38 weeks of gestation, her baby girl was born by cesarean delivery that presented with cephalic circumference of 37 cm. The placenta weighed 555 g.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "23-year-old pregnant female in the third trimester of gestation presenting with fever, arthralgia, exanthema, and pruritus.",
+      "history_of_present_illness": "The patient developed acute fever, joint pain, exanthema, and pruritus during the third trimester of pregnancy. She carried the pregnancy to 38 weeks of gestation, delivering an infant girl via cesarean section.",
+      "past_medical_history": "Third trimester of gestation; no prior chronic illnesses documented.",
+      "review_of_systems": "Fever, arthralgia, pruritus; denies other acute symptoms."
+    },
+    "objective": {
+      "physical_examination": "Maternal: Exanthema and fever noted during acute illness. Neonatal: Female infant delivered at 38 weeks gestation by cesarean section with cephalic circumference of 37 cm. Placental weight was 555 g.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Maternal third-trimester Zika virus infection confirmed by positive serum qPCR (820 copies/mL), urine qPCR (160 copies/mL), positive Zika IgM serology, and positive PRNT90% for neutralizing antibodies. Dengue NS1 antigen testing was negative; serum IgG was positive for cytomegalovirus and rubella (indicating prior immunity). Cesarean delivery at 38 weeks gestation resulted in a normocephalic infant girl (head circumference 37 cm) without overt congenital malformations."
+    }
+  }
+}

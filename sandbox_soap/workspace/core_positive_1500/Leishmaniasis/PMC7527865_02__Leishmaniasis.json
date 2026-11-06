@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7527865_02",
+  "pair_id": "PMC7527865_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "In July 2013, 53-year-old male, Caucasian, unemployed, from Mundo Novo, State of Bahia, Brazil, attended to the Stomatology Clinic at University Hospital, presenting with pain, nasal obstruction, and complaints of odynophagia and dysphagia. Physical examination showed painful, hyperemic and friable lesion in the right nasal cavity, associated with infiltrative lesion on the hard and soft palate, and uvula ( Figure 1c). We observed ulcerated lesion on the left eyebrow and right eye with seropurulent secretion, a small ulcer on the lower eyelid, on the lobe of the right ear and a lesion in the malar region. The patient was admitted for diagnosis and treatment of disseminated skin lesions. A biopsy of the palate lesions revealed a non-specific erosive chronic inflammatory process. The patient was HIV negative and positive for Montenegro reaction. Treatment with amphotericin B was initiated at a dose of 150 mg/d up to a maximum dose of 2,410 mg. Lesions regressed after drug treatment and oral treatment was initiated during hospitalization. We removed dental foci without any intercurrence. One month later, the patient was discharged. However, in August 2013, in outpatient medical consultation, the lesions were observed in nasal mucosa and palate. He was followed up in the outpatient clinic and treatment with glucantime 20 mg/kg/day was prescribed for one month. The follow-up period was eight months, and the result was negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 53-year-old male presented with facial ulcers, nasal pain, nasal obstruction, odynophagia, and dysphagia.",
+      "history_of_present_illness": "The patient presented to the stomatology clinic in July 2013 with nasal pain, persistent nasal obstruction, odynophagia, and dysphagia. He had noted progressive ulcerated lesions appearing on his eyelids, face, and earlobe, alongside destructive lesions inside the nasal cavity and oropharynx. He was admitted for diagnostic workup and inpatient therapy.",
+      "past_medical_history": "Dental infectious foci. Negative for HIV. Resident of Mundo Novo, State of Bahia, Brazil.",
+      "review_of_systems": "Nasal pain, nasal blockage, odynophagia, dysphagia. Home medications and allergies: None documented."
+    },
+    "objective": {
+      "physical_examination": "HEENT and Dermatologic: painful, hyperemic, and friable lesion in the right nasal cavity; extensive infiltrative lesions involving the hard palate, soft palate, and uvula. Multiple ulcerated skin lesions: ulcer on left eyebrow and right eye with seropurulent discharge, small ulcer on the right lower eyelid, ulcer on the right earlobe, and an ulcerated lesion in the right malar region.",
+      "routine_investigations": "Serology: HIV serology negative.",
+      "advanced_workup": "Palate lesion biopsy: histopathological examination revealed a non-specific erosive chronic inflammatory process."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Disseminated American tegumentary leishmaniasis with extensive mucocutaneous involvement (nasal, palatal, uvular, and facial skin).\nDiagnostic confirmation: Positive Montenegro intradermal reaction (MIT); palate biopsy demonstrated non-specific chronic inflammatory process consistent with mucosal leishmaniasis.\nDifferentials ruled out: Paracoccidioidomycosis, histoplasmosis, squamous cell carcinoma, syphilis, tuberculosis, and HIV co-infection.\nTreatment and clinical course: Treated initially with intravenous amphotericin B (150 mg/day up to a cumulative dose of 2,410 mg) with lesion regression, alongside dental focus removal. Upon outpatient follow-up in August 2013, persistent mucosal lesions prompted treatment with meglumine antimoniate (Glucantime, 20 mg/kg/day for 1 month). Followed for 8 months with complete clinical resolution and no active lesions."
+    }
+  }
+}

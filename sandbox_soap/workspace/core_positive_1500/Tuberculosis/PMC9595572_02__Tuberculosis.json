@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9595572_02",
+  "pair_id": "PMC9595572_02::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "As of now, he was 8 years old and his insulin dosage was 1.1 IU/kg/d. Even under fluconazole therapy, he developed oral mucocutaneous Candida fungi twice every month, but he did not develop recurrent viral or bacterial infections. He was given antituberculosis drugs (isoniazide, rifampicin) for tuberculosis infection. The liver function was normal at the last follow-up, and the HbA1c was 6.5%. Ruxolitinib was recommended to the patient's parents, but they refused because of concerns about side effects.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old boy with diabetes mellitus and recurrent oral candidiasis presented for follow-up of tuberculosis infection.",
+      "history_of_present_illness": "An 8-year-old boy with insulin-dependent diabetes mellitus presented for clinical follow-up. Despite continuous fluconazole prophylaxis, he experienced recurrent episodes of oral mucocutaneous candidiasis twice monthly, without recurrent bacterial or viral infections. He was diagnosed with tuberculosis infection and commenced on antituberculosis therapy.",
+      "past_medical_history": "Type 1 diabetes mellitus (insulin requirement 1.1 IU/kg/day); chronic mucocutaneous candidiasis on prophylactic fluconazole. Antituberculosis therapy with isoniazid and rifampicin. Prior hospitalizations, travel, or TB contacts not documented.",
+      "review_of_systems": "Reports recurrent oral mucocutaneous candidiasis; denies fever, chronic cough, or gastrointestinal complaints. Home medications: subcutaneous insulin (1.1 IU/kg/day), fluconazole, isoniazid, rifampicin. Allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Oral examination: recurrent oral candidiasis mucosal lesions noted during flares. General physical exam otherwise stable.",
+      "routine_investigations": "HbA1c: 6.5%; Liver function tests: normal at last follow-up.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Tuberculosis infection in an 8-year-old child with autoimmune polyendocrinopathy / immune dysregulation syndrome manifested by insulin-dependent diabetes mellitus and chronic mucocutaneous candidiasis.\nConfirmation: Clinical and microbiological diagnosis of tuberculosis infection managed with targeted anti-tuberculosis chemotherapy; recurrent mucocutaneous Candida infection documented despite fluconazole.\nDifferentials ruled out: Severe combined immunodeficiency (denied recurrent severe viral or bacterial infections).\nTreatment & Outcome: Treated with antituberculosis drugs (isoniazid and rifampicin), subcutaneous insulin therapy (1.1 IU/kg/day maintaining HbA1c at 6.5%), and oral fluconazole. Liver function tests remained strictly normal throughout therapy. Ruxolitinib therapy was offered for the underlying immune condition, but declined by the parents due to concern for potential adverse effects."
+    }
+  }
+}

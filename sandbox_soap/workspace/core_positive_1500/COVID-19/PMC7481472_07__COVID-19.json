@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_07",
+  "pair_id": "PMC7481472_07::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Patient 6: 52-year-old male, the patient has no medical history with relevance to COVID-19, attending the emergency department presenting fever, dry cough and respiratory failure, with a blood pressure of 101/64, a heart rate of 101 beats per minute, SpO2 93%, and elevated D-Dimer levels. Chest X-ray: An endotracheal tube was inserted 3cm from the carina and a right subclavian central venous catheter was positioned. Diffuse bilateral interstitial pattern with ground glass opacities in middle and lower right lobe was observed, which was indicative of an atypical viral infection. Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with lopinavir-ritonavir, hydroxychloroquine (during the first 5 days), ceftriaxone, azithromycin, corticoids (day 7), and lithium carbonate (400 mg/12 h) since day 7. The patient remains in the intensive care unit.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old male presented to the emergency department with fever, dry cough, and respiratory failure.",
+      "history_of_present_illness": "A 52-year-old male presented to the emergency department with fever, dry cough, and respiratory failure.",
+      "past_medical_history": "No relevant prior medical history.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 101/64 mmHg, heart rate 101 beats per minute, SpO2 93%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: An endotracheal tube was inserted 3 cm from the carina and a right subclavian central venous catheter was positioned. Diffuse bilateral interstitial pattern with ground glass opacities in middle and lower right lobe was observed, which was indicative of an atypical viral infection.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. The patient was treated with lopinavir-ritonavir, hydroxychloroquine (during the first 5 days), ceftriaxone, azithromycin, corticoids (day 7), and lithium carbonate (400 mg/12 h) since day 7. The patient remains in the intensive care unit."
+    }
+  }
+}

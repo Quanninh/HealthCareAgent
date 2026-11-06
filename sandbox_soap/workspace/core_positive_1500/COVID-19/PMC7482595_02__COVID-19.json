@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7482595_02",
+  "pair_id": "PMC7482595_02::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "A 48 year old male with a history of asthma presented to our institution with a cough, shortness of breath and a fever. The patient subsequently tested positive for Covid-19 and was intubated and admitted to the ICU with hypoxic respiratory failure after failure to improve with initial therapy. The patient was started on therapeutic enoxaparin treatment.\nOn the 10th day the patient was on high ventilator settings and minimal inotropic support. On examination, lower limbs showed unsalvageable ischemia with no palpable pulses (Fig. 2). Urgent CT angiography revealed complete occlusion of the left arterial tree from the aortic bifurcation descending down to the infra-popliteal arteries. Contralaterally, distal occlusion of the superficial femoral artery down to the infra-popliteal arteries. CT of the lung displayed ground glass appearance of the lungs associated with consolidation. After consulting the next of kin and the risk; benefit of proceeding to surgery. The joint decision to provide supportive care was made. The patient was declared dead on the same day.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 48-year-old male presented with cough, shortness of breath, and fever.",
+      "history_of_present_illness": "A 48-year-old male presented to the institution with a cough, shortness of breath, and a fever. After failure to improve with initial therapy, he developed hypoxic respiratory failure necessitating intubation and admission to the intensive care unit.",
+      "past_medical_history": "History of asthma.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "On hospital day 10, examination of the lower limbs revealed unsalvageable ischemia with absent palpable pulses.",
+      "routine_investigations": null,
+      "advanced_workup": "Urgent CT angiography revealed complete occlusion of the left arterial tree from the aortic bifurcation descending down to the infra-popliteal arteries, and contralaterally, distal occlusion of the superficial femoral artery down to the infra-popliteal arteries. CT of the lung displayed ground glass appearance of the lungs associated with consolidation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient subsequently tested positive for COVID-19. Initial management included intubation, high ventilator settings, minimal inotropic support, and therapeutic enoxaparin treatment. Following urgent CT angiography demonstrating extensive bilateral lower extremity arterial occlusions with unsalvageable ischemia, and after consulting with the next of kin regarding the risk and benefit of surgery, a joint decision to provide supportive care was made. The patient was declared dead on day 10."
+    }
+  }
+}

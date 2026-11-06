@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5347410_01",
+  "pair_id": "PMC5347410_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 60-year-old man who has sex with men was diagnosed with HIV in 2001 (Table 1). At the time of presentation, the plasma RNA HIV viral load was 29 079 copies/mL. The nadir CD4 T-cell count was 190 cells/microL. No baseline genotyping was done at the time. He was started on HAART in 2002. The patient suffered from chronic intestinal parasitosis with Entamoeba coli and Blastocystis hominis, which was completely treated in 2004. The patient never developed an AIDS-defining illness. In 2007, he developed chronic kidney disease (CKD) due to IgA nephropathy. His antiretroviral therapy at that time was abacavir, lamivudine, and efavirenz. His CKD progressed to ESRD over the following 5 years, and hemodialysis was initiated in 2012, time at which he was also evaluated for a kidney transplantation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old male with end-stage renal disease presenting for maintenance renal replacement therapy and kidney transplantation evaluation.",
+      "history_of_present_illness": "The patient presented with progressive renal dysfunction initially diagnosed in 2007. Over the subsequent five years, renal failure steadily progressed to end-stage renal disease, necessitating the initiation of chronic hemodialysis in 2012 and formal nephrological evaluation for kidney transplantation.",
+      "past_medical_history": "Human immunodeficiency virus (HIV) infection diagnosed in 2001; baseline plasma HIV RNA viral load 29,079 copies/mL and nadir CD4 T-cell count 190 cells/microL; started on HAART in 2002; antiretroviral regimen consisted of abacavir, lamivudine, and efavirenz in 2007. Chronic intestinal parasitosis with Entamoeba coli and Blastocystis hominis completely eradicated in 2004. Biopsy-proven IgA nephropathy diagnosed in 2007 progressing to ESRD. Never developed an AIDS-defining illness. Epidemiological history: Man who has sex with men (MSM).",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: End-stage renal disease (ESRD) secondary to biopsy-confirmed IgA nephropathy in an HIV-1-infected patient on established combination antiretroviral therapy (HAART) without history of AIDS-defining opportunistic infections.\nPlan & Outcome: Commenced on chronic maintenance hemodialysis in 2012. Antiretroviral therapy was maintained (abacavir, lamivudine, and efavirenz with appropriate dosage adjustments for hemodialysis). The patient was evaluated and approved for kidney transplantation."
+    }
+  }
+}

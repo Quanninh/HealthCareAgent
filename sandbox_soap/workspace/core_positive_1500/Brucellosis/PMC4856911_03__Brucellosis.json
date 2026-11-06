@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4856911_03",
+  "pair_id": "PMC4856911_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "Patient 3. A 40-year-old diabetic patient was admitted with severe cellulitis of the feet after walking bare-footed on the sand. His diabetes is poorly controlled with HBA1C 15.5 (mmol/mol). His course was complicated by neuropathy and retinopathy. He also admitted to (R) knee swelling of two years duration. Multiple aspirations and injections of the knee resulted in temporary relief. There was no history of fever or night sweats. He had contact with animals but did not consume raw milk. The (R) knee was swollen, hot, and tender with restricted range of movement. Admission WBC was 8.7, CRP 38 mg/mL, albumin 24 g/dL, and alkaline phosphatase 220 mu/L. CT scan showed moderate to large effusion of the right knee with associated synovial thickening and osteoarthritic changes (Figure 4). Synovial fluid showed WBC of 9.9 x 109 with 50.5% polymorphs. AFB smears and PCR for tuberculosis were negative. Synovial cultures isolated Brucella species but blood culture was negative. Brucella serology in the blood was high; it was 1 : 10240 and dropped to 1 : 640 on treatment. He received two weeks of streptomycin and completed a 3-month course of rifampicin and doxycycline.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old diabetic male presented with severe cellulitis of the feet after walking barefoot on sand and a 2-year history of right knee swelling.",
+      "history_of_present_illness": "The patient was admitted with severe cellulitis of the feet after walking barefoot on the sand. He also reported a 2-year history of right knee swelling, for which multiple previous joint aspirations and injections had provided only temporary relief. He had no history of fever or night sweats.",
+      "past_medical_history": "Poorly controlled diabetes mellitus with HbA1c 15.5 (mmol/mol), complicated by diabetic neuropathy and retinopathy. Prior history of multiple knee aspirations and injections. Epidemiological history: contact with animals; denied consumption of raw milk.",
+      "review_of_systems": "Denied fever and night sweats. Home medications and allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Right knee was swollen, hot, and tender with restricted range of movement. Severe cellulitis of the feet noted. Vitals not documented.",
+      "routine_investigations": "Admission WBC 8.7, CRP 38 mg/mL, albumin 24 g/dL, alkaline phosphatase 220 mu/L. Synovial fluid analysis: WBC 9.9 x 109 with 50.5% polymorphs; AFB smears and PCR for tuberculosis were negative.",
+      "advanced_workup": "CT scan of the right knee: moderate to large effusion with associated synovial thickening and osteoarthritic changes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Brucellosis (septic monoarthritis of the right knee) in a patient with diabetes mellitus and foot cellulitis. Confirmed by synovial fluid culture isolating Brucella species and elevated blood Brucella serology titer of 1 : 10240 (declined to 1 : 640 following therapy). Blood culture was negative; mycobacterial workup (AFB smear and PCR for tuberculosis) was negative.\nPlan & Outcome: Treated with 2 weeks of streptomycin and completed a 3-month course of rifampicin and doxycycline."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9970260_01",
+  "pair_id": "PMC9970260_01::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "A 58-year-old Hispanic woman with a history of chronic rhinitis, diabetes on insulin treatment, squamous cell carcinoma (remission), and sleep apnea using a continuous positive airway pressure (CPAP) device. The patient reported having a high fever, severe muscle and headache pain, sore throat, dry throat with a burning sensation, nasal congestion with postnatal drip, and cough for the last two days. The antigen on the day of the visit was positive for SARS-CoV-2. The patient was administered two doses of the COVID-19 vaccine two months prior. The patient also reported malaise, fever, and fatigue. In addition to CPM oral spray treatment was started with Vitamin C 1000 mg twice a day, zinc 100 mg once a day, Vitamin D3 5000IU once a day, and ibuprofen or acetaminophen as needed, plus daily phone call follow-ups. The patient reported significant improvement in the burning sensation immediately after the spray was applied. On the second day, she felt better as the hoarseness decreased; by day 3 of treatment, the sore throat, hoarseness, and burning had improved by more than 50% (Figure 2). The fever lasted four days, with muscle pain and tiredness persisting slightly until day 5.\nCase #2",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 58-year-old female presenting with a 2-day history of high fever, severe myalgias, headache, sore throat with a burning sensation, nasal congestion with postnasal drip, and cough.",
+      "history_of_present_illness": "The patient presented with a 2-day history of high fever, severe myalgias, intense headache, severe sore throat, dry throat with an acute burning sensation, nasal congestion with postnasal drip, and cough. She also reported marked malaise and fatigue. Symptoms began acutely two days prior to presentation. She was treated in the outpatient setting with a topical cetylpyridinium chloride (CPM) oral spray along with supportive supplements and analgesics, with immediate relief of pharyngeal burning and progressive resolution of systemic symptoms over several days.",
+      "past_medical_history": "Chronic rhinitis, type 2 diabetes mellitus requiring insulin therapy, history of squamous cell carcinoma (in complete remission), and obstructive sleep apnea treated with continuous positive airway pressure (CPAP). Vaccinated with two doses of pandemic respiratory vaccine 2 months prior.",
+      "review_of_systems": "Reports high fever, headache, severe muscle aches, sore throat, throat burning, hoarseness, rhinorrhea, nasal congestion, postnasal drip, cough, malaise, and fatigue."
+    },
+    "objective": {
+      "physical_examination": "Outpatient clinical evaluation: Febrile, pharyngeal mucosal erythema and irritation. Vital signs otherwise stable. No acute respiratory distress on examination.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Mild COVID-19 upper respiratory tract infection (confirmed by positive SARS-CoV-2 rapid antigen test on the day of presentation) in a vaccinated patient with comorbidities including diabetes mellitus and sleep apnea.\n\nManagement and outcome: Outpatient management consisting of topical cetylpyridinium chloride (CPM) oral spray, vitamin C 1,000 mg BID, zinc 100 mg daily, vitamin D3 5,000 IU daily, and as-needed ibuprofen/acetaminophen, accompanied by daily phone monitoring. Burning pharyngeal symptoms improved immediately after initial spray application, hoarseness improved on day 2, and sore throat/burning improved by > 50% by day 3. Fever resolved by day 4; residual myalgias and fatigue resolved by day 5."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9034561_03",
+  "pair_id": "PMC9034561_03::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Participant 3: A.A, a 42-year-old married commercial bus driver admitted with a two-day history of recurrent focal seizures involving the left lower limb. He was brought in with an altered level of consciousness on the second day. No history of long-standing fever or weight loss. He was not a previously known patient with seizure disorder, head injury, and was not a known hypertensive or diabetic patient. He smoked several sticks of cigarette and consumed large amounts of alcohol daily. At entry, he was restless, with a Glasgow Coma Scale (GCS) of 8/15, afebrile to touch, not pale (PCV 36%) and anicteric. There were bilateral planter blisters sustained from the use of hot plates to stimulate him after episodes of seizures at home. There was left hemiparesis, power was 2 in the right upper and lower limbs with facial nerve palsy. The chest was clear. The blood pressure was 130/70mm/Hg, no heart murmurs. Abdominal examination was unremarkable. He tested positive for HIV 1. The random blood glucose was 110mm/dl (6.1mmol/l). Cranial CT and other requested investigations were not done for financial reasons. He was commenced on parental anticonvulsant and cerebral decompression with minimal improvement.\nOutcome: relatives requested for transfer to another facility for proximity and financial reasons.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old male presenting with recurrent focal seizures involving the left lower limb for two days and acute depression of consciousness.",
+      "history_of_present_illness": "The patient presented with a 2-day history of recurrent focal motor seizures initially involving the left lower limb. On the second day of illness, his mental status deteriorated into restlessness and obtundation, prompting emergency admission. Family members had applied heated plates to his soles at home in an attempt to revive him during seizure episodes. Denied prior history of chronic fever or weight loss.",
+      "past_medical_history": "No prior history of seizures, head injury, hypertension, or diabetes mellitus. Social history: Commercial bus driver; daily heavy alcohol consumption and regular cigarette smoking.",
+      "review_of_systems": "Focal seizures and altered sensorium; denies pre-existing fevers, chronic cough, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "General: Restless, obtunded with Glasgow Coma Scale (GCS) score of 8/15; afebrile to touch, anicteric, no conjunctival pallor. Vitals: Blood pressure 130/70 mmHg, heart rate regular, no murmurs; chest clear to auscultation; abdomen unremarkable. Dermatologic: Bilateral plantar burn blisters secondary to thermal stimulation. Neurologic: Facial nerve palsy, left hemiparesis, muscle power grade 2/5 in limbs.",
+      "routine_investigations": "Packed cell volume (PCV): 36%. Random blood glucose: 110 mg/dL (6.1 mmol/L).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: New-onset focal status epilepticus with acute encephalopathy secondary to suspected intracranial opportunistic infection or focal mass lesion in a patient with newly confirmed human immunodeficiency virus type 1 (HIV-1) infection. Diagnostic confirmation: Positive serological testing for HIV-1; advanced neuroimaging (cranial CT) was precluded by financial constraints. Plan & Outcome: Managed with parenteral anticonvulsant therapy and medical cerebral decompression with osmotic agents, achieving minimal clinical improvement. At the request of his relatives, the patient was transferred to another healthcare facility due to financial and logistical considerations."
+    }
+  }
+}

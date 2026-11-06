@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8326784_03",
+  "pair_id": "PMC8326784_03::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 46-year-old female patient was diagnosed with stage I HIV infection after voluntary counseling and testing (VCT) for HIV 13 years back. She was initiated on ART (AZT-3TC-NVP) and CPT 2 years later with a CD4+ count 119 cells/mm3. The ART regimen was shifted to TDF-3TC-DTG after 11 years as recommended by the National Comprehensive HIV Care Guideline. She was diagnosed to have DKA with clinical evidence of polyuria, polydipsia and fatigue, severe hyperglycemia (RBS=350-450 mg/dl, HbA1c=11.4%) and ketonuria (3+), which occurred after 1 month of the DTG-based ART regimen (Table 1). No documented preceding infections. No personal or family history of diabetes mellitus or dyslipidemia. Serum C-peptide level, anti-insulin antibody or anti-GAD antibody were not determined due to limited clinical setup. No documented plasma glucose level prior to changing ART regimen. She was treated with intravenous fluids, regular insulin and IV KCl, and recovered from diabetic ketoacidosis after 3 days of admission. NPH insulin 10/8 IU s/c daily was initiated, which later changed to metformin 750 mg po daily. Good glycemic control (FBS=106-140 mg/day, HbA1c=5.6%) was obtained with metformin, while the DTG-based ART regimen was continued.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old female presenting with acute polyuria, polydipsia, and fatigue in the setting of severe hyperglycemia and ketonuria.",
+      "history_of_present_illness": "A 46-year-old female presented with acute onset of polyuria, polydipsia, and fatigue developing one month after switching her long-standing antiretroviral therapy to a dolutegravir-containing regimen. There was no preceding history of fever or infectious illness.",
+      "past_medical_history": "Underlying retroviral illness diagnosed 13 years prior, initiated on antiretroviral therapy (AZT-3TC-NVP) and cotrimoxazole preventive therapy 11 years prior, transitioned to tenofovir, lamivudine, and dolutegravir (TDF-3TC-DTG) one month prior; no personal or family history of diabetes mellitus or dyslipidemia.",
+      "review_of_systems": "Polyuria, polydipsia, fatigue; denies fever, dyspnea, nausea, vomiting, or abdominal pain."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Blood glucose: Random blood sugar (RBS) 350-450 mg/dL; glycated hemoglobin (HbA1c) 11.4%. Urinalysis: Ketonuria (3+). (Serum C-peptide, anti-insulin antibodies, and anti-GAD antibodies were not determined due to setup limitations; pre-switch plasma glucose not documented).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute diabetic ketoacidosis (DKA) and new-onset diabetes mellitus precipitated by dolutegravir (DTG) initiation in a patient with human immunodeficiency virus (HIV; diagnosed 13 years prior, baseline CD4 119 cells/mm3 on ART).\nPlan & Clinical Outcome: Managed inpatient with aggressive intravenous fluids, regular insulin infusion, and intravenous potassium chloride, resulting in full resolution of diabetic ketoacidosis within 3 days. Initiated on subcutaneous NPH insulin (10 IU morning / 8 IU evening), subsequently transitioned to oral metformin 750 mg daily. The DTG-based ART regimen was continued. The patient achieved optimal glycemic control on metformin monotherapy (fasting blood sugar 106-140 mg/dL, HbA1c normalized to 5.6%)."
+    }
+  }
+}

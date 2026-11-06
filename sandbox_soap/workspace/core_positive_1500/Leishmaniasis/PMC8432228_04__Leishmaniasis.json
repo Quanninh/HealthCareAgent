@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8432228_04",
+  "pair_id": "PMC8432228_04::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 9-year-old male child was admitted to the hospital with fever and headache for 12 days associated with polyarthralgia. He had autoimmune hepatitis treated with prednisone, azathioprine, and vitamin D. He was pale with hepatosplenomegaly and jaundice. On day 2, the patient was diagnosed with VL by means of an immunochromatographic rapid test with rK39 antigen and hemophagocytic syndrome and lipossomal amphotericin was started. The child also presented increased ferritin, hypertriglyceridemia, and hypofibrinogenemia. Because of the febrile neutropenia in an immunosuppressed patient, cefepime was started on day 5. On day 8, lipossomal amphotericin was completed. Due to clinical and laboratory improvement, the antibiotic was finished and the child was discharged on day 11.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 9-year-old male presented with a 12-day history of fever, headache, and polyarthralgia.",
+      "history_of_present_illness": "The patient developed high fever and severe headache 12 days prior to admission, accompanied by diffuse polyarthralgia, progressively developing pallor and jaundice.",
+      "past_medical_history": "History of autoimmune hepatitis treated with chronic maintenance prednisone, azathioprine, and vitamin D supplementation.",
+      "review_of_systems": "Headache and polyarthralgia."
+    },
+    "objective": {
+      "physical_examination": "Marked cutaneous and mucosal pallor, jaundice, and palpable hepatosplenomegaly.",
+      "routine_investigations": "Laboratory evaluation revealed febrile neutropenia, markedly elevated serum ferritin, hypertriglyceridemia, and hypofibrinogenemia.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of visceral leishmaniasis (VL) triggering secondary hemophagocytic syndrome (HLH) in an immunosuppressed child: on hospital day 2, immunochromatographic rapid test with rK39 antigen was positive for Leishmania. The patient was treated with intravenous liposomal amphotericin B (initiated day 2, completed day 8) and intravenous cefepime (commenced day 5 for febrile neutropenia). Following substantial clinical and laboratory improvement, antimicrobial therapy was finalized and the patient was successfully discharged on hospital day 11."
+    }
+  }
+}

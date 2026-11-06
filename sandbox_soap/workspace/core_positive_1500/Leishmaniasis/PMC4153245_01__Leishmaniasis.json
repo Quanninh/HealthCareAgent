@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4153245_01",
+  "pair_id": "PMC4153245_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 16 year-old boy (older brother) was admitted with fever, sweating and loss of appetite since 4 months ago. He mentioned history of travel to an endemic area for VL in a province located in north of Iran 4 months ago. On physical examination, he was ill and febrile and systemic physical exam revealed huge hepatosplenomegaly. Laboratory findings showed elevated liver enzymes with pancytopenia and increased ESR and positive CRP. Blood and urine culture were negative for infectious disease. Abdominal sonography and CT-scan of the abdomen demonstrated huge hepatosplenomegaly with retroperitoneal and paraaortic lymphadenopathy. The initial diagnosis of HPS associated with VL was made. For confirmation of diagnosis, bone marrow aspiration (BMA) was performed 4 times. The first three BMAs were reported negative and surprisingly on the fourth BMA Leishman Donovan bodies were observed within bone marrow macrophages (Figures 1 and 2).\nSpecific therapy for VL and HPS was instituted and patient's clinical condition and laboratory findings improved.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 16-year-old male presented with fever, sweating, and loss of appetite for 4 months.",
+      "history_of_present_illness": "A 16-year-old boy presented with a 4-month history of persistent fever, diaphoresis, and anorexia. He was admitted for comprehensive evaluation of prolonged fever of unknown origin and marked organomegaly.",
+      "past_medical_history": "History of travel 4 months prior to admission to an endemic province for visceral leishmaniasis located in northern Iran. Prior illnesses, medications, and allergies not documented.",
+      "review_of_systems": "Fever, night sweats, anorexia, malaise. Denied focal respiratory, gastrointestinal, or urinary symptoms."
+    },
+    "objective": {
+      "physical_examination": "Ill-appearing and febrile. Systemic physical examination revealed massive (huge) hepatosplenomegaly. No peripheral stigmata of chronic liver disease noted.",
+      "routine_investigations": "Pancytopenia, elevated liver enzymes, increased erythrocyte sedimentation rate (ESR), and positive C-reactive protein (CRP). Blood and urine cultures were negative for bacterial and fungal pathogens.",
+      "advanced_workup": "Abdominal ultrasonography and abdominal computed tomography (CT) demonstrated marked hepatosplenomegaly with extensive retroperitoneal and paraaortic lymphadenopathy. Bone marrow aspiration (BMA) performed four times: the first three BMAs showed non-specific changes without identifiable pathogens; the fourth BMA revealed intracellular inclusions within bone marrow macrophages."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive Diagnosis: Visceral leishmaniasis (VL, kala-azar) associated with secondary hemophagocytic syndrome (HPS/HLH).\nDiagnostic Confirmation: Fourth bone marrow aspiration demonstrated intracellular Leishman-Donovan (LD) bodies within bone marrow macrophages.\nDifferentials Ruled Out: Bacterial sepsis, urinary tract infection, lymphoma, and leukemia (blood and urine cultures sterile; lymphadenopathy and hepatosplenomegaly resolved with antileishmanial therapy).\nTreatment & Clinical Course: Specific antileishmanial therapy and management for hemophagocytic syndrome were instituted, leading to marked improvement in clinical condition and complete normalization of hematologic and biochemical laboratory parameters."
+    }
+  }
+}

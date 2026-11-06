@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC10162717_01",
+  "pair_id": "PMC10162717_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "An 84-year-old female patient with a large nodular lesion in the forehead, with a pre-diagnosis of lymphoma, in a private hospital in Hatay applied to the Dermatology Outpatient Clinic of Hatay Mustafa Kemal University Faculty of Medicine. In the previous punch biopsy report, basal cell carcinoma, sarcoidosis, lupus vulgaris and pseudolymphoma were stated in the clinical pre-diagnosis, and the punch biopsy material was sent to the Department of Pathology for consultation. Microscopic examination revealed dense nodular and diffuse lymphohistiocytic cell infiltration within the dermis. In the cytoplasm of histiocytes, small, round structures similar to Leishmania amastigotes were noted. In the immunohistochemical study, reactive T lymphocytes were stained with a cluster of differentiation (CD) 3 and CD5, and reactive B lymphocytes were stained with CD20. Large clusters of histiocytes were stained with CD68. No staining was observed with CD30. In the report submitted, it was recommended to investigate the aetiology of granulomatous dermatitis, especially CL [Figures 1 and 2].\nDermal scraping from the lesion and diagnosis has been directed to the parasitology department.\nDermal scraping was performed with scalpel number 15 in the parasitology department with a depth of 1-2 mm to reach the upper dermis 0.5 cm long from the edge of the lesion. Smears were prepared. Leishmania amastigote forms were seen in the Giemsa-stained preparations in x 100 immersion lens, and the diagnosis of CL was made [Figure 3].\nDNA extraction was performed from smear preparations prepared from the lesion. DNA extraction was carried out according to the protocol recommended in the kit (QIAamp DNA Mini Kit, QIAGEN, Hilden, Germany). The resulting DNA, Real-Time Polymerase Chain Reaction (RT-PCR), was studied using primary probes specific to the ribosomal internal transcribed spacer 1 (ITS-1) gene region that separates genes that encode small subunit ribosomal ribonucleic acid (ssu rRNA) and 5.8S rRNA of the Leishmania parasite. In the rotor-gene device, melting analysis was performed. The sample was typed as L. infantum by comparing it to reference strains [Figure 4].\nThe informed consent form was obtained from the patient. The patient was referred to the Provincial Health Directorate and received twice doses of intralesional meglumine antimonate treatment a week [Figure 5].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 84-year-old female presented with a large nodular lesion on her forehead.",
+      "history_of_present_illness": "The patient presented to a dermatology clinic with a large nodular forehead lesion initially evaluated at an outside hospital under clinical pre-diagnoses of lymphoma, basal cell carcinoma, sarcoidosis, lupus vulgaris, or pseudolymphoma, prompting referral and histological consultation.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Large nodular lesion located on the forehead.",
+      "routine_investigations": null,
+      "advanced_workup": "Forehead punch biopsy: dense nodular and diffuse lymphohistiocytic cell infiltration within the dermis, with cytoplasm of histiocytes showing small round intracellular structures. Immunohistochemistry: CD3 and CD5 positive in reactive T lymphocytes, CD20 positive in reactive B lymphocytes, CD68 positive in large clusters of histiocytes, and CD30 negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Giemsa-stained smears of dermal scrapings from the forehead lesion demonstrated Leishmania amastigote forms under 100x oil immersion. Real-Time PCR targeting the ribosomal internal transcribed spacer 1 (ITS-1) gene region followed by melting curve analysis definitively typed the isolate as Leishmania infantum, confirming cutaneous leishmaniasis. Lymphoma, basal cell carcinoma, sarcoidosis, and lupus vulgaris were excluded. Management and Outcome: Referred to the Provincial Health Directorate and treated with twice-weekly intralesional meglumine antimonate injections."
+    }
+  }
+}

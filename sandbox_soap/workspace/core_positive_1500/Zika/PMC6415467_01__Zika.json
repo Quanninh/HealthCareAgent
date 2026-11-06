@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6415467_01",
+  "pair_id": "PMC6415467_01::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "A 38-year-old post-partum mother in area with known ZIKV infestation in Bangkok, Thailand had an uncomplicated natural birth of her child in February 2017 with no growth defect. Since birth, the child was exclusively breast-fed and the mother remained well until December 8, 2017 when she developed fever. Her husband was diagnosed with ZIKV a week before her becoming ill. Initially, she suffered a low-grade fever and fatigue, followed by morbilliform itchy red rash, bilateral orbital pain, and submandibular lymphadenopathy on the following day. Bilateral conjunctivitis and polyarthralgia were evident before presenting to Chulalongkorn University Hospital on December 12. All symptoms were resolved by December 20 (12 days). The baby was fed breast milk until December 12 when the mother tested positive for ZIKV, after which the mother decided to stop breastfeeding (Figure 1).\nThe mother's expressed breast milk was routinely stored at -20 C. Thence, a total of 22 consecutive milk specimens were collected from December 1 until her illness was resolved. The mother's serum and urine and her baby's urine were also collected at short intervals from December 12, 2017 until January 5, 2018. Both urine and serum samples were examined for ZIKV RNA using real-time polymerase chain reaction (RT-PCR) (RealStar Zika Virus RT-PCR Kit; Altona, Germany), and serum for IgG and IgM by enzyme-linked immunosorbent assay (ELISA) method (EUROIMMUN, Germany) at the WHO Collaboration Centre for Research and Training on Viral Zoonoses, Chulalongkorn University. Her baby's urine was also sent for RT-PCR (Figure 2).\nZIKV RNA was detected in the breast milk as early as 3 days before her symptoms started (December 5) and remained detectable in the breast milk for 11 days (December 15) (cycle threshold [Ct], with level of detection between 29.27 and 38.08). ZIKV RNA was still detected in the mother's urine until December 26 but not in blood. Urine collected on January 5, 2018 was negative for ZIKV RNA.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "38-year-old postpartum female presenting with 4 days of fever, fatigue, pruritic morbilliform rash, bilateral orbital pain, conjunctivitis, and polyarthralgia.",
+      "history_of_present_illness": "The patient, an exclusively breastfeeding mother 10 months postpartum, developed low-grade fever and fatigue on December 8, 2017. The following day, an itchy red morbilliform rash, bilateral retro-orbital pain, and submandibular lymphadenopathy developed, followed by bilateral conjunctivitis and polyarthralgia. She presented to the hospital on December 12. All symptoms resolved within 12 days (by December 20). Breastfeeding was discontinued on December 12 upon maternal diagnostic confirmation.",
+      "past_medical_history": "Uncomplicated vaginal delivery 10 months prior (February 2017); resident of Bangkok, Thailand; epidemiological exposure: husband diagnosed with an acute viral infection 1 week prior to symptom onset.",
+      "review_of_systems": "Bilateral retro-orbital pain, polyarthralgia, fatigue, pruritus; denies gastrointestinal or respiratory complaints."
+    },
+    "objective": {
+      "physical_examination": "Low-grade fever, erythematous itchy morbilliform rash, bilateral conjunctival injection, and submandibular lymphadenopathy.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute Zika virus infection in a postpartum lactating mother with prolonged viral shedding in breast milk and urine. Confirmed by detection of Zika virus RNA via RT-PCR (RealStar Zika Virus RT-PCR Kit) in serial expressed breast milk samples from December 5 (3 days pre-symptom onset) to December 15 (Ct values 29.27 to 38.08), and in maternal urine through December 26 (negative on January 5, 2018; serum RT-PCR negative). Serum Zika virus IgG and IgM were detected by ELISA. Breastfeeding was suspended and infant urine monitored by RT-PCR; maternal symptoms resolved completely without complication."
+    }
+  }
+}

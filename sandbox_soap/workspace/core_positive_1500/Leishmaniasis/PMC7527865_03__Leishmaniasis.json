@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7527865_03",
+  "pair_id": "PMC7527865_03::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "Female, 31 years old, Caucasian, unemployed, from Salvador, State of Bahia, was diagnosed (Montenegro positive test) with American Tegumentary Leishmaniasis in October, 2011. The patient was treated with Glucantime, 20 mg/kg/day for 30 days. A lesion in her back region was partially healed. In 2012, two episodes of recurrence occurred and restarted treatment with Glucantime in January and May. In a third recurrence episode (August, 2012), due to the maintenance of the lesion, a lesion biopsy was performed and Leishmania braziliensis was diagnosed. Treatment with amphotericin B was initiated at a dose of 250 mg/d up to a maximum dose of 2,400 mg, resulting in wound healing. In 2013, the patient was admitted with submandibular lymphadenopathy and ulcerated lesions in the lower lip frenulum ( Figure 1d), gingiva, nasal septum and in the back region. She was hospitalized for diagnosis and treatment of lesions with liposomal amphotericin B. Due to persistence of the lesions, HIV serology was performed. The patient was HIV positive and antiretroviral therapy was started (efavirenz 600mg, tenofovir 300mg, lamivudine 300mg, per day, one tablet containing the three drugs). Excisional biopsies of oral lesions were performed with unspecific result. Microbiological analysis for fungi was negative. Two months later, the patient was discharged and a maintenance dose of liposomal amphotericin B (150 mg/day) was prescribed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old female with HIV co-infection presented with recurrent ulcerated lesions on her lower lip frenulum, gingiva, nasal septum, and back.",
+      "history_of_present_illness": "The patient presented with a 2-year history of recurrent American tegumentary leishmaniasis. She was diagnosed in October 2011 with a back lesion and treated with Glucantime (20 mg/kg/day for 30 days) with partial healing. In 2012, she experienced two recurrences treated with Glucantime, followed by a third relapse in August 2012 where biopsy confirmed Leishmania braziliensis; she was treated with amphotericin B (250 mg/day up to 2,400 mg cumulative) with lesion healing. In 2013, she presented with submandibular lymphadenopathy and new ulcerated lesions on her lower lip frenulum, gingiva, nasal septum, and back. Due to recurrence and persistence, an HIV screening test was performed and returned positive.",
+      "past_medical_history": "Recurrent cutaneous and mucocutaneous leishmaniasis since 2011; multiple courses of Glucantime and amphotericin B; newly diagnosed HIV infection. Resident of Salvador, Bahia, Brazil.",
+      "review_of_systems": "Recurrent oral and cutaneous ulcerations, localized discomfort. Home medications: none prior to HIV diagnosis. Allergies: None documented."
+    },
+    "objective": {
+      "physical_examination": "Lymphatic: submandibular lymphadenopathy. Mucocutaneous: ulcerated lesions on the inferior labial frenulum, gingival mucosa, nasal septum, and dorsal back region.",
+      "routine_investigations": "Serology: HIV antibody positive. Microbiological analysis: fungal cultures and fungal microscopy negative.",
+      "advanced_workup": "Excisional biopsies of oral mucosal lesions: demonstrated non-specific chronic inflammatory changes. Prior August 2012 lesion biopsy: performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Relapsing mucocutaneous and disseminated leishmaniasis caused by Leishmania braziliensis in an HIV-coinfected patient.\nDiagnostic confirmation: Biopsy of lesion previously confirmed Leishmania braziliensis; Montenegro intradermal reaction positive; fungal cultures negative.\nDifferentials ruled out: Histoplasmosis, paracoccidioidomycosis, oral Kaposi sarcoma, squamous cell carcinoma, and syphilis.\nTreatment and clinical course: Initiated on combination antiretroviral therapy (fixed-dose single tablet of efavirenz 600 mg, tenofovir 300 mg, and lamivudine 300 mg daily) and inpatient intravenous liposomal amphotericin B. Discharged after 2 months on maintenance liposomal amphotericin B (150 mg/day)."
+    }
+  }
+}

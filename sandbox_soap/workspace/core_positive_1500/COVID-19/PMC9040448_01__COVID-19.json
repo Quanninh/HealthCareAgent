@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9040448_01",
+  "pair_id": "PMC9040448_01::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "A 57-year-old male patient with schizophrenia presented diffuse blisters and confluent erosions on the face and trunk for 3 months. He was hospitalized on March 13, 2020, and the diagnosis of pemphigus foliaceus was confirmed: histopathological analysis revealed acantholysis and cleavage at the spinous layer level. Immunofluorescence findings showed intercellular intraepidermal deposits of IgG and C3 (direct immunofluorescence) and circulating IgG autoantibodies by indirect immunofluorescence (titers >1:2,560, intercellular epidermal pattern). Initial treatment started with oxacillin 1 g 4/4 h, methylprednisolone 80 mg/d and mycophenolate mofetil (MMF) 3 g/d. On D12, he developed multiple round crusts predominantly on the periocular region, diagnosed as Kaposi varicelliform eruption and received intravenous acyclovir 5 mg/kg/dose. Disease control was achieved on D35 and the patient was discharged with prednisone 80 mg/d and MMF 3 g/d. On April 27, 2020, during the first follow-up visit, the patient complained of weakness and fever (>100.4 F) for 1 day. Infectious disease clinicians recommended influenza vaccination and prescribed oseltamivir 75 mg BID for 5 days. Once the patient did not attend his 1 week-follow-up visit, we contacted his family, who informed that he was admitted in a different hospital and passed away due to COVID-19.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 57-year-old male presenting for follow-up evaluation with acute weakness and fever for one day.",
+      "history_of_present_illness": "The patient had recently been hospitalized for pemphigus foliaceus and treated with high-dose immunosuppressive therapy, achieving disease control and being discharged on oral prednisone and mycophenolate mofetil. At his first outpatient follow-up visit on April 27, 2020, he presented with a 1-day history of general weakness and fever (> 100.4 °F). He was prescribed oseltamivir and referred for care, but subsequent clinical deterioration led to admission at another facility where he succumbed to acute infection.",
+      "past_medical_history": "Pemphigus foliaceus (diagnosed by skin biopsy and immunofluorescence); secondary Kaposi varicelliform eruption treated with acyclovir; schizophrenia.",
+      "review_of_systems": "Home medications: Prednisone 80 mg daily and mycophenolate mofetil (MMF) 3 g daily. Allergies: None documented."
+    },
+    "objective": {
+      "physical_examination": "Dermatological findings at prior admission: Diffuse flaccid blisters and confluent erosions involving the face and trunk, and periocular crusted lesions. Outpatient follow-up vitals: Body temperature elevated (> 100.4 °F / 38.0 °C).",
+      "routine_investigations": null,
+      "advanced_workup": "Skin histopathology: Intraepidermal acantholysis with cleavage at the spinous layer level. Direct immunofluorescence (DIF): Intercellular intraepidermal deposits of IgG and C3. Indirect immunofluorescence (IIF): Circulating intercellular epidermal IgG autoantibodies with titers > 1:2,560."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Fatal COVID-19 infection in a patient receiving high-dose systemic immunosuppression (prednisone and mycophenolate mofetil) for pemphigus foliaceus.\nPlan & Outcome: Outpatient presentation managed initially with oral oseltamivir (75 mg BID for 5 days) and influenza vaccination recommendation. Following rapid acute clinical deterioration, he was admitted to an outside hospital and passed away secondary to severe COVID-19."
+    }
+  }
+}

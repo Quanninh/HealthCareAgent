@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8642775_01",
+  "pair_id": "PMC8642775_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 38 years old female presented to the physician 2 days after receiving a viral vector COVID-19 vaccine. She developed myalgia, fever and skin rash and visited to a medical center. Her vital signs were as the followings: body temperature 38.5 C, blood pressure 120/80 mm Hg, pulse rate 85/min and respiratory rate 16/min. The diagnostic workup showed decreased platelet count (80 x 103/microL). This case was firstly suspicious for a possible vaccine adverse reaction. Nevertheless, there is no coagulation profile abnormality. Since the setting is a tropical country that viral hemorrhagic disease is common, further investigation for viral hemorrhagic disease was performed. Further laboratory tests confirm that there is a positive result of dengue virus infection (Dengue NS1Ag + ve). The final diagnosis in this case is dengue. The patient receipt standard fluid replacement therapy. All of her clinical problems, including skin rash, disappeared within 1 week.\nThis is a case of dengue hemorrhagic fever that occurs in a patient who has just received COVID-19 vaccination for 2 days. It is a possible condition that might occur in any tropical country during the current worldwide mass vaccination. It is necessary to recognize an endemic hemorrhagic fever that might cause thrombocytopenia in a COVID-19 vaccine recipient. This clinical problem might be missed diagnosed as an adverse event of vaccine. A coincidence of fever following COVID-19 vaccine and endemic tropical disease is a possible emerging problem in the present day. The present case is a good example and practitioner should aware of this scenario when dealing with post-vaccination thrombocytopenia problem.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old female presenting with myalgia, fever, and skin rash two days after receiving a viral vector COVID-19 vaccine.",
+      "history_of_present_illness": "A 38-year-old female presented to a medical center 2 days after receiving a viral vector COVID-19 vaccine due to the onset of fever, diffuse myalgia, and skin rash. Initial suspicion focused on a post-vaccine reaction, but investigation in an endemic setting identified concurrent arboviral infection. She received standard fluid replacement therapy, with complete resolution of symptoms and rash within 1 week.",
+      "past_medical_history": "Received viral vector COVID-19 vaccination 2 days prior to presentation. Resident in a tropical endemic area.",
+      "review_of_systems": "Myalgia, fever, cutaneous eruption; absence of bleeding manifestations."
+    },
+    "objective": {
+      "physical_examination": "Body temperature 38.5 °C, blood pressure 120/80 mmHg, pulse rate 85 beats/min, respiratory rate 16 breaths/min. Skin examination revealed generalized skin rash.",
+      "routine_investigations": "Platelet count: 80 x 10^3/microL (thrombocytopenia). Coagulation profile: Normal without abnormalities.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed Dengue virus infection (dengue hemorrhagic fever with thrombocytopenia and exanthem) occurring coincidentally 2 days after viral vector COVID-19 vaccination. Confirmed by positive Dengue NS1 antigen (Dengue NS1Ag +ve). Vaccine-induced immune thrombotic thrombocytopenia (VITT) and coagulopathy were ruled out based on normal coagulation parameters and confirmation of viral infection.\nPlan & Outcome: Managed conservatively with standard oral and intravenous fluid replacement therapy and supportive care. Fever, thrombocytopenia, and rash completely resolved within one week without complications."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC10183450_01",
+  "pair_id": "PMC10183450_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 61-year-old man weighing 65 kg was referred to the Reference Laboratory at the Kashan University of Medical Sciences, Kashan, Central Iran, in Jan 2022, with a 2-month history of a 1x3 cm lesion on the left ear (Fig.1).\nA written and signed consent to use the data and results for publication was taken from the patient.\nThe patient had diabetes and had no experience traveling outside Kashan for the past one years ago. He complained that his feature of ear was uncomfortable and scabrous, but has not any pain or any systemic complaints.\nDirect microscopy examination of the scales by 10% potassium hydroxide (KOH) preparation was negative for fungus elements.\nThe lesion was thoroughly cleaned with 70% alcohol. Specimens were collected from the margin of the lesion by scraping with a scalpel blade. Two prepared smears were fixed by methanol, stained with 10% Giemsa stain for 30 min, and examined microscopically for the presence of amastigote forms of Leishmania spp. In the microscopy examination, many amastigotes forms of Leishmania spp were observed (Fig. 2).\nThe DNA extraction was performed from the stained smear samples using a DNP  kit (Cinaclon, Iran), according to the manufacturer's instruction protocol. A single PCR was performed using species-specific primers, LINR4 (Forward: GGG GTT GGT GTA AAA TAG GG) and LIN17 (Reverse: TTT GAA CGG GAT TTC TG), to amplify the variable region of the minicircle kDNA of Leishmania. These primers amplify a 760, and 650 bp fragment for L. tropica and L. major respectively.\nA positive sample of L. tropica (MHOM/IR/89/AR2) and L. major (MHOM/IR/54/LV39) were used as the positive controls, and distilled water was used as the negative control. PCR product was evaluated by electrophoresis on 1.5% agarose gel, stained by ethidium bromide, and then visualized using ultraviolet light. A 760-bp fragment was amplified using the primers. The PCR products were identical in size to the positive control of L. tropica (Fig. 3).\nEventually, the patient was introduced to a physician to begin the treatment protocol. He was treated with glucantime, two vials of muscular, and intra-lesion injections weekly for four weeks. Unfortunately, the patient was lost for post-treatment monitoring.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 61-year-old male presented with a 2-month history of an uncomfortable, scabrous lesion on his left ear.",
+      "history_of_present_illness": "The patient noted an uncomfortable and scabrous lesion on his left ear that persisted and grew over a period of 2 months. He reported no ear pain and denied any systemic complaints.",
+      "past_medical_history": "Past medical history of diabetes mellitus. Epidemiological history: resident of Kashan, Central Iran, with no travel outside Kashan for the past 1 year.",
+      "review_of_systems": "Reports the ear lesion feels uncomfortable and scabrous; denies pain, fever, or any systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Body weight: 65 kg. Left ear examination revealed a 1 cm x 3 cm scabrous lesion.",
+      "routine_investigations": "Direct microscopy of ear lesion scales with 10% potassium hydroxide (KOH) preparation: negative for fungal elements.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Giemsa-stained smears from scrapings of the left ear lesion demonstrated numerous Leishmania spp. amastigote forms. Species-specific single PCR using LINR4 and LIN17 primers amplifying the kDNA minicircle yielded a 760-bp fragment identical to the Leishmania tropica positive control, confirming cutaneous leishmaniasis due to L. tropica. Fungal etiology excluded by negative KOH exam. Management and Outcome: Treated with meglumine antimonate (Glucantime) via two intramuscular vials and weekly intralesional injections for 4 weeks. The patient was subsequently lost to post-treatment follow-up."
+    }
+  }
+}

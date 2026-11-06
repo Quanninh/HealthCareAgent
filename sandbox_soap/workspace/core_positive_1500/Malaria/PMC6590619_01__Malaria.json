@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6590619_01",
+  "pair_id": "PMC6590619_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 7-year-old previously healthy girl (patient 1, family A) presented to a children's hospital in Houston, Texas, in the spring of 2017 (day 1) with symptomatic vivax malaria. On day 5, patient 2, the twin brother of patient 1, presented with symptomatic vivax malaria. Subsequently, on day 9, 15, 41, and 55, patient 3, patient 4, patient 5, and patient 6, respectively, sought medical care for the same diagnosis. Diagnoses were made via microscopic examination of blood smears in our institution's laboratories.  Table 1 summarizes demographic, clinical, and laboratory characteristics of the patients. The patients belong to 2 related families (families A and B; the fathers are brothers) who live in 2 different apartment units on the same floor of the same residential complex. Both families emigrated from the temperate Jowzjan province in Northern Afghanistan, a country where vivax malaria is endemic (70-95%), even at high altitudes. Patients were treated in Afghanistan for symptomatic vivax malaria with presumed chloroquine but the exact dates of their treatment could not be recalled by the parents. None of the patients received primaquine in the past. Patients arrived in Houston between 6 and 10.5 months prior to presentation with symptomatic vivax infection (Table 1). Both families reported exposure to mosquitoes in Houston. The 6 patients were initially treated by emergency physicians with atovaquone/proguanil as malaria speciation was not readily available. Patient 5 had an unusual high parasitemia (5%) and had no further confirmation of her results. All patients completely recovered after treatment and received primaquine as a hypnozoite-eradicating treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-year-old female presenting with acute fever, chills, and fatigue.",
+      "history_of_present_illness": "The patient, a 7-year-old girl, presented to the pediatric emergency department in Houston, Texas, with acute febrile illness, shivering, and malaise. Over the subsequent two months, five other pediatric family members residing in adjacent apartments developed identical febrile episodes.",
+      "past_medical_history": "Previously healthy child. Epidemiological exposure: Emigrated from Jowzjan province, Northern Afghanistan, to Houston, Texas, 6 to 10.5 months prior to presentation. Had been treated in Afghanistan for a prior febrile illness with presumed chloroquine, but never received primaquine. Reported local mosquito bites in Houston.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Febrile child in moderate discomfort; clinical evaluation revealed pallor without focal signs of localized bacterial infection.",
+      "routine_investigations": "Routine baseline laboratory investigations and initial blood smear examination performed.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Relapsing Plasmodium vivax malaria (cluster of six pediatric family cases). Diagnosis was established by microscopic examination of peripheral blood smears showing Plasmodium vivax trophozoites and schizonts.\nPlan & Outcome: Initially treated empirically with atovaquone/proguanil by emergency physicians due to pending speciation. Following species identification, all patients achieved full clinical recovery and completed a course of oral primaquine for terminal hypnozoite eradication to prevent future relapses."
+    }
+  }
+}

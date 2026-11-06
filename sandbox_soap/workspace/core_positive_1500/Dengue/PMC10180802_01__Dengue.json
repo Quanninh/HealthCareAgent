@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC10180802_01",
+  "pair_id": "PMC10180802_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "We report an interesting scenario of variable platelet counts in an elderly patient with viral fever in a tertiary care center. He is a 72-year-old male, admitted to our hospital for evaluation and treatment of suspected viral fever. Investigations suggested dengue with NS1 antigen positivity. Complete blood counts were done on Sysmex XN-1000 and his initial platelet count was 64,000/cumm. Platelet count had reduced to 48,000/cumm on repeat counting after 24 h. There was correlation of low platelet count on smear upon cross verification. Due to drop in platelet count, repeat count was requested after 6 h in the afternoon.\nEstimated platelet count on this repeat sample was 2.6 lakhs/cumm. The laboratory information system detected this result to be crossing the set delta values and flagged the same. The sudden rise in the platelet count was cross verified with smear examination. It was both interesting and surprising to see platelets of the smear correlating with low platelet count reported in the morning and not with the present value. Hence, the sample was rerun in the same analyzer only to get similar spuriously high count of 2.78 lakh/cumm without any change in the smear. The sample was stored for root cause analysis, and the clinician was informed about the spurious result. Fresh sample was requested. A repeat sample was obtained in the evening about 4 h later. Platelet count on this fresh sample had dropped back to 56,000/cumm with good correlation on smear examination.\nAs a part of root-cause analysis, this issue was discussed with a hematology expert, and peripheral smear of the sample with spuriously elevated platelet count was re-examined. Good number of lipid droplets was found both in singles and in clumps [Figure 1]. On enquiring about the time of drawing of this sample and its relation to patients feed, it was realized that sampling was done couple of hours after the lunch.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old male admitted for evaluation and treatment of suspected viral fever.",
+      "history_of_present_illness": "The patient is a 72-year-old male who presented to a tertiary hospital for clinical evaluation and inpatient management of suspected acute viral fever associated with thrombocytopenia.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Complete blood counts (automated analyzer Sysmex XN-1000) and manual peripheral smear evaluations:\n- Initial admission platelet count: 64,000/cumm.\n- Repeat platelet count at 24 hours: 48,000/cumm (confirmed on manual smear verification).\n- Repeat automated platelet count at 30 hours (drawn 2 hours post-lunch): Spuriously elevated to 2.6 lakhs/cumm, flagged by laboratory delta-check; rerun sample confirmed automated count of 2.78 lakh/cumm. Microscopic peripheral smear examination demonstrated true severe thrombocytopenia identical to morning values, but revealed numerous lipid droplets in singles and clumps causing automated optical counting artifact.\n- Repeat fresh sample drawn 4 hours later (evening): Automated platelet count dropped back to 56,000/cumm with excellent manual peripheral smear correlation.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Dengue fever confirmed by NS1 antigen positivity, complicated by pseudothrombocytosis (spurious automated platelet elevation to 2.6-2.78 lakhs/cumm) caused by postprandial lipemia / lipid droplet interference on Sysmex XN-1000 automated counter.\nPlan and outcome: Multi-disciplinary hematology review established the pre-analytical mechanism of lipemic interference following food intake; true thrombocytopenia (nadir 48,000/cumm) was managed with close monitoring and supportive care."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3634206_01",
+  "pair_id": "PMC3634206_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 25-year-old female presented with a painless lump in her right breast for 1 month duration. She gave history of low grade fever off and on for the last 2 weeks. There were no other complaints like weight loss, loss of appetite, and any cough. She was unmarried and there was no positive family history of breast tuberculosis. On local examination, a non-tender lump of size 3 x 4 cm was felt in lower quadrant of the breast [marked with a line as a - Figure 1]. It was freely mobile and no axillary nodes were present. Another 1 x 1.5 cm swelling was present in infra-mammary area just below and medial to the above mentioned lump [marked by line b; Figure 1]. Her systemic examination was non-contributory.\nOn routine blood investigations, total leucocyte count was 12,000 mm3 and erythrocyte sedimentation rate (ESR) was 60 mm at the end of 1 h, and HIV test was negative. Her fasting blood sugar and blood urea levels were normal. Chest X-ray was normal. Fine needle aspiration cytology (FNAC) of the breast and infra-mammary lump showed granulomas, epitheloid cells, and mixed inflammatory cells [Figure 2]. Background consisted of necrotic material and ZN stain for acid fast bacilli (AFB) was positive in the FNAC of both lumps. Mountex test was not done as on FNAC diagnosis already was made. Final diagnosis made as breast TB.\nShe was put on a 6-month course of anti-tubercular therapy with a 2 month intensive phase of rifampicin, isoniazid, ethambutol, and pyrazinamide followed by a consolidation phase of rifampicin and isoniazid for another 4 months. The lump size was decreased within 3 weeks of initiation of ATT and at 3 month follow-up the patient remains asymptomatic and both lumps disappeared. She was advised to continue treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old female presenting with a painless right breast lump for one month and intermittent fever for two weeks.",
+      "history_of_present_illness": "The patient presented with a 1-month history of an enlarging, painless lump in her right breast. Over the preceding 2 weeks, she had noticed intermittent low-grade fever. She reported no weight loss, anorexia, or cough.",
+      "past_medical_history": "Unmarried; no positive personal or family history of breast tuberculosis or malignancy.",
+      "review_of_systems": "Intermittent low-grade fever. Denies weight loss, anorexia, cough, or nipple discharge."
+    },
+    "objective": {
+      "physical_examination": "Right breast examination revealed a nontender, freely mobile lump measuring 3 x 4 cm in the lower quadrant. A second distinct swelling measuring 1 x 1.5 cm was palpated in the inframammary region just inferior and medial to the primary lump. No axillary lymphadenopathy was present. Left breast and systemic examinations were unremarkable.",
+      "routine_investigations": "Total leukocyte count 12,000/mm3, erythrocyte sedimentation rate (ESR) 60 mm/1st hr. HIV serology was negative. Fasting blood sugar and blood urea levels were normal. Chest radiograph was normal. Mantoux tuberculin skin test was omitted due to cytological confirmation.",
+      "advanced_workup": "Fine-needle aspiration cytology (FNAC) of both the right breast lump and the adjacent inframammary swelling showed granulomatous inflammation with epithelioid cells, mixed inflammatory cells, and necrotic background debris."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Primary breast and inframammary tuberculosis (tuberculous mastitis).\nDiagnostic confirmation: Ziehl-Neelsen (ZN) stain of fine-needle aspiration cytology (FNAC) smears from both the right breast lump and the inframammary lesion demonstrated acid-fast bacilli (AFB) amidst necrotizing epithelioid cell granulomas.\nManagement and outcome: Treated with a 6-month course of antituberculosis therapy (ATT): 2-month intensive phase comprising rifampicin, isoniazid, ethambutol, and pyrazinamide, followed by a 4-month continuation phase of rifampicin and isoniazid. Both masses significantly regressed within 3 weeks of initiating therapy; at 3-month follow-up, both lumps had completely resolved and the patient remained entirely asymptomatic, continuing treatment to completion."
+    }
+  }
+}

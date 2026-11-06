@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC8213119_01",
+  "pair_id": "PMC8213119_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 6-year-old female childadmitted to pediatrics emergency with high-grade fever without chills and rigors past 7 days, progressive pallor past 5 days, and bluish spots over the whole body for 2 days. In detailed history, she had a fever without any symptoms of vomiting, jaundice, or hematuria. There was no history oft previous hospitalization. At admission, a child was lethargic, febrile (102 F), severely pallor, petechial rashes, cervical lymphadenopathy, and body pain (paroxysms) with the features of shock. In the systemic examination, hepatosplenomegaly in per abdomen examination and respiratory, cardiovascular finding (except hemic murmur) were within normal limits. In the central nervous system examination, she was in altered sensorium without meningeal signs or focal deficits. Initially, we kept as lymphoreticular malignancy with febrile neutropenia and start supportive as well as symptomatic treatment and malignancy workup planed. After stabilization, bone marrow aspiration as well as biopsy was done. Bone marrow aspiration and biopsy revealed hemophagocytosis [Figure 1]. Due to persistent high-grade fever, fever workup, including rapid malarial antigen test, peripheral smear for malaria parasite, serology for typhoid and rickettsial infection, blood culture, etc., as well as a supportive workup for hemophagocytic lymphohistiocytosis (HLH) (liver transaminases, lactate dehydrogenase, triglyceride, serum ferritin, and fibrinogen) were sent [Table 1]. In peripheral smear, malaria parasite was seen as trophozoites for Pf malaria and revised the diagnosis as malaria-associated secondary HLH (sHLH) and the anti-malarial drug was started. On 3rd day of antimalarial therapy, the child fever responded and 5th-day fever was subsided and discharged the child.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 6-year-old female presenting with high-grade fever for seven days, progressive pallor for five days, and diffuse petechial spots for two days.",
+      "history_of_present_illness": "A 6-year-old female presented to the pediatric emergency unit with a 7-day history of high-grade fever without chills or rigors, progressive pallor for 5 days, and diffuse petechiae for 2 days. She had paroxysms of severe body pain. She had no vomiting, jaundice, or hematuria. At admission, she was lethargic, in altered sensorium, and exhibited clinical features of circulatory shock.",
+      "past_medical_history": "No history of previous hospitalizations.",
+      "review_of_systems": "Paroxysmal body pain, petechial rashes; denies vomiting, jaundice, or hematuria."
+    },
+    "objective": {
+      "physical_examination": "Lethargic, febrile (102 °F), severe pallor, diffuse petechial rashes, cervical lymphadenopathy, paroxysms of body pain, and clinical signs of shock. Cardiovascular: hemic murmur. Abdomen: hepatosplenomegaly. Respiratory: normal. CNS: altered sensorium without meningeal signs or focal neurologic deficits.",
+      "routine_investigations": "CBC revealed severe pancytopenia. Hepatic transaminases elevated, LDH elevated, hypertriglyceridemia, markedly elevated serum ferritin, and hypofibrinogenemia (supportive for HLH). Blood cultures sterile; serology for typhoid and rickettsial infections negative.",
+      "advanced_workup": "Bone marrow aspiration and biopsy: Demonstrated prominent hemophagocytosis without evidence of lymphoreticular malignancy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Plasmodium falciparum malaria-associated secondary hemophagocytic lymphohistiocytosis (sHLH) complicated by severe pancytopenia and circulatory shock. Confirmed by peripheral blood smear demonstrating Plasmodium falciparum trophozoites alongside positive rapid malarial antigen test, diagnostic bone marrow hemophagocytosis, and HLH biochemical criteria. Typhoid, rickettsial infection, pyogenic sepsis, and lymphoreticular malignancies were ruled out.\nPlan & Outcome: Initial hemodynamic stabilization and supportive care followed by targeted antimalarial therapy. Fever responded by the third day of antimalarial treatment, completely subsided by day 5, and the child was discharged in stable condition with rapid clinical and hematologic improvement."
+    }
+  }
+}

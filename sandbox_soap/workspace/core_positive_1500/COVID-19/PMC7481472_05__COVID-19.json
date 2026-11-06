@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_05",
+  "pair_id": "PMC7481472_05::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Patient 4: 54-year-old male, healthy carrier of the hepatitis B virus, attending the emergency department for bilateral pneumonia, fever and with respiratory failure. He had a blood pressure of 91/58, a heart rate of 73 beats per minute, SpO2 88%, and elevated D-Dimer levels. Chest X-ray: Bilateral interstitial pattern with opacities in ground glass, suggesting a viral or atypical infectious process. Confirmation of COVID-19 was made by RT-PCR using a throat swab. He was treated with lithium carbonate (400mg/12h). The patient was discharged after 18 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old male presented to the emergency department with bilateral pneumonia, fever, and respiratory failure.",
+      "history_of_present_illness": "A 54-year-old male presented to the emergency department with bilateral pneumonia, fever, and respiratory failure.",
+      "past_medical_history": "Healthy carrier of the hepatitis B virus.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 91/58 mmHg, heart rate 73 beats per minute, SpO2 88%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-ray: Bilateral interstitial pattern with opacities in ground glass, suggesting a viral or atypical infectious process.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab. He was treated with lithium carbonate (400 mg/12 h). The patient was discharged after 18 days."
+    }
+  }
+}

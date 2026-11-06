@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7490298_04",
+  "pair_id": "PMC7490298_04::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "Case 4: A 26 year old patient that reported exanthema and arthralgia in the second trimester of gestation. The qPCR was positive for Zika in serum (690 copies/ml) and the PRNT90% was positive for neutralizing antibodies. At 37 weeks of gestation, her baby boy was born by cesarean delivery that presented a cephalic circumference of 36.5 cm.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "26-year-old pregnant female in the second trimester of gestation presenting with exanthema and arthralgia.",
+      "history_of_present_illness": "The patient developed acute exanthema and joint pain during the second trimester of pregnancy. The pregnancy progressed to 37 weeks of gestation, when she gave birth to a baby boy by cesarean delivery.",
+      "past_medical_history": "Second trimester of pregnancy; no prior chronic illnesses documented.",
+      "review_of_systems": "Arthralgia; denies other systemic complaints."
+    },
+    "objective": {
+      "physical_examination": "Maternal: Cutaneous exanthema. Neonatal: Male infant delivered at 37 weeks gestation by cesarean section with a cephalic circumference of 36.5 cm.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Maternal second-trimester Zika virus infection confirmed by positive serum qPCR for Zika virus (690 copies/mL) and positive PRNT90% for neutralizing antibodies. Pregnancy resulted in a term cesarean delivery at 37 weeks gestation of a normocephalic male infant (head circumference 36.5 cm)."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6222221_01",
+  "pair_id": "PMC6222221_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "A 39-year-old Thai male patient presented with progressive pain and swelling of seven-month duration over the antecubital fossa of the right elbow. Initially, there was only slight swelling. Three months later, he complained of dull pain. The patient went to a private clinic where the diagnosis was distal biceps tendinitis. The first doctor gave a local steroid injection, but the symptoms recurred about one month later. Four months later, the patient complained of pain at night and weakness on supination of the forearm and flexion of the elbow. He had no underlying disease, chest symptoms, fever, weight loss, or history of contact with patients suffering from pulmonary tuberculosis.\nPhysical examination of the right elbow when patient visited the hospital in Thailand demonstrated swelling at the antecubital fossa, mild tenderness at the distal biceps, and muscle weakness or pain when attempting to supinate the forearm and flex the elbow. All other systemic examinations were normal. There was a high white blood cell count (12,710 cells/mcL); neutrophil count was 72% and lymphocyte count 17%. Erythrocyte sedimentation rate was 17 mm/hr, and C-reactive protein was 6.69 mg/L. Radiography of the right elbow showed swelling at the antecubital fossa, and chest radiographs showed infiltration of the left upper lung. Magnetic resonance images showed disruption of the distal biceps tendon with an associated ill-defined soft tissue mass (about 2 x 2 cm). A less enhanced area was observed at the inferior part, which was likely to be necrotic or cystic. An abnormal marrow signal was detected at the proximal radius with focal cortical erosion at the radial tuberosity (Figure 1).\nIn this case, we suspected that the patient had disseminated tuberculosis because preoperative chest radiographs demonstrated left upper lung infiltration, which was likely pulmonary tuberculosis, and there was a soft tissue mass at the distal biceps tendon. We performed an open excisional biopsy and debridement using the single-incision anterior approach. The finding was a soft tissue mass involving the distal biceps tendon with complete tendon rupture. There was also a small focal cortical defect at the radial tuberosity. The ruptured distal biceps tendon was debrided. The tendon was repaired to the long-head tendon insertion, which was proximal to the focal defect by about 5 mm, using a TWINFIX Ti 2.8 mm Suture Anchor with one #2 ULTRABRAID Suture (Smith & Nephew Inc.). Antituberculosis chemotherapy started one day after the surgery, following a positive test of the fluid for acid-fast bacilli and a positive polymerase chain reaction for Mycobacterium tuberculosis. The patient received a total of 6 months of a rifampin-based regimen, which is recommended for musculoskeletal tuberculosis. The patient initially received isoniazid 300 mg, rifampicin 600 mg, ethambutol 800 mg, and pyrazinamide 1500 mg daily for two months and then reduced to isoniazid and rifampicin for the remaining four months. The elbow was immobilized in a posterior elbow slab with the forearm supinated for four weeks. Mycobacterium culture revealed Mycobacterium tuberculosis. Microscopic examination of the soft tissue revealed granulomatous inflammation with multinucleated Langhans giant cells and caseous necrosis.\nAt the 1-year follow-up, erythrocyte sedimentation rate was 10 mm/hr, and C-reactive protein was 2 mg/L. Motor power of supination and flexion showed grade V and the hook test was negative. This study was approved by the Khon Kaen University Ethics Committee for Human Research (KKUEC) in which the study ID was HE611179.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": null
+    }
+  }
+}

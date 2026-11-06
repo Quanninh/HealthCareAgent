@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9091447_01",
+  "pair_id": "PMC9091447_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 54-year-old male experienced blurred vision in the right eye 2 months after HAART initiation (Zidovudine [AZT], Lamivudine [3TC], and Efavirenz [EFV]). CD4 counts were 200/mul. Visual Acuity (VA) was 20/166 in the right eye. Ophthalmic examination showed retinal necrosis and hemorrhages with severe vitritis (+++) in zones 2 and 3. OCT showed a slight epiretinal membrane in the macular of the right eye. He underwent PPV and silicone oil tamponades, and silicone oil removal was conducted 6 months later. Vitreous DNA sequencing showed CMV sequence of 66,544 copies. A total of 10 intravitreal injections were performed until the lesions were stable. His VA of the right eye was 20/100 at the last follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old male presenting with blurred vision in the right eye for two months following antiretroviral therapy initiation.",
+      "history_of_present_illness": "The patient presented with progressive painless visual blurring involving the right eye that began two months after commencing highly active antiretroviral therapy. His visual acuity progressively decreased, prompting ophthalmologic evaluation.",
+      "past_medical_history": "Receiving combination antiretroviral therapy consisting of zidovudine (AZT), lamivudine (3TC), and efavirenz (EFV) initiated two months prior.",
+      "review_of_systems": "Blurred vision in the right eye; denies eye pain, ocular discharge, headache, or systemic fever."
+    },
+    "objective": {
+      "physical_examination": "Ophthalmic Examination: Visual acuity (VA) in the right eye was 20/166; fundoscopic examination revealed retinal necrosis and hemorrhages with severe vitritis (+++) located in zones 2 and 3.",
+      "routine_investigations": null,
+      "advanced_workup": "Optical coherence tomography (OCT) of the right macula: Mild epiretinal membrane. Vitreous fluid sampled for metagenomic DNA sequencing."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Cytomegalovirus (CMV) retinitis and immune recovery vitritis (IRV) of the right eye in a patient with human immunodeficiency virus (HIV) infection on HAART (CD4+ T-cell count 200/microL). Diagnostic confirmation: High-copy cytomegalovirus DNA (66,544 copies) detected by vitreous DNA sequencing, along with pathognomonic retinal necrosis, hemorrhage, and severe vitreous inflammation. Plan & Outcome: Underwent pars plana vitrectomy (PPV) with silicone oil tamponade, followed by a total of 10 intravitreal antiviral injections until retinal lesions stabilized. Silicone oil removal was performed 6 months later. Final visual acuity in the right eye improved to 20/100 at last follow-up."
+    }
+  }
+}

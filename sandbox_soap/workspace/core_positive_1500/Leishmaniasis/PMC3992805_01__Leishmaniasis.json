@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3992805_01",
+  "pair_id": "PMC3992805_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "This was a case report of a 50-year-old male agriculturist, diagnosed as HIV positive 11/2 years back on antiretroviral therapy (ART), who presented with a 6 month history of asymptomatic skin lesions over his limbs. Physical examination revealed multiple, diffuse, non-ulcerating, papulonodular and non-itchy skin lesions of size 2-18 mm [Figure 1]. History revealed that the lesions first appeared on the feet and then over the hands. There was no history of travel to endemic areas of leishmaniasis. There was no hepatosplenomegaly and lymphadenopathy. The laboratory investigations revealed anemia hemoglobin (Hb - 8.3 g/dL). The liver function tests, renal function tests, lipid profile and blood sugar were within the normal limits. The platelet count was 2 lacs/muL and the total leucocyte count was 5,100/muL.\nChest X-ray and ultrasound of abdomen were normal. His CD4 count was 126 cells/muL and HIV viral load was <47 copies/mL. The patient was initially suspected to be having histoplasmosis, which was ruled out by skin biopsy.\nPunch biopsy of skin lesions showed sheets of histiocytic cells in the sub epithelial tissue, stuffed with numerous amastigotes of Leishmania. Mild lymphocytic and plasma cell infiltrate was also noted [Figure 2].\nThe patient was treated with ketoconazole 200 mg twice a day and 450 mg rifampicin daily for 1 month along with ART (nevirapine, stavudine and lamivudine). The patient improved on treatment but later was lost to follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old HIV-positive male presented with a 6-month history of painless, non-itchy skin lesions on his limbs.",
+      "history_of_present_illness": "The patient presented with a 6-month history of gradual eruption of non-ulcerating, asymptomatic papulonodular lesions that first developed on his feet and progressively involved his hands.",
+      "past_medical_history": "HIV infection diagnosed 1.5 years prior on antiretroviral therapy (nevirapine, stavudine, and lamivudine). Occupation: agriculturist. No history of travel to known leishmaniasis endemic areas.",
+      "review_of_systems": "Reports skin lesions are asymptomatic and non-pruritic; denies fever, night sweats, weight loss, or gastrointestinal disturbances."
+    },
+    "objective": {
+      "physical_examination": "Dermatologic examination demonstrated multiple diffuse, non-ulcerating, non-pruritic papulonodular skin lesions ranging from 2 mm to 18 mm in size across the upper and lower extremities. No hepatosplenomegaly or lymphadenopathy was present.",
+      "routine_investigations": "Complete blood count revealed anemia with hemoglobin 8.3 g/dL; total leukocyte count: 5,100/muL; platelet count: 200,000/muL. Liver function tests, renal function tests, lipid profile, and blood glucose: all within normal limits. CD4 cell count: 126 cells/muL; HIV viral load: <47 copies/mL. Chest radiograph and abdominal ultrasound: normal.",
+      "advanced_workup": "Skin punch biopsy: sheets of histiocytic cells in the subepithelial dermis with mild lymphocytic and plasma cell infiltrate, containing dense intracellular protozoan structures; fungal stains negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation: Punch biopsy of cutaneous nodules revealed dermal histiocytic sheets stuffed with numerous Leishmania amastigotes, confirming cutaneous leishmaniasis in an HIV-coinfected host. Histoplasmosis and other fungal/mycobacterial infections were excluded on biopsy. Management and Outcome: Treated with oral ketoconazole 200 mg twice daily and oral rifampicin 450 mg once daily for 1 month alongside continuing antiretroviral therapy (nevirapine, stavudine, lamivudine). The patient showed clinical improvement with regression of lesions but was subsequently lost to outpatient follow-up."
+    }
+  }
+}

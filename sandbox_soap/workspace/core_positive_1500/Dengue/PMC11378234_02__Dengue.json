@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC11378234_02",
+  "pair_id": "PMC11378234_02::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 16-year-old boy, with severe aplastic anemia, presented in transplant emergency with high-grade fever associated with shivering, pain in right hypochondrium and loose watery stools for 2 days, on day +88 posttransplant. Pan cultures and other infective workup were negative while Dengue NS1 antigen was detected. His platelet count declined rapidly with rising hematocrit level. He was managed aggressively with supportive care, intravenous hydration, and platelet transfusions during critical phase. He also had slightly deranged renal function and liver enzymes were elevated two times upper normal limit. However, the coagulation profile was normal. Mild pleural effusion and moderate ascites were also observed on ultrasound. He stayed in the hospital for 15 days for management of dengue fever.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 16-year-old male post-allogeneic stem cell transplant presented with high-grade fever, shivering, right upper quadrant abdominal pain, and diarrhea for 2 days.",
+      "history_of_present_illness": "The patient, at day +88 post-allogeneic stem cell transplantation for severe aplastic anemia, presented to the transplant emergency department with a 2-day history of acute high-grade fever with rigors, right hypochondrial abdominal pain, and loose watery stools. During hospitalization, his hematocrit rose as platelet counts dropped precipitously during the critical plasma leakage phase.",
+      "past_medical_history": "Severe aplastic anemia status post-allogeneic hematopoietic stem cell transplantation (day +88 post-transplant).",
+      "review_of_systems": "Reported high-grade fever, rigors/shivering, right hypochondrial pain, and watery diarrhea. Denied dysuria, cough, or gross bleeding."
+    },
+    "objective": {
+      "physical_examination": "Right hypochondrial tenderness on abdominal palpation. No active cutaneous bleeding documented on initial exam.",
+      "routine_investigations": "Complete blood count: Hemoconcentration with rising hematocrit levels and rapid decline in platelet counts (severe thrombocytopenia).\nBiochemistry & organ function: Mildly deranged renal function parameters; serum transaminases elevated to two times the upper limit of normal; normal coagulation profile.\nMicrobiology: Pan-cultures (blood, urine, stool) and comprehensive infectious disease workup yielded no bacterial or fungal pathogens.\nAbdominal/chest ultrasound: Demonstrated moderate ascites and mild pleural effusion consistent with plasma leakage.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe dengue / dengue hemorrhagic fever with plasma leakage (ascites, pleural effusion), hepatitis, and acute kidney injury occurring in a post-transplant recipient. Confirmed by positive Dengue NS1 antigen detection. Bacterial pan-cultures and other infectious screens were negative.\nTreatment and outcome: Managed aggressively in the inpatient setting for 15 days with meticulous intravenous crystalloid resuscitation, supportive care, and platelet transfusions during the critical phase, achieving clinical recovery and discharge."
+    }
+  }
+}

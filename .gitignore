@@ -8,6 +8,7 @@ env/
 ENV/
 
 # Python Bytecode & Cache
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -69,3 +70,35 @@ ehthumbs.db
 *.swp
 *.swo
 *~
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environments & Editor metadata
+.venv/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Excluded documentation & legacy milestone folders
+docs/
+guideline/
+guidelines/
+milestone*
+reports/
+
+# In scripts/, only include candidate extraction script
+scripts/*
+
+related_materials
+.env
+rag-anything/rag_eval_langsmith_ragas

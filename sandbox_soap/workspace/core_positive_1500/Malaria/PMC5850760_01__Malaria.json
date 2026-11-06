@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5850760_01",
+  "pair_id": "PMC5850760_01::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 13-month-old male child from Koraput district, Orissa, was diagnosed to have malaria with smear positive for PF. He was treated with a 3-day course of oral artesunate-SP. In view of persistent fever and failure of parasite clearance after 3 days, he was administered second course of 3 days oral artesunate-SP. He was referred to our hospital in view of severe anemia and persistence of ring forms of PF in blood smear. He was started on parenteral quinine along with clindamycin and a dose of primaquine was administered. Serial peripheral smears were performed which showed parasitological clearance after 48 h of initiating therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 13-month-old male infant presenting with persistent fever and severe pallor following two courses of antimalarial therapy.",
+      "history_of_present_illness": "The child presented with persistent fever and failure of parasite clearance after completing a 3-day course of oral artesunate-sulfadoxine/pyrimethamine, followed by a second 3-day course of the same regimen. He was referred to tertiary care due to worsening severe anemia and persistent fever.",
+      "past_medical_history": "Resident of Koraput district, Orissa, India. Received two consecutive 3-day courses of oral artesunate-sulfadoxine/pyrimethamine prior to referral.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Persistent fever and severe clinical pallor on physical examination.",
+      "routine_investigations": "Severe anemia documented on laboratory evaluation.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Artesunate-resistant Plasmodium falciparum malaria with persistent parasitemia and severe anemia (treatment failure after two courses of oral artesunate-SP). Peripheral blood smears confirmed persistence of P. falciparum ring forms.\nPlan & Outcome: Initiated on parenteral quinine combined with clindamycin, along with a single dose of primaquine. Serial peripheral blood smears documented complete parasitological clearance within 48 hours of starting therapy."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC3154926_03",
+  "pair_id": "PMC3154926_03::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "Following a visit to family in Ghana, this 49-year-old Ghanaian-born UK resident (of 22 years) presented with severe malaria and a peripheral P. falciparum parasitaemia of 3.0% (details presented in reference 34). Two sequential samples, F54840 and F55564, taken prior to treatment and 8 hours later (4 to 5 hours after commencement of quinine treatment), respectively, were analysed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old male presenting with severe febrile illness following travel to Ghana.",
+      "history_of_present_illness": "A 49-year-old male resident of the UK for 22 years presented with severe acute febrile illness following a visit to family in Ghana.",
+      "past_medical_history": "Ghanaian-born UK resident of 22 years. Travel history to Ghana. No chemoprophylaxis documented.",
+      "review_of_systems": "Positive for high fever and severe constitutional symptoms. Other systems: null. Medications: null. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Serial pre-treatment and post-treatment (at 8 hours) peripheral blood films performed.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe Plasmodium falciparum malaria acquired following travel to Ghana.\nDiagnostic confirmation: Peripheral blood film showing Plasmodium falciparum with 3.0% parasitemia; high-throughput whole-genome sequencing (isolates OX005 and OX005A) confirming monoclonal infection with large chromosomal deletion (>20 kb) encompassing the Rh1/Clag3.1 and Rh1/Clag3.2 loci on chromosome 3.\nTreatment & Outcome: Treated with intravenous quinine therapy. Serial blood sampling at 8 hours demonstrated effective early drug response, leading to full clinical recovery."
+    }
+  }
+}

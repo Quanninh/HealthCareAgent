@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5791446_01",
+  "pair_id": "PMC5791446_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "A 54-year-old male, known diabetic patient presented to our urology OPD, with a chief complaint of dysuria, weak urine stream, suprapubic pain radiating to perineal area, urethral pus discharge, and fever for approximately 2-week duration. The symptoms did not improve post a course of antibiotics for 1 week. The patient reported ingestion of raw milk before the presentation of symptoms. On examination, vital signs were showing high-grade fever, otherwise unremarkable. Digital rectal examination showed enlarged tender prostate. Laboratory tests showed mild leukocytosis with elevated lymphocytes and monocytes. Urine analysis showed pus cells and red blood cells. Transrectal ultrasonography and computed tomography (CT) scan confirmed the diagnosis of prostatic abscess. Transurethral drainage of the abscess, performed for the patient and foly's and suprapubic catheter inserted to relive obstruction. Pus culture and titration were positive for Brucella Bactria. Postoperatively, the patient received intravenous (IV) fluids and antibiotics including sulfamethoxazole/trimethoprim and gentamicin. One week after surgery, the patient developed low-grade fever and urine culture showed Staphylococcus species and the patient received ciprofloxacin. Two weeks later, the patient improved and discharged home on Sulfamethoxazole/trimethoprim. A follow-up CT scan, performed, and no further collection of abscess detected with complete resolution.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old diabetic male presented with a 2-week history of dysuria, weak urine stream, suprapubic pain radiating to the perineum, urethral pus discharge, and fever.",
+      "history_of_present_illness": "The patient presented with a 2-week history of dysuria, poor urinary stream, suprapubic pain radiating to the perineal region, purulent urethral discharge, and high-grade fever. Symptoms failed to improve following a 1-week course of outpatient antibiotics. In the postoperative period following transurethral abscess drainage, he developed low-grade fever at 1 week associated with secondary bacteriuria.",
+      "past_medical_history": "Known history of diabetes mellitus. Prior 1-week course of outpatient antibiotics. Epidemiological exposure: reported ingestion of raw milk prior to symptom onset.",
+      "review_of_systems": "Dysuria, weak urinary stream, suprapubic and perineal pain, urethral pus discharge, fever. Home medications: prior 1-week antibiotic course. Allergies: not documented."
+    },
+    "objective": {
+      "physical_examination": "High-grade fever; other vital signs unremarkable. Digital rectal examination (DRE): enlarged, tender prostate.",
+      "routine_investigations": "Mild leukocytosis with elevated lymphocytes and monocytes. Urinalysis: pus cells (pyuria) and red blood cells (hematuria). Transrectal ultrasonography: confirmed prostatic abscess. Postoperative urine culture grew Staphylococcus species.",
+      "advanced_workup": "Pelvic/abdominal CT scan: confirmed prostatic abscess; follow-up CT scan demonstrated complete resolution with no recurrent fluid collection. Surgical procedure: transurethral drainage of prostatic abscess with Foley catheter and suprapubic catheter placement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Prostatic abscess secondary to Brucella infection, complicated by secondary hospital-acquired Staphylococcus urinary tract infection. Confirmed by pus culture and serological titration positive for Brucella bacteria. Urine culture grew Staphylococcus species postoperatively.\nPlan & Outcome: Underwent transurethral drainage of prostatic abscess with Foley and suprapubic catheter decompression. Treated postoperatively with IV fluids, IV gentamicin, and oral sulfamethoxazole/trimethoprim (cotrimoxazole); ciprofloxacin was added for secondary staphylococcal bacteriuria. Discharged home after 2 weeks on oral sulfamethoxazole/trimethoprim. Follow-up CT confirmed complete resolution without recurrence."
+    }
+  }
+}

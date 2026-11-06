@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5991039_01",
+  "pair_id": "PMC5991039_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 38-year-old male patient presented to the Medicine Department with a history of low-grade fever, weight loss, and anorexia for the past 6 weeks. General examination revealed mild pallor, splenomegaly, and mild hepatomegaly with discrete enlarged lymph nodes at the right epitrochlear area and right cervical region. He was advised for all necessary investigations including FNAC of the lymph nodes. All biochemical tests were within normal limits, except mild elevation of liver enzymes (serum glutamic pyruvic transaminase - 60 IU/L, serum glutamic oxaloacetic transaminase - 53 IU/L, lactic dehydrogenase - 370 IU/L). On hematological examination, he had a hemoglobin level of 10.2 g% and erythrocyte sedimentation rate (ESR) was elevated (ESR - 68 mm/h). On serology screening, he was reactive to HIV I.\nFNAC was performed from both cervical and epitrochlear lymph nodes with a 24G needle attached with 20 cc syringe. The smears were stained with Leishman-Giemsa stain and Ziehl-Neelsen stain. The smears showed polymorphous cell population, comprised of reactive lymphoid cells, histiocytes, isolated epithelioid cells, many tangible body macrophages, and macrophages filled with leishmania amastigote form [Figures 1 and 2]. Subsequently, he had undergone bone marrow examination and the smears revealed high parasitic load of amastigote form of leishmania in the bone marrow smears (parasite load - [5+]). The diagnosis was established as visceral leishmaniasis with leishmanial lymphadenitis with HIV-reactive status. He was treated with stibogluconate for 28 days with antiretroviral therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old male presented with a 6-week history of low-grade fever, weight loss, and anorexia.",
+      "history_of_present_illness": "The patient presented to the Medicine Department with a 6-week history of persistent low-grade fever accompanied by progressive weight loss and anorexia. Diagnostic evaluations including biochemical testing, hematologic surveys, fine-needle aspiration cytology of peripheral lymph nodes, and bone marrow examination were recommended.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "General examination revealed mild pallor. Abdominal examination demonstrated splenomegaly and mild hepatomegaly. Lymphatic examination showed discrete enlarged lymph nodes in the right epitrochlear area and right cervical region.",
+      "routine_investigations": "Hemoglobin: 10.2 g%; Erythrocyte sedimentation rate (ESR): 68 mm/h. Liver enzymes: serum glutamic pyruvic transaminase (SGPT) 60 IU/L, serum glutamic oxaloacetic transaminase (SGOT) 53 IU/L, lactic dehydrogenase (LDH) 370 IU/L. Other biochemical tests: within normal limits. Serology screening: reactive for HIV-1.",
+      "advanced_workup": "Fine-needle aspiration cytology (FNAC) of right cervical and epitrochlear lymph nodes (24G needle, Leishman-Giemsa and Ziehl-Neelsen stains): smears showed a polymorphous cell population comprised of reactive lymphoid cells, histiocytes, isolated epithelioid cells, and numerous tingible body macrophages. Bone marrow examination: bone marrow aspirate smears obtained."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Visceral leishmaniasis presenting with leishmanial lymphadenitis in an HIV-1-reactive patient.\nDiagnostic confirmation: FNAC of cervical and epitrochlear lymph nodes revealed macrophages filled with Leishmania amastigote forms. Bone marrow smears demonstrated a high parasitic load of Leishmania amastigotes (parasite load 5+).\nDifferentials ruled out: Tuberculous lymphadenitis (Ziehl-Neelsen stain negative for acid-fast bacilli), lymphoma, and other opportunistic infections.\nTreatment and clinical course: Treated with sodium stibogluconate for 28 days in conjunction with antiretroviral therapy (ART)."
+    }
+  }
+}

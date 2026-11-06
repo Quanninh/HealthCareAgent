@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9356588_02",
+  "pair_id": "PMC9356588_02::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "raw_case_text": "Patient B: The patient, a 27-year-old man, was just diagnosed with HIV/AIDS (3 months ago) after being tested for HIV serostatus following notification that his wife had tested positive for the virus at a nearby clinic. He has no complaints about anything else. All of the physical evidences were unremarkable. Except for the CD4 count, which was determined to be 77cells/mm3, all baseline examinations, including tuberculosis investigations using a sputum gene expert, were non-revealing, and he subsequently tested for TB LAM, which yielded a positive result. He was subsequently started on anti-TB as recommended, and after a month, he was started on HAART withTenofovir+Lamivudine+Dolutegravir (TLD). He is using his medications without any problems so far, and the viral load will be sent on his six month of HAART initiation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 27-year-old asymptomatic male presented for routine evaluation following a diagnosis of HIV infection three months prior.",
+      "history_of_present_illness": "A 27-year-old male was diagnosed with HIV/AIDS 3 months prior after undergoing contact tracing when his wife tested positive for HIV. He reported no complaints or physical symptoms.",
+      "past_medical_history": "HIV infection diagnosed 3 months prior (contact of HIV-positive spouse). Denies prior opportunistic infections, chronic medical illnesses, or known TB contacts.",
+      "review_of_systems": "Completely asymptomatic; denies cough, fever, night sweats, weight loss, fatigue, or gastrointestinal symptoms. Home medications: none. Allergies not documented."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was completely unremarkable; vitals normal; no lymphadenopathy, organomegaly, or rash.",
+      "routine_investigations": "CD4 count: 77 cells/mm^3; routine baseline laboratory investigations unremarkable; sputum GeneXpert: negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Subclinical disseminated tuberculosis in advanced HIV infection (CD4 77 cells/mm^3).\nConfirmation: Urine lipoarabinomannan (TB LAM) test was positive for Mycobacterium tuberculosis.\nDifferentials ruled out: Active pulmonary tuberculosis (sputum GeneXpert negative), cryptococcal disease.\nTreatment & Outcome: Standard anti-tuberculosis therapy commenced. One month following ATT initiation, HAART was started with tenofovir + lamivudine + dolutegravir (TLD). Patient tolerated therapy without adverse events, with viral load assessment planned at 6 months."
+    }
+  }
+}

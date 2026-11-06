@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7529184_01",
+  "pair_id": "PMC7529184_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "A 23 yearold male patient (whose verbal consent was taken for reporting this case) presented in our outpatient department (OPD) with a history of decreased sleep, odd behavior, wandering about, frequent irrelevant talks, fearfulness, referential thinking, and persecutory ideas for 2 days with a history of being HIV positive for 5 years. This was the first episode. He was treated with tablet olanzapine 5 mg, which was increased up to 10 mg. He improved in a month. After 2 months, he presented with sadness, decreased interaction, crying spells, and hopelessness. Hence, along with tablet olanzapine, antidepressant tablet escitalopram 5 mg was started which was gradually increased to 10 mg. He improved in about 2 months and maintained well for about 11 months. He was compliant to the treatment and was followed up once a month in the OPD. After 11 months, he presented with a history of decreased sleep, increased talk, irritability, and cheerfulness. Hence, escitalopram was stopped, and he was continued with tablet olanzapine 10 mg. He recovered in 15 days and maintained well for further 8 months, and tablet olanzapine was gradually reduced to 5 mg. A diagnosis of \"bipolar affective disorder, current episode mania without psychotic symptoms\" was made.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old male presenting with decreased sleep, odd behavior, wandering, irrelevant speech, fearfulness, and persecutory ideas for two days.",
+      "history_of_present_illness": "A 23-year-old male presented to the outpatient department with a 2-day acute onset of psychiatric symptoms including reduced sleep, odd behavior, wandering, irrelevant talk, fearfulness, referential thinking, and persecutory ideation, representing his first psychotic manic episode. He was treated with olanzapine (5 mg titrated to 10 mg daily) with remission within one month. Two months later, he experienced an episode of severe depression with sadness, psychomotor withdrawal, crying spells, and hopelessness, managed by adding escitalopram (5 mg titrated to 10 mg daily) with recovery over two months. After 11 months of euthymia, he developed an acute manic relapse characterized by decreased sleep, logorrhea, irritability, and elevated cheerfulness.",
+      "past_medical_history": "Underlying chronic viral infection diagnosed 5 years previously; no prior psychiatric hospitalizations or episodes prior to index presentation.",
+      "review_of_systems": "Decreased sleep, irrelevant speech, referential thinking, persecutory ideas, episodic sadness, crying spells, hopelessness, irritability, and logorrhea; denies concurrent focal neurological deficits or physical complaints."
+    },
+    "objective": {
+      "physical_examination": "Mental status examination: Disorganized behavior, wandering, pressured irrelevant speech, fearfulness, referential and persecutory delusions during initial acute episode; cheerful mood, irritability, and increased talkativeness during subsequent manic relapse.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Bipolar affective disorder, current episode mania without psychotic symptoms (subsequent relapse), following an initial episode of acute mania with psychotic features and an intermediate depressive episode, occurring in a patient with human immunodeficiency virus (HIV) infection diagnosed 5 years prior.\nManagement & Clinical Course: Initial psychotic mania treated with olanzapine (5 mg titrated to 10 mg daily) with resolution in 1 month. Depressive episode treated with escitalopram (5 mg to 10 mg daily) alongside olanzapine. Upon emergence of mania at 11 months, escitalopram was discontinued, and olanzapine was increased to 10 mg daily, achieving full symptom remission in 15 days. Olanzapine was subsequently maintained and tapered to 5 mg daily with sustained stability for over 8 months."
+    }
+  }
+}

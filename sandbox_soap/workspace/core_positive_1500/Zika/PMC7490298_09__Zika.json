@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7490298_09",
+  "pair_id": "PMC7490298_09::Zika",
+  "target_disease": "Zika",
+  "raw_case_text": "Case 9: A 25 year old patient that reported exanthema and pruritus in the third trimester of gestation. Her IgM serology was positive for Zika and the PRNT90% was positive for neutralizing antibodies. At 37 weeks of gestation, her baby girl was born by cesarean with a cephalic circumference of 27 cm. The placenta weighed 565 g.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "25-year-old pregnant female in the third trimester of gestation presenting with exanthema and pruritus.",
+      "history_of_present_illness": "The patient developed an acute pruritic exanthema during the third trimester of gestation. At 37 weeks of gestation, she delivered a baby girl by cesarean section who was found to have severe microcephaly.",
+      "past_medical_history": "Third trimester of pregnancy; no prior chronic medical conditions reported.",
+      "review_of_systems": "Pruritus; denies other acute complaints."
+    },
+    "objective": {
+      "physical_examination": "Maternal: Cutaneous exanthema. Neonatal: Female infant delivered at 37 weeks gestation by cesarean section with a cephalic circumference of 27 cm (severe microcephaly). Placental weight was 565 g.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Congenital Zika syndrome with severe neonatal microcephaly following maternal third-trimester Zika virus infection. Maternal infection was confirmed by positive Zika IgM serology and positive PRNT90% neutralizing antibodies. The infant girl was delivered at 37 weeks gestation with severe microcephaly (head circumference 27 cm; placental weight 565 g)."
+    }
+  }
+}

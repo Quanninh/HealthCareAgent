@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC4750307_01",
+  "pair_id": "PMC4750307_01::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 45-year-old female patient presented with high-grade continuous fever for 5 days, headache and vomiting for 3 days, disorientation for 1-day, and facial deviation to the left side for 1-day.\nOn neurological examination, she had neck rigidity with positive Kernig sign. GCS Score was E3M5V4. Right-sided upper motor neuron (UMN) type facial nerve palsy was noted [Figure 3, Right panel]. Motor function, sensory function, deep tendon reflexes, cerebellar function, and autonomic function were all within normal limit. Planter was equivocal in both sides.\nMRI scan of brain (plain and contrast) done on 6th day of fever, showed multiple tiny nonenhancing hypo on T1 and hyperintense lesions on T2, T2 fluid attenuation inversion recovery (FLAIR) sequence suggestive of ischemic demyelination in lentiform nucleus, peri- and para-ventricular white matter and centrum semiovale on both sides [Figure 3, Left panel]. So, a diagnosis of dengue meningoencephalitis with right sided UMN type facial palsy was made.\nThe patient was treated with intravenous (IV) fluid and antipyretics, and at the end of the 2nd week patient became completely afebrile with no neck rigidity but facial palsy persisted partially. Patient was discharged and on follow-up at the end of the 4th week there was complete resolution of facial palsy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old female presenting with high-grade continuous fever for 5 days, headache and vomiting for 3 days, disorientation for 1 day, and left-sided facial deviation for 1 day.",
+      "history_of_present_illness": "The patient presented with a 5-day history of continuous high-grade fever. Headache and vomiting developed 3 days prior, followed by progressive disorientation and acute left-sided facial deviation 1 day prior to admission.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for high fever, headache, vomiting, disorientation, and facial deviation. Medications and allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination: GCS score E3M5V4 (12/15). Nuchal rigidity present with positive Kernig's sign. Right-sided upper motor neuron (UMN) type facial nerve palsy. Plantar responses were equivocal bilaterally. Motor power, sensory examination, deep tendon reflexes, cerebellar function, and autonomic functions were all within normal limits.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI (plain and contrast) on day 6 of fever: Multiple tiny non-enhancing hypointense lesions on T1 and hyperintense lesions on T2/FLAIR sequences suggestive of ischemic demyelination in the lentiform nucleus, peri- and paraventricular white matter, and centrum semiovale bilaterally."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute dengue meningoencephalitis complicated by right-sided upper motor neuron (UMN) facial nerve palsy and bilateral cerebral ischemic demyelination. Diagnosed clinically, serologically, and neuro-radiologically during an epidemic dengue outbreak.\nPlan & Outcome: Managed supportively with intravenous fluid hydration and antipyretics. By the end of the second week of hospitalization, the patient became completely afebrile and nuchal rigidity resolved, with partial improvement of facial palsy. Discharged home with documented complete resolution of facial palsy at 4-week follow-up."
+    }
+  }
+}

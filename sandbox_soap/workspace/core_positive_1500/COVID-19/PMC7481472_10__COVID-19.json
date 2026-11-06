@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC7481472_10",
+  "pair_id": "PMC7481472_10::COVID-19",
+  "target_disease": "COVID-19",
+  "raw_case_text": "Control 3: 72-year-old male with diabetes mellitus, chronic ischemic cardiopathy and dyslipaemia, attending the emergency department for cough and fever during the last 15 days without improvement and accompanied by diarrhea. He also had partial respiratory failure. His blood pressure score was 154/81, and he had a heart rate of 80 beats per minute, SpO2 87%, and elevated D-Dimer levels. Chest X-Ray: A bilateral alveolar reticulum interstitial pattern of peripheral predominance and right base was observed, indicating an atypical infectious process. Confirmation of COVID-19 was made by RT-PCR using a throat swab, as well as testing positive for pneumococcus. He was treated with hydroxychloroquine, prednisone, lopinavir-ritonavir, vancomycin, and tacrolimus. The patient remains in the intensive care unit.\nThe effects of lithium treatment between dependent variables were evaluated with regression analyses using GraphPad Prism 7.0 software. Multiple linear regression is one of the most important statistical methods used to model the linear relationship between a dependent variable and one or more independent variables to fit an exponential decay curve. We calculated a nonlinear regression with one phase exponential decay.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old male presented to the emergency department with cough and fever for 15 days, accompanied by diarrhea and partial respiratory failure.",
+      "history_of_present_illness": "A 72-year-old male presented to the emergency department for cough and fever during the last 15 days without improvement, accompanied by diarrhea, and partial respiratory failure.",
+      "past_medical_history": "Diabetes mellitus, chronic ischemic cardiopathy, and dyslipaemia.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Blood pressure 154/81 mmHg, heart rate 80 beats per minute, SpO2 87%.",
+      "routine_investigations": "Elevated D-Dimer levels. Chest X-Ray: Bilateral alveolar reticulum interstitial pattern of peripheral predominance and right base was observed, indicating an atypical infectious process.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmation of COVID-19 was made by RT-PCR using a throat swab, as well as testing positive for pneumococcus. He was treated with hydroxychloroquine, prednisone, lopinavir-ritonavir, vancomycin, and tacrolimus. The patient remains in the intensive care unit."
+    }
+  }
+}

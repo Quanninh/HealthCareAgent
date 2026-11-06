@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9034561_01",
+  "pair_id": "PMC9034561_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Participant 1: Mrs. O. F, a 36-year-old married female police officer, admitted on account of a two-month history of recurrent fever and progressive weight loss. She had a weeping left facial vesicular rash and a day s history of right sided weakness. Not a known hypertensive or diabetic patient, not a known case of haemoglobinopathy. She neither consumed illicit drugs nor smoked cigarettes, but took two bottles of Guinness stout weekly. No seizure disorders. Examination revealed a young woman with a left sided herpetic rash pustular, distributed over the ophthalmic region of the trigeminal nerve. At entry, she was not febrile (36.5 C). Temperature during admission ranged between 36.8 - 37. 8 C. She was anicteric but pale (PCV 26%), conscious with right hemiparesis, with power of 3 in the upper and lower limbs. Her blood pressure was 120/80mm/Hg, No cardiac murmurs. Apart from hepatomegaly of 3cm on abdominal examination, other examinations were not remarkable. Serology was positive for HIV-1 with a CD4 count of 180 cells/cm3. Her renal function was normal. Entry random blood glucose was 128 mg/dl (7.1mmol/l), normal repeat and normal plasma lipids. Her cranial CT, was reported as normal. A routine chest X-ray was not remarkable. Herpes was suspected. She had Acyclovir, and antibiotics for the super-added bacterial infection on the facial rash.\nOutcome: had sustained clinical improvement, was enrolled for HIV treatment/care and being followed up at the out patients  services.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old female presenting with a 2-month history of recurrent fever and weight loss, accompanied by a facial vesicular rash and acute right-sided hemiparesis for one day.",
+      "history_of_present_illness": "The patient presented with a 2-month history of intermittent fevers and progressive unintentional weight loss. Over the days prior to admission, she developed a painful, weeping pustular rash over the left side of her face, followed by the acute onset of right-sided body weakness 24 hours prior to presentation.",
+      "past_medical_history": "No prior history of hypertension, diabetes mellitus, hemoglobinopathy, or seizure disorders. Social history: Police officer; consumes two bottles of stout beer weekly; denies cigarette smoking or illicit drug use.",
+      "review_of_systems": "Recurrent fever, weight loss, weeping facial eruption, and right-sided hemiparesis; denies headache, neck stiffness, visual loss, or chest pain."
+    },
+    "objective": {
+      "physical_examination": "General: Pale, anicteric, conscious. Vitals: Temperature 36.5 °C at presentation (ranging between 36.8 °C and 37.8 °C during admission), blood pressure 120/80 mmHg, no cardiac murmurs. Abdomen: Hepatomegaly palpable 3 cm below the costal margin. Dermatologic: Pustular, weeping vesicular eruption distributed over the ophthalmic division (V1) of the left trigeminal nerve. Neurologic: Conscious with right hemiparesis, muscle power grade 3/5 in the right upper and lower extremities.",
+      "routine_investigations": "Packed cell volume (PCV): 26% (anemia). Random blood glucose: 128 mg/dL (7.1 mmol/L), with normal repeat values. Plasma lipids: Normal lipid profile. Renal function: Normal serum urea and creatinine. Chest radiograph: Normal.",
+      "advanced_workup": "Cranial computed tomography (CT): Normal brain parenchyma without evidence of acute hemorrhagic or established ischemic infarction."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Acute ischemic cerebrovascular accident (vasculopathy-induced stroke) and ophthalmic herpes zoster with secondary bacterial superinfection in a patient with newly diagnosed human immunodeficiency virus type 1 (HIV-1) infection (CD4+ T-cell count 180 cells/mm3). Diagnostic confirmation: Positive HIV-1 serology; clinical diagnosis of herpes zoster ophthalmicus based on dermatomal vesicular-pustular distribution over the V1 branch. Plan & Outcome: Treated with intravenous acyclovir, broad-spectrum antibiotics for secondary bacterial skin infection, and supportive stroke care. She achieved sustained clinical recovery and functional improvement, and was initiated on combination antiretroviral therapy (ART) with longitudinal outpatient follow-up."
+    }
+  }
+}

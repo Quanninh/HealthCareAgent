@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5408821_02",
+  "pair_id": "PMC5408821_02::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 14-year-old female was admitted to the hospital on June 5, 2016, at 2:20 am. The patient's symptoms started 12 h after clinical manifestation in her sister (Case 1). She had a 39  C fever and headache progression for 24 h. She presented with psychomotor agitation, followed by generalized tonic-clonic seizures. She was taken to Axochiapan Morelos Hospital for assessment. On admission, she exhibited neurological deterioration requiring orotracheal intubation and was sent to Children's Hospital of Morelos, where cranial computerized axial tomography (CAT) revealed severe cerebral edema and uncal herniation (Fig. 2). Her laboratory blood tests are presented in Table 1. She was transferred to the intensive care unit where hemodynamic and antiedema care was provided. On beginning intensive care, clinical data indicated brain death, which was confirmed by three isoelectric EEGs. The patient died in the hospital five days after admission. Serology positive for dengue NS1 by ELISA was reported, and PCR was performed to detect enterovirus in the CSF, with negative results.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old female presenting with high fever, progressive headache for 24 hours, psychomotor agitation, and generalized tonic-clonic seizures.",
+      "history_of_present_illness": "A 14-year-old female (sister of Case 1) developed high fever of 39 C and progressive headache for 24 hours, starting 12 hours after the onset of illness in her sister. She developed acute psychomotor agitation rapidly followed by generalized tonic-clonic seizures. Evaluated at a regional hospital, she exhibited rapid neurological deterioration necessitating emergent orotracheal intubation and transfer to a pediatric intensive care unit.",
+      "past_medical_history": "Epidemiological history: Sibling (sister) developed fatal fulminant encephalitis 12 hours prior; younger sister also had acute febrile illness 2 days prior. No prior chronic medical illnesses. Family history negative for toxic exposures.",
+      "review_of_systems": "Positive for fever, severe headache, psychomotor agitation, and seizures. Systemic review limited by intubation and coma. Medications: none. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Intubated, comatose. Neurological deterioration with loss of brainstem reflexes. Clinical findings consistent with brain death upon ICU admission.",
+      "routine_investigations": "Laboratory blood tests performed on admission (Table 1).",
+      "advanced_workup": "Cranial CT: Severe cerebral edema with uncal herniation. Electroencephalography (EEG): Three consecutive isoelectric EEGs confirming brain death. Lumbar puncture / CSF: PCR for enterovirus was negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe neurodengue / fatal dengue encephalitis with uncal herniation and brain death. Diagnostic confirmation: Positive dengue virus NS1 antigen by ELISA; negative CSF enterovirus PCR.\nPlan & Outcome: Received intensive hemodynamic support and anti-cerebral edema therapy in the ICU. Clinical brain death was confirmed by three isoelectric EEGs, and the patient died 5 days after hospital admission."
+    }
+  }
+}

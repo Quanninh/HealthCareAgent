@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6732635_04",
+  "pair_id": "PMC6732635_04::Malaria",
+  "target_disease": "Malaria",
+  "raw_case_text": "A 38-year-old man with no particular history was hospitalized for fever and jaundice. At admission, his temperature was 38.5 C with a Glasgow score of 11/15, a weight of 62 kg, a respiratory rate of 28 cycles/minute, and a heart rate of 100 beats/minute. The thick peripheral blood smear was negative, but the rapid diagnostic test was positive for P. falciparum. Hemoglobin concentration was 9.0 g/dl, blood glucose was 5.6 mmol/L, and serum creatinemia was 1500 mumol/L. The patient had received a first dose of quinine at a dose of 25 mg/kg/24 hours the previous day. An oligoanuria with port wine-colored urine was noted. Quinine was discontinued and replaced with intramuscularly injected artemether at a dose of 3.2 mg/kg daily on day 1 and 1.6 mg/kg daily from day 2 to day 5. The patient had 4 hemodialysis sessions. The evolution was favorable with progressive improvement of renal function.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old male presenting with fever, jaundice, and altered consciousness.",
+      "history_of_present_illness": "The patient developed acute fever and jaundice. He received a dose of quinine the previous day at another facility, following which he developed worsening encephalopathy, severe reduction in urine volume, and passage of port wine-colored urine, prompting hospital admission.",
+      "past_medical_history": "No significant prior medical history. Received one dose of parenteral quinine (25 mg/kg/24 hours) on the day prior to admission.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Temperature 38.5 °C, heart rate 100 beats/min, respiratory rate 28 breaths/min, body weight 62 kg. Glasgow Coma Scale: 11/15. Scleral icterus/jaundice. Genitourinary: Oligoanuria with passage of dark port wine-colored urine.",
+      "routine_investigations": "Hemoglobin 9.0 g/dL; blood glucose 5.6 mmol/L; serum creatinine 1,500 micromol/L.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Blackwater fever (BWF; acute intravascular hemolysis and severe oliguric acute kidney injury) triggered by quinine therapy for Plasmodium falciparum malaria. Rapid diagnostic test (RDT) was positive for P. falciparum, and thick blood smear was negative for circulating parasites.\nPlan & Outcome: Quinine was immediately discontinued and replaced with intramuscular artemether (3.2 mg/kg on day 1, followed by 1.6 mg/kg daily from days 2 to 5). Severe uremic renal failure was managed with four hemodialysis sessions alongside supportive intensive medical care. The patient demonstrated favorable clinical recovery with progressive normalization of renal function."
+    }
+  }
+}

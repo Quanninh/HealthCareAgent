@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6532492_02",
+  "pair_id": "PMC6532492_02::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "raw_case_text": "Further history revealed that among the family of four members, his 53-year-old paternal grandmother was a known case of HIV infection and receiving antiretroviral therapy since January 2013. Her existing documented medical records showed an absolute CD4+ count of 123 cells/mm3(13.9%) and plasma viral load of 11,612 copies/ml at the initiation of cART, which consisted of tenofovir, lamivudine, and efavirenz. Her plasma viral load was undetectable reflecting her excellent adherence in September 2015. The paternal grandmother was the primary caregiver of the child at home as both the parents were working. She helped him in feeding, giving a bath, and other routine activities. The child was treated with cART consisting of zidovudine, lamivudine, and nevirapine from October 2015 and followed periodically.\nThe investigation of this child was further done at the National AIDS Research Institute, Pune, India, through interviews with the available involved adults and through a review of the available documented medical records. Written informed consent for HIV testing and other-related tests was obtained from adult family members, while in case of a child, assent was obtained from his parents. HIV testing was performed as recommended by the WHO. Blood specimens from the child and HIV-infected parental grandmother were used for the amplification and sequencing of HIV-1 partial pol regions.\nThe pol gene sequence analysis showed 97.18% (94.37% nucleotide identity) amino acid identity between HIV strain from the child and his paternal grandmother. Phylodynamic analysis showed clustering of both the sequences at one node with posterior probability of 1.0, implying that the paternal grandmother was probably the source of HIV-1 infection [Figure 1].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 3.5-year-old male presenting for molecular epidemiological evaluation of non-vertical retroviral transmission and initiation of combination antiretroviral therapy.",
+      "history_of_present_illness": "Following the diagnosis of advanced retroviral infection in a young child with seronegative parents, extended epidemiological screening identified the primary household caregiver (paternal grandmother) as a known retroviral patient on long-term therapy. The child was referred to a national research institute for molecular sequencing and phylogenetic transmission tracking, and commenced on pediatric combination therapy.",
+      "past_medical_history": "Pediatric retroviral infection presenting with recurrent respiratory infections and severe immunosuppression. Epidemiological exposure: Primary daytime childcare provided by the 53-year-old paternal grandmother (known HIV-1 infection on tenofovir, lamivudine, and efavirenz since January 2013; baseline CD4 123 cells/microL, viral load 11,612 copies/mL; undetectable viral load by September 2015) who assisted with bathing, feeding, and daily activities.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Molecular phylogenetic and sequencing analysis (partial pol gene): HIV-1 pol gene sequence comparison between the child and his paternal grandmother demonstrated 97.18% amino acid identity and 94.37% nucleotide identity; Bayesian phylodynamic analysis demonstrated monophyletic clustering at a single node with a posterior probability of 1.0."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Pediatric HIV-1 infection confirmed to be transmitted non-vertically from the primary caregiver (paternal grandmother) via phylogenetic and partial pol gene sequencing (posterior probability 1.0).\nPlan & Outcome: Initiated on pediatric combination antiretroviral therapy (cART) consisting of zidovudine, lamivudine, and nevirapine in October 2015 with periodic clinical, immunological, and virological monitoring."
+    }
+  }
+}

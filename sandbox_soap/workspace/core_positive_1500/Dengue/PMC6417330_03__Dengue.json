@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC6417330_03",
+  "pair_id": "PMC6417330_03::Dengue",
+  "target_disease": "Dengue",
+  "raw_case_text": "A 75-year-old female had a history of fall at home after which she became unconscious and was brought to our hospital emergency. After resuscitation, a CT scan was taken which showed a right temporal lobe hematoma [Figure 9]. She underwent craniotomy and evacuation of hematoma after which she regained consciousness. She had an uneventful postoperative period until the 2nd week. Postoperative CT scan showed no fresh bleeding [Figure 10]. She was set to be discharged when she developed mild fever and altered sensorium. She was transferred to Intensive care unit and evaluated. Investigations revealed she had thrombocytopenia (63,000/mm3) which prompted us to evaluate her for dengue. She was positive for NS1 antigen and IgM antibody. Her INR was 1.3 and APTT was 40 s. She was administered platelet concentrates without a notable rise in her thrombocytopenia. After 4 days, her consciousness further deteriorated and chest X-rays revealed she had severe chest infection [Figure 11a and b]. She was ventilated as she further developed respiratory failure sequelae to ARDS. Throughout her illness, her platelet counts never recovered to normal levels despite several platelet transfusions. Finally, she succumbed to her disease after a prolonged period of ventilation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 75-year-old female post-craniotomy for traumatic temporal hematoma developing mild fever, altered sensorium, severe thrombocytopenia, and respiratory failure.",
+      "history_of_present_illness": "A 75-year-old female who had undergone craniotomy and evacuation of an acute traumatic right temporal hematoma following a mechanical fall at home had an uneventful postoperative recovery until the second week. Just prior to planned discharge, she developed mild fever, altered sensorium, and marked thrombocytopenia. Over the subsequent 4 days, sensorium deteriorated further and she developed severe hospital-acquired pneumonia/chest infection progressing to acute respiratory distress syndrome (ARDS).",
+      "past_medical_history": "Recent history of mechanical fall at home with right temporal lobe hematoma status post craniotomy and clot evacuation. No prior bleeding diathesis.",
+      "review_of_systems": "Positive for fever, confusion, altered consciousness, and dyspnea. Medications: postoperative neurosurgical care. Allergies: null."
+    },
+    "objective": {
+      "physical_examination": "Altered sensorium, febrile, tachypneic. Progressed to stupor/coma requiring endotracheal intubation. Chest examination revealed bilateral pulmonary infiltrates and respiratory failure.",
+      "routine_investigations": "Platelet count: 63,000/mm3, remaining refractory to repeated platelet concentrate transfusions. Coagulation profile: INR 1.3, aPTT 40 sec. Chest radiography: Severe bilateral pulmonary infiltrates consistent with ARDS.",
+      "advanced_workup": "Brain CT (initial post-trauma): Right temporal lobe hematoma. Brain CT (postoperative): Satisfactory evacuation without fresh hemorrhage."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Severe dengue infection acquired during postoperative rehabilitation following traumatic craniotomy, complicated by refractory thrombocytopenia, coagulopathy, severe nosocomial pneumonia, and fatal ARDS. Diagnostic confirmation: Positive dengue virus NS1 antigen and IgM antibodies.\nPlan & Outcome: Transferred to the ICU, intubated, and mechanically ventilated. Managed with multiple platelet concentrate transfusions, broad-spectrum antibiotics, and aggressive respiratory support. Despite prolonged mechanical ventilation and maximal supportive therapy, platelet counts failed to recover and the patient died."
+    }
+  }
+}

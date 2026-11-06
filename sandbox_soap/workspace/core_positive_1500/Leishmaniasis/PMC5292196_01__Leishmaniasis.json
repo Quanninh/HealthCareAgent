@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC5292196_01",
+  "pair_id": "PMC5292196_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "raw_case_text": "A 75-year-old man with complaint of lesions extended on the hands, legs, face, and upper lid of right eye was referred to a health center of Kashan.\nHe was a farmer in Aran va Bidgol city from Isfahan province in the center of Iran. The patient about his infection said, sandflies have bitten him when referring to the farm for irrigation on the nights in the season of sandflies activity.\nBased on questioning, the patient described the appearance of 25 multiple nodular, ulcerative, and crusted lesions on his body. In physical examination the size of lesions was varied from a few millimeters to several centimeters. He had no particular medical history and systemic symptoms. There were eight lesions on the face that one of them was on the upper eyelid right eye (Figure 1).\nIn fact, the patient suffered from ocular leishmaniasis in addition to having multiple CL lesions. He had no fever and lesions were painless and his general condition was good.\nDirect smears were prepared from the edge of skin lesions on different parts of body by using vaccinostyle and were fixed with pure methanol. Samples were stained by Giemsa 10% and examined under a light microscope and amastigote forms of Leishmania species were observed and CL was confirmed (Figure 2).\nTo identify the leishman agent causative of the disease materials of skin lesions cultured on RPMI-1640 medium plus 10% FBS, DNA was extracted and PCR was performed. PCR was positive for Leishmania major (Figure 3).\nThe patient was treated intramuscularly by meglumine antimoniate (Glucantime).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 75-year-old male presented with multiple nodular, ulcerative, and crusted skin lesions on his face, right upper eyelid, hands, and legs.",
+      "history_of_present_illness": "A 75-year-old male farmer presented to a health center with 25 multiple nodular, ulcerative, and crusted skin lesions distributed over his face, right upper eyelid, hands, and legs. He reported that sandflies had bitten him while irrigating his agricultural fields at night during the sandfly activity season. Lesions were painless, and he remained systemically well.",
+      "past_medical_history": "Farmer residing in Aran va Bidgol, Isfahan province, central Iran. Epidemiological exposure: nocturnal sandfly bites during farm irrigation. No other chronic illnesses, prior antibiotic use, or drug allergies documented.",
+      "review_of_systems": "Multiple painless cutaneous lesions on face, eyelid, and extremities. Denied ocular pain, visual disturbance, eye discharge, fever, chills, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "Afebrile, good general condition. Dermatological examination revealed 25 multiple nodular, ulcerative, and crusted lesions on the hands, legs, face, and right upper eyelid, with lesion sizes ranging from a few millimeters to several centimeters. Eight distinct lesions were present on the face, including an ulcerative lesion situated on the right upper eyelid (ocular leishmaniasis).",
+      "routine_investigations": null,
+      "advanced_workup": "Direct smears prepared from the active indurated borders of lesions using a vaccinostyle, fixed with pure methanol, and stained with 10% Giemsa: light microscopy revealed intracellular microorganisms within macrophages."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive Diagnosis: Multiple cutaneous leishmaniasis (CL) with ocular adnexal involvement (eyelid leishmaniasis) caused by Leishmania major.\nDiagnostic Confirmation: Giemsa-stained direct smears demonstrated characteristic Leishmania amastigotes. Parasites cultured in RPMI-1640 medium supplemented with 10% FBS; PCR amplified Leishmania DNA, confirming Leishmania major.\nDifferentials Ruled Out: Ecthyma, bacterial furunculosis, keratoacanthoma, basal cell carcinoma, and squamous cell carcinoma.\nTreatment & Clinical Course: Patient was treated with intramuscular meglumine antimoniate (Glucantime) with favorable clinical resolution."
+    }
+  }
+}

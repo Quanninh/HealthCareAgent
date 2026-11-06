@@ -1,0 +1,22 @@
+{
+  "case_id": "PMC9070060_01",
+  "pair_id": "PMC9070060_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "raw_case_text": "A 55-year-old man was hospitalized due to complaints of lower back and neck pains approximately 3 months ago. He had a history of atrial fibrillation and chronic obstructive liver disease, and was engaged in animal husbandry. The Rose Bengal test yielded a positive result, and the Wright test score was 1/160. Blood culture showed absence of bacterial growth, and vegetation was not detected on echocardiography (ECHO). Rifampicin and doxycycline were administered as the patient's clinical manifestations were compatible with those of brucellosis, and the Wright test at the external center yielded a positive result. The patient was discharged on volition. \nThree months later, the patient presented with worsening rhythm disturbance over the previous 4-5 days, shortness of breath, right leg pain, and elevated body temperature. Wright agglutination was 1/5120, and Ig M and Ig G were detected on enzyme-linked immunosorbent assay. Hence, ECHO was performed. Vegetation was detected in the mitral valve (Figures 1 and 2). The patient had a toxic appearance. He was administered with rifampicin, doxycycline, and cefotaxime for two weeks. Brucella growth was determined by blood culture. The patient was then transferred to the Department of Cardiovascular Surgery. The mitral valve was resected, and bioprosthetic mitral valve replacement was performed. The treatment was continued postoperatively, and the patient did not develop any complications. The patient survived and remained healthy. \nBrucellosis can affect several organs and tissues. It frequently involves the aortic valve, followed by the mitral valve. \nThe prevalence of brucella endocarditis is 1% and is the most frequent cause of death. The prognosis is poor in young patients. Hence, short-term and long-term follow-ups must be performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old male presented with worsening heart rhythm disturbance for 4-5 days, shortness of breath, right leg pain, and fever.",
+      "history_of_present_illness": "Three months prior to presentation, the patient was hospitalized with lower back and neck pain and received rifampicin and doxycycline before self-discharging against medical advice. He re-presented 3 months later with acute worsening of cardiac rhythm disturbance over 4-5 days, progressive shortness of breath, right leg pain, and fever. Echocardiography identified a new mitral valve vegetation, necessitating surgical intervention.",
+      "past_medical_history": "Atrial fibrillation, chronic obstructive liver disease; prior presentation 3 months earlier with lower back/neck pain and incomplete antimicrobial therapy. Epidemiological exposure/Occupation: Engaged in animal husbandry.",
+      "review_of_systems": "Shortness of breath and right leg pain. Home medications: Incomplete prior course of rifampicin and doxycycline. Allergies: None documented."
+    },
+    "objective": {
+      "physical_examination": "Patient had a toxic general appearance. Elevated body temperature (fever) present. Cardiac exam notable for worsening rhythm disturbance.",
+      "routine_investigations": "Transthoracic echocardiography (3 months prior): No vegetative lesions detected. Repeat echocardiography (current admission): Mitral valve vegetation detected.",
+      "advanced_workup": "Surgical pathology / intraoperative evaluation: Resected diseased mitral valve with bioprosthetic valve replacement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Brucella infective endocarditis involving the mitral valve, confirmed by positive blood cultures growing Brucella species, with Wright agglutination titer rising markedly to 1:5120 (from 1:160 three months prior) and positive Brucella IgM and IgG by ELISA (initial episode was also Rose Bengal positive).\nPlan & Clinical Course: Initiated on two weeks of preoperative rifampicin, doxycycline, and cefotaxime. The patient was transferred to Cardiovascular Surgery and underwent mitral valve resection and bioprosthetic mitral valve replacement. Antimicrobial therapy was continued postoperatively. The patient recovered completely without complications."
+    }
+  }
+}
