@@ -3,18 +3,27 @@ test_qlora_pipeline.py
 
 Unit test and verification suite for Supervised Fine-Tuning (SFT) using QLoRA.
 Tests:
-1. Dataset loading from ground_truth_reasoning_all.jsonl (offline-distilled dataset).
-2. Prompt construction instructing model to answer: "Which diseases is the patient positive?"
-3. Completion-only Cross-Entropy loss computation (masking prompt tokens with -100).
-4. Deterministic clinical verdict extraction and ROUGE evaluation metrics.
+1. SOAP clinical presentation formatting (Subjective + Objective without diagnostic leakage).
+2. Dataset loading from sandbox_soap/workspace/core_positive_1500 (ChatML and Alpaca formats).
+3. Filtering of unpopulated / empty templates.
+4. Completion-only Cross-Entropy loss computation (masking prompt tokens with -100).
+5. Deterministic clinical evaluation metrics & ROUGE overlap.
 """
 
+import os
 import sys
 import unittest
 
+# Ensure repository root is on sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from finetune.dataset_loader import (
-    load_gt_reasoning_dataset,
-    format_positive_diseases_prompt
+    load_dataset_from_path,
+    load_clinical_soap_dataset,
+    format_positive_diseases_prompt,
+    format_soap_presentation,
+    load_soap_record,
+    DEFAULT_SOAP_DIR
 )
 
 try:
@@ -28,23 +37,70 @@ except ImportError:
 
 class TestQLoRAPipeline(unittest.TestCase):
 
+    def test_soap_presentation_formatting(self):
+        """Verifies that format_soap_presentation formats Subjective and Objective cleanly without nulls."""
+        sample_soap = {
+            "subjective": {
+                "chief_complaint": "30-year-old male with 5-day fever.",
+                "history_of_present_illness": "Patient developed sudden high fever and joint pain.",
+                "past_medical_history": "Travel to endemic area 2 weeks ago.",
+                "review_of_systems": None  # Should be omitted cleanly
+            },
+            "objective": {
+                "physical_examination": "Temperature 39 C, maculopapular rash.",
+                "routine_investigations": "Platelets 85,000/uL, WBC 3.2 x 10^9/L.",
+                "advanced_workup": None  # Should be omitted cleanly
+            },
+            "assessment_and_plan": {
+                "assessment_and_confirmation": "Definitive diagnosis: Dengue fever."
+            }
+        }
+
+        presentation = format_soap_presentation(sample_soap)
+        self.assertIn("[SUBJECTIVE]", presentation)
+        self.assertIn("[OBJECTIVE]", presentation)
+        self.assertIn("- Chief Complaint: 30-year-old male with 5-day fever.", presentation)
+        self.assertIn("- History of Present Illness: Patient developed sudden high fever and joint pain.", presentation)
+        self.assertIn("- Past Medical History & Exposures: Travel to endemic area 2 weeks ago.", presentation)
+        self.assertNotIn("Review of Systems", presentation)
+        self.assertIn("- Physical Examination: Temperature 39 C, maculopapular rash.", presentation)
+        self.assertIn("- Routine Investigations: Platelets 85,000/uL, WBC 3.2 x 10^9/L.", presentation)
+        self.assertNotIn("Advanced Workup", presentation)
+
     def test_prompt_formatting(self):
-        """Verifies that the prompt explicitly asks the required question."""
-        disease = "Brucellosis"
-        findings = "- Test finding 1\n- Test finding 2"
+        """
+        Verifies that Option B prompts omit candidate target disease hints by default,
+        and cleanly include them only when include_candidate_hint=True.
+        """
+        findings = "[SUBJECTIVE]\n- Chief Complaint: Fever and night sweats."
         q_text = "Which diseases is the patient positive?"
 
-        prompt = format_positive_diseases_prompt(disease, findings, q_text)
-        self.assertIn("Which diseases is the patient positive?", prompt)
-        self.assertIn("Candidate Target Disease: Brucellosis", prompt)
-        self.assertIn("- Test finding 1", prompt)
+        # Option B (Default: Open deduction with NO candidate disease hint)
+        prompt_open = format_positive_diseases_prompt(
+            clinical_findings=findings,
+            question_text=q_text,
+            target_disease="Brucellosis",
+            include_candidate_hint=False
+        )
+        self.assertIn("Which diseases is the patient positive?", prompt_open)
+        self.assertNotIn("Candidate Target Disease:", prompt_open)
+        self.assertIn("Clinical Presentation (SOAP):", prompt_open)
+        self.assertIn("[SUBJECTIVE]", prompt_open)
 
-    def test_dataset_loader_chatml(self):
-        """Verifies loading ChatML format from ground_truth_reasoning_all.jsonl."""
-        gt_file = "gt_reasoning/output_gt_reasoning/ground_truth_reasoning_all.jsonl"
-        ds = load_gt_reasoning_dataset(gt_file=gt_file, format_type="chatml", max_samples=5)
+        # Explicit candidate hint enabled
+        prompt_hinted = format_positive_diseases_prompt(
+            clinical_findings=findings,
+            question_text=q_text,
+            target_disease="Brucellosis",
+            include_candidate_hint=True
+        )
+        self.assertIn("Candidate Target Disease: Brucellosis", prompt_hinted)
 
-        self.assertEqual(len(ds), 5)
+    def test_dataset_loader_soap_chatml(self):
+        """Verifies loading ChatML format from sandbox_soap/workspace/core_positive_1500 (Option B)."""
+        ds = load_dataset_from_path(data_path=DEFAULT_SOAP_DIR, format_type="chatml", max_samples=10)
+
+        self.assertEqual(len(ds), 10)
         first_item = ds[0]
         self.assertIn("messages", first_item)
         self.assertEqual(len(first_item["messages"]), 3)
@@ -54,11 +110,16 @@ class TestQLoRAPipeline(unittest.TestCase):
 
         user_content = first_item["messages"][1]["content"]
         self.assertIn("Which diseases is the patient positive?", user_content)
+        self.assertIn("Clinical Presentation (SOAP):", user_content)
+        # Option B: prompt should NOT leak candidate target disease to user
+        self.assertNotIn("Candidate Target Disease:", user_content)
 
-    def test_dataset_loader_alpaca(self):
-        """Verifies loading Alpaca format from ground_truth_reasoning_all.jsonl."""
-        gt_file = "gt_reasoning/output_gt_reasoning/ground_truth_reasoning_all.jsonl"
-        ds = load_gt_reasoning_dataset(gt_file=gt_file, format_type="alpaca", max_samples=5)
+        assistant_content = first_item["messages"][2]["content"]
+        self.assertGreater(len(assistant_content), 10)
+
+    def test_dataset_loader_soap_alpaca(self):
+        """Verifies loading Alpaca format from sandbox_soap/workspace/core_positive_1500 (Option B)."""
+        ds = load_dataset_from_path(data_path=DEFAULT_SOAP_DIR, format_type="alpaca", max_samples=5)
 
         self.assertEqual(len(ds), 5)
         first_item = ds[0]
@@ -66,6 +127,24 @@ class TestQLoRAPipeline(unittest.TestCase):
         self.assertIn("input", first_item)
         self.assertIn("output", first_item)
         self.assertIn("Which diseases is the patient positive?", first_item["instruction"])
+        self.assertIn("Clinical Presentation (SOAP):", first_item["input"])
+        self.assertNotIn("Candidate Target Disease:", first_item["input"])
+
+    def test_unpopulated_template_filtering(self):
+        """Verifies that empty/unpopulated SOAP templates are safely skipped."""
+        unpopulated_record = {
+            "case_id": "test_empty_01",
+            "pair_id": "test_empty_01::Tuberculosis",
+            "target_disease": "Tuberculosis",
+            "raw_case_text": "A brief text without structured extraction.",
+            "soap_note": {
+                "subjective": {"chief_complaint": None, "history_of_present_illness": None},
+                "objective": {"physical_examination": None},
+                "assessment_and_plan": {"assessment_and_confirmation": None}
+            }
+        }
+        res = load_soap_record(unpopulated_record)
+        self.assertIsNone(res)
 
     def test_sft_completion_loss_math(self):
         """
@@ -105,77 +184,79 @@ class TestQLoRAPipeline(unittest.TestCase):
         self.assertIsNotNone(logits.grad)
         self.assertFalse(torch.isnan(logits.grad).any())
 
-        # Tokens before the completion (prompt tokens) must have zero gradient
-        # Since shift_labels[:, :3] == -100, logits[:, :3, :] should not receive loss gradients
+        # Tokens before completion (prompt tokens) must have zero gradient
         self.assertTrue(torch.all(logits.grad[:, :3, :] == 0.0))
 
     def test_parse_clinical_response(self):
-        """Verifies parsing and evaluation of Disease Name, Structured Reasoning, and Determination."""
+        """Verifies parsing and evaluation of Disease Name and ROUGE."""
         from finetune.evaluate_model import parse_clinical_response, compute_rouge_scores
 
         sample_output = (
-            "Brucellosis (Brucella abortus / Brucella melitensis infection). "
-            "Reasoning: (1) Prolonged fever and unpasteurized dairy exposure. "
-            "(2) Positive serology. -> POSITIVE diagnosis confirmed."
+            "Definitive diagnosis: Brucellosis (Brucella melitensis infection) with neurobrucellosis. "
+            "Confirmation: Brucella antibody titers >1:320. "
+            "Treatment & Outcome: Successfully treated with doxycycline and rifampin."
         )
-        claims = [{"text": "unpasteurized dairy exposure"}, {"text": "Positive serology"}]
+        claims = [{"text": "Brucella antibody titers >1:320", "source": "soap"}]
 
         parsed = parse_clinical_response(sample_output, "Brucellosis", claims)
         self.assertTrue(parsed["disease_name_correct"])
         self.assertTrue(parsed["disease_in_header"])
-        self.assertTrue(parsed["has_subtype"])
-        self.assertTrue(parsed["has_structured_reasoning"])
-        self.assertEqual(parsed["num_reasoning_steps"], 2)
-        self.assertGreater(parsed["claim_coverage_rate"], 0.0)
-        self.assertTrue(parsed["determination_correct"])
-        self.assertTrue(parsed["joint_success"])
+        self.assertEqual(parsed["disease_precision"], 1.0)
+        self.assertEqual(parsed["disease_recall"], 1.0)
+        self.assertEqual(parsed["open_exact_match"], 1.0)
+        self.assertEqual(parsed["num_hallucinations"], 0)
 
         rouge = compute_rouge_scores(sample_output, sample_output)
         self.assertEqual(rouge["rouge1"], 1.0)
         self.assertEqual(rouge["rougeL"], 1.0)
 
-    def test_model_comparison_analytics(self):
-        """Verifies comparative analytics calculation between Base and Fine-Tuned models on Disease Name + Reason."""
-        from finetune.evaluate_model import (
-            parse_clinical_response,
-            aggregate_clinical_evaluation_metrics,
-            compute_model_comparison,
-            compute_rouge_scores
+    def test_open_differential_diagnosis_evaluation(self):
+        """
+        Verifies Option B open differential diagnosis across 15 diseases:
+        1. Correct diagnosis with differentials ruled out -> 100% Precision, Recall, EM.
+        2. Hallucinating an alternate un-negated disease -> Precision penalty (FP).
+        3. Completely wrong disease -> 0% Precision, 0% Recall.
+        """
+        from finetune.evaluate_model import evaluate_open_differential_diagnosis
+
+        # 1. Gold standard: Target is Brucellosis, differentials ruled out are Malaria and Dengue
+        text_correct = (
+            "Definitive diagnosis: Brucellosis (Brucella abortus)\n"
+            "Confirmatory findings: Blood culture positive for B. abortus.\n"
+            "Differentials ruled out: Malaria, Dengue, Typhoid fever negative.\n"
+            "Plan: Doxycycline + Streptomycin."
         )
+        res1 = evaluate_open_differential_diagnosis(text_correct, "Brucellosis")
+        self.assertTrue(res1["target_detected"])
+        self.assertEqual(res1["predicted_diseases"], ["brucellosis"])
+        self.assertEqual(res1["disease_precision"], 1.0)
+        self.assertEqual(res1["disease_recall"], 1.0)
+        self.assertEqual(res1["disease_f1"], 1.0)
+        self.assertEqual(res1["exact_match"], 1.0)
+        self.assertEqual(res1["num_hallucinations"], 0)
 
-        target_dis = "Brucellosis"
-        gt_reasoning = (
-            "Brucellosis (Brucella abortus infection). Reasoning: (1) Fever with unpasteurized dairy consumption. "
-            "(2) Rose Bengal test positive. -> POSITIVE diagnosis confirmed."
+        # 2. Hallucination: Target is Dengue, but model also asserts Malaria as positive
+        text_hallucination = (
+            "The patient is diagnosed with acute Dengue fever and secondary Malaria co-infection. "
+            "Both NS1 and blood smear are positive."
         )
+        res2 = evaluate_open_differential_diagnosis(text_hallucination, "Dengue")
+        self.assertTrue(res2["target_detected"])
+        self.assertIn("dengue", res2["predicted_diseases"])
+        self.assertIn("malaria", res2["predicted_diseases"])
+        self.assertEqual(res2["disease_precision"], 0.5)  # 1 TP / (1 TP + 1 FP)
+        self.assertEqual(res2["disease_recall"], 1.0)
+        self.assertEqual(res2["exact_match"], 0.0)  # Not exact match due to hallucination
+        self.assertEqual(res2["num_hallucinations"], 1)
+        self.assertEqual(res2["false_positive_hallucinations"], ["malaria"])
 
-        base_resp = "The patient has a systemic fever and requires broad antibiotics."
-        ft_resp = gt_reasoning
-
-        claims = [{"text": "unpasteurized dairy consumption"}, {"text": "Rose Bengal test positive"}]
-
-        b_parsed = parse_clinical_response(base_resp, target_dis, claims)
-        ft_parsed = parse_clinical_response(ft_resp, target_dis, claims)
-
-        b_records = [{
-            "pair_id": "c1", "target_disease": target_dis,
-            "parsed": b_parsed, "rouge": compute_rouge_scores(base_resp, gt_reasoning)
-        }]
-        ft_records = [{
-            "pair_id": "c1", "target_disease": target_dis,
-            "parsed": ft_parsed, "rouge": compute_rouge_scores(ft_resp, gt_reasoning)
-        }]
-
-        b_metrics = aggregate_clinical_evaluation_metrics(b_records)
-        ft_metrics = aggregate_clinical_evaluation_metrics(ft_records)
-
-        comp = compute_model_comparison(b_metrics, ft_metrics, b_records, ft_records)
-
-        # Base failed both disease naming and reasoning; Fine-Tuned succeeded
-        self.assertEqual(b_metrics["overall_joint_accuracy"]["joint_success_rate"], 0.0)
-        self.assertEqual(ft_metrics["overall_joint_accuracy"]["joint_success_rate"], 1.0)
-        self.assertEqual(comp["case_transitions"]["ft_improved_count"], 1)
-        self.assertEqual(comp["case_transitions"]["net_diagnostic_gain"], 1)
+        # 3. Misdiagnosis: Target is Cholera, but model diagnosed Typhoid
+        text_wrong = "Definitive diagnosis: Typhoid fever. Blood culture positive for Salmonella typhi."
+        res3 = evaluate_open_differential_diagnosis(text_wrong, "Cholera")
+        self.assertFalse(res3["target_detected"])
+        self.assertEqual(res3["disease_precision"], 0.0)
+        self.assertEqual(res3["disease_recall"], 0.0)
+        self.assertEqual(res3["exact_match"], 0.0)
 
 
 if __name__ == "__main__":

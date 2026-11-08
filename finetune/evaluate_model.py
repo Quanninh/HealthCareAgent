@@ -12,13 +12,24 @@ Evaluates and compares the Base Model vs Fine-Tuned Model across:
 import os
 import sys
 import json
+import glob
 import re
 import math
 import string
 import argparse
 import random
-from typing import Dict, List, Any, Tuple, Optional
+from typing import Dict, List, Any, Tuple, Optional, Union
 from collections import defaultdict
+
+# Ensure repository root is on sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from finetune.dataset_loader import (
+    DEFAULT_SOAP_DIR,
+    DEFAULT_SYSTEM_PROMPT,
+    load_soap_record,
+    format_positive_diseases_prompt
+)
 
 
 # ================= 1. Lexical & Word Overlap: ROUGE & BLEU =================
@@ -230,7 +241,7 @@ def compute_bert_score(preds: List[str], refs: List[str]) -> Dict[str, float]:
 # ----------------- Comprehensive Medical Disease Aliases -----------------
 DISEASE_ALIASES: Dict[str, List[str]] = {
     "brucellosis": [
-        "brucellosis", "brucella", "malta fever", "undulant fever",
+        "brucellosis", "brucella", "malta fever",
         "mediterranean fever", "b. melitensis", "b. abortus", "brucellar"
     ],
     "chikungunya": [
@@ -244,10 +255,10 @@ DISEASE_ALIASES: Dict[str, List[str]] = {
         "coronavirus disease 2019", "coronavirus"
     ],
     "dengue": [
-        "dengue", "dengue fever", "denv", "breakbone fever", "dengue hemorrhagic"
+        "dengue", "dengue fever", "denv", "dengue hemorrhagic"
     ],
     "ebola_filovirus": [
-        "ebola", "ebolavirus", "filovirus", "ebov", "marburg", "hemorrhagic fever"
+        "ebola", "ebolavirus", "filovirus", "ebov", "marburg"
     ],
     "hiv_aids": [
         "hiv", "aids", "human immunodeficiency virus", "hiv-1", "hiv-2"
@@ -265,14 +276,14 @@ DISEASE_ALIASES: Dict[str, List[str]] = {
         "rabies", "lyssavirus", "hydrophobia"
     ],
     "tuberculosis": [
-        "tuberculosis", "tb", "mycobacterium tuberculosis", "mtb", "consumption"
+        "tuberculosis", "tb", "mycobacterium tuberculosis", "mtb"
     ],
     "typhoid_fever": [
         "typhoid", "typhoid fever", "enteric fever", "salmonella typhi",
         "s. typhi", "salmonella enterica serovar typhi"
     ],
     "yellow_fever": [
-        "yellow fever", "yfv", "flavivirus"
+        "yellow fever", "yfv"
     ],
     "zika": [
         "zika", "zikv", "zika virus"
@@ -316,6 +327,156 @@ def check_disease_match(text: str, target_disease: str) -> bool:
     return False
 
 
+def is_target_disease_negated(text: str, target_disease: str) -> bool:
+    """
+    Evaluates whether the candidate target disease itself is negated or ruled out.
+    Avoids false positives caused by ruling out alternate differential diagnoses
+    (e.g., 'Differentials ruled out: Malaria negative' should NOT negate Brucellosis).
+    """
+    norm_key = normalize_disease_name(target_disease)
+    aliases = DISEASE_ALIASES.get(norm_key, [target_disease.lower()])
+    text_lower = text.lower()
+
+    for alias in aliases:
+        alias_clean = alias.replace("_", " ")
+        neg_patterns = [
+            rf'\bnegative\s+for\s+{re.escape(alias_clean)}\b',
+            rf'\bnot\s+have\s+{re.escape(alias_clean)}\b',
+            rf'\bruled\s+out\s+{re.escape(alias_clean)}\b',
+            rf'\b{re.escape(alias_clean)}\s+(is\s+|was\s+)?ruled\s+out\b',
+            rf'\b{re.escape(alias_clean)}\s+is\s+excluded\b',
+            rf'\bunlikely\s+to\s+be\s+{re.escape(alias_clean)}\b',
+            rf'\bexcludes?\s+{re.escape(alias_clean)}\b',
+            rf'\btests?\s+negative\s+for\s+{re.escape(alias_clean)}\b',
+            rf'\bno\s+evidence\s+of\s+{re.escape(alias_clean)}\b'
+        ]
+        if any(re.search(pat, text_lower) for pat in neg_patterns):
+            return True
+
+    # Check overall diagnosis negation
+    overall_neg = [
+        r'\bpatient\s+is\s+negative\b',
+        r'\bdiagnosis\s*:\s*negative\b',
+        r'\bnegative\s+for\s+infection\b',
+        r'\bnegative\s+case\b'
+    ]
+    if any(re.search(pat, text_lower) for pat in overall_neg):
+        return True
+
+    return False
+
+
+def extract_predicted_positive_diseases(text: str) -> List[str]:
+    """
+    Scans the model response across all 15 catalog diseases and extracts
+    the set of diseases for which the patient is positively diagnosed.
+    Distinguishes primary/positive diagnoses from diseases ruled out or listed under differentials.
+    """
+    if not text:
+        return []
+
+    text_lower = text.lower()
+
+    # Identify Differential / Ruled-Out Sections
+    diff_patterns = [
+        r'(?:differentials?(?:\s+ruled\s+out)?|differential\s+diagnos(?:is|es)|alternative\s+diagnos(?:is|es))\s*:\s*(.*?)(?=(?:\n|\.|\;)\s*(?:plan|treatment|management|outcome|assessment|definitive)|$)',
+        r'\bruled\s+out\s*:\s*(.*?)(?=(?:\n|\.|\;)\s*(?:plan|treatment|management|outcome|assessment|definitive)|$)'
+    ]
+    diff_text = ""
+    for pat in diff_patterns:
+        m = re.search(pat, text, flags=re.IGNORECASE | re.DOTALL)
+        if m:
+            diff_text += " " + m.group(1).lower()
+
+    # Main text has the differential section removed so ruled-out diseases aren't counted as positive
+    main_text = text_lower
+    for pat in diff_patterns:
+        main_text = re.sub(pat, " ", main_text, flags=re.IGNORECASE | re.DOTALL)
+
+    predicted = []
+    for dis_key, aliases in DISEASE_ALIASES.items():
+        matched_in_main = False
+        for alias in aliases:
+            clean_a = alias.replace("_", " ")
+            pat = r'(?:\b|_)' + re.escape(clean_a) + r'(?:\b|_)'
+            if re.search(pat, main_text):
+                matched_in_main = True
+                break
+
+        if matched_in_main:
+            if not is_target_disease_negated(main_text, dis_key):
+                predicted.append(dis_key)
+
+    return sorted(list(set(predicted)))
+
+
+def evaluate_open_differential_diagnosis(
+    response_text: str,
+    target_disease: str
+) -> Dict[str, Any]:
+    """
+    Evaluates open-ended clinical differential diagnosis against all 15 diseases in catalog.
+    No candidate disease hint was provided in the input prompt.
+    Computes:
+      - predicted_diseases: list of normalized disease keys predicted positive
+      - target_detected: bool, whether target disease is in predicted_diseases
+      - precision: TP / (TP + FP) across all 15 diseases
+      - recall: TP / (TP + FN) across all 15 diseases
+      - f1: harmonic mean of precision and recall
+      - exact_match: bool, true if predicted_diseases == {gt_clean}
+      - false_positives: list of spurious hallucinated diseases
+      - num_hallucinations: count of false positives
+    """
+    gt_clean = normalize_disease_name(target_disease)
+    predicted = extract_predicted_positive_diseases(response_text)
+    pred_set = set(predicted)
+    gt_set = {gt_clean}
+
+    tp_set = pred_set & gt_set
+    fp_set = pred_set - gt_set
+    fn_set = gt_set - pred_set
+
+    tp = len(tp_set)
+    fp = len(fp_set)
+    fn = len(fn_set)
+
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+    f1 = (2.0 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
+    exact_match = 1.0 if (pred_set == gt_set) else 0.0
+
+    return {
+        "predicted_diseases": predicted,
+        "ground_truth_disease": gt_clean,
+        "target_detected": (gt_clean in pred_set),
+        "disease_precision": round(precision, 4),
+        "disease_recall": round(recall, 4),
+        "disease_f1": round(f1, 4),
+        "exact_match": exact_match,
+        "false_positive_hallucinations": sorted(list(fp_set)),
+        "num_hallucinations": fp
+    }
+
+
+def extract_claims_from_presentation(clinical_presentation: str) -> List[Dict[str, str]]:
+    """
+    Extracts atomic clinical findings / claims from the formatted SOAP presentation
+    for calculating factual evidence grounding and claim coverage.
+    """
+    claims = []
+    if not clinical_presentation:
+        return claims
+    for line in clinical_presentation.split("\n"):
+        line = line.strip()
+        if line.startswith("- "):
+            content = line[2:].strip()
+            if ":" in content:
+                content = content.split(":", 1)[1].strip()
+            if content:
+                claims.append({"text": content, "source": "soap"})
+    return claims
+
+
 # ----------------- Clinical Response Parser -----------------
 def parse_clinical_response(
     response_text: str,
@@ -330,16 +491,20 @@ def parse_clinical_response(
         - Semantic clinical determination (patient is positive vs negative/equivocal)
         - Clinical claim/finding coverage
       Track 2 (Strict Protocol Format):
-        - Diagnosis header preceding 'Reasoning:'
+        - Diagnosis header preceding 'Reasoning:' or 'Definitive diagnosis:'
         - Etiology / pathogen subtyping
-        - Numbered step format (1)... (2)...
-        - Exact terminal determination token (-> POSITIVE diagnosis confirmed.)
+        - Structured step format (numbered steps or standard EHR sections)
+        - Exact terminal determination token or definitive clinical diagnostic closure
     """
     text = response_text.strip()
     upper_text = text.upper()
     text_lower = text.lower()
 
     # 1. Header & Reasoning Body Extraction
+    # Handles both legacy 'Reasoning:' and standard SOAP clinical section headers
+    clinical_sec_pattern = r'(?:\n|^)\s*(?:definitive\s+)?(?:diagnosis|confirmation|diagnostic\s+confirmation|differentials?(?:\s+ruled\s+out)?|treatment(?:\s*&\s*outcome)?|plan(?:\s*&\s*outcome)?|reasoning)\s*:\s*'
+    clinical_sections = re.findall(clinical_sec_pattern, text, flags=re.IGNORECASE)
+
     parts = re.split(r'\bReasoning\s*:\s*', text, flags=re.IGNORECASE)
     if len(parts) > 1:
         header_text = parts[0].strip()
@@ -349,39 +514,58 @@ def parse_clinical_response(
         header_text = lines[0] if lines else ""
         reasoning_text = "\n".join(lines[1:]) if len(lines) > 1 else text
 
-    # 2. Disease Identification
+    # 2. Disease Identification & Open-Ended Differential Diagnosis (Option B)
+    open_diag = evaluate_open_differential_diagnosis(text, target_disease)
+    disease_name_correct = open_diag["target_detected"]
     disease_in_header = check_disease_match(header_text, target_disease)
-    disease_in_full = check_disease_match(text, target_disease)
-    disease_name_correct = disease_in_header or disease_in_full
+    disease_precision = open_diag["disease_precision"]
+    disease_recall = open_diag["disease_recall"]
+    disease_f1 = open_diag["disease_f1"]
+    open_exact_match = open_diag["exact_match"]
+    predicted_diseases = open_diag["predicted_diseases"]
+    num_hallucinations = open_diag["num_hallucinations"]
+    false_positives = open_diag["false_positive_hallucinations"]
 
     # Subtype / Etiology detection
     has_subtype = bool(re.search(r'\([^)]+\)', header_text)) or bool(
         re.search(
             r'\b(infection|virus|species|abortus|melitensis|falciparum|vivax|'
             r'interrogans|tuberculosis|leptospira|sars-cov-2|chikv|denv|'
-            r'lyssavirus|salmonella)\b',
+            r'lyssavirus|salmonella|enterica|typhi|leishmania|donovani)\b',
             header_text,
             re.IGNORECASE
         )
     )
 
     # 3. Clinical Reasoning Structure Evaluation
-    # Strict Protocol Steps: (1), (2), (3)... or numbered prefix 1. / 1)
     numbered_step_markers = re.findall(r'\(\d+\)', reasoning_text)
     if not numbered_step_markers:
         numbered_step_markers = re.findall(r'^\s*\d+[\.\)]', reasoning_text, flags=re.MULTILINE)
     num_strict_steps = len(numbered_step_markers)
-    has_structured_reasoning = (num_strict_steps >= 2) or ("REASONING:" in upper_text and len(reasoning_text) > 80)
+    num_clinical_sections = len(clinical_sections)
 
-    # Fair Evidence-Grounded Reasoning:
-    # Recognizes numbered steps, bullet points (-, *, •), ordinal words (First, Second),
-    # or substantive clinical rationale (>35 words) that discusses findings
+    has_structured_reasoning = (
+        (num_strict_steps >= 2) or
+        (num_clinical_sections >= 2) or
+        ("REASONING:" in upper_text and len(reasoning_text) > 80)
+    )
+
     bullet_markers = re.findall(r'^\s*[-*•]\s+', reasoning_text, flags=re.MULTILINE)
     ordinal_markers = re.findall(r'\b(first|second|third|furthermore|additionally|moreover|finally)\b', text_lower)
-    word_count = len(reasoning_text.split())
+    word_count = len(text.split())
 
-    has_multi_step = (num_strict_steps >= 2) or (len(bullet_markers) >= 2) or (len(ordinal_markers) >= 2)
-    has_substantive_rationale = (word_count >= 30) and ("diagnostic" in text_lower or "clinical" in text_lower or "infection" in text_lower or "fever" in text_lower or "finding" in text_lower or "culture" in text_lower or "titer" in text_lower)
+    has_multi_step = (
+        (num_strict_steps >= 2) or
+        (num_clinical_sections >= 2) or
+        (len(bullet_markers) >= 2) or
+        (len(ordinal_markers) >= 2)
+    )
+    clinical_keywords = [
+        "diagnostic", "clinical", "infection", "fever", "finding", "culture", "titer",
+        "diagnosis", "test", "treatment", "therapy", "confirmation", "confirmed",
+        "regimen", "differentials", "pathogen", "serology", "antibody", "pcr"
+    ]
+    has_substantive_rationale = (word_count >= 25) and any(kw in text_lower for kw in clinical_keywords)
     evidence_grounded_reasoning = has_multi_step or has_substantive_rationale
 
     # 4. Clinical Evidence & Claim Coverage
@@ -390,7 +574,6 @@ def parse_clinical_response(
     if claims:
         r_lower = text_lower
         for c in claims:
-            # Extract salient medical tokens (>= 4 letters, skipping common stop words)
             words = [
                 w for w in re.findall(r'\b[a-zA-Z]{4,}\b', c.get("text", "").lower())
                 if w not in {
@@ -403,16 +586,17 @@ def parse_clinical_response(
         claim_coverage_rate = round(covered_claims_count / max(1, len(claims)), 4)
 
     # 5. Diagnostic Determination Evaluation
-    # A. Strict Protocol Determination Token
+    # A. Strict Protocol Determination:
+    # Supports both legacy token '-> POSITIVE' and gold-standard clinical closing 'Definitive diagnosis: <Disease>'
     strict_determination = (
         "POSITIVE DIAGNOSIS CONFIRMED" in upper_text or
         "-> POSITIVE" in upper_text or
-        ("POSITIVE" in upper_text and "CONFIRMED" in upper_text and "->" in upper_text)
+        ("POSITIVE" in upper_text and "CONFIRMED" in upper_text and "->" in upper_text) or
+        (("DEFINITIVE DIAGNOSIS:" in upper_text or "CONFIRMED DIAGNOSIS:" in upper_text) and disease_name_correct)
     )
 
     # B. Fair Semantic Clinical Determination:
-    # Checks whether the model affirms a positive diagnosis for the candidate disease,
-    # and ensures it is not negated or ruled out.
+    is_negated = is_target_disease_negated(text, target_disease)
     positive_phrases = [
         r'\bpatient\s+(is|tested|tests)\s+positive\b',
         r'\bpositive\s+for\b',
@@ -427,44 +611,36 @@ def parse_clinical_response(
         r'\bpositive\s+culture\b',
         r'\btests?\s+confirm\b'
     ]
-    has_semantic_positive = strict_determination or any(re.search(pat, text_lower) for pat in positive_phrases)
-    if not has_semantic_positive and ("positive" in text_lower and ("confirm" in text_lower or "diagnosis" in text_lower)):
-        has_semantic_positive = True
-
-    # Negation / Inconclusive checks
-    negative_phrases = [
-        r'\bpatient\s+is\s+negative\b',
-        r'\bruled\s+out\b',
-        r'\bdiagnosis\s+is\s+excluded\b',
-        r'\bnegative\s+for\b',
-        r'\btests\s+negative\b',
-        r'\bdiagnosis\s*:\s*negative\b',
-        r'\bunlikely\s+to\s+have\b',
-        r'\bnot\s+positive\b',
-        r'\bdoes\s+not\s+have\b'
-    ]
-    is_negated = any(re.search(pat, text_lower) for pat in negative_phrases)
+    has_semantic_positive = (
+        strict_determination or
+        ("diagnosis:" in text_lower and disease_name_correct) or
+        ("confirmed" in text_lower and disease_name_correct) or
+        any(re.search(pat, text_lower) for pat in positive_phrases) or
+        ("positive" in text_lower and ("confirm" in text_lower or "diagnosis" in text_lower))
+    )
     positive_determination_semantic = has_semantic_positive and not is_negated
 
     # 6. Joint Success Metrics
-    # Strict Protocol Success: Exact teacher format compliance
     strict_protocol_success = disease_name_correct and has_structured_reasoning and strict_determination
-
-    # Fair Clinical Success: Medically sound diagnosis + evidence reasoning + positive confirmation
     fair_clinical_success = disease_name_correct and evidence_grounded_reasoning and positive_determination_semantic
 
     return {
         "header_diagnosis": header_text[:120],
-        # Backward-compatible keys expected by pipeline unit tests:
         "disease_name_correct": disease_name_correct,
         "disease_in_header": disease_in_header,
+        "disease_precision": disease_precision,
+        "disease_recall": disease_recall,
+        "disease_f1": disease_f1,
+        "open_exact_match": open_exact_match,
+        "predicted_diseases": predicted_diseases,
+        "num_hallucinations": num_hallucinations,
+        "false_positive_hallucinations": false_positives,
         "has_subtype": has_subtype,
         "has_structured_reasoning": has_structured_reasoning,
-        "num_reasoning_steps": num_strict_steps,
+        "num_reasoning_steps": max(num_strict_steps, num_clinical_sections),
         "claim_coverage_rate": claim_coverage_rate,
         "determination_correct": strict_determination,
         "joint_success": strict_protocol_success,
-        # Fair Clinical Semantic Evaluation keys:
         "evidence_grounded_reasoning": evidence_grounded_reasoning,
         "positive_determination_semantic": positive_determination_semantic,
         "strict_protocol_success": strict_protocol_success,
@@ -482,10 +658,16 @@ def aggregate_clinical_evaluation_metrics(records: List[Dict[str, Any]]) -> Dict
     if total == 0:
         return {}
 
-    # Disease identification
+    # Open Differential Diagnosis (Option B) across 15 diseases
     disease_correct_cnt = sum(1 for r in records if r["parsed"]["disease_name_correct"])
     disease_header_cnt = sum(1 for r in records if r["parsed"]["disease_in_header"])
     subtype_cnt = sum(1 for r in records if r["parsed"]["has_subtype"])
+
+    mean_prec = sum(r["parsed"]["disease_precision"] for r in records) / total
+    mean_rec = sum(r["parsed"]["disease_recall"] for r in records) / total
+    mean_f1 = sum(r["parsed"]["disease_f1"] for r in records) / total
+    em_cnt = sum(1 for r in records if r["parsed"]["open_exact_match"] > 0)
+    avg_hallucinations = sum(r["parsed"]["num_hallucinations"] for r in records) / total
 
     # Reasoning
     strict_reasoning_cnt = sum(1 for r in records if r["parsed"]["has_structured_reasoning"])
@@ -517,12 +699,20 @@ def aggregate_clinical_evaluation_metrics(records: List[Dict[str, Any]]) -> Dict
         dis_name_corr = sum(1 for it in items if it["parsed"]["disease_name_correct"])
         dis_fair_succ = sum(1 for it in items if it["parsed"]["fair_clinical_success"])
         dis_strict_succ = sum(1 for it in items if it["parsed"]["strict_protocol_success"])
+        dis_prec = sum(it["parsed"]["disease_precision"] for it in items) / n
+        dis_rec = sum(it["parsed"]["disease_recall"] for it in items) / n
+        dis_f1 = sum(it["parsed"]["disease_f1"] for it in items) / n
+        dis_em = sum(1 for it in items if it["parsed"]["open_exact_match"] > 0) / n
         dis_claim_cov = sum(it["parsed"]["claim_coverage_rate"] for it in items) / n
         dis_r1 = sum(it["rouge"]["rouge1"] for it in items) / n
         dis_rL = sum(it["rouge"]["rougeL"] for it in items) / n
         per_disease[dis] = {
             "total_samples": n,
             "disease_name_accuracy": round(dis_name_corr / n, 4),
+            "open_diagnosis_precision": round(dis_prec, 4),
+            "open_diagnosis_recall": round(dis_rec, 4),
+            "open_diagnosis_f1": round(dis_f1, 4),
+            "exact_match_rate": round(dis_em, 4),
             "fair_clinical_success_rate": round(dis_fair_succ / n, 4),
             "strict_protocol_success_rate": round(dis_strict_succ / n, 4),
             "claim_coverage_rate": round(dis_claim_cov, 4),
@@ -533,16 +723,21 @@ def aggregate_clinical_evaluation_metrics(records: List[Dict[str, Any]]) -> Dict
 
     return {
         "total_evaluated": total,
-        # Fair Clinical Semantic Evaluation (Fair to Base Model)
+        # Track 1: Open Differential Diagnosis Evaluation (No Candidate Hints, Multi-Disease)
         "clinical_semantic_evaluation": {
             "disease_name_accuracy": round(disease_correct_cnt / total, 4),
+            "open_diagnosis_recall": round(mean_rec, 4),
+            "open_diagnosis_precision": round(mean_prec, 4),
+            "open_diagnosis_f1": round(mean_f1, 4),
+            "open_diagnosis_exact_match_rate": round(em_cnt / total, 4),
+            "avg_hallucinations_per_case": round(avg_hallucinations, 2),
             "positive_determination_accuracy": round(semantic_det_cnt / total, 4),
             "evidence_grounded_reasoning_rate": round(fair_reasoning_cnt / total, 4),
             "avg_clinical_claim_coverage": round(avg_claim_cov, 4),
             "fair_clinical_success_rate": round(fair_clinical_cnt / total, 4),
             "fair_clinical_success_count": fair_clinical_cnt
         },
-        # Standardized Protocol Adherence (Fine-Tuning Compliance)
+        # Track 2: Standardized Protocol Adherence (Fine-Tuning Compliance)
         "protocol_adherence": {
             "disease_in_header_rate": round(disease_header_cnt / total, 4),
             "subtype_identification_rate": round(subtype_cnt / total, 4),
@@ -552,7 +747,7 @@ def aggregate_clinical_evaluation_metrics(records: List[Dict[str, Any]]) -> Dict
             "strict_protocol_success_rate": round(strict_success_cnt / total, 4),
             "strict_protocol_success_count": strict_success_cnt
         },
-        # Lexical & Phrasing Overlap
+        # Track 3: Lexical & Phrasing Overlap
         "lexical_overlap": {
             "mean_rouge1": round(sum(r1_list) / total, 4),
             "mean_rouge2": round(sum(r2_list) / total, 4),
@@ -609,11 +804,23 @@ def compute_model_comparison(
             "relative_change_pct": round(rel_change, 2)
         }
 
-    # Track 1: Fair Clinical Diagnostic Metrics
+    # Track 1: Open Differential Diagnosis Evaluation (No Candidate Hints, Multi-Disease)
     clinical_metrics = {
-        "Disease Name Accuracy (Semantic)": get_delta_entry(
-            base_metrics["clinical_semantic_evaluation"]["disease_name_accuracy"],
-            ft_metrics["clinical_semantic_evaluation"]["disease_name_accuracy"]
+        "Target Disease Recall (Sensitivity)": get_delta_entry(
+            base_metrics["clinical_semantic_evaluation"]["open_diagnosis_recall"],
+            ft_metrics["clinical_semantic_evaluation"]["open_diagnosis_recall"]
+        ),
+        "Open Diagnosis Precision (Hallucination Control)": get_delta_entry(
+            base_metrics["clinical_semantic_evaluation"]["open_diagnosis_precision"],
+            ft_metrics["clinical_semantic_evaluation"]["open_diagnosis_precision"]
+        ),
+        "Open Diagnosis F1-Score": get_delta_entry(
+            base_metrics["clinical_semantic_evaluation"]["open_diagnosis_f1"],
+            ft_metrics["clinical_semantic_evaluation"]["open_diagnosis_f1"]
+        ),
+        "Exact Match Diagnosis (Zero Spurious Diseases)": get_delta_entry(
+            base_metrics["clinical_semantic_evaluation"]["open_diagnosis_exact_match_rate"],
+            ft_metrics["clinical_semantic_evaluation"]["open_diagnosis_exact_match_rate"]
         ),
         "Positive Determination (Semantic)": get_delta_entry(
             base_metrics["clinical_semantic_evaluation"]["positive_determination_accuracy"],
@@ -675,7 +882,10 @@ def compute_model_comparison(
 
     # Backward-compatible comparison_metrics mapping:
     comparison_metrics = {
-        "Disease Name Accuracy": clinical_metrics["Disease Name Accuracy (Semantic)"],
+        "Disease Name Accuracy": clinical_metrics["Target Disease Recall (Sensitivity)"],
+        "Open Diagnosis Precision": clinical_metrics["Open Diagnosis Precision (Hallucination Control)"],
+        "Open Diagnosis F1": clinical_metrics["Open Diagnosis F1-Score"],
+        "Open Exact Match": clinical_metrics["Exact Match Diagnosis (Zero Spurious Diseases)"],
         "Disease In Header Rate": protocol_metrics["Diagnosis Header Placement"],
         "Subtype Identification Rate": protocol_metrics["Etiologic Subtype Detection"],
         "Structured Reasoning Rate": protocol_metrics["Strict Numbered Steps (1)...(2)..."],
@@ -729,8 +939,20 @@ def compute_model_comparison(
             "target_disease": ft_rec["target_disease"],
             "transition": prot_trans,  # Backward compatibility
             "clinical_transition": clin_trans,
+            "base_predicted_diseases": b_rec["parsed"]["predicted_diseases"],
+            "ft_predicted_diseases": ft_rec["parsed"]["predicted_diseases"],
             "base_disease_correct": b_rec["parsed"]["disease_name_correct"],
             "ft_disease_correct": ft_rec["parsed"]["disease_name_correct"],
+            "base_precision": b_rec["parsed"]["disease_precision"],
+            "ft_precision": ft_rec["parsed"]["disease_precision"],
+            "base_recall": b_rec["parsed"]["disease_recall"],
+            "ft_recall": ft_rec["parsed"]["disease_recall"],
+            "base_f1": b_rec["parsed"]["disease_f1"],
+            "ft_f1": ft_rec["parsed"]["disease_f1"],
+            "base_exact_match": b_rec["parsed"]["open_exact_match"],
+            "ft_exact_match": ft_rec["parsed"]["open_exact_match"],
+            "base_hallucinations": b_rec["parsed"]["false_positive_hallucinations"],
+            "ft_hallucinations": ft_rec["parsed"]["false_positive_hallucinations"],
             "base_clinical_success": b_clin,
             "ft_clinical_success": ft_clin,
             "base_protocol_success": b_prot,
@@ -764,6 +986,14 @@ def compute_model_comparison(
             "samples": n_samples,
             "base_disease_accuracy": b_d.get("disease_name_accuracy", 0.0),
             "ft_disease_accuracy": ft_d.get("disease_name_accuracy", 0.0),
+            "base_precision": b_d.get("open_diagnosis_precision", 0.0),
+            "ft_precision": ft_d.get("open_diagnosis_precision", 0.0),
+            "base_recall": b_d.get("open_diagnosis_recall", 0.0),
+            "ft_recall": ft_d.get("open_diagnosis_recall", 0.0),
+            "base_f1": b_d.get("open_diagnosis_f1", 0.0),
+            "ft_f1": ft_d.get("open_diagnosis_f1", 0.0),
+            "base_em": b_d.get("exact_match_rate", 0.0),
+            "ft_em": ft_d.get("exact_match_rate", 0.0),
             "base_fair_clinical": b_d.get("fair_clinical_success_rate", 0.0),
             "ft_fair_clinical": ft_d.get("fair_clinical_success_rate", 0.0),
             "base_joint_success": b_d.get("strict_protocol_success_rate", b_d.get("joint_success_rate", 0.0)),
@@ -803,49 +1033,49 @@ def compute_model_comparison(
 
 # ----------------- Formatted Report Presentation -----------------
 def print_comparison_report(comparison: Dict[str, Any]):
-    print("\n" + "=" * 88)
+    print("\n" + "=" * 96)
     print(" CLINICAL PERFORMANCE EVALUATION REPORT: BASE MODEL vs FINE-TUNED (QLoRA)")
-    print(" Dual-Track Evaluation: Fair Clinical Semantics vs Standardized EHR Protocol")
-    print("=" * 88)
+    print(" Option B: Open-Ended Multi-Disease Differential Diagnosis vs Standardized EHR Protocol")
+    print("=" * 96)
 
-    # 1. Fair Clinical Semantic Diagnostics
-    print("\n[TRACK 1] FAIR CLINICAL SEMANTIC EVALUATION (Diagnostic Accuracy & Evidence)")
-    print(f"{'Evaluation Dimension':<42} | {'Base Model':<11} | {'Fine-Tuned':<11} | {'Delta':<10} | {'Rel. Gain'}")
-    print("-" * 88)
+    # 1. Open Differential Diagnosis (Option B)
+    print("\n[TRACK 1] OPEN DIFFERENTIAL DIAGNOSIS (Zero Candidate Hint, Evaluated across 15 Diseases)")
+    print(f"{'Evaluation Dimension':<48} | {'Base Model':<11} | {'Fine-Tuned':<11} | {'Delta':<10} | {'Rel. Gain'}")
+    print("-" * 96)
     for dim, v in comparison["clinical_metrics"].items():
         sign = "+" if v["delta"] >= 0 else ""
         delta_str = f"{sign}{v['delta'] * 100:.2f}%"
         rel_str = f"{sign}{v['relative_change_pct']:.2f}%"
-        print(f"{dim:<42} | {v['base'] * 100:>9.2f}% | {v['fine_tuned'] * 100:>9.2f}% | {delta_str:>10} | {rel_str:>9}")
+        print(f"{dim:<48} | {v['base'] * 100:>9.2f}% | {v['fine_tuned'] * 100:>9.2f}% | {delta_str:>10} | {rel_str:>9}")
 
     # 2. Standardized Protocol Adherence
-    print("\n" + "-" * 88)
+    print("\n" + "-" * 96)
     print("[TRACK 2] STANDARDIZED PROTOCOL ADHERENCE (EHR Format & Distillation Fidelity)")
-    print(f"{'Protocol Dimension':<42} | {'Base Model':<11} | {'Fine-Tuned':<11} | {'Delta':<10} | {'Rel. Gain'}")
-    print("-" * 88)
+    print(f"{'Protocol Dimension':<48} | {'Base Model':<11} | {'Fine-Tuned':<11} | {'Delta':<10} | {'Rel. Gain'}")
+    print("-" * 96)
     for dim, v in comparison["protocol_metrics"].items():
         sign = "+" if v["delta"] >= 0 else ""
         delta_str = f"{sign}{v['delta'] * 100:.2f}%"
         rel_str = f"{sign}{v['relative_change_pct']:.2f}%"
-        print(f"{dim:<42} | {v['base'] * 100:>9.2f}% | {v['fine_tuned'] * 100:>9.2f}% | {delta_str:>10} | {rel_str:>9}")
+        print(f"{dim:<48} | {v['base'] * 100:>9.2f}% | {v['fine_tuned'] * 100:>9.2f}% | {delta_str:>10} | {rel_str:>9}")
 
     # 3. Text Overlap on Clinical Reasoning
-    print("\n" + "-" * 88)
+    print("\n" + "-" * 96)
     print("[TRACK 3] LEXICAL ALIGNMENT TO DISTILLED CLINICAL REASONING (ROUGE)")
-    print(f"{'Metric':<42} | {'Base Model':<11} | {'Fine-Tuned':<11} | {'Delta':<10} | {'Rel. Gain'}")
-    print("-" * 88)
+    print(f"{'Metric':<48} | {'Base Model':<11} | {'Fine-Tuned':<11} | {'Delta':<10} | {'Rel. Gain'}")
+    print("-" * 96)
     for r_k, r_v in comparison["reasoning_text_deltas"].items():
         sign = "+" if r_v["delta"] >= 0 else ""
         delta_str = f"{sign}{r_v['delta']:.4f}"
         rel_str = f"{sign}{r_v['relative_change_pct']:.2f}%"
-        print(f"{r_k:<42} | {r_v['base']:>11.4f} | {r_v['fine_tuned']:>11.4f} | {delta_str:>10} | {rel_str:>9}")
+        print(f"{r_k:<48} | {r_v['base']:>11.4f} | {r_v['fine_tuned']:>11.4f} | {delta_str:>10} | {rel_str:>9}")
 
     # 4. Case-Level Transitions
     trans = comparison["case_transitions"]
     tot = max(1, comparison["total_evaluated"])
-    print("\n" + "-" * 88)
+    print("\n" + "-" * 96)
     print(" CASE-LEVEL CLINICAL ADJUDICATION TRANSITIONS")
-    print("-" * 88)
+    print("-" * 96)
     print("  [A] Clinical Semantic Transitions (Diagnostic Correctness):")
     print(f"      - Fine-Tuned Corrected Base (Wins)    : {trans['clinical_improved_count']:>4} ({trans['clinical_improved_count'] / tot * 100:.1f}%)")
     print(f"      - Both Models Clinically Succeeded     : {trans['clinical_retained_count']:>4} ({trans['clinical_retained_count'] / tot * 100:.1f}%)")
@@ -859,32 +1089,46 @@ def print_comparison_report(comparison: Dict[str, Any]):
     print(f"      - Net Protocol Format Gain             : {trans['net_diagnostic_gain']:+d} cases ({trans['net_diagnostic_gain_pct']:+.2f}%)")
 
     # 5. Per-Disease Breakdown
-    print("\n" + "-" * 88)
-    print(f"{'Target Disease':<18} | {'Cases':<5} | {'Base Clin':<9} | {'FT Clin':<9} | {'Base Prot':<9} | {'FT Prot':<8} | {'ROUGE-L'}")
-    print("-" * 88)
+    print("\n" + "-" * 96)
+    print(f"{'Target Disease':<18} | {'Cases':<5} | {'Base Prec':<9} | {'FT Prec':<9} | {'Base Rec':<8} | {'FT Rec':<8} | {'Base EM':<8} | {'FT EM':<8} | {'FT ROUGE-L'}")
+    print("-" * 96)
     for dis, s in comparison["per_disease_comparison"].items():
         print(
             f"{dis[:18]:<18} | {s['samples']:>5} | "
-            f"{s['base_fair_clinical'] * 100:>8.1f}% | {s['ft_fair_clinical'] * 100:>8.1f}% | "
-            f"{s['base_joint_success'] * 100:>8.1f}% | {s['ft_joint_success'] * 100:>7.1f}% | "
-            f"{s['ft_rougeL']:>7.4f}"
+            f"{s['base_precision'] * 100:>8.1f}% | {s['ft_precision'] * 100:>8.1f}% | "
+            f"{s['base_recall'] * 100:>7.1f}% | {s['ft_recall'] * 100:>7.1f}% | "
+            f"{s['base_em'] * 100:>7.1f}% | {s['ft_em'] * 100:>7.1f}% | "
+            f"{s['ft_rougeL']:>10.4f}"
         )
-    print("=" * 88 + "\n")
+    print("=" * 96 + "\n")
 
 
 # ----------------- Prompt Builder -----------------
 def format_prompt(
-    candidate_disease: str,
-    claims: List[Dict[str, Any]],
-    question_text: str = "Which diseases is the patient positive?"
+    candidate_disease: Optional[str] = None,
+    claims: Optional[Union[List[Dict[str, Any]], str]] = None,
+    question_text: str = "Which diseases is the patient positive?",
+    clinical_presentation: Optional[str] = None,
+    include_candidate_hint: bool = False
 ) -> str:
-    bullet_findings = "\n".join("- " + c["text"] for c in claims)
-    return (
-        f"Instruction: Based on the clinical findings below, answer the question: {question_text}\n"
-        f"State the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\n"
-        f"Candidate Target Disease: {candidate_disease}\n\n"
-        f"Clinical Findings:\n{bullet_findings}\n\n"
-        f"Question: {question_text}"
+    """
+    Builds the evaluation prompt. In Option B, include_candidate_hint=False
+    so no candidate disease name is revealed in the prompt.
+    """
+    if clinical_presentation:
+        findings_text = clinical_presentation
+    elif isinstance(claims, str):
+        findings_text = claims
+    elif isinstance(claims, list) and len(claims) > 0:
+        findings_text = "\n".join("- " + c["text"] for c in claims if isinstance(c, dict) and "text" in c)
+    else:
+        findings_text = ""
+
+    return format_positive_diseases_prompt(
+        clinical_findings=findings_text,
+        question_text=question_text,
+        target_disease=candidate_disease,
+        include_candidate_hint=include_candidate_hint
     )
 
 
@@ -911,7 +1155,12 @@ def evaluate_model_on_cases(
         gt_reasoning = item.get("ground_truth_reasoning", "")
         claims = item.get("claims", [])
 
-        prompt_str = format_prompt(target_disease, claims)
+        prompt_str = format_prompt(
+            candidate_disease=target_disease,
+            claims=claims,
+            clinical_presentation=item.get("clinical_presentation"),
+            include_candidate_hint=False
+        )
         messages = [
             {
                 "role": "system",
@@ -994,10 +1243,16 @@ def main():
         help="Base model Hugging Face ID or local path"
     )
     parser.add_argument(
+        "--dataset_path",
+        type=str,
+        default=DEFAULT_SOAP_DIR,
+        help="Path to structured clinical SOAP dataset directory or JSONL dataset"
+    )
+    parser.add_argument(
         "--gt_file",
         type=str,
-        default="gt_reasoning/output_gt_reasoning/ground_truth_reasoning_all.jsonl",
-        help="Path to ground truth dataset"
+        default=None,
+        help="[Alias for --dataset_path for backwards compatibility]"
     )
     parser.add_argument(
         "--output_dir",
@@ -1060,10 +1315,12 @@ def main():
 
     os.makedirs(args.output_dir, exist_ok=True)
 
+    data_path = args.gt_file if args.gt_file is not None else args.dataset_path
+
     print("=" * 80)
     print(" Clinical LLM Dual-Track Evaluation Suite (Fair Semantic vs Strict Protocol)")
     print(f" Evaluation Mode: {args.eval_mode.upper()}")
-    print(f" Dataset:         {args.gt_file}")
+    print(f" Dataset:         {data_path}")
     print(f" Base Model:      {args.base_model}")
     if args.eval_mode in ["compare", "finetuned"]:
         print(f" LoRA Adapter:    {args.adapter_path}")
@@ -1073,15 +1330,47 @@ def main():
     print("=" * 80)
 
     # 1. Load and Split Dataset
-    if not os.path.exists(args.gt_file):
-        print(f"[ERROR] Ground truth file not found: {args.gt_file}")
+    if not os.path.exists(data_path):
+        print(f"[ERROR] Dataset path not found: {data_path}")
         sys.exit(1)
 
     all_cases = []
-    with open(args.gt_file, "r", encoding="utf-8") as f:
-        for line in f:
-            if line.strip():
-                all_cases.append(json.loads(line))
+    if os.path.isdir(data_path):
+        json_pattern = os.path.join(data_path, "**", "*.json")
+        all_json_files = sorted(glob.glob(json_pattern, recursive=True))
+        for fpath in all_json_files:
+            if os.path.basename(fpath).startswith("manifest"):
+                continue
+            try:
+                with open(fpath, "r", encoding="utf-8") as fp:
+                    rec = json.load(fp)
+                parsed = load_soap_record(rec)
+                if parsed:
+                    claims = extract_claims_from_presentation(parsed["clinical_presentation"])
+                    all_cases.append({
+                        "pair_id": parsed["pair_id"],
+                        "target_disease": parsed["target_disease"],
+                        "clinical_presentation": parsed["clinical_presentation"],
+                        "ground_truth_reasoning": parsed["target_output"],
+                        "claims": claims
+                    })
+            except Exception:
+                pass
+    elif data_path.endswith(".jsonl"):
+        with open(data_path, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.strip():
+                    rec = json.loads(line)
+                    parsed = load_soap_record(rec)
+                    if parsed:
+                        claims = rec.get("claims") or extract_claims_from_presentation(parsed["clinical_presentation"])
+                        all_cases.append({
+                            "pair_id": parsed["pair_id"],
+                            "target_disease": parsed["target_disease"],
+                            "clinical_presentation": parsed["clinical_presentation"],
+                            "ground_truth_reasoning": parsed["target_output"],
+                            "claims": claims
+                        })
 
     random.seed(args.split_seed)
     shuffled_indices = list(range(len(all_cases)))
@@ -1107,7 +1396,12 @@ def main():
             gt_reasoning = item.get("ground_truth_reasoning", "")
             target_disease = item.get("target_disease", "")
             claims = item.get("claims", [])
-            prompt_str = format_prompt(target_disease, claims)
+            prompt_str = format_prompt(
+                candidate_disease=target_disease,
+                claims=claims,
+                clinical_presentation=item.get("clinical_presentation"),
+                include_candidate_hint=False
+            )
 
             # Fine-tuned simulation: conforms to expert ground-truth protocol
             ft_text = gt_reasoning
@@ -1124,27 +1418,27 @@ def main():
                 "rouge": ft_rouge
             })
 
-            # Base model simulation: reflects genuine zero-shot diversity
-            # Case A (Clinically accurate & evidence-grounded, but natural/bulleted format rather than strict token)
-            # Case B (Clinically accurate diagnosis, but conversational disclaimer)
-            # Case C (Equivocal / inconclusive deferral)
+            # Base model simulation: reflects genuine zero-shot diversity in open differential diagnosis
+            # Case A: Correctly deduces target disease with ruled out differentials
+            # Case B: Hallucinates multiple alternate diseases (e.g. Malaria & Typhoid)
+            # Case C: Inconclusive / rules out target disease
             if idx % 3 == 0:
                 base_text = (
-                    f"Diagnosis: The patient is positive for {target_disease}.\n\n"
-                    f"Clinical Findings Analysis:\n"
-                    f"- The presentation and laboratory markers are consistent with active infection.\n"
-                    f"- Clinical test titers meet the confirmed diagnostic threshold.\n\n"
-                    f"Determination: Based on these findings, positive diagnosis of {target_disease} is confirmed."
+                    f"Definitive diagnosis: {target_disease}\n"
+                    f"Confirmatory findings: Clinical presentation and investigations confirm {target_disease}.\n"
+                    f"Differentials ruled out: Malaria, Dengue, Typhoid fever negative.\n"
+                    f"Plan & Treatment: Symptomatic management and standard antimicrobial regimen."
                 )
             elif idx % 3 == 1:
                 base_text = (
-                    f"Based on the reported symptoms and laboratory findings, the patient may have {target_disease}. "
+                    f"Based on the reported symptoms and laboratory findings, the patient may have an acute infection. "
+                    f"Primary differential diagnoses include Malaria and Typhoid fever; both should be investigated. "
                     f"Please consult an infectious disease specialist for further treatment."
                 )
             else:
                 base_text = (
-                    f"The findings suggest an acute systemic infection, potentially related to environmental or dairy exposure. "
-                    f"Diagnostic tests should be repeated to establish a definitive diagnosis."
+                    f"The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposure. "
+                    f"Non-specific viral infection is most likely. Supportive care and monitoring are indicated."
                 )
 
             base_parsed = parse_clinical_response(base_text, target_disease, claims)

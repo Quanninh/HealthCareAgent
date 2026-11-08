@@ -2,16 +2,27 @@
 inference_qlora.py
 
 Inference script for the fine-tuned Clinical LLM (Base Model + QLoRA Adapter).
-Evaluates patient cases with the offline-distilled reasoning learned via Supervised Fine-Tuning (QLoRA),
+Evaluates patient cases with the structured SOAP clinical presentation,
 specifically answering: "Which diseases is the patient positive?"
 """
 
 import os
 import sys
 import json
+import glob
 import argparse
+from typing import Optional, Dict, Any
 
-from finetune.dataset_loader import format_positive_diseases_prompt
+# Ensure repository root is on sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from finetune.dataset_loader import (
+    format_positive_diseases_prompt,
+    format_soap_presentation,
+    load_soap_record,
+    DEFAULT_SOAP_DIR,
+    DEFAULT_SYSTEM_PROMPT
+)
 
 try:
     import torch
@@ -23,25 +34,28 @@ except ImportError as e:
     _IMPORT_ERROR_MSG = str(e)
 
 
-def build_chat_prompt(tokenizer, candidate_disease: str, findings: str, question_text: str = "Which diseases is the patient positive?") -> str:
+def build_chat_prompt(
+    tokenizer,
+    findings: str,
+    candidate_disease: Optional[str] = None,
+    question_text: str = "Which diseases is the patient positive?",
+    system_prompt: str = DEFAULT_SYSTEM_PROMPT,
+    include_candidate_hint: bool = False
+) -> str:
     """
     Builds the model prompt formatted according to the model's native chat template.
+    In Option B (Open Differential Diagnosis), include_candidate_hint=False so no candidate disease
+    is revealed in the input prompt.
     """
     user_prompt = format_positive_diseases_prompt(
+        clinical_findings=findings,
+        question_text=question_text,
         target_disease=candidate_disease,
-        bullet_findings=findings,
-        question_text=question_text
+        include_candidate_hint=include_candidate_hint
     )
 
     messages = [
-        {
-            "role": "system",
-            "content": (
-                "You are an expert infectious disease clinician and diagnostic adjudicator. "
-                "Evaluate patient clinical findings using structured step-by-step reasoning "
-                "to determine which diseases the patient is positive for."
-            )
-        },
+        {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
 
@@ -51,17 +65,24 @@ def build_chat_prompt(tokenizer, candidate_disease: str, findings: str, question
 def run_inference(
     model,
     tokenizer,
-    candidate_disease: str,
     findings: str,
+    candidate_disease: Optional[str] = None,
     question_text: str = "Which diseases is the patient positive?",
     max_new_tokens: int = 512,
     temperature: float = 0.2,
-    top_p: float = 0.9
+    top_p: float = 0.9,
+    include_candidate_hint: bool = False
 ) -> str:
     """
     Runs generation for a clinical case presentation.
     """
-    prompt_text = build_chat_prompt(tokenizer, candidate_disease, findings, question_text)
+    prompt_text = build_chat_prompt(
+        tokenizer=tokenizer,
+        findings=findings,
+        candidate_disease=candidate_disease,
+        question_text=question_text,
+        include_candidate_hint=include_candidate_hint
+    )
     inputs = tokenizer(prompt_text, return_tensors="pt").to(model.device)
 
     with torch.no_grad():
@@ -122,19 +143,25 @@ def main():
         "--findings",
         type=str,
         default=None,
-        help="Bullet list or description of clinical findings"
+        help="Custom clinical presentation (SOAP format or findings description)"
+    )
+    parser.add_argument(
+        "--case_file",
+        type=str,
+        default=None,
+        help="Path to a single JSON case file (e.g. sandbox_soap/workspace/core_positive_1500/Brucellosis/PMC10164848_01__Brucellosis.json)"
     )
     parser.add_argument(
         "--sample_index",
         type=int,
         default=None,
-        help="Load a specific case from ground_truth_reasoning_all.jsonl"
+        help="Load sample by index from dataset"
     )
     parser.add_argument(
-        "--gt_file",
+        "--dataset_path",
         type=str,
-        default="gt_reasoning/output_gt_reasoning/ground_truth_reasoning_all.jsonl",
-        help="Path to ground truth dataset"
+        default=DEFAULT_SOAP_DIR,
+        help="Path to SOAP workspace directory or JSONL dataset"
     )
     parser.add_argument(
         "--max_new_tokens",
@@ -156,48 +183,78 @@ def main():
 
     args = parser.parse_args()
 
-    # Resolve clinical case findings
     candidate_disease = args.disease
     findings = args.findings
     expected_gt = None
 
-    if args.sample_index is not None and os.path.exists(args.gt_file):
-        print(f"Loading sample #{args.sample_index} from {args.gt_file}...")
-        with open(args.gt_file, "r", encoding="utf-8") as f:
-            for idx, line in enumerate(f):
-                if idx == args.sample_index:
-                    rec = json.loads(line)
-                    candidate_disease = rec.get("target_disease", candidate_disease)
-                    claims = rec.get("claims", [])
-                    findings = "\n".join("- " + c["text"] for c in claims)
-                    expected_gt = rec.get("ground_truth_reasoning", "")
-                    break
+    # Load from specific case file if provided
+    if args.case_file and os.path.exists(args.case_file):
+        print(f"Loading clinical case from: {args.case_file}")
+        with open(args.case_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        parsed = load_soap_record(data)
+        if parsed:
+            candidate_disease = parsed["target_disease"]
+            findings = parsed["clinical_presentation"]
+            expected_gt = parsed["target_output"]
 
+    # Load from sample index in dataset
+    elif args.sample_index is not None and os.path.exists(args.dataset_path):
+        if os.path.isdir(args.dataset_path):
+            case_files = sorted(glob.glob(os.path.join(args.dataset_path, "**", "*.json"), recursive=True))
+            case_files = [f for f in case_files if not os.path.basename(f).startswith("manifest")]
+            if args.sample_index < len(case_files):
+                target_f = case_files[args.sample_index]
+                print(f"Loading sample #{args.sample_index} from: {target_f}")
+                with open(target_f, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                parsed = load_soap_record(data)
+                if parsed:
+                    candidate_disease = parsed["target_disease"]
+                    findings = parsed["clinical_presentation"]
+                    expected_gt = parsed["target_output"]
+        elif args.dataset_path.endswith(".jsonl"):
+            with open(args.dataset_path, "r", encoding="utf-8") as f:
+                for idx, line in enumerate(f):
+                    if idx == args.sample_index:
+                        rec = json.loads(line)
+                        parsed = load_soap_record(rec)
+                        if parsed:
+                            candidate_disease = parsed["target_disease"]
+                            findings = parsed["clinical_presentation"]
+                            expected_gt = parsed["target_output"]
+                        break
+
+    # Default representative clinical test case if none provided
     if findings is None:
-        # Default representative clinical test case
         candidate_disease = "Brucellosis"
         findings = (
-            "- Neurological presentation with headache and fever is accompanied by identification "
-            "of Brucella abortus in cerebrospinal fluid via metagenomic next-generation sequencing (mNGS).\n"
-            "- Systemic brucellosis is serologically confirmed by a positive serum Rose Bengal plate "
-            "agglutination test and a positive standard tube agglutination test (SAT) meeting the diagnostic threshold (>= 1:160)."
+            "[SUBJECTIVE]\n"
+            "- Chief Complaint: A 42-year-old male farmer presenting with 3-week undulant fever and joint pain.\n"
+            "- History of Present Illness: Patient developed evening fevers, profuse night sweats, and severe bilateral hip and knee arthralgias.\n"
+            "- Past Medical History & Exposures: Consumed unpasteurized goat milk and assisted in livestock calving one month prior.\n"
+            "- Review of Systems: Anorexia, 4 kg weight loss, backache.\n\n"
+            "[OBJECTIVE]\n"
+            "- Physical Examination: Temperature 38.8 C, pulse 94 bpm, BP 120/75 mmHg. Palpable splenomegaly; tenderness over lumbar spine.\n"
+            "- Routine Investigations: WBC 4.2 x 10^9/L, Hemoglobin 10.4 g/dL, Platelets 135 x 10^9/L, ESR 48 mm/h, CRP 62 mg/L. AST 78 U/L, ALT 85 U/L."
         )
 
     if args.dry_run:
         prompt_text = format_positive_diseases_prompt(
+            clinical_findings=findings,
+            question_text=args.question_text,
             target_disease=candidate_disease,
-            bullet_findings=findings,
-            question_text=args.question_text
+            include_candidate_hint=False
         )
         print("=" * 70)
-        print(" INFERENCE DRY-RUN PROMPT PREVIEW")
+        print(" INFERENCE DRY-RUN PROMPT PREVIEW (OPTION B: ZERO CANDIDATE HINT)")
         print("=" * 70)
-        print(f"Candidate Disease: {candidate_disease}")
-        print(f"Question:          {args.question_text}\n")
-        print(f"--- Formatted Prompt ---\n{prompt_text}")
+        print(f"Ground Truth Label: {candidate_disease}")
+        print(f"Question:           {args.question_text}\n")
+        print(f"--- Formatted Input Prompt to Model ---\n{prompt_text}")
         if expected_gt:
-            print(f"\n--- Ground Truth Reasoning (Offline-Distilled) ---\n{expected_gt}")
-        print("\n[SUCCESS] Inference prompt validated.")
+            print(f"\n--- Ground Truth Assessment & Plan ---\n{expected_gt}")
+        print("\n[SUCCESS] Inference prompt validated without candidate hint.")
         return
 
     if not HF_PACKAGES_AVAILABLE:
@@ -235,7 +292,7 @@ def main():
     model.eval()
 
     print("\nEvaluating Patient Case Presentation...")
-    print(f"\n[CLINICAL FINDINGS]:\n{findings}")
+    print(f"\n[CLINICAL PRESENTATION]:\n{findings}")
 
     result = run_inference(
         model=model,
@@ -248,13 +305,13 @@ def main():
     )
 
     print("\n" + "=" * 70)
-    print(" MODEL RESPONSE (Step-by-Step Reasoning & Determination):")
+    print(" MODEL RESPONSE (Assessment & Plan):")
     print("=" * 70)
     print(result)
 
     if expected_gt:
         print("\n" + "=" * 70)
-        print(" GROUND TRUTH ADJUDICATION REFERENCE:")
+        print(" GROUND TRUTH ASSESSMENT REFERENCE:")
         print("=" * 70)
         print(expected_gt)
 

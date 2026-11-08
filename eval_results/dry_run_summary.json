@@ -1,395 +1,1006 @@
 {
   "comparison": {
-    "total_evaluated": 5,
+    "total_evaluated": 15,
     "clinical_metrics": {
-      "Disease Name Accuracy (Semantic)": {
-        "base": 0.8,
+      "Target Disease Recall (Sensitivity)": {
+        "base": 0.3333,
         "fine_tuned": 1.0,
-        "delta": 0.2,
-        "relative_change_pct": 25.0
+        "delta": 0.6667,
+        "relative_change_pct": 200.03
+      },
+      "Open Diagnosis Precision (Hallucination Control)": {
+        "base": 0.3333,
+        "fine_tuned": 0.9667,
+        "delta": 0.6334,
+        "relative_change_pct": 190.04
+      },
+      "Open Diagnosis F1-Score": {
+        "base": 0.3333,
+        "fine_tuned": 0.9778,
+        "delta": 0.6445,
+        "relative_change_pct": 193.37
+      },
+      "Exact Match Diagnosis (Zero Spurious Diseases)": {
+        "base": 0.3333,
+        "fine_tuned": 0.9333,
+        "delta": 0.6,
+        "relative_change_pct": 180.02
       },
       "Positive Determination (Semantic)": {
-        "base": 0.4,
+        "base": 0.3333,
         "fine_tuned": 1.0,
-        "delta": 0.6,
-        "relative_change_pct": 150.0
+        "delta": 0.6667,
+        "relative_change_pct": 200.03
       },
       "Evidence-Grounded Reasoning Rate": {
-        "base": 0.4,
+        "base": 1.0,
         "fine_tuned": 1.0,
-        "delta": 0.6,
-        "relative_change_pct": 150.0
+        "delta": 0.0,
+        "relative_change_pct": 0.0
       },
       "Clinical Claim / Evidence Coverage": {
-        "base": 0.25,
-        "fine_tuned": 1.0,
-        "delta": 0.75,
-        "relative_change_pct": 300.0
+        "base": 0.1651,
+        "fine_tuned": 0.4873,
+        "delta": 0.3222,
+        "relative_change_pct": 195.15
       },
       "Fair Clinical Diagnostic Success": {
-        "base": 0.4,
+        "base": 0.3333,
         "fine_tuned": 1.0,
-        "delta": 0.6,
-        "relative_change_pct": 150.0
+        "delta": 0.6667,
+        "relative_change_pct": 200.03
       }
     },
     "protocol_metrics": {
       "Diagnosis Header Placement": {
-        "base": 0.8,
+        "base": 0.3333,
         "fine_tuned": 1.0,
-        "delta": 0.2,
-        "relative_change_pct": 25.0
+        "delta": 0.6667,
+        "relative_change_pct": 200.03
       },
       "Etiologic Subtype Detection": {
-        "base": 0.2,
-        "fine_tuned": 1.0,
-        "delta": 0.8,
-        "relative_change_pct": 400.0
+        "base": 0.6667,
+        "fine_tuned": 0.9333,
+        "delta": 0.2666,
+        "relative_change_pct": 39.99
       },
       "Strict Numbered Steps (1)...(2)...": {
-        "base": 0.0,
-        "fine_tuned": 1.0,
-        "delta": 1.0,
-        "relative_change_pct": 0.0
+        "base": 0.3333,
+        "fine_tuned": 0.7333,
+        "delta": 0.4,
+        "relative_change_pct": 120.01
       },
       "Strict Determination Token (-> POSITIVE)": {
-        "base": 0.0,
-        "fine_tuned": 1.0,
-        "delta": 1.0,
-        "relative_change_pct": 0.0
+        "base": 0.3333,
+        "fine_tuned": 0.8,
+        "delta": 0.4667,
+        "relative_change_pct": 140.02
       },
       "Strict Protocol Success Rate": {
-        "base": 0.0,
-        "fine_tuned": 1.0,
-        "delta": 1.0,
-        "relative_change_pct": 0.0
+        "base": 0.3333,
+        "fine_tuned": 0.7333,
+        "delta": 0.4,
+        "relative_change_pct": 120.01
       }
     },
     "comparison_metrics": {
       "Disease Name Accuracy": {
-        "base": 0.8,
+        "base": 0.3333,
         "fine_tuned": 1.0,
-        "delta": 0.2,
-        "relative_change_pct": 25.0
+        "delta": 0.6667,
+        "relative_change_pct": 200.03
+      },
+      "Open Diagnosis Precision": {
+        "base": 0.3333,
+        "fine_tuned": 0.9667,
+        "delta": 0.6334,
+        "relative_change_pct": 190.04
+      },
+      "Open Diagnosis F1": {
+        "base": 0.3333,
+        "fine_tuned": 0.9778,
+        "delta": 0.6445,
+        "relative_change_pct": 193.37
+      },
+      "Open Exact Match": {
+        "base": 0.3333,
+        "fine_tuned": 0.9333,
+        "delta": 0.6,
+        "relative_change_pct": 180.02
       },
       "Disease In Header Rate": {
-        "base": 0.8,
+        "base": 0.3333,
         "fine_tuned": 1.0,
-        "delta": 0.2,
-        "relative_change_pct": 25.0
+        "delta": 0.6667,
+        "relative_change_pct": 200.03
       },
       "Subtype Identification Rate": {
-        "base": 0.2,
-        "fine_tuned": 1.0,
-        "delta": 0.8,
-        "relative_change_pct": 400.0
+        "base": 0.6667,
+        "fine_tuned": 0.9333,
+        "delta": 0.2666,
+        "relative_change_pct": 39.99
       },
       "Structured Reasoning Rate": {
-        "base": 0.0,
-        "fine_tuned": 1.0,
-        "delta": 1.0,
-        "relative_change_pct": 0.0
+        "base": 0.3333,
+        "fine_tuned": 0.7333,
+        "delta": 0.4,
+        "relative_change_pct": 120.01
       },
       "Avg Clinical Claim Coverage": {
-        "base": 0.25,
-        "fine_tuned": 1.0,
-        "delta": 0.75,
-        "relative_change_pct": 300.0
+        "base": 0.1651,
+        "fine_tuned": 0.4873,
+        "delta": 0.3222,
+        "relative_change_pct": 195.15
       },
       "Determination Accuracy": {
-        "base": 0.0,
-        "fine_tuned": 1.0,
-        "delta": 1.0,
-        "relative_change_pct": 0.0
+        "base": 0.3333,
+        "fine_tuned": 0.8,
+        "delta": 0.4667,
+        "relative_change_pct": 140.02
       },
       "Joint Diagnostic Success (Disease + Reason)": {
-        "base": 0.0,
-        "fine_tuned": 1.0,
-        "delta": 1.0,
-        "relative_change_pct": 0.0
+        "base": 0.3333,
+        "fine_tuned": 0.7333,
+        "delta": 0.4,
+        "relative_change_pct": 120.01
       }
     },
     "reasoning_text_deltas": {
       "ROUGE-1": {
-        "base": 0.124,
+        "base": 0.0713,
         "fine_tuned": 1.0,
-        "delta": 0.876,
-        "relative_change_pct": 706.45
+        "delta": 0.9287,
+        "relative_change_pct": 1302.52
       },
       "ROUGE-2": {
-        "base": 0.0077,
+        "base": 0.0115,
         "fine_tuned": 1.0,
-        "delta": 0.9923,
-        "relative_change_pct": 12887.01
+        "delta": 0.9885,
+        "relative_change_pct": 8595.65
       },
       "ROUGE-L": {
-        "base": 0.0748,
+        "base": 0.0555,
         "fine_tuned": 1.0,
-        "delta": 0.9252,
-        "relative_change_pct": 1236.9
+        "delta": 0.9445,
+        "relative_change_pct": 1701.8
       }
     },
     "case_transitions": {
-      "ft_improved_count": 5,
-      "both_correct_count": 0,
-      "ft_regressed_count": 0,
-      "both_incorrect_count": 0,
-      "net_diagnostic_gain": 5,
-      "net_diagnostic_gain_pct": 100.0,
-      "win_loss_ratio": 5.0,
-      "clinical_improved_count": 3,
-      "clinical_retained_count": 2,
+      "ft_improved_count": 7,
+      "both_correct_count": 4,
+      "ft_regressed_count": 1,
+      "both_incorrect_count": 3,
+      "net_diagnostic_gain": 6,
+      "net_diagnostic_gain_pct": 40.0,
+      "win_loss_ratio": 7.0,
+      "clinical_improved_count": 10,
+      "clinical_retained_count": 5,
       "clinical_regressed_count": 0,
       "clinical_both_incorrect_count": 0,
-      "net_clinical_gain": 3,
-      "net_clinical_gain_pct": 60.0
+      "net_clinical_gain": 10,
+      "net_clinical_gain_pct": 66.67
     },
     "per_disease_comparison": {
       "Brucellosis": {
-        "samples": 5,
-        "base_disease_accuracy": 0.8,
+        "samples": 15,
+        "base_disease_accuracy": 0.3333,
         "ft_disease_accuracy": 1.0,
-        "base_fair_clinical": 0.4,
+        "base_precision": 0.3333,
+        "ft_precision": 0.9667,
+        "base_recall": 0.3333,
+        "ft_recall": 1.0,
+        "base_f1": 0.3333,
+        "ft_f1": 0.9778,
+        "base_em": 0.3333,
+        "ft_em": 0.9333,
+        "base_fair_clinical": 0.3333,
         "ft_fair_clinical": 1.0,
-        "base_joint_success": 0.0,
-        "ft_joint_success": 1.0,
-        "clinical_delta": 0.6,
-        "protocol_delta": 1.0,
+        "base_joint_success": 0.3333,
+        "ft_joint_success": 0.7333,
+        "clinical_delta": 0.6667,
+        "protocol_delta": 0.4,
         "ft_rougeL": 1.0
       }
     },
     "merged_cases": [
       {
-        "pair_id": "PMC9233216_01::Brucellosis",
+        "pair_id": "PMC10921472_01::Brucellosis",
         "target_disease": "Brucellosis",
-        "transition": "FT_IMPROVED",
+        "transition": "BOTH_CORRECT",
         "clinical_transition": "CLINICAL_RETAINED",
+        "base_predicted_diseases": [
+          "brucellosis"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
         "base_disease_correct": true,
         "ft_disease_correct": true,
+        "base_precision": 1.0,
+        "ft_precision": 1.0,
+        "base_recall": 1.0,
+        "ft_recall": 1.0,
+        "base_f1": 1.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 1.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
         "base_clinical_success": true,
         "ft_clinical_success": true,
-        "base_protocol_success": false,
+        "base_protocol_success": true,
         "ft_protocol_success": true,
-        "base_claim_coverage": 0.3333,
-        "ft_claim_coverage": 1.0,
+        "base_claim_coverage": 0.2857,
+        "ft_claim_coverage": 0.7143,
         "base_rouge": {
-          "rouge1": 0.2087,
-          "rouge2": 0.0177,
-          "rougeL": 0.1391
+          "rouge1": 0.0855,
+          "rouge2": 0.0259,
+          "rougeL": 0.0769
         },
         "ft_rouge": {
           "rouge1": 1.0,
           "rouge2": 1.0,
           "rougeL": 1.0
         },
-        "base_diagnosis_header": "Diagnosis: The patient is positive for Brucellosis.",
-        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
-        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Fever, polyarticular joint pain, and secondary bone marrow suppression or aplastic anemia are recognized hematologic and musculoskeletal manifestations of brucellosis.\n- Detection of Brucella melitensis in bone marrow aspirate by 16S rRNA molecular testing provides definitive molecular confirmation of infection, even when conventional bone marrow cultures remain negative.\n- Positive Brucella agglutination titers meeting the diagnostic threshold (\u22651:160) provide highly specific supportive serological evidence.\n\nQuestion: Which diseases is the patient positive?",
-        "base_generated_text": "Diagnosis: The patient is positive for Brucellosis.\n\nClinical Findings Analysis:\n- The presentation and laboratory markers are consistent with active infection.\n- Clinical test titers meet the confirmed diagnostic threshold.\n\nDetermination: Based on these findings, positive diagnosis of Brucellosis is confirmed.",
-        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Fever, polyarticular joint pain, and secondary bone marrow suppression or aplastic anemia are recognized hematologic and musculoskeletal manifestations of brucellosis. (2) Detection of Brucella melitensis in bone marrow aspirate by 16S rRNA molecular testing provides definitive molecular confirmation of infection, even when conventional bone marrow cultures remain negative. (3) Positive Brucella agglutination titers meeting the diagnostic threshold (\u22651:160) provide highly specific supportive serological evidence. -> POSITIVE diagnosis confirmed.",
-        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Fever, polyarticular joint pain, and secondary bone marrow suppression or aplastic anemia are recognized hematologic and musculoskeletal manifestations of brucellosis. (2) Detection of Brucella melitensis in bone marrow aspirate by 16S rRNA molecular testing provides definitive molecular confirmation of infection, even when conventional bone marrow cultures remain negative. (3) Positive Brucella agglutination titers meeting the diagnostic threshold (\u22651:160) provide highly specific supportive serological evidence. -> POSITIVE diagnosis confirmed."
+        "base_diagnosis_header": "Definitive diagnosis: Brucellosis",
+        "ft_diagnosis_header": "Definitive diagnosis: Dual pulmonary and bloodstream coinfection with Brucellosis (Brucella melitensis bacteremia) and p",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 55-year-old male presented with intermittent fever for one month, peaking at 40.4 C, accompanied by chills and weakness.\n- History of Present Illness: A 55-year-old male presented with a 1-month history of intermittent fever peaking at 40.4 C, accompanied by chills, weakness, and a small amount of thick sputum. He denied sore throat, myalgia, or other focal complaints. Prior to admission, he had taken ibuprofen suspension with transient antipyresis.\n- Past Medical History & Exposures: History of prior cerebral infarction and right eye surgery, without residual sequelae. Epidemiological exposure: cleaned a cowshed 4 months prior and had rain exposure preceding illness onset. Denied history of COPD, other chronic lung conditions, immunosuppressive therapy, or long-term medications.\n- Review of Systems: Intermittent fever, chills, weakness, mild productive cough with thick sputum; denies sore throat, myalgia, arthralgia, or headache. Home medications: ibuprofen suspension. Allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Body temperature: 37.8 C (post-ibuprofen), heart rate: 110 bpm, respiratory rate: 20 breaths/min, blood pressure: 96/67 mmHg. No arthritis, lymphadenopathy, or hepatosplenomegaly. Neurological: normal muscle strength and tone in all extremities, negative pathological reflexes, no signs of meningeal irritation.\n- Routine Investigations: WBC: 3.52 x 109/L; RBC: 2.85 x 1012/L; Lymphocytes: 1.1 x 109/L; Platelets: 89 x 109/L. ESR: 69 mm/h; CRP: 159.82 mg/L (normal range: 0.00-5.00 mg/L). Serum potassium: 2.65 mmol/L; Albumin: 26.7 g/L; ALT: 84 U/L; AST: 84 U/L; Creatinine: normal. Autoimmune antibodies: negative. Immunoglobulin levels: normal. HIV antibody: negative. Serum galactomannan and (1,3)-beta-d-glucan: negative. T-SPOT.TB assay: negative. Sputum smear: negative for mycobacteria and fungi; demonstrated gram-positive filamentous bacilli resembling Nocardia or Actinomycetes. Echocardiogram: no evident anomalies.\n- Advanced Workup: Chest CT: occupying lesions in the right lower lobe (RLL), multiple nodules in both upper lobes, miliary nodules in both lungs, and bilateral pleural effusion. Sputum culture (day 4): growth of Nocardia otitidiscaviarum.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Definitive diagnosis: Brucellosis\nConfirmatory findings: Clinical presentation and investigations confirm Brucellosis.\nDifferentials ruled out: Malaria, Dengue, Typhoid fever negative.\nPlan & Treatment: Symptomatic management and standard antimicrobial regimen.",
+        "ft_generated_text": "Definitive diagnosis: Dual pulmonary and bloodstream coinfection with Brucellosis (Brucella melitensis bacteremia) and pulmonary nocardiosis (Nocardia otitidiscaviarum pneumonia).\nConfirmation: Blood culture positive on day 5 for Brucella, confirmed as Brucella melitensis by Rose Bengal plate agglutination test (RBT) and mass spectrometry (MALDI-TOF); sputum culture positive for Nocardia otitidiscaviarum.\nDifferentials ruled out: Pulmonary tuberculosis (negative T-SPOT.TB and sputum AFB smear), invasive fungal infection (negative galactomannan, beta-D-glucan, and fungal smears), HIV, autoimmune diseases (negative autoantibodies), infective endocarditis (normal echocardiogram).\nTreatment & Outcome: Initially treated empirically with levofloxacin, followed on day 3 by doxycycline hydrochloride and piperacillin/sulbactam. Upon confirmation of Nocardia on day 4, oral trimethoprim-sulfamethoxazole (TMP-SMZ) was initiated. Upon confirmation of Brucella melitensis on day 5, piperacillin/sulbactam was replaced with rifampicin. Due to lingering low-grade fever (~37.6 C) and unchanged chest CT on day 9, doxycycline was escalated to intravenous tigecycline, resulting in prompt defervescence and symptom relief. By day 18, follow-up CT demonstrated marked shrinkage of pulmonary nodules; blood cultures on days 21 and 25 were sterile. Tigecycline was stepped down to oral doxycycline plus TMP-SMZ. Discharged after 24 days to complete 1 month of oral doxycycline and rifampicin, and 5 months of TMP-SMZ. Follow-up chest CT at 5 months showed complete resolution of all pulmonary lesions.",
+        "ground_truth_reasoning": "Definitive diagnosis: Dual pulmonary and bloodstream coinfection with Brucellosis (Brucella melitensis bacteremia) and pulmonary nocardiosis (Nocardia otitidiscaviarum pneumonia).\nConfirmation: Blood culture positive on day 5 for Brucella, confirmed as Brucella melitensis by Rose Bengal plate agglutination test (RBT) and mass spectrometry (MALDI-TOF); sputum culture positive for Nocardia otitidiscaviarum.\nDifferentials ruled out: Pulmonary tuberculosis (negative T-SPOT.TB and sputum AFB smear), invasive fungal infection (negative galactomannan, beta-D-glucan, and fungal smears), HIV, autoimmune diseases (negative autoantibodies), infective endocarditis (normal echocardiogram).\nTreatment & Outcome: Initially treated empirically with levofloxacin, followed on day 3 by doxycycline hydrochloride and piperacillin/sulbactam. Upon confirmation of Nocardia on day 4, oral trimethoprim-sulfamethoxazole (TMP-SMZ) was initiated. Upon confirmation of Brucella melitensis on day 5, piperacillin/sulbactam was replaced with rifampicin. Due to lingering low-grade fever (~37.6 C) and unchanged chest CT on day 9, doxycycline was escalated to intravenous tigecycline, resulting in prompt defervescence and symptom relief. By day 18, follow-up CT demonstrated marked shrinkage of pulmonary nodules; blood cultures on days 21 and 25 were sterile. Tigecycline was stepped down to oral doxycycline plus TMP-SMZ. Discharged after 24 days to complete 1 month of oral doxycycline and rifampicin, and 5 months of TMP-SMZ. Follow-up chest CT at 5 months showed complete resolution of all pulmonary lesions."
       },
       {
-        "pair_id": "PMC6387729_01::Brucellosis",
+        "pair_id": "PMC10928401_01::Brucellosis",
         "target_disease": "Brucellosis",
         "transition": "FT_IMPROVED",
         "clinical_transition": "CLINICAL_IMPROVED",
-        "base_disease_correct": true,
+        "base_predicted_diseases": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
         "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_hallucinations": [],
         "base_clinical_success": false,
         "ft_clinical_success": true,
         "base_protocol_success": false,
         "ft_protocol_success": true,
-        "base_claim_coverage": 0.25,
-        "ft_claim_coverage": 1.0,
+        "base_claim_coverage": 0.2857,
+        "ft_claim_coverage": 0.2857,
         "base_rouge": {
-          "rouge1": 0.0877,
-          "rouge2": 0.0,
-          "rougeL": 0.0526
+          "rouge1": 0.0639,
+          "rouge2": 0.0092,
+          "rougeL": 0.0457
         },
         "ft_rouge": {
           "rouge1": 1.0,
           "rouge2": 1.0,
           "rougeL": 1.0
         },
-        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious d",
-        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
-        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Undulating fever, arthralgias, and hepatosplenomegaly in an individual with occupational livestock exposure are characteristic clinical and epidemiological features of brucellosis.\n- Isolation of Brucella melitensis from blood culture provides definitive microbiological confirmation of brucellosis.\n- A positive Serum Agglutination Test (SAT) at a significant titer consistent with the diagnostic threshold (\u22651:160) provides highly specific serological evidence supporting the diagnosis.\n- A doxycycline-based combination antibiotic regimen (e.g., doxycycline with an aminoglycoside such as streptomycin) is standard treatment and typically leads to clinical recovery.\n\nQuestion: Which diseases is the patient positive?",
-        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious disease specialist for further treatment.",
-        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Undulating fever, arthralgias, and hepatosplenomegaly in an individual with occupational livestock exposure are characteristic clinical and epidemiological features of brucellosis. (2) Isolation of Brucella melitensis from blood culture provides definitive microbiological confirmation of brucellosis. (3) A positive Serum Agglutination Test (SAT) at a significant titer consistent with the diagnostic threshold (\u22651:160) provides highly specific serological evidence supporting the diagnosis. (4) A doxycycline-based combination antibiotic regimen (e.g., doxycycline with an aminoglycoside such as streptomycin) is standard treatment and typically leads to clinical recovery. -> POSITIVE diagnosis confirmed.",
-        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Undulating fever, arthralgias, and hepatosplenomegaly in an individual with occupational livestock exposure are characteristic clinical and epidemiological features of brucellosis. (2) Isolation of Brucella melitensis from blood culture provides definitive microbiological confirmation of brucellosis. (3) A positive Serum Agglutination Test (SAT) at a significant titer consistent with the diagnostic threshold (\u22651:160) provides highly specific serological evidence supporting the diagnosis. (4) A doxycycline-based combination antibiotic regimen (e.g., doxycycline with an aminoglycoside such as streptomycin) is standard treatment and typically leads to clinical recovery. -> POSITIVE diagnosis confirmed."
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential di",
+        "ft_diagnosis_header": "Definitive diagnosis: Neurobrucellosis (meningoencephalitis with acute focal hemiparesis) and hepatitis caused by Brucel",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 55-year-old male presented with fever of 3 weeks duration, accompanied by drowsiness, lethargy, myalgia, and large-joint arthralgia for 5 days.\n- History of Present Illness: A 55-year-old male farmer presented with insidious, persistent low-grade fever for 3 weeks that responded temporarily to antipyretics, along with drowsiness, lethargy, myalgias, and large-joint arthralgias over the preceding 5 days. He received unspecified antibiotics from a local practitioner without improvement. He denied headache, projectile vomiting, visual changes, seizures, or loss of consciousness. On the fourth day of hospital admission, he developed acute onset of right-sided weakness, predominantly involving the right upper extremity, accompanied by disorientation.\n- Past Medical History & Exposures: Occupation as a farmer residing in close proximity to and handling livestock; history of consuming unpasteurized goat milk. Gradual weight loss of approximately 10-15 kg over the past 1 year. Denied history of contact with tuberculosis patients. Prior unrecorded antibiotic therapy from a local practitioner. Other chronic medical conditions and allergies not documented.\n- Review of Systems: Drowsiness, lethargy, myalgia, arthralgia (large joints), weight loss (10-15 kg over 1 year), acute right hemiparesis, disorientation; denies headache, projectile vomiting, visual changes, seizures, or abnormal movements. Home medications: unspecified antibiotics and antipyretics. Allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Body temperature: 38.7 C, hemodynamically stable, disoriented to time, place, and person. General: pallor, icterus, and neck rigidity present. Neurological: hypotonia in upper and lower limbs; muscle strength grade 2/5 in all limbs with right-sided hemiparesis (more pronounced in right upper limb than lower limb); sluggish deep tendon reflexes; sensory examination normal; no other focal neurological findings.\n- Routine Investigations: WBC differential: elevated neutrophil count 11882 cells mm-3 (84.8 %), reduced lymphocyte 1680 cells mm-3 (12 %) count; thrombocytopenia 78560 cells mm-3. CRP: 120.1 mg l-1; ESR: 27 mm per hour. LFTs: AST: 145.4 IU l-1, ALT: 83.6 IU l-1, ALP: 374 IU l-1, total bilirubin: 4.40 mg dl-1, direct bilirubin: 2.65 mg dl-1, indirect bilirubin: 1.75 mg dl-1; blood ammonia level: 84 microg dl-1. Renal function tests: within normal limits. Infectious workup: HIV 1 and 2 antibody, Japanese encephalitis IgM serology, scrub typhus IgM serology, non-structural one dengue antigen, typhoid WIDAL test, and pan plasmodium lactate dehydrogenase and histidine rich protein-2 malarial antigens all negative. Hepatitis A, B, C, E serology: non-reactive.\n- Advanced Workup: Lumbar puncture / CSF analysis: pleocytosis (12 cells mm-3) with lymphomononuclear (99 %) predominance, elevated protein (174 mg dl-1) and reduced glucose (22 mg dl-1) levels. CSF culture: negative for bacterial and fungal growth. CSF tuberculosis workup: negative for Acid Fast Bacilli (AFB) and Cartridge-Based Nucleic Acid Amplification Test (CBNAAT). Neuroimaging: radiological findings did not reveal any significant abnormality.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential diagnoses include Malaria and Typhoid fever; both should be investigated. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Definitive diagnosis: Neurobrucellosis (meningoencephalitis with acute focal hemiparesis) and hepatitis caused by Brucella melitensis.\nConfirmation: Three consecutive paired blood culture sets positive for Gram-negative coccobacilli, identified as Brucella spp. (99.9% confidence by VITEK MS) and Brucella melitensis (99% probability by VITEK 2.0 Compact), positive rapid urease test; Brucella serology by ELISA reactive for both anti-Brucella IgM (OD: 0.9055) and IgG (OD: >4.0) antibodies.\nDifferentials ruled out: Tuberculous meningitis (negative CSF AFB and CBNAAT), acute viral/bacterial/fungal encephalitis and endemic febrile illnesses (negative CSF cultures, negative HIV, Japanese encephalitis, scrub typhus, dengue, typhoid, malaria, and hepatitis A-E serologies).\nTreatment & Outcome: Initiated on triple drug therapy: intravenous Ceftriaxone (2 g once a day), oral Rifampicin (600 mg once a day), and oral Doxycycline (100 mg twice a day). Clinical status and right-sided limb weakness began improving on the next day. Discharged 3 days post-initiation of targeted therapy on triple oral regimen: Cotrimoxazole [80/400 mg] once a day for 4 weeks, Rifampicin 600 mg once a day for 3 months, and Doxycycline 100 mg once a day for 3 months, with progressive clinical and functional recovery.",
+        "ground_truth_reasoning": "Definitive diagnosis: Neurobrucellosis (meningoencephalitis with acute focal hemiparesis) and hepatitis caused by Brucella melitensis.\nConfirmation: Three consecutive paired blood culture sets positive for Gram-negative coccobacilli, identified as Brucella spp. (99.9% confidence by VITEK MS) and Brucella melitensis (99% probability by VITEK 2.0 Compact), positive rapid urease test; Brucella serology by ELISA reactive for both anti-Brucella IgM (OD: 0.9055) and IgG (OD: >4.0) antibodies.\nDifferentials ruled out: Tuberculous meningitis (negative CSF AFB and CBNAAT), acute viral/bacterial/fungal encephalitis and endemic febrile illnesses (negative CSF cultures, negative HIV, Japanese encephalitis, scrub typhus, dengue, typhoid, malaria, and hepatitis A-E serologies).\nTreatment & Outcome: Initiated on triple drug therapy: intravenous Ceftriaxone (2 g once a day), oral Rifampicin (600 mg once a day), and oral Doxycycline (100 mg twice a day). Clinical status and right-sided limb weakness began improving on the next day. Discharged 3 days post-initiation of targeted therapy on triple oral regimen: Cotrimoxazole [80/400 mg] once a day for 4 weeks, Rifampicin 600 mg once a day for 3 months, and Doxycycline 100 mg once a day for 3 months, with progressive clinical and functional recovery."
       },
       {
-        "pair_id": "PMC5239838_01::Brucellosis",
+        "pair_id": "PMC10963473_01::Brucellosis",
         "target_disease": "Brucellosis",
         "transition": "FT_IMPROVED",
         "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
         "base_disease_correct": false,
         "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.2857,
+        "ft_claim_coverage": 0.5714,
+        "base_rouge": {
+          "rouge1": 0.0435,
+          "rouge2": 0.0,
+          "rougeL": 0.0217
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposu",
+        "ft_diagnosis_header": "Definitive diagnosis: Neurobrucellosis (Brucella melitensis CNS infection / cerebral vasculitis) complicated by recurren",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 64-year-old female presented with sudden weakness in her left arm and leg lasting for 3 hours, preceded by mental abnormalities for 3 months.\n- History of Present Illness: A 64-year-old woman presented with acute left hemiparesis for 3 hours, preceded by a 3-month history of behavioral/mental changes. In the emergency department, she was diagnosed with acute ischemic stroke of undetermined etiology and received intravenous thrombolysis with rt-PA 40 mg (0.6 mg/kg), which improved her NIHSS score from 13 to 8. Ten hours after transfer to the stroke unit, she developed high fever and severe cognitive deterioration. Secondary stroke prevention with clopidogrel and atorvastatin was maintained, while empiric IV ceftriaxone (2 g, q12h) was initiated, escalated to IV meropenem (2 g q8h) on day 3 due to persistent fever. On day 20, she suffered a recurrent ischemic stroke. On day 44, neurological decline (GCS 11) prompted imaging that revealed a 66-mL intracerebral hemorrhage requiring emergency craniotomy.\n- Past Medical History & Exposures: History of surgical resection for breast cancer over 10 years earlier. Mental abnormalities present for 3 months prior to presentation. Epidemiological exposure to livestock or unpasteurized dairy not documented. Home medications and allergies not documented.\n- Review of Systems: Preceding 3-month history of mental/behavioral changes; acute left hemiparesis, drowsiness, aphasia, high fever, and incoherent speech. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Body weight: 67 kg. Neurological: drowsy, rightward gaze, aphasia, left facial palsy, and left-sided hemiplegia. Initial NIHSS score: 13 (improved to 8 post-thrombolysis). Subsequent course marked by high fever, severe mental function deterioration, and Glasgow Coma Scale (GCS) score declining to 11 on day 44.\n- Routine Investigations: Pharmacogenomics: CYP2C19 genotype *1/*1. Follow-up laboratory evaluation: normal liver and kidney functions; blood routine showed slightly higher proportion of lymphocytes and monocytes, along with slightly lower proportion of neutrophils and neutrophil count.\n- Advanced Workup: Head and neck CT angiography: no signs of cerebral hemorrhage or large vessel occlusion. Brain MRI (24 h post-thrombolysis): infarction in right temporal lobe and posterior horn of the ventricle. Brain MRI (day 20): new acute ischemic stroke. Brain CT (day 44): hemorrhagic stroke / intracerebral hematoma of approximately 66 mL. Lumbar puncture / CSF analysis: total protein 374 mg/dL, nucleated cell count 2.58 x 106/L, and decreased CSF/blood glucose ratio. Histopathology and immunohistochemistry of evacuated hematoma: CD4+ and CD8+ T lymphocytes surrounding cerebral blood vessels, consistent with cerebral vasculitis.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposure. Non-specific viral infection is most likely. Supportive care and monitoring are indicated.",
+        "ft_generated_text": "Definitive diagnosis: Neurobrucellosis (Brucella melitensis CNS infection / cerebral vasculitis) complicated by recurrent ischemic strokes and catastrophic intracerebral hemorrhage requiring surgical evacuation.\nConfirmation: Metagenomic next-generation sequencing (mNGS) of CSF and venous blood cultures confirming Brucella melitensis on day 7 post-admission.\nDifferentials ruled out: Large vessel atherothrombotic stroke (CTA negative for large vessel occlusion), cardiogenic embolism, routine pyogenic bacterial meningitis (fever refractory to ceftriaxone and meropenem).\nTreatment & Outcome: Received acute rt-PA thrombolysis, followed by clopidogrel and atorvastatin. Following mNGS confirmation of Brucella melitensis, targeted antimicrobial therapy was initiated with intravenous ceftriaxone (2 g, q12h), oral doxycycline (100 mg, bid), and oral rifampicin (0.6 g, qd). Following secondary hemorrhagic transformation (~66 mL hematoma) on day 44, she underwent emergency craniotomy and hematoma evacuation. Discharged on a 3-month oral regimen of atorvastatin, rifampicin, and doxycycline. At long-term follow-up through February 2023, she regained unassisted ambulation with a modified Rankin Scale (mRS) score of 2, with residual incoherent speech.",
+        "ground_truth_reasoning": "Definitive diagnosis: Neurobrucellosis (Brucella melitensis CNS infection / cerebral vasculitis) complicated by recurrent ischemic strokes and catastrophic intracerebral hemorrhage requiring surgical evacuation.\nConfirmation: Metagenomic next-generation sequencing (mNGS) of CSF and venous blood cultures confirming Brucella melitensis on day 7 post-admission.\nDifferentials ruled out: Large vessel atherothrombotic stroke (CTA negative for large vessel occlusion), cardiogenic embolism, routine pyogenic bacterial meningitis (fever refractory to ceftriaxone and meropenem).\nTreatment & Outcome: Received acute rt-PA thrombolysis, followed by clopidogrel and atorvastatin. Following mNGS confirmation of Brucella melitensis, targeted antimicrobial therapy was initiated with intravenous ceftriaxone (2 g, q12h), oral doxycycline (100 mg, bid), and oral rifampicin (0.6 g, qd). Following secondary hemorrhagic transformation (~66 mL hematoma) on day 44, she underwent emergency craniotomy and hematoma evacuation. Discharged on a 3-month oral regimen of atorvastatin, rifampicin, and doxycycline. At long-term follow-up through February 2023, she regained unassisted ambulation with a modified Rankin Scale (mRS) score of 2, with residual incoherent speech."
+      },
+      {
+        "pair_id": "PMC11150549_02::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_REGRESSED",
+        "clinical_transition": "CLINICAL_RETAINED",
+        "base_predicted_diseases": [
+          "brucellosis"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_precision": 1.0,
+        "ft_precision": 1.0,
+        "base_recall": 1.0,
+        "ft_recall": 1.0,
+        "base_f1": 1.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 1.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": true,
+        "ft_clinical_success": true,
+        "base_protocol_success": true,
+        "ft_protocol_success": false,
+        "base_claim_coverage": 0.1429,
+        "ft_claim_coverage": 0.4286,
+        "base_rouge": {
+          "rouge1": 0.0541,
+          "rouge2": 0.0137,
+          "rougeL": 0.0541
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Definitive diagnosis: Brucellosis",
+        "ft_diagnosis_header": "Confirmation: Positive Rose Bengal plate test (RBPT); intraoperative tissue Gram staining revealed numerous Brucella; re",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 59-year-old man presented with severe lower back pain and fever persisting for 6 months, along with reduced mobility and difficulty walking for the past 2 months.\n- History of Present Illness: The patient experienced fever peaking at 40.1 \u00b0C, accompanied by significant pain in the chest, waist, and back 6 months prior to presentation, followed by reduced mobility and progressive difficulty walking over the subsequent 2 months. He received 20 days of inpatient treatment at a local hospital with oral doxycycline, rifampicin, and intravenous levofloxacin, which normalized his body temperature; however, severe back pain persisted, prompting transfer for specialized care.\n- Past Medical History & Exposures: Past medical history is notable for living in a pastoral region in Hulunbuir City, Inner Mongolia, with close contact with sheep. Prior antibiotic therapy: 20-day course of oral doxycycline, oral rifampicin, and intravenous levofloxacin at an outside hospital.\n- Review of Systems: Reports poor sleep and an unintended weight loss of approximately 2.5 kg since the onset of the disease.\n\n[OBJECTIVE]\n- Physical Examination: Physical examination revealed thoracolumbar segment tenderness, pressure pain, and radiating pain in the right lower limb, with significantly limited lumbar motion.\n- Routine Investigations: Leukocyte count: 4.57 x 10^9/L (51.30% neutrophils), C-reactive protein (CRP): 14.9 mg/L, erythrocyte sedimentation rate (ESR): 20 mm/h.\n- Advanced Workup: Lumbar MRI revealed inflammatory changes and structural destruction in lumbar vertebrae L1 and L2. Intraoperative intervertebral foramen endoscopy revealed abscess tissue with nerve root compression and diseased intervertebral disk material. Histopathology (HE staining) showed extensive infiltration of inflammatory cells. Postoperative X-rays and three-dimensional CT scan of the lumbar spine demonstrated internal fixation across T1, L1, L2, and L3 with bone graft fusion.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Definitive diagnosis: Brucellosis\nConfirmatory findings: Clinical presentation and investigations confirm Brucellosis.\nDifferentials ruled out: Malaria, Dengue, Typhoid fever negative.\nPlan & Treatment: Symptomatic management and standard antimicrobial regimen.",
+        "ft_generated_text": "Confirmation: Positive Rose Bengal plate test (RBPT); intraoperative tissue Gram staining revealed numerous Brucella; real-time PCR tests identified DNA of both Brucella melitensis and Brucella bovis (Brucella abortus), confirming dual Brucella spondylitis infection. Differential diagnosis: Tuberculosis excluded via negative tuberculosis antibody test and negative sputum smear. Management and Outcome: Preoperatively treated with oral doxycycline, oral rifampicin, and intravenous ceftazidime-sulbactam until inflammatory markers stabilized. Underwent lumbar posterior debridement, decompression, internal fixation with eight pedicle screws across T1, L1, L2, and L3, and bone graft fusion with local rifampicin implantation. Postoperatively continued oral doxycycline, rifampicin, and IV ceftazidime-sulbactam for 6 weeks. At 4-week follow-up, imaging confirmed good positioning, back pain was substantially relieved, and he regained free movement of the lower limbs.",
+        "ground_truth_reasoning": "Confirmation: Positive Rose Bengal plate test (RBPT); intraoperative tissue Gram staining revealed numerous Brucella; real-time PCR tests identified DNA of both Brucella melitensis and Brucella bovis (Brucella abortus), confirming dual Brucella spondylitis infection. Differential diagnosis: Tuberculosis excluded via negative tuberculosis antibody test and negative sputum smear. Management and Outcome: Preoperatively treated with oral doxycycline, oral rifampicin, and intravenous ceftazidime-sulbactam until inflammatory markers stabilized. Underwent lumbar posterior debridement, decompression, internal fixation with eight pedicle screws across T1, L1, L2, and L3, and bone graft fusion with local rifampicin implantation. Postoperatively continued oral doxycycline, rifampicin, and IV ceftazidime-sulbactam for 6 weeks. At 4-week follow-up, imaging confirmed good positioning, back pain was substantially relieved, and he regained free movement of the lower limbs."
+      },
+      {
+        "pair_id": "PMC11695208_02::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "BOTH_INCORRECT",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": false,
+        "base_claim_coverage": 0.0,
+        "ft_claim_coverage": 0.0,
+        "base_rouge": {
+          "rouge1": 0.1019,
+          "rouge2": 0.0258,
+          "rougeL": 0.051
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential di",
+        "ft_diagnosis_header": "Confirmation: Real-time PCR for Brucella bacteria was positive (specific species typing unavailable locally), establishi",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Past Medical History & Exposures: Epidemiological exposure: History of consuming unpasteurized dairy products. No other prior medical history, chronic conditions, or prior medications documented.\n\n[OBJECTIVE]\n- Routine Investigations: Complete blood count: white blood cells (WBC) 26,900/muL (90.9% neutrophils); C-reactive protein (CRP): 71.3; erythrocyte sedimentation rate (ESR): 60 mm/h. Liver function tests, renal function tests, serum electrolytes, and urinalysis: all within normal limits.\n- Advanced Workup: Spinal MRI with gadolinium contrast demonstrated T2 hyperintense signal changes at the level of T10-T12 thoracic vertebrae suggestive of an inflammatory process without compressive lesion; EMG was not performed. Chest CT excluded pulmonary tuberculosis. Lumbar puncture / CSF analysis: turbid CSF, WBC count 30/muL (95% neutrophils), RBC 2,760/muL, glucose 63 mg/dL, protein 67 mg/dL, CSF IgG 5.22 mg/dL with normal CSF IgG index; cytology negative for malignant cells; CSF GeneXpert PCR for Mycobacterium tuberculosis was negative. Autoantibody testing: anti-aquaporin-4 (AQP-4)-IgG and anti-myelin oligodendrocyte glycoprotein (MOG) autoantibodies negative; protein electrophoresis showed positive oligoclonal bands.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential diagnoses include Malaria and Typhoid fever; both should be investigated. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Confirmation: Real-time PCR for Brucella bacteria was positive (specific species typing unavailable locally), establishing Brucella-induced transverse myelitis. Differential diagnoses ruled out: Compressive myelopathy excluded by spine MRI; tuberculosis excluded by chest CT and negative CSF GeneXpert PCR; neuromyelitis optica spectrum disorder (NMOSD) and MOGAD excluded by negative anti-AQP-4 and anti-MOG antibodies; malignancy ruled out by CSF cytology. Management and Outcome: Initially treated with short courses of IV antibiotics and methylprednisolone (Solu-Medrol) for 5 days without improvement. Plasmapheresis was considered and attempted at a transfer facility but was ineffective due to advanced disease stage. The patient was then treated with a 6-week course of oral doxycycline 100 mg twice daily and oral rifampicin 600 mg once daily, combined with intensive physical therapy.",
+        "ground_truth_reasoning": "Confirmation: Real-time PCR for Brucella bacteria was positive (specific species typing unavailable locally), establishing Brucella-induced transverse myelitis. Differential diagnoses ruled out: Compressive myelopathy excluded by spine MRI; tuberculosis excluded by chest CT and negative CSF GeneXpert PCR; neuromyelitis optica spectrum disorder (NMOSD) and MOGAD excluded by negative anti-AQP-4 and anti-MOG antibodies; malignancy ruled out by CSF cytology. Management and Outcome: Initially treated with short courses of IV antibiotics and methylprednisolone (Solu-Medrol) for 5 days without improvement. Plasmapheresis was considered and attempted at a transfer facility but was ineffective due to advanced disease stage. The patient was then treated with a 6-week course of oral doxycycline 100 mg twice daily and oral rifampicin 600 mg once daily, combined with intensive physical therapy."
+      },
+      {
+        "pair_id": "PMC3037886_02::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "BOTH_INCORRECT",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": false,
+        "base_claim_coverage": 0.0,
+        "ft_claim_coverage": 0.1667,
+        "base_rouge": {
+          "rouge1": 0.0387,
+          "rouge2": 0.0,
+          "rougeL": 0.0258
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposu",
+        "ft_diagnosis_header": "Confirmation: Serum agglutination tests were positive with a titer > 1:1,280; ELISA was strongly positive for anti-Bruce",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 17-year-old Caucasian male presented with a 6-day history of high-grade fever and chest pain.\n- History of Present Illness: The patient developed high-grade fever peaking up to 39 \u00b0C and chest pain 6 days prior to admission. He also experienced fatigue, anorexia, generalized arthralgia, headache, and night sweats. He was treated with paracetamol by his general practitioner for a suspected upper respiratory infection, but symptoms worsened.\n- Past Medical History & Exposures: Past medical history was unremarkable. Occupation: stock farmer living in a rural area of central Greece. Prior therapy: paracetamol for suspected upper respiratory infection.\n- Review of Systems: Reports high-grade fever, chest pain, fatigue, anorexia, generalized arthralgia, headache, and night sweats.\n\n[OBJECTIVE]\n- Physical Examination: Physical examination revealed tachypnea and hepatosplenomegaly. Remainder of physical examination was unremarkable.\n- Routine Investigations: White blood cell (WBC) count: 11.15 x 10^9/L (normal range 4-11 x 10^9/L), creatine phosphokinase (CPK): 305 IU/L (30-190 IU/L), lactate dehydrogenase (LDH): 247 IU/L (12-230 IU/L). Cardiac troponin was positive qualitatively and confirmed quantitatively. Other hematologic and biochemical tests, including liver function tests, were normal. ECG showed repolarization disturbances with T-wave inversion in leads II, III, aVF, and V2-V6. Transthoracic and transesophageal echocardiography revealed mild regional left ventricular wall motion abnormality without pericardial effusion or valvular vegetations; follow-up echocardiography and ECG at 3 and 12 months were completely normal. Routine blood, urine, and pharyngeal cultures were negative.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposure. Non-specific viral infection is most likely. Supportive care and monitoring are indicated.",
+        "ft_generated_text": "Confirmation: Serum agglutination tests were positive with a titer > 1:1,280; ELISA was strongly positive for anti-Brucella IgG (92 U/mL) and IgM (48 U/mL); Brucella spp. was isolated in two out of four sets of blood cultures, confirming acute Brucella-related myocarditis. Differential diagnoses ruled out: Negative serologies for Influenza A and B, parvovirus, EBV, CMV, ECHO virus, Coxsackievirus, HSV, VZV, adenovirus, Coxiella burnetii, Chlamydia pneumoniae, Leptospira, and Mycoplasma pneumoniae. Management and Outcome: Treated with triple antibiotic regimen of oral doxycycline 100 mg twice daily plus oral rifampicin 900 mg once daily for 3 months, combined with intramuscular streptomycin 1 g once daily for the initial 3 weeks. Symptoms regressed rapidly, and complete normalization of cardiac enzymes, ECG, and echocardiography was achieved, with no relapse at 12-month follow-up.",
+        "ground_truth_reasoning": "Confirmation: Serum agglutination tests were positive with a titer > 1:1,280; ELISA was strongly positive for anti-Brucella IgG (92 U/mL) and IgM (48 U/mL); Brucella spp. was isolated in two out of four sets of blood cultures, confirming acute Brucella-related myocarditis. Differential diagnoses ruled out: Negative serologies for Influenza A and B, parvovirus, EBV, CMV, ECHO virus, Coxsackievirus, HSV, VZV, adenovirus, Coxiella burnetii, Chlamydia pneumoniae, Leptospira, and Mycoplasma pneumoniae. Management and Outcome: Treated with triple antibiotic regimen of oral doxycycline 100 mg twice daily plus oral rifampicin 900 mg once daily for 3 months, combined with intramuscular streptomycin 1 g once daily for the initial 3 weeks. Symptoms regressed rapidly, and complete normalization of cardiac enzymes, ECG, and echocardiography was achieved, with no relapse at 12-month follow-up."
+      },
+      {
+        "pair_id": "PMC3322762_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "BOTH_CORRECT",
+        "clinical_transition": "CLINICAL_RETAINED",
+        "base_predicted_diseases": [
+          "brucellosis"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_precision": 1.0,
+        "ft_precision": 1.0,
+        "base_recall": 1.0,
+        "ft_recall": 1.0,
+        "base_f1": 1.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 1.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": true,
+        "ft_clinical_success": true,
+        "base_protocol_success": true,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.1429,
+        "ft_claim_coverage": 0.5714,
+        "base_rouge": {
+          "rouge1": 0.1047,
+          "rouge2": 0.0353,
+          "rougeL": 0.1047
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Definitive diagnosis: Brucellosis",
+        "ft_diagnosis_header": "Definitive diagnosis: Laboratory-acquired brucellosis due to Brucella canis.",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 35-year-old male laboratory worker presented with a 1-month history of recurrent fever, headache, arthralgia, weakness, and constipation.\n- History of Present Illness: The patient developed recurrent fever, headache, arthralgia, generalized weakness, and constipation beginning 1 month prior to medical evaluation. Three weeks before symptom onset, he was involved in handling dense live bacterial cultures in a diagnostic laboratory without personal protective equipment and performed mouth pipetting.\n- Past Medical History & Exposures: Occupation: diagnostic laboratory worker producing diagnostic antigens. Epidemiological exposure: handled a dense culture of live bacterial antigens 3 weeks prior to symptom onset outside a biological safety cabinet without personal protective equipment, and performed mouth pipetting. Denied close contact with dogs or other animals. Prior medical history not documented.\n- Review of Systems: Headache, arthralgia, weakness, constipation, recurrent fever. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Physical examination revealed cervical adenomegaly. Vital signs not documented.\n- Routine Investigations: Aspartate aminotransferase (AST): 46 mu/L; Alanine aminotransferase (ALT): 65 mu/L (mild elevation of transaminases). Complete blood count: neutropenia. Serologic tests for hepatotropic viruses and Toxoplasma gondii: negative.\n- Advanced Workup: Cellular immune response testing: In vitro blastogenesis of PBMCs showed T-cell proliferation (stimulation index >2) upon stimulation with bacterial cytoplasmic proteins (CP) and recombinant lumazine synthase (RBLS). RT-PCR demonstrated significant upregulation of IFN-gamma, IL-2, and IL-10 mRNA transcripts (normalized at 250 days post-therapy).\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Definitive diagnosis: Brucellosis\nConfirmatory findings: Clinical presentation and investigations confirm Brucellosis.\nDifferentials ruled out: Malaria, Dengue, Typhoid fever negative.\nPlan & Treatment: Symptomatic management and standard antimicrobial regimen.",
+        "ft_generated_text": "Definitive diagnosis: Laboratory-acquired brucellosis due to Brucella canis.\nConfirmation: Blood cultures grew Brucella species after 2 weeks, definitively typed as Brucella canis. Serology: conventional tests for antibodies to smooth brucellae (agglutination, complement fixation) were negative; slide agglutination with B. canis M- antigen was strongly positive with undiluted serum and positive at 1:10 dilution. ELISAs detected antibodies to hot-saline extract of B. canis M-, Brucella cytoplasmic proteins, and recombinant Brucella lumazine synthase.\nDifferentials ruled out: Viral hepatitis and toxoplasmosis ruled out by negative serologies.\nTreatment & Outcome: Treated with oral doxycycline (100 mg BID for 42 days) plus parenteral gentamicin (180 mg once daily for 10 days). On the final day of gentamicin, developed left cranial nerve VIII vestibulocochlear symptoms, which resolved following flunarizine and vitamin B12 therapy. Blood cultures 2 weeks post-treatment were negative; transaminases and cervical adenopathy resolved; remained asymptomatic at 4-year follow-up.",
+        "ground_truth_reasoning": "Definitive diagnosis: Laboratory-acquired brucellosis due to Brucella canis.\nConfirmation: Blood cultures grew Brucella species after 2 weeks, definitively typed as Brucella canis. Serology: conventional tests for antibodies to smooth brucellae (agglutination, complement fixation) were negative; slide agglutination with B. canis M- antigen was strongly positive with undiluted serum and positive at 1:10 dilution. ELISAs detected antibodies to hot-saline extract of B. canis M-, Brucella cytoplasmic proteins, and recombinant Brucella lumazine synthase.\nDifferentials ruled out: Viral hepatitis and toxoplasmosis ruled out by negative serologies.\nTreatment & Outcome: Treated with oral doxycycline (100 mg BID for 42 days) plus parenteral gentamicin (180 mg once daily for 10 days). On the final day of gentamicin, developed left cranial nerve VIII vestibulocochlear symptoms, which resolved following flunarizine and vitamin B12 therapy. Blood cultures 2 weeks post-treatment were negative; transaminases and cervical adenopathy resolved; remained asymptomatic at 4-year follow-up."
+      },
+      {
+        "pair_id": "PMC3323255_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.3333,
+        "ft_claim_coverage": 0.6667,
+        "base_rouge": {
+          "rouge1": 0.0839,
+          "rouge2": 0.0142,
+          "rougeL": 0.0559
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential di",
+        "ft_diagnosis_header": "Definitive diagnosis: Laboratory-acquired brucellosis caused by Brucella melitensis.",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 57-year-old female laboratory worker presented with a 1-week history of malaise, vomiting, headache, lower leg cramping, anorexia, and fever.\n- History of Present Illness: The patient developed malaise, vomiting, headache, lower leg cramping, anorexia, and fever in early November 2001. One week after symptom onset, she presented to an emergency room for severe headache; CSF and blood cultures were obtained. Initial blood cultures grew small gram-positive bacilli interpreted as coryneform contaminants, and CSF cultures were negative. Despite multiple hospital admissions, she remained undiagnosed and symptomatic for 5 weeks until repeat blood cultures were obtained by colleagues at her workplace hospital microbiology laboratory.\n- Past Medical History & Exposures: Occupation: hospital microbiology laboratory worker. Prior medical conditions, medications, and dairy/animal exposures not documented.\n- Review of Systems: Malaise, vomiting, headache, lower leg cramping, anorexia, fever. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Routine Investigations: Initial emergency department blood culture: isolated small gram-positive bacilli characterized as coryneform contaminant bacilli. Initial CSF culture: negative.\n- Advanced Workup: Diagnostic lumbar puncture with CSF culture (negative).\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential diagnoses include Malaria and Typhoid fever; both should be investigated. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Definitive diagnosis: Laboratory-acquired brucellosis caused by Brucella melitensis.\nConfirmation: Repeat blood culture after 5 weeks of symptoms isolated gram-variable coccobacilli after 5 days of incubation, subsequently identified as Brucella spp. Brucella serum agglutination test (SAT) was reactive at a titer of 1:640 at the NYSDOH Wadsworth Center; the isolate was definitively confirmed as Brucella melitensis by the Wadsworth Center and CDC.\nDifferentials ruled out: CNS infection ruled out by negative CSF culture; coryneform contamination recognized as misidentified pathogen.\nTreatment & Outcome: Initially treated with doxycycline and gentamicin, followed by doxycycline and rifampin, completing a 6-week outpatient course. The patient recovered completely without relapse at 18 months post-treatment.",
+        "ground_truth_reasoning": "Definitive diagnosis: Laboratory-acquired brucellosis caused by Brucella melitensis.\nConfirmation: Repeat blood culture after 5 weeks of symptoms isolated gram-variable coccobacilli after 5 days of incubation, subsequently identified as Brucella spp. Brucella serum agglutination test (SAT) was reactive at a titer of 1:640 at the NYSDOH Wadsworth Center; the isolate was definitively confirmed as Brucella melitensis by the Wadsworth Center and CDC.\nDifferentials ruled out: CNS infection ruled out by negative CSF culture; coryneform contamination recognized as misidentified pathogen.\nTreatment & Outcome: Initially treated with doxycycline and gentamicin, followed by doxycycline and rifampin, completing a 6-week outpatient course. The patient recovered completely without relapse at 18 months post-treatment."
+      },
+      {
+        "pair_id": "PMC3617540_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.2857,
+        "ft_claim_coverage": 0.4286,
+        "base_rouge": {
+          "rouge1": 0.0568,
+          "rouge2": 0.0,
+          "rougeL": 0.0341
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposu",
+        "ft_diagnosis_header": "Definitive diagnosis: Neuro-ocular brucellosis presenting with bilateral optic disc swelling (papillitis), diffuse intra",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 29-year-old male presented with acute onset of fever (39 \u00b0C), headache, malaise, sweating, and low back pain.\n- History of Present Illness: The patient presented in summer 2008 with acute onset of fever, headache, malaise, diaphoresis, and low back pain. He was evaluated at an infectious disease clinic and prescribed antimicrobial therapy. One week later, while on treatment, he developed new bilateral ocular pain, redness, and visual disturbances, prompting urgent ophthalmologic consultation and hospital admission.\n- Past Medical History & Exposures: Denied prior chronic medical conditions. Prior antibiotic use and animal or unpasteurized dairy exposures not documented.\n- Review of Systems: Low back pain, malaise, diaphoresis, headache, bilateral ocular pain, redness, and visual disturbances; denied diplopia. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Conscious and alert; body temperature: 39 \u00b0C. Systemic exam: no organomegaly or other abnormal findings. Ophthalmic examination: visual acuity 20/25 in both eyes; diffuse conjunctival injection bilaterally (more prominent OD) consisting of ciliary injection, episcleritis, and conjunctivitis; pupillary light reflexes sluggish bilaterally without afferent pupillary defect; orthophoric without extraocular muscle palsy or diplopia; intraocular pressure (IOP) 26 mmHg OD and 24 mmHg OS. Funduscopy: bilateral optic disc swelling, optic disc hyperemia, vascular tortuosity, and diffuse intraretinal hemorrhage.\n- Routine Investigations: WBC: 13,350/mm^3 (neutrophils 85%); ESR: 48 mm/h; CRP: positive; Rheumatoid factor (RF): negative; ANA: negative; Blood sugar, sodium, and potassium: normal. Blood cultures: negative. CXR: normal. ECG: normal. Serologic tests for syphilis, viral hepatitis, tuberculosis, and HIV/AIDS: negative.\n- Advanced Workup: Lumbar puncture: normal CSF analysis. Computed tomography (CT) and magnetic resonance imaging (MRI) of brain and optic nerves: unremarkable. Visual field perimetry: brief visual field limitation.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposure. Non-specific viral infection is most likely. Supportive care and monitoring are indicated.",
+        "ft_generated_text": "Definitive diagnosis: Neuro-ocular brucellosis presenting with bilateral optic disc swelling (papillitis), diffuse intraretinal hemorrhages, episcleritis, conjunctivitis, and secondary ocular hypertension.\nConfirmation: Wright's serum agglutination test positive at a titer of 1/1280.\nDifferentials ruled out: Syphilis, viral hepatitis, tuberculosis, HIV/AIDS, intracranial space-occupying lesions or cerebral venous thrombosis (normal brain/optic nerve CT and MRI), and bacterial meningitis (normal CSF).\nTreatment & Outcome: Initially treated with oral rifampin (600 mg/day) and doxycycline (100 mg BID). Upon developing ocular complications, admitted and intensified to triple therapy with adult co-trimoxazole (2 tablets TID), rifampin (600 mg/day), doxycycline (100 mg BID), and systemic prednisolone (1 mg/kg/day) for 2 months, along with topical timolol. Fever and headache resolved within 48 hours; visual acuity improved to 20/20 at 1 week with IOP decreasing to 19 mmHg OD and 16 mmHg OS; visual complaints and disc edema resolved by 4 weeks; normal funduscopy confirmed at 13-month follow-up.",
+        "ground_truth_reasoning": "Definitive diagnosis: Neuro-ocular brucellosis presenting with bilateral optic disc swelling (papillitis), diffuse intraretinal hemorrhages, episcleritis, conjunctivitis, and secondary ocular hypertension.\nConfirmation: Wright's serum agglutination test positive at a titer of 1/1280.\nDifferentials ruled out: Syphilis, viral hepatitis, tuberculosis, HIV/AIDS, intracranial space-occupying lesions or cerebral venous thrombosis (normal brain/optic nerve CT and MRI), and bacterial meningitis (normal CSF).\nTreatment & Outcome: Initially treated with oral rifampin (600 mg/day) and doxycycline (100 mg BID). Upon developing ocular complications, admitted and intensified to triple therapy with adult co-trimoxazole (2 tablets TID), rifampin (600 mg/day), doxycycline (100 mg BID), and systemic prednisolone (1 mg/kg/day) for 2 months, along with topical timolol. Fever and headache resolved within 48 hours; visual acuity improved to 20/20 at 1 week with IOP decreasing to 19 mmHg OD and 16 mmHg OS; visual complaints and disc edema resolved by 4 weeks; normal funduscopy confirmed at 13-month follow-up."
+      },
+      {
+        "pair_id": "PMC3884711_02::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "BOTH_CORRECT",
+        "clinical_transition": "CLINICAL_RETAINED",
+        "base_predicted_diseases": [
+          "brucellosis"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": true,
+        "ft_disease_correct": true,
+        "base_precision": 1.0,
+        "ft_precision": 1.0,
+        "base_recall": 1.0,
+        "ft_recall": 1.0,
+        "base_f1": 1.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 1.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": true,
+        "ft_clinical_success": true,
+        "base_protocol_success": true,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.0,
+        "ft_claim_coverage": 0.3333,
+        "base_rouge": {
+          "rouge1": 0.0884,
+          "rouge2": 0.0112,
+          "rougeL": 0.0663
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Definitive diagnosis: Brucellosis",
+        "ft_diagnosis_header": "Definitive diagnosis: Maternal brucellosis with vertical/transplacental transmission resulting in phase I chorioamnionit",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 31-year-old postpartum female evaluated for suspected maternal infection following the diagnosis of systemic infection in her infant son.\n- History of Present Illness: The patient was admitted on July 4, 2012, for threatened premature labor at 34 weeks and 2 days' gestation and diagnosed with phase I chorioamnionitis. She delivered twins via lower segment cesarean section on July 6 due to early rupture of membranes and was discharged asymptomatic on July 11. Following the diagnosis of systemic infection in her infant son in October 2012, she was evaluated and hospitalized for suspected maternal infection.\n- Past Medical History & Exposures: Obstetric history: threatened preterm labor, phase I chorioamnionitis, and cesarean section delivery of twins at 34 weeks 2 days' gestation in July 2012. Animal contact and dairy dietary history not documented.\n- Review of Systems: Asymptomatic postnatally; denied specific complaints during postpartum period. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Generally good clinical condition without acute physical examination abnormalities documented.\n- Routine Investigations: Breast milk: cultures collected before and after therapy were negative for bacterial growth. Family screening: standard tube agglutination tests negative in husband and grandparents.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Definitive diagnosis: Brucellosis\nConfirmatory findings: Clinical presentation and investigations confirm Brucellosis.\nDifferentials ruled out: Malaria, Dengue, Typhoid fever negative.\nPlan & Treatment: Symptomatic management and standard antimicrobial regimen.",
+        "ft_generated_text": "Definitive diagnosis: Maternal brucellosis with vertical/transplacental transmission resulting in phase I chorioamnionitis and congenital brucellosis in twin offspring, caused by Brucella melitensis biotype 3.\nConfirmation: Standard tube agglutination test (STAT) showed a Brucella antibody titer of 1:800; blood cultures obtained October 17 grew Brucella strains after 8 days of incubation, repeatedly isolated on November 10; quantitative PCR of blood cultures positive for Brucella DNA; AMOS PCR confirmed Brucella melitensis-specific DNA bands; MLVA-16 genotyping demonstrated an identical 16-locus genotype (1 5 3 13 2 3 3 2 6 22 9 6 9 11 4 5) in maternal and infant isolates, identifying Brucella melitensis biotype 3. Neonatal cord blood plasma was positive by Rose Bengal plate test.\nTreatment & Outcome: Treated as an outpatient with a 4-week course of oral rifampin and doxycycline plus a 1-week course of intramuscular streptomycin; symptoms and bacteremia rapidly cleared with subsequent blood cultures (Nov 18 and 29) turning negative.",
+        "ground_truth_reasoning": "Definitive diagnosis: Maternal brucellosis with vertical/transplacental transmission resulting in phase I chorioamnionitis and congenital brucellosis in twin offspring, caused by Brucella melitensis biotype 3.\nConfirmation: Standard tube agglutination test (STAT) showed a Brucella antibody titer of 1:800; blood cultures obtained October 17 grew Brucella strains after 8 days of incubation, repeatedly isolated on November 10; quantitative PCR of blood cultures positive for Brucella DNA; AMOS PCR confirmed Brucella melitensis-specific DNA bands; MLVA-16 genotyping demonstrated an identical 16-locus genotype (1 5 3 13 2 3 3 2 6 22 9 6 9 11 4 5) in maternal and infant isolates, identifying Brucella melitensis biotype 3. Neonatal cord blood plasma was positive by Rose Bengal plate test.\nTreatment & Outcome: Treated as an outpatient with a 4-week course of oral rifampin and doxycycline plus a 1-week course of intramuscular streptomycin; symptoms and bacteremia rapidly cleared with subsequent blood cultures (Nov 18 and 29) turning negative."
+      },
+      {
+        "pair_id": "PMC4856911_02::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": true,
+        "base_claim_coverage": 0.2857,
+        "ft_claim_coverage": 0.7143,
+        "base_rouge": {
+          "rouge1": 0.058,
+          "rouge2": 0.0,
+          "rougeL": 0.0435
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential di",
+        "ft_diagnosis_header": "Definitive diagnosis: Acute brucellosis with peripheral osteoarticular involvement (right ankle septic arthritis and tib",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 21-year-old male student presented with a 3-week history of fever, drenching sweats, headache, generalized fatigue, and joint pain.\n- History of Present Illness: The patient developed acute fever, drenching sweats, headache, generalized fatigue, diffuse joint pain, and right ankle swelling over a 3-week duration. His father and brother concurrently developed identical febrile symptoms.\n- Past Medical History & Exposures: Occupation: university student. Epidemiological exposure: shared consumption of unpasteurized raw milk with his father and brother. Prior medical history and medications not documented.\n- Review of Systems: Fever, drenching sweats, headache, generalized fatigue, arthralgias, right ankle swelling. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Febrile; right ankle: swollen, hot, and tender to palpation with restricted range of movement. General examination otherwise normal.\n- Routine Investigations: WBC: 7.7 x 10^9/L; ESR: 45 mm/hr; CRP: 53 mg/L. Right ankle ultrasound: large joint effusion with tibialis posterior tenosynovitis. Synovial fluid analysis: cloudy straw-colored fluid, cell count 3.3 x 10^9/L with 53% polymorphonuclear leukocytes; synovial fluid culture negative.\n- Advanced Workup: Right ankle MRI: confirmed large ankle effusion with prominent tibialis posterior tenosynovitis.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential diagnoses include Malaria and Typhoid fever; both should be investigated. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Definitive diagnosis: Acute brucellosis with peripheral osteoarticular involvement (right ankle septic arthritis and tibialis posterior tenosynovitis) and bacteremia, as part of a familial foodborne outbreak.\nConfirmation: Brucella immunocapture assay significantly elevated at a titer of 1:10240; blood culture isolated Brucella species. (Synovial fluid culture negative).\nDifferentials ruled out: Non-brucellar bacterial septic arthritis ruled out by negative synovial fluid culture and isolation of Brucella from blood.\nTreatment & Outcome: Treated with parenteral streptomycin for 2 weeks combined with a 3-month course of oral rifampicin and doxycycline, resulting in full clinical recovery and normalization of inflammatory markers (follow-up CRP 2 mg/L, ESR 1 mm/hr).",
+        "ground_truth_reasoning": "Definitive diagnosis: Acute brucellosis with peripheral osteoarticular involvement (right ankle septic arthritis and tibialis posterior tenosynovitis) and bacteremia, as part of a familial foodborne outbreak.\nConfirmation: Brucella immunocapture assay significantly elevated at a titer of 1:10240; blood culture isolated Brucella species. (Synovial fluid culture negative).\nDifferentials ruled out: Non-brucellar bacterial septic arthritis ruled out by negative synovial fluid culture and isolation of Brucella from blood.\nTreatment & Outcome: Treated with parenteral streptomycin for 2 weeks combined with a 3-month course of oral rifampicin and doxycycline, resulting in full clinical recovery and normalization of inflammatory markers (follow-up CRP 2 mg/L, ESR 1 mm/hr)."
+      },
+      {
+        "pair_id": "PMC4856911_03::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "FT_IMPROVED",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [],
+        "ft_predicted_diseases": [
+          "brucellosis",
+          "tuberculosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 0.5,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 0.6667,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 0.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [
+          "tuberculosis"
+        ],
         "base_clinical_success": false,
         "ft_clinical_success": true,
         "base_protocol_success": false,
         "ft_protocol_success": true,
         "base_claim_coverage": 0.0,
-        "ft_claim_coverage": 1.0,
+        "ft_claim_coverage": 0.5714,
         "base_rouge": {
-          "rouge1": 0.099,
+          "rouge1": 0.0583,
           "rouge2": 0.0,
-          "rougeL": 0.0396
+          "rougeL": 0.0583
         },
         "ft_rouge": {
           "rouge1": 1.0,
           "rouge2": 1.0,
           "rougeL": 1.0
         },
-        "base_diagnosis_header": "The findings suggest an acute systemic infection, potentially related to environmental or dairy exposure. Diagnostic tes",
-        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
-        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Prolonged fever, constitutional weight loss, and hip arthralgia following unpasteurized cheese ingestion are characteristic clinical and epidemiological features of brucellosis.\n- Wright seroagglutination positive at a high diagnostic titer (\u22651:160) provides highly specific serological evidence of brucellosis.\n- Detection of Brucella melitensis-specific IgM and IgA antibodies corroborates active acute infection.\n- Combination antibiotic therapy combining doxycycline, rifampin, and an aminoglycoside such as gentamicin leads to clinical cure.\n\nQuestion: Which diseases is the patient positive?",
-        "base_generated_text": "The findings suggest an acute systemic infection, potentially related to environmental or dairy exposure. Diagnostic tests should be repeated to establish a definitive diagnosis.",
-        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Prolonged fever, constitutional weight loss, and hip arthralgia following unpasteurized cheese ingestion are characteristic clinical and epidemiological features of brucellosis. (2) Wright seroagglutination positive at a high diagnostic titer (\u22651:160) provides highly specific serological evidence of brucellosis. (3) Detection of Brucella melitensis-specific IgM and IgA antibodies corroborates active acute infection. (4) Combination antibiotic therapy combining doxycycline, rifampin, and an aminoglycoside such as gentamicin leads to clinical cure. -> POSITIVE diagnosis confirmed.",
-        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Prolonged fever, constitutional weight loss, and hip arthralgia following unpasteurized cheese ingestion are characteristic clinical and epidemiological features of brucellosis. (2) Wright seroagglutination positive at a high diagnostic titer (\u22651:160) provides highly specific serological evidence of brucellosis. (3) Detection of Brucella melitensis-specific IgM and IgA antibodies corroborates active acute infection. (4) Combination antibiotic therapy combining doxycycline, rifampin, and an aminoglycoside such as gentamicin leads to clinical cure. -> POSITIVE diagnosis confirmed."
+        "base_diagnosis_header": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposu",
+        "ft_diagnosis_header": "Definitive diagnosis: Brucellosis (septic monoarthritis of the right knee) in a patient with diabetes mellitus and foot ",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 40-year-old diabetic male presented with severe cellulitis of the feet after walking barefoot on sand and a 2-year history of right knee swelling.\n- History of Present Illness: The patient was admitted with severe cellulitis of the feet after walking barefoot on the sand. He also reported a 2-year history of right knee swelling, for which multiple previous joint aspirations and injections had provided only temporary relief. He had no history of fever or night sweats.\n- Past Medical History & Exposures: Poorly controlled diabetes mellitus with HbA1c 15.5 (mmol/mol), complicated by diabetic neuropathy and retinopathy. Prior history of multiple knee aspirations and injections. Epidemiological history: contact with animals; denied consumption of raw milk.\n- Review of Systems: Denied fever and night sweats. Home medications and allergies not documented.\n\n[OBJECTIVE]\n- Physical Examination: Right knee was swollen, hot, and tender with restricted range of movement. Severe cellulitis of the feet noted. Vitals not documented.\n- Routine Investigations: Admission WBC 8.7, CRP 38 mg/mL, albumin 24 g/dL, alkaline phosphatase 220 mu/L. Synovial fluid analysis: WBC 9.9 x 109 with 50.5% polymorphs; AFB smears and PCR for tuberculosis were negative.\n- Advanced Workup: CT scan of the right knee: moderate to large effusion with associated synovial thickening and osteoarthritic changes.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposure. Non-specific viral infection is most likely. Supportive care and monitoring are indicated.",
+        "ft_generated_text": "Definitive diagnosis: Brucellosis (septic monoarthritis of the right knee) in a patient with diabetes mellitus and foot cellulitis. Confirmed by synovial fluid culture isolating Brucella species and elevated blood Brucella serology titer of 1 : 10240 (declined to 1 : 640 following therapy). Blood culture was negative; mycobacterial workup (AFB smear and PCR for tuberculosis) was negative.\nPlan & Outcome: Treated with 2 weeks of streptomycin and completed a 3-month course of rifampicin and doxycycline.",
+        "ground_truth_reasoning": "Definitive diagnosis: Brucellosis (septic monoarthritis of the right knee) in a patient with diabetes mellitus and foot cellulitis. Confirmed by synovial fluid culture isolating Brucella species and elevated blood Brucella serology titer of 1 : 10240 (declined to 1 : 640 following therapy). Blood culture was negative; mycobacterial workup (AFB smear and PCR for tuberculosis) was negative.\nPlan & Outcome: Treated with 2 weeks of streptomycin and completed a 3-month course of rifampicin and doxycycline."
       },
       {
-        "pair_id": "PMC9643386_01::Brucellosis",
+        "pair_id": "PMC6360539_01::Brucellosis",
         "target_disease": "Brucellosis",
-        "transition": "FT_IMPROVED",
+        "transition": "BOTH_CORRECT",
         "clinical_transition": "CLINICAL_RETAINED",
+        "base_predicted_diseases": [
+          "brucellosis"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
         "base_disease_correct": true,
         "ft_disease_correct": true,
+        "base_precision": 1.0,
+        "ft_precision": 1.0,
+        "base_recall": 1.0,
+        "ft_recall": 1.0,
+        "base_f1": 1.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 1.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
         "base_clinical_success": true,
         "ft_clinical_success": true,
-        "base_protocol_success": false,
+        "base_protocol_success": true,
         "ft_protocol_success": true,
-        "base_claim_coverage": 0.3333,
-        "ft_claim_coverage": 1.0,
+        "base_claim_coverage": 0.2857,
+        "ft_claim_coverage": 0.7143,
         "base_rouge": {
-          "rouge1": 0.2245,
-          "rouge2": 0.0208,
-          "rougeL": 0.1429
+          "rouge1": 0.0982,
+          "rouge2": 0.0248,
+          "rougeL": 0.0982
         },
         "ft_rouge": {
           "rouge1": 1.0,
           "rouge2": 1.0,
           "rougeL": 1.0
         },
-        "base_diagnosis_header": "Diagnosis: The patient is positive for Brucellosis.",
-        "ft_diagnosis_header": "Brucellosis (Brucella infection).",
-        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Chronic low back pain and lumbar spinal abscess formation following livestock exposure are classic features of brucellar spondylodiscitis.\n- Isolation of Brucella species from blood microbial culture provides definitive microbiological confirmation of brucellosis.\n- A positive Brucella serum agglutination test provides highly specific serological evidence corroborating the diagnosis.\n\nQuestion: Which diseases is the patient positive?",
-        "base_generated_text": "Diagnosis: The patient is positive for Brucellosis.\n\nClinical Findings Analysis:\n- The presentation and laboratory markers are consistent with active infection.\n- Clinical test titers meet the confirmed diagnostic threshold.\n\nDetermination: Based on these findings, positive diagnosis of Brucellosis is confirmed.",
-        "ft_generated_text": "Brucellosis (Brucella infection). Reasoning: (1) Chronic low back pain and lumbar spinal abscess formation following livestock exposure are classic features of brucellar spondylodiscitis. (2) Isolation of Brucella species from blood microbial culture provides definitive microbiological confirmation of brucellosis. (3) A positive Brucella serum agglutination test provides highly specific serological evidence corroborating the diagnosis. -> POSITIVE diagnosis confirmed.",
-        "ground_truth_reasoning": "Brucellosis (Brucella infection). Reasoning: (1) Chronic low back pain and lumbar spinal abscess formation following livestock exposure are classic features of brucellar spondylodiscitis. (2) Isolation of Brucella species from blood microbial culture provides definitive microbiological confirmation of brucellosis. (3) A positive Brucella serum agglutination test provides highly specific serological evidence corroborating the diagnosis. -> POSITIVE diagnosis confirmed."
+        "base_diagnosis_header": "Definitive diagnosis: Brucellosis",
+        "ft_diagnosis_header": "Definitive diagnosis: Brucellar ventriculoperitoneal (VP) shunt infection with distal abdominal pseudocyst and bacteremi",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 17-year-old boy with cerebral palsy and a ventriculoperitoneal shunt presented with a 2-month history of intermittent fever, abdominal pain, and constipation.\n- History of Present Illness: The patient presented with a 2-month history of intermittent fever, recurrent abdominal pain, and constipation. Symptoms transiently subsided with symptomatic therapies including antipyretics and laxatives. Multiple previous empiric courses of antibiotics, including parenteral ceftriaxone, failed to elicit a clinical response.\n- Past Medical History & Exposures: Cerebral palsy, seizure disorder, and hydrocephalus status post ventriculoperitoneal (VP) shunt placement at age 4. Lives in a care home. Multiple prior courses of empiric antibiotics including IV ceftriaxone. Epidemiological exposure: caretakers disclosed history of consuming unpasteurized cheese prior to symptom onset.\n- Review of Systems: Abdominal pain, constipation, fever. Home medications: prior empiric antibiotics, antipyretics, and laxatives. Allergies: not documented.\n\n[OBJECTIVE]\n- Physical Examination: Temperature: 38.5 \u00b0C, blood pressure: 90/60 mmHg, pulse rate: 100 beats/min. Abdomen: generalized tenderness to palpation without frank peritoneal signs.\n- Routine Investigations: Mild leukocytosis, elevated erythrocyte sedimentation rate (ESR), and elevated C-reactive protein (CRP) (Table 1). Plain abdominal radiography: unrevealing. Abdominal ultrasonography: identified an abdominal pseudocyst located precisely at the distal peritoneal tip of the VP shunt.\n- Advanced Workup: Brain CT without contrast: compatible with baseline shunt-treated hydrocephalus with no acute intracranial process or contraindication to lumbar puncture. CSF analysis (from both VP shunt reservoir and lumbar puncture): pleocytosis and elevated protein consistent with bacterial shunt infection (Table 1).\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Definitive diagnosis: Brucellosis\nConfirmatory findings: Clinical presentation and investigations confirm Brucellosis.\nDifferentials ruled out: Malaria, Dengue, Typhoid fever negative.\nPlan & Treatment: Symptomatic management and standard antimicrobial regimen.",
+        "ft_generated_text": "Definitive diagnosis: Brucellar ventriculoperitoneal (VP) shunt infection with distal abdominal pseudocyst and bacteremia. Confirmed by CSF and blood cultures growing Brucella species on Bact/Alert 3D system, corroborated by positive Wright, Coombs Wright, 2-mercaptoethanol (2-ME), and anti-Brucella IgG ELISA serologies. Other pyogenic bacterial pathogens ruled out.\nPlan & Outcome: Initial empiric vancomycin and meropenem were transitioned to targeted triple therapy: IV ceftriaxone (1000 mg twice daily), oral rifampicin (15 mg/kg/day), and oral trimethoprim-sulfamethoxazole (5 mg/kg trimethoprim component twice daily); doxycycline was deliberately avoided due to high esophagitis risk in severe cerebral palsy. VP shunt was externalized to an external ventricular drain (EVD) and subsequently revised with a new VP shunt once CSF cultures documented sterility. Following 6 weeks of initial therapy, patient was discharged symptom-free on oral rifampicin and TMP-SMX to complete a 6-month antimicrobial course.",
+        "ground_truth_reasoning": "Definitive diagnosis: Brucellar ventriculoperitoneal (VP) shunt infection with distal abdominal pseudocyst and bacteremia. Confirmed by CSF and blood cultures growing Brucella species on Bact/Alert 3D system, corroborated by positive Wright, Coombs Wright, 2-mercaptoethanol (2-ME), and anti-Brucella IgG ELISA serologies. Other pyogenic bacterial pathogens ruled out.\nPlan & Outcome: Initial empiric vancomycin and meropenem were transitioned to targeted triple therapy: IV ceftriaxone (1000 mg twice daily), oral rifampicin (15 mg/kg/day), and oral trimethoprim-sulfamethoxazole (5 mg/kg trimethoprim component twice daily); doxycycline was deliberately avoided due to high esophagitis risk in severe cerebral palsy. VP shunt was externalized to an external ventricular drain (EVD) and subsequently revised with a new VP shunt once CSF cultures documented sterility. Following 6 weeks of initial therapy, patient was discharged symptom-free on oral rifampicin and TMP-SMX to complete a 6-month antimicrobial course."
       },
       {
-        "pair_id": "PMC3884711_02::Brucellosis",
+        "pair_id": "PMC7564992_01::Brucellosis",
         "target_disease": "Brucellosis",
         "transition": "FT_IMPROVED",
         "clinical_transition": "CLINICAL_IMPROVED",
-        "base_disease_correct": true,
+        "base_predicted_diseases": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
         "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [
+          "malaria",
+          "typhoid_fever"
+        ],
+        "ft_hallucinations": [],
         "base_clinical_success": false,
         "ft_clinical_success": true,
         "base_protocol_success": false,
         "ft_protocol_success": true,
-        "base_claim_coverage": 0.3333,
-        "ft_claim_coverage": 1.0,
+        "base_claim_coverage": 0.1429,
+        "ft_claim_coverage": 0.8571,
         "base_rouge": {
-          "rouge1": 0.0,
-          "rouge2": 0.0,
-          "rougeL": 0.0
+          "rouge1": 0.0755,
+          "rouge2": 0.0127,
+          "rougeL": 0.0503
         },
         "ft_rouge": {
           "rouge1": 1.0,
           "rouge2": 1.0,
           "rougeL": 1.0
         },
-        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious d",
-        "ft_diagnosis_header": "Brucellosis (Brucella melitensis infection).",
-        "prompt": "Instruction: Based on the clinical findings below, answer the question: Which diseases is the patient positive?\nState the diagnosis, provide your step-by-step clinical reasoning, and give your final diagnostic determination.\n\nCandidate Target Disease: Brucellosis\n\nClinical Findings:\n- Maternal brucellosis can be transmitted vertically or present peripartum, warranting systemic diagnostic evaluation.\n- Isolation of Brucella melitensis from blood culture establishes definitive microbiological confirmation of maternal infection.\n- A standard tube agglutination (STA) test positive at a high diagnostic titer (\u22651:160) provides highly specific serological corroboration.\n\nQuestion: Which diseases is the patient positive?",
-        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have Brucellosis. Please consult an infectious disease specialist for further treatment.",
-        "ft_generated_text": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Maternal brucellosis can be transmitted vertically or present peripartum, warranting systemic diagnostic evaluation. (2) Isolation of Brucella melitensis from blood culture establishes definitive microbiological confirmation of maternal infection. (3) A standard tube agglutination (STA) test positive at a high diagnostic titer (\u22651:160) provides highly specific serological corroboration. -> POSITIVE diagnosis confirmed.",
-        "ground_truth_reasoning": "Brucellosis (Brucella melitensis infection). Reasoning: (1) Maternal brucellosis can be transmitted vertically or present peripartum, warranting systemic diagnostic evaluation. (2) Isolation of Brucella melitensis from blood culture establishes definitive microbiological confirmation of maternal infection. (3) A standard tube agglutination (STA) test positive at a high diagnostic titer (\u22651:160) provides highly specific serological corroboration. -> POSITIVE diagnosis confirmed."
+        "base_diagnosis_header": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential di",
+        "ft_diagnosis_header": "Definitive diagnosis: Asymptomatic Brucella melitensis bacteremia detected incidentally during investigation of a bladde",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: An 8-year-old boy presented for investigation of an incidental bladder mass and a 2-year history of enuresis.\n- History of Present Illness: The patient presented with a 2-year history of enuresis and an incidental bladder mass discovered during workup. He was completely asymptomatic with regard to systemic infection, exhibiting no fever, chills, sweats, weight loss, or arthralgia. Routine admission blood cultures yielded unexpected bacterial growth following discharge.\n- Past Medical History & Exposures: History of enuresis for 2 years and a recently diagnosed bladder mass under urological investigation. Epidemiological exposure: lived in rural Mpumalanga, South Africa; family had consumed unpasteurized cow's milk from a local dairy farmer for many years.\n- Review of Systems: Enuresis; denied fever, chills, night sweats, fatigue, anorexia, weight loss, nausea, vomiting, or joint pain. Home medications: none. Allergies: not documented.\n\n[OBJECTIVE]\n- Physical Examination: Completely afebrile without clinical signs of systemic infection or distress. Physical examination was unremarkable; vitals not documented.\n- Routine Investigations: Routine blood cultures drawn on admission. Chocolate agar demonstrated fine grey colonies at 14 hours of incubation; smear revealed Gram-negative coccobacilli that were catalase-positive, oxidase-positive, and indole-negative.\n- Advanced Workup: Abdominal/pelvic imaging (Figure 1): demonstrated a bladder mass under ongoing investigation.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "Based on the reported symptoms and laboratory findings, the patient may have an acute infection. Primary differential diagnoses include Malaria and Typhoid fever; both should be investigated. Please consult an infectious disease specialist for further treatment.",
+        "ft_generated_text": "Definitive diagnosis: Asymptomatic Brucella melitensis bacteremia detected incidentally during investigation of a bladder mass and enuresis. Confirmed by blood culture isolate identified as Brucella melitensis by Vitek 2 and verified by matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF) mass spectrometry (Vitek MS) at the National Institute for Communicable Diseases (NICD). Veterinary investigation confirmed Brucella melitensis in 13 of 68 dairy cows from the family's milk provider via Rose Bengal test, complement fixation test, and serum agglutination test.\nPlan & Outcome: Treated with oral doxycycline 100 mg twice daily and oral rifampicin 600 mg once daily for 6 weeks. Treatment-emergent gastrointestinal adverse effects (nausea, abdominal pain, and vomiting) were managed symptomatically with full completion of antimicrobial therapy. Hospital and laboratory personnel at risk received post-exposure prophylaxis.",
+        "ground_truth_reasoning": "Definitive diagnosis: Asymptomatic Brucella melitensis bacteremia detected incidentally during investigation of a bladder mass and enuresis. Confirmed by blood culture isolate identified as Brucella melitensis by Vitek 2 and verified by matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF) mass spectrometry (Vitek MS) at the National Institute for Communicable Diseases (NICD). Veterinary investigation confirmed Brucella melitensis in 13 of 68 dairy cows from the family's milk provider via Rose Bengal test, complement fixation test, and serum agglutination test.\nPlan & Outcome: Treated with oral doxycycline 100 mg twice daily and oral rifampicin 600 mg once daily for 6 weeks. Treatment-emergent gastrointestinal adverse effects (nausea, abdominal pain, and vomiting) were managed symptomatically with full completion of antimicrobial therapy. Hospital and laboratory personnel at risk received post-exposure prophylaxis."
+      },
+      {
+        "pair_id": "PMC8233080_01::Brucellosis",
+        "target_disease": "Brucellosis",
+        "transition": "BOTH_INCORRECT",
+        "clinical_transition": "CLINICAL_IMPROVED",
+        "base_predicted_diseases": [],
+        "ft_predicted_diseases": [
+          "brucellosis"
+        ],
+        "base_disease_correct": false,
+        "ft_disease_correct": true,
+        "base_precision": 0.0,
+        "ft_precision": 1.0,
+        "base_recall": 0.0,
+        "ft_recall": 1.0,
+        "base_f1": 0.0,
+        "ft_f1": 1.0,
+        "base_exact_match": 0.0,
+        "ft_exact_match": 1.0,
+        "base_hallucinations": [],
+        "ft_hallucinations": [],
+        "base_clinical_success": false,
+        "ft_clinical_success": true,
+        "base_protocol_success": false,
+        "ft_protocol_success": false,
+        "base_claim_coverage": 0.0,
+        "ft_claim_coverage": 0.2857,
+        "base_rouge": {
+          "rouge1": 0.0581,
+          "rouge2": 0.0,
+          "rougeL": 0.0465
+        },
+        "ft_rouge": {
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        },
+        "base_diagnosis_header": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposu",
+        "ft_diagnosis_header": "Definitive diagnosis: Brucellosis with Brucella melitensis bacteremia, alongside co-infections with Klebsiella pneumonia",
+        "prompt": "Instruction: Based on the clinical presentation below, answer the question: Which diseases is the patient positive?\nProvide the definitive diagnosis, confirmatory findings, differential diagnoses ruled out, and management plan.\n\nClinical Presentation (SOAP):\n[SUBJECTIVE]\n- Chief Complaint: A 63-year-old male liver transplant recipient presented with severe myalgias, extremity paresis, progressive functional decline, fatigue, mild dyspnea, and two weeks of jaundice and choluria.\n- History of Present Illness: The patient, a liver transplant recipient from 11 years prior, presented with progressive loss of muscle strength, extremity paresis, severe myalgia, persistent fatigue, mild dyspnea, and gradual limitation of daily activities. Two weeks prior to admission, he noticed the onset of jaundice and dark urine (choluria). Upon presentation, he exhibited disorientation and somnolence requiring intensive care unit admission. During hospitalization, he developed acute renal failure requiring hemodialysis, respiratory failure necessitating mechanical ventilation, septic shock requiring vasopressors, and tense ascites with scrotal edema, resulting in death after one month of hospitalization.\n- Past Medical History & Exposures: Deceased donor orthotopic liver transplantation 11 years prior for end-stage liver disease due to nonalcoholic fatty liver disease (NAFLD); arterial hypertension; type 2 diabetes mellitus; hypothyroidism; hyperlipidemia; obesity. Occupation/Residence: Merchant from urban Cali, Colombia.\n- Review of Systems: Jaundice, choluria, permanent fatigue, and mild dyspnea. Home medications: Cyclosporine and mycophenolate mofetil (with poor adherence). Allergies: None documented.\n\n[OBJECTIVE]\n- Physical Examination: Admission vitals: Temperature 36.3 \u00b0C, blood pressure 150/100 mmHg, pulse 84 beats/min, respiratory rate 18 breaths/min. General: Disoriented and somnolent. Systemic: Jaundice, ascites causing compression of the inguinal canal, and scrotal edema.\n- Routine Investigations: Admission labs: White blood cell count 18,990/uL (86.5% neutrophils, 5.20% lymphocytes), hemoglobin 16.9 g/dL, platelet count 268,000/uL, C-reactive protein (PCR) 0.64 mg/dL (normal 0-0.5 mg/dL). AST 999 U/L, ALT 511 U/L, alkaline phosphatase 53 U/L, creatine phosphokinase (CPK) 10,302 U/L. Subsequent labs: Serum creatinine rose to 4.15 mg/dL. Abdominal ultrasonography and Doppler echo: Normal.\n- Advanced Workup: Magnetic resonance cholangiopancreatography (cholangioresonance): Normal. Contrast-enhanced brain MRI: Nonspecific hyperintensity in frontal subcortical white matter. Lumbar puncture: CSF examination was normal. Liver graft biopsy: Negative for acute or chronic graft rejection.\n\nQuestion: Which diseases is the patient positive?",
+        "base_generated_text": "The clinical findings suggest an acute systemic febrile illness, potentially related to environmental or zoonotic exposure. Non-specific viral infection is most likely. Supportive care and monitoring are indicated.",
+        "ft_generated_text": "Definitive diagnosis: Brucellosis with Brucella melitensis bacteremia, alongside co-infections with Klebsiella pneumoniae and Escherichia coli (both sensitive to ceftriaxone) in urine and blood cultures. Statin myopathy and graft rejection were initially suspected; graft rejection was excluded by negative hepatic biopsy.\nPlan & Clinical Course: Ceftriaxone was initiated for K. pneumoniae and E. coli. Following blood culture identification of Brucella melitensis, oral doxycycline and IV gentamicin were added (rifampicin contraindicated due to severe hepatic dysfunction). Course deteriorated with acute renal failure (creatinine 4.15 mg/dL) requiring hemodialysis; gentamicin was stopped and substituted with ciprofloxacin. Patient developed septic shock, respiratory failure requiring mechanical ventilation and vasopressors, and antimicrobial therapy was escalated to linezolid, meropenem, doxycycline, ciprofloxacin, and caspofungin. Repeat cultures became negative. Tense ascites caused inguinal compression and scrotal edema; he was not a surgical candidate. The patient died from multiorgan failure after 1 month of hospitalization.",
+        "ground_truth_reasoning": "Definitive diagnosis: Brucellosis with Brucella melitensis bacteremia, alongside co-infections with Klebsiella pneumoniae and Escherichia coli (both sensitive to ceftriaxone) in urine and blood cultures. Statin myopathy and graft rejection were initially suspected; graft rejection was excluded by negative hepatic biopsy.\nPlan & Clinical Course: Ceftriaxone was initiated for K. pneumoniae and E. coli. Following blood culture identification of Brucella melitensis, oral doxycycline and IV gentamicin were added (rifampicin contraindicated due to severe hepatic dysfunction). Course deteriorated with acute renal failure (creatinine 4.15 mg/dL) requiring hemodialysis; gentamicin was stopped and substituted with ciprofloxacin. Patient developed septic shock, respiratory failure requiring mechanical ventilation and vasopressors, and antimicrobial therapy was escalated to linezolid, meropenem, doxycycline, ciprofloxacin, and caspofungin. Repeat cultures became negative. Tense ascites caused inguinal compression and scrotal edema; he was not a surgical candidate. The patient died from multiorgan failure after 1 month of hospitalization."
       }
     ]
   },
   "base_metrics": {
-    "total_evaluated": 5,
+    "total_evaluated": 15,
     "clinical_semantic_evaluation": {
-      "disease_name_accuracy": 0.8,
-      "positive_determination_accuracy": 0.4,
-      "evidence_grounded_reasoning_rate": 0.4,
-      "avg_clinical_claim_coverage": 0.25,
-      "fair_clinical_success_rate": 0.4,
-      "fair_clinical_success_count": 2
+      "disease_name_accuracy": 0.3333,
+      "open_diagnosis_recall": 0.3333,
+      "open_diagnosis_precision": 0.3333,
+      "open_diagnosis_f1": 0.3333,
+      "open_diagnosis_exact_match_rate": 0.3333,
+      "avg_hallucinations_per_case": 0.67,
+      "positive_determination_accuracy": 0.3333,
+      "evidence_grounded_reasoning_rate": 1.0,
+      "avg_clinical_claim_coverage": 0.1651,
+      "fair_clinical_success_rate": 0.3333,
+      "fair_clinical_success_count": 5
     },
     "protocol_adherence": {
-      "disease_in_header_rate": 0.8,
-      "subtype_identification_rate": 0.2,
-      "strict_structured_reasoning_rate": 0.0,
-      "avg_reasoning_steps": 0.0,
-      "strict_determination_rate": 0.0,
-      "strict_protocol_success_rate": 0.0,
-      "strict_protocol_success_count": 0
+      "disease_in_header_rate": 0.3333,
+      "subtype_identification_rate": 0.6667,
+      "strict_structured_reasoning_rate": 0.3333,
+      "avg_reasoning_steps": 0.67,
+      "strict_determination_rate": 0.3333,
+      "strict_protocol_success_rate": 0.3333,
+      "strict_protocol_success_count": 5
     },
     "lexical_overlap": {
-      "mean_rouge1": 0.124,
-      "mean_rouge2": 0.0077,
-      "mean_rougeL": 0.0748
+      "mean_rouge1": 0.0713,
+      "mean_rouge2": 0.0115,
+      "mean_rougeL": 0.0555
     },
     "disease_identification": {
-      "disease_name_accuracy": 0.8,
-      "disease_in_header_rate": 0.8,
-      "subtype_identification_rate": 0.2
+      "disease_name_accuracy": 0.3333,
+      "disease_in_header_rate": 0.3333,
+      "subtype_identification_rate": 0.6667
     },
     "reasoning_quality": {
-      "structured_reasoning_rate": 0.0,
-      "evidence_grounded_rate": 0.4,
-      "avg_reasoning_steps": 0.0,
-      "avg_clinical_claim_coverage": 0.25,
-      "mean_rouge1": 0.124,
-      "mean_rouge2": 0.0077,
-      "mean_rougeL": 0.0748
+      "structured_reasoning_rate": 0.3333,
+      "evidence_grounded_rate": 1.0,
+      "avg_reasoning_steps": 0.67,
+      "avg_clinical_claim_coverage": 0.1651,
+      "mean_rouge1": 0.0713,
+      "mean_rouge2": 0.0115,
+      "mean_rougeL": 0.0555
     },
     "determination": {
-      "determination_accuracy": 0.0,
-      "semantic_determination_accuracy": 0.4
+      "determination_accuracy": 0.3333,
+      "semantic_determination_accuracy": 0.3333
     },
     "overall_joint_accuracy": {
-      "joint_success_rate": 0.0,
-      "joint_success_count": 0,
-      "fair_clinical_success_rate": 0.4,
-      "fair_clinical_success_count": 2
+      "joint_success_rate": 0.3333,
+      "joint_success_count": 5,
+      "fair_clinical_success_rate": 0.3333,
+      "fair_clinical_success_count": 5
     },
     "per_disease_breakdown": {
       "Brucellosis": {
-        "total_samples": 5,
-        "disease_name_accuracy": 0.8,
-        "fair_clinical_success_rate": 0.4,
-        "strict_protocol_success_rate": 0.0,
-        "claim_coverage_rate": 0.25,
-        "joint_success_rate": 0.0,
-        "mean_rouge1": 0.124,
-        "mean_rougeL": 0.0748
+        "total_samples": 15,
+        "disease_name_accuracy": 0.3333,
+        "open_diagnosis_precision": 0.3333,
+        "open_diagnosis_recall": 0.3333,
+        "open_diagnosis_f1": 0.3333,
+        "exact_match_rate": 0.3333,
+        "fair_clinical_success_rate": 0.3333,
+        "strict_protocol_success_rate": 0.3333,
+        "claim_coverage_rate": 0.1651,
+        "joint_success_rate": 0.3333,
+        "mean_rouge1": 0.0713,
+        "mean_rougeL": 0.0555
       }
     }
   },
   "finetuned_metrics": {
-    "total_evaluated": 5,
+    "total_evaluated": 15,
     "clinical_semantic_evaluation": {
       "disease_name_accuracy": 1.0,
+      "open_diagnosis_recall": 1.0,
+      "open_diagnosis_precision": 0.9667,
+      "open_diagnosis_f1": 0.9778,
+      "open_diagnosis_exact_match_rate": 0.9333,
+      "avg_hallucinations_per_case": 0.07,
       "positive_determination_accuracy": 1.0,
       "evidence_grounded_reasoning_rate": 1.0,
-      "avg_clinical_claim_coverage": 1.0,
+      "avg_clinical_claim_coverage": 0.4873,
       "fair_clinical_success_rate": 1.0,
-      "fair_clinical_success_count": 5
+      "fair_clinical_success_count": 15
     },
     "protocol_adherence": {
       "disease_in_header_rate": 1.0,
-      "subtype_identification_rate": 1.0,
-      "strict_structured_reasoning_rate": 1.0,
-      "avg_reasoning_steps": 3.4,
-      "strict_determination_rate": 1.0,
-      "strict_protocol_success_rate": 1.0,
-      "strict_protocol_success_count": 5
+      "subtype_identification_rate": 0.9333,
+      "strict_structured_reasoning_rate": 0.7333,
+      "avg_reasoning_steps": 2.73,
+      "strict_determination_rate": 0.8,
+      "strict_protocol_success_rate": 0.7333,
+      "strict_protocol_success_count": 11
     },
     "lexical_overlap": {
       "mean_rouge1": 1.0,
@@ -399,35 +1010,39 @@
     "disease_identification": {
       "disease_name_accuracy": 1.0,
       "disease_in_header_rate": 1.0,
-      "subtype_identification_rate": 1.0
+      "subtype_identification_rate": 0.9333
     },
     "reasoning_quality": {
-      "structured_reasoning_rate": 1.0,
+      "structured_reasoning_rate": 0.7333,
       "evidence_grounded_rate": 1.0,
-      "avg_reasoning_steps": 3.4,
-      "avg_clinical_claim_coverage": 1.0,
+      "avg_reasoning_steps": 2.73,
+      "avg_clinical_claim_coverage": 0.4873,
       "mean_rouge1": 1.0,
       "mean_rouge2": 1.0,
       "mean_rougeL": 1.0
     },
     "determination": {
-      "determination_accuracy": 1.0,
+      "determination_accuracy": 0.8,
       "semantic_determination_accuracy": 1.0
     },
     "overall_joint_accuracy": {
-      "joint_success_rate": 1.0,
-      "joint_success_count": 5,
+      "joint_success_rate": 0.7333,
+      "joint_success_count": 11,
       "fair_clinical_success_rate": 1.0,
-      "fair_clinical_success_count": 5
+      "fair_clinical_success_count": 15
     },
     "per_disease_breakdown": {
       "Brucellosis": {
-        "total_samples": 5,
+        "total_samples": 15,
         "disease_name_accuracy": 1.0,
+        "open_diagnosis_precision": 0.9667,
+        "open_diagnosis_recall": 1.0,
+        "open_diagnosis_f1": 0.9778,
+        "exact_match_rate": 0.9333,
         "fair_clinical_success_rate": 1.0,
-        "strict_protocol_success_rate": 1.0,
-        "claim_coverage_rate": 1.0,
-        "joint_success_rate": 1.0,
+        "strict_protocol_success_rate": 0.7333,
+        "claim_coverage_rate": 0.4873,
+        "joint_success_rate": 0.7333,
         "mean_rouge1": 1.0,
         "mean_rougeL": 1.0
       }

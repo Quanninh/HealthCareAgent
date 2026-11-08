@@ -4,15 +4,15 @@ train_qlora.py
 Supervised Fine-Tuning (SFT) using QLoRA for Clinical Diagnostic LLMs.
 
 Context:
-Offline distillation was already performed to generate high-capacity clinical reasoning
-in the gold-standard dataset (ground_truth_reasoning_all.jsonl).
+Trains on the structured clinical SOAP dataset in sandbox_soap/workspace/core_positive_1500.
 This script performs parameter-efficient Supervised Fine-Tuning (QLoRA) on the base model
-(e.g., Meta-Llama-3-8B-Instruct) directly on this offline-distilled dataset without requiring
-an online teacher model during training.
+(e.g., Meta-Llama-3-8B-Instruct) directly on this dataset.
 
 Task Instruction:
-Instructs the model to evaluate patient clinical findings and answer:
+Instructs the model to evaluate the un-leaked structured SOAP clinical presentation (Subjective & Objective)
+and answer:
     "Which diseases is the patient positive?"
+predicting the clinical Assessment & Plan (definitive diagnosis, confirmation, differentials, and treatment plan).
 """
 
 import os
@@ -20,7 +20,15 @@ import sys
 import argparse
 from typing import Optional
 
-from finetune.dataset_loader import load_gt_reasoning_dataset, format_positive_diseases_prompt
+# Ensure repository root is on sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from finetune.dataset_loader import (
+    load_dataset_from_path,
+    load_clinical_soap_dataset,
+    format_positive_diseases_prompt,
+    DEFAULT_SOAP_DIR
+)
 
 # Hugging Face and PyTorch imports with friendly fallbacks
 try:
@@ -72,10 +80,16 @@ def parse_arguments():
 
     # Dataset & Instruction settings
     parser.add_argument(
+        "--dataset_path",
+        type=str,
+        default=DEFAULT_SOAP_DIR,
+        help="Path to structured clinical SOAP dataset directory (e.g. sandbox_soap/workspace/core_positive_1500) or JSONL file"
+    )
+    parser.add_argument(
         "--gt_file",
         type=str,
-        default="gt_reasoning/output_gt_reasoning/ground_truth_reasoning_all.jsonl",
-        help="Path to offline-distilled ground truth reasoning dataset JSONL"
+        default=None,
+        help="[Alias for --dataset_path for backwards compatibility]"
     )
     parser.add_argument(
         "--format_type",
@@ -216,8 +230,9 @@ def parse_arguments():
 def main():
     args = parse_arguments()
 
-    # Resolve model name
+    # Resolve model name and dataset path
     model_name = args.student_model if args.student_model is not None else args.model_name_or_path
+    dataset_path = args.gt_file if args.gt_file is not None else args.dataset_path
 
     # Notify if legacy online distillation arguments were passed
     if args.teacher_model or args.alpha is not None or args.temperature is not None:
@@ -228,7 +243,7 @@ def main():
     print("=" * 75)
     print(" Clinical LLM Supervised Fine-Tuning (SFT) via QLoRA")
     print(f" Target Question:  '{args.question_text}'")
-    print(f" Dataset Path:     {args.gt_file}")
+    print(f" Dataset Path:     {dataset_path}")
     print(f" Format Type:      {args.format_type}")
     print(f" Base Model:       {model_name}")
     print(f" Output Directory: {args.output_dir}")
@@ -237,9 +252,9 @@ def main():
     print("=" * 75)
 
     # 1. Load Dataset
-    print("\n[1/4] Loading offline-distilled clinical reasoning dataset...")
-    raw_dataset = load_gt_reasoning_dataset(
-        gt_file=args.gt_file,
+    print("\n[1/4] Loading structured clinical SOAP dataset...")
+    raw_dataset = load_dataset_from_path(
+        data_path=dataset_path,
         format_type=args.format_type,
         question_text=args.question_text,
         max_samples=args.max_samples
@@ -252,12 +267,12 @@ def main():
         sample = raw_dataset[0]
         if args.format_type == "chatml":
             print(f"\n[System Prompt]:\n{sample['messages'][0]['content']}")
-            print(f"\n[User Prompt (with Target Question)]:\n{sample['messages'][1]['content']}")
-            print(f"\n[Target Output (Offline-Distilled Reasoning)]:\n{sample['messages'][2]['content']}")
+            print(f"\n[User Prompt (Clinical SOAP Presentation + Question)]:\n{sample['messages'][1]['content']}")
+            print(f"\n[Target Output (Clinical Assessment & Plan)]:\n{sample['messages'][2]['content']}")
         else:
             print(f"\n[Instruction]:\n{sample['instruction']}")
             print(f"\n[Input]:\n{sample['input']}")
-            print(f"\n[Output (Offline-Distilled Reasoning)]:\n{sample['output']}")
+            print(f"\n[Output (Clinical Assessment & Plan)]:\n{sample['output']}")
         print("\n[SUCCESS] Dataset formatting and prompt question validated. Exiting dry run.")
         return
 
