@@ -1,0 +1,192 @@
+\documentclass[11pt,a4paper]{report}
+
+% --- Page Geometry & Layout ---
+\usepackage[a4paper, margin=1in, headheight=14pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{setspace}
+\onehalfspacing
+
+% --- Hyperlinks & Metadata ---
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=teal!70!black,
+    citecolor=blue!70!black,
+    urlcolor=blue!60!black
+}
+
+% --- Typography, Math & Symbols ---
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+% --- Graphics & Plots ---
+\usepackage{graphicx}
+\graphicspath{{./image/}}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{circuitikz}
+\usepackage{pgf-pie}
+\usepackage{subcaption}
+\usepackage{float}
+
+% --- Tables ---
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{Z}{>{\centering\arraybackslash}X}
+
+% --- Code Listings ---
+\usepackage{listings}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=6pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    frame=single,
+    rulecolor=\color{black!15}
+}
+\lstset{style=mystyle}
+
+% --- Headers & Footers ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\nouppercase{\leftmark}}
+\fancyhead[R]{\small Project Technical Report}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% --- Section & Chapter Heading Styles ---
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{black!85}}
+  {\chaptertitlename\ \thechapter}{16pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{10pt}{20pt}
+
+% --- Citations & Bibliography ---
+\usepackage{cite}
+
+% BibTeX logo macro
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+% ================= TITLE PAGE =================
+\begin{titlepage}
+    \centering
+    \vspace*{1.5cm}
+    
+    {\Huge \bfseries Small Multimodal Models for Clinical Diagnosis\par}
+    \vspace{0.8cm}
+    {\Large \textsc{Technical Report}\par}
+    \vspace{1.5cm}
+    
+    \rule{\linewidth}{0.8pt}
+    \vspace{1cm}
+    
+    {\large \textbf{Project Team}\par}
+    \vspace{0.5cm}
+    
+    \begin{tabular}{llr}
+        \toprule
+        \textbf{Full Name} & \textbf{Matriculation No.} & \textbf{Institution} \\
+        \midrule
+        Nguyen Ha Khai       & 10423053 & Vietnamese-German University \\
+        Tran Nguyen Khoa     & 10423060 & Vietnamese-German University \\
+        Phan Anh Minh        & 10423191 & Vietnamese-German University \\
+        Ninh Hoang Quan      & 10423097 & Vietnamese-German University \\
+        Nguyen Vu Minh Khoi  & 10423144 & Vietnamese-German University \\
+        \bottomrule
+    \end{tabular}
+    
+    \vspace{1cm}
+    
+    % --- Supervisors & Teaching Assistants ---
+    \begin{tabular}{ll}
+        \textbf{Instructor / Supervisor:} & Dr. Tran Duc Khanh \\
+        \textbf{Teaching Assistant (TA):} & Le Viet Tin \\
+    \end{tabular}
+    
+    \vfill
+    
+    {\large Vietnamese-German University\par}
+    \vspace{0.3cm}
+    {\large \today\par}
+\end{titlepage}
+
+% ================= FRONT MATTER =================
+\pagenumbering{roman}
+
+\begin{abstract}
+\noindent
+This technical report investigates the design, implementation, and evaluation of Small Multimodal Models (SMMs) fine-tuned and augmented for clinical diagnosis in resource-constrained environments. We examine techniques including Retrieval-Augmented Generation (RAG), Quantized Low-Rank Adaptation (QLoRA), and multi-agent coordination architectures to assist healthcare providers in diagnosing tropical and infectious diseases.
+\end{abstract}
+
+\vspace{1cm}
+\noindent\textbf{Keywords:} Small Language Models, Multimodal AI, Retrieval-Augmented Generation (RAG), QLoRA, Multi-Agent Systems, Tropical Diseases, Infectious Diseases, Clinical Decision Support.
+
+\newpage
+\tableofcontents
+\newpage
+
+% ================= MAIN MATTER =================
+\pagenumbering{arabic}
+
+\chapter{Introduction}
+\label{ch:intro}
+\input{sections/ch1-introduction.tex}
+
+\chapter{Problem Statement}
+\label{ch:problem}
+\IfFileExists{sections/ch2-problem-statement.tex}{\input{sections/ch2-problem-statement.tex}}{}
+
+\chapter{Related Work}
+\label{ch:related}
+\IfFileExists{sections/ch3-related-work.tex}{\input{sections/ch3-related-work.tex}}{}
+
+\chapter{Proposed Approach}
+\label{ch:approach}
+\IfFileExists{sections/ch4-proposed-approach.tex}{\input{sections/ch4-proposed-approach.tex}}{}
+
+\chapter{Implementation Details}
+\label{ch:implementation}
+\IfFileExists{sections/ch5-implementation-details.tex}{\input{sections/ch5-implementation-details.tex}}{}
+
+\chapter{Evaluation}
+\label{ch:evaluation}
+\IfFileExists{sections/ch6-evaluation.tex}{\input{sections/ch6-evaluation.tex}}{}
+
+\chapter{Conclusion}
+\label{ch:conclusion}
+\IfFileExists{sections/ch7-conclusion.tex}{\input{sections/ch7-conclusion.tex}}{}
+
+% ================= BIBLIOGRAPHY =================
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

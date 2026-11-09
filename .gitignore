@@ -69,3 +69,22 @@ ehthumbs.db
 *.swp
 *.swo
 *~
+
+# LaTeX Build Artifacts & Bibliography
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+document/references.bib
+references.bib
