@@ -50,6 +50,11 @@ except ImportError:
 
 
 DEFAULT_SOAP_DIR = "sandbox_soap/workspace/core_positive_1500"
+DEFAULT_DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+DEFAULT_TRAIN_FILE = os.path.join(DEFAULT_DATA_DIR, "train_set.jsonl")
+DEFAULT_TEST_FILE = os.path.join(DEFAULT_DATA_DIR, "blind_test_set.jsonl")
+DEFAULT_MANIFEST_FILE = os.path.join(DEFAULT_DATA_DIR, "split_manifest.json")
+
 DEFAULT_SYSTEM_PROMPT = (
     "You are an expert infectious disease clinician and diagnostic adjudicator. "
     "Evaluate the patient's structured clinical presentation (Subjective and Objective findings) "
@@ -145,29 +150,46 @@ def extract_claims_from_presentation(clinical_presentation: str) -> List[Dict[st
 
 def load_soap_record(record: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """
-    Parses a single clinical case record from the sandbox_soap dataset.
-    Requires 'soap_note' with valid Subjective/Objective presentation
-    and 'assessment_and_plan.assessment_and_confirmation'.
-
+    Parses a single clinical case record from raw SOAP JSON files or JSONL splits.
+    Extracts:
+      - clinical_presentation (formatted Subjective + Objective)
+      - target_output (gold-standard assessment & plan completion)
+      - target_disease, pair_id, case_id
+    Standardizes the target completion field as 'target_output'.
     Returns None if unpopulated or missing required clinical sections.
     """
-    soap = record.get("soap_note")
-    if not isinstance(soap, dict):
-        return None
+    # 1. Standardize target_output
+    target_output = (
+        record.get("target_output")
+        or record.get("gt_reasoning")
+        or record.get("ground_truth_reasoning")
+    )
+    soap = record.get("soap_note") or record.get("clinical_soap")
 
-    ap = soap.get("assessment_and_plan", {}).get("assessment_and_confirmation")
-    if ap is None or not str(ap).strip():
-        # Unpopulated template
-        return None
+    if not target_output and isinstance(soap, dict):
+        ap = soap.get("assessment_and_plan", {})
+        if isinstance(ap, dict):
+            ac = ap.get("assessment_and_confirmation")
+            if ac and str(ac).strip():
+                target_output = str(ac).strip()
 
-    clinical_presentation = format_soap_presentation(soap)
-    if not clinical_presentation.strip():
+    if not target_output or not str(target_output).strip():
+        # Unpopulated template or missing target completion
+        return None
+    target_output = str(target_output).strip()
+
+    # 2. Standardize clinical_presentation
+    clinical_presentation = record.get("clinical_presentation")
+    if not clinical_presentation and isinstance(soap, dict):
+        clinical_presentation = format_soap_presentation(soap)
+
+    if not clinical_presentation or not str(clinical_presentation).strip():
         # No subjective or objective data
         return None
+    clinical_presentation = str(clinical_presentation).strip()
 
     target_disease = record.get("target_disease", "Infectious Disease")
     pair_id = record.get("pair_id", record.get("case_id", ""))
-    target_output = str(ap).strip()
 
     return {
         "pair_id": pair_id,
@@ -176,7 +198,7 @@ def load_soap_record(record: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "clinical_presentation": clinical_presentation,
         "target_output": target_output,
         "raw_case_text": record.get("raw_case_text", ""),
-        "soap_note": soap,
+        "soap_note": soap if isinstance(soap, dict) else None,
         "claims": extract_claims_from_presentation(clinical_presentation)
     }
 
@@ -187,6 +209,7 @@ def load_dataset_from_path(
     system_prompt: Optional[str] = None,
     question_text: str = "Which diseases is the patient positive?",
     include_candidate_hint: bool = False,
+    split: Optional[str] = None,
     max_samples: Optional[int] = None
 ) -> Dataset:
     """
@@ -199,11 +222,18 @@ def load_dataset_from_path(
         system_prompt: Custom system prompt (defaults to DEFAULT_SYSTEM_PROMPT).
         question_text: The evaluation question to answer.
         include_candidate_hint: Whether to include the candidate disease hint in prompt (default False for Option B).
+        split: Optional split selector ('train' for held-in training, 'test' / 'blind_test' for held-out evaluation).
         max_samples: Optional limit on number of samples.
 
     Returns:
         Hugging Face Dataset.
     """
+    # Automatic resolution of stratified train/test split files if requested
+    if split in ["train", "training"] and os.path.exists(DEFAULT_TRAIN_FILE):
+        data_path = DEFAULT_TRAIN_FILE
+    elif split in ["test", "blind_test", "eval", "evaluation"] and os.path.exists(DEFAULT_TEST_FILE):
+        data_path = DEFAULT_TEST_FILE
+
     if not os.path.exists(data_path):
         raise FileNotFoundError(f"Dataset path not found at: {data_path}")
 
@@ -226,7 +256,11 @@ def load_dataset_from_path(
 
     elif data_path.endswith(".json"):
         with open(data_path, "r", encoding="utf-8") as f:
-            raw_records.append(json.load(f))
+            content = json.load(f)
+            if isinstance(content, list):
+                raw_records.extend(content)
+            else:
+                raw_records.append(content)
     elif data_path.endswith(".jsonl"):
         with open(data_path, "r", encoding="utf-8") as f:
             for line in f:
@@ -261,6 +295,8 @@ def load_dataset_from_path(
                 "pair_id": parsed["pair_id"],
                 "case_id": parsed["case_id"],
                 "target_disease": target_disease,
+                "target_output": target_output,
+                "clinical_presentation": parsed["clinical_presentation"],
                 "dataset_label": "POSITIVE",
                 "messages": [
                     {"role": "system", "content": system_prompt},
@@ -274,6 +310,8 @@ def load_dataset_from_path(
                 "pair_id": parsed["pair_id"],
                 "case_id": parsed["case_id"],
                 "target_disease": target_disease,
+                "target_output": target_output,
+                "clinical_presentation": parsed["clinical_presentation"],
                 "dataset_label": "POSITIVE",
                 "instruction": f"Answer the question: {question_text} Based on the clinical presentation, identify which disease(s) the patient is positive for.",
                 "input": f"{hint_str}Clinical Presentation (SOAP):\n{parsed['clinical_presentation']}",

@@ -27,7 +27,8 @@ from finetune.dataset_loader import (
     load_dataset_from_path,
     load_clinical_soap_dataset,
     format_positive_diseases_prompt,
-    DEFAULT_SOAP_DIR
+    DEFAULT_SOAP_DIR,
+    DEFAULT_TRAIN_FILE
 )
 
 # Hugging Face and PyTorch imports with friendly fallbacks
@@ -46,7 +47,34 @@ try:
         get_peft_model,
         PeftModel
     )
-    from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+    from trl import SFTTrainer
+    try:
+        from trl import DataCollatorForCompletionOnlyLM
+    except ImportError:
+        try:
+            from trl.trainer import DataCollatorForCompletionOnlyLM
+        except ImportError:
+            class DataCollatorForCompletionOnlyLM:
+                def __init__(self, response_template, tokenizer, **kwargs):
+                    self.tokenizer = tokenizer
+                    self.response_template = response_template
+                    self.response_token_ids = tokenizer.encode(response_template, add_special_tokens=False)
+
+                def __call__(self, examples):
+                    batch = self.tokenizer.pad(examples, return_tensors="pt")
+                    labels = batch["input_ids"].clone()
+                    for i in range(len(labels)):
+                        seq = labels[i].tolist()
+                        k = len(self.response_token_ids)
+                        match_idx = -1
+                        for j in range(len(seq) - k + 1):
+                            if seq[j:j+k] == self.response_token_ids:
+                                match_idx = j + k
+                                break
+                        if match_idx != -1:
+                            labels[i, :match_idx] = -100
+                    batch["labels"] = labels
+                    return batch
     HF_PACKAGES_AVAILABLE = True
 except ImportError as e:
     HF_PACKAGES_AVAILABLE = False
@@ -82,8 +110,8 @@ def parse_arguments():
     parser.add_argument(
         "--dataset_path",
         type=str,
-        default=DEFAULT_SOAP_DIR,
-        help="Path to structured clinical SOAP dataset directory (e.g. sandbox_soap/workspace/core_positive_1500) or JSONL file"
+        default=DEFAULT_TRAIN_FILE if os.path.exists(DEFAULT_TRAIN_FILE) else DEFAULT_SOAP_DIR,
+        help="Path to structured clinical SOAP dataset directory or JSONL file (defaults to held-out train split finetune/data/train_set.jsonl)"
     )
     parser.add_argument(
         "--gt_file",
@@ -257,6 +285,7 @@ def main():
         data_path=dataset_path,
         format_type=args.format_type,
         question_text=args.question_text,
+        split="train",
         max_samples=args.max_samples
     )
 
@@ -314,17 +343,22 @@ def main():
     )
 
     # 3. Load Model in 4-bit NF4
-    print(f"\n[3/4] Loading Base Model ({model_name}) in 4-bit NormalFloat (NF4)...")
+    is_cuda = torch.cuda.is_available()
+    use_bf16 = is_cuda and torch.cuda.is_bf16_supported()
+    compute_dtype = torch.bfloat16 if use_bf16 else torch.float16
+
+    print(f"\n[3/4] Loading Base Model ({model_name}) in 4-bit NormalFloat (NF4)... (compute_dtype={compute_dtype})")
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
-        bnb_4bit_compute_dtype=torch.bfloat16
+        bnb_4bit_compute_dtype=compute_dtype
     )
 
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         quantization_config=bnb_config,
+        torch_dtype=compute_dtype,
         device_map="auto"
     )
     model = prepare_model_for_kbit_training(model)
@@ -344,34 +378,68 @@ def main():
     is_cuda = torch.cuda.is_available()
     use_bf16 = is_cuda and torch.cuda.is_bf16_supported()
 
-    training_args = TrainingArguments(
-        output_dir=args.output_dir,
-        per_device_train_batch_size=args.batch_size,
-        gradient_accumulation_steps=args.gradient_accumulation_steps,
-        learning_rate=args.learning_rate,
-        num_train_epochs=args.epochs,
-        warmup_ratio=args.warmup_ratio,
-        lr_scheduler_type=args.lr_scheduler_type,
-        optim="paged_adamw_8bit",
-        bf16=use_bf16,
-        fp16=(not use_bf16 and is_cuda),
-        logging_steps=10,
-        save_strategy="epoch",
-        save_total_limit=2,
-        evaluation_strategy="no",
-        report_to="none"
-    )
+    import inspect
+    train_args_sig = inspect.signature(TrainingArguments.__init__).parameters
 
-    trainer = SFTTrainer(
-        model=model,
-        train_dataset=formatted_dataset,
-        dataset_text_field="text",
-        max_seq_length=args.max_seq_length,
-        peft_config=peft_config,
-        data_collator=collator,
-        tokenizer=tokenizer,
-        args=training_args
-    )
+    kwargs = {
+        "output_dir": args.output_dir,
+        "per_device_train_batch_size": args.batch_size,
+        "gradient_accumulation_steps": args.gradient_accumulation_steps,
+        "learning_rate": args.learning_rate,
+        "num_train_epochs": args.epochs,
+        "lr_scheduler_type": args.lr_scheduler_type,
+        "optim": "paged_adamw_8bit",
+        "bf16": use_bf16,
+        "fp16": (not use_bf16 and is_cuda),
+        "logging_steps": 10,
+        "save_strategy": "epoch",
+        "save_total_limit": 2,
+        "report_to": "none"
+    }
+
+    # Version compatibility for warmup argument across transformers v4 and v5
+    if "warmup_ratio" in train_args_sig:
+        kwargs["warmup_ratio"] = args.warmup_ratio
+    else:
+        kwargs["warmup_steps"] = 10
+
+    # Version compatibility for evaluation strategy argument
+    if "eval_strategy" in train_args_sig:
+        kwargs["eval_strategy"] = "no"
+    elif "evaluation_strategy" in train_args_sig:
+        kwargs["evaluation_strategy"] = "no"
+
+    # Cross-version compatibility for TRL (TRL >= 0.12 SFTConfig vs legacy TrainingArguments)
+    try:
+        from trl import SFTConfig
+        kwargs["dataset_text_field"] = "text"
+        kwargs["max_seq_length"] = args.max_seq_length
+        training_args = SFTConfig(**kwargs)
+        
+        trainer_kwargs = {
+            "model": model,
+            "train_dataset": formatted_dataset,
+            "peft_config": peft_config,
+            "data_collator": collator,
+            "args": training_args
+        }
+        if "processing_class" in inspect.signature(SFTTrainer.__init__).parameters:
+            trainer_kwargs["processing_class"] = tokenizer
+        else:
+            trainer_kwargs["tokenizer"] = tokenizer
+        trainer = SFTTrainer(**trainer_kwargs)
+    except ImportError:
+        training_args = TrainingArguments(**kwargs)
+        trainer = SFTTrainer(
+            model=model,
+            train_dataset=formatted_dataset,
+            dataset_text_field="text",
+            max_seq_length=args.max_seq_length,
+            peft_config=peft_config,
+            data_collator=collator,
+            tokenizer=tokenizer,
+            args=training_args
+        )
 
     print("Trainable Parameters:")
     trainer.model.print_trainable_parameters()

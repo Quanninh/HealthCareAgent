@@ -23,7 +23,10 @@ from finetune.dataset_loader import (
     format_positive_diseases_prompt,
     format_soap_presentation,
     load_soap_record,
-    DEFAULT_SOAP_DIR
+    DEFAULT_SOAP_DIR,
+    DEFAULT_TRAIN_FILE,
+    DEFAULT_TEST_FILE,
+    DEFAULT_MANIFEST_FILE
 )
 
 try:
@@ -257,6 +260,103 @@ class TestQLoRAPipeline(unittest.TestCase):
         self.assertEqual(res3["disease_precision"], 0.0)
         self.assertEqual(res3["disease_recall"], 0.0)
         self.assertEqual(res3["exact_match"], 0.0)
+
+    def test_stratified_blind_split_leakage_free(self):
+        """
+        Verifies the held-out blind test set:
+        1. Both train_set.jsonl (698) and blind_test_set.jsonl (125) exist.
+        2. Zero case leakage: train_ids & test_ids == empty set.
+        3. All 15 diseases are present in the blind test set (stratified coverage).
+        4. Manifest exists and confirms leakage-free status.
+        """
+        import json
+        self.assertTrue(os.path.exists(DEFAULT_TRAIN_FILE), f"Missing {DEFAULT_TRAIN_FILE}")
+        self.assertTrue(os.path.exists(DEFAULT_TEST_FILE), f"Missing {DEFAULT_TEST_FILE}")
+        self.assertTrue(os.path.exists(DEFAULT_MANIFEST_FILE), f"Missing {DEFAULT_MANIFEST_FILE}")
+
+        # Check split manifest
+        with open(DEFAULT_MANIFEST_FILE, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+        meta = manifest.get("metadata", {})
+        self.assertTrue(meta.get("disjoint_leakage_free"))
+        self.assertEqual(meta.get("total_populated_cases"), 823)
+        self.assertEqual(meta.get("total_train_cases"), 698)
+        self.assertEqual(meta.get("total_blind_test_cases"), 125)
+
+        # Load train and test sets
+        train_records = load_dataset_from_path(split="train")
+        test_records = load_dataset_from_path(split="test")
+        self.assertEqual(len(train_records), 698)
+        self.assertEqual(len(test_records), 125)
+
+        train_ids = set()
+        for r in train_records:
+            train_ids.add(r.get("case_id"))
+
+        test_ids = set()
+        test_diseases = set()
+        for r in test_records:
+            test_ids.add(r.get("case_id"))
+            test_diseases.add(r.get("target_disease"))
+
+        # Zero leakage
+        overlap = train_ids.intersection(test_ids)
+        self.assertEqual(len(overlap), 0, f"Found data leakage across splits: {overlap}")
+
+        # All 15 diseases represented in blind test set
+        expected_diseases = {
+            "Brucellosis", "Chikungunya", "Cholera", "COVID-19", "Dengue",
+            "Ebola_Filovirus", "HIV_AIDS", "Leishmaniasis", "Leptospirosis",
+            "Malaria", "Rabies", "Tuberculosis", "Typhoid_Fever", "Yellow_Fever", "Zika"
+        }
+        self.assertEqual(test_diseases, expected_diseases)
+
+        # Standardized target_output verification
+        for r in test_records:
+            self.assertIn("target_output", r)
+            self.assertTrue(bool(r["target_output"]))
+        for r in train_records:
+            self.assertIn("target_output", r)
+            self.assertTrue(bool(r["target_output"]))
+
+        # Verify that raw records in train_set.jsonl and blind_test_set.jsonl retain exact sandbox_soap format
+        expected_raw_keys = {"case_id", "pair_id", "target_disease", "raw_case_text", "soap_note"}
+        with open(DEFAULT_TRAIN_FILE, "r", encoding="utf-8") as f:
+            first_train_raw = json.loads(f.readline())
+            self.assertEqual(set(first_train_raw.keys()), expected_raw_keys)
+            self.assertIn("assessment_and_plan", first_train_raw["soap_note"])
+
+        with open(DEFAULT_TEST_FILE, "r", encoding="utf-8") as f:
+            first_test_raw = json.loads(f.readline())
+            self.assertEqual(set(first_test_raw.keys()), expected_raw_keys)
+            self.assertIn("assessment_and_plan", first_test_raw["soap_note"])
+
+    def test_standardized_target_output_parsing(self):
+        """Verifies that load_soap_record extracts target_output from raw SOAP and JSONL formats without conflict."""
+        # 1. JSONL format with explicit target_output
+        jsonl_rec = {
+            "case_id": "PMC12345_01",
+            "pair_id": "PMC12345_01::Malaria",
+            "target_disease": "Malaria",
+            "clinical_presentation": "[SUBJECTIVE]\n- Chief Complaint: Fever.\n\n[OBJECTIVE]\n- Physical Examination: Jaundice.",
+            "target_output": "Definitive diagnosis: Malaria. Blood smear positive for Plasmodium falciparum."
+        }
+        parsed1 = load_soap_record(jsonl_rec)
+        self.assertIsNotNone(parsed1)
+        self.assertEqual(parsed1["target_output"], jsonl_rec["target_output"])
+        self.assertEqual(parsed1["clinical_presentation"], jsonl_rec["clinical_presentation"])
+
+        # 2. Backward compatibility with legacy gt_reasoning / ground_truth_reasoning
+        legacy_rec = {
+            "case_id": "PMC12345_02",
+            "pair_id": "PMC12345_02::Dengue",
+            "target_disease": "Dengue",
+            "clinical_presentation": "[SUBJECTIVE]\n- Chief Complaint: Severe headache.",
+            "ground_truth_reasoning": "Definitive diagnosis: Dengue fever. Confirmed by NS1 antigen."
+        }
+        parsed2 = load_soap_record(legacy_rec)
+        self.assertIsNotNone(parsed2)
+        self.assertEqual(parsed2["target_output"], legacy_rec["ground_truth_reasoning"])
 
 
 if __name__ == "__main__":

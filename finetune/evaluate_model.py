@@ -26,6 +26,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 from finetune.dataset_loader import (
     DEFAULT_SOAP_DIR,
+    DEFAULT_TEST_FILE,
     DEFAULT_SYSTEM_PROMPT,
     load_soap_record,
     format_positive_diseases_prompt
@@ -966,7 +967,8 @@ def compute_model_comparison(
             "prompt": ft_rec.get("prompt", ""),
             "base_generated_text": b_rec.get("generated_text", ""),
             "ft_generated_text": ft_rec.get("generated_text", ""),
-            "ground_truth_reasoning": ft_rec.get("ground_truth_reasoning", "")
+            "target_output": ft_rec.get("target_output") or ft_rec.get("ground_truth_reasoning", ""),
+            "ground_truth_reasoning": ft_rec.get("target_output") or ft_rec.get("ground_truth_reasoning", "")
         })
 
     net_diagnostic_gain = len(prot_improved) - len(prot_regressed)
@@ -1152,7 +1154,7 @@ def evaluate_model_on_cases(
 
     for idx, item in enumerate(test_cases, 1):
         target_disease = item.get("target_disease", "")
-        gt_reasoning = item.get("ground_truth_reasoning", "")
+        target_output = item.get("target_output") or item.get("ground_truth_reasoning", "")
         claims = item.get("claims", [])
 
         prompt_str = format_prompt(
@@ -1188,7 +1190,7 @@ def evaluate_model_on_cases(
         generated_text = tokenizer.decode(gen_tokens, skip_special_tokens=True).strip()
 
         parsed = parse_clinical_response(generated_text, target_disease, claims)
-        rouge = compute_rouge_scores(generated_text, gt_reasoning)
+        rouge = compute_rouge_scores(generated_text, target_output)
 
         eval_records.append({
             "pair_id": item.get("pair_id", f"sample_{idx}"),
@@ -1196,7 +1198,8 @@ def evaluate_model_on_cases(
             "target_disease": target_disease,
             "prompt": prompt_str,
             "generated_text": generated_text,
-            "ground_truth_reasoning": gt_reasoning,
+            "target_output": target_output,
+            "ground_truth_reasoning": target_output,
             "parsed": parsed,
             "rouge": rouge
         })
@@ -1242,11 +1245,13 @@ def main():
         default="meta-llama/Meta-Llama-3-8B-Instruct",
         help="Base model Hugging Face ID or local path"
     )
+    default_dataset = DEFAULT_TEST_FILE if os.path.exists(DEFAULT_TEST_FILE) else DEFAULT_SOAP_DIR
+
     parser.add_argument(
         "--dataset_path",
         type=str,
-        default=DEFAULT_SOAP_DIR,
-        help="Path to structured clinical SOAP dataset directory or JSONL dataset"
+        default=default_dataset,
+        help="Path to structured clinical SOAP dataset directory or blind test JSONL file (e.g. finetune/data/blind_test_set.jsonl)"
     )
     parser.add_argument(
         "--gt_file",
@@ -1348,9 +1353,11 @@ def main():
                 if parsed:
                     claims = extract_claims_from_presentation(parsed["clinical_presentation"])
                     all_cases.append({
+                        "case_id": parsed.get("case_id", ""),
                         "pair_id": parsed["pair_id"],
                         "target_disease": parsed["target_disease"],
                         "clinical_presentation": parsed["clinical_presentation"],
+                        "target_output": parsed["target_output"],
                         "ground_truth_reasoning": parsed["target_output"],
                         "claims": claims
                     })
@@ -1363,28 +1370,54 @@ def main():
                     rec = json.loads(line)
                     parsed = load_soap_record(rec)
                     if parsed:
-                        claims = rec.get("claims") or extract_claims_from_presentation(parsed["clinical_presentation"])
+                        claims = extract_claims_from_presentation(parsed["clinical_presentation"])
                         all_cases.append({
+                            "case_id": parsed.get("case_id", ""),
                             "pair_id": parsed["pair_id"],
                             "target_disease": parsed["target_disease"],
                             "clinical_presentation": parsed["clinical_presentation"],
+                            "target_output": parsed["target_output"],
                             "ground_truth_reasoning": parsed["target_output"],
                             "claims": claims
                         })
+    elif data_path.endswith(".json"):
+        with open(data_path, "r", encoding="utf-8") as f:
+            content = json.load(f)
+            rec_list = content if isinstance(content, list) else [content]
+            for rec in rec_list:
+                parsed = load_soap_record(rec)
+                if parsed:
+                    claims = extract_claims_from_presentation(parsed["clinical_presentation"])
+                    all_cases.append({
+                        "case_id": parsed.get("case_id", ""),
+                        "pair_id": parsed["pair_id"],
+                        "target_disease": parsed["target_disease"],
+                        "clinical_presentation": parsed["clinical_presentation"],
+                        "target_output": parsed["target_output"],
+                        "ground_truth_reasoning": parsed["target_output"],
+                        "claims": claims
+                    })
 
-    random.seed(args.split_seed)
-    shuffled_indices = list(range(len(all_cases)))
-    random.shuffle(shuffled_indices)
+    if data_path.endswith(".jsonl") or (data_path.endswith(".json") and os.path.isfile(data_path)):
+        # Dedicated blind test set file: evaluate all contained held-out cases
+        test_cases = all_cases
+        if args.max_samples is not None and args.max_samples < len(test_cases):
+            test_cases = test_cases[:args.max_samples]
+    else:
+        # Directory of case files: partition deterministically using test_ratio
+        random.seed(args.split_seed)
+        shuffled_indices = list(range(len(all_cases)))
+        random.shuffle(shuffled_indices)
 
-    num_test = int(len(all_cases) * args.test_ratio)
-    test_indices = set(shuffled_indices[:num_test])
-    test_cases = [all_cases[i] for i in sorted(test_indices)]
+        num_test = int(len(all_cases) * args.test_ratio)
+        test_indices = set(shuffled_indices[:num_test])
+        test_cases = [all_cases[i] for i in sorted(test_indices)]
 
-    if args.max_samples is not None and args.max_samples < len(test_cases):
-        test_cases = test_cases[:args.max_samples]
+        if args.max_samples is not None and args.max_samples < len(test_cases):
+            test_cases = test_cases[:args.max_samples]
 
     print(f"\nTotal Dataset Cases: {len(all_cases)}")
-    print(f"Selected Test Evaluation Cases: {len(test_cases)}")
+    print(f"Selected Blind Test Evaluation Cases: {len(test_cases)}")
 
     # 2. Dry-Run Mode (Simulates realistic Base vs Fine-Tuned head-to-head metrics)
     if args.dry_run:
@@ -1393,7 +1426,7 @@ def main():
         ft_records = []
 
         for idx, item in enumerate(test_cases):
-            gt_reasoning = item.get("ground_truth_reasoning", "")
+            target_output = item.get("target_output") or item.get("ground_truth_reasoning", "")
             target_disease = item.get("target_disease", "")
             claims = item.get("claims", [])
             prompt_str = format_prompt(
@@ -1404,16 +1437,18 @@ def main():
             )
 
             # Fine-tuned simulation: conforms to expert ground-truth protocol
-            ft_text = gt_reasoning
+            ft_text = target_output
             ft_parsed = parse_clinical_response(ft_text, target_disease, claims)
-            ft_rouge = compute_rouge_scores(ft_text, gt_reasoning)
+            ft_rouge = compute_rouge_scores(ft_text, target_output)
 
             ft_records.append({
                 "pair_id": item.get("pair_id", f"sample_{idx}"),
+                "case_id": item.get("case_id", ""),
                 "target_disease": target_disease,
                 "prompt": prompt_str,
                 "generated_text": ft_text,
-                "ground_truth_reasoning": gt_reasoning,
+                "target_output": target_output,
+                "ground_truth_reasoning": target_output,
                 "parsed": ft_parsed,
                 "rouge": ft_rouge
             })
@@ -1442,14 +1477,16 @@ def main():
                 )
 
             base_parsed = parse_clinical_response(base_text, target_disease, claims)
-            base_rouge = compute_rouge_scores(base_text, gt_reasoning)
+            base_rouge = compute_rouge_scores(base_text, target_output)
 
             base_records.append({
                 "pair_id": item.get("pair_id", f"sample_{idx}"),
+                "case_id": item.get("case_id", ""),
                 "target_disease": target_disease,
                 "prompt": prompt_str,
                 "generated_text": base_text,
-                "ground_truth_reasoning": gt_reasoning,
+                "target_output": target_output,
+                "ground_truth_reasoning": target_output,
                 "parsed": base_parsed,
                 "rouge": base_rouge
             })
