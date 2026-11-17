@@ -85,6 +85,11 @@ def run_inference(
     )
     inputs = tokenizer(prompt_text, return_tensors="pt").to(model.device)
 
+    if hasattr(model, "config"):
+        model.config.use_cache = True
+    if hasattr(model, "generation_config") and model.generation_config is not None:
+        model.generation_config.max_length = None
+
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
@@ -92,7 +97,8 @@ def run_inference(
             temperature=temperature,
             top_p=top_p,
             do_sample=(temperature > 0.0),
-            pad_token_id=tokenizer.eos_token_id
+            pad_token_id=tokenizer.eos_token_id,
+            use_cache=True
         )
 
     # Slice out prompt tokens to isolate generated response

@@ -1177,13 +1177,19 @@ def evaluate_model_on_cases(
         chat_text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         inputs = tokenizer(chat_text, return_tensors="pt").to(model.device)
 
+        if hasattr(model, "config"):
+            model.config.use_cache = True
+        if hasattr(model, "generation_config") and model.generation_config is not None:
+            model.generation_config.max_length = None
+
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,
                 max_new_tokens=max_new_tokens,
                 temperature=temperature,
                 do_sample=(temperature > 0.0),
-                pad_token_id=tokenizer.eos_token_id
+                pad_token_id=tokenizer.eos_token_id,
+                use_cache=True
             )
 
         gen_tokens = outputs[0][inputs["input_ids"].shape[1]:]

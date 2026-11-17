@@ -149,19 +149,19 @@ def parse_arguments():
     parser.add_argument(
         "--max_seq_length",
         type=int,
-        default=2048,
-        help="Maximum token sequence length"
+        default=1024,
+        help="Maximum token sequence length (1024 covers >90% of notes, 4x faster than 2048)"
     )
     parser.add_argument(
         "--batch_size",
         type=int,
-        default=1,
+        default=2,
         help="Per-device train batch size"
     )
     parser.add_argument(
         "--gradient_accumulation_steps",
         type=int,
-        default=16,
+        default=8,
         help="Number of update steps to accumulate before performing a backward/update pass"
     )
     parser.add_argument(
@@ -173,7 +173,7 @@ def parse_arguments():
     parser.add_argument(
         "--epochs",
         type=int,
-        default=3,
+        default=2,
         help="Number of training epochs"
     )
     parser.add_argument(
