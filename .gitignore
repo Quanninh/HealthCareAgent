@@ -35,3 +35,6 @@ scripts/*
 related_materials
 .env
 rag-anything/rag_eval_langsmith_ragas
+
+# Documentation & Report files
+document/
