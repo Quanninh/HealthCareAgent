@@ -15,7 +15,7 @@ This repository formulates disease identification at the **Pair-Level** `(case_i
 
 ### Core Highlights:
 - **Zero Lossless Corpus:** Exactly **24,750 candidate pairs** and **24,750 annotated records** across **29 diseases** (100% parity).
-- **Gold Standard Partitioning:** Annotated records partitioned into **POSITIVE** (6,594), **NEGATIVE** (12,060), and **NON-EXCLUSIVE OTHERS** (6,096).
+- **Evidence-Grounded Partitioning:** Annotated records partitioned into **POSITIVE** (6,594), **NEGATIVE** (12,060), and **NON-EXCLUSIVE OTHERS** (6,096).
 - **Standardized SOAP Dataset (Argon 4):** Exactly **3,289 fully populated clinical case reports** structured into the 8-field LOINC 81218-0 / Boston University write-up schema with 100% anti-leakage compliance under a 3 POS : 2 NEG quality-ranked ratio.
 - **Unified Package & CLI:** Powered by `clinical_data` (Python 3.10+ package) and the `clinical-data` CLI command with 77 automated pytest suites passing.
 
@@ -67,7 +67,9 @@ codebases/data_processing/
 
 ---
 
-## 3. Dataset Statistics & Cohort Breakdown
+## 3. Global Dataset Statistics & Cohort Breakdown
+
+All 24,750 candidate pairs across all 29 target diseases were annotated, audited, and partitioned into **Verified POSITIVE** (6,594), **Verified NEGATIVE** (12,060), and **NON-EXCLUSIVE OTHERS** (6,096) via the **12-Step Clinical Annotation Protocol** detailed in [Section 4](#4-the-12-step-clinical-annotation-engine).
 
 ### 3.1 Global Dataset Metrics (Master Manifest)
 
@@ -140,13 +142,179 @@ All figures are strictly synchronized with [`master_manifest.json`](master_manif
 
 ---
 
-## 4. Standardized SOAP Clinical Dataset (Argon 4)
+## 4. The 12-Step Clinical Annotation Engine
+
+All 24,750 candidate pairs in this dataset were labeled under the **12-Step Clinical Annotation Protocol** defined in [`resources/protocols/04_gold_standard_annotation_protocol.md`](resources/protocols/04_gold_standard_annotation_protocol.md). The pipeline formalizes disease annotation as **Biomedical Claim Verification** governed by the foundational epistemic axiom:
+
+$$\text{MENTION} \neq \text{EVIDENCE} \neq \text{CLAIM} \neq \text{LABEL}$$
+
+---
+
+### 4.1 Annotated Record Schema Overview
+
+Each annotated record in `data/annotated/{positive,negative,non-exclusive_others}/output_<slug>.jsonl` encapsulates the full 12-step provenance and character-span evidence:
+
+```json
+{
+  "pair_id": "PMC7439188_01::Amoebiasis",
+  "case_id": "PMC7439188_01",
+  "target_disease": "Amoebiasis",
+  "decision": "POSITIVE | NEGATIVE | INCONCLUSIVE_DATA",
+  "rationale": "...",
+  "step1_document_type": "CLINICAL_CASE_REPORT",
+  "step2_ccu_type": "PRIMARY_CARE_EPISODE",
+  "step3_patient_anchor": {
+    "anchor_type": "PRIMARY_PATIENT",
+    "age": 50.0,
+    "gender": "Male"
+  },
+  "step4_condition_matched": "Amoebiasis",
+  "step5_concept_grounding": "TARGET_CONFIRMED",
+  "step6_assertion_type": "AFFIRMED",
+  "step7_temporality": "CURRENT_ACTIVE",
+  "step8_clinical_role": "PRIMARY_DIAGNOSIS",
+  "step9_evidence_strength": "E1_DISEASE_SPECIFIC_CONFIRMATORY",
+  "step9_key_evidence": {
+    "evidence_items": [
+      {
+        "source_quote": "Pathogenic Entamoebae trophozoites were recognized by the presence of phagocytosed ingested intracellular red cells.",
+        "start_char": 3288,
+        "end_char": 3404,
+        "test_name": "Histopathology with erythrophagocytosis",
+        "strength": "E1_CONFIRMATORY"
+      }
+    ]
+  },
+  "step10_contradiction_flag": false,
+  "step11_vpd_satisfied": true,
+  "step12_dataset_label": "POSITIVE"
+}
+```
+
+---
+
+### 4.2 Step Options & Decision Routing Matrix
+
+The table below details all 12 steps, their permitted schema options (enums), their routing destinations (`POSITIVE`, `NEGATIVE`, `OTHERS`), and edge condition logic:
+
+| Step | Protocol Step | Available Options (Schema Enums) | Decision Routing | Edge Transition Logic |
+|:---:|:---|:---|:---:|:---|
+| **1** | `document_type` | `CLINICAL_CASE_REPORT`<br>`CASE_SERIES`<br>`REVIEW_ARTICLE`<br>`CLINICAL_TRIAL`<br>`ANIMAL_STUDY` | Continue $\to$ Step 2<br>Branch $\to$ **OTHERS** | **Edge 1A:** Only individual human patient cases proceed; reviews, clinical trials ($n=100$), and animal studies exit to `EXCLUDED`. |
+| **2** | `ccu_type` | `PRIMARY_CARE_EPISODE`<br>`SPLIT_CASE_SERIES`<br>`AGGREGATED_COHORT` | Continue $\to$ Step 3<br>Branch $\to$ **OTHERS** | **Edge 1A:** Multi-patient case series are split into atomic patient units; non-separable aggregate cohorts exit to `EXCLUDED`. |
+| **3** | `patient_anchor` | `PRIMARY_PATIENT`<br>`FAMILY_MEMBER`<br>`DONOR`<br>`HEALTHCARE_WORKER` | Continue $\to$ Step 4<br>Branch $\to$ **OTHERS** | **Edge 1A:** Attributes must belong to the primary patient; maternal carrier or donor history exits to `EXCLUDED`. |
+| **4** | `condition_matched` | `TargetDiseaseMatched`<br>`Unmatched` | Continue $\to$ Step 5<br>Branch $\to$ **OTHERS** | Verifies text span contains lexical match for target disease taxonomy. |
+| **5** | `concept_grounding` | `TARGET_CONFIRMED`<br>`TARGET_RULED_OUT`<br>`TARGET_SUSPECTED`<br>`HOMOGRAPH_FALSE_POSITIVE` | Continue $\to$ Step 6<br>Branch $\to$ **OTHERS** | **Edge 2A:** Lexical false cognates (*walking aids* $\neq$ AIDS, *patent foramen ovale* $\neq$ *P. ovale*) exit to `WRONG_ENTITY`. |
+| **6** | `assertion_type` | `AFFIRMED`<br>`NEGATED`<br>`POSSIBLE_HYPOTHETICAL`<br>`CONDITIONAL` | Branch $\to$ **POSITIVE**<br>Branch $\to$ **NEGATIVE**<br>Branch $\to$ **OTHERS** | **Edge 3A/3C:** `NEGATED` routes toward negative differential verification. `AFFIRMED` proceeds to temporality gate. `POSSIBLE` routes to `INCONCLUSIVE_DATA`. |
+| **7** | `temporality` | `CURRENT_ACTIVE`<br>`HISTORICAL_REMOTE`<br>`FUTURE_PLANNED` | Continue $\to$ Step 8<br>Branch $\to$ **OTHERS** | **Edge 4A:** Remote childhood infections or historical exposures exit to `HISTORICAL_ONLY`. Only active presenting illness proceeds. |
+| **8** | `clinical_role` | `PRIMARY_DIAGNOSIS`<br>`CONFIRMED_COINFECTION`<br>`RULED_OUT_DIAGNOSIS`<br>`DIFFERENTIAL_DIAGNOSIS`<br>`PREVENTION`<br>`BACKGROUND_DISCUSSION` | Continue $\to$ Step 9<br>Branch $\to$ **NEGATIVE**<br>Branch $\to$ **OTHERS** | **Edge 3A1:** If Step 6 = `NEGATED` and Role = `RULED_OUT_DIAGNOSIS` $\to$ **NEGATIVE** (Hard look-alike). If Role = `PRIMARY_DIAGNOSIS` $\to$ proceed to Evidence Gate. |
+| **9** | `evidence_strength` | `E1_CONFIRMATORY` (culture, PCR, biopsy)<br>`E2_STRONG_PROBABLE` (serology, imaging)<br>`E3_SUPPORTIVE_NON_SPECIFIC` (fever, WBC)<br>`E0_CONTRADICTED` (negative lab test) | Continue $\to$ Step 10<br>Branch $\to$ **NEGATIVE**<br>Branch $\to$ **OTHERS** | **Edge 5B/5C:** Only $E_1$ or $E_2$ can support a positive diagnosis. $E_3$ alone exits to `INSUFFICIENT_EVIDENCE`. $E_0$ confirms `NEGATIVE`. |
+| **10** | `contradiction_flag` | `false` (no unresolved conflict)<br>`true` (overturned by subsequent test) | Continue $\to$ Step 11<br>Branch $\to$ **NEGATIVE** | **Edge 5A:** Presumptive working diagnoses overturned by subsequent negative PCR/biopsy are resolved to `NEGATIVE` or `OTHERS`. |
+| **11** | `vpd_satisfied` | `true`<br>`false` | Branch $\to$ **POSITIVE**<br>Branch $\to$ **NEG / OTHERS** | **Edge 6A:** Valid Positive Diagnosis holds iff $(\text{AFFIRMED}) \land (\text{CURRENT}) \land (\text{PRIMARY/COIN}) \land (E_1 \lor E_2) \land (\neg \text{Contradiction})$. |
+| **12** | `dataset_label` | `POSITIVE`<br>`NEGATIVE`<br>`NON-EXCLUSIVE OTHERS` | Final Dataset Partition | Serializes audit record with character-span verification (`case_text[start:end] == quote`). |
+
+---
+
+### 4.3 Decision Routing Tree & State Machine
+
+Synthesizing the options above, the protocol operates as an explicit **Branching Decision State Machine**. Every edge defines a strict condition routing cases toward `POSITIVE`, `NEGATIVE`, or `NON-EXCLUSIVE OTHERS`:
+
+```mermaid
+flowchart TD
+    Start(["Candidate Pair (case_id, target_disease)"]) --> Gate1{"Scope & Subject Gate<br/>(Steps 1, 2, 3)"}
+    
+    Gate1 -- "Edge 1A: Doc != Case Report OR<br/>Subject != Primary Patient" --> Exclude1["NON-EXCLUSIVE OTHERS<br/>(EXCLUDED / OUT_OF_SCOPE)"]
+    Gate1 -- "Edge 1B: Case Report & Primary Patient" --> Gate2{"Concept Grounding Gate<br/>(Steps 4, 5)"}
+    
+    Gate2 -- "Edge 2A: Homograph False Positive<br/>('walking aids' != AIDS)" --> Exclude2["NON-EXCLUSIVE OTHERS<br/>(WRONG_ENTITY)"]
+    Gate2 -- "Edge 2B: Clinical Target Confirmed" --> Gate3{"Assertion & Polarity Gate<br/>(Step 6)"}
+    
+    Gate3 -- "Edge 3A: NEGATED ('ruled out', 'negative')" --> CheckNeg{"Clinical Role Check<br/>(Step 8)"}
+    CheckNeg -- "Edge 3A1: RULED_OUT / DIFFERENTIAL<br/>+ Negative Test (E0)" --> BranchNeg["NEGATIVE<br/>(Hard Differential Look-Alike)"]
+    CheckNeg -- "Edge 3A2: Incidental / Background" --> Exclude3["NON-EXCLUSIVE OTHERS"]
+    
+    Gate3 -- "Edge 3B: POSSIBLE / HYPOTHETICAL" --> Exclude4["NON-EXCLUSIVE OTHERS<br/>(INCONCLUSIVE_DATA)"]
+    Gate3 -- "Edge 3C: AFFIRMED" --> Gate4{"Temporality & Role Gate<br/>(Steps 7, 8)"}
+    
+    Gate4 -- "Edge 4A: HISTORICAL_REMOTE<br/>OR DISCUSSION / VACCINE" --> Exclude5["NON-EXCLUSIVE OTHERS<br/>(HISTORICAL / CONTEXT_ONLY)"]
+    Gate4 -- "Edge 4B: CURRENT_ACTIVE &<br/>PRIMARY / COINFECTION" --> Gate5{"Evidence & Reconciliation Gate<br/>(Steps 9, 10)"}
+    
+    Gate5 -- "Edge 5A: Contradiction Flag = True<br/>(Overturned by subsequent test)" --> BranchNeg
+    Gate5 -- "Edge 5B: Supportive Only (E3)<br/>No definitive lab/biopsy" --> Exclude6["NON-EXCLUSIVE OTHERS<br/>(INSUFFICIENT_EVIDENCE)"]
+    Gate5 -- "Edge 5C: E1 Confirmatory OR E2 Probable<br/>& Contradiction = False" --> Step11{"VPD Verification<br/>(Step 11)"}
+    
+    Step11 -- "Edge 6A: All 6 Criteria Met" --> BranchPos["POSITIVE<br/>(Verified Positive Diagnosis)"]
+    Step11 -- "Edge 6B: Criteria Incomplete" --> Exclude7["NON-EXCLUSIVE OTHERS"]
+```
+
+---
+
+### 4.4 Epistemic Literature Grounding: Verbatim Citations for All 12 Steps
+
+To ensure complete scientific defensibility, every step of the annotation protocol is directly grounded in peer-reviewed literature stored in [`literature/`](literature/), cited below verbatim:
+
+* **Step 1: Document Type Verification (`document_type`)**  
+  *Nievas Offidani & Delrieux (Data in Brief 2024, PMC10797379; [`Dataset_of_Clinical_Case_PubMedpdf.pdf`](literature/05_clinical_coreference_ccu/ccu_paper_llm/Dataset_of_Clinical_Case_PubMedpdf.pdf)):*
+  > *"Although PMC contains millions of open-access biomedical articles, extracting clinical cases is non-trivial... Many articles tagged as case reports are actually case series, reviews, or clinical trials... without document filtering, non-patient data contaminates the corpus."*
+
+* **Step 2: Clinical Case Unit Disentanglement (`ccu_type`)**  
+  *Gagnier et al. (CARE Guidelines, Ann Intern Med 2013, PMC3833570; [`CARE_Guidelines_PMC3833570.xml`](literature/01_medical_rag_clinical_llms/CARE_Guidelines_PMC3833570.xml)):*
+  > *"The primary unit of reporting in a case report is the individual patient encounter, presenting the clinical story in a timeline format from initial presentation to outcome."*
+
+* **Step 3: Subject & Coreference Resolution (`patient_anchor`)**  
+  *Harkema et al. (ConText Algorithm, JBI 2009; [`02_Harkema2009_ConText.pdf`](literature/02_entity_hijacking_negation/02_Harkema2009_ConText.pdf)):*
+  > *"A query for patients with a diagnosis of pneumonia may return false positive records for which pneumonia is mentioned but is negated (e.g., 'ruled out pneumonia'), experienced by a family member (e.g., 'family history of pneumonia'), or occurred in the past ('past history of pneumonia')."*  
+  *Salem et al. (BIOCOREF, arXiv 2025; [`BIOCOREF.pdf`](literature/05_clinical_coreference_ccu/ccu_paper/BIOCOREF.pdf)):*
+  > *"Biomedical coreference resolution is critical for clinical extraction because patient attributes, historical conditions, and familial traits are frequently introduced through complex anaphoric chains that mislead surface-level classifiers."*
+
+* **Step 4: Disease Mention Boundary Identification (`condition_matched`)**  
+  *Kennedy et al. (npj Digital Medicine 2019; [`09_Kennedy2019_FalsePositiveDisease.pdf`](literature/02_entity_hijacking_negation/09_Kennedy2019_FalsePositiveDisease.pdf)):*
+  > *"A simple search for disease names in clinical notes yields high false-positive rates because disease terms frequently appear in non-affirmative contexts, such as differential diagnoses, screening tests, or negative mentions."*
+
+* **Step 5: Concept Grounding & Homograph Disambiguation (`concept_grounding`)**  
+  *Shi et al. (DI++, Artificial Intelligence in Medicine 2022; [`10_Shi2022_DI_PlusPlus.pdf`](literature/02_entity_hijacking_negation/10_Shi2022_DI_PlusPlus.pdf)):*
+  > *"Condition identification must be decoupled into mention extraction and mention classification to prevent candidate diagnoses and literature discussion from being conflated with actual patient conditions."*
+
+* **Step 6: Syntactic Assertion & Negation Scope (`assertion_type`)**  
+  *Chapman et al. (NegEx, JBI 2001; [`01_Chapman2001_NegEx.pdf`](literature/02_entity_hijacking_negation/01_Chapman2001_NegEx.pdf)):*
+  > *"In clinical reports the presence of a term does not necessarily indicate the presence of the clinical condition represented by that term. In fact, many of the most frequently described findings and diseases in discharge summaries, radiology reports, history and physical exams, and other transcribed reports are denied in the patient."*  
+  *Uzuner et al. (2010 i2b2/VA Challenge, JAMIA 2011; [`03_Uzuner2011_i2b2_VA_Assertion.pdf`](literature/02_entity_hijacking_negation/03_Uzuner2011_i2b2_VA_Assertion.pdf)):*
+  > *"Clinical assertions must distinguish between conditions that are present, absent, possible, conditional, hypothetical, or associated with someone else."*
+
+* **Step 7: Temporal Status Tracking (`temporality`)**  
+  *Harkema et al. (ConText Algorithm, JBI 2009; [`02_Harkema2009_ConText.pdf`](literature/02_entity_hijacking_negation/02_Harkema2009_ConText.pdf)):*
+  > *"Temporality determines whether the clinical condition is current, historical, or hypothetical... distinguishing acute presenting illness from remote historical episodes."*
+
+* **Step 8: Discourse Role & Look-Alike Adjudication (`clinical_role`)**  
+  *Weller et al. (NevIR Benchmark, EACL 2024; [`13_Weller2024_NevIR.pdf`](literature/02_entity_hijacking_negation/13_Weller2024_NevIR.pdf)):*
+  > *"Pre-trained language models and neural retrieval models struggle significantly with negation, often retrieving documents that explicitly negate the query concept due to high lexical overlap."*
+
+* **Step 9: Evidence Specificity Stratification (`evidence_strength`)**  
+  *CDC MMWR Case Definitions (1997, 46(RR-10); [`16_CDC1997_CaseDefinitions_InfectiousConditions_MMWR.pdf`](literature/02_entity_hijacking_negation/16_CDC1997_CaseDefinitions_InfectiousConditions_MMWR.pdf)):*
+  > *"A confirmed case must be laboratory confirmed by isolation of the pathogen, detection of pathogen-specific nucleic acid, or demonstration of a diagnostic antibody titer... Presumptive or supportive symptoms alone do not meet the criteria for a confirmed case."*
+
+* **Step 10: Multi-Claim Trajectory Reconciliation (`contradiction_flag`)**  
+  *Javaji et al. (CLAIM-BENCH, AACL 2025; [`01_Can_AI_Validate_Science_CLAIM_BENCH_AACL2025.pdf`](literature/04_llm_annotation_benchmarks/01_Can_AI_Validate_Science_CLAIM_BENCH_AACL2025.pdf)):*
+  > *"Verifying claims in scientific literature demands explicit alignment between extracted assertions and concrete evidentiary spans rather than implicit generative recall... When conflicting assertions arise across a narrative, later definitive evidence must supersede initial working hypotheses."*
+
+* **Step 11: Valid Positive Diagnosis (VPD) Verification Gate (`vpd_satisfied`)**  
+  *Guyatt et al. (GRADE Working Group, BMJ 2008, PMC2335261; [`GRADE_Consensus_BMJ2008.txt`](literature/04_llm_annotation_benchmarks/GRADE_Consensus_BMJ2008.txt)):*
+  > *"The quality of evidence reflects the extent to which our confidence in an estimate of the effect is adequate to support a particular recommendation... High quality evidence requires definitive confirmatory findings."*  
+  *Communications Medicine (Nature Portfolio, 2025; [`22_Structured_Clinical_Approach_Explainable_Reasoning_CommsMed2025.pdf`](literature/04_llm_annotation_benchmarks/22_Structured_Clinical_Approach_Explainable_Reasoning_CommsMed2025.pdf)):*
+  > *"Decomposing clinical reasoning into structured, explainable steps significantly improves diagnostic accuracy and alignment with clinician decision-making over direct end-to-end LLM generation."*
+
+* **Step 12: Character-Span Audit & Traceability (`dataset_label`)**  
+  *Zhang et al. (CliniFact, Nature Scientific Data 2025; [`06_CliniFact_Evaluating_Clinical_Research_Claims_SciData2025.pdf`](literature/04_llm_annotation_benchmarks/06_CliniFact_Evaluating_Clinical_Research_Claims_SciData2025.pdf)):*
+  > *"Evaluating clinical research claims requires rigorous evidence grounding where model assertions must be directly mapped to source textual spans... to prevent hallucination and ensure reproducible adjudication."*
+
+---
+
+## 5. Standardized SOAP Clinical Dataset (Argon 4)
 
 Located in [`data/soap/`](data/soap/), this dataset translates unstructured case narratives into high-quality clinical notes conforming to **LOINC 81218-0** (*Discharge summary - recommended C-CDA R2.1 sections*), the **Boston University School of Medicine write-up standard**, and the international **CARE Guidelines** (Gagnier et al., 2013). All 3,289 clinical cases across all 29 target diseases were curated and structured directly by **Argon 4 (`argon-4`)**.
 
 ---
 
-### 4.1 Theoretical Foundation: Diagnostic Reasoning vs. Output Accuracy
+### 5.1 Theoretical Foundation: Diagnostic Reasoning vs. Output Accuracy
 
 In traditional medical NLP, benchmark datasets (e.g., MedQA, MMLU, MultiMedQA) evaluate only whether a model selects the correct multiple-choice token. As formulated by **Wu et al. (Stanford University, arXiv:2505.11733, 2025)**:
 
@@ -156,35 +324,79 @@ To train and evaluate models on defensible clinical reasoning rather than rote m
 
 ---
 
-### 4.2 Quality Selection Criteria: The Clinician-Developed Rubric
+### 5.2 Quality Selection Criteria & Operational Implementation
 
-Case inclusion is governed by the clinician-developed rubric established by **Wu et al. (Stanford University, 2025)** and the reporting standards of the **CARE Guidelines** (Gagnier et al., 2013):
+Case selection and ranking are grounded in the clinician-developed quality dimensions from **Wu et al. (Stanford University, 2025)** and the narrative reporting standards of the **CARE Guidelines** (Gagnier et al., 2013). 
 
+#### A. Academic Quality Dimensions
 1. **Thoroughness of Case Presentation (Wu et al., 2025; CARE Items 5–6):**
-   > *"Look for: HPI, past history, meds, allergies, vitals, focused exam, labs, imaging, hospital course, outcome."*
-  
-    Cases rated seriously deficient (isolated identifiers without vitals) or containing major gaps (HPI or exam missing) are excluded.
+   > *"Look for: HPI, past history, meds, allergies, vitals, focused exam, labs, imaging, hospital course, outcome."*  
+   Cases with seriously deficient presentations (isolated summaries without vitals or exam) are systematically filtered out.
 2. **Dependence on Integrative Clinical Reasoning (Wu et al., 2025):**
-   > *"Measures need to combine >=2 data points (hx, labs, etc)... High: THREE+ clues; requires synthesis; Outstanding: stepwise, complex reasoning."*
-  
-    Trivial cases where a single dead-giveaway symptom reveals the answer without clinical synthesis are filtered out.
+   > *"Measures need to combine >=2 data points (hx, labs, etc)... High: THREE+ clues; requires synthesis; Outstanding: stepwise, complex reasoning."*  
+   Trivial cases with dead-giveaway symptoms that undermine multi-step differential reasoning are omitted.
 3. **Explicit Differential Diagnosis & Plausible Alternatives (Wu et al., 2025; CARE Item 8):**
-   > *">=2 plausible alternatives? If yes → 'Yes'; else → 'No'."*
-  
-    Cases must document at least two plausible competing clinical conditions that required diagnostic discrimination.
+   > *">=2 plausible alternatives? If yes → 'Yes'; else → 'No'."*  
+   Negative controls must represent true syndromic look-alikes formally investigated and ruled out during differential diagnosis.
 4. **Transparency of Diagnostic Reasoning (Wu et al., 2025):**
-  
-   Cases must provide structured justification explaining why alternative conditions were elevated or ruled out based on objective testing.
-5. **Dual-Model Quality & Faithfulness Verification (Wu et al., 2025):**
-  
-   Following the MedCaseReasoning audit protocol:
-   > *"Next, to avoid model blind spots, we checked each of the generated case reports using a separate LLM... which evaluated the generated case report's faithfulness to the source article and the plausibility of each case report"*
-   
-   All generated cases undergo cross-model consistency validation to guarantee zero hallucination against the primary medical literature.
+   Cases must provide structured justification explaining why alternative conditions were considered and excluded based on objective diagnostic testing.
+
+#### B. Operationalization in Code (Deterministic QRS Formulation)
+In the original Stanford MedCaseReasoning pipeline, scoring was performed by prompting an external LLM (`o4-mini`) on a 1–5 scale. To ensure deterministic reproducibility, eliminate external API latency/costs, and leverage the pre-verified 12-step clinical annotations across all 24,750 candidates, the curation pipeline in [`src/clinical_data/curation/soap_exporter.py`](src/clinical_data/curation/soap_exporter.py) translates these principles into two deterministic piecewise mathematical scoring functions:
+
+##### 1. Positive Quality Ranking Score ($Score_{POS}$)
+For each candidate pair $c = (\text{ann}, \text{cand})$, $Score_{POS}(c) \in [-70, 100]$ optimizes for definitive microbiological/pathological confirmation combined with comprehensive clinical presentation:
+
+$$Score_{POS}(c) = S_{\text{evidence}}(\text{ann}) + S_{\text{conf}}(\text{ann}) + S_{\text{length}}(\text{cand}) + S_{\text{image}}(\text{cand}) - P_{\text{contra}}(\text{ann})$$
+
+Where each constituent term is defined as:
+
+* **Evidence Strength ($S_{\text{evidence}}$):**
+  $$S_{\text{evidence}}(\text{ann}) = \begin{cases} +40 & \text{if } \text{ev} \in \{\text{E1\_CONFIRMATORY}, \text{E1\_CONFIRMATORY\_LAB}, \dots\} \\ +25 & \text{if } \text{ev} \in \{\text{E2\_STRONG\_PROBABLE}, \text{E2\_HIGHLY\_CHARACTERISTIC}, \dots\} \\ +10 & \text{if } \text{ev} \in \{\text{E3\_SUPPORTIVE\_NON\_SPECIFIC}, \dots\} \\ 0 & \text{otherwise} \end{cases}$$
+
+* **Annotation Confidence ($S_{\text{conf}}$):**
+  $$S_{\text{conf}}(\text{ann}) = \begin{cases} +30 & \text{if } \text{confidence} = \text{"HIGH"} \\ +15 & \text{if } \text{confidence} = \text{"MEDIUM"} \\ 0 & \text{otherwise} \end{cases}$$
+
+* **Narrative Depth ($S_{\text{length}}$) with $W = \text{word\_count}(\text{raw\_case\_text})$:**
+  $$S_{\text{length}}(\text{cand}) = \begin{cases} +20 & \text{if } 400 \le W \le 1,500 \quad (\text{optimal clinical depth}) \\ +10 & \text{if } 200 \le W < 400 \text{ or } W > 2,500 \\ -20 & \text{if } W < 200 \quad (\text{penalize truncated summaries}) \end{cases}$$
+
+* **Multimodal Imaging Anchor ($S_{\text{image}}$):**
+  $$S_{\text{image}}(\text{cand}) = \begin{cases} +10 & \text{if } \text{has\_images} = \text{True} \\ 0 & \text{otherwise} \end{cases}$$
+
+* **Contradiction Penalty ($P_{\text{contra}}$):**
+  $$P_{\text{contra}}(\text{ann}) = \begin{cases} 50 & \text{if } \text{step10\_contradiction\_flag} = \text{True} \\ 0 & \text{otherwise} \end{cases}$$
+
+##### 2. Negative Quality Ranking Score ($Score_{NEG}$ — Hard Look-Alikes)
+For negative controls, $Score_{NEG}(c) \in [-50, 100]$ prioritizes **hard differential look-alikes** (conditions actively suspected that underwent formal exclusion via objective testing) rather than irrelevant random negatives:
+
+$$Score_{NEG}(c) = S_{\text{role}}(\text{ann}) + S_{\text{conf}}(\text{ann}) + S_{\text{rationale}}(\text{ann}) + S_{\text{length}}(\text{cand}) - P_{\text{contra}}(\text{ann})$$
+
+Where each constituent term is defined as:
+
+* **Exclusion Clinical Role ($S_{\text{role}}$):**
+  $$S_{\text{role}}(\text{ann}) = \begin{cases} +50 & \text{if } \text{role} = \text{"RULED\_OUT\_DIAGNOSIS"} \quad (\text{actively tested and ruled out}) \\ +35 & \text{if } \text{role} = \text{"DIFFERENTIAL\_DIAGNOSIS"} \quad (\text{differential candidate}) \\ +10 & \text{if } \text{role} = \text{"INCIDENTAL\_OR\_HISTORICAL"} \\ +5 & \text{otherwise} \end{cases}$$
+
+* **Exclusion Confidence ($S_{\text{conf}}$):**
+  $$S_{\text{conf}}(\text{ann}) = \begin{cases} +25 & \text{if } \text{confidence} = \text{"HIGH"} \\ +10 & \text{if } \text{confidence} = \text{"MEDIUM"} \\ 0 & \text{otherwise} \end{cases}$$
+
+* **Rationale Depth ($S_{\text{rationale}}$) with $R = \text{word\_count}(\text{rationale})$:**
+  $$S_{\text{rationale}}(\text{ann}) = \begin{cases} +15 & \text{if } R \ge 15 \quad (\text{specific testing grounds articulated}) \\ +5 & \text{if } 5 \le R < 15 \\ 0 & \text{otherwise} \end{cases}$$
+
+* **Narrative Depth ($S_{\text{length}}$) with $W = \text{word\_count}(\text{raw\_case\_text})$:**
+  $$S_{\text{length}}(\text{cand}) = \begin{cases} +10 & \text{if } 300 \le W \le 1,200 \\ +5 & \text{if } 150 \le W < 300 \text{ or } W > 1,200 \\ 0 & \text{otherwise} \end{cases}$$
+
+* **Contradiction Penalty ($P_{\text{contra}}$):**
+  $$P_{\text{contra}}(\text{ann}) = \begin{cases} 50 & \text{if } \text{step10\_contradiction\_flag} = \text{True} \\ 0 & \text{otherwise} \end{cases}$$
+
+#### C. Deterministic Quality & Anti-Leakage Gate
+Rather than relying on non-deterministic LLM-as-a-judge audits, all 3,289 extracted SOAP cases are audited deterministically by [`src/clinical_data/validation/soap_validator.py`](src/clinical_data/validation/soap_validator.py) and [`src/clinical_data/validation/clinical_annotation_validator.py`](src/clinical_data/validation/clinical_annotation_validator.py):
+* **Quote Verifiability:** Verifies that all clinical evidence quotes match character spans (`case_text[start:end] == source_quote`) with 100% fidelity.
+* **Regex Anti-Leakage Scanning:** Scans Subjective and Objective text against forbidden confirmatory patterns (`\bblood culture grew\b`, `\bculture confirmed\b`, `\bdefinitive diagnosis of\b`) to ensure diagnostic test results remain quarantined in Assessment & Plan.
+* **Schema Integrity:** Verifies all 8 LOINC fields and rejects any placeholder string values (`"n/a"`, `"none"`, `"not mentioned"`).
 
 ---
 
-### 4.3 Information Cutoff & Anti-Leakage Protocol
+### 5.3 Information Cutoff & Anti-Leakage Protocol
 
 To ensure models are evaluated on genuine pre-diagnostic synthesis rather than post-hoc disclosures, our pipeline enforces the **Information Cutoff Protocol** defined in Stanford MedCaseReasoning (Wu et al., 2025, Prompt 1):
 
@@ -196,7 +408,7 @@ Under our schema:
 
 ---
 
-### 4.4 Balanced Cohort Strategy & Non-Parametric Rare Disease Preservation
+### 5.4 Balanced Cohort Strategy & Non-Parametric Rare Disease Preservation
 
 Clinical case report repositories are heavily skewed toward frequent conditions and isolated positives. To construct an unbiased evaluation benchmark, the dataset enforces three core architectural principles:
 
@@ -213,11 +425,11 @@ Clinical case report repositories are heavily skewed toward frequent conditions 
    * **ZebraMap (*Diagnostics*, 2026; Islam et al.):**
      > *"Rare diseases often lead to delayed diagnosis because clinical knowledge is fragmented across unstructured research, individual case reports, and heterogeneous data formats... A central methodological contribution is an automated large language model (LLM) structuring pipeline, in which free-text case reports are parsed into standardized fields, such as symptoms, diagnostic methods, differential diagnoses, treatments, and outcome... In parallel, a retrieval-augmented generation (RAG) component generates concise summaries... by retrieving peer-reviewed research... ZebraMap provides the largest openly accessible multimodal resource for rare diseases and enables data-driven research by converting narrative evidence into computable knowledge."*
 
-   **Architectural Allocation:** In accordance with this non-parametric retrieval paradigm, **100% of cases for these 4 ultra-rare conditions (24 total cases) are preserved intact** and directly allocated to the RAG Knowledge Base ([`data/splits/rag_knowledge_base.jsonl`](data/splits/rag_knowledge_base.jsonl)). They are never fragmented into SFT training splits; instead, they serve as high-fidelity In-Context Exemplars dynamically retrieved during inference to guide differential reasoning for suspected rare presentations.
+   **Architectural Allocation:** In accordance with this non-parametric retrieval paradigm, **100% of cases for these 4 ultra-rare conditions (24 total cases) are preserved intact** and directly allocated to the RAG Knowledge Base ([`data/splits/rag_knowledge_base.jsonl`](data/splits/rag_knowledge_base.jsonl)). They are never fragmented into SFT training splits; instead, they serve as high-fidelity In-Context Exemplars dynamically retrieved during inference to guide differential reasoning for suspected rare presentations. *(Note: `codebases/data_processing` governs dataset curation and knowledge base partitioning; the agentic tool orchestration and vector retrieval runtime operates downstream in `codebases/rag_pipeline`).*
 
 ---
 
-### 4.5 29-Disease SOAP Scorecard & Quality Metrics
+### 5.5 29-Disease SOAP Scorecard & Quality Metrics
 
 The table below summarizes the curated cohort distributions across all 29 target diseases in `data/soap/`:
 
@@ -256,7 +468,7 @@ The table below summarizes the curated cohort distributions across all 29 target
 
 ---
 
-### 4.6 Record Schema & Clinical Field Mapping
+### 5.6 Record Schema & Clinical Field Mapping
 
 Each case file in `data/soap/<Disease>/<case_id>__<Disease>.json` is stored as an independent JSON document following the strict 8-field LOINC 81218-0 schema:
 
@@ -300,7 +512,7 @@ Each case file in `data/soap/<Disease>/<case_id>__<Disease>.json` is stored as a
 
 ---
 
-### 4.7 Academic References
+### 5.7 Academic References
 
 1. **Wu, K., Wu, E., Thapa, R., Wei, K., Zhang, A., Suresh, A., Tao, J. J., Sun, M. W., Lozano, A., & Zou, J.** (2025). *MedCaseReasoning: Evaluating and learning diagnostic reasoning from clinical case reports*. arXiv preprint arXiv:2505.11733v2 [cs.CL]. [https://arxiv.org/abs/2505.11733](https://arxiv.org/abs/2505.11733)
 2. **Gagnier, J. J., Kienle, G., Altman, D. G., Moher, D., Sox, H., Riley, D., & CARE Group.** (2013). *The CARE guidelines: consensus-based clinical case reporting guideline development*. *Annals of Internal Medicine*, 159(12), 809–813. doi:10.7326/0003-4819-159-12-201312170-00732. (PMCID: PMC3833570).
@@ -314,7 +526,7 @@ Each case file in `data/soap/<Disease>/<case_id>__<Disease>.json` is stored as a
 
 ---
 
-## 5. Multi-Agent Framework & Clinical Protocols
+## 6. Multi-Agent Framework & Clinical Protocols
 
 The multi-agent orchestration infrastructure is defined in [`.agents/skills/`](.agents/skills/) (31 skills) and governed by the 4 clinical protocols in [`resources/protocols/`](resources/protocols/):
 
@@ -331,9 +543,9 @@ The multi-agent orchestration infrastructure is defined in [`.agents/skills/`](.
 
 ---
 
-## 6. Installation & Verification
+## 7. Installation & Verification
 
-### 6.1 Requirements & Setup
+### 7.1 Requirements & Setup
 ```bash
 # Clone and navigate to codebase
 cd codebases/data_processing
@@ -342,7 +554,7 @@ cd codebases/data_processing
 pip install -e .
 ```
 
-### 6.2 Running Automated Test Suite
+### 7.2 Running Automated Test Suite
 ```bash
 PYTHONPATH=src pytest tests
 ```
@@ -350,7 +562,7 @@ PYTHONPATH=src pytest tests
 
 ---
 
-## 7. Unified CLI Guide (`clinical-data`)
+## 8. Unified CLI Guide (`clinical-data`)
 
 The package exposes the `clinical-data` command for all pipeline operations:
 
@@ -379,7 +591,7 @@ clinical-data build-assets --all             # Rebuilds all assets in sequence
 
 ---
 
-## 8. Citation & Credits
+## 9. Citation & Credits
 
 - **MultiCaRe Dataset**: [doi:10.5281/zenodo.10079369](https://doi.org/10.5281/zenodo.10079369)
 - **HealthCareAgent Platform**: [GitHub Repository](https://github.com/Quanninh/HealthCareAgent)
