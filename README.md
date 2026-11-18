@@ -199,17 +199,17 @@ The table below details all 12 steps, their permitted schema options (enums), th
 
 | Step | Protocol Step | Available Options (Schema Enums) | Decision Routing | Edge Transition Logic |
 |:---:|:---|:---|:---:|:---|
-| **1** | `document_type` | `CLINICAL_CASE_REPORT`<br>`CASE_SERIES`<br>`REVIEW_ARTICLE`<br>`CLINICAL_TRIAL`<br>`ANIMAL_STUDY` | Continue $\to$ Step 2<br>Branch $\to$ **OTHERS** | **Edge 1A:** Only individual human patient cases proceed; reviews, clinical trials ($n=100$), and animal studies exit to `EXCLUDED`. |
-| **2** | `ccu_type` | `PRIMARY_CARE_EPISODE`<br>`SPLIT_CASE_SERIES`<br>`AGGREGATED_COHORT` | Continue $\to$ Step 3<br>Branch $\to$ **OTHERS** | **Edge 1A:** Multi-patient case series are split into atomic patient units; non-separable aggregate cohorts exit to `EXCLUDED`. |
-| **3** | `patient_anchor` | `PRIMARY_PATIENT`<br>`FAMILY_MEMBER`<br>`DONOR`<br>`HEALTHCARE_WORKER` | Continue $\to$ Step 4<br>Branch $\to$ **OTHERS** | **Edge 1A:** Attributes must belong to the primary patient; maternal carrier or donor history exits to `EXCLUDED`. |
-| **4** | `condition_matched` | `TargetDiseaseMatched`<br>`Unmatched` | Continue $\to$ Step 5<br>Branch $\to$ **OTHERS** | Verifies text span contains lexical match for target disease taxonomy. |
-| **5** | `concept_grounding` | `TARGET_CONFIRMED`<br>`TARGET_RULED_OUT`<br>`TARGET_SUSPECTED`<br>`HOMOGRAPH_FALSE_POSITIVE` | Continue $\to$ Step 6<br>Branch $\to$ **OTHERS** | **Edge 2A:** Lexical false cognates (*walking aids* $\neq$ AIDS, *patent foramen ovale* $\neq$ *P. ovale*) exit to `WRONG_ENTITY`. |
-| **6** | `assertion_type` | `AFFIRMED`<br>`NEGATED`<br>`POSSIBLE_HYPOTHETICAL`<br>`CONDITIONAL` | Branch $\to$ **POSITIVE**<br>Branch $\to$ **NEGATIVE**<br>Branch $\to$ **OTHERS** | **Edge 3A/3C:** `NEGATED` routes toward negative differential verification. `AFFIRMED` proceeds to temporality gate. `POSSIBLE` routes to `INCONCLUSIVE_DATA`. |
-| **7** | `temporality` | `CURRENT_ACTIVE`<br>`HISTORICAL_REMOTE`<br>`FUTURE_PLANNED` | Continue $\to$ Step 8<br>Branch $\to$ **OTHERS** | **Edge 4A:** Remote childhood infections or historical exposures exit to `HISTORICAL_ONLY`. Only active presenting illness proceeds. |
-| **8** | `clinical_role` | `PRIMARY_DIAGNOSIS`<br>`CONFIRMED_COINFECTION`<br>`RULED_OUT_DIAGNOSIS`<br>`DIFFERENTIAL_DIAGNOSIS`<br>`PREVENTION`<br>`BACKGROUND_DISCUSSION` | Continue $\to$ Step 9<br>Branch $\to$ **NEGATIVE**<br>Branch $\to$ **OTHERS** | **Edge 3A1:** If Step 6 = `NEGATED` and Role = `RULED_OUT_DIAGNOSIS` $\to$ **NEGATIVE** (Hard look-alike). If Role = `PRIMARY_DIAGNOSIS` $\to$ proceed to Evidence Gate. |
-| **9** | `evidence_strength` | `E1_CONFIRMATORY` (culture, PCR, biopsy)<br>`E2_STRONG_PROBABLE` (serology, imaging)<br>`E3_SUPPORTIVE_NON_SPECIFIC` (fever, WBC)<br>`E0_CONTRADICTED` (negative lab test) | Continue $\to$ Step 10<br>Branch $\to$ **NEGATIVE**<br>Branch $\to$ **OTHERS** | **Edge 5B/5C:** Only $E_1$ or $E_2$ can support a positive diagnosis. $E_3$ alone exits to `INSUFFICIENT_EVIDENCE`. $E_0$ confirms `NEGATIVE`. |
-| **10** | `contradiction_flag` | `false` (no unresolved conflict)<br>`true` (overturned by subsequent test) | Continue $\to$ Step 11<br>Branch $\to$ **NEGATIVE** | **Edge 5A:** Presumptive working diagnoses overturned by subsequent negative PCR/biopsy are resolved to `NEGATIVE` or `OTHERS`. |
-| **11** | `vpd_satisfied` | `true`<br>`false` | Branch $\to$ **POSITIVE**<br>Branch $\to$ **NEG / OTHERS** | **Edge 6A:** Valid Positive Diagnosis holds iff $(\text{AFFIRMED}) \land (\text{CURRENT}) \land (\text{PRIMARY/COIN}) \land (E_1 \lor E_2) \land (\neg \text{Contradiction})$. |
+| **1** | `document_type` | `CLINICAL_CASE_REPORT`<br>`CASE_SERIES`<br>`REVIEW_ARTICLE`<br>`CLINICAL_TRIAL`<br>`ANIMAL_STUDY` | Continue → Step 2<br>Branch → **OTHERS** | **Edge 1A:** Only individual human patient cases proceed; reviews, clinical trials ($n=100$), and animal studies exit to `EXCLUDED`. |
+| **2** | `ccu_type` | `PRIMARY_CARE_EPISODE`<br>`SPLIT_CASE_SERIES`<br>`AGGREGATED_COHORT` | Continue → Step 3<br>Branch → **OTHERS** | **Edge 1A:** Multi-patient case series are split into atomic patient units; non-separable aggregate cohorts exit to `EXCLUDED`. |
+| **3** | `patient_anchor` | `PRIMARY_PATIENT`<br>`FAMILY_MEMBER`<br>`DONOR`<br>`HEALTHCARE_WORKER` | Continue → Step 4<br>Branch → **OTHERS** | **Edge 1A:** Attributes must belong to the primary patient; maternal carrier or donor history exits to `EXCLUDED`. |
+| **4** | `condition_matched` | `TargetDiseaseMatched`<br>`Unmatched` | Continue → Step 5<br>Branch → **OTHERS** | Verifies text span contains lexical match for target disease taxonomy. |
+| **5** | `concept_grounding` | `TARGET_CONFIRMED`<br>`TARGET_RULED_OUT`<br>`TARGET_SUSPECTED`<br>`HOMOGRAPH_FALSE_POSITIVE` | Continue → Step 6<br>Branch → **OTHERS** | **Edge 2A:** Lexical false cognates (*walking aids* $\neq$ AIDS, *patent foramen ovale* $\neq$ *P. ovale*) exit to `WRONG_ENTITY`. |
+| **6** | `assertion_type` | `AFFIRMED`<br>`NEGATED`<br>`POSSIBLE_HYPOTHETICAL`<br>`CONDITIONAL` | Branch → **POSITIVE**<br>Branch → **NEGATIVE**<br>Branch → **OTHERS** | **Edge 3A/3C:** `NEGATED` routes toward negative differential verification. `AFFIRMED` proceeds to temporality gate. `POSSIBLE` routes to `INCONCLUSIVE_DATA`. |
+| **7** | `temporality` | `CURRENT_ACTIVE`<br>`HISTORICAL_REMOTE`<br>`FUTURE_PLANNED` | Continue → Step 8<br>Branch → **OTHERS** | **Edge 4A:** Remote childhood infections or historical exposures exit to `HISTORICAL_ONLY`. Only active presenting illness proceeds. |
+| **8** | `clinical_role` | `PRIMARY_DIAGNOSIS`<br>`CONFIRMED_COINFECTION`<br>`RULED_OUT_DIAGNOSIS`<br>`DIFFERENTIAL_DIAGNOSIS`<br>`PREVENTION`<br>`BACKGROUND_DISCUSSION` | Continue → Step 9<br>Branch → **NEGATIVE**<br>Branch → **OTHERS** | **Edge 3A1:** If Step 6 = `NEGATED` and Role = `RULED_OUT_DIAGNOSIS` → **NEGATIVE** (Hard look-alike). If Role = `PRIMARY_DIAGNOSIS` → proceed to Evidence Gate. |
+| **9** | `evidence_strength` | `E1_CONFIRMATORY` (culture, PCR, biopsy)<br>`E2_STRONG_PROBABLE` (serology, imaging)<br>`E3_SUPPORTIVE_NON_SPECIFIC` (fever, WBC)<br>`E0_CONTRADICTED` (negative lab test) | Continue → Step 10<br>Branch → **NEGATIVE**<br>Branch → **OTHERS** | **Edge 5B/5C:** Only $E_1$ or $E_2$ can support a positive diagnosis. $E_3$ alone exits to `INSUFFICIENT_EVIDENCE`. $E_0$ confirms `NEGATIVE`. |
+| **10** | `contradiction_flag` | `false` (no unresolved conflict)<br>`true` (overturned by subsequent test) | Continue → Step 11<br>Branch → **NEGATIVE** | **Edge 5A:** Presumptive working diagnoses overturned by subsequent negative PCR/biopsy are resolved to `NEGATIVE` or `OTHERS`. |
+| **11** | `vpd_satisfied` | `true`<br>`false` | Branch → **POSITIVE**<br>Branch → **NEG / OTHERS** | **Edge 6A:** Valid Positive Diagnosis holds iff `AFFIRMED` ∧ `CURRENT` ∧ `PRIMARY/COIN` ∧ (`E1` ∨ `E2`) ∧ (`contradiction = False`). |
 | **12** | `dataset_label` | `POSITIVE`<br>`NEGATIVE`<br>`NON-EXCLUSIVE OTHERS` | Final Dataset Partition | Serializes audit record with character-span verification (`case_text[start:end] == quote`). |
 
 ---
@@ -347,46 +347,34 @@ In the original Stanford MedCaseReasoning pipeline, scoring was performed by pro
 ##### 1. Positive Quality Ranking Score ($Score_{POS}$)
 For each candidate pair $c = (\text{ann}, \text{cand})$, $Score_{POS}(c) \in [-70, 100]$ optimizes for definitive microbiological/pathological confirmation combined with comprehensive clinical presentation:
 
-$$Score_{POS}(c) = S_{\text{evidence}}(\text{ann}) + S_{\text{conf}}(\text{ann}) + S_{\text{length}}(\text{cand}) + S_{\text{image}}(\text{cand}) - P_{\text{contra}}(\text{ann})$$
+$$Score_{POS}(c) = S_{\text{evidence}} + S_{\text{conf}} + S_{\text{length}} + S_{\text{image}} - P_{\text{contra}}$$
 
-Where each constituent term is defined as:
+Where each constituent term is defined as follows:
 
-* **Evidence Strength ($S_{\text{evidence}}$):**
-  $$S_{\text{evidence}}(\text{ann}) = \begin{cases} +40 & \text{if } \text{ev} \in \{\text{E1\_CONFIRMATORY}, \text{E1\_CONFIRMATORY\_LAB}, \dots\} \\ +25 & \text{if } \text{ev} \in \{\text{E2\_STRONG\_PROBABLE}, \text{E2\_HIGHLY\_CHARACTERISTIC}, \dots\} \\ +10 & \text{if } \text{ev} \in \{\text{E3\_SUPPORTIVE\_NON\_SPECIFIC}, \dots\} \\ 0 & \text{otherwise} \end{cases}$$
+| Term | Evaluation Dimension | Criteria & Value Assignment | Rationale / Clinical Target |
+|:---|:---|:---|:---|
+| **$S_{\text{evidence}}$** | Evidence Strength (`step9_evidence_strength`) | **+40** if `E1_CONFIRMATORY` (culture, PCR, biopsy)<br>**+25** if `E2_STRONG_PROBABLE` (serology, imaging)<br>**+10** if `E3_SUPPORTIVE_NON_SPECIFIC`<br>**0** otherwise | Rewards microbiological or histopathological confirmation |
+| **$S_{\text{conf}}$** | Annotation Confidence (`confidence`) | **+30** if `HIGH`<br>**+15** if `MEDIUM`<br>**0** otherwise | Diagnostic certainty of extracted findings |
+| **$S_{\text{length}}$** | Narrative Depth ($W = \text{word count}$) | **+20** if $400 \le W \le 1,500$<br>**+10** if $200 \le W < 400$ or $W > 2,500$<br>**-20** if $W < 200$ (penalizes truncated summaries) | Optimal documentation depth for teaching cases |
+| **$S_{\text{image}}$** | Multimodal Anchor (`has_images`) | **+10** if clinical figures or imaging present (`True`)<br>**0** if text-only | Grounding in objective radiological/pathological visuals |
+| **$P_{\text{contra}}$** | Contradiction Penalty (`step10_contradiction_flag`) | **-50** if contradiction flagged (`True`)<br>**0** if no unresolved contradictions | Severe penalty for conflicting or overturned claims |
 
-* **Annotation Confidence ($S_{\text{conf}}$):**
-  $$S_{\text{conf}}(\text{ann}) = \begin{cases} +30 & \text{if } \text{confidence} = \text{"HIGH"} \\ +15 & \text{if } \text{confidence} = \text{"MEDIUM"} \\ 0 & \text{otherwise} \end{cases}$$
-
-* **Narrative Depth ($S_{\text{length}}$) with $W = \text{word\_count}(\text{raw\_case\_text})$:**
-  $$S_{\text{length}}(\text{cand}) = \begin{cases} +20 & \text{if } 400 \le W \le 1,500 \quad (\text{optimal clinical depth}) \\ +10 & \text{if } 200 \le W < 400 \text{ or } W > 2,500 \\ -20 & \text{if } W < 200 \quad (\text{penalize truncated summaries}) \end{cases}$$
-
-* **Multimodal Imaging Anchor ($S_{\text{image}}$):**
-  $$S_{\text{image}}(\text{cand}) = \begin{cases} +10 & \text{if } \text{has\_images} = \text{True} \\ 0 & \text{otherwise} \end{cases}$$
-
-* **Contradiction Penalty ($P_{\text{contra}}$):**
-  $$P_{\text{contra}}(\text{ann}) = \begin{cases} 50 & \text{if } \text{step10\_contradiction\_flag} = \text{True} \\ 0 & \text{otherwise} \end{cases}$$
+---
 
 ##### 2. Negative Quality Ranking Score ($Score_{NEG}$ — Hard Look-Alikes)
 For negative controls, $Score_{NEG}(c) \in [-50, 100]$ prioritizes **hard differential look-alikes** (conditions actively suspected that underwent formal exclusion via objective testing) rather than irrelevant random negatives:
 
-$$Score_{NEG}(c) = S_{\text{role}}(\text{ann}) + S_{\text{conf}}(\text{ann}) + S_{\text{rationale}}(\text{ann}) + S_{\text{length}}(\text{cand}) - P_{\text{contra}}(\text{ann})$$
+$$Score_{NEG}(c) = S_{\text{role}} + S_{\text{conf}} + S_{\text{rationale}} + S_{\text{length}} - P_{\text{contra}}$$
 
-Where each constituent term is defined as:
+Where each constituent term is defined as follows:
 
-* **Exclusion Clinical Role ($S_{\text{role}}$):**
-  $$S_{\text{role}}(\text{ann}) = \begin{cases} +50 & \text{if } \text{role} = \text{"RULED\_OUT\_DIAGNOSIS"} \quad (\text{actively tested and ruled out}) \\ +35 & \text{if } \text{role} = \text{"DIFFERENTIAL\_DIAGNOSIS"} \quad (\text{differential candidate}) \\ +10 & \text{if } \text{role} = \text{"INCIDENTAL\_OR\_HISTORICAL"} \\ +5 & \text{otherwise} \end{cases}$$
-
-* **Exclusion Confidence ($S_{\text{conf}}$):**
-  $$S_{\text{conf}}(\text{ann}) = \begin{cases} +25 & \text{if } \text{confidence} = \text{"HIGH"} \\ +10 & \text{if } \text{confidence} = \text{"MEDIUM"} \\ 0 & \text{otherwise} \end{cases}$$
-
-* **Rationale Depth ($S_{\text{rationale}}$) with $R = \text{word\_count}(\text{rationale})$:**
-  $$S_{\text{rationale}}(\text{ann}) = \begin{cases} +15 & \text{if } R \ge 15 \quad (\text{specific testing grounds articulated}) \\ +5 & \text{if } 5 \le R < 15 \\ 0 & \text{otherwise} \end{cases}$$
-
-* **Narrative Depth ($S_{\text{length}}$) with $W = \text{word\_count}(\text{raw\_case\_text})$:**
-  $$S_{\text{length}}(\text{cand}) = \begin{cases} +10 & \text{if } 300 \le W \le 1,200 \\ +5 & \text{if } 150 \le W < 300 \text{ or } W > 1,200 \\ 0 & \text{otherwise} \end{cases}$$
-
-* **Contradiction Penalty ($P_{\text{contra}}$):**
-  $$P_{\text{contra}}(\text{ann}) = \begin{cases} 50 & \text{if } \text{step10\_contradiction\_flag} = \text{True} \\ 0 & \text{otherwise} \end{cases}$$
+| Term | Evaluation Dimension | Criteria & Value Assignment | Rationale / Clinical Target |
+|:---|:---|:---|:---|
+| **$S_{\text{role}}$** | Exclusion Clinical Role (`step8_clinical_role`) | **+50** if `RULED_OUT_DIAGNOSIS` (actively tested & excluded)<br>**+35** if `DIFFERENTIAL_DIAGNOSIS` (differential candidate)<br>**+10** if `INCIDENTAL_OR_HISTORICAL`<br>**+5** otherwise | Prioritizes true syndromic look-alikes over random negatives |
+| **$S_{\text{conf}}$** | Exclusion Confidence (`confidence`) | **+25** if `HIGH`<br>**+10** if `MEDIUM`<br>**0** otherwise | Certainty that target disease was legitimately excluded |
+| **$S_{\text{rationale}}$** | Rationale Depth ($R = \text{word count}$) | **+15** if $R \ge 15$ words<br>**+5** if $5 \le R < 15$ words<br>**0** otherwise | Explicit articulation of diagnostic testing grounds |
+| **$S_{\text{length}}$** | Narrative Depth ($W = \text{word count}$) | **+10** if $300 \le W \le 1,200$<br>**+5** if $150 \le W < 300$ or $W > 1,200$<br>**0** otherwise | Contextual depth of negative diagnostic workup |
+| **$P_{\text{contra}}$** | Contradiction Penalty (`step10_contradiction_flag`) | **-50** if contradiction flagged (`True`)<br>**0** if no unresolved contradictions | Penalty for unresolved contradictions |
 
 #### C. Deterministic Quality & Anti-Leakage Gate
 Rather than relying on non-deterministic LLM-as-a-judge audits, all 3,289 extracted SOAP cases are audited deterministically by [`src/clinical_data/validation/soap_validator.py`](src/clinical_data/validation/soap_validator.py) and [`src/clinical_data/validation/clinical_annotation_validator.py`](src/clinical_data/validation/clinical_annotation_validator.py):
@@ -464,7 +452,7 @@ The table below summarizes the curated cohort distributions across all 29 target
 | 27 | `typhoid_fever` | `Typhoid_Fever` | 33 | 22 | 55 | 86.52 | 100.00 |
 | 28 | `yellow_fever` | `Yellow_Fever` | 3 | 2 | 5 | 86.67 | 100.00 |
 | 29 | `zika` | `Zika` | 18 | 12 | 30 | 78.89 | 100.00 |
-| **$\Sigma$** | **29 Diseases** | — | **1,974** | **1,315** | **3,289** | **~85.2** | **~89.7** |
+| **Σ** | **29 Diseases** | — | **1,974** | **1,315** | **3,289** | **~85.2** | **~89.7** |
 
 ---
 
