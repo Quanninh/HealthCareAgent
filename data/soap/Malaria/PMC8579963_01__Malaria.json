@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8579963_01",
+  "pair_id": "PMC8579963_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 41-year-old Sudanese woman presented to the emergency department with a 2-day history of high-grade fever (39.5 C) associated with fatigue, nausea, and vomiting. Clinical evaluation and a blood test revealed a diagnosis of malaria, for which treatment was administered. During the next few days, her symptoms worsened, in addition to yellow sclera and low hemoglobin (5.5 g/dL) and platelets (43 cells/mL). The patient was transferred to our rheumatology department at Omdurman Military Hospital for further evaluation. Clinical findings were normal except for jaundice (bilirubin 3.2 mg/dL). She indicated that her sister had Behcet's disease. Upon admission, she developed a severe headache associated with confusion and fever, her blood pressure was unrecordable, and her Glasgow Coma Scale score was 9/15. The rapid-response team was called, and she was admitted to a high-dependency unit, where she received six units of fresh frozen plasma, two pools red blood cells, and kept under close observation. After her condition had stabilized, laboratory investigations were requested (Table 1). A diagnosis of SLE and TTP was made, and she was given imipenem 500 mg, acyclovir 75 mg, electrolyte correction, IV normal saline 0.9%, skin and bladder care (five sessions of plasmapheresis), and methylprednisolone 1 g pulse for 3 days, followed by prednisolone 1 mg/kg in a tapering manner. A few days later, after the infection had been controlled, the patient received four doses of rituximab 375 mg/week with caution. Two weeks later, she was discharged in good general condition, with normal results on complete blood count and renal function testing. She was discharged on hydroxychloroquine 200 mg, azathioprine 50 mg, prednisolone 10 mg, pantoprazole 40 mg, calcium supplement 500 mg, and omega 3. On review at two weeks, she was completely well without any complaints.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old Sudanese woman presented with a 2-day history of high-grade fever (39.5 C), fatigue, nausea, and vomiting, and subsequently deteriorated over several days with jaundice, severe anemia, thrombocytopenia, severe headache, confusion, and shock.",
+      "history_of_present_illness": "Initially diagnosed with malaria after presenting with 2 days of high fever (39.5 C), fatigue, nausea, and vomiting, the patient worsened despite antimalarial therapy, developing scleral icterus, severe anemia, and thrombocytopenia, and arrived at the tertiary rheumatology/military hospital with severe headache, confusion, fever, coma/stupor (GCS 9/15), and unrecordable blood pressure.",
+      "past_medical_history": "Family history of Behcet's disease in her sister.",
+      "review_of_systems": "Positive for high fever, fatigue, nausea, vomiting, jaundice, severe headache, and confusion."
+    },
+    "objective": {
+      "physical_examination": "Initial temperature 39.5 C; upon transfer, jaundiced with severe headache, confusion, unrecordable blood pressure (shock), and Glasgow Coma Scale score of 9/15.",
+      "routine_investigations": "Severe anemia (Hb 5.5 g/dL), severe thrombocytopenia (platelets 43 x 10^3/uL), hyperbilirubinemia (total bilirubin 3.2 mg/dL), and autoimmune/hematologic laboratory profile confirming systemic lupus erythematosus (SLE) and thrombotic thrombocytopenic purpura (TTP).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: New-onset systemic lupus erythematosus (SLE) complicated by thrombotic thrombocytopenic purpura (TTP) and co-presenting with initial malaria. Treated initially with antimalarials, resuscitated in the HDU with 6 units of fresh frozen plasma, 2 pools of packed RBCs, IV normal saline, imipenem 500 mg, and acyclovir 75 mg, and treated for SLE/TTP with 5 sessions of plasmapheresis, pulse IV methylprednisolone (1 g/day for 3 days) followed by oral prednisolone taper (1 mg/kg), and 4 weekly doses of rituximab (375 mg/week); discharged after 2 weeks with normal CBC and renal function on hydroxychloroquine 200 mg, azathioprine 50 mg, and prednisolone 10 mg."
+    }
+  }
+}

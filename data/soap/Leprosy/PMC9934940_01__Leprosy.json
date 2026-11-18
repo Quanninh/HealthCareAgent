@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9934940_01",
+  "pair_id": "PMC9934940_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 23-year-old female who had recently immigrated from Micronesia presented with a one-week history of painful nodules on her lower legs. She noted areas of decreased sensation throughout her upper and lower extremities. Associated symptoms included intermittent fever and night sweats. Previous treatment consisted of cephalexin for possible cellulitis, which was prescribed by her infectious disease physician, as well as empiric treatment with an unknown medication for nine months beginning two years prior from a leprosy clinic in Micronesia. Since relocating to the United States, she had discontinued all medications. Past medical history was negative for any immunodeficiencies. Physical examination revealed edema and erythema of the bilateral lower limbs with painful subcutaneous nodules of varying sizes. Hypopigmented macules were present on the upper arms, legs, and trunk (Figure 1).\nLaboratory evaluation was significant for leukocytosis and anemia. Quantiferon-TB Gold was negative. An 8 mm punch biopsy was performed along the lateral aspect of her left leg, which revealed noncaseating granulomatous inflammation with numerous bacilli highlighted by the Fite stain (Figure 2). The acid-fast bacilli smear was positive. Given the patient's clinical, laboratory, and histological findings, a diagnosis of lepromatous leprosy with a type 2 erythema nodosum leprosum reaction was established.\nTherapeutic management was initiated with rifampin, dapsone, folic acid, minocycline, and a short course of prednisone, which provided symptomatic relief. A trial of clofazimine was then administered following approval from her ophthalmologist.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old female recent immigrant from Micronesia presented with a 1-week history of painful nodules on both lower legs, intermittent fever, and night sweats alongside chronic upper and lower extremity sensory loss.",
+      "history_of_present_illness": "The patient presented with a 1-week history of tender subcutaneous nodules over her bilateral lower legs, intermittent fevers, and night sweats, superimposed on widespread areas of decreased sensation across her upper and lower extremities. Outpatient cephalexin prescribed for suspected cellulitis failed to improve her symptoms.",
+      "past_medical_history": "Recently immigrated from Micronesia, where she had received an unknown empirical medication from a leprosy clinic for 9 months starting 2 years earlier, discontinuing all medications upon relocating to the United States. Negative for known immunodeficiencies.",
+      "review_of_systems": "Positive for painful lower leg nodules, intermittent fever, night sweats, and four-extremity hypoesthesia."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed bilateral lower extremity erythema, edema, and variably sized tender subcutaneous nodules, accompanied by hypopigmented macules distributed over the upper arms, legs, and trunk, with decreased sensation across the upper and lower limbs.",
+      "routine_investigations": "Laboratory workup demonstrated leukocytosis, anemia, and a negative QuantiFERON-TB Gold test.",
+      "advanced_workup": "An 8-mm skin punch biopsy from the lateral left leg and an acid-fast bacilli (AFB) smear were performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Left leg punch biopsy demonstrated noncaseating granulomatous inflammation containing numerous acid-fast bacilli on Fite staining and the AFB smear was positive, confirming multibacillary lepromatous leprosy complicated by a Type 2 erythema nodosum leprosum (ENL) reaction. Treatment with rifampin, dapsone, folic acid, minocycline, and a short course of oral prednisone provided prompt symptomatic relief, followed by initiation of clofazimine after ophthalmologic clearance."
+    }
+  }
+}

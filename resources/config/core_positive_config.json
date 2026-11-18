@@ -1,0 +1,114 @@
+{
+  "dataset_name": "core_positive_1500",
+  "description": "Core Positive Dataset comprising up to the first 100 POSITIVE records per target disease in original file order",
+  "version": "1.0",
+  "target_positives_per_disease": 100,
+  "total_expected_target": 1500,
+  "diseases": [
+    {
+      "target_disease": "Brucellosis",
+      "slug": "brucellosis",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_brucellosis.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_brucellosis.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Chikungunya",
+      "slug": "chikungunya",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_chikungunya.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_chikungunya.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Cholera",
+      "slug": "cholera",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_cholera.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_cholera.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "COVID-19",
+      "slug": "covid_19",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_covid_19.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_covid_19.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Dengue",
+      "slug": "dengue",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_dengue.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_dengue.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Ebola_Filovirus",
+      "slug": "ebola_filovirus",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_ebola_filovirus.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_ebola_filovirus.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "HIV_AIDS",
+      "slug": "hiv_aids",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_hiv_aids.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_hiv_aids.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Leishmaniasis",
+      "slug": "leishmaniasis",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_leishmaniasis.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_leishmaniasis.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Leptospirosis",
+      "slug": "leptospirosis",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_leptospirosis.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_leptospirosis.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Malaria",
+      "slug": "malaria",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_malaria.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_malaria.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Rabies",
+      "slug": "rabies",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_rabies.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_rabies.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Tuberculosis",
+      "slug": "tuberculosis",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_tuberculosis.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_tuberculosis.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Typhoid_Fever",
+      "slug": "typhoid_fever",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_typhoid_fever.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_typhoid_fever.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Yellow_Fever",
+      "slug": "yellow_fever",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_yellow_fever.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_yellow_fever.jsonl",
+      "target_positives": 100
+    },
+    {
+      "target_disease": "Zika",
+      "slug": "zika",
+      "output_file": "data/annotation_workdir/labeled_pool/output/output_zika.jsonl",
+      "input_file": "data/annotation_workdir/labeled_pool/input/input_zika.jsonl",
+      "target_positives": 100
+    }
+  ]
+}

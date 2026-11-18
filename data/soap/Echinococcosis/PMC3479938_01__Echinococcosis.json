@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3479938_01",
+  "pair_id": "PMC3479938_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 14-year-old male complained about a mobile shadow in his central visual field that he had had in his left eye for the preceding 3 months. He was born at 32 weeks of gestation. His ocular history was unremarkable. His medical history was positive for non-Hodgkin lymphoma, which had been cured following six courses of chemotherapy several years previously. He denied any ocular surgery.\nThe clinical assessment comprised a physical examination, blood tests, including a hemogram, serology for Toxoplasma gondi, Toxocara, Echinococcosis and cysticercosis, and a blood cell count for eosinophils. All of the blood tests were normal. Abdominal, thoracic, and brain magnetic resonance showed no pathological aspects. The patient referred to a history of head trauma during sports in the previous few years and a few days before the visual complaints. He did not report any inflammation or infections. \nVisual acuity was 20/20 in the right eye and had dropped from 20/20 to 20/40 in the left eye in the previous three months. When the floater did not interfere with the visual axis, visual acuity was also 20/20 in the left eye. Slit-lamp biomicroscopy revealed a normal anterior segment, with no signs of inflammation, and with iris translucency, transparent media, isochoric and photoreactive pupils, and a clear vitreous. His intraocular pressure was 14 mmHg bilaterally. \nFundus examination of the right eye did not reveal any abnormalities. In the left eye there was a brownish, oval-shaped structure floating in the vitreous cavity, while the macula and peripheral retina appeared normal (Figure 1(a)). The cyst was translucent, with a smooth, brown-pigmented surface (Figure 1(b)). Gray-scale ultrasound evaluation (Gine Scan S, Quantel Medical, France) revealed a normal echogenic right eye. Real-time B-scan ultrasound of the left eye demonstrated an oval-spherical hypoechogenic mass with hyperreflective edges, with a 2.6-mm maximal diameter, which was floating at the posterior pole, and which was not attached to any other ocular structures (Figure 1(c)). No posterior vitreous detachment was detected. Color Doppler examination revealed an absence of vessels going through the vitreous of both globes and within the cyst (Figure 1(d)). No calcification was seen. Periodic observation was recommended without any treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old male presented with a 3-month history of a mobile shadow in the central visual field of his left eye.",
+      "history_of_present_illness": "The patient noticed a mobile floater/shadow in the central visual field of his left eye for 3 months that intermittently reduced his visual acuity when crossing the visual axis.",
+      "past_medical_history": "Born preterm at 32 weeks of gestation; history of non-Hodgkin lymphoma cured with 6 cycles of chemotherapy several years earlier; history of sports-related head trauma in previous years and a few days prior to visual symptom onset; no prior ocular surgery.",
+      "review_of_systems": "Positive for a mobile left central visual field shadow; negative for ocular pain, redness, or systemic infection."
+    },
+    "objective": {
+      "physical_examination": "Best-corrected visual acuity was 20/20 in the right eye and fluctuated between 20/40 (when obscured by the floater) and 20/20 in the left eye; intraocular pressure was 14 mmHg bilaterally. Slit-lamp biomicroscopy of the anterior segment and right fundus was normal; left funduscopy revealed a translucent, smooth, brown-pigmented oval cyst floating freely in the vitreous cavity with a normal macula and peripheral retina.",
+      "routine_investigations": "Complete hemogram, eosinophil count, and serologies for Toxoplasma gondii, Toxocara, Echinococcus, and cysticercosis were all normal/negative. Real-time B-scan and color Doppler ocular ultrasound showed a 2.6-mm avascular, non-calcified, hypoechoic oval-spherical mass with hyperreflective edges floating freely at the left posterior pole without vitreous detachment.",
+      "advanced_workup": "Brain, thoracic, and abdominal MRI scans showed no abnormalities."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Benign idiopathic/post-traumatic free-floating pigmented vitreous cyst of the left eye (intraocular hydatid cyst, cysticercosis, toxocariasis, and toxoplasmosis excluded by negative serologies, normal eosinophil count, and negative systemic MRI). Given the absence of ocular inflammation and preserved 20/20 visual acuity outside the floater axis, conservative management with periodic ophthalmologic observation was recommended."
+    }
+  }
+}

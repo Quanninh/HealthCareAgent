@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7490298_02",
+  "pair_id": "PMC7490298_02::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Case 2: A 23 year old patient that reported fever, arthralgia, exanthema and pruritus in the third trimester of gestation. Her IgM serology was positive for Zika, the PRNT90% was positive (Supplementary Table S1) and the qPCR was positive for Zika in serum (820 copies/ml) and urine (160 copies/ml). Her IgG serology was positive for cytomegalovirus and rubella. The test for dengue NS1 was negative. At 38 weeks of gestation, her baby girl was born by cesarean delivery that presented with cephalic circumference of 37 cm. The placenta weighed 555 g.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old pregnant woman presented in the third trimester of gestation with fever, arthralgia, exanthema, and pruritus.",
+      "history_of_present_illness": "During the third trimester of pregnancy, the 23-year-old patient developed an acute symptomatic illness consisting of fever, arthralgia, cutaneous exanthema, and pruritus, and was followed through delivery at 38 weeks of gestation.",
+      "past_medical_history": "Pregnant woman in the third trimester; positive IgG serology for cytomegalovirus and rubella indicating prior immunity.",
+      "review_of_systems": "Positive for fever, arthralgia, exanthema, and pruritus during the third trimester."
+    },
+    "objective": {
+      "physical_examination": "Exanthema noted during the third trimester. At 38 weeks of gestation, her female newborn delivered via cesarean section had a head (cephalic) circumference of 37 cm, and the placenta weighed 555 g.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Confirmed maternal Zika virus infection in the third trimester of pregnancy with term delivery of a normocephalic female infant. Maternal Zika virus infection was confirmed by positive ZIKV IgM serology, positive 90% plaque reduction neutralization test (PRNT90%), and positive ZIKV quantitative RT-PCR (qPCR) in both serum (820 copies/mL) and urine (160 copies/mL). Dengue NS1 antigen testing was negative, and maternal IgG antibodies were positive for cytomegalovirus and rubella. She delivered a healthy baby girl by cesarean section at 38 weeks of gestation (head circumference 37 cm)."
+    }
+  }
+}

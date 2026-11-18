@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11021106_01",
+  "pair_id": "PMC11021106_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "We present the case of a 45-year-old male with an Egyptian background and a history of smoking who was referred from another hospital due to headache, dizziness, and blurred vision. Brain imaging revealed a solitary cystic lesion in the right temporal region, extending into the temporal horn of the right lateral ventricle and surrounded by mild edema [Figures 1 and 2]. The cyst's medial wall was adherent to the right tentorium cerebelli. Differential diagnoses considered included brain metastasis, abscess, and tuberculoma. However, after conducting computed tomography (CT) scans of the chest, abdomen, and pelvis, a hydatid cyst was also suspected. The CT scan [Figure 3] showed diffuse non-specific cystic lesions in the liver and spleen, as well as numerous pulmonary nodules/cysts. Microbiology and immunology panels were negative, but the E. granulosus antibody titer was elevated, confirming the diagnosis of a brain hydatid cyst. The patient was initiated on albendazole therapy before surgery. A right temporal craniotomy was performed using neuronavigation for localization. The cyst, measuring 3.0 x 3.0 x 1.0 cm, was successfully excised without rupture using microsurgical techniques [Figure 4]. Cyst fluid was examined microscopically, revealing protoscolices of E. granulosus with hooks and refractile structures [Figure 5]. Histopathological examination confirmed the diagnosis of a hydatid cyst [Figure 6]. Postoperatively, the patient showed significant improvement in symptoms, and follow-up imaging confirmed complete resection of the cyst without complications [Figures 7 and 8].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old male presented with headache, dizziness, and blurred vision.",
+      "history_of_present_illness": "The patient was referred from an outside hospital for evaluation of progressive headache, dizziness, and blurred vision after initial brain imaging identified a right temporal cystic mass.",
+      "past_medical_history": "Egyptian background; history of smoking.",
+      "review_of_systems": "Positive for headache, dizziness, and blurred vision."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Microbiology and immunology panels were negative, whereas the Echinococcus granulosus serum antibody titer was elevated.",
+      "advanced_workup": "Brain imaging (CT/MRI) demonstrated a solitary 3.0 x 3.0 x 1.0 cm cystic lesion in the right temporal lobe extending into the temporal horn of the right lateral ventricle, adherent medially to the right tentorium cerebelli and surrounded by mild edema. CT of the chest, abdomen, and pelvis revealed diffuse non-specific cystic lesions in the liver and spleen and numerous pulmonary nodules/cysts. Following neuronavigation-guided right temporal craniotomy and intact microsurgical excision of the cyst, microscopic examination of the cyst fluid revealed E. granulosus protoscolices with hooks and refractile structures, and histopathology confirmed a cerebral hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Cerebral hydatid cyst in the right temporal lobe with disseminated hepatic, splenic, and pulmonary hydatidosis, confirmed by elevated E. granulosus antibody titers, microscopic visualization of protoscolices and hooklets in cyst fluid, and histopathology (ruling out brain metastasis, abscess, and tuberculoma). The patient received preoperative albendazole, underwent intact microsurgical resection via neuronavigation-guided right temporal craniotomy, and achieved marked symptomatic improvement with complete resection confirmed on postoperative imaging."
+    }
+  }
+}

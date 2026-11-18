@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6732635_03",
+  "pair_id": "PMC6732635_03::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 42-year-old man with no particular history was hospitalized for drowsiness, 38.9 C fever and a heart rate of 140 beats/minute. He weighed 55 kg. The thick peripheral blood smear was positive with 17,400 Plasmodium falciparum trophozoites per mm3. The hemoglobin concentration was 10.3 g/dl, and blood glucose was 9.4 mmol/L. Quinine treatment at a dose of 25 mg/kg per 24 hours was instituted in the emergency department. Obnubilation-type consciousness disorders and conjunctival jaundice appeared after 12 hours of hospitalization. Even though the patient was afebrile, the diagnosis of BWF was evoked due to the port wine color of his urine. The emergency bioassay showed a creatinemia of 720 mumol, urea of 28 mmol, and hemoglobin of 5.5 g/dl. Quinine was immediately stopped, in favor of intramuscularly injected artemether prescribed at a dose of 3.2 mg/kg daily on day 1 and 1.6 mg/kg daily from day 2 to day 5. Unfortunately, the patient only received the first dose because he died less than 24 hours after admission of shock in coma and with anuria.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old man presented with drowsiness, high fever (38.9 C), and tachycardia, and developed obtundation, conjunctival jaundice, anuria, and port-wine-colored urine 12 hours after starting intravenous quinine.",
+      "history_of_present_illness": "Admitted with drowsiness, fever (38.9 C), and tachycardia (140 bpm), the patient was started on emergency quinine (25 mg/kg/24 h) for smear-positive falciparum malaria. Twelve hours later, he became afebrile but developed obtundation, conjunctival jaundice, port-wine-colored urine, and anuric shock.",
+      "past_medical_history": "No notable past medical history; weight 55 kg.",
+      "review_of_systems": "Positive for fever, drowsiness/obtundation, jaundice, port-wine-colored urine, and anuria."
+    },
+    "objective": {
+      "physical_examination": "On admission: drowsy, temperature 38.9 C, HR 140 bpm, weight 55 kg. At 12 hours post-admission: afebrile, obtunded/comatose, conjunctival jaundice, port-wine-colored urine, anuria, and shock.",
+      "routine_investigations": "Admission labs: Hb 10.3 g/dL, blood glucose 9.4 mmol/L. At 12 hours (onset of blackwater fever): Hb plummeted to 5.5 g/dL, serum creatinine was 720 umol/L, and blood urea was 28 mmol/L.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal acute quinine-induced blackwater fever (BWF) with fulminant intravascular hemolysis, acute renal failure, anuria, coma, and shock complicating Plasmodium falciparum malaria. Admission thick peripheral blood smear was positive with 17,400 P. falciparum trophozoites/mm3. Quinine (25 mg/kg/24 h) was stopped at 12 hours and switched to intramuscular artemether (3.2 mg/kg day 1), but the patient died in comatose anuric shock within 24 hours of admission."
+    }
+  }
+}

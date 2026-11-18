@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3987999_02",
+  "pair_id": "PMC3987999_02::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "Clinical data: A 63-year-old male patient with diabetes mellitus, taking acetylsalicylic acid (100 mg) and Daonil, developed a sudden onset of headache, myalgia, anorexia, abdominal pain. Four days later he presented diarrhea, hemoptysis, leukopenia, thrombocytopenia (platelet 79.000/mm3) and hemoconcentration (hematocrit 59%). Biochemical parameters evaluated in the serum: aspartate aminotransferase 75 IU/L; alanine aminotransferase 21 IU/L; creatine phosphokinase 126 IU/L; creatinine 5.0 mg/dL; urea 57 mg/dL; lipase 41 IU/L. Ultrasonography revealed peri-hepatic and peri-pancreatic collections confirmed by computed tomography of the abdomen that also revealed: increase of the heart, discrete opacities in the left lung with marginal pleural reaction at the base of this hemithorax, distended gall bladder. Furthermore, he was submitted to routine of acute abdomen that revealed no gaseous distention. Physical examination on admission revealed blood pressure of 140/80 mmg and dehydration with cutaneous rash and petechiae. The patient presented a progressive worsening of the clinical, evolving to shock with severe pulmonary congestion, orotracheal intubation and respiratory orthesis, with the use of dopamine and dobutamine. In the next day, it was observed a hemodynamic instability and oliguria, with consequently administration of norepinephrine in increasing doses, culminating in refractory shock and death. The patient died with a clinical diagnosis of dengue hemorrhagic fever, severe ischemic cardiomyopathy and pancreatitis.\n Necropsy data: Multiple purpuric and petechial hemorrhagic lesions were evident, especially around needle puncture sites. Hemorrhages were also present in serous cavities, including hemorrhagic pleuritis (sulphation of the visceral pleura) and fibrin pericarditis. The liver and spleen were grossly congested with multiple hemorrhagic foci, and a perforated duodenal ulcer was described.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old male presented with sudden-onset headache, myalgia, anorexia, and abdominal pain, followed 4 days later by diarrhea and hemoptysis.",
+      "history_of_present_illness": "The patient developed acute headache, myalgia, anorexia, and abdominal pain, progressing 4 days later to diarrhea and hemoptysis. After hospital admission, he deteriorated rapidly into refractory shock with severe pulmonary congestion and oliguria, dying the following day.",
+      "past_medical_history": "Diabetes mellitus.",
+      "review_of_systems": "Positive for sudden headache, myalgia, anorexia, abdominal pain, diarrhea, hemoptysis, cutaneous rash, petechiae, and oliguria. Home medications: acetylsalicylic acid (100 mg) and glibenclamide (Daonil)."
+    },
+    "objective": {
+      "physical_examination": "On admission: blood pressure 140/80 mmHg, dehydration, cutaneous rash, and petechiae; subsequently progressed to shock, severe pulmonary congestion, and oliguria.",
+      "routine_investigations": "Leukopenia, thrombocytopenia (platelets 79,000/mm3), hemoconcentration (hematocrit 59%), AST 75 IU/L, ALT 21 IU/L, CPK 126 IU/L, creatinine 5.0 mg/dL, urea 57 mg/dL, and lipase 41 IU/L. Acute abdomen radiograph series showed no gaseous distension; abdominal ultrasonography revealed perihepatic and peripancreatic fluid collections.",
+      "advanced_workup": "Abdominal CT confirmed perihepatic and peripancreatic collections, cardiomegaly, discrete left lung base opacities with marginal pleural reaction, and a distended gallbladder. Autopsy (necropsy) revealed multiple purpuric/petechial hemorrhages around puncture sites, hemorrhagic pleuritis, fibrinous pericarditis, congested liver and spleen with hemorrhagic foci, and a perforated duodenal ulcer."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Fatal dengue hemorrhagic fever/dengue shock syndrome complicated by acute kidney injury, pancreatitis, severe ischemic cardiomyopathy, and perforated duodenal ulcer, established by clinical presentation, hemoconcentration (Hct 59%), thrombocytopenia (79,000/mm3), CT imaging, and necropsy findings. Managed with orotracheal intubation, mechanical ventilation, and dopamine, dobutamine, and escalating norepinephrine infusions, but he succumbed to refractory shock the day after admission."
+    }
+  }
+}

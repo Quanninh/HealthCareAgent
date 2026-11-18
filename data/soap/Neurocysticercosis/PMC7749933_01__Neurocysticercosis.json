@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7749933_01",
+  "pair_id": "PMC7749933_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 45-year-old woman living in an endemic area for cysticercosis, presented with chronic severe headaches, progressive deterioration of 6 months in visual acuity with blurring of her left-sided vision that caused her to bump into objects on her left side and later in the right eye.\nOn neurological examination, visual acuity in the right eye 20/60 and in the left eye 20/80, isochoric pupils of 2 mm and normal light reflex, bitemporal hemianopia, and extraocular movements were of full range, fundus examination was within normal limits.\nPituitary hormonal assay was carried out and was found to be normal. Brain magnetic resonance (MR) showed a cystic image in the sellar and suprasellar region (i.e., 17 x 20 x 22 mm) hyperintense on T2 sequence and hypointense on T1 with no capsule enhancement on the contrast study, causing upward displacement and compression of the optic chiasm [Figure 1].\nThe patient underwent a supraorbital transciliar keyhole approach. This was performed utilizing microscopic visualization and we identified a cyst with a firm avascular capsule, clear liquid content, with lax adhesions to the chiasm, optic nerves and to a small area of thickened arachnoid and diaphragm sellae, without arterial compromise that was fully resected without complications or incidents [Figure 2]. Histological examination revealed a parasitic wall characterized by wavy, dense cuticle, and focal globular structure, surrounding inflammatory, mononuclear lymphocytic reaction with plasma cells [Figure 3]. Postoperative lentil lectin glycoprotein enzyme-linked immunoelectrotransfer blot was positive. These findings were compatible with cysticercosis cyst. Postoperatively, course was satisfactory with improvement of the visual fields, leading to discharge home 3 days after surgery.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old woman from a cysticercosis-endemic area presented with chronic severe headaches and a 6-month history of progressive bilateral visual loss beginning in the left visual field.",
+      "history_of_present_illness": "Over the 6 months prior to presentation, the patient experienced chronic severe headaches and progressive visual acuity deterioration, initially noticing left-sided visual blurring that caused her to bump into objects on her left side and subsequently progressing to involve the right eye.",
+      "past_medical_history": "Resided in an area endemic for cysticercosis.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Neurological and ophthalmic examination revealed visual acuity of 20/60 in the right eye and 20/80 in the left eye, bitemporal hemianopia, isochoric 2 mm pupils with normal light reflexes, full extraocular movements, and normal fundoscopy.",
+      "routine_investigations": "Pituitary hormonal profile was within normal limits.",
+      "advanced_workup": "Brain MRI demonstrated a 17 x 20 x 22 mm sellar and suprasellar cystic lesion (T1-hypointense, T2-hyperintense, without capsular enhancement on post-contrast sequences) causing upward displacement and compression of the optic chiasm."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient underwent complete microsurgical cyst resection via a supraorbital transciliary keyhole approach, excising a firm avascular capsule filled with clear fluid that had lax adhesions to the optic chiasm, optic nerves, and diaphragm sellae. Histopathological examination revealed a parasitic wall with a wavy dense cuticle, focal globular structure, and surrounding lymphoplasmacytic inflammation, and postoperative lentil lectin glycoprotein EITB was positive, confirming intrasellar/suprasellar neurocysticercosis. Her visual fields improved postoperatively and she was discharged home 3 days after surgery."
+    }
+  }
+}

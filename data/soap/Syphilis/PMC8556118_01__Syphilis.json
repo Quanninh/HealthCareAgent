@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8556118_01",
+  "pair_id": "PMC8556118_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 43-year-old man with migraine as medical history for which he did not take any active pharmacological treatment begins two hours before his arrival in the emergency room with diplopia, speech alteration, and decreased level of consciousness with frequent fluctuations. He denied the consumption of any associated toxics.\nThe physical examination revealed predominantly femoral right hemiparesis, binocular strabismus with limited convergence and vertical eye movements, nonreactive miotic pupils, and fluctuations in the level of consciousness with a score on the Glasgow Scale that varied between 8 and 10.\nAmong the complementary tests that were requested, the analyses showed no alterations (including toxic and drug profiles) and the baseline computerized axial tomography (TC) showed no haemorrhage or incipient signs of ischemia (Figure 1).\nDuring his stay, the fluctuation in the level of consciousness persists and a right hemiparesis de novo is observed. Suspecting a posterior circulation stroke and in the absence of contraindications, intravenous thrombolysis was performed. The study was completed with the performance of computerized angiography that revealed a bilateral thalamic hypodensity predominantly in the posterior left thalamus (bitalamic infarction, probably Percheron) which was confirmed with the performance of magnetic resonance imaging (Figures 2 and 3), where a bilateral acute thalamic infarction compatible with Percheron syndrome is finally observed, appreciating hemorrhagic transformation in the left thalamus.\nDue to the persistence of the alteration in the level of consciousness, the patient was admitted to the intensive care unit (ICU) for neurological control. During his stay in the ICU, the patient fully recovered his level of consciousness, persisting only at discharge a binocular diplopia of less intensity.\nThe study was completed with a study of autoimmunity, vitamin B12 and folic acid, serologies for brucellosis, human immunodeficiency virus, and syphilis that did not show any alterations and the performance of a regulated echocardiogram which revealed a patent foramen ovale, without intracardiac thrombosis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 43-year-old man presented with a 2-hour history of acute binocular diplopia, speech alteration, right hemiparesis, and fluctuating decreased level of consciousness.",
+      "history_of_present_illness": "Two hours prior to emergency department arrival, the patient acutely developed double vision, slurred/altered speech, right lower-limb-predominant hemiparesis, and fluctuating stupor/somnolence.",
+      "past_medical_history": "History of migraine headaches (not on prophylactic pharmacotherapy); denied illicit drug or toxin use.",
+      "review_of_systems": "Positive for acute diplopia, speech disturbance, right hemiparesis, and fluctuating consciousness."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed a fluctuating level of consciousness (Glasgow Coma Scale score varying between 8 and 10), nonreactive miotic pupils, binocular strabismus with vertical gaze palsy and impaired convergence, and right crural-predominant hemiparesis.",
+      "routine_investigations": "Routine blood chemistry, toxicology/drug screens, autoimmune panel, vitamin B12, folate, and infectious serologies for brucellosis, HIV, and syphilis were all normal or negative. Regulated echocardiography revealed a patent foramen ovale (PFO) without intracardiac thrombus.",
+      "advanced_workup": "Initial non-contrast head CT was normal, whereas subsequent CT angiography and brain MRI demonstrated acute bilateral paramedian thalamic infarctions (predominantly involving the posterior left thalamus with mild hemorrhagic transformation) diagnostic of an Artery of Percheron occlusion."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed acute bilateral paramedian thalamic ischemic stroke due to Artery of Percheron occlusion associated with a patent foramen ovale (meningovascular syphilis, HIV, brucellosis, and autoimmune vasculitis excluded). Treated acutely with intravenous thrombolysis and ICU neurocritical care monitoring, achieving full recovery of consciousness and discharge with only mild residual binocular diplopia."
+    }
+  }
+}

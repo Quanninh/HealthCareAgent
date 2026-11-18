@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3350011_01",
+  "pair_id": "PMC3350011_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 30-year-old female was admitted in our department with chief complaints of intermittent pain right upper abdomen of 4-year duration. Past history was insignificant, and systemic examination was normal. Complete blood counts, liver and kidney function tests were within normal limits. ELISA for hydatid serology was negative. Ultrasonography abdomen revealed a cystic area 340 cubic centimeters in volume in relation to segment 6 of liver and extending to right suprarenal region. Contrast computerized tomographic scan of the abdomen was done which revealed a unilocular cyst in the right lobe of liver with a provisional diagnosis of hydatid cyst liver (Figure 1). Exploratory laparotomy revealed a normal appearing liver with a 10 x 8 x 8 centimetres cyst in the retroperitoneum between liver and right suprarenal area and extending to the right hemidiaphragm (Figures 2 and 3). Intraoperatively, the cyst was located only after liberal mobilization of liver and suprarenal area, the cyst was located quite deep in retroperitoneum in the immediate vicinity of inferior vena cava and portal vein. Only an indentation on the liver surface adjacent to the cystic lesion was observed. The cyst contained mutinous fluid. No evidence of laminated hydatid membrane or daughter cysts was found. Whole of the cyst fluid was drained, and the cyst was left there keeping in view the difficult location. Tube drain was put in to drain the cavity. The patient had an uneventful postoperative recovery and was discharged on 3rd postoperative day. The drain was removed after 2 weeks of followup.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old female presented with a 4-year history of intermittent right upper quadrant abdominal pain.",
+      "history_of_present_illness": "The patient experienced intermittent right upper abdominal pain over a 4-year period prior to hospital admission.",
+      "past_medical_history": "Unremarkable past medical history.",
+      "review_of_systems": "Positive for intermittent right upper quadrant pain."
+    },
+    "objective": {
+      "physical_examination": "Systemic and abdominal physical examinations were normal.",
+      "routine_investigations": "Complete blood counts, liver function tests, and renal function tests were normal, and Echinococcus IgG ELISA serology was negative. Abdominal ultrasonography showed a 340-cc cystic lesion adjacent to hepatic segment VI extending into the right suprarenal region.",
+      "advanced_workup": "Contrast-enhanced abdominal CT demonstrated a unilocular cyst initially interpreted as a right lobe hepatic hydatid cyst. Exploratory laparotomy after mobilization of the liver and right suprarenal region revealed a normal liver (with only surface indentation) and a deep 10 x 8 x 8 cm retroperitoneal cyst adjacent to the inferior vena cava, portal vein, and right hemidiaphragm containing mucinous fluid without laminated membranes or daughter cysts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Benign primary retroperitoneal mucinous cyst mimicking a right lobe hepatic hydatid cyst (hydatid disease excluded by negative ELISA serology and absence of laminated membrane or daughter cysts at laparotomy). Complete cyst fluid evacuation and tube drainage were performed due to proximity to the IVC and portal vein; the patient was discharged on postoperative day 3 and the drain was removed at 2 weeks."
+    }
+  }
+}

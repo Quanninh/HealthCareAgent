@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3523429_01",
+  "pair_id": "PMC3523429_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "In 2009, a 52-year-old woman presented with a single lesion on her nose, which started as a papule, referred to Sedighe Tahereh Clinic, Isfahan, Iran. The lesion had existed for a period of 14 months and was slowly increasing in size, enlarging to a plaque. The diagnosis of leishmaniasis was confirmed with a positive smear of the lesion showing leishmania bodies about 1 year before. All five members of her family had had a history of proven leishmaniasis. In the past medical history, the patient was a renal failure case since 11 years before and received a renal transplant 4 years after the diagnosis of renal failure. She was also suffering from hypertension and hyperlipidemia. She was receiving oral mycophenolate mofetil (2 g daily) and cyclosporine (100 mg daily). Her skin type was determined as IV in the skin examination. No actinic keratosis was present. A 3x3 cm indurated ulcer with elevated borders was present on the tip of her nose (Figure 1). Her therapeutic plan was intralesional glucantime injection (approximately 1 ml of 1.5 g vial per week, intralesional injection). After completing a therapeutic course of 20 sessions receiving intralesional glucantime injections, she was considered as glucantime therapy resistant. Therefore, surgical excision was advised and performed under local anesthesia. The histopathology was that of a BCC.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old female renal transplant recipient presented in 2009 with a 14-month history of a slowly enlarging, treatment-refractory ulcerated plaque on the tip of her nose.",
+      "history_of_present_illness": "The nasal lesion began 14 months earlier as a papule, was diagnosed as cutaneous leishmaniasis 1 year prior by a positive direct skin smear showing Leishmania bodies, and slowly enlarged into an ulcerated plaque despite 20 weekly sessions of intralesional meglumine antimoniate (Glucantime, ~1 mL of 1.5 g vial/week).",
+      "past_medical_history": "End-stage renal disease diagnosed 11 years prior, status post renal transplantation 7 years prior; hypertension and hyperlipidemia; all five family members had a history of proven cutaneous leishmaniasis in Isfahan, Iran.",
+      "review_of_systems": "Home immunosuppressive medications: oral mycophenolate mofetil 2 g/day and cyclosporine 100 mg/day."
+    },
+    "objective": {
+      "physical_examination": "Fitzpatrick skin type IV without actinic keratosis; a 3 x 3 cm indurated ulcer with elevated borders on the tip of the nose.",
+      "routine_investigations": "Prior direct skin smear 1 year earlier was positive for Leishmania bodies.",
+      "advanced_workup": "Complete surgical excision under local anesthesia and histopathological examination of the refractory nasal ulcer demonstrated basal cell carcinoma (BCC)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Although cutaneous leishmaniasis had been documented on an initial smear 1 year earlier, refractoriness to 20 weekly sessions of intralesional meglumine antimoniate prompted surgical excision, and definitive histopathology established nasal basal cell carcinoma (BCC) arising in an immunosuppressed renal transplant recipient."
+    }
+  }
+}

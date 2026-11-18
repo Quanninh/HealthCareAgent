@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10343119_01",
+  "pair_id": "PMC10343119_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 24-year-old heterosexual sexually active male, presented with asymptomatic erythematous lesions over the trunk and extensors for 5 days. There was no history of fever, and other constitutional symptoms before the development of the rash or similar complaints in his partner.\nThe patient was diagnosed with primary chancre over the shaft of the penis by his dermatologist which was confirmed with Treponema pallidum hemagglutination and venereal disease research laboratory (VDRL) reactivity a month ago (the titers of which were not available). He was treated with a tablet azithromycin 250 mg twice daily for 5 days. The chancre subsequently healed for 10-14 days.\nOn cutaneous examination, multiple well-defined erythematous macules and few papules were present over the chest, trunk, and palms [Figures 1-3]. There was complete sparing of the face, soles, and mucosa. No lymphadenopathy was noted. A healed atrophic scar was present over the shaft of the penis [Figure 4].\nWith a clinical diagnosis of secondary syphilis, we advised a repeat VDRL test which turned out to be reactive with a titer of 1:16. The patient was administered deep intramuscular injection of benzathine penicillin after a test dose, after which he was sent home.\nAround 8 h after the injection, at his home, the patient complained of pruritis over existing lesions along with rapid spread of erythematous lesions covering the entire chest, back, and abdomen. No complaints of fever, myalgia, or shortness of breath. On examination, multiple well-defined widespread erythematous macules and papules were present over the chest, back, and abdomen [Figures 5 and 6]. There was no facial swelling or breathlessness. There was no mucosal involvement. A diagnosis of JHR was made. Tablet levocetirizine 10 mg and topical calamine lotion and clobetasol 0.05% ointment were prescribed. The lesions resolved overnight and the patient was symptomatically better by the next morning.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old male presented with a 5-day history of asymptomatic erythematous lesions over his trunk, chest, palms, and extensor surfaces.",
+      "history_of_present_illness": "The patient developed asymptomatic erythematous macules and papules on his trunk and extensor surfaces 5 days prior to presentation without preceding fever or constitutional symptoms. One month earlier, he had been diagnosed by a dermatologist with a primary penile shaft chancre (reactive VDRL and TPHA, titers unavailable) and treated with oral azithromycin 250 mg twice daily for 5 days, with the penile ulcer healing over 10-14 days.",
+      "past_medical_history": "Sexually active heterosexual male; history of primary penile chancre 1 month prior treated suboptimally with oral azithromycin. Female partner had no similar symptoms.",
+      "review_of_systems": "Positive for asymptomatic trunk and palmar rash; negative for fever, myalgia, or constitutional symptoms prior to injection. Recent medication: oral azithromycin 250 mg BID for 5 days 1 month prior."
+    },
+    "objective": {
+      "physical_examination": "Baseline cutaneous examination revealed multiple well-defined erythematous macules and scattered papules over the chest, trunk, extensor surfaces, and palms, with complete sparing of the face, soles, and oral/genital mucosa, and no lymphadenopathy. Genital exam showed a healed atrophic scar on the penile shaft. Eight hours after benzathine penicillin G injection, repeat exam showed an acute flare of widespread well-defined erythematous macules and papules covering the entire chest, back, and abdomen without facial angioedema, dyspnea, fever, or mucosal involvement.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis (following inadequately treated primary syphilis) complicated by an isolated cutaneous Jarisch-Herxheimer reaction (JHR), established via positive serum VDRL (titer 1:16) and prior TPHA positivity. Administered a single deep intramuscular injection of benzathine penicillin G after a negative test dose. Eight hours post-injection, he developed pruritus and rapid generalization of the maculopapular rash without systemic symptoms or anaphylaxis, diagnosed as JHR and treated symptomatically with oral levocetirizine 10 mg, topical calamine lotion, and clobetasol 0.05% ointment, resulting in overnight resolution."
+    }
+  }
+}

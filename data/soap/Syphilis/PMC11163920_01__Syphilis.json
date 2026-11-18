@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11163920_01",
+  "pair_id": "PMC11163920_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "An 18-year-old male was referred to our sexually transmitted infection service for a penile lesion that evolved over the last 6 weeks. Previous sexually transmitted and bloodborne infections (STBBI) screening that did not include a syphilis serology revealed anal chlamydia and gonorrhoea, treated with azithromycin, cefixime and doxycycline with no symptom improvement at the time of consultation. The patient, who had been circumcised in the past, identified as a man who has sex with men (MSM) and reported inconsistent barrier method use and four sexual partners in the last 3 months. Clinical evaluation revealed a crusty hyperkeratotic cap covering the whole glans with reduced meatal opening, synechias (Figure 1) and bilateral inguinal lymphadenopathy. Systemic symptoms and urethral discharge were absent.\nEnzyme immunoassay (EAI) and rapid plasma reagin (RPR) tests confirmed a diagnosis of syphilitic balanitis of Follman (SBF). Treatment with 2.4 M units of Penicillin G Benzathine was initiated, resulting in rapid lesion improvement and complete resolution at 1-month follow-up (Figure 2).\nSyphilis chancre is the hallmark of primary syphilis, and when present appears in the first 90 days after Treponema pallidum inoculation.   Classic presentation has been described as a single, unifocal, painless, indurated and moist erosion of several millimetres in the genital area or elsewhere. Many atypical syphilis chancre subtypes have been described.   SBF is a rare presentation of primary syphilis described as erosive balanitis associated with bilateral inguinal lymphadenopathy.   Differential diagnoses can include candidal, herpetic, atopic and psoriasic balanitis, or glans synechiae associated with lichen planus or lichen sclerosus. SBF diagnosis requires a high index of suspicion which can be facilitated by careful inquiry of STBBI risk factors and the finding of bilateral lymphadenopathy. Management includes penicillin G benzathine treatment with primary syphilis dosage, as well as STBBI screening and counselling.   In our patient, SBF clinical presentation, which is usually described as oozing and erosive, was further modified by the drying effect of his circumcised glans leading to a puzzling hyperkeratotic cap with hardened synechiae.\nThis case underscores the importance of comprehensive sexually transmitted illness (STI) testing and consideration of syphilis in sexually active MSM with atypical genital lesions, particularly when accompanied by lymphadenopathy. It also reinforces the idea that syphilis is indeed 'the great masquerader.'",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old male presented with a 6-week history of an evolving crusted hyperkeratotic penile glans lesion.",
+      "history_of_present_illness": "The patient was referred to the STI service for a penile glans lesion that had evolved over the preceding 6 weeks. Prior STBBI screening (which omitted syphilis serology) had detected anal Chlamydia trachomatis and Neisseria gonorrhoeae infections, but treatment with azithromycin, cefixime, and doxycycline produced no improvement in the penile lesion.",
+      "past_medical_history": "History of prior circumcision and recent anal chlamydia and gonorrhea. Identifies as a man who has sex with men (MSM), reporting inconsistent barrier protection and 4 sexual partners over the preceding 3 months.",
+      "review_of_systems": "Positive for crusted penile glans lesion and inguinal swelling; negative for systemic symptoms or urethral discharge. Recent medications: azithromycin, cefixime, and doxycycline."
+    },
+    "objective": {
+      "physical_examination": "Genital examination revealed a crusty, hyperkeratotic cap covering the entire circumcised glans penis with narrowing of the urethral meatal opening, glans synechiae, and bilateral inguinal lymphadenopathy.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed primary syphilitic balanitis of Follmann (SBF) modified by prior circumcision, established via reactive syphilis enzyme immunoassay (EIA) and reactive serum RPR. Treated with intramuscular benzathine penicillin G 2.4 million units, resulting in rapid improvement and complete resolution of the glans lesion at 1-month follow-up."
+    }
+  }
+}

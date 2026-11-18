@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12668655_04",
+  "pair_id": "PMC12668655_04::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "Case 4: A 38-year-old male with a history of blunt trauma 2 years ago presented with sudden vision loss in LE accompanied by pain and redness, and gradual vision loss in RE. BCVA was HM with accurate PR and 6/12 in LE and RE, respectively. SLE revealed circumcorneal congestion and AC cells of grade 2 in the LE. Fundoscopy revealed fibrous proliferation with vascular sheathing suggestive of occlusive vasculitis with vitritis in RE [Figure 4a] and a hazy view in LE [Figure 4b]. B-scan of LE showed total retinal detachment [Figure 4c] with dense vitritis. Blood investigations revealed positivity for VDRL (1:64) and treponemal pallidum hemagglutinin assay (TPHA). The management in this case included a combination of long-term oral corticosteroids and antibiotic therapy. Oral steroids were initiated and gradually tapered over 6 months to control inflammation and prevent recurrences. Antibiotic therapy was started after consultation with an infectious disease physician, which consisted of IV penicillin G administered daily for 2 weeks, followed by intramuscular procaine penicillin for an additional 10 days to ensure eradication of Treponema pallidum. Pars plana vitrectomy with endolaser application and silicon oil tamponade was performed in the LE. As the RE had occlusive vasculitis with areas of capillary nonperfusion, panretinal photocoagulation was done to take care of these lesions. After 3 months, BCVA improved to 6/9 in the RE and counting fingers at 2 m in LE.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old male presented with sudden vision loss, pain, and redness in the left eye and gradual vision loss in the right eye.",
+      "history_of_present_illness": "The patient presented with acute painful vision loss and redness in the left eye alongside progressive visual decline in the right eye.",
+      "past_medical_history": "History of blunt ocular/head trauma 2 years prior.",
+      "review_of_systems": "Positive for sudden left eye vision loss, ocular pain, and redness, and gradual right eye vision loss."
+    },
+    "objective": {
+      "physical_examination": "Best-corrected visual acuity (BCVA) was 6/12 in the right eye (RE) and hand movements (HM) with accurate projection of rays in the left eye (LE). Slit-lamp examination of the LE showed circumcorneal congestion and grade 2+ anterior chamber cells. Fundoscopy of the RE revealed dense vitritis and fibrous proliferation with retinal vascular sheathing indicative of occlusive retinal vasculitis, while the LE had a hazy fundus view due to dense vitritis.",
+      "routine_investigations": "B-scan ocular ultrasonography of the left eye revealed total retinal detachment with dense vitritis.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed bilateral ocular syphilis presenting with right syphilitic occlusive retinal vasculitis and vitritis and left panuveitis with total retinal detachment, established via reactive serum VDRL (titer 1:64) and positive TPHA. Treated with intravenous penicillin G daily for 2 weeks followed by intramuscular procaine penicillin for 10 days alongside a 6-month tapering course of oral corticosteroids, right-eye panretinal photocoagulation for capillary nonperfusion, and left-eye pars plana vitrectomy with endolaser and silicone oil tamponade. At 3-month follow-up, BCVA improved to 6/9 in the right eye and counting fingers at 2 meters in the left eye."
+    }
+  }
+}

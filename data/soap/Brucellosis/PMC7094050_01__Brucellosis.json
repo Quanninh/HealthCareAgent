@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7094050_01",
+  "pair_id": "PMC7094050_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 62-year-old man in close contact with sheep presented with a one-month history of intermittent fever, fatigue, night sweats, and progressive low back pain. Physical examination revealed percussion pain in the L3 and L4 vertebrae. Laboratory data showed a white blood cell count of 5.6 x 109/L with 59.5% neutrophils and 27.8% lymphocytes. Inflammatory marker levels were elevated with erythrocyte sedimentation rate of 107 mm/h and C-reactive protein of 65 mg/L. A computed tomography (CT) scan revealed apparent destruction at the anterior superior corner of the L4 vertebra, known as Pedro Pons' sign, accompanied by osteophyte formation (Figure 1). Magnetic resonance imaging showed bone destruction in the L3 and L4 vertebrae accompanied by paravertebral abscesses (Figure 2). The patient underwent CT-guided percutaneous catheter drainage. Brucella ovis (B. ovis) was isolated from the pus. Furthermore, the serum agglutination test was positive for Brucella at a titer of 1:800. With a diagnosis of brucellar spondylitis, the patient received three months of antibiotic therapy and had a satisfactory response to the medical treatment.\nPedro Pons' sign was first described by Pedro-Pons and Farreras in 1944 as a destructive appearance at the anterosuperior angle of the vertebra accompanied by osteosclerosis and osteophytes, which are characteristic radiological findings of brucellar spondylitis  .",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 62-year-old man presented with a 1-month history of intermittent fever, fatigue, night sweats, and progressive low back pain.",
+      "history_of_present_illness": "A 62-year-old man with close sheep contact experienced 1 month of intermittent fever, fatigue, night sweats, and progressively worsening low back pain.",
+      "past_medical_history": "Close occupational/environmental contact with sheep.",
+      "review_of_systems": "Positive for intermittent fever, fatigue, night sweats, and progressive low back pain."
+    },
+    "objective": {
+      "physical_examination": "Percussion tenderness over the L3 and L4 lumbar spinous processes.",
+      "routine_investigations": "WBC 5.6 x 10^9/L (59.5% neutrophils, 27.8% lymphocytes), ESR 107 mm/h, and CRP 65 mg/L.",
+      "advanced_workup": "Lumbar spine CT demonstrated characteristic destruction at the anterosuperior corner of the L4 vertebral body accompanied by osteosclerosis and osteophyte formation (Pedro Pons' sign). Lumbar spine MRI revealed L3 and L4 vertebral bone destruction with bilateral paravertebral abscesses."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "CT-guided percutaneous catheter drainage of the paravertebral abscess isolated Brucella ovis from the evacuated pus, and the serum Brucella agglutination test was positive at a titer of 1:800, confirming L3-L4 brucellar spondylitis and paravertebral abscesses exhibiting Pedro Pons' sign. Treated with CT-guided percutaneous drainage and a 3-month course of targeted anti-Brucella antibiotic therapy with a satisfactory clinical response."
+    }
+  }
+}

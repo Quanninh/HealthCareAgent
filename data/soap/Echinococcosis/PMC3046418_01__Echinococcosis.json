@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3046418_01",
+  "pair_id": "PMC3046418_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 23-year-old man presented with nausea, imbalance, occasional urinary and fecal incontinence and a severe headache for 1 month. The patient was a farmer with an unremarkable past experience for his relatives. Neurological examination was completely normal. Magnetic resonance imaging (MRI) demonstrated a left cerebellar mass lesion of 3x2x1.5 cm in size with marked peripheral contrast enhancement [Figure 1]. Computed tomography (CT) examination of the chest and abdomen were performed for a primary origin. Multiple calcified mass lesions with lobulated contours were shown in the right upper lobe of lung, right liver and another solid tumor between right kidney and liver. Suboccipital craniotomy was performed and a left intracerebellar pale yellow mass was excised grossly as total. The tumor was almost avascular and it was easily dissected from the surrounding cerebellar tissues. Postoperative course was unremarkable without any neurological deficit. Histopathological examination revealed PAS (+) cuticular membrane with wide areas of necrosis and inflammation which were typical for EM [Figure 2]. Serological tests at the postoperative period confirmed the presence of EM with indirect hemagglutination test.\nAlbendazole (800 mg, bid, 3 cure, 28-day cycle followed by a 14-day albendazole-free interval) and cephotaxime (4 g, bid) were prescribed for postoperative treatment. A further operation was performed to resect the lesion in the lung a month after intracranial surgery. Postoperative early CT examination and MRI performed 6 months after surgery showed no recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old male farmer presented with a 1-month history of severe headache, nausea, gait imbalance, and occasional urinary and fecal incontinence.",
+      "history_of_present_illness": "The patient developed severe headache, nausea, imbalance, and intermittent urinary and fecal incontinence over the 1 month preceding admission.",
+      "past_medical_history": "Worked as a farmer; unremarkable family history.",
+      "review_of_systems": "Positive for severe headache, nausea, imbalance, and occasional urinary and fecal incontinence."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination was completely normal.",
+      "routine_investigations": "Postoperative indirect hemagglutination (IHA) serology for Echinococcus multilocularis was positive.",
+      "advanced_workup": "Brain MRI demonstrated a 3 x 2 x 1.5 cm left cerebellar mass with marked peripheral contrast enhancement. Chest and abdominal CT revealed multiple lobulated calcified masses in the right upper lung lobe, right hepatic lobe, and hepatorenal space. Suboccipital craniotomy achieved gross total excision of an avascular pale-yellow left intracerebellar mass; histopathology demonstrated a PAS-positive cuticular membrane with extensive necrosis and granulomatous inflammation characteristic of Echinococcus multilocularis (alveolar echinococcosis)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated alveolar echinococcosis (Echinococcus multilocularis) involving the left cerebellum, right upper lung lobe, liver, and hepatorenal space, confirmed by PAS-positive cuticular membrane histopathology and positive Echinococcus IHA serology. Following suboccipital craniotomy, the patient received oral albendazole (800 mg twice daily in three 28-day cycles separated by 14-day intervals) and IV cefotaxime (4 g twice daily), underwent pulmonary resection 1 month later, and had no intracranial recurrence on 6-month follow-up MRI."
+    }
+  }
+}

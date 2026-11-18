@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3982352_01",
+  "pair_id": "PMC3982352_01::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 48-year-old female homemaker from a rural area was admitted with complaints of intermittent high fever, abdominal pain and vomiting, and reduced urine output. On examination, she had a pulse rate of 110/min, blood pressure 130/80 mmHg and was afebrile. Conjunctiva were pale and sclera were icteric and no rash was noted. On abdominal examination, diffuse tenderness was elicited and hepatomegaly was present. Hemoglobin was 8.0 g/dL, platelet count 64,000/muL, leukocyte count 10,300/muL with 78% neutrophils and 18% lymphocytes. Erythrocyte sedimentation rate was 88/min. Total bilirubin was 3.5 mg/dL, direct bilirubin 2.3 mg/dL, aspartate aminotransferase 47 IU/L, alanine aminotransferase 64 IU/L and alkaline phosphatase 125 IU/L. Total protein was 6.4 g/dL, albumin and globulin were 3.1 g/dL and 3.3 g/dL, respectively. Serum urea was 174 mg/dL and creatinine was 4.5 mg/dL. Urine analysis revealed 2-4 white cells/high power field, 15-20 red cells/high power field and no casts. Serum amylase was 2662 U/L and lipase was 3822 U/L. The test for malarial parasite by quantitative buffy coat was negative. Blood culture remained sterile after 7 days of incubation and immunoglobulin M (IgM) antibodies to leptospira by enzyme linked immunosorbent assay (ELISA) were negative. Weil-Felix test showed significant titers of OX K - 1:320, OX 19 - 1:80, OX 2 - 1:40 and IgM antibodies to Orientia tsutsugamushi by ELISA were positive.\nThe patient was treated with doxycycline 200 mg/day and ceftriaxone 2 g/day alongside supportive measures. The initial ultrasound scan performed on the 3rd day of admission revealed hepatosplenomegaly, features of acute medical renal disease and ascites. No abnormalities were noted in the pancreas. However, the patient continued to have abdominal pain and a review ultrasound scan was performed on the 9th day, which showed fluid along the body of the pancreas in the lesser sac indicative of a pancreatic pseudocyst. Contrast enhanced computerized tomography of the abdomen was not carried out in view of the deranged renal parameters. The patient was stable upon discharge on the 11th day and on follow-up 6 weeks later, all symptoms had resolved. Lab investigations through the course of hospital stay are given in Table 1.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 48-year-old female homemaker presented with intermittent high fever, abdominal pain, vomiting, and reduced urine output.",
+      "history_of_present_illness": "The patient, a homemaker from a rural area, was admitted with complaints of intermittent high-grade fever, diffuse abdominal pain, vomiting, and oliguria.",
+      "past_medical_history": "Rural homemaker; no prior chronic illnesses reported.",
+      "review_of_systems": "Positive for intermittent high fever, abdominal pain, vomiting, and oliguria."
+    },
+    "objective": {
+      "physical_examination": "On admission, pulse rate was 110 beats/min, blood pressure 130/80 mmHg, and she was afebrile. She had pale conjunctivae and scleral icterus without cutaneous rash or eschar. Abdominal examination revealed diffuse tenderness and hepatomegaly.",
+      "routine_investigations": "Admission labs: Hb 8.0 g/dL, platelets 64,000/µL, WBC 10,300/µL (78% neutrophils, 18% lymphocytes), ESR 88 mm/h, total bilirubin 3.5 mg/dL, direct bilirubin 2.3 mg/dL, AST 47 IU/L, ALT 64 IU/L, ALP 125 IU/L, total protein 6.4 g/dL, albumin 3.1 g/dL, globulin 3.3 g/dL, serum urea 174 mg/dL, creatinine 4.5 mg/dL, serum amylase 2,662 U/L, and serum lipase 3,822 U/L. Urinalysis showed 2–4 WBCs/HPF, 15–20 RBCs/HPF, and no casts. Quantitative buffy coat for malaria, 7-day blood cultures, and Leptospira IgM ELISA were all negative. Weil-Felix test showed OX-K 1:320, OX-19 1:80, and OX-2 1:40, and Orientia tsutsugamushi IgM ELISA was positive. Day 3 abdominal ultrasound showed hepatosplenomegaly, acute medical renal disease, ascites, and a normal pancreas; repeat ultrasound on day 9 for persistent abdominal pain revealed fluid in the lesser sac along the pancreatic body consistent with a pancreatic pseudocyst.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed scrub typhus complicated by acute kidney injury, hepatosplenomegaly, and acute pancreatitis with pancreatic pseudocyst formation, confirmed by positive Orientia tsutsugamushi IgM ELISA and Weil-Felix OX-K titer of 1:320; leptospirosis and malaria were excluded. Treated with oral/IV doxycycline 200 mg/day and ceftriaxone 2 g/day plus supportive care, discharged stable on hospital day 11, and achieved complete symptom resolution at 6-week follow-up."
+    }
+  }
+}

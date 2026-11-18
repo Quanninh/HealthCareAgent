@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9124962_02",
+  "pair_id": "PMC9124962_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The female neonate was born weighing 1,347 gram with an Apgar score of four at 1 min, three at 5 min, and eight at 10 min. Upon birth the baby was diagnosed with neonatal idiopathic respiratory distress syndrome (RDS) based on increased oxygen demand and a chest X-ray, and immediately thereafter surfactant was administered intra-tracheally. rRT-PCR from nasopharyngeal swabs for COVID-19 were performed at birth, 24 h, and 48 h after birth, all of which were negative. Toxoplasma gondii, rubella, cytomegalovirus (CMV), and herpes simplex virus (HSV) testing (TORCH) were negative. On head ultrasound bilateral cystic lesions were found in the anterior horn of the lateral ventricles at birth and 4 days of life (Figures 3A,B). A brain magnetic resonance imaging (MRI) test at 56 days of life (corrected 36 weeks and 6/7 days) revealed cystic lesions with T1 low signal, T2 high signal, and T2 Flair high signal around the anterior horn of the lateral ventricle (Figures 4A,B). The diagnosis was Grade 2 periventricular leukomalacia (PVL) (based on the definition of the presence of punctate lesions <= 3 mm in individual size in periventricular white matter on either or both of the T1/T2-weighted images and the presence of lesions in bilateral corticospinal tracts or, more extensively, with >= 3 lesions per hemisphere). Differential diagnosis includes connatal cyst and subependymal pseudocyst. We diagnosed PVL in the viewpoint of location, form, size and number of cysts. On admission, the newborn needed intermittent mechanical ventilation for four days and high-flow nasal cannula for 32 days. She was discharged on day 64 of life, with no abnormality on exam (shown in Figure 5). She is now 6 months old and even acquired the ability to turn over. We are planning to follow up the baby until her school age, because there have been some reports that individuals with PVL show symptom of cognitive impairment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A preterm female neonate born weighing 1,347 g presented at birth with neonatal respiratory distress syndrome and was found on cranial imaging to have bilateral anterior horn periventricular cystic lesions.",
+      "history_of_present_illness": "Delivered preterm at a birth weight of 1,347 g with Apgar scores of 4 (1 min), 3 (5 min), and 8 (10 min), the neonate immediately developed respiratory distress syndrome requiring endotracheal surfactant and mechanical ventilation, and was evaluated for congenital infection and periventricular white matter cysts.",
+      "past_medical_history": "Preterm female neonate (birth weight 1,347 g).",
+      "review_of_systems": "Positive at birth for neonatal respiratory distress."
+    },
+    "objective": {
+      "physical_examination": "Birth weight 1,347 g; Apgar scores 4 at 1 min, 3 at 5 min, and 8 at 10 min; required invasive mechanical ventilation for 4 days and HFNC for 32 days; neurological examination at discharge (day 64) and at 6 months of age (able to roll over) was normal.",
+      "routine_investigations": "Chest X-ray at birth showed neonatal idiopathic respiratory distress syndrome (RDS). Nasopharyngeal rRT-PCR swabs for SARS-CoV-2 at birth, 24 hours, and 48 hours of life, as well as congenital TORCH infection panels (Toxoplasma gondii, rubella, CMV, HSV), were all negative. Cranial ultrasound at birth and day 4 of life revealed bilateral cystic lesions around the anterior horns of the lateral ventricles.",
+      "advanced_workup": "Brain MRI at 56 days of life (36+6 weeks corrected gestational age) demonstrated bilateral periventricular cystic lesions (T1 hypointense, T2/FLAIR hyperintense) around the anterior horns of the lateral ventricles diagnostic of Grade 2 periventricular leukomalacia (PVL)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Preterm female neonate with neonatal idiopathic respiratory distress syndrome and Grade 2 cystic periventricular leukomalacia (PVL), with congenital/perinatal SARS-CoV-2 and TORCH infections excluded by serial negative rRT-PCR and serologic tests. Treated at birth with intratracheal surfactant, 4 days of intermittent mechanical ventilation, and 32 days of high-flow nasal cannula oxygen, and discharged home on day 64 of life with normal motor milestones at 6-month follow-up."
+    }
+  }
+}

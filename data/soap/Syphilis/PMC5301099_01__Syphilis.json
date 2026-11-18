@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5301099_01",
+  "pair_id": "PMC5301099_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "This study involved a 38-year-old female who was followed up by her previous ophthalmologist from 1 month prior to presentation for decreased vision in her right eye. Examination revealed retinal phlebitis in that eye, and she was subsequently referred to our department at Osaka Medical College Hospital in order to obtain a more detailed examination and medical treatment.\nNothing notable was observed in the patient's medical history.\nIn the patient's right and left eye, respectively, visual acuity (VA) was 0.04 (0.05 x s - 1.75 dpt) and 0.3 (1.5 x s - 1.25 dpt = cylinder - 0.5 dpt, axis 10 ), intraocular pressure was 10 mm Hg and 12 mm Hg, and no abnormality of the anterior segment was observed. In the right eye, we observed a few inflammatory cells in the anterior chamber, retinal phlebitis accompanied by retinal hemorrhage and soft exudate, and remarkable exudative changes in the retinal vessels from the upper arcade to the macula region (Fig. 1a). Ophthalmoscopy also revealed obvious cystoid macular edema. No abnormalities in the left eye fundus were observed (Fig. 1b). Fluorescein angiography revealed obstructive retinal vasculitis along the upper vascular arcade of the right eye. A general health examination showed a positive tuberculin skin test result; however, a chest X-ray of the patient showed no abnormalities. A general blood examination revealed a positive rapid plasma regain syphilis serology test result, positive results for Treponema pallidum antibodies (rapid plasma regain 8-fold, T. pallidum antibodies 8.8 cutoff index), and positive results for fluorescent treponemal antibody absorption immunoglobulin M antibodies. Testing for collagen disease revealed positive results for anticardiolipin antibodies, yet there were no abnormal neurological findings. A magnetic resonance imaging examination of the patients head revealed no abnormal findings, yet dermatological findings included a painless rash on the pudenda of 4 months previously. Other than that, no syphilis-related skin conditions were found.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old female presented with a 1-month history of decreased vision in her right eye.",
+      "history_of_present_illness": "The patient had been followed by her local ophthalmologist for 1 month for decreased right-eye vision and retinal phlebitis before being referred to a tertiary ophthalmology center.",
+      "past_medical_history": "Unremarkable medical history; dermatological history revealed a painless rash on her pudenda (vulva) 4 months prior to presentation.",
+      "review_of_systems": "Positive for right-eye visual loss and a painless vulvar rash 4 months prior; negative for neurological symptoms."
+    },
+    "objective": {
+      "physical_examination": "Visual acuity was 0.04 in the right eye and 0.3 (correcting to 1.5) in the left eye, with intraocular pressures of 10 mmHg OD and 12 mmHg OS. Slit-lamp and fundus examination of the right eye revealed a few anterior chamber inflammatory cells, severe retinal phlebitis with retinal hemorrhages, cotton-wool spots (soft exudates), marked vascular exudation from the superior vascular arcade to the macula, and prominent cystoid macular edema; the left eye was completely normal. Neurological and active dermatological examinations were normal.",
+      "routine_investigations": "Tuberculin skin test was positive, but chest X-ray was normal. Serum anticardiolipin antibodies were positive.",
+      "advanced_workup": "Fluorescein angiography of the right eye demonstrated occlusive retinal vasculitis/phlebitis along the superior temporal vascular arcade. Brain MRI was normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed unilateral right syphilitic occlusive retinal vasculitis (phlebitis) and cystoid macular edema with secondary anticardiolipin antibody positivity, established via reactive serum RPR (8-fold), positive Treponema pallidum antibody (8.8 COI), and positive serum FTA-ABS IgM."
+    }
+  }
+}

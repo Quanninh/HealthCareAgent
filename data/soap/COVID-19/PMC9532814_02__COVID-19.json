@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9532814_02",
+  "pair_id": "PMC9532814_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 62-year-old male presented with an 8-day history of progressive dysarthria and walking difficulties accompanied by facial and acral paresthesias. His symptoms commenced 19 days after receiving Ad26.COV2.S vaccine. Upon admission, he was afebrile and hemodynamically stable. Nasopharyngeal swab PCR for SARS-CoV-2 was negative. He could walk unassisted, but was unable to run (GBS disability scale 2). Cranial nerve examination revealed bilateral prosopoplegia (House-Brackmann grade V) resulting in characteristic \"poker face\" appearance (Fig. 1; see Additional file 2). Motor examination showed mild symmetrical weakness on foot dorsiflexion (MRC grade 4/5). Achilles tendon reflexes were absent bilaterally. Large-fiber and small-fiber sensory loss affecting his feet was also noted. Higher cortical, cerebellar and the remainder cranial nerve testing was unremarkable. Sphincter dysfunction or dysautonomia were not observed. Albuminocytological dissociation was noted on CSF analysis (protein 64 mg/dL, 0 cells). Serum and CSF testing for antiganglioside antibodies was negative. Neurophysiological testing (Natus UltraPro S100; Natus Medical Incorporated; USA) was suggestive of underlying primarily demyelinating neuropathy (see Additional file 1). Based on a probable diagnosis of AIDP the patient was treated with a 5-day course of IVIG with ensuing improvement of dysesthesias and ambulation capacity, whereas bilateral facial palsy persisted (GBS disability scale 1).\n58 days after the initial episode the patient's symptoms recurred (GBS disability scale 4). Moreover, upper and lower limb motor nerve conduction studies exhibited significant deterioration (see Additional file 1). Taking into consideration that clinical nadir was reached > 8 weeks after disease onset, the patient was managed as A-CIDP (Table 2) with 7 PLEX sessions followed by pulsed corticosteroid therapy with oral dexamethasone 40 mg/d for 4 consecutive days every 4 weeks with subsequent improvement at discharge (GBS disability scale 3) and remarkable recovery on 1 month follow-up (GBS disability scale 1), even though facial diplegia persisted.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 62-year-old male presented with an 8-day history of progressive dysarthria, gait difficulty, and facial and acral paresthesias beginning 19 days after receiving the Ad26.COV2.S COVID-19 vaccine, followed by a severe neurological relapse at day 58.",
+      "history_of_present_illness": "Nineteen days after receiving the Janssen Ad26.COV2.S vaccine, the patient developed progressive dysarthria, facial diplegia, distal paresthesias, and gait impairment (GBS disability scale 2), which initially improved with IVIG (to scale 1) but relapsed severely at day 58 after onset (reaching clinical nadir >8 weeks at GBS disability scale 4).",
+      "past_medical_history": "Received Ad26.COV2.S COVID-19 vaccine 19 days prior to neurological symptom onset.",
+      "review_of_systems": "Positive for dysarthria, facial numbness/weakness, acral paresthesias, and gait impairment; negative for fever, sphincter dysfunction, or dysautonomia."
+    },
+    "objective": {
+      "physical_examination": "Afebrile and hemodynamically stable. Initial neurological exam showed severe bilateral facial palsy (House-Brackmann grade V prosopoplegia, 'poker face'), mild symmetric foot dorsiflexion weakness (MRC 4/5), absent bilateral Achilles tendon reflexes, distal lower limb large- and small-fiber sensory loss, and GBS disability score 2 (worsening to score 4 during the day-58 relapse).",
+      "routine_investigations": "Nasopharyngeal SARS-CoV-2 PCR and serum/CSF antiganglioside antibodies were negative.",
+      "advanced_workup": "Lumbar puncture revealed CSF albuminocytologic dissociation (protein 64 mg/dL, 0 cells). Initial and day-58 nerve conduction studies demonstrated a primary demyelinating polyneuropathy with progressive motor conduction deterioration at day 58."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute-onset chronic inflammatory demyelinating polyradiculoneuropathy (A-CIDP, initially presenting as bifacial-weakness-predominant AIDP/GBS with subsequent relapse/nadir >8 weeks at day 58) temporally associated with the Ad26.COV2.S COVID-19 vaccine, confirmed by CSF albuminocytologic dissociation and serial demyelinating nerve conduction studies. Initial episode responded partially to a 5-day course of IVIG; the day-58 A-CIDP relapse was successfully treated with 7 sessions of plasma exchange (PLEX) followed by pulsed oral dexamethasone (40 mg/day for 4 consecutive days every 4 weeks), improving from GBS disability scale 4 to scale 1 at 1-month follow-up with residual facial diplegia."
+    }
+  }
+}

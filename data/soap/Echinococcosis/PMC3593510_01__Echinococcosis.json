@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3593510_01",
+  "pair_id": "PMC3593510_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 30-year-old female patient presented with complaints of fever, breathlessness, dull-aching, continuous pain, and dragging sensation on the left side of the abdomen since 3 months. Also, there was history of loss of weight and appetite. Past history was insignificant. On examination, abdomen was slightly distended with a palpable mass reaching up to the umbilicus, 6-7 cm from the left costal margin. The mass was tender, firm, irregular and fingers could not be insinuated below the ribs. A systemic examination was normal. Routine investigations revealed leucocytosis (Total leukocyte count=12,000/mm3) with eosinophilia (7%, absolute eosinophil count=840/mm3) and raised erythrocyte sedimentation rate (ESR) (35 mm in first hour). An X-ray study of both abdomen and chest was found to be normal. Ultrasonography of the abdomen showed enlarged spleen with multiple cystic areas, together measuring 18x15x11 cm. [Figure 1]. A computed tomography (CT) scan showed a large mass measuring 17.5x15x10 cm, containing air fluid levels and heterogeneous contents with predominant low-density areas, elevating left dome of the diaphragm [Figure 2]. Other abdominal organs were found to be normal. Therefore, the clinical diagnosis of the cystic lesion of spleen was made.\nLeft subcostal exploratory laparotomy was performed revealing huge cystic mass occupying lower pole of spleen. Splenectomy was performed and sent for HPE. Tab. Mebendazole 200 mg/kg/day was started on fifth post operative day and continued after surgery for three months.\nGrossly, the splenectomy specimen measured 17x14x10 cm. The posterior aspect showed a cystic cavity having a white and smooth cyst wall, filled with multiple, variable-sized daughter cysts in a flower-shaped arrangement [Figure 3]. The hematoxylin and eosin (H and E)-stained slides showed a cyst wall comprising of three layers [Figure 4]. The cystic contents consisted of mixture of multiple infolded membranes, fragmented hooklets, and debris which were part of hydatid sand. Multiple scolices of Echinococcus granulosus were also seen [Figure 5]. Definitive diagnosis of a hydatid cyst was, hence, made.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old female presented with a 3-month history of fever, breathlessness, continuous dull left abdominal pain, a left upper quadrant dragging sensation, anorexia, and weight loss.",
+      "history_of_present_illness": "The patient experienced continuous dull aching pain and a dragging sensation on the left side of the abdomen accompanied by fever, breathlessness, loss of appetite, and weight loss for 3 months.",
+      "past_medical_history": "Unremarkable past medical history.",
+      "review_of_systems": "Positive for fever, dyspnea, left abdominal pain/dragging sensation, anorexia, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Abdomen was slightly distended with a tender, firm, irregular mass extending 6-7 cm below the left costal margin to the umbilicus (fingers could not be insinuated beneath the left costal margin); systemic examination was otherwise normal.",
+      "routine_investigations": "Labs showed leukocytosis (TLC 12,000/mm3), eosinophilia (7%; absolute eosinophil count 840/mm3), and elevated ESR (35 mm in the 1st hour). Chest and abdominal radiographs were normal. Abdominal ultrasound revealed massive splenomegaly containing multiple cystic areas measuring 18 x 15 x 11 cm overall.",
+      "advanced_workup": "Abdominal CT demonstrated a 17.5 x 15 x 10 cm heterogeneous cystic splenic mass containing air-fluid levels and low-density areas elevating the left hemidiaphragm, with normal remaining abdominal viscera. Following left subcostal laparotomy and total splenectomy, gross pathology (17 x 14 x 10 cm specimen) showed a smooth white posterior cyst cavity filled with flower-arranged daughter cysts, and H&E microscopy confirmed a three-layered cyst wall, hydatid sand, fragmented hooklets, and multiple Echinococcus granulosus scolices."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary giant infected splenic hydatid cyst (17.5 x 15 x 10 cm), definitively confirmed by histopathological identification of a three-layered cyst wall, fragmented hooklets, and Echinococcus granulosus scolices. The patient underwent open total splenectomy and completed a 3-month postoperative course of oral mebendazole (started on postoperative day 5)."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11682806_01",
+  "pair_id": "PMC11682806_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "To the Editor: We read with interest about the leprosy case in central Florida, USA, described by Bhukhan et al.. We report a similar case of leprosy (also known as Hansen disease), diagnosed in a 55-year-old female patient in northern Florida, that exhibited tuberculoid features. Mycobacterium leprae was detected by PCR in multiple biopsied lesions, confirming the diagnosis.\nThe patient manifested multiple macules and patches with central clearance and erythematous borders without hypoesthesias on the right arm and shoulder (Figures 1, 2). She denied having fever, chills, or abdominal pain but reported right knee pain and swelling, suggestive of arthritis, which is not uncommon in patients with leprosy. We prescribed monthly doses of 600 mg rifampin, 400 mg moxifloxacin, and 100 mg minocycline. We added methotrexate and low-dose prednisone to the patient's regimen to treat new neuropathy of the hands and possible leprosy reactions, according to recommendations from the National Hansen's Disease Program. After >1 year of treatment, she remains on methotrexate, moxifloxacin, rifampin, and minocycline. Her lesions have resolved except for 1 on her right forearm, which also appears to be improving.\nContact with armadillos, the Eurasian red squirrel, and amoebae in soil have been linked to leprosy. This patient previously lived in a house with a tree rat infestation in the attic, but it is unknown if tree rats carry leprosy. The patient works in finance and denies participating in any outdoor occupational or recreational activities. She did not report travel to a leprosy-endemic area; exposure to soil, armadillos, or squirrels; contact with someone who had been to a disease-endemic area; or contact with a person who had a confirmed case of leprosy. Because some patients with leprosy do not report traditional risk factors, it is possible that other exposure sources or zoonotic reservoirs are yet to be discovered.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old female in northern Florida presented with multiple erythematous annular macules and patches on her right arm and shoulder accompanied by right knee pain and swelling.",
+      "history_of_present_illness": "The patient developed multiple cutaneous macules and patches with central clearing and erythematous borders over her right shoulder and arm, along with right knee arthralgia and swelling.",
+      "past_medical_history": "She worked in finance, lived in northern Florida, and previously resided in a house with an attic tree rat infestation. She denied outdoor occupational or recreational exposures, travel to leprosy-endemic regions, contact with armadillos, Eurasian red squirrels, or soil, or contact with known leprosy patients.",
+      "review_of_systems": "Positive for right knee pain and swelling, and subsequent hand neuropathy; negative for fever, chills, or abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination of the right arm and shoulder revealed multiple macules and patches with central clearing, erythematous borders, and intact sensation (no hypoesthesia).",
+      "routine_investigations": null,
+      "advanced_workup": "Multiple skin lesion biopsies were performed for histopathological evaluation and polymerase chain reaction (PCR) testing."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathology demonstrated tuberculoid features and PCR across multiple biopsied skin lesions detected Mycobacterium leprae, confirming tuberculoid leprosy (Hansen's disease). In accordance with National Hansen's Disease Program recommendations, she was treated with monthly rifampin 600 mg, moxifloxacin 400 mg, and minocycline 100 mg, with methotrexate and low-dose prednisone added for new-onset hand neuropathy and potential leprosy reactions; after more than 1 year of therapy, all lesions had resolved except for a single improving lesion on the right forearm."
+    }
+  }
+}

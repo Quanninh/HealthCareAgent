@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10883176_01",
+  "pair_id": "PMC10883176_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 15-year-old girl presented with complaints of suprapubic discomfort and constipation for 2 months. On inspection, a smooth and nonmobile lump was seen in the suprapubic region 4 cm above pubic symphysis. The lower limit was impalpable. On digital rectal examination, a smooth, spherical mass was felt anterolaterally. Complete blood counts, renal, and liver function tests were normal. Ultrasonography revealed a cystic mass suggestive of the left adnexal cyst. Computed tomography (CT) scan showed a large 10 cm x 5 cm x 11 cm cystic lesion in the Pouch of Douglas [Figure 1a and c]. Internal enhancing membranes with cyst within the cyst appearance was seen [Figure 1b]. Since she belonged to an endemic region, hydatid serology (Echinococcus Immunoglobulin G [IgG] antibodies) was done which was positive. IgG is a good marker for the diagnosis with specificity being 98% and sensitivity 25.7%.\nAlbendazole (10-15 mg/kg/day) was given preoperatively for 28 days. Approaching via Pfannenstiel incision, a 10 cm x 8 cm cystic mass was seen adherent to the uterus anteriorly and rectum posteriorly. All daughter cysts and laminated membranes were removed [Figure 2].\nMicroscopy showed hooklets, protoscolices, and daughter cysts strongly suggestive of Echinococcus. The diagnosis was confirmed by histopathology.\nThe postoperative period was uneventful. The patient was discharged on the 6th postoperative day. The patient was prescribed three cycles of albendazole therapy each lasting for 28 days. She is doing well with no signs of recurrence after 1 year.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old girl presented with suprapubic discomfort and constipation for 2 months.",
+      "history_of_present_illness": "The patient experienced progressive suprapubic discomfort and constipation over a 2-month period prior to presentation.",
+      "past_medical_history": "Resided in an echinococcosis-endemic region.",
+      "review_of_systems": "Positive for suprapubic discomfort and constipation."
+    },
+    "objective": {
+      "physical_examination": "Abdominal inspection and palpation revealed a smooth, nonmobile suprapubic lump extending 4 cm above the pubic symphysis with an impalpable lower border. Digital rectal examination palpated a smooth, spherical mass anterolaterally.",
+      "routine_investigations": "Complete blood counts, renal function tests, and liver function tests were normal. Ultrasonography showed a pelvic cystic mass initially suggestive of a left adnexal cyst.",
+      "advanced_workup": "Pelvic CT revealed a 10 cm x 5 cm x 11 cm cystic lesion in the pouch of Douglas with internal enhancing membranes and a classic cyst-within-cyst appearance. Echinococcus IgG antibody serology was positive. Exploratory laparotomy via Pfannenstiel incision identified a 10 cm x 8 cm cystic mass adherent to the uterus anteriorly and rectum posteriorly; all daughter cysts and laminated membranes were evacuated, and histopathology/microscopy demonstrated hooklets, protoscolices, and daughter cysts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary pelvic hydatid cyst in the pouch of Douglas, confirmed by positive Echinococcus IgG serology and histopathological identification of hooklets, protoscolices, and daughter cysts. The patient received 28 days of preoperative albendazole (10-15 mg/kg/day), underwent open evacuation of daughter cysts and laminated membranes via Pfannenstiel incision, was discharged on postoperative day 6, and completed three 28-day cycles of postoperative albendazole, remaining asymptomatic without recurrence at 1-year follow-up."
+    }
+  }
+}

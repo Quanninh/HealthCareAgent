@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3056413_01",
+  "pair_id": "PMC3056413_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "The patient aged 26, presenting herself to our clinic in January 2010 with non-systematized pain, localized in the epigaster and the left hypochondria. The pain has started a few months before, without being connected to the diet, is of low intensity and of short length (a few minutes). Lately, the painful episodes have increased in number, but the patient has not followed any antialgic treatment. \nWith regard to the medical background, what should be taken into account is a vaginal birth 4 years before.\nThe clinical examination indicates splenomegaly (palpable spleen with 3 cm under the coastal margin), with no other changes aside the ones mentioned. \nThe lab exams are within the normal range, including the inflammatory markers (PCR, VSH) and the tumorous ones (CA19-9).\nThe abdominal ultrasonography indicates the presence of a trans-sonic formation, which occupies the entire left hypochondria, measuring 9/8 cm, entering into contact with the left kidney and the spleen. \nThe abdominal CT exam established the diagnostic of splenic cyst (Figure 1)\nThe CT result: voluminous cystic image with the axial diameter of 11.5/10.7 cm and a cranium-caudal diameter of 8 cm with the departure point at the level of the spleen's superior point and with no actual demarcation limit. The formation pushes the spleen inferiorly and posteriorly and towards the right, the stomach and the pancreas, towards which it presents a demarcation limit. Its content is exclusively liquid and stretches towards the anterior abdominal wall.\nThe serology for the Echinococcus granulosus has turned negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old female presented with a several-month history of recurrent, brief episodes of mild epigastric and left hypochondriac pain.",
+      "history_of_present_illness": "The patient experienced non-systematized, low-intensity pain in the epigastrium and left hypochondrium lasting a few minutes and unrelated to meals for several months, with recent increase in episode frequency.",
+      "past_medical_history": "One prior normal vaginal delivery 4 years earlier; no analgesic medications used.",
+      "review_of_systems": "Positive for intermittent brief epigastric and left hypochondriac pain."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed splenomegaly palpable 3 cm below the left costal margin without other abnormalities.",
+      "routine_investigations": "Routine blood tests, inflammatory markers (CRP, ESR), and serum CA19-9 were all within normal limits. Echinococcus granulosus serology was negative. Abdominal ultrasonography showed a 9 x 8 cm anechoic cystic formation occupying the left hypochondrium in contact with the spleen and left kidney.",
+      "advanced_workup": "Abdominal CT demonstrated a voluminous 11.5 x 10.7 x 8 cm homogeneous fluid-filled cystic mass arising from the superior pole of the spleen without a distinct cleavage plane, displacing the spleen inferoposteriorly and the stomach and pancreas to the right."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Large non-parasitic splenic cyst (11.5 x 10.7 x 8 cm) confirmed on abdominal CT and negative Echinococcus granulosus serology."
+    }
+  }
+}

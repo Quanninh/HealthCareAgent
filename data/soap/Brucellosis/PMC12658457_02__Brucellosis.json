@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12658457_02",
+  "pair_id": "PMC12658457_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 42-year-old male farmer presented with a 37-day history of right hip injury sustained during heavy lifting, accompanied by progressive limitation of right hip joint mobility. The patient was admitted on December 4, 2023, due to worsening hip pain. Initial physical examination revealed normal body temperature (36.6  C), tenderness upon percussion of the right greater trochanter, positive tenderness at the midpoint of the right inguinal region, restricted right hip joint mobility, a positive right \"4\" sign, and intact sensation and muscle strength in both lower limbs with normal dorsalis pedis artery pulsation. MRI demonstrated bone marrow edema in the right femoral head and acetabulum, soft tissue edema surrounding the right hip joint, and bilateral hip joint effusion (Figure 1B). Laboratory investigations revealed elevated inflammatory markers, including WBC, CRP and ESR, indicate significant inflammation which possibly caused by infection (Table 1). Empirical antibiotic therapy with moxifloxacin was initiated. Subsequent diagnostic evaluations, including joint fluid and blood cultures, yielded negative results, and the Brucella agglutination test was also negative. However, mNGS of the joint fluid identified Brucella species (reads: 5,021). Considering the patient's occupational exposure to cattle and sheep, a definitive diagnosis of Brucella joint infection was established. The patient underwent arthroscopic hip debridement, followed by a 3-month course of doxycycline (100 mg twice daily) and rifampin (600 mg once daily), supplemented with ceftriaxone (2.0 g IV every 12 h) for 1 month. Clinical improvement was observed, with resolution of fever, significant alleviation of joint pain, and absence of other discomforts. Follow-up assessments at 1, 3, and 6 months post-discharge confirmed sustained clinical stability.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old male farmer presented with a 37-day history of worsening right hip pain and progressive limitation of right hip mobility following heavy lifting.",
+      "history_of_present_illness": "A 42-year-old male farmer sustained a right hip injury during heavy lifting 37 days prior to admission and developed progressively worsening right hip pain and restricted joint mobility, leading to hospitalization on December 4, 2023.",
+      "past_medical_history": "Farmer with occupational exposure to cattle and sheep; history of right hip strain during heavy lifting 37 days prior.",
+      "review_of_systems": "Positive for worsening right hip pain and restricted mobility."
+    },
+    "objective": {
+      "physical_examination": "Temperature 36.6 C. Percussion tenderness over the right greater trochanter, tenderness at the right mid-inguinal point, restricted right hip range of motion, and positive right Patrick's ('4' sign) test; intact lower limb sensation, muscle strength, and dorsalis pedis pulses.",
+      "routine_investigations": "Elevated WBC, CRP, and ESR.",
+      "advanced_workup": "Hip MRI demonstrated bone marrow edema in the right femoral head and acetabulum, periarticular soft tissue edema around the right hip, and bilateral hip joint effusions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Synovial fluid culture, blood culture, and serum Brucella agglutination test were all negative, but synovial fluid mNGS detected 5,021 sequence reads of Brucella species, confirming right hip Brucella septic arthritis. Following initial empiric moxifloxacin, the patient underwent arthroscopic right hip debridement and completed a 3-month course of oral doxycycline (100 mg BID) and oral rifampin (600 mg QD) supplemented with 1 month of IV ceftriaxone (2.0 g q12h), achieving complete resolution of hip pain and sustained remission at 1-, 3-, and 6-month follow-ups."
+    }
+  }
+}

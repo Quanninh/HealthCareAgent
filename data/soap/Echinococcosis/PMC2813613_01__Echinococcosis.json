@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2813613_01",
+  "pair_id": "PMC2813613_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 50-year-old male diabetic was diagnosed and treated for pulmonary tuberculosis 13 years ago. He presented with a 6-month history of low-grade fever and sweating. He also had frequent hemoptysis for the previous 3 months. He was investigated at his local hospital and referred to us for management of pulmonary aspergiloma. Examination was significant for low-grade fever and bronchial breath sounds with coarse crepitations in the right infrascapular region. A sputum smear was negative for acid-fast bacilli and grew Aspergillus. A plain chest x-ray showed a thick wall cavity in the upper and mid zone adjacent to the right hilum. A high-resolution CT scan revealed a large cavity in the apical segment of the right lower lobe with extensive lamellar internal echoes (Figure 1). Ultrasound of the abdomen revealed a simple hepatic cyst with no internal echoes. Bronchoscopy showed fresh blood and some necrotic material coming out of the superior segment of the right lower lobe. Culture of the material grew Aspergillus.\nWedge resection of the apical segment of the right lower lobe was performed due to persistent hemoptysis and growth of Aspergillus species in a possible post tuberculous cavity. Gross examination of the specimen revealed a surprisingly whitish membrane of the cyst wall with fungal necrotic material inside (Figure 2). Histopathological examination confirmed the presence of hydatid cyst along with echinoccocus hooklets with invasive Aspergillus within the cyst wall (Figure 2). Lung tissue around the cyst showed nonspecific chronic inflammation and an absence of fungal hyphae. The patient was treated for hydatid disease with albendazole and itraconazole for aspergillosis. The patient was free of any recurrence of either disease at the 8-month follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old diabetic male presented with a 6-month history of low-grade fever and sweating and a 3-month history of frequent hemoptysis.",
+      "history_of_present_illness": "The patient developed low-grade fever and night sweats 6 months prior to admission, followed by frequent hemoptysis over the last 3 months, and was referred from a local hospital with a working diagnosis of pulmonary aspergilloma.",
+      "past_medical_history": "Diabetes mellitus; pulmonary tuberculosis diagnosed and treated 13 years earlier.",
+      "review_of_systems": "Positive for low-grade fever, sweating, and frequent hemoptysis."
+    },
+    "objective": {
+      "physical_examination": "Low-grade fever and bronchial breath sounds with coarse crepitations in the right infrascapular region.",
+      "routine_investigations": "Sputum smear was negative for acid-fast bacilli, while sputum culture grew Aspergillus species. Plain chest X-ray showed a thick-walled cavity in the right upper/mid zone adjacent to the right hilum. Abdominal ultrasound revealed a simple hepatic cyst without internal echoes.",
+      "advanced_workup": "High-resolution chest CT demonstrated a large cavity in the apical/superior segment of the right lower lobe containing extensive lamellar internal echoes. Bronchoscopy revealed fresh blood and necrotic material emerging from the superior segment of the right lower lobe, with bronchial aspirate culture growing Aspergillus. Wedge resection of the apical segment of the right lower lobe revealed a whitish cyst membrane filled with fungal necrotic debris; histopathology confirmed a pulmonary hydatid cyst with Echinococcus hooklets and invasive Aspergillus hyphae within the laminated cyst wall."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Coinfection of a pulmonary hydatid cyst with invasive Aspergillus (aspergilloma within a ruptured/cavitated right lower lobe hydatid cyst), confirmed by histopathological demonstration of Echinococcus hooklets, whitish laminated cyst membrane, and invasive fungal hyphae within the cyst wall. Following wedge resection of the apical segment of the right lower lobe, the patient was treated with oral albendazole and itraconazole and remained free of recurrence at 8-month follow-up."
+    }
+  }
+}

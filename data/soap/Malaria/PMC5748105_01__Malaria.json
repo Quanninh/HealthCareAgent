@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5748105_01",
+  "pair_id": "PMC5748105_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 47-year-old man, surgeon in \"Hopital de l'Esperance,\" a private hospital in the north of Togo about 550 km from Lome, the capital, consulted in the same hospital on February 12, 2016, for fever. He was vaccinated against yellow fever. The thick smear performed was positive for malaria and received artemether/lumefantrine without any favorable clinical course after six days. Due to the persistence of high-grade fever and a generalized weakness, he was hospitalized in a private room and a nurse was designated for his care. On day 6 after consultation, he complained of fever, chills, malaise, headaches, pharyngitis hypoacusis, and diffuse abdominal pain. Laboratory tests showed leukopenia (1,100 cells/mm3) and thrombocytopenia (65,000/mm3). His epigastric pain gradually exacerbated. Based on syndromic abdominal pain with febrile illness, an exploratory laparotomy was conducted, which was followed by a bleeding on the operative wound. He was thus air-lifted using an air ambulance from Togo to Cologne, Germany, on day 13. Before the evacuation, the patient was transfused with two units of packaged red blood cells in the airport as his hemoglobin dropped to 6.8 g/dL with evidence of hemolysis symptoms. Despite intensive medical care in Germany, the patient's condition deteriorated rapidly on the second day of admission, and he died on day 14. A postmortem diagnosis of Lassa fever was confirmed by polymerase chain reaction (PCR) in Germany.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old male surgeon in northern Togo presented with persistent high-grade fever and generalized weakness unresponsive to 6 days of antimalarial therapy, progressing to chills, malaise, headache, pharyngitis, hearing loss (hypoacusis), and severe epigastric/abdominal pain.",
+      "history_of_present_illness": "The patient consulted at Hopital de l'Esperance in northern Togo on February 12, 2016, for fever, had a positive malaria thick smear, and took 6 days of oral artemether/lumefantrine without improvement. On day 6, he was hospitalized with persistent high fever, chills, malaise, headache, pharyngitis, hypoacusis, and worsening epigastric/diffuse abdominal pain, underwent exploratory laparotomy complicated by wound bleeding and severe hemolysis, and was medically evacuated to Cologne, Germany, on day 13.",
+      "past_medical_history": "Practicing surgeon in northern Togo; previously vaccinated against yellow fever.",
+      "review_of_systems": "Positive for high-grade fever, generalized weakness, chills, malaise, headache, pharyngitis, hypoacusis, severe epigastric/abdominal pain, and postoperative wound bleeding."
+    },
+    "objective": {
+      "physical_examination": "High-grade fever, generalized weakness, pharyngitis, hypoacusis, severe epigastric/abdominal tenderness, and postoperative laparotomy wound hemorrhage.",
+      "routine_investigations": "Day 6 labs in Togo showed leukopenia (WBC 1,100 cells/mm3) and thrombocytopenia (platelets 65,000/mm3); by day 13 prior to air evacuation, hemoglobin dropped to 6.8 g/dL with clinical hemolysis.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal Lassa fever co-existing with (or initially masked by) positive malaria thick blood smear. Initial thick smear in Togo was positive for malaria (unresponsive to 6 days of artemether/lumefantrine), and postmortem PCR testing in Cologne, Germany, confirmed Lassa virus infection. Treated with artemether/lumefantrine, exploratory laparotomy, 2 units of packed RBCs prior to air-ambulance evacuation on day 13, and intensive care in Germany, but died on day 14 of illness."
+    }
+  }
+}

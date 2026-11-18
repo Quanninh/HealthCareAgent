@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4581132_01",
+  "pair_id": "PMC4581132_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 9-year-old male was admitted to our emergency department (Emam Hossein Pediatric Hospital, Isfahan) with fever and abdominal pain since a day before admission. The pain was described as a continuous, non-referral pain which was localized in the right upper quadrant (RUQ) and associated with bulging at the site of pain. No other complaint or related history was noted. Physical examination revealed low-grade fever with a tender fluctuated mass (approximately 80 x 40 mm in size) in the right subcostal area with no skin manifestation.\nLaboratory tests revealed leukocytosis 17,300/mul (90% neutrophils) and normal liver tests. Abdominal ultrasonography showed a multicystic lesion with several thick septa, occupying the right subphrenic area. It also revealed scattered hyperechoic lesions in the peripheral zones of spleen which had small cystic areas in their matrix. Further evaluation with double-contrast CT scan revealed a multicystic mass that was 103 x 42 mm in size, with thick and enhanceable septa in the right subphrenic region, anterior to the left and middle segments of the liver with compressive effect on the hepatic parenchyma, and also scattered hypodense lesions in the spleen [Figure 1]. The main differential diagnoses were multiloculated abscess, complicated CL, and exophytic hydatid cyst.\nThe patient was administered conservative treatment including analgesic and proper empirical antibiotics. After a week of hospitalization, No significant improvement was observed.\nHe underwent an elective laparotomy. Surgical findings were a cystic mass which contained multiple hemorrhagic cysts adjacent to the posterior fascia of the anterior abdominal wall in RUQ, in addition to some small cysts in the spleen [Figures 2 and 3]. The cystic mass of abdominal wall was resected as far as possible and splenectomy was performed. Histopathologic study of the specimen showed large, thin-walled lymphatic channels in loose connective tissue [Figure 4]. All findings were compatible with a diagnosis of CL. The patient has been followed up for 2 months post-surgery, with no complication or recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 9-year-old boy presented with a 1-day history of acute right upper quadrant abdominal pain, local bulging, and fever.",
+      "history_of_present_illness": "The child was admitted to the pediatric emergency department with a 24-hour history of continuous, non-radiating right upper quadrant abdominal pain accompanied by a localized right subcostal bulge and fever.",
+      "past_medical_history": "Unremarkable past medical history.",
+      "review_of_systems": "Positive for right upper quadrant pain, local abdominal bulging, and fever."
+    },
+    "objective": {
+      "physical_examination": "Low-grade fever and a tender, fluctuant 80 x 40 mm mass in the right subcostal area without overlying skin changes.",
+      "routine_investigations": "Labs showed leukocytosis of 17,300/uL (90% neutrophils) and normal liver function tests. Abdominal ultrasonography demonstrated a multicystic mass with thick septa in the right subphrenic region along with scattered peripheral hyperechoic splenic lesions containing small internal cystic spaces.",
+      "advanced_workup": "Double-contrast abdominal CT revealed a 103 x 42 mm multicystic mass with thick enhancing septa in the right subphrenic space anterior to the left and middle hepatic segments compressing the liver parenchyma, plus scattered hypodense splenic lesions. After 1 week of empiric antibiotics without improvement, elective laparotomy resected a multilocular hemorrhagic cystic mass adherent to the posterior fascia of the right upper quadrant abdominal wall and performed a total splenectomy for multiple splenic cysts; histopathology demonstrated large, thin-walled lymphatic channels within loose connective tissue."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Synchronous retrofascial/subphrenic abdominal wall and splenic cystic lymphangioma (CL) complicated by intralesional hemorrhage, confirmed by surgical histopathology (ruling out exophytic hepatic hydatid cyst and multiloculated pyogenic abscess). The patient remained complication- and recurrence-free at 2-month follow-up after abdominal wall cyst resection and splenectomy."
+    }
+  }
+}

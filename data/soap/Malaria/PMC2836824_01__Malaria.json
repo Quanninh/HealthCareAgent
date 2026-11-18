@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2836824_01",
+  "pair_id": "PMC2836824_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "On October 29th 2005, a 56-year-old German tourist living in Haiti, with a history of heavy alcohol use and 2 malaria infections treated with chloroquine, developed symptoms of fever, headache, nausea, and diarrhea. On November 3rd he visited a local hospital in Cotes des Arcadins and was diagnosed with P. falciparum infection by peripheral blood smear. The patient was treated with chloroquine and doxycycline the same day but developed altered mental status and was hospitalized. Despite falling parasite counts, the patient's neurological condition continued to worsen and he was mechanically ventilated. Seizures, bloody stools, hematemesis, and decreased urinary output were also documented. Due to his worsening condition, he was transferred to a hospital in Miami the following day, November 4th.  At the time of hospital admission in Miami, the patient had thrombocytopenia, diffuse intravascular coagulation, electrolyte imbalance, and acute renal failure. Blood smears showed few malaria parasites, but treatment with antimalarial agents was continued.  Bronchoalveolar lavage was positive for Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomas aeruginosa, and yeast forms.\nBlood culture on November 4th was positive for C.  perfringens. Vancomycin, amphotericin, piperacillin, phenytoin, lorazepam, and hydrocortisone were added to the treatment regimen. On November 5th blood culture revealed Candida tropicalis. An encephalitis panel was also negative. The patient continued to decline clinically and he expired on November 7th, 10 days after symptom onset.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 56-year-old German tourist living in Haiti presented with a 5-day history of fever, headache, nausea, and diarrhea, rapidly progressing to altered mental status, seizures, hematemesis, melena/bloody stools, and oliguria.",
+      "history_of_present_illness": "On October 29, 2005, the patient developed fever, headache, nausea, and diarrhea in Haiti. On November 3, he was diagnosed locally with Plasmodium falciparum malaria, started chloroquine and doxycycline, and rapidly developed altered mental status, seizures, bloody stools, hematemesis, and oliguria requiring mechanical ventilation and air-ambulance transfer to Miami on November 4.",
+      "past_medical_history": "German resident in Haiti with a history of heavy alcohol use and 2 prior malaria infections treated with chloroquine.",
+      "review_of_systems": "Positive for fever, headache, nausea, diarrhea, altered mental status, seizures, hematemesis, bloody stools, and decreased urine output."
+    },
+    "objective": {
+      "physical_examination": "Comatose/mechanically ventilated with seizures, upper and lower gastrointestinal bleeding, and oliguria.",
+      "routine_investigations": "Miami admission labs (November 4): thrombocytopenia, disseminated intravascular coagulation (DIC), electrolyte imbalances, and acute renal failure. Encephalitis panel was negative. Blood cultures grew Clostridium perfringens (Nov 4) and Candida tropicalis (Nov 5); bronchoalveolar lavage grew Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa, and yeast.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal severe Plasmodium falciparum malaria complicated by cerebral involvement, DIC, acute renal failure, polymicrobial ventilator-associated pneumonia, Clostridium perfringens bacteremia, and Candida tropicalis candidemia. Confirmed by peripheral blood smear in Haiti and persistent low-level parasitemia on repeat smears in Miami. Treated with chloroquine, doxycycline, mechanical ventilation, vancomycin, amphotericin B, piperacillin, phenytoin, lorazepam, and hydrocortisone, but died on November 7 (day 10 of illness)."
+    }
+  }
+}

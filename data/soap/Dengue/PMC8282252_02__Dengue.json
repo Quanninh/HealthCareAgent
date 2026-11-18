@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8282252_02",
+  "pair_id": "PMC8282252_02::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 24-year-old woman was admitted for a 1-day history of diffuse myalgia, arthralgia, retro-orbital headache, vomiting, and fever. The patient was pale, icteric, and tachycardic (108/min). The patient's blood pressure was normal. The liver and spleen were not palpable. Arterial oxygen saturation in the room air was normal (98%). The patient had sickle cell anemia (genotype SS) with irregular outpatient follow-up and no history of hydroxyurea intake. The average laboratory data from outpatient follow-up showed: Hb 8 g/dL, leukocyte count of 20.5 x 109/L, and platelet count of 612 x 109/L.\nUpon admission, laboratory tests revealed findings (Table 1). Suspected classic dengue fever was confirmed by detection of the nonstructural protein 1 (NS1) antigen test (risk group C), and the diagnosis of sickle cell crisis associated with dengue fever was considered. The initial treatment consisted of vigorous hydration, analgesia, and intravenous ceftriaxone (2 g/day).\nTwo days after admission, there was clinical deterioration characterized by drowsiness, painful hepatomegaly (palpable liver 6 cm below the right costal border), and respiratory failure. Follow-up laboratory tests detected a drop in serum hemoglobin, reticulocytopenia, a marked drop in platelet count, an increase in LDH, and acute renal dysfunction (Table 1). Tests for renal function were normal. Serology for viral hepatitis (A, B, and C) was negative. Abdominal ultrasonography revealed hepatomegaly, suprahepatic vein ectasia, single calculus (1.8 cm) in the gallbladder with no inflammatory signs, and no dilatation of intrahepatic and extrahepatic bile ducts. Due to the marked clinical and laboratory deterioration, a probable diagnosis of SCIC was considered, and support with packed red blood cells (exchange transfusion until HbS reached 28%) and non-invasive ventilation was instituted. Subsequently, there was a progressive clinical improvement, and the patient recovered completely.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old woman with homozygous sickle cell anemia (HbSS) presented with a 1-day history of diffuse myalgia, arthralgia, retro-orbital headache, vomiting, and fever.",
+      "history_of_present_illness": "The patient presented with 1 day of acute fever, diffuse myalgia, arthralgia, retro-orbital headache, and vomiting. Two days after admission, she deteriorated clinically with drowsiness, painful rapid hepatomegaly, and acute respiratory failure.",
+      "past_medical_history": "Homozygous sickle cell anemia (genotype HbSS) with irregular outpatient follow-up and no hydroxyurea use (baseline Hb 8 g/dL, WBC 20.5 x 10^9/L, platelets 612 x 10^9/L).",
+      "review_of_systems": "Positive for diffuse myalgia, arthralgia, retro-orbital headache, vomiting, fever, and hospital day-2 drowsiness, right upper quadrant pain, and respiratory distress."
+    },
+    "objective": {
+      "physical_examination": "On admission: pale, icteric, tachycardic (108/min), normal blood pressure, room-air SpO2 98%, and non-palpable liver and spleen. On hospital day 2: drowsy, acute respiratory failure, and painful hepatomegaly palpable 6 cm below the right costal margin.",
+      "routine_investigations": "Day 2 labs showed a sharp drop in hemoglobin, reticulocytopenia, severe drop in platelet count, elevated LDH, and acute hepatic dysfunction with normal renal function and negative hepatitis A, B, and C serologies. Abdominal ultrasonography showed hepatomegaly, suprahepatic vein ectasia, and a single 1.8 cm non-inflamed gallstone without biliary duct dilatation.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute dengue fever (risk group C) complicated by sickle cell intrahepatic cholestasis (SCIC) and acute hepatic sequestration in a patient with HbSS sickle cell anemia, confirmed by positive dengue NS1 antigen testing. Treated with vigorous IV hydration, analgesia, IV ceftriaxone (2 g/day), non-invasive ventilation, and red blood cell exchange transfusion (reducing HbS to 28%), resulting in progressive clinical improvement and complete recovery."
+    }
+  }
+}

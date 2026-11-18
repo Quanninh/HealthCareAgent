@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4555935_01",
+  "pair_id": "PMC4555935_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 35-year-old married female from countryside with poor socio-economic background reported to our department with a complaint of mild pain and pressure sensation on right side of temporomandibular joint (TMJ) area on mastication and opening and closing of jaws since 2-3 years. The associated pain was dull, localized, and aggravated on talking and taking food. She was unemployed and managed all domestic chores at home.\nOn examination, there was no gross facial asymmetry, deviation of jaw toward left side on opening and closing was appreciated with acceptable mouth opening. Clinical examination revealed a painless, soft mass in the right TMJ area with egg shell cracking and no evidence of a sound condylar unit. TMJ movements were diminished on right side. Intraorally, occlusion was good with healthy gingiva. The general health of the patient was normal with no cervical lymphadenopathy.\nAn orthopantomogram of the region revealed an ill-defined osteolytic lesion involving the ramus condyle unit of the right side of size 3 cm x 1.5 cm. Computerized tomographic scan showed a well encapsulated fluid filled cystic lesion of size 4.9 cm x 3.8 cm with osteolysis and thinning out of the condylar unit encroaching the infratemporal region and abutting the pterygoid plates on right side [Figures 1-3]. USG liver and plain posteroanterior view chest radiograph were normal with only a slight increase in eosinophil count. Surgical procedure under general anesthesia was planned. The region was approached via an extended Risdon's approach extending and curving near the lower ear lode. Dissecting sub platysmally, pterygomassetric sling was incised. The cyst was judiciously dissected out of the surrounding tissues in toto. The intraoperative and postoperative course were uneventful.\nThe gross macroscopic specimen revealed two cystic cavities. The outer was tough reddish-brown and the inner was thin, slimy and fragile [Figure 4]. In histopathology, scanner view, x10 view and x 40 view showing daughter cysts with scolex and germinal layers [Figures 5-7]. The patient was followed up for 2 year with no recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old woman presented with a 2-to-3-year history of mild pain and pressure sensation over the right temporomandibular joint (TMJ) aggravated by mastication and jaw movement.",
+      "history_of_present_illness": "The patient experienced dull, localized pain and a pressure sensation in the right TMJ region for 2-3 years, worsened by talking, eating, and opening or closing her jaw.",
+      "past_medical_history": "Married homemaker from a rural countryside area of low socioeconomic status.",
+      "review_of_systems": "Positive for right TMJ pain and pressure on mastication."
+    },
+    "objective": {
+      "physical_examination": "Deviation of the mandible to the left on mouth opening and closing with acceptable interincisal opening, diminished right TMJ excursion, and a painless soft mass in the right TMJ region exhibiting eggshell cracking on palpation with loss of a palpable intact condylar unit. Intraoral occlusion and gingiva were normal, and there was no cervical lymphadenopathy.",
+      "routine_investigations": "Peripheral blood count showed mild eosinophilia; PA chest radiograph and liver ultrasonography were normal. Orthopantomogram (OPG) revealed an ill-defined 3 x 1.5 cm osteolytic lesion involving the right mandibular ramus-condyle unit.",
+      "advanced_workup": "Maxillofacial CT demonstrated a well-encapsulated 4.9 x 3.8 cm fluid-filled cystic lesion causing osteolysis and cortical thinning of the right mandibular condylar unit, encroaching into the infratemporal fossa and abutting the right pterygoid plates. Complete en bloc surgical excision via an extended Risdon subplatysmal approach revealed a tough reddish-brown outer pericyst and a thin slimy inner endocyst; histopathology identified daughter cysts with scolices and germinal layers."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary intraosseous/infratemporal hydatid cyst of the right mandibular condyle and temporomandibular joint (4.9 x 3.8 cm), definitively confirmed by histopathological visualization of daughter cysts, scolices, and germinal layers. Following intact surgical excision via an extended Risdon approach, the patient had an uneventful recovery with no recurrence over 2 years of follow-up."
+    }
+  }
+}

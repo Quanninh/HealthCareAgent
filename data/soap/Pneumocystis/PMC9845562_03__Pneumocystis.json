@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9845562_03",
+  "pair_id": "PMC9845562_03::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 3-year-old boy with PNS was transferred to our hospital because of edema, proteinuria, hypoalbuminemia and hyperlipidemia. Initially, he responded well to steroid treatment. However, SDNS was developed eventually. The renal biopsy was performed 11 months after the onset of the disease. MCNS was the renal pathological change. Therefore, he was treated with a single dose of RTX (375 mg/m2). Three days later, the number of CD19 positive B cell decreased to be less than 0.5%. Complete remission was achieved in 1 week. However, he presented with cough and shortness of breath 6 weeks after RTX treatment. CBC test: leukocytes 8.83 x 109/L, hemoglobin 138 g/L, platelets 465 x 109/L, neutrophil percentage 64.2%, C-reactive protein <=5 mg/L. Blood biochemical test: alanine aminotransferase 15 U/L, aspartate aminotransferase 22 U/L, total protein 52.37 g/L, albumin 26.67 g/L, serum creatinine 36 ummol/L. The 24 h urinary protein was 1100.0 mg/m2. The chest CT showed diffuse exudation with interstitial changes in both lungs (Figure 1E). mNGS of bronchoalveolar lavage fluid revealed pneumocystis infection. He received high-flow of oxygen therapy. After 4 weeks of oral SMZ-TMP, caspofungin, meropenem and minocycline treatment, the symptoms of lung infection disappeared and complete resolution of inflammation was found in chest CT images (Figure 1F). Twenty-four hour urinary protein turned to be normal. Moreover, the patient achieved complete remission in the following 12 months. The percentage of CD20 positive B cells were 3.5%, 6.3%, 17.8% in the 3rd, 6th and 12th month respectively.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 3-year-old boy with biopsy-proven steroid-dependent minimal change nephrotic syndrome presented with cough and shortness of breath 6 weeks after receiving a single dose of intravenous rituximab.",
+      "history_of_present_illness": "Initially transferred with edema, proteinuria, hypoalbuminemia, and hyperlipidemia, the patient developed steroid-dependent nephrotic syndrome (SDNS) with minimal change nephrotic syndrome (MCNS) confirmed on renal biopsy 11 months after disease onset. He received a single intravenous dose of rituximab (375 mg/m2), which depleted his CD19+ B cells to <0.5% in 3 days and induced complete remission within 1 week. Six weeks post-rituximab, he presented with acute cough and shortness of breath.",
+      "past_medical_history": "Biopsy-proven steroid-dependent minimal change nephrotic syndrome (MCNS) treated with single-dose IV rituximab 6 weeks prior.",
+      "review_of_systems": "Positive for cough and shortness of breath at 6 weeks post-rituximab."
+    },
+    "objective": {
+      "physical_examination": "Tachypneic and dyspneic at 6 weeks post-rituximab, requiring high-flow oxygen therapy.",
+      "routine_investigations": "Six-week post-rituximab laboratory tests: WBC 8.83 x 10^9/L (64.2% neutrophils), hemoglobin 138 g/L, platelets 465 x 10^9/L, C-reactive protein (CRP) <=5 mg/L, ALT 15 U/L, AST 22 U/L, total protein 52.37 g/L, serum albumin 26.67 g/L, serum creatinine 36 μmol/L, and 24-hour urinary protein 1,100.0 mg/m2.",
+      "advanced_workup": "Renal biopsy (at 11 months of disease): Minimal change nephrotic syndrome (MCNS). Peripheral B-cell monitoring: CD19+ B cells <0.5% at day 3 post-rituximab (CD20+ B cells recovering to 3.5%, 6.3%, and 17.8% at months 3, 6, and 12). Chest CT (6 weeks post-rituximab): Diffuse bilateral pulmonary exudation and interstitial changes. Bronchoalveolar lavage fluid (BALF) metagenomic next-generation sequencing (mNGS): Confirmed Pneumocystis infection."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Pneumocystis jirovecii pneumonia (PCP; confirmed by bronchoalveolar lavage fluid mNGS and diffuse bilateral exudative/interstitial changes on chest CT) occurring 6 weeks after single-dose rituximab therapy in a 3-year-old boy with steroid-dependent minimal change nephrotic syndrome. Plan and clinical course: Managed with high-flow oxygen therapy and a 4-week regimen of oral trimethoprim-sulfamethoxazole (SMZ-TMP), caspofungin, meropenem, and minocycline, achieving complete clinical and chest CT resolution, normalization of 24-hour urinary protein, and sustained complete nephrotic remission over 12 months of follow-up."
+    }
+  }
+}

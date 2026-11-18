@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5516680_01",
+  "pair_id": "PMC5516680_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 14-year-old boy presented to the outpatient department of our hospital with complaints of intermittent haematuria over the past 3 years. There was no associated pain on micturition. His birth and developmental history was unremarkable, and he was physically healthy otherwise. There was no history of trauma or rigorous exercise. No history of swimming in fresh water pool. On detailed evaluation of history, we came to know that the patient had travelled to the South African countries. Abdominal and genitourinary examination did not reveal any abnormality. His urine analysis revealed plenty of red blood cells per high power field. His coagulation profile and immunological tests gave normal results. On ultrasonography, the bladder was empty and did not reveal any significant abnormality. Both kidneys appeared normal with no signs of hydronephrosis or hydroureter. To rule out urogenital and retroperitoneal abnormalities, contrast-enhanced computerised tomography was done, which showed a focal thickening of the wall of the urinary bladder in the fundic region (Figure 1A, 1B). Coronal CT urogram revealed a filling defect in the left upper ureter (Figure 2). Urine microscopy showed eggs of Schistosoma haematobium, which is oval in shape and has a spiked end (Video 1).\nThe patient was treated with oral Praziquantel, 60 mg/kg/day in 3 divided doses, and the same dose was repeated after 4 weeks. After a full course of treatment, the patient was asymptomatic, his urine examination was normal and a CT scan did not reveal any filling defect in the left upper ureter (Figure 3). The enhancing lesion in fundus of the urinary bladder also resolved (Figure 4).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old boy presented with a 3-year history of intermittent painless hematuria.",
+      "history_of_present_illness": "The patient experienced intermittent painless hematuria over the preceding 3 years without dysuria.",
+      "past_medical_history": "Unremarkable birth and developmental history; otherwise healthy. Denied trauma, rigorous exercise, or swimming in freshwater pools, but reported a history of travel to South African countries.",
+      "review_of_systems": "Denied dysuria or pain on micturition."
+    },
+    "objective": {
+      "physical_examination": "Abdominal and genitourinary examinations were completely normal.",
+      "routine_investigations": "Urinalysis revealed numerous RBCs per high-power field, and urine microscopy demonstrated oval-shaped Schistosoma haematobium eggs with a terminal spine. Coagulation profile and immunological tests were normal. Renal and bladder ultrasound showed normal kidneys without hydronephrosis or hydroureter and an empty, unremarkable urinary bladder.",
+      "advanced_workup": "Contrast-enhanced abdominal/pelvic CT demonstrated focal wall thickening in the fundic region of the urinary bladder, and coronal CT urography revealed a filling defect in the left upper ureter."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed urinary schistosomiasis due to Schistosoma haematobium via urine microscopy and CT urography. He was treated with oral praziquantel 60 mg/kg/day in three divided doses, repeated after 4 weeks. At follow-up after completing therapy, he was asymptomatic, with a normal urinalysis and complete resolution of both the left upper ureteric filling defect and fundic bladder wall lesion on repeat CT."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11033533_01",
+  "pair_id": "PMC11033533_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 4-year-old male patient presented to another healthcare center complaining of instability in walking and weakness that started three months ago. No bone pathology was detected by X-ray. When he had a fever and vomiting, he was transferred to the emergency room of Marmara University School of Medicine Pendik Training and Research Hospital, Istanbul, Turkiye in September 2022. He had a contact history with cattle and dogs in the village. His physical examination yielded muscle weakness in the right lower and upper extremities. The magnetic resonance imaging (MRI) then revealed a 13 cm-in-diameter cystic lesion surrounded by vasogenic edema in the left parietooccipital region (Fig. 1). The cystic lesion was consistent with a 'hydatid cyst' because of the absence of a solid component. A 13-cm cyst was enucleated successfully with no rupture. Oral albendazole therapy was initiated.\nHis laboratory investigation was as follows; eosinophil level [(0.19 X 103/muL) (0.0-0.7 X 103/muL)] in complete blood count was found to be in a normal range. The echinococcal indirect hemagglutination (IHA) test was negative. Ultrasonography detected an anechoic cystic lesion (10 mm) in the liver. He was evaluated for other deep-organ involvement; however, no cysts were detected in echocardiography, bone, and chest radiographs, and thorax computed tomography (CT). Histopathological examination was reported as compatible with a hydatid cyst. He was discharged at the end of one month with oral albendazole therapy. He is still being followed up on an outpatient basis without any neurological sequelae.\nThe informed consent of the patients was taken to report this case report.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 4-year-old boy presented with a 3-month history of gait instability and right-sided weakness, complicated by acute fever and vomiting.",
+      "history_of_present_illness": "The child developed instability while walking and right extremity weakness 3 months prior to admission (with normal plain bone radiographs at an outside clinic) and was transferred to the emergency department after developing fever and vomiting.",
+      "past_medical_history": "History of contact with cattle and dogs in a rural village.",
+      "review_of_systems": "Positive for gait instability, right upper and lower limb weakness, fever, and vomiting."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed muscle weakness in the right upper and lower extremities.",
+      "routine_investigations": "Complete blood count showed a normal eosinophil count of 0.19 x 10^3/uL (reference range 0.0-0.7 x 10^3/uL). Echinococcal indirect hemagglutination (IHA) test was negative. Abdominal ultrasonography detected a 10-mm anechoic cystic lesion in the liver. Echocardiography, bone radiographs, and chest radiographs were normal.",
+      "advanced_workup": "Brain MRI revealed a 13-cm cystic lesion without solid components surrounded by vasogenic edema in the left parieto-occipital region. Thoracic CT was normal. Following intact neurosurgical enucleation of the 13-cm cerebral cyst, histopathological examination confirmed a hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Giant left parieto-occipital cerebral hydatid cyst with a concomitant 10-mm hepatic cyst, confirmed by histopathological examination despite a negative Echinococcus IHA test. The 13-cm cerebral cyst was enucleated intact without rupture, and the patient was treated with oral albendazole, discharged after 1 month, and remained free of neurological sequelae on outpatient follow-up."
+    }
+  }
+}

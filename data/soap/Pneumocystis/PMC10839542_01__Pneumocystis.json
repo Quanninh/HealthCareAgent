@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10839542_01",
+  "pair_id": "PMC10839542_01::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A woman in her 70s was referred to our hospital because of persistent dyspnea for two days. She had been treated for MF with phototherapy and local radiation to the skin of her left lower leg 13 years ago. Etretinate administration and topical steroidal treatment were continued during the visit. She had never received anticancer or immunosuppressive drugs for MF or other diseases. No other history suspicious of noninfectious lung diseases, including hypersensitive pneumonia or drug-induced lung injury, was observed.\nPhysical examination revealed 36.9 C body temperature, 85% percutaneous oxygen saturation (SpO2) without supplemental oxygenation, 120/62 mmHg blood pressure, and 62 beats/min heart rate. Laboratory blood tests showed increased levels of C-reactive protein, white blood cell count, and soluble IL-2 receptor and decreased serum albumin levels (Table 1). Cytological analysis of peripheral blood did not reveal any atypical cells.\nHigh-resolution computed tomography (HRCT) revealed diffuse ground-glass opacities (GGO) in both lungs (Figure 1A). Polymerase chain reaction (PCR) for severe acute respiratory syndrome coronavirus 2 was negative, but the cytomegalovirus (CMV) antigenemia test (C7-HRP) was positive (46/50000). Beta-D glucan (264 pg/mL) and KL-6 (500.4 U/mL) levels were elevated. Bronchoalveolar lavage fluid (BALF) analysis showed lymphocyte predominance (28.3%), and Grocott's stain of BALF revealed the presence of P. jirovecii (Figure 2), and PCR for P. jirovecii using BALF was positive. Although anti-HIV and antihuman T-cell lymphotropic virus 1 (HTLV-1) antibodies were both negative, the CD4+ T-cell count (281/microL) was moderately low.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A woman in her 70s with mycosis fungoides presented with a 2-day history of persistent dyspnea.",
+      "history_of_present_illness": "The patient was referred to our hospital after experiencing persistent shortness of breath for 2 days. She had been diagnosed with mycosis fungoides (MF) 13 years earlier, treated initially with phototherapy and localized radiation to the left lower leg skin, and was maintained strictly on oral etretinate and topical corticosteroids without ever receiving systemic cytotoxic chemotherapy or immunosuppressive agents.",
+      "past_medical_history": "Mycosis fungoides (treated 13 years ago with phototherapy and local radiation to the left lower leg; maintained on oral etretinate and topical steroids). No history of systemic anticancer or immunosuppressive drug use, hypersensitivity pneumonitis, or drug-induced lung injury.",
+      "review_of_systems": "Positive for persistent dyspnea for 2 days. Home medications included oral etretinate and topical corticosteroids."
+    },
+    "objective": {
+      "physical_examination": "Vital signs on admission: Body temperature 36.9 °C, blood pressure 120/62 mmHg, heart rate 62 beats/min, and percutaneous oxygen saturation (SpO2) 85% on room air.",
+      "routine_investigations": "Admission blood tests: Elevated white blood cell count, C-reactive protein (CRP), and soluble IL-2 receptor (sIL-2R), with decreased serum albumin; peripheral blood cytology showed no atypical cells. Virological testing: SARS-CoV-2 PCR negative; anti-HIV and anti-HTLV-1 antibodies negative; positive CMV antigenemia test (C7-HRP: 46 positive cells per 50,000 leukocytes).",
+      "advanced_workup": "High-resolution chest CT (HRCT): Diffuse ground-glass opacities (GGO) throughout both lungs. Serologic biomarkers and lymphocyte subsets: Elevated serum beta-D-glucan (264 pg/mL) and KL-6 (500.4 U/mL); moderately decreased peripheral CD4+ T-cell count at 281/μL. Bronchoalveolar lavage fluid (BALF) analysis: Lymphocyte predominance (28.3%); Grocott's methenamine silver stain of BALF directly visualized Pneumocystis jirovecii cysts, and BALF P. jirovecii PCR was positive."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Pneumocystis jirovecii pneumonia (PCP) with concurrent cytomegalovirus (CMV) antigenemia in an elderly patient with mycosis fungoides and idiopathic/disease-associated CD4+ T-cell lymphopenia (281/μL) despite no systemic chemotherapy or systemic immunosuppressive therapy, definitively confirmed by positive Grocott's staining and positive P. jirovecii PCR on bronchoalveolar lavage fluid (supported by bilateral diffuse GGOs on HRCT and serum beta-D-glucan of 264 pg/mL)."
+    }
+  }
+}

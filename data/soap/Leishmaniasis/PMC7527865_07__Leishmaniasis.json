@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7527865_07",
+  "pair_id": "PMC7527865_07::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Male, 59 years old, mixed ethnicity, unemployed, previously healthy, reported the appearance of an erythematous-crusty lesions in the mental protuberance region, evolving in two months to other parts of the body such as frontal and occipital regions, nasal septum, ears, hands, and lower limbs. Oral cavity clinic-examination showed scattered ulcers on the face, lower labial mucosa, and on the left lip commissure, pseudomembrane on the marginal gingiva, and an exophytic nodule in the left labial mucosa ( Figure 4). Patient was Montenegro intradermal test positive and was admitted at the University Hospital in December 2018. The PCR analysis was perfomed in a laboratory outside the hospital. After admission, we observed enlarged lymph nodes of hard consistency in the left inguinal region, and an extensive melanocytic lesion in the left plantar region. The lesion was irregular, presenting an area of hyperkeratosis with a grey-bluish center. The patient was biopsied and the diagnostic hypothesis of melanoma was confirmed. We requested laboratory and imaging tests for melanoma staging. After seven days, we accessed the PCR laboratory test and initiated therapy with intravenous liposomal amphotericin B 50 mg at the dose of 200 mg/kg/day for 15 days ( Figure 4). Diagnostic confirmation of melanoma resulted in the excision of the melanocytic lesion with left inguinal lymphadenectomy. Patient was referred to an oncology center. The patient has not yet returned for evaluation as they are receiving antineoplastic treatment outside our hospital.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 59-year-old mixed-ethnicity male presented in December 2018 with a 2-month history of erythematous-crusted and ulcerated lesions spreading from his chin to his face, scalp, ears, nasal septum, oral mucosa, hands, and lower limbs, alongside an irregular pigmented plantar lesion and hard left inguinal lymphadenopathy.",
+      "history_of_present_illness": "Two months before admission, the patient noticed an erythematous-crusted lesion on his chin (mental protuberance) that rapidly disseminated to his forehead, occiput, nasal septum, ears, oral cavity, hands, and legs. On admission, physical exam also uncovered a suspicious pigmented lesion on his left sole and hard left inguinal lymph nodes.",
+      "past_medical_history": "Previously healthy, unemployed 59-year-old male.",
+      "review_of_systems": "Positive for disseminated mucocutaneous ulcers/crusts and a pigmented left plantar mass with left inguinal swelling."
+    },
+    "objective": {
+      "physical_examination": "Erythematous-crusted and ulcerated cutaneous lesions over the chin, frontal and occipital scalp, nasal septum, ears, hands, and lower limbs; intraoral exam showed scattered ulcers on the lower labial mucosa and left labial commissure, a marginal gingival pseudomembrane, and an exophytic nodule on the left buccal/labial mucosa; left foot and groin exam revealed an irregular hyperkeratotic melanocytic lesion with a gray-bluish center on the left plantar surface and hard enlarged left inguinal lymph nodes.",
+      "routine_investigations": "Montenegro intradermal test was positive.",
+      "advanced_workup": "External laboratory PCR was positive for Leishmania; biopsy and staging workup of the left plantar pigmented lesion confirmed cutaneous melanoma with left inguinal lymph node metastasis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive Montenegro intradermal test and positive Leishmania PCR confirmed Disseminated Mucocutaneous Leishmaniasis occurring synchronously with biopsy-proven left plantar malignant melanoma with left inguinal nodal metastasis. The patient was treated with intravenous liposomal amphotericin B for 15 days for disseminated leishmaniasis and underwent wide excision of the plantar melanoma with left inguinal lymphadenectomy followed by referral to an oncology center."
+    }
+  }
+}

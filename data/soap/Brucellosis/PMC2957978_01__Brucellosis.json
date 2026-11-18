@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2957978_01",
+  "pair_id": "PMC2957978_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Patient 1 was a previously healthy, 26-year-old Peruvian man who was evaluated in July 1985 for a 3-month history of periorbital pain, headaches, and periodic generalized tonic-clonic seizures. The initial neurologic examination was nonfocal, but subsequent computerized tomography scan showed a 5x5-cm enhancing mass in the left frontoparietal region associated with midline shift.\nAt the time of surgical biopsy, frozen section histology raised the possibility of a high-grade astrocytoma or lymphoma, prompting resection of a 3x3-cm well-circumscribed left frontal lobe mass. Final examination of pathologic specimens showed granulomas with multinucleated giant cells (Figure 1). Bacterial, fungal, and acid-fast bacilli stains were negative. Based on these pathologic findings and concern that the patient may have had tuberculosis, treatment with isoniazid, rifampin, and ethambutol was begun. Serologic tests for Histoplasma capsulatum, Blastomyces dermatidis, Coccidioides immitis, and Paracoccidioides brasiliensis were negative. Toxoplasma gondii serologic titers were weakly positive at 1:64.\nOn postoperative day 39, fungal tissue cultures became positive for a Brucella spp., preliminarily identified as B. melitensis. The patient's antimicrobial treatment was changed to tetracycline and rifampin and was continued for 2 months. An initial serologic titer for Brucella was positive at 1:160 by tube agglutination assay. A follow-up serologic titer obtained in January 1986 was negative (<1:20).\nThree months before his initial evaluation, the patient had immigrated to the United States from Lima, Peru. His diet included regular consumption of unpasteurized cow or goat cheese (queso fresco) and occasional consumption of raw shellfish (ceviche). He denied eating other raw or significantly undercooked meat. He had frequently swum in the Pacific Ocean from December through March but recalled no direct contact with marine mammals.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old Peruvian man presented with a 3-month history of periorbital pain, headaches, and periodic generalized tonic-clonic seizures.",
+      "history_of_present_illness": "A previously healthy 26-year-old man who had immigrated from Lima, Peru, to the United States 3 months earlier was evaluated in July 1985 for a 3-month history of periorbital pain, headaches, and recurrent generalized tonic-clonic seizures.",
+      "past_medical_history": "Immigrated from Lima, Peru, 3 months prior; regularly consumed unpasteurized cow or goat cheese (queso fresco) and occasionally raw shellfish (ceviche); frequently swam in the Pacific Ocean from December to March without direct marine mammal contact.",
+      "review_of_systems": "Positive for periorbital pain, headaches, and generalized tonic-clonic seizures."
+    },
+    "objective": {
+      "physical_examination": "Initial neurological examination was nonfocal.",
+      "routine_investigations": "Serologic tests for Histoplasma capsulatum, Blastomyces dermatitidis, Coccidioides immitis, and Paracoccidioides brasiliensis were negative; Toxoplasma gondii serology was weakly positive at 1:64.",
+      "advanced_workup": "Brain CT demonstrated a 5 x 5 cm contrast-enhancing mass in the left frontoparietal lobe with midline shift. Craniotomy and resection of a well-circumscribed 3 x 3 cm left frontal lobe mass showed granulomas with multinucleated giant cells on final histopathology (after frozen section initially suggested high-grade astrocytoma or lymphoma), with negative bacterial, fungal, and acid-fast bacilli tissue stains."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "On postoperative day 39, fungal tissue cultures of the resected brain mass grew Brucella spp. (preliminarily identified as B. melitensis, later typed as a marine mammal/novel Brucella strain in the series), and serum Brucella tube agglutination titer was positive at 1:160, confirming intracerebral brucelloma (granuloma). Empiric antituberculous therapy (isoniazid, rifampin, ethambutol) was switched to oral tetracycline and rifampin for 2 months, with follow-up Brucella serology turning negative (<1:20) in January 1986."
+    }
+  }
+}

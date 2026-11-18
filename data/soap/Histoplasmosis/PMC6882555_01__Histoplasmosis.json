@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6882555_01",
+  "pair_id": "PMC6882555_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 42-year-old man with chest pain, dysphagia and coughing. The computed tomography exam revealed augmentation of mediastinal lymph nodes.\nHigh digestive endoscopy showed bulging in left lateral wall of esophagus with elevated fusiform injury and peak erosion. Extension at 25 to 40cm from the incisors.\nThe EUS presented sectorial probe with interchangeable frequencies of 7.5MHz up to 12.0MHz for the lymphadenomegaly investigation which was observed in a previous imaging exam. Left lateral wall of esophagus was thickened with 11mm and without common echography stratification in layers measuring 15cm longer until the esophagogastric transition. In addition, we observed lymphadenomegaly along paraesophageal chains, aortopulmonary window and subcarinal, in which the majority of them were triangle, hypoechogenic, heterogenous, with hyperechogenic center, and hypervascularization showed in Doppler ultrasound (high flow); the largest measured 15mm. Qualitative elastography with benign characteristic (green-like). Some lymph nodes had contiguity with esophagus wall (Figure 1). Echoguided punctures were conducted.\nAnatomopathological study showed epithelioid granuloma, and central necrosis areas. Moderate inflammatory infiltrate in circumjacent mix. Chronic inflammatory process granulomatous with necrosis. Acid-alcohol-resistant negative bacillus (BAAR; Ziehl-Neelsen).\nFungal was study by positive Grocott staining for different sized yeast. Serum dosage of antibodies (complement fixation) for histoplasmosis with titer 1:32 (titer reference: positive if higher than 1:8).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old man presented with chest pain, dysphagia, and cough.",
+      "history_of_present_illness": "The patient presented for evaluation of chest pain, dysphagia, and cough after a chest CT revealed mediastinal lymphadenopathy.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for chest pain, dysphagia, and cough."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Chest CT: mediastinal lymph node enlargement. Upper GI endoscopy (EGD): bulging fusiform lesion with central peak erosion on the left lateral esophageal wall extending from 25 to 40 cm from the incisors. Endoscopic ultrasound (EUS) with fine-needle aspiration: 11-mm-thick loss of wall stratification along a 15-cm segment of the left lateral esophagus to the esophagogastric junction, contiguous with heterogeneous, hypervascular paraesophageal, aortopulmonary window, and subcarinal lymphadenopathy (up to 15 mm). EUS-FNA histopathology: epithelioid necrotizing granulomas with negative Ziehl-Neelsen AFB stain and positive Grocott silver stain for variably sized yeast cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Mediastinal and esophageal histoplasmosis (mediastinal granulomatous lymphadenitis with contiguous esophageal erosion). Confirmation: EUS-guided biopsy demonstrating necrotizing epithelioid granulomas with Grocott-positive yeast forms (negative Ziehl-Neelsen stain) and positive serum Histoplasma complement fixation antibody titer of 1:32 (reference positive >1:8). Plan & clinical course: Diagnosis established via EUS-FNA and complement fixation serology, avoiding diagnostic thoracotomy/mediastinoscopy."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11378234_09",
+  "pair_id": "PMC11378234_09::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 0.0,
+  "raw_case_text": "A 4-year-old boy, with transfusion-dependent beta-thalassemia major, underwent second stem cell transplantation at our institute. He developed fever on day +1, which persisted intermittently for 10 days. He was initially managed on febrile neutropenia protocol. All of his infective workup turned out to be negative. Multiple sets of cultures were also negative along with dengue NS1 antigen. Afterward, after a fever-free interval of 72 h, he developed a new fever spike and dengue NS1 antigen was detected at that time. Neutrophil engraftment was achieved on day +11. He was managed with hydration and broad-spectrum antibiotics (Meropenem 40 mg/kg) during neutropenic phase. Ultrasound abdomen revealed flattened bowel mucosa, edematous gallbladder, moderate ascites, and mild pleural effusion. His peripheral film showed rings of plasmodium falciparum, for which antimalarial therapy was immediately started but on the very next day (day +22) he succumbed to respiratory failure.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 4-year-old boy undergoing a second stem cell transplant for beta-thalassemia major developed intermittent fever starting on day +1 for 10 days, followed by a recurrent fever spike after a 72-hour afebrile interval.",
+      "history_of_present_illness": "The patient developed intermittent fever from day +1 to day +10 post-second stem cell transplant with initially negative infectious workup and negative dengue NS1 antigen. After a 72-hour fever-free period and neutrophil engraftment on day +11, he experienced a new fever spike.",
+      "past_medical_history": "Transfusion-dependent beta-thalassemia major status post second hematopoietic stem cell transplantation.",
+      "review_of_systems": "Positive for biphasic/recurrent post-transplant fever and subsequent acute respiratory failure."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Initial febrile neutropenia workup, multiple blood/body fluid cultures, and initial dengue NS1 antigen were negative; neutrophil engraftment occurred on day +11. Abdominal ultrasound during the second febrile episode showed flattened bowel mucosa, edematous gallbladder, moderate ascites, and mild pleural effusion. Peripheral blood smear subsequently demonstrated ring forms of Plasmodium falciparum.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Concurrent severe dengue fever (positive dengue NS1 antigen on second fever spike with ultrasound plasma leakage signs) and Plasmodium falciparum malaria (confirmed on peripheral blood film) following second stem cell transplantation. Treated with IV hydration, meropenem (40 mg/kg) during neutropenia, and immediate antimalarial therapy upon P. falciparum detection, but he succumbed to respiratory failure on day +22 post-transplant."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC1184073_01",
+  "pair_id": "PMC1184073_01::Typhoid_Fever",
+  "target_disease": "Typhoid_Fever",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 29-year-old woman from Kumba, Cameroon, was admitted in January 2004 to St. John's Hospital and Maternity, Kumba, with a five-day history of fever, emesis, poorly localized abdominal discomfort, myalgias and hepatosplenomegaly. Her total leukocyte count was 1.7 x 109/l, (neutrophils 51%, lymphocytes 43%, monocytes 5%). Urinalysis was normal and thin and thick film examinations of the peripheral blood were negative for malaria. The patient also tested negative for HIV. A blood Widal test however, showed a titre of 80 against \"O\" (somatic) antigen and 160 against the \"H\" (flagella) antigen of Salmonella enterica serovar Typhi (recommended cut-off titre in our hospital: >= 1:80 and >= 1:160 for the \"O\" and \"H\" antigens respectively). Blood culture grew Salmonella enterica serovar Typhi. Two months prior to her illness, she had suffered from an attack of suspected typhoid fever and had been treated with chloramphenicol 500 mg every 6 hours for 14 days.\nAntibiogram of the isolated S. enterica serovar Typhi was performed by disc diffusion techniques as recommended by NCCLS guidelines, Minimum inhibitory concentrations (MIC) of nalidixic acid and ciprofloxacin were determined by agar dilution method. The antibiotic discs used included ampicillin 10 mug (Beecham), co-trimoxazole 1.25/23.75 mug (Roche), chloramphenicol 30 mug (Antibioticos SA), ciprofloxacin 5 mug (Bayer), nalidixic acid 30 mug (Sigma) and ceftriaxone 30 mug (Roche). The isolate was found resistant to nalidixic acid, ampicillin, co-trimoxazole and chloramphenicol, but susceptible to ceftriaxone and ciprofloxacin by disc diffusion test. The MICs of ciprofloxacin and nalidixic acid were 0.5 mug/ml and 32.0 mug/ml respectively. The patient remained febrile after 7 days of oral administration of 500 mg ciprofloxacin every 12 hours. Thereafter, the patient was administered 1 g ceftriaxone every 12 hours intravenously, which rendered her afebrile within four days. Treatment was continued for another 3 days. The patient did not relapse on follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old woman from Kumba, Cameroon, presented with a 5-day history of fever, emesis, poorly localized abdominal discomfort, and myalgias.",
+      "history_of_present_illness": "The patient was admitted in January 2004 with a 5-day history of fever, vomiting, poorly localized abdominal discomfort, and myalgias.",
+      "past_medical_history": "Two months prior to presentation, she had an episode of suspected typhoid fever treated with oral chloramphenicol 500 mg every 6 hours for 14 days. Resident of Kumba, Cameroon.",
+      "review_of_systems": "Positive for fever, vomiting, abdominal discomfort, and myalgias."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed hepatosplenomegaly.",
+      "routine_investigations": "Total leukocyte count was 1.7 x 10^9/L (differential: neutrophils 51%, lymphocytes 43%, monocytes 5%). Urinalysis was normal. Thin and thick peripheral blood smears were negative for malaria, and HIV testing was negative. Blood Widal test showed an 'O' (somatic) antigen titer of 1:80 and an 'H' (flagellar) antigen titer of 1:160 (hospital positive cut-off >=1:80 for 'O' and >=1:160 for 'H').",
+      "advanced_workup": "NCCLS disc diffusion susceptibility testing and agar dilution MIC testing of the blood culture Salmonella enterica serovar Typhi isolate demonstrated resistance to nalidixic acid (MIC 32.0 µg/mL), ampicillin, co-trimoxazole, and chloramphenicol, with apparent disc diffusion susceptibility to ceftriaxone and ciprofloxacin, but a reduced ciprofloxacin susceptibility / elevated MIC of 0.5 µg/mL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Multidrug-resistant and nalidixic acid-resistant Salmonella enterica serovar Typhi typhoid fever with clinical fluoroquinolone treatment failure, confirmed by blood culture, Widal serology, and agar dilution MIC determination (ciprofloxacin MIC 0.5 µg/mL, nalidixic acid MIC 32.0 µg/mL). Malaria and HIV were ruled out. The patient remained febrile after 7 days of oral ciprofloxacin 500 mg every 12 hours, and was switched to intravenous ceftriaxone 1 g every 12 hours, achieving defervescence within 4 days. Intravenous ceftriaxone was continued for 3 additional days (7 days total), and she experienced no relapse on follow-up."
+    }
+  }
+}

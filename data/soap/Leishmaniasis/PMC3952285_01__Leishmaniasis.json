@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3952285_01",
+  "pair_id": "PMC3952285_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 24-year-old male presented with a 15 days history of persistent swelling of upper lip that ulcerated 2 days ago. He denied any history of trauma, fever, cough, weight loss, and drug or tobacco usage and his past medical and dental history was non-contributory. The patient was thin built with normal vital signs. There was no lymphadenopathy. A diffuse, non-tender swelling of lower lip with mild eversion of the lip was present [Figure 1]. A reddish pink granular lesion involving the vermillion border, labial mucosa, floor of the mouth, and the mandibular anterior gingiva was seen. The lesion had patchy areas of brown crustation, bleeding and purulent discharge [Figure 2]. A provisional diagnosis of Chelitis granulomatosis was made with a differential diagnosis of Baelz disease, tuberculous granulomatosis, sarcoidosis, a deep mycosis, primary syphilis, leishmaniasis, Squamous cell carcinoma, and non-Hodgkin's lymphoma. Plain chest radiograph and complete hemogram were within normal range. Serologies for syphilis and Leishmania, Mantoux test, and Enzyme-linked immunosorbent assay (ELISA) for HIV gave a negative result. An incisional biopsy from the lesion was undertaken that revealed numerous necrotizing epitheloid granulomas with Langhans type giant cells. Ziehl-Neelsen staining showed multiple rods like acid fast bacilli, confirming the diagnosis of primary labial tuberculosis [Figures 3 and 4]. The patient was started on anti-Koch's therapy in consultation with the physician with culture report awaited. Culture report obtained after 6 weeks confirmed mycobacterium tuberculous infection. Anti-Koch's therapy administered in this case consisted of four drug regimen, that is, rifampicin, isoniazide, ethambutol, and pyrazinamide for 6 months. The patient was regularly followed-up for next 6 months. The lesions regressed significantly within 15 days of beginning of the therapy and healed completely within 2 months [Figure 5].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old male presented with a 15-day history of persistent lip swelling that ulcerated 2 days prior to evaluation.",
+      "history_of_present_illness": "The patient noticed persistent swelling of the lip 15 days earlier that developed ulceration, crusting, bleeding, and purulent discharge 2 days prior to dental/medical consultation.",
+      "past_medical_history": "Non-contributory past medical and dental history; denied trauma, drug use, or tobacco use.",
+      "review_of_systems": "Negative for fever, cough, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "Thin build with normal vital signs and no cervical lymphadenopathy. Oral examination revealed diffuse non-tender labial swelling with mild eversion and a reddish-pink granular ulcerated lesion involving the vermilion border, labial mucosa, floor of the mouth, and mandibular anterior gingiva, covered with patchy brown crusts, bleeding, and purulent exudate.",
+      "routine_investigations": "Complete hemogram and plain chest radiograph were normal. Serologies for Leishmania, syphilis, and HIV (ELISA), as well as the Mantoux tuberculin test, were negative.",
+      "advanced_workup": "Incisional labial biopsy histopathology demonstrated numerous necrotizing epithelioid granulomas with Langhans giant cells, and Ziehl-Neelsen staining identified multiple rod-like acid-fast bacilli."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Cheilitis granulomatosa, mucocutaneous leishmaniasis, syphilis, sarcoidosis, deep mycosis, squamous cell carcinoma, and non-Hodgkin lymphoma were excluded; Ziehl-Neelsen staining of the labial biopsy and 6-week mycobacterial culture confirmed primary labial and gingival tuberculosis (Mycobacterium tuberculosis). Standard four-drug antitubercular therapy (rifampicin, isoniazid, ethambutol, and pyrazinamide) for 6 months produced marked regression within 15 days and complete mucosal healing within 2 months."
+    }
+  }
+}

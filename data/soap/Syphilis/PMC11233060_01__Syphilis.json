@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11233060_01",
+  "pair_id": "PMC11233060_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 2-day-old newborn baby born out of a nonconsanguineous parentage was admitted to the neonatal intensive care unit with respiratory distress. The birth weight was 2.78 kg. There was a history of thick meconium aspiration with a delayed cry. The baby cried after 2 min following the bag and mask ventilation. There was hepatosplenomegaly, with the liver being 7 cm and the spleen 4 cm, respectively. Investigations revealed total bilirubin 6.7 mg/dL (direct bilirubin 3.9 and indirect bilirubin 2.9), serum glutamic-oxaloacetic transaminase - 707 U/L, serum glutamic-pyruvic transaminase - 1574 U/L, alkaline phosphatase - 440 U/L, platelet - 80,000/cmm, total leukocyte count - 21,350/cmm, and C-reactive protein - 111.7. Urine and blood cultures were sterile. Chest X-ray was normal. Because of the presence of hepatosplenomegaly, the baby was thoroughly investigated for toxoplasmosis, hepatitis B, rubella, cytomegalovirus, herpes simplex infection and tuberculosis, which came out to be negative. On the 6th day, the baby developed peeling of the skin from the acral parts and trunk, for which dermatology consultation was sought. The mother gave a history of erythematous rash over the trunk and extremities on the 2nd day of birth. On dermatological examination, there was peeling of the skin from the palms and soles [Figure 1a and b]. Based on skin peeling from the acral areas, physiological desquamation of neonatal skin, continual peeling skin syndrome, and CS were kept as differentials. The patient was subsequently investigated. Venereal disease research laboratory (VDRL) titer of the mother and the baby came out as 1:4 and child 1:16, respectively. Cerebrospinal fluid (CSF) analysis showed glucose 37 mmol/L, protein 191.92 mg/dL, cell count 15 cells/mm3, and lymphocytes 100% and CSF VDRL came out to be negative. The patient was finally diagnosed with CS based on clinical findings and laboratory reports and was started with aqueous crystalline penicillin G 50,000 IU/kg/day intravenously (IV) 12 hourly in the first 7 days of life, followed by 50,000 IU/kg per dose IV every 8 hourly for the next 3 days to complete a total 10 days of treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 2-day-old male neonate presented to the NICU with acute respiratory distress at birth, followed on day 6 of life by acral and truncal skin desquamation.",
+      "history_of_present_illness": "Born with thick meconium aspiration and a delayed cry requiring 2 minutes of bag-and-mask ventilation, the newborn was admitted to the NICU at day 2 of life for respiratory distress and found to have hepatosplenomegaly. On day 6 of life, he developed prominent peeling of the skin over his palms, soles, and trunk.",
+      "past_medical_history": "Born to non-consanguineous parents with a birth weight of 2.78 kg. Maternal history revealed an erythematous rash over the mother's trunk and extremities on the 2nd day postpartum.",
+      "review_of_systems": "Positive for neonatal respiratory distress and acral/truncal skin peeling."
+    },
+    "objective": {
+      "physical_examination": "Birth weight was 2.78 kg. Initial physical examination revealed hepatosplenomegaly with the liver palpable 7 cm and spleen 4 cm below the costal margin. Dermatological examination on day 6 of life showed prominent desquamation and peeling of the skin over the palms, soles, and trunk.",
+      "routine_investigations": "Blood investigations revealed conjugated hyperbilirubinemia with total bilirubin 6.7 mg/dL (direct 3.9 mg/dL, indirect 2.9 mg/dL), markedly elevated transaminases (AST/SGOT 707 U/L, ALT/SGPT 1,574 U/L), alkaline phosphatase 440 U/L, thrombocytopenia (platelets 80,000/mm3), leukocytosis (WBC 21,350/mm3), and elevated CRP (111.7 mg/L). Blood and urine cultures were sterile; chest X-ray was normal; TORCH and tuberculosis workup (Toxoplasma, HBV, rubella, CMV, HSV, and TB) was negative.",
+      "advanced_workup": "Lumbar puncture CSF analysis showed 15 cells/mm3 (100% lymphocytes), elevated protein 191.92 mg/dL, glucose 37 mmol/L [mg/dL], and a negative CSF VDRL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed early congenital syphilis presenting with neonatal cholestatic hepatitis, hepatosplenomegaly, thrombocytopenia, and acral palmoplantar desquamation, established via a neonatal serum VDRL titer of 1:16 (fourfold higher than the maternal VDRL titer of 1:4). Treated with intravenous aqueous crystalline penicillin G 50,000 IU/kg/day divided every 12 hours during the first 7 days of life, then 50,000 IU/kg/dose IV every 8 hours for the next 3 days to complete a 10-day course."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7102488_02",
+  "pair_id": "PMC7102488_02::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "On day 9, the infant developed a left pneumothorax and pneumomediastinum, requiring intercostal drainage. The child was intubated, ventilated, and retrieved to our Pediatric Intensive Care Unit (PICU) due to worsening respiratory failure. In addition to IV co-trimoxazole, IV lincomycin and primaquine were commenced as second-line PCP therapy due to the clinical deterioration, and antimicrobial cover was broadened to IV piperacillin-tazobactam.\nSteroids were weaned over the next 10 days (D4-D14). All other microbiological and virological testing were negative. The immune screen revealed mild pan lymphocytopenia, severe hypogammaglobulinemia, and neutropenia, suggestive of a combined immunodeficiency (Table 1). The infant was commenced on fungal (fluconazole) and viral (valaciclovir) prophylaxis as well as immunoglobulin replacement therapy (IRT) and intravenous immunoglobulin (IVIg) at 0.4 g/kg. Granulocyte-colony stimulating factor (G-CSF) was also administered.\nThe patient's respiratory failure continued to worsen, and the infant subsequently developed acute respiratory distress syndrome (ARDS). An attempt at high-frequency oscillatory ventilation was ineffective. The infant was then placed on VV-ECMO on day 15 of the presentation. Bronchoscopy performed on day 16 was still positive for Pneumocystis jirovecii DNA at 1.6 x 105 copies/mL.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 11-week-old female infant undergoing treatment for severe Pneumocystis jirovecii pneumonia developed acute clinical deterioration on hospital day 9 with a left pneumothorax, pneumomediastinum, and refractory acute respiratory distress syndrome (ARDS).",
+      "history_of_present_illness": "Following initiation of pulse IV methylprednisolone and oral-to-IV co-trimoxazole (20 mg/kg/day) for PCR-confirmed Pneumocystis jirovecii pneumonia (baseline NPA viral load 2.0 x 10^6 copies/mL) in an infant exposed in utero to maternal R-CHOP chemotherapy, the child acutely deteriorated on hospital day 9 with air-leak syndrome and severe hypoxemic respiratory failure requiring endotracheal intubation and retrieval to a tertiary pediatric intensive care unit (PICU).",
+      "past_medical_history": "Ex-35-week premature female infant; in utero exposure to 6 cycles of maternal R-CHOP chemotherapy (17–33 weeks' gestation); severe Pneumocystis jirovecii pneumonia diagnosed on hospital day 4.",
+      "review_of_systems": "Positive for severe worsening respiratory failure and air-leak syndrome on hospital day 9."
+    },
+    "objective": {
+      "physical_examination": "On hospital day 9: Severe respiratory failure with left-sided pneumothorax and pneumomediastinum requiring intercostal chest drain insertion, endotracheal intubation, and mechanical ventilation, progressing by day 15 to refractory ARDS.",
+      "routine_investigations": "Microbiological and immunological screening: All secondary bacterial and viral tests negative; immune screen demonstrated mild pan-lymphocytopenia, severe hypogammaglobulinemia, and neutropenia consistent with combined immunodeficiency.",
+      "advanced_workup": "Day 16 bronchoscopy with bronchoalveolar lavage quantitative PCR (on VV-ECMO): Persistently positive for Pneumocystis jirovecii DNA at 1.6 x 10^5 copies/mL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Refractory Pneumocystis jirovecii pneumonia (confirmed by persistent BAL P. jirovecii DNA at 1.6 x 10^5 copies/mL on day 16) complicated by left pneumothorax, pneumomediastinum, and severe pediatric ARDS requiring veno-venous extracorporeal membrane oxygenation (VV-ECMO), secondary to combined immunodeficiency (pan-lymphocytopenia, neutropenia, and severe hypogammaglobulinemia following maternal R-CHOP exposure). Plan and clinical course: Managed in the tertiary PICU with intercostal chest tube drainage, invasive mechanical ventilation, escalation of anti-PCP therapy by adding intravenous lincomycin and primaquine to IV co-trimoxazole, broad-spectrum IV piperacillin-tazobactam, corticosteroid weaning (days 4–14), fluconazole and valaciclovir prophylaxis, intravenous immunoglobulin replacement (0.4 g/kg), and G-CSF. After failing high-frequency oscillatory ventilation (HFOV), the infant was cannulated for VV-ECMO on hospital day 15."
+    }
+  }
+}

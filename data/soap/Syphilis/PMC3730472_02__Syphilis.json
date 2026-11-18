@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3730472_02",
+  "pair_id": "PMC3730472_02::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "Her parents and siblings (one elder and two younger) were screened for syphilis. Parents were VDRL reactive in 1:4 dilutions, elder sibling (female, 11 years old) was VDRL reactive in 1:8 dilutions and all were confirmed with TPHA. The two younger siblings were VDRL non-reactive. Patient's father gave a history of unprotected, premarital sexual contact, with an unknown female, 14 years back. Three weeks later he developed a genital ulcer for which he was treated and the ulcer healed without any scar. Patient's mother had six deliveries. Her first male baby was delivered 12 years back which died on the same day because of seizures. The second female baby was delivered 2 years later which also died on the 10 th day due to low birth weight. Her third female child (11 years old) is the elder sibling of the patient, who had non-development of upper central incisors [Figure 3]. Her fourth child was the patient. Fifth and sixth children were clinically and serologically normal [Figure 4]. All were home deliveries without any antenatal care.\nRoutine blood investigations, cerebrospinal fluid (CSF) analysis, Mantoux test, chest X-ray, X-ray skull and long bones were normal for the patient. Computed tomography (CT) scan of paranasal sinus (PNS) showed perforation of palate [Figure 5] with bilateral maxillary and nasal polyps [Figure 6]. Her parents refused for biopsy of polyps. From the above history, clinical examination and investigations, diagnosis of late congenital syphilis with stigmata was made. The patient was treated with injection benzathaine penicillin 50,000 international units/kg body weight, deep intramuscular, once weekly, for 3 weeks, after test dose. The elder sibling and parents were also treated with injection benzathaine penicillin 24 lakh international units, once weekly, for 3 weeks. They were advised to come for regular follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A pediatric female patient (fourth of six children) presented with stigmata of late congenital syphilis including a hard-palate perforation and bilateral maxillo-nasal polyps.",
+      "history_of_present_illness": "The patient was evaluated alongside her family for stigmata of late congenital syphilis, including palatal perforation and nasal/paranasal sinus polyposis.",
+      "past_medical_history": "Born via unattended home delivery without antenatal care as the fourth of six children. Paternal history revealed unprotected premarital sexual contact with an unknown woman 14 years earlier followed 3 weeks later by a treated genital ulcer. Maternal obstetric history (G6P6, all home births without antenatal care): 1st child (male, 12 years ago) died on day 1 of life from seizures; 2nd child (female, 10 years ago) died on day 10 of life from low birth weight; 3rd child (11-year-old elder sister) had agenesis of the upper central incisors and reactive VDRL (1:8) and TPHA; 5th and 6th younger siblings were clinically and serologically normal (VDRL non-reactive). Both parents tested VDRL-reactive (1:4) and TPHA-positive.",
+      "review_of_systems": "Positive for palatal perforation and nasal polyps."
+    },
+    "objective": {
+      "physical_examination": "Clinical examination of the patient demonstrated late congenital syphilis stigmata including palatal perforation and nasal polyps (while her 11-year-old elder sister exhibited non-development of the upper central incisors).",
+      "routine_investigations": "Routine blood tests, Mantoux tuberculin skin test, chest X-ray, and skull and long-bone radiographs were normal.",
+      "advanced_workup": "Lumbar puncture CSF analysis was normal. Paranasal sinus CT scan demonstrated a perforation of the hard palate and bilateral maxillary sinus and nasal polyps (parents declined polyp biopsy)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed late congenital syphilis with hard-palate perforation and familial syphilis transmission, established via clinical stigmata, CT palatal perforation, and reactive parental (VDRL 1:4, TPHA+) and elder sibling (VDRL 1:8, TPHA+) serologies. The patient was treated with deep intramuscular benzathine penicillin G 50,000 IU/kg once weekly for 3 weeks after a negative test dose, and both parents and the 11-year-old sister received intramuscular benzathine penicillin G 2.4 million IU once weekly for 3 weeks."
+    }
+  }
+}

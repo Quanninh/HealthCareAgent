@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4782660_01",
+  "pair_id": "PMC4782660_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 27-year-old female patient from Quipapa/PE reported the onset of pruritic lesions on the abdomen 15 days ago. The physical examination revealed firm yellowish papules, with an erythematous-brownish base, measuring from 0.5 to 2 cm, in groups and an ascending pattern, on the left hemiabdomen (Figure 1). She had used topical corticoid previousy, without improvement. The laboratory exams showed no alterations and the search for accarus had negative results. She mentioned frequent bathing in the river. The histopatological exam revealed granulomatous dermatitis involving parasite eggs with characteristic lateral spikes (Figures 2 and3). Treated with Praziquantel 40 mg/kg she soon presented progressive clinical improvement (Figure 4).\nCutaneous schistosomiasis is usually aymptomatic and frequently occurs in white young women.\nThe lesions are formed when eggs or worms migrate, by means of a still unknown mechanism, causing the onset of granulomas on the skin and mucosae. They are usually found in the genital and groin areas and more rarely in the extragenital region (mainly thorax and abdomen). Recent skin lesions present as yellowish and firm papules, in a zosteriform distribution. Old lesions may be nodular, granulomatous or vegetating lesions.\nThe clinical diagnosis requires a high degree of suspicion and is made during the course of disease, with characteristic lesions, compatible epidemiology and histopathological exam providing identification of Schistosoma mansoni eggs. In recent phases the eggs are easily detected, but in old lesions necrosis and granulomatous infitrate predominate. The eggs are found in dermis and present the characteristic lateral spike. The treatment of choice is praziquantel (40 mg/ kg), with high rates of cure that vary from 60 - 90% (endemic areas) to 100% (non-endemic areas).\nIn the case reported, the clinical, epidemiological and histopathological conditions confirm the diagnosis of cutaneous ectopic schistosomiasis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 27-year-old woman from Quipapa, Pernambuco, Brazil, presented with a 15-day history of pruritic abdominal skin lesions.",
+      "history_of_present_illness": "The patient developed grouped, pruritic papular lesions on the left abdomen 15 days prior to presentation that failed to improve with topical corticosteroid therapy.",
+      "past_medical_history": "From Quipapa, Pernambuco, Brazil, with a history of frequent bathing in a local river.",
+      "review_of_systems": "Used topical corticosteroids prior to presentation without relief."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination revealed grouped, firm yellowish papules (0.5-2 cm) on an erythematous-brownish base arranged in an ascending zosteriform pattern over the left hemiabdomen.",
+      "routine_investigations": "Routine laboratory investigations were normal, and skin scraping/search for Acarus (scabies) was negative.",
+      "advanced_workup": "Skin biopsy histopathology demonstrated granulomatous dermatitis surrounding Schistosoma mansoni eggs with characteristic lateral spines in the dermis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed ectopic cutaneous schistosomiasis due to Schistosoma mansoni based on dermal histopathology and river exposure history. She was treated with oral praziquantel 40 mg/kg and achieved rapid, progressive clinical resolution of the abdominal skin lesions."
+    }
+  }
+}

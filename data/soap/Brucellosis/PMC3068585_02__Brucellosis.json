@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3068585_02",
+  "pair_id": "PMC3068585_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "An 18-year-old girl presented with a progressive bulging mass 2 x 3 cm2 in size, mildly tender, and soft without any fluctuation in 3 weeks located in her rib inter-space 1-2 near the left border of the sternum. She was living in the urban area and was healthy otherwise, except for a history of unpasteurized cheese usage. Intermittent low-grade fever (at night) and sweating were the only complaints. CXR was normal and ultrasonography reported the mass as a lymphadenopathy. Brucella seroagglutination tests, Wright, and 2ME were requested.\nLaboratory data showed: WBC = 11,200: Neut = 78%, Lymph = 20%, Mono = 2%, Hb = 11.1, Wright = 1/640, 2ME = 1/80, ESR = 9. Other lab data were not remarkable.\nBiopsy of the lesion showed nonspecific inflammation of the lymph node. She was treated with Cap. Doxycycline (100 mg/BID/Po) and Tab. Rifampin (600 mg/day/Po). After 2 months, lymphadenopathy disappeared and no relapse was reported after 1 year follow-up.\nThe third case was an 18-month-boy referred with a history of multiple, firm, and tender parasternal nodules (about 1.5 x 2 cm2 in size). He showed no constitutional symptoms.\nThere was no clear history of using unpasteurized dairy products. Wright and Coomb's Wright and all workups were negative. Routine laboratory exams revealed normal results. As a diagnostic approach, excisional biopsy was performed. Grossly, the lesion was cartilaginous with no evidence of necrosis or tumoral involvement. Microscopic examination revealed chronic nonspecific inflammatory process. The smear and culture of biopsied material were negative for tuberculosis or other bacteria. Due to persistent signs and symptoms, follow-up was done by repeated serologic tests which showed four-fold rising in brucella titer (8 weeks later). Treatment was started by Tab. Trimethoprim-sulfamethoxazole (trimethoprim, 8 mg/kg/Po) and Tab. Rifampin (10 mg/kg/Po) and continued for 8 weeks. Good response to therapy was achieved.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old female presented with a 3-week history of a progressively enlarging left parasternal mass accompanied by nocturnal low-grade fever and night sweats (reported alongside an 18-month-old boy with multiple firm, tender parasternal nodules).",
+      "history_of_present_illness": "Case 2: An 18-year-old urban female developed a progressively bulging, mildly tender mass in the left 1st-2nd intercostal space near the sternal border over 3 weeks, accompanied by intermittent nocturnal low-grade fever and sweating. Case 3 (co-reported in same text): An 18-month-old boy presented with multiple firm, tender parasternal nodules (1.5 x 2 cm) without constitutional symptoms.",
+      "past_medical_history": "Case 2: Previously healthy urban resident with a history of consuming unpasteurized cheese. Case 3: No clear history of unpasteurized dairy intake.",
+      "review_of_systems": "Case 2: Positive for left parasternal swelling, intermittent nocturnal fever, and night sweats. Case 3: Positive for tender parasternal nodules; negative for constitutional symptoms."
+    },
+    "objective": {
+      "physical_examination": "Case 2: A 2 x 3 cm soft, mildly tender, non-fluctuant bulging mass in the left 1st-2nd intercostal space adjacent to the sternum. Case 3: Multiple 1.5 x 2 cm firm, tender parasternal nodules.",
+      "routine_investigations": "Case 2: WBC 11,200/mm3 (78% neutrophils, 20% lymphocytes, 2% monocytes), Hb 11.1 g/dL, ESR 9 mm/h; chest X-ray normal; chest wall ultrasound identified the parasternal mass as lymphadenopathy. Case 3: Routine laboratory tests and initial baseline serologies normal.",
+      "advanced_workup": "Case 2: Biopsy of the parasternal lesion demonstrated nonspecific lymphadenitis. Case 3: Excisional biopsy showed cartilaginous tissue with chronic nonspecific inflammation, no necrosis or malignancy, and negative bacterial and mycobacterial smears and cultures."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Case 2 was confirmed as brucellous parasternal lymphadenitis by a positive serum Wright titer of 1:640 and 2ME titer of 1:80, and treated with oral doxycycline (100 mg BID) and rifampin (600 mg/day) with complete resolution of lymphadenopathy at 2 months and no relapse at 1 year. Case 3 (initially Wright/Coombs Wright negative) was confirmed by a 4-fold rise in Brucella serologic titer 8 weeks later and cured with an 8-week course of oral trimethoprim-sulfamethoxazole (8 mg/kg TMP) and rifampin (10 mg/kg)."
+    }
+  }
+}

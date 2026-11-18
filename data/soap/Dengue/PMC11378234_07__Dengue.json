@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11378234_07",
+  "pair_id": "PMC11378234_07::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 16-year-old male with acute myeloid leukemia underwent matched-sibling donor transplant. Eighteen months posttransplant, off immunosuppressant, he presented with intermittent fever for 24-48 h and found to be positive for dengue NS1 antigen. He only had thrombocytopenia, without any significant complications. He was successfully managed as an in-patient with hydration, analgesics, antipyretics, and serial monitoring of blood counts for 5 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 16-year-old male stem cell transplant recipient presented 18 months post-transplant with intermittent fever for 24-48 hours.",
+      "history_of_present_illness": "Eighteen months after matched-sibling donor stem cell transplantation for acute myeloid leukemia (and off all immunosuppression), the patient presented with a 24-48 hour history of intermittent fever.",
+      "past_medical_history": "Acute myeloid leukemia status post matched-sibling donor stem cell transplant 18 months prior (off immunosuppressants).",
+      "review_of_systems": "Positive for intermittent fever (24-48 hours)."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Isolated thrombocytopenia on complete blood count without other laboratory complications.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Uncomplicated dengue fever with thrombocytopenia, confirmed by positive dengue NS1 antigen test. Managed as an inpatient for 5 days with hydration, analgesics, antipyretics, and serial blood count monitoring, with complete recovery."
+    }
+  }
+}

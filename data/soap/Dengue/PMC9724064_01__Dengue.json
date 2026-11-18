@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9724064_01",
+  "pair_id": "PMC9724064_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 25-year-old man presented with a 5-day history of high-grade fever, chills and one episode of vomiting. On admission, he had a single seizure episode, followed by an altered sensorium and deteriorating neurological status. He also had an erythematous macular rash over his body. The patient tested positive for dengue non-structural (NS1) antigen and immunoglobulin M (IgM) dengue antibody, while the test for dengue immunoglobulin G (IgG) antibody was negative. The haematological investigations at the time of presentation revealed a reduced haemoglobin (7 gm/dL) and thrombocytopaenia with a platelet count of 60 000/microl, which reduced to 40 000/microl over the subsequent two days. The platelet count steadily improved thereafter and was 80 000/microl on the sixth day.\nCT imaging of the brain (Figures 1a-c) revealed ill-defined symmetrical bilateral hypodensities in the thalami, cerebellar white matter and bilateral frontal subcortical and deep white matter. Tiny hyperdense haemorrhagic foci were observed within some of these hypodense areas (Figure 1c). Repeat CT Brain imaging (Figures 1d-f), performed a day later due to the patient's clinical deterioration, revealed an increase in the haemorrhagic foci with intraventricular extension, obstructive hydrocephalus and generalized cerebral oedema.\nMRI of the brain (Figures 2a-i) performed on the second day of admission revealed multiple, bilaterally symmetrical, hyperintense areas on fluid attenuated inversion recovery (FLAIR) and T2-weighted images involving the thalami, cerebellum, bilateral frontal and parietal subcortical and deep white matter, with patchy restricted diffusion at diffusion-weighted imaging (DWI) and apparent diffusion coefficient (ADC) (Figure 2g). Multiple internal foci of blooming were seen on gradient recalled echoplanar (GRE) images, representing haemorrhages (Figures 2h and 2i).\nA diagnosis of dengue-associated haemorrhagic encephalitis was made based on the clinical presentation, imaging and laboratory findings.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old man presented with a 5-day history of high-grade fever, chills, and one episode of vomiting, complicated on admission by a generalized seizure, erythematous macular rash, and progressive obtundation.",
+      "history_of_present_illness": "The patient experienced 5 days of high-grade fever, chills, and a single episode of vomiting before presenting with a seizure, altered sensorium, generalized erythematous macular rash, and deteriorating neurological status.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for 5-day high-grade fever, chills, vomiting, erythematous macular rash, seizure, and altered sensorium."
+    },
+    "objective": {
+      "physical_examination": "Generalized erythematous macular rash, postictal altered sensorium, and progressive neurological deterioration.",
+      "routine_investigations": "Admission hemoglobin 7 g/dL and platelet count 60,000/uL (dropping to 40,000/uL over 2 days before recovering to 80,000/uL on day 6).",
+      "advanced_workup": "Admission head CT showed ill-defined symmetrical bilateral hypodensities in the thalami, cerebellar white matter, and bilateral frontal subcortical/deep white matter with tiny punctate hemorrhages; repeat head CT 1 day later showed expanding parenchymal hemorrhages with intraventricular extension, obstructive hydrocephalus, and generalized cerebral edema. Day 2 brain MRI demonstrated symmetrical T2/FLAIR hyperintensities in the bilateral thalami, cerebellum, and frontoparietal white matter with patchy diffusion restriction on DWI/ADC and multiple internal hemorrhagic foci (blooming) on GRE."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary dengue-associated acute hemorrhagic leukoencephalitis / encephalitis complicated by intraventricular hemorrhage and obstructive hydrocephalus, confirmed by positive serum dengue NS1 antigen and dengue IgM antibody (with negative dengue IgG) and characteristic bithalamic/cerebellar/frontoparietal hemorrhagic lesions on CT and MRI."
+    }
+  }
+}

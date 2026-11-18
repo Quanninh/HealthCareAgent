@@ -1,0 +1,47 @@
+{
+  "disease": "Leishmaniasis",
+  "slug": "leishmaniasis",
+  "total_input": 145,
+  "total_output": 145,
+  "label_counts": {
+    "POSITIVE": 120,
+    "EXCLUDED_NON_HUMAN": 4,
+    "EXCLUDED_NON_TARGET_CASE": 9,
+    "EXCLUDED_NON_SINGLE_PATIENT": 5,
+    "UNRESOLVED": 5,
+    "NEGATIVE": 2
+  },
+  "assertion_types": {
+    "CONFIRMED_PRESENT": 130,
+    "ABSENT_NEGATIVE": 9,
+    "SUSPECTED_RULE_OUT": 3,
+    "RULED_OUT": 1,
+    "SUSPECTED": 2
+  },
+  "evidence_strengths": {
+    "E1_CONFIRMATORY_LAB": 114,
+    "E0_NO_EVIDENCE": 17,
+    "E3_SUGGESTIVE_NON_SPECIFIC": 4,
+    "E2_HIGHLY_SPECIFIC_CLINICAL": 6,
+    "E4_BACKGROUND_OR_CONTEXT_ONLY": 1,
+    "C1_CONFIRMATORY_REFUTING": 1,
+    "E3_SUPPORTIVE_CLINICAL": 2
+  },
+  "failure_flags": {
+    "F2_SCOPE_COHORT": 10,
+    "F5_DISCOURSE_CONTEXT": 8,
+    "F6_EVIDENCE_SPECIFICITY": 5,
+    "F4_ASSERTION_TEMPORAL": 2,
+    "F1_HISTORICAL_INACTIVE": 1
+  },
+  "constraints_verified": {
+    "vpd_equivalence": "step11_vpd_satisfied == (step12_dataset_label == \"POSITIVE\") [0 violations]",
+    "offset_verification": "all source_quotes match case_text[start_char:end_char] verbatim [0 violations]",
+    "single_patient_anchor": "valid patient anchor in all records [0 violations]"
+  },
+  "notes": "100% standardized across 23 canonical schema keys and 12-step gold standard protocol.",
+  "output_file": "annotation_workdir/labeled_pool/output/output_leishmaniasis.jsonl",
+  "status": "complete",
+  "annotator_id": "disease_agent_leishmaniasis",
+  "annotation_version": "1.0-labeled_pool"
+}

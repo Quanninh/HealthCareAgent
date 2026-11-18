@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7263103_01",
+  "pair_id": "PMC7263103_01::Amoebiasis",
+  "target_disease": "Amoebiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 78-year-old male, originally from China, with a past medical history of hypertension, diabetes, paroxysmal atrial fibrillation, and a stroke with residual left-sided deficit and waxing and waning mental status was brought to the hospital for weakness, urinary incontinence, confusion, and poor oral intake. On the day of his presentation, the patient was noted to appear weak on the left side more so than at baseline. The patient was brought to the emergency department as a stroke code; computed tomography (CT) scan of the head ruled out acute stroke. Vital signs were significant for a heart rate of 94 beats per minute and respiratory rate of 31 breaths per minute. The patient was admitted to the hospital for sepsis and workup for possible toxic, metabolic, or infectious insults leading to recrudescence.\nThe patient was started on empiric antibiotics, which were narrowed when blood cultures revealed gram-negative bacteremia speciating to Klebsiella pneumoniae, ampicillin-resistant, but sensitive to ceftriaxone. A CT scan of the abdomen and pelvis demonstrated the presence of a large cystic region with air-fluid level in the left lobe of the liver (Figures 1 and 2). Under the suspicion that this lesion was the source of the patient's bacteremia, the patient underwent percutaneous drainage of the lesion by Interventional Radiology, which produced 80 cc of purulent fluid, also growing ampicillin-resistant, ceftriaxone-sensitive Klebsiella pneumoniae. While a stool ova and parasite examination on the patient was negative, further workup revealed that the patient was positive for Entamoeba histolytica antibody in the serum, detected via enzyme-linked immunosorbent assay and indicative of either current or prior infection. The patient had lived in the United States for several years, had no recent travel history and, to the knowledge of his family, had never been diagnosed or treated for E histolytica infection in the past; as such, he was started on metronidazole and paromomycin for extraluminal amoebic infection after completing the course of ceftriaxone to treat what appeared to have been a superimposed bacterial infection of a previously subclinical amoebic liver abscess (ALA).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 78-year-old Chinese-born male with prior stroke presented with acute worsening of left-sided weakness, confusion, urinary incontinence, and poor oral intake.",
+      "history_of_present_illness": "The patient was brought to the emergency department as a stroke code after developing increased left-sided weakness beyond his post-stroke baseline, accompanied by waxing and waning confusion, urinary incontinence, and poor oral intake.",
+      "past_medical_history": "Hypertension, diabetes mellitus, paroxysmal atrial fibrillation, and prior cerebrovascular accident with residual left-sided motor deficit and baseline waxing/waning mental status. Originally from China, living in the United States for several years with no recent travel and no known history of prior Entamoeba histolytica diagnosis or treatment.",
+      "review_of_systems": "Positive for worsening left-sided weakness, confusion, urinary incontinence, and poor oral intake."
+    },
+    "objective": {
+      "physical_examination": "Vital signs: heart rate 94 beats/min and tachypnea with respiratory rate 31 breaths/min. Neurological exam: left-sided motor weakness worse than baseline and altered mental status.",
+      "routine_investigations": "Blood cultures grew ampicillin-resistant, ceftriaxone-sensitive Klebsiella pneumoniae. Stool ova and parasite examination was negative.",
+      "advanced_workup": "Non-contrast head CT ruled out acute stroke. CT of the abdomen and pelvis revealed a large cystic lesion with an internal air-fluid level in the left hepatic lobe. Interventional Radiology performed percutaneous drainage of the left hepatic abscess, evacuating 80 cc of purulent fluid that also grew ampicillin-resistant, ceftriaxone-sensitive Klebsiella pneumoniae."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Serum enzyme-linked immunosorbent assay (ELISA) returned positive for anti-Entamoeba histolytica antibodies alongside blood and hepatic pus cultures positive for ampicillin-resistant, ceftriaxone-sensitive Klebsiella pneumoniae, confirming a previously subclinical amoebic liver abscess secondarily superinfected with gas-forming Klebsiella pneumoniae causing gram-negative bacteremia and stroke recrudescence. Following percutaneous IR drainage (80 cc) and targeted intravenous ceftriaxone therapy, the patient was treated with metronidazole followed by luminal paromomycin to eradicate extraluminal and intraluminal amoebic infection."
+    }
+  }
+}

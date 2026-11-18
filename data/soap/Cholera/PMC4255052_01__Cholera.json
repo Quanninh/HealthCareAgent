@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4255052_01",
+  "pair_id": "PMC4255052_01::Cholera",
+  "target_disease": "Cholera",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 61-year-old male presented to the emergency room with the complaint of nausea, vomiting, and abdominal pain that began the previous day. Patient denied fever, diarrhea, constipation, bloody vomiting, or blood in the stool. His past medical history was only significant for alcohol abuse and smoking. The patient was found to be in no acute distress. Vital signs were stable except for tachycardia at 121 beats per minute. Physical examination showed mild abdominal distention, tenderness, hypoactive bowel sounds, and guarding. Laboratory examination revealed hemoglobin of 19.5 g/dL, leukocytes of 20,200 cells/mm3, lipase of 789 U/L, AST of 557 IU/L, ALT of 152 IU/L, and total bilirubin of 9.1 mg/dL. Patient underwent CT scan of the abdomen which showed peripancreatic inflammatory changes and retroperitoneal free fluid, suggestive of acute pancreatitis. Due to concern of progression to pancreatic necrosis, the patient was admitted to the ICU, made NPO, and given IV fluids. The next day the patient's condition rapidly deteriorated, he became unresponsive, and he developed respiratory failure requiring intubation. IV meropenem 500 mg every 8 hours was started empirically. On the third day of the hospital admission, the blood cultures returned positive for A. hydrophila which were isolated from both aerobic and anaerobic vials. The specimen was cultured on blood agar and chocolate agar. Gram stain showed gram negative bacilli. Additional tests were done via MicroScan system which showed a 91% probability of A. hydrophila group. Test for Vibrio cholera was negative. Sequencing via rpoD gene confirmed A. hydrophila. Aeromonas was found to be sensitive to ciprofloxacin. IV ciprofloxacin 400 mg once daily was added to his antibiotic treatment. Additional history was obtained from the family, and it was discovered that the patient was vacationing in Florida two weeks previously, where he ingested raw oysters. The patient recovered and was discharged on the eight day of the hospital admission.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 61-year-old male presenting with a 1-day history of acute nausea, vomiting, and abdominal pain.",
+      "history_of_present_illness": "The patient presented to the emergency department with acute-onset abdominal pain, nausea, and vomiting starting the day prior to admission. On hospital day 2, he rapidly deteriorated with unresponsiveness and acute respiratory failure requiring endotracheal intubation.",
+      "past_medical_history": "History of chronic alcohol abuse and tobacco smoking; family later reported he had vacationed in Florida 2 weeks prior and consumed raw oysters.",
+      "review_of_systems": "Positive for nausea, vomiting, and abdominal pain; denied fever, diarrhea, constipation, hematemesis, or hematochezia."
+    },
+    "objective": {
+      "physical_examination": "Initially in no acute distress with tachycardia (heart rate 121 bpm) and otherwise stable vital signs. Abdominal examination revealed mild distention, tenderness, guarding, and hypoactive bowel sounds.",
+      "routine_investigations": "Admission blood tests showed hemoglobin 19.5 g/dL, leukocytosis (WBC 20,200/mm3), elevated lipase (789 U/L), AST 557 IU/L, ALT 152 IU/L, and total bilirubin 9.1 mg/dL.",
+      "advanced_workup": "Contrast abdominal CT demonstrated peripancreatic inflammatory changes and retroperitoneal free fluid consistent with acute pancreatitis. Antimicrobial susceptibility testing showed the blood isolate was susceptible to ciprofloxacin."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed Aeromonas hydrophila septicemia and acute pancreatitis following raw oyster ingestion; aerobic and anaerobic blood cultures on day 3 grew Gram-negative bacilli identified by MicroScan (91% probability) and confirmed by rpoD gene sequencing as A. hydrophila. Vibrio cholerae testing was definitively negative.\nPlan & Outcome: Managed in the ICU with NPO status, IV fluids, mechanical ventilation, empirical IV meropenem 500 mg every 8 hours, and targeted addition of IV ciprofloxacin 400 mg daily. The patient recovered fully and was discharged on hospital day 8."
+    }
+  }
+}

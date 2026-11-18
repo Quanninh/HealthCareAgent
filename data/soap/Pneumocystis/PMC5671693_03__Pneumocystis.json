@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5671693_03",
+  "pair_id": "PMC5671693_03::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "The patient was readmitted to the hospital with a PUO and CMV PCR levels remaining undetectable. Systematic investigations were performed including a bronchoscopy with alveolar lavage which was diagnostic of PJP. The patient was treated with high-dose trimethoprim and sulphamethoxazole (co-trimoxazole) given for three weeks and then discharged on a prophylactic dose of co-trimoxazole 480 mg daily. The CMV viral titre increased during the admission despite ongoing treatment with high-dose valganciclovir and remained detectable for two months following discharge (Figure 2()).\nDosage of valganciclovir had to be reduced to 450 mg BD due to persistent myelosuppression despite prophylactic injections with granulocyte colony-stimulating factor (G-CSF). With ongoing valganciclovir treatment and resolution of the PJP, CMV levels again became undetectable by PCR with a titre of <180 copies/ml on four successive blood tests. However, at the end of the study (14 September 2016), CMV levels had again started to increase (Figure 2()).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An immunocompromised patient on valganciclovir for cytomegalovirus infection was readmitted with pyrexia of unknown origin (PUO).",
+      "history_of_present_illness": "The patient, who was receiving ongoing valganciclovir therapy and granulocyte colony-stimulating factor (G-CSF) support for prior cytomegalovirus (CMV) infection with undetectable admission CMV PCR levels, was readmitted to the hospital for evaluation of pyrexia of unknown origin.",
+      "past_medical_history": "Cytomegalovirus (CMV) infection on high-dose valganciclovir complicated by persistent treatment-related myelosuppression requiring G-CSF support.",
+      "review_of_systems": "Positive for persistent fever (pyrexia of unknown origin). Home medications included valganciclovir and G-CSF."
+    },
+    "objective": {
+      "physical_examination": "Febrile on readmission.",
+      "routine_investigations": "Serial peripheral blood CMV PCR monitoring and hematology: Undetectable CMV PCR on readmission, followed by an inpatient rebound in CMV viral titer that remained detectable for 2 months post-discharge before re-suppressing to <180 copies/mL on four consecutive blood tests (and rising again on September 14, 2016); persistent myelosuppression requiring valganciclovir dose reduction to 450 mg twice daily despite prophylactic G-CSF injections.",
+      "advanced_workup": "Bronchoscopy with bronchoalveolar lavage (BAL): Diagnostic of Pneumocystis jirovecii pneumonia (PJP)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Pneumocystis jirovecii pneumonia (PJP; confirmed by bronchoscopy with bronchoalveolar lavage) presenting as pyrexia of unknown origin and triggering secondary cytomegalovirus (CMV) viremia reactivation. Plan and clinical course: Treated with a 3-week course of therapeutic high-dose trimethoprim-sulfamethoxazole (co-trimoxazole), followed at discharge by secondary co-trimoxazole prophylaxis (480 mg daily) alongside dose-adjusted oral valganciclovir (450 mg twice daily) and G-CSF support, achieving complete resolution of PJP and subsequent transient clearance of CMV viremia (<180 copies/mL)."
+    }
+  }
+}

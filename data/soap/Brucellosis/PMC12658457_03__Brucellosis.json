@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12658457_03",
+  "pair_id": "PMC12658457_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 63-year-old male farmer presented with a two-year history of right knee joint pain of unknown etiology, which exacerbated following physical activity and necessitated a total knee arthroplasty (Figure 1C). Approximately 18 months postoperatively, the patient developed recurrent right knee pain accompanied by swelling and tenderness, prompting hospital admission on January 30, 2024. The patient's medical history included hypertension. Clinical examination upon admission revealed a normal body temperature (36.8  C), with restricted flexion and extension of the right knee joint (range of motion: 5  extension to 90  flexion) and a positive patellar ballottement test. Conservative management proved ineffective, necessitating revision surgery of the knee prosthesis. Laboratory investigations such as WBC, CRP and ESR indicated signs of inflammation and joint infection cannot be excluded (Table 1). Empirical antibiotic therapy was initiated, and synovial fluid culture (blood culture bottles, bioMerieux) remained negative after 5 days of incubation. Subsequent mNGS identified Brucella (3,010 reads) and Brucella melitensis (3 reads), and synovial fluid culture yielding positive results after a prolonged incubation time of 72 h. Epidemiological Investigation revealed prior sheep farming activities 2 years earlier, confirming a diagnosis of brucellosis-associated joint infection. The patient was treated with a combination of oral doxycycline (100 mg twice daily) and rifampin (600 mg once daily) for 3 months, supplemented with ceftriaxone (2.0 g IV every 12 h) for 1 month. Clinical improvement was observed, with resolution of right knee pain, swelling, and tenderness, and absence of fever or systemic symptoms. Follow-up evaluations at 1, 3, and 6 months demonstrated sustained clinical remission.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old male farmer presented with recurrent right knee pain, swelling, and tenderness 18 months after right total knee arthroplasty.",
+      "history_of_present_illness": "A 63-year-old male farmer had a 2-year history of exertional right knee pain treated with right total knee arthroplasty (TKA). Approximately 18 months postoperatively, he developed recurrent right knee pain, swelling, and tenderness refractory to conservative therapy, prompting admission on January 30, 2024.",
+      "past_medical_history": "Hypertension; right total knee arthroplasty 18 months earlier; history of sheep farming 2 years prior to presentation.",
+      "review_of_systems": "Positive for right prosthetic knee pain, swelling, and stiffness; negative for fever or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Temperature 36.8 C. Right knee swelling, tenderness, positive patellar ballottement test, and restricted flexion-extension range of motion (5 degrees extension to 90 degrees flexion).",
+      "routine_investigations": "Elevated WBC, CRP, and ESR; right knee radiograph showed TKA prosthesis in situ.",
+      "advanced_workup": "Synovial fluid microbiological and metagenomic analysis obtained during prosthetic knee evaluation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Initial 5-day synovial fluid culture was negative, but synovial fluid mNGS identified Brucella spp. (3,010 reads) and Brucella melitensis (3 reads), and prolonged synovial fluid culture subsequently grew Brucella at 72 hours, confirming Brucella melitensis periprosthetic right knee joint infection. Treated with knee prosthesis revision surgery combined with 3 months of oral doxycycline (100 mg BID) and oral rifampin (600 mg QD) plus 1 month of IV ceftriaxone (2.0 g q12h), achieving complete resolution of knee pain and swelling with sustained remission at 1-, 3-, and 6-month follow-ups."
+    }
+  }
+}

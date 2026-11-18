@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9482218_01",
+  "pair_id": "PMC9482218_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "Syphilis is a chronic inflammatory disease caused by the organism Treponema pallidum (T. pallidum). Secondary syphilis is characterized by a rash that emerges around 3 to 6 weeks after the chancre forms, and may appear before the chancre heals in some cases. Other systemic symptoms may appear, indicating that the infection has migrated to other parts of the body. During the secondary stage, a person is extremely contagious. A 40-year-old man presented to our outpatient department with complaints of generalized weakness, headache, nausea, and arthralgia for the past few weeks. The patient had a history of having sex exclusively with men and had been in a monogamous relationship for the past 8 months. Physical examination revealed macular rash with scarred painless lesions over the glans penis and bilateral submandibular lymphadenopathy. Investigations revealed a positive reactive venereal disease research laboratory (VDRL) test. A fluorescent antibody test for T. pallidum showed positive for T. pallidum specific immunoglobulin G (IgG) antibody. HIV test was negative. For treatment, a single dose of 2.4 million units of Benzathine penicillin G was given intramuscularly and advised for follow-up. Patients with syphilis should have their sexual contacts assessed. Regardless of the results of serology testing, exposure within 90 days of a patient's diagnosis necessitates therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old man presented with a several-week history of generalized weakness, headache, nausea, and arthralgia.",
+      "history_of_present_illness": "The patient presented to the outpatient clinic complaining of generalized weakness, headache, nausea, and joint pains persisting for the past several weeks.",
+      "past_medical_history": "Identifies as a man who has sex with men (MSM) and reported being in a monogamous same-sex relationship for the preceding 8 months.",
+      "review_of_systems": "Positive for generalized weakness, headache, nausea, arthralgia, and a macular rash."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed a macular rash, scarred painless lesions over the glans penis, and bilateral submandibular lymphadenopathy.",
+      "routine_investigations": "Serum HIV screening test was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis with healed primary glans penis chancre scars and bilateral submandibular lymphadenopathy, established via a reactive serum VDRL and positive fluorescent treponemal antibody test for Treponema pallidum-specific IgG. Treated with a single intramuscular dose of benzathine penicillin G 2.4 million units and advised on partner evaluation and empirical treatment of sexual contacts within the preceding 90 days."
+    }
+  }
+}

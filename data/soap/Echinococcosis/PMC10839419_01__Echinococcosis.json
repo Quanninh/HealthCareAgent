@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10839419_01",
+  "pair_id": "PMC10839419_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 29-year-old male, living in a countryside setting with no prior medical history, presented at our university hospital with a gradually enlarging mass in his right gluteal area that had been progressing over the past three years. The patient reported no fever or weight loss during this period.\nDuring the clinical assessment, a rounded, soft mass measuring 11 cm in its largest dimension was observed in the gluteal region. The mass was nonpainful upon palpation, exhibited mobility in both superficial and deep planes, and showed no indications of inflammation. There was no restriction in the mobility of the right hip, and the neurological examination produced normal results.\nPelvic X-rays were normal, and an ultrasound examination revealed a well-defined cystic lesion with anechoic characteristics (Figure 1).\nMRI assessment demonstrated an oval-shaped formation within the right gluteus maximus muscle, featuring regular contours and hyperintensity on both T1- and T2-weighted imaging. The lesion comprised vesicular structures with a fluid signal, and no enhancement was observed following contrast injection. Measuring 97 x 65 mm and extending approximately 108 mm, this cystic formation induced a deformation of the skin contours in the right gluteal region while respecting the integrity of the femur and other muscular structures (Figure 2).\nA computed tomography scan of the thoracoabdominal region showed no other affected areas, but the hydatid serological test came back positive.\nThe surgical approach was from the back, focusing on the mass, which was found to be a cyst located at the level of the aponeurosis of the gluteus maximus muscle. The surgical team performed a complete pericystectomy without damaging the cyst's integrity (Figure 3).\nTo protect the surgical field edges, the team used compresses soaked in hypertonic saline solution. After removing the cyst, the surgical specimens were sent for histological examination, confirming the diagnosis of a muscular hydatid cyst. The patient's recovery after the surgery went smoothly, and additional medical treatment with albendazole was started on the third day. The treatment was continued for six weeks after the surgery to prevent any recurrence.\nAfter a follow-up of three years, there was no reappearance of the cyst locally or distantly, and the serological status remained negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old male presented with a gradually enlarging right gluteal mass over the past 3 years.",
+      "history_of_present_illness": "The patient noticed a slowly enlarging mass in his right gluteal region over a 3-year period without pain, fever, or weight loss.",
+      "past_medical_history": "No prior medical history; resided in a rural countryside setting.",
+      "review_of_systems": "Positive for right gluteal swelling; negative for pain, fever, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "A rounded, soft, non-painful mass measuring 11 cm in largest dimension was palpated in the right gluteal region, mobile in both superficial and deep planes without overlying skin inflammation. Right hip range of motion and neurological examination were normal.",
+      "routine_investigations": "Pelvic radiographs were normal. Gluteal ultrasonography demonstrated a well-defined anechoic cystic lesion.",
+      "advanced_workup": "Gluteal MRI revealed a 97 x 65 x 108 mm oval cystic formation within the right gluteus maximus muscle with regular contours, hyperintensity on T1- and T2-weighted sequences, internal vesicular fluid-signal structures, and no post-contrast enhancement, deforming the gluteal skin contour while sparing the femur and adjacent muscles. Thoracoabdominal CT showed no other organ involvement. Hydatid serology was positive. Complete surgical pericystectomy at the gluteus maximus aponeurosis using hypertonic saline compresses and histological examination of the resected specimen confirmed a muscular hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated hydatid cyst of the right gluteus maximus muscle, confirmed by positive hydatid serology and postoperative histopathological examination. The patient underwent complete en bloc pericystectomy with hypertonic saline field protection, followed by oral albendazole initiated on postoperative day 3 for 6 weeks; at 3-year follow-up, there was no local or distant recurrence and serology remained negative."
+    }
+  }
+}

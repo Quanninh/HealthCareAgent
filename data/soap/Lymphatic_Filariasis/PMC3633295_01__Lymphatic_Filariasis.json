@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3633295_01",
+  "pair_id": "PMC3633295_01::Lymphatic_Filariasis",
+  "target_disease": "Lymphatic_Filariasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 5.0,
+  "raw_case_text": "A 51-year-old woman came to the Department of Oral and Maxillofacial Surgery with a chief complaint of pain and mobility in the upper front teeth, and in the month, it was noticed that couple of insects emerging out from her gums [Figure 1]. She gives a history of leprosy and filariasis for which she had undergone treatment. Extra oral examination revealed no active infection in hands (leprosy) [Figure 2] and legs (elephantiasis) [Figure 3]. On intraoral examination, she had poor oral hygiene with periodontally compromised grade III mobile teeth. The patient had anterior open bite and was a habitual mouth breather. Exploration of the labial gingival revealed deepening of the gingival sulcus with formation of the deep periodontal pocket in the region of the upper left lateral incisor and canine teeth. The surrounding mucosa was inflamed and tender on palpation with pus discharge [Figure 1a and b]. A provisional diagnosis of oral myiasis was made. The hematological report was normal. The patient was sent for a medical opinion regarding leprosy of the hand and filariasis of the right leg, and no signs of active infections with healed scar were mentioned in the report obtained and no contraindication to carry out the dental procedure was sought from them. Orthopantamography revealed mild bone destruction in relation to the mobile anterior maxillary teeth. The treatment plan consisted of removal of the maggots, debridement, and irrigation. The wound was debrided under local anesthesia and roller gauze impregnated with turpentine oil was inserted into the cavity present deep to the gingival sulcus. A live larva was removed with the help of tweezer. Copious irrigation with normal saline and povidine iodine was performed. Under antibiotic coverage with oral penicillin, the patient underwent debridement for three consecutive days and the wound healed by secondary intention.\nThe larvae recovered from the wound were preserved in 40% formaldehyde. It appeared tapered in shape and creamy white in color, their segments giving the appearance of transverse rows, with a brown black tip anteriorly [Figure 1c] and was identified as larvae of Chrysomya bezziana by an entomologist. Microscopic examination [Figure 1d] revealed five fingers like process in the anterior spiracle, incomplete peritreme in the posterior spiracle, and straight spiracular slits which belong to the family Calliphoridae.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old woman presenting with a 1-month history of upper anterior tooth pain, dental mobility, and emergence of insect larvae from her gums.",
+      "history_of_present_illness": "The patient presented to the oral and maxillofacial surgery clinic complaining of pain and mobility of her upper front teeth over the preceding month, accompanied by live maggots emerging from the maxillary gingiva.",
+      "past_medical_history": "History of treated leprosy (affecting the hands) and chronic lymphatic filariasis/elephantiasis of the right leg, both clinically inactive following prior medical therapy. Habitual mouth breather with poor oral hygiene.",
+      "review_of_systems": "Positive for maxillary gingival pain, purulent discharge, tooth mobility, and oral larvae emergence."
+    },
+    "objective": {
+      "physical_examination": "Extraoral examination showed healed inactive stigmata of leprosy on the hands and chronic elephantiasis of the right leg without active infection. Intraoral examination revealed poor oral hygiene, anterior open bite, Grade III mobility of the maxillary anterior teeth, and a deep labial periodontal pocket at the upper left lateral incisor and canine with inflamed, tender mucosa, pus discharge, and live maggots.",
+      "routine_investigations": "Routine hematological investigations were normal. Orthopantomography (OPG) showed mild alveolar bone destruction around the mobile maxillary anterior teeth.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed oral myiasis caused by Chrysomya bezziana (Calliphoridae) larvae (confirmed by entomological and microscopic identification of characteristic anterior 5-finger spiracular processes and incomplete posterior peritreme) in a patient with inactive historical leprosy and lower-limb lymphatic filariasis.\nPlan & Outcome: Managed with local anesthesia, placement of turpentine oil-impregnated gauze, mechanical removal of live larvae with tweezers, copious normal saline and povidone-iodine irrigation, 3 consecutive days of surgical debridement, and oral penicillin therapy, achieving complete wound healing by secondary intention."
+    }
+  }
+}

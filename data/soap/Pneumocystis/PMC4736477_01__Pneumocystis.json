@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4736477_01",
+  "pair_id": "PMC4736477_01::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 51-year-old male was suffering Crohn's disease (CD) since 1990. The patient's weight was 67 kg. He had the inflammatory type of Crohn's disease, and the area of his lesion was the colon and small intestine. He had no complications, including intra- or extraenteral lesions, or any other systemic disorders. He had been taking 5 mg/kg of infliximab (total 400 mg) since 2004 and 0.15 g/day of 6-mercaptopurine since 2005. However, he complained of abdominal pain, his Harvey-Bradshaw index scores increased from 5 to 13, and he subsequently began taking 10 mg/kg of infliximab (total 650 mg) from September 2013. In January 2014, he complained of a fever and cough. Laboratory tests on this admission showed high levels of C-reactive protein and anti-mycoplasma antibody while other examination items, including the white blood cell count and T-SPOT, were unremarkable. A computed tomography (CT) scan revealed ground-glass opacities in the lower lobes of the bilateral lung with a crazy-paving pattern (Fig. 1a). Bronchoscopy detected swelling of the tracheal mucosa with obvious dilations of the vessels (Fig. 2). A bronchoalveolar lavage fluid sample obtained during bronchoscopy included 255 cells/field with 80 % macrophages, 12 % lymphocytes and 8 % neutrophils. A polymerase chain reaction using the bronchoalveolar lavage fluid sample detected specific sequences for Pneumocystis jirovecii. Taken together, he was diagnosed as having pneumonia due to the combined infection of Mycoplasma and Pneumocystis carinii (jirovecii). The patient stopped infliximab administration and took 2 g/day of ceftriaxone, 500 mg/day of azithromycin and 400 mg/80 mg/day of sulfamethoxazole/trimethoprim; thereafter his symptoms including a fever and cough improved. CT after the antibiotic therapy showed a significant improvement of the ground-glass opacities in the lower lobes of the bilateral lung (Fig. 1b).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old male with ileocolonic Crohn's disease presented in January 2014 with fever and cough four months after escalating his infliximab dose.",
+      "history_of_present_illness": "Diagnosed with inflammatory ileocolonic Crohn's disease in 1990, the patient had been maintained on infliximab (5 mg/kg, 400 mg total since 2004) and 6-mercaptopurine (0.15 g/day since 2005). In September 2013, due to worsening abdominal pain and an increase in his Harvey-Bradshaw Index from 5 to 13, his infliximab dose was doubled to 10 mg/kg (650 mg total). Four months later (January 2014), he presented with acute fever and cough.",
+      "past_medical_history": "Inflammatory ileocolonic Crohn's disease since 1990, treated with infliximab (since 2004, escalated to 10 mg/kg in September 2013) and 6-mercaptopurine (0.15 g/day since 2005); no other systemic comorbidities.",
+      "review_of_systems": "Positive for fever and cough (preceded 4 months earlier by Crohn's-related abdominal pain). Home medications were infliximab (10 mg/kg) and 6-mercaptopurine (0.15 g/day)."
+    },
+    "objective": {
+      "physical_examination": "Body weight 67 kg; febrile with cough on admission.",
+      "routine_investigations": "Admission laboratory tests: Elevated C-reactive protein (CRP) and positive serum anti-Mycoplasma antibody; normal white blood cell count and negative T-SPOT.TB assay.",
+      "advanced_workup": "Chest CT scan: Bilateral lower lobe ground-glass opacities with a crazy-paving pattern. Bronchoscopy with bronchoalveolar lavage (BAL): Tracheal mucosal swelling with prominent vascular dilations; BAL fluid cell count showed 255 cells/field (80% macrophages, 12% lymphocytes, 8% neutrophils); BAL fluid polymerase chain reaction (PCR) detected specific sequences of Pneumocystis jirovecii."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Combined Mycoplasma pneumoniae and Pneumocystis jirovecii (carinii) pneumonia precipitated by high-dose infliximab (10 mg/kg) and 6-mercaptopurine immunosuppression for Crohn's disease, confirmed by positive BAL Pneumocystis jirovecii PCR, positive serum anti-Mycoplasma antibody, and bilateral lower lobe crazy-paving ground-glass opacities on chest CT. Plan and clinical course: Infliximab was discontinued, and the patient was treated with ceftriaxone (2 g/day), azithromycin (500 mg/day), and sulfamethoxazole/trimethoprim (400 mg/80 mg daily), resulting in prompt resolution of fever and cough and marked resolution of bilateral ground-glass opacities on follow-up chest CT."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5592425_01",
+  "pair_id": "PMC5592425_01::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 34-year-old woman, gravida 0, complained of a swollen lymph node on the left side of the neck and underwent a biopsy of the neck and mediastinal lymph nodes at 20 weeks of gestation. Pathological diagnosis was classical stage IIA (Ann Arbor staging system) Hodgkin's lymphoma, with involvement of the left supraclavicular and mediastinal nodes. ABVD (doxorubicin 25 mg/m2, bleomycin 10 mg/m2, vinblastine 6 mg/m2, and dacarbazine 375 mg/m2) chemotherapy was started at 23 weeks of gestation. After 4 cycles of ABVD, at 37 weeks and 0 days of gestation, she experienced a cough and slight dyspnea. Chest X-ray showed high density areas in both lower lobes, which were detected as diffuse ground-glass patterns on computed tomography (CT) (Figure 1(a)). We included interstitial pneumonia caused by bleomycin as well as PCP in the differential diagnosis, and oral prednisone was administered. We did not prescribe sulfamethoxazole-trimethoprim (ST) because the safety of ST in pregnancy was unclear at that time. At 37 weeks and 1 day of gestation, fetal movement was profoundly decreased, and repeated variable deceleration was observed on the fetal heart rate monitor. Consequently, emergent cesarean section due to nonreassuring fetal status and breech presentation was performed, and she delivered a 2596 g male baby. After surgery, she was treated with ST based on the clinical suspicion of PCP. Eventually, she was diagnosed with PCP by a PCR method that detects Pneumocystis jirovecii-specific DNA in the sputum. After a 3-week treatment with ST and prednisone, she recovered and thereafter received two additional cycles of ABVD. She has had no sign of disease relapse, and the subsequent clinical course of the baby has been uneventful.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 34-year-old primigravid woman with stage IIA classical Hodgkin's lymphoma presented at 37 weeks and 0 days of gestation with cough and mild dyspnea after completing four cycles of ABVD chemotherapy.",
+      "history_of_present_illness": "The patient, gravida 0, presented at 20 weeks' gestation with left cervical lymphadenopathy; biopsy of left supraclavicular and mediastinal nodes established stage IIA classical Hodgkin's lymphoma. She initiated ABVD chemotherapy (doxorubicin 25 mg/m2, bleomycin 10 mg/m2, vinblastine 6 mg/m2, dacarbazine 375 mg/m2) at 23 weeks' gestation. After completing four cycles of ABVD, at 37 weeks and 0 days of gestation, she developed a new cough and slight dyspnea.",
+      "past_medical_history": "Stage IIA classical Hodgkin's lymphoma diagnosed at 20 weeks' gestation, treated with 4 cycles of ABVD chemotherapy starting at 23 weeks' gestation; primigravida.",
+      "review_of_systems": "Positive for cough and mild dyspnea at 37 weeks' gestation, followed on the next day (37 weeks 1 day) by markedly decreased fetal movement."
+    },
+    "objective": {
+      "physical_examination": "At 37 weeks and 1 day of gestation: Breech fetal presentation with profoundly decreased fetal movements and recurrent variable decelerations on cardiotocography.",
+      "routine_investigations": "Chest radiograph at 37 weeks 0 days: Bilateral lower lobe high-density opacities.",
+      "advanced_workup": "Chest CT at 37 weeks 0 days: Diffuse bilateral ground-glass opacities. Sputum molecular microbiology: Polymerase chain reaction (PCR) detected Pneumocystis jirovecii-specific DNA in the sputum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Antepartum Pneumocystis jirovecii pneumonia (PCP) at 37 weeks' gestation following four cycles of ABVD chemotherapy for stage IIA classical Hodgkin's lymphoma, definitively confirmed by sputum Pneumocystis jirovecii PCR and diffuse bilateral ground-glass opacities on chest CT. Plan and clinical course: Oral prednisone was initiated at 37 weeks 0 days (covering both suspected bleomycin pneumonitis and PCP). The next day (37 weeks 1 day), emergent cesarean section was performed for nonreassuring fetal status (decreased fetal movement and variable decelerations) and breech presentation, delivering a healthy 2,596 g male infant. Postpartum, sulfamethoxazole-trimethoprim (ST) was added to oral prednisone for a 3-week course, achieving full maternal recovery; she subsequently completed two additional cycles of ABVD and remained in complete lymphoma remission."
+    }
+  }
+}

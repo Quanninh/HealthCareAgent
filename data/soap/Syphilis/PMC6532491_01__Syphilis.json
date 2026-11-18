@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6532491_01",
+  "pair_id": "PMC6532491_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 19-year-old male presented to us with redness and scaling over the palms and glans penis for 1 month. The lesions were largely asymptomatic with occasional low-intensity itching over the glans. The patient gave a history of a single heterosexual contact with a commercial sex worker around 3 months back. Around 25 days after this contact, the patient developed an ulcer over the penis that was painless and hard and subsided after a month on its own. The patient took no oral medications for the same but had applied some topical ointment purchased over the counter. He also gave a history of sore throat for 15 days. There were no other complaints.\nOn examination, multiple, discrete, 3-5 mm erythematous, scaly, psoriasiform papuloplaques were present over the palms [Figure 1]. Vertical pressure over the lesions caused pain. The glans penis showed ill-defined psoriasiform plaques with peripheral collarette of scales [Figure 2]. There was no scarring at the site where the patient complained of the ulcer. Pharynx was congested. Rest of the cutaneous and mucosal examination was normal. There was no lymphadenopathy. Systemic examination was normal.\nA Venereal Disease Research Laboratory (VDRL) test was ordered and showed positivity in 1:32 titer. A voluntary HIV enzyme-linked immunosorbent assay was ordered and was found to be nonreactive. A confirmatory Treponema pallidum hemagglutination test was advised and was found to be positive. A skin biopsy from the lesion over the palm was done and it showed hyperkeratosis, parakeratosis, acanthosis, and a lymphohistiocytic infiltrate with plasma cells in the dermis concentrated mainly in the periadnexal areas [Figure 3a and b]. Based on the typical history, clinical examination, laboratory investigations, and further supported by histopathological findings, a diagnosis of secondary syphilis was made. The patient was treated with injection benzathine penicillin 2.4 million IU in the buttocks after prior test dose. He was also counseled for safe sexual practices and use of barriers. He is being followed up and advised for posttreatment VDRL and HIV ELISA tests.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 19-year-old male presented with a 1-month history of erythematous scaly lesions over both palms and his glans penis, accompanied by a 15-day history of sore throat.",
+      "history_of_present_illness": "Approximately 3 months prior to presentation, the patient had unprotected heterosexual intercourse with a commercial sex worker. Twenty-five days later, he developed a painless, indurated penile ulcer that resolved spontaneously over 1 month with only an over-the-counter topical ointment. One month prior to presentation, he developed largely asymptomatic erythematous scaly plaques on his palms and mildly pruritic scaly plaques on his glans penis, along with a sore throat for 15 days.",
+      "past_medical_history": "History of a self-resolving primary penile chancre ~2 months prior following unprotected contact with a female commercial sex worker.",
+      "review_of_systems": "Positive for palmar and glans penis scaly plaques, mild glans pruritus, and a 15-day sore throat; negative for fever or other systemic complaints."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous and genital examination revealed multiple discrete 3-to-5-mm erythematous, scaly psoriasiform papules and plaques on both palms that were tender to vertical pinpoint pressure (positive Buschke-Ollendorff sign), alongside ill-defined psoriasiform plaques with a peripheral collarette of scales (Biett collarette) on the glans penis and no residual primary chancre scar. Oropharyngeal exam showed pharyngeal congestion; there was no lymphadenopathy and systemic exam was normal.",
+      "routine_investigations": "Serum HIV ELISA was non-reactive.",
+      "advanced_workup": "Palmar lesion skin biopsy histopathology demonstrated hyperkeratosis, parakeratosis, acanthosis, and a predominantly periadnexal dermal lymphohistiocytic infiltrate rich in plasma cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis presenting with palmar and penile glans psoriasiform syphilides (positive Buschke-Ollendorff sign and Biett collarettes) and syphilitic pharyngitis, established via reactive serum VDRL (titer 1:32), positive TPHA, and characteristic plasma-cell-rich dermal histopathology. Treated with a single intramuscular injection of benzathine penicillin G 2.4 million IU into the buttocks after a negative test dose, along with safe-sex counseling."
+    }
+  }
+}

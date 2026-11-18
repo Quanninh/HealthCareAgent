@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4350044_01",
+  "pair_id": "PMC4350044_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A five-year-old boy was admitted in Namazi Hospital, Shiraz, Iran with severe abdominal pain, jaundice and low grade fever. Similar symptoms were reported in his family about 30 days ago. He had abdominal pain and vomiting from 20 days before admission; his jaundice worsened and developed from 10 days ago. At the time of admission he was very sick with fever and yellowish discoloration of skin and sclera. He was very irritable due to abdominal pain. In the physical examination he had normal growth parameters and his vital signs were as follows: temperature: 38oC, pulse rate: 100/min, respiratory rate: 30/min and blood pressure: 100/60 mmHg. In the abdominal examination, a large mass was palpated in the right upper quadrant (RUQ) with severe tenderness. \nInitial laboratory investigations showed elevated liver enzymes: AST: 516 U/L, ALT: 722 U/L, alkaline phosphatase: 1930 U/L, total bilirubin: 5.3 mg/dL, direct bilirubin: 3.9 mg/dL, total protein: 7.7 g/dL, albumin: 3.8 g/dL, WBC: 8000/mm3, Hb: 11.9 g/dL, platelet: 426000/mm3, CPR: 6 mg/dL, ESR: 40 mm/h. Coagulation studies revealed PT: 13 sec, PTT: 34 sec and INR: 1. Serum amylase, blood sugar and serum sodium, potassium, BUN and creatinine were within normal range. Venous blood gas analysis revealed: pH: 7.5, HCO3: 30, and PCO2: 37.9. Blood and urine cultures were negative. Serology of viral hepatitis was positive for HAV IgM, and other viral markers were negative. Serology titers for typhoid and brucellosis were negative. Abdominal ultrasonography showed normal size and echogenicity of the liver, with significantly distended gallbladder (span 130 x 50 mm) with the fundus of gallbladder near iliac crest. The thickness of gallbladder wall was normal and no stone was detected. The hydrops of gallbladder was confirmed by ultrasonography (Figure 1).\nDue to fever and toxic condition, he received antibiotic ceftizoxim and metronidazole. After the third day of admission, his fever and blood culture became negative and antibiotics were stopped. Surgical intervention was not required in the patient. After five days, general condition and abdominal pain of and jaundice improved and he was discharged with close follow up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 5-year-old boy from Shiraz, Iran, presented with a 20-day history of severe abdominal pain and vomiting, a 10-day history of worsening jaundice, and low-grade fever.",
+      "history_of_present_illness": "A 5-year-old boy developed abdominal pain and vomiting 20 days prior to admission, followed 10 days later by progressive jaundice and low-grade fever. Similar symptoms had occurred in family members ~30 days prior to his admission.",
+      "past_medical_history": "Normal growth and development; family history of similar acute icteric illness 30 days earlier.",
+      "review_of_systems": "Positive for severe right upper quadrant abdominal pain, vomiting, jaundice, fever, and irritability."
+    },
+    "objective": {
+      "physical_examination": "Ill-appearing, irritable, and icteric (yellowish skin and sclerae); normal growth parameters; temperature 38.0 C, pulse 100/min, respiratory rate 30/min, blood pressure 100/60 mmHg. Abdominal exam revealed a large, severely tender palpable mass in the right upper quadrant extending toward the iliac crest.",
+      "routine_investigations": "AST 516 U/L, ALT 722 U/L, ALP 1,930 U/L, total bilirubin 5.3 mg/dL, direct bilirubin 3.9 mg/dL, total protein 7.7 g/dL, albumin 3.8 g/dL. WBC 8,000/mm3, Hb 11.9 g/dL, platelets 426,000/mm3, CRP 6 mg/dL, ESR 40 mm/h. PT 13 sec, PTT 34 sec, INR 1.0; normal serum amylase, glucose, sodium, potassium, BUN, and creatinine; venous blood gas pH 7.5, HCO3 30 mmol/L, pCO2 37.9 mmHg. Blood and urine cultures negative; typhoid and brucellosis serologies negative; positive serum anti-hepatitis A virus (HAV) IgM. Abdominal ultrasonography demonstrated normal liver size and echogenicity with massive acalculous gallbladder hydrops (gallbladder span 130 x 50 mm reaching the iliac crest, normal wall thickness, no calculi).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive serum anti-HAV IgM and abdominal ultrasonography (with negative blood cultures and negative typhoid and Brucella serologies) confirmed acute viral hepatitis A complicated by massive acalculous gallbladder hydrops. Empiric IV ceftizoxime and metronidazole were discontinued after 3 days when fever resolved and blood cultures remained sterile; abdominal pain and jaundice resolved conservatively without surgery, and the child was discharged on hospital day 5."
+    }
+  }
+}

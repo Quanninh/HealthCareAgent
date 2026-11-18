@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6417330_02",
+  "pair_id": "PMC6417330_02::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 1-year old female child was referred to us with fever of 1-week duration and altered sensorium. She was initially assessed by the emergency paediatrician. She was drowsy with a GCS of 9/15. A CT scan was advised which revealed bilateral cerebellar infarcts and patchy hypodensities in the left middle cerebral artery territory [Figures 6 and 7]. There was dilatation of the ventricles suggestive of obstructive hydrocephalus. She was referred to us for urgent intervention. After evaluating her clinically, placement of external ventricular drain was planned as an emergency measure to relieve the obstructive hydrocephalus. Preoperative investigations revealed she had low platelet count(30,000/mm3) and also showed positive reaction to dengue NS1 antigen. Her INR was 1.4 and APTT was 45 s. Multiple platelet transfusions were given with a modest rise in platelet counts to 50,000/mm3. An EVD was placed over the right Kocher's point to relieve the hydrocephalus after which the child became conscious to a GCS of 11/15. She started to localize for pain. After 1 week of placing the EVD, we were planning to convert it into a permanent ventriculoperitoneal shunt but her platelet counts never reached a crescendo to ensure a safe neurosurgical intervention. After 10 days when her platelets improved to 95,000/mm3, the EVD was clamped overnight. As there was no deterioration in her consciousness, the EVD was removed after draining a moderate amount of cerebrospinal fluid (CSF). Unfortunately, within 15 min of this, there was sudden worsening of her neurological status to decerebrate posturing with anisocoria. The EVD was immediately reinserted along the previous track. An urgent CT scan was taken which revealed a large intracerebral hematoma in the opposite cerebral hemisphere [Figure 8]. She went into profound hypotension and her pupils became nonreactive following this. She was started on hemodynamic supports with dual vasopressors but succumbed to a cardiac arrest on the next day.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 1-year-old female infant was referred with a 1-week history of fever and altered sensorium.",
+      "history_of_present_illness": "The infant presented with 7 days of fever and progressive drowsiness, and was referred to neurosurgery after head CT revealed bilateral cerebellar and left middle cerebral artery territory infarcts with obstructive hydrocephalus.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for 1-week fever and drowsiness/altered sensorium."
+    },
+    "objective": {
+      "physical_examination": "On admission: drowsy with GCS 9/15 (improving to GCS 11/15 and localizing pain after right Kocher's point EVD placement). Fifteen minutes after EVD removal on hospital day 10, she acutely deteriorated to decerebrate posturing, anisocoria progressing to bilateral nonreactive pupils, and profound hypotension.",
+      "routine_investigations": "Preoperative platelet count 30,000/mm3 (rising to 50,000/mm3 after initial platelet transfusions and 95,000/mm3 on day 10), INR 1.4, and aPTT 45 s.",
+      "advanced_workup": "Admission head CT demonstrated bilateral cerebellar infarcts, patchy hypodensities in the left middle cerebral artery (MCA) territory, and obstructive hydrocephalus. Urgent repeat head CT after EVD removal on day 10 revealed a large contralateral intracerebral hematoma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Severe pediatric dengue infection complicated by bilateral cerebellar and left MCA cerebral infarcts, obstructive hydrocephalus, thrombocytopenia (30,000/mm3), and fatal contralateral intracerebral hemorrhage following EVD removal, confirmed by positive dengue NS1 antigen testing and serial head CT scans. Managed with platelet transfusions, emergency right frontal external ventricular drain (EVD) placement, immediate EVD reinsertion upon post-removal hemorrhage, and dual vasopressor support, but the child died of cardiac arrest the following day."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12180874_01",
+  "pair_id": "PMC12180874_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 25-year-old male presented with asymptomatic, grayish-white, moist, oozy papules over the umbilicus for 1 month [Figure 1a]. Further, cutaneous examination revealed multiple similar moist, erythematous to grayish-white papules and plaques over the left axilla, perianal region [Figure 1b], and scrotum. Bilateral palms and soles showed hyperpigmented plaques with peripheral collarette of scales. The patient gave a positive history of unprotected sexual contact with multiple partners. The exposure was both penetrative as well as receptive involving heterosexuals and homosexuals with the last contact being 1 month back.\nBased on the history and clinical findings, a diagnosis of secondary syphilis was made. Rapid plasma reagin test - 1:64 titer and T. pallidum hemagglutination assay - 1.564 tests were performed and were found to be highly positive. While the moist lesions were suggestive of condyloma lata, the extensive lesions as well as the involvement of rare sites such as the umbilicus and axilla were suspicious, and an enzyme-linked immunosorbent assay for human immunodeficiency virus (HIV) was done which was also found to be positive.\nThe patient was treated with a deep intramuscular injection of benzathine penicillin 2.4 million IU (1.2 million IU in each gluteal region) after the test dose. A few hours after the injection, the patient developed a temperature of 106 F with joint pain, suggestive of a Jarisch-Herxheimer reaction which responded well to a paracetamol infusion. There was marked improvement of lesions 2 weeks postinjection [Figure 1c and d]. The patient was referred to the antiretroviral (ART) center for further management.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old male presented with a 1-month history of asymptomatic grayish-white moist papules and plaques over his umbilicus, left axilla, scrotum, and perianal region, alongside scaly palmoplantar plaques.",
+      "history_of_present_illness": "The patient noticed asymptomatic, moist, oozy grayish-white papules in his umbilicus 1 month prior to presentation, accompanied by similar plaques in the left axilla, scrotum, and perianal area and scaly lesions on his palms and soles.",
+      "past_medical_history": "Reported unprotected penetrative and receptive heterosexual and homosexual intercourse with multiple partners, with the most recent sexual contact 1 month prior.",
+      "review_of_systems": "Positive for asymptomatic umbilical, axillary, scrotal, perianal, and palmoplantar skin lesions."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed multiple moist, erythematous to grayish-white oozy papules and plaques (condylomata lata) involving the umbilicus, left axilla, perianal region, and scrotum, as well as hyperpigmented plaques with peripheral collarettes of scale (Biett collarettes) on the bilateral palms and soles.",
+      "routine_investigations": "Serum HIV ELISA screening test was positive.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis with multifocal intertriginous condylomata lata (umbilical, axillary, perianal, and scrotal) and newly diagnosed HIV co-infection, established via a reactive serum RPR (titer 1:64) and positive TPHA (1.564). Treated with a single intramuscular dose of benzathine penicillin G 2.4 million IU (1.2 million IU in each buttock). Several hours post-injection, he developed a Jarisch-Herxheimer reaction (fever of 106 F and arthralgia) that resolved with intravenous paracetamol; skin lesions showed marked regression at 2-week follow-up and he was referred to the ART center."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6909590_01",
+  "pair_id": "PMC6909590_01::Lymphatic_Filariasis",
+  "target_disease": "Lymphatic_Filariasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 38 Year old female patient, resident of district Gonda, Uttar Pradesh presented with the chief complaints of a painless swelling in the left axillary region for the past 5 months. She had no history of fever, cough, weight loss, or any other swelling elsewhere in the body.\nLocal examination revealed a nontender mass with limited mobility measuring 3 cm x 2 cm with heterogeneous (soft to firm) consistency [Figure 1a]. General examination revealed the absence of palpable peripheral lymphadenopathy.\nA provisional diagnosis of tubercular axillary lymphadenitis was considered. Ultrasonography revealed a well-defined ovoid solid mass in the left axilla measuring 50 mm x 22 mm with echogenic core [Figure 1b]. Morever, small cystic area was seen along posterior surface measuring 24 mm x 13 mm. A radiological diagnosis of large reactionary lymphadenitis was made.\nFine-needle aspiration from the swelling was performed and yielded 9 ml of hemorrhagic fluid. The smears revealed multiple sheathed, coiled, slightly curved mf of bancrofti with the prominence of lymphocytes along with the presence of few eosinophils in a proteinaceous background [Figures 2a and b]. On FNAC, a diagnosis of filarial parasitic infestation was made. Complete blood count revealed eosinophilia (15%) with absolute eosinophil count of 1680/mul of the blood. Peripheral blood smear examination did not reveal microfilaria. The patient was started on diethylcarbamazine citrate, and on follow-up, the swelling reduced.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old Indian female presenting with a 5-month history of a painless left axillary swelling.",
+      "history_of_present_illness": "The patient presented with a solitary, painless swelling in the left axilla noticed 5 months prior to consultation, without constitutional symptoms.",
+      "past_medical_history": "Resident of Gonda district, Uttar Pradesh, India (filariasis-endemic region).",
+      "review_of_systems": "Positive for painless left axillary mass; negative for fever, cough, weight loss, or swellings elsewhere."
+    },
+    "objective": {
+      "physical_examination": "Local examination revealed a non-tender, soft-to-firm left axillary mass measuring 3 x 2 cm with restricted mobility and no generalized peripheral lymphadenopathy.",
+      "routine_investigations": "CBC demonstrated peripheral eosinophilia (15%, absolute eosinophil count 1,680/uL), while peripheral blood smear was negative for microfilariae. Axillary ultrasonography showed a well-defined 50 x 22 mm ovoid solid mass with an echogenic core and a 24 x 13 mm posterior cystic component.",
+      "advanced_workup": "Fine-needle aspiration cytology (FNAC) of the left axillary swelling yielded 9 mL of hemorrhagic fluid; cytological smears demonstrated numerous sheathed, coiled Wuchereria bancrofti microfilariae alongside lymphocytes and eosinophils in a proteinaceous background."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed isolated axillary lymphatic filariasis (Wuchereria bancrofti), established by FNAC demonstration of sheathed microfilariae.\nPlan & Outcome: Treated with oral diethylcarbamazine citrate (DEC), resulting in marked regression of the axillary swelling on follow-up."
+    }
+  }
+}

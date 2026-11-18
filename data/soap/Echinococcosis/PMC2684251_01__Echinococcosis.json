@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2684251_01",
+  "pair_id": "PMC2684251_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 23-year-old male presented with history of intermittent passage of small, white, balloon-like, grape-sized structures in the urine for the last three months. Abdominal examination did not reveal any palpable lump. Rest of the systemic examination was normal. Gross examination of a single balloon-like structure in the urine revealed a membranous cyst measuring around 2 cm; histopathology showed an outer laminated layer with an inner germinal layer. The laminated structure was consistent with a hydatid cyst.\nHis routine blood investigations were normal with no eosinophilia and normal renal function tests. X-ray chest P-A view was normal. The USG abdomen revealed multiseptate cyst in the right kidney; liver was normal. The CT scan revealed a cystic lesion in the right kidney and upper ureter [Figure 1]. The whole right kidney was replaced by the cystic mass. There was no contrast excretion from the right kidney. Patient was planned for surgery by flank extraperitoneal approach. Per-operatively multiple cysts could be palpated along the length of the ureter. Right nephroureterectomy was done. Patient received four weeks of preoperative albendazole which was continued for eight weeks postoperatively. The resected specimen showed kidney turned into a bag of cysts with multiple daughter cysts in the ureter [Figure 2]. The histopathological examination was consistent with right renal hydatid disease and multiple daughter cysts in the upper and mid-ureter.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old male presented with a 3-month history of intermittent passage of small white grape-sized balloon-like structures in his urine.",
+      "history_of_present_illness": "The patient noticed intermittent gross hydatiduria characterized by passing small, white, grape-sized membranous structures in the urine over the preceding 3 months.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for passage of white grape-like urinary vesicles (hydatiduria)."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed no palpable mass, and the remainder of the systemic examination was normal.",
+      "routine_investigations": "Routine blood tests were normal without eosinophilia, renal function tests were normal, and PA chest radiograph was normal. Abdominal ultrasonography revealed a multiseptate cyst in the right kidney with a normal liver.",
+      "advanced_workup": "Gross examination of a 2-cm urinary membranous structure and histopathology demonstrated an outer laminated layer and inner germinal layer. Abdominal CT showed a cystic mass completely replacing the right kidney and extending into the upper ureter with absent contrast excretion from the right kidney. Following flank extraperitoneal right nephroureterectomy, gross and histopathological examination confirmed the right kidney converted into a bag of cysts with multiple daughter cysts filling the upper and mid-ureter."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Right renal and ureteric cystic echinococcosis presenting with gross hydatiduria and non-functioning right kidney, confirmed by histopathology of both the voided urinary daughter cyst and the right nephroureterectomy specimen. The patient received 4 weeks of preoperative oral albendazole, underwent extraperitoneal right nephroureterectomy, and completed 8 weeks of postoperative albendazole."
+    }
+  }
+}

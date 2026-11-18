@@ -1,0 +1,1970 @@
+{
+  "version": "3.0.0-master",
+  "description": "MultiCaRe Disease Taxonomy: 29 Target Diseases (15 Core Reference + 10 Dual-Track Candidates + 4 Diagnostic Conundrums) with CDC/WHO provenance and syndrome mappings",
+  "provenance_sources": {
+    "WHO": "WHO Guidelines and Fact Sheets for Neglected Tropical Diseases and Respiratory Infections",
+    "CDC": "CDC Division of Parasitic Diseases (DPDx) & National Notifiable Diseases Surveillance System (NNDSS)",
+    "IDSA": "Infectious Diseases Society of America Clinical Practice Guidelines",
+    "UMLS": "Unified Medical Language System 2024AB",
+    "NIH_CDC_HIVMA": "NIH/CDC/HIVMA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV",
+    "CDC_Syphilis_2024": "CDC Laboratory Recommendations for Syphilis Testing, United States, 2024 (MMWR Recomm Rep 2024;73(No. RR-1))",
+    "Mayo_Nocardia": "Mayo Clinic Proceedings: Nocardiosis Updates & Clinical Overview (Wilson JW, 2012)"
+  },
+  "target_diseases": {
+    "Dengue": {
+      "category": "Viral Haemorrhagic / Arbovirus",
+      "mesh_terms": [
+        "Dengue",
+        "Dengue Virus",
+        "Severe Dengue",
+        "Dengue Hemorrhagic Fever"
+      ],
+      "keywords": [
+        "dengue",
+        "dengue hemorrhagic fever",
+        "dengue shock syndrome",
+        "dengue virus",
+        "dengue fever",
+        "ns1 antigen",
+        "dengue-related"
+      ],
+      "pathogens": [
+        "DENV-1",
+        "DENV-2",
+        "DENV-3",
+        "DENV-4",
+        "Flavivirus"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Dengue Case Definition, WHO Dengue Guidelines",
+        "gold_tests": [
+          "ns1",
+          "ns1 antigen",
+          "rt-pcr",
+          "dengue pcr",
+          "mac-elisa",
+          "igm elisa",
+          "prnt",
+          "tourniquet test",
+          "serology"
+        ],
+        "clinical_signs": [
+          "retro-orbital pain",
+          "thrombocytopenia",
+          "petechiae",
+          "purpura",
+          "ecchymosis",
+          "plasma leakage",
+          "hemoconcentration",
+          "pleural effusion",
+          "ascites",
+          "breakbone fever",
+          "maculopapular rash"
+        ],
+        "treatment": [
+          "fluid resuscitation",
+          "crystalloid",
+          "colloid",
+          "platelet transfusion",
+          "supportive care",
+          "hydration",
+          "iv fluids"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "DENV",
+          "DF",
+          "DHF"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Dengue"
+      }
+    },
+    "Malaria": {
+      "category": "Parasitic / Vector-borne",
+      "mesh_terms": [
+        "Malaria",
+        "Malaria, Falciparum",
+        "Malaria, Vivax",
+        "Plasmodium",
+        "Plasmodium falciparum",
+        "Plasmodium vivax"
+      ],
+      "keywords": [
+        "malaria",
+        "plasmodium",
+        "falciparum",
+        "vivax",
+        "ovale",
+        "malariae",
+        "knowlesi",
+        "trophozoite",
+        "schizont",
+        "blackwater fever"
+      ],
+      "pathogens": [
+        "Plasmodium falciparum",
+        "Plasmodium vivax",
+        "Plasmodium ovale",
+        "Plasmodium malariae"
+      ],
+      "evidence_terms": {
+        "source": "CDC DPDx Malaria, WHO Malaria Guidelines",
+        "gold_tests": [
+          "blood smear",
+          "thick smear",
+          "thin smear",
+          "giemsa stain",
+          "rapid diagnostic test",
+          "rdt",
+          "parasitemia",
+          "parasite density",
+          "pcr"
+        ],
+        "clinical_signs": [
+          "chills",
+          "rigors",
+          "splenomegaly",
+          "hepatomegaly",
+          "hemolytic anemia",
+          "jaundice",
+          "cerebral malaria",
+          "blackwater fever",
+          "hemoglobinuria",
+          "febrile paroxysm"
+        ],
+        "treatment": [
+          "artemisinin",
+          "artesunate",
+          "artemether",
+          "lumefantrine",
+          "chloroquine",
+          "primaquine",
+          "mefloquine",
+          "quinine",
+          "act",
+          "atovaquone",
+          "proguanil"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI",
+        "CNS_Space_Occupying_Meningeal_Syndrome",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "Pf",
+          "Pv"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Malaria"
+      }
+    },
+    "Ebola_Filovirus": {
+      "category": "Viral Haemorrhagic Fever",
+      "mesh_terms": [
+        "Ebolavirus",
+        "Hemorrhagic Fever, Ebola",
+        "Marburgvirus",
+        "Filoviridae Infections"
+      ],
+      "keywords": [
+        "ebola",
+        "ebolavirus",
+        "marburg",
+        "marburgvirus",
+        "filovirus",
+        "filoviral",
+        "ebola virus disease",
+        "evd"
+      ],
+      "pathogens": [
+        "Zaire ebolavirus",
+        "Sudan ebolavirus",
+        "Marburg virus"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Viral Hemorrhagic Fevers, WHO Ebola Fact Sheet",
+        "gold_tests": [
+          "rt-pcr",
+          "antigen capture elisa",
+          "igm elisa",
+          "virus isolation",
+          "serum neutralization"
+        ],
+        "clinical_signs": [
+          "unexplained bleeding",
+          "hemorrhage",
+          "petechiae",
+          "melena",
+          "hematemesis",
+          "maculopapular rash",
+          "conjunctival injection",
+          "multi-organ failure"
+        ],
+        "treatment": [
+          "inmazeb",
+          "atoltivimab",
+          "ebanga",
+          "ansuvimab",
+          "monoclonal antibody",
+          "fluid resuscitation",
+          "electrolyte replacement"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Ebola_Filovirus"
+      }
+    },
+    "Tuberculosis": {
+      "category": "Bacterial Mycobacterial",
+      "mesh_terms": [
+        "Tuberculosis",
+        "Tuberculosis, Pulmonary",
+        "Mycobacterium tuberculosis",
+        "Tuberculosis, Multidrug-Resistant"
+      ],
+      "keywords": [
+        "tuberculosis",
+        "mycobacterium tuberculosis",
+        "m. tuberculosis",
+        "pulmonary tuberculosis",
+        "tb",
+        "acid-fast bacilli",
+        "afb",
+        "ghon focus",
+        "miliary tuberculosis"
+      ],
+      "pathogens": [
+        "Mycobacterium tuberculosis",
+        "Mycobacterium bovis"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Tuberculosis, WHO Tuberculosis Guidelines",
+        "gold_tests": [
+          "acid-fast bacilli",
+          "afb smear",
+          "ziehl-neelsen",
+          "mycobacterial culture",
+          "lowenstein-jensen",
+          "gene xpert",
+          "xpert mtb/rif",
+          "quantiferon",
+          "igra",
+          "tuberculin skin test",
+          "mantoux"
+        ],
+        "clinical_signs": [
+          "hemoptysis",
+          "night sweats",
+          "weight loss",
+          "chronic cough",
+          "cavitary lesion",
+          "apical infiltrate",
+          "ghon focus",
+          "miliary pattern",
+          "caseating granuloma"
+        ],
+        "treatment": [
+          "isoniazid",
+          "rifampin",
+          "rifampicin",
+          "pyrazinamide",
+          "ethambutol",
+          "rife",
+          "linezolid",
+          "bedaquiline",
+          "anti-tubercular"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_Infiltrative_Syndrome",
+        "CNS_Space_Occupying_Meningeal_Syndrome",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "TB",
+          "MTB"
+        ],
+        "forbidden_abbreviations": [
+          "total bilirubin",
+          "tb test (total bilirubin)",
+          "tb mg/dl",
+          "tb umol/l"
+        ]
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Tuberculosis"
+      }
+    },
+    "COVID-19": {
+      "category": "Viral Respiratory",
+      "mesh_terms": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "Coronavirus Infections"
+      ],
+      "keywords": [
+        "covid-19",
+        "sars-cov-2",
+        "coronavirus",
+        "novel coronavirus",
+        "covid19",
+        "covid pneumonia"
+      ],
+      "pathogens": [
+        "SARS-CoV-2"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS COVID-19 Case Definition, WHO COVID-19 Surveillance",
+        "gold_tests": [
+          "rt-pcr",
+          "sars-cov-2 pcr",
+          "rapid antigen test",
+          "nucleocapsid antigen",
+          "viral rna",
+          "nasopharyngeal swab"
+        ],
+        "clinical_signs": [
+          "ground-glass opacities",
+          "dyspnea",
+          "hypoxemia",
+          "anosmia",
+          "ageusia",
+          "loss of taste",
+          "loss of smell",
+          "bilateral infiltrates",
+          "acute respiratory distress syndrome",
+          "ards"
+        ],
+        "treatment": [
+          "paxlovid",
+          "nirmatrelvir",
+          "ritonavir",
+          "remdesivir",
+          "dexamethasone",
+          "tocilizumab",
+          "baricitinib",
+          "oxygen therapy",
+          "prone positioning"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_Infiltrative_Syndrome",
+        "Acute_Undifferentiated_Febrile_Illness_AUFI"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "SARS-CoV-2",
+          "COVID"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for COVID-19"
+      }
+    },
+    "HIV_AIDS": {
+      "category": "Viral Immunodeficiency / Opportunistic",
+      "mesh_terms": [
+        "HIV Infections",
+        "HIV-1",
+        "Acquired Immunodeficiency Syndrome"
+      ],
+      "keywords": [
+        "hiv",
+        "human immunodeficiency virus",
+        "aids",
+        "acquired immunodeficiency syndrome",
+        "cd4 count",
+        "opportunistic infection"
+      ],
+      "pathogens": [
+        "HIV-1",
+        "HIV-2"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS HIV Case Definition, WHO HIV Testing Guidelines",
+        "gold_tests": [
+          "cd4 count",
+          "cd4+ t-cell",
+          "viral load",
+          "hiv rna",
+          "western blot",
+          "4th generation immunoassay",
+          "rapid hiv test",
+          "antigen/antibody combo"
+        ],
+        "clinical_signs": [
+          "opportunistic infection",
+          "pneumocystis",
+          "pcp",
+          "kaposi sarcoma",
+          "oral thrush",
+          "candidiasis",
+          "cryptococcal meningitis",
+          "toxoplasmosis",
+          "wasting syndrome"
+        ],
+        "treatment": [
+          "antiretroviral therapy",
+          "art",
+          "tenofovir",
+          "emtricitabine",
+          "dolutegravir",
+          "efavirenz",
+          "lamivudine",
+          "biktarvy",
+          "cotrimoxazole"
+        ]
+      },
+      "syndromes": [
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for HIV_AIDS"
+      }
+    },
+    "Chikungunya": {
+      "category": "Viral Arbovirus",
+      "mesh_terms": [
+        "Chikungunya Fever",
+        "Chikungunya virus"
+      ],
+      "keywords": [
+        "chikungunya",
+        "chikungunya fever",
+        "chikungunya virus",
+        "chkv"
+      ],
+      "pathogens": [
+        "Chikungunya virus",
+        "Alphavirus"
+      ],
+      "evidence_terms": {
+        "source": "CDC Chikungunya Clinical Overview, WHO Chikungunya Fact Sheet",
+        "gold_tests": [
+          "rt-pcr",
+          "chikungunya igm",
+          "mac-elisa",
+          "prnt",
+          "serology"
+        ],
+        "clinical_signs": [
+          "severe arthralgia",
+          "polyarthralgia",
+          "joint swelling",
+          "bilateral arthritis",
+          "maculopapular rash",
+          "tenosynovitis",
+          "periarticular edema"
+        ],
+        "treatment": [
+          "nsaids",
+          "acetaminophen",
+          "paracetamol",
+          "analgesics",
+          "supportive care"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Chikungunya"
+      }
+    },
+    "Zika": {
+      "category": "Viral Arbovirus",
+      "mesh_terms": [
+        "Zika Virus Infection",
+        "Zika Virus"
+      ],
+      "keywords": [
+        "zika",
+        "zika virus",
+        "zika fever",
+        "zikv",
+        "congenital zika syndrome"
+      ],
+      "pathogens": [
+        "Zika virus",
+        "Flavivirus"
+      ],
+      "evidence_terms": {
+        "source": "CDC Zika Clinical Overview, WHO Zika Guidelines",
+        "gold_tests": [
+          "rt-pcr",
+          "zika rna",
+          "trioplex pcr",
+          "igm elisa",
+          "prnt"
+        ],
+        "clinical_signs": [
+          "microcephaly",
+          "congenital zika syndrome",
+          "guillain-barre syndrome",
+          "conjunctivitis",
+          "maculopapular rash",
+          "retro-orbital pain"
+        ],
+        "treatment": [
+          "supportive care",
+          "acetaminophen",
+          "rest",
+          "hydration"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI",
+        "CNS_Space_Occupying_Meningeal_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Zika"
+      }
+    },
+    "Brucellosis": {
+      "category": "Bacterial Zoonosis",
+      "mesh_terms": [
+        "Brucellosis",
+        "Brucella",
+        "Brucella abortus",
+        "Brucella melitensis"
+      ],
+      "keywords": [
+        "brucellosis",
+        "brucella",
+        "undulant fever",
+        "malta fever",
+        "mediterranean fever",
+        "brucella melitensis"
+      ],
+      "pathogens": [
+        "Brucella melitensis",
+        "Brucella abortus",
+        "Brucella suis"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Brucellosis, WHO Brucellosis Fact Sheet",
+        "gold_tests": [
+          "blood culture",
+          "bone marrow culture",
+          "serum agglutination test",
+          "sat",
+          "standard tube agglutination",
+          "brucellacapt",
+          "elisa igm/igg"
+        ],
+        "clinical_signs": [
+          "undulant fever",
+          "drenching sweats",
+          "malodorous sweat",
+          "sacroiliitis",
+          "spondylodiscitis",
+          "epididymo-orchitis",
+          "hepatosplenomegaly"
+        ],
+        "treatment": [
+          "doxycycline",
+          "rifampin",
+          "streptomycin",
+          "gentamicin",
+          "cotrimoxazole",
+          "ciprofloxacin"
+        ]
+      },
+      "syndromes": [
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome",
+        "Acute_Undifferentiated_Febrile_Illness_AUFI"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Brucellosis"
+      }
+    },
+    "Leishmaniasis": {
+      "category": "Parasitic Protozoan",
+      "mesh_terms": [
+        "Leishmaniasis",
+        "Leishmaniasis, Visceral",
+        "Leishmaniasis, Cutaneous",
+        "Leishmania"
+      ],
+      "keywords": [
+        "leishmaniasis",
+        "leishmania",
+        "kala-azar",
+        "visceral leishmaniasis",
+        "cutaneous leishmaniasis",
+        "amastigote",
+        "donovan body"
+      ],
+      "pathogens": [
+        "Leishmania donovani",
+        "Leishmania major",
+        "Leishmania infantum"
+      ],
+      "evidence_terms": {
+        "source": "CDC DPDx Leishmaniasis, WHO Leishmaniasis Fact Sheet",
+        "gold_tests": [
+          "amastigotes",
+          "leishman-donovan bodies",
+          "ld bodies",
+          "bone marrow aspirate",
+          "splenic aspirate",
+          "rk39 rapid test",
+          "rk39 immunochromatographic",
+          "nnn medium culture"
+        ],
+        "clinical_signs": [
+          "kala-azar",
+          "splenomegaly",
+          "massive splenomegaly",
+          "hepatomegaly",
+          "pancytopenia",
+          "hypergammaglobulinemia",
+          "cutaneous ulcer",
+          "oriental sore"
+        ],
+        "treatment": [
+          "liposomal amphotericin b",
+          "amphotericin",
+          "miltefosine",
+          "sodium stibogluconate",
+          "meglumine antimoniate",
+          "pentavalent antimonial",
+          "paromomycin"
+        ]
+      },
+      "syndromes": [
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome",
+        "Chronic_Dermatological_Neuropathic_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Leishmaniasis"
+      }
+    },
+    "Typhoid_Fever": {
+      "category": "Bacterial Enteric",
+      "mesh_terms": [
+        "Typhoid Fever",
+        "Salmonella typhi"
+      ],
+      "keywords": [
+        "typhoid",
+        "typhoid fever",
+        "salmonella typhi",
+        "enteric fever",
+        "widal test"
+      ],
+      "pathogens": [
+        "Salmonella enterica serovar Typhi"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Typhoid Fever, WHO Typhoid Fact Sheet",
+        "gold_tests": [
+          "blood culture",
+          "bone marrow culture",
+          "stool culture",
+          "widal test",
+          "tubex",
+          "typhidot"
+        ],
+        "clinical_signs": [
+          "step-ladder fever",
+          "rose spots",
+          "relative bradycardia",
+          "faget sign",
+          "pea-soup diarrhea",
+          "intestinal perforation",
+          "ileal perforation",
+          "toxic encephalopathy"
+        ],
+        "treatment": [
+          "ceftriaxone",
+          "azithromycin",
+          "ciprofloxacin",
+          "chloramphenicol",
+          "ampicillin",
+          "meropenem",
+          "cefixime"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Typhoid_Fever"
+      }
+    },
+    "Cholera": {
+      "category": "Bacterial Enteric",
+      "mesh_terms": [
+        "Cholera",
+        "Vibrio cholerae"
+      ],
+      "keywords": [
+        "cholera",
+        "vibrio cholerae",
+        "rice-water stool"
+      ],
+      "pathogens": [
+        "Vibrio cholerae"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Cholera, WHO Cholera Fact Sheet",
+        "gold_tests": [
+          "stool culture",
+          "tcbs agar",
+          "crystal vc",
+          "darkfield microscopy",
+          "vibrio serotyping"
+        ],
+        "clinical_signs": [
+          "rice-water stool",
+          "profuse watery diarrhea",
+          "severe dehydration",
+          "sunken eyes",
+          "loss of skin turgor",
+          "washerwoman hands",
+          "hypovolemic shock",
+          "hypokalemia"
+        ],
+        "treatment": [
+          "oral rehydration salts",
+          "ors",
+          "ringer lactate",
+          "iv rehydration",
+          "doxycycline",
+          "azithromycin",
+          "ciprofloxacin",
+          "zinc supplementation"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Cholera"
+      }
+    },
+    "Rabies": {
+      "category": "Viral Zoonosis",
+      "mesh_terms": [
+        "Rabies",
+        "Rabies virus"
+      ],
+      "keywords": [
+        "rabies",
+        "rabies virus",
+        "hydrophobia",
+        "lyssavirus",
+        "negri body"
+      ],
+      "pathogens": [
+        "Rabies lyssavirus"
+      ],
+      "evidence_terms": {
+        "source": "CDC Rabies Diagnosis, WHO Rabies Fact Sheet",
+        "gold_tests": [
+          "direct fluorescent antibody",
+          "dfa",
+          "saliva rt-pcr",
+          "nuchal skin biopsy",
+          "rabies neutralizing antibody",
+          "rffit",
+          "negri bodies"
+        ],
+        "clinical_signs": [
+          "hydrophobia",
+          "aerophobia",
+          "encephalopathy",
+          "agitation",
+          "hypersalivation",
+          "autonomic instability",
+          "paresthesia at bite site",
+          "paralytic rabies"
+        ],
+        "treatment": [
+          "rabies vaccine",
+          "post-exposure prophylaxis",
+          "pep",
+          "rabies immune globulin",
+          "rig",
+          "milwaukee protocol",
+          "palliative sedation"
+        ]
+      },
+      "syndromes": [
+        "CNS_Space_Occupying_Meningeal_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Rabies"
+      }
+    },
+    "Leptospirosis": {
+      "category": "Bacterial Zoonosis",
+      "mesh_terms": [
+        "Leptospirosis",
+        "Leptospira"
+      ],
+      "keywords": [
+        "leptospirosis",
+        "leptospira",
+        "weil's disease",
+        "leptospira interrogans"
+      ],
+      "pathogens": [
+        "Leptospira interrogans"
+      ],
+      "evidence_terms": {
+        "source": "CDC NNDSS Leptospirosis, WHO Leptospirosis Guidelines",
+        "gold_tests": [
+          "microscopic agglutination test",
+          "mat",
+          "leptospira pcr",
+          "igm elisa",
+          "darkfield microscopy",
+          "emjh medium"
+        ],
+        "clinical_signs": [
+          "weil's disease",
+          "conjunctival suffusion",
+          "jaundice",
+          "acute kidney injury",
+          "renal failure",
+          "pulmonary hemorrhage",
+          "calf tenderness",
+          "oliguria"
+        ],
+        "treatment": [
+          "penicillin",
+          "penicillin g",
+          "doxycycline",
+          "ceftriaxone",
+          "ampicillin",
+          "dialysis",
+          "supportive care"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Leptospirosis"
+      }
+    },
+    "Yellow_Fever": {
+      "category": "Viral Haemorrhagic / Arbovirus",
+      "mesh_terms": [
+        "Yellow Fever",
+        "Yellow fever virus"
+      ],
+      "keywords": [
+        "yellow fever",
+        "yellow fever virus",
+        "flavivirus yellow fever"
+      ],
+      "pathogens": [
+        "Yellow fever virus"
+      ],
+      "evidence_terms": {
+        "source": "CDC Yellow Fever Clinical, WHO Yellow Fever Guidelines",
+        "gold_tests": [
+          "rt-pcr",
+          "yellow fever pcr",
+          "mac-elisa",
+          "prnt",
+          "yellow fever igm",
+          "councilman bodies"
+        ],
+        "clinical_signs": [
+          "jaundice",
+          "black vomitus",
+          "hematemesis",
+          "faget sign",
+          "relative bradycardia",
+          "epigastric pain",
+          "oliguria",
+          "coagulopathy",
+          "toxic phase"
+        ],
+        "treatment": [
+          "supportive care",
+          "fluid management",
+          "hemodialysis",
+          "blood transfusion",
+          "avoid nsaids"
+        ]
+      },
+      "syndromes": [
+        "Acute_Undifferentiated_Febrile_Illness_AUFI",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC/WHO standard surveillance definitions for Yellow_Fever"
+      }
+    },
+    "Melioidosis": {
+      "category": "Bacterial Gram-Negative",
+      "mesh_terms": [
+        "Melioidosis",
+        "Burkholderia pseudomallei"
+      ],
+      "keywords": [
+        "melioidosis",
+        "burkholderia pseudomallei",
+        "pseudomonas pseudomallei",
+        "whitmore disease",
+        "whitmore's disease"
+      ],
+      "pathogens": [
+        "Burkholderia pseudomallei"
+      ],
+      "evidence_terms": {
+        "source": "CDC Melioidosis Guidelines, WHO Neglected Tropical Diseases",
+        "gold_tests": [
+          "ashdown agar",
+          "blood culture burkholderia",
+          "culture positive burkholderia",
+          "ihat",
+          "indirect hemagglutination",
+          "mass spectrometry maldi-tof burkholderia",
+          "pcr burkholderia pseudomallei",
+          "sputum culture burkholderia"
+        ],
+        "clinical_signs": [
+          "cavitary pneumonia",
+          "disseminated abscesses",
+          "fulminant septic shock",
+          "parotid abscess",
+          "prostatic abscess",
+          "splenic abscess"
+        ],
+        "treatment": [
+          "ceftazidime",
+          "co-trimoxazole",
+          "cotrimoxazole",
+          "imipenem",
+          "meropenem",
+          "trimethoprim-sulfamethoxazole"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_Infiltrative_Syndrome",
+        "Acute_Undifferentiated_Febrile_Illness_AUFI",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC Melioidosis for Healthcare Personnel (2024), WHO NTD Technical Series",
+        "mesh_id": "D008556"
+      }
+    },
+    "Histoplasmosis": {
+      "category": "Fungal Endemic Mycoses",
+      "mesh_terms": [
+        "Histoplasmosis",
+        "Histoplasma",
+        "Histoplasma capsulatum"
+      ],
+      "keywords": [
+        "darling disease",
+        "histoplasma",
+        "histoplasma capsulatum",
+        "histoplasma duboisii",
+        "histoplasmosis"
+      ],
+      "pathogens": [
+        "Histoplasma capsulatum",
+        "Histoplasma duboisii"
+      ],
+      "evidence_terms": {
+        "source": "CDC Histoplasmosis Guidelines, IDSA Practice Guidelines for Histoplasmosis",
+        "gold_tests": [
+          "fungal culture histoplasma",
+          "giemsa intracellular yeast",
+          "gms silver stain",
+          "groan-methenamine silver",
+          "histoplasma antigen elisa",
+          "histoplasma urine antigen",
+          "immunodiffusion m band",
+          "pcr histoplasma",
+          "wright-giemsa yeast cells in macrophages"
+        ],
+        "clinical_signs": [
+          "apical cavitary infiltrates",
+          "bat cave exposure",
+          "disseminated histoplasmosis",
+          "erythema nodosum",
+          "fibrosing mediastinitis",
+          "hepatosplenomegaly",
+          "mucosal oral ulcers",
+          "pulmonary granuloma",
+          "splenic calcifications"
+        ],
+        "treatment": [
+          "amphotericin b",
+          "itraconazole",
+          "ketoconazole",
+          "liposomal amphotericin",
+          "voriconazole"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_Infiltrative_Syndrome",
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / IDSA",
+        "guideline": "IDSA Clinical Practice Guidelines for the Management of Patients with Histoplasmosis (2015/2023)",
+        "mesh_id": "D006658"
+      }
+    },
+    "Cryptococcosis": {
+      "category": "Fungal Opportunistic Mycoses",
+      "mesh_terms": [
+        "Cryptococcosis",
+        "Cryptococcus neoformans",
+        "Cryptococcus gattii",
+        "Meningitis, Cryptococcal"
+      ],
+      "keywords": [
+        "cryptococcal meningitis",
+        "cryptococcoma",
+        "cryptococcosis",
+        "cryptococcus",
+        "cryptococcus gattii",
+        "cryptococcus neoformans"
+      ],
+      "pathogens": [
+        "Cryptococcus neoformans",
+        "Cryptococcus gattii"
+      ],
+      "evidence_terms": {
+        "source": "WHO Guidelines on Cryptococcal Infection (2022), CDC Cryptococcosis",
+        "gold_tests": [
+          "birdseed agar caffeic acid",
+          "crag lateral flow assay",
+          "cryptococcal antigen elisa",
+          "cryptococcal antigen lfa",
+          "csf india ink capsule",
+          "fungal culture cryptococcus",
+          "india ink preparation",
+          "mucicarmine stain capsule"
+        ],
+        "clinical_signs": [
+          "cryptococcoma",
+          "elevated opening pressure",
+          "headache",
+          "meningismus",
+          "papilledema",
+          "soap-bubble lesions",
+          "subacute meningoencephalitis"
+        ],
+        "treatment": [
+          "amphotericin b",
+          "flucytosine",
+          "fluconazole",
+          "liposomal amphotericin"
+        ]
+      },
+      "syndromes": [
+        "CNS_Space_Occupying_Meningeal_Syndrome",
+        "Pulmonary_Cavitary_Infiltrative_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "CrAg"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "WHO / CDC",
+        "guideline": "WHO Guidelines for Diagnosing, Preventing and Managing Cryptococcal Disease (2022)",
+        "mesh_id": "D003453"
+      }
+    },
+    "Neurocysticercosis": {
+      "category": "Parasitic Cestode",
+      "mesh_terms": [
+        "Neurocysticercosis",
+        "Cysticercosis",
+        "Taenia solium"
+      ],
+      "keywords": [
+        "cysticercosis",
+        "cysticerci",
+        "neurocysticercosis",
+        "pork tapeworm",
+        "taenia solium"
+      ],
+      "pathogens": [
+        "Taenia solium"
+      ],
+      "evidence_terms": {
+        "source": "WHO Neurocysticercosis Guidelines (2021), CDC DPDx Cysticercosis",
+        "gold_tests": [
+          "brain ct calcified granuloma",
+          "brain mri scolex identification",
+          "csf cysticercus elisa",
+          "eitb western blot antibody",
+          "enzyme-linked immunoelectrotransfer blot",
+          "histopathology larval cestode"
+        ],
+        "clinical_signs": [
+          "colloidal vesicular stage",
+          "epilepsy",
+          "hydrocephalus",
+          "intracranial hypertension",
+          "nodular calcified stage",
+          "ring-enhancing brain lesion",
+          "scolex inside cyst",
+          "seizures"
+        ],
+        "treatment": [
+          "albendazole",
+          "corticosteroids",
+          "dexamethasone",
+          "praziquantel",
+          "prednisone"
+        ]
+      },
+      "syndromes": [
+        "CNS_Space_Occupying_Meningeal_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "NCC"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "WHO / CDC",
+        "guideline": "WHO Guidelines on Management of Taenia solium Neurocysticercosis (2021)",
+        "mesh_id": "D020019"
+      }
+    },
+    "Amoebiasis": {
+      "category": "Parasitic Protozoan",
+      "mesh_terms": [
+        "Amebiasis",
+        "Liver Abscess, Amebic",
+        "Entamoeba histolytica",
+        "Dysentery, Amebic"
+      ],
+      "keywords": [
+        "amebiasis",
+        "amebic colitis",
+        "amebic dysentery",
+        "amebic liver abscess",
+        "amoebiasis",
+        "amoebic dysentery",
+        "amoebic liver abscess",
+        "anchovy sauce pus",
+        "entamoeba histolytica"
+      ],
+      "pathogens": [
+        "Entamoeba histolytica"
+      ],
+      "evidence_terms": {
+        "source": "CDC DPDx Amebiasis, WHO Amebiasis Technical Report",
+        "gold_tests": [
+          "anchovy paste pus aspirate",
+          "e. histolytica fecal antigen",
+          "entamoeba histolytica pcr",
+          "indirect hemagglutination ameba",
+          "serology amebic elisa",
+          "stool antigen elisa adhesin",
+          "trophozoites with ingested red blood cells"
+        ],
+        "clinical_signs": [
+          "bloody diarrhea",
+          "colonic flask-shaped ulcers",
+          "hepatic abscess solitary",
+          "right upper quadrant pain",
+          "tenesmus"
+        ],
+        "treatment": [
+          "iodoquinol",
+          "metronidazole",
+          "paromomycin",
+          "tinidazole"
+        ]
+      },
+      "syndromes": [
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "ALA"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC DPDx Laboratory Identification of Parasites: Amebiasis",
+        "mesh_id": "D000562"
+      }
+    },
+    "Echinococcosis": {
+      "category": "Parasitic Cestode",
+      "mesh_terms": [
+        "Echinococcosis",
+        "Echinococcosis, Hepatic",
+        "Echinococcosis, Pulmonary",
+        "Echinococcus granulosus",
+        "Echinococcus multilocularis"
+      ],
+      "keywords": [
+        "alveolar echinococcosis",
+        "cystic echinococcosis",
+        "echinococcosis",
+        "echinococcus granulosus",
+        "echinococcus multilocularis",
+        "hydatid cyst",
+        "hydatid disease"
+      ],
+      "pathogens": [
+        "Echinococcus granulosus",
+        "Echinococcus multilocularis"
+      ],
+      "evidence_terms": {
+        "source": "WHO-IWGE Classification on Echinococcosis, CDC DPDx Echinococcosis",
+        "gold_tests": [
+          "echinococcus western blot",
+          "gharbi ultrasound classification",
+          "hooklets in hydatid fluid",
+          "hydatid sand microscopic examination",
+          "protoscolices on aspiration",
+          "serology echinococcus elisa",
+          "who-iwge ultrasound cyst classification"
+        ],
+        "clinical_signs": [
+          "anaphylaxis from cyst rupture",
+          "daughter cysts",
+          "egg-shell calcification",
+          "hepatic hydatid mass",
+          "pulmonary hydatid cyst",
+          "water lily sign"
+        ],
+        "treatment": [
+          "albendazole",
+          "mebendazole",
+          "pair procedure",
+          "percutaneous aspiration injection reaspiration",
+          "surgical cystectomy"
+        ]
+      },
+      "syndromes": [
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome",
+        "Pulmonary_Cavitary_Infiltrative_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "CE",
+          "AE"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "WHO / CDC",
+        "guideline": "WHO Informal Working Group on Echinococcosis (WHO-IWGE) Consensus (2010/2022)",
+        "mesh_id": "D004443"
+      }
+    },
+    "Schistosomiasis": {
+      "category": "Parasitic Trematode",
+      "mesh_terms": [
+        "Schistosomiasis",
+        "Schistosomiasis mansoni",
+        "Schistosoma mansoni",
+        "Schistosoma haematobium",
+        "Schistosoma japonicum"
+      ],
+      "keywords": [
+        "bilharzia",
+        "bilharziasis",
+        "katayama fever",
+        "schistosoma haematobium",
+        "schistosoma japonicum",
+        "schistosoma mansoni",
+        "schistosoma mekongi",
+        "schistosomiasis"
+      ],
+      "pathogens": [
+        "Schistosoma mansoni",
+        "Schistosoma haematobium",
+        "Schistosoma japonicum",
+        "Schistosoma mekongi"
+      ],
+      "evidence_terms": {
+        "source": "WHO Guideline on Control and Elimination of Schistosomiasis (2022), CDC DPDx",
+        "gold_tests": [
+          "circulating anodic antigen caa",
+          "circulating cathodic antigen cca",
+          "kato-katz thick smear",
+          "point-of-care cca test",
+          "rectal snip biopsy ova",
+          "schistosoma pcr",
+          "urine filtration terminal spine eggs"
+        ],
+        "clinical_signs": [
+          "bladder wall calcification",
+          "esophageal varices bleeding",
+          "katayama acute syndrome",
+          "periportal fibrosis symmers pipestem",
+          "portal hypertension",
+          "splenomegaly",
+          "terminal hematuria"
+        ],
+        "treatment": [
+          "oxamniquine",
+          "praziquantel"
+        ]
+      },
+      "syndromes": [
+        "Prolonged_Fever_Visceral_Infiltration_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "WHO / CDC",
+        "guideline": "WHO Guideline on Control and Elimination of Human Schistosomiasis (2022)",
+        "mesh_id": "D012552"
+      }
+    },
+    "Leprosy": {
+      "category": "Bacterial Mycobacterial",
+      "mesh_terms": [
+        "Leprosy",
+        "Mycobacterium leprae",
+        "Leprosy, Tuberculoid",
+        "Leprosy, Lepromatous",
+        "Mycobacterium lepromatosis"
+      ],
+      "keywords": [
+        "borderline leprosy",
+        "hansen disease",
+        "hansen's disease",
+        "lepromatous leprosy",
+        "leprosy",
+        "mycobacterium leprae",
+        "mycobacterium lepromatosis",
+        "tuberculoid leprosy"
+      ],
+      "pathogens": [
+        "Mycobacterium leprae",
+        "Mycobacterium lepromatosis"
+      ],
+      "evidence_terms": {
+        "source": "WHO Guidelines for the Diagnosis, Treatment and Prevention of Leprosy (2018), CDC",
+        "gold_tests": [
+          "acid-fast bacilli in globi",
+          "bacteriological index slit-skin",
+          "fite-faraco stain acid fast",
+          "nerve biopsy lepra bacilli",
+          "pcr mycobacterium leprae",
+          "slit-skin smear"
+        ],
+        "clinical_signs": [
+          "claw hand deformity",
+          "erythema nodosum leprosum",
+          "hypopigmented patch with sensory loss",
+          "lagophthalmos",
+          "leonine facies",
+          "thickened greater auricular nerve",
+          "thickened peripheral nerve",
+          "trophic neuropathic ulcers"
+        ],
+        "treatment": [
+          "clofazimine",
+          "dapsone",
+          "minocycline",
+          "multidrug therapy mdt",
+          "ofloxacin",
+          "rifampicin",
+          "rifampin"
+        ]
+      },
+      "syndromes": [
+        "Chronic_Dermatological_Neuropathic_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "HD",
+          "ENL"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "WHO / CDC",
+        "guideline": "WHO Guidelines for Diagnosis, Treatment and Prevention of Leprosy (2018)",
+        "mesh_id": "D007918"
+      }
+    },
+    "Lymphatic_Filariasis": {
+      "category": "Parasitic Filarial Nematode",
+      "mesh_terms": [
+        "Elephantiasis, Filarial",
+        "Filariasis",
+        "Wuchereria bancrofti",
+        "Brugia malayi"
+      ],
+      "keywords": [
+        "brugia malayi",
+        "brugia timori",
+        "elephantiasis",
+        "filarial elephantiasis",
+        "filarial lymphedema",
+        "lymphatic filariasis",
+        "wuchereria bancrofti"
+      ],
+      "pathogens": [
+        "Wuchereria bancrofti",
+        "Brugia malayi",
+        "Brugia timori"
+      ],
+      "evidence_terms": {
+        "source": "WHO Global Programme to Eliminate Lymphatic Filariasis, CDC DPDx",
+        "gold_tests": [
+          "brugia rapid test",
+          "filarial dance sign scrotal ultrasound",
+          "filarial test strip fts",
+          "ict card antigen test",
+          "knott concentration microfilariae",
+          "nocturnal thick blood smear microfilariae",
+          "pcr wuchereria bancrofti"
+        ],
+        "clinical_signs": [
+          "chyluria",
+          "filarial hydrocele",
+          "filarial lymphangitis",
+          "lymphedema lower limb",
+          "peau d'orange skin thickening",
+          "scrotal elephantiasis",
+          "tropical pulmonary eosinophilia"
+        ],
+        "treatment": [
+          "albendazole",
+          "dec",
+          "diethylcarbamazine",
+          "doxycycline",
+          "ivermectin"
+        ]
+      },
+      "syndromes": [
+        "Chronic_Dermatological_Neuropathic_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "LF",
+          "FTS"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "WHO / CDC",
+        "guideline": "WHO Lymphatic Filariasis Monitoring and Evaluation Guidance (2021)",
+        "mesh_id": "D004605"
+      }
+    },
+    "Aspergillosis": {
+      "category": "Fungal Opportunistic Mycoses",
+      "mesh_terms": [
+        "Aspergillosis",
+        "Aspergillosis, Pulmonary",
+        "Aspergillus",
+        "Aspergillus fumigatus"
+      ],
+      "keywords": [
+        "aspergilloma",
+        "aspergillosis",
+        "aspergillus",
+        "aspergillus flavus",
+        "aspergillus fumigatus",
+        "aspergillus niger",
+        "fungus ball",
+        "pulmonary aspergilloma",
+        "pulmonary aspergillosis"
+      ],
+      "pathogens": [
+        "Aspergillus fumigatus",
+        "Aspergillus flavus",
+        "Aspergillus niger"
+      ],
+      "evidence_terms": {
+        "source": "IDSA Aspergillosis Guidelines (2016), WHO Fungal Priority Pathogens List (2022)",
+        "gold_tests": [
+          "aspergillus antibody precipitin",
+          "aspergillus antigen",
+          "aspergillus pcr",
+          "bal galactomannan",
+          "fungal culture aspergillus",
+          "galactomannan antigen elisa",
+          "histopathology dichotomous branching septate hyphae 45 degrees",
+          "serum galactomannan"
+        ],
+        "clinical_signs": [
+          "air crescent sign",
+          "fungus ball inside preexisting tb cavity",
+          "halo sign ct",
+          "hemoptysis massive",
+          "monod sign",
+          "pleural thickening adjacent to cavity"
+        ],
+        "treatment": [
+          "amphotericin b",
+          "isavuconazole",
+          "itraconazole",
+          "posaconazole",
+          "surgical resection lobectomy",
+          "voriconazole"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_Infiltrative_Syndrome"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "ABPA",
+          "CPA",
+          "IPA"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "IDSA / WHO / CDC",
+        "guideline": "IDSA Practice Guidelines for Diagnosis and Management of Aspergillosis (2016), WHO FPPL (2022)",
+        "mesh_id": "D001228"
+      }
+    },
+    "Cytomegalovirus": {
+      "category": "Viral Opportunistic / Herpesvirus",
+      "mesh_terms": [
+        "Cytomegalovirus",
+        "Cytomegalovirus Infections",
+        "Cytomegalovirus Retinitis",
+        "Cytomegalovirus Enterocolitis"
+      ],
+      "keywords": [
+        "cytomegalovirus",
+        "cmv",
+        "cmv retinitis",
+        "cmv colitis",
+        "cmv pneumonitis",
+        "cmv viremia",
+        "congenital cmv",
+        "human herpesvirus 5",
+        "hhv-5",
+        "cytomegalic inclusion disease"
+      ],
+      "pathogens": [
+        "Cytomegalovirus",
+        "Human betaherpesvirus 5"
+      ],
+      "evidence_terms": {
+        "source": "NIH/CDC/HIVMA Guidelines for Opportunistic Infections; IDSA/AST CMV Guidelines",
+        "gold_tests": [
+          "cmv pcr",
+          "quantitative pcr",
+          "nat",
+          "pp65",
+          "pp65 antigenemia",
+          "viral culture",
+          "histopathology",
+          "immunohistochemistry",
+          "ihc",
+          "biopsy",
+          "fundoscopy",
+          "funduscopic examination"
+        ],
+        "clinical_signs": [
+          "owl's eye",
+          "intranuclear inclusions",
+          "cytomegaly",
+          "scrambled eggs and ketchup",
+          "pizza pie",
+          "retinal hemorrhage",
+          "cotton-wool spots",
+          "brushfire",
+          "chorioretinitis",
+          "blindness",
+          "bloody diarrhea",
+          "colonic ulceration",
+          "interstitial pneumonitis"
+        ],
+        "treatment": [
+          "ganciclovir",
+          "valganciclovir",
+          "foscarnet",
+          "cidofovir",
+          "maribavir",
+          "letermovir"
+        ]
+      },
+      "syndromes": [
+        "Opportunistic_Viral_Infection",
+        "Retinitis_and_Ocular_Syndrome",
+        "Prolonged_Fever_and_Gastrointestinal_Ulceration"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "CMV",
+          "HHV-5"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "NIH / CDC / IDSA",
+        "guideline": "NIH/CDC/HIVMA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV"
+      }
+    },
+    "Syphilis": {
+      "category": "Bacterial Spirochetal / Sexually Transmitted & Endemic",
+      "mesh_terms": [
+        "Syphilis",
+        "Syphilis, Congenital",
+        "Neurosyphilis",
+        "Treponema pallidum"
+      ],
+      "keywords": [
+        "syphilis",
+        "treponema pallidum",
+        "neurosyphilis",
+        "ocular syphilis",
+        "otosyphilis",
+        "chancre",
+        "gumma",
+        "tabes dorsalis",
+        "condyloma lata",
+        "the great imitator",
+        "the great masquerader"
+      ],
+      "pathogens": [
+        "Treponema pallidum"
+      ],
+      "evidence_terms": {
+        "source": "CDC Laboratory Recommendations for Syphilis Testing (MMWR 2024); CDC NNDSS Syphilis Case Definition",
+        "gold_tests": [
+          "darkfield microscopy",
+          "treponema pcr",
+          "naat",
+          "rpr",
+          "vdrl",
+          "csf vdrl",
+          "tppa",
+          "tp-pa",
+          "fta-abs",
+          "eia",
+          "cia",
+          "silver stain",
+          "steiner stain",
+          "warthin-starry"
+        ],
+        "clinical_signs": [
+          "painless chancre",
+          "syphilitic chancre",
+          "indurated ulcer",
+          "maculopapular rash on palms and soles",
+          "condylomata lata",
+          "gummatous lesion",
+          "argyll robertson pupil",
+          "tabetic gait",
+          "sensory ataxia",
+          "aortitis",
+          "jarisch-herxheimer reaction"
+        ],
+        "treatment": [
+          "benzathine penicillin g",
+          "penicillin g",
+          "aqueous crystalline penicillin",
+          "procaine penicillin",
+          "doxycycline",
+          "ceftriaxone",
+          "desensitization"
+        ]
+      },
+      "syndromes": [
+        "CNS_and_Space_Occupying_Dilemma",
+        "Cutaneous_and_Mucosal_Ulcerative_Syndrome",
+        "Cardiovascular_and_Systemic_Mimicry"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "TPPA",
+          "RPR",
+          "VDRL",
+          "FTA-ABS"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "CDC / WHO",
+        "guideline": "CDC Laboratory Recommendations for Syphilis Testing, United States, 2024 & CDC NNDSS Case Definition"
+      }
+    },
+    "Pneumocystis": {
+      "category": "Fungal Opportunistic Mycoses",
+      "mesh_terms": [
+        "Pneumocystis",
+        "Pneumocystis jirovecii",
+        "Pneumonia, Pneumocystis"
+      ],
+      "keywords": [
+        "pneumocystis",
+        "pneumocystis jirovecii",
+        "pneumocystis carinii",
+        "pneumocystis pneumonia",
+        "pcp",
+        "pjp",
+        "pcp pneumonia",
+        "plasma cell pneumonia"
+      ],
+      "pathogens": [
+        "Pneumocystis jirovecii"
+      ],
+      "evidence_terms": {
+        "source": "NIH/CDC/HIVMA Opportunistic Infection Guidelines; IDSA/ATS Pneumocystis Criteria",
+        "gold_tests": [
+          "bronchoalveolar lavage",
+          "bal",
+          "induced sputum",
+          "gomori methenamine silver",
+          "gms stain",
+          "direct immunofluorescence",
+          "dfa",
+          "pneumocystis pcr",
+          "beta-d-glucan",
+          "1,3-beta-d-glucan",
+          "toluidine blue o",
+          "calcofluor white"
+        ],
+        "clinical_signs": [
+          "bilateral ground-glass opacities",
+          "ground glass",
+          "perihilar infiltrates",
+          "bat-wing appearance",
+          "exertional dyspnea",
+          "oxygen desaturation on exertion",
+          "elevated ldh",
+          "lactate dehydrogenase",
+          "spontaneous pneumothorax",
+          "subpleural blebs",
+          "cysts",
+          "crushed ping-pong balls",
+          "cup-shaped cysts"
+        ],
+        "treatment": [
+          "trimethoprim-sulfamethoxazole",
+          "tmp-smx",
+          "co-trimoxazole",
+          "bactrim",
+          "dapsone",
+          "atovaquone",
+          "pentamidine",
+          "primaquine",
+          "clindamycin",
+          "corticosteroids",
+          "prednisone adjuvant"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_and_Infiltrative_Syndrome",
+        "Severe_Hypoxemic_Respiratory_Failure"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [
+          "PCP",
+          "PJP"
+        ],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "NIH / CDC / ATS",
+        "guideline": "NIH/CDC/HIVMA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV"
+      }
+    },
+    "Nocardiosis": {
+      "category": "Bacterial Actinomycetales / Environmental Opportunistic",
+      "mesh_terms": [
+        "Nocardia",
+        "Nocardia Infections",
+        "Nocardia asteroides",
+        "Nocardia farcinica",
+        "Nocardia brasiliensis"
+      ],
+      "keywords": [
+        "nocardia",
+        "nocardiosis",
+        "nocardia asteroides",
+        "nocardia farcinica",
+        "nocardia nova",
+        "nocardia brasiliensis",
+        "nocardia cyriacigeorgica",
+        "pulmonary nocardiosis",
+        "cutaneous nocardiosis"
+      ],
+      "pathogens": [
+        "Nocardia asteroides",
+        "Nocardia farcinica",
+        "Nocardia nova",
+        "Nocardia brasiliensis",
+        "Nocardia cyriacigeorgica"
+      ],
+      "evidence_terms": {
+        "source": "Mayo Clinic Proceedings Clinical Overview (Wilson JW 2012); CDC Laboratory Guidance",
+        "gold_tests": [
+          "modified acid-fast stain",
+          "modified kinyoun stain",
+          "fite stain",
+          "aerobic bacterial culture",
+          "16s rrna sequencing",
+          "maldi-tof",
+          "antimicrobial susceptibility testing",
+          "ast"
+        ],
+        "clinical_signs": [
+          "branching filamentous bacilli",
+          "beaded gram-positive",
+          "weakly acid-fast",
+          "partially acid-fast",
+          "pulmonary cavitation",
+          "necrotizing abscess",
+          "brain abscess",
+          "cerebral nocardiosis",
+          "sulfur granules absent",
+          "chalky colonies",
+          "aerial hyphae"
+        ],
+        "treatment": [
+          "trimethoprim-sulfamethoxazole",
+          "tmp-smx",
+          "co-trimoxazole",
+          "bactrim",
+          "linezolid",
+          "imipenem",
+          "meropenem",
+          "amikacin",
+          "ceftriaxone",
+          "minocycline"
+        ]
+      },
+      "syndromes": [
+        "Pulmonary_Cavitary_and_Infiltrative_Syndrome",
+        "CNS_and_Space_Occupying_Dilemma"
+      ],
+      "disambiguation": {
+        "case_sensitive_aliases": [],
+        "forbidden_abbreviations": []
+      },
+      "provenance": {
+        "organization": "Mayo Clinic / CDC",
+        "guideline": "Wilson JW. Nocardiosis: updates and clinical overview. Mayo Clin Proc 2012"
+      }
+    }
+  },
+  "diagnostic_image_modalities": {
+    "radiology": [
+      "x_ray",
+      "ct",
+      "mri",
+      "ultrasound"
+    ],
+    "pathology": [
+      "microscopy",
+      "histopathology",
+      "immunostaining",
+      "smear",
+      "blood_smear",
+      "biopsy"
+    ],
+    "medical_photograph": [
+      "clinical_photograph",
+      "dermatology_lesion"
+    ]
+  }
+}

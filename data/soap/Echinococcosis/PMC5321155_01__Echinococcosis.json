@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5321155_01",
+  "pair_id": "PMC5321155_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "History and examination: This 7-year-old girl, previously healthy, was admitted to the emergency department for an epileptic attack, she described four episodes of partial seizure secondary generalized. Neurological examination revealed postictal confusion, hemiparesis and bilateral papilledema. Headache and vomiting were not experienced. An anticonvulsant therapy was administrated. Magnetic resonance images (MRI) demonstrated well-defined round (spherical) entirely surrounded by brain parenchyma hypointense lesions on T1-weighted images (Figure 1 (A,B)) and hyperintense lesions on T2-weighted images (Figure 1 C). The walls of the cyst were hypointense on T1- and T2-weighted images (Figure 1) and contain few peripheral daughter cysts. No calcification, no surrounding edema, and no contrast enhancement were seen. Preoperative radiological diagnosis of cerebral hydatid cyst was suggested. Abdominal ultrasonography and X-ray chest were performed and failed to reveal any associated hydatid cyst in lungs and liver.\nOperation: emergency surgical intervention was performed. After craniotomy the entire cyst was removed without rupture during the dowling technique (Figure 2). Histopathological examination confirmed the diagnosis of hydatid cyst.\nPostoperative course: the patient's postoperative course was uneventful; the patient's neurological status remained good. Postoperative CT confirmed total removal of the lesion (Figure 3) she was discharged from the hospital on postoperative Day 5. Full recovery took place one month later. Seizure or recurrences were not seen during follow-up period.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-year-old girl presented to the emergency department after experiencing four episodes of partial seizures with secondary generalization.",
+      "history_of_present_illness": "The previously healthy child was brought to the emergency department following an acute cluster of four focal-onset seizures with secondary generalization, without antecedent headache or vomiting.",
+      "past_medical_history": "Previously healthy.",
+      "review_of_systems": "Positive for partial seizures with secondary generalization; negative for headache or vomiting."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed postictal confusion, hemiparesis, and bilateral papilledema.",
+      "routine_investigations": "Chest X-ray and abdominal ultrasonography were normal, excluding pulmonary and hepatic hydatid cysts.",
+      "advanced_workup": "Brain MRI demonstrated a large, well-defined spherical intra-axial cerebral cyst (hypointense on T1, hyperintense on T2 with a hypointense wall) containing a few peripheral daughter cysts, without calcification, perilesional edema, or contrast enhancement. Emergency craniotomy removed the entire cyst unruptured via Dowling's hydrodissection technique, and histopathological examination confirmed a cerebral hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary solitary intra-axial cerebral hydatid cyst with daughter cysts presenting with new-onset seizures and hemiparesis, confirmed by brain MRI and postoperative histopathology. Following anticonvulsant therapy and emergency craniotomy with intact cyst delivery via Dowling's technique, postoperative CT confirmed complete removal; the child was discharged on postoperative day 5 and achieved full neurological recovery within 1 month without seizure recurrence."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11162190_02",
+  "pair_id": "PMC11162190_02::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Given the acute presentation of focal neurological deficit, magnetic resonance imaging (MRI) of the brain was performed. The results revealed left middle cerebral artery infarction (fronto-temporo-parieto-insular) and lenticulostriate territory (acute infarction) (Figure 1A and B). A week after his initial presentation, the patient exhibited new-onset visual disturbance and headache, promoting the decision to conduct a follow-up imaging CT scan. A new focus of hypodensity is noted involving the medial part of the right occipitotemporal lobe suggestive of right PCA territory acute infarction (Figure 1C and D). The middle cerebral artery segments and its branches showed normal caliber, smooth wall, and patent lumen (Figure 1E). \nA complete blood count (CBC) was conducted, showing a normal white blood cell count (4.8 *10^3). Further investigation of conventional cardiovascular risk factors yielded unremarkable results. Trans thoracic echocardiography did not reveal any embolic source, and routine ECG did not detect any arrhythmia. Due to the atypical stroke presentation without traditional risk factors, further investigation was pursued.\nSerological testing for infectious etiologies, including syphilis and HIV (human immunodeficiency virus), was ordered. Serum RPR (Rapid plasma regain) and subsequent TPPA (Treponema Pallidum Particle Agglutination) tests were reactive; however, the titer was not reported. There was a reactive HIV antibody test, and the absolute CD4+ lymphocyte count was 451 cells/mm3. This led to the decision to perform a lumbar puncture, a lumbar puncture detected cerebrospinal fluid positive for VDRL (Venereal Disease Research Laboratory). There is no CSF pleocytosis, and all other CSF parameters were within normal limits.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An adult male patient presented with an acute focal neurological deficit, followed 1 week later by new-onset visual disturbance and headache.",
+      "history_of_present_illness": "The patient initially presented with an acute focal neurological deficit found to be a left middle cerebral artery territory infarction. One week after initial presentation, he developed new-onset visual disturbance and headache.",
+      "past_medical_history": "No conventional cardiovascular risk factors.",
+      "review_of_systems": "Positive for acute focal neurological deficit, subsequent visual disturbance, and headache."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination demonstrated an acute focal neurological deficit at presentation, followed 1 week later by visual disturbance.",
+      "routine_investigations": "CBC showed a normal WBC count of 4.8 x 10^3/uL. Conventional cardiovascular risk factor workup, routine ECG, and transthoracic echocardiography (TTE) were normal without arrhythmia or cardioembolic source. Serum HIV antibody test was reactive.",
+      "advanced_workup": "Initial brain MRI revealed an acute left middle cerebral artery (MCA) infarction involving the fronto-temporo-parieto-insular cortex and lenticulostriate territory, with normal MCA caliber and smooth patent lumen on MR angiography. Follow-up head CT 1 week later demonstrated a new acute right posterior cerebral artery (PCA) territory infarction in the medial right occipitotemporal lobe. Absolute CD4+ T-lymphocyte count was 451 cells/mm3. Lumbar puncture showed normal CSF cell count (no pleocytosis) and normal routine CSF biochemistry."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed meningovascular neurosyphilis presenting with recurrent multi-territory ischemic strokes (left MCA and right PCA infarctions) co-infected with HIV, established via reactive serum RPR, reactive serum TPPA, and a reactive CSF VDRL."
+    }
+  }
+}

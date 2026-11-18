@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7294958_01",
+  "pair_id": "PMC7294958_01::Chikungunya",
+  "target_disease": "Chikungunya",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 15-day-old male infant was referred to our hospital with a history of recurrent apnea, suspected sepsis, neonatal hyperbilirubinemia, and thrombocytopenia. The infant was ventilated at the referring hospital for recurrent apnea and was treated with intravenous antibiotics and other supportive measures. General examination at admission revealed marked hyperpigmentation of the face (Figure 1) and genital region (Figure 2). Systemic examination was unremarkable. The possibility of neonatal chikungunya was considered due to classical hyperpigmentation, clinical presentation, and thrombocytopenia. The patient's mother reported having suffered a fever during the week preceding his delivery. The diagnosis in the neonate was confirmed by positive IgM antibodies to chikungunya. The child was treated symptomatically, recovered gradually, and was extubated on the third day of admission. Platelet count also normalized and the infant was discharged on the tenth day of admission. Transmission of chikungunya from mother to fetus is most likely when the mother is viremic at delivery. Though neurological, ocular, renal, and hematological manifestations have been described, the striking pigmentation of the nose, described as the \"chik sign,\" is the most recognizable feature in the diagnosis of neonatal chikungunya  . Differential diagnoses include congenital lupus, drug rash (due to imipenem, for instance), and bacterial infections (Listeria monocytogenes, Staphylococcus epidermidis), fungi (Candida), and viruses (human herpesvirus 6, enteroviruses). Knowledge of the \"chik sign\" as a cutaneous feature of chikungunya could be useful in resource-poor settings to detect unrecognized outbreaks of this arboviral fever, especially when the facilities for serological confirmation are not available.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-day-old male neonate was referred with recurrent apnea, suspected neonatal sepsis, hyperbilirubinemia, thrombocytopenia, and striking facial and genital hyperpigmentation.",
+      "history_of_present_illness": "The neonate developed recurrent apnea, neonatal hyperbilirubinemia, and thrombocytopenia, requiring mechanical ventilation, intravenous antibiotics, and supportive care at a referring hospital before transfer on day 15 of life.",
+      "past_medical_history": "Perinatal history significant for maternal febrile illness during the week preceding delivery.",
+      "review_of_systems": "Positive for recurrent neonatal apnea, jaundice, and facial/genital skin darkening."
+    },
+    "objective": {
+      "physical_examination": "General examination at admission (day 15 of life) revealed marked brownish-black hyperpigmentation over the nose/face ('chik sign') and genital region. Systemic examination was otherwise unremarkable.",
+      "routine_investigations": "Blood investigations: neonatal thrombocytopenia (which subsequently normalized) and hyperbilirubinemia.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Congenital/neonatal chikungunya infection presenting with recurrent apnea, thrombocytopenia, and classical centrofacial ('chik sign') and genital hyperpigmentation. Differentials considered included congenital lupus, drug rash, and bacterial (Listeria monocytogenes, Staphylococcus epidermidis), fungal (Candida), or other viral (HHV-6, enterovirus) sepsis. Confirmation: Positive neonatal serum anti-chikungunya IgM antibodies in the setting of maternal peripartum fever and classical cutaneous hyperpigmentation. Management and outcome: Managed with mechanical ventilation, supportive care, and initial empiric IV antibiotics; the infant improved steadily, was extubated on hospital day 3, achieved normal platelet counts, and was discharged home on hospital day 10."
+    }
+  }
+}

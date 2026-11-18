@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3323255_03",
+  "pair_id": "PMC3323255_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "The likely source of laboratory worker 1's infection was found after reassessing Gram stains performed in laboratory 1 in August, September, and October 2001. A 76-year-old woman visited the emergency room served by laboratory 1 in early September 2001. The patient had had fever (temperature 38.3oC) for 1 day and headache for 3 weeks. She received one dose of ciprofloxacin for a possible urinary tract infection and was discharged. After 4 days of incubation, a Gram stain of this patient's blood culture specimen showed tiny, gram-negative coccobacilli, reported as coryneform bacilli. As part of the investigation for the source of infection for laboratory worker 1, this patient's prepared Gram stain slide was referred to the Wadsworth Center, where small, gram-variable cocci were identified. More than 1 year after being seen in the emergency room, this patient was offered Brucella SAT and a repeat blood culture. She refused Brucella SAT, and her physician did not identify symptoms consistent with brucellosis. Six months after this identification, further experimental analysis by the Wadsworth Center with polymerase chain reaction tests performed on Gram stain material detected B. melitensis DNA (Wadsworth Center, NYSDOH, unpub. data). The patient was again contacted, and Brucella SAT (>1.5 years after her initial blood culture) showed a titer of 1:80 (indeterminate). Repeat blood cultures were negative. Upon interview, the patient denied any visits outside the United States since 1989, when she emigrated from Peru. She also denied consuming any unpasteurized products from the United States or abroad. An additional interview was scheduled, but the patient died unexpectedly.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 76-year-old Peruvian-born woman presented to the emergency department in early September 2001 with a 3-week history of headache and a 1-day history of fever (38.3 C).",
+      "history_of_present_illness": "A 76-year-old woman presented to an emergency room in early September 2001 with a 1-day fever of 38.3 C and a 3-week history of headache. She was given a single dose of ciprofloxacin for a presumed urinary tract infection and discharged.",
+      "past_medical_history": "Emigrated to the United States from Peru in 1989; denied travel outside the United States since 1989 or consumption of unpasteurized dairy products.",
+      "review_of_systems": "Positive for 1-day fever and 3-week headache."
+    },
+    "objective": {
+      "physical_examination": "Temperature 38.3 C at the September 2001 emergency room visit.",
+      "routine_investigations": "Blood culture drawn in September 2001 grew tiny Gram-negative/Gram-variable coccobacilli after 4 days of incubation that were originally misreported as coryneform bacilli; repeat blood cultures >1.5 years later were negative.",
+      "advanced_workup": "Experimental PCR performed by the NYSDOH Wadsworth Center on the archived September 2001 blood culture Gram stain slide detected Brucella melitensis DNA."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "PCR amplification of Brucella melitensis DNA from the archived September 2001 blood culture Gram stain slide and a follow-up Brucella serum agglutination test (SAT) titer of 1:80 (>1.5 years later) identified this patient as the index source case for the laboratory-acquired Brucella melitensis outbreak in laboratory workers 1 and 2. She had received a single dose of ciprofloxacin at her initial ER visit and later died unexpectedly before further follow-up."
+    }
+  }
+}

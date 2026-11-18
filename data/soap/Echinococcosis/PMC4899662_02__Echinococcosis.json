@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4899662_02",
+  "pair_id": "PMC4899662_02::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A previously healthy, 29-year-old Saudi male presented with a 2-month history of bilateral lower limb weakness and urinary incontinence. The weakness gradually progressed with time. He also had pain in his right thigh accompanying the weakness. He had no history of other sensory symptoms, nor of a trauma or a fall. There was no history of fever or similar illness in the past and no weakness in the upper limbs accompanied his symptoms, and there was no history of headache or loss of consciousness. Though he did travel to Egypt, he had no history of contact with TB in the past, nor did he have a history of cough, loss of weight, or night sweating. Upon examination, he was vitally stable and afebrile. The patient's higher mental function and cranial examination were completely normal, upper limb motor and sensory examination was also normal, and lower limb examination showed no atrophy and normal tone. The power was 4/5 with bilateral hyperreflexia and plantar response was equivocal. He could walk independently, but with difficulty due to the pain.\nThe patient's erythrocyte sedimentation rate was normal. His white blood cell count was 4.9 with no eosinophilia. His hemoglobin was measured at 14.6 g/dl, the liver function test was normal as were the CT results of his abdomen and pelvis. The CSF analysis showed a white blood cell count of 157 (mainly mononuclear cells at 98% and polymorphonuclear leukocytes at 2%) and a red blood cell count of 3. His protein and glucose levels were at 0.79 (normal: 0.15-0.45) and 3.7 (normal: 2.2-3.9), respectively. The oligoclonal band in the CSF was positive in this patient, and his Schistosoma antibody titer was very high on 2 occasions: 512 and 4,096 (normal <16 titers). His results for brucellosis, HIV, leishmaniasis, amebiasis, echinococcosis, and cytomegalovirus serology were all negative; furthermore, a rectal snip biopsy was negative for ova, and no schistosomal ova were detected in the patient's urine or stool. An MRI of the patient's brain showed normal results and an MRI of the whole spine presented high signals in the conus medullaris (fig. 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old Saudi male presented with a 2-month history of progressive bilateral lower limb weakness, right thigh pain, and urinary incontinence.",
+      "history_of_present_illness": "The previously healthy patient developed gradually progressive bilateral lower extremity weakness accompanied by right thigh pain and urinary incontinence over 2 months, impairing his ability to walk.",
+      "past_medical_history": "Previously healthy; history of travel to Egypt; no history of trauma, fall, or tuberculosis contact.",
+      "review_of_systems": "Positive for bilateral lower limb weakness, right thigh pain, and urinary incontinence; negative for upper limb weakness, sensory loss, fever, headache, loss of consciousness, cough, weight loss, or night sweats."
+    },
+    "objective": {
+      "physical_examination": "Vitally stable and afebrile. Cranial nerve, higher cortical, and upper extremity examinations were normal. Lower extremity examination showed normal muscle bulk and tone, 4/5 motor strength bilaterally, bilateral lower limb hyperreflexia, equivocal plantar responses, and antalgic independent gait.",
+      "routine_investigations": "Labs showed WBC 4.9 x 10^9/L without eosinophilia, hemoglobin 14.6 g/dL, normal ESR, and normal liver function tests. Stool and urine microscopy for ova were negative. Serum Schistosoma antibody titers were markedly elevated on two occasions at 1:512 and 1:4,096 (normal <1:16), while serologies for brucellosis, HIV, leishmaniasis, amebiasis, echinococcosis, and CMV were all negative.",
+      "advanced_workup": "Brain MRI and abdominopelvic CT were normal. Whole-spine MRI revealed T2 hyperintense signal abnormality in the conus medullaris. Lumbar puncture CSF analysis showed lymphocytic pleocytosis (WBC 157/uL; 98% mononuclear cells, 2% PMNs; RBC 3/uL), elevated protein of 0.79 g/L (normal 0.15-0.45), normal glucose of 3.7 mmol/L (normal 2.2-3.9), and positive CSF oligoclonal bands. Rectal snip biopsy was negative for ova."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Spinal neuroschistosomiasis (conus medullaris transverse myelitis), confirmed by characteristic conus medullaris MRI signal abnormality, CSF mononuclear pleocytosis, and high-titer serum Schistosoma antibodies (1:512 and 1:4,096), with spinal echinococcosis, brucellosis, amebiasis, and leishmaniasis excluded by negative serologies."
+    }
+  }
+}

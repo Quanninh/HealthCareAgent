@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5024761_02",
+  "pair_id": "PMC5024761_02::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "An otherwise healthy 74-year-old male presented to the emergency department at Townsville Hospital, with an acute episode of decreased left central vision, having a visual acuity of counting fingers in the left and of 6/7.5 in the right. Bilateral scotomas to confrontation and a localized creamy white lesion of his left macula were clinically noted. Humphrey visual field identified a right arcuate and left central defect with reduced reliability. With cilioretinal artery occlusion as a differential, fundus fluorescein angiography was performed, identifying disk hyperfluorescence and possible infiltrative/compressive lesions of the left eye (Figure 1). Further investigations for optic neuritis were ordered, including a computed tomography angiography head (an magnetic resonance imaging was discounted because of a history of a spinal stimulator). Radiological imaging was normal and screening results returned positive syphilis serology (angiotensin converting enzyme, 40; RPR, reactive >1:512; TPPA and enzyme immunoassay, reactive) with negative STI screening, which included HIV. He was admitted under the medical team for extended IV benzylpenicillin treatment. Sexual history enquiries made revealed previous MSM behavior. An LP was not performed, but an ECHO demonstrated an ejection fraction of 58% with a dilated ascending aorta; subsequent computed tomography angiography confirmed aortic dilation with no aneurysm. Ophthalmology follow-up 4 months after initial presentation demonstrated improved visual acuity (right, 6/7.5; left, 6/23 improving to 6/9 with pinhole) and visual field defect following completion of syphilis treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An otherwise healthy 74-year-old male presented with acute loss of central vision in his left eye.",
+      "history_of_present_illness": "The patient presented to the emergency department with an acute decrease in left central vision.",
+      "past_medical_history": "History of an implanted spinal cord stimulator; otherwise healthy. Subsequent sexual history inquiry revealed prior men who have sex with men (MSM) sexual contact.",
+      "review_of_systems": "Positive for acute left central visual loss."
+    },
+    "objective": {
+      "physical_examination": "Visual acuity was 6/7.5 in the right eye and counting fingers in the left eye, with bilateral scotomas on confrontation visual field testing. Fundoscopy of the left eye revealed a localized creamy-white macular lesion.",
+      "routine_investigations": "Serum angiotensin-converting enzyme (ACE) was 40 U/L, and HIV and other STI screens were negative. Transthoracic echocardiography (ECHO) showed an LVEF of 58% and a dilated ascending aorta.",
+      "advanced_workup": "Humphrey visual field testing showed a right arcuate scotoma and a left central scotoma. Fundus fluorescein angiography demonstrated left optic disc hyperfluorescence and macular chorioretinal changes. Head CT angiography was normal, and thoracic CT angiography confirmed ascending aortic dilation/ectasia without discrete aneurysm (brain MRI was contraindicated due to his spinal cord stimulator, and lumbar puncture was not performed)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed left ocular syphilis (syphilitic macular retinitis/chorioretinitis and papillitis) with concomitant syphilitic ascending aortic ectasia, established via high-titer serum RPR (>1:512), reactive TPPA, and reactive treponemal enzyme immunoassay (EIA). Treated with an extended course of inpatient intravenous benzylpenicillin; at 4-month ophthalmology follow-up, left visual acuity improved from counting fingers to 6/23 (6/9 with pinhole) alongside visual field improvement."
+    }
+  }
+}

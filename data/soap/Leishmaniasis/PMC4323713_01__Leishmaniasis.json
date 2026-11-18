@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4323713_01",
+  "pair_id": "PMC4323713_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 63-year-old female patient had an indurated, infiltrated erythematous-ferruginous plaque with central atrophic scars (from previous biopsies) on her right leg (Figure 1). She had been treated with antibiotics, antifungal and corticosteroid therapy with no improvement. We repeated the biopsy and the lesion progressed to a 6-cm ulcer with irregular borders and fibrino-necrotic areas (Figure 2). The following tests were normal: blood cell count, VDRL, ANA, AFB in the lymph nodes, HIV, culture for bacteria and fungi (in biopsy material), serology for leishmaniasis, and radiography of the chest and legs. ESR was 48 mm/hour and PPD was nonreactive. The anatomicopathological study showed histiocytes and multinucleated giant cells (Figure 3). Culture was positive for AFB. PCR (polymerase chain reaction) revealed genotypic characters of Mycobacterium tuberculosis (primers TB1 (primers: TB1 (5'-CCTGCGAGCGTAGGCGTCGG-3') and TB2 (5'-CTCGTCCAGCGCCGCTTCGG-3')), which amplify a fragment of 123 base-pairs (bp) of the IS6110 sequence (Figure 4). The treatment was performed with pyrazinamide, rifampicin, isoniazid and ethambutol.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old female presented with a chronic, indurated erythematous-ferruginous plaque on her right leg that progressed into a 6-cm fibrino-necrotic ulcer.",
+      "history_of_present_illness": "The patient presented with an infiltrated plaque with central biopsy scars on her right leg that had failed multiple prior courses of systemic/topical antibiotics, antifungals, and corticosteroids, and subsequently ulcerated into a 6-cm lesion following repeat skin biopsy.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Indurated, infiltrated erythematous-ferruginous plaque with central atrophic scars on the right leg that evolved into a 6-cm ulcer with irregular borders and fibrino-necrotic base.",
+      "routine_investigations": "ESR was elevated at 48 mm/h; CBC, VDRL, ANA, HIV serology, Leishmania serology, tuberculin PPD test, lymph node AFB smear, routine bacterial and fungal tissue cultures, and chest and leg radiographs were all normal or negative.",
+      "advanced_workup": "Right leg skin biopsy histopathology demonstrated granulomatous inflammation with histiocytes and multinucleated giant cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Cutaneous leishmaniasis, syphilis, deep fungal infection, and autoimmune vasculitis/lupus were excluded; positive mycobacterial culture for acid-fast bacilli and IS6110 PCR (primers TB1/TB2 amplifying a 123-bp fragment) on the biopsy specimen confirmed cutaneous tuberculosis. The patient was treated with standard four-drug antitubercular therapy (pyrazinamide, rifampicin, isoniazid, and ethambutol)."
+    }
+  }
+}

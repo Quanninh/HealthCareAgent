@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7083181_01",
+  "pair_id": "PMC7083181_01::Typhoid_Fever",
+  "target_disease": "Typhoid_Fever",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "The authors present a case of a 72-year-old male, with a past medical history of diabetes mellitus and arterial hypertension, who was admitted to the emergency department due to fever and diarrhoea with 4-day evolution. On the physical evaluation, the patient was hypotensive (blood pressure of 84/44 mmHg) and dehydrated, without any other significant findings. Blood analysis revealed leucocytosis (12,200/mm3) with neutrophilia (10,800/mm3), elevated C-reactive protein (9.5 mg/dl) and an acute kidney injury (creatinine 7.34 mg/dl). Due to haemodynamic instability, the patient needed aminergic support and renal replacement therapy. Blood cultures isolated Salmonella Typhi. The patient was treated with ciprofloxacin, in accordance with bacterial antibiotic susceptibility tests. With a positive clinical evolution he was discharged after completing antibiotic treatment, clinically asymptomatic.\nThree weeks after discharge, the patient was evaluated on a follow-up consult and complained of testicular pain and weight loss of 5 kg over the previous 15 days. On the physical evaluation, he presented multiple purpuric lesions with ulcers, pustules and necrotic tissue on his legs (Figs. 1 and 2) and petechiae on his arms. A cutaneous biopsy was performed, showing areas with detachment of the corneal layer with keratinocyte necrosis and abundant polymorphonuclear cells (Fig. 3) and polymorphonuclear infiltration of the arteries of the deep dermis and hypodermis with focal signs of vasculitis (Fig. 4), compatible with polyarteritis nodosa. The patient was treated with prednisolone, starting with 60 mg followed by progressive dose reduction, with complete remission of the skin lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old male presented to the emergency department with a 4-day history of fever and diarrhea, and later re-presented 3 weeks post-discharge with a 15-day history of testicular pain, 5 kg weight loss, and ulcerative purpuric skin lesions.",
+      "history_of_present_illness": "The patient initially presented with 4 days of fever and diarrhea causing severe dehydration, hypotension, and acute kidney injury. Following successful inpatient antibiotic therapy and discharge, he presented to a 3-week follow-up clinic reporting testicular pain, a 5 kg weight loss over the preceding 15 days, and painful purpuric and necrotic skin ulcers on his legs and petechiae on his arms.",
+      "past_medical_history": "History of diabetes mellitus and arterial hypertension.",
+      "review_of_systems": "Initial admission: positive for fever and diarrhea. Follow-up presentation (3 weeks post-discharge): positive for testicular pain, 5 kg weight loss, lower extremity ulcerative purpura/pustules, and upper extremity petechiae."
+    },
+    "objective": {
+      "physical_examination": "On initial emergency admission, the patient was dehydrated and hypotensive (blood pressure 84/44 mmHg) with an otherwise unremarkable physical examination. At the 3-week post-discharge follow-up visit, cutaneous examination revealed multiple purpuric lesions with ulcers, pustules, and necrotic tissue over both legs and petechiae on his arms.",
+      "routine_investigations": "Initial admission blood tests showed leukocytosis (WBC 12,200/mm^3) with neutrophilia (10,800/mm^3), elevated C-reactive protein (9.5 mg/dL), and severe acute kidney injury (serum creatinine 7.34 mg/dL).",
+      "advanced_workup": "Initial admission blood cultures isolated Salmonella Typhi (with antimicrobial susceptibility testing performed). At the 3-week follow-up visit, a cutaneous biopsy of the leg lesions demonstrated corneal layer detachment, keratinocyte necrosis with abundant polymorphonuclear leukocytes, and polymorphonuclear infiltration of deep dermal and hypodermal arteries with focal necrotizing vasculitis consistent with polyarteritis nodosa (PAN)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Salmonella Typhi bacteremia complicated by septic shock and severe acute kidney injury, followed 3 weeks later by post-infectious polyarteritis nodosa (PAN), confirmed by initial blood cultures growing S. Typhi and subsequent skin biopsy demonstrating medium/small-vessel deep dermal and hypodermal arterial vasculitis. During the initial admission, the patient required vasopressor support, renal replacement therapy, and targeted ciprofloxacin therapy, achieving full recovery and asymptomatic discharge. When post-typhoid polyarteritis nodosa developed 3 weeks later, treatment with oral prednisolone (starting at 60 mg daily with a progressive taper) achieved complete remission of all cutaneous and systemic vasculitic manifestations."
+    }
+  }
+}

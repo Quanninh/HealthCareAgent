@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3212972_01",
+  "pair_id": "PMC3212972_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 30-year-old woman was admitted with the complaint of sore throat and polyarthralgia for five days. The patient also reported headache, dizziness and fever. At presentation, her body temperature was 37.5 C and blood pressure in right arm was 180/90 mmHg and in left arm was 170/80 mmHg. Physical examination showed widespread thoracic murmur and weak pulses in both arms. Ophthalmoscopic examination was normal. Laboratory findings were as follows: hemoglobin was 12.2 g/dL, hematocrit was 36%, white blood cell count was 12,500/mm3, platelet count was 296,000/mm3 and mean corpuscular volume was 80 femtoliter. Fasting glucose level, calcium, albumin, urea and creatinine levels were within the normal range. Sedimentation rate was 31 mm, C reactive protein (CRP) was 52 mg/dL (range from 0-3.19 mg/dL). Urine examination was normal. Throat culture did not yield beta hemolytic Streptococci. Telecardiography (Figure 1) and electrocardiogram were normal.\nThe patient had a preliminary diagnosis of infective endocarditis and was started on a treatment regimen consisting of ampicillin/sulbactam 4 x 1 g/day and gentamicin 1x160 mg/day. Echocardiography examination showed normal left cardiac functions, valves and intact interatrial septum. Doppler ultrasound showed kidneys of normal size. Serologic tests were negative for antinuclear antibody, VDRL, rheumatoid factor, hepatitis B and C, HIV and brucella. Blood and urine cultures were also negative.\nPatient was evaluated again because of sterile blood cultures and echocardiographic finding negative for infective endocarditis. Bilateral calf and upper limb claudicatio, Raynaud's phenomenon, polyarthralgia and skin pale on both her forearms were also reported throughout in the previous year. Because of widespread thoracic murmur and hypertension, contrast-enhanced thoracic magnetic resonance angiography was performed. Magnetic resonance angiography showed minimal flow in the left common carotid artery, no flow in the homolateral subclavian artery and narrowing of the aortic thoracic segment to 10.4 mm (Figure 2).\nBased on these findings, the patient was diagnosed with TA. Treatment with prednisolone at a dose of 48 mg/day was initiated.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old woman presented with a 5-day history of sore throat, polyarthralgia, headache, dizziness, and fever.",
+      "history_of_present_illness": "A 30-year-old woman was admitted with 5 days of sore throat, polyarthralgia, headache, dizziness, and fever. Further clinical history revealed a 1-year history of bilateral calf and upper extremity claudication, Raynaud's phenomenon, polyarthralgia, and bilateral forearm skin pallor.",
+      "past_medical_history": "One-year history of upper and lower limb claudication, Raynaud's phenomenon, and polyarthralgia.",
+      "review_of_systems": "Positive for sore throat, polyarthralgia, headache, dizziness, fever, bilateral calf and arm claudication, Raynaud's phenomenon, and forearm pallor."
+    },
+    "objective": {
+      "physical_examination": "Temperature 37.5 C; asymmetric hypertension with blood pressure 180/90 mmHg in the right arm and 170/80 mmHg in the left arm; weak bilateral radial/brachial pulses and a widespread thoracic vascular bruit/murmur. Normal ophthalmoscopic examination.",
+      "routine_investigations": "Hb 12.2 g/dL, Hct 36%, WBC 12,500/mm3, platelets 296,000/mm3, MCV 80 fL, ESR 31 mm/h, CRP 52 mg/dL (normal: 0-3.19 mg/dL). Normal fasting glucose, calcium, albumin, urea, creatinine, and urinalysis. Negative throat culture for beta-hemolytic streptococci; negative blood and urine cultures. Negative VDRL, RF, HBV, HCV, HIV, and Brucella serologies. Normal chest X-ray (telecardiography), ECG, transthoracic echocardiography, and renal Doppler ultrasound.",
+      "advanced_workup": "ANA negative. Contrast-enhanced thoracic magnetic resonance angiography (MRA) demonstrated minimal blood flow in the left common carotid artery, complete occlusion (no flow) of the left subclavian artery, and luminal narrowing of the thoracic aorta to 10.4 mm."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Infective endocarditis and brucellosis were ruled out by sterile blood cultures, negative Brucella serology, and normal echocardiography; contrast-enhanced thoracic MRA confirmed Takayasu arteritis (TA). Empiric ampicillin/sulbactam (4 x 1 g/day) and gentamicin (160 mg/day) were discontinued, and oral prednisolone (48 mg/day) was initiated."
+    }
+  }
+}

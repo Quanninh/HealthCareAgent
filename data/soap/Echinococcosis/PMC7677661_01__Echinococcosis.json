@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7677661_01",
+  "pair_id": "PMC7677661_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "59-year-old patient, rural resident, who lives in a poor region of Morocco endemic to tuberculosis., menopausal for 5 years, without particular pathological history, was not taking any drugs and with no medical family history, consults for swelling in the right breast The onset of symptoms goes back 5 months by autopalpation of a nodule in the right breast associated with a progressive increase in its volume associated two months later with a mastodynia, without nipple discharge, without local inflammatory sign.\nClinical examination shows 2 masses occuping the entire upper outer quadrant of the right breast, respectively 8 cm, 4 cm in diameter and prolapsing in the axillary region, of soft consistency, well limited, mobile and painless, without inflammatory phenomenon of the skin integuments opposite. There is no axillary or supraclavicular lymphadenopathy, nor nipple discharge (Fig. 1).\nRadiological explorations (mammography + ultrasound) (Figs. 2, 3) carried out objectified:\nthe first measures 66 x 84 mm in transverse diameter and has a thin wall and anechoic content. classified ACR2 BIRADS.\nThe second measures 49 x 47 mm in transverse diameter in the axillary hollow and has ultimately echogenic content with a sloping portion producing the appearance of pseudo vegetation. classified ACR3 BIRADS.\nA voluminous opacity of the QSE of the dense and well limited right breast corresponding on ultrasound to two cystic masses of the QSE and the right axillary hollow.\nThe two masses are not vascularized by Doppler.\nAn abdominal ultrasound, a chest x-ray, as well as a biological blood test (complete blood count, ionogram) performed are completely normal. A fine needle aspiration of the cyst only showed the presence of altered polynuclear, without evidence of tumor cells. Treatment consisted of surgical excision such as perikystectomy (Fig. 4) who was performed by junior resident with 5 years of specialised training, and pathology examination demonstrated breast hydatidosis.\nPostoperative evolution was favourable. Patient was put on medical treatment based on albendazole immediately. The patient was monitored for one year without local or distant recurrences.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 59-year-old rural Moroccan woman presented with a 5-month history of a progressively enlarging right breast swelling and a 3-month history of right mastodynia.",
+      "history_of_present_illness": "Five months prior to consultation, the patient self-palpated a nodule in her right breast that progressively increased in volume and was accompanied 2 months later by localized breast pain (mastodynia) without nipple discharge or overlying skin inflammation.",
+      "past_medical_history": "Postmenopausal for 5 years with no prior medical, surgical, or family history and taking no medications; resided in a poor rural region of Morocco endemic for tuberculosis and hydatid disease.",
+      "review_of_systems": "Positive for right breast swelling and mastodynia; negative for nipple discharge or inflammatory skin changes."
+    },
+    "objective": {
+      "physical_examination": "Two well-limited, mobile, painless, soft masses measuring 8 cm and 4 cm in diameter occupied the entire upper outer quadrant of the right breast extending toward the right axilla, without overlying skin inflammation, nipple discharge, or axillary/supraclavicular lymphadenopathy.",
+      "routine_investigations": "Complete blood count, serum electrolytes (ionogram), chest X-ray, and abdominal ultrasound were completely normal. Mammography and breast/axillary Doppler ultrasonography demonstrated a voluminous well-limited density in the right upper outer quadrant corresponding to two avascular cystic masses: a 66 x 84 mm thin-walled anechoic cyst (BI-RADS 2) and a 49 x 47 mm axillary tail cyst with dependent echogenic pseudovegetation content (BI-RADS 3).",
+      "advanced_workup": "Fine-needle aspiration cytology of the breast cyst showed only altered polymorphonuclear leukocytes without malignant cells. Complete surgical pericystectomy of both cysts followed by histopathological examination confirmed mammary hydatidosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated bifocal hydatid cysts of the right breast and axillary tail (66 x 84 mm and 49 x 47 mm), confirmed by postoperative histopathological examination following complete pericystectomy. The patient was immediately started on postoperative oral albendazole and remained free of local or distant recurrence at 1-year follow-up."
+    }
+  }
+}

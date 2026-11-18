@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3323262_02",
+  "pair_id": "PMC3323262_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "The source patient was a 28-weeks' pregnant, 30-year-old woman of Kenyan origin who resided in France; she had visited Kenya and returned to France on June 1, 2001. On June 21, she was admitted to the gynecology-obstetrics emergency room at a greater Paris area hospital with fever and malaise. Blood sampling and thin and thick blood smears were performed by the nurse. The source patient's level of parasitemia was estimated at 0.05 per 100 erythrocytes, and oral quinine was initiated. The physician who interviewed the nurse after the needlestick injury verified that the source patient was HIV- and HCV-antibody negative and that the nurse was immunized against HBV. On June 23, although the results of her test for Plasmodium were negative, she was transferred to another tertiary care center where IV quinine was administered for nausea and vomiting, and she could be monitored more closely. She recovered fully and was discharged on June 27. Unfortunately, all blood samples or smears from the source patient had been discarded by the time the injured nurse became ill.\nP. falciparum is a bloodborne pathogen, and malaria is a well-documented complication of transfusion. Malaria has also been diagnosed after intravenous drug use (,) and breaches in infection control procedures (-), as well as occupational exposures (-). Occupational P. falciparum infection after a needlestick injury may be rare; however, such an injury can be potentially severe in nonimmune healthcare workers in countries where malaria is not endemic, especially if the occupationally infected person is pregnant. This situation may also become more common as malaria spreads and as increasing international travel brings potential source patients to hospitals in malaria-endemic countries.\nHBV, HCV, and HIV are the pathogens most often transmitted in documented cases of occupational infection following needlestick injuries in industrialized countries. Testing for infection by these pathogens does not include all the possible infections that can result from occupational exposure (,,). Although conducting a thorough investigation of the circumstances surrounding any needlestick injury is a challenge in the daily clinical setting, an investigation should always be carried out. As in this case-patient, the treatment of occupational P. falciparum infection may be delayed because physicians do not immediately consider malaria as a possible diagnosis. Furthermore, healthcare workers with neurologic symptoms caused by P. falciparum malaria may be too ill to tell the treating physician about their occupational exposure. Such infections must be diagnosed promptly as they are potentially lethal, and presumptive treatment is readily available and well tolerated. Clinicians managing healthcare or laboratory workers with a febrile illness or in a postexposure setting should consider the probability of occupational P. falciparum malaria.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old woman of Kenyan origin at 28 weeks' gestation presented to an obstetrics emergency department near Paris, France, with fever and malaise.",
+      "history_of_present_illness": "Twenty days after returning to France on June 1, 2001, from a visit to Kenya, the 28-weeks' pregnant patient presented on June 21 with fever and malaise, and later developed nausea and vomiting during oral therapy.",
+      "past_medical_history": "28 weeks pregnant; Kenyan origin residing in France with recent travel to Kenya (returned June 1, 2001). HIV- and HCV-antibody negative.",
+      "review_of_systems": "Positive for fever, malaise, and subsequent nausea and vomiting."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "HIV and HCV antibody testing were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Imported Plasmodium falciparum malaria in pregnancy (source patient for an occupational needlestick transmission to a nurse). Confirmed by thin and thick blood smears on June 21 showing parasitemia of 0.05% (0.05 per 100 erythrocytes), which cleared by June 23. Treated initially with oral quinine, then transferred on June 23 to a tertiary center for intravenous quinine due to nausea and vomiting; recovered fully and was discharged on June 27."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9287005_02",
+  "pair_id": "PMC9287005_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "This 36-year-old male patient arrived for a follow-up appointment after initiating endodontic treatment in his tooth number 11 for pulp necrosis with persistent apical abscess.\nThis case was initiated by a postgraduate resident at the Operative Dentistry and Endodontics Department. The case was initially diagnosed as pulp necrosis with chronic apical abscess, and nonsurgical root canal therapy was planned and initiated in two visits in tooth number 11, with one visit pulpectomy followed by biomechanical preparation of canal after determining working length and intracanal calcium hydroxide placed for 15 days. However, at the follow-up visit, the patient still reported pus discharge from the same place as before. This patient was then referred to the author for additional evaluation and management. After referral, a history was obtained, and the patient claimed no major past or present medical history. The patient was prescribed by the previous resident, capsule doxycycline 100 mg for 5 days, but the pus did not cease. The patient reported COVID-19 symptoms around a month ago and is currently COVID-19 PCR-negative. He is otherwise asymptomatic and healthy with no history of diabetes.\nClinical examination revealed obvious plaque on the maxillary posterior teeth, as well as yellowish pus discharge from the attached gingiva between tooth numbers 5 and 6 (Figure 5).\nThe OPG indicated osteolytic alterations in the maxillary right posterior area and a significant cystic lesion in the maxillary left anterior region. A CBCT scan was obtained to evaluate the 3-dimensional alterations in the maxillary region (Figure 6). CBCT indicated significant osteolytic alterations in the front maxilla, as well as the involvement of the right maxillary sinus and bony sequestrum.\nA blood biochemical analysis revealed a normal total blood picture with elevated neutrophils and erythrocyte sedimentation rate and HBA1c of 10.9 percent.\nThis patient was then referred to a physician for diabetes care. After a few days, the pus discharge ceased, and histology revealed that the patient had fungal osteomyelitis. The patient refused surgical therapy in favor of medicinal treatment (Figures 7 and 8).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old male presented for endodontic follow-up with persistent gingival purulent discharge following root canal therapy on maxillary central incisor tooth #11.",
+      "history_of_present_illness": "Referred after two-visit pulpectomy, canal preparation, 15 days of intracanal calcium hydroxide, and a 5-day course of oral doxycycline (100 mg) failed to resolve purulent discharge around tooth #11, the patient was evaluated 1 month after experiencing COVID-19 symptoms.",
+      "past_medical_history": "History of COVID-19 symptoms approximately 1 month prior (currently SARS-CoV-2 PCR-negative); no previously known history of diabetes mellitus.",
+      "review_of_systems": "Positive for persistent maxillary gingival pus discharge; otherwise asymptomatic; recent 5-day course of doxycycline 100 mg."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed heavy dental plaque on the maxillary posterior teeth and active yellowish purulent discharge from the attached gingiva between teeth #5 and #6.",
+      "routine_investigations": "Blood work revealed previously undiagnosed poorly controlled diabetes mellitus with HbA1c of 10.9%, neutrophilia, and elevated ESR; current SARS-CoV-2 PCR was negative. Orthopantomogram (OPG) showed osteolytic changes in the right posterior maxilla and a large cystic radiolucency in the left anterior maxilla.",
+      "advanced_workup": "Cone-beam computed tomography (CBCT) demonstrated extensive osteolytic destruction in the anterior maxilla, right maxillary sinus involvement, and bony sequestrum formation. Histopathological biopsy confirmed maxillary fungal osteomyelitis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Post-COVID-19 maxillary fungal osteomyelitis with right maxillary sinus involvement and bony sequestrum in a patient with newly diagnosed uncontrolled diabetes mellitus (HbA1c 10.9%), confirmed by CBCT and histopathology. Referred for medical glycemic control and treated with systemic antifungal therapy (as the patient declined surgical debridement), with cessation of purulent discharge."
+    }
+  }
+}

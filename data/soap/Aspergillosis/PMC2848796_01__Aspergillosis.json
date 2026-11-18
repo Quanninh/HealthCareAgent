@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2848796_01",
+  "pair_id": "PMC2848796_01::Aspergillosis",
+  "target_disease": "Aspergillosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 28-year-old Saudi male from the Southern province underwent uncomplicated conventional retinal detachment surgery, at the King Khaled Eye Specialist Hospital in Riyadh, Saudi Arabia, in the form of cryopexy, subretinal fluid drainage and scleral buckle (grooved segmental # 505 sponge and circumferential # 240 band with # 270 sleeve) for a macula on retinal detachment in the left eye.\nThe patient had undergone renal transplant for chronic renal failure three years earlier. In addition, he had hypertension and normocytic normochromic anemia secondary to his renal condition and was otherwise stable on hemodialysis twice weekly.\nFour years after the retinal detachment surgery, he presented with a six-month history of conjunctival injection and discharge from the left eye.\nOn examination, visual acuity in his left eye was 20/200 and intraocular pressure (IOP) was 14mmHg. The conjunctiva was severely hyperemic and an exposed buckle could be seen inferonasally (Fig. 1) with white discharge around it. The cornea was clear and the anterior chamber was deep and quiet. Dilated fundus examination showed a flat retina.\nThe infected scleral buckle was removed under local anesthesia; it was intact with visible discoloration (Fig. 2). Sub-conjunctival irrigation with 50 mg solution of Vancomycin, and sub-conjunctival injection of 25mg of Vancomycin were given. Microbiological studies revealed infection with methicillin resistant Staphylococcus aureus (MRSA) and silver staining of moderate Aspergillus flavus hyphae (Fig. 3).\nThe patient was treated postoperatively for 1 month with topical Vancomycin 50mg/ml, Bacitracin ointment and Predforet drops. Visual acuity improved gradually to 20/60 and the conjunctival appearance returned back to normal with flat retina on fundus examination. The patient was followed up for 2 years before being discharged from the hospital.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old Saudi male presented with a 6-month history of conjunctival redness, white ocular discharge, and decreased vision in the left eye 4 years after scleral buckling surgery.",
+      "history_of_present_illness": "Four years after undergoing uncomplicated left eye retinal detachment repair (cryopexy, subretinal fluid drainage, and placement of a grooved segmental #505 silicone sponge and circumferential #240 band with #270 sleeve), the patient presented with 6 months of persistent left conjunctival injection and mucopurulent discharge.",
+      "past_medical_history": "Left eye macula-on rhegmatogenous retinal detachment repaired 4 years prior; chronic renal failure status post renal transplantation 7 years prior (subsequently returned to twice-weekly maintenance hemodialysis); hypertension; normocytic normochromic anemia.",
+      "review_of_systems": "Positive for left eye redness, white discharge, and blurred vision."
+    },
+    "objective": {
+      "physical_examination": "Left eye visual acuity was 20/200 and intraocular pressure was 14 mmHg. Slit-lamp examination showed severe conjunctival hyperemia and an inferonasally extruded, discolored scleral buckle surrounded by white purulent discharge; the cornea was clear, the anterior chamber was deep and quiet, and dilated fundus exam showed a flat, attached retina.",
+      "routine_investigations": null,
+      "advanced_workup": "Following surgical removal of the intact, discolored scleral buckle under local anesthesia, microbiological cultures and Gomori methenamine silver staining of the explanted buckle elements demonstrated co-infection with methicillin-resistant Staphylococcus aureus (MRSA) and moderate Aspergillus flavus septate hyphae."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Extruded scleral buckle infection co-infected with methicillin-resistant Staphylococcus aureus (MRSA) and Aspergillus flavus in a hemodialysis/post-renal-transplant patient, confirmed by microbiological culture and silver staining of the explanted scleral buckle. Treated with surgical removal of the scleral buckle, intraoperative subconjunctival vancomycin irrigation (50 mg) and injection (25 mg), and a 1-month postoperative course of topical vancomycin (50 mg/mL), bacitracin ointment, and prednisolone acetate drops, resulting in resolution of conjunctival inflammation, maintenance of a flat retina, and visual acuity improvement from 20/200 to 20/60 over 2 years of follow-up."
+    }
+  }
+}

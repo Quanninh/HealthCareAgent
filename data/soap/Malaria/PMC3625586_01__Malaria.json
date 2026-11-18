@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3625586_01",
+  "pair_id": "PMC3625586_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 25-year-old male, resident of Srinagar, businessman by occupation returned to Srinagar after a weeklong trip to Delhi in October 2012. The patient started developing fever, chills, myalgias, and headache two days following his return and self-treated himself with Paracetamol. Prophylactic treatment for malaria was not given either before or during the trip. The patient subsequently developed severe headache and high grade fever of 102 F and was admitted to our hospital. Physical examination was unremarkable and haemogram revealed a normal study except for a low platelet count of 86,000/mm3. His renal and liver function tests, spot urine examination, chest X-ray, and USG abdomen were ordered and all parameters were within normal limits. Since the patient had visited Delhi during an outbreak of dengue and was found to have a low platelet count, a viral serology test using IgM ELISA for dengue virus was carried out that turned out to be positive. A diagnosis of dengue fever was made and supportive therapy was initiated. Patient continued to have fever spikes and chills despite the therapy. Since Delhi is also endemic for malaria, rapid card test for malaria along with thick and thin blood smears for malarial parasite was also carried out. The Malaria Ag (pLDH/HRP2) card test was positive for both Plasmodium vivax as well as Plasmodium falciparum and blood smears showed ring forms of Plasmodium falciparum. This suggested that the patient had concurrent dengue fever and malaria. The tests for Malaria were repeated to ensure conformity and the tests were again positive for both Plasmodium vivax and Plasmodium falciparum. The patient was put on 600 mg of oral Chloroquine Phosphate followed by 300 mg after six hours and then 300 mg daily for two days. Patient responded well to the treatment. Fever subsided and his general condition improved. He was also put on radical cure for malaria with 30 mg of Primaquine daily for 14 days (after his G6PD levels returned to normal).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old male businessman from Srinagar, India, presented with high-grade fever (102 F), chills, myalgias, and severe headache beginning 2 days after returning from a 1-week trip to Delhi.",
+      "history_of_present_illness": "Two days after returning to Srinagar from a 1-week business trip to Delhi in October 2012 (without malaria chemoprophylaxis), the patient developed fever, chills, myalgias, and headache. Despite self-medication with paracetamol, his headache and high-grade fever (102 F) worsened, leading to hospitalization.",
+      "past_medical_history": "Recent 1-week travel to Delhi during a dengue/malaria transmission season without malaria chemoprophylaxis.",
+      "review_of_systems": "Positive for high-grade fever, chills, myalgias, and severe headache. Prior medication: paracetamol."
+    },
+    "objective": {
+      "physical_examination": "Febrile (102 F) with an otherwise unremarkable physical examination.",
+      "routine_investigations": "Hemogram was normal except for thrombocytopenia (platelet count 86,000/mm3). Renal function, liver function tests, spot urinalysis, chest X-ray, abdominal ultrasound, and G6PD levels were all within normal limits.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Concurrent Dengue fever, Plasmodium falciparum, and Plasmodium vivax triple infection. Confirmed by positive dengue virus IgM ELISA, twice-repeated positive Malaria Ag (pLDH/HRP2) rapid card tests for both P. vivax and P. falciparum, and peripheral blood smears showing ring forms of P. falciparum. Treated with supportive care, oral chloroquine phosphate (600 mg loading dose, 300 mg at 6 hours, then 300 mg daily for 2 days), and a 14-day radical cure course of oral primaquine 30 mg daily (after confirming normal G6PD status), resulting in full defervescence and recovery."
+    }
+  }
+}

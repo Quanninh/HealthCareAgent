@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7670735_01",
+  "pair_id": "PMC7670735_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "The patient, a 43-year-old female resident of Paranoa, in the Federal District of midwestern Brazil, was diagnosed with dimorphic leprosy in 2010 via positive smear microscopy and the presence of asymmetric multiple mononeuritis. She started treatment with multibacillary multidrug therapy (MDT-MB) in August 2010. However, she experienced multiple interruptions in treatment due to adverse reactions, until the therapy was finally terminated in April 2020 after the administration of dapsone caused hemolytic anemia. She was also diagnosed with Chagas disease in 2013 via serology (chemiluminescence), and because she had cardiac involvement and arrhythmia, she required a pacemaker as well as treatment with propranolol (80 mg/day) and Marevan (5 mg/day). The patient was scheduled to start a monthly treatment regimen with rifampicin, ofloxacin, and minocycline. However, she returned in May 2020 with complaints of fatigue, odynophagia, anosmia, ageusia, and headache for the prior 3 days. Reverse transcriptase polymerase chain reaction (RT-PCR) for SARS-CoV-2 was performed from a nasopharyngeal swab sample, and the result was positive. Her condition progressed, and she developed diarrhea and rectal bleeding in addition to cheilitis and painful, ulcerated lesions on her genital (Figure 1) and oral mucosae; however, the patient did not experience worsening of her leprosy symptoms, nor did she develop reactional states. No fever or respiratory symptoms were observed. The patient lived with her husband, who was also using MDT-MB treatment for leprosy, and her daughter, who had received BCG vaccine chemoprophylaxis in January 2020. Although her husband and daughter were classified as close household contacts, neither presented with symptoms, nor did they test positive for SARS-CoV-2 using RT-PCR or anti-SARS-CoV-2 antibodies using serology.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 43-year-old female in midwestern Brazil with dimorphic leprosy and Chagas cardiomyopathy presented in May 2020 with a 3-day history of fatigue, odynophagia, anosmia, ageusia, and headache, followed by diarrhea, rectal bleeding, cheilitis, and painful oral and genital mucosal ulcers.",
+      "history_of_present_illness": "Having terminated dapsone-containing multibacillary MDT in April 2020 due to hemolytic anemia while awaiting monthly ROM therapy, the patient returned in May 2020 with 3 days of fatigue, odynophagia, anosmia, ageusia, and headache. Her acute illness subsequently progressed to include diarrhea, rectal bleeding, cheilitis, and painful ulcerated lesions on her oral and genital mucosae, without fever, dyspnea, or exacerbation/reactional states of her leprosy.",
+      "past_medical_history": "Diagnosed in August 2010 with smear-positive dimorphic (borderline) leprosy with asymmetric mononeuritis multiplex, experiencing multiple MDT-MB interruptions until discontinuation in April 2020 for dapsone-induced hemolytic anemia; diagnosed in 2013 with Chagas disease with cardiac arrhythmia requiring a permanent pacemaker, propranolol 80 mg/day, and warfarin (Marevan) 5 mg/day. Lived with her husband (also on MDT-MB for leprosy) and daughter (who received BCG chemoprophylaxis in January 2020).",
+      "review_of_systems": "Positive for fatigue, odynophagia, anosmia, ageusia, headache, diarrhea, rectal bleeding, cheilitis, and painful oral/genital ulcers; negative for fever, cough, dyspnea, or leprosy reaction symptoms."
+    },
+    "objective": {
+      "physical_examination": "Mucocutaneous examination revealed cheilitis and painful ulcerated lesions on the oral and genital mucosae, without acute leprosy reactional skin lesions or worsening neuropathy.",
+      "routine_investigations": null,
+      "advanced_workup": "Nasopharyngeal swab reverse-transcriptase polymerase chain reaction (RT-PCR) for SARS-CoV-2 was performed (alongside RT-PCR and serology screening of her asymptomatic household contacts)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Nasopharyngeal swab RT-PCR was positive for SARS-CoV-2 (while her husband and BCG-vaccinated daughter remained asymptomatic and RT-PCR/serology negative), confirming COVID-19 presenting with oral and genital mucosal ulcerations and gastrointestinal bleeding in a patient with borderline leprosy (planned for monthly rifampicin, ofloxacin, and minocycline) and Chagas cardiomyopathy."
+    }
+  }
+}

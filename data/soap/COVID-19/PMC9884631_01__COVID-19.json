@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9884631_01",
+  "pair_id": "PMC9884631_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "This case involves a male patient, age 53, who presented with fever and dry cough. He has a history of intermediate-risk SARS-CoV-2 infection, which was negative 13 days prior to admission. This time, he experienced 2 days of persistent fever that responded to treatment, as well as a severe dry cough. The worsening of the symptoms led to hospitalization. At the emergency department, his heart rate was 120 beats per minute, he had normal blood pressure of 110/80 mmHg, a little higher temperature of 37.9 C, and no notable abnormal findings. White blood cell count (WBC) was elevated: 11.46 G/L with 83.7% neutrophils; high sensitive C reactive protein (hs-CRP) was 41.95 mg/L (<5 mg/L), ferrtitin was 529.37 ng/mL (20-250 ng/mL), interleukin-6 was 35.1 pg/mL (<7 pg/mL), and pro-calcitonin was 0.09 ng/mL (< 0.5 ng/mL). The SARS-CoV-2 PCR test was negative. Chest X-ray showed peripheral consolidation lesions of the right side (Figure 1). Several consolidation patches and some ground glass opacities were primarily observed in the right upper and lower lobes on the chest CT image (Figure 2). At the time, the patient underwent bronchoscopy, which revealed many epithelial bleeding patches in both lungs. We did not send a sample for histology. The first sputum real time PCR (RT-PCR) identified Methicillin-Resistant Staphylococcus epidermidis, Enterococcus faecalis, and Fusobacterium nucleatum; the second sputum RT-PCR, conducted 4 days later, identified Klebsiella pneumoniae, Acinetobacter baumannii, and Escherichia coli. Other culture samples, including sputum and bronchus fluid, were negative for AFB. Since all the sputum samples sent for culture came back negative, we could not collect antibigram for these antigens. Besides, all the samples sent for culture and RT-PCR came back negative for fungus. In spite of this, we chose to start antifungal medication due to a significant likelihood of infection. He was subsequently administered empirical meropenem and linezolide, an antifungal medication containing caspofungin, combined with 10 mg of rivaroxaban every day.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 53-year-old male presented with a 2-day history of persistent fever and severe dry cough two weeks after recovering from an intermediate-risk SARS-CoV-2 infection.",
+      "history_of_present_illness": "Thirteen days after testing negative following an intermediate-risk SARS-CoV-2 infection, the patient developed 2 days of persistent fever and worsening severe dry cough requiring hospital admission.",
+      "past_medical_history": "History of intermediate-risk SARS-CoV-2 infection (tested negative 13 days prior to current admission).",
+      "review_of_systems": "Positive for fever and severe dry cough."
+    },
+    "objective": {
+      "physical_examination": "On ED presentation, HR was 120 bpm, BP 110/80 mmHg, and temperature 37.9 C with no other notable physical abnormalities.",
+      "routine_investigations": "Admission labs showed leukocytosis (WBC 11.46 G/L; 83.7% neutrophils), elevated hs-CRP (41.95 mg/L; normal <5), ferritin (529.37 ng/mL; normal 20-250), and IL-6 (35.1 pg/mL; normal <7), normal procalcitonin (0.09 ng/mL; normal <0.5), and negative repeat SARS-CoV-2 PCR. Chest X-ray showed right-sided peripheral consolidation. Serial sputum multiplex RT-PCR panels detected MRSE, Enterococcus faecalis, and Fusobacterium nucleatum (day 1) and Klebsiella pneumoniae, Acinetobacter baumannii, and Escherichia coli (day 4), while routine bacterial, fungal, and AFB cultures were negative.",
+      "advanced_workup": "Chest CT demonstrated multiple consolidation patches and ground-glass opacities predominantly in the right upper and lower lobes. Initial bronchoscopy revealed multiple bronchial epithelial bleeding patches in both lungs."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Post-COVID-19 right-predominant organizing/secondary pulmonary infection with endobronchial hemorrhagic patches and polymicrobial bacterial DNA detection on sputum RT-PCR (repeat SARS-CoV-2 PCR negative). Treated empirically with intravenous meropenem, linezolid, caspofungin, and oral rivaroxaban (10 mg daily)."
+    }
+  }
+}

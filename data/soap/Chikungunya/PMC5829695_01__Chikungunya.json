@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5829695_01",
+  "pair_id": "PMC5829695_01::Chikungunya",
+  "target_disease": "Chikungunya",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 55-year-old, Caucasian, male, ex-smoker presented at a walk-in center with fever (> 39  C), asthenia, headaches, and arthralgia in right knees and shoulder, with onset 3 days previously. He was discharged from hospital with instructions to maintain hydration and a prescription for paracetamol. Three days later he returned to the walk-in center complaining that the high fever, asthenia, and headaches had not abated and the arthralgia had increased in intensity and spread to involve the ankles, and now also had pain in the left calf and bilateral edema of the ankles, more obvious on the left. Emergency laboratory tests revealed moderate thrombocytopenia (108,000 platelets), leukopenia (3,800 leukocytes), and normal hematocrit (41%). In view of the intensity of the fever and polyathralgia and the asymmetrical edema in lower limbs, the patient was admitted for control of symptoms and diagnostic investigations.\nSerology tests for dengue (negative) and chikungunya (positive) were requested in response to the initial presentation of high fever combined with arthralgia. Color Doppler ultrasonography examination was conducted to investigate the lower limb edema and showed a thrombus with subacute appearance in the right popliteal vein.\nIt was decided to treat the popliteal vein thrombosis with a direct oral anticoagulant (AC) that did not require a parenteral AC in combination, since enoxaparin, which was the only parenteral AC available at the institution, is linked to heparin-induced thrombocytopenia. Apixaban was therefore started at a dosage of 10 mg every 12h for seven days and then reduced to 5 mg every 12h.\nThe patient progressively improved from his symptoms and was discharged on oral analgesic (paracetamol) and apixaban, initially for 3 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old Caucasian male presented with a 6-day history of persistent high fever (>39 C), asthenia, headache, worsening polyarthralgia, left calf pain, and asymmetric bilateral ankle edema.",
+      "history_of_present_illness": "Three days after developing high fever (>39 C), asthenia, headaches, and right knee and shoulder arthralgia, the patient visited a walk-in clinic and was discharged on oral hydration and paracetamol. He returned 3 days later (day 6 of illness) because the fever, asthenia, and headache persisted, his arthralgia intensified and spread to his ankles, and he developed new left calf pain and bilateral ankle edema (more pronounced on the left), prompting hospital admission.",
+      "past_medical_history": "Caucasian male, ex-smoker.",
+      "review_of_systems": "Positive for high fever (>39 C), asthenia, headache, knee/shoulder/ankle arthralgia, left calf pain, and asymmetric lower limb edema. Recent medication: paracetamol."
+    },
+    "objective": {
+      "physical_examination": "High fever (>39 C), polyarthralgia involving the right knee, shoulder, and bilateral ankles, left calf tenderness/pain, and asymmetric bilateral ankle edema (greater on the left).",
+      "routine_investigations": "Complete blood count: moderate thrombocytopenia (108,000 platelets/mm3), leukopenia (3,800 leukocytes/mm3), and normal hematocrit (41%). Lower extremity color Doppler ultrasonography: subacute thrombus in the right popliteal vein.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Acute chikungunya fever complicated by right popliteal deep vein thrombosis (DVT). Dengue fever was excluded by negative serology. Confirmation: Positive chikungunya serology and color Doppler ultrasound demonstrating a subacute right popliteal vein thrombus. Management and outcome: Treated with oral apixaban (10 mg every 12 hours for 7 days, then 5 mg every 12 hours) to avoid heparin-induced thrombocytopenia risk from enoxaparin in the setting of baseline thrombocytopenia, alongside oral paracetamol. The patient's symptoms progressively improved, and he was discharged on paracetamol and a planned 3-month course of apixaban."
+    }
+  }
+}

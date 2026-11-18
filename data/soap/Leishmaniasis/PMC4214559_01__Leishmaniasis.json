@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4214559_01",
+  "pair_id": "PMC4214559_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 64-year-old woman with past medical history of diabetes mellitus type 1, referred to our dermatology department for a 20-month nonpruritic erythematous ulcerated lesions of the two legs. Upon physical examination, a large oval erythematoviolaceous plaque covering more than the half of the right pretibial region was observed. The border was slightly elevated, indurated and infiltrative, the center was scattered by small necrotic, crusted ulcers and by small atrophic areas. Similar smaller plaques occurred on the left leg (A). No other systemic abnormalities were detected particularly regional lymphadenopathy. There was no history of trauma or insect bite. She denied having fever or any other systemic symptoms. Blood count, routine biochemical tests, urine analysis and chest radiography were normal except hyperglycemia at 11.8 mmol/l. Bacteriological tests were negative. Skin biopsy showed a dense lymphocytic infiltrate throughout the entire dermis admixed with multiple granuloma without necrosis. At higher magnification, epitheloid cells, histiocytes and multinucleated giant cells were observed within the granulomatous zones. These latter were outlined by a dense infiltrate of lymphocytes (B) Basophilic regular structures in the intracellular spaces corresponding to amastigotes belonging to leishmania were determined with the Giemsa stain (C). The patient was treated intramuscularly with 20 mg/Kg/day systemic meglumine antimoniate for 15 days. The clinical course was characterized by the healing of her ulcer but onset of some atrophic scars.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old woman with type 1 diabetes mellitus presented with a 20-month history of non-pruritic, erythematous, ulcerated plaques on both legs.",
+      "history_of_present_illness": "The patient developed chronic, painless, non-itchy erythematous-violaceous plaques with central crusted ulcers over both pretibial regions that evolved over 20 months without prior trauma or recalled insect bites.",
+      "past_medical_history": "Type 1 diabetes mellitus; denied prior local trauma or recalled insect bites.",
+      "review_of_systems": "Negative for pruritus, fever, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "A large oval erythematous-violaceous plaque covering more than half of the right pretibial region with slightly elevated, indurated, infiltrative borders and a center scattered with small necrotic crusted ulcers and atrophic scars, accompanied by similar smaller plaques on the left leg and no regional lymphadenopathy.",
+      "routine_investigations": "CBC, routine biochemistry, urinalysis, bacteriological cultures, and chest radiograph were normal except for hyperglycemia (blood glucose 11.8 mmol/L).",
+      "advanced_workup": "Skin biopsy histopathology (H&E and Giemsa stains) demonstrated a dense pan-dermal lymphocytic infiltrate with multiple non-necrotizing epithelioid and multinucleated giant-cell granulomas containing intracellular basophilic Leishmania amastigotes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathology and Giemsa staining of the pretibial skin biopsy confirmed chronic granulomatous Cutaneous Leishmaniasis mimicking necrobiosis lipoidica/granulomatous dermatosis in a patient with type 1 diabetes. Intramuscular meglumine antimoniate (20 mg/kg/day for 15 days) resulted in complete ulcer healing with residual atrophic scarring."
+    }
+  }
+}

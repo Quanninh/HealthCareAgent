@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8521337_01",
+  "pair_id": "PMC8521337_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 54-year-old man was admitted to our hospital because of sclera and skin yellowing and abdominal pain. The patient has no history of smoking and drinks alcohol occasionally. He has no history of infectious diseases such as hepatitis, tuberculosis, and malaria and has no history of hypertension. Furthermore, his mother and aunt had a history of ovarian cancer. Examination after admission showed a significant increase in serum biomarkers, including carbohydrate antigen CA199 and carbohydrate antigen CEA. The abdominal computerized tomography (CT) showed enlargement of the head of the pancreas with double-duct disease ( Figure 1 ). Pathological examination demonstrated a ductal adenocarcinoma of the pancreas. Pancreaticoduodenectomy (Whipple technology) was performed, and albumin-bound paclitaxel 125 mg/m2 qw3/4 combined gemcitabine 1,000 mg/m2 qw3/4 x 6 cycles were given as postoperative adjuvant therapy.\nConsidering the possibility of precision treatment, the surgical specimen was submitted to NGS panel analysis, which cover the whole exon regions of 539 cancer-related genes. The qualified DNA libraries were sequenced on Illumina NovaSeq6000 platform (Illumina, San Diego, CA, USA) and generate 150-bp paired-end reads. Base calls from Illumina NovaSeq6000 were conducted to FASTQ files. BWA-MEM (v.0.7.17) algorithm was then performed to align to the reference genome (hg19 GRCh37 of UCSC). SNVs/InDels were called and annotated via VarDict (v.1.5.7) and InterVar, then the variants were filtered against the common SNPs in public database including 1,000 Genome Project and Exome Aggregation Consortium (ExAC) Browser28 (v.0.3). Fusions were analyzed by factera (v1.4.4). The NGS results suggested that KRAS wild type. Beyond that, a somatic novel KANK1-ALK and UPP2 intergenic NTRK3 fusion were identified in this patient. The mutation profile revealed that these two fusions retained ALK/NTRK3 kinase domain ( Figure 2 ). Fusions of KANK1-ALK and UPP2-NTRK3 with a frequency of 9.87% and 4.01% were detected in this patient respectively. It is worth mentioning that KANK1-ALK and UPP2-NTRK3 fusions have not been reported in any other solid tumor. What is more, both FISH and immunohistochemistry (IHC) results showed the KANK-ALK fusion could generate active protein. However, the UPP2 intergenic NTRK3 fusion showed the negative result in FISH and IHC ( Figure 3 ), probably because complex rearrangements with intergenic breakpoints made transcription outcomes difficult to predict and confound detection. Interestingly, a BRAC1 p.Q12 germline pathogenetic mutation was also identified in this patient, which provided this patient with more potential options in druggable therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old man presented with scleral and cutaneous jaundice and abdominal pain.",
+      "history_of_present_illness": "The patient was admitted for evaluation and management of obstructive jaundice (yellowing of the sclera and skin) accompanied by abdominal pain.",
+      "past_medical_history": "No history of hypertension, smoking, hepatitis, tuberculosis, or malaria; occasional alcohol use. Family history of ovarian cancer in his mother and aunt.",
+      "review_of_systems": "Positive for scleral/cutaneous jaundice and abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Scleral and cutaneous icterus.",
+      "routine_investigations": "Significantly elevated serum tumor markers CA 19-9 and CEA.",
+      "advanced_workup": "Abdominal CT demonstrated enlargement of the pancreatic head with a double-duct sign. Surgical histopathology confirmed pancreatic ductal adenocarcinoma; 539-gene next-generation sequencing (NGS), FISH, and IHC identified wild-type KRAS, a germline pathogenic BRCA1 p.Q12 mutation, an active somatic KANK1-ALK fusion (9.87% allele frequency, FISH/IHC positive), and a somatic UPP2-NTRK3 intergenic fusion (4.01% allele frequency, FISH/IHC negative)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Pancreatic head ductal adenocarcinoma harboring novel somatic KANK1-ALK and UPP2-NTRK3 fusions and a germline BRCA1 p.Q12 mutation (with negative history for malaria). Treated with pancreaticoduodenectomy (Whipple procedure) followed by 6 cycles of adjuvant nab-paclitaxel (125 mg/m2) plus gemcitabine (1,000 mg/m2)."
+    }
+  }
+}

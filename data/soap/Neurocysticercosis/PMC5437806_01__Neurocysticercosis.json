@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5437806_01",
+  "pair_id": "PMC5437806_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 6-year-old female child of low socioeconomic status, was referred to Department of Orthopedics with the history of insidious onset stiffness of neck with minimal pain for 1 week. Patient's parent gave a history of tuberculosis contact, but had no history of trauma, evening increase of temperature, decrease appetite, and significant weight loss. Examination showed no motor or sensory deficit with all reflexes intact. Blood investigations showed normal report except mild eosinophilia. Noncontrast MRI of the neck showed a well-defined intramedullary cystic lesion at C4-C6 vertebral levels, which was hypointense on T1 weighted and hyperintense on T2 weighted images with peripheral, spinal cord edema having an intracystic hypointense on T2 weighted \"target\" like lesion suggestive of scolex. Screening of whole spine and brain did not show any other lesion [Figure 1a-c]. Fundus examination was performed to rule out increased intracranial pressure. Sonography of abdomen and computed tomography (CT) scan of the chest was also unremarkable. Hence, on the basis of this absolute diagnostic criterion, final diagnosis of solitary ICC was made. As the patient had no neurological deficit, conservative treatment was opted for this patient. Before the start of treatment, serum Ag-ELISA was performed to follow the effectiveness of treatment, and it was found positive. The patient was given albendazole 15 mg/kg body weight per day orally for 1 month. Oral prednisolone 1 mg/kg body weight/day, was also started 2 days before the start of albendazole, for 2 weeks. Patient's neck stiffness and pain resolved after 1 week of treatment. Ag-ELISA was repeated after 2 months of completion of treatment, and observed negative suggestive of no residual lesion. The patient was alright at the end of 2 years of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 6-year-old girl presented with a 1-week history of insidious-onset neck stiffness and minimal neck pain.",
+      "history_of_present_illness": "The child developed gradual neck stiffness accompanied by mild neck pain over the week preceding referral to the orthopedics department, without trauma, evening fever spikes, anorexia, or weight loss.",
+      "past_medical_history": "From a low socioeconomic background with a history of household tuberculosis contact; no history of trauma.",
+      "review_of_systems": "Negative for fever, decreased appetite, weight loss, or motor/sensory weakness."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed intact motor strength, sensation, and deep tendon reflexes across all limbs. Fundoscopic examination was normal with no signs of raised intracranial pressure.",
+      "routine_investigations": "Routine blood tests were normal except for mild peripheral eosinophilia. Abdominal ultrasonography was unremarkable.",
+      "advanced_workup": "Chest CT was normal. Noncontrast cervical spine MRI demonstrated a well-defined intramedullary cystic lesion at the C4-C6 vertebral levels (T1-hypointense, T2-hyperintense) with surrounding spinal cord edema and an intracystic T2-hypointense target-like lesion representing a scolex. Whole-spine and brain MRI screening showed no additional lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Solitary cervical intramedullary cysticercosis (C4-C6) was definitively diagnosed based on the absolute MRI criterion of a visible intracystic scolex and a positive baseline serum Ag-ELISA. She was managed conservatively with oral albendazole (15 mg/kg/day for 1 month) and oral prednisolone (1 mg/kg/day initiated 2 days before albendazole and continued for 2 weeks). Neck pain and stiffness resolved after 1 week of therapy, repeat serum Ag-ELISA at 2 months post-treatment turned negative, and she remained asymptomatic at 2-year follow-up."
+    }
+  }
+}

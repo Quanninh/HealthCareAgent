@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9829975_06",
+  "pair_id": "PMC9829975_06::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 32 years old female known Non-Cirrhotic Portal hypertension patient on propranolol presented to our OPD with worsening abdominal discomfort and associated fatigue. She had taken praziquantel for the diagnosis of hepatosplenic schistosomiasis at another center (empirical treatment). Physical examination was remarkable for splenomegaly (10cm BLCM). WBC was 5300/l (66% neutrophil), Hgb - 14.3 gm/dl, PLT - 287, 000/l, MCV - 77.3fL, MCH - 25.5pg. Other laboratory studies were normal. The stool examination was negative for schistosomiasis. Ultrasound evaluation of the abdomen showed the liver has a normal echo pattern and smooth contour with splenomegaly (21.4cm), and periportal collaterals. The peak velocity of the portal vein was 10.1cm/s (normal 20 cm/sec - 40 cm/sec). Further evaluation with CT revealed chronic portal vein thrombosis with cavernous transformation. She was positive for JAK 2 mutation. Endoscopy evaluation revealed grade III esophageal varices and gastric changes consistent with portal hypertension gastropathy. Prophylactic EVL was done and she was started on propranolol, PO iron supplementation, and warfarin. She is on follow-up at Gastrointestinal (GI) and hematology clinics. She has symptomatic improvement on subsequent follow-ups.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old woman with known non-cirrhotic portal hypertension presented to the outpatient department with worsening abdominal discomfort and fatigue.",
+      "history_of_present_illness": "The patient presented with progressively worsening abdominal discomfort and associated fatigue despite prior empirical praziquantel treatment at another center for presumed hepatosplenic schistosomiasis.",
+      "past_medical_history": "Known non-cirrhotic portal hypertension; previously received empirical praziquantel for presumed hepatosplenic schistosomiasis at an outside facility.",
+      "review_of_systems": "Positive for fatigue; home medication at presentation was propranolol."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was notable for splenomegaly palpable 10 cm below the left costal margin.",
+      "routine_investigations": "CBC showed WBC 5300/mcL (66% neutrophils), hemoglobin 14.3 g/dL, platelets 287,000/mcL, MCV 77.3 fL, and MCH 25.5 pg, with other routine blood chemistries normal. Stool examination was negative for Schistosoma ova. Abdominal Doppler ultrasound showed a normal liver echo pattern and smooth contour, massive splenomegaly (21.4 cm), periportal collateral vessels, and reduced portal vein peak velocity of 10.1 cm/s (normal 20-40 cm/s).",
+      "advanced_workup": "Abdominal CT demonstrated chronic portal vein thrombosis with cavernous transformation. Molecular testing was positive for the JAK2 mutation. Upper GI endoscopy revealed grade III esophageal varices and portal hypertensive gastropathy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed JAK2 mutation-positive chronic portal vein thrombosis with cavernous transformation causing non-cirrhotic portal hypertension and grade III esophageal varices, ruling out hepatosplenic schistosomiasis. She underwent prophylactic endoscopic variceal ligation (EVL) and was treated with oral propranolol, oral iron supplementation, and warfarin anticoagulation, achieving symptomatic improvement under ongoing gastroenterology and hematology clinic follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8573330_02",
+  "pair_id": "PMC8573330_02::Nocardiosis",
+  "target_disease": "Nocardiosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "The patient was started on antibiotic and antifungal prophylaxis, along with interferon gamma-1b therapy at time of diagnosis. He remained infection free on this regimen between the ages of 2 and 14 years. Then at age 15 years, he developed severe Nocardia pneumonia. At this same age, he developed severe chronic abdominal pain associated with constipation and hematochezia. His initial colonoscopy was negative, and esophagogastroduodenoscopy (EGD) showed mild gastritis. Helicobacter pylori infection of the gastric antrum was identified. He was placed on triple therapy with amoxicillin, clarithromycin, and lansoprazole, but abdominal pain did not improve. Repeat colonoscopy 1 year later revealed granuloma formation in the duodenum and pseudopolyps in the jejunum, and a diagnosis of CGD-related colitis was made. He soon developed transsphinteric and intersphinteric anal fistulas that became repeatedly infected. Surgical debridement and treatment with prednisone were attempted to promote fistula healing and closure. However, perirectal abscesses would reoccur, with cultures intermittently positive for Klebsiella pneumoniae and MRSA. After 3 years of uncontrolled abdominal pain and poorly healing perianal fistula, patient was trialed on TNF-alpha inhibitor, infliximab, dosed at 5 mg/kg/dose.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old male with chronic granulomatous disease presented with severe pneumonia accompanied by chronic abdominal pain, constipation, hematochezia, and recurrent infected perianal fistulas.",
+      "history_of_present_illness": "Having remained infection-free from ages 2 to 14 years on antimicrobial prophylaxis and interferon gamma-1b, the patient developed severe pneumonia at age 15 alongside severe chronic abdominal pain, constipation, and hematochezia. Initial EGD showed Helicobacter pylori gastritis (unresponsive to triple therapy), and repeat colonoscopy 1 year later showed duodenal granulomas and jejunal pseudopolyps; over the ensuing 3 years, he suffered recurrent transsphincteric and intersphincteric anal fistulas and perirectal abscesses refractory to surgical debridement and prednisone.",
+      "past_medical_history": "Chronic granulomatous disease (CGD) diagnosed at age 2, maintained on antibiotic/antifungal prophylaxis and interferon gamma-1b.",
+      "review_of_systems": "Home medications: prophylactic antibiotics, antifungals, and interferon gamma-1b."
+    },
+    "objective": {
+      "physical_examination": "Transsphincteric and intersphincteric perianal fistulas and recurrent perirectal abscesses.",
+      "routine_investigations": "Perirectal abscess cultures intermittently grew Klebsiella pneumoniae and methicillin-resistant Staphylococcus aureus (MRSA).",
+      "advanced_workup": "Initial colonoscopy at age 15 was normal while EGD revealed mild gastric antral gastritis positive for Helicobacter pylori. Repeat colonoscopy 1 year later demonstrated duodenal granuloma formation and jejunal pseudopolyps consistent with CGD-related inflammatory bowel disease/colitis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Severe Nocardia pneumonia at age 15 accompanied by Helicobacter pylori gastritis and refractory fistulizing chronic granulomatous disease (CGD)-associated granulomatous enterocolitis complicated by recurrent Klebsiella pneumoniae and MRSA perirectal abscesses. Following triple therapy (amoxicillin, clarithromycin, lansoprazole) for H. pylori, surgical fistula debridements, and oral prednisone, refractory fistulizing CGD colitis was treated after 3 years with the TNF-alpha inhibitor infliximab (5 mg/kg/dose)."
+    }
+  }
+}

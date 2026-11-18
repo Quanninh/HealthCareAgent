@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6661782_01",
+  "pair_id": "PMC6661782_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 30-year-old male presented with a witnessed episode of new-onset seizure: the patient reported suddenly feeling numb in his left third through fifth digits, followed by shaking of his left hand and a locking sensation, at which point he called for help. He then recalled waking up on the floor in a state of confusion regarding where he was and how he ended up there. He reported no presyncopal symptoms, incontinence, tongue-biting, or myalgias. The patient had no significant past medical or surgical history, but has a social history significant for marijuana use. The patient endorsed frequent travels to Mexico 5 years ago when he went to college in California, as well as travels to Puerto Rico 7 years ago. Computed tomography (CT) scan of head revealed areas of hypointensity in the right frontoparietal and left parieto-occipital lobes. Magnetic resonance imaging (MRI) with and without contrast demonstrated enhancing masses suspicious for metastasis versus abscesses associated with vasogenic edema, without evidence of midline shift (Figure 1). On day 6 of admission, the patient underwent a left parietal craniectomy with resection of the mass from left parieto-occipital lobe. Pathological examination of the mass revealed fragments of non-epithelialized fibrous cyst wall, with neutrophils, lymphocytes, plasma cells, and some eosinophils. Focal areas of necrosis were noted, and many small cystic structures were seen within the wall. Special stain showed that these small cysts were positive for periodic acid-Schiff, Gomori's methenamine silver, and mucicarmine special stain (Figure 2), and negative for acid fast bacilli special stain. Pathology suggested these findings were consistent with the walls of Echinococcus/hydatid cyst. Numerous laboratory examinations, including HIV, rapid plasma reagin, toxoplasma immunoglobulin G and immunoglobulin M, Lyme, cytomegalovirus, tuberculosis, cysticercosis, and Echinococcus serology, were all negative. Cerebrospinal fluid (CSF) culture was negative, and several CSF Cryptococcus antigen tests were negative as well.\nUltimately, a second opinion of the surgical pathology noted granulomatous inflammation with abscess formation in association with microorganisms most consistent with Cryptococcus, and follow-up Cryptococcus antigen testing was found to be positive. The following discussion addresses the pathological and antigen test findings, and reviews each differential diagnosis and why it was considered.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old man presented after a witnessed new-onset focal-to-bilateral seizure beginning with numbness and shaking of his left hand.",
+      "history_of_present_illness": "The patient suddenly developed numbness in his left third through fifth digits followed by shaking and a locking sensation in his left hand, after which he lost awareness and awoke on the floor confused.",
+      "past_medical_history": "No significant past medical or surgical history. Social history was notable for marijuana use, frequent travel to Mexico 5 years earlier during college in California, and travel to Puerto Rico 7 years earlier.",
+      "review_of_systems": "Denied presyncopal symptoms, urinary or fecal incontinence, tongue biting, or myalgias."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Serum testing for HIV, RPR, Toxoplasma IgG and IgM, Lyme disease, cytomegalovirus, tuberculosis, cysticercosis, and Echinococcus serologies were all negative.",
+      "advanced_workup": "Head CT showed hypodense areas in the right frontoparietal and left parieto-occipital lobes, and contrast-enhanced brain MRI demonstrated enhancing masses with surrounding vasogenic edema and no midline shift. Initial CSF culture and CSF Cryptococcus antigen tests were negative. Left parietal craniectomy and resection of the left parieto-occipital mass on hospital day 6 revealed a fibrous cyst-like wall with focal necrosis and small periodic acid-Schiff (PAS), Gomori methenamine silver (GMS), and mucicarmine-positive structures (negative for acid-fast bacilli)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Although initial surgical pathology was misread as an Echinococcus/hydatid cyst wall, a second histopathological review identified granulomatous inflammation and abscess formation with encapsulated microorganisms consistent with Cryptococcus, and repeat Cryptococcus antigen testing returned positive, confirming cerebral cryptococcoma (cryptococcosis) and ruling out neurocysticercosis, echinococcosis, toxoplasmosis, and tuberculosis."
+    }
+  }
+}

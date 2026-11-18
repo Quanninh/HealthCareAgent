@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3985368_01",
+  "pair_id": "PMC3985368_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 38-year-old female patient presented with progressive dysarthria, dysphagia, nasal regurgitation and hyper nasal speech for 5 months duration. She had 4 episodes of partial seizures involving the right upper and the lower limb for the past 5 months and was not on any medications. There was weakness of the left upper limb for the past 15 days duration but there was no headache, vomiting or blurring of vision. She had emotional instability in the form of inappropriate crying. Neurological examination showed exaggerated jaw jerks and gag reflex with spastic dysarthria. She had both proximal and distal weakness in the left upper limb with power of 3/5. All the deep tendon reflexes were brisk with plantar response mute bilaterally and cortical sensory loss in the left upper limb. There was no atrophy or fasciculation of the affected muscles. The fundus and other system examination were normal.\nLaboratory examination revealed positive neurocysticercosis serology. The peripheral smear was normal. The renal and liver function tests were normal. The MRI brain showed multiple small cysts with scolex in both the cerebral hemispheres and a giant intraparenchymal cyst measuring 5 x 4.3 cms in the right cerebral hemisphere [Figure 1a and b].\nOur patient presented with pseudobulbar palsy, partial seizures and weakness of the left upper limb. Her NCC serology was positive and diagnosis confirmed by MRI, which showed multiple cysts with scolex (in vesicular stage). She received the treatment with albendazole at 15 mg/kg/day along with steroids (for two weeks). She also received phenytoin for seizures. The patient remained seizure free and there were no significant events during her hospital stay. On follow-up six weeks after the completion of albendazole therapy she reported no recurrence of seizures and her right upper limb weakness recovered partially with power of 4/5. There was also improvement in her speech, emotional instability and was able to take food without nasal regurgitation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old woman presented with a 5-month history of progressive dysarthria, dysphagia, nasal regurgitation, hypernasal speech, emotional lability, and right-sided focal seizures, followed by 15 days of left upper limb weakness.",
+      "history_of_present_illness": "Over the preceding 5 months, the patient experienced progressive bulbar symptoms (dysarthria, dysphagia, nasal regurgitation, hypernasal speech), emotional instability with inappropriate crying, and four episodes of partial seizures involving the right upper and lower limbs. Fifteen days prior to admission, she developed progressive weakness of the left upper limb, without headache, vomiting, or blurred vision.",
+      "past_medical_history": "She was not taking any prior medications.",
+      "review_of_systems": "Negative for headache, vomiting, or visual blurring; positive for inappropriate crying."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination demonstrated pseudobulbar palsy with spastic dysarthria and exaggerated jaw jerk and gag reflexes. She had proximal and distal left upper limb weakness (power 3/5) without muscle atrophy or fasciculations, diffusely brisk deep tendon reflexes, bilaterally mute plantar responses, and cortical sensory loss in the left upper limb. Fundoscopy and systemic examinations were normal.",
+      "routine_investigations": "Peripheral blood smear, renal function tests, and liver function tests were normal.",
+      "advanced_workup": "Brain MRI revealed multiple small vesicular cysts with scolices distributed across both cerebral hemispheres along with a giant intraparenchymal cyst measuring 5 x 4.3 cm in the right cerebral hemisphere."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive neurocysticercosis serology together with pathognomonic brain MRI findings (multiple bilateral vesicular cysts with scolices and a giant right hemispheric cyst) confirmed parenchymal neurocysticercosis causing pseudobulbar palsy. She was treated with oral albendazole (15 mg/kg/day), corticosteroids for 2 weeks, and phenytoin. At 6-week post-treatment follow-up, she remained seizure-free with resolution of nasal regurgitation and emotional lability, improved speech, and partial recovery of upper limb strength (4/5)."
+    }
+  }
+}

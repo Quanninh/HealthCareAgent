@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5412249_01",
+  "pair_id": "PMC5412249_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 48 year-old woman was admitted to our emergency department with right upper quadrant abdominal pain, nausea and vomiting which persisted for one week. She had a history of appendectomy and a known asymptomatic liver hydatid cyst which did not receive any treatment yet. Clinical examination revealed jaundice, and pain at epigastric and right upper quadrant areas, with normal stool color at rectal examination. Laboratory test results demonstrated hypochromic microcytic anemia at hemoglobin level of 11.6 g/dl, the total bilirubin was 4.4 mg/dL, direct bilirubin 3.2 mg/dL, alanine aminotransferase (ALT) 1386 U/L, aspartate aminotransferase (AST) 1071 U/L, alkaline phosphatase (ALP) 307 U/l and gamma glutamyl transpeptidase (GGT) 156 U/L. Abdominal ultrasound showed a 68 mm in diameter exophytic and multivesicular hydatid cyst located at segment II and III of the liver.\nGallbladder, biliary tract and pancreas were normal. Abdominal magnetic resonance imaging confirmed sonographic findings without dilation of intrahepatic and extrahepatic biliary ducts (figure 1). \nViral hepatitis and tumor markers were negative. She denied using any drugs or toxic products. The initial diagnosis of the patient was hydatid liver cyst ruptured into the biliary tract, hence an endoscopic retrograde cholangiopancreatography (ERCP) was performed with normal findings. The possibility of hepatitis with unknown origin (cryptogenic hepatitis) caused to postpone surgery until three weeks later when the levels of serum bilirubin, ALP and GGT decreased to normal values, but ALT and AST values remained high at 464 U/L and 372 U/L, respectively. The patient underwent an exploratory surgery which found no cyto-biliary rupture. A liver biopsy was performed and the patient was discharged on postoperative day 5. At this time, the ALT and AST values were 175 U/L and 58 U/L, respectively. Histopathology of the hydatid cyst was confirmed. The patient was well in the last follow-up performed 6 years after discharge with normal liver function tests and normal findings in computed tomography scanning (figure 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 48-year-old woman presented with a 1-week history of right upper quadrant abdominal pain, nausea, vomiting, and jaundice.",
+      "history_of_present_illness": "The patient presented to the emergency department with persistent right upper quadrant pain, nausea, and vomiting for 1 week accompanied by clinical jaundice.",
+      "past_medical_history": "Prior appendectomy and a known, previously untreated asymptomatic hepatic hydatid cyst; denied use of drugs or hepatotoxic substances.",
+      "review_of_systems": "Positive for right upper quadrant pain, nausea, vomiting, and jaundice; negative for drug or toxin exposure."
+    },
+    "objective": {
+      "physical_examination": "Jaundice with epigastric and right upper quadrant abdominal tenderness; digital rectal examination showed normal-colored stool.",
+      "routine_investigations": "Labs demonstrated hypochromic microcytic anemia (hemoglobin 11.6 g/dL), total bilirubin 4.4 mg/dL, direct bilirubin 3.2 mg/dL, ALT 1,386 U/L, AST 1,071 U/L, ALP 307 U/L, and GGT 156 U/L; viral hepatitis markers and serum tumor markers were negative. Abdominal ultrasound revealed a 68-mm exophytic multivesicular hydatid cyst in hepatic segments II and III with a normal gallbladder, biliary tree, and pancreas.",
+      "advanced_workup": "Abdominal MRI confirmed the 68-mm segment II/III multivesicular hepatic hydatid cyst without intrahepatic or extrahepatic biliary dilatation. ERCP (performed for suspected intrabiliary rupture) showed a completely normal biliary tree. After 3 weeks (when bilirubin, ALP, and GGT normalized and ALT/AST declined to 464 U/L and 372 U/L), exploratory laparotomy with hepatic cyst excision and liver biopsy confirmed an intact hepatic hydatid cyst without cystobiliary rupture."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Unruptured hepatic hydatid cyst (segments II-III) accompanied by concurrent self-resolving acute cryptogenic hepatitis initially mimicking cystobiliary rupture, confirmed by normal ERCP, intraoperative exploration excluding cystobiliary fistula, and histopathology. The patient was discharged on postoperative day 5 (with ALT 175 U/L and AST 58 U/L) and remained asymptomatic with normal liver function tests and abdominal CT at 6-year follow-up."
+    }
+  }
+}

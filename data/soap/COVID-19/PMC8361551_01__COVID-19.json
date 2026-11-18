@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8361551_01",
+  "pair_id": "PMC8361551_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 13-month-old boy presented with 3 months of intermittent activity-induced stridor. The patient was born term by normal vaginal birth with no perinatal complications. He had normal acquisition of developmental milestones and did not have any significant prior medical history or contributory family history. One week prior to presentation, he developed upper respiratory tract symptoms, persistent stridor, respiratory distress, easy fatigability with short bursts of activity, dysphagia, and weak cry. He was initially evaluated in an ambulatory clinic for stridor, and subsequently admitted to the pediatric intensive care unit for further evaluation and management. His neurologic examination was notable for normal cognition, bilateral eyelid ptosis worse on the left, mild facial weakness, axial hypotonia and mild proximal weakness of the lower extremities with intact deep tendon reflexes.\nThe clinical presentation was highly suspicious for a neuromuscular junction disorder, specifically autoimmune myasthenia gravis with rapid symptom onset was highly considered, although a congenital myasthenic syndrome or infantile botulism were also on the differential. A neurogenic or myopathic process could not be excluded. Initial diagnostic evaluation noted mildly elevated inflammatory markers with otherwise normal complete blood count, chemistry panel, thyroid studies, and creatine kinase. A nasopharyngeal viral respiratory PCR was positive for coronavirus (non SARS-CoV2). Direct laryngoscopy and bronchoscopy showed bilateral vocal cord immobility with cords in the paramedian position. Magnetic Resonance Imaging (MRI) of the brain and chest were normal.\nDue to the concern for a myasthenic crisis with worsening respiratory symptoms, he was empirically treated with 5 days of intravenous immunoglobulin (IVIG) followed by prednisone and azathioprine, a steroid-sparing immunomodulating agent. He had mild improvement in symptoms initially, but this was short lived. A second course of IVIG with a trial of pyridostigmine did not result in any clear clinical improvement. Repeat flexible laryngoscopy 2 weeks into treatment demonstrated persistent immobile vocal folds. During this time, the patient developed worsening stridor and respiratory distress requiring tracheostomy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 13-month-old boy presented with a 3-month history of intermittent activity-induced stridor that progressed over 1 week to persistent stridor, respiratory distress, easy fatigability, dysphagia, and weak cry.",
+      "history_of_present_illness": "After 3 months of intermittent exertional stridor, the child developed an upper respiratory tract infection 1 week prior to admission accompanied by persistent stridor, respiratory distress, rapid fatigability during brief activity, dysphagia, ptosis, and a weak cry.",
+      "past_medical_history": "Full-term vaginal birth without perinatal complications; normal developmental milestones; unremarkable past medical and family history.",
+      "review_of_systems": "Positive for upper respiratory symptoms, stridor, dyspnea, easy fatigability, dysphagia, weak cry, and bilateral ptosis."
+    },
+    "objective": {
+      "physical_examination": "Neurological exam showed normal cognition, bilateral eyelid ptosis (worse on the left), mild facial weakness, axial hypotonia, and mild lower extremity proximal muscle weakness with intact deep tendon reflexes.",
+      "routine_investigations": "Labs showed mildly elevated inflammatory markers with normal CBC, chemistry panel, thyroid function, and creatine kinase. Nasopharyngeal respiratory viral PCR panel was positive for an endemic non-SARS-CoV-2 human coronavirus.",
+      "advanced_workup": "Direct laryngoscopy and bronchoscopy (and repeat flexible laryngoscopy at 2 weeks) revealed bilateral vocal cord immobility in the paramedian position. Brain and chest MRI scans were normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Suspected infantile-onset neuromuscular junction disorder / myasthenic crisis presenting with bilateral paramedian vocal cord paralysis and bulbar/limb weakness exacerbated by a non-SARS-CoV-2 human coronavirus upper respiratory infection. Empiric therapy with two courses of IVIG (5 days initially, then repeated), oral prednisone, azathioprine, and a trial of pyridostigmine yielded only transient mild improvement with persistent bilateral vocal fold immobility, ultimately requiring tracheostomy for worsening stridor and respiratory distress."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6330183_01",
+  "pair_id": "PMC6330183_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 30-year-old man presented with pain in his lower limbs and non-itchy, erythematous rash over both lower limbs. He had low-grade intermittent fever of three-months duration. On examination, the patient was pale and had palpable purpura over both thighs and buttocks [Figure 1]. He was malnourished (body mass index = 18.4 kg/m2), and abdominal examination revealed palpable hepatomegaly with massive splenomegaly.\nA complete blood count suggested pancytopenia (hemoglobin = 6.8 g/dL, total leukocyte count = 2800/mm3, and thrombocyte count = 45 000/muL). Polyclonal hypergammaglobulinemia (4.9 g/dL) was noted with normal liver and renal function tests. Contrast-enhanced computed tomography of the chest and abdomen confirmed hepatosplenomegaly and was otherwise unremarkable.\nWe considered hematological malignancy or a connective tissue disorder with vasculitis. Other infectious etiologies entertained were HIV, scrub typhus rickettsia, and visceral leishmaniasis (given the patient lived in an endemic area). Anti-nuclear antibodies, complement levels (C3 = 94 mg/dL and C4 = 20 mg/dL), and rheumatoid factor were negative. Urine examination was normal and serum cryoglobulins were not raised. Viral markers (HIV, hepatitis B surface antigen, and anti-hepatitis C) were negative. Serology for rickettsia and scrub typhus were also negative. Peripheral blood antibodies towards rK39 antigen were positive, and bone marrow examination confirmed visceral leishmaniasis with the presence of typical Leishman-Donovan bodies (amastigote form) within the bone marrow histiocytes [Figure 2]. Skin biopsy of the rashes revealed fibrinoid necrosis of the vessel wall along with extravasation of red blood cells and nuclear debris in the adjoining areas consistent with a diagnosis of leukocytoclastic vasculitis [Figure 3].\nConventional amphotericin B (0.7 mg/kg/day) was given for 14 days with close monitoring of electrolytes, renal function, and urine output along with adequate nutritional support. During treatment, the patient's fever resolved, his blood counts improved, and we noted complete resolution of skin rash.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old man from a visceral leishmaniasis-endemic region presented with a 3-month history of low-grade intermittent fever, bilateral lower-limb pain, and a non-pruritic erythematous/purpuric rash over both lower extremities.",
+      "history_of_present_illness": "Over the 3 months prior to presentation, the patient experienced intermittent low-grade fevers accompanied by bilateral leg pain and a non-itchy purpuric eruption over his thighs, buttocks, and lower legs.",
+      "past_medical_history": "Resident of an area endemic for visceral leishmaniasis.",
+      "review_of_systems": "Positive for intermittent fever, lower-extremity pain, and non-pruritic purpuric rash."
+    },
+    "objective": {
+      "physical_examination": "Malnourished (BMI 18.4 kg/m2) and pale; palpable purpura distributed over both thighs, buttocks, and lower limbs; palpable hepatomegaly and massive splenomegaly.",
+      "routine_investigations": "Labs showed pancytopenia (Hb 6.8 g/dL, WBC 2,800/mm3, platelets 45,000/uL), polyclonal hypergammaglobulinemia (4.9 g/dL), normal liver and renal function tests, normal urinalysis, negative ANA, rheumatoid factor, and serum cryoglobulins, normal complement (C3 94 mg/dL, C4 20 mg/dL), negative HIV, HBsAg, anti-HCV, rickettsial, and scrub typhus serologies, and positive peripheral blood rK39 antibody test.",
+      "advanced_workup": "Contrast-enhanced chest and abdominal CT confirmed hepatosplenomegaly without other abnormalities. Skin biopsy of the lower-limb purpura revealed vessel-wall fibrinoid necrosis with RBC extravasation and karyorrhectic nuclear debris diagnostic of leukocytoclastic vasculitis. Bone marrow examination demonstrated typical intracellular Leishman-Donovan bodies (amastigotes) within marrow histiocytes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Autoimmune connective tissue vasculitis, cryoglobulinemia, HIV, and scrub typhus were excluded; positive rK39 serology, bone marrow microscopy demonstrating Leishman-Donovan bodies, and skin biopsy histopathology confirmed Visceral Leishmaniasis presenting with secondary cutaneous leukocytoclastic vasculitis. A 14-day course of intravenous amphotericin B deoxycholate (0.7 mg/kg/day) with nutritional support achieved complete resolution of fever, pancytopenia, and the vasculitic rash."
+    }
+  }
+}

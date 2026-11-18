@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9897069_01",
+  "pair_id": "PMC9897069_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 35-year-old man diagnosed with HIV stage II was referred to the Oral Medicine Specialist, Dr. Central General Hospital Hasan Sadikin, Bandung, with secondary syphilis, suspected neurosyphilis, Ocular syphilis, and atypical optic neuritis et causa panuveitis ocular dextra sinistra, hepatitis B, and pruritic papular eruption. He had a history of drinking alcohol from the age of 15 years until he was 29 years, but did not consume alcohol again until now. He started to have free sex in the last 3 years, both with men and women. There were multiple lesions, excoriations, confluent, irregular shape, well defined, partially raised with hypopigmented macules and erythematous papules on the chest, abdomen, back, and both upper and lower limbs. Intraoral examination showed irregular painless multiple ulcers on the palate with white margins, and yellow reddish base (Figure 1). Immunoserological examination of anti-HIV two weeks ago was reactive, hepatitis b surface antigen (HBsAg) chromatography was reactive, Treponema pallidum hemagglutination assay (TPHA) titer was reactive with titer 1:10,240, and quantitative venereal disease research laboratory test (VDRL) was reactive with titer 1:256. From the medical history and the clinical feature, we diagnosed with a mucous patch. He was given chlorhexidine gluconate 0.2% mouthwash. The lesions healed on the second visit, 2 weeks later (Figure 1).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old HIV-positive man was referred to the oral medicine clinic with multiple painless palatal ulcers and a generalized pruritic papular and hypopigmented macular skin eruption.",
+      "history_of_present_illness": "Recently diagnosed 2 weeks earlier with stage II HIV infection, chronic hepatitis B, secondary syphilis, suspected neurosyphilis, bilateral ocular syphilis (panuveitis with atypical optic neuritis), and pruritic papular eruption of HIV, the patient was referred for evaluation and management of painless intraoral palatal ulcers.",
+      "past_medical_history": "Diagnosed 2 weeks prior with HIV stage II, hepatitis B, and ocular/secondary syphilis. History of alcohol consumption from ages 15 to 29 (abstinent since age 29) and unprotected bisexual intercourse with both men and women over the preceding 3 years.",
+      "review_of_systems": "Positive for painless palatal ulcers, bilateral visual disturbance (panuveitis/optic neuritis), and pruritic truncal/limb skin eruption."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed multiple confluent, well-defined, irregular hypopigmented macules, erythematous papules, and excoriations over the chest, abdomen, back, and upper and lower extremities. Intraoral examination revealed multiple irregular painless ulcers with whitish borders and yellowish-red bases (syphilitic mucous patches) on the hard and soft palate.",
+      "routine_investigations": "Anti-HIV serology and HBsAg chromatography were reactive.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed palatal syphilitic mucous patches in a patient with secondary and bilateral ocular syphilis (panuveitis and atypical optic neuritis), stage II HIV, and chronic hepatitis B co-infection, established via high-titer quantitative serum VDRL (1:256) and reactive TPHA (titer 1:10,240). Alongside systemic anti-syphilitic therapy, the oral mucous patches were treated topically with 0.2% chlorhexidine gluconate mouthwash and healed completely by the 2-week follow-up visit."
+    }
+  }
+}

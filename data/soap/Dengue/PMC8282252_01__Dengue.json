@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8282252_01",
+  "pair_id": "PMC8282252_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 16-year-old female patient was admitted during the summer with a 4-day history of diffuse myalgia, retro-orbital headache, abdominal pain, fever, and chills. On admission, the patient looked pale and icteric, with tachycardia (123/min), palpable liver 1 cm below the right costal border, and the spleen was not palpable. The patient's blood pressure was normal. Arterial oxygen saturation in room air was 99%. The patient had Sbeta+-thalassemia (genotype S/thal beta), and the average laboratory data from outpatient follow-up was serum hemoglobin concentration (Hb) 11.7 g/dL, mean corpuscular volume 62 fL, leucocyte count of 6.7 x 109/L, and platelet count of 123 x 109/L. The patient did not use hydroxyurea.\nThe initial laboratory test results are presented in Table 1. Metabolic acidosis was detected (pH 7.29; pCO2 28 mmHg; HCO3 13.8 mmol/L). Serology for viral hepatitis (A, B, and C) was non-reactive. Abdominal ultrasound revealed hepatosplenomegaly, moderate ascites, and bilateral pleural effusion without detection of gallstones or dilatation of the intrahepatic and extrahepatic bile ducts. Based on the local epidemiological, clinical, and laboratory data for a SCD patient along with serological confirmation of dengue (IgM reagent - risk group D according to the criteria of the Brazilian Ministry of Health), the diagnosis of SCIC associated with dengue (dengue hemorrhagic fever) was considered. The patient was treated with vigorous hydration, analgesia, transfusion of packed red blood cells to achieve a target hemoglobin S (HbS) concentration < 30% (exchange transfusion), and intravenous antibiotic therapy (ceftriaxone 2 g/day).\nTwelve hours after admission, the clinical condition worsened with the onset of respiratory distress, drowsiness, and intensification of abdominal pain with rapidly increasing hepatosplenomegaly (spleen and liver palpable at the level of the iliac crests). Laboratory parameters deteriorated with intensifying anemia, elevated LDH, and kidney and liver dysfunction (Table 1). Further management included maintenance of packed red blood cell transfusion (achieved HbS 19.8%) and supportive measures such as hemodialysis and mechanical ventilation in the intensive care unit. There was worsening organ failure, and the patient died eight days later.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 16-year-old female with sickle beta+-thalassemia (HbS/beta+-thalassemia) presented with a 4-day history of diffuse myalgia, retro-orbital headache, abdominal pain, fever, and chills.",
+      "history_of_present_illness": "The patient presented during the summer with 4 days of diffuse myalgia, retro-orbital headache, abdominal pain, fever, and chills. Twelve hours after admission, she deteriorated rapidly with acute respiratory distress, drowsiness, severe abdominal pain, and massive hepatosplenomegaly reaching the iliac crests.",
+      "past_medical_history": "Sickle beta+-thalassemia (genotype S/beta+ thalassemia; baseline outpatient Hb 11.7 g/dL, MCV 62 fL, WBC 6.7 x 10^9/L, platelets 123 x 10^9/L); not taking hydroxyurea.",
+      "review_of_systems": "Positive for diffuse myalgia, retro-orbital headache, abdominal pain, fever, chills, and inpatient respiratory distress and drowsiness."
+    },
+    "objective": {
+      "physical_examination": "On admission: pale, icteric, tachycardic (123/min), normal blood pressure, room-air SpO2 99%, liver palpable 1 cm below the right costal margin, and non-palpable spleen. At 12 hours post-admission: respiratory distress, drowsiness, and massive hepatosplenomegaly with both liver and spleen palpable down to the iliac crests.",
+      "routine_investigations": "Admission ABG showed metabolic acidosis (pH 7.29, pCO2 28 mmHg, HCO3- 13.8 mmol/L); serial labs showed severe worsening anemia, thrombocytopenia, elevated LDH, and acute hepatic and renal dysfunction; hepatitis A, B, and C serologies were non-reactive. Abdominal ultrasound revealed hepatosplenomegaly, moderate ascites, and bilateral pleural effusions without gallstones or biliary dilatation.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Fatal dengue hemorrhagic fever (Brazilian Ministry of Health risk group D) triggering acute sickle cell intrahepatic cholestasis (SCIC), splenic/hepatic sequestration, and multiorgan failure in a patient with HbS/beta+-thalassemia, confirmed by reactive dengue IgM serology. Managed in the ICU with vigorous hydration, analgesia, IV ceftriaxone (2 g/day), exchange red blood cell transfusions (reducing HbS to 19.8%), mechanical ventilation, and hemodialysis, but she died of progressive multiorgan failure on hospital day 8."
+    }
+  }
+}

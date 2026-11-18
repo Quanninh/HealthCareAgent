@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4759897_01",
+  "pair_id": "PMC4759897_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 54-year-old healthy female attended an ophthalmology clinic with a few months history of a symptomatic lesion in the nasal bulbar conjunctiva within the interpalpebral zone in the right eye. On examination, there was an erythematous fibrovascular lesion almost 5 mm long. Initially, it was diagnosed as a pterygium. Due to a foreign body sensation and discomfort, surgical removal was performed. Histopathology of excised tissue showed granulomatous inflammation consisting of aggregates of epithelioid and giant cells through the stroma; some epithelioid cells were loaded with numerous Leishmania parasites. There was remarkable lymphohistiocytic infiltrate around granuloma foci [Figure 1a and b].\nDuring follow-up over a few weeks, the lesion recurred at the surgical site. When the patient was asked about leishmaniasis lesions in herself or family members, she mentioned a small papule of leishmaniasis on her ankle a few months ago, which had been treated with intralesional injections of glucantime.\nWe elected to try intralesional injections of amphotericin B because, at the time of diagnosis, glucantime for systemic administration was unavailable, and the lesion was very small.\nThe amphotericin vial was prepared in the following manner: 10 ml of distilled water was used to dissolve 50 mg of amphotericin B (Phosome; Cipla Limited., Mumbai, India), and 0.3 ml of this solution was injected into the lesion. The administered dose was 1.5 mg per injection.\nWeekly injections of amphotericin B were performed by an Ophthalmologist Minnesota. The injections resulted in marked healing of the lesion within 6 weeks [Figure 2a-d]. There were minimal side effects that included a mild burning sensation and transient chemosis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old healthy female presented with a several-month history of foreign body sensation, ocular discomfort, and a reddish mass on the nasal bulbar conjunctiva of her right eye.",
+      "history_of_present_illness": "The patient presented with a symptomatic right nasal bulbar conjunctival lesion initially diagnosed and excised as a pterygium, which recurred at the surgical site within a few weeks of excision.",
+      "past_medical_history": "Otherwise healthy female; history of a small cutaneous leishmaniasis papule on her ankle a few months earlier that had been treated with intralesional meglumine antimoniate (Glucantime).",
+      "review_of_systems": "Positive for right eye foreign body sensation and discomfort."
+    },
+    "objective": {
+      "physical_examination": "An erythematous fibrovascular lesion (~5 mm in length) on the nasal bulbar conjunctiva within the interpalpebral zone of the right eye, which recurred locally after initial surgical excision.",
+      "routine_investigations": null,
+      "advanced_workup": "Histopathology of the excised conjunctival lesion demonstrated stromal non-necrotizing granulomatous inflammation with aggregates of epithelioid cells, multinucleated giant cells, surrounding lymphohistiocytic infiltrate, and numerous intracellular Leishmania amastigotes within epithelioid cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Pterygium was excluded by excisional histopathology demonstrating stromal granulomas and epithelioid histiocytes packed with Leishmania amastigotes, confirming primary/recurrent bulbar conjunctival Cutaneous/Ocular Leishmaniasis. Because systemic Glucantime was unavailable, weekly intralesional injections of amphotericin B (1.5 mg [0.3 mL of a 5 mg/mL solution] per injection) were administered for 6 weeks, achieving marked healing with only transient mild burning and chemosis."
+    }
+  }
+}

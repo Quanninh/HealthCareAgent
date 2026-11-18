@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9724064_05",
+  "pair_id": "PMC9724064_05::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 10-year-old female presented to our hospital in a drowsy state with a history of intermittent moderate-grade fever for four days, not associated with chills or rigor. Her blood pressure was 96/66 mm Hg on admission. She tested positive for NS1 antigen and had a platelet count of 35 000/microl. No rashes or bleeding manifestations were present.\nMRI of the brain demonstrated multiple, symmetrical, patchy hyperintense areas on T2-weighted and FLAIR images in both temporo-occipital lobes and to a lesser extent in the frontoparietal regions, involving the cortex and subcortical white matter (Figures 7a-f). These areas revealed no diffusion restriction, no blooming on GRE images and no post-contrast enhancement (Figures 7f-i).\nBased on the clinical and imaging findings, posterior reversible encephalopathy syndrome (PRES) and dengue encephalitis were considered as possible diagnoses. The patient was managed conservatively and was given dopamine for blood pressure regulation along with methylprednisolone. There was no recorded hypertensive episode throughout the clinical course of the patient in our hospital. The child recovered well and was discharged from the hospital after seven days.\nA follow-up brain MRI four months later revealed complete resolution of the signal abnormalities in the bilateral temporo-occipital and frontoparietal regions (Figures 8a-f). In view of the characteristic imaging findings that resolved on follow-up, clinical and laboratory investigations, a final diagnosis of PRES secondary to dengue fever was made.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old girl presented in a drowsy state with a 4-day history of intermittent moderate-grade fever without chills or rigors.",
+      "history_of_present_illness": "The child developed 4 days of intermittent moderate-grade fever without chills, rigors, rash, or bleeding, and presented to the hospital with acute drowsiness.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for 4-day intermittent moderate-grade fever and drowsiness. Negative for chills, rigors, rash, or bleeding manifestations."
+    },
+    "objective": {
+      "physical_examination": "Drowsy on admission with blood pressure 96/66 mmHg (remaining normotensive/non-hypertensive throughout hospitalization) and no cutaneous rash or bleeding manifestations.",
+      "routine_investigations": "Thrombocytopenia with a platelet count of 35,000/uL.",
+      "advanced_workup": "Brain MRI demonstrated symmetrical patchy cortical and subcortical T2/FLAIR hyperintensities predominantly in the bilateral temporo-occipital lobes and to a lesser extent in the frontoparietal regions, without diffusion restriction, GRE hemorrhage, or contrast enhancement; follow-up brain MRI at 4 months showed complete resolution."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Normotensive posterior reversible encephalopathy syndrome (PRES) secondary to acute dengue fever, confirmed by positive dengue NS1 antigen, thrombocytopenia (35,000/uL), and reversible bilateral parieto-occipital vasogenic edema on serial brain MRI. Managed with conservative supportive care, dopamine infusion for blood pressure support, and methylprednisolone, with full clinical recovery and discharge after 7 days."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9391179_01",
+  "pair_id": "PMC9391179_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 47-year-old Asian Indian male with no significant past medical history, who came from India four days prior to admission, presented with fever with diffuse body aches to hospital in the Midwestern United States. He stated that he was fully vaccinated for COVID-19. As stagnant water is a breeding source for mosquitoes when asked, the patient did mention having air conditioning (AC) in his house, a common source for stagnant water. He stated that he turned his AC on a few times this year, and then, for the last two months, it had been off. The patient's mother was diagnosed with dengue recently in India. The patient also reported that since it is very common to get mosquito bites in India, he did not pay attention and was not sure if he recently noticed increased mosquito bites. The patient denied any petechiae, hematuria, hematemesis, or melena. On admission, his labs were significant for creatine kinase 999 U/L, lactate dehydrogenase 663 U/L, platelet count 41 K/muL, D-dimer 2664 ng/mL, and aspartate aminotransferase (AST) 141 U/L. Peripheral smear was negative for malaria, and Lyme serology was negative. On day 2 of admission, the platelet count dropped to 11 K/muL, and he received 1 unit of platelet transfusion with improvement of his platelet count to 18 K/muL, but within the next 6 hours, the platelet count dropped to 10 K/muL. Infectious disease and hematology-oncology were consulted, and the recommendation was given to not transfuse platelets anymore unless platelets dropped below 10 K/muL as it could increase the risk of volume overload. On day three, the patient was noted to have petechiae on his lower extremities (Figure 1). Over the next few days, the platelet counts continued to fluctuate between 11 K/muL and 18 K/muL. From day five, continued improvement was noted in the platelet count, and the creatinine kinase level came down to reference range levels. Petechiae resolved by day seven, and the patient's appetite continued to improve. The patient was discharged on day seven when his platelet was 35 K/muL, and he had no episodes of bleeding. On outpatient follow-up two days later, his platelet count had improved to 172 K/muL. Two weeks later, his dengue fever antibody IgG resulted positive with a titer of 7.07 ISR.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old Asian Indian male presented to a Midwestern US hospital with acute fever and diffuse body aches 4 days after arriving from India.",
+      "history_of_present_illness": "Four days after traveling from India to the United States, the patient presented with fever and generalized myalgias, and on hospital day 3 developed lower-extremity petechiae with profound thrombocytopenia.",
+      "past_medical_history": "No significant past medical history; fully vaccinated against COVID-19. Arrived from India 4 days prior, where his mother had recently been diagnosed with dengue fever and where he had potential household mosquito exposure.",
+      "review_of_systems": "Positive for fever, diffuse body aches, anorexia, and day-3 lower-extremity petechiae. Negative on admission for petechiae, hematuria, hematemesis, or melena."
+    },
+    "objective": {
+      "physical_examination": "Febrile on admission; developed bilateral lower-extremity petechiae on hospital day 3 (which resolved by day 7) without mucosal or visceral bleeding.",
+      "routine_investigations": "Admission labs: platelets 41 K/uL (dropping on day 2 to 11 K/uL, transiently rising to 18 K/uL after 1 unit platelet transfusion, then dropping to 10 K/uL at 6 hours; recovering to 35 K/uL on day 7 and 172 K/uL 2 days post-discharge), creatine kinase 999 U/L (normalizing by day 5), LDH 663 U/L, D-dimer 2,664 ng/mL, and AST 141 U/L. Lyme serology was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Imported Dengue fever complicated by severe thrombocytopenia (nadir 10 K/uL) and mild rhabdomyolysis/myositis. Malaria was excluded by a negative peripheral blood smear, and dengue was confirmed 2 weeks later by positive dengue virus IgG serology (7.07 ISR). Managed supportively (avoiding further prophylactic platelet transfusions above 10 K/uL per hematology/ID guidance after a single day-2 unit), discharging in stable condition on hospital day 7 with complete platelet normalization (172 K/uL) at 2-day outpatient follow-up."
+    }
+  }
+}

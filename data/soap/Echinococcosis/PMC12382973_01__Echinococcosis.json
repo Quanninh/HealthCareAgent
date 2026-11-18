@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12382973_01",
+  "pair_id": "PMC12382973_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A middle-aged shepherd presented with his 15-year-old daughter to our pediatric surgery emergency department, reporting a one-year history of anorexia, fatigue, and motion sickness. According to the father description, they resided in a rural area, sustaining their livelihood through cattle farming. The patient had previously undergone surgical excision of a hepatic hydatid cyst five years earlier in neighboring country. Subsequently, she experienced several episodes of nonspecific symptoms, prompting multiple visits to the local clinic. The attending physician prescribed several courses of anti-helminthic medication, with no significant clinical improvement.\nDuring a subsequent evaluation, the physician requested ultrasonography (USG), and computed tomography (CT) imaging, which revealed a giant splenic cystic mass occupying nearly the entire spleen. The mass measured 10cm x 10cm x 12.2cm in anteroposterior, transverse and cranio-caudal dimensions, with a detached germinal layer resulting in the loss of the classic multiloculated or \"water lily\" appearance (Figure 1). CT imaging confirmed the absence of recurrence in the previously treated liver but identified CE in the spleen. Laboratory investigations, including complete blood count (CBC), liver function tests (LFTs), and urinalysis, returned within normal limits. To prevent overwhelming post-splenectomy infection (OPSI), the patient received vaccinations against Haemophilus influenzae, Streptococcus pneumoniae, and Neisseria meningitidis at least two weeks prior to surgery, as recommended. The patient was subsequently prepared for definitive surgical management. \nA left subcostal incision was made on the patient in the supine position, and a nasogastric tube was placed. Intraoperatively, the spleen was found to be firmly adherent to the diaphragm and adjacent structures in the left upper quadrant. Aspiration using a large-bore needle yielded thick, straw-colored fluid, confirming an infected hydatid cyst. Following meticulous dissection and adhesion release, splenectomy was performed (Figure 2). Histopathological analysis subsequently confirmed the presence of a hydatid cyst (Figure 3A and B). The patient tolerated the procedure well and was discharged with a postoperative regimen of anthelmintic therapy, including Albendazole at a dosage of 15 mg/kg for 21 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old female presented with a 1-year history of anorexia, fatigue, and motion sickness.",
+      "history_of_present_illness": "The patient experienced nonspecific anorexia, fatigue, and motion sickness over 1 year, with no clinical improvement despite multiple courses of oral anthelmintic medication prescribed at local clinics.",
+      "past_medical_history": "Underwent surgical excision of a hepatic hydatid cyst 5 years earlier in a neighboring country. Daughter of a shepherd living in a rural cattle-farming area.",
+      "review_of_systems": "Positive for anorexia, fatigue, and motion sickness."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Complete blood count, liver function tests, and urinalysis were within normal limits. Abdominal ultrasonography revealed a giant splenic cystic mass.",
+      "advanced_workup": "Abdominal CT demonstrated a giant 10 x 10 x 12.2 cm splenic cystic mass occupying nearly the entire spleen with a detached germinal layer and no hepatic recurrence. During left subcostal laparotomy, the spleen was densely adherent to the diaphragm and left upper quadrant structures; needle aspiration yielded thick straw-colored fluid consistent with an infected hydatid cyst, and total splenectomy histopathology confirmed a splenic hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Secondary/isolated giant infected splenic hydatid cyst (10 x 10 x 12.2 cm) 5 years after hepatic hydatid surgery, confirmed by intraoperative aspiration and histopathological examination. After receiving pre-splenectomy vaccinations against Haemophilus influenzae, Streptococcus pneumoniae, and Neisseria meningitidis at least 2 weeks preoperatively, the patient underwent open total splenectomy and was discharged on oral albendazole (15 mg/kg/day for 21 days) with an uneventful recovery."
+    }
+  }
+}

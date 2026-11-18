@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5664261_01",
+  "pair_id": "PMC5664261_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 51-year-old man presented with a two- to three-month history of episodes of akinesia affecting his hands. It was noted that his employment entailed regular and frequent flights, both long haul and short haul. The history was otherwise unremarkable.\nPhysical examination revealed cogwheel rigidity in the upper limbs and impaired vibration sense which was absent in the lower limbs, reduced rostrally to the level of the anterior superior iliac spine. He was positive on both the Unterberger test and Romberg's test. Important negative neurological signs were no evidence of abnormality of gait, no tremor, no nystagmus, and no pain. Clinically, his long-term memory appeared to be excellent. The clinical examination was otherwise unremarkable.\nRoutine blood tests were insignificant. Investigation for DNA adducts by analysis of genomic DNA from leucocytes by gas-liquid chromatography showed the presence of epoxy-oleic acid, which was localised to the N-formyl peptide receptors (FPRs) using DNA microarrays. Other investigations were carried out to exclude other possible causes of the patient's symptomatology; these proved negative and included testing for gonorrhoea, hepatitis B core antibodies, hepatitis B surface antigen, hepatitis C antibodies, HTLV-1, IgG and IgM antibodies to syphilis, and antibodies to chlamydia species, as well as the HIV duo (HIV-1 and HIV-2 p24 antigen) and Venereal Disease Research Laboratory (VDRL) tests.\nTreatment was given in the form of supportive and detoxification nutrients, including glutathione, alpha-lipoic acid, methylcobalamin and phosphatidylcholine, and regular high-temperature Iratherm  sessions. A repeat DNA adduct investigation a year later proved negative. Supportive nutritional treatment continued, and the patient was assessed, a year later, for olfactory and gustatory function and then again four months later. During this four-month period, his score on the University of Pennsylvania Smell Identification Test rose from 37/40 (a normal healthy score is 35/40) to 38/40. Similarly, his score on the Sniffin' Sticks identification at higher concentration test showed an increase from 11/12 (normal) to the maximum score of 12/12 (above normal). Meanwhile, the patient became free of the cogwheel rigidity and akinesia, while sensory vibration impairment became limited to the left lower limb.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old male frequent flyer presented with a 2-to-3-month history of episodic akinesia affecting his hands.",
+      "history_of_present_illness": "Over the preceding 2 to 3 months, the patient experienced intermittent episodes of bilateral hand akinesia.",
+      "past_medical_history": "Unremarkable past medical history. Occupational history was notable for frequent short-haul and long-haul commercial aviation flights.",
+      "review_of_systems": "Positive for episodic bilateral hand akinesia; negative for tremor, gait disturbance, pain, or memory loss."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed upper-limb cogwheel rigidity, absent lower-limb vibration sensation extending rostrally to the anterior superior iliac spine, and positive Romberg and Unterberger stepping tests, with normal gait, no tremor or nystagmus, and intact long-term memory.",
+      "routine_investigations": "Routine blood tests were normal. Comprehensive infectious screening—including syphilis IgG/IgM antibodies, VDRL, HIV-1/2 Duo (Ab/p24 Ag), HTLV-1, HBV (anti-HBc, HBsAg), HCV antibody, gonorrhea, and Chlamydia antibodies—was completely negative.",
+      "advanced_workup": "Gas-liquid chromatography and DNA microarray analysis of leukocyte genomic DNA adducts identified epoxy-oleic acid bound to N-formyl peptide receptors (FPRs)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Diagnosed with aviation-associated organophosphate/hydrocarbon neurotoxicity (aerotoxic-like extrapyramidal and dorsal column sensory syndrome with epoxy-oleic acid leukocyte DNA adducts; tabes dorsalis/neurosyphilis and viral/retroviral infections excluded). Treated with nutritional detoxification support (glutathione, alpha-lipoic acid, methylcobalamin, phosphatidylcholine) and regular hyperthermic Iratherm sessions; at 1-year follow-up, leukocyte DNA adducts cleared, olfaction scores improved (UPSIT 37/40 to 38/40; Sniffin' Sticks 11/12 to 12/12), cogwheel rigidity and hand akinesia completely resolved, and vibration impairment receded to the left lower limb only."
+    }
+  }
+}

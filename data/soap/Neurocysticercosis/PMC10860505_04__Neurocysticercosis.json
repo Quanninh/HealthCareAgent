@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10860505_04",
+  "pair_id": "PMC10860505_04::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 20.0,
+  "raw_case_text": "A 56-year-old male patient came to our hospital with a history of seizures, gait impairment, incontinence, ataxia, and forgetfulness for 5 years. Based on the presence of hydrocephalus on the previous MRI, he was treated elsewhere on the line for CNS tuberculosis. However, despite 3 months of antitubercular treatment, he showed no signs of improvement.\nA repeat MRI was done to look for an alternate diagnosis. It showed a dilated ambient cistern with indentation on the pons (Figure 4A). The lateral ventricles were markedly dilated along with dilatation of bilateral CSF spaces in the temporoparietal region with dominant involvement of Sylvian fissures (Figure 4B). On FIESTA MRI (Figure 4C and D), the lesion showed thin septations in the ambient cistern and Sylvian fissures, which strongly suggested the diagnosis of racemose NCC. Moderate hydrocephalus was also present. The patient was advised for VP shunt placement and is currently on follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 56-year-old man presented with a 5-year history of seizures, gait impairment, urinary incontinence, ataxia, and forgetfulness.",
+      "history_of_present_illness": "The patient had a 5-year progressive history of seizures, gait disturbance, ataxia, incontinence, and memory impairment. Based on hydrocephalus seen on an earlier MRI at an outside facility, he had received 3 months of empiric antitubercular therapy for suspected CNS tuberculosis without clinical improvement.",
+      "past_medical_history": "Treated empirically elsewhere for CNS tuberculosis for 3 months prior to presentation without response.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Repeat brain MRI with FIESTA sequences demonstrated a dilated ambient cistern indenting the pons, marked dilation of the lateral ventricles (moderate hydrocephalus), and bilateral dilatation of the temporoparietal subarachnoid spaces predominantly involving the Sylvian fissures, with thin internal septations in the ambient cistern and Sylvian fissures delineated on FIESTA."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "After failing 3 months of empiric antitubercular therapy for presumed CNS tuberculosis, repeat FIESTA brain MRI established the diagnosis of cisternal/Sylvian racemose neurocysticercosis with hydrocephalus. The patient was advised to undergo ventriculoperitoneal (VP) shunt placement and remains on follow-up."
+    }
+  }
+}

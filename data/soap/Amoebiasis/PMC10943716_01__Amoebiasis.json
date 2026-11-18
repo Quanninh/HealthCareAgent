@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10943716_01",
+  "pair_id": "PMC10943716_01::Amoebiasis",
+  "target_disease": "Amoebiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 66 years old male, non-smoker with multiple comorbidities including morbid obesity, end-stage renal disease requiring haemodialysis, IHD with PCI, T2DM, HTN and new onset dry cough for which he received a short course of steroids, presented to the colorectal clinic with a history of fresh bleeding and mucus discharge per rectum for a couple of months that had worsened over the past few days. He reported no change in his bowel habits, abdominal pain or weight loss.\nAbdominal examination was unremarkable, PR/proctoscopy revealed grade 2 haemorrhoids not actively bleeding. Routine full blood count showed stable haemoglobin levels. A stool examination was not performed in this case as the patient presented with bleeding and mucus discharge per rectum with no associated change in his bowel habits. With his presentation and considering his age to rule out any sinister pathology he was offered a CT abdomen and pelvis that showed diffuse proctocolitis and chronic cholelithiasis. A flexible sigmoidoscopy revealed multiple 3-5 mm ulcers in the rectum seen in quadrantic fashion with stigmata of bleeding. The rectal mucosa in between these ulcers appeared normal. Colonic mucosa from distal sigmoid and proximally also appeared normal (Figure 1). Multiple biopsies were taken.\nThe endoscopic imaging had a rather unusual non-characteristic pattern of ulceration in the rectum.\nHistological findings on PAS (Periodic acid-Schiff) staining revealed features of amoebic proctitis.\nThe rectal mucosa submitted showed a moderate mixed inflammatory cell infiltrate in the lamina propria with overlying erosive inflammation. Associated with the fibrin on the surface of the mucosa there were occasional amoebic trophozoites, some with ingested red blood cells within their cytoplasm (Figure 2). The trophozoites were PAS positive and negative for CD68 on immunohistochemical analysis.\nThe patient was commenced on a course of Metronidazole and followed up on first and sixth month after treatment where he remained well and reported no further symptoms.\nAn informed written consent was obtained from the patient for their anonymized information to be published prior to writing the case report.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old male presented to the colorectal clinic with a 2-month history of fresh rectal bleeding and per-rectal mucus discharge that worsened over several days.",
+      "history_of_present_illness": "The patient experienced fresh rectal bleeding and mucus discharge per rectum for a couple of months, with acute worsening over the few days preceding clinic evaluation. He reported no change in bowel habits, no abdominal pain, and no weight loss.",
+      "past_medical_history": "Morbid obesity, end-stage renal disease (ESRD) on regular hemodialysis, ischemic heart disease (IHD) status post percutaneous coronary intervention (PCI), type 2 diabetes mellitus (T2DM), hypertension (HTN), and a recent short course of corticosteroids for a new-onset dry cough. Non-smoker.",
+      "review_of_systems": "Positive for fresh per-rectal bleeding, rectal mucus discharge, and recent dry cough. Negative for altered bowel habits, abdominal pain, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination was unremarkable. Digital rectal examination and proctoscopy revealed grade 2 hemorrhoids that were not actively bleeding.",
+      "routine_investigations": "Routine full blood count demonstrated stable hemoglobin levels. Stool examination was not performed.",
+      "advanced_workup": "CT of the abdomen and pelvis showed diffuse proctocolitis and chronic cholelithiasis. Flexible sigmoidoscopy revealed multiple 3-5 mm rectal ulcers arranged in a quadrantic pattern with stigmata of bleeding and normal intervening rectal and proximal sigmoid mucosa; multiple rectal biopsies were obtained."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathological examination of the rectal biopsies showed moderate mixed lamina propria inflammation, erosive mucosal inflammation, and occasional surface amoebic trophozoites containing ingested red blood cells that stained positive on Periodic acid-Schiff (PAS) and negative for CD68 on immunohistochemistry, confirming amoebic proctitis (and ruling out colorectal malignancy). The patient was treated with a course of metronidazole and remained completely asymptomatic at 1-month and 6-month follow-up visits."
+    }
+  }
+}

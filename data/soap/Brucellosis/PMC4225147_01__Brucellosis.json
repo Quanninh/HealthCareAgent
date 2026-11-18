@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4225147_01",
+  "pair_id": "PMC4225147_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "64-year-old man farmar was admitted to our department with low back pain radiating to the lower extremities. He had a history of febrile illness and loss of appetite 2 years before admission. Four months after the start of the febrile illness, the patient started to complain of backache and spinal movements were restricted and painful. He had no other neurologic symptoms. Radiography of the spine revealed parrot's peak appearance (Pedro Pons' sign) at the anterior superior end of the L3 vertebra which is characterized by osteosclerosis and osteophyte (A, arrows). Magnetic resonance imaging (MRI) after the administration of gadolinium revealed L2-L3 epiduritis, an erosive change of the anterior portion of L4 and L5, abnormal signal change with enhancement in T12, L2, L3, L5 and S1 body with probable spondylodiscitis in L2/L3 and L5/S1 levels (B). Pathological analysis of a specimen obtained with CT-guided aspiration revealed non caseating granulomas, which were culture positive for Micrococcus melitensis. Rose Bengal test for brucellosis was positive and Brucella standard tube agglutination confirmed this finding with 1/321 titer. Antibiotic treatment (doxycyline 200 mg/d and rifampicin 600 mg/d) was initiated and the patient's complaints were diminished gradually. He was discharged from hospital and recommended to complete his treatment to 90 days and a follow-up MRI showed sclerosis and reactive osteophyte formation indicating the healing phase of inflammatory tissue at the same levels. Pedro Pons' sign, known as anterior superior end erosion, which occurs together with rounding of the vertebral end and level deformity, is a characteristic radiologic finding of brucellar spondylitis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old male farmer presented with chronic low back pain radiating to both lower extremities and restricted, painful spinal mobility.",
+      "history_of_present_illness": "A 64-year-old male farmer experienced a febrile illness with anorexia 2 years prior to admission; 4 months after that febrile episode, he developed persistent low back pain radiating to the lower extremities with painful, restricted lumbar spine movements.",
+      "past_medical_history": "Occupational history as a farmer; febrile illness with anorexia 2 years earlier.",
+      "review_of_systems": "Positive for low back pain radiating to the lower extremities, restricted spinal mobility, and prior fever/anorexia; negative for focal neurological deficits."
+    },
+    "objective": {
+      "physical_examination": "Painful and restricted lumbar spinal range of motion without focal neurological deficits.",
+      "routine_investigations": "Lumbar spine radiograph demonstrated anterior superior vertebral endplate erosion with osteosclerosis and beak-like osteophyte formation at the L3 vertebra (Pedro Pons' sign).",
+      "advanced_workup": "Gadolinium-enhanced spine MRI demonstrated L2-L3 epiduritis, anterior erosive changes at L4 and L5, abnormal marrow signal and enhancement in the T12, L2, L3, L5, and S1 vertebral bodies, and spondylodiscitis at L2-L3 and L5-S1. CT-guided vertebral aspiration biopsy histopathology revealed non-caseating granulomas."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Culture of the CT-guided spinal biopsy specimen grew Brucella melitensis (Micrococcus melitensis), Rose Bengal test was positive, and the serum Brucella standard tube agglutination test was positive at 1:320 (reported as 1/321), confirming multilevel brucellar spondylodiscitis (exhibiting Pedro Pons' sign). Treated with oral doxycycline (200 mg/day) and oral rifampicin (600 mg/day) for 90 days, resulting in gradual resolution of back pain and follow-up MRI showing healing sclerosis and reactive osteophyte formation."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6936951_01",
+  "pair_id": "PMC6936951_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 35-year old male patient was admitted to the outpatient clinic with low back pain who had these complaints for five years and had been diagnosed as ankylosing spondylitis two years ago. He had a history of non-steroid anti-inflammatory drugs usage that had been inadequate for the relief of the symptoms. The patient also had an erythematous plaque on the bridge of the nose for five years with a history of an increase in skin lesions in the previous year (Fig. 1). There were no peripheral arthritis, uveitis, psoriasis or inflammatory intestinal disease and also no clinical findings of systemic involvement and the family history of rheumatic diseases. In physical examination increased thoracic kyphosis and reduced cervical and lumbar range of motion were detected. Lumbar Schober was 1.5 cm, finger base distance was 25 cm, and jaw manubrium distance was 0. Sacroiliac compression tests were bilaterally positive. BASDAI score was 6. Anti-nuclear antibody and anti-dsDNA were negative. Erythrocyte sedimentation rate (ESR) was 40 mm/hr and C-reactive protein (CRP) was 2.5 mg/dl (CRP normal range 0-0.5 mg/dl). Complement tests, full blood count, liver and kidney functions, serum protein and creatinine phosphokinase levels, thyroid function tests, urine analysis and urine protein/creatinine ratio were within a normal range. Hepatitis B and C viruses, HIV and Brucella serology were negative. HLA-B27 was positive. The pulmonary radiograph was normal. On the pelvis radiograph grade 3-4 bilateral sacroiliitis were seen (Fig. 2).\nA skin biopsy was performed and mononuclear inflammatory cell infiltration around the hair follicles on the dermis and increased mucin in the dermal papilla were seen (Fig. 3). After a diagnosis of ankylosing spondylitis and discoid lupus, 40 mg/2 weeks subcutaneously adalimumab, 400 mg/day hydroxychloroquine and topical tacrolimus were started. Using a high factor protective sun cream was recommended. In the follow-up, the clinical symptoms of AS were significantly improved.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old male presented with a 5-year history of inflammatory low back pain refractory to NSAIDs and a 5-year history of an enlarging erythematous plaque on the nasal bridge.",
+      "history_of_present_illness": "A 35-year-old man who had been diagnosed with ankylosing spondylitis 2 years earlier presented with a 5-year history of chronic low back pain and spinal stiffness inadequately controlled by NSAIDs, accompanied by a 5-year history of a chronic erythematous plaque over the bridge of his nose that had expanded over the past year.",
+      "past_medical_history": "Ankylosing spondylitis diagnosed 2 years prior, treated with NSAIDs; no family history of rheumatic diseases.",
+      "review_of_systems": "Positive for chronic inflammatory low back pain, spinal stiffness (BASDAI score 6), and nasal bridge skin plaque; negative for peripheral arthritis, uveitis, psoriasis, or inflammatory bowel disease."
+    },
+    "objective": {
+      "physical_examination": "Increased thoracic kyphosis, restricted cervical and lumbar spine range of motion (modified Schober test 1.5 cm, fingertip-to-floor distance 25 cm, chin-to-manubrium distance 0 cm), bilateral positive sacroiliac compression tests, and an erythematous scaly/atrophic plaque on the nasal bridge; BASDAI score 6.",
+      "routine_investigations": "ESR 40 mm/h, CRP 2.5 mg/dL (normal: 0-0.5 mg/dL); normal CBC, liver and renal function tests, serum protein, CPK, thyroid panel, complement levels, urinalysis, and urine protein/creatinine ratio. Negative HBV, HCV, HIV, and Brucella serologies. Normal chest radiograph; pelvic radiograph demonstrated bilateral grade 3-4 sacroiliitis.",
+      "advanced_workup": "ANA and anti-dsDNA were negative; HLA-B27 was positive. Nasal bridge skin biopsy histopathology demonstrated perifollicular mononuclear inflammatory cell infiltration and increased dermal papillary mucin deposition diagnostic of discoid lupus erythematosus (DLE)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive HLA-B27, radiographic bilateral grade 3-4 sacroiliitis, negative Brucella serology, and nasal skin biopsy histopathology confirmed the rare coexistence of HLA-B27-positive ankylosing spondylitis and cutaneous discoid lupus erythematosus (DLE). Treated with subcutaneous adalimumab (40 mg every 2 weeks), oral hydroxychloroquine (400 mg/day), topical tacrolimus, and high-SPF sunscreen, resulting in marked improvement of axial spondyloarthritis and cutaneous lesions."
+    }
+  }
+}

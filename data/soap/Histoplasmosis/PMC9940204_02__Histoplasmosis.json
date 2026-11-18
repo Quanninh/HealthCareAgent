@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9940204_02",
+  "pair_id": "PMC9940204_02::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Further collateral information was obtained from the patient's family who reported that the patient had a productive cough and a 2-week history of dyspnea, suffered multiple ground-level falls, and had poor oral intake. The patient was working as an independent handyman and school maintenance worker. Much of his job entailed working with plumbing in attics, basements, underneath sinks, and sewer lines. He denied exploring caves or being involved with birds/bats. His travel history included military service: he was stationed in Germany when he was 18 years old and in Texas when he was 21 years old.\nDue to suspicion of possible malignancy with pancytopenia, significant weight loss, and hepatosplenomegaly, a CT-guided bone marrow biopsy was performed. Although it was suboptimal due to a lack of adequate core, the biopsy revealed a normocellular sample with unremarkable trilineage hematopoiesis; no evidence of hemophagocytosis, lymphoid aggregates, or metastatic malignancy; and no evidence of fungal elements by Grocott's methenamine silver (GMS) stain.\nSubsequently, a left adrenal biopsy was performed and stained with hematoxylin and eosin, demonstrating small, round, shadowlike microorganisms that turned dark black when stained with GMS:consistent with HP (Figure 5). Serological tests revealed positive histoplasma antibody, with yeast phase antibody titer of 1:8, positive urine histoplasma antigen, and positive adrenal gland histoplasma antigen. At this point, the diagnosis of disseminated HP was made.\nThe patient was started on liposomal amphotericin B therapy for disseminated HP with improvement of mental and functional status, participating with physical therapy and was transferred to the Veterans Affairs hospital in the region to complete his treatment course.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A male handyman and school maintenance worker presented with a 2-week history of productive cough, dyspnea, multiple ground-level falls, poor oral intake, significant weight loss, and altered mental/functional status.",
+      "history_of_present_illness": "Collateral history from the patient's family revealed a 2-week history of productive cough, shortness of breath, recurrent ground-level falls, anorexia, significant weight loss, and declining mental and functional status.",
+      "past_medical_history": "Occupational/epidemiological history: Independent handyman and school maintenance worker who frequently worked on plumbing in attics, basements, under sinks, and sewer lines; prior military service stationed in Germany at age 18 and Texas at age 21; denied cave exploration or direct bird/bat contact.",
+      "review_of_systems": "Positive for productive cough, dyspnea, ground-level falls, poor oral intake, significant weight loss, and functional/cognitive decline."
+    },
+    "objective": {
+      "physical_examination": "Impaired mental and functional status and hepatosplenomegaly.",
+      "routine_investigations": "Labs and imaging demonstrated pancytopenia and hepatosplenomegaly.",
+      "advanced_workup": "CT-guided bone marrow biopsy: normocellular marrow with unremarkable trilineage hematopoiesis and no hemophagocytosis, malignancy, or fungal elements on GMS stain. Left adrenal gland biopsy (H&E and GMS stains): small, round shadow-like microorganisms staining dark black on Grocott methenamine silver (GMS) stain consistent with Histoplasma capsulatum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated adrenal histoplasmosis presenting with pancytopenia, hepatosplenomegaly, and functional decline. Confirmation: Left adrenal biopsy GMS stain demonstrating Histoplasma yeast organisms, positive serum Histoplasma yeast-phase antibody (titer 1:8), positive urine Histoplasma antigen, and positive adrenal gland tissue Histoplasma antigen. Plan & clinical course: Initiated on IV liposomal amphotericin B therapy with improvement in mental and functional status and active participation in physical therapy, and transferred to a regional Veterans Affairs hospital to complete his antifungal course."
+    }
+  }
+}

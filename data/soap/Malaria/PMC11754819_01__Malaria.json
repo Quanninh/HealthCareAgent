@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11754819_01",
+  "pair_id": "PMC11754819_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A male patient, aged 41 years old, was admitted to hospital in Samarinda in September 2023, with intermittent fever for 2 weeks and could not communicate 4 days before admission. On admission, patient had a Glassgow comma scale (GCS) (eye response: 4, verbal response: 2, motor response: 5) score of 11, moderately ill condition, body weight of 55 kg, blood pressure of 110/70 mm Hg, pulse rate of 96 beats per minute, respiratory rate of 22 cycles per minute, and body temperature of 37.7 C.\nLaboratory examination on admission were as follows: hemoglobin 5.3 g/dl, creatinine 0.75 mg/dl, SGOT 42 IU/l, sodium 143 mmol/l, and potassium 4.7 mmol/l. Peripheral blood smear showed trophozoites and ring forms of P. knowlesi (similar to P. malariae), with parasite count 52,000/microl blood. Polymerase chain reaction test later showed it was confirmed as P. knowlesi. Head computed tomography did not show any focal lesions (Figure 1).\nThe patient received artesunate injections of 120 mg every 12 hours until three doses, continued with dihydroartemisinin 40 mg/piperaquine 320 mg three tablets per day for 3 days. After three doses of artesunate, the patient's GCS improved to 14. Malarial blood smear 3 days after starting artesunate injection was negative for plasmodium. The patient also received transfusion of four units of packed red blood cells, and the hemoglobin level increased to 11.8 g/dl.\nThe patient was discharged after 10 days at hospital, with disorientation, partial loss of memory, and moderate weakness. A total of 3 days after discharge, the patient came to outpatient clinic with good improvement in motor function, fully conscious, and with good recovery of memory. The patient came for follow-up 2 weeks later, with satisfying improvement and no neurologic deficits.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old male presented to a hospital in Samarinda, Indonesia, with a 2-week history of intermittent fever and a 4-day history of inability to communicate.",
+      "history_of_present_illness": "The patient experienced intermittent fevers for 2 weeks prior to admission in September 2023 and became unable to communicate 4 days before hospitalization.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for intermittent fever and loss of verbal communication."
+    },
+    "objective": {
+      "physical_examination": "Moderately ill condition, body weight 55 kg, Glasgow Coma Scale score 11 (E4V2M5), BP 110/70 mmHg, pulse 96 bpm, RR 22 cpm, and temperature 37.7 C.",
+      "routine_investigations": "Admission labs: severe anemia with hemoglobin 5.3 g/dL, creatinine 0.75 mg/dL, SGOT/AST 42 IU/L, sodium 143 mmol/L, and potassium 4.7 mmol/L.",
+      "advanced_workup": "Non-contrast head CT scan showed no focal lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Cerebral malaria with severe anemia caused by Plasmodium knowlesi. Confirmed by peripheral blood smear showing P. knowlesi trophozoites and ring forms (parasite count 52,000/uL blood) and confirmed by P. knowlesi PCR. Treated with IV artesunate 120 mg every 12 hours for 3 doses followed by oral dihydroartemisinin 40 mg/piperaquine 320 mg (3 tablets daily for 3 days) and transfusion of 4 units of packed RBCs (raising Hb to 11.8 g/dL). GCS improved to 14 and repeat smear was negative by day 3; discharged on day 10 with mild residual disorientation/memory loss that completely resolved by the 3-day and 2-week outpatient follow-up visits."
+    }
+  }
+}

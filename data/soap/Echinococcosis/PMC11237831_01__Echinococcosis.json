@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11237831_01",
+  "pair_id": "PMC11237831_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 66-year-old female patient was referred to our outpatient clinic by the Department of Otorhinolaryngology because of a swelling in the neck region that may be associated with upper mediastinum. A smooth-circumscribed, soft-consistent cystic lesion with a diameter of approximately 8 cm, which was learned to grow gradually in the left neck region for about three years, was palpated (Fig. 1). The patient's general condition was good and her vital signs were stable. Her medical history included hypertension, diabetes, cerebrovascular disease, and cholecystectomy. With the preliminary diagnosis of vascular pathology, the superficial neck was evaluated by ultrasonography. No relationship was found with vascular structures, two adjacent cystic lesions were reported. The computed tomography (CT) scan of the neck and thorax demonstrated a regular cyst on the left side of the neck in the left supraclavicular area, measuring 8 cm in diameter and approximately 3.5 cm hypodense appearance in the adjacent area of the lesion (Fig. 2). Magnetic resonance imaging (MRI) of the neck and thorax showed an 8.5x6.5-cm cystic mass located at the left supraclavicular area, 4x2-cm lesion in the medial area adjacent to the lesion (hypointense in T1 sequence, heterogeneous hyperintense in T2 sequence, no significant contrast enhancement, cystic lesion in favor of benign pathologies) (Fig. 3).\nThe patient was operated in the supine position with a 10 cm incision through the lesion. Approximately 8 cm lesion was incised, clear yellow-colored cyst fluid was aspirated, cyst membranes were located and removed, and cyst wall was resected. A harder, white-colored 4x2 cm lesion in anteromedial was excised with blunt and sharp dissection (Fig. 4). Both lesions were in the neck region and there was no relationship with the mediastinum. Pathologic diagnosis was reported as hydatid cyst for both lesions. In the patient whose postoperative follow-up was not problematic, albendazole treatment was administered. No recurrence was observed in 1-year follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old female presented with a gradually enlarging left neck swelling over 3 years.",
+      "history_of_present_illness": "The patient was referred from the otorhinolaryngology clinic with a painless swelling in the left supraclavicular neck region that had grown slowly over approximately 3 years.",
+      "past_medical_history": "Hypertension, diabetes mellitus, cerebrovascular disease, and prior cholecystectomy.",
+      "review_of_systems": "Positive for left neck swelling."
+    },
+    "objective": {
+      "physical_examination": "Good general condition with stable vital signs. Neck palpation revealed a smooth, well-circumscribed, soft cystic lesion approximately 8 cm in diameter in the left neck/supraclavicular region.",
+      "routine_investigations": "Superficial neck ultrasonography showed two adjacent cystic lesions in the left neck with no relationship to vascular structures.",
+      "advanced_workup": "Neck and thoracic CT demonstrated a regular 8-cm cystic lesion in the left supraclavicular region with an adjacent 3.5-cm hypodense lesion. Neck and thoracic MRI showed an 8.5 x 6.5 cm cystic mass in the left supraclavicular region and an adjacent medial 4 x 2 cm lesion (T1 hypointense, heterogeneous T2 hyperintense, without contrast enhancement) independent of the mediastinum. Surgical excision via a 10-cm incision yielded clear yellow fluid and germinal membranes from the 8-cm cyst and a firmer white 4 x 2 cm anteromedial cyst; histopathology confirmed hydatid cysts for both lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary synchronous hydatid cysts of the left supraclavicular neck region without mediastinal extension, confirmed by postoperative histopathological examination. Following complete surgical excision and postoperative oral albendazole therapy, no recurrence was observed at 1-year follow-up."
+    }
+  }
+}

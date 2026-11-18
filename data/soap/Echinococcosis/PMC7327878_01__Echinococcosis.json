@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7327878_01",
+  "pair_id": "PMC7327878_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 20-year-old female patient was admitted to our emergency department (ED) due to abdominal pain and distension, nausea, vomiting and constipation. Her mother died young with breast cancer.\nHer skin and mucosae were pale and dehydrated. Breath sounds were diminished at the pulmonary bases. Her abdomen was significantly distended, with stretch marks and oedema of its wall, was depressible by palpation with diffuse tenderness, without guarding. Bowel sounds were diminished and percussion produced a dull note. Her limbs were thin. Blood tests were normal.\nShe had an abdominal and pelvic US that revealed a large abdominal cyst of unknown origin, followed by an X-ray and CT (Fig. 1, Fig. 2, Fig. 3, Fig. 4, Fig. 5) that showed an enormous cyst, still of unknown origin.\nTumour biomarkers alpha fetoprotein (AFP), carcinoembryonic antigen (CEA), cancer antigen 19.9 (CA19.9), cancer antigen 125 (CA 125) and human epididymal protein 4 (HE4) were normal. The risk of malignancy algorithm (ROMA) value was 4.1 %. Echinococcus granulosus serology test was negative.\nHence, she underwent an exploratory laparotomy (Fig. 6), and it was soon confirmed that the cyst had replaced the left ovary (Fig. 7). Therefore, a left adnexectomy became mandatory (Fig. 8). The procedure ran uneventfully. There were no ascites, peritoneal implants nor liver nodules. The small bowel was collapsed in its entire length and located in the sub-hepatic recess. The sigmoid colon was also collapsed and had a few soft adhesions to the cyst. The right ovary, the uterus and the appendix had no suspicious macroscopic appearance. There was no spillage nor perforation of the cyst. Pelvic peritoneal fluid was sent for cytology - no neoplastic cells were identified. The cyst weighted 10,2Kg.\nShe had an uneventful recovery and was discharged home on the 5th post-operative day.\nThe pathology report revealed an ovarian mucinous cystadenoma. The cyst had a thin wall (Fig. 9), internally coated by a single layer of a mucous secreting cylindrical epithelium of the endocervical type, with caliciform cells. There was no atypia, stratification nor mitotic activity. There was no residual normal ovarian tissue either.\nShe remains clinically asymptomatic.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 20-year-old female presented to the emergency department with progressive abdominal pain, marked abdominal distension, nausea, vomiting, and constipation.",
+      "history_of_present_illness": "The patient presented to the emergency department with severe abdominal distension, diffuse abdominal pain, nausea, vomiting, and constipation.",
+      "past_medical_history": "Family history was notable for her mother dying at a young age from breast cancer.",
+      "review_of_systems": "Positive for abdominal pain, distension, nausea, vomiting, and constipation."
+    },
+    "objective": {
+      "physical_examination": "Pale, dehydrated skin and mucosae, thin extremities, and diminished basilar breath sounds. The abdomen was massively distended with cutaneous striae and abdominal wall edema, depressible with diffuse tenderness without guarding, diminished bowel sounds, and percussion dullness.",
+      "routine_investigations": "Routine blood tests, serum tumor markers (AFP, CEA, CA 19-9, CA 125, HE4; ROMA index 4.1%), and Echinococcus granulosus serology were all normal/negative. Abdominopelvic ultrasound and plain abdominal X-ray showed an enormous abdominal cyst filling the peritoneal cavity.",
+      "advanced_workup": "Abdominopelvic CT demonstrated a giant homogeneous cystic mass occupying the entire abdominal and pelvic cavities and displacing the bowel and abdominal viscera. Exploratory laparotomy and intact left adnexectomy removed a 10.2-kg cyst completely replacing the left ovary without ascites or peritoneal implants (peritoneal cytology was negative for malignancy); histopathology confirmed a benign ovarian mucinous cystadenoma lined by a single layer of endocervical-type mucinous columnar epithelium with goblet cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Giant benign left ovarian mucinous cystadenoma (10.2 kg), confirmed by surgical histopathology and negative Echinococcus granulosus serology and tumor markers. The patient underwent intact left salpingo-oophorectomy/adnexectomy, was discharged on postoperative day 5, and remained asymptomatic on follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8282370_01",
+  "pair_id": "PMC8282370_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "The neonate was born to a 29-year-old G2P1 + 0 who attended antenatal care 6 times, starting at 3 months. She had been screened for HIV, syphilis, hepatitis B, and urinalysis, and all were negative, with a blood group of A Rhesus D negative. She received tetanus toxoid, Fansidar for malaria prophylaxis, haematinics, and deworming. She reported that the pregnancy was uneventful.\nAbout 36 hours after delivery, the neonate developed a high-grade fever, irritability, poor breastfeeding, and yellowing of eyes and skin. The neonate was managed with unknown oral medication before referral to Jinja Regional Referral Hospital for further management.\nAt admission, the neonate was conscious, with an axillary temperature of 38.0 C, and jaundice (Kramer stage 2). There was no respiratory distress, no pallor, no dehydration, and no dysmorphic features noted. The systemic physical examination was unremarkable.\nMalaria rapid diagnostic test (MRDT) for P. falciparum was positive; thin blood smear showed P. falciparum malaria species with 1.846*103 malaria-infected red blood cells.\nComplete blood count was normal with Hb of 15.2 g/dl, white blood cells 11.79*103/ul, and platelet count 244*103/ul.\nBlood group was A Rhesus D negative.\nTotal serum bilirubin was 200.33 umol/l with direct bilirubin 7.48 umol/l.\nThe rapid diagnostic test for P. falciparum was negative, and no haemoparasites were seen on the peripheral smear of maternal blood.\nInvestigations done were as follows:\nThe neonate was initiated on intravenous artesunate at admission, 12 hr and 24 hr later, then once a day for 5 days. Intravenous empiric antibiotics (cloxacillin and cefotaxime) for presumed neonatal sepsis were also administered. After 48 hours of antibiotics, C-reactive protein (CRP) was done and it was nonreactive, and the antibiotics were stopped. Blood culture and sensitivity was not performed for this patient. A peripheral blood smear done on day 5 of antimalarial treatment revealed no malaria parasites. The neonate was discharged after 5 days of artesunate with great improvement. We were not able to follow up the patient after discharge.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-hour-old neonate was referred to Jinja Regional Referral Hospital, Uganda, with acute high-grade fever, irritability, poor breastfeeding, and yellowing of the eyes and skin.",
+      "history_of_present_illness": "Born after an uneventful pregnancy, the neonate developed high-grade fever, irritability, poor suckling, and clinical jaundice ~36 hours after birth, and received an unknown oral medication prior to hospital referral.",
+      "past_medical_history": "Born to a 29-year-old G2P1+0 mother (blood group A Rh-negative; negative antenatal HIV, syphilis, HBV, and urinalysis) who attended 6 ANC visits and received tetanus toxoid, intermittent preventive sulfadoxine-pyrimethamine (Fansidar), hematinics, and deworming.",
+      "review_of_systems": "Positive for high-grade fever, irritability, poor breastfeeding, and jaundice."
+    },
+    "objective": {
+      "physical_examination": "Conscious, febrile (axillary temperature 38.0 C), and jaundiced (Kramer stage 2), without respiratory distress, pallor, dehydration, dysmorphic features, or organomegaly.",
+      "routine_investigations": "Neonatal CBC was normal (Hb 15.2 g/dL, WBC 11.79 x 10^3/uL, platelets 244 x 10^3/uL), blood group A Rh-negative, total serum bilirubin 200.33 umol/L (direct bilirubin 7.48 umol/L), and non-reactive CRP at 48 hours. Maternal peripheral blood smear and P. falciparum RDT at delivery/postpartum were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Congenital Plasmodium falciparum malaria presenting at 36 hours of life with neonatal fever and unconjugated hyperbilirubinemia (despite maternal IPTp-SP and negative postpartum maternal smear/RDT). Confirmed in the neonate by positive P. falciparum malaria RDT and thin blood smear showing P. falciparum (1.846 x 10^3 infected RBCs/uL). Treated with intravenous artesunate (at 0, 12, and 24 hours, then daily for 5 days) and 48 hours of empiric IV cloxacillin and cefotaxime (stopped after negative CRP); repeat blood smear on day 5 was negative and the neonate was discharged well."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6110555_01",
+  "pair_id": "PMC6110555_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 36-year-old male, heterosexual, complained of a 4-week history of ulceration in the tongue left margin. He denied previous treatment and any systemic diseases. The patient reported multiple sexual partners and episodes of unprotected sex in the past 12 months. Oral findings showed irregular erythematous patches on the dorsum of the tongue and erosive plaques on the tongue left margin with snail track pattern. On physical examination, cutaneous lesions were absent, and a diffuse micropolyadenomegaly was noted. The laboratory tests were positive for TPHA VDRL (1/64), and negative for HIV, hepatitis B and C. The diagnosis of snail track ulcers of secondary syphilis was performed. The patient was treated with two doses of intramuscular benzathine penicillin (total dose of 4,800,000 U IM) with an interval of seven days between each dose. The tongue lesions completely disappeared after the two doses of the penicillin. Although very rarely oral ulceration may be the only manifestation of infection. The two principal oral features of secondary syphilis are mucous patches and maculopapular lesions. The oral features of secondary syphilis can be painless or painful erythematous lesions, grayish-white mucous patches, or irregular linear erosions termed snail track ulcers. The resurgence of syphilis is mainly due to sexual risk behaviors. This cases illustrates the need for include syphilis in the differential diagnosis of oral ulceration and how clinical features should be valued in clinical semiotics.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old heterosexual male presented with a 4-week history of ulceration along the left lateral margin and dorsum of his tongue.",
+      "history_of_present_illness": "The patient developed persistent oral tongue ulcerations 4 weeks prior to presentation without prior treatment.",
+      "past_medical_history": "No known systemic diseases. Reported multiple sexual partners and episodes of unprotected heterosexual intercourse over the preceding 12 months.",
+      "review_of_systems": "Positive for tongue ulcerations; negative for cutaneous rashes or constitutional symptoms."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed irregular erythematous patches on the dorsal tongue and linear/serpiginous erosive plaques along the left lateral border of the tongue exhibiting a classic 'snail-track' ulcer pattern. General physical examination showed diffuse micropolyadenopathy and complete absence of cutaneous lesions.",
+      "routine_investigations": "Serological tests for HIV, hepatitis B, and hepatitis C were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis presenting with isolated oral 'snail-track' tongue ulcers and micropolyadenopathy, established via reactive serum VDRL (titer 1:64) and positive TPHA. Treated with two intramuscular doses of benzathine penicillin G 2.4 million units (total 4,800,000 U) administered 7 days apart, resulting in complete disappearance of the lingual lesions."
+    }
+  }
+}

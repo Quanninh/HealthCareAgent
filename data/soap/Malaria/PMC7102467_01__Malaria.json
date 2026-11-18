@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7102467_01",
+  "pair_id": "PMC7102467_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 46-year-old female without a significant past medical history presented to the emergency room because of fever, myalgias, and body aches for past two days. She denied cough, dysuria, diarrhea, convulsions, and sick contact. However, she recently returned from Nigeria 7 days before presentation. Her initial vital signs were within the normal limit, but she spiked a fever of 101.7 F later on the same day of presentation. Physical examination was normal. She was alert and oriented to time, place, and person. She was ambulatory and was anicteric. Initial white blood cell count (6,000/mul) and hemoglobin (13 g/dl) levels were within normal limits; however, platelet count was low (83,000/muL). A comprehensive metabolic panel was normal with a random blood glucose of 136 mg/dl, creatinine of 1.1 mg/dl, and bicarbonate level of 25 mmoL/L, and a hepatic panel showed mild elevation in total bilirubin (1.2 mg/dL), aspartate transaminase (43 U/L), and alanine transaminase (59 U/L). Urinalysis was negative for blood, and red blood cell was 0-3/HPF. A chest X-ray was negative for an acute pulmonary mass, infiltrate, edema, effusion, or pneumothorax. She had a peripheral blood smear (Figure 1). Microbiology revealed a parasitemia level of 1.6% of Plasmodium falciparum at 1437 hours on Day 0. Despite being on the full dose of oral atovaquone and proguanil, the parasitemia level continued to rise from 1.6% to 7.6% at 0839 hours on Day 1 and then to 12.24% at 1154 hours on Day 2 with persistent intermittent fever spikes. The Center for Disease Control and Prevention (CDC) was contacted, and the patient was supplied with three doses of intravenous artesunate at 2.4 mg/kg per dose. After the second dose, the parasitemia level was at 0.1% at 0458 hours on Day 3, and after the third dose it was negative. A repeat test also was negative. The patient continued to be on atovaquone and proguanil for 3 more days. The patient's symptoms resolved, and she stopped spiking fever and platelets count improved to 229,000/muL. She was discharged with scheduled repeat lab work weekly for 4 weeks as an outpatient.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old female presented to the emergency department with a 2-day history of fever, myalgias, and generalized body aches 7 days after returning from Nigeria.",
+      "history_of_present_illness": "Seven days after returning from travel to Nigeria, the patient developed a 2-day history of fever, myalgias, and body aches. Despite initiating full-dose oral atovaquone-proguanil on admission, she continued to spike intermittent fevers with rapidly escalating parasitemia over the first 48 hours.",
+      "past_medical_history": "No significant past medical history; returned from Nigeria 7 days prior to presentation.",
+      "review_of_systems": "Positive for fever, myalgias, and body aches. Negative for cough, dysuria, diarrhea, convulsions, or sick contacts."
+    },
+    "objective": {
+      "physical_examination": "Alert, oriented, ambulatory, and anicteric with a normal physical examination; spiked a fever of 101.7 F on the day of presentation.",
+      "routine_investigations": "Admission labs: WBC 6,000/uL, Hb 13 g/dL, thrombocytopenia with platelets 83,000/uL, random glucose 136 mg/dL, creatinine 1.1 mg/dL, bicarbonate 25 mmol/L, total bilirubin 1.2 mg/dL, AST 43 U/L, ALT 59 U/L, bland urinalysis (negative blood, 0-3 RBC/HPF), and normal chest X-ray.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Severe imported Plasmodium falciparum malaria with hyperparasitemia (progressing from 1.6% on Day 0 to 7.6% on Day 1 and 12.24% on Day 2 despite oral atovaquone-proguanil). Confirmed by peripheral blood smear microscopy. Treated with 3 doses of CDC-supplied intravenous artesunate at 2.4 mg/kg/dose (reducing parasitemia to 0.1% after dose 2 on Day 3 and 0% after dose 3) followed by 3 additional days of oral atovaquone-proguanil; discharged afebrile with platelets recovered to 229,000/uL."
+    }
+  }
+}

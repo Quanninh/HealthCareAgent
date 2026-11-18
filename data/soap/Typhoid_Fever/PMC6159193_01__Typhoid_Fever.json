@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6159193_01",
+  "pair_id": "PMC6159193_01::Typhoid_Fever",
+  "target_disease": "Typhoid_Fever",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 17-year-old female presented to the physician with a 4 weeks history of fever, predominantly with evening rise of temperature. The temperature fluctuated between 37.7 and 38.8 C. She had no history of cough, haemoptysis or significant loss of weight. Neither a previous history of TB nor a recent exposure to TB was evident. Physical examination of the patient did not reveal any positive information as there was neither hepatosplenomegaly nor lymphadenopathy. Routine haematological investigations were found be largely within normal limits except for elevated C-reactive protein (39 mg l-1) and mildly elevated gamma-glutamyl transferase (56 Ul-1). Her haemoglobin was 11 g dl-1, with slightly reduced mean corpuscular volume, mean corpuscular haemoglobin and mean corpuscular haemoglobin concentration. The investigations for various types of fevers, including Widal test for typhoid/ paratyphoid, malarial parasite, leptospira immunoglobulin M antibodies, Weil Felix test for rickettsial infection, urine test and sputum and blood culture were non-contributing. She tested negative for retrovirus infection. No significant pathology was identified on her chest radiograph. Abdominal ultrasound scan was unremarkable (Figure 1). Finally, an 18-fluorodeoxyglucose (FDG)-positron emission tomography (PET)-CT scan was performed, which demonstrated multiple focal areas of abnormally high FDG uptake within the spleen (Figures 2, 3), which were not identifiable on CT scan images (non-contrast CT and contrast-enhanced images) (Figure 4). No other focal abnormalities were detected anywhere else. MRI of the abdomen was performed for further characterization of the splenic lesions. However, MRI abdomen, including diffusion-weighted images, did not show any nodules in the spleen (Figure 5). To avoid splenectomy for histopathological diagnosis, biopsy of the splenic lesions was planned, after ensuring that the coagulation profile was normal. True-cut biopsy was done by placement of a coaxial needle into one of the lesions under CT scan guidance, after carefully analysing the PET images.\nNecrotizing granulomatous lesions suggestive of TB were identified on histopathology, as described in Figure 6a,b. The patient was started on antitubercular therapy for 9 months. The fever resolved by 3 weeks after the beginning of the treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old female presented with a 4-week history of intermittent fever (37.7-38.8 °C) with an evening rise in temperature.",
+      "history_of_present_illness": "The patient experienced 4 weeks of daily fever fluctuating between 37.7 °C and 38.8 °C, predominantly rising in the evenings, without any localizing respiratory or constitutional symptoms.",
+      "past_medical_history": "No personal history of tuberculosis and no known recent exposure to tuberculosis.",
+      "review_of_systems": "Positive for 4-week fever with evening spikes. Pertinent negatives: no cough, hemoptysis, or significant weight loss."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was completely unremarkable, with no palpable hepatosplenomegaly or peripheral lymphadenopathy.",
+      "routine_investigations": "Hemoglobin 11 g dL^-1 with mildly reduced MCV, MCH, and MCHC; elevated CRP (39 mg L^-1) and mildly elevated GGT (56 U L^-1); remaining hematological and biochemical parameters were normal. Widal test for typhoid/paratyphoid, peripheral smear for malarial parasites, Leptospira IgM antibodies, Weil-Felix rickettsial test, HIV screening, urinalysis, sputum culture, and blood culture were all negative/non-contributory. Chest radiograph and abdominal ultrasound were normal.",
+      "advanced_workup": "Non-contrast and contrast-enhanced abdominal CT and abdominal MRI (including diffusion-weighted imaging) showed no focal splenic lesions. However, 18F-FDG PET-CT demonstrated multiple focal areas of intense FDG avidity confined to the spleen. CT-guided coaxial tru-cut splenic biopsy (correlating with PET-CT images) revealed necrotizing granulomatous inflammation consistent with tuberculosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Isolated splenic tuberculosis presenting as fever of unknown origin, confirmed by 18F-FDG PET-CT and CT-guided tru-cut splenic biopsy showing necrotizing granulomatous lesions. Typhoid/paratyphoid fever, malaria, leptospirosis, rickettsial infection, and HIV were ruled out. The patient was treated with a 9-month regimen of antitubercular therapy, achieving complete defervescence within 3 weeks of treatment initiation."
+    }
+  }
+}

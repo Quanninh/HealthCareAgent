@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10316131_01",
+  "pair_id": "PMC10316131_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "An immunocompetent 45-year-old female presented with a 2-week history of progressive lower back pain, paresthesias, and paraparesis. Within a few days, the patient progressed from 3/5 to 1/5 lower extremity weakness; her neurological findings also included diffuse hyperreflexia, bilateral Babinski signs, and urinary retention. The magnetic ressonance imaging (MRI) of the spine demonstrated an intramedullary expansive lesion at the T8-T9 level that markedly enhanced with contrast [Figures 1 and 2]. Moreover, an MRI of the brain revealed no intraparenchymal lesions, and the computed tomography of the chest/abdomen failed to reveal any other focus of histoplasmosis (i.e., specifically no pulmonary involvement). A lumbar puncture for cerebrospinal fluid (CSF) analysis revealed; 94 cells; 84% neutrophils; 1% glucose; proteins 1779; and lactic acid 13.4 mmol/L. The serology was negative for: toxoplasmosis immunoglobulin M (IgM), human immunodeficiency virus (HIV), hepatitis C virus (HCV), hepatitis B surface antigen (HBsAg), venereal disease research laboratory (VDRL), and the patient denied a history of tuberculosis. Notably, the patient had a longstanding history of requiring a ventriculoperitoneal shunt (with multiple revisions), and later, a ventriculoatrial shunt, despite an undiagnosed or apparent cause.\nUtilizing neuronavigation, an operative microscope, and intraoperative monitoring, the patient underwent a T8-10 laminectomy. As soon as the dura and arachnoid were opened, an expansile intramedullary cord lesion was visualized, and xanthochromic/purulent fluid immediately drained under increased pressure. A well-demarcated cleavage plane between the lesion and cord facilitated gross-total lesion resection. The pathological analysis was diagnostic for histoplasmosis [Figure 3]. Postoperatively, the patient's paraparesis markedly improved, with full recovery of the motor/sensory deficits, and sphincter function.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old female presented with a 2-week history of progressive lower back pain, paresthesias, and paraparesis.",
+      "history_of_present_illness": "An immunocompetent 45-year-old female developed progressive lower back pain, lower extremity paresthesias, and paraparesis over 2 weeks. Within a few days of presentation, her lower extremity motor strength rapidly worsened from 3/5 to 1/5, accompanied by urinary retention.",
+      "past_medical_history": "Immunocompetent; longstanding history of hydrocephalus requiring a ventriculoperitoneal shunt with multiple revisions and later conversion to a ventriculoatrial shunt of undiagnosed etiology. Denied history of tuberculosis.",
+      "review_of_systems": "Positive for lower back pain, paresthesias, progressive bilateral lower extremity weakness, and urinary retention."
+    },
+    "objective": {
+      "physical_examination": "Neurological exam: severe paraparesis (lower extremity strength progressing from 3/5 to 1/5), diffuse hyperreflexia, bilateral Babinski signs, and urinary retention.",
+      "routine_investigations": "Serologies: negative for toxoplasmosis IgM, HIV, HCV, HBsAg, and VDRL.",
+      "advanced_workup": "Spine MRI: intramedullary expansive lesion at T8-T9 with marked contrast enhancement. Brain MRI: no intraparenchymal lesions. Chest and abdomen CT: no pulmonary or systemic focus of infection. Lumbar puncture CSF analysis: 94 cells/mm3 (84% neutrophils), glucose 1%, protein 1,779 mg/dL, and lactic acid 13.4 mmol/L. Intraoperative findings (T8-T10 laminectomy): expansile intramedullary cord lesion draining xanthochromic/purulent fluid under increased pressure with a well-demarcated cleavage plane."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated intramedullary thoracic spinal cord (T8-T9) histoplasmosis in an immunocompetent patient. Confirmation: Histopathological analysis of the resected T8-T9 intramedullary spinal cord lesion diagnostic for Histoplasma capsulatum. Plan & clinical course: Underwent T8-T10 laminectomy with neuronavigation, operative microscope, and intraoperative monitoring for gross-total resection of the intramedullary lesion; postoperatively achieved marked improvement with full recovery of motor, sensory, and sphincter function."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5850760_02",
+  "pair_id": "PMC5850760_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "An 8-year-old female child from Vizianagaram district, Andhra Pradesh, was admitted with fever for 10 days. PF rapid diagnostic test (RDT) was positive. She received injection artesunate for 3 days and SP was administered on day 2. In view of anemia and persistence of fever, she was referred to our hospital. Her peripheral smear confirmed ring forms of PF. Sickling test was negative. Probable artesunate resistance was suspected. Similar treatment with quinine, clindamycin, and primaquine was given. Smear after 72 h and on 28th day was negative for malarial parasites.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old female child from Vizianagaram district, Andhra Pradesh, India, was referred with a 10-day history of persistent fever and anemia despite 3 days of parenteral artesunate and sulfadoxine-pyrimethamine.",
+      "history_of_present_illness": "Admitted locally with 10 days of fever and a positive Plasmodium falciparum RDT, the child received 3 days of injectable artesunate plus sulfadoxine-pyrimethamine on day 2, and was referred due to persistent fever and anemia.",
+      "past_medical_history": "Resident of Vizianagaram district, Andhra Pradesh; treated with 3 days of injectable artesunate and oral SP.",
+      "review_of_systems": "Positive for persistent 10-day fever and anemia."
+    },
+    "objective": {
+      "physical_examination": "Febrile and clinically anemic.",
+      "routine_investigations": "Anemia on blood counts; sickling test was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Probable artesunate-resistant Plasmodium falciparum malaria. Confirmed on referral by peripheral blood smear showing persistent P. falciparum ring forms after 3 days of parenteral artesunate plus SP. Treated with rescue quinine, clindamycin, and primaquine, achieving negative malaria blood smears at 72 hours and on day 28."
+    }
+  }
+}

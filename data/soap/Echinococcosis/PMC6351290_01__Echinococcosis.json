@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6351290_01",
+  "pair_id": "PMC6351290_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "An 18-year-old male worker was admitted to the emergency department due to pain, paresthesia, and coldness of the right lower limb. He has no history of cardiac disease or trauma and otherwise in good health. On physical examination, the right lower limb was cold and with cyanotic toes. The right femoral and popliteal pulses were undetectable. An urgent color-flow duplex scanning had been arranged which revealed a complete obstruction of the right external iliac artery blood flow by a rather big embolus. A trans-thoracic echocardiography showed an anechoic lesion of 36-40 mm originating from the left ventricle (LV). Since it was an endemic area of hydatid disease, a provisional diagnosis of (CHC) had been postulated. An urgent surgical embolectomy through the common femoral artery had been done. The obstruction has been opened with a Fogarty catheter. The catheter harvested a cruor thrombus with a white membrane from the common femoral artery, the histopathology of which was a hydatid tissue as it is shown in Fig. 1a and b. After immediate subsidence of symptoms and signs, and an uneventful post-operative night, a CT scan of thorax revealed a well-defined cystic lesion of 45 mm diameter was protruding into the LV, as shown in Fig. 2a, b, and c. A week later, the patient had been submitted to a standard a sternotomy and under cardiopulmonary bypass between the ascending aorta and the two-vena cava. The LV cavity showed an inside protruding mass, Fig. 3. The mass was incised and the cyst was removed, as shown in Fig. 4a and b). This has been followed by mopping of endocyst, as in Fig. 5, putting stay suture of LV as in Fig. 6, and enlarging of a cystic cavity as in Fig. 7. The perforated myocardium was sutured by prolene, and the cavity closure was achieved by a standard mattress suturing with gel foam, Fig. 8. The postoperative period was uneventful, and the patient was discharged after 9 days with no complications. The follow-up plan consisted of a standard albendazole treatment for 3 cycles each one for 28 days with a period of one-week rest to avoid drug complication. An abdominal ultrasound, and a single brain CT scan to rule out another organ involvement, all of which were negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old male worker presented to the emergency department with acute pain, paresthesia, and coldness of his right lower limb.",
+      "history_of_present_illness": "The previously healthy patient developed acute ischemic pain, paresthesias, and coldness in his right lower extremity prompting emergency admission.",
+      "past_medical_history": "No prior cardiac history or trauma; resided in a hydatid-endemic area.",
+      "review_of_systems": "Positive for right lower limb pain, paresthesia, and coldness."
+    },
+    "objective": {
+      "physical_examination": "The right lower extremity was cold with cyanotic toes and absent right femoral and popliteal arterial pulses.",
+      "routine_investigations": "Urgent lower extremity color-flow duplex ultrasound revealed complete occlusion of the right external iliac artery by a large embolus. Transthoracic echocardiography (TTE) identified a 36-40 mm anechoic cystic lesion originating from the left ventricle. Postoperative abdominal ultrasound was negative.",
+      "advanced_workup": "Urgent right common femoral artery Fogarty embolectomy extracted a cruor thrombus containing a white membrane, which was confirmed on histopathology to be a hydatid cyst membrane. Subsequent thoracic CT demonstrated a well-defined 45-mm cystic lesion protruding into the left ventricular cavity (brain CT was normal). One week later, open-heart surgery via median sternotomy under cardiopulmonary bypass excised the left ventricular endocyst and repaired the myocardium with Prolene mattress sutures over Gelfoam."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary left ventricular cardiac hydatid cyst (45 mm) complicated by acute embolic occlusion of the right external iliac artery, confirmed by histopathological examination of the embolectomy specimen and subsequent open-heart excision of the intracardiac endocyst. Following urgent femoral embolectomy and staged cardiopulmonary-bypass cardiac cystectomy 1 week later, the patient was discharged uneventfully on postoperative day 9 on three 28-day cycles of oral albendazole (separated by 1-week intervals)."
+    }
+  }
+}

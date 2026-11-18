@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4347388_01",
+  "pair_id": "PMC4347388_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 58-year-old man, a native of Tamazula, Durango in Mexico, complained of a 2-month history of odynophagia, hoarseness, non-productive cough, polyarthralgia, and weight loss. He denied fever and chills, but a few days after initial symptoms began, he presented erythematous papules and ulcers on the body trunk that subsequently spread to the extremities (Figure 1A and B). The patient had worked as a cockfight handler in traditional fairs during most of his life. No comorbidities were present, and a QuantiFERON-TB Gold Test in tube was negative. Computed tomography (CT) showed a stippled calcification on mediastinal lymph nodes (Figure 1C). It was after a second skin biopsy that the presence of yeasts consistent with histoplasmosis was finally seen (Figure 1D ). He was started on itraconazole (400 mg/day), and 4 months later, his symptoms improved (Figure 2 ).\nHistoplasmosis is one of the most common systemic mycosis in Mexico, and generally, it is described in epidemic outbreaks or as an occupational illness when people accidentally inhale spores of Histoplasma capsulatum from soil, especially when enriched by bird or bat droppings. Chronic and progressive course is typical of disseminated histoplasmosis in non-immunocompromised adults of middle age or older, and this clinical manifestation represents 1% of all symptomatic cases. Theoretically, dissemination occurs when the fungus spreads systemically from a primary pulmonary focus during a period of months to years. High rates (27-40%) of chronic progressive disseminated histoplasmosis have been reported in some Latin American countries, especially in patients with acquired immunodeficiency syndrome (AIDS).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 58-year-old Mexican man presented with a 2-month history of odynophagia, hoarseness, non-productive cough, polyarthralgia, weight loss, and disseminated erythematous papules and ulcers.",
+      "history_of_present_illness": "The patient, a native of Tamazula, Durango, Mexico, developed odynophagia, hoarseness, dry cough, polyarthralgia, and weight loss over 2 months. A few days after symptom onset, he developed erythematous papules and ulcers on his trunk that subsequently spread to his extremities.",
+      "past_medical_history": "No medical comorbidities. Occupational/epidemiological history: Native of Tamazula, Durango, Mexico; worked most of his life as a cockfight handler at traditional fairs.",
+      "review_of_systems": "Positive for odynophagia, hoarseness, non-productive cough, polyarthralgia, weight loss, and truncal/extremity skin papules and ulcers. Denied fever and chills."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous exam: disseminated erythematous papules and ulcers over the trunk and extremities.",
+      "routine_investigations": "QuantiFERON-TB Gold In-Tube test: negative.",
+      "advanced_workup": "Chest CT: stippled calcification in mediastinal lymph nodes. Second skin biopsy histopathology: intracellular yeasts consistent with Histoplasma capsulatum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Chronic progressive disseminated histoplasmosis in an immunocompetent cockfight handler. Confirmation: Second skin biopsy histopathology demonstrating intracellular yeast forms consistent with Histoplasma capsulatum, supported by mediastinal lymph node stippled calcifications on chest CT. Plan & clinical course: Treated with oral itraconazole 400 mg/day, with marked clinical and cutaneous improvement at 4-month follow-up."
+    }
+  }
+}

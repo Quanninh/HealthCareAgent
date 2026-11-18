@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8633852_02",
+  "pair_id": "PMC8633852_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 19-year-old male patient was admitted (August 2020) with complaints of severe generalized papular and pustular skin lesions over different parts of the body (extremities, face, upper back, and chest) for the last two years (Figures 1(c) and 1(d)). He consulted multiple physicians and received multiple antibiotics/antifungals like the previous case without any significant clinical improvement of the health condition. Later, he developed fever for two months, a productive cough with mucopurulent sputum, with a history of significant weight loss. He also experienced chronic diarrhoea in recent times.\nHe had a history of addiction to cannabis and amphetamine. However, he denies any history of injection drug abuse and unprotected sexual exposure. He did not give any history of contact with smear-positive pulmonary tuberculosis patients or blood transfusion. All of his family members were in good health. On examination, the patient was cachectic, moderately anaemic, vitals within normal limits except temperature (102 F), and no lymphadenopathy. There were generalized papulopustular lesions involving extremities, face and upper back, chest with exudation, and a few bullous lesions over the forehead. He also had oral candidiasis and mild hepatomegaly.\nLaboratory profiles are given in Table 1. An ELISA for HIV was found positive. He was diagnosed with WHO clinical stage 2 HIV/AIDS. Viral load and CD4 count were not done as the virological service in this regard was shut down due to COVID-19 pandemic. He was put on TDF + 3TC + EFV regimen. He was well, discharged, and referred to a divisional hospital (his hometown, 250 km away from Dhaka) for regular follow-up and management. On telephonic follow-up, we came to know that he was stable for three months and then again developed high fever and progressive loss of consciousness. We advised to admit to hospital; however, due to COVID-19 crisis, long-distance travel was limited. He was admitted to a local hospital and unfortunately died after three days of illness.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 19-year-old male presented with a 2-year history of generalized papulopustular skin lesions and a 2-month history of fever, productive mucopurulent cough, chronic diarrhea, and severe weight loss.",
+      "history_of_present_illness": "After 2 years of refractory generalized papulopustular eruptions treated unsuccessfully with multiple courses of antibiotics and antifungals, the patient presented in August 2020 with 2 months of persistent fever, productive cough with mucopurulent sputum, chronic diarrhea, and marked weight loss.",
+      "past_medical_history": "History of cannabis and amphetamine addiction; denied injection drug use, unprotected sexual exposure, blood transfusions, or tuberculosis contact.",
+      "review_of_systems": "Positive for generalized papulopustular rash, 2-month fever, productive cough, chronic diarrhea, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Cachectic, moderately anemic, and febrile (102 F) with otherwise normal vital signs and no lymphadenopathy. Examination showed generalized exudative papulopustular lesions over the extremities, face, upper back, and chest with forehead bullous lesions, oral candidiasis, and mild hepatomegaly.",
+      "routine_investigations": "HIV ELISA was positive (CD4 count and HIV viral load testing were unavailable due to COVID-19 pandemic laboratory shutdowns).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Newly diagnosed HIV/AIDS presenting with generalized papulopustular dermatosis, oral candidiasis, chronic diarrhea, and wasting, with diagnostic viral load/CD4 testing and subsequent emergency travel restricted by the COVID-19 pandemic. Discharged on tenofovir, lamivudine, and efavirenz (TDF + 3TC + EFV); after 3 months of stability, he developed acute high fever and progressive coma and died 3 days after admission to a local hospital."
+    }
+  }
+}

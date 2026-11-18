@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3139286_01",
+  "pair_id": "PMC3139286_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 14-year-old female was referred to us from the ENT department of our hospital for palatal perforation associated with regurgitation. She also had a complaint of diminished vision since 4 years and impaired hearing. There was no history or signs suggestive of sexual abuse. There was no history of STD in parents.\nOn examination, there was a perforation of about 1 cm diameter involving the hard palate. Her upper incisors were peg-shaped and widely spaced, suggestive of Hutchinson's teeth [Figure 1]. There was no lymphadenopathy. There was no apparent bony abnormality. No evidence of neurological or cardiovascular involvement. Her intelligence was apparently normal.\nOn investigating, her venereal disease research laboratory (VDRL) testing was reactive at 1:64 dilutions. She was nonreactive for HIV. Slit-lamp examination revealed dot-like corneal opacities suggestive of interstitial keratitis and audiogram showed sensory neural deafness. The findings of interstitial keratitis, sensory-neural deafness and Hutchinson's teeth completed the Hutchinson's triad in this patient. X-ray of legs was normal. CBC, electrocardiogram, X-ray chest, and ultrasonography abdomen were normal. Her parents were VDRL reactive. The girl was treated with three weekly doses of Benzathine penicillin 2.4 million units intramuscularly. Her parents were also treated with same regimen. On follow-up, some healing of the perforation was observed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 14-year-old female presented with a hard palatal perforation causing nasal regurgitation, accompanied by a 4-year history of decreased vision and hearing impairment.",
+      "history_of_present_illness": "The patient was referred from the ENT department for evaluation of a hard palate perforation associated with nasal regurgitation of food/liquids, alongside progressive bilateral visual diminution over the preceding 4 years and hearing loss.",
+      "past_medical_history": "No history or signs of sexual abuse. Parents denied a known history of STDs, though subsequent parental testing revealed reactive VDRL in both parents.",
+      "review_of_systems": "Positive for hard palate perforation, nasal regurgitation, 4-year visual decline, and hearing loss."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed an approximately 1-cm perforation of the hard palate and widely spaced, peg-shaped upper central incisors (Hutchinson's teeth). Slit-lamp ophthalmic examination showed dot-like stromal corneal opacities consistent with interstitial keratitis. There was no lymphadenopathy, skeletal deformity, cardiovascular abnormality, or neurological deficit, and intelligence was normal.",
+      "routine_investigations": "CBC, ECG, chest X-ray, leg radiographs, and abdominal ultrasound were all normal. Serum HIV test was non-reactive.",
+      "advanced_workup": "Pure-tone audiometry confirmed sensorineural deafness, completing Hutchinson's triad (Hutchinson's teeth, interstitial keratitis, and eighth-nerve sensorineural deafness)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed late congenital syphilis presenting with classic Hutchinson's triad and a gummatous hard-palate perforation, established via reactive serum VDRL at 1:64 dilution in the patient and reactive VDRL in both parents. Both the patient and her parents were treated with intramuscular benzathine penicillin G 2.4 million units once weekly for 3 weeks, with partial healing of the palatal perforation noted on follow-up."
+    }
+  }
+}

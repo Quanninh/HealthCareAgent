@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6243347_01",
+  "pair_id": "PMC6243347_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 66-year-old female, who was previously well, presented with a 2-week history of night sweats, new onset headache, dizziness, intermittent double vision and unsteady gait. On physical examination, she walked with a left-sided hemiplegic droop, leaning towards the left side. She was initially referred for an MRI which, on T1 weighted post-gadolinium images, showed several lesions in the right temporal lobe, the largest measuring up to 2.4 x 1.9 cm with intense irregular ring-like enhancement (Figures 1d and 2d). The lesions were associated with T2 hyperintensity and the differential diagnoses of the MRI findings included high-grade astrocytoma, lymphoma, metastases and infection, and the patient was referred for an 18F-fludeoxyglucose (FDG) positron emission tomography (PET)/CT scan (Discovery ST, GE Healthcare, Waukesha, WI) to assess for possible malignancy. She was injected with 12 mCi of 18F-FDG and imaged approximately 75 min after the injection. The PET/CT scan failed to show extracerebral 18F-FDG-avid lesions, and the intensely enhancing cerebral lesions described on MRI were hypometabolic [maximum standardized uptake value (SUVmax) 5.4] when compared with normal grey matter (SUVmax 10.1 for the basal ganglia and 7.6 for the sensorimotor cortex) (Figures 1a-c and 2a-c), which increased the likelihood of an infectious aetiology. Following the failure of a diagnostic/therapeutic trial of antimicrobials for toxoplasmosis, a brain biopsy and culture confirmed the presence of Histoplasma capsulatum. The patient was also diagnosed with human immunodeficiency virus (HIV) infection and was put on highly active antiretroviral therapy. Her central nervous system (CNS) histoplasmosis was treated with i.v. liposomal amphotericin B (at a dose of 3 mg kg-1 day-1) and her neurological symptoms gradually improved. A 2-year follow-up MRI showed complete resolution of the CNS histoplasmosis lesions (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old previously well female presented with a 2-week history of night sweats, new-onset headache, dizziness, intermittent diplopia, and unsteady gait.",
+      "history_of_present_illness": "Previously healthy 66-year-old woman developed 2 weeks of night sweats, headache, dizziness, intermittent double vision, and gait instability.",
+      "past_medical_history": "Previously well; diagnosed with HIV infection during this evaluation.",
+      "review_of_systems": "Positive for night sweats, headache, dizziness, intermittent double vision, and unsteady gait."
+    },
+    "objective": {
+      "physical_examination": "Neurological/gait exam: walked with a left-sided hemiplegic droop, leaning toward the left side.",
+      "routine_investigations": "Diagnosed with HIV infection on serological testing.",
+      "advanced_workup": "Brain MRI: multiple right temporal lobe lesions (largest 2.4 x 1.9 cm) with intense irregular ring enhancement on post-gadolinium T1 and surrounding T2 hyperintensity. Whole-body 18F-FDG PET/CT: no extracerebral FDG-avid lesions; right temporal lobe ring-enhancing lesions were hypometabolic (SUVmax 5.4 vs. 10.1 in basal ganglia and 7.6 in sensorimotor cortex), favoring infection over malignancy. Brain biopsy: performed after failure of an empiric anti-toxoplasmosis trial."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Central nervous system (right temporal lobe) histoplasmosis in a patient with newly diagnosed HIV infection (malignancy and toxoplasmosis ruled out). Confirmation: Brain biopsy histopathology and fungal culture confirming Histoplasma capsulatum. Plan & clinical course: Treated with IV liposomal amphotericin B (3 mg/kg/day) and initiated on highly active antiretroviral therapy (HAART), achieving gradual neurological recovery and complete resolution of CNS lesions on 2-year follow-up brain MRI."
+    }
+  }
+}

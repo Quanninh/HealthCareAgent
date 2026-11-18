@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12623096_01",
+  "pair_id": "PMC12623096_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 26-year-old pregnant woman was referred to the Dermatology Clinic of Shiraz University of Medical Sciences with a painless erythematous, 4 x 2.5-cm tumoral lesion on her nose that had been present for 2 years (Figure 1). The lesion was nonmobile, nonpulsatile, and not tender on palpation, and there was no ulcer surrounding or on the lesion. The general physical exam was normal, and no palpable lymph nodes were detected on the neck and axilla. In addition, initial lab data were requested, and no abnormality was seen.\nA punch biopsy was performed. Our initial list of differential diagnosis included CL, cutaneous tuberculosis (lupus vulgaris), sarcoidosis, cutaneous B-cell lymphoma, Kaposi sarcoma (KS), and squamous cell carcinoma (SCC). Histopathological investigation indicated histiocyte infiltration of the dermis, along with plasma cells and lymphocytes. Many histiocytes contained tiny, uniform, spherical creatures, which a pathologist determined to be Leishmania amastigotes (Figures 2(a), 2(b)). Unfortunately, we did not have the laboratory techniques for determining the species of Leishmania. However, based on clinical presentation and prior studies on the dominant species in Shiraz, Iran, the most likely species is L. tropica.\nIntravenous Amphotericin B was administered at a daily dose of 3 mg/kg as first-line treatment, but no significant response was observed after 7 days of treatment. After delivery, we administered 20 mg/kg/day intramuscular glucantime for 3 weeks, and due to the site and the large size of the lesion, surgical excision was performed. As shown in Figure 3, the lesion was completely resolved after surgery, with only the surgical scar remaining. The patient was seen at 6 months and 1 year after treatment, and no recurrence occurred.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old pregnant woman was referred to the dermatology clinic in Shiraz, Iran, with a painless erythematous tumoral lesion on her nose present for 2 years.",
+      "history_of_present_illness": "The patient had a slowly growing, painless, non-ulcerated erythematous tumoral mass on her nose for 2 years prior to referral during pregnancy.",
+      "past_medical_history": "Pregnant at the time of initial presentation; resident of Shiraz, Iran (an area endemic for Leishmania tropica).",
+      "review_of_systems": "Negative for local pain, tenderness, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "A 4 x 2.5 cm painless, erythematous, non-mobile, non-pulsatile, non-tender, non-ulcerated tumoral mass on the nose; general physical examination was normal with no palpable cervical or axillary lymphadenopathy.",
+      "routine_investigations": "Baseline laboratory tests were within normal limits.",
+      "advanced_workup": "Nasal punch biopsy histopathology revealed a dermal infiltrate of histiocytes, plasma cells, and lymphocytes, with numerous uniform spherical Leishmania amastigotes packed inside histiocytes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Differential diagnoses of lupus vulgaris, sarcoidosis, cutaneous B-cell lymphoma, Kaposi sarcoma, and squamous cell carcinoma were excluded by punch biopsy histopathology demonstrating abundant intra-histiocytic Leishmania amastigotes, confirming tumoral Cutaneous Leishmaniasis (presumed Leishmania tropica based on regional epidemiology in Shiraz). Initial treatment during pregnancy with intravenous amphotericin B (3 mg/kg/day for 7 days) yielded no significant response; postpartum administration of intramuscular meglumine antimoniate (Glucantime 20 mg/kg/day for 3 weeks) followed by surgical excision achieved complete resolution with only a surgical scar and no recurrence at 6-month and 1-year follow-up."
+    }
+  }
+}

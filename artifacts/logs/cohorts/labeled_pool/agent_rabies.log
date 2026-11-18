@@ -1,0 +1,13 @@
+{
+  "disease": "Rabies",
+  "slug": "rabies",
+  "total_input": 25,
+  "total_output": 25,
+  "label_counts": {
+    "EXCLUDED_NON_HUMAN": 3,
+    "EXCLUDED_NON_TARGET_CASE": 12,
+    "UNRESOLVED": 7,
+    "POSITIVE": 3
+  },
+  "status": "complete"
+}

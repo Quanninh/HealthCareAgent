@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5850760_03",
+  "pair_id": "PMC5850760_03::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 12-year-old female child hailing from Visakhapatnam district, Andhra Pradesh, was admitted at the referral hospital for fever and icterus. She was started on intravenous (IV) artesunate, clindamycin treatment as RDT was positive for both PF and Plasmodium vivax malaria. She was referred after 3 days of treatment as she developed respiratory distress, hypotension, cola-colored urine, and elevated renal parameters. At admission, her blood smear showed multiple PFand vivax parasites with anemia and thrombocytopenia. Investigations were suggestive of intravascular hemolysis, sepsis with acute kidney injury. Delayed parasite clearance due to occurrence of renal failure was suspected, and hence, she was continued on artesunate. She was also started on quinine along with clindamycin as rescue therapy as we had encountered artesunate-resistant cases previously. Broad-spectrum antibiotics and supportive measures were administered. Her peripheral smear repeated after 48 h showed occasional falciparum ring forms and after 72 h, absent hemoparasites. However, she developed disseminated intravascular coagulation, refractory shock, and acute respiratory distress syndrome and succumbed on 4th day of admission.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 12-year-old female child from Visakhapatnam district, Andhra Pradesh, India, was referred with fever, icterus, respiratory distress, hypotension, and cola-colored urine after 3 days of intravenous artesunate and clindamycin therapy.",
+      "history_of_present_illness": "Initially admitted to a referring hospital for fever and jaundice with a rapid diagnostic test positive for both Plasmodium falciparum and P. vivax, the child received 3 days of IV artesunate and clindamycin but developed acute respiratory distress, hypotension, hemoglobinuria (cola-colored urine), and worsening renal function.",
+      "past_medical_history": "Resident of Visakhapatnam district, Andhra Pradesh; received 3 days of prior IV artesunate and clindamycin.",
+      "review_of_systems": "Positive for fever, jaundice, respiratory distress, and cola-colored urine."
+    },
+    "objective": {
+      "physical_examination": "Febrile, icteric, hypotensive, and in acute respiratory distress.",
+      "routine_investigations": "Admission labs demonstrated anemia, thrombocytopenia, intravascular hemolysis, hemoglobinuria (cola-colored urine), elevated renal parameters (acute kidney injury), sepsis, and subsequent disseminated intravascular coagulation (DIC) and ARDS.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal severe mixed Plasmodium falciparum and Plasmodium vivax malaria with delayed parasite clearance, intravascular hemolysis/blackwater fever, acute kidney injury, DIC, ARDS, and refractory shock. Referral peripheral blood smear confirmed multiple P. falciparum and P. vivax parasites (decreasing to occasional P. falciparum rings at 48 hours and clearing at 72 hours). Treated with continued IV artesunate plus rescue quinine, clindamycin, broad-spectrum antibiotics, and ICU organ support, but died on hospital day 4."
+    }
+  }
+}

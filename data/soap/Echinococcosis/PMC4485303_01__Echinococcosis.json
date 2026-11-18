@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4485303_01",
+  "pair_id": "PMC4485303_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "An 11-year- old female patient complaining with abdominal pain and abdominal mass was admitted to our hospital. The patient had been suffering from these symptoms for three months and before admission she was diagnosed as abdominal hydatid cyst. On physical examination: a 10x10 cm mass was palpable in the pelvis extending up to the umbilicus and was dull on percussion. Biochemical, haematological, hormonal laboratory parameters were all normal and the tumour markers such as beta-HCG, AFP, CEA, serum catecholamines were negative. Serology for hydatid disease was also negative. Abdominal computed tomography showed a 110x63x90 mm mass with solid internal structure, which displaced the right common iliac artery and vein anteriorly. Hyper vascular septa with highly resistant arterialize was observed in the mass (Fig.1).\nThe patient was operated under general anaesthesia after preoperative preparations. Although the preoperative diagnosis was an adnexal mass of ovary, intraoperatively it was seen that the mass was retroperitoneally situated. The patient mass was located retroperitoneally at the conjoined with right and left common iliac artery and vein and attached to the L5-S1 vertebrae by posterior capsule. At the posterior of L5 spinal capsule there was a neural connection with the tumour wall. We removed the tumoural mass completely and dissected neural connection which was the main and only connection of spinal cord with the tumour. The excised tumour was well-demarcated, non-cystic and measuring (110x63x90mm (Fig.2).\nAt the histopathological examination; lobular mass with dirty white appearance in cross section was found. Staining with S-100 dye was reported as ganglioneuroma with schwann type stromal mature ganglion cells and immune positive. The patient's postoperative neurological examination was normal and was discharged on seventh day of hospitalization.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 11-year-old girl presented with a 3-month history of lower abdominal pain and a palpable abdominal mass.",
+      "history_of_present_illness": "The patient experienced abdominal pain and a lower abdominal mass for 3 months and had been diagnosed at an outside facility with an abdominal hydatid cyst prior to referral.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for abdominal pain and lower abdominal mass."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed a dull, 10 x 10 cm mass palpable in the pelvis extending up to the umbilicus.",
+      "routine_investigations": "Hematological, biochemical, and hormonal profiles were normal; serum tumor markers (beta-hCG, AFP, CEA, catecholamines) and hydatid disease serology were all negative.",
+      "advanced_workup": "Abdominal CT demonstrated a 110 x 63 x 90 mm solid internal mass with hypervascular high-resistance arterial septa displacing the right common iliac artery and vein anteriorly. Exploratory laparotomy revealed a well-demarcated, non-cystic 110 x 63 x 90 mm retroperitoneal tumor at the iliac bifurcation attached to the L5-S1 vertebrae with a posterior L5 spinal nerve root connection; histopathology and S-100 immunohistochemistry of the completely excised lobulated dirty-white mass confirmed a mature ganglioneuroma with Schwannian stroma and mature ganglion cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary presacral/retroperitoneal ganglioneuroma (110 x 63 x 90 mm) initially misdiagnosed as an abdominal hydatid cyst or ovarian adnexal mass, confirmed by negative hydatid serology and S-100-positive histopathology. The patient underwent complete surgical excision, had a normal postoperative neurological examination, and was discharged on postoperative day 7."
+    }
+  }
+}

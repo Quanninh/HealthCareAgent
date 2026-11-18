@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4782405_01",
+  "pair_id": "PMC4782405_01::Lymphatic_Filariasis",
+  "target_disease": "Lymphatic_Filariasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 17-year-old female patient presented with a subcutaneous swelling on the flexor surface of the lower part of the left arm for last 3 weeks. The swelling was accompanied by mild pain. It was 2 cm x 2 cm, spherical in shape with well-defined margins. The swelling was freely mobile without any signs of acute inflammation. The patient did not reveal any other swelling in the body. Routine hematologic tests showed complete blood count and erythrocyte sedimentation rate within normal limits. Peripheral smear prepared from the patient's blood did not demonstrate any parasite. Absolute eosinophil count and eosinophil count were within normal limits (absolute eosinophil count 200/mm3, eosinophils 2%).\nClinical diagnosis of neurofibroma/lipoma was made by a treating physician and the patient was referred to the Department of Pathology for FNAC, which was done using a 10 mL syringe and a 22 gauge needle under aseptic precautions yielded pus. Aspirated material was spread on slides, air-dried, and stained with Giemsa stain and Ziehl-Neelsen stain for acid-fast bacilli.\nCytological examination of Giemsa-stained smear showed a large number of microfilaria in the background of degenerated inflammatory cells that comprised of neutrophils, eosinophils, histiocytes, and lymphocytes. The microfilaria had typical features of the presence of hyaline sheath, cephalic space, and tail end devoid of nuclei. Thus, these Wuchereria belonged to the species bancrofti [Figure 1].\nZiehl-Neelsen staining did not show any acid-fast bacilli.\nThe patient was treated with diethylcarbamazine [100 mg ter die sumendum (TDS)] for 21 days and kept on follow-up. The swelling subsided by the end of the 3rd week.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old female presenting with a 3-week history of a mildly painful subcutaneous nodule on the flexor surface of the distal left arm.",
+      "history_of_present_illness": "The patient noticed a solitary, mildly painful subcutaneous swelling on the lower flexor aspect of her left arm 3 weeks prior to presentation, without systemic symptoms or other nodules.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for mild localized left arm pain and swelling; negative for swellings elsewhere."
+    },
+    "objective": {
+      "physical_examination": "Local examination of the distal left arm flexor surface revealed a solitary, well-defined, freely mobile, spherical subcutaneous nodule measuring 2 x 2 cm without overlying warmth or acute inflammation.",
+      "routine_investigations": "CBC, ESR, and peripheral blood smear were normal without parasites; absolute eosinophil count was normal at 200/mm3 (2% eosinophils).",
+      "advanced_workup": "Fine-needle aspiration cytology (FNAC) of the left arm nodule yielded purulent aspirate; Giemsa-stained cytological smears demonstrated numerous sheathed Wuchereria bancrofti microfilariae (distinct cephalic space and nuclei-free tail tip) amidst degenerated neutrophils, eosinophils, histiocytes, and lymphocytes. Ziehl-Neelsen AFB staining was negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed subcutaneous filarial nodule caused by Wuchereria bancrofti, established by FNAC demonstration of sheathed microfilariae; tuberculosis was ruled out by negative AFB stain.\nPlan & Outcome: Treated with oral diethylcarbamazine (DEC) 100 mg three times daily for 21 days, resulting in complete resolution of the subcutaneous swelling by week 3."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10337781_01",
+  "pair_id": "PMC10337781_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 62-year-old woman was admitted with acute pain, coldness, and anesthesia in the right lower limb. No palpable pulses were observed in the popliteal, posterior tibial, or dorsalis pedis. The pulses in the left lower limb were normal. The patient had a history of rheumatoid arthritis (RA) but did not receive regular treatment. She had a history of cigarette smoking (36 pack/years). One month ago, the patient was infected with COVID-19 and was treated at home due to mild symptoms. The result of patient's nucleic acid test for COVID-19 was negative on admission. The patient received serological analysis to detect hypercoagulable and vasculitis disorders, including antiphospholipid antibodies. Laboratory test results showed no apparent abnormalities. Computed tomographic angiography (CTA) of the limb revealed no contrast agent over the entire course of the right common iliac artery, external iliac artery, or proximal segment of the internal iliac artery (Figure 1). Electrocardiography revealed sinus tachycardia (Supplementary Figures S1, S2). Echocardiography and cervical artery duplex ultrasonography were non-contributory. The chest x-ray was normal, and aortic CTA was performed before surgery, demonstrating a large filling defect caused by a floating thrombus in the aortic arch and the descending thoracic aorta (Figure 2, Supplementary Figure S3).\nThe diagnosis of acute lower extremity ischemia due to a floating aortic thrombus was clear based on the patient's symptoms, signs, and imaging data. Figure 3 was showcasing a timeline with relevant data from the episode of care. A femoropopliteal thromboembolectomy was performed, which removed the embolus and restored limb perfusion (Supplementary Figure S4). After surgery, she received low-molecular-weight heparin treatment (Enoxaparin, 6000I U/12 h). We administered adequate anticoagulation using rivaroxaban at a daily dosage of 20 mg to prevent thrombotic progression post-discharge. Additionally, cilostazol, a phosphodiesterase inhibitor, was prescribed to enhance blood supply to the lower extremities and prevent platelet aggregation. Concurrently, patients were advised to stop smoking. The patient was apprised of the potential for thrombus re-dislodgement and advised to undergo anticoagulation therapy for a minimum of 3-6 months, with subsequent treatment contingent upon the management of rheumatoid arthritis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 62-year-old woman presented with acute pain, coldness, and anesthesia in her right lower limb.",
+      "history_of_present_illness": "The patient was admitted with acute onset of severe pain, coldness, and sensory loss in the right lower extremity one month after recovering at home from a mild respiratory illness.",
+      "past_medical_history": "History of untreated rheumatoid arthritis, 36 pack-year cigarette smoking history, and mild COVID-19 infection treated at home 1 month prior to admission.",
+      "review_of_systems": "Positive for acute right lower limb pain, coldness, and numbness/anesthesia."
+    },
+    "objective": {
+      "physical_examination": "Right lower extremity was cold and anesthetic with absent palpable popliteal, posterior tibial, and dorsalis pedis pulses; left lower extremity pulses were normal.",
+      "routine_investigations": "Routine laboratory tests and hypercoagulability/vasculitis panels (including antiphospholipid antibodies) showed no abnormalities. ECG showed sinus tachycardia. Chest X-ray, echocardiography, and cervical artery duplex ultrasonography were normal.",
+      "advanced_workup": "Lower extremity CT angiography (CTA) demonstrated complete occlusion with absent contrast opacification throughout the right common iliac, external iliac, and proximal internal iliac arteries. Preoperative thoracic aortic CTA revealed a large filling defect caused by a floating thrombus in the aortic arch and descending thoracic aorta."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Acute right lower extremity arterial ischemia secondary to embolization from a floating thoracic aortic thrombus 1 month post-COVID-19 (admission SARS-CoV-2 nucleic acid test was negative). Treated with emergency femoropopliteal thromboembolectomy restoring limb perfusion, postoperative subcutaneous enoxaparin (6000 IU every 12 hours), and discharge anticoagulation with oral rivaroxaban (20 mg daily for at least 3-6 months) plus cilostazol and smoking cessation counseling."
+    }
+  }
+}

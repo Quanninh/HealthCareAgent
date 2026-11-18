@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4710411_01",
+  "pair_id": "PMC4710411_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 52-year-old male farm worker from Ceara state, northeast Brazil, presented with a 4-month history of skin lesions. Lesions appeared first on the face and legs, than spread across much of his body, including the genitalia, soles of feet, and scalp. He reported daily fevers for the first 2 weeks of illness. On examination the patient had 178 lesions of different sizes and aspects; ulcerated, crusted (Figure 1A and B ), papular, nodular, and pustular. Many had apparent bacterial superinfections (Figure 1C). The remainder of the physical examination was normal. A complete blood count and liver and kidney function tests were within normal limits. Serological tests for syphilis and human immunodeficiency virus were negative. A skin biopsy imprint revealed amastigotes. Skin culture in Novy-MacNeal-Nicolle medium grew promastigotes characterized as Leishmania (Viannia) braziliensis by isoenzymes. The leishmanin skin test was positive. Bacterial superinfection of the ulcers was treated with cephalexin. Because of a contraindication to treatment with pentavalent antimony (individual > 50 years of age), and lack of medical infrastructure where he lived for providing amphotericin B, the patient was treated with oral fluconazole, 9 mg/kg per day. Over the following 6-month period of treatment, the lesions healed completely, many leaving no scars (Figure 1D). Disseminated cutaneous leishmaniasis is an uncommon presentation of Leishmania (V.) braziliensis infection. Most of the lesions are thought to be due to bloodstream dissemination, not to multiple sand fly bites. The reason that some people develop disseminated cutaneous leishmaniasis is not fully understood.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old male farm worker from Ceara state, Brazil, presented with a 4-month history of 178 widespread polymorphic skin lesions across his face, trunk, extremities, scalp, soles, and genitalia.",
+      "history_of_present_illness": "Four months prior to presentation, the patient developed skin lesions on his face and legs accompanied by daily fevers during the first 2 weeks of illness, which subsequently disseminated across his entire body.",
+      "past_medical_history": "Farm worker from Ceara state, northeast Brazil.",
+      "review_of_systems": "Positive for daily fevers during the initial 2 weeks of illness and widespread skin lesions."
+    },
+    "objective": {
+      "physical_examination": "A total of 178 polymorphic cutaneous lesions—including ulcerated, crusted, papular, nodular, and pustular lesions, many with secondary bacterial superinfection—distributed across the face, legs, trunk, scalp, soles of the feet, and genitalia; remainder of the physical examination was normal.",
+      "routine_investigations": "CBC, liver function, and renal function tests were normal; HIV and syphilis serologies were negative.",
+      "advanced_workup": "Skin biopsy imprint smear demonstrated Leishmania amastigotes, leishmanin skin test was positive, and skin culture on Novy-MacNeal-Nicolle (NNN) medium grew promastigotes identified by isoenzyme electrophoresis as Leishmania (Viannia) braziliensis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Skin biopsy imprint, positive leishmanin skin test, and NNN culture with isoenzyme characterization confirmed Disseminated Cutaneous Leishmaniasis caused by Leishmania (Viannia) braziliensis with secondary bacterial superinfection (HIV and syphilis excluded). Secondary bacterial infection was treated with oral cephalexin, and because age >50 years contraindicated pentavalent antimonials and local infrastructure lacked intravenous amphotericin B capacity, a 6-month course of high-dose oral fluconazole (9 mg/kg/day) was administered, achieving complete healing of all 178 lesions."
+    }
+  }
+}

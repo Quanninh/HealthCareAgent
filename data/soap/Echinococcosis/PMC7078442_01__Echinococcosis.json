@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7078442_01",
+  "pair_id": "PMC7078442_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 72-year-old woman was referred to the outpatient gynecologic department due to suspected uterine prolapse. She had a history of three vaginal deliveries, did not smoke and reported menopause at the age of 52. She was treated with valsartan for chronic hypertension, while she reported no history of jaundice or surgical operations. At the age of 62 she was diagnosed with an abnormal Pap test (low-grade squamous intraepithelial lesion - LSIL) with negative HPV DNA test. However, during follow-up, no subsequent cervical pathology was detected.\nOn the current physical examination, uterine prolapse stage III (POP-Q) was confirmed. The body mass index of the patient was 28 kg/m2 and all vital signs were normal; the temperature was 36.2  C, the heart rate was 68 beats/min, the blood pressure was 120/75 mmHg, the respiration rate was 18 breaths/min and O2 saturation was 100%. Serum liver and renal tests, as well as chest X-Ray findings were also normal. As part of a standard preoperative protocol, transvaginal sonography (4-9 MHz transducer) was performed. This identified a cystic multilocular tumor (max diameter 9 cm), with solid components (maximal diameter <7 mm) and presence of acoustic shadow under the right adnexa, while no abnormalities were detected in the left adnexa or the uterus. Serum CEA and Ca-125 values were normal. Using the International Ovarian Tumor Analysis (IOTA) ADNEX model, we calculated a low risk of malignancy 1.4%. After an oncology review, a laparoscopic approach was decided. Thus, a laparoscopically assisted vaginal hysterectomy (with removal of the adnexa) was offered to the patient (Fig. 1). Intraoperatively, the abdomen and the pelvis were explored without any further abnormal findings. A frozen section study of the right adnexa ruled out malignancy and the estimated blood loss was 300 ml. During the next 3 days, all the vital signs were stable and the patient was discharged.\nThe histopathology specimen revealed a hydatid cyst of the ovary. Additionally, a postoperative abdominal Computed Tomography (CT) revealed no other sites of infection, including the liver; thus, the ovary was considered the primary site of infection. A referral to the outpatient department of Infectious Diseases was offered to the patient. During follow-up, to date, there was no recurrence of the disease.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old postmenopausal woman was referred for evaluation of symptomatic stage III uterine prolapse.",
+      "history_of_present_illness": "The patient presented to the gynecology outpatient clinic with pelvic organ prolapse and was found on routine preoperative transvaginal ultrasound to have an asymptomatic 9-cm right adnexal multilocular cystic mass.",
+      "past_medical_history": "Three prior normal vaginal deliveries, menopause at age 52, chronic hypertension treated with valsartan, and a history of cervical LSIL (HPV-DNA negative) at age 62 with normal subsequent follow-up; lifelong nonsmoker with no prior surgeries.",
+      "review_of_systems": "Positive for uterine prolapse; negative for jaundice or abdominal pain. Home medication: valsartan."
+    },
+    "objective": {
+      "physical_examination": "BMI 28 kg/m2; vital signs were normal: temperature 36.2 C, heart rate 68 beats/min, blood pressure 120/75 mmHg, respiratory rate 18 breaths/min, and SpO2 100%. Pelvic examination confirmed stage III uterine prolapse (POP-Q).",
+      "routine_investigations": "Liver and renal function tests, serum CEA, serum CA-125, and chest X-ray were all normal. Preoperative transvaginal ultrasonography (4-9 MHz) identified a 9-cm multilocular right adnexal cystic mass with small solid components (<7 mm) and acoustic shadowing (IOTA ADNEX malignancy risk 1.4%), with a normal uterus and left adnexa.",
+      "advanced_workup": "Laparoscopically assisted vaginal hysterectomy with bilateral salpingo-oophorectomy was performed (intraoperative frozen section of the right ovary ruled out malignancy); permanent histopathology of the right ovary revealed a primary ovarian hydatid cyst. Postoperative abdominal CT confirmed no hepatic or extra-ovarian hydatid cysts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated right ovarian hydatid cyst (9 cm) incidentally discovered during workup for stage III uterine prolapse, confirmed by postoperative histopathological examination and negative abdominal CT staging. The patient was discharged on postoperative day 3 after laparoscopically assisted vaginal hysterectomy and bilateral salpingo-oophorectomy, referred to Infectious Diseases, and remained free of recurrence on follow-up."
+    }
+  }
+}

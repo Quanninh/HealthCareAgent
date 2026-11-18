@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12278972_01",
+  "pair_id": "PMC12278972_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 2-month-old infant (the weight 5kg) was presented to our department with a 2-week history of a diffuse pruritic rash, which started on his hands and arms before spreading rapidly over his entire body, presented as white, flat or minimally raised, moist plaques. A hernia body with a size of 2x2x1cm could be found at the navel of the infant and the surface is smooth and can be recovered. There is no hepatosplenomegaly during physical examination. Protruding hernia can be seen on the left scrotal wall, which can be retrieved (Figure 1). The infant felt painful of lower extremity and result in refusal to move it. Radiographic findings showed the multiple bony lesions characteristicare were periostitis and epiphysis with lower extremity (Figure 2). Extensive long-strip hyperplasia was seen in both femurs, tibia and fibula, the early calcification zone was widened and the density was increased, and bone destruction was seen in both tibia and proximal medial side (Wimberger sign). Differential diagnosis at that time included secondary syphilis, psoriasis, and acrodermatitis enteropathica.  \nFurther investigations, including routine blood test, hypersensitive c-reactive protein, human immunodeficiency virus (HIV), syphilis, hepatitis B, and C, were conducted. The results confirmed the diagnosis of secondary syphilis, indicating that the infection had been transmitted from the mother during pregnancy. TPPA assay was positive, and the rapid plasma reagin titre was 1:64. The result of TPPA was positive for his mother, and the rapid plasma reagin titre was 1:16, but his father was negative. Based on the above findings, a diagnosis of secondary syphilis was made.\nAfter admission, and penicillin 5WU was given to the buttock muscle on the first and the second day and no adverse reactions occurred. On the third day, penicillin 50WU was given intravenously for 1/8 hour. The symptoms of the infant gradually became normal after one week.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 2-month-old male infant presented with a 2-week history of a diffuse pruritic rash and painful pseudoparalysis of the lower extremities.",
+      "history_of_present_illness": "Two weeks prior to presentation, the infant developed white, flat-to-minimally-raised moist plaques on his hands and arms that rapidly generalized over his entire body, accompanied by lower-extremity pain and refusal to move his legs (Parrot pseudoparalysis).",
+      "past_medical_history": "Maternal testing revealed positive maternal TPPA and RPR (titer 1:16), whereas the father tested negative for syphilis.",
+      "review_of_systems": "Positive for generalized rash, umbilical and left scrotal reducible bulges, and lower limb pain/refusal to move."
+    },
+    "objective": {
+      "physical_examination": "Weight was 5 kg. Cutaneous examination showed generalized white, flat-to-minimally-elevated moist plaques across the body, hands, and arms. Abdominal and genital examination revealed a reducible 2 x 2 x 1 cm umbilical hernia, a reducible left indirect inguinoscrotal hernia, and no hepatosplenomegaly. Musculoskeletal examination showed lower-extremity tenderness with refusal to move the legs.",
+      "routine_investigations": "Routine blood tests, hs-CRP, and serologies for HIV, hepatitis B, and hepatitis C were negative or unremarkable. Lower-extremity radiographs demonstrated bilateral symmetric diaphyseal periostitis and metaphyseal osteochondritis/epiphyseal changes involving the femora, tibiae, and fibulae, with widened dense provisional calcification zones and bilateral proximal medial tibial metaphyseal bone destruction (Wimberger sign).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed early congenital syphilis (reported as congenital/secondary syphilis with Parrot pseudoparalysis and radiographic Wimberger sign; psoriasis and acrodermatitis enteropathica ruled out), established via positive infant TPPA and serum RPR titer of 1:64 (fourfold higher than the maternal RPR titer of 1:16). Treated with intramuscular penicillin (50,000 U) on hospital days 1 and 2 followed by intravenous penicillin (500,000 U every 8 hours) starting on day 3 without adverse reactions, achieving clinical resolution of symptoms within 1 week."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11695208_02",
+  "pair_id": "PMC11695208_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "Laboratory tests such as complete blood count revealed a white blood cells (WBCs) count of 26,900/muL, 90.9% of them were neutrophils. They also showed elevated inflammatory markers; C-reactive protein (CRP) was 71.3, and later erythrocyte sedimentation rate (ESR) test was 60 mm/h. His other tests which included liver and renal function tests, electrolytes, and urine examination were all within normal limits. MRI study of the entire spine with gadolinium contrast provided evidence of T2 hyperintense signal changes at the level of (10-11-12) thoracic vertebrae, often related to an inflammatory process with no compressive lesion (Figure 1), so electromyography (EMG) was not performed. The patient was managed with short courses of intravenous (IV) antibiotic methylprednisolone solumedrol for 5 days, but he did not get better. During that time we continued with testing the CSF which was turbid with WBCs count of 30/muL, 95% of them are neutrophils with 2760 RBCs, glucose of 63 mg/dL, elevated levels of protein about 67 mg/dL, and immunoglobulin G (IGg) value in the CSF of 5.22 mg/dL with normal CSF IgG Index. There are no malignant cells detected in the examined CSF sample. Computed tomography (CT) of the chest excluded the tuberculosis (TB) infection and when (GeneXpert) PCR in the CSF was performed, it was negative. Immunology tests of anti-aquaporin-4 (APQ-4)-IgG autoantibodies and anti-myelin oligodendrocyte glycoprotein (MOG) autoantibodies were negative. Electrophoresis showed positive oligoclonal bands correlated with systemic inflammation. The patient mentioned a history of unpasteurized dairy products so a real-time PCR for brucella bacteria was performed and it was positive, while it is not usual for brucella bacteria to cause transverse myelitis. We were not able to identify the brucella type because that is not available in our country. The patient opted to transfer his care to another hospital, where the medical team considered the potential benefit of plasmapheresis. However, the intervention proved ineffective due to the advanced disease stage. At that time the patient was commenced on a 6-week course of doxycycline 100 mg twice daily and rifampicin 600 mg once daily, alongside an intensive physical therapy program aimed at optimizing good outcomes.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A male patient presented with acute thoracic myelopathy associated with a history of consuming unpasteurized dairy products.",
+      "history_of_present_illness": "The patient presented with neurological deficits localized to the lower thoracic spinal cord and did not improve after an initial 5-day course of intravenous methylprednisolone (Solumedrol) and empiric IV antibiotics.",
+      "past_medical_history": "Positive epidemiological history of consuming unpasteurized dairy products.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "WBC 26,900/uL with 90.9% neutrophils, CRP 71.3, ESR 60 mm/h. Liver and renal function tests, serum electrolytes, and urinalysis were all within normal limits.",
+      "advanced_workup": "Gadolinium-enhanced whole-spine MRI demonstrated non-compressive T2 hyperintense intramedullary signal changes at the T10-T12 thoracic vertebral levels consistent with transverse myelitis. Chest CT excluded pulmonary tuberculosis. Lumbar puncture yielded turbid CSF with WBC 30/uL (95% neutrophils), RBC 2,760/uL, glucose 63 mg/dL, elevated protein ~67 mg/dL, CSF IgG 5.22 mg/dL with normal CSF IgG index, positive oligoclonal bands on electrophoresis, negative cytology for malignant cells, and negative CSF GeneXpert TB PCR. Serum anti-aquaporin-4 (AQP4)-IgG and anti-MOG autoantibodies were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Real-time PCR for Brucella spp. was positive, confirming Brucella-induced acute transverse myelitis (T10-T12), while neuromyelitis optica spectrum disorder (AQP4/MOG) and tuberculosis were ruled out. Following unsuccessful trials of IV methylprednisolone (5 days) and plasmapheresis at a referral center, the patient was treated with a 6-week regimen of oral doxycycline (100 mg BID) and rifampicin (600 mg QD) alongside intensive physical therapy."
+    }
+  }
+}

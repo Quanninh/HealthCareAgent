@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11572413_04",
+  "pair_id": "PMC11572413_04::Chikungunya",
+  "target_disease": "Chikungunya",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 62-year-old male presented with an abrupt onset of high-grade fever and arthralgia without any rash for around seven days, followed by an abrupt onset of decreased mobility, lying down still in one posture, a marked reduction in food intake, staring upward in one direction for extended periods, and a significant decrease in interaction, which started two days prior to presentation. His Chikungunya IgM was positive, the c-reactive protein was 45, and the erythrocyte sedimentation rate was 30 in the first hour. He was started on Ryles tube feeding, intravenous infusion with normal saline and Ringer lactate, and paracetamol infusion for fever. On mental status examination, he had immobility, mutism, staring, posturing, negativism, stereotypy, withdrawal, and automatic obedience. No improvement was observed with intramuscular lorazepam (6 mg on day one, 10 mg on day two, and 14 mg on day three).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 62-year-old male presented with a 7-day history of abrupt-onset high-grade fever and arthralgia, followed by a 2-day history of immobility, posturing, marked reduction in food intake, prolonged upward staring, and decreased interaction.",
+      "history_of_present_illness": "The patient developed an abrupt onset of high-grade fever and arthralgia without rash approximately 7 days prior to presentation. Two days before presentation, he developed an abrupt onset of decreased mobility, lying still in a single posture, markedly reduced oral intake, staring upward in one direction for extended periods, and a significant reduction in social interaction.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for high-grade fever, arthralgia, immobility, anorexia, staring spells, and social withdrawal; negative for skin rash."
+    },
+    "objective": {
+      "physical_examination": "Mental status examination revealed immobility, mutism, staring, posturing, negativism, stereotypy, withdrawal, and automatic obedience.",
+      "routine_investigations": "C-reactive protein (CRP): 45. Erythrocyte sedimentation rate (ESR): 30 mm in the first hour.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Acute chikungunya infection presenting with catatonia. Confirmation: Positive serum Chikungunya IgM. Management and outcome: Initiated on Ryle's tube feeding, intravenous normal saline and Ringer's lactate infusions, and intravenous paracetamol for fever. Treated with escalating intramuscular lorazepam (6 mg on day 1, 10 mg on day 2, and 14 mg on day 3), with no clinical improvement observed in catatonic symptoms."
+    }
+  }
+}

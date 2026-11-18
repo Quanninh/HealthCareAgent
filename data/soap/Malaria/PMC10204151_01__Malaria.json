@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10204151_01",
+  "pair_id": "PMC10204151_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "In June 2021, a 7-year-old male without comorbidities from the south of Bahia (northeastern Brazil), residing in a peri-urban area, reported fever, chills, fatigue, headache, myalgia, dyspnea, pallor, apathy, and reduced food intake. Other family members reported similar symptoms. The patient was transferred to a reference hospital for infectious diseases in Salvador/Bahia. The patient presented with pallor, tachycardia, and tachypnea without signs of respiratory distress. A physical examination revealed painless hepatomegaly and splenomegaly. Laboratory tests identified hemoglobin 6.2 g/dL, hematocrit 17.4%, leukocytes 5,820/mm3 and platelets 50,000/microL. The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgM rapid test result was positive, although the nasal swab SARS-CoV-2 reverse transcription-quantitative PCR (RT-qPCR) result was negative. \nAlthough a non-malaria-endemic region, a recent malaria outbreak was confirmed in a rural settlement neighboring the region where the patient and his family resided. A rapid test for malaria was positive for P. vivax, confirmed by microscopy and quantitative PCR (qPCR) after genomic DNA extraction from slides (). A thin blood-smear examination identified 378.3 parasites/microL of blood, parasitemia of half a cross. The patient was initially treated with three doses of intravenous artesunate 2.4 mg/kg/dose every 12 h, then two doses of 2.4 mg/kg/dose daily, followed by oral chloroquine with primaquine, resulting in full recovery.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-year-old male from northeastern Brazil presented with fever, chills, fatigue, headache, myalgia, dyspnea, pallor, apathy, and reduced food intake.",
+      "history_of_present_illness": "In June 2021, the patient developed fever, chills, fatigue, headache, myalgia, dyspnea, pallor, apathy, and decreased appetite, and was transferred to an infectious disease reference hospital in Salvador, Bahia.",
+      "past_medical_history": "No known comorbidities. Resided in a peri-urban area in southern Bahia neighboring a rural settlement with a recent malaria outbreak; multiple family members had similar febrile symptoms.",
+      "review_of_systems": "Positive for fever, chills, fatigue, headache, myalgia, dyspnea, pallor, apathy, and anorexia."
+    },
+    "objective": {
+      "physical_examination": "Presented with pallor, tachycardia, and tachypnea without signs of respiratory distress. Abdominal examination revealed painless hepatomegaly and splenomegaly.",
+      "routine_investigations": "Admission CBC: hemoglobin 6.2 g/dL, hematocrit 17.4%, leukocytes 5,820/mm3, and platelets 50,000/uL.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Severe Plasmodium vivax malaria with severe anemia and thrombocytopenia, and prior/concurrent SARS-CoV-2 exposure. Confirmed by positive P. vivax rapid diagnostic test, thin blood smear microscopy (378.3 parasites/uL; parasitemia of 0.5+), and qPCR; SARS-CoV-2 IgM rapid test was positive while nasal swab SARS-CoV-2 RT-qPCR was negative. Treated with intravenous artesunate 2.4 mg/kg/dose every 12 hours for 3 doses, then 2.4 mg/kg/dose daily for 2 doses, followed by oral chloroquine and primaquine, achieving full recovery."
+    }
+  }
+}

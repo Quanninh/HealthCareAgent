@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6417330_03",
+  "pair_id": "PMC6417330_03::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "A 75-year-old female had a history of fall at home after which she became unconscious and was brought to our hospital emergency. After resuscitation, a CT scan was taken which showed a right temporal lobe hematoma [Figure 9]. She underwent craniotomy and evacuation of hematoma after which she regained consciousness. She had an uneventful postoperative period until the 2nd week. Postoperative CT scan showed no fresh bleeding [Figure 10]. She was set to be discharged when she developed mild fever and altered sensorium. She was transferred to Intensive care unit and evaluated. Investigations revealed she had thrombocytopenia (63,000/mm3) which prompted us to evaluate her for dengue. She was positive for NS1 antigen and IgM antibody. Her INR was 1.3 and APTT was 40 s. She was administered platelet concentrates without a notable rise in her thrombocytopenia. After 4 days, her consciousness further deteriorated and chest X-rays revealed she had severe chest infection [Figure 11a and b]. She was ventilated as she further developed respiratory failure sequelae to ARDS. Throughout her illness, her platelet counts never recovered to normal levels despite several platelet transfusions. Finally, she succumbed to her disease after a prolonged period of ventilation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 75-year-old female recovering in the hospital 2 weeks after craniotomy for a traumatic right temporal lobe hematoma developed acute mild fever and altered sensorium just prior to planned discharge.",
+      "history_of_present_illness": "Initially admitted unconscious after a fall at home with a right temporal lobe hematoma that was successfully evacuated via craniotomy (with full recovery of consciousness and a clean postoperative CT), the patient developed mild fever and altered sensorium in the 2nd postoperative week, followed 4 days later by worsening obtundation, severe pneumonia, and ARDS.",
+      "past_medical_history": "Recent fall at home with traumatic right temporal lobe intracerebral hematoma status post craniotomy evacuation 2 weeks prior.",
+      "review_of_systems": "Positive for prior fall/unconsciousness and subsequent 2nd-week postoperative fever, altered sensorium, and respiratory failure."
+    },
+    "objective": {
+      "physical_examination": "Initially unconscious after fall, regaining consciousness post-craniotomy; in the 2nd postoperative week, developed mild fever, progressive deterioration in consciousness, and respiratory failure.",
+      "routine_investigations": "Second-week ICU workup revealed persistent thrombocytopenia (platelet count 63,000/mm3, refractory to repeated platelet concentrate transfusions), INR 1.3, and aPTT 40 s. Chest X-rays 4 days later showed severe bilateral pneumonia and ARDS.",
+      "advanced_workup": "Initial admission head CT showed a right temporal lobe hematoma; postoperative head CT prior to dengue onset showed complete evacuation without fresh bleeding."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Hospital/postoperatively acquired dengue fever with refractory thrombocytopenia (63,000/mm3), encephalopathy, severe pneumonia, and fatal ARDS following craniotomy for traumatic intracerebral hemorrhage, confirmed by positive dengue NS1 antigen and dengue IgM antibody testing. Managed in the ICU with multiple platelet concentrate transfusions and prolonged mechanical ventilation, but she succumbed to her illness."
+    }
+  }
+}

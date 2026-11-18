@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9070060_01",
+  "pair_id": "PMC9070060_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 55-year-old man was hospitalized due to complaints of lower back and neck pains approximately 3 months ago. He had a history of atrial fibrillation and chronic obstructive liver disease, and was engaged in animal husbandry. The Rose Bengal test yielded a positive result, and the Wright test score was 1/160. Blood culture showed absence of bacterial growth, and vegetation was not detected on echocardiography (ECHO). Rifampicin and doxycycline were administered as the patient's clinical manifestations were compatible with those of brucellosis, and the Wright test at the external center yielded a positive result. The patient was discharged on volition. \nThree months later, the patient presented with worsening rhythm disturbance over the previous 4-5 days, shortness of breath, right leg pain, and elevated body temperature. Wright agglutination was 1/5120, and Ig M and Ig G were detected on enzyme-linked immunosorbent assay. Hence, ECHO was performed. Vegetation was detected in the mitral valve (Figures 1 and 2). The patient had a toxic appearance. He was administered with rifampicin, doxycycline, and cefotaxime for two weeks. Brucella growth was determined by blood culture. The patient was then transferred to the Department of Cardiovascular Surgery. The mitral valve was resected, and bioprosthetic mitral valve replacement was performed. The treatment was continued postoperatively, and the patient did not develop any complications. The patient survived and remained healthy. \nBrucellosis can affect several organs and tissues. It frequently involves the aortic valve, followed by the mitral valve. \nThe prevalence of brucella endocarditis is 1% and is the most frequent cause of death. The prognosis is poor in young patients. Hence, short-term and long-term follow-ups must be performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old male livestock worker treated for brucellosis 3 months earlier presented with a 4-to-5-day history of worsening cardiac arrhythmia, shortness of breath, right leg pain, and high fever.",
+      "history_of_present_illness": "A 55-year-old man who had been hospitalized 3 months earlier for low back and neck pain and diagnosed with brucellosis (positive Rose Bengal, Wright titer 1:160, negative blood cultures and baseline echocardiogram; discharged against medical advice on oral rifampicin and doxycycline) returned 3 months later with 4-5 days of worsening arrhythmia, dyspnea, right lower extremity pain, and fever.",
+      "past_medical_history": "Atrial fibrillation, chronic obstructive liver disease, and serologically diagnosed brucellosis 3 months prior; occupationally engaged in animal husbandry.",
+      "review_of_systems": "Positive for worsening palpitations/arrhythmia, dyspnea, right leg pain, fever, and prior low back and neck pain."
+    },
+    "objective": {
+      "physical_examination": "Toxic-appearing and febrile with cardiac rhythm disturbance.",
+      "routine_investigations": "Echocardiography demonstrated a vegetation on the native mitral valve.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Serum Wright tube agglutination titer rose to 1:5,120, anti-Brucella IgM and IgG ELISA were positive, blood cultures grew Brucella spp., and echocardiography demonstrated a mitral valve vegetation, confirming relapsed/progressive Brucella native mitral valve endocarditis. Treated preoperatively for 2 weeks with oral rifampicin, oral doxycycline, and IV cefotaxime, followed by surgical mitral valve resection and bioprosthetic mitral valve replacement with continued postoperative antimicrobial therapy, achieving uncomplicated survival and recovery."
+    }
+  }
+}

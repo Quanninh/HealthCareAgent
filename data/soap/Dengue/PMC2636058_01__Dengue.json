@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2636058_01",
+  "pair_id": "PMC2636058_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 28-year-old woman was hospitalized for acute-onset high fever, myalgia, arthralgia and ocular pain. Detailed history- taking, hematological and serological investigations established the diagnosis of classic dengue fever (a positive IgM antibody titer); and ruled out mimicking infections like leptospirosis, typhoid, malaria, syphilis, as well as collagen vascular diseases. Seven days later, during the convalescent phase, the patient noticed blurring of the inferior visual field in the right eye. She presented to us two weeks after the ocular symptoms had started. Best corrected visual acuity was 20/20 bilaterally. On slit-lamp examination, anterior segment was unremarkable in both eyes; no anterior vitreous cells or flare was observed. Fundus examination of the right eye showed a patchy area of partially faded retinal whitening in the superotemporal quadrant of the macula, just encroaching into the fovea, with attenuation and sclerosis of the macular division of the superotemporal branch retinal artery [Fig. 1]. The left fundus revealed a single cotton-wool spot towards the edge of the inferotemporal arcade. Midphase fluorescein angiogram of the right eye showed narrowing of the affected arterial segment, blocked background fluorescence in the area of whitening and delayed arteriovenous transit in the affected vessels. Staining and leakage of the occluded artery was observed in the late phase [Fig. 2]. Kinetic central field charting with Bjerrum's screen showed an inferonasal field defect corresponding to the area of arterial occlusion. The patient was referred for a detailed cardiac and carotid evaluation - including carotid doppler study and echocardiography - which was unremarkable. She was followed up for three months. Her visual acuity remained 20/20 in both eyes, but the inferior field defect persisted in the right eye.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old woman presented with a 2-week history of blurring of the inferior visual field in the right eye that began 7 days after acute dengue fever.",
+      "history_of_present_illness": "The patient was hospitalized for acute-onset high fever, myalgia, arthralgia, and ocular pain, and 7 days later during the convalescent phase noticed an inferior visual field defect in her right eye, presenting for ophthalmic evaluation 2 weeks after visual symptom onset.",
+      "past_medical_history": "Hospitalized 3 weeks prior for classic dengue fever.",
+      "review_of_systems": "Positive for right inferior visual field blurring, preceded by high fever, myalgia, arthralgia, and ocular pain."
+    },
+    "objective": {
+      "physical_examination": "Best-corrected visual acuity 20/20 bilaterally; unremarkable anterior segment slit-lamp exam without anterior vitreous cells or flare. Right eye fundoscopy revealed a patchy area of partially faded retinal whitening in the superotemporal macula encroaching on the fovea with attenuation and sclerosis of the macular division of the superotemporal branch retinal artery; left eye fundoscopy showed a single cotton-wool spot near the inferotemporal arcade.",
+      "routine_investigations": "Initial hematological and serological workup ruled out leptospirosis, typhoid, malaria, syphilis, and collagen vascular diseases. Midphase fluorescein angiography of the right eye showed narrowing of the occluded arterial segment, blocked background fluorescence in the whitened retinal area, delayed arteriovenous transit, and late-phase arterial staining and leakage. Bjerrum's screen kinetic central visual field charting demonstrated a corresponding right inferonasal visual field defect. Carotid Doppler ultrasound and echocardiography were normal.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Branch retinal artery occlusion (macular division of the right superotemporal branch retinal artery) complicating convalescent classic dengue fever, confirmed by positive dengue IgM antibody titer and fluorescein angiography after excluding embolic cardiac/carotid and autoimmune causes. Observed over 3 months of follow-up, maintaining 20/20 bilateral visual acuity with a persistent right inferior visual field defect."
+    }
+  }
+}

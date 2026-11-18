@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9853042_01",
+  "pair_id": "PMC9853042_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A premature baby boy was born at 34 weeks 1/7 days of pregnancy to a G2P2, 29-year-old mother. The infant had Apgar scale scores of 10, 10, and 10 at 1, 5, and 10 min, respectively. The birth weight was 2,200 g. The pregnant woman went to the hospital for prenatal care at 16 weeks 1/7 days of pregnancy, and serological tests for hepatitis B, hepatitis C, human immunodeficiency virus (HIV) and syphilis by chemiluminescent immunoassay (CLIA) were negative. The oral glucose tolerance testing (OGTT) results were as follows: fasting: 5.8 mmol/L, 1 h after meal: 11.7 mmol/L, and 2 h after meal: 11.8 mmol/L. A diagnosis of gestational diabetes was made, and diet control was recommended. At 24 weeks of gestation, the woman developed a generalized body maculopapular rash that was non-itchy. She went to the dermatology department of the local hospital, and the dermatologist confirmed that the HIV, hepatitis B and syphilis screening results were negative at 3 months of pregnancy. The maculopapular rash was considered to be related to pregnancy, and it subsided without treatment. The pregnant woman went to the hospital for prenatal care at 32 weeks 4/7 days of pregnancy, and the treponemal serological test (CLIA) was positive. The toluidine red unheated serum test (TRUST) titer was 1:16. Subsequently, her husband was screened for syphilis. The treponemal serological test (CLIA) was positive, and the TRUST titer was 1:32. The woman reported that she had unprotected sexual behaviors with her husband during pregnancy. Both individuals were treated with 2.4 million U of benzathine penicillin by intramuscular injection every 7 days for a total of three cycles.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A preterm male neonate (born at 34+1 weeks' gestation, birth weight 2,200 g) was evaluated at birth following third-trimester diagnosis and treatment of maternal secondary/latent syphilis acquired during pregnancy.",
+      "history_of_present_illness": "The infant's 29-year-old mother (G2P2) had negative first-trimester (16+1 weeks) prenatal screening for syphilis (CLIA), HIV, HBV, and HCV, and was diagnosed with diet-controlled gestational diabetes. At 24 weeks' gestation, she developed a self-resolving generalized non-pruritic maculopapular rash that was misattributed to pregnancy based on her negative 16-week screen. Repeat prenatal screening at 32+4 weeks' gestation revealed maternal syphilis seroconversion (CLIA positive, TRUST 1:16; husband also tested CLIA positive, TRUST 1:32), and both parents were treated with 3 weekly intramuscular injections of benzathine penicillin G 2.4 million units prior to preterm delivery at 34+1 weeks.",
+      "past_medical_history": "Preterm male infant born at 34+1 weeks' gestation (Apgar scores 10, 10, and 10) to a 29-year-old G2P2 mother with gestational diabetes (OGTT: fasting 5.8, 1-h 11.7, 2-h 11.8 mmol/L) who acquired gestational secondary syphilis (rash at 24 weeks, TRUST 1:16 at 32+4 weeks) via unprotected marital intercourse during pregnancy.",
+      "review_of_systems": "Maternal history positive for a generalized non-pruritic maculopapular rash at 24 weeks' gestation."
+    },
+    "objective": {
+      "physical_examination": "The preterm male neonate weighed 2,200 g at birth with Apgar scores of 10 at 1, 5, and 10 minutes.",
+      "routine_investigations": "Maternal 16+1 week HBV, HCV, HIV, and syphilis CLIA screens were negative; maternal 24-week OGTT confirmed gestational diabetes.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed gestational maternal syphilis seroconversion (secondary syphilis rash at 24 weeks' gestation, diagnosed at 32+4 weeks via positive maternal treponemal CLIA and serum TRUST titer of 1:16, with paternal CLIA positive and TRUST 1:32) resulting in preterm delivery at 34+1 weeks' gestation. Both the mother and her husband were treated with intramuscular benzathine penicillin G 2.4 million units once weekly for 3 cycles."
+    }
+  }
+}

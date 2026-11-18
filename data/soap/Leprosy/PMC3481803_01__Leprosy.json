@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3481803_01",
+  "pair_id": "PMC3481803_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A 45 year old man presented to us with multiple large joint pains of 8 days duration followed by development of multiple painful red raised lesions over both palms and back of both legs associated with redness of eyes.\nThere was no history of upper respiratory tract infection, gastro-intestinal disturbances or fever. There was no past history of diabetes mellitus, hypertension or tuberculosis.\nOn examination multiple tender erythematous papules and firm nodules were present on both palms and both legs. [Figure 1] Bilateral scleral congestion was present. [Figure 2]. Both knee and ankle joints were swollen and tender with restricted movements.\nThere was no clinical evidence of Hansen's disease and no acid fast bacilli were detected by slit skin smear using modified Ziehl Nielsen technique.\nBased on history and clinical examination a tentative diagnosis of Erythema elevatum diutinum (EED) was made which was substantiated further by a skin biopsy from a representative lesion showing a hyperkeratotic, acanthotic epidermis overlying dermis containing perivascular mixed inflammatory infiltrate comprising lymphocytes, neutrophils along with nuclear dust and fibrinoid necrosis of the vessel wall and extravasation of RBCs. There was presence of focal areas of basophilic collagen [Figures 3 and 4].\nAll hematological and biochemical tests were within normal limits except raised total leukocyte count and ESR. Other immunological and serological tests were negative. Ophthalmological opinion was sought and the clinical diagnosis of scleritis was confirmed.\nPatient was started on 100 mg dapsone per day along with NSAIDS, to which there was a dramatic response with clearance of cutaneous, ocular and joint lesions within a couple of weeks' time and the patient was lost to follow-up after 3 months, by which time his lesions had considerably cleared up and he was advised to stop Dapsone.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old man presented with an 8-day history of polyarthralgia followed by painful erythematous raised skin lesions over both palms and posterior legs and bilateral ocular redness.",
+      "history_of_present_illness": "Eight days prior to presentation, the patient developed pain across multiple large joints, rapidly followed by the eruption of painful erythematous papules and nodules over his bilateral palms and posterior lower legs accompanied by redness of both eyes.",
+      "past_medical_history": "No past history of diabetes mellitus, hypertension, or tuberculosis.",
+      "review_of_systems": "Positive for large joint pain, painful palmar and leg skin lesions, and red eyes; negative for fever, upper respiratory tract infection, or gastrointestinal symptoms."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed multiple tender erythematous papules and firm nodules over both palms and the posterior aspects of both legs. Ocular examination showed bilateral scleral congestion (confirmed as scleritis by ophthalmology consultation), and musculoskeletal examination demonstrated swelling, tenderness, and restricted range of motion of both knee and ankle joints, without clinical signs of Hansen's disease.",
+      "routine_investigations": "Routine hematological and biochemical parameters were normal except for leukocytosis and an elevated ESR.",
+      "advanced_workup": "Immunological and serological panels were negative, and slit-skin smear with modified Ziehl-Neelsen staining was negative for acid-fast bacilli. Skin biopsy from a representative lesion demonstrated a hyperkeratotic, acanthotic epidermis and a perivascular dermal mixed inflammatory infiltrate of lymphocytes and neutrophils with nuclear dust (leukocytoclasia), fibrinoid necrosis of vessel walls, erythrocyte extravasation, and focal basophilic collagen."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Clinical and histopathological findings of leukocytoclastic vasculitis with basophilic collagen degeneration confirmed erythema elevatum diutinum (EED) with associated bilateral scleritis and inflammatory arthritis (excluding Hansen's disease). Treatment with oral dapsone 100 mg daily and NSAIDs produced dramatic clearance of cutaneous, ocular, and articular manifestations within 2 weeks, with sustained resolution at 3 months when dapsone discontinuation was advised."
+    }
+  }
+}

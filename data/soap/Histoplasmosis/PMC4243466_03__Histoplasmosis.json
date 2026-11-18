@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4243466_03",
+  "pair_id": "PMC4243466_03::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 31-year-old male was admitted with biopsy confirmed cutaneous histoplasmosis. He had developed plaques a few months prior to commencing ART. His baseline CD4 count was 29 cells/mm3 in August 2013. A viral load and CD4 count at 3 months of ART were 580 copies/mm3 and 278 cells/mm3, respectively. He was referred for investigation of pancytopenia.  Table 3 shows his baseline blood results. A bone marrow aspiration as well as biopsy was undertaken to investigate for fungal infiltration of the bone marrow but the biopsy showed AFB. He was commenced on rifampicin, isoniazid, ethambutol, and pyrazinamide. A day later the SD Bioline MPT64 TB Antigen Rapid result was negative. Clarithromycin was added to the TB treatment to effectively treat the disseminated nontuberculous mycobacteria infection. Culture revealed NTM but PCR failed to determine the species.\nAt his 6-month follow-up visit he had a normal full blood count. Follow-up blood results are captured in Table 2. He continues his TB treatment together with clarithromycin and ART.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old HIV-positive male with previously biopsied cutaneous histoplasmosis was referred for evaluation of pancytopenia 3 months after initiating antiretroviral therapy.",
+      "history_of_present_illness": "The patient developed cutaneous plaques confirmed on biopsy as cutaneous histoplasmosis a few months prior to starting ART (baseline CD4 count 29 cells/mm3 in August 2013). At 3 months of ART, he was referred for investigation of persistent pancytopenia.",
+      "past_medical_history": "HIV infection (baseline CD4 29 cells/mm3) and biopsy-proven cutaneous histoplasmosis.",
+      "review_of_systems": "Referred for pancytopenia; on antiretroviral therapy."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Baseline blood counts showed pancytopenia.",
+      "advanced_workup": "Immunology/virology at 3 months of ART: CD4 count 278 cells/mm3, HIV viral load 580 copies/mm3. Bone marrow aspiration and biopsy: positive for acid-fast bacilli (AFB) on biopsy without fungal infiltration; SD Bioline MPT64 TB Antigen Rapid test negative; mycobacterial culture grew nontuberculous mycobacteria (NTM; species undetermined by PCR)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated nontuberculous mycobacterial (NTM) bone marrow infection causing pancytopenia in an HIV-positive patient with prior cutaneous histoplasmosis. Confirmation: Bone marrow biopsy showing acid-fast bacilli, negative MPT64 TB antigen assay, and bone marrow culture isolating nontuberculous mycobacteria (NTM). Plan & clinical course: Initially started on rifampicin, isoniazid, ethambutol, and pyrazinamide, with clarithromycin added once NTM was identified alongside continued ART; achieved a normal full blood count at 6-month follow-up."
+    }
+  }
+}

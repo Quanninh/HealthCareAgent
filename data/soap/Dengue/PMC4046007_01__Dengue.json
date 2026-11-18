@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4046007_01",
+  "pair_id": "PMC4046007_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A previously healthy 55-year-old man with no prior known cardiovascular disease was admitted with fever and arthralgia of five days. The patient had a temperature of 39 C and had an irregular pulse with a heart rate of 78 beats per minute. His blood pressure was 130/80. He had no other significant findings on examination. A 12-lead electrocardiogram showed ventricular trigeminy (Figure  1A).\nThe laboratory findings were: haemoglobin of 16.5 g/dL, a hematocrit of 48.1% and a white blood cell count of 3,100/mm3. The platelet count was 95,000/mm3, reduced to 70,000/mm3 on the following day and 55,000/mm on the 5th day. Other laboratory findings were potassium 4.6 mmol/L, sodium 135 mmol/L, magnesium 1.5 mg/dL, calcium9.6 mg/dL, creatine kinase 451U/L, CPK-MB fraction 20U/L, troponin <0.5 ng/mL, myoglobin 34.7 ng/mL, creatinine 1.2 mg/dL, urea 33 mg/dL, C-reactive protein 0.64 mg/dL, erythrocyte sedimentation time 38 seconds, serum aspartate tranaminase 187U/L and serum alanine transaminase 88.2U/L. Urine full report was normal. The transthoracic echo revealed a hypokinetic apex with an ejection fraction of 50% and evidence of dengue myocarditis. The serum IgM was positive for dengue and the serum IgG was negative.The following day, the pulse became regular and ECG showed sinus rhythm with no tachycardia (Figure  1B). The platelet count became normal and the patient had no arrhythmias on discharge on day 7.\nThe patient underwent a repeat ECG and Echocardiogram two months later. They were both normal. The Echo showed EF > 60% and there were no hypokinetic segments.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old man presented with a 5-day history of fever and arthralgia.",
+      "history_of_present_illness": "Previously healthy man without prior cardiovascular disease developed acute fever and arthralgia lasting 5 days prior to hospital admission.",
+      "past_medical_history": "Previously healthy; no prior known cardiovascular disease.",
+      "review_of_systems": "Positive for fever and arthralgia."
+    },
+    "objective": {
+      "physical_examination": "Temperature 39 C, irregular pulse with a heart rate of 78 bpm, and blood pressure 130/80 mmHg; no other significant physical examination findings.",
+      "routine_investigations": "Admission 12-lead ECG showed ventricular trigeminy (resolving to normal sinus rhythm the next day). Labs: hemoglobin 16.5 g/dL, hematocrit 48.1%, WBC 3,100/mm3, platelets 95,000/mm3 (dropping to 70,000/mm3 on day 2 and 55,000/mm3 on day 5 before normalizing), potassium 4.6 mmol/L, sodium 135 mmol/L, magnesium 1.5 mg/dL, calcium 9.6 mg/dL, CK 451 U/L, CPK-MB 20 U/L, troponin <0.5 ng/mL, myoglobin 34.7 ng/mL, creatinine 1.2 mg/dL, urea 33 mg/dL, CRP 0.64 mg/dL, ESR 38 s, AST 187 U/L, ALT 88.2 U/L, and normal urinalysis. Transthoracic echocardiogram showed apical hypokinesia with LVEF 50% (normalizing to LVEF >60% without wall motion abnormalities at 2-month follow-up).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary dengue fever complicated by acute dengue myocarditis and transient ventricular trigeminy, confirmed by positive serum dengue IgM (with negative dengue IgG), ECG ventricular trigeminy, and echocardiographic apical hypokinesia (LVEF 50%). Sinus rhythm restored spontaneously on hospital day 2, platelets normalized, and he was discharged arrhythmia-free on day 7 with completely normal repeat ECG and echocardiogram (EF >60%) at 2 months."
+    }
+  }
+}

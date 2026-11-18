@@ -1,0 +1,15 @@
+{
+  "disease": "Leptospirosis",
+  "slug": "leptospirosis",
+  "total_input": 66,
+  "total_output": 66,
+  "label_counts": {
+    "EXCLUDED_NON_TARGET_CASE": 1,
+    "POSITIVE": 49,
+    "NEGATIVE": 10,
+    "EXCLUDED_NON_SINGLE_PATIENT": 3,
+    "UNRESOLVED": 1,
+    "EXCLUDED_NON_HUMAN": 2
+  },
+  "status": "complete"
+}

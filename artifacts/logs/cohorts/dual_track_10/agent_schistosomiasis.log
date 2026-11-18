@@ -1,0 +1,336 @@
+================================================================================
+CLINICAL CLAIM ANNOTATION RUN LOG: SCHISTOSOMIASIS
+MultiCaRe Clinical Gold Standard — new_disease_pool
+Timestamp: 2026-11-10T03:45:57Z
+================================================================================
+
+1. RUN CONFIGURATION & METADATA
+--------------------------------------------------------------------------------
+Target Disease        : Schistosomiasis
+Disease Slug          : schistosomiasis
+Annotation Pool       : new_disease_pool
+Input File            : input/input_schistosomiasis.jsonl
+Output File           : output/output_schistosomiasis.jsonl
+Total Candidate Pairs : 92
+Protocol              : 12-Step Gold Standard Clinical Claim Protocol (04_gold_standard_annotation_protocol.md)
+Evidence Specificity  : Disease Evidence Matrix (03_evidence_specificity_matrix.md Sec 5)
+
+2. EXECUTION & STATISTICAL AUDIT SUMMARY
+--------------------------------------------------------------------------------
+Total Candidates Input     : 92
+Total Candidates Evaluated : 92
+Validation Status          : PASSED (100% exact verbatim character offsets verified)
+VPD Criteria Satisfied     : 47 / 92 (51.1%)
+
+Decision Distribution:
+  - POSITIVE                    :   47 ( 51.1%)
+  - NEGATIVE                    :   22 ( 23.9%)
+  - EXCLUDED_NON_TARGET_CASE    :   13 ( 14.1%)
+  - EXCLUDED_NON_CASE_REPORT    :    8 (  8.7%)
+  - INCONCLUSIVE_DATA           :    2 (  2.2%)
+
+Evidence Strength Distribution:
+  - E1_CONFIRMATORY                   :   41 ( 44.6%)
+  - E0_CONTRADICTED                   :   22 ( 23.9%)
+  - E4_CONTEXT                        :   22 ( 23.9%)
+  - E2_HIGHLY_SPECIFIC                :    6 (  6.5%)
+  - E3_SUPPORTIVE                     :    1 (  1.1%)
+
+Clinical Role Distribution:
+  - PRIMARY_DIAGNOSIS               :   40 ( 43.5%)
+  - RULED_OUT_DIAGNOSIS             :   22 ( 23.9%)
+  - EPIDEMIOLOGICAL_CONTEXT         :   14 ( 15.2%)
+  - ACTIVE_COMORBIDITY              :    9 (  9.8%)
+  - PAST_HISTORY                    :    7 (  7.6%)
+
+Quality & Confidence Audit:
+  - Confidence HIGH            :   90 ( 97.8%)
+  - Confidence MEDIUM          :    2 (  2.2%)
+Failure Flags Assigned:
+  - F4_ASSERTION_TEMPORAL       :    7
+  - F2_SCOPE_COHORT             :    7
+  - F5_DISCOURSE_CONTEXT        :    7
+  - F6_EVIDENCE_SPECIFICITY     :    2
+
+3. PER-CASE CLINICAL TRACE & EVIDENCE AUDIT
+--------------------------------------------------------------------------------
+[01/92] Case: PMC2738533_02 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 55-year-old male soldier presenting with pulmonary tuberculosis due to M. tuberculosis subsp canetti. Workup for hypereosinophilia included serologic tests for schistosomiasis which were negative, and stool examination showed no parasites. Schistosomiasis definitively ruled out.
+      Evidence [1]: [696:861] "Serologic tests for schistosomiasis, hydatidosis, distomiasis, amebiasis, toxocariasis,..." -> Schistosomiasis serology (NEGATIVE)
+[02/92] Case: PMC6173919_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 13-year-old male presenting with acute transverse myelitis following travel to southern Saudi Arabia. Schistosoma serology showed marked titer elevation. Symptoms and MRI findings completely resolved after experimental antischistosomal therapy. Valid positive diagnosis of neuroschistosomiasis satisfied.
+      Evidence [1]: [1557:1623] "However, the Schistosoma serology titer showed a marked elevation." -> Schistosoma serology titer (POSITIVE)
+[03/92] Case: PMC6875264_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 73-year-old male with cholangiocarcinoma and hepatitis B history. Tested negative for schistosomiasis infection. Explicitly ruled out.
+      Evidence [1]: [174:280] "He has a history of hepatitis type B infection for 21 years but is negative for schisto..." -> Schistosomiasis test (NEGATIVE)
+[04/92] Case: PMC3547857_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 75-year-old female presenting with advanced schistosomiasis japonica. Endoscopy revealed characteristic schistosomal egg nodes within the colonic submucosa, accompanied by characteristic fish-scale liver ultrasound and portal hypertension. Confirmatory clinical diagnosis.
+      Evidence [1]: [3099:3217] "The results from endoscopic examination first observed egg nodes within the submucous s..." -> Colonoscopy (POSITIVE)
+[05/92] Case: PMC3505658_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 42-year-old male with visceral leishmaniasis and true coinfection with Schistosoma mansoni. Stool microscopy demonstrated eggs of S. mansoni (E1 confirmatory), and the patient received praziquantel therapy. VPD criteria satisfied.
+      Evidence [1]: [1667:1800] "This time, an extensive search for parasites in stool microscopy was done and eggs of S..." -> Stool microscopy (POSITIVE)
+[06/92] Case: PMC4499272_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 65-year-old male with locally advanced squamous cell carcinoma of the bladder in a diverticulum. Narrative explicitly confirms the patient had no history of bilharziasis (non-bilharzial SCC). Negated/ruled out.
+      Evidence [1]: [663:706] "The patient had no history of bilharziasis." -> Clinical assessment / history (NEGATIVE)
+[07/92] Case: PMC9897890_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 53-year-old male presenting for elective hernia repair and subsequently diagnosed with a bleeding gastric gastrointestinal stromal tumor (GIST). Bilharzia is mentioned solely as a remote historical comorbidity in medical history with no active disease or clinical claim.
+      Evidence [1]: [0:155] "A 53-year-old male patient, with a medical history of hepatitis C virus and bilharzia, ..." -> Past medical history (POSITIVE)
+[08/92] Case: PMC4279826_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 32-year-old female presenting with ruptured ectopic pregnancy. Histopathology of fallopian tubes revealed granulomas with calcified ova of S. haematobium with terminal spines causing schistosomal salpingitis, treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [2091:2295] "Also seen are multiple granulomas with calcified ova of S. haematobium with their chara..." -> Histopathology of fallopian tubes (POSITIVE)
+[09/92] Case: PMC9314760_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 10-year-old male child presenting with a large colonic mass mimicking cancer. Histopathology of the resected sigmoid demonstrated non-caseating granulomas formed of bilharzial ova (Schistosoma mansoni), treated with praziquantel with complete symptom resolution. Confirmatory E1.
+      Evidence [1]: [2693:2849] "The histopathology reported that numerous non-caseating granulomas formed of bilharzial..." -> Histopathology of sigmoid mass (POSITIVE)
+[10/92] Case: PMC3681687_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 25-year-old traveler returning from Senegal with acute Katayama fever, marked eosinophilia, and pulmonary infiltrates following freshwater exposure. Indirect hemagglutination test for Schistosoma mansoni was positive at 1:80, treated with praziquantel. E2 highly specific evidence in traveler with acute schistosomiasis.
+      Evidence [1]: [462:540] "Titers of an indirect hemagglutination test for Schistosoma mansoni were 1:80." -> Indirect hemagglutination test (POSITIVE)
+[11/92] Case: PMC3716246_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 17-year-old male with severe bilateral ureteric strictures. Histology of the excised ureters confirmed features of severe schistosomiasis, and the patient received praziquantel therapy. Confirmatory E1 histopathology.
+      Evidence [1]: [3397:3496] "The histology of the excised fibrosed ureters showed features of severe schistosomiasis..." -> Histology of excised ureters (POSITIVE)
+[12/92] Case: PMC9393029_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 12-year-old male with bloody diarrhea and acute hepatitis coinfected with S. mansoni and E. histolytica. Stool examination identified S. mansoni ova (E1), and rectal biopsy confirmed colon/rectum schistosomiasis with Schistosoma eggs and giant cell reaction. VPD fully met.
+      Evidence [1]: [2164:2250] "Stool Examination revealed ova of S. mansoni and Trophozoite stages of E. histolytica." -> Stool Examination (POSITIVE)
+[13/92] Case: PMC6029598_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Population health and epidemiology review discussing non-communicable diseases and parasitic infections in Malawi. Not an individual clinical case report.
+      Evidence [1]: [11363:11569] "As previously mentioned, infection with the helminths Schistosoma haematobium and Schis..." -> Epidemiological review (POSITIVE)
+[14/92] Case: PMC6275170_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 36-year-old male presenting with acute appendicitis. Histopathology of the appendix revealed extensive necrosis with multiple viable Schistosomal ova, and the patient was treated with praziquantel. E1 confirmatory diagnosis.
+      Evidence [1]: [1162:1322] "The appendix specimen was sent for histopathology and the result came back as extensive..." -> Histopathology of appendix (POSITIVE)
+[15/92] Case: PMC4464282_02 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 55-year-old male liver transplant recipient treated for recurrent HCV. Schistosomiasis is mentioned solely as a past medical history item without active infection or current diagnostic claim.
+      Evidence [1]: [460:575] "Past medical history was also significant for smoking, schistosomiasis, hyperlipidemia ..." -> Past medical history (POSITIVE)
+[16/92] Case: PMC4464282_03 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 59-year-old male liver transplant recipient treated for recurrent HCV. Mention of childhood schistosomiasis in past medical history only; no active clinical claim or diagnostic investigation.
+      Evidence [1]: [360:427] "His past medical history was notable for childhood schistosomiasis." -> Past medical history (POSITIVE)
+[17/92] Case: PMC5259615_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 48-year-old female presenting with acute mental status change and hypereosinophilia. Diagnostic workup included serology for schistosomiasis, which was explicitly negative. Ruled out.
+      Evidence [1]: [1316:1550] "Further testing for antineutrophil cytoplasmic antibodies, antinuclear antibodies, card..." -> Schistosomiasis serology (NEGATIVE)
+[18/92] Case: PMC7778187_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 45-year-old male with a retroperitoneal mass mimicking a paraganglioma. Serological evaluation was positive for Schistosoma with IgM and IgG, and treatment with praziquantel led to remission of the retroperitoneal lesion. E2 strong evidence confirmed.
+      Evidence [1]: [2794:2900] "All results were negative and do not showed acute infection, except schistosoma with Ig..." -> Schistosoma serology (IgM and IgG) (POSITIVE)
+[19/92] Case: PMC8075734_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Institutional report on postgraduate educational health programs in Mozambique. Contains aggregate disease prevalence statistics, not a single patient case report.
+      Evidence [1]: [717:991] "Though neglected tropical diseases such as intestinal parasites (53%), lymphatic filari..." -> Epidemiological statistics (POSITIVE)
+[20/92] Case: PMC10159276_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 5-year-old boy presenting with acute conus medullaris paraparesis. Histopathology of the biopsied spinal cord lesion showed necrotizing granulomatous chronic inflammation with Schistosoma eggs. Treated with praziquantel. Confirmatory E1 neuroschistosomiasis.
+      Evidence [1]: [2413:2586] "Histopathological examination of the spinal cord lesion showed necrotising granulomatou..." -> Histopathology of spinal cord lesion (POSITIVE)
+[21/92] Case: PMC9531744_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 32-year-old male presenting with an appendiceal mass. Appendectomy histopathology showed transmural chronic fibrotic granulomatous inflammation around viable and dead schistosoma ova of S. mansoni and S. hematobium, treated with praziquantel. Confirmatory E1.
+      Evidence [1]: [1680:1880] "Histology of the appendix showed transmural chronic fibrotic granulomatous inflammation..." -> Histology of appendix (POSITIVE)
+[22/92] Case: PMC6263537_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 27-year-old male presenting with urinary schistosomiasis. Diagnosis confirmed by presence of Schistosoma haematobium eggs in direct urine microscopy and bladder biopsy showing granulomas with bilharzia eggs. Confirmatory E1.
+      Evidence [1]: [600:732] "The diagnosis was confirmed by the presence of Schistosoma heamatobium eggs in direct e..." -> Direct urine microscopy (POSITIVE)
+[23/92] Case: PMC6388674_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 27-year-old female with relapse of typhoid fever following delayed response to meropenem. Serology explicitly ruled out schistosomiasis and HIV. Definitively negative.
+      Evidence [1]: [4338:4493] "The colleagues ruled out schistosomiasis and HIV (serology), as well as helminthic infe..." -> Schistosomiasis serology (NEGATIVE)
+[24/92] Case: PMC8252363_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 4-year-old male with autoimmune lymphoproliferative syndrome. Serological markers for schistosomiasis and other infectious pathogens were negative. Ruled out.
+      Evidence [1]: [948:1084] "In addition, the analysis of markers for measles virus, parvovirus B19, schistosomiasis..." -> Schistosomiasis markers (NEGATIVE)
+[25/92] Case: PMC3135015_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 28-year-old European woman presenting with genital schistosomiasis. Cervical biopsy histopathology revealed numerous schistosome ova with terminal spines characteristic of S. haematobium containing viable miracidia, treated with praziquantel. Confirmatory E1.
+      Evidence [1]: [1508:1636] "At high-power view, histology revealed numerous schistosome ova with terminal spines, c..." -> Histology of cervical lesion (POSITIVE)
+[26/92] Case: PMC3328486_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 52-year-old male presenting with dysuria due to urinary schistosomiasis. Confocal laser scanning microscopy (CLSM) in vivo demonstrated characteristic S. haematobium eggs with terminal spines in bladder mucosa, supported by positive ELISA serology. E1 confirmatory diagnosis.
+      Evidence [1]: [716:889] "S. haematobium eggs appeared as bright structures (figure 1a), and after focus adjustme..." -> Confocal laser scanning microscopy of bladder mucosa (POSITIVE)
+[27/92] Case: PMC10266482_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 21-year-old male with SLIPPERS syndrome. Comprehensive infectious serology panel specifically tested for schistosomiasis antibody, which was negative. Ruled out.
+      Evidence [1]: [1829:2106] "Serologic tests including syphilis, Human Immunodeficiency Virus (HIV), Hepatitis B (HB..." -> Schistosomiasis antibody serology (NEGATIVE)
+[28/92] Case: PMC5516680_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 14-year-old boy presenting with recurrent gross hematuria following travel to South Africa. Urine microscopy demonstrated oval eggs of Schistosoma haematobium with characteristic terminal spiked ends. Treated with praziquantel with complete resolution. Confirmatory E1.
+      Evidence [1]: [1171:1282] "Urine microscopy showed eggs of Schistosoma haematobium, which is oval in shape and has..." -> Urine microscopy (POSITIVE)
+[29/92] Case: PMC10152856_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 49-year-old male with severe hematuria and epithelioid angiosarcoma of the bladder. Histopathology of radical cystectomy confirmed extensive schistosomiasis with numerous calcified Schistosoma eggs in the bladder wall. Active comorbidity / true coinfection.
+      Evidence [1]: [3400:3465] "Numerous calcified Schistosoma eggs are noted (Figure 2: D-E-F))." -> Histopathology of urinary bladder (POSITIVE)
+[30/92] Case: PMC6796742_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 31-year-old male with an Amyand hernia containing an inflamed appendix. Histopathology showed periappendiceal necrotizing granulomatous inflammation with calcified parasitic Schistosoma ova. Patient was referred to infectious diseases for treatment. Confirmatory E1.
+      Evidence [1]: [1706:1935] "At follow up, the wound was healing well with no surgical complications, histopathology..." -> Histopathology of appendix (POSITIVE)
+[31/92] Case: PMC8720232_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 79-year-old female presenting with squamous cell carcinoma of the kidney. Narrative explicitly records no history of urinary schistosomiasis. Negative assertion.
+      Evidence [1]: [110:206] "without a history of lithiasis or recurrent urinary tract infections and urinary schist..." -> Clinical history (NEGATIVE)
+[32/92] Case: PMC4899662_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 27-year-old male presenting with acute transverse myelopathy. Spinal cord biopsy confirmed spinal cord schistosomiasis, supported by high Schistosoma serology titer (1:64). Confirmatory E1 histopathology.
+      Evidence [1]: [1973:2067] "A spinal cord biopsy was completed and confirmed the diagnosis of spinal cord schistoso..." -> Spinal cord biopsy (POSITIVE)
+[33/92] Case: PMC4899662_03 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Fragment of case narrative reporting post-treatment follow-up. Case text contains no mention of the target disease Schistosomiasis (metadata-only occurrence in article title). Excluded under VPD protocol.
+      Evidence [1]: [0:51] "The patient was given praziquantel and no steroids." -> Treatment mention (POSITIVE)
+[34/92] Case: PMC6431392_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 65-year-old male presenting with acute abdomen from megacolon. Histopathology of resected colon demonstrated chronic schistosomiasis in the colonic wall, supported by a high Schistosoma serology titer (1:1024). E1 histopathology + E2 serology.
+      Evidence [1]: [1155:1206] "His Schistosoma serology titer was high (1 : 1024)." -> Schistosoma serology (POSITIVE)
+[35/92] Case: PMC7771502_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 6-year-old child presenting with acute myelopathy. Histopathological analysis confirmed conus medullaris schistosomiasis, and the patient was treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [794:946] "when the final pathology confirmed conus medullaris schistosomiasis, the patient underw..." -> Histopathology of conus medullaris lesion (POSITIVE)
+[36/92] Case: PMC4285266_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 48-year-old traveler treated for severe delayed hemolysis after antimalarial therapy. Serology for schistosomiasis was positive but explicitly interpreted as reflecting past infection and not contributory to the current active disease.
+      Evidence [1]: [2772:3035] "Serologic tests showed that the he was also positive for causative organisms for schist..." -> Schistosomiasis serology (POSITIVE)
+[37/92] Case: PMC6815554_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 51-year-old male with acute hepatitis. Given the patient history, serologies for Entamoeba histolytica and Schistosoma mansoni were obtained and were explicitly negative. Definitively ruled out.
+      Evidence [1]: [1627:1787] "Further serologies for Entamoeba histolitica and Schistosoma mansoni were also obtained..." -> Schistosoma mansoni serology (NEGATIVE)
+[38/92] Case: PMC2836274_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 43-year-old female with nodular regenerative hyperplasia. Diagnostic screening for infectious and metabolic liver diseases was negative for schistosomiasis. Ruled out.
+      Evidence [1]: [764:1005] "screening was negative for viral hepatitis (HAV, HBV, HDV, HCV and HEV), CMV and EBV, a..." -> Schistosomiasis screening (NEGATIVE)
+[39/92] Case: PMC10335787_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 52-year-old male liver transplant recipient. Peritoneal jejunal biopsy revealed chronic inflammatory schistosomal fibrosing reaction with numerous viable eggs of the parasite, treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [1877:2023] "chronic inflammatory schistosomal fibrosing reaction, with the presence of numerous via..." -> Histopathology of peritoneal jejunal lesion (POSITIVE)
+[40/92] Case: PMC7744221_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 36-year-old Kenyan male with longitudinally extensive transverse myelitis (LETM) refractory to steroids and plasmapheresis. Schistosoma antibody IgG titer was positive at 1:80 following prolonged pond swimming, and the patient was treated with praziquantel. E2 highly specific evidence.
+      Evidence [1]: [2904:3004] "A few days into his hospitalization, his Schistosoma antibody (IgG) titer was reported ..." -> Schistosoma antibody (IgG) titer (POSITIVE)
+[41/92] Case: PMC3469178_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 62-year-old male with bladder tumors. Bladder biopsy histopathology demonstrated simultaneous transitional cell carcinoma and Schistosoma haematobium eggs, treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [1001:1246] "study showed simultaneous squamous cell, transitional cell carcinoma (superficial type)..." -> Bladder biopsy histopathology (POSITIVE)
+[42/92] Case: PMC5934970_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Retrospective case series and aggregate cohort of 6 patients with spinal schistosomiasis in Egypt. Unit of analysis is a multi-patient series, not a single patient case report.
+      Evidence [1]: [0:96] "We found that five cases from 6 cases were males and average age group was 26 years old..." -> Cohort analysis (POSITIVE)
+[43/92] Case: PMC10064163_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 43-year-old female presenting with colitis. Infectious screening included serology for schistosomiasis, which was explicitly negative. Ruled out.
+      Evidence [1]: [3453:3558] "In addition, serologies for schistosomiasis, filariasis, hepatitis B, hepatitis C, and ..." -> Schistosomiasis serology (NEGATIVE)
+[44/92] Case: PMC9053555_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 27-year-old male immigrant presenting with migrating pulmonary nodules. Serology was confirmed positive for schistosomiasis (IgE 556), and treatment with praziquantel resulted in complete clinical and radiological resolution. E2 highly specific evidence satisfied.
+      Evidence [1]: [1345:1500] "The serology was eventually positive for schistosomiasis (IgE 556) and treatment was st..." -> Schistosomiasis serology (POSITIVE)
+[45/92] Case: PMC3235815_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Review article discussing the epidemiological association between S. japonicum infection and gastrointestinal neoplasia. Excluded non-case report.
+      Evidence [1]: [1618:1719] "Their results indicate a fraction of disease attributable to schistosomiasis of 24% for..." -> Epidemiological review (POSITIVE)
+[46/92] Case: PMC3235815_02 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Section of review article discussing histopathological features of colorectal carcinomas associated with S. japonicum. Excluded non-case report.
+      Evidence [1]: [242:329] "few overt histopathological differences from those not associated with schistosomiasis." -> Literature review (POSITIVE)
+[47/92] Case: PMC3235815_03 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Section of review article surveying published individual cases and series of S. japonicum and gastrointestinal neoplasms. Excluded non-case report.
+      Evidence [1]: [0:139] "A few individual cases have been reported of other neoplasms with evidence of infection..." -> Literature review (POSITIVE)
+[48/92] Case: PMC9366043_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 13-year-old male with autoimmune lymphoproliferative syndrome-FAS. Infectious evaluation was negative for schistosomiasis. Ruled out.
+      Evidence [1]: [947:1070] "the analysis of markers for measles virus, parvovirus B19, schistosomiasis, and Leishma..." -> Schistosomiasis markers (NEGATIVE)
+[49/92] Case: PMC6735636_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 24-year-old male with severe fatal schistosomiasis. Autopsy and histological analysis demonstrated uncountable embryonated eggs of Schistosoma mansoni in the gastrointestinal tract and pulmonary peribronchial vessels with eosinophilic granulomatous reaction. Confirmatory E1 evidence.
+      Evidence [1]: [2344:2522] "uncountable, embryonated and occasionally calcified eggs of Schistosoma mansoni within ..." -> Autopsy histopathology (POSITIVE)
+[50/92] Case: PMC6462326_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 65-year-old male with jejunal ulcer. Enteroscopy and histological examination confirmed chronic jejunal inflammation with deposition of Schistosoma japonicum eggs and signs of hepatic schistosomiasis. Confirmatory E1.
+      Evidence [1]: [1730:1840] "chronic jejunal inflammation with ulcerative changes and old S. japonicum eggs depositi..." -> Histopathology of jejunal ulcer (POSITIVE)
+[51/92] Case: PMC9571235_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 48-year-old traveler presenting with a solitary pulmonary nodule and peripheral eosinophilia. Schistosoma serology was positive, and praziquantel therapy led to serological normalization and radiographic regression of the pulmonary nodule. E2 highly specific evidence in traveler.
+      Evidence [1]: [543:632] "Schistosoma serology was positive and there was an eosinophilic polynuclear leukocytosis." -> Schistosoma serology (POSITIVE)
+[52/92] Case: PMC9343201_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Review of previously published cases in the medical literature evaluating stroke manifestations in schistosomiasis patients. Not an original single patient case report.
+      Evidence [1]: [0:211] "Sarazin and colleagues reported the case of a 25-year-old female with a history of rece..." -> Literature review (POSITIVE)
+[53/92] Case: PMC8202316_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 43-year-old male with florid cystitis cystica et glandularis. Urinalysis, urine cultures, and bladder mucosal biopsies demonstrated no evidence of schistosomiasis. Ruled out.
+      Evidence [1]: [749:867] "Specimens for urinalysis and culture revealed no evidence of urinary tract infection, t..." -> Urinalysis and culture (NEGATIVE)
+[54/92] Case: PMC4782660_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 27-year-old female presenting with cutaneous papular lesions. Histopathology confirmed cutaneous ectopic schistosomiasis with identification of Schistosoma mansoni eggs, and lesions resolved following praziquantel therapy. E1 confirmatory.
+      Evidence [1]: [1835:1979] "In the case reported, the clinical, epidemiological and histopathological conditions co..." -> Skin lesion histopathology (POSITIVE)
+[55/92] Case: PMC5807655_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 5-year-old girl presenting with gross hematuria following travel to an endemic area. Centrifuged manual urine microscopy confirmed S. haematobium infection with characteristic parasite eggs. Confirmatory E1 evidence.
+      Evidence [1]: [1401:1506] "Manual urine microscopy on a centrifuged urine sample confirmed the diagnosis of S. hem..." -> Centrifuged urine microscopy (POSITIVE)
+[56/92] Case: PMC5325510_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 35-year-old male with Crohn disease and colonic schistosomiasis. Colon resection histopathology confirmed submucosal Schistosoma eggs with terminal spines surrounded by chronic inflammatory infiltrate. Confirmatory E1 active comorbidity.
+      Evidence [1]: [1332:1425] "The final pathological diagnosis was colonic schistosomiasis associated with Crohn's di..." -> Histopathology of colon resection (POSITIVE)
+[57/92] Case: PMC9519849_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 44-year-old male presenting with a brainstem pseudotumoral lesion. Serum IgG was positive for S. japonicum, and rectal mucosal biopsy confirmed the presence of S. japonicum eggs in the lamina propria. Patient was treated with praziquantel. E1 confirmatory diagnosis.
+      Evidence [1]: [1832:1953] "The following mucosal biopsy confirmed the presence of S. japonicum eggs in the lamina ..." -> Rectal mucosal biopsy (POSITIVE)
+[58/92] Case: PMC9469688_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 38-year-old male with visceral leishmaniasis. Extensive infectious panel including Schistosoma japonicum IgG antibody was negative. Ruled out.
+      Evidence [1]: [1667:1832] "The schistosoma japonicum IgG antibody, echinococcus granulosus antibody, liver fluke a..." -> Schistosoma japonicum IgG antibody (NEGATIVE)
+[59/92] Case: PMC4904702_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 49-year-old Brazilian male presenting with esophageal varices, portal fibrosis, and a colonic polyp. Histopathology of the polyp demonstrated numerous eggs in the colonic stroma with prominent lateral spines surrounded by eosinophilic infiltrate, pathognomonic for Schistosoma mansoni. E1 confirmatory.
+      Evidence [1]: [1091:1303] "Arrows are pointing to numerous eggs in the stroma of the colonic mucosa, surrounded by..." -> Colonic polyp histopathology (POSITIVE)
+[60/92] Case: PMC4078447_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 13-year-old female presenting with a spinal cord lesion and paraparesis. Histopathology demonstrated Schistosoma eggs and adult worm within the granuloma, and hemagglutination serology was positive. E1 confirmatory medullary neuroschistosomiasis.
+      Evidence [1]: [1866:2095] "The diagnosis of schistosomiasis was based solely on the demonstration of eggs and adul..." -> Spinal granuloma histopathology (POSITIVE)
+[61/92] Case: PMC7401980_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 68-year-old male with bladder wall calcification after intravesical mitomycin C. Narrative explicitly documents no known history of exposure to schistosomiasis or travel to endemic areas. Negative assertion.
+      Evidence [1]: [1342:1458] "no known history of exposure to tuberculosis or schistosomiasis or travel to Africa, Mi..." -> Clinical history (NEGATIVE)
+[62/92] Case: PMC5161784_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 49-year-old female immigrant presenting with a colonic polyp. Biopsy demonstrated multiple focal granulomas surrounding S. mansoni eggs with prominent lateral spines, and serum Schistosoma IgG (MAMA) was markedly elevated at 2.98. Treated with praziquantel. Confirmatory E1.
+      Evidence [1]: [1352:1586] "hyperplastic polyp with multiple focal granuloma formation surrounding S. mansoni eggs,..." -> Colonoscopic polyp biopsy (POSITIVE)
+[63/92] Case: PMC3415053_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 38-year-old male with recurrent ureteric obstruction. Histopathology of the resected ureteric mass showed numerous Schistosoma ova within the ureteric wall, and the patient was retreated with praziquantel. Confirmatory E1.
+      Evidence [1]: [1812:1936] "Histopathology report however showed a left ureteric mass with numerous Schistosoma ova..." -> Histopathology of ureteric mass (POSITIVE)
+[64/92] Case: PMC8292084_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 46-year-old male presenting with acute cholecystitis complicated by liver abscess. Histopathology of the gallbladder confirmed chronic cholecystitis with granulomatous inflammation secondary to schistosomiasis. Confirmatory E1.
+      Evidence [1]: [3885:4021] "Histopathology of the gallbladder showed chronic cholecystitis, with granulomatous infl..." -> Gallbladder histopathology (POSITIVE)
+[65/92] Case: PMC10327893_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 42-year-old female presenting with biliary cystadenoma. Medical history was negative for schistosomiasis. Ruled out.
+      Evidence [1]: [92:173] "She was previously healthy and did not have a medical history of schistosomiasis." -> Clinical history (NEGATIVE)
+[66/92] Case: PMC6341866_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: Letter to the Editor commenting on a previously published case report by Hajjar et al. regarding pulmonary schistosomiasis. Not an original clinical case presentation.
+      Evidence [1]: [0:129] "I read with interest the case report by Hajjar et al. on the pulmonary schistosomiasis ..." -> Letter to the Editor (POSITIVE)
+[67/92] Case: PMC5641579_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 35-year-old male presenting with pulmonary nodules mimicking IgG4-related disease. Surgical lung biopsy unexpectedly revealed adult schistosome worms within pulmonary vessels and eggs with granulomatous reaction, and stool microscopy confirmed S. mansoni ova. Praziquantel led to resolution. Confirmatory E1.
+      Evidence [1]: [1009:1186] "Unexpectedly, this demonstrated adult schistosome worms within the pulmonary vessels an..." -> Surgical lung biopsy (POSITIVE)
+[68/92] Case: PMC9650497_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 38-year-old male with visceral leishmaniasis. Infectious antibody panel confirmed Schistosoma japonicum IgG antibody was negative. Ruled out.
+      Evidence [1]: [1667:1832] "The schistosoma japonicum IgG antibody, echinococcus granulosus antibody, liver fluke a..." -> Schistosoma japonicum IgG antibody (NEGATIVE)
+[69/92] Case: PMC3336235_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 9-year-old boy presenting with scrotal swelling and testicular atrophy. Histopathology of thickened tunica albuginea showed active granulomatous inflammation with numerous uncalcified S. haematobium eggs bearing characteristic terminal spines. Confirmatory E1 evidence.
+      Evidence [1]: [1884:2057] "Close examination of the eggs showed the terminal spine consistent with S. haematobium;..." -> Histopathology of tunica albuginea (POSITIVE)
+[70/92] Case: PMC10392147_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 26-year-old male with chronic diarrhea and abdominal pain. Colonoscopic biopsy confirmed intramucosal Schistosoma mansoni eggs surrounded by eosinophilic and chronic inflammatory cells, accompanied by periportal fibrosis on ultrasound. Treated with praziquantel with rapid clinical response. Confirmatory E1.
+      Evidence [1]: [1063:1290] "Repeat colonoscopy revealed multiple nodular lesions in the ascending colon and cecum (..." -> Colonoscopy and cecal mucosal biopsy (POSITIVE)
+[71/92] Case: PMC9829975_06 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 40-year-old female presenting with chronic portal vein thrombosis secondary to myeloproliferative neoplasm. Stool examination for schistosomiasis was explicitly negative, and prior empirical praziquantel at another center had unconfirmed diagnosis. Ruled out.
+      Evidence [1]: [486:541] "The stool examination was negative for schistosomiasis." -> Stool examination (NEGATIVE)
+[72/92] Case: PMC9905231_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 55-year-old male with constrictive pericarditis and atrial fibrillation. Mention of bilharziasis diagnosed approximately 10 years previously in medical history only; no active schistosomal infection.
+      Evidence [1]: [370:509] "He was diagnosed with bilharziasis, a nephrotic syndrome, approximately 10 years previo..." -> Past medical history (POSITIVE)
+[73/92] Case: PMC10805477_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 62-year-old female with mesenteric phlebosclerosis. Schistosomiasis is mentioned solely as a background statement noting residence in non-endemic areas with no patient-level claim.
+      Evidence [1]: [374:419] "The schistosomiasis was in non-endemic areas." -> Epidemiological background (POSITIVE)
+[74/92] Case: PMC10465249_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 25-year-old female with pulmonary veno-occlusive disease. Diagnostic screening for schistosomiasis antibodies was negative. Explicitly ruled out.
+      Evidence [1]: [984:1038] "Screening for Schistosomiasis antibodies was negative." -> Schistosomiasis antibody screening (NEGATIVE)
+[75/92] Case: PMC10730249_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 38-year-old male presenting with a brain lesion. Histopathology of stereotactic brain biopsy demonstrated parasitic eggs and gliosis morphologically consistent with Schistosoma eggs, treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [1871:1959] "parasitic eggs and gliosis, morphologically consistent with Schistosoma eggs (Figure 3)." -> Brain biopsy histopathology (POSITIVE)
+[76/92] Case: PMC10599860_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 37-year-old female presenting with persistent vulvar itch and nodular lesion. Biopsy histopathology and Ziehl-Neelsen staining demonstrated Schistosoma mansoni ova with characteristic lateral spines. Diagnosis of chronic vulvar schistosomiasis was confirmed and resolved with oral praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [1317:1518] "Zeil-Neelson (ZN) staining was consistent with S. mansoni ova (Figure 5). A diagnosis o..." -> Vulvar biopsy and Ziehl-Neelsen staining (POSITIVE)
+[77/92] Case: PMC11246073_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 36-year-old male with amebic liver abscess. Diagnostic infectious serology examination performed for schistosomiasis was negative. Definitively ruled out.
+      Evidence [1]: [3052:3133] "For schistosomiasis, HIV infection, HCV, HBV, serology examination was performed." -> Schistosomiasis serology (NEGATIVE)
+[78/92] Case: PMC11027586_01 | Decision: INCONCLUSIVE_DATA        | Evidence: E4_CONTEXT           | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 63-year-old male presenting with fatal stent fracture and cirrhosis. Liver schistosomiasis was listed as a clinical diagnosis/comorbidity alongside HBV cirrhosis, but no confirmatory diagnostic laboratory, histological, or parasitological evidence was documented in the narrative. Unmet E1/E2 requirement under VPD protocol.
+      Evidence [1]: [760:1086] "The patient was diagnosed as acute upper gastrointestinal bleeding, gastric ulcer, hepa..." -> Clinical diagnosis listing (POSITIVE)
+[79/92] Case: PMC10783168_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: An 11-year-old male with Bartonella henselae shunt nephritis. Schistosomiasis is mentioned solely in the discussion section as an established cause of MPGN in the literature. No patient-level diagnosis.
+      Evidence [1]: [6604:6739] "Chronic infections leading to MPGN include hepatitis C and B, endocarditis, shunt infec..." -> Literature review discussion (POSITIVE)
+[80/92] Case: PMC10481806_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 32-year-old female with cervical tuberculosis. Schistosomiasis is mentioned solely in the discussion as a differential diagnostic entity for cervical granulomas on Pap smears. No patient-level claim.
+      Evidence [1]: [3708:3955] "TB of cervix needs to be differentiated from other granulomatous diseases, for example,..." -> Differential diagnosis discussion (POSITIVE)
+[81/92] Case: PMC10546256_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 71-year-old female presenting with pericardial effusion and B-cell lymphoma. Pericardial biopsy showed non-caseating granulomatous inflammation surrounding Schistosoma haematobium ova, and pericardial PCR was positive for Schistosoma species. Treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [1647:1829] "A Schistosoma genus polymerase chain reaction (PCR) of the pericardial tissue was posit..." -> Schistosoma PCR of pericardial tissue (POSITIVE)
+[82/92] Case: PMC11447945_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 68-year-old female with pulmonary sparganosis. Serum ELISA antibody testing for helminths specifically confirmed Schistosoma japonicum antibody was negative. Ruled out.
+      Evidence [1]: [3596:3910] "the patient's serum was sent to a third-party testing company (Wuhan Kindstar Diagnosti..." -> Helminth multiple-dot ELISA (NEGATIVE)
+[83/92] Case: PMC11033532_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 27-year-old immunocompromised male presenting with pulmonary infiltrates. Bronchoalveolar lavage wet mount and repeat sputum examination confirmed Schistosoma haematobium infection, and the patient was successfully treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [1669:1834] "Bronchoalveolar lavage from posterobasal segment of right lower lobe was sent for inves..." -> Bronchoalveolar lavage parasitology (POSITIVE)
+[84/92] Case: PMC11769995_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 21-year-old male with fulminant myocarditis. Medical history explicitly records patient denied any history of schistosomiasis. Negative assertion.
+      Evidence [1]: [1306:1457] "he denied any history of hypertension, diabetes, stroke, hepatitis, typhoid fever, or s..." -> Clinical medical history (NEGATIVE)
+[85/92] Case: PMC11831978_01 | Decision: INCONCLUSIVE_DATA        | Evidence: E3_SUPPORTIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 34-year-old male presenting with appendicitis and peritoneal nodules. Nodules showed dystrophic calcification and chitinous material thought to represent parasitic larvae consistent with schistosomiasis, but serological testing was explicitly inconclusive. Lacks definitive E1/E2 confirmation.
+      Evidence [1]: [992:1209] "The nodules showed dystrophic calcification and chitinous material within, which was th..." -> Peritoneal nodule histology and serology (INCONCLUSIVE)
+[86/92] Case: PMC11831090_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 40-year-old male with malaria and spontaneous splenic rupture. Schistosomiasis is mentioned in the discussion regarding immunological effects of splenectomy on tropical parasitic infections. No patient-level claim.
+      Evidence [1]: [3751:3947] "Additionally, it may affect the immune response to diseases like schistosomiasis. For t..." -> Discussion context (POSITIVE)
+[87/92] Case: PMC11757176_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 48-year-old male with rectal ameboma. Schistosomiasis is mentioned solely in passing as a global epidemiological statistic of parasitic diseases. No patient-level diagnosis.
+      Evidence [1]: [4224:4336] "Amoebic infection ranks as the third most lethal parasitosis globally, following malari..." -> Epidemiological background (POSITIVE)
+[88/92] Case: PMC12827536_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 62-year-old male undergoing liver transplantation for hepatocellular carcinoma. History of hepatic schistosomiasis in childhood was clinically cured with residual fibrovascular scars, not active infection.
+      Evidence [1]: [248:334] "He had a history of hepatic schistosomiasis in childhood, considered clinically cured." -> Past medical history (POSITIVE)
+[89/92] Case: PMC12536102_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: ACTIVE_COMORBIDITY       | Quotes: 1
+      Rationale: A 35-year-old female presenting with ruptured ectopic pregnancy. Histological examination of excised fallopian tissues revealed calcified Schistosoma eggs within chorionic villi, and the patient completed 6 weeks of praziquantel therapy. Confirmatory E1 evidence.
+      Evidence [1]: [1383:1559] "Histological examination of removed tissues revealed the presence of chorionic villi, a..." -> Histology of fallopian tissue (POSITIVE)
+[90/92] Case: PMC12663017_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 63-year-old male with urolithiasis and steinstrasse. Urinary schistosomiasis in childhood was treated remotely and is noted solely as historical past illness.
+      Evidence [1]: [134:265] "he had a history of urinary schistosomiasis in childhood for which he received treatmen..." -> Past medical history (POSITIVE)
+[91/92] Case: PMC12862501_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: An 11-year-old girl presenting with recurrent gross hematuria. Urine cytology and bladder biopsy histopathology confirmed Schistosoma haematobium ova with giant-cell reaction, treated with praziquantel with complete resolution. Confirmatory E1 evidence.
+      Evidence [1]: [1168:1286] "Cytology revealed Schistosoma haematobium eggs in a hemorrhagic and suppurative backgro..." -> Urine cytology (POSITIVE)
+[92/92] Case: PMC12209300_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 16-year-old male migrant presenting with hematuria. Centrifuged urine parasitology examination confirmed S. haematobium eggs with terminal spines, and the patient was treated with praziquantel. Confirmatory E1 evidence.
+      Evidence [1]: [7243:7402] "Following the detection of S. haematobium in the urine parasitology test, the patient w..." -> Urine parasitology test (POSITIVE)
+
+================================================================================
+END OF LOG — ALL 92 PAIRS AUDITED, VERIFIED AND COMPLETE
+================================================================================

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4085836_01",
+  "pair_id": "PMC4085836_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 72-year-old woman was admitted to our hospital with right-sided pleuritic chest pain, cough with purulent sputum, fatigue and shortness of breath. Her pulse was 90 beats per minute, blood pressure was 120/80 mmHg, respiration was 22/min, and temperature was 37  C. On physical examination, the patient appeared thin but healthy. There was no history of smoking tobacco. Her past medical history was remarkable only for coronary disease and hypertension, which were subsequently treated with appropriate drugs. An HIV test was negative and no other underlying disease was detected. A computed tomography (CT) scan revealed multiple pulmonary nodules in the lower lobes. The CT scan also demonstrated some cavitary lung lesions with a feeding vessel sign in the lower lobes (Fig 1).\nMicroscopic examinations of sputum were negative for acid-fast bacilli and fungi; cytologic examination showed no malignant tumor cells. Blood cultures were negative. Needle biopsy of the lung was performed under CT guidance and revealed lung parenchyma with elastofibrosis and anthracosis.\nExamination of the lung fragment by direct microscopy showed multiple non-acid-fast (Ziehl-Neelsen), gram-positive rods (Fig 2). The searches for malignant (H&E) and fungus (Grocott) cells were negative. Culture on blood agar yielded pure growth of an organism identified as Corynebacterium striatum (99.7% probability) by the API-CORYNE system (BioMerieux Marcy l'Etoile, France). Laboratory investigations revealed hemoglobin concentrations of 9.3 g/d, a total white blood cell count of 12 x 109/L with 80% neutrophils, 7% bands, 9% lymphocytes, and 3% monocytes; platelets of 452 x 109/L, and a erythrocyte sedimentations rate of 55 mm/hour. Routine blood chemistry was normal. Creatinine was 1.6 mg/dL, alkaline phosphatase was 82 U/L, aspartate aminotransferase was 42 U/L, and alanine aminotransferase 30 U/L. Antibiotic susceptibility was tested by the disk diffusion method (Oxoid SA, Spain) in Mueller-Hinton agar supplemented with 5% blood for all antibiotics tested including penicillin (10U), gentamicin (10 microg), vancomycin (30 microg), erythromycin (15 microg), and tetracycline (30 microg). The susceptibility criteria of the CLSI for Staphylococcus spp. were used for all antibiotics, which result in sensitivity for erythromycin and vancomycin, and resistance for all the others. The patient was treated with erythromycin (500 mg/qds) and rifampin (600 mg/daily), both administered orally. Despite therapy, relentless deterioration continued, resulting in death 12 days after respiratory failure.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 72-year-old non-smoking woman presented with right-sided pleuritic chest pain, cough productive of purulent sputum, fatigue, and shortness of breath.",
+      "history_of_present_illness": "The patient was admitted with productive cough, purulent sputum, right pleuritic chest pain, dyspnea, and fatigue.",
+      "past_medical_history": "Coronary artery disease and hypertension on medical therapy; lifelong non-smoker.",
+      "review_of_systems": "Positive for right pleuritic chest pain, purulent cough, dyspnea, and fatigue."
+    },
+    "objective": {
+      "physical_examination": "Thin but healthy-appearing woman; pulse 90 bpm, BP 120/80 mmHg, RR 22 breaths/min, temperature 37 °C.",
+      "routine_investigations": "Hb 9.3 g/dL, WBC 12 × 10^9/L (80% neutrophils, 7% bands, 9% lymphocytes, 3% monocytes), platelets 452 × 10^9/L, ESR 55 mm/h, creatinine 1.6 mg/dL, ALP 82 U/L, AST 42 U/L, ALT 30 U/L, negative HIV test, negative blood cultures, and negative sputum AFB smears, fungal microscopy, and malignant cytology.",
+      "advanced_workup": "Chest CT demonstrated multiple bilateral lower lobe pulmonary nodules, several of which were cavitary with a 'feeding vessel' sign. CT-guided transthoracic needle biopsy of the lung showed elastofibrosis and anthracosis without malignancy (H&E) or fungi (Grocott), while direct microscopy revealed numerous non-acid-fast (Ziehl-Neelsen negative) Gram-positive rods."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Pulmonary tuberculosis and fungal infection were ruled out by negative sputum and lung biopsy Ziehl-Neelsen and Grocott stains, and blood agar culture of the CT-guided lung biopsy isolated pure growth of multidrug-resistant Corynebacterium striatum (99.7% probability on API-CORYNE; susceptible only to vancomycin and erythromycin). Despite oral erythromycin (500 mg QID) and rifampin (600 mg daily), the patient experienced relentless respiratory deterioration and died of respiratory failure after 12 days."
+    }
+  }
+}

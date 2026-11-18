@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3730478_01",
+  "pair_id": "PMC3730478_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A three month old female child weighing 2 kg normally delivered at term presented with lesions all over the body with oro-genital erosions since 11/2 month.\nOn examination, there were severe desquamating erythematous papulosquamous lesions over face, upper extremities, trunk, buttocks and legs. Multiple superficial erosions were present on palm, soles, genitals, buttocks and natal cleft [Figures 1-3]. Moist erosive lesion with bleeding and crusting were present around oral cavity and nostrils. She had high arched palate without perforation which enables her to suck properly [Figure 4]. Syphilitic snuffles and rhagades were present. Epitrochlear and inguinal lymph nodes were enlarged and rubbery in consistency. Patient had moderate hepatosplenomegaly without cardiac, bone or joint involvement. X-ray of skull and long bones showed no abnormality. Ophthalmic examination including fundoscopy was normal.\nOn history, it was found that the baby was delivered at home and the mother had not taken any antenatal visits. Mother had a history of lesion over the genital area twice in the past i.e., two years and six month prior to the birth of the patient for which she has taken some treatment from local doctor. The records of the above-mentioned condition or any treatment taken were not available. She is second gravida with h/o of single second trimester abortion during last pregnancy. Father of the baby did not have any history of any sexually transmitted diseases (STDs) but had an h/o unprotected premarital exposure. Her parents had no overt signs of syphilis. Venereal disease research laboratory (VDRL) with dilution of patient was 1:512 while that of parents were 1:64. Parents as well as baby were non-reactive for HIV. Presumptive diagnosis of congenital syphilis was made based on four fold raise in patient titre. Parents were given benzathine penicillin G 2.4 MU, i.m. in single dose and patient was treated successfully with 1.5 lakh U/day i.m. Procaine penicillin G for 10 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 3-month-old term female infant presented with a 1.5-month history of generalized desquamating papulosquamous skin lesions and perioral, nasal, palmoplantar, and anogenital erosions.",
+      "history_of_present_illness": "Delivered at home at term without antenatal care, the infant developed generalized skin lesions and painful orogenital and acral erosions at 6 weeks of age, persisting for 1.5 months prior to presentation.",
+      "past_medical_history": "Born at term via home delivery to a G2 mother with a history of a prior second-trimester spontaneous abortion and two episodes of genital ulcers (2 years and 6 months prior to delivery) treated inadequately by a local practitioner. The father had a history of unprotected premarital sexual exposure. Both parents were asymptomatic at presentation.",
+      "review_of_systems": "Positive for generalized desquamating rash, perioral/nasal crusted bleeding fissures, and palmoplantar/anogenital erosions; preserved sucking ability."
+    },
+    "objective": {
+      "physical_examination": "Body weight was 2 kg (severely underweight at 3 months). Cutaneous and mucosal examination revealed severe desquamating erythematous papulosquamous lesions over the face, trunk, buttocks, and extremities; superficial erosions on the palms, soles, genitalia, buttocks, and natal cleft; moist bleeding crusted erosions, syphilitic snuffles, and Parrot rhagades around the mouth and nostrils; and a high-arched intact palate. Systemic exam showed enlarged rubbery epitrochlear and inguinal lymph nodes and moderate hepatosplenomegaly, with normal ophthalmic/fundoscopic, cardiac, and bone/joint exams.",
+      "routine_investigations": "Skull and long-bone radiographs were normal. HIV testing was non-reactive in both the infant and her parents.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed early congenital syphilis presenting with classic mucocutaneous stigmata (syphilitic pemphigus/acral erosions, snuffles, rhagades, epitrochlear lymphadenopathy, and hepatosplenomegaly), established via an infant serum VDRL titer of 1:512 (eightfold higher than the parental VDRL titers of 1:64 in both mother and father). The infant was successfully treated with intramuscular procaine penicillin G 150,000 U/day (1.5 lakh U/day) for 10 days, and both parents received a single intramuscular dose of benzathine penicillin G 2.4 million units."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7490298_04",
+  "pair_id": "PMC7490298_04::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Case 4: A 26 year old patient that reported exanthema and arthralgia in the second trimester of gestation. The qPCR was positive for Zika in serum (690 copies/ml) and the PRNT90% was positive for neutralizing antibodies. At 37 weeks of gestation, her baby boy was born by cesarean delivery that presented a cephalic circumference of 36.5 cm.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old pregnant woman presented with cutaneous exanthema and arthralgia during the second trimester of gestation.",
+      "history_of_present_illness": "During the second trimester of pregnancy, the 26-year-old patient developed acute exanthema and arthralgia and was followed through delivery at 37 weeks of gestation.",
+      "past_medical_history": "Pregnant woman in the second trimester of gestation.",
+      "review_of_systems": "Positive for exanthema and arthralgia during the second trimester."
+    },
+    "objective": {
+      "physical_examination": "Exanthema noted in the second trimester. At 37 weeks of gestation, her male newborn delivered via cesarean section had a head (cephalic) circumference of 36.5 cm.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Confirmed maternal Zika virus infection in the second trimester of pregnancy with term delivery of a normocephalic male infant at 37 weeks of gestation. Maternal ZIKV infection was confirmed by positive serum ZIKV quantitative RT-PCR (690 copies/mL) and positive 90% plaque reduction neutralization test (PRNT90%) for neutralizing antibodies. She delivered a healthy baby boy via cesarean section at 37 weeks of gestation (head circumference 36.5 cm)."
+    }
+  }
+}

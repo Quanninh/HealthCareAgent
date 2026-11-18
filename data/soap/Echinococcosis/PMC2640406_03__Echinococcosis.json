@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2640406_03",
+  "pair_id": "PMC2640406_03::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Cholecystectomy and cystectomy due to hydatid cyst of the liver were performed on a 47-year-old man. One week later, he presented with right abdominal pain and fever. Abdominal CT conducted at another hospital demonstrated a 6 x 8 fluid collection in the right lobe of the liver. The patient was managed with percutaneous abdominal drainage and antibiotics. Over the next few months, the fluid collection decreased in volume, but there was infiltration to the lungs. Bilioptysis developed and the patient was referred to our institution. The laboratory findings revealed elevated cholestatic enzymes and mildly elevated liver function tests. ERCP demonstrated a fistula between the biliary tree and the lower right lobe of the lung. Radiological coil embolization of the fistula and insertion of an internal and external drainage catheter were performed. Ten days later, ERCP was repeated due to persistent cholangitis, and sphincterotomy with biliary stent insertion was performed. After 2 weeks of antibiotherapy administration, the patient was discharged from the hospital. One week later, the catheter was removed upon confirmation of resolution of the fluid. No recurrence occurred during 7 months of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old man presented with bilioptysis following percutaneous drainage of a post-hydatid cystectomy right hepatic fluid collection.",
+      "history_of_present_illness": "One week after undergoing cholecystectomy and hepatic hydatid cystectomy at an outside hospital, the patient developed right abdominal pain and fever with a 6 x 8 cm right hepatic lobe fluid collection on CT. Despite percutaneous abdominal drainage and antibiotics, the collection infiltrated into the right lung over the subsequent months, resulting in bilioptysis and referral to the tertiary center.",
+      "past_medical_history": "Recent cholecystectomy and hepatic hydatid cystectomy followed by a right hepatic lobe fluid collection.",
+      "review_of_systems": "Positive for right abdominal pain, fever, and bilioptysis."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Laboratory tests demonstrated elevated cholestatic enzymes and mildly elevated liver transaminases.",
+      "advanced_workup": "Outside abdominal CT showed a 6 x 8 cm fluid collection in the right hepatic lobe extending toward the lung. ERCP demonstrated a bronchobiliary fistula between the biliary tree and the right lower lobe of the lung. Repeat ERCP 10 days after coil embolization was performed for persistent cholangitis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Postoperative bronchobiliary fistula between the biliary tree and right lower lung lobe following hepatic hydatid cystectomy (no active recurrent echinococcosis), confirmed by ERCP. The patient underwent radiological coil embolization of the fistula with internal-external drainage catheter placement, followed 10 days later by repeat ERCP with endoscopic sphincterotomy and biliary stent insertion plus 2 weeks of antibiotic therapy; the catheter was removed 1 week post-discharge after fluid resolution, with no recurrence over 7 months of follow-up."
+    }
+  }
+}

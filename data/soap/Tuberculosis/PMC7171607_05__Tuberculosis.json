@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7171607_05",
+  "pair_id": "PMC7171607_05::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 73-year-old male patient presented to the Pulmonary Medicine OPD with chief complaints of fever, difficulty in breathing, palpitations, and increased frequency of urination since the last 5 days. The fever was low grade in nature and was associated with evening rise of temperature. He also complained of passing blood in urine along with dribbling of the same. He was a known case of type 2 diabetes mellitus and pulmonary tuberculosis since last 10 years and 2 years, respectively. Detailed history revealed that he had taken antitubercular drugs for 6 months and left by himself months back. There was no history of HTN or any other comorbidities. On examination, he was febrile; heart rate was 86 beats/min; respiratory rate was 27 breaths/min; blood pressure was 100/60  mm Hg; and oxygen saturation was 91% while breathing room air. The patient had pallor and bilateral pedal oedema. Respiratory system examination revealed crepitations on the right side of the chest. Other systemic examinations did not reveal any significant findings. The total leukocyte count was 8795/mm3 with 70% neutrophils and 18% lymphocytes. His fasting and postprandial blood sugar levels were 185  mg/dl and 439  mg/dl, respectively, whereas HbA1c was recorded as 8.5%. Sputum samples were sent for Gram stain, acid-fast bacilli stain, culture, and KOH mount. AFB stain and GeneXpert was done, both of which came negative. KOH mount revealed branching filament-like structures, which were confirmed by modified acid-fast staining as Nocardia spp. The sputum sample was also cultured on blood agar and it revealed white, dry colonies with rough surface after 48 hours of incubation. These colonies were identified by MALDI-TOF as Nocardia araoensis with a confidence interval of 1.50. He was started on Tab Trimethoprim-Sulphamethoxazole for a period of 15 days. On follow-up after a period of 15 days, the patient had improved symptomatically.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 73-year-old diabetic male with a history of defaulted pulmonary tuberculosis treatment presented with a 5-day history of low-grade evening fever, dyspnea, palpitations, urinary frequency, dribbling, and gross hematuria.",
+      "history_of_present_illness": "Over the 5 days prior to outpatient pulmonary presentation, the patient developed low-grade fever with evening temperature rise, shortness of breath, palpitations, increased urinary frequency, terminal dribbling, and hematuria.",
+      "past_medical_history": "Type 2 diabetes mellitus for 10 years; diagnosed with pulmonary tuberculosis 2 years prior, for which he took anti-tubercular drugs for 6 months before self-discontinuing; no hypertension.",
+      "review_of_systems": "Positive for evening fever, dyspnea, palpitations, frequency, dribbling, and hematuria."
+    },
+    "objective": {
+      "physical_examination": "Febrile, HR 86 bpm, RR 27 breaths/min, BP 100/60 mmHg, SpO2 91% on room air, pallor, bilateral pitting pedal edema, and right-sided chest crepitations on auscultation.",
+      "routine_investigations": "WBC 8,795/mm^3 (70% neutrophils, 18% lymphocytes), fasting blood glucose 185 mg/dL, postprandial blood glucose 439 mg/dL, HbA1c 8.5%. Sputum conventional Ziehl-Neelsen AFB stain and GeneXpert MTB/RIF were both negative.",
+      "advanced_workup": "Sputum KOH wet mount and modified acid-fast staining revealed branching filamentous acid-fast bacilli; 48-hour blood agar culture grew dry, rough, chalky-white colonies identified by MALDI-TOF MS (score 1.50) as Nocardia araoensis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Active pulmonary tuberculosis relapse was ruled out by negative sputum Ziehl-Neelsen AFB stain and GeneXpert MTB/RIF, and modified acid-fast staining, blood agar culture, and MALDI-TOF MS confirmed pulmonary nocardiosis caused by Nocardia araoensis in a poorly controlled diabetic patient (HbA1c 8.5%). He was treated with oral trimethoprim-sulfamethoxazole for 15 days with symptomatic improvement at follow-up."
+    }
+  }
+}

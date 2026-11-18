@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6383417_02",
+  "pair_id": "PMC6383417_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "An infant (two months old, male) was admitted to the paediatric unit of the hospital on account of fever, convulsion, and vomiting. There was no other significant past medical history prior to presentation. The family history indicates that the family lives in an one-room apartment with a borehole as the sole source of water. The two-month-old baby was exclusively breastfed as per the national policy on breastfeeding of babies in the first 6 months of life. The urine stream was normal, and the flow was adequate. There was no posterior urethral valve: this would have been discovered in the first week of life before discharge from the hospital after birth since all the male infants are always examined before discharge. The convulsion in this patient is unlikely to be a febrile convulsion; unfortunately, EEG was not done which would have been helpful in differentiating between seizures and abnormal movements. Clinical examination showed no abnormality (axillary temperature, 36.7 C, heart rate: 152 beats/min, respiratory rate: 22/min, weight: 5.8 kg; an electrocardiogram carried out was also normal). But occipitofrontal circumference is 44.4 cm, and this is macrocephaly which should have been investigated further. Other physical examinations were within the normal limits. Clinical Laboratory investigation findings are as given in Table 1.\nCSF culture did not show bacterial growth. A clean-catch, amber-coloured urine was collected, nonturbid with a pH of 6.5, and had a specific gravity of 1.005; all other urine parameters such as leukocyte and protein were negative.\nUrine culture yielded the growth of C. violaceum (5.5 x 108 CFU/ml). The antibiotic susceptibility testing showed sensitivity to ofloxacin, ciprofloxacin, nitrofurantoin, amoxicillin/clavulanic acid, cefuroxime, ceftazidime, imipenem, and gentamicin. The final diagnosis was urinary tract infection. The patient was treated with intravenous cefotaxime (275 mg, bd for 7 days) and was later discharged after clinical cure, as part of the national guidelines; the child initially received intramuscular artemether (Paluther ) until malaria was ruled out.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 2-month-old male infant presented with fever, convulsions, and vomiting.",
+      "history_of_present_illness": "The exclusively breastfed 2-month-old infant was admitted to the pediatric unit following acute onset of fever, convulsions, and vomiting, with a normal urinary stream.",
+      "past_medical_history": "Exclusively breastfed 2-month-old male infant with no prior medical history and no posterior urethral valves; family lived in a one-room apartment using borehole water as their sole water source.",
+      "review_of_systems": "Positive for fever, convulsions, and vomiting; normal urine stream and flow."
+    },
+    "objective": {
+      "physical_examination": "Axillary temperature 36.7 C, HR 152 bpm, RR 22/min, weight 5.8 kg, and macrocephaly with occipitofrontal circumference of 44.4 cm; remaining systemic physical examination was normal.",
+      "routine_investigations": "ECG was normal. Clean-catch urinalysis showed amber, non-turbid urine with pH 6.5, specific gravity 1.005, and negative leukocyte esterase and protein; urine culture grew Chromobacterium violaceum (5.5 x 10^8 CFU/mL, susceptible to ofloxacin, ciprofloxacin, nitrofurantoin, amoxicillin/clavulanate, cefuroxime, ceftazidime, imipenem, and gentamicin).",
+      "advanced_workup": "Cerebrospinal fluid (CSF) bacterial culture showed no growth."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Chromobacterium violaceum urinary tract infection presenting with fever, vomiting, and convulsions. Empiric intramuscular artemether (Paluther) was administered initially until malaria was ruled out by laboratory testing. Treated with intravenous cefotaxime (275 mg BID for 7 days) with complete clinical cure and discharge."
+    }
+  }
+}

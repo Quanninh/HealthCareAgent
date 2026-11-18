@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5917533_01",
+  "pair_id": "PMC5917533_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 46-year-old man presented with asthenia, nocturnal transpiration, weight loss (17 kg/3-months), dysphagia and compressive thoracic adenopathies (absent on the initial radiography and present on the computed tomography-scan 3-month afterward). Blood tests showed hepatic cytolysis and cholestasis. Serologies were negative for C-hepatits, HIV, Epstein-Barr, Parvo, HHV8 viruses and for bilharzias and leishmania. The serum angiotensin I converting enzyme (ACE) was elevated (88, normal value <68 IU/L) as well as calcemia, creatininemia and uremia. The QuantiFERON test and culture of a mediastinal compressive adenopathy specimen were positive for Mycobacterium tuberculosis. Granulomas were noted on the skin, mediastinal (with significant necrosis) and liver and minor salivary gland biopsies. Kidney biopsy was suggestive of IgA-glomerulonephritis. Treatment with isoniazid, rifampicin, ethambutol and moxifloxacin was started. Corticoids were added 15 days afterward. A labial minor salivary gland biopsy was made due to persistent hypercalcemia at 14 days after the beginning of antituberculosis treatment. The glandular lobules showed foci of lymphocytic infiltrate with several polymorphonuclear neutrophils and several epithelioid and giant cell granulomas, some pericanalar with edematous and incipient necrosis [Figure 1a and b]. The Ziehl-Neelsen stain did not show acid-alcohol-resistant bacilli (AARB). At 26 days after the beginning of the treatment, the patient showed no clinical complaints and calcemia was normal; at 1 year, the patient had recovered.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old man presented with a 3-month history of asthenia, night sweats, a 17-kg weight loss, and progressive dysphagia.",
+      "history_of_present_illness": "Over the preceding 3 months, the patient experienced profound asthenia, nocturnal diaphoresis, 17-kg weight loss, and dysphagia caused by enlarging compressive mediastinal lymphadenopathy.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for asthenia, night sweats, 17-kg weight loss, and dysphagia."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Labs showed hepatic cytolysis and cholestasis, elevated serum ACE (88 IU/L; ref <68 IU/L), hypercalcemia, and elevated serum creatinine and urea. Serologies for Leishmania, Schistosoma (bilharzia), HCV, HIV, EBV, parvovirus, and HHV-8 were negative, whereas the QuantiFERON-TB test was positive.",
+      "advanced_workup": "Chest CT at 3 months revealed compressive thoracic/mediastinal lymphadenopathy. Biopsies of the skin, mediastinal lymph nodes (showing extensive caseous necrosis), liver, and labial minor salivary glands (showing pericanalar epithelioid and giant-cell granulomas with incipient necrosis and negative Ziehl-Neelsen stain) all demonstrated granulomatous inflammation, kidney biopsy suggested IgA glomerulonephritis, and mycobacterial culture of the mediastinal lymph node grew Mycobacterium tuberculosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Sarcoidosis, leishmaniasis, and schistosomiasis were excluded; positive QuantiFERON-TB testing, multi-organ granulomatous biopsies (mediastinal node, liver, skin, and minor salivary gland), and positive mediastinal lymph node culture for Mycobacterium tuberculosis confirmed disseminated tuberculosis with granulomatous sialadenitis, hypercalcemia, and IgA glomerulonephritis. Four-drug antitubercular therapy (isoniazid, rifampicin, ethambutol, and moxifloxacin) supplemented with corticosteroids on day 15 normalized serum calcium and resolved all clinical symptoms by day 26, with sustained recovery at 1-year follow-up."
+    }
+  }
+}

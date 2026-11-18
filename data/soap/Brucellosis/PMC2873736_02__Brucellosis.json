@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2873736_02",
+  "pair_id": "PMC2873736_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 44-year-old man was admitted to the hospital because of a continuous low-grade fever of 3 months' duration. He had worked as a farmer for 15 years and assisted in the birth of sheep and cattle. On admission, his body temperature was 38 C, and right inguinal lymph nodes were inflamed, measuring 4 x 4 cm. A lymph node biopsy showed granulomatous lymphadenitis with stellate abscesses surrounded by palisading epithelioid cells. Serologic testing by indirect IF was positive for C. burnetii with an IgG antibody titer to phase 1 antigen of 320.\nFor both patients, results of Ziehl staining and Lowenstein (Bio-Rad, Marne-La-Coquette, France) cultures of gastric aspirates (x 3) and lymph node specimens were negative for mycobaceria, as were the results of tuberculin skin tests. Other diseases were ruled out, including brucellosis, yersiniosis, bartonellosis, and chlamydial infections (by serologic testing) and fungal infections (parasitologic studies on lymph node tissue). Antinuclear antibodies were absent, and angiotensin-converting-enzyme values were normal. Both patients received doxycycline, 200 mg once a day, and rifampin, 600 mg twice a day, for 1 year, and the symptoms resolved (follow-up at 18 months for patient 1 and 9 months for patient 2, respectively). For patient 1, serologic testing after 1 year of treatment showed an IgG antibody titer to phase 1 antigen of 320.\nGranulomatous lymphadenitis has been described during mycobacterial infections, tularemia, cat scratch disease, yersiniosis, lymphogranuloma venereum, histoplasmosis, coccidioidomycosis, and chronic granulomatous diseases. One well-documented case of acute Q fever with necrotic cervical lymphadenitis has been recently reported; to our knowledge, granulomatous lymphadenitis has never been reported during Q fever. In both cases reported here, C. burnetii was the likely etiologic agent, given the results of polymerase chain reaction and serologic studies (patient 1) or the patient's occupation and results of the serologic testing (patient 2). Moreover, for both, no other potential cause could be identified, and the response to doxycycline-rifampin regimen was favorable. We suggest that granulomatous lymphadenitis be added to the list of atypical presentations of Q fever.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old male farmer presented with a 3-month history of continuous low-grade fever and right inguinal swelling.",
+      "history_of_present_illness": "A 44-year-old man was admitted for evaluation of a continuous low-grade fever persisting for 3 months accompanied by an inflamed right inguinal mass.",
+      "past_medical_history": "Worked as a farmer for 15 years and regularly assisted in the parturition of sheep and cattle.",
+      "review_of_systems": "Positive for continuous low-grade fever and right inguinal lymph node swelling."
+    },
+    "objective": {
+      "physical_examination": "Temperature 38.0 C; inflamed, enlarged right inguinal lymph nodes measuring 4 x 4 cm.",
+      "routine_investigations": "Tuberculin skin test negative; serum angiotensin-converting enzyme (ACE) level within normal limits.",
+      "advanced_workup": "Right inguinal lymph node biopsy histopathology demonstrated granulomatous lymphadenitis with stellate abscesses surrounded by palisading epithelioid cells. Ziehl-Neelsen staining and Lowenstein-Jensen cultures of gastric aspirates (x3) and lymph node tissue were negative for mycobacteria; fungal/parasitologic tissue studies and antinuclear antibodies (ANA) were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Serologic testing ruled out brucellosis, yersiniosis, bartonellosis, and chlamydial infections, while indirect immunofluorescence serology was positive for Coxiella burnetii (phase I IgG antibody titer 1:320), confirming Q fever granulomatous inguinal lymphadenitis. Treated with oral doxycycline (200 mg QD) and oral rifampin (600 mg BID) for 1 year, achieving complete resolution of symptoms and lymphadenopathy at 9-month follow-up."
+    }
+  }
+}

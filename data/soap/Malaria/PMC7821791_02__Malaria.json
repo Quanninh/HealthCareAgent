@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7821791_02",
+  "pair_id": "PMC7821791_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "Case 2: 59-year-old male, health personnel with no history of cardiovascular disease or other chronic disease working in a then COVID-19 free zone and a history of contact with a suspected case of COVID-19 (this patient passed away 30 minutes on admission and never had his sample collected). He developed fatigue on the 27th of April 2020 (7 days after contact with the suspected case). This prompted consultation on the 28th April 2020, where he also complained of anorexia but denied having fever, cough, chest pain, and difficulty in breathing, dysuria, frequency, vomiting, diarrhea, constipation, catarrh, and neither loss of smell nor taste. On examination, he was ill-looking, conscious, and oriented with mild asthenia. Chest examination revealed vesicular breath sounds with no added sounds. We made the clinical diagnosis of simple malaria, and he was treated as an outpatient with an oral anti-malarial (Athemether + Lumefantrine 80/480mg) despite a negative parasitemia for malaria and bed rest. Due to persistent worsening fatigue, the patient was rushed as an emergency on the sixth day following the onset of symptoms. He also complained of generalized back pain but didn't have cough, fever, nor difficulty in breathing nor chest pain.\nOn examination, he was ill-looking with an altered general state by severe asthenia, Glasgow coma scale 14/15 (E 4 V 4 M6). His vital signs on admission were temperature 38.3 C, pulse 104, blood pressure 110/84mmHg, and respiratory rate of 16 breaths per minute. He had no signs of meningeal irritation. The neurological examination done was unremarkable. Musculoskeletal examination revealed a normal external back with no signs of trauma and no tenderness on palpation. The chest examination didn't reveal any abnormalities. It is worth noting that one of his colleagues, who is the patient presented above, had been diagnosed with COVID-19 during the weekend before his admission. We isolated him unit and PCR test for SARS-CoV-2 requested, and the sample collection was done. We made a clinical diagnosis of severe malaria with a differential of a suspected case of COVID-19 and patient we put him on the following treatment (Table 2). We noticed significant clinical progress marked by the resolution of fatigue and back pain on day 2 of admission, and discharge was programmed for the following day. His results for SARS-CoV-2 came back on this same day (on day 2 of admission), and he was tested positive.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 59-year-old male healthcare worker presented with a 6-day history of progressively worsening severe fatigue, anorexia, and generalized back pain.",
+      "history_of_present_illness": "Seven days after contact with a suspected fatal COVID-19 case, the healthcare worker developed fatigue and anorexia on April 27, 2020, and was treated empirically as an outpatient with oral artemether-lumefantrine (80/480 mg) despite a negative malaria smear. Six days after symptom onset, he was brought to the emergency department with severe asthenia and generalized back pain.",
+      "past_medical_history": "Healthcare worker with no prior cardiovascular or chronic diseases; occupational exposure to a suspected fatal COVID-19 patient 7 days before symptom onset and a COVID-19-positive colleague the weekend prior to admission.",
+      "review_of_systems": "Positive for severe fatigue/asthenia, anorexia, and generalized back pain. Negative for subjective fever, cough, chest pain, dyspnea, dysuria, vomiting, diarrhea, catarrh, anosmia, or ageusia. Prior medication: oral artemether-lumefantrine 80/480 mg."
+    },
+    "objective": {
+      "physical_examination": "On Day 6 admission: ill-looking with severe asthenia, Glasgow Coma Scale score 14/15 (E4V4M6), temperature 38.3 C, pulse 104 bpm, BP 110/84 mmHg, RR 16 breaths/min, normal chest auscultation, no meningeal signs or neurological deficits, and non-tender external back examination.",
+      "routine_investigations": "Baseline peripheral blood examination was negative for malaria parasitemia.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: SARS-CoV-2 (COVID-19) infection presenting with atypical severe asthenia, fever, and back pain (initially misdiagnosed and treated empirically as uncomplicated and then severe malaria despite negative malaria parasitemia). Confirmed on hospital day 2 by a positive SARS-CoV-2 RT-PCR assay. Isolated and managed with supportive and empiric inpatient therapy, achieving resolution of fatigue and back pain by hospital day 2."
+    }
+  }
+}

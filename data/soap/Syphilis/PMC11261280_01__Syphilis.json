@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11261280_01",
+  "pair_id": "PMC11261280_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 31-year-old woman presented with fatigue, weight gain, and lower extremity edema. One month prior, she had a fever of up to 38 C, which subsided naturally. One week prior, she developed headaches, nausea, and anorexia. Subsequently, she developed general malaise, edema of the face and bilateral lower legs, and a rapid weight gain of 8 kg. As her symptoms did not improve, she sought medical attention. During a review of systems, she admitted experiencing dizziness and sore throat but denied the occurrence of any other symptoms. She had a medical history of chlamydial urethritis that had been treated with azithromycin two years prior and no known drug allergies or medications; she did not use any illicit drugs. Her sexual history included multiple partners and unprotected sexual intercourse one to two times per week. Her body weight was 62 kg, an increase from the baseline value of 54 kg. Vital signs were stable, and physical examination revealed edema of the bilateral eyelids and lower extremities and bilateral cervical lymphadenopathies. Additionally, rash was observed on the bilateral forearms. The laboratory investigations revealed white blood cell counts 6300/microl, hemoglobin 18.3 g/dl, platelets 298,000/microl, serum creatinine level 1.89 mg/dl, total protein 4.8 g dl, albumin 1.3 g/dl. The urine creatinine/protein ratio was 10.9 g/g Cre. Because TPHA and RPR were positive and the reactive plasma reagin (RPR) titer was as high as 1:32, we performed a lumbar puncture to rule out neurosyphilis; however, no evidence of meningitis was observed. HIV antigen/antibody was negative. Therefore, we initiated 100 mg of doxycycline, orally every 12 h for 14 days, to treat secondary syphilis along with nephrotic syndrome. Initially, a renal biopsy was planned, but after her edema and proteinuria improved dramatically with only doxycycline, we decided not to perform a biopsy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old woman presented with fatigue, facial and bilateral lower-extremity edema, and a rapid 8-kg weight gain over 1 week.",
+      "history_of_present_illness": "One month prior to presentation, the patient experienced a transient fever up to 38 C that resolved spontaneously. One week prior to presentation, she developed headaches, nausea, and anorexia, rapidly followed by generalized malaise, facial and bilateral leg edema, and an 8-kg weight gain (from 54 kg to 62 kg).",
+      "past_medical_history": "History of chlamydial urethritis 2 years prior treated with azithromycin. Sexual history was notable for multiple partners and unprotected sexual intercourse 1-2 times per week. Denied illicit drug use.",
+      "review_of_systems": "Positive for fatigue, transient fever, headache, nausea, anorexia, dizziness, sore throat, facial/leg edema, 8-kg weight gain, and forearm rash; no known drug allergies and taking no home medications."
+    },
+    "objective": {
+      "physical_examination": "Body weight was 62 kg (baseline 54 kg) with stable vital signs. Physical examination revealed bilateral eyelid edema, bilateral lower-extremity pitting edema, bilateral cervical lymphadenopathy, and an erythematous rash on both forearms.",
+      "routine_investigations": "Laboratory tests showed WBC 6,300/uL, hemoglobin 18.3 g/dL, platelets 298,000/uL, elevated serum creatinine 1.89 mg/dL, hypoproteinemia (total protein 4.8 g/dL), severe hypoalbuminemia (albumin 1.3 g/dL), and nephrotic-range proteinuria with a urine protein-to-creatinine ratio of 10.9 g/gCr. Serum HIV antigen/antibody screening was negative.",
+      "advanced_workup": "Lumbar puncture CSF analysis was normal with no evidence of meningitis/neurosyphilis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis complicated by acute syphilitic nephrotic syndrome and acute kidney injury, established via positive serum TPHA and reactive serum RPR (titer 1:32) with negative CSF neurosyphilis workup. Treated with oral doxycycline 100 mg every 12 hours for 14 days, which resulted in dramatic resolution of her generalized edema and nephrotic-range proteinuria, obviating the need for a planned renal biopsy."
+    }
+  }
+}

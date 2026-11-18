@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5885427_01",
+  "pair_id": "PMC5885427_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 19-year-old primigravida, vaginally delivered at home, presented after 9 days with complaints of abdominal pain and distension for 4 days and breathlessness for 2 days. On examination, her general condition was poor. Patient was dehydrated with pulse rate of 130/min, blood pressure of 80/40 mmHg and respiratory rate of 40/min. Her chest auscultation did not reveal any abnormality. On abdominal examination, diffuse tenderness was present. She was resuscitated initially with fluids and then noradrenaline infusion was started at 5 mug/min. Ultrasound abdomen revealed hypoechoic collection of approximately 800-900 ml. Exploratory laparotomy was done under general anaesthesia and 1 L of pus was drained. Patient was shifted to (ICU) for mechanical ventilation in view of sepsis and hemodynamic instability. During her course of stay in ICU, sepsis was controlled and she became haemodynamically stable. Ionotropes were gradually tapered and stopped. However all the efforts of weaning her off the ventilator proved futile. Patient continued to be lethargic, stuporous and was not obeying verbal commands. On 7th postoperative day, she developed hypertension (153/90 mmHg) for which amlodipine 5 mg once a day was started. On the 8th day, she passed a tapeworm in stools which were followed by two episodes of generalised tonic clonic seizures lasting about 30 s each. Loading dose of phenytoin 1000 mg was administered intravenously which was followed by 100 mg thrice daily. Computed tomography (CT) scan was planned keeping the diagnosis of neurocysticercosis in mind. However CT head revealed hypodensities in bilateral occipital lobe which the radiologist diagnosed as PRES. After the diagnosis was made, dose of amlodipine was increased to 10 mg OD to keep blood pressure <130/90 mmHg. Intravenous Dexamethsaone 8 mg thrice daily was added to the treatment. Gradually her level of consciousness improved. Trachea was extubated on day 11 and she was shifted to ward on day 15 without any neurological sequelae.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 19-year-old primigravida presented 9 days after a home vaginal delivery with a 4-day history of abdominal pain and distension and a 2-day history of breathlessness.",
+      "history_of_present_illness": "Nine days after delivering vaginally at home, the patient presented in septic shock with 4 days of diffuse abdominal pain and distension and 2 days of dyspnea. Following emergent laparotomy draining 1 L of intra-abdominal pus and ICU mechanical ventilation, her sepsis resolved, but she remained stuporous, developed hypertension (153/90 mmHg) on postoperative day 7, and on postoperative day 8 passed a tapeworm in her stool followed by two 30-second generalized tonic-clonic seizures.",
+      "past_medical_history": "Primigravida who had an unattended vaginal delivery at home 9 days prior to admission.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "On admission, she was in poor general condition and dehydrated, with pulse 130/min, blood pressure 80/40 mmHg, respiratory rate 40/min, clear chest auscultation, and diffuse abdominal tenderness. By postoperative day 7-8 in the ICU, she was lethargic, stuporous, not obeying verbal commands, and hypertensive (153/90 mmHg), and suffered two generalized tonic-clonic seizures after passing an intestinal tapeworm.",
+      "routine_investigations": "Abdominal ultrasound on admission revealed an 800-900 mL hypoechoic intra-abdominal collection.",
+      "advanced_workup": "Head CT performed on postoperative day 8 to evaluate for suspected neurocysticercosis demonstrated bilateral occipital lobe hypodensities without cystic lesions, diagnostic of posterior reversible encephalopathy syndrome (PRES)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Head CT ruled out neurocysticercosis and confirmed posterior reversible encephalopathy syndrome (PRES) secondary to postpartum hypertension and puerperal sepsis (with incidental intestinal taeniasis). She was treated with intravenous phenytoin (1000 mg loading dose followed by 100 mg three times daily), uptitrated oral amlodipine (from 5 mg to 10 mg daily to maintain BP <130/90 mmHg), and IV dexamethasone (8 mg three times daily). Her consciousness steadily normalized, she was extubated on postoperative day 11, and she was transferred to the ward on day 15 without neurological sequelae."
+    }
+  }
+}

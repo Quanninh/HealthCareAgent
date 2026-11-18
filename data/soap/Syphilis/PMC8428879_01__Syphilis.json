@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8428879_01",
+  "pair_id": "PMC8428879_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "The patient was a male, caucasian, 86 years old patient. He reported to be a retired military, heterosexual, widowed, with a previous history of hypertension and a of sexual intercourses with a prostitute. On admission, he presented diffuse spots on his body that appeared three weeks before his first evaluation at a dermatology clinic in Santa Cruz do Sul, Rio Grande do Sul State, Brazil. Later, he was admitted to the Hospital Santa Casa de Misericordia in Porto Alegre, Rio Grande do Sul State, Brazil , two months after the onset of the first lesion (day 0). When he arrived, he did not present the typical primary syphilis lesions, and denied other skin lesions preceding the current condition. However, he had mild symptoms of fatigue and joint pain. He also reported a weight loss of 10 kg in the last two months without a calorie-restricted diet. During the physical examination, we found diffuse annular erythematous plaques on the chest, back, upper and lower limbs (Figure 1). No palpable lymph node enlargement or other changes were identified in the physical examination.\nWhen he arrived at the hospital, he no longer had the typical primary syphilis lesions. Serology and a biopsy of an anterior chest lesion were requested. The VDRL test found a 1/2 titer, and the anti-Treponema pallidum IgM antibody was positive. The serological assessment for HIV, hepatitis B, and hepatitis C was negative (day 5). The histopathological examination showed a dense mononuclear infiltrate in the epidermis and hypodermis, with perivascular and perianexial involvement (day 14) (Figure 2). The immunohistochemistry showed the presence of anti-treponemal antibodies and numerous spirochetes (Figure 3). The clinical protocol and therapeutic guidelines for sexually transmitted infections recommend the use of benzathine benzylpenicillin 2.4 million international units (IU), intramuscularly (IM), in a single-dose (1.2 million in each gluteus). However, most treated cases report a better outcome with the administration of three doses. The dermatologist, in this case, chose to treat the suggestive secondary syphilis with benzathine penicillin and a total dose of 4,800,000 IU as a precaution. The first dose on the first day of treatment was 2,400,000 IU; on day seven, the patient received a second dose of 1,200,000 IU; and on day 14, the third dose of 1,200,000 IU. The lesions disappeared in 30 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 86-year-old widowed Caucasian male retired military officer presented with a 2-month history of diffuse annular erythematous plaques over his trunk and extremities, mild fatigue, arthralgia, and an unintentional 10-kg weight loss.",
+      "history_of_present_illness": "Two months prior to hospital admission (3 weeks before his initial outpatient dermatology visit), the patient developed diffuse erythematous spots and annular plaques across his body accompanied by mild fatigue, joint pain, and a 10-kg weight loss without dietary restriction.",
+      "past_medical_history": "History of hypertension. Widowed heterosexual male who reported sexual intercourse with a female commercial sex worker; denied any noticeable preceding primary chancre.",
+      "review_of_systems": "Positive for disseminated annular skin plaques, mild fatigue, arthralgia, and 10-kg weight loss; negative for prior genital ulcers."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination revealed diffuse annular erythematous plaques distributed over the chest, back, and upper and lower extremities, with no active primary chancre or palpable lymphadenopathy.",
+      "routine_investigations": "Serological testing for HIV, hepatitis B, and hepatitis C was negative.",
+      "advanced_workup": "Anterior chest skin biopsy histopathology (day 14) demonstrated a dense perivascular and periadnexal mononuclear inflammatory infiltrate spanning the epidermis to the hypodermis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary annular syphilis in an octogenarian, established via reactive serum VDRL (titer 1:2), positive anti-Treponema pallidum IgM antibody, and skin biopsy immunohistochemistry (IHC) demonstrating abundant Treponema pallidum spirochetes. Treated with intramuscular benzathine benzylpenicillin totaling 4,800,000 IU over 14 days (2,400,000 IU on day 1, 1,200,000 IU on day 7, and 1,200,000 IU on day 14), achieving complete disappearance of all cutaneous lesions within 30 days."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4139979_01",
+  "pair_id": "PMC4139979_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 40-year-old female presented with fever, loss of appetite, burning epigastrium and non-productive cough since seven days. On examination there was mild hepatosplenomegaly. She was provisionally diagnosed as a case of acid peptic disease. Routine hematological investigations showed hemoglobin of 7 gm/dl and ESR-58 mm at the end of one hour. On peripheral smear the red cells were microcytic, hypochromic and white cells were within normal limits with total leucocyte count of 3600/cu.mm. However, few late normoblasts and 6% myelocytes and meta-myelocytes were noticed. Platelets were reduced. No hemoparasites or immature cells were noted in the smear. Hence a bone marrow aspiration was advised.\nOn evaluating the marrow, it was hypercellular with erythroid hyperplasia. Myelopoiesis was normal. Megakaryocytes were normal. Granulomas containing epithelioid cells were noted [Figure 1]. Encapsulated round organisms suggestive of Cryptococcus were also seen around the granulomas [Figure 2]. Acid fast bacilli were not demonstrable. Special stains like mucicarmine and PAS were done to demonstrate the yeast forms. It was reported as a case of chronic granulomatous infection with cryptococcosis and test for HIV was advised.\nThe ELISA test for detection of HIV was positive. A chest X-ray and CT-scan done later also showed multiple nodular lesions in the lung base [Figure 3]. The patient was put on antifungal regime and referred to an anti-retroviral therapy (ART) center at a nearby government hospital for further management.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old female presented with a 7-day history of fever, loss of appetite, epigastric burning, and non-productive cough.",
+      "history_of_present_illness": "The patient presented with 7 days of acute fever, anorexia, burning epigastric pain, and dry cough, and was initially provisionally diagnosed with acid peptic disease.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, anorexia, burning epigastric pain, and non-productive cough."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed mild hepatosplenomegaly.",
+      "routine_investigations": "Hemoglobin 7 g/dL, ESR 58 mm/1st hour, total leukocyte count 3,600/mm3, reduced platelets, and peripheral blood smear showing microcytic hypochromic RBCs with a few late normoblasts and 6% myelocytes/metamyelocytes. Subsequent HIV ELISA was positive, and chest X-ray showed multiple basal lung nodules.",
+      "advanced_workup": "Chest CT demonstrated multiple nodular lesions in the lung base. Bone marrow aspiration revealed a hypercellular marrow with erythroid hyperplasia, normal myelopoiesis and megakaryocytes, and epithelioid cell granulomas surrounded by encapsulated round yeast organisms that stained positive on mucicarmine and periodic acid-Schiff (PAS) stains and negative for acid-fast bacilli."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of newly diagnosed HIV-associated disseminated cryptococcosis involving the bone marrow and lungs, confirmed by bone marrow aspirate cytology and special stains (mucicarmine and PAS demonstrating encapsulated Cryptococcus yeast forms around epithelioid granulomas), positive HIV ELISA, and basal pulmonary nodules on chest CT; tuberculosis was excluded by negative AFB staining. Initiated on antifungal therapy and referred to a government antiretroviral therapy (ART) center for ongoing HIV and opportunistic infection management."
+    }
+  }
+}

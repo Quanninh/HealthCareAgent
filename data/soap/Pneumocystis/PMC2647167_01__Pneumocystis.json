@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2647167_01",
+  "pair_id": "PMC2647167_01::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 40-year-old seaman presented with malaise, fever, dyspnea and a 10 kg weight loss (15% of body weight over a period of the months). High-resolution computed tomography (CT) images demonstrated diffuse ground glass opacities (GGO) in both lungs. A transbronchial lung biopsy (TBLB) was performed but was complicated by the presence of pneumothorax (Fig. 1A). However, as the size of the biopsy sample was inadequate, PCNB was performed immediately after the TBLB. Under CT guidance with the patient in the supine position, a chest radiologist with 18 months of experience performed percutaneous aspiration with the use of a 22-gauge 15-cm Chiba biopsy needle (InterV; Angiotech, Gainesville, FL). A CT scan showed that the needle was placed into the right lung lesion. The procedure was successful at the first attempt. Just after aspiration, the patient complained of dyspnea and subsequently a tonic-clonic type seizure developed with anisocoric pupil dilation. Brain CT imaging was performed with application of an oxygen mask and showed abnormal air densities in the sulci of both the parietal and occipital lobes (Fig. 1B). Unfortunately, hyperbaric oxygen therapy (HBOT) was not available at that time. The PCNB specimen showed the presence of Pneumocystis carinii organisms, and serum testing was positive for antibodies against human immunodeficiency virus (HIV) and the CD4 cell count was less than 50 cells/mm3. Accordingly, the final diagnosis was acquired immunodeficiency syndrome (AIDS) with Pneumocystis carinii pneumonia. Transthoracic echocardiography (TTE) performed two days later failed to reveal any structural abnormalities that could cause the right-to-left shunt. Despite supportive management and antibiotics, the patient died of pneumonia and sepsis without any improvement in mental status.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old male seaman presented with malaise, fever, dyspnea, and a 10 kg weight loss (15% of body weight) over several months.",
+      "history_of_present_illness": "The patient, a 40-year-old seaman, developed progressive malaise, fever, shortness of breath, and unintentional weight loss of 10 kg (15% of his body weight) over several months prior to hospital presentation.",
+      "past_medical_history": "Occupational history as a seaman; no previously known medical history prior to admission.",
+      "review_of_systems": "Positive for malaise, fever, dyspnea, and 10 kg weight loss."
+    },
+    "objective": {
+      "physical_examination": "Immediately following CT-guided percutaneous transthoracic needle biopsy (PCNB), the patient developed acute worsening dyspnea and a generalized tonic-clonic seizure with anisocoric pupil dilation.",
+      "routine_investigations": "Serology: Positive serum antibodies against human immunodeficiency virus (HIV). Transthoracic echocardiography (TTE, performed 2 days post-biopsy): No structural cardiac abnormalities or intracardiac right-to-left shunt.",
+      "advanced_workup": "High-resolution chest CT (HRCT): Diffuse ground-glass opacities (GGO) throughout both lungs. Transbronchial lung biopsy (TBLB) and CT-guided percutaneous needle biopsy (PCNB): TBLB yielded an inadequate sample and was complicated by pneumothorax; immediate CT-guided PCNB of the right lung using a 22-gauge 15-cm Chiba needle identified Pneumocystis carinii (jirovecii) organisms. Post-seizure brain CT: Abnormal cerebral arterial air densities within the sulci of the bilateral parietal and occipital lobes diagnostic of systemic cerebral air embolism. Immunological workup: Absolute CD4+ T-cell count <50 cells/mm3."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Newly diagnosed acquired immunodeficiency syndrome (AIDS; HIV antibody positive, CD4 <50 cells/mm3) with Pneumocystis carinii (jirovecii) pneumonia (confirmed on percutaneous lung biopsy specimen), complicated by iatrogenic pneumothorax and fatal cerebral arterial air embolism in the bilateral parieto-occipital lobes following CT-guided percutaneous lung biopsy. Plan and clinical course: Managed with 100% oxygen mask application, anticonvulsant/supportive care, and antibiotics (hyperbaric oxygen therapy was unavailable at the facility). The patient's neurological status failed to improve, and he died of pneumonia and sepsis."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6390234_01",
+  "pair_id": "PMC6390234_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 63-year-old Caucasian female with established seropositive (+RF, +ACPA) rheumatoid arthritis for 11 years on treatment with infliximab and methotrexate (MTX; 20 mg/week) presented with a 1.5-month history of fever, cough, and dyspnea. She was initially suspected to have community-acquired pneumonia treated with antibiotics and systemic steroids with transient improvement; however, her symptoms recurred. Initial lab tests showed anemia (Hb: 8.8) and thrombocytopenia (platelet: 51) with an elevated ferritin of 28,000 ng/ml, low complements (C3: 21; C4: <2), low fibrinogen, elevated CRP, normal lipids, and mildly elevated liver enzymes. CT chest was remarkable for subpleural opacity without parenchymal infiltrates. Her physical examination demonstrated chronic limited range of motion of the left wrist and no active synovitis.\nDue to significant elevation in ferritin, recurrent fevers, cytopenias, and failure to respond to antibiotics, secondary hemophagocytic lymphohistiocytosis (HLH) was suspected, with possible triggers being RA, immunosuppression, malignancy, and infection. Additionally, further testing demonstrated an elevated soluble IL-2 receptor (sIL-2) at 7970 U/ml (Ref: 45-1105 U/ml). Hence, the patient fulfilled 5 out of 8 HLH-2004 diagnostic criteria for HLH with elevated ferritin, low fibrinogen, fever, cytopenia (Hb < 9 and low platelets), and elevated sIL-2 receptor. She was empirically started on high-dose systemic glucocorticoids for management of HLH; however, she continued to experience recurrent high-grade fever. Due to suspicion for an underlying infectious etiology of HLH, bone marrow biopsy was performed which revealed hypercellular bone marrow with multiple fungal elements consistent with histoplasmosis without evidence of hemophagocytosis. Subsequent urine and blood cultures confirmed disseminated histoplasmosis.\nAntifungal treatment with intravenous amphotericin was promptly initiated in the hospital; after adequate clinical response, the patient was transitioned to itraconazole. Infliximab and MTX were held during antifungal treatment, and the patient was switched to hydroxychloroquine. Her infection was under control during her 9 months of follow-up with infectious disease, and she remained on antifungal treatment indefinitely.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old Caucasian female with rheumatoid arthritis presented with a 1.5-month history of recurrent fever, cough, and dyspnea.",
+      "history_of_present_illness": "The patient, who had an 11-year history of seropositive rheumatoid arthritis treated with infliximab and methotrexate (20 mg/week), developed 1.5 months of fever, cough, and shortness of breath. She experienced only transient improvement with outpatient antibiotics and systemic corticosteroids for presumed community-acquired pneumonia before her symptoms recurred.",
+      "past_medical_history": "Seropositive (+RF, +ACPA) rheumatoid arthritis for 11 years.",
+      "review_of_systems": "Positive for recurrent high-grade fevers, cough, and dyspnea. Home medications: infliximab and methotrexate 20 mg weekly."
+    },
+    "objective": {
+      "physical_examination": "Febrile; musculoskeletal exam showed chronic limited range of motion of the left wrist without active synovitis.",
+      "routine_investigations": "Labs: Hb 8.8 g/dL, platelets 51 K/uL, ferritin 28,000 ng/mL, low complement (C3 21, C4 <2), low fibrinogen, elevated CRP, normal lipid panel, and mildly elevated liver enzymes.",
+      "advanced_workup": "HLH immunology: elevated soluble IL-2 receptor (sIL-2R) at 7,970 U/mL (reference 45-1,105 U/mL), fulfilling 5 of 8 HLH-2004 criteria. Chest CT: subpleural opacity without parenchymal infiltrates. Bone marrow biopsy: hypercellular marrow containing multiple fungal elements consistent with histoplasmosis, without morphological hemophagocytosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated histoplasmosis triggering secondary hemophagocytic lymphohistiocytosis (HLH) in a patient with rheumatoid arthritis on infliximab and methotrexate. Confirmation: Bone marrow biopsy identifying multiple fungal elements consistent with Histoplasma capsulatum, confirmed by positive urine and blood fungal cultures. Plan & clinical course: Held infliximab and methotrexate (later switched to hydroxychloroquine for RA) and treated with IV amphotericin B followed by indefinite oral itraconazole maintenance after initial failure of empiric high-dose glucocorticoids; infection remained well controlled at 9-month Infectious Disease follow-up."
+    }
+  }
+}

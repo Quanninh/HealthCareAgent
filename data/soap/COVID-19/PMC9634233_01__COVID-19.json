@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9634233_01",
+  "pair_id": "PMC9634233_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 2-year-old toddler presented to a clinic with recent onset of abdominal pain, irritation, and failure to thrive. The patient had experienced flu-like symptoms 2 months before being suspicious of the COVID-19 infection. Outpatient workup revealed significantly dilated left ventricle (LV) and impaired systolic LV function with an EF of 20-25% and severe functional mitral regurgitation (MR). On physical examination, S1, S2, and S3 were audible with an early systolic grade 4 murmur. The patient's lungs were clear. Electrocardiography showed sinus tachycardia (150 bpm) and deep Q waves in leads I, AVL, V4, V5, and V6 in favor of chronic LV myocardial injury (Figure 1). Cardiac troponin, ESR, and CRP levels were normal. The ProBNP level increased (1,950 pg/ml) and COVID-19 PCR was tested negative.\nCardiac magnetic resonance was performed to investigate the possible underlying pathology, which confirmed severe LV dilation, severely reduced systolic function (LVEF: 22%), and severe MR (Figure 2). Late gadolinium enhancement (LGE) sequence demonstrated subendocardial to transmural scar in the basal and especially at the mid anterior and anteroseptal segments, raising suspicion of an ischemic insult. Gated CT coronary angiography (Figure 3) demonstrated an absent LM stem with a centripetal filling of the small caliber confluent LAD and circumflex, likely from collaterals from a dilated right coronary artery. Angiography confirmed the LM atresia with a retrograde collateral filling of LAD and LCX arteries from a dominant RCA. There was no connection to the pulmonary arterial branches (Figure 4; Supplementary Videos 1, 2). Considering the extent of myocardial fibrosis, small-sized coronary arteries and LV remodeling were required, and according to the decision of heart team specialists, the patient underwent medical treatment for heart failure and was scheduled for a heart transplant.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 2-year-old toddler presented to an outpatient clinic with recent-onset abdominal pain, irritability, and failure to thrive.",
+      "history_of_present_illness": "Two months after experiencing a flu-like illness initially suspected to be COVID-19, the toddler presented with abdominal pain, irritability, and poor weight gain, and was found on outpatient echocardiography to have severe left ventricular dilatation and dysfunction.",
+      "past_medical_history": "Flu-like illness 2 months prior to presentation.",
+      "review_of_systems": "Positive for abdominal pain, irritability, and failure to thrive."
+    },
+    "objective": {
+      "physical_examination": "Cardiac auscultation revealed audible S1, S2, and an S3 gallop with a grade 4/6 early systolic murmur; lung fields were clear.",
+      "routine_investigations": "ECG showed sinus tachycardia (150 bpm) and deep pathological Q waves in leads I, aVL, and V4-V6 indicative of chronic anterolateral myocardial infarction. Serum pro-BNP was elevated (1,950 pg/mL), whereas cardiac troponin, ESR, CRP, and SARS-CoV-2 PCR were normal/negative. Echocardiography showed severe LV dilatation, LVEF 20-25%, and severe functional mitral regurgitation.",
+      "advanced_workup": "Cardiac MRI confirmed severe LV dilatation, severely reduced LVEF (22%), severe mitral regurgitation, and subendocardial-to-transmural late gadolinium enhancement (scar) in the basal and mid-anterior and anteroseptal segments. Gated CT coronary angiography and invasive selective coronary angiography demonstrated congenital left main coronary artery (LMCA) atresia with retrograde collateral filling of small-caliber confluent LAD and LCx arteries from a dominant dilated right coronary artery (and no anomalous connection to the pulmonary artery)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Congenital left main coronary artery atresia (LMCA atresia) causing chronic anterior/anteroseptal myocardial infarction, ischemic dilated cardiomyopathy (LVEF 22%), and severe functional mitral regurgitation (initially suspected as post-COVID-19 myocarditis/MIS-C; SARS-CoV-2 PCR negative). Due to extensive transmural myocardial fibrosis, diminutive left coronary vessels, and severe LV remodeling, the multidisciplinary heart team initiated medical heart failure therapy and listed the patient for pediatric heart transplantation."
+    }
+  }
+}

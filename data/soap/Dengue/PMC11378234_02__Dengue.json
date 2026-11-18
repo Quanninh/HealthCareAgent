@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11378234_02",
+  "pair_id": "PMC11378234_02::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 16-year-old boy, with severe aplastic anemia, presented in transplant emergency with high-grade fever associated with shivering, pain in right hypochondrium and loose watery stools for 2 days, on day +88 posttransplant. Pan cultures and other infective workup were negative while Dengue NS1 antigen was detected. His platelet count declined rapidly with rising hematocrit level. He was managed aggressively with supportive care, intravenous hydration, and platelet transfusions during critical phase. He also had slightly deranged renal function and liver enzymes were elevated two times upper normal limit. However, the coagulation profile was normal. Mild pleural effusion and moderate ascites were also observed on ultrasound. He stayed in the hospital for 15 days for management of dengue fever.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 16-year-old male stem cell transplant recipient presented on day +88 post-transplant with high-grade fever, shivering, right hypochondrial pain, and loose watery stools for 2 days.",
+      "history_of_present_illness": "On day +88 following stem cell transplantation for severe aplastic anemia, the patient presented to the transplant emergency department with a 2-day history of high-grade fever with shivering, right upper quadrant pain, and watery diarrhea.",
+      "past_medical_history": "Severe aplastic anemia status post stem cell transplantation (day +88).",
+      "review_of_systems": "Positive for high-grade fever, shivering, right hypochondrial pain, and loose watery stools."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Rapidly declining platelet count with rising hematocrit (hemoconcentration), mildly deranged renal function, liver enzymes elevated to 2x upper limit of normal, and normal coagulation profile. Pan-cultures and other infectious workup were negative. Abdominal/chest ultrasound demonstrated mild pleural effusion and moderate ascites.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Severe dengue fever with plasma leakage (pleural effusion, ascites, hemoconcentration) in a post-transplant severe aplastic anemia patient, confirmed by positive dengue NS1 antigen and negative pan-cultures. Managed aggressively over a 15-day hospitalization with supportive care, intravenous hydration, and platelet transfusions during the critical phase, resulting in recovery."
+    }
+  }
+}

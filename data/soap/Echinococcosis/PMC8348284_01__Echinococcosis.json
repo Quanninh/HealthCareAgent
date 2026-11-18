@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8348284_01",
+  "pair_id": "PMC8348284_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "We report an 82-year-old female presenting with a painful and progressive swelling over his right thigh region, evolving for five years. She had no medical history, fever, or trauma. Clinical examination revealed multiple palpable mass in the postero-lateral aspect of the right thigh, with a firm consistency, the largest of which was located in the gluteal region and measured approximately 30 x 35cm (Figure 1). No visible overlying skin disorder was noticed. There was no other notable or palpable swelling in the rest of the body. The hip range of motion was normal with no obvious distal neurovascular deficit.\nRegular blood tests were normal except for the C-reactive protein level that was 82 mg/L. The pelvic radiograph was normal and the ultrasonography exam revealed multiple cysts located in the subcutaneous and muscular tissue. Magnetic resonance imaging depicted multiple cystic formations on the posterolateral and anterior aspects of the right thigh root and gluteal region, occupying mainly subcutaneous fat, gluteus maximus muscle and subaponeurotic fat of the hamstring compartment. They had a thin wall in T2 hyposignal enhanced after injection of gadolinium and fluid content of a variable signal, some of which were multiloculated and septated (Figure 2). The most voluminous one measured 15.5 x 17.6cm. E. granulosus serology was positive. The thoraco-adomino-pelvic and cerebral computed tomography (CT) scans did not show any other lesions.\nSurgical treatment was planned and done under general anesthesia. An extended lateral approach of the thigh was performed. During the resection, we noticed infected cysts liquid (Figure 3). Resection of all the cysts was done and the surgical field was soaked with hypertonic saline. Post-operative liquid culture revealed bacterial infection and the germ was Morganella Morganii. Albendazole drug (400mg per day) was given for the next 3 months. Histopathological findings of the resected specimen (Figure 4) confirmed the diagnosis of hydatid cyst. At 6 months follow-up, the patient was satisfied with no complications or recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 82-year-old female presented with a 5-year history of a painful, progressively enlarging swelling over her right thigh and gluteal region.",
+      "history_of_present_illness": "The patient experienced a slowly growing, painful swelling on the posterolateral aspect of her right thigh and buttock over 5 years without fever or trauma.",
+      "past_medical_history": "Unremarkable past medical history; no history of trauma.",
+      "review_of_systems": "Positive for painful right thigh and gluteal swelling; negative for fever or trauma."
+    },
+    "objective": {
+      "physical_examination": "Multiple firm palpable masses were present on the posterolateral aspect of the right thigh and gluteal region (largest measuring ~30 x 35 cm in the gluteal area), with normal overlying skin, normal hip range of motion, and intact distal neurovascular status.",
+      "routine_investigations": "Routine blood tests were normal except for an elevated CRP of 82 mg/L. Echinococcus granulosus serology was positive. Pelvic radiograph was normal, and thigh ultrasonography revealed multiple subcutaneous and intramuscular cysts.",
+      "advanced_workup": "Thigh MRI demonstrated multiple thin-walled, gadolinium-enhancing, multiloculated and septated cystic formations across the posterolateral and anterior right thigh root and gluteal region involving the subcutaneous fat, gluteus maximus muscle, and hamstring subaponeurotic fat (largest 15.5 x 17.6 cm). Brain and thoraco-abdomino-pelvic CT scans excluded visceral lesions. Complete surgical excision via an extended lateral thigh approach with hypertonic saline field soaking revealed purulent cyst fluid that cultured Morganella morganii, while histopathology confirmed hydatid cysts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary multifocal subcutaneous and intramuscular hydatid cysts of the right thigh and gluteal region secondarily superinfected with Morganella morganii, confirmed by positive Echinococcus granulosus serology and postoperative histopathology. Treated with complete surgical resection, hypertonic saline irrigation, targeted antibiotic therapy, and 3 months of postoperative oral albendazole (400 mg/day), with no complications or recurrence at 6-month follow-up."
+    }
+  }
+}

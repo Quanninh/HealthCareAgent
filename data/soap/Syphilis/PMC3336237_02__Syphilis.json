@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3336237_02",
+  "pair_id": "PMC3336237_02::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "The baby was immediately transferred to our Neonatal Intensive Care Unit (NICU). At the admission in NICU she was given nCPAP because of respiratory distress that was continued for 24 hours. A lumbar puncture was performed; the CSF was characterized by 18 leukocytes, 84 mg/dL protein, and 36 mg/dL glucose; CSF TPHA (1/80 titre) and Treponema pallidum IgG western blot (WB) were both positive, as well as VDRL and T. pallidum PolA PCR. Haematochemical investigations showed an increase in leucocyte number (27.440/microl, N 36.1%, L 42.1%) and C reactive protein (CRP) levels (16 mg/dL, normal value < 0.8 mg/dL) with normal haemoglobin, red blood cell, and platelet count; tests of liver and kidney function were also normal. The newborn syphilis serology showed positive RPR (1/32 titre), T. pallidum IgM WB, and TPHA (titre > 1/640). \nThe limited extension of the left knee was suggestive for long-bone lesions; indeed, the radiographic examination showed signs of osteochondritis and periostitis at metaphyseal level (Figure 2). Cerebral US, EEG, heart US, and eye examination were normal.\nThe maternal history revealed that she received no antenatal care and she had been investigated for syphilis only few days before (TPHA > 1/640, reactive RPR test, with a titre of 1/16).\nDespite positive serology, there was no time for adequate treatment because she had preterm unstoppable labour. \nThe newborn was treated with i.v. aqueous crystalline penicillin G for 14 days, Amikacine for 10 days, and IgM-enriched immunoglobulins for 3 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A preterm female newborn presented at birth with acute neonatal respiratory distress and limited extension of the left knee.",
+      "history_of_present_illness": "Delivered prematurely following unstoppable preterm labor, the female neonate was immediately transferred to the NICU requiring nasal CPAP for 24 hours due to respiratory distress and was noted to have restricted extension of her left knee.",
+      "past_medical_history": "Mother had received no antenatal care and was tested for syphilis only a few days prior to preterm delivery, revealing a maternal TPHA >1:640 and reactive RPR (titer 1:16), leaving no time for adequate antepartum penicillin therapy.",
+      "review_of_systems": "Positive for neonatal respiratory distress and decreased left knee mobility."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed neonatal respiratory distress requiring 24 hours of nCPAP and limited passive/active extension of the left knee; ophthalmic examination was normal.",
+      "routine_investigations": "Blood tests showed leukocytosis (WBC 27,440/uL; 36.1% neutrophils, 42.1% lymphocytes) and elevated CRP (16 mg/dL, normal <0.8 mg/dL), with normal hemoglobin, RBC, platelets, and liver and kidney function. Long-bone radiographs of the lower limbs demonstrated metaphyseal osteochondritis and periostitis. Cranial ultrasound and echocardiography were normal.",
+      "advanced_workup": "EEG was normal. Lumbar puncture CSF analysis revealed 18 leukocytes/uL, protein 84 mg/dL, and glucose 36 mg/dL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed early congenital syphilis with congenital neurosyphilis and metaphyseal osteochondritis/periostitis, established via reactive neonatal serum RPR (1:32), positive serum Treponema pallidum IgM Western blot, serum TPHA (>1:640), and positive CSF VDRL, CSF TPHA (1:80), CSF T. pallidum IgG Western blot, and CSF T. pallidum polA PCR. Treated with intravenous aqueous crystalline penicillin G for 14 days, intravenous amikacin for 10 days, and IgM-enriched intravenous immunoglobulins for 3 days."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8084661_02",
+  "pair_id": "PMC8084661_02::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 37-year-old previously well male Sinhalese farmer was transferred from a primary care hospital, Ududumbara (Central Province, Sri Lanka). He presented with fever for 3 days associated with diarrhea, vomiting, nonproductive cough, and shortness of breath.\nAt the Emergency Treatment Unit of National Hospital Kandy, he was found to have a temperature of 40 C and was tachypneic with a respiratory rate of 36 breaths per minute and SpO2 of 88% on room air. Pulse rate was 104 bpm, and blood pressure was 110/70 mmHg. Lung auscultation revealed bilateral widespread fine crepitations. Abdomen was soft and nontender. Bedside arterial blood gas (ABG) revealed a pH of 7.44, PCO2 of 37 mmHg, PO2 of 71 mmHg, bicarbonate of 26 mmol/L, and PaO2/FiO2 of 119 mmHg.\nSince he presented during the COVID-19 pandemic, a working diagnosis of COVID-19 or community-acquired pneumonia complicated with ARDS was made and subsequently managed in isolation at an intensive care unit (ICU) with IV ceftriaxone 1 g bd (twice daily) and IV clarithromycin 500 mg 6 hourly, with prone position ventilation via high flow nasal cannula. He was immediately commenced on IV methyl prednisolone 1 g daily which was continued for 3 days. Within 24 hours of treatment, his general condition improved. Respiratory rate came down to 20 breaths per minutes with a saturation of 98% on air with no added lung sounds on auscultation.\nImprovement of laboratory markers during ICU stay is shown in Table 2.\nChest radiograph prior to starting methyl prednisolone revealed bilateral extensive opacifications suggestive of ARDS (Figure 2(a)). Within 24 hours of steroid treatment, complete radiographic resolution was seen (Figure 2(b)). Hantavirus IgM done on day 3 illness was positive on 1 : 100 dilutions and on day 25 was positive on 1 : 100 and 1 : 500 dilutions. Dengue NS1 antigen test done on day 3 illness was negative. Dengue IgM and leptospirosis IgM done on day 6 illness were negative. ECG, troponin I, and 2D echo were normal. Serum procalcitonin was negative. Antibiotics were withheld on day 3 of illness. On day 5 of illness, he was asymptomatic with a SpO2 of 99% on air. Lungs were clear. ABG was normal with a normal PaO2/FiO2 ratio.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 37-year-old Sinhalese male farmer presented with a 3-day history of high fever, watery diarrhea, vomiting, nonproductive cough, and acute shortness of breath.",
+      "history_of_present_illness": "The patient was transferred from a primary care hospital in Ududumbara, Sri Lanka, to the National Hospital Kandy after 3 days of high fever accompanied by diarrhea, vomiting, dry cough, and rapidly worsening dyspnea.",
+      "past_medical_history": "Previously healthy farmer from Central Province, Sri Lanka.",
+      "review_of_systems": "Positive for fever, diarrhea, vomiting, dry cough, and dyspnea."
+    },
+    "objective": {
+      "physical_examination": "Emergency unit vital signs: temperature 40 °C, respiratory rate 36 breaths/min, SpO2 88% on room air, pulse 104 beats/min, and blood pressure 110/70 mmHg. Lung auscultation revealed widespread bilateral fine crepitations; abdomen was soft and nontender.",
+      "routine_investigations": "Admission bedside ABG: pH 7.44, pCO2 37 mmHg, pO2 71 mmHg, HCO3 26 mmol/L, and PaO2/FiO2 ratio 119 mmHg. Chest X-ray showed extensive bilateral alveolar opacifications consistent with ARDS (which completely resolved within 24 hours of methylprednisolone therapy). Serum procalcitonin, dengue NS1 antigen (day 3), dengue IgM (day 6), and Leptospira IgM (day 6) were negative. ECG, troponin I, and 2D echocardiogram were normal.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed acute hantavirus pulmonary syndrome complicated by moderate-to-severe ARDS, confirmed by positive serum hantavirus IgM ELISA on day 3 of illness (1:100 dilution) and day 25 (1:100 and 1:500 dilutions); leptospirosis and dengue were excluded. Managed in the ICU with awake prone positioning on high-flow nasal cannula oxygen and pulse IV methylprednisolone (1 g daily for 3 days), while empiric IV ceftriaxone (1 g BID) and IV clarithromycin (500 mg q6h) were discontinued on day 3 after negative procalcitonin and positive hantavirus serology. Complete radiographic resolution occurred within 24 hours, and he was asymptomatic with normal room-air oxygenation (SpO2 99%) by day 5."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7814283_01",
+  "pair_id": "PMC7814283_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A previously healthy 26-year-old man, without any relevant past medical family history, was discovered dead at home. A forensic medical examination and an autopsy were ordered by the judicial authorities. Information provided by the patient's relatives revealed that the deceased was the owner of a large farm that he had been managing for the past 5 years. A few days ago, the patient had experienced mild chest pain with syncope but did not visit a cardiologist.\nDuring external examination, the corpse was that of a young white male, medium-build, 183cm of tall. There was no external evidence of violence or trauma, and examination of the skin revealed no rash. At autopsy, there was multi-visceral congestion without any internal haemorrhage. Internal organs were unremarkable except for the heart, which was found to be enlarged, weighing 530g (normal range: 260-350g) with an external bulging on the right ventricle outlet ( Figure 1). Sectioning of the heart revealed a fluid-filled cystic cavity, measuring 5x4cm, occupying half the volume of the right chamber and spreading to the septum. The cyst was enveloped by a thick fibrous tissue, and it featured germinative membranes, which infiltrated the myocardium. There was no hypertrophy of the myocardium. The left ventricle was 12mm of thick ( Figure 2).\nMicroscopic examination using haematoxylin and eosin staining of paraffin sections of the cyst revealed classic layers of a hydatid cyst; pericyst (fibrous outer layer), ectocyst (laminated, hyaline and acellular middle layer) and endocyst (inner germinative layer) ( Figure 3). This ascertained the diagnosis of hydatid disease.\nHistological findings of the left ventricle and coronary arteries were unremarkable. Examination of the lungs and liver did not reveal any abnormality, and no cysts were detected at dissection of these organs. The pulmonary arteries also did not display morphological changes, notably there were no fragments of membranes or vesicles obstructing the vessels. Toxicological screening was negative. Death was attributed to cardiac arrhythmias.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old male farm owner was found dead at home several days after experiencing mild chest pain and syncope.",
+      "history_of_present_illness": "The previously healthy decedent was discovered dead at home; collateral history from relatives revealed that he had experienced mild chest pain accompanied by syncope a few days prior to death without seeking medical evaluation.",
+      "past_medical_history": "Previously healthy with no significant personal or family medical history; owned and managed a large farm for 5 years.",
+      "review_of_systems": "Positive for antecedent mild chest pain and syncope."
+    },
+    "objective": {
+      "physical_examination": "External forensic examination showed a medium-built young white male corpse (height 183 cm) without external signs of violence, trauma, or cutaneous rash.",
+      "routine_investigations": "Post-mortem toxicological screening was negative.",
+      "advanced_workup": "Forensic autopsy revealed multivisceral congestion and cardiomegaly (heart weight 530 g; normal 260-350 g) with an external bulge over the right ventricular outflow tract; cardiac sectioning identified a 5 x 4 cm fluid-filled cystic cavity occupying half of the right ventricular chamber and infiltrating the interventricular septum, enveloped by thick fibrous tissue and germinative membranes (coronary arteries, left ventricle [12 mm wall], pulmonary arteries, lungs, and liver were normal without emboli or extracardiac cysts). H&E histopathology confirmed the classic three layers of a hydatid cyst: outer fibrous pericyst, middle acellular hyaline laminated ectocyst, and inner germinative endocyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Sudden cardiac death secondary to fatal cardiac arrhythmia caused by a primary isolated right ventricular and interventricular septal hydatid cyst (5 x 4 cm), definitively confirmed at forensic autopsy and histopathological examination demonstrating the fibrous pericyst, acellular laminated ectocyst, and inner germinative endocyst."
+    }
+  }
+}

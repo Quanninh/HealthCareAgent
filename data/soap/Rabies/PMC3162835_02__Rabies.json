@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3162835_02",
+  "pair_id": "PMC3162835_02::Rabies",
+  "target_disease": "Rabies",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A six year-old girl presented with sudden onset of quadriparesis for one day, preceded by fever, myalgia, and vomiting for four days. There was also a history of a dog bite in her right upper arm (Grade III bite) three weeks back.\nThe child was given the PCEC vaccine as per schedule in the deltoid and received a total of four doses before the development of any symptoms. In that case also RIG was not given though it was indicated. The patient was treated conservatively, but the clinical features and the progression of disease was similar to the first case, except for the presence of myoedema, a striking feature of rabies. In spite of good supportive measures, she expired on the 12th day of disease onset.\nResults of laboratory investigations on the 11th day of the illness were also quite similar to the first case. The CSF test was strongly positive for rabies antigen and immune complexes. Neutralizing antibodies to rabies virus were detected in both serum and CSF by the Rapid Fluorescent Focus Inhibition Test (RFFIT).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 6-year-old girl presenting with a 1-day history of sudden-onset quadriparesis preceded by 4 days of fever, myalgia, and vomiting.",
+      "history_of_present_illness": "Three weeks after sustaining a Grade III dog bite on her right upper arm, the child developed a 4-day prodrome of fever, myalgia, and vomiting, followed by acute-onset quadriparesis 1 day prior to admission.",
+      "past_medical_history": "Sustained a Grade III dog bite to the right upper arm 3 weeks prior; received 4 scheduled intramuscular doses of purified chick embryo cell (PCEC) rabies vaccine in the deltoid prior to symptom onset, but did not receive rabies immunoglobulin (RIG).",
+      "review_of_systems": "Positive for fever, myalgia, vomiting, and acute four-limb weakness."
+    },
+    "objective": {
+      "physical_examination": "Neurological and physical examination demonstrated quadriparesis and prominent myoedema.",
+      "routine_investigations": "Day 11 baseline laboratory investigations paralleled encephalitic/paralytic progression.",
+      "advanced_workup": "Lumbar puncture and CSF analysis performed on day 11 of illness."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed paralytic rabies following post-exposure prophylaxis failure (omission of RIG), established by strongly positive CSF rabies antigen and immune complexes, and Rapid Fluorescent Focus Inhibition Test (RFFIT) neutralizing antibodies detected in both serum and CSF.\nPlan & Outcome: Managed with conservative supportive care; despite supportive measures, the patient died on day 12 of illness."
+    }
+  }
+}

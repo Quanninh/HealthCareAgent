@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7244840_01",
+  "pair_id": "PMC7244840_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "The patient was a 24-yr-old male from pastoral area of Seda County, Sichuan Province, China in 2018. He was admitted to the hospital for physical examination, and had no special discomfort. Except for the slight increase of direct bilirubin, the other indicators included blood routine, coagulation and renal function were within normal ranges.\nThe abdominal computed tomography (CT) showed lesion located in S4-5-6 and slightly low-density lymph node existed in the hepatogastric space with diameter of 2.13 cm (the lesion on maximum diameter was not displayed in order to show the lymph node better, Fig. 1. A, B and C). Branches of right hepatic artery and portal vein were close to the lesion. It was suspected of hepatic alveolar echinococcosis (P2N1M0, based on expert consensus of alveolar echinococcosis) with regional lymph node metastasis. In addition, there were several cysts in the liver. No special findings were found in the lung and brain scans. The results of magnetic resonance imaging(MRI) scan also considered hepatic alveolar echinococcosis (Fig. 2. A, B and C).\nHepatic alveolar echinococcosis is a space-occupying disease of the liver. It is necessary to differentiate it from benign diseases such as hepatic cyst, hemangioma, lipoma, bacterial liver abscess, and malignant diseases such as primary hepatocellular carcinoma, secondary hepatocellular carcinoma and sarcoma.\nExcluding surgical contraindication, hepatectomy and lymph node resections were performed on May 10, 2018. During the operation, we found that the primary focus adhered to the base of gallbladder and the size was about 7.5 *7.0 cm. The lymph node in the hepatogastric space was cystic and contained gray yellow chyle-like substance with wall thickness of about 0.2 cm. Postoperative pathology confirmed that both primary focus and regional lymph node were alveolar echinococcosis. (Fig. 3).\nThe follow-up period began after out of hospital. The patient recovered well without complications. After operation, the patient took albendazole regularly for half a year, and no recurrence was found.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old asymptomatic male from a pastoral area of Sichuan Province presented for evaluation of a hepatic mass detected on routine physical examination.",
+      "history_of_present_illness": "The patient was admitted in 2018 after a routine physical examination identified a space-occupying lesion in the liver without any clinical symptoms.",
+      "past_medical_history": "Resided in a pastoral area of Seda County, Sichuan Province, China.",
+      "review_of_systems": "Asymptomatic; negative for abdominal pain, fever, or constitutional complaints."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was unremarkable.",
+      "routine_investigations": "Complete blood count, coagulation profile, and renal function tests were normal, with only a slight elevation in direct bilirubin.",
+      "advanced_workup": "Abdominal CT and liver MRI demonstrated an infiltrative primary lesion in hepatic segments IV, V, and VI (~7.5 x 7.0 cm) closely abutting branches of the right hepatic artery and portal vein, accompanied by several hepatic cysts and a 2.13-cm low-density enlarged lymph node in the hepatogastric space (staged P2N1M0; lung and brain scans were negative). Open hepatectomy and regional lymphadenectomy on May 10, 2018 revealed a 7.5 x 7.0 cm hepatic mass adherent to the gallbladder bed and a cystic hepatogastric lymph node filled with gray-yellow chyle-like material; postoperative histopathology confirmed alveolar echinococcosis in both the primary liver lesion and the regional hepatogastric lymph node."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Hepatic alveolar echinococcosis with regional hepatogastric lymph node metastasis (stage P2N1M0), confirmed by histopathological examination of both the resected liver specimen and hepatogastric lymph node. Following radical hepatectomy and regional lymphadenectomy, the patient completed 6 months of adjuvant oral albendazole and remained well without recurrence on follow-up."
+    }
+  }
+}

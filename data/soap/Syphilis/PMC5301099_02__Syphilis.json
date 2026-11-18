@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5301099_02",
+  "pair_id": "PMC5301099_02::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "Administration of anticoagulants was initiated to treat the retinal vasculitis. However, triamcinolone acetonide was injected into the Tenon capsule at 3 weeks after the start of treatment due to worsening of the vasculitis. Moreover, administration of a broad-spectrum penicillin preparation was started to treat the syphilis infection. However, at 50 days after the initial examination, new neovascularization appeared from the optic disc to the upper retinal vascular arcade, causing vitreous hemorrhage (Fig. 2a), and the corrected VA of the patient's right eye decreased to 0.02. Fluorescein angiography revealed dye leakage from the disc neovascularization and enlargement of the nonperfusion area in the affected retina (Fig. 2b). At 3 months after the initial examination, photocoagulation was performed on the nonperfusion area of the retina. However, no regression of the neovascularization was observed, and vitreous rebleeding occurred. At 4 months after the initial examination, vitreous surgery was performed because the patient's corrected VA had worsened to counting fingers. Surgical procedures included a core vitrectomy, creation of an artificial posterior detachment from the optic disc to the peripheral region, removal of the fibrovascular membrane from the optic disc to the upper retinal vascular arcade, and laser endophotocoagulation to the ischemic area of the retina. Since the patient was only 38 years old (i.e., relatively young), the lens was preserved. A postoperative syphilis test of a fixed quantity of collected vitreous humor showed a glass plate test value of 1, and a T. pallidum hemagglutination (TPHA) value of 5,120. Simultaneously, serum from collected blood showed a glass plate test value of 2 and a TPHA value of 640, thus confirming the diagnosis of syphilitic uveitis. At 3 months postoperatively, the intraocular neovascularization had disappeared (Fig. 3a), the fluorescein leakage from the retinal blood vessels had clearly decreased (Fig. 3b), and the corrected VA had improved to 0.3.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old female under treatment for right syphilitic occlusive retinal vasculitis developed recurrent vitreous hemorrhages and progressive right-eye vision loss down to counting fingers.",
+      "history_of_present_illness": "Despite initial oral anticoagulants, posterior sub-Tenon triamcinolone acetonide injection at 3 weeks, and oral broad-spectrum penicillin therapy, the patient developed optic disc and superior arcade retinal neovascularization with vitreous hemorrhage at day 50 (VA 0.02). Retinal laser photocoagulation to the ischemic nonperfusion zone at 3 months failed to prevent recurrent vitreous hemorrhage, and her right visual acuity deteriorated to counting fingers by month 4.",
+      "past_medical_history": "Right syphilitic occlusive retinal vasculitis diagnosed 4 months prior.",
+      "review_of_systems": "Positive for severe right-eye visual decline to counting fingers."
+    },
+    "objective": {
+      "physical_examination": "Corrected visual acuity in the right eye deteriorated from 0.02 at day 50 to counting fingers at 4 months due to dense recurrent vitreous hemorrhage arising from fibrovascular proliferation extending from the optic disc along the superior retinal vascular arcade.",
+      "routine_investigations": null,
+      "advanced_workup": "Fluorescein angiography at day 50 demonstrated profuse dye leakage from optic disc neovascularization and an enlarged area of retinal capillary nonperfusion along the superior arcade."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed syphilitic occlusive retinal vasculitis complicated by proliferative retinal/optic disc neovascularization and vitreous hemorrhage, definitively verified on surgical vitreous humor fluid testing showing a reactive glass-plate (VDRL) titer of 1 and high intraocular TPHA titer of 1:5,120 (exceeding the simultaneous serum glass-plate titer of 2 and serum TPHA titer of 1:640). Treated at 4 months with lens-sparing pars plana core vitrectomy, posterior vitreous detachment induction, delamination of the optic disc-to-arcade fibrovascular membrane, and endolaser panretinal photocoagulation to the ischemic retina; at 3 months postoperatively, neovascularization completely regressed and right corrected visual acuity improved to 0.3."
+    }
+  }
+}

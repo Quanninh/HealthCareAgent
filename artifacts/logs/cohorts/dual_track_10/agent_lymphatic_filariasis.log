@@ -1,0 +1,181 @@
+================================================================================
+CLINICAL CLAIM ANNOTATION RUN LOG: LYMPHATIC FILARIASIS
+MultiCaRe Clinical Gold Standard — new_disease_pool
+Timestamp: 2026-11-10T03:45:57Z
+================================================================================
+
+1. RUN CONFIGURATION & METADATA
+--------------------------------------------------------------------------------
+Target Disease        : Lymphatic Filariasis
+Disease Slug          : lymphatic_filariasis
+Annotation Pool       : new_disease_pool
+Input File            : input/input_lymphatic_filariasis.jsonl
+Output File           : output/output_lymphatic_filariasis.jsonl
+Total Candidate Pairs : 40
+Protocol              : 12-Step Gold Standard Clinical Claim Protocol (04_gold_standard_annotation_protocol.md)
+Evidence Specificity  : Disease Evidence Matrix (03_evidence_specificity_matrix.md Sec 5)
+
+2. EXECUTION & STATISTICAL AUDIT SUMMARY
+--------------------------------------------------------------------------------
+Total Candidates Input     : 40
+Total Candidates Evaluated : 40
+Validation Status          : PASSED (100% exact verbatim character offsets verified)
+VPD Criteria Satisfied     : 17 / 40 (42.5%)
+
+Decision Distribution:
+  - POSITIVE                    :   17 ( 42.5%)
+  - EXCLUDED_NON_TARGET_CASE    :   10 ( 25.0%)
+  - NEGATIVE                    :    7 ( 17.5%)
+  - EXCLUDED_NON_CASE_REPORT    :    4 ( 10.0%)
+  - INCONCLUSIVE_DATA           :    2 (  5.0%)
+
+Evidence Strength Distribution:
+  - E1_CONFIRMATORY                   :   14 ( 35.0%)
+  - E4_CONTEXT                        :   13 ( 32.5%)
+  - E0_CONTRADICTED                   :    8 ( 20.0%)
+  - E2_HIGHLY_SPECIFIC                :    3 (  7.5%)
+  - E3_SUPPORTIVE                     :    2 (  5.0%)
+
+Clinical Role Distribution:
+  - PRIMARY_DIAGNOSIS               :   12 ( 30.0%)
+  - NON_DIAGNOSTIC_CONTEXT          :    9 ( 22.5%)
+  - SECONDARY_DIAGNOSIS             :    7 ( 17.5%)
+  - RULED_OUT_DIAGNOSIS             :    6 ( 15.0%)
+  - EPIDEMIOLOGICAL_CONTEXT         :    5 ( 12.5%)
+  - PAST_HISTORY                    :    1 (  2.5%)
+
+Quality & Confidence Audit:
+  - Confidence HIGH            :   40 (100.0%)
+
+3. PER-CASE CLINICAL TRACE & EVIDENCE AUDIT
+--------------------------------------------------------------------------------
+[01/40] Case: PMC5540382_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 2
+      Rationale: A 24-year-old Indian male presenting with fever was diagnosed with P. vivax malaria. During post-treatment follow-up, thick blood film revealed microfilariae identified morphologically as Wuchereria bancrofti, and molecular PCR targeting the cox1 gene with BLAST sequence analysis confirmed W. bancrofti. The patient was successfully treated with albendazole and ivermectin. E1 confirmatory evidence satisfies VPD criteria.
+      Evidence [1]: [3070:3443] "The parasites illustrated in Figures 1(a)-1(k) were identified as MF of Wuchereria banc..." -> Thick blood film microscopy (POSITIVE)
+      Evidence [2]: [4784:4902] "Comparison of the sequences using Basic Local Alignment Tool (BLAST) confirmed the iden..." -> Polymerase chain reaction (PCR) and sequencing (POSITIVE)
+[02/40] Case: PMC6388341_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: A 66-year-old female presented with stage III lymphedema (elephantiasis) of the lower limbs secondary to morbid obesity (BMI 41.6) and recurrent erysipelas. The case involves non-filarial elephantiasis managed with mechanical lymphatic drainage and compression stockings. There is no mention, suspicion, or diagnosis of parasitic lymphatic filariasis.
+      Evidence [1]: [0:172] "A 66-year-old female patient with a history of bilateral lower limb lymphedema reported..." -> Clinical physical examination (POSITIVE)
+[03/40] Case: PMC7229237_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 2
+      Rationale: A 45-year-old female presented with an adnexal mass. Surgical excision and intraoperative cytological examination of the ovarian cyst fluid revealed microfilariae in a hemorrhagic background alongside malignant epithelial cells, establishing a final diagnosis of mucinous cystadenocarcinoma of the ovary with coexistent microfilaria. Direct microscopic detection of microfilariae provides E1 confirmatory evidence.
+      Evidence [1]: [679:958] "Cyst fluid was haemorrhagic on gross examination and on microscopy three dimensional cl..." -> Ovarian cyst fluid cytology (POSITIVE)
+      Evidence [2]: [1782:1981] "On the basis of fluid cytology, gross, histopathological and immunohistochemical findin..." -> Final clinicopathological diagnosis (CONFIRMED)
+[04/40] Case: PMC8075734_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: This publication describes the institutional design and implementation of health postgraduate programs at Lúrio University in Mozambique. It is an educational case study of a university program without any individual human patient or clinical care episode. Lymphatic filariasis is mentioned only as provincial background epidemiology (12-13% prevalence in Nampula). Document type is non-clinical.
+      Evidence [1]: [717:991] "Though neglected tropical diseases such as intestinal parasites (53%), lymphatic filari..." -> Epidemiological survey citation (EPIDEMIOLOGICAL_DATA)
+[05/40] Case: PMC4349225_01 | Decision: INCONCLUSIVE_DATA        | Evidence: E3_SUPPORTIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 52-year-old male from Burkina Faso presented with a 12-year history of massive penoscrotal elephantiasis (resected tissue weighed 12 kg). Clinicians made a clinical diagnosis of penoscrotal elephantiasis and administered antifilarial medications (albendazole and ivermectin). However, no E1 confirmatory parasitological tests (microscopy/PCR) or E2 antigen/antibody assays were performed or reported positive. Per protocol, clinical presentation and empirical treatment constitute E3-only supportive evidence, which is insufficient for a confirmed diagnosis, leading to an adjudication of INCONCLUSIVE_DATA.
+      Evidence [1]: [931:1115] "Looking at the epidemiological and clinical findings, we made a diagnosis of penoscrota..." -> Clinical diagnosis and empirical treatment (SUSPECTED)
+[06/40] Case: PMC3479949_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 53-year-old morbidly obese female presented with chronic lower limb lymphedema, recurrent cellulitis, and erysipelas diagnosed as elephantiasis nostras verrucosa. Filariasis was explicitly evaluated and negated in the narrative ('She has never suffered from filariasis'). The condition is confirmed to be non-filarial elephantiasis, warranting a NEGATIVE label.
+      Evidence [1]: [254:342] "She has never suffered from filariasis and has no family history of familial lymphedema." -> Clinical history and disease exclusion (NEGATIVE)
+[07/40] Case: PMC5579453_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 35-year-old male developed encephalopathy and blindness after receiving ivermectin. Lymphatic filariasis is mentioned strictly in the abstract as background therapeutic context for ivermectin indication. Diagnostic evaluation for microfilariae in blood and CSF was explicitly negative, and the patient was diagnosed with post-ivermectin neurotoxicity. There is no active disease claim for lymphatic filariasis.
+      Evidence [1]: [1916:2106] "The blood sample was collected in the morning of May 27th, 2016 for the research of mic..." -> Blood examination for microfilariae (NEGATIVE)
+[08/40] Case: PMC4065427_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: A 56-year-old female presented with Neurofibromatosis type I and facial plexiform neurofibromas. The phrase 'elephantiasis skin' was used purely as a descriptive dermatological term for overhanging folds of neurofibroma tissue ('typically termed as elephantiasis skin'). No parasitic lymphatic filariasis was involved or suspected.
+      Evidence [1]: [640:790] "On physical examination, she was pale and face was disfigured with growth of completely..." -> Dermatological physical examination (DESCRIPTIVE_FINDING)
+[09/40] Case: PMC3633295_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: PAST_HISTORY             | Quotes: 2
+      Rationale: A 51-year-old female presented with oral myiasis. She reported a remote treated history of leprosy and filariasis. Medical examination explicitly demonstrated no active infection in the legs (elephantiasis) with only a healed scar. Because lymphatic filariasis was solely a historical resolved condition with active infection explicitly ruled out, it does not meet the VPD requirement for active/current disease, leading to a NEGATIVE adjudication.
+      Evidence [1]: [327:445] "Extra oral examination revealed no active infection in hands (leprosy) [Figure 2] and l..." -> Physical examination for active infection (NEGATIVE)
+      Evidence [2]: [997:1271] "The patient was sent for a medical opinion regarding leprosy of the hand and filariasis..." -> Medical consultation report (NEGATIVE)
+[10/40] Case: PMC4782405_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 17-year-old female presented with a painful subcutaneous swelling in the left arm. Fine needle aspiration cytology yielded purulent material containing numerous microfilariae displaying characteristic hyaline sheath, cephalic space, and tail devoid of nuclei diagnostic of Wuchereria bancrofti. The patient responded promptly to diethylcarbamazine (DEC). Direct cytological demonstration of W. bancrofti provides E1 confirmatory evidence satisfying VPD.
+      Evidence [1]: [1076:1476] "Cytological examination of Giemsa-stained smear showed a large number of microfilaria i..." -> Fine needle aspiration cytology (FNAC) (POSITIVE)
+      Evidence [2]: [1536:1700] "The patient was treated with diethylcarbamazine [100 mg ter die sumendum (TDS)] for 21 ..." -> Therapeutic response to diethylcarbamazine (RESOLVED)
+[11/40] Case: PMC4591341_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E0_CONTRADICTED      | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: A 54-year-old male presented with facial swellings due to rhinoentomophthoromycosis (Conidiobolus coronatus). Although venous blood examination detected microfilariae, they were explicitly identified as Loa loa (loiasis), an entirely distinct non-target subcutaneous filarial parasite, not lymphatic filariasis (Wuchereria/Brugia). Facial elephantiasis was a clinical descriptor for the fungal edema. There is no claim for lymphatic filariasis.
+      Evidence [1]: [932:1111] "Microfilaria of Loa Loa were detected in venous EDTA blood (Citrate-Saponin acid method..." -> Venous blood microfilaria examination (POSITIVE_NON_TARGET)
+[12/40] Case: PMC3236059_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: This publication is an educational quiz consisting of a 4-sentence vignette about scrotal swelling following epididymitis accompanied by general study questions ('What are the common causes of scrotal elephantiasis?'). It lacks a complete clinical case workup, investigation, or diagnosis of filariasis.
+      Evidence [1]: [0:122] "A 39-year-old man presents with a several-year history of an enlarged scrotum that deve..." -> Educational case presentation (CLINICAL_VIGNETTE)
+[13/40] Case: PMC6920227_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: A 67-year-old male presented with penoscrotal swelling diagnosed as Idiopathic Peno-Scrotal Elephantiasis Nostras Verrucosa (ENV). The authors explicitly define ENV as chronic non-filarial lymphedema caused by bacterial or non-infectious obstruction. No filarial infection was identified.
+      Evidence [1]: [2819:2950] "The patient was diagnosed with Idiopathic Peno-Scrotal Elephantiasis Nostras Verrucosa ..." -> Histopathological and clinicopathological evaluation (POSITIVE)
+[14/40] Case: PMC3502772_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: An 18-year-old female from Uttar Pradesh presented with vulval elephantiasis. Although buffy coat microscopy was negative for microfilariae, filarial antigen serology was positive, and the patient responded favorably to ivermectin. E2 strong evidence (circulating filarial antigen positivity) in an endemic setting with typical chronic genital lymphedema satisfies the diagnostic criteria for lymphatic filariasis.
+      Evidence [1]: [1702:1854] "Subsequent to histopathologic report, filarial antigen serology was done, which was pos..." -> Filarial antigen serology (POSITIVE)
+[15/40] Case: PMC4089319_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 30-year-old renal allograft recipient had an enlarged iliac lymph node excised during transplantation. Histopathology demonstrated coiled adult worms of Wuchereria bancrofti within necrotic lymphatics, and DEC challenge subsequently provoked microfilariae in peripheral blood. E1 confirmatory histopathological and parasitological evidence satisfies VPD criteria.
+      Evidence [1]: [577:879] "Histopathology of the lymph node revealed necrotic lymphatic filled with coiled adult w..." -> Lymph node histopathology and DEC challenge test (POSITIVE)
+[16/40] Case: PMC5297552_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 26-year-old male developed lower limb lymphedema after starting sirolimus following renal transplantation. The clinical workup explicitly evaluated and ruled out filariasis ('we also exclude the filariasis, that is a direct lymphatic invasion by the parasite Wuchereria bancrofti'). The definitive diagnosis was sirolimus-induced lymphedema.
+      Evidence [1]: [1001:1200] "Damage or removal of regional lymph nodes, lymphatic radiation, infection, or tumor inv..." -> Clinical differential exclusion (NEGATIVE)
+[17/40] Case: PMC6207953_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: A 59-year-old male with chronic cardiovascular and peripheral vascular disease developed lower leg angiosarcoma (Stewart-Treves syndrome) on long-standing stasis lymphedema. The term elephantiasis was used to describe chronic non-filarial skin changes ('chronic changes of elephantiasis, specifically verrucous skin'). Lymphatic filariasis was not involved.
+      Evidence [1]: [395:591] "Physical examination revealed chronic changes of elephantiasis, specifically verrucous ..." -> Clinical physical examination (DESCRIPTIVE_FINDING)
+[18/40] Case: PMC7365508_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 35-year-old male presented with a massive retroperitoneal cyst. Cytological examination of centrifuged cyst fluid revealed numerous microfilariae morphologically consistent with Wuchereria bancrofti, histopathology showed dead and calcified parasites in the cyst wall, and DEC provocation demonstrated microfilariae in peripheral blood. Direct demonstration provides E1 confirmatory evidence.
+      Evidence [1]: [738:1253] "Giemsa-stained smears of the cyst fluid revealed many microfilariae morphologically con..." -> Cyst fluid cytology, histopathology, and DEC blood smear (POSITIVE)
+[19/40] Case: PMC5259929_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 55-year-old female presenting with breast cancer and axillary lymphadenopathy was found to have sheathed microfilariae of Wuchereria bancrofti on fine needle aspiration of the lymph node, coexisting with metastatic adenocarcinoma deposits. Demonstration of diagnostic morphology (hyaline sheath, tail tip free of nuclei) provides E1 confirmatory evidence of filariasis.
+      Evidence [1]: [883:1168] "However, the lymph node aspirate showed sheathed microfilariae along with tumor cells [..." -> Fine needle aspiration cytology of lymph node (POSITIVE)
+[20/40] Case: PMC6909590_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 38-year-old female presented with an isolated left axillary swelling. Fine-needle aspiration cytology revealed multiple sheathed, coiled microfilariae of Wuchereria bancrofti in a background of lymphocytes and eosinophils, and the swelling responded to diethylcarbamazine. Direct microscopic cytodiagnosis provides E1 confirmatory evidence.
+      Evidence [1]: [963:1234] "The smears revealed multiple sheathed, coiled, slightly curved mf of bancrofti with the..." -> Fine needle aspiration cytology (POSITIVE)
+[21/40] Case: PMC7470402_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 55-year-old male with leprosy presented with peripheral neurological weakness. Incidental microfilariae seen on slit-skin smear were definitively confirmed by nocturnal (10 pm) thick and thin blood smears demonstrating multiple sheathed microfilariae of Wuchereria bancrofti with absence of nuclei at the tail tip. Treated with DEC. Confirmatory nocturnal smear provides E1 evidence.
+      Evidence [1]: [2422:2836] "After the patient was admitted, both thick and thin blood smears were made from blood s..." -> Nocturnal thick and thin blood smear microscopy (POSITIVE)
+[22/40] Case: PMC3056363_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 42-year-old male with an intra-abdominal retroperitoneal cyst and scrotal hydrocele underwent FNAC, which aspirated fluid revealing live microfilariae of Wuchereria bancrofti, followed by positive DEC provocation on blood smear and histological confirmation in the excised cyst. Direct visualization of live parasites provides E1 confirmatory evidence.
+      Evidence [1]: [1142:1502] "A fine-needle aspiration cytology (FNAC) was obtained. Chocolate-colored fluid was aspi..." -> FNAC and DEC provocation peripheral blood smear (POSITIVE)
+[23/40] Case: PMC7395989_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 51-year-old male presented with chyluria. Testing for filariasis was negative (filarial IgM and IgG antibodies were negative), and an empirical course of diethylcarbamazine produced no improvement. He was cured by silver nitrate endoscopic sclerotherapy, establishing nonparasitic chyluria and ruling out lymphatic filariasis.
+      Evidence [1]: [482:579] "Chloroform test for chyluria was positive, whereas filarial IgM and IgG antibodies were..." -> Filarial serology (IgM and IgG) (NEGATIVE)
+[24/40] Case: PMC3168040_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 20-year-old male presented with genital elephantiasis. Antifilarial treatment had been administered without improvement, and filariasis was considered in the differential diagnosis. Skin biopsy definitively diagnosed chromoblastomycosis (Fonsecaea pedrosoi) with superimposed erysipelas, ruling out filariasis.
+      Evidence [1]: [612:710] "He also had history of antituberculous and antifilarial treatment with no alleviation o..." -> Antifilarial therapeutic trial (NO_RESPONSE)
+[25/40] Case: PMC6567645_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 46-year-old male presented with a giant retroperitoneal cystic mass. Histopathology of the excised cyst wall revealed microfilaria fragments with lymphatic dilation, and the filariasis immunochromatographic test (ICT, Alere BinaxNOW) for Wuchereria bancrofti was positive. The patient was treated with DEC. Histological demonstration (E1) and specific antigen detection (E2) confirm the diagnosis.
+      Evidence [1]: [3203:3741] "Histopathology of the cyst revealed a unilocular cyst with walls composed of fibro-coll..." -> Cyst histopathology and Alere BinaxNOW ICT antigen test (POSITIVE)
+[26/40] Case: PMC7365504_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 30-year-old female with ureteric calculus had incidental live sheathed microfilariae identified in centrifuged urine sediment, confirmed as Wuchereria bancrofti on Giemsa staining and DEC provocation testing. The patient was cured following DEC therapy. Microscopic demonstration of live microfilariae provides E1 confirmatory evidence.
+      Evidence [1]: [644:1112] "Microscopic examination of centrifuged sediment of the urine showed 15-20 pus cells/hig..." -> Urine sediment microscopy and Giemsa staining (POSITIVE)
+[27/40] Case: PMC7736676_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: This paper is a qualitative sociological study examining the empowerment journeys of caregivers of disabled children in Ghana using thematic interview analysis. There is no clinical case investigation, medical evaluation, or individual patient report. Mention of elephantiasis in a family member (grandmother) is narrative background.
+      Evidence [1]: [0:301] "Jacinta, a single unmarried mother with two children, lived with her own mother in rura..." -> Qualitative interview sociological narrative (NON_PATIENT_MENTION)
+[28/40] Case: PMC7568224_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: This publication is a cytopathology quiz on cervical Pap smear findings. 'Wuchereria bancrofti' was an incorrect multiple-choice distractor option. The actual organism detected was Strongyloides stercoralis. No lymphatic filariasis was diagnosed.
+      Evidence [1]: [619:690] "The correct cytological interpretation is c. Strongyloides stercoralis." -> Cytological Pap smear evaluation (POSITIVE_NON_TARGET)
+[29/40] Case: PMC8248244_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 65-year-old male presented with gross painless hematuria. Urine cytology revealed sheathed microfilariae of Wuchereria bancrofti characterized by absence of nuclei at the tip of the tail, and the patient became completely asymptomatic following a 21-day course of diethylcarbamazine. Direct cytological demonstration of microfilariae provides E1 confirmatory evidence.
+      Evidence [1]: [1332:1721] "Smears of the first patient revealed predominantly RBCs with occasional benign urotheli..." -> Urine cytological examination (POSITIVE)
+[30/40] Case: PMC3937486_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 20-year-old female presented with genital swelling and knife-cut ulcers. Filarial elephantiasis was considered in the differential diagnosis due to local endemicity, but was ruled out in favor of cutaneous/metastatic Crohn's disease, proven by histopathology showing non-caseating granulomas and dramatic therapeutic response to corticosteroids and metronidazole.
+      Evidence [1]: [684:880] "Filariasis being endemic in Cuddalore district of Tamil Nadu, elephantiasis of external..." -> Differential diagnosis consideration (RULED_OUT)
+[31/40] Case: PMC5611875_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: A 14-year-old female presented with stage III lymphedema (fibroses/elephantiasis) of the left leg. The lymphedema was congenital ('present at birth') and managed with adapted grosgrain compression stockings. There was no parasitic filarial etiology.
+      Evidence [1]: [647:782] "According to the caregiver, the lymphedema was present at birth; however, the patient h..." -> Clinical history and physical examination (POSITIVE_NON_TARGET)
+[32/40] Case: PMC8571260_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: This article is a cytology quiz regarding an arm swelling. 'Wuchereria bancrofti' was an incorrect multiple-choice distractor option. The parasite was identified as Cysticercus cellulosae. Lymphatic filariasis was not present.
+      Evidence [1]: [587:655] "The correct cytological interpretation is b. Cysticercus cellulosae." -> Fine needle aspiration cytology (POSITIVE_NON_TARGET)
+[33/40] Case: PMC9977209_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 36-year-old male from eastern India presented with paroxysmal nocturnal dry cough, marked peripheral eosinophilia (37,510/microL), strikingly elevated total serum IgE (9915 U/L), bilateral pulmonary reticulonodular opacities, and a positive anti-filarial antibody by immunochromatography. He achieved complete clinical cure after 3 weeks of diethylcarbamazine therapy. The patient satisfies all diagnostic criteria for tropical pulmonary eosinophilia (occult lymphatic filariasis), providing E2 strong evidence.
+      Evidence [1]: [2447:2531] "Serum immunoglobulin (Ig) E level was 9915 U/L (reference range: less than 150 U/L)." -> Serum total IgE measurement (9915 U/L)
+      Evidence [2]: [2780:2852] "Anti-filarial antibody was positive by the immunochromatographic method." -> Anti-filarial antibody immunochromatography (POSITIVE)
+      Evidence [3]: [2854:3023] "The patient was started on DEC therapy at a dose of 100 mg thrice daily. Cough improved..." -> Therapeutic response to diethylcarbamazine (DEC) (CLINICAL_IMPROVEMENT)
+[34/40] Case: PMC11068468_01 | Decision: INCONCLUSIVE_DATA        | Evidence: E3_SUPPORTIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 72-year-old male presented with a 30-year history of lower limb swelling and stage 4 elephantiasis attributed to lymphatic filariasis, periodically treated with diethylcarbamazine (DEC). However, no E1 laboratory confirmatory tests (microscopy/PCR) or E2 antigen/antibody assays are documented in the report. Clinical elephantiasis and repeated empirical DEC represent E3 supportive evidence only, which is insufficient for a verified positive diagnosis under protocol, leading to an adjudication of INCONCLUSIVE_DATA.
+      Evidence [1]: [190:385] "The patient has been diagnosed with stage 4 lymphedema for 10 years and has been on a c..." -> Clinical stage 4 lymphedema and empirical DEC regimen (SUSPECTED)
+[35/40] Case: PMC10481855_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_DIAGNOSTIC_CONTEXT   | Quotes: 1
+      Rationale: This publication is an educational quiz on an inguinal mass in a young female. 'Filariasis' was an incorrect multiple-choice distractor option. The fine-needle aspirate confirmed Cysticercosis (Taenia solium). Lymphatic filariasis was not present.
+      Evidence [1]: [666:725] "The correct cytological interpretation is b. Cysticercosis." -> Fine needle aspiration cytology (POSITIVE_NON_TARGET)
+[36/40] Case: PMC11191609_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 73-year-old male with a remote history of travel to Barbados (endemic for Wuchereria bancrofti in the 1970s) and chronic hydrocele presented with progressive scrotal and suprapubic lymphedema. Two filariasis serologies were positive, leading to a definitive diagnosis of chronic lymphatic filariasis. In non-endemic travelers presenting with chronic genital lymphedema, positive filarial serology (E2) establishes the diagnosis.
+      Evidence [1]: [448:573] "Finally, two filariasis serologies returned positive. The diagnosis of lymphatic filari..." -> Filarial antibody serology (POSITIVE)
+[37/40] Case: PMC10481814_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 48-year-old male presented with cervical lymphadenopathy. Fine-needle aspiration cytology revealed metastatic squamous cell carcinoma coexisting with microfilariae of Wuchereria bancrofti, displaying characteristic hyaline sheath and pointed tail devoid of terminal nuclei. Direct cytological demonstration of W. bancrofti provides E1 confirmatory evidence.
+      Evidence [1]: [772:1095] "The filarial worm is smoothly curved, covered with a hyaline sheath and a pointed tail...." -> Fine needle aspiration cytology (POSITIVE)
+[38/40] Case: PMC11803154_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 43-year-old male from Sudan presented with severe milky urine (chyluria) for one year. Examination of a peripheral blood smear confirmed the presence of filarial parasites, and retrograde pyelogram identified a left pyelo-lymphatic fistula, successfully treated with povidone-iodine sclerotherapy and ivermectin. Direct blood smear demonstration provides E1 confirmatory evidence.
+      Evidence [1]: [761:949] "Ether was added to a test tube filled with the cloudy urine rendering the mixture clear..." -> Peripheral blood smear microscopy (POSITIVE)
+[39/40] Case: PMC11697602_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: This publication is a Letter to the Editor critiquing a previously published case report on pediatric trichinellosis. Lymphatic filariasis is mentioned merely as an author's speculative alternative differential in the discussion ('A lymphatic filariasis such as Wuchereria could have been responsible...'). It is not an original clinical case report.
+      Evidence [1]: [1896:2138] "A lymphatic filariasis such as Wuchereria could have been responsible for this neck enl..." -> Critical discussion commentary (HYPOTHETICAL_SPECULATION)
+[40/40] Case: PMC12180861_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 55-year-old female presented with massive vulval swelling. Filarial elephantiasis was explicitly considered in the differential diagnosis and ruled out by negative blood smear examination for microfilariae. Histopathology proved vulval tuberculosis with caseating granulomas, which responded to anti-tubercular therapy. The negative blood smear and definitive alternate diagnosis warrant a NEGATIVE adjudication.
+      Evidence [1]: [1953:2071] "The possibility of elephantiasis secondary to filariasis was ruled out by a blood smear..." -> Peripheral blood smear examination for microfilariae (NEGATIVE)
+
+================================================================================
+END OF LOG — ALL 40 PAIRS AUDITED, VERIFIED AND COMPLETE
+================================================================================

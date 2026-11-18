@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9837467_01",
+  "pair_id": "PMC9837467_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 49-year-old Caucasian male was admitted to the Patras University Hospital, presenting with a 10-day history of fever, severe headache, and dizziness. Cerebrospinal fluid examination revealed cryptococcal meningitis. The patient was also diagnosed with pulmonary tuberculosis and HIV infection, with a CD4 count of 45 cells/microL and HIV viral load of 873,083 copies/mL. Upon diagnosis, treatment with liposomal amphotericin B, fluconazole, and antituberculosis agents was commenced.\nAfter 7 weeks of treatment and before initiation of antiretroviral therapy (commenced 2 months after the admission), the patient complained of a decrease in visual acuity affecting the right eye and was referred to the ophthalmology department. There was no history of previous ocular disease or surgery, and the patient's best corrected visual acuity (BCVA) was 9/10 OD and 10/10 OS. Anterior segment evaluation was unremarkable. Dilated fundus examination revealed cotton wool spots and pre- and intraretinal hemorrhages in both eyes compatible with HIV retinopathy (Fig. 1a, b).\nSpectral-domain OCT (SD-OCT, Spectralis HRA + OCT; Heidelberg Engineering GmbH, Heidelberg, Germany) revealed the presence of INL thinning below the fovea in OD in the parafoveal area in OD and OS (Fig. 1c-h). OCT angiography (OCTA; Triton Swept Source OCT, Topcon) revealed areas of DCP ischemia devoid of capillaries (Fig. 2a, b). Fluorescein angiography revealed microaneurysms and areas of late leakage in both eyes (Fig. 2c, d and 3a, b). Visual field (VF) testing (Zeiss Humphrey Field Analyzer 3) documented the presence of central (OD) and paracentral (OD and OS) scotomas (Fig. 4a, b).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old Caucasian male with newly diagnosed HIV/AIDS, cryptococcal meningitis, and pulmonary tuberculosis presented 7 weeks into antifungal and anti-tuberculous therapy with decreased visual acuity in his right eye.",
+      "history_of_present_illness": "The patient initially presented with a 10-day history of fever, severe headache, and dizziness, and was diagnosed with cryptococcal meningitis, pulmonary tuberculosis, and advanced HIV infection (CD4 45 cells/uL, HIV viral load 873,083 copies/mL). Seven weeks after starting liposomal amphotericin B, fluconazole, and anti-tuberculous therapy (and 1 week prior to initiating antiretroviral therapy at month 2), he developed painless visual acuity reduction in his right eye.",
+      "past_medical_history": "Advanced HIV/AIDS, cryptococcal meningitis, and pulmonary tuberculosis diagnosed 7 weeks prior; no prior ocular disease or surgery.",
+      "review_of_systems": "Positive for initial 10-day fever, severe headache, and dizziness, and week 7 decreased right-eye visual acuity. Medications: liposomal amphotericin B, fluconazole, and anti-tuberculous agents."
+    },
+    "objective": {
+      "physical_examination": "Ophthalmic examination at week 7 showed best-corrected visual acuity of 9/10 OD and 10/10 OS, unremarkable anterior segments, and bilateral dilated fundoscopic findings of cotton-wool spots and pre- and intraretinal hemorrhages.",
+      "routine_investigations": "Plasma HIV-1 RNA viral load was 873,083 copies/mL at initial admission.",
+      "advanced_workup": "CD4+ T-cell count was 45 cells/uL; initial lumbar puncture CSF examination confirmed cryptococcal meningitis. Multimodal retinal imaging at week 7 demonstrated subfoveal and parafoveal inner nuclear layer (INL) thinning on spectral-domain OCT (SD-OCT), deep capillary plexus (DCP) microvascular ischemia and capillary drop-out on OCT angiography (OCTA), bilateral retinal microaneurysms and late vascular leakage on fluorescein angiography, and central (OD) and bilateral paracentral scotomas on Humphrey visual field testing."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of bilateral non-infectious HIV-associated ischemic microvasculopathy (HIV retinopathy) in a patient with advanced AIDS (CD4 45 cells/uL) undergoing treatment for cryptococcal meningitis and pulmonary tuberculosis, confirmed by dilated fundoscopy, SD-OCT, OCT angiography, fluorescein angiography, and Humphrey visual field perimetry. Managed with continuation of liposomal amphotericin B, fluconazole, and anti-tuberculous therapy followed by initiation of antiretroviral therapy at 2 months post-admission."
+    }
+  }
+}

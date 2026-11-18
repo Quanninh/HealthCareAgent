@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3633297_02",
+  "pair_id": "PMC3633297_02::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "Intraoral examination revealed the presence of raised hemorrhagic plaques both on the right and left buccal mucosa [Figures 1 and 2] as well as on the dorsum of the tongue near the tip. The hemorrhagic plaques were surrounded by the greenish blue mucosa, and the surface of the hemorrhagic plaques was irregular. At the junction of the hard and soft palate, a diffuse area of erosion of 3 x 4 cm was present [Figure 3]. The tonsils on the both right and left sides was enlarged and inflamed. Patient had xerostomia and the tongue appeared to be coated. A tourniquet test was performed and around 20-22 petechiae/2.5 cm2 were observed. The patient was then subjected to a series of hematological and biochemical investigations.\nThe results of the investigation were as follows:\nThrombocytopenia 4000 cells/mm3, total leukocyte count 3000 cells/mm3, lymphocyte count 12%, serum albumin 3 g/dl, hemoglobin 14.2 g/dl, prothrombin time (PT) was normal, and activated partial thromboplastin time (aPTT) was elevated, and hematocrit value was about 44%.\nWith the above results, a provisional diagnosis of DHF was made. To confirm further, IgM was detected by an antibody capture enzyme-linked immunosorbent assay (ELISA; 8 days after the onset of symptoms).\nPatient was managed with IV fluids and platelet transfusion in the intensive care unit. She recovered within 1 week.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A female patient presented with acute febrile symptoms, xerostomia, and intraoral mucosal hemorrhagic lesions.",
+      "history_of_present_illness": "The patient presented during an acute febrile illness with dry mouth and painful hemorrhagic plaques and erosions across her buccal mucosa, tongue dorsum, and palate.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for xerostomia and oral mucosal bleeding/lesions."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed raised, irregular hemorrhagic plaques surrounded by greenish-blue mucosa on the bilateral buccal mucosa and anterior dorsum of the tongue, a 3 x 4 cm diffuse erosion at the hard-soft palate junction, bilaterally enlarged and inflamed tonsils, xerostomia, and a coated tongue. Tourniquet test was positive with 20-22 petechiae per 2.5 cm2.",
+      "routine_investigations": "Severe thrombocytopenia (platelet count 4,000 cells/mm3), leukopenia (TLC 3,000 cells/mm3, lymphocytes 12%), hemoglobin 14.2 g/dl, hematocrit ~44%, serum albumin 3 g/dL, normal prothrombin time (PT), and elevated activated partial thromboplastin time (aPTT).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue hemorrhagic fever (DHF) presenting with prominent intraoral hemorrhagic plaques and palatal erosion, confirmed by positive tourniquet test, severe thrombocytopenia (4,000/mm3), and positive dengue IgM capture ELISA 8 days after symptom onset. Managed in the ICU with intravenous fluids and platelet transfusions, achieving full clinical recovery within 1 week."
+    }
+  }
+}

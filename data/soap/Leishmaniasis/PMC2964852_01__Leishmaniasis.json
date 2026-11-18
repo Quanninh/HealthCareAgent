@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2964852_01",
+  "pair_id": "PMC2964852_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 61-year-old immunocompetent Italian man, born and residing in Abruzzo, presented to our observation because of the persistence of multiple ulcerative nodules on the skin of his right cheek (larger nodule measured 2 cm in maximum diameter), partially covered by scaly scabs.\nA complete blood picture was normal. The patient referred no travels and had received several topical treatments (antibiotics, antimycotics, steroids), which had failed. After cleaning off the excess blood, cytology smears were performed by sampling cells from the ulcer with a sterile lancet and by smearing the sample directly onto glass slides. Pathological examination showed the presence of a large number of intra- and extracellular Leishmania promastigotes and a massive histiocyte infiltration, laden with amastigotes (Leishman-Donovan bodies) [Figure 1].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 61-year-old immunocompetent Italian man from Abruzzo presented with persistent multiple ulcerative, crusted nodules on his right cheek.",
+      "history_of_present_illness": "The patient developed multiple ulcerative nodules on the skin of his right cheek that persisted despite multiple courses of topical antibiotics, antifungals, and corticosteroids.",
+      "past_medical_history": "Immunocompetent native and resident of Abruzzo, Italy, with no history of travel outside the region.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Multiple ulcerative nodules partially covered by scaly scabs on the right cheek, with the largest nodule measuring 2 cm in maximal diameter.",
+      "routine_investigations": "Complete blood count was within normal limits.",
+      "advanced_workup": "Direct cytological scraping smears from the cheek ulcer revealed massive histiocytic infiltration laden with intracellular Leishmania amastigotes (Leishman-Donovan bodies) alongside numerous intracellular and extracellular Leishmania promastigotes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Direct lesion cytology smears confirmed Cutaneous Leishmaniasis, notable for the simultaneous microscopic visualization of abundant Leishmania amastigotes (Leishman-Donovan bodies) within histiocytes and numerous extracellular and intracellular promastigote forms."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10202823_01",
+  "pair_id": "PMC10202823_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 16-year-old female with no history of skin rashes, systemic symptoms, or significant medical history presented with a one-month history of painful skin lesions on the web between the second and third toes of her left foot. Physical examination revealed several well-defined, reddish-brown, flat-topped, odorless plaques with smooth surfaces located in the interdigital web space between the second and third toes of the left foot (Figure 1). No lesions were observed in the anogenital region, nor was any systemic involvement observed. Initially, the patient was diagnosed with tinea pedis and was topically treated with 2% miconazole nitrate cream for 4 weeks without any improvement. Further inquiry revealed that the patient had been a sex worker for approximately one year and had positive results of human papillomavirus types 16, 26, 33, 58, and 82 from her cervical swab test performed two months prior to her current hospital presentation. Histopathology of the lesion revealed parakeratosis, abundant neutrophilic infiltration with acanthosis, and regular elongation of the rete ridges within the epidermis (Figures 2 and 3). Dense infiltration of plasma cells was observed throughout the dermal layer (Figure 3). Immunohistochemistry revealed numerous spirochetes within the epidermis (Figure 4). Both the toluidine red unheated serum test (TRUST) and Treponema pallidum hemagglutination test were positive; the TRUST test results were positive at a dilution of 1:64. Human immunodeficiency virus test results were negative. Based on the patient's occupation, histological findings, and serological test results, she was diagnosed with a condyloma latum due to secondary syphilis. According to Chinese guidelines, the patient was treated intramuscularly with 2.4 million units of penicillin G benzathine per week for 2 weeks. One month after treatment, the skin lesion had entirely resolved, and only hyperpigmentation was observed (Figure 5). Six months after treatment, the TRUST titer decreased to 1:4.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 16-year-old female presented with a 1-month history of painful skin lesions in the web space between the second and third toes of her left foot.",
+      "history_of_present_illness": "The patient developed painful interdigital skin plaques between the second and third toes of her left foot 1 month prior to presentation. She was initially misdiagnosed with tinea pedis and treated topically with 2% miconazole nitrate cream for 4 weeks without clinical improvement.",
+      "past_medical_history": "No prior skin rashes or chronic medical conditions. She had worked as a commercial sex worker for approximately 1 year and had tested positive for high-risk HPV types 16, 26, 33, 58, and 82 on a cervical swab performed 2 months prior to presentation.",
+      "review_of_systems": "Positive for painful left pedal interdigital plaques; negative for systemic symptoms or prior skin rashes. Prior medication: topical 2% miconazole nitrate cream."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed several well-defined, reddish-brown, flat-topped, odorless plaques with smooth surfaces in the interdigital web space between the second and third toes of the left foot. No lesions were present in the anogenital region, and there were no signs of systemic involvement.",
+      "routine_investigations": "Serum HIV screening test was negative.",
+      "advanced_workup": "Skin biopsy histopathology of the interdigital toe lesion demonstrated parakeratosis, abundant neutrophilic infiltration with acanthosis, regular elongation of epidermal rete ridges, and dense dermal plasma cell infiltration."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed interdigital pedal condyloma latum secondary to secondary syphilis via positive serum TRUST (titer 1:64), positive TPHA, and immunohistochemistry (IHC) demonstrating numerous Treponema pallidum spirochetes within the epidermis (tinea pedis ruled out). Treated with intramuscular benzathine penicillin G 2.4 million units weekly for 2 weeks per Chinese guidelines. At 1 month post-treatment, the interdigital lesions completely resolved leaving residual hyperpigmentation, and at 6 months the serum TRUST titer declined to 1:4."
+    }
+  }
+}

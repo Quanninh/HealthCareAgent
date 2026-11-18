@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3579065_03",
+  "pair_id": "PMC3579065_03::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 10.0,
+  "raw_case_text": "Histopathology showed typical larvae of Taenia solium, collagenous cyst wall without surrounding reactive changes. After the procedure patient was symptom free, he was on a regular follow up; he was advised Tab. Albendazole 400 mg BD for a period of 1 month and Tab Carbamazipine 400 mg three times a day. Postoperatively the patient improved on neurological status significantly. His follow-up MRI showed no residual or recurrent cyst for 2 years.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": null,
+      "history_of_present_illness": null,
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Histopathological examination of the excised surgical specimen demonstrated a typical Taenia solium larva and collagenous cyst wall without surrounding reactive changes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathology confirmed neurocysticercosis (Taenia solium larva). Postoperatively, the patient was treated with oral albendazole 400 mg twice daily for 1 month and oral carbamazepine 400 mg three times daily. His neurological status improved significantly, and he remained symptom-free with no residual or recurrent cysts on 2-year follow-up MRI."
+    }
+  }
+}

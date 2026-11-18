@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11194011_01",
+  "pair_id": "PMC11194011_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 65-year-old woman presented with non-pruritic and painless red annular patches and plaques on her crissum that had appeared three months prior. Physical examination revealed patchy erythema of varying sizes around the anus, with circular raised plaques at the edges, and a few white scales overlying them (Figure 1A). No other skin or mucosal lesions or lymphadenopathy were observed. Microscopic examination and fungal cultures yielded negative results. Chest computed tomography showed old tuberculosis foci in both the upper lung lobes. Tumor indicators, autoantibodies, immunoglobulin levels, complement levels, and other indicators showed no significant abnormalities. Flow cytometry demonstrated lower than normal reference values for the total T, B, and NK cells. The CD4 T cell count was reduced to 213 cells/microL, and the CD4/CD8 ratio was 0.8. Further serum examinations showed TPPA was positive, and TRUST revealed a titer of 1:128. Human immunodeficiency virus (HIV) test result was negative. Tests for other sexually transmitted diseases such as mycoplasma, chlamydia, gonococcal, and human papillomavirus (HPV) infections were negative. Histopathological examination of the skin lesion revealed parakeratosis, epidermal hyperplasia, and a dense band of inflammatory cells in the lower part of the epidermis and dermo-epidermal junction, mainly lymphocytes and plasma cells (Figure 1B and C). Immunohistochemical staining for T. pallidum confirmed positivity (Figure 1D and E). PAS staining and acid-fast staining results were negative. To assess nervous system involvement, a lumbar puncture was performed to analyze cerebrospinal fluid, which revealed a VDRL titer of 1:16, along with elevated white blood cell count and total protein levels compared to normal reference values. Therefore, she was diagnosed with \"neurosyphilis and secondary syphilis, and administered 4 million U of benzylpenicillin sodium intravenously every four hours for 14 days. After two weeks of intravenous penicillin treatment, the perianal rash subsided, leaving pigmentation (Figure 1F).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old woman presented with a 3-month history of painless, non-pruritic red annular patches and plaques in the perianal region.",
+      "history_of_present_illness": "The patient noticed asymptomatic red annular patches and raised plaques around her anus 3 months prior to presentation.",
+      "past_medical_history": "Evidence of old healed pulmonary tuberculosis on chest imaging.",
+      "review_of_systems": "Positive for painless, non-pruritic perianal annular plaques; negative for other cutaneous or mucosal lesions."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination revealed patchy erythema of varying sizes around the anus with circular raised peripheral plaques and fine overlying white scales. No other cutaneous or mucosal lesions or superficial lymphadenopathy were present.",
+      "routine_investigations": "Direct fungal microscopy and fungal cultures were negative. Serum tumor markers, autoantibodies, immunoglobulins, and complement levels were normal. HIV serology and STI testing for Mycoplasma, Chlamydia, Neisseria gonorrhoeae, and HPV were all negative. Chest CT showed old healed tuberculosis foci in both upper lung lobes.",
+      "advanced_workup": "Flow cytometry showed reduced total T, B, and NK cell counts with a reduced CD4+ T-cell count of 213 cells/uL and a CD4/CD8 ratio of 0.8. Perianal skin biopsy histopathology demonstrated parakeratosis, epidermal hyperplasia, and a dense band-like lymphocytic and plasma cell infiltrate in the lower epidermis and dermo-epidermal junction, with negative PAS and acid-fast stains. Lumbar puncture CSF analysis revealed elevated WBC count and elevated total protein levels."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary perianal annular syphilis with concomitant asymptomatic neurosyphilis, established via positive serum TPPA, serum TRUST titer of 1:128, positive cutaneous Treponema pallidum immunohistochemistry (IHC), and reactive CSF VDRL (titer 1:16). Treated with intravenous benzylpenicillin sodium 4 million units every 4 hours for 14 days, resulting in complete resolution of the perianal plaques leaving only residual hyperpigmentation at 2 weeks."
+    }
+  }
+}

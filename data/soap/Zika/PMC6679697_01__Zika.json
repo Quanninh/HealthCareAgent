@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6679697_01",
+  "pair_id": "PMC6679697_01::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "In June 2016, a 25-year-old woman, who was pregnant for the second time, carried a female fetus that displayed multiple congenital abnormalities. The pregnancy started in December 2015 and was without abnormalities until February 2016. At 10 weeks of pregnancy, the mother presented rash in the face and superior limbs, conjunctival hyperemia, arthralgia, headache, myalgia, and fever. A ZIKV infection was suspected and RT-PCR was performed, which showed a positive result at 10 weeks of gestation. As a result, a ZIKV congenital infection was suspected and continuous ultrasonography monitoring was performed from weeks 10 to 17, with no evidence of birth defects observed. As part of the prenatal care, TORCH testing was performed, and the most prevalent congenital infections were eliminated as causal factors including toxoplasmosis, syphilis, HIV, rubella, cytomegalovirus, hepatitis B, herpes virus 1 and 2, and parvovirus B19 (Table 1). \nAt 23.3 weeks of gestation, the first brain abnormalities were observed. Ultrasonography showed asymmetric fetal growth during pregnancy, cephalic perimeter and biparietal diameter below the 5th percentile, intracranial calcifications, and ventriculomegaly (atrial diameter of 21.1 mm) without other structural malformations. Combined with the previous positive Zika RT-PCR and ultrasonography findings, congenital ZIKV syndrome was diagnosed. Because of the poor fetal prognosis, the parents decided to terminate the pregnancy following National Legislation and Medical Team approval. When the fetus was born, the only morphological finding was microcephaly. An entire genetic assessment was performed on the fetus, including an assessment of inheritance genetic disorders; an autopsy was also performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old woman (gravida 2) presented at 23.3 weeks of gestation in June 2016 with fetal microcephaly, intracranial calcifications, and ventriculomegaly following an acute maternal febrile exanthematous illness at 10 weeks of gestation.",
+      "history_of_present_illness": "The patient conceived her second pregnancy in December 2015, which progressed normally until 10 weeks of gestation (February 2016), when she developed an acute illness characterized by facial and upper limb rash, conjunctival hyperemia, arthralgia, headache, myalgia, and fever. Following a positive maternal Zika virus RT-PCR at 10 weeks of gestation, serial prenatal ultrasounds from 10 to 17 weeks showed no structural fetal anomalies, until ultrasonography at 23.3 weeks of gestation (June 2016) revealed severe fetal brain abnormalities.",
+      "past_medical_history": "Gravida 2; pregnancy began in December 2015.",
+      "review_of_systems": "Positive at 10 weeks gestation for fever, facial and upper extremity rash, conjunctival hyperemia, arthralgia, myalgia, and headache."
+    },
+    "objective": {
+      "physical_examination": "Post-delivery morphological examination of the female fetus demonstrated isolated microcephaly without other external structural malformations.",
+      "routine_investigations": "Serial fetal ultrasounds from 10 to 17 weeks of gestation were normal. Fetal ultrasonography at 23.3 weeks of gestation demonstrated asymmetric fetal growth restriction, head circumference and biparietal diameter below the 5th percentile, intracranial calcifications, and ventriculomegaly (atrial diameter 21.1 mm) without extracranial structural malformations.",
+      "advanced_workup": "Comprehensive fetal genetic assessment (evaluating inherited genetic disorders) and postmortem fetal autopsy were performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Congenital Zika syndrome with fetal microcephaly, intracranial calcifications, and severe ventriculomegaly confirmed by positive maternal ZIKV RT-PCR at 10 weeks of gestation. Prenatal TORCH screening excluded toxoplasmosis, syphilis, HIV, rubella, cytomegalovirus, hepatitis B, herpes simplex virus types 1 and 2, and parvovirus B19. Due to the poor fetal prognosis, the parents elected medical termination of pregnancy with national legislative and medical team approval."
+    }
+  }
+}

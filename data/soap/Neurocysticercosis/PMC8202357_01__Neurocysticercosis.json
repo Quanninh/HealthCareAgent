@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8202357_01",
+  "pair_id": "PMC8202357_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "We report a 28-year-old male, presented with rapid progressive loss of vision of the left eye and headache. Neurological examination of the patient revealed no abnormalities except visual acuity of the left eye to be 6/30. Visual field test and visual perimetry showed temporal hemianopia of the left eye.\nMagnetic resonance imaging (MRI) of the brain revealed well-defined lobulated cystic lesion measuring about 1.9 cm x 2 cm x 1.9 cm (Anterior-Posterior x Width x Height) showing thin enhancing wall without internal enhancing lesion located in mid to left side of the suprasellar region extending into the sellar region. [Figure 1a-c] There was minimal extensive involvement of the left cavernous sinus, right deviation and compression of infundibulum, and slightly upward pushed optic chiasma. However, on SWI sequence, there is no calcification. [Figure 1d, e] With craniopharyngioma as one of the differential diagnosis, pituitary hormonal profile of the patient showed increased level of serum prolactin and insulin-like growth factor 1, decreased level of serum cortisol. Other hormones were within normal range. The provisional diagnosis of craniopharyngioma was made and standard pterional craniotomy was performed from the left side. After visualizing the left optic nerve and opening the left optico-carotid cistern, to our surprise, whitish multiple cystic structure was seen which was removed from optico-carotid space and prechiasmatic space. [Figure 2] Borosilicate glass pipette was used for meticulous removal of cystic lesion. The scolex was also seen in the cyst. Few calcifications were also present. Dexamethasone diluted in ringer's lactate was used for irrigation. Postoperatively, visual acuity improved without any complications. Visual acuity improved with no postoperative complications. Histopathology report showed findings compatible with cysticercosis [Figure 3]. However, immunoglobulin G appeared to be negative after surgery. Postoperative CT scan was unremarkable [Figure 4].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old man presented with rapidly progressive loss of vision in his left eye and headache.",
+      "history_of_present_illness": "The patient developed headache accompanied by rapid, progressive visual loss in his left eye prior to neurosurgical evaluation.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Neurological and ophthalmic examination revealed reduced visual acuity of 6/30 in the left eye and left temporal hemianopia on visual field perimetry, with no other neurological abnormalities.",
+      "routine_investigations": "Pituitary hormonal profile demonstrated elevated serum prolactin and insulin-like growth factor-1 (IGF-1) alongside decreased serum cortisol, with remaining pituitary hormones within normal ranges.",
+      "advanced_workup": "Brain MRI revealed a well-defined 1.9 x 2.0 x 1.9 cm lobulated cystic lesion with a thin enhancing wall, no internal enhancement, and no calcification on susceptibility-weighted imaging (SWI), centered in the mid-to-left suprasellar region with extension into the sella, minimal left cavernous sinus involvement, rightward deviation and compression of the pituitary infundibulum, and upward displacement of the optic chiasm."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Preoperatively suspected to have a craniopharyngioma, the patient underwent a left pterional craniotomy; opening the left optico-carotid cistern revealed multiple whitish cysts containing a visible scolex and minor calcifications in the optico-carotid and prechiasmatic spaces, which were completely aspirated and removed using a borosilicate glass pipette with dexamethasone-Ringer's lactate irrigation. Histopathology confirmed suprasellar/intrasellar subarachnoid neurocysticercosis (postoperative serum anticysticercal IgG was negative and postoperative head CT was unremarkable). His visual acuity improved postoperatively without complications."
+    }
+  }
+}

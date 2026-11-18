@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3523579_01",
+  "pair_id": "PMC3523579_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 28-year-old nonsmoking male was referred for diagnostic evaluation of recurrent mild haemoptysis associated with a right upper lobe solitary pulmonary nodule of 8 weeks duration. Chest radiograph revealed a 1.5 x 2 cm coin lesion in the posterior segment of the right upper lobe of the lung (Figure 1).\nThe medical history was noncontributory. A computed tomographic (CT) scan of the chest confirmed the chest radiograph findings; a solid mass was noted in the posterior segment of the right upper lobe of the lung with an area of central lucency (Figure 2).\nThere was no hilar lymphadenopathy. Sputum microscopy, culture, and cytological examination were noncontributory. The ESR was 14, the haemoglobin 14.6 g/dL, and the leukocyte count of 8.8 x 109/L. The other serum haematological and biochemical results were normal.\nIn view of the patient's ongoing haemoptysis and lack of response to antibiotics he was subjected to an exploratory thoracotomy and wedge resection of the lesion in the right upper lobe. A solid mass in the posterior segment of the right upper lobe was noted and it was excised. No associated lymphadenopathy was noted. Frozen section of the mass revealed no evidence of carcinoma or tuberculosis. The patient developed a right upper lobe lung abscess postoperatively, and underwent a complete right upper lobe lobectomy.\nMacroscopically, a well-circumscribed tan-coloured nodule measuring 35 x 15 mm was present. The cut surfaces of the tumour revealed a haemorrhagic necrotic centre. Microscopically, the mass consisted of a heavy inflammatory cell infiltrate composed predominantly of lymphocytes, with plasma cells and histiocytes. Foamy histiocytes with macrophages were also seen, as well as occasional eosinophils and neutrophils. Focal areas of micro-abscess formation with necrosis were also noted. A marked degree of fibrosis of the interstitial tissue was present with proliferating myofibroblasts. The histological characteristics were compatible with an inflammatory myofibroblastic pseudotumour (organising pneumonia-like type; Figure 3).\nThe postoperative course was uneventful, the patient was discharged from the hospital one week later, and three years after surgical resection the patient remains well and free of disease.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old non-smoking male presented with an 8-week history of recurrent mild hemoptysis and a right upper lobe solitary pulmonary nodule.",
+      "history_of_present_illness": "Over 8 weeks, the patient experienced recurrent mild hemoptysis unresponsive to empirical antibiotics and was found to have a right upper lobe coin lesion on chest radiography.",
+      "past_medical_history": "Non-smoker; unremarkable past medical history.",
+      "review_of_systems": "Positive for recurrent mild hemoptysis."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Hb 14.6 g/dL, WBC 8.8 × 10^9/L, ESR 14 mm/h, normal serum biochemistry. Sputum microscopy, culture, and cytology were negative. Chest X-ray showed a 1.5 × 2 cm solitary coin lesion in the posterior segment of the right upper lobe.",
+      "advanced_workup": "Chest CT confirmed a solid mass with central lucency in the posterior segment of the right upper lobe without hilar lymphadenopathy. Exploratory thoracotomy and wedge resection (followed by completion right upper lobectomy for a postoperative lung abscess) revealed a well-circumscribed 35 × 15 mm tan nodule with a hemorrhagic necrotic center; frozen section excluded carcinoma and tuberculosis, and final histopathology demonstrated a heavy lymphoplasmacytic and foamy histiocytic infiltrate, microabscesses, interstitial fibrosis, and proliferating myofibroblasts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Pulmonary tuberculosis and lung malignancy were ruled out on intraoperative frozen section and final histopathology, which confirmed a pulmonary inflammatory myofibroblastic pseudotumor (organizing pneumonia-like type) of the right upper lobe. Following completion right upper lobectomy, the patient was discharged after 1 week and remained disease-free at 3-year follow-up."
+    }
+  }
+}

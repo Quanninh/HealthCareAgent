@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3597911_01",
+  "pair_id": "PMC3597911_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 32-year-old woman was admitted suffering from constant mild pain in the right hypochondrium reflecting to the epigastrium; and often accompanied by nausea during the previous 6 months. There was no history of fever or jaundice. The physical examination didn't show abnormal abdominal signs except tenderness in the right upper quadrant of the abdomen. Routine blood tests proved unremarkable. Plain abdominal X-rays was normal. The ultrasound examination showed that her gallbladder was deformed with a localised thickening of its wall (Figure 1). There was no image of gallstone.\nTo eliminate gallbladder neoplasm; a CT abdominal scan was performed showing inflammatory gallbladder wall which is free of suspect lesions (Figure 2). Against this diagnosis difficulty; it has been decided to practice a magnetic resonance abdominal imaging. This examination showed many daughter cysts in the lumen of the gallbladder (Figure 3-A, B); while hepatic parenchyma proved absolutely normal (Figure 3-C)\nAntiechinococcal antibodies were not found in serum. The diagnosis of primary hydatid cyst of gallbladder was supported and surgery has been decided. The patient underwent right subcostal laparotomy. Intraoperatively it has been found a cyst of the body of the gallbladder which is inflammatory and deformed. No other cysts were found in the liver and peritoneal cavity. A cholecystectomy was performed. It permitted a total removal of the cyst without rupture. A preoperative cholangiography searching daughter cysts in the common bile duct proved unremarkable (Figure 4). The patient's postoperative course was uneventful and she was discharged in the fourth postoperative day. The histopathology confirmed the presence of hydatid cyst of the gallbladder (Figure 5). At six month follow up, the patient has had no recurrence of hydatid disease.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old woman presented with a 6-month history of constant mild right hypochondriac pain radiating to the epigastrium accompanied by nausea.",
+      "history_of_present_illness": "The patient experienced constant mild right upper quadrant pain radiating to the epigastrium and frequently associated with nausea over the preceding 6 months, without fever or jaundice.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for right hypochondriac/epigastric pain and nausea; negative for fever or jaundice."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination showed right upper quadrant tenderness without other abnormal findings.",
+      "routine_investigations": "Routine blood tests, serum anti-echinococcal antibody serology, and plain abdominal radiographs were normal/negative. Abdominal ultrasonography revealed a deformed gallbladder with localized wall thickening and no gallstones.",
+      "advanced_workup": "Abdominal CT showed an inflammatory thickened gallbladder wall without focal hepatic lesions. Abdominal MRI demonstrated numerous daughter cysts filling the gallbladder lumen with completely normal hepatic parenchyma. Right subcostal laparotomy with intact cholecystectomy and unremarkable intraoperative cholangiography (showing no common bile duct daughter cysts) was performed, and histopathology confirmed a primary hydatid cyst of the gallbladder."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated hydatid cyst of the gallbladder, confirmed by MRI visualization of intraluminal daughter cysts and postoperative histopathology despite negative serum anti-echinococcal antibodies (ruling out gallbladder carcinoma). The patient underwent open cholecystectomy without rupture, was discharged on postoperative day 4, and had no recurrence at 6-month follow-up."
+    }
+  }
+}

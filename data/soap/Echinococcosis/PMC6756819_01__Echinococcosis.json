@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6756819_01",
+  "pair_id": "PMC6756819_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 3 years old girl born from non-consanguineous parents, without any neonatal suffering; with good psychomotor development, from a popular district in one of our cities, without any obvious contact with dogs; presented with exophthalmia associated with unilateral blindness evolving rapidly within 3 months. Clinical examination showed a non-pulsatile, painless, axial, irreducible exophthalmia with no sign of conjunctivitis or keratitis, and right monocular blindness, right ptosis; and fundal examination had objectified right papillary oedema (Figure 1). The rest of the clinical examination was normal. Brain and orbital magnetic resonance imaging (MRI) revealed an extra-connal right orbital lesion near the orbital apex, measuring 28 x 18mm, of oval shape, it appeared hypo-signal in T1 and hyper-signal in T2, limited by a thin wall which took contrast product, this lesion compressed the optic nerve towards the nasal region (Figure 2). Chest x-ray and abdominal ultrasound did not reveal any other localization. The patient was operated by performing a right extra-dural frontal approach, a cyst puncture was done in the first intention because the cyst was adherent to the neighbouring structures making its complete removal impossible, then a microscopic extirpation of the cystic membrane, combined with abundant washing by hypertonic serum to sterilize the cystic sit and reduce chances of dissemination. Histological examination was in favour of intra-orbital hydatidosis. Postoperatively, the patient was given an antihelminthic treatment of albendazole at a dose of 10mg per kilogram per day in 3 doses separated by 2 weeks; the evolution was marked by the significant regression of the exophthalmia and the gradual improvement of the visual acuity. The patient however still retains a right unilateral nasal hemianopia after two years of follow-up (Figure 3). An MRI done in the same period shows a cure of the patient by a complete disappearance of the cyst (Figure 4).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 3-year-old girl presented with a 3-month history of rapidly progressive right exophthalmos and unilateral right blindness.",
+      "history_of_present_illness": "The child developed progressive right eye protrusion accompanied by complete loss of vision in the right eye over a 3-month period.",
+      "past_medical_history": "Born to non-consanguineous parents with normal perinatal and psychomotor development; lived in an urban working-class neighborhood without direct dog contact.",
+      "review_of_systems": "Positive for right eye protrusion and vision loss; negative for ocular pain."
+    },
+    "objective": {
+      "physical_examination": "Non-pulsatile, painless, axial, irreducible right exophthalmos with right upper eyelid ptosis, right monocular blindness, and right optic disc edema (papilledema) on funduscopy, without conjunctivitis or keratitis; systemic examination was normal.",
+      "routine_investigations": "Chest X-ray and abdominal ultrasound were normal.",
+      "advanced_workup": "Brain and orbital MRI revealed a 28 x 18 mm oval, thin-walled, peripherally enhancing extraconal cystic lesion near the right orbital apex (T1 hypointense, T2 hyperintense) compressing and displacing the right optic nerve nasally. Right extradural frontal craniotomy/orbitotomy with cyst puncture, microsurgical extirpation of the germinal/laminated membrane, and hypertonic saline irrigation was performed; histopathology confirmed intraorbital hydatidosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated extraconal right orbital apex hydatid cyst (28 x 18 mm) causing compressive optic neuropathy, confirmed by orbital MRI and postoperative histopathology. Following extradural frontal surgical evacuation and three cycles of oral albendazole (10 mg/kg/day separated by 2-week intervals), exophthalmos regressed and visual acuity partially recovered (with residual right nasal hemianopia), and 2-year follow-up MRI confirmed complete disappearance of the cyst."
+    }
+  }
+}

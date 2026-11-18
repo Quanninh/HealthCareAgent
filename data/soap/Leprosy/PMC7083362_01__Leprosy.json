@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7083362_01",
+  "pair_id": "PMC7083362_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Our patient was a 32-year-old male who lived his entire life in Malawi. He relocated to Johannesburg for a year and reported a 4-month history of non-tender nodules on the face and trunk which had affected him socially. He had several flesh-colored papules and nodules on the face, an enlarged and infiltrated nose, and nodules on the ears (Figure 1A). There were scaly plaques and few excoriations on the chest and the limbs. He had no prior history of leprosy, leprosy contact, or any treatment for leprosy. There was bilateral peripheral nerve involvement. Skin slit smears from both the ear lobes confirmed the diagnosis as multibacillary leprosy with a high bacterial index. Biopsy taken from a nodule showed proliferation of spindle cells arranged in an intertwining pattern. The lesional skin cells had indistinct cell borders and contained large amounts of leprosy bacilli. The histological picture of clinically normal-looking skin showed areas of spindle-shaped infiltrates. PAS, Warthin Starry, and a modified Ziehl-Neelsen stain highlighted numerous acid-fast bacilli (Figure 2). These findings confirmed the diagnosis of HL. The patient showed marked clinical improvement one year after MB-MDT (multibacillary multi-drug therapy) treatment which he is continuing (Figure 1B). He developed a type 1 leprosy reaction after 8 months of treatment. Leprosy treatment was continued, and systemic steroids were added to his regimen. The reaction resolved after 3 months of therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old Malawian male living in Johannesburg presented with a 4-month history of socially distressing, non-tender nodules on his face, ears, and trunk.",
+      "history_of_present_illness": "Having lived in Malawi his entire life before relocating to Johannesburg 1 year prior, the patient developed asymptomatic, non-tender nodules over his face, ears, and trunk 4 months before presentation.",
+      "past_medical_history": "Born and raised in Malawi; no prior history of leprosy diagnosis, treatment, or known contact.",
+      "review_of_systems": "Negative for lesional tenderness."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous and neurological examination revealed multiple flesh-colored papules and nodules over the face and bilateral ears, an enlarged infiltrated nose, scaly plaques and scattered excoriations on the chest and extremities, and bilateral peripheral nerve trunk involvement.",
+      "routine_investigations": null,
+      "advanced_workup": "Bilateral earlobe slit-skin smears and punch biopsies of both a cutaneous nodule and clinically normal-appearing skin were performed with H&E, PAS, Warthin-Starry, and modified Ziehl-Neelsen staining."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Earlobe slit-skin smears showed a high bacterial index and biopsies of both nodular and normal-appearing skin demonstrated intertwining spindle-shaped histiocytes with indistinct cell borders packed with numerous acid-fast bacilli highlighted on PAS, Warthin-Starry, and modified Ziehl-Neelsen stains, confirming multibacillary histoid leprosy (HL). He was treated with WHO multibacillary multidrug therapy (MB-MDT) with marked clinical regression at 1 year; an intercurrent Type 1 reversal reaction at 8 months of therapy resolved completely following a 3-month course of systemic corticosteroids."
+    }
+  }
+}

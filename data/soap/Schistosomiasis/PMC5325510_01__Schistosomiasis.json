@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5325510_01",
+  "pair_id": "PMC5325510_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 20-year-old Tunisian male patient with a past medical history of appendectomy and ileocecal Crohn's disease, presented with abdominal pain and vomiting. He was admitted to the gastroenterology department for clinical check-up. On physical examination, the patient was skinny and pale. Palpation of the left iliac fossa and hypogastrium was painful. He underwent ileocolonoscopy which showed an ulcerated and congested appearance of the upper rectum and sigmoid. Computed tomography scan showed a circumferential thickening of the terminal ileum with luminal stenosis and dilated intestine upstream (Figure 1). Several mesenteric lymphadenopathies were also identified. A fistula between abdominal cavity and skin was disclosed. Stage 2 bilateral sacro-iliitis was objectified on pelvic CT scan. Upper endoscopy was within normal limits. Histological examination of the biopsy specimens of the upper rectum and sigmoid revealed a focally ulcerated colonic epithelium. The lamina propria was fibrous harbouring a polymorphic inflammatory infiltrate including lymphocytes and plasma cells organized in lymphoid follicles admixed with eosinophils and neutrophils. In the submucosa, two well-preserved schistosoma eggs surrounded by a thick shell with a barely visible terminal spine were identified (Figure 2, Figure 3 and Figure 4). The final pathological diagnosis was colonic schistosomiasis associated with Crohn's disease. The patient underwent an ileocecal resection for stenosis of the terminal ileum complicated with enterocutaneous fistula. The postoperative course was uneventful. A stool examination and serology tests were planned for this patient who was lost to follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 20-year-old Tunisian man with ileocecal Crohn's disease presented with abdominal pain and vomiting.",
+      "history_of_present_illness": "The patient was admitted to the gastroenterology department for evaluation of abdominal pain and vomiting.",
+      "past_medical_history": "Past medical history of appendectomy and ileocecal Crohn's disease; from Tunisia.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Thin and pale on general appearance, with tenderness on palpation of the left iliac fossa and hypogastrium.",
+      "routine_investigations": null,
+      "advanced_workup": "Ileocolonoscopy showed ulcerated and congested mucosa in the upper rectum and sigmoid colon; upper GI endoscopy was normal. Abdominal and pelvic CT demonstrated circumferential terminal ileal thickening with luminal stenosis and upstream bowel dilation, multiple mesenteric lymphadenopathies, an enterocutaneous fistula between the abdominal cavity and skin, and stage 2 bilateral sacroiliitis. Histopathology of upper rectal and sigmoid mucosal biopsies revealed focal epithelial ulceration, a fibrous lamina propria with polymorphic inflammatory infiltrates (lymphoid follicles of lymphocytes and plasma cells admixed with eosinophils and neutrophils), and two well-preserved submucosal Schistosoma eggs with thick shells and barely visible terminal spines."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final pathological diagnosis was colonic schistosomiasis coexisting with ileocecal Crohn's disease complicated by terminal ileal stenosis and enterocutaneous fistula. He underwent ileocecal resection with an uneventful postoperative recovery; follow-up stool microscopy and Schistosoma serology were planned, but the patient was lost to follow-up."
+    }
+  }
+}

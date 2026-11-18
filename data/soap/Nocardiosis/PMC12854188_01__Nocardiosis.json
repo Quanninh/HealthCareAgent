@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12854188_01",
+  "pair_id": "PMC12854188_01::Nocardiosis",
+  "target_disease": "Nocardiosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Tuberculous pyomyositis is a rare and often underdiagnosed manifestation of extra pulmonary tuberculosis. A 56-year-old male with a known history of chronic inflammatory small joint polyarthritis for the past 3 years presented with complaints of progressively increasing painful subcutaneous swellings and abscesses over the left thoracic & lower back region with multiple ulcerating nodular lesions over the right forearm, palm, right thigh, and left elbow, associated with progressive proximal muscle weakness, low-grade fever with chills, and significant weight loss. CBNAAT testing of pus aspirated from an abscess was positive for Mycobacterium tuberculosis, sensitive to rifampicin. A skin biopsy showed non-necrotizing granulomatous inflammation. LPA from an abscess confirmed rifampicin-sensitive Mycobacterium tuberculosis, and HRZE therapy was initiated. Patient was not on steroids or other immunosuppressive drugs (on ATT for disseminated TB). \n Significant laboratory parameters- CBC: Hb: 8.3 g/dL; TLC: 15000cells/uL; DLC (N/L/M): 87/5/7; Platelets: 272000/ uL; ESR: 95 mm/hr (0-15); LDH: 95 U/L(0-247U/l).\n To better delineate the disease burden and activity, 18F-FDG PET/CT) was performed which revealed disseminated tuberculous pyomyositis involving multiple muscle groups (Figure 1). \n PET scan was advised in this scenario for assessment of disease extent, the stage of disease and activity to guide therapy along with sites to go for biopsy/ pus cultures- as the patient was on regular ATT but not responding or showing signs of improvement. To the best of the author's knowledge, this represents a rare presentation of disseminated TB pyomyositis involving various muscles groups throughout the body.\n During the course of hospitalization, patient was on ATT and also started on prophylactic antibiotics, following which pus cultures, aerobic cultures, KOH mount and modified ZN staining for nocardia were all found to be negative. Pus culture was positive for mycobacterium tuberculosis with no rifampicin resistance detected.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 56-year-old male presented with progressively enlarging painful subcutaneous swellings and abscesses over the left thorax and lower back, multiple ulcerating nodular lesions on the extremities, progressive proximal muscle weakness, low-grade fever with chills, and weight loss.",
+      "history_of_present_illness": "The patient developed progressively increasing painful subcutaneous swellings and abscesses over the left thoracic and lower back regions alongside ulcerating nodular lesions over the right forearm, palm, right thigh, and left elbow, accompanied by proximal muscle weakness, low-grade fever with chills, and significant weight loss despite regular anti-tubercular therapy.",
+      "past_medical_history": "3-year history of chronic inflammatory small-joint polyarthritis; currently on anti-tubercular therapy (ATT) for disseminated tuberculosis; not on corticosteroids or other immunosuppressive drugs.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Multiple painful subcutaneous swellings and abscesses over the left thoracic and lower back regions, multiple ulcerating nodular lesions over the right forearm, palm, right thigh, and left elbow, and proximal muscle weakness.",
+      "routine_investigations": "CBC showed Hb 8.3 g/dL, total leukocyte count 15,000 cells/uL (differential N/L/M: 87%/5%/7%), and platelets 272,000/uL; ESR was 95 mm/hr (reference: 0-15) and LDH was 95 U/L (reference: 0-247 U/L).",
+      "advanced_workup": "18F-FDG PET/CT demonstrated disseminated hypermetabolic myositis/pyomyositis involving multiple muscle groups throughout the body. Skin biopsy showed non-necrotizing granulomatous inflammation. Routine aerobic pus cultures, KOH mount, and modified Ziehl-Neelsen staining for Nocardia were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Disseminated tuberculous pyomyositis caused by rifampicin-sensitive Mycobacterium tuberculosis (with Nocardia and fungal infection excluded) was confirmed via positive CBNAAT, line probe assay (LPA), and mycobacterial culture of aspirated abscess pus. The patient was treated with four-drug anti-tubercular therapy (HRZE) alongside prophylactic broad-spectrum antibiotics."
+    }
+  }
+}

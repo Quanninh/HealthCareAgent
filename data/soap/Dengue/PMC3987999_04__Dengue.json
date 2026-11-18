@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3987999_04",
+  "pair_id": "PMC3987999_04::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "Clinical data: A 41-year-old female patient reporting fever for 2 days, weakness, fainting, sweating, yellow discharge, epigastric and abdominal pain. Laboratory workup demonstrated hematocrit of 48% and leukocytosis. Ultrasound showed fluid in the abdominal cavity. Patient died with a clinical diagnosis of dengue hemorrhagic fever causing an acute pulmonary edema (causa mortis).\n Necropsy data: The autopsy revealed a presence of tracheal hyperemia, externally reddish wall of the duodenum, esophageal mucosa with irregular dark wall, pulmonary edema, bilateral pleural effusion, hypertrophic cardiomyopathy and yellowish brown myocardium, mild retroperitoneal hemorrhage, visceral polycongestion, ascites, yellowish hepatic parenchyma and spleen with diffluent parenchyma.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old female presented with a 2-day history of fever, weakness, fainting, sweating, yellow vaginal discharge, and epigastric and abdominal pain.",
+      "history_of_present_illness": "The patient presented with 2 days of acute fever, generalized weakness, syncope/fainting, diaphoresis, yellow discharge, and epigastric/abdominal pain, and rapidly deteriorated with acute pulmonary edema.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, weakness, fainting, sweating, yellow discharge, and epigastric/abdominal pain."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Hematocrit 48% and leukocytosis; abdominal ultrasound demonstrated free fluid in the abdominal cavity (ascites).",
+      "advanced_workup": "Autopsy (necropsy) revealed tracheal hyperemia, reddish duodenal wall, dark irregular esophageal mucosa, acute pulmonary edema, bilateral pleural effusion, ascites, mild retroperitoneal hemorrhage, hypertrophic cardiomyopathy with yellowish-brown myocardium, visceral polycongestion, yellowish hepatic parenchyma, and diffluent splenic parenchyma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Fatal dengue hemorrhagic fever complicated by plasma leakage (ascites, bilateral pleural effusions, hematocrit 48%), retroperitoneal hemorrhage, and acute pulmonary edema (cause of death) on a background of hypertrophic cardiomyopathy, confirmed by clinical and necropsy findings."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6415467_02",
+  "pair_id": "PMC6415467_02::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The baby was carefully monitored despite remaining healthy. No fever or rash was observed. The child's urine samples were negative for ZIKV RT-PCR (collected 7 times between December 12, 2017 and January 5, 2018) despite ingesting breast milk with detectable ZIKV RNA. Blood samples for Zika IgG and IgM serology testing on January 5 and 30, 2018 were negative. Parents were also tested for anti-Zika IgG and IgM drawn on December 26, 2017, showing IgG positive and IgM negative for both. We noted that the absence of ZIKV infection to the baby could possibly be due to antibody against ZIKV in the breast milk and that the baby at the time of the study is 10 months old, with more local gastrointestinal immunity than perhaps days-old infant.\nThere has been limited evidence to confirm ZIKV transmission through breastfeeding and early post-partum cases of infants infected with ZIKV were most likely via transplacental or during delivery. Our study demonstrates that breast milk contains the ZIKV RNA by RT-PCR consistent with other previous case reports. In our study, breast milk does not appear to be infectious to the baby through breastfeeding, even though it was daily fed to baby for 11 days. In cases where infants were infected with ZIKV, no developmental sequelae or permanent deficit demonstrated at 30 months. Therefore, breastfeeding should be encouraged despite suspicion or confirmed maternal infection. Variables which may affect viral transmission through breastfeeding such as immune status, milk conditioning, viral load, and the presence of viable ZIKV need to be investigated to ensure validity of the recommendation. As of now, ZIKV transmission via the gastrointestinal system is not observed. Limitations to this study include the fact that baby's serum was not tested by RT-PCR; however, we believe that serological assays and urine RT-PCR provide adequate sensitivity for detection of ZIKV.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-month-old breastfed infant in Bangkok, Thailand, was evaluated for potential Zika virus exposure after ingesting maternal breast milk containing detectable Zika virus RNA for 11 days during acute maternal Zika virus infection.",
+      "history_of_present_illness": "The infant had been breastfed daily for 11 days during the mother's acute Zika virus infection (until December 12, 2017, when maternal Zika virus testing returned positive and breastfeeding was discontinued). Despite ingesting breast milk with detectable Zika virus RNA, the infant remained completely healthy and asymptomatic throughout follow-up.",
+      "past_medical_history": "Born via uncomplicated vaginal delivery in February 2017 with normal growth and development; exclusively breastfed since birth. Both parents had confirmed Zika virus infection in December 2017.",
+      "review_of_systems": "Negative for fever, rash, or any systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Clinically well and healthy infant; no fever, cutaneous rash, or developmental abnormalities observed during serial monitoring.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Uninfected breastfed infant following exposure to Zika virus RNA-positive maternal breast milk (no lactational ZIKV transmission). Seven serial infant urine samples collected between December 12, 2017, and January 5, 2018, tested negative for ZIKV RNA by real-time RT-PCR, and infant serum samples collected on January 5 and January 30, 2018, were negative for anti-Zika IgM and IgG antibodies by ELISA (whereas both parents tested positive for anti-Zika IgG and negative for IgM on December 26, 2017). The infant required no treatment and remained healthy under clinical observation."
+    }
+  }
+}

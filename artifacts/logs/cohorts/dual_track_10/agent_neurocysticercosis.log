@@ -1,0 +1,478 @@
+================================================================================
+CLINICAL CLAIM ANNOTATION RUN LOG: NEUROCYSTICERCOSIS
+MultiCaRe Clinical Gold Standard — new_disease_pool
+Timestamp: 2026-11-10T03:45:57Z
+================================================================================
+
+1. RUN CONFIGURATION & METADATA
+--------------------------------------------------------------------------------
+Target Disease        : Neurocysticercosis
+Disease Slug          : neurocysticercosis
+Annotation Pool       : new_disease_pool
+Input File            : input/input_neurocysticercosis.jsonl
+Output File           : output/output_neurocysticercosis.jsonl
+Total Candidate Pairs : 138
+Protocol              : 12-Step Gold Standard Clinical Claim Protocol (04_gold_standard_annotation_protocol.md)
+Evidence Specificity  : Disease Evidence Matrix (03_evidence_specificity_matrix.md Sec 5)
+
+2. EXECUTION & STATISTICAL AUDIT SUMMARY
+--------------------------------------------------------------------------------
+Total Candidates Input     : 138
+Total Candidates Evaluated : 138
+Validation Status          : PASSED (100% exact verbatim character offsets verified)
+VPD Criteria Satisfied     : 54 / 138 (39.1%)
+
+Decision Distribution:
+  - POSITIVE                    :   54 ( 39.1%)
+  - NEGATIVE                    :   53 ( 38.4%)
+  - EXCLUDED_NON_TARGET_CASE    :   27 ( 19.6%)
+  - EXCLUDED_NON_CASE_REPORT    :    2 (  1.4%)
+  - INCONCLUSIVE_DATA           :    2 (  1.4%)
+
+Evidence Strength Distribution:
+  - E2_HIGHLY_SPECIFIC                :   31 ( 22.5%)
+  - E1_DEFINITIVE                     :   29 ( 21.0%)
+  - NONE                              :   27 ( 19.6%)
+  - E0_CONTRADICTED                   :   26 ( 18.8%)
+  - E1_CONFIRMATORY                   :   13 (  9.4%)
+  - E4_CONTEXT                        :   11 (  8.0%)
+  - E3_SUPPORTIVE                     :    1 (  0.7%)
+
+Clinical Role Distribution:
+  - PRIMARY_DIAGNOSIS               :   57 ( 41.3%)
+  - RULED_OUT_DIAGNOSIS             :   46 ( 33.3%)
+  - NOT_APPLICABLE                  :   23 ( 16.7%)
+  - COMORBIDITY                     :    4 (  2.9%)
+  - PAST_HISTORY                    :    2 (  1.4%)
+  - INCIDENTAL                      :    2 (  1.4%)
+  - DIFFERENTIAL                    :    2 (  1.4%)
+  - BACKGROUND_CONTEXT              :    1 (  0.7%)
+  - NON_TARGET_CONDITION            :    1 (  0.7%)
+
+Quality & Confidence Audit:
+  - Confidence HIGH            :  138 (100.0%)
+Failure Flags Assigned:
+  - F6_EVIDENCE_SPECIFICITY     :    9
+  - F4_ASSERTION_TEMPORAL       :    7
+  - F2_SCOPE_COHORT             :    1
+
+3. PER-CASE CLINICAL TRACE & EVIDENCE AUDIT
+--------------------------------------------------------------------------------
+[001/138] Case: PMC9937515_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 24-year-old female presenting with recurrent tonic-clonic seizures and altered sensorium. Brain CT and MRI demonstrated ring-enhancing lesions in the left temporal and parietal lobes with perifocal edema, consistent with cysticercal encephalitis. Treated successfully with albendazole and anti-epileptic therapy.
+      Evidence [1]: [1011:1215] "Further evaluation with a non-contrast computed tomography (CT) head shows a ring-enhan..." -> Brain CT (POSITIVE)
+[002/138] Case: PMC4363670_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 46-year-old HIV-infected male evaluated for ring-enhancing brain lesions and adrenal mass. Serology for Taenia solium was negative, and adrenal mass aspirate confirmed Nocardia spp., establishing disseminated nocardiosis and ruling out neurocysticercosis.
+      Evidence [1]: [2062:2171] "Blood, urine, and stool cultural exams were negative, as well as Schistosoma spp. and T..." -> Taenia solium serology (NEGATIVE)
+[003/138] Case: PMC3985368_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 38-year-old female presenting with progressive pseudobulbar palsy and partial seizures. Brain MRI demonstrated pathognomonic multiple small cysts with visible scolex in both cerebral hemispheres and a giant intraparenchymal cyst. Serology was positive and symptoms responded to albendazole.
+      Evidence [1]: [1055:1249] "The MRI brain showed multiple small cysts with scolex in both the cerebral hemispheres ..." -> Brain MRI (POSITIVE)
+[004/138] Case: PMC10197005_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 26-year-old female presenting with left oculomotor nerve palsy. Brain CT and MRI demonstrated midbrain and frontal ring-enhancing nodular calcified lesions consistent with NCC. Enzyme-linked immunoelectrotransfer blot (EITB) for anticysticercal antibodies was positive, and she recovered on albendazole and praziquantel.
+      Evidence [1]: [1917:2056] "Due to these findings, enzyme-linked immunoelectrotransfer blot (EITB) for anticysticer..." -> Anticysticercal EITB Western blot (POSITIVE)
+[005/138] Case: PMC2876252_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 24-year-old male presenting with acute obstructive hydrocephalus due to a third ventricular cyst. Surgical excision of the cyst was performed; histopathology confirmed the larval cestode with outer cuticle, suckers, and rostellum containing hooklets.
+      Evidence [1]: [1788:1944] "The cyst contains larval stage of parasite showing gut and scolex with muscular suckers..." -> Histopathology of brain cyst (POSITIVE)
+[006/138] Case: PMC3892021_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 64-year-old male presenting with acute hydrocephalus and lower extremity weakness. Thoraco-lumbar spine MRI demonstrated multiple contrast-enhancing intraspinal cysts extending C7 to S1. Surgical resection confirmed cysticercosis cyst walls on histopathology, and albendazole was administered.
+      Evidence [1]: [1730:1871] "Subsequent pathological findings showed fibrosis, local calcification, and chronic infl..." -> Histopathology of intraspinal cyst (POSITIVE)
+[007/138] Case: PMC4766808_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 39-year-old male presenting with headaches and papilledema. Brain MRI demonstrated multiple nonenhancing cystic lesions in basal cisterns and ventricles characteristic of racemose NCC. CSF cysticercus antibody ELISA was positive, and prolonged albendazole therapy led to complete radiographic resolution.
+      Evidence [1]: [1920:2118] "CSF cysticercus antibody ELISA testing was positive, and a diagnosis of racemose NCC wa..." -> CSF cysticercus antibody ELISA (POSITIVE)
+[008/138] Case: PMC3644770_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 40-year-old male presenting with visual loss and brain lesions. Infectious etiologies including cysticercosis and tuberculosis were considered. Brain biopsy revealed necrotizing granulomatous inflammation with acid-fast bacilli and positive M. tuberculosis culture, excluding cysticercosis.
+      Evidence [1]: [1359:1525] "possibility of an infiltrative optic neuropathy due to an infectious (tuberculosis, cys..." -> Differential Diagnosis Evaluation (RULED_OUT)
+[009/138] Case: PMC3843905_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 39-year-old male presenting with a unilateral free-floating vitreous cyst. Serology for cysticercosis was explicitly tested and negative, ruling out ocular and neurocysticercosis.
+      Evidence [1]: [1175:1280] "Blood serology tests were negative for Toxoplasma gondii, Toxocara canis, cysticercosis..." -> Blood cysticercosis serology (NEGATIVE)
+[010/138] Case: PMC3843905_02 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 78-year-old male evaluated for a floating vitreous cyst. Blood serology tests for cysticercosis were negative, ruling out cysticercosis.
+      Evidence [1]: [1397:1502] "Blood serology tests were negative for Toxoplasma gondii, Toxocara canis, cysticercosis..." -> Blood cysticercosis serology (NEGATIVE)
+[011/138] Case: PMC3479938_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 14-year-old male with a posterior vitreous cyst. Blood serology for cysticercosis was normal/negative, and brain magnetic resonance showed no pathological findings.
+      Evidence [1]: [389:632] "The clinical assessment comprised a physical examination, blood tests, including a hemo..." -> Serology for cysticercosis (NEGATIVE)
+[012/138] Case: PMC5551286_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 34-year-old male presenting with new-onset seizures and a fronto-temporal multilobulated cystic lesion. Serum cysticercosis IgG was positive, and surgical neuropathology confirmed racemose neurocysticercosis with microtriches and calcareous corpuscles.
+      Evidence [1]: [4336:4428] "Neuropathology was consistent with neurocysticercosis in racemose cyst formation [Figur..." -> Neuropathology of resected brain cyst (POSITIVE)
+[013/138] Case: PMC4005085_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 13-year-old girl with solitary cysticercosis of the parotid gland diagnosed by FNAC. There is no central nervous system or intracranial involvement, representing an extracranial soft-tissue non-target condition.
+      Evidence [1]: [942:997] "A diagnosis of cysticercosis of parotid gland was made." -> FNAC of parotid gland (POSITIVE_EXTRACRANIAL)
+[014/138] Case: PMC7461937_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 51-year-old male with multiple sclerosis presenting with deterioration. Neurocysticercosis was evaluated in the differential diagnosis, but negative CSF analysis and serology explicitly argued against and ruled out neurocysticercosis.
+      Evidence [1]: [5142:5250] "The negative results of the CSF analysis and serology argued against a neurocysticercos..." -> CSF analysis and serology (NEGATIVE)
+[015/138] Case: PMC4386114_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 38-year-old male with stroke secondary to invasive fungal sinusitis (mucormycosis). Neurocysticercosis was considered in the differential diagnosis of CSF eosinophilic pleocytosis but ruled out, as biopsy confirmed Rhizopus fungal infection.
+      Evidence [1]: [3635:4046] "Parasitic infections such as strongyloidiasis or neurocysticercosis may give a similar ..." -> Differential Diagnosis Evaluation (RULED_OUT)
+[016/138] Case: PMC2636042_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: An 18-year-old female presenting with diplopia and globe retraction due to isolated medial rectus extraocular muscle cysticercosis. There was no intracranial or central nervous system involvement.
+      Evidence [1]: [597:785] "Ultrasound B-scan [Fig. 2] showed a grossly thickened medial rectus muscle with a cysti..." -> Orbital Ultrasound B-scan (POSITIVE_EXTRAOCULAR)
+[017/138] Case: PMC3579054_01 | Decision: NEGATIVE                 | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 47-year-old male presenting with seizures and neurological deterioration found to have Glioblastoma Multiforme (GBM). Neurocysticercosis was a remote past infection 2 years prior that was treated and healed, not the active diagnosis.
+      Evidence [1]: [236:414] "His medical history revealed that he had NC 2 years back [Figure 1a and b], for which h..." -> Past medical history review (HISTORICAL_RESOLVED)
+[018/138] Case: PMC5437806_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 6-year-old female presenting with neck stiffness. Cervical spine MRI revealed a well-defined intramedullary cystic lesion at C4-C6 with an intracystic hypointense target-like scolex, meeting absolute diagnostic criteria for neurocysticercosis. Serum Ag-ELISA was positive and she resolved completely on albendazole.
+      Evidence [1]: [490:798] "Noncontrast MRI of the neck showed a well-defined intramedullary cystic lesion at C4-C6..." -> Cervical spine MRI (POSITIVE)
+[019/138] Case: PMC6542305_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 32-year-old female presenting with a left supraclavicular mass diagnosed as subcutaneous cysticercosis on fine-needle aspiration. There was no neurological symptom or central nervous system involvement.
+      Evidence [1]: [1172:1276] "A diagnosis of subcutaneous cysticercosis was made, and medication/excision of the swel..." -> FNAC of supraclavicular mass (POSITIVE_SUBCUTANEOUS)
+[020/138] Case: PMC7778187_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 45-year-old male with a retroperitoneal paraaortic mass found to be pseudotumoral schistosomiasis. Infectious serology for Taenia solium IgG was negative.
+      Evidence [1]: [2629:2830] "Ag HBs; Ac HBc T; HIV 1 + 2; Toxoplasma gondii; Entamoeba histolytica; Echinococcus gra..." -> Taenia solium IgG serology (NEGATIVE)
+[021/138] Case: PMC8075734_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: BACKGROUND_CONTEXT       | Quotes: 1
+      Rationale: An institutional report describing the design and implementation of postgraduate educational health programs at Lurio University in Mozambique. Not a clinical case report of an individual human patient.
+      Evidence [1]: [0:119] "The disease profile which is dominated by infectious and neglected tropical diseases is..." -> Epidemiological literature review (NON_CLINICAL)
+[022/138] Case: PMC5619110_01 | Decision: NEGATIVE                 | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 67-year-old female presenting with frontotemporal dementia. Neurocysticercosis was diagnosed in childhood (56 years earlier) and is currently represented solely by inactive, non-viable calcified parenchymal scars on CT without active disease.
+      Evidence [1]: [1179:1384] "The patient presented radiographic signs of calcified NCC on CT Scan (Figure 1). The pr..." -> Brain CT (INACTIVE_CALCIFIED)
+[023/138] Case: PMC5880229_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 63-year-old male with ALK-rearranged NSCLC presenting with cystic brain lesions. Neurocysticercosis was considered in the differential diagnosis; CSF ELISA, fundoscopy, and Western blot were all negative, and lesions responded to ceritinib.
+      Evidence [1]: [1889:2081] "The patient underwent investigation for neurocysticercosis with cerebrospinal fluid enz..." -> CSF ELISA and Western blot for NCC (NEGATIVE)
+[024/138] Case: PMC6770300_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 64-year-old female post-allogeneic HSCT developing cerebellar cystic lesions with edema. Diagnosis of definitive neurocysticercosis was established based on Del Brutto revised criteria (suggestive multicystic lesions, household contact, clinical presentation, and documented resolution after albendazole).
+      Evidence [1]: [3205:3544] "we applied the revised diagnostic criteria for Taenia solium infection and discovered t..." -> Del Brutto revised diagnostic criteria evaluation (POSITIVE)
+[025/138] Case: PMC7700053_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 35-year-old male presenting with first-onset seizure and a ring-enhancing temporal lobe lesion. Brain biopsy tissue subjected to PCR testing targeting the pTsol9 repeat element and sequencing confirmed Taenia solium DNA, with subsequent cure on albendazole.
+      Evidence [1]: [4549:4825] "A Taenia solium-specific PCR targeting the pTsol9 repeat element based on a previous pa..." -> Taenia solium-specific PCR on brain biopsy (POSITIVE)
+[026/138] Case: PMC7476686_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 78-year-old male presenting with a right trapezius neck mass. MRI raised a differential diagnosis of neurocysticercosis versus fibromatosis; open biopsy and histology confirmed fibromatosis, excluding cysticercosis.
+      Evidence [1]: [2051:2132] "MRI again was reported with a differential of neurocysticercosis or fibromatosis." -> MRI of neck / differential workup (RULED_OUT)
+[027/138] Case: PMC10417011_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: An 8-year-old female presenting with severe hypereosinophilia and stroke diagnosed with eosinophilic granulomatosis with polyangiitis (EGPA). Blood serology to exclude Taenia solium was negative.
+      Evidence [1]: [2773:2960] "Serology of the blood was performed to exclude parasitic diseases (toxoplasma, toxocara..." -> Parasitic blood serology (NEGATIVE)
+[028/138] Case: PMC8299116_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 33-year-old male presenting with seizures and multiple intracranial masses. While cysticercosis IgG ELISA was positive due to known cestode serological cross-reactivity, metagenomic NGS of CSF detected 161 reads of Echinococcus multilocularis, proving Alveolar Echinococcosis and ruling out NCC.
+      Evidence [1]: [724:886] "Serological evaluation of multiple parasite antigen by ELISA were applied. Cysticercosi..." -> Cysticercosis IgG ELISA (CROSS_REACTIVE_FALSE_POSITIVE)
+[029/138] Case: PMC4502331_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 22-year-old female presenting with severe rhabdomyolysis and idiopathic eosinophilic polymyositis. Taenia solium was noted in the differential discussion as clinically unlikely given absence of neurological symptoms.
+      Evidence [1]: [4302:4473] "While Toxoplasma and Taenia solium were not specifically tested for by serology, our pa..." -> Clinical differential assessment (RULED_OUT)
+[030/138] Case: PMC5885427_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 19-year-old primigravida presenting with postpartum seizures and passage of a tapeworm. Head CT planned to evaluate for suspected neurocysticercosis revealed bilateral occipital hypodensities diagnosing PRES, excluding NCC.
+      Evidence [1]: [1482:1684] "Computed tomography (CT) scan was planned keeping the diagnosis of neurocysticercosis i..." -> Brain CT (NEGATIVE_FOR_NCC_CONFIRMED_PRES)
+[031/138] Case: PMC5885427_02 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: NON_TARGET_CONDITION     | Quotes: 1
+      Rationale: Case 2 in a two-case series: An 18-year-old female presenting with eclamptic seizures and posterior reversible encephalopathy syndrome (PRES). Neurocysticercosis is not diagnosed or evaluated for this patient.
+      Evidence [1]: [1400:1490] "CT head revealed hypodensities in bilateral parietal and frontal lobes suggestive of PRES." -> Head CT (PRES_ONLY)
+[032/138] Case: PMC7395467_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 36-year-old female presenting with headaches, vertigo, and hydrocephalus. Surgical resection of the fourth ventricular mass was performed; gross and pathological examination confirmed a mature Taenia solium larva encased in a cystic membrane.
+      Evidence [1]: [2151:2278] "demonstrated a mature T. solium plerocercoid larvae measuring 1.2 x 0.5 x 0.2 cm encase..." -> Pathological examination of resected ventricular mass (POSITIVE)
+[033/138] Case: PMC10321581_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 42-year-old male presenting following trauma. Contrast-enhanced brain MRI revealed multiple ring lesions with enhancing protoscolex representing pathognomonic neurocysticercosis, in conjunction with concomitant subretinal cysticerci. Treated with albendazole and dexamethasone.
+      Evidence [1]: [1175:1310] "The classical imaging findings of multiple cysts with scolex on the MRI head are an abs..." -> Brain MRI (POSITIVE)
+[034/138] Case: PMC5248410_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 31-year-old male presenting with headache and anxiety. Brain MRI revealed multiple T2-hyperintense parenchymal lesions across bilateral hemispheres and cerebellum with edema and calcification. Serum cysticercosis IgG antibody was positive (2.05), and symptoms resolved on albendazole and steroids.
+      Evidence [1]: [3015:3097] "His cysticercosis antibody IgG serum (EIA) level was 2.05 (reference value <0.90)." -> Serum cysticercosis IgG EIA (POSITIVE)
+[035/138] Case: PMC3228381_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 24-year-old male with leukoencephalopathy, cerebral calcifications, and pontine cyst (LCC). Cysticercosis serology was negative, and cyst biopsy confirmed LCC pathology (Rosenthal fibers and eosinophilic granular bodies), excluding cysticercosis.
+      Evidence [1]: [1175:1222] "Serologic study for cysticercosis was negative." -> Cysticercosis serology (NEGATIVE)
+[036/138] Case: PMC3992755_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 23-year-old male presenting with seizures and multiple ring-enhancing brain lesions. Serology at autopsy was negative for cysticercosis; postmortem brain examination confirmed tuberculous thrombophlebitis with acid-fast bacilli.
+      Evidence [1]: [3443:3527] "IgG/IgM antibody to Mycobacterium tuberculosis, Toxoplasma gondii and Cysticercosis." -> Autopsy cysticercosis serology (NEGATIVE)
+[037/138] Case: PMC3992755_02 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 30-year-old male presenting with seizures and ring-enhancing brain lesions. Cysticercosis was considered in the differential diagnosis and tested negative on serology at autopsy; tuberculous thrombophlebitis was confirmed.
+      Evidence [1]: [3318:3363] "negative for cysticercosis and toxoplasmosis." -> Serology for cysticercosis (NEGATIVE)
+[038/138] Case: PMC5340051_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 35-year-old male presenting with endophthalmitis and cystic-enhancing cerebral lesions. Neurocysticercosis was considered in differential diagnosis; brain biopsy confirmed Nocardia multiloculated abscess, ruling out NCC.
+      Evidence [1]: [1735:1921] "Magnetic resonance imaging (MRI) of the brain [Figure 1a and b] showed multiple cystic-..." -> Brain MRI differential evaluation (RULED_OUT)
+[039/138] Case: PMC3857263_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 32-year-old male with isolated ocular subretinal/subchoroidal cysticercosis with scolices confirmed on ultrasound and histology following trans-scleral excision. There was no central nervous system or intracranial involvement.
+      Evidence [1]: [3007:3075] "The suggested histologic diagnosis was that of ocular cysticercosis." -> Ocular B-scan ultrasound (POSITIVE_OCULAR)
+[040/138] Case: PMC5405365_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 39-year-old female presenting with a subconjunctival cystic lesion after retinal detachment surgery. Cysticercosis was listed in differential diagnosis; echography proved migrated silicone oil from previous surgery, ruling out cysticercosis.
+      Evidence [1]: [513:715] "In the upper nasal quadrant a dome shaped lesion was detected, which arose with a diffe..." -> Clinical and echographic differential diagnosis (RULED_OUT)
+[041/138] Case: PMC6744808_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 58-year-old female presenting with progressive paraplegia and sensory disturbance due to thoracic spinal cord compression. MRI showed multiple intradural extramedullary cysts at T4-T6 and T9-T11. Resection of cysts was performed and histopathology confirmed spinal neurocysticercosis; treated postoperatively with albendazole and corticosteroids.
+      Evidence [1]: [1080:1141] "The histopathological report confirmed spinal NCC [Figure 3]." -> Histopathology of resected spinal cysts (POSITIVE)
+[042/138] Case: PMC10332771_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 24-year-old male immigrant from Central America presenting with recurrent tonic-clonic seizures. Brain CT and MRI demonstrated multiple cystic lesions with ring enhancement, surrounding vasogenic edema, and peripheral calcification, consistent with degenerative-phase neurocysticercosis. Successfully treated with albendazole and praziquantel.
+      Evidence [1]: [2924:3011] "multiple cystic lesions, one with surrounding vasogenic edema in the left frontal lobe." -> Brain CT / MRI (POSITIVE)
+[043/138] Case: PMC3425270_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 30-year-old female presenting with a tongue mass diagnosed as lingual cysticercosis on surgical histopathology. Brain CT was explicitly performed and confirmed the absence of neurocysticercosis.
+      Evidence [1]: [691:792] "The histopathological examination revealed cysticercosis cellulosae in tongue musculatu..." -> Histopathology of tongue mass (POSITIVE_LINGUAL)
+[044/138] Case: PMC9894641_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 28-year-old male with skeletal muscle cysticercosis of the calf confirmed on surgical excision and histopathology showing Taenia solium. There was no central nervous system or intracranial involvement.
+      Evidence [1]: [1347:1376] "consistent with Taenia solium" -> Histopathology of calf muscle lesion (POSITIVE_MUSCULAR)
+[045/138] Case: PMC10408627_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 22-year-old female presenting with generalized seizures and headaches. Head CT demonstrated a 2.3 x 2.1 x 3 cm intracerebral cyst in the right frontal lobe with a calcified nodule and surrounding brain edema, consistent with neurocysticercosis.
+      Evidence [1]: [182:290] "an intracerebral cyst of middle size (2.3 x 2.1 x 3 cm) was identified in the right fro..." -> Head CT (POSITIVE)
+[046/138] Case: PMC5832162_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 60-year-old male presenting with expressive aphasia and nonconvulsive status epilepticus. Neurocysticercosis antibodies in the diagnostic encephalopathy panel were negative, and patient was confirmed to have Creutzfeldt-Jakob Disease (CJD).
+      Evidence [1]: [7185:7259] "neurocysticercosis antibodies, and an autoimmune and paraneoplastic panel." -> CSF neurocysticercosis antibody test (NEGATIVE)
+[047/138] Case: PMC5629842_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 51-year-old male presenting with acute intracranial hypertension and fourth ventricular dilatation. Rigid endoscopic exploration of the fourth ventricle revealed and completely excised a neurocysticercosis cyst, restoring CSF flow, followed by standard albendazole therapy.
+      Evidence [1]: [2567:2702] "Just as soon as the endoscope passed through to the fourth ventricle, a cystic lesion w..." -> Endoscopic surgical visualization and excision (POSITIVE)
+[048/138] Case: PMC6974620_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 46-year-old male evaluated for a spinal inflammatory mass. Testing for neurocysticercosis antibody was negative; diagnosis of spinal syphilitic gumma was confirmed by positive TPPA and RPR with cure on penicillin.
+      Evidence [1]: [1886:1955] "tuberculosis antibody, neurocysticercosis antibody, and tumor marker." -> Neurocysticercosis antibody serology (NEGATIVE)
+[049/138] Case: PMC6344156_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 49-year-old female evaluated for chronic eosinophilic pneumonia. Infectious disease serologies including cysticercosis were negative, confirming drug/radiation-induced eosinophilic pneumonia.
+      Evidence [1]: [1776:1829] "cysticercosis, and trichinella spiralis was negative." -> Cysticercosis serology (NEGATIVE)
+[050/138] Case: PMC5180433_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 17-year-old male presenting with papilledema and hydrocephalus. Brain CISS-sequence MRI demonstrated a ring lesion with an eccentric scolex in the fourth ventricle with subsequent migration into the third and lateral ventricles; successfully treated with albendazole and endoscopic removal.
+      Evidence [1]: [883:1073] "A ring lesion with an eccentric scolex in the fourth ventricle with no evidence of post..." -> Brain MRI CISS sequence (POSITIVE)
+[051/138] Case: PMC8030538_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 46-year-old male diagnosed with isolated intramuscular cysticercosis of the left biceps muscle on high-resolution ultrasonography. There was no central nervous system or intracranial involvement.
+      Evidence [1]: [944:1104] "The patient was diagnosed with isolated intramuscular cysticercosis and subsequently un..." -> High-resolution ultrasonography of biceps (POSITIVE_INTRAMUSCULAR)
+[052/138] Case: PMC5820875_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 30-year-old male presenting with back pain and lower limb weakness. Spine MRI revealed an intramedullary ring-enhancing lesion with extensive cord edema at D11. CSF nucleic acid amplification test was positive for anti-cysticercal antibodies, confirming spinal neurocysticercosis; follow-up MRI showed marked reduction of lesion and cord edema on albendazole.
+      Evidence [1]: [1093:1270] "Diagnostic cerebrospinal fluid analysis by nucleic acid amplification test was positive..." -> CSF nucleic acid amplification test for anti-cysticercal antibodies (POSITIVE)
+[053/138] Case: PMC8247672_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 44-year-old female presenting with a spinal intramedullary mass confirmed as Candida albicans abscess. Serology for cysticercosis was non-reactive, ruling out neurocysticercosis.
+      Evidence [1]: [913:1012] "cysticercosis, human immunodeficiency virus (HIV), and human T-lymphotropic virus were ..." -> Serology for cysticercosis (NOT_REACTIVE)
+[054/138] Case: PMC9425879_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 38-year-old female presenting with bilateral blind eyes due to intraocular echinococcosis. Cysticercosis ELISA IgG was negative (0.2), ruling out cysticercosis.
+      Evidence [1]: [3662:3707] "cysticercosis ELISA IgG negative value of 0.2" -> Cysticercosis ELISA IgG (NEGATIVE)
+[055/138] Case: PMC5366764_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: An 11-year-old male initially empirically treated for presumed ocular cysticercosis of the medial rectus muscle. Excision biopsy and histopathological examination revealed an intramuscular cavernous hemangioma, ruling out cysticercosis.
+      Evidence [1]: [2353:2445] "The histopathological examination revealed an intramuscular cavernous hemangioma (Figur..." -> Histopathological examination of excised mass (RULED_OUT_CYSTICERCOSIS)
+[056/138] Case: PMC3037856_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 6-year-old male immigrant presenting with prolonged focal motor seizures. Brain MRI showed two cystic lesions in the lentiform nucleus and frontoparietal lobe. Western blot assay detected specific anti-cysticercal antibodies; treated with albendazole and dexamethasone with complete lesion calcification and seizure freedom.
+      Evidence [1]: [1797:1995] "Western blot assay detected specific antibodies against cysticercus (LDBIO DIAGNOSTICS,..." -> Western blot assay for cysticercus antibodies (POSITIVE)
+[057/138] Case: PMC3644790_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 62-year-old female presenting with reversible dementia and gait disturbance. Brain MRI showed conglomerate cystic lesions in the sylvian fissure, basal cisterns, and 3rd ventricle characteristic of racemose NCC. NCC serology by ELISA was positive in both serum (1:1600) and CSF (1:80), with clinical recovery after shunting and steroids.
+      Evidence [1]: [1968:2105] "NCC serology (ELISA for IgG antibodies) in serum and cerebrospinal fluid (CSF) was posi..." -> NCC IgG ELISA in serum and CSF (POSITIVE)
+[058/138] Case: PMC8710892_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 23-year-old female presenting with mania and seizures. Brain MRI demonstrated multiple T2-hyperintense parenchymal cystic lesions in both cerebral and cerebellar hemispheres, some showing eccentric nodules pathognomonic for vesicular neurocysticercosis; responded to albendazole and steroids.
+      Evidence [1]: [2710:2866] "Some of the lesions were showing eccentric nodules. No post-contrast enhancement was se..." -> Brain MRI (POSITIVE)
+[059/138] Case: PMC6194729_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 36-year-old female presenting with headaches, papilledema, and hydrocephalus caused by a mobile 4th ventricle cyst. Microsurgical resection was performed; histopathology confirmed a Taenia solium larva in its vesicular stage.
+      Evidence [1]: [2016:2144] "The pathology report confirmed the cyst to be a T. solium larva in its vesicular stage ..." -> Histopathology of fourth ventricular cyst (POSITIVE)
+[060/138] Case: PMC7294177_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 26-year-old male with hydrocephalus who initially had a VP shunt placed for suspected neurocysticercosis without clinical response. CSF fungal culture and galactomannan confirmed Aspergillus terreus chronic meningitis and mycotic aneurysm, excluding neurocysticercosis.
+      Evidence [1]: [316:467] "A ventriculoperitoneal shunt was installed for suspicion of neurocysticercosis. Even th..." -> Clinical and diagnostic evaluation (RULED_OUT)
+[061/138] Case: PMC8497165_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 13-year-old boy presenting with diminution of vision and redness in the left eye due to an anterior chamber live worm identified as Taenia solium. Non-contrast CT of the head and orbit was completely normal, confirming isolated ocular cysticercosis without CNS or neurocysticercosis involvement.
+      Evidence [1]: [1798:1935] "The patient was also advised for non-contrast-enhanced computerized tomography (NECT) o..." -> NECT head and orbit (NEGATIVE)
+[062/138] Case: PMC5618997_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 63-year-old woman evaluated for gait disorder, cognitive decline, and urinary incontinence with a long-standing history of neurocysticercosis. Brain MRI revealed multiple cysts in the Sylvian fissure resembling a bunch of grapes characteristic of racemose neurocysticercosis, which improved with shunt placement and anti-parasitic/corticosteroid therapy.
+      Evidence [1]: [3520:3690] "There were multiple cysts in the right Sylvian fissure, without scolex, and peripheral ..." -> Brain MRI (POSITIVE)
+[063/138] Case: PMC7749933_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 45-year-old woman presenting with severe headaches and bitemporal hemianopia due to a sellar/suprasellar cyst. Resection biopsy revealed parasitic cuticle with mononuclear reaction, and postoperative LLGP-EITB was positive, confirming neurocysticercosis.
+      Evidence [1]: [1309:1668] "Histological examination revealed a parasitic wall characterized by wavy, dense cuticle..." -> Histopathology & LLGP-EITB (POSITIVE)
+[064/138] Case: PMC9687096_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 37-year-old woman presenting with progressive bilateral lower extremity weakness found to have a ring-enhancing intramedullary spinal cord lesion at T8. Resection and pathology confirmed neurocysticercosis, and she improved following albendazole and dexamethasone therapy.
+      Evidence [1]: [2596:2683] "The preliminary pathological report returned as neurocysticercosis (shown in Figure 3)." -> Spinal lesion histopathology (POSITIVE)
+[065/138] Case: PMC6661782_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 30-year-old male presenting with new-onset seizures and brain masses on MRI evaluated for infectious etiologies including cysticercosis. Cysticercosis serology was negative, and repeat surgical pathology along with antigen testing confirmed Cryptococcus.
+      Evidence [1]: [1754:1971] "Numerous laboratory examinations, including HIV, rapid plasma reagin, toxoplasma immuno..." -> Cysticercosis serology (NEGATIVE)
+[066/138] Case: PMC3593513_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 60-year-old woman presenting with a right supraclavicular mass diagnosed as racemose cysticercosis upon excision and histopathology. No central nervous system involvement or neurological symptoms were present, representing isolated extracranial soft tissue cysticercosis.
+      Evidence [1]: [2076:2189] "Based on the above findings of gross and microscopic examination, a diagnosis of racemo..." -> Excisional biopsy histopathology (POSITIVE)
+[067/138] Case: PMC4247968_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 21-year-old male with an ocular adnexal mass below the inner corner of the left eye. Excisional biopsy confirmed cysticercus cellulosae with scolex. There were no neurological symptoms or central nervous system lesions.
+      Evidence [1]: [791:863] "The histopathological features confirmed the diagnosis of cysticercosis." -> Excision biopsy histopathology (POSITIVE)
+[068/138] Case: PMC9168334_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 76-year-old male with multiple myeloma presenting with altered mental status and brain ring-enhancing lesions with eccentric target signs. The differential diagnosis included neurocysticercosis, but the lesions were pathognomonic for cerebral toxoplasmosis.
+      Evidence [1]: [763:959] "The clinical and radiographic differential also included primary central nervous system..." -> Brain MRI differential (NEGATIVE)
+[069/138] Case: PMC3407613_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 27-year-old male presenting with a subcutaneous back swelling. Excisional biopsy confirmed subcutaneous cysticercosis cellulosae. There was no central nervous system or neurological involvement.
+      Evidence [1]: [1152:1209] "A final diagnosis of subcutaneous cysticercosis was made." -> Histopathological examination (POSITIVE)
+[070/138] Case: PMC4535012_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: COMORBIDITY              | Quotes: 1
+      Rationale: A 65-year-old man presenting with generalized weakness, subcutaneous nodules, and pulmonary densities. Brain and chest CT revealed multiple nodular and small calcified densities, and biopsies of subcutaneous and pulmonary nodules confirmed cysticercosis, establishing disseminated cysticercosis with neurocysticercosis comorbidity.
+      Evidence [1]: [1819:1938] "A computed tomographic scan of the brain and chest revealed multiple nodular and small ..." -> Brain and chest CT (POSITIVE)
+[071/138] Case: PMC9052233_02 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 10-year-old female presenting with refractory status epilepticus. Comprehensive diagnostic workup including CSF cysticercosis antibodies was negative, and trio whole exome sequencing identified a de novo pathogenic CACNA1A variant.
+      Evidence [1]: [4820:5358] "Extensive diagnostic workup was pursued throughout the patient's course of treatment. T..." -> CSF cysticercosis antibodies (NEGATIVE)
+[072/138] Case: PMC2822248_01 | Decision: NEGATIVE                 | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 51-year-old woman admitted with severe hemolytic anemia and arsenic poisoning resulting from prolonged ingestion of traditional Chinese medicines. Her neurocysticercosis diagnosis occurred 12 years prior and was not the active condition evaluated during this admission.
+      Evidence [1]: [275:389] "Twelve years before the admission, she had been diagnosed as neurocysticercosis with in..." -> Past clinical diagnosis (POSITIVE)
+[073/138] Case: PMC9550306_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 20-year-old female presenting with generalized tonic-clonic seizures and multiple ring-enhancing brain lesions evaluated for tuberculoma vs neurocysticercosis. Histopathology demonstrated necrotizing granulomas compatible with tuberculosis, and follow-up MRI confirmed resolution on anti-tuberculosis therapy.
+      Evidence [1]: [2583:2736] "Two months after the onset of anti-tuberculosis therapy, follow-up cranial MRI showed n..." -> Follow-up cranial MRI (NEGATIVE)
+[074/138] Case: PMC3863824_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 5-year-old boy presenting with a subcutaneous chest wall swelling confirmed as cysticercus cellulosae by excision biopsy. CT scan of the head was unremarkable, confirming absence of neurocysticercosis.
+      Evidence [1]: [764:827] "CT scan head and ophthalmic examination were were unremarkable." -> Head CT scan (NEGATIVE)
+[075/138] Case: PMC3863824_04 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 12-year-old girl with an abdominal wall subcutaneous cyst confirmed as cysticercosis. Brain imaging did not reveal any foci of neurocysticercosis.
+      Evidence [1]: [502:586] "Further investigations did not reveal any foci of cysticercosis in the brain or eye." -> Brain and eye investigations (NEGATIVE)
+[076/138] Case: PMC8720477_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 39-year-old woman presenting with severe headaches and gait ataxia due to a fourth ventricle cyst with an enhancing scolex causing obstructive hydrocephalus. Surgical resection and histological analysis confirmed neurocysticercosis.
+      Evidence [1]: [1647:1683] "Histological analysis confirmed NCC." -> Surgical histopathology (POSITIVE)
+[077/138] Case: PMC9053524_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 29-year-old woman presenting with acute hydrocephalus due to a free-floating intraventricular cyst and occipital parenchymal calcification. Diagnosis was confirmed by serological tests detecting Taenia solium antigen and antibodies in CSF and serum.
+      Evidence [1]: [1274:1415] "Meanwhile the diagnosis of NC was confirmed by serological tests detecting Taenia soliu..." -> ELISA antigen & antibody assay (POSITIVE)
+[078/138] Case: PMC3173917_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 10-year-old female presenting with spastic paraplegia due to an intramedullary thoracic spinal cord cystic lesion at D3-D4. CSF ELISA was positive for anti-T. solium IgG, and she made a complete recovery following antihelminthic and corticosteroid therapy.
+      Evidence [1]: [1196:1410] "CSF examination done revealed elevated protein and normal glucose levels with increased..." -> CSF ELISA anti-T. solium IgG (POSITIVE)
+[079/138] Case: PMC3579065_03 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: Patient treated surgically for an intracranial cyst with histopathology demonstrating typical larvae of Taenia solium and collagenous cyst wall, followed by successful albendazole therapy with no recurrence on 2-year follow-up MRI.
+      Evidence [1]: [0:114] "Histopathology showed typical larvae of Taenia solium, collagenous cyst wall without su..." -> Histopathological examination (POSITIVE)
+[080/138] Case: PMC10424439_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 20-year-old male presenting with headache, vision loss, hemiparesis, and ring-enhancing brain lesions evaluated for neurocysticercosis. Biopsy and infectious studies were negative, and he was diagnosed with Neuro-Behcet syndrome based on recurrent ulcers and steroid responsiveness.
+      Evidence [1]: [2433:2602] "At this point, additional differential diagnoses were considered, including neurocystic..." -> Brain MRI differential (NEGATIVE)
+[081/138] Case: PMC3322801_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A teenage girl presenting with severe headaches initially misdiagnosed as tension headaches who died from uncal herniation. Autopsy revealed obstructive hydrocephalus and an intact cysticercus compressing the inferior fourth ventricle, confirming fatal intraventricular neurocysticercosis.
+      Evidence [1]: [465:661] "Examination of the brain showed obstructive hydrocephalus, bilateral uncal herniation, ..." -> Autopsy brain examination (POSITIVE)
+[082/138] Case: PMC3304237_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 33-year-old female with a lower lip mass diagnosed with labial cysticercosis upon excision. Brain MRI showed no evidence of cysticerci in the brain or eye, confirming isolated oral cysticercosis without central nervous system involvement.
+      Evidence [1]: [1096:1182] "Magnetic resonance imaging (MRI) showed no evidence of cysticerci in the brain or eye." -> Brain and ocular MRI (NEGATIVE)
+[083/138] Case: PMC4192926_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 71-year-old immunosuppressed male presenting with headache and a cerebellar ring-enhancing lesion evaluated for neurocysticercosis. Biopsy and culture demonstrated acid fast bacilli confirming cerebellar tuberculous abscess, and lesions regressed under anti-tuberculosis therapy.
+      Evidence [1]: [1160:1312] "Differential diagnosis included pyogenic abscess (bacterial or fungal), neurocysticerco..." -> Brain MRI differential (NEGATIVE)
+[084/138] Case: PMC10267758_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 42-year-old man presenting with acute hydrocephalus from an obstructive right lateral ventricle cyst with eccentric mural nodule. CSF ELISA demonstrated cysticercus antibodies, and endoscopic extraction confirmed a scolex on histopathology, establishing confirmed neurocysticercosis.
+      Evidence [1]: [2217:2467] "Based on the obtained histopathological results, we were able to confirm our preliminar..." -> Histopathological confirmation (POSITIVE)
+[085/138] Case: PMC8651557_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 43-year-old female presenting with repeated fever and space-occupying hepatic lesions evaluated with comprehensive parasite serologies. ELISA for cysticercosis IgG antibodies was negative, and liver biopsy/mNGS established hepatic fascioliasis/parasitic liver disease.
+      Evidence [1]: [2503:2714] "The serum parasite IgG antibody, including schistosome, paragonimiasis, cysticercosis, ..." -> Serum parasite ELISA panel (NEGATIVE)
+[086/138] Case: PMC7737448_01 | Decision: NEGATIVE                 | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 35-year-old male presenting with acute abdominal pain and a large left hypochondrium mass diagnosed as adrenal neuroblastoma. Neurocysticercosis is mentioned solely as a past medical history comorbidity under medication, with no active neurocysticercosis evaluated or diagnosed during this hospitalization.
+      Evidence [1]: [0:168] "A 35-year-old male with history of neurocysticercosis under medication presented to the..." -> Past medical history (POSITIVE)
+[087/138] Case: PMC9519849_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 25-year-old male presenting with headaches, diplopia, and a brainstem mass. Serum parasite ELISA testing was negative for cysticercosis but positive for Schistosoma japonicum, and rectal biopsy confirmed S. japonicum eggs, establishing cerebral schistosomiasis.
+      Evidence [1]: [1359:1572] "A blood sample enzyme-linked immunosorbent assay for parasite antibody IgG was positive..." -> Serum parasite ELISA panel (NEGATIVE)
+[088/138] Case: PMC8349265_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 57-year-old male presenting with a right parotid mass. FNA biopsy revealed a degenerated cestode structure in the parotid gland confirmed by CDC. No central nervous system involvement or neurological symptoms were present.
+      Evidence [1]: [689:824] "However, a single degenerated structure suspicious for the neck, scolex, and partial st..." -> Parotid FNA cytology (POSITIVE)
+[089/138] Case: PMC9873443_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 40-year-old male presenting with hemiparesis and multiple bilateral cystic brain lesions empirically treated for neurocysticercosis. Cysticercosis antibodies were negative, and craniotomy biopsy proved high-grade glioblastoma, ruling out neurocysticercosis.
+      Evidence [1]: [2775:2982] "Despite cysticercosis antibodies being tested negative, the patient was also initiated ..." -> Serum cysticercosis antibodies (NEGATIVE)
+[090/138] Case: PMC3206365_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: COMORBIDITY              | Quotes: 1
+      Rationale: A 49-year-old woman presenting with subarachnoid hemorrhage from a middle cerebral artery aneurysm. During surgical clipping, a 2-cm cyst was excised, and histopathology confirmed a whole cysticercus; postoperative CT showed multiple brain calcifications and Sylvian cysts, treated with albendazole.
+      Evidence [1]: [683:816] "Their histopathology proved to be a whole cysticercus (Figure 3(a)) and a broken aneury..." -> Surgical histopathology (POSITIVE)
+[091/138] Case: PMC3667463_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 42-year-old male presenting with seizures and headaches due to a third ventricular cystic lesion with an eccentric mural nodule (scolex) causing hydrocephalus. Follow-up imaging demonstrated cyst migration into the occipital horn of the lateral ventricle, and albendazole therapy led to complete resolution.
+      Evidence [1]: [1842:1932] "A diagnosis of third ventricular cysticercosis causing obstructive hydrocephalus was made." -> Brain MRI (POSITIVE)
+[092/138] Case: PMC3361783_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 31-year-old woman presenting with progressive memory loss and frontal lobe mass effect on MRI with elevated choline on MR spectroscopy. Neurocysticercosis is not mentioned, evaluated, or diagnosed in this case report.
+      Evidence [1]: [1855:1936] "Computerised tomography of the brain revealed mild left hemispheric mass effects." -> Brain CT scan (POSITIVE)
+[093/138] Case: PMC2729254_01 | Decision: NEGATIVE                 | Evidence: E1_DEFINITIVE        | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A patient with remote childhood neurocysticercosis presenting with an intraventricular cystic lesion. Neuroendoscopic surgery revealed an inactive intraventricular fibrotic cyst with explicit absence of active neurocysticercosis.
+      Evidence [1]: [409:593] "During the neurosurgery, an intraventricular fibrotic cyst was found and fenestrations ..." -> Neuroendoscopic inspection & pathology (NEGATIVE)
+[094/138] Case: PMC3271629_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 35-year-old man presenting with acute headache, giddiness, and WEMINO syndrome. Brain MRI demonstrated an absolute Del Brutto criterion of a cystic lesion with intracavitary scolex in the mid pons, resolving completely with albendazole and steroids.
+      Evidence [1]: [1079:1336] "MRI brain of the patient showed a typical well-defined cystic lesion with intracavitary..." -> Brain MRI (POSITIVE)
+[095/138] Case: PMC4237600_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 13-year-old girl presenting with drug-resistant epilepsy. Brain CT scan revealed multiple calcified and vesicular cysts in the brain parenchyma consistent with neurocysticercosis, which showed marked reduction in active cysts following one month of albendazole.
+      Evidence [1]: [448:603] "A Brain CT scan was ordered which revealed multiple calcified and vesicular cysts withi..." -> Brain CT scan (POSITIVE)
+[096/138] Case: PMC3263008_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 9-year-old girl presenting with focal partial seizures and a ring-enhancing frontal lobe lesion with surrounding edema. She responded to albendazole with reduction of edema, and stereotactic surgical resection confirmed a calcified necrotic parasite compatible with a degenerated solitary cysticercus granuloma.
+      Evidence [1]: [2766:2843] "The histological picture was suggestive of a necrotic parasite, unclassified." -> Surgical histopathology (POSITIVE)
+[097/138] Case: PMC3760210_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 4-year-old male presenting with a superficial abdominal wall mass. FNA cytology demonstrated a solitary detached hooklet of cysticercus confirming subcutaneous cysticercosis, and imaging techniques ruled out lesions at other sites including the CNS.
+      Evidence [1]: [1452:1541] "The patient also underwent imaging techniques, and lesions at other sites were ruled out." -> Diagnostic imaging screening (NEGATIVE)
+[098/138] Case: PMC6243367_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 26-year-old male presenting with ptosis, meningeal signs, and ring-enhancing brain lesions evaluated for neurocysticercosis. Cysticercosis IgG was negative, CSF PCR detected M. tuberculosis, and the lesions responded to antitubercular therapy, establishing CNS tuberculomas.
+      Evidence [1]: [773:869] "Cysticercosis immunoglobulin G level was found to be 0.9 ( >1.1 ng dl-1 is considered p..." -> Serum cysticercosis IgG assay (NEGATIVE)
+[099/138] Case: PMC8216685_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 51-year-old male presenting with gait instability, cognitive decline, and a cerebellar cyst on CT/MRI. Surgical biopsy demonstrated a cysticercus cyst, and he was diagnosed with racemose neurocysticercosis with cerebellar involvement and treated with albendazole and dexamethasone.
+      Evidence [1]: [2344:2510] "Due to the clinical deterioration of the patient and the lack of a clear diagnosis, a b..." -> Cyst biopsy histopathology (POSITIVE)
+[100/138] Case: PMC9125614_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: COMORBIDITY              | Quotes: 1
+      Rationale: A 37-year-old female presenting with acute psychosis and hallucinations with a documented collateral history of seizures and prior untreated neurocysticercosis. CT and MRI brain demonstrated characteristic irregular calcifications and encephalomalacia, confirming neurocysticercosis as a contributory comorbidity to secondary psychosis.
+      Evidence [1]: [1756:1898] "The CT brain indicated hypodense regions in the right frontal and parietal lobes, as we..." -> Brain CT scan (POSITIVE)
+[101/138] Case: PMC8202357_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 28-year-old male presenting with vision loss and temporal hemianopia due to a suprasellar cystic lesion. Surgical pterional craniotomy visualized the scolex in the cyst, and histopathology confirmed cysticercosis.
+      Evidence [1]: [1817:1896] "Histopathology report showed findings compatible with cysticercosis [Figure 3]." -> Surgical histopathology (POSITIVE)
+[102/138] Case: PMC6180882_01 | Decision: NEGATIVE                 | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A male patient with remote craniotomy for neurocysticercosis in Mexico presenting with bilateral parotid masses presumed to be cysticercosis. Parotid biopsy and excision confirmed bilateral Warthin tumors, with no active neurocysticercosis.
+      Evidence [1]: [152:330] "He had a history of neurocysticercosis, presumably owing to ingestion of uncooked pork ..." -> Remote past surgical history (POSITIVE)
+[103/138] Case: PMC4290584_01 | Decision: NEGATIVE                 | Evidence: NONE                 | Role: INCIDENTAL               | Quotes: 1
+      Rationale: A 60-year-old woman presenting with transient global amnesia due to an acute ischemic infarction of the left fornix. Head CT showed scattered intraparenchymal calcifications consistent with old inactive neurocysticercosis with no acute neurocysticercosis activity.
+      Evidence [1]: [2389:2533] "Head CT without IV contrast showed scattered intraparenchymal calcifications consistent..." -> Head CT without contrast (POSITIVE)
+[104/138] Case: PMC8492260_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A patient presenting with a right neck mass diagnosed as cysticercosis of the sternocleidomastoid muscle based on ultrasound and CT demonstrating a scolex in the muscle. There was no central nervous system involvement.
+      Evidence [1]: [1360:1517] "Based on the pathognomonic ultrasonographic and supportive CT scan findings, the diagno..." -> Neck ultrasound & CT (POSITIVE)
+[105/138] Case: PMC8406155_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: COMORBIDITY              | Quotes: 1
+      Rationale: A 30-year-old male admitted with refractory TTP who developed acute seizures during hospitalization with brain MRI findings suggestive of neurocysticercosis, treated successfully with albendazole and corticosteroids.
+      Evidence [1]: [325:453] "Through this admission, he developed a seizure with suggestive MRI of neurocysticercosi..." -> Brain MRI & treatment response (POSITIVE)
+[106/138] Case: PMC7154106_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 74-year-old male with life-long epilepsy historically assumed to be neurocysticercosis admitted with acute intracerebral hemorrhage. Dermatologic histopathology and brain vascular findings established blue rubber bleb nevus syndrome with cavernous-like vascular malformations, ruling out neurocysticercosis as the etiology.
+      Evidence [1]: [221:372] "He was diagnosed with structural epilepsy suspected to be secondary to intraparenchymal..." -> Prior clinical suspicion (NEGATIVE)
+[107/138] Case: PMC7154106_02 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 45-year-old male with a history of epilepsy previously diagnosed with CNS neurocysticercosis. Evaluation of skin lesions and brain MRI confirmed familial blue rubber bleb nevus syndrome with cerebral cavernous malformation-like lesions, ruling out neurocysticercosis.
+      Evidence [1]: [0:143] "The son of the previous patient (Case 1) was a 45-year-old male with a past medical his..." -> Prior diagnosis review (NEGATIVE)
+[108/138] Case: PMC10577654_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A patient evaluated for cysticercosis in whom brain CT, serum IgG ELISA, and stool examinations were performed, and neurocysticercosis was explicitly ruled out.
+      Evidence [1]: [1362:1479] "Stool examination, ELISA for serum antibodies (IgG) and CT scan brain was done, and neu..." -> Brain CT, serum ELISA IgG & stool examination (NEGATIVE)
+[109/138] Case: PMC10657981_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A veterinary post-mortem study of a ring-tailed lemur (Lemur catta) describing severe fatal cysticercosis caused by Taenia crassiceps. This is a non-human animal autopsy report.
+      Evidence [1]: [2929:2962] "crassiceps cysticerci (Figure 2)." -> Veterinary parasitological necropsy (POSITIVE)
+[110/138] Case: PMC10805999_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 4-year-old child presenting with seizures diagnosed with vesicular stage parenchymal neurocysticercosis on neuroimaging, treated successfully with albendazole and prednisolone.
+      Evidence [1]: [1759:1832] "She was diagnosed with vesicular stage of parenchymal neurocysticercosis." -> Clinical & neuroimaging diagnosis (POSITIVE)
+[111/138] Case: PMC10805999_02 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 7-year-old child presenting with focal seizures diagnosed with vesicular and calcified stages of parenchymal neurocysticercosis on neuroimaging, with ocular cysticercosis ruled out.
+      Evidence [1]: [1857:1946] "A diagnosis of vesicular and calcified stages of parenchymal neurocysticercosis was made." -> Clinical & neuroimaging diagnosis (POSITIVE)
+[112/138] Case: PMC11334117_01 | Decision: INCONCLUSIVE_DATA        | Evidence: E3_SUPPORTIVE        | Role: DIFFERENTIAL             | Quotes: 1
+      Rationale: A 45-year-old female presenting with severe headache, vomiting, and meningeal signs with brain MRI showing features suggestive of neurocysticercosis alongside tuberculous meningitis. The patient rapidly deteriorated and died of pulmonary embolism before neurocysticercosis could be diagnostically confirmed or ruled out.
+      Evidence [1]: [2864:2941] "Brain MRI also revealed features suggestive of neurocysticercosis (Figure 6)." -> Brain MRI (UNCERTAIN)
+[113/138] Case: PMC10481855_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A pathology educational quiz analyzing fine needle aspiration cytology of subcutaneous cysticercosis. The case focuses on subcutaneous cytology with no central nervous system evaluation or neurocysticercosis.
+      Evidence [1]: [1125:1176] "These features are characteristic of Cysticercosis." -> FNA cytology interpretation (POSITIVE)
+[114/138] Case: PMC10823322_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 42-year-old male presenting with chronic headaches, seizures, and hydrocephalus with CT and MRI demonstrating massive intraparenchymal vesicular cysts and meningeal racemose neurocysticercosis meeting Del Brutto absolute criteria.
+      Evidence [1]: [1929:2136] "Those suggested a massive neurocysticercosis lesions with intra parenchymatous vesicula..." -> Brain MRI & CT (POSITIVE)
+[115/138] Case: PMC10890801_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 15-year-old male presenting with a subcutaneous cyst over the right nasal bridge. Excision confirmed cysticercosis larvae with scolex. No neurological symptoms or central nervous system lesions were present.
+      Evidence [1]: [992:1212] "To our surprise, CECT revealed a hyperdense nidus approximately 10 x 9 mm in a hypodens..." -> Facial CECT scan (POSITIVE)
+[116/138] Case: PMC11098600_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 28-year-old female presenting with multiple brain lesions evaluated for neurocysticercosis. Diagnostic workup for neurocysticercosis was negative, and CSF 16S rRNA PCR confirmed Streptococcus intermedius bacterial brain abscesses.
+      Evidence [1]: [2932:3110] "The diagnostic workup was negative for Mycobacterium tuberculosis, toxoplasmosis, neuro..." -> Diagnostic infectious panel (NEGATIVE)
+[117/138] Case: PMC11085002_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 19-year-old male with an idiopathic pigmented vitreous cyst in the left eye. Serological testing definitively ruled out cysticercosis, and no central nervous system lesions were present.
+      Evidence [1]: [2684:2764] "The ultimate diagnosis indicated a primary (idiopathic) pigmented vitreous cyst." -> Ophthalmological examination (POSITIVE)
+[118/138] Case: PMC10946419_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: An HIV-positive patient presenting with brain calcifications and recurrent perilesional edema evaluated for neurocysticercosis. EITB transfer blot for cysticercosis was negative, and the lesions represented late reactive perilesional edema following treated cerebral toxoplasmosis.
+      Evidence [1]: [2334:2421] "Serum enzyme-linked immunoelectrodifusion transfer blot for cysticercosis was negative." -> Serum EITB for cysticercosis (NEGATIVE)
+[119/138] Case: PMC11225520_01 | Decision: INCONCLUSIVE_DATA        | Evidence: NONE                 | Role: DIFFERENTIAL             | Quotes: 1
+      Rationale: This text segment is a partial case presentation describing a 56-year-old male presenting with chronic headaches, pork consumption, and past VP shunt, but ends prior to any neuroimaging, laboratory workup, pathology, or diagnosis of neurocysticercosis.
+      Evidence [1]: [620:827] "The patient stated consuming medium-rare pork meat roughly 4 times a week. He had a his..." -> Clinical history & dietary exposure (UNCERTAIN)
+[120/138] Case: PMC11225520_02 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: Two patients presenting with hydrocephalus and ventricular masses on MRI. Microsurgical resection yielded specimens containing larvae and mummified dead larvae confirming intraventricular neurocysticercosis on histopathology, treated with albendazole.
+      Evidence [1]: [5809:5982] "Based on the histopathological results, the patients were diagnosed with intraventricul..." -> Histopathological confirmation (POSITIVE)
+[121/138] Case: PMC10860505_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 45-year-old female presenting with headaches and seizures found to have a multiloculated cystic lesion in the basal cisterns on brain MRI. Based on typical neuroimaging findings without scolex, a diagnosis of racemose neurocysticercosis was made.
+      Evidence [1]: [852:916] "Based on imaging findings, a diagnosis of racemose NCC was made." -> Brain MRI (POSITIVE)
+[122/138] Case: PMC10860505_02 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 10-year-old boy presenting with headaches, seizures, and visual disturbances due to a multiloculated cystic lesion in the pineal region extending into the third ventricle showing the classic cluster of grapes appearance pathognomonic for racemose neurocysticercosis.
+      Evidence [1]: [143:287] "MRI brain revealed a multiloculated cystic lesion in the pineal region extending into t..." -> Brain MRI (FIESTA) (POSITIVE)
+[123/138] Case: PMC10860505_03 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 37-year-old male presenting with frequent headaches and recurrent seizures. Brain MRI and FIESTA revealed multiseptated cystic dilatation of the extra-axial CSF spaces and basal cisterns characteristic of racemose neurocysticercosis.
+      Evidence [1]: [100:219] "MRI revealed dilatation of the extra-axial CSF spaces with septations along the inferio..." -> Brain MRI (FIESTA sequence) (POSITIVE)
+[124/138] Case: PMC10860505_04 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 56-year-old male presenting with seizures, ataxia, and dementia who failed empiric tuberculosis treatment. FIESTA MRI demonstrated thin septations in the dilated ambient cistern and Sylvian fissures strongly confirming racemose neurocysticercosis.
+      Evidence [1]: [671:838] "On FIESTA MRI (Figure 4C and D), the lesion showed thin septations in the ambient ciste..." -> Brain FIESTA MRI (POSITIVE)
+[125/138] Case: PMC11732291_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A female patient with a multiloculated cystic brain lesion evaluated for neurocysticercosis. Negative serology and absence of typical ring-enhancing features excluded neurocysticercosis, confirming dilated/ectatic Virchow-Robin spaces (VRS).
+      Evidence [1]: [3307:3453] "However, negative serology for cysticercosis, combined with the absence of typical feat..." -> Serological testing & brain MRI (NEGATIVE)
+[126/138] Case: PMC11799682_01 | Decision: NEGATIVE                 | Evidence: NONE                 | Role: INCIDENTAL               | Quotes: 1
+      Rationale: A 43-year-old male with remote neurocysticercosis treated 2.5 years prior presenting with cognitive decline and hemiparesis. Brain MRI and pathology demonstrated a collision tumor of high-grade glioblastoma and meningioma with old calcified granulomas, without active neurocysticercosis.
+      Evidence [1]: [455:664] "His medical history included an episode of NCC, treated 21/2 years back with albendazol..." -> Past medical history (POSITIVE)
+[127/138] Case: PMC11704981_01 | Decision: NEGATIVE                 | Evidence: NONE                 | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A female patient presenting with feigned quadriplegia and self-reported remote history of neurocysticercosis in Thailand. Extensive evaluations and unmasking of fabricated imaging reports confirmed Munchausen syndrome / factitious disorder, with no evidence of neurocysticercosis.
+      Evidence [1]: [974:1084] "Additionally, she reported being diagnosed with neurocysticercosis after a trip to Thai..." -> Patient self-reported history (NEGATIVE)
+[128/138] Case: PMC11748752_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 47-year-old male living with HIV found on screening to have extensive calcified neurocysticercosis. Multiple calcifications typical for neurocysticercosis were seen across cerebral parenchyma and cerebellum, with positive LDBIO cysticercosis IgG Western Blot.
+      Evidence [1]: [3958:4095] "Multiple calcifications typical for neurocysticercosis were seen in the cerebral parenc..." -> Brain CT scan (POSITIVE)
+[129/138] Case: PMC11834330_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A patient presenting with neurological manifestations found to have active-phase neurocysticercosis on cranial MRI concordant with positive Taenia solium serology, establishing confirmed neurocysticercosis.
+      Evidence [1]: [1528:1641] "Cranial magnetic resonance imaging was performed and showed findings consistent with ac..." -> Cranial MRI (POSITIVE)
+[130/138] Case: PMC12950211_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 49-year-old male immigrant from Guatemala presenting with seizures and multiple intracranial calcified and cystic lesions on CT and MRI. Despite negative serology, the diagnosis of neurocysticercosis was confirmed based on Del Brutto diagnostic criteria and clinical improvement on albendazole and levetiracetam.
+      Evidence [1]: [2423:2683] "Despite negative serology, a diagnosis of NCC was made based on the patient's clinical ..." -> Neuroimaging & Del Brutto criteria evaluation (POSITIVE)
+[131/138] Case: PMC12743525_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 24-year-old female presenting with headaches and focal seizures initially misdiagnosed with neurocysticercosis on outside MRI. CSF IgG for Taenia solium was negative, chest radiography demonstrated miliary infiltrates, and CBNAAT confirmed miliary tuberculosis with CNS tuberculomas.
+      Evidence [1]: [2410:2516] "Final diagnosis: Miliary tuberculosis with CNS tuberculomas, initially misdiagnosed as ..." -> Comprehensive diagnostic workup (NEGATIVE)
+[132/138] Case: PMC12743525_02 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 19-year-old female on anti-tubercular therapy presenting with paradoxical CNS tuberculomas. Neurocysticercosis is not mentioned, evaluated, or diagnosed in this case presentation.
+      Evidence [1]: [1493:1594] "Final diagnosis: Paradoxical CNS tuberculomas in a patient with PTB on ATT and pre-exis..." -> Clinical diagnostic evaluation (POSITIVE)
+[133/138] Case: PMC12743525_03 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 60-year-old male presenting with headache and confusion found to have CNS tuberculomas mimicking brain metastases, confirmed by choroidal tubercles on fundus examination. Neurocysticercosis is not mentioned or evaluated.
+      Evidence [1]: [1281:1351] "Final diagnosis: CNS tuberculomas mimicking multiple brain metastases." -> Clinical & neuroimaging evaluation (POSITIVE)
+[134/138] Case: PMC12743525_04 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 28-year-old female presenting with acute left-sided hemiparesis diagnosed with CNS tuberculoma and tuberculous meningitis positive for M. tuberculosis on CBNAAT. Neurocysticercosis is not mentioned or evaluated.
+      Evidence [1]: [1270:1363] "Final diagnosis: CNS tuberculoma with tuberculous meningitis mimicking acute ischemic s..." -> Clinical & CBNAAT evaluation (POSITIVE)
+[135/138] Case: PMC12743525_05 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 22-year-old male presenting with subacute memory loss diagnosed with a thalamic tuberculoma responding to anti-tubercular therapy. Neurocysticercosis is not mentioned or evaluated in this case.
+      Evidence [1]: [1699:1868] "Clinical pearl: In young patients with isolated subacute memory loss, CNS TB should be ..." -> Clinical diagnostic discussion (POSITIVE)
+[136/138] Case: PMC12743525_06 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: NONE                 | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: A 26-year-old female with epilepsy presenting with breakthrough seizures and fever diagnosed with multiple ring-enhancing tuberculomas and tuberculous meningitis. Neurocysticercosis is not mentioned or evaluated.
+      Evidence [1]: [1584:1706] "Final diagnosis: CNS tuberculomas with tuberculous meningitis presenting as recurrent s..." -> Clinical & MRI evaluation (POSITIVE)
+[137/138] Case: PMC12503968_01 | Decision: NEGATIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 34-year-old female with Fanconi anemia presenting with cognitive deficits and widespread intracranial calcifications considered for neurocysticercosis. Infectious workup was negative and lack of travel history ruled out neurocysticercosis, confirming primary/genetic intracranial calcifications.
+      Evidence [1]: [4244:4458] "Notably, imaging reports listed neurocysticercosis as a potential etiology for cerebral..." -> Infectious disease workup & epidemiological evaluation (NEGATIVE)
+[138/138] Case: PMC13006511_01 | Decision: POSITIVE                 | Evidence: E1_DEFINITIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 28-year-old male presenting with altered mental status and behavioral changes. Brain CT revealed a 3 mm cortical calcification with perilesional edema in the left frontal lobe consistent with calcified parenchymal neurocysticercosis, confirmed on follow-up MRI showing a solitary ring-enhancing lesion with central calcification.
+      Evidence [1]: [5196:5476] "As part of the routine workup for altered mental status, a CT Brain (Figure 1) was perf..." -> Brain CT scan (POSITIVE)
+
+================================================================================
+END OF LOG — ALL 138 PAIRS AUDITED, VERIFIED AND COMPLETE
+================================================================================

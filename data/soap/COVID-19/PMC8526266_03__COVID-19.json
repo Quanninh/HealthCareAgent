@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8526266_03",
+  "pair_id": "PMC8526266_03::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "The baby had an immature feeding pattern secondary to prematurity, but which resolved over time. She did not develop any other complications related to prematurity and was discharged home at 3 weeks of age in a relatively good condition.\nAnti-SARS-CoV-2 S antibodies were tested again at 6 weeks, 3 months, and 6 months of life. The titers were >250 U/mL at 6 weeks and 3 months of life; however, the titers decreased to >35 U/mL at 6 months of life (Table 1).\nAnti-SARS-CoV-2 S antibodies could be positive after vaccination or after infection, but anti-SARS-CoV-2 nucleocapsid (N) antibodies are specific to recent or past infection. SARS-CoV-2 nucleocapsid (N) antibodies were negative in the infant at 6 weeks, 3 months, and 6 months of age (Table 1). The negative results for the antibodies to nucleocapsid (N) antigen suggested that the immune response in the infant is attributed to maternal immunization rather than to a past infection in the mother or infant. This qualitative test was performed at the Mayo Clinic Laboratory using the Roche Elecsys Anti-SARS-CoV-2 Reagent assay from Roche Diagnostics using recombinant protein representing the nucleocapsid (N) antigen for the determination of antibodies against SARS-CoV-2.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A premature female neonate born to a mother immunized against SARS-CoV-2 during pregnancy was evaluated in the neonatal unit for prematurity and longitudinal transplacental SARS-CoV-2 antibody persistence.",
+      "history_of_present_illness": "Following preterm delivery, the neonate exhibited a transient immature feeding pattern related to prematurity that resolved prior to discharge at 3 weeks of age, and underwent serial outpatient serological follow-up at 6 weeks, 3 months, and 6 months of life.",
+      "past_medical_history": "Preterm birth; maternal antenatal SARS-CoV-2 vaccination without maternal or neonatal history of SARS-CoV-2 infection.",
+      "review_of_systems": "Positive only for transient neonatal immature feeding pattern; otherwise asymptomatic."
+    },
+    "objective": {
+      "physical_examination": "Clinically well preterm infant with transient immature feeding pattern that resolved by 3 weeks of age.",
+      "routine_investigations": "Longitudinal serum testing showed high maternally derived anti-SARS-CoV-2 Spike (S) antibody titers of >250 U/mL at 6 weeks and 3 months of life, declining to >35 U/mL at 6 months of life, while anti-SARS-CoV-2 nucleocapsid (N) antibodies (Roche Elecsys) remained persistently negative at 6 weeks, 3 months, and 6 months of age.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Passive transplacental transfer and 6-month persistence of maternal vaccine-induced anti-SARS-CoV-2 Spike antibodies in a preterm infant, with natural SARS-CoV-2 infection excluded by persistently negative anti-nucleocapsid (N) antibodies through 6 months of age. Discharged home in good condition at 3 weeks of age after resolution of prematurity-related feeding immaturity."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2642856_01",
+  "pair_id": "PMC2642856_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 19-year-old female undergraduate student presented to our hospital on 5 December, 2003, with complaints of high-grade fever of 9 days' duration; vomiting and abdominal pain of 5 days' duration; headache of 4 days' duration; as well as watery, non-mucous, non-bloody diarrhoea and a sore throat, with difficulty in swallowing, of 2 days' duration.\nOn examination, the patient was acutely ill looking, conscious and alert. Her temperature was 39.4 C; radial pulse was 110 bpm, with regular, normal volume; blood pressure was 100/60 mmHg in the supine position; and the respiratory rate was 22 cycles/minute. A throat examination showed exudative pharyngitis. Petechial haemorrhages, prolonged bleeding from venepuncture sites and nostrils, and bilateral hearing impairment were also noticed. Apart from mild epigastric tenderness, examination of the abdomen, chest- and central nervous systems was unremarkable.\nInvestigations showed packed cell volume of 33%; erythrocyte sedimentation rate (ESR) of 40 mm/hr (Westergreen); total white blood cell (WBC) count of 2,400 mm; neutrophil count of 30%, lymphocyte count of 70%; proteinuria(++); a throat-swab culture grew alpha haemolytic streptococci; and no malaria parasites were seen on a blood-smear examination.\nA clinical diagnosis of probable Lassa fever was made, considering the endemic nature of the disease in our environment. Blood samples were sent for definitive diagnosis. The results were positive for both Lassa virus-specific IgM and Lassa virus-specific reverse transcriptase polymerase chain reaction (RT-PCR), confirming the clinical diagnosis. The patient was admitted and treated with a 10-day course of ribavirin, in addition to other supportive measures. She recovered, but had progressively worsening hearing impairment. She was discharged 11 days after the admission by the physicians and referred to the Ear, Nose and Throat surgeons for management of the worsening hearing disability. A review of our patient showed that the pinnae and external auditory canal appeared normal, while the tympanic membrane was intact and bilaterally shiny. Tuning-fork tests (Rinne and Weber) were equivocal.\nA diagnosis of severe sensorineural hearing loss (SNHL) was confirmed with a pure-tone audiogram, revealing a hearing level in the left ear of 70 dB, in the right ear of 75 dB. Four years later, the patient's hearing was still significantly impaired, and currently she uses a hearing-aid.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 19-year-old female undergraduate student presented with a 9-day history of high-grade fever, 5 days of vomiting and abdominal pain, 4 days of headache, and 2 days of watery diarrhea, sore throat, and dysphagia.",
+      "history_of_present_illness": "The patient developed high-grade fever 9 days before admission on December 5, 2003, followed by vomiting and abdominal pain for 5 days, headache for 4 days, and non-mucous non-bloody watery diarrhea, sore throat, and odynophagia/dysphagia for 2 days.",
+      "past_medical_history": "Undergraduate student residing in a Lassa fever-endemic environment.",
+      "review_of_systems": "Positive for high-grade fever, vomiting, abdominal pain, headache, watery diarrhea, sore throat, dysphagia, mucosal/venipuncture bleeding, and bilateral hearing loss."
+    },
+    "objective": {
+      "physical_examination": "Acutely ill-looking, conscious, and alert; temperature 39.4 C, pulse 110 bpm (regular, normal volume), supine BP 100/60 mmHg, RR 22 cpm. Exudative pharyngitis, petechial hemorrhages, prolonged bleeding from venipuncture sites and nostrils, bilateral hearing impairment (normal pinnae/external canals, intact shiny tympanic membranes, equivocal Rinne and Weber tests), and mild epigastric tenderness; chest and CNS exams were normal.",
+      "routine_investigations": "Packed cell volume 33%, ESR 40 mm/hr (Westergren), leukopenia with WBC 2,400/mm3 (30% neutrophils, 70% lymphocytes), urinalysis showing proteinuria (++), and throat swab culture growing alpha-hemolytic streptococci. Pure-tone audiometry confirmed severe bilateral sensorineural hearing loss (70 dB left ear, 75 dB right ear).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Lassa fever complicated by severe permanent bilateral sensorineural hearing loss (SNHL). Malaria was ruled out by a negative peripheral blood smear, and Lassa fever was confirmed by positive Lassa virus-specific IgM and RT-PCR. Treated with a 10-day course of ribavirin and supportive therapy; discharged on day 11 and fitted with a hearing aid for persistent SNHL."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7395989_01",
+  "pair_id": "PMC7395989_01::Lymphatic_Filariasis",
+  "target_disease": "Lymphatic_Filariasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 0.0,
+  "raw_case_text": "A 51-year-old male was admitted with a complaint of milky urine and significant weight loss (10 kg) for over four months. On further assessment, neither lower urinary tract symptoms nor a contact history of tuberculosis was observed. The patient was cachectic with a body mass index of 20.2 kg/m2.\nMacroscopically, urine appeared milky in colours (Figure 1(a)), and the analysis demonstrated severe proteinuria and a high triacylglycerides level of 370 mg/dl (standard 1-10 mg/dl). Chloroform test for chyluria was positive, whereas filarial IgM and IgG antibodies were negative. Imaging studies of the urinary tract, which included an ultrasound scan (KUB) and CT-urography, revealed no abnormality. During diagnostic rigid cystoscopy and ureterorenoscopy, egress of milky urine from the left ureter was observed (Figure 2). The retrograde pyelogram, performed subsequently, demonstrated a left-sided lympho-urinary fistula at the level of the renal pelvis (Figure 3).\nInitially, he was managed with a low-fat diet and a trial of diethylcarbamazine 6 mg/kg/day for 21 days with an inadequate response. Persistent symptoms, despite initial management, encouraged us to change over to instillation therapy. 10 ml of 0.5% silver nitrate was instilled endoscopically to the left ureter via a 6 Fr ureteric catheter, and the procedure was repeated for another three cycles at 30 min intervals. Subsequently, bladder irrigation was continued for 12 hours, and cefuroxime was administered intravenously for three days. He had an uneventful recovery with complete clearance of urine over five days (Figure 1(b)) and was discharged later on a low-fat diet. On routine follow up at one month, his urine was completely clear (Figure 1(c)), and a 3 kg increase in body weight was also observed. Follow up was carried out for twenty-two months with no recurrence of symptoms.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old male presenting with a 4-month history of milky urine (chyluria) and a 10 kg unintentional weight loss.",
+      "history_of_present_illness": "The patient presented with persistent passage of milky-white urine and a 10 kg weight loss over the preceding 4 months without dysuria or other lower urinary tract symptoms.",
+      "past_medical_history": "Denied prior tuberculosis exposure.",
+      "review_of_systems": "Positive for milky urine and 10 kg weight loss; negative for lower urinary tract symptoms."
+    },
+    "objective": {
+      "physical_examination": "Cachectic appearance with a body mass index (BMI) of 20.2 kg/m2.",
+      "routine_investigations": "Urinalysis showed macroscopically milky urine, severe proteinuria, markedly elevated urinary triglycerides of 370 mg/dL (reference: 1-10 mg/dL), and a positive chloroform clearing test confirming chyluria. Serum filarial IgM and IgG antibodies were negative. Renal/bladder ultrasound (KUB) was normal.",
+      "advanced_workup": "CT urography was normal. Diagnostic rigid cystoscopy and ureterorenoscopy demonstrated milky chylous efflux from the left ureteric orifice, and retrograde pyelography confirmed a left pyelo-lymphatic fistula at the renal pelvis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Non-parasitic chyluria secondary to a left renal pelvic lympho-urinary fistula, confirmed by cystoscopy and retrograde pyelography with negative filarial IgM/IgG serology and refractory response to empirical antifilarial therapy.\nPlan & Outcome: After failing a low-fat diet and a 21-day empirical trial of oral diethylcarbamazine (6 mg/kg/day), the patient underwent endoscopic left ureteric instillation sclerotherapy with 10 mL of 0.5% silver nitrate (4 cycles at 30-minute intervals via a 6 Fr catheter), 12-hour bladder irrigation, and 3 days of IV cefuroxime. Chyluria resolved completely within 5 days, with a 3 kg weight gain at 1 month and no recurrence over 22 months of follow-up."
+    }
+  }
+}

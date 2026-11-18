@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8720477_01",
+  "pair_id": "PMC8720477_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 39-year-old woman from Cape Verde was referred to the emergency department with severe headaches triggered by head movements, gait ataxia, and vomiting. The clinical picture had a protracted course and had been worsening in the past few months. Neurological and laboratorial evaluation was unremarkable.\nThe brain magnetic resonance imaging (MRI) showed a fourth ventricle cyst, 2.6 x 1.8 cm (cephalocaudal x transverse axis) with an enhancing nodule compatible with a scolex and associated obstructive hydrocephalus [Figures 1 and 2]. She repeated the MRI for surgical planning with a T2-weighted sagittal sequence. In the second MRI, the cyst and its content showed a slightly distinct morphology and a different position in the fourth ventricle, suggesting a mobile behavior.\nWe devised a surgical approach to achieve both cyst removal and hydrocephalus treatment. The patient was placed in the prone position with the head supported by a three-point head holder. The fourth ventricle was accessed through a median suboccipital craniotomy and telovelar approach [Figure 3]. The cyst was identified and dissected from the ependyma, allowing for en bloc removal without rupture. The cerebrospinal fluid (CSF) flow was restored. We performed a watertight dural closure and a bone flap cranioplasty with a double-sided clamp system.\nThe postoperative period was uneventful and the patient was discharged to the ward from intensive care in the first 24 h. Postoperatively, she fully recovered from the presenting symptoms over 72 h. MRI showed complete cyst removal and no complications [Figure 4]. She was discharged home on day 7 after surgery. Histological analysis confirmed NCC.\nThe patient repeated an MRI at 1-, 6-, and 12-month follow-up with no signs of recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 39-year-old woman from Cape Verde presented to the emergency department with several months of progressively worsening severe headaches triggered by head movements, gait ataxia, and vomiting.",
+      "history_of_present_illness": "The patient experienced a protracted course of severe headaches precipitated by head position changes, accompanied by gait ataxia and vomiting that had progressively worsened over the preceding few months.",
+      "past_medical_history": "Originally from Cape Verde.",
+      "review_of_systems": "Positive for positional headache, gait ataxia, and vomiting."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination was unremarkable.",
+      "routine_investigations": "Routine laboratory evaluation was unremarkable.",
+      "advanced_workup": "Brain MRI revealed obstructive hydrocephalus and a 2.6 x 1.8 cm cyst in the fourth ventricle containing an enhancing mural nodule compatible with a scolex. A repeat T2-weighted sagittal planning MRI demonstrated a change in the morphology and position of the cyst within the fourth ventricle, indicating a mobile intraventricular cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient underwent median suboccipital craniotomy and telovelar microsurgical en bloc excision of the fourth-ventricular cyst without rupture, restoring physiological CSF flow without a shunt. Histopathological analysis confirmed fourth-ventricular neurocysticercosis. She recovered completely from her presenting symptoms within 72 hours, was discharged home on postoperative day 7, and had no hydrocephalus or cyst recurrence on 1-, 6-, and 12-month follow-up brain MRIs."
+    }
+  }
+}

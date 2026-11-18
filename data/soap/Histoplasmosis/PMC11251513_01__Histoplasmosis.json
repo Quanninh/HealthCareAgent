@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11251513_01",
+  "pair_id": "PMC11251513_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "This articles investigates the case of a 30-year-old Brazilian woman diagnosed with relapsing-remitting multiple sclerosis, receiving a daily dose of 0.5 mg of fingolimod, presented with a two-month history of fever and unintended weight loss. Common risk factors that lead to exposure to Histoplasma sp. as debris from old buildings, chicken coops, bird roosts, wood piles, and bat feces (cave exploration) were not identified. She had been using fingolimod for the past year, and her lymphocyte count was within the normal range (1.17 x 109/L). Laboratory testing revealed elevated levels of aspartate aminotransferase (180 U/L; normal < 31 U/L), alanine aminotransferase (264 U/L; normal < 31 U/L), alkaline phosphatase (327 U/L; reference range 35-104 U/L), gamma-glutamyl transferase (120 U/L; reference range 5-36 U/L), total bilirubin (0.93 mg/dL; reference range 0.2-1 mg/dL), and C-reactive protein level (7.2 mg/dL; normal < 0.5 mg/dL). Despite these aforementioned figure, no evidence of pancytopenia was found.\nAbdominal computed tomography revealed splenomegaly with small sparse hypoattenuating foci associated with retroperitoneal lymphadenopathy. Chest computed tomography scan showed micronodular disease, mediastinal lymphadenopathy, and a lung nodule (Figure 1A). Disseminated tuberculosis was the initial hypothesis, however, bronchoalveolar lavage fluid microscopy, culture, and nucleic acid amplification tests yielded negative results. Biopsy of the lung nodule demonstrated granulomatous chronic inflammation with necrosis and fungal structures suggestive of Histoplasma sp. (Figure 1B). Additionally, serum immunodiffusion was positive for Histoplasma capsulatum, with counterimmunoelectrophoresis (CIE) titers of 1/128.\nTreatment with itraconazole 400mg per day yielded excellent clinical, radiological, and serological improvement. Itraconazole was discontinued after 31 months of treatment, following normalization of CIE results. The disease-modifying drug was switched from fingolimod to natalizumab (anti-integrin therapy).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old Brazilian woman presented with a 2-month history of fever and unintended weight loss.",
+      "history_of_present_illness": "The patient, who had relapsing-remitting multiple sclerosis treated with fingolimod 0.5 mg daily for the preceding year, developed persistent fever and unintentional weight loss over 2 months.",
+      "past_medical_history": "Relapsing-remitting multiple sclerosis on fingolimod for 1 year. Epidemiological history: Resided in Brazil; denied exposure to old building debris, chicken coops, bird roosts, woodpiles, or caves/bat guano.",
+      "review_of_systems": "Positive for fever and unintended weight loss. Home medication: fingolimod 0.5 mg daily."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Labs: lymphocyte count 1.17 x 10^9/L (normal range), no pancytopenia, AST 180 U/L (normal <31 U/L), ALT 264 U/L (normal <31 U/L), ALP 327 U/L (reference 35-104 U/L), GGT 120 U/L (reference 5-36 U/L), total bilirubin 0.93 mg/dL (reference 0.2-1 mg/dL), CRP 7.2 mg/dL (normal <0.5 mg/dL).",
+      "advanced_workup": "Abdominal CT: splenomegaly with small sparse hypoattenuating foci and retroperitoneal lymphadenopathy. Chest CT: diffuse micronodular disease, mediastinal lymphadenopathy, and a pulmonary nodule. Bronchoalveolar lavage: negative microscopy, culture, and NAAT for tuberculosis. Lung nodule biopsy: chronic granulomatous inflammation with necrosis and fungal structures suggestive of Histoplasma sp."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated histoplasmosis in a patient with multiple sclerosis receiving fingolimod (disseminated tuberculosis ruled out). Confirmation: Lung nodule biopsy demonstrating necrotizing granulomatous inflammation with fungal structures suggestive of Histoplasma sp., and positive serum immunodiffusion and counterimmunoelectrophoresis (CIE titer 1:128) for Histoplasma capsulatum. Plan & clinical course: Treated with oral itraconazole 400 mg/day for 31 months until CIE serology normalized, achieving complete clinical, radiological, and serological recovery; multiple sclerosis therapy was switched from fingolimod to natalizumab."
+    }
+  }
+}

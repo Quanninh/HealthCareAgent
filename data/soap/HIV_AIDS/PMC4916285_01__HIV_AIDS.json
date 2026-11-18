@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4916285_01",
+  "pair_id": "PMC4916285_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The 80-year-old male patient complained of hoarseness and a stinging sensation in his throat for approximately six months and was then transferred to our clinic. The endoscopic larynx examination revealed a lesion that completely infiltrated the epiglottis and reached the right aryepiglottic fold. It was vegetating, pink and purple in color, multilobular, fragile, and shaped like a bunch of grapes and was covering the bleeding airway passage (Figure 1).\nBefore arriving at our clinic, a punch biopsy was done and suggested a diagnosis of Kaposi's sarcoma. The patient reported that he used to smoke approximately fifty packs of cigarettes per year but had not smoked in the last five years. He had no history of systemic disease or infection. Nothing was remarkable in routine blood analyses. ELISA tests for HIV-1, HBV, and HCV were negative. A positron emission tomography (PET-CT) showed that no other areas were affected. The case was discussed by our hospital's head-neck cancer committee and a surgery decision was made. A tracheotomy was performed under local anesthesia before the operation due to respiratory distress and endotracheal intubation difficulty. The direct laryngoscopy showed that the mass was limited in the supraglottic area, had invaded the entire left aryepiglottic fold and one-third of the front right aryepiglottic fold, and completely covered epiglottis. The laryngeal ventricle, vallecula, arytenoids, interarytenoid area, and glottic and subglottic areas were intact. The mass was found to be bleeding and fragile.\nAn epiglottectomy was conducted with a diode laser and partial resection was performed on the aryepiglottic folds (Figure 2).\nIn the histopathological examination of the mass, a tumoral mass consisting of fusiform cells under the surface epithelium was observed in preparations stained with hematoxylin-eosin (Figure 3). Some of the fusiform cells constituted slits and bundle structures involving erythrocytes (Figure 4). After staining the tumoral tissue with common CD31, the diagnosis of Kaposi's sarcoma was made and an apparent nuclear HHV-8 positivity was observed (Figures 5 and 6). When the pathological piece was analyzed, surgical borders were found to be positive. The patient was referred to the radiation oncology department for radiotherapy treatment (RT). The patient was disease-free after one year of follow-up and 33 RT sessions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 80-year-old male presented with a 6-month history of progressive hoarseness and a stinging sensation in his throat.",
+      "history_of_present_illness": "Over the 6 months preceding referral, the patient experienced persistent dysphonia and pharyngeal stinging, and an outside punch biopsy of a supraglottic laryngeal mass suggested Kaposi sarcoma.",
+      "past_medical_history": "No history of systemic disease or chronic infection; former heavy smoker (~50 pack-years, quit 5 years prior).",
+      "review_of_systems": "Positive for 6-month hoarseness, throat stinging, and acute airway/respiratory distress prior to surgery."
+    },
+    "objective": {
+      "physical_examination": "Endoscopic and direct laryngoscopy revealed a fragile, bleeding, multilobular, grape-bunch-like pink-to-purple vegetating mass completely infiltrating the epiglottis, the entire left aryepiglottic fold, and the anterior third of the right aryepiglottic fold, obstructing the supraglottic airway while sparing the vallecula, arytenoids, ventricles, glottis, and subglottis.",
+      "routine_investigations": "Routine blood tests were normal; ELISA serologies for HIV-1, HBV, and HCV were all negative.",
+      "advanced_workup": "Whole-body FDG PET-CT demonstrated isolated supraglottic laryngeal involvement without nodal or distant metastasis. Following awake local-anesthesia tracheotomy, diode laser epiglottectomy, and partial aryepiglottic fold resection, histopathology and immunohistochemistry demonstrated subepithelial sheets of spindle (fusiform) cells forming erythrocyte-filled vascular slits with strong CD31 positivity, nuclear HHV-8 positivity, and positive surgical margins."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary isolated supraglottic laryngeal HHV-8-positive Kaposi sarcoma in an HIV-negative, HBV/HCV-negative 80-year-old male (confirmed by CD31+ and nuclear HHV-8+ spindle-cell histopathology and staging PET-CT). Managed with preoperative tracheotomy, transoral diode laser epiglottectomy and partial aryepiglottic fold resection, and adjuvant external-beam radiotherapy (33 fractions) for positive microscopic surgical margins, achieving complete disease-free remission at 1-year follow-up."
+    }
+  }
+}

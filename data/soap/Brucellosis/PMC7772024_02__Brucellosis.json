@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7772024_02",
+  "pair_id": "PMC7772024_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 50-year-old man, with diagnosed alcoholic cirrhosis for the past decade, abstaining from alcohol since then, with no history of any cirrhotic complications, under no supportive treatment apart for regular follow-up, was admitted for protracted fever of two months' duration, accompanied by low backache, mild diarrhea, and abdominal distention. He had a history of splenectomy and was a shepherd. Significant ascites, accompanied by moderate pleural fluid effusion, was noted on clinical examination and subsequent imaging, the latter also demonstrating abdominal lymphadenopathy with partial central necrosis. Laboratory tests, compared to his latest follow-up, demonstrated only an increase in CRP and total and direct bilirubin. Blood cultures were positive for B. melitensis, a finding further confirmed by Rose Bengal plate agglutination, Wright seroagglutination test, and ELISA serology (Serion ELISA IgG/IgM/IgA antibodies to Brucella melitensis). The patient was treated with doxycycline 100 mg twice daily, rifampicin 600 mg daily, and ciprofloxacin 500 mg twice daily. Defervescence was achieved on day 5, accompanied though by progressive worsening of liver biochemistry indices and mild prolongation of international normalized ratio (INR) to levels of 1.34 (nv 0.8-1.2). Rifampicin dose was halved, and diuretics were added to treat ascites. Despite improvement/stabilization of other biochemical indices in later days, serum bilirubin continued to increase, reaching a plateau of total 7.2 mg/dl/direct 4.2 mg/dl and the patient was discharged, continuing treatment and follow-up as an outpatient on day 16. On day 41, the patient was readmitted with hepatic encephalopathy and jaundice. Hepatic biochemistry was steady, but total bilirubin was 16.7 mg/dl (direct bilirubin 13.6 mg/dl) and INR was 1.44. Ascites was minimal and subsequent workup excluded any underlying causes of encephalopathy. Antibiotics were discontinued as potential inducers of severe hepatotoxicity, and the patient was referred to a transplantation center due to the gradual worsening of liver function indices. He underwent liver transplantation which unfortunately had an adverse postoperative outcome.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old male shepherd with compensated alcoholic cirrhosis presented with a 2-month history of protracted fever, low backache, mild diarrhea, and abdominal distension.",
+      "history_of_present_illness": "A 50-year-old male shepherd with a 10-year history of compensated, abstinent alcoholic cirrhosis presented with 2 months of protracted fever, low back pain, mild diarrhea, and new-onset ascites.",
+      "past_medical_history": "Compensated alcoholic cirrhosis for 10 years (abstinent, no prior decompensation), prior splenectomy, and occupational exposure as a shepherd.",
+      "review_of_systems": "Positive for 2-month fever, low back pain, mild diarrhea, and abdominal distension; later developed progressive jaundice and hepatic encephalopathy."
+    },
+    "objective": {
+      "physical_examination": "Febrile with marked ascites and moderate pleural effusion; readmitted on day 41 with deep jaundice and hepatic encephalopathy.",
+      "routine_investigations": "Admission labs showed elevated CRP and elevated total and direct bilirubin. During triple anti-Brucella therapy, total/direct bilirubin rose to 7.2/4.2 mg/dL with INR 1.34 (normal: 0.8-1.2) by day 16, and progressed by day 41 to total bilirubin 16.7 mg/dL (direct 13.6 mg/dL) and INR 1.44.",
+      "advanced_workup": "Thoracoabdominal imaging demonstrated significant ascites, moderate pleural effusion, and abdominal lymphadenopathy with partial central necrosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Blood cultures growing Brucella melitensis, positive Rose Bengal plate agglutination, Wright seroagglutination, and Serion anti-Brucella IgG/IgM/IgA ELISA confirmed acute Brucella melitensis bacteremia in a shepherd with alcoholic cirrhosis. Treated with oral doxycycline (100 mg BID), oral rifampicin (600 mg QD, later halved), and oral ciprofloxacin (500 mg BID), which achieved defervescence on day 5 but precipitated severe drug-induced cholestatic liver failure and hepatic encephalopathy by day 41 (total bilirubin 16.7 mg/dL, INR 1.44), leading to orthotopic liver transplantation with a fatal postoperative outcome."
+    }
+  }
+}

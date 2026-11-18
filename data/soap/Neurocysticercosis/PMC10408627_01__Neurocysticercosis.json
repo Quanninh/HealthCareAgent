@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10408627_01",
+  "pair_id": "PMC10408627_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 22-year-old female patient arrived at the emergency room presenting with generalized seizures, which had been preceded by a week of headaches. On examination using a head CT scan, an intracerebral cyst of middle size (2.3 x 2.1 x 3 cm) was identified in the right frontal lobe [Figure 4]. The cyst exhibited a calcified nodule and was accompanied by brain edema in the surrounding area. Considering these findings, the patient was promptly taken to the operating room for further evaluation and treatment, with a probable diagnosis of an oligodendroglioma tumor.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 22-year-old woman presented to the emergency room with generalized seizures preceded by a 1-week history of headaches.",
+      "history_of_present_illness": "The patient experienced 1 week of headaches before developing generalized seizures that prompted emergency room presentation.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Head CT scan identified a medium-sized intracerebral cyst measuring 2.3 x 2.1 x 3 cm in the right frontal lobe containing a calcified nodule and surrounded by perilesional brain edema."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Based on the right frontal cystic lesion with a calcified nodule and surrounding edema on head CT, the patient was taken promptly to the operating room for surgical evaluation and resection under a probable preoperative diagnosis of an oligodendroglioma tumor."
+    }
+  }
+}

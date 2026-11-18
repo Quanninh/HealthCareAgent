@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6889700_01",
+  "pair_id": "PMC6889700_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 63 year old man was referred from a primary health center with a penile lesion of 8 months duration. The lesion started as a small, pruritic, slightly thickened brown discoloration on glans penis, for which a topical corticosteroid cream was prescribed with a clinical suspicion as lichen planus. But it continued to grow to reach the present size with recent surface ulceration.\nThere was no history of any systemic disease except he has been on diet for glucose intolerance.\nNo history of exposure to risk factors of sexually transmitted diseases obtained. There was history of mild intermittent voiding and post void dribbling. No history of fever, weight loss or any other skin diseases. Local examination revealed an ulcerated firm, reddish brown, slightly tender nodule of 8 mm. on glans penis near corona on the ventral aspect of the penis (Fig. 1a). \nNo other similar lesions seen in genitalia. No inguinal lymphadenopathy noted. Dermatologic examination also did not reveal any skin or oral lesions.\nThe laboratory investigations for CBC, serum creatinine, serum PSA and complete urine analysis including urine culture did not show abnormal result. Swab culture from ulcer was negative. The blood HbA1c was 5.8%. The serological tests for HIV, HBsAg and RPR were negative. The pelvic ultrasound showed moderately enlarged prostate (size of 45 g.), but otherwise normal study.\nAfter a signed consent, the patient underwent an excisional biopsy with the clinical impression of pyogenic granuloma. The initial histopathology report revealed atypical spindle cell proliferation with clear resection margins and advised immunohistochemical studies for final diagnosis. The immunostains revealed the spindle cells were immunoreactive for CD31, CD34 &HHV8 LANA-1 and non-reactive for SMA. (Fig. 1b, c, d); consistent with Kaposi sarcoma.\nOn consultation, uro-oncologist advised close clinical follow - up for any recurrence. No local recurrence or systemic lesions observed during last three years of follow up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old man was referred from a primary health center with an 8-month history of a progressively enlarging, recently ulcerated nodule on his glans penis.",
+      "history_of_present_illness": "Eight months prior to referral, the lesion began as a small, pruritic, slightly thickened brownish macule/papule on the glans penis that was treated with a topical corticosteroid cream for suspected lichen planus, but continued to grow into an 8 mm firm nodule with surface ulceration.",
+      "past_medical_history": "Diet-controlled impaired glucose tolerance; mild lower urinary tract symptoms (intermittent stream and post-void dribbling) from benign prostatic hyperplasia. Denied sexually transmitted infection risk exposures.",
+      "review_of_systems": "Positive for an ulcerated glans penis nodule and mild post-void dribbling; negative for fever, weight loss, or extra-genital skin/oral lesions."
+    },
+    "objective": {
+      "physical_examination": "Local genital examination revealed a solitary 8 mm ulcerated, firm, reddish-brown, mildly tender nodule on the ventral aspect of the glans penis near the coronal sulcus. No inguinal lymphadenopathy or other genital, cutaneous, or oral mucosal lesions were present.",
+      "routine_investigations": "CBC, serum creatinine, serum PSA, HbA1c (5.8%), urinalysis, urine culture, and ulcer swab culture were all normal or negative. Serological tests for HIV, HBsAg, and RPR were all negative. Pelvic ultrasound showed moderate benign prostatic enlargement (45 g) and was otherwise normal.",
+      "advanced_workup": "Complete excisional biopsy of the penile nodule (performed for clinically suspected pyogenic granuloma) demonstrated an atypical dermal spindle-cell vascular proliferation with negative surgical margins; immunohistochemistry showed strong reactivity for CD31, CD34, and HHV-8 LANA-1 and negative staining for smooth muscle actin (SMA)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary isolated glans penis classic Kaposi sarcoma in an HIV-negative, immunocompetent 63-year-old man, confirmed by excisional biopsy histopathology and positive CD31, CD34, and HHV-8 LANA-1 immunostaining. Managed with complete local surgical excision (clear margins) and close uro-oncologic surveillance, remaining completely free of local recurrence or systemic disease over 3 years of follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10327893_01",
+  "pair_id": "PMC10327893_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The patient was a 54-year-old female who was admitted for \"jaundice for more than 10 days.\" She was previously healthy and did not have a medical history of schistosomiasis.\nFollowing were results of the laboratory tests: liver function tests were abnormal, with alanine aminotransferase levels of 71 U/L (normal range: 14-54 U/L), aspartate aminotransferase levels of 104 U/L (normal range: 15-41 U/L), and a total bilirubin of 72 mumol/L (normal range: 0-16 mumol/L), HbsAg (+), HbeAg (+), HbsAb (+). Carbohydrate antigen 19-9 (CA19-9) was moderately elevated (103 U/ml); and other tumor markers were normal. Ultrasound showed the dilation of extrahepatic and intrahepatic bile ducts caused by abnormal choledochal echo. Moreover, the computed tomography (CT) (Figure 1A) and magnetic resonance cholangiopancreatography (MRCP) (Figure 1B) demonstrated that the common bile duct stenosis located at the head of the pancreas and the upstream bile duct dilatation was significant. As the patient's diagnosis was unclear, she underwent a ERCP with adequate preoperative preparations. The biliary cholangiography revealed an indeterminate stenosis at the upper bile duct (Figure 1C). Further evaluation of SpyGlass cholangioscopy (Boston Scientific, Marlborough, MA, U.S.) showed an oval space-occupying lesion at the upper segment of the common bile duct. The surface mucosa of the lesion was smooth, without neovascularization (Figure 1D and Supplementary Video S1). Four days after ERCP and endoscopic nasobiliary drainage (ENBD), the patient underwent radical surgery. A palpable hard mass was found at the hepatic hilum along the common bile duct during surgery. The tumor invaded the confluence of the left and right bile duct. Samples were dissected postoperatively and a 5 x 3 x 2 cm mass was found in the common bile duct and the upper end of the mass invaded the start of the left hepatic duct. Postoperative pathology examination revealed secretory cystadenoma in the common bile duct. Immunohistochemistry results showed a CD10 (+), ER (+), PR weak (-), and Ki67: 5% (+) secretory cystadenoma (Figure 1E). After more than two-year follow-up postresection, the patient has been doing well, without any evidence of recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old woman presented with jaundice of more than 10 days' duration.",
+      "history_of_present_illness": "The patient developed progressive jaundice lasting more than 10 days prior to hospital admission.",
+      "past_medical_history": "Previously healthy with no history of schistosomiasis.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Liver function tests showed elevated ALT at 71 U/L (normal 14-54 U/L), AST at 104 U/L (normal 15-41 U/L), and total bilirubin at 72 mcmol/L (normal 0-16 mcmol/L). Hepatitis B serology was positive for HBsAg, HBeAg, and HBsAb. Tumor markers showed moderately elevated CA19-9 at 103 U/mL with other tumor markers normal. Abdominal ultrasound demonstrated intrahepatic and extrahepatic bile duct dilation secondary to an abnormal choledochal echo.",
+      "advanced_workup": "Abdominal CT and MRCP showed significant common bile duct (CBD) stenosis at the pancreatic head with upstream biliary dilation. ERCP cholangiography revealed an indeterminate upper bile duct stenosis, and SpyGlass cholangioscopy demonstrated a smooth-surfaced oval space-occupying lesion in the upper CBD without neovascularization, followed by endoscopic nasobiliary drainage (ENBD). Intraoperatively (4 days post-ERCP), a hard palpable mass at the hepatic hilum along the CBD was resected; gross pathology showed a 5 x 3 x 2 cm CBD mass invading the hepatic duct confluence and proximal left hepatic duct. Histopathology and immunohistochemistry confirmed a biliary secretory cystadenoma positive for CD10 and ER, weakly negative for PR, with a Ki-67 index of 5%."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of common bile duct secretory cystadenoma (with concurrent hepatitis B seropositivity and no history of schistosomiasis). The patient underwent preoperative ENBD followed by radical surgical resection of the biliary tumor, and remained well without recurrence after more than 2 years of postoperative follow-up."
+    }
+  }
+}

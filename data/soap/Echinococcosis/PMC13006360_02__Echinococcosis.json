@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC13006360_02",
+  "pair_id": "PMC13006360_02::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The other patient was a 64-year-old female who presented with abdominal distension for more than 20 days. 2D-US revealed a 24 cm solid-cystic lesion in the liver, in which the echo transmission of cystic component was poorer than that in the first patient (Figure 2A). Color flow signals were observed around the lesion (Figure 2B). Multiple enlarged lymph nodes were identified in the hilar region of the liver. The CEUS (Figure 2C and D) and CECT findings were similar to those of the first patient (Figure 2E and F). Both CA199 and CA125 were elevated in these patients.\nAfter liver hydatid disease was ruled out by serological examination, and considering that the lesions were too large and prone to rupture, catheter drainage of cyst fluid was performed in both female patients (Figures 1G and 2G). A total of 3500 mL of brown fluid was drained from the younger patient over one week. The other patient drained a total of 2800 mL dark red fluid, which was suggestive of recent internal hemorrhage. Subsequently, pathological tissue specimens were obtained via percutaneous liver puncture with ultrasound-guided. On histopathologic examination, the tumor was mainly composed of epithelioid cells arranged in a trabecular growth pattern (Figures 1H and 2H). Immunohistochemistry (IHC) staining demonstrated that the tumor cells were diffusely positive for HMB45, Melan A, CD68 and CD34 and were negative for desmin. The histological features and the results of IHC were consistent with a diagnosis of hepatic PEComa.\nThe younger woman underwent surgical removal of the liver mass after her liver function was appropriately supported according to the specific condition. The older woman's family members, considering the high surgical risk and the non-radical nature of the treatment, opted for conservative management. Consequently, transcatheter arterial chemoembolization (TACE) was performed, followed by conservative treatment with chemotherapy due to the large tumor size. To date, follow-up has shown that the younger patient remains free of tumor recurrence 63 months after surgery, while the older patient passed away 6 months after TACE treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old female presented with progressive abdominal distension for more than 20 days.",
+      "history_of_present_illness": "The patient developed progressive abdominal distension lasting over 20 days prior to presentation.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for abdominal distension."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Serum tumor markers CA19-9 and CA125 were elevated, and Echinococcus serological testing was negative. Two-dimensional ultrasound (2D-US) and color Doppler revealed a 24-cm solid-cystic hepatic mass with poor cystic echo transmission, peripheral color flow signals, and multiple enlarged hepatic hilar lymph nodes.",
+      "advanced_workup": "Contrast-enhanced ultrasound (CEUS) and contrast-enhanced CT (CECT) demonstrated a giant 24-cm solid-cystic liver lesion with hilar lymphadenopathy. Catheter drainage evacuated 2,800 mL of dark-red hemorrhagic fluid, and ultrasound-guided percutaneous liver biopsy histopathology showed epithelioid tumor cells arranged in a trabecular pattern that stained diffusely positive for HMB45, Melan-A, CD68, and CD34 and negative for desmin on immunohistochemistry."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Malignant/giant hepatic perivascular epithelioid cell tumor (PEComa), confirmed by percutaneous biopsy histopathology and HMB45/Melan-A/CD68/CD34 immunohistochemical positivity after hepatic hydatid disease was excluded by negative serology. Due to high surgical risk and unresectability, the patient underwent catheter drainage followed by transcatheter arterial chemoembolization (TACE) and systemic chemotherapy, but passed away 6 months post-TACE."
+    }
+  }
+}

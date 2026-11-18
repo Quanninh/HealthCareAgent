@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4386190_01",
+  "pair_id": "PMC4386190_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "CASE 1: Mrs. ZNA, a 29-year-old Malay housewife, Gravida 4 Para 2+1, came for antenatal booking at the primary care clinic, complaining of polyuria, polydipsia and lethargy for the past one week. Dating ultrasound revealed 11 weeks fetus. She was diagnosed with gestational diabetes mellitus (GDM) with fasting blood glucose of 11.0 mmol/L and subsequently referred here for further management. She also complained of itchiness at the genital area associated with whitish vaginal discharge whereby the high vaginal swab specimen for microbiology culture revealed presence of candida infection. She was subsequently treated appropriately. \nRoutine blood investigations including hepatitis B, human immunodeficiency virus (HIV) and syphilis serology tests were done. The serology tests for hepatitis B and HIV were negative. However, the rapid plasma reagin (RPR) was reactive at 1:16 titration. The diagnosis of syphilis was confirmed by a positive Syphilis IgG result. \nOn further history, she admitted to the treatment of syphilis during her previous pregnancy in 2010 at another hospital. She was given three doses of intramuscular penicillin. Previous syphilis record showed the RPR titre was 1:8 but no subsequent follow-up.\nThe diagnosis of syphilis re-infection was made and she was treated with 2.4 million units of penicillin weekly for three doses. Her other medical problems were managed accordingly. She was discharged from the ward once the blood sugar level was optimized and continued her follow up in the clinic. Her husband was counselled for syphilis screening but refused.\nConsequently, she completed the treatment for syphilis. The second and third trimester ultrasounds revealed no abnormalities. Repeated RPR at 33 weeks of gestation was non-reactive.\nShe delivered a baby boy at 38 weeks of gestation through LSCS with birth weight of 4.0 kg. No clinical signs of congenital syphilis noted. Rapid Plasma Reagin (RPR) result for the baby was non-reactive. She was discharged after three days in the ward. Post-natal follow up was scheduled for them but she requested to be seen in another hospital at her hometown.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old Malay pregnant woman (G4P2+1) at 11 weeks' gestation presented for antenatal booking with a 1-week history of polyuria, polydipsia, lethargy, and pruritic whitish vaginal discharge.",
+      "history_of_present_illness": "At 11 weeks' gestation, the patient presented to the primary care clinic complaining of 1 week of polyuria, polydipsia, and lethargy, alongside vulvovaginal pruritus and whitish discharge.",
+      "past_medical_history": "Gravida 4, para 2+1. History of syphilis diagnosed during a previous pregnancy in 2010 (baseline RPR 1:8) treated at an outside hospital with 3 doses of intramuscular penicillin without subsequent serologic follow-up.",
+      "review_of_systems": "Positive for polyuria, polydipsia, lethargy, and pruritic whitish vaginal discharge."
+    },
+    "objective": {
+      "physical_examination": "Pelvic examination showed whitish vaginal discharge consistent with vulvovaginal candidiasis.",
+      "routine_investigations": "Fasting blood glucose was elevated at 11.0 mmol/L (confirming gestational diabetes mellitus). High vaginal swab culture grew Candida spp. Prenatal hepatitis B and HIV serologies were negative. Dating ultrasound at 11 weeks and follow-up second- and third-trimester obstetric ultrasounds showed a structurally normal fetus.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed maternal syphilis re-infection in pregnancy (alongside gestational diabetes mellitus and vulvovaginal candidiasis), established via a reactive serum RPR titer of 1:16 (twofold higher than her 2010 baseline of 1:8) and positive Syphilis IgG. Treated with intramuscular benzathine penicillin G 2.4 million units once weekly for 3 doses alongside glycemic optimization and antifungal therapy (her husband declined screening). Repeat maternal RPR at 33 weeks' gestation seroreverted to non-reactive, and at 38 weeks she delivered a healthy 4.0-kg male infant via lower-segment cesarean section with no clinical signs of congenital syphilis and a non-reactive neonatal RPR."
+    }
+  }
+}

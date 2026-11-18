@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10846475_01",
+  "pair_id": "PMC10846475_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 33-year-old male was referred to our clinic with a 3-month history of an ulcerated, nodular-like lesion in the middle of his lower lip. The lesion, approximately 3 cm in diameter, exhibited a rounded shape and a surface covered by a layer of hemorrhagic and purulent fibrin (Figure 1A). Despite its resemblance to a malignant neoplasm, the lesion seemed to arise from conjunctive tissue and caused moderate pain. Palpation revealed no induration of the surrounding tissue, and the nodular area exhibited slight fibrous characteristics. Cervical palpation indicated numerous small lymph nodes in the submental and submandibular chains.\nUpon further inquiry, the patient disclosed additional clinical manifestations, reporting lesions on his back skin surface. Examination revealed extensive erythematous papules and plaque lesions covering almost the entire back (Figure 2A). The patient denied any genital lesions. Notably, he was a smoker, a moderate alcohol consumer, and regularly used illicit drugs, including crack. He had no other reported medical conditions and was not using systemic or topical medications.\nThese comprehensive clinical findings raised suspicions of syphilis, particularly owing to the multiple lymphadenopathies and skin lesions, despite the patient's denial of engaging in sexual behaviors that increased the risk of sexually transmitted diseases. Syphilis serology results confirmed the diagnosis (Venereal Disease Research Laboratory: 1/32; specific antibody anti-Treponema pallidum: 20.29), whereas HIV and hepatitis C tests returned negative results. Subsequently, the patient was referred to a sexually transmitted disease center for treatment and contact tracing. The prescribed treatment involved two doses of intramuscular benzathine penicillin G (2.4 million units each), administered two weeks apart. Substantial improvement in the lesions was observed three weeks after the last injection (Figures 1B and 2B), with follow-up scheduled every three months to monitor the decline in titer.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 33-year-old male presented with a 3-month history of a moderately painful, ulcerated nodular lesion on the midline of his lower lip and a widespread rash over his back.",
+      "history_of_present_illness": "The patient was referred for evaluation of a 3-cm ulcerated nodular lesion on his lower lip that had persisted for 3 months, accompanied by extensive erythematous papules and plaques across his back.",
+      "past_medical_history": "No known chronic medical conditions. Social history was notable for cigarette smoking, moderate alcohol consumption, and regular illicit drug use including crack cocaine; he denied high-risk sexual behaviors.",
+      "review_of_systems": "Positive for a painful lower-lip ulcerated nodule and asymptomatic erythematous plaques on his back; denied genital lesions. Taking no systemic or topical medications."
+    },
+    "objective": {
+      "physical_examination": "Oral examination revealed an approximately 3-cm rounded, ulcerated, nodular-like lesion in the midline of the lower lip covered by hemorrhagic and purulent fibrin, with slightly fibrous consistency and no surrounding induration. Cervical palpation demonstrated multiple small palpable lymph nodes in the submental and submandibular chains. Cutaneous examination showed extensive erythematous papules and plaques covering nearly the entire back, with no genital lesions.",
+      "routine_investigations": "Serological testing for HIV and hepatitis C virus was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis presenting with an oral lower-lip chancre/mucocutaneous lesion and disseminated dorsal papulosquamous syphilides, verified by a reactive serum VDRL (titer 1:32) and positive anti-Treponema pallidum specific antibody (20.29). Treated at an STD center with two intramuscular injections of benzathine penicillin G 2.4 million units administered 2 weeks apart, resulting in marked regression of both the lip and back lesions 3 weeks after the second injection."
+    }
+  }
+}

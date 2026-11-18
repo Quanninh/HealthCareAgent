@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9164914_01",
+  "pair_id": "PMC9164914_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "We present a case of a 66-year-old woman who was admitted to the emergency room with respiratory symptoms: dyspnea and tachypnea, and cardiac symptoms: atrial fibrillation.\nFurthermore, she had two syncopal episodes in 24 h before entering the hospital.\nThe nasopharyngeal swab was negative for severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) reverse transcription-polymerase chain reaction, but the patient reported that she had a SARS-COV-2 infection 3 weeks before entering the hospital. The serological test showed a high level of SARS-CoV-2 Ig-G.\nThe patient also suffered from chronic diseases, such as had arterial hypertension, dyslipidemia, diabetes mellitus, and Hashimoto's thyroiditis.\nAt the neurological evaluation, the patient did not show any deficit or difficulty in speaking.\nThe brain computed tomography (CT) and angioCT values were negative.\nThe transthoracic echocardiography (TTE) has detected an atrial mobile mass that was attached to the interatrial septum with partial prolapse into the left ventricle during systole.\nThe transesophageal echocardiogram (TEE) confirmed the presence of irregular and protruding pedunculated portion on the mitral valve, which was causing an obstruction on the left ventricular outflow with significantly elevated pulmonary artery hypertension (45 mmHg) [Figure 1 and Video 1]. Mass measuring was 7 cm x 4 cm. Left ventricular systolic function was reduced [Figure 2 and Video 2].\nChests X-ray did not show interstitial lesions. After confirming the absence of active COVID-19 disease, proceeded with the operation.\nAnticoagulant and antithrombotic therapies were administered; urgent cardiac surgery was performed and the mass was confirmed as a myxoma [Figure 3].\nCardiopulmonary bypass was established with conventional mild hypothermia (33.0 C). During a single-aortic cross-clamping, the tumor of the interatrial septum was excised through an oblique and longitudinal atriotomy. Histological examination confirmed cardiac myxoma.\nThe patient was extubated on the 1st day and then discharged from the intensive care unit (ICU) on the 4th day. She had an uncomplicated postoperative course.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old woman presented to the emergency room with acute dyspnea, tachypnea, atrial fibrillation, and two syncopal episodes within the preceding 24 hours.",
+      "history_of_present_illness": "Three weeks after recovering from a SARS-CoV-2 infection, the patient experienced two episodes of syncope over 24 hours accompanied by acute shortness of breath, tachypnea, and rapid palpitations/atrial fibrillation.",
+      "past_medical_history": "Arterial hypertension, dyslipidemia, diabetes mellitus, Hashimoto's thyroiditis, and COVID-19 infection 3 weeks prior to admission.",
+      "review_of_systems": "Positive for dyspnea, tachypnea, palpitations, and recurrent syncope; negative for focal neurological deficits or speech difficulty."
+    },
+    "objective": {
+      "physical_examination": "Tachypneic and in atrial fibrillation; neurological examination was completely normal without focal deficits or dysphasia.",
+      "routine_investigations": "Nasopharyngeal SARS-CoV-2 RT-PCR was negative, while serum anti-SARS-CoV-2 IgG titer was high. Chest X-ray was clear without interstitial infiltrates. Transthoracic echocardiography (TTE) revealed a large mobile left atrial mass (7 x 4 cm) attached to the interatrial septum that prolapsed across the mitral valve into the left ventricle during diastole/systole, accompanied by reduced LV systolic function.",
+      "advanced_workup": "Brain CT and CT angiography were negative. Transesophageal echocardiography (TEE) confirmed a 7 x 4 cm irregular, pedunculated left atrial mass attached to the interatrial septum prolapsing through the mitral valve, causing left ventricular inflow/outflow obstruction and pulmonary hypertension (sPAP 45 mmHg). Surgical histopathology of the excised tumor confirmed a cardiac myxoma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Large obstructive left atrial cardiac myxoma (7 x 4 cm) causing syncope, atrial fibrillation, and pulmonary hypertension in a patient 3 weeks post-COVID-19 (admission SARS-CoV-2 RT-PCR negative, SARS-CoV-2 IgG strongly positive), definitively confirmed by surgical histopathology. Treated with urgent open-heart surgical excision of the interatrial septal tumor via oblique and longitudinal atriotomy under mild hypothermic (33.0 C) cardiopulmonary bypass, with extubation on postoperative day 1 and uncomplicated ICU discharge on postoperative day 4."
+    }
+  }
+}

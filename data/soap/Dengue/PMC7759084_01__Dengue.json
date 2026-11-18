@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7759084_01",
+  "pair_id": "PMC7759084_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "An 8-year-old boy came to surgical emergency with complaints of generalised abdominal pain, abdominal distension and obstipation for last 1 day. Pain suddenly started in the right upper abdomen, which later on became diffuse involving whole of the abdomen. There was no history suggestive of any other pre-existing illnesses or haemolytic disease. Physical examination revealed diffusely tender and distended abdomen. Guarding and rebound tenderness were present in all the quadrant of the abdomen. Laboratory investigations were essentially within normal limit except raised total leukocyte count. Chest and abdominal X-rays were also unremarkable. Based on the history and clinical profile of the patient, diagnosis of duodenal perforation peritonitis was rendered, and following this, urgent exploratory laparotomy was scheduled. Abdominal exploration was done through midline incision, and around 700 ml of biliopurulent fluid was aspirated. Intraoperatively, 1 cm x 1 cm perforation at the neck of the gallbladder was noticed, and this region was surrounded by the pus flakes [Figure 1]. The gallbladder wall appeared thickened and it had no stones. Cholecystectomy was done after ligating the cystic duct and the artery [Figure 2]. Rest of the abdominal viscera was found normal. The abdomen was closed after adequate lavage and placement of the right subhepatic drain. Resected specimen was sent for histopathological examination.\nHistopathological examination showed focally denuded lining epithelium with marked edema and congestion just below the epithelium. Muscle fibres appeared to be separated due to inflammatory infiltrate, oedema and congestion. There was dense acute on chronic inflammatory infiltrate extending from mucosa to serosa suggestive of acute on chronic cholecystitis [Figure 3]. In view of incidentally detected GBP, we further investigated this patient for associated enteric fever, dengue fever and haemolytic disease, and none of these illnesses could be established in this patient. Post-operative period was uneventful and he was discharged on the 4th day. During a follow-up of 2 months, he remains asymptomatic.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old boy presented with a 1-day history of sudden-onset right upper quadrant abdominal pain that generalized across the entire abdomen, accompanied by abdominal distension and obstipation.",
+      "history_of_present_illness": "Previously healthy boy without hemolytic disease developed acute right upper quadrant pain 1 day prior to emergency presentation that rapidly became generalized, accompanied by progressive abdominal distension and inability to pass stool or flatus.",
+      "past_medical_history": "No preexisting medical illnesses or hemolytic disease.",
+      "review_of_systems": "Positive for sudden severe generalized abdominal pain, abdominal distension, and obstipation."
+    },
+    "objective": {
+      "physical_examination": "Diffusely distended and tender abdomen with generalized guarding and rebound tenderness in all four quadrants.",
+      "routine_investigations": "Elevated total leukocyte count with otherwise normal routine laboratory parameters; chest and abdominal radiographs were unremarkable. Postoperative workup for enteric fever, dengue fever, and hemolytic diseases was negative.",
+      "advanced_workup": "Emergency exploratory midline laparotomy evacuated ~700 mL of biliopurulent peritoneal fluid and identified a thickened, acalculous gallbladder with a 1 x 1 cm perforation at the gallbladder neck surrounded by purulent exudate. Cholecystectomy histopathology showed focally denuded epithelium, marked subepithelial edema and congestion, and transmural acute-on-chronic inflammatory infiltration."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Idiopathic spontaneous acalculous gallbladder neck perforation with generalized biliary peritonitis, confirmed at exploratory laparotomy and histopathological examination (acute-on-chronic acalculous cholecystitis). Dengue fever, enteric fever, and hemolytic disorders were ruled out by negative postoperative investigations. Treated with emergency open cholecystectomy, peritoneal lavage, and subhepatic drainage, with an uneventful discharge on postoperative day 4 and asymptomatic 2-month follow-up."
+    }
+  }
+}

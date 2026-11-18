@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8571180_01",
+  "pair_id": "PMC8571180_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 5-year-old male child was brought to our department with chief complaints of holocranial headache, irritability, occasional vomiting for 3 months, and altered sensorium for 3 days. On examination, patient was in altered sensorium with GCS of E3V4M6. Magnetic resonanace imaging (MRI) brain were suggestive of a large ruptured intraventricular cyst with irregular floating cyst wall in the right frontal horn giving a typical Camalote sign appearance [Figure 1]. It was causing obstruction of foramen of Monro with gross hydrocephalus. On the basis of MRI findings working diagnosis of ruptured hydatid cyst was made. Under steroid cover, Patient was planned for transcortical approach as the lesion was present in the frontal horn of the right lateral ventricle causing its ballooning and thinning out of the overlying cortex. Patient underwent right frontal craniotomy and ventricle was opened up through transcortical approach to access the cyst, taking special care to prevent spillage of cyst contents. The cyst wall was free-floating in clear CSF. Cyst was deroofed and cyst contents were aspirated followed by instillation of hypertonic saline in the cyst wall and aspiration again. After completely emptying the cyst of it's contents, its wall was dissected out [Figure 2]. Ultrasonogram of the abdomen and X-ray of the chest were done to evaluate for any other primary lesion, but these didn't reveal any pathology.\nHistopathology also confirmed the diagnosis [Figure 3]. Patient recovered well after the surgery and there was no need of CSF diversion. He was given three cycles of albendazole therapy of 1 month duration after intervals of 14 days between each cycle. Patient symptoms also regressed and there was no recurrence of the cyst during 3 years of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 5-year-old boy presented with a 3-month history of holocranial headache, irritability, and occasional vomiting, complicated by altered sensorium for 3 days.",
+      "history_of_present_illness": "The child experienced holocranial headache, irritability, and intermittent vomiting for 3 months, followed by progressive drowsiness and altered sensorium over the 3 days prior to admission.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for holocranial headache, irritability, vomiting, and altered sensorium."
+    },
+    "objective": {
+      "physical_examination": "Altered sensorium with a Glasgow Coma Scale score of 13 (E3V4M6).",
+      "routine_investigations": "Chest X-ray and abdominal ultrasonography were normal, excluding pulmonary and hepatic primary lesions.",
+      "advanced_workup": "Brain MRI demonstrated a large ruptured intraventricular cyst in the frontal horn of the right lateral ventricle with an irregular floating membrane producing the classic camalote (water-lily) sign, obstructing the foramen of Monro and causing gross obstructive hydrocephalus. Right frontal transcortical craniotomy under steroid cover identified the free-floating cyst wall in clear CSF; following cyst aspiration, hypertonic saline instillation/reaspiration, and complete cyst wall dissection, histopathology confirmed an intraventricular hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated ruptured intraventricular hydatid cyst in the right frontal horn causing obstructive hydrocephalus, confirmed by the MRI camalote sign and postoperative histopathological examination. Following right frontal transcortical cyst excision (without requiring CSF shunting), the child completed three 1-month cycles of oral albendazole separated by 14-day intervals and remained completely asymptomatic without recurrence at 3-year follow-up."
+    }
+  }
+}

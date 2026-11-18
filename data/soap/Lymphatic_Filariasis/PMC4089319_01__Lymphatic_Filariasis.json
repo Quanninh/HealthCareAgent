@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4089319_01",
+  "pair_id": "PMC4089319_01::Lymphatic_Filariasis",
+  "target_disease": "Lymphatic_Filariasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 30-year-old man from suburbs of the city with renal failure was admitted for renal transplantation (RTx) from his 36-year-old HLA-identical (6/6) brother in January 2012. He was subjected to open right nephrectomy due to persistent pyuria in March 2012. Histopathology revealed chronic tubulointerstitial nephritis leading to end-stage renal disease. He was cleared for transplantation in June 2012. Before placing the renal allograft in the right iliac fossa, an enlarged lymph node was found and sent for histopathology. This was followed by an uneventful transplantation. Histopathology of the lymph node revealed necrotic lymphatic filled with coiled adult worms of Wuchereria bancrofti (microfilaria) (Fig 1) with double uteri in female worms. Subsequently after diethylcarbamazine citrate (DEC) challenge test, his peripheral blood also showed microfilarial worms (Fig 1), however he never had tissue/peripheral blood eosinophilia. He was therefore treated with a single dose of 400 mg albendazole followed by DEC, 6 mg/kg body weight for 14 days. Eight months post-transplantation he was maintaining stable graft function with serum creatinine of 1 mg/dL on maintenance immunosuppression of 0.06 mg/kg/day of tacrolimus, 360 mg of mycofenolate sodium twice a day, and 10 mg/day prednisone. On screening, none of his family members had evidence of filariasis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old man with end-stage renal disease admitted for living-related renal transplantation found intraoperatively to have iliac lymphadenopathy.",
+      "history_of_present_illness": "The patient with end-stage renal disease secondary to chronic tubulointerstitial nephritis underwent right native nephrectomy for persistent pyuria in March 2012 and was admitted for HLA-identical living-related renal transplantation in June 2012, during which an enlarged right iliac fossa lymph node was incidentally discovered.",
+      "past_medical_history": "End-stage renal disease secondary to chronic tubulointerstitial nephritis; status post open right nephrectomy in March 2012 for persistent pyuria.",
+      "review_of_systems": "Negative for classic filarial symptoms (no fever, lymphedema, or chyluria)."
+    },
+    "objective": {
+      "physical_examination": "Intraoperative examination of the right iliac fossa prior to renal allograft placement revealed an enlarged iliac lymph node.",
+      "routine_investigations": "Baseline CBC showed no peripheral blood or tissue eosinophilia. Post-DEC challenge peripheral blood smear demonstrated microfilariae.",
+      "advanced_workup": "Histopathological examination of the excised right iliac lymph node demonstrated a necrotic lymphatic vessel containing coiled adult female Wuchereria bancrofti worms with paired uteri and microfilariae."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis: Confirmed occult lymphatic filariasis (Wuchereria bancrofti) in a renal transplant recipient, diagnosed via iliac lymph node histopathology and positive diethylcarbamazine (DEC) provocation blood smear.\nPlan & Outcome: Treated with a single oral dose of albendazole 400 mg followed by diethylcarbamazine (DEC) 6 mg/kg/day for 14 days alongside maintenance immunosuppression (tacrolimus 0.06 mg/kg/day, mycophenolate sodium 360 mg twice daily, prednisone 10 mg/day). At 8-month follow-up, renal allograft function remained stable (serum creatinine 1.0 mg/dL)."
+    }
+  }
+}

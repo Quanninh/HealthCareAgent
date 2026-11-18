@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7233889_01",
+  "pair_id": "PMC7233889_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "An 8-month old baby boy presented with high-grade fever associated with chills and rigours for 15 days, abdominal distension for 5 days and diarrhoea for 5 days. He also had an erythematous rash over his face and back. On examination, his length was 73 cm (85th percentile) and weight was 7.3 kg (3rd percentile). He was afebrile, heart rate was 140/min, respiratory rate was 38/min and blood pressure was 102/74 mm Hg. Abdominal examination revealed mild hepatomegaly. No neck stiffness or signs of meningeal irritation were seen. Investigations revealed a haemoglobin of 7.2 gm/dL; total white cell count, 8300/mm3 (neutrophils, 30%; lymphocytes, 69%; eosinophils, 0%; monocytes, 1%; basophils, 0%); and platelets, 81,000/mm3. Peripheral smear for malarial parasites was negative. Tests for dengue fever were negative. Widal test revealed the antibody titers to 'O' and 'H' antigens to be 1:160 each respectively. Liver function tests showed an elevation of the hepatic enzymes - alanine aminotransferase (ALT), 94 IU/L; aspartate aminotransferase (AST), 249 IU/L; and INR, 1.3. international normalized ratio (INR) Serum creatinine was 0.4 mg/dL. Urine examination and echocardiography were both normal. Ultrasound examination of the abdomen revealed mild hepatosplenomegaly with increased echogenicity of liver. Blood culture showed S. typhi sensitive to ampicillin-sulbactam and cotrimoxazole but resistant to fluoroquinolones and third-generation cephalosporins. The blood culture results were obtained on day 6 of admission. Cerebrospinal fluid (CSF) examination showed lymphocytic pleocytosis (14 leucocytes/mm3 with 100% lymphocytes), 38 mg/dL of proteins and 74 mg/dL of glucose. CSF Gram stain, Zeil Neilson stain and culture were negative.\nThe child was initially treated with IV ceftriaxone (100 mg/kg/day) for 5 days but had no response. Antibiotics were changed to IV aztreonam and oral azithromycin (20 mg/kg/day) which were given for 5 days but still the fever persisted. Hence, antibiotics were switched to IV meropenem (40 mg/kg/dose 8 hourly), and oral azithromycin was continued. The fever subsided in 13 days. IV meropenem was given for 14 days and oral azithromycin was given for 7 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-month-old infant boy presented with a 15-day history of high-grade fever with chills and rigors, 5 days of abdominal distension and diarrhea, and an erythematous rash on his face and back.",
+      "history_of_present_illness": "The infant experienced 15 days of high-grade fever with chills and rigors, complicated over the 5 days prior to admission by abdominal distension, watery diarrhea, and an erythematous facial and truncal rash.",
+      "past_medical_history": "Weight 7.3 kg (3rd percentile) and length 73 cm (85th percentile).",
+      "review_of_systems": "Positive for 15-day high-grade fever, chills, rigors, abdominal distension, diarrhea, and erythematous rash on face and back."
+    },
+    "objective": {
+      "physical_examination": "Afebrile at initial exam, heart rate 140/min, respiratory rate 38/min, blood pressure 102/74 mmHg, length 73 cm (85th percentile), weight 7.3 kg (3rd percentile), erythematous rash over the face and back, mild hepatomegaly, and no neck stiffness or meningeal irritation signs.",
+      "routine_investigations": "Hemoglobin 7.2 g/dL, WBC 8,300/mm3 (neutrophils 30%, lymphocytes 69%, monocytes 1%), platelets 81,000/mm3, negative malaria peripheral smear, Widal test O and H titers 1:160 each, ALT 94 IU/L, AST 249 IU/L, INR 1.3, creatinine 0.4 mg/dL, normal urinalysis and echocardiogram, and abdominal ultrasound showing mild hepatosplenomegaly with increased hepatic echogenicity. Blood culture on day 6 grew extensively drug-resistant Salmonella typhi resistant to fluoroquinolones and third-generation cephalosporins (sensitive to ampicillin-sulbactam and cotrimoxazole).",
+      "advanced_workup": "CSF examination demonstrated lymphocytic pleocytosis (14 leukocytes/mm3, 100% lymphocytes), protein 38 mg/dL, glucose 74 mg/dL, and negative Gram stain, Ziehl-Neelsen stain, and bacterial culture."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Third-generation cephalosporin- and fluoroquinolone-resistant Salmonella typhi bacteremia (enteric fever) complicated by aseptic lymphocytic meningitis, anemia, thrombocytopenia, and hepatitis in an infant. Dengue fever was ruled out by negative dengue testing. After failing 5 days of IV ceftriaxone (100 mg/kg/day) and 5 days of IV aztreonam plus oral azithromycin, fever resolved after switching to a 14-day course of IV meropenem (40 mg/kg q8h) combined with 7 days of oral azithromycin (20 mg/kg/day)."
+    }
+  }
+}

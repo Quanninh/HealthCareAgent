@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3322787_04",
+  "pair_id": "PMC3322787_04::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 38-year-old man went to the hospital emergency department 13 days after the houseboat excursion, with fever of 37.8 C, tea-colored urine, myalgias, chills, headache, anorexia, nausea, and abdominal pain. He was admitted to the hospital with oliguric acute renal failure. Peak elevated laboratory values included a creatinine of 17.3 mg/dL, blood urea nitrogen 82 mg/dL, urobilinogen 4+ EU/dL, and urine protein 100 mg/dL. His leukocyte count was within normal range at 5.6 k/muL.\nSerologic tests for hepatitis A, B, C, rickettsiae, and ehrlichiae were negative. Renal biopsy 17 days post exposure showed acute tubulointerstitial nephritis (Figure 2A), which is reported to be the most characteristic renal lesion observed in leptospirosis. Ultrasonography showed bilateral pleural effusions and echogenic kidneys. He received broad-spectrum antimicrobials and dialysis and remained hospitalized for almost a month. His acute renal failure resolved, and he made a full recovery. MAT and IgM-ELISA results for leptospirosis were processed at CDC; titers from serum taken 23 days and 44 days postexposure were most strongly positive with serovars from L. interrogans serogroup Mini (Table 2). Immunohistochemical assay for leptospira was performed at CDC and showed granular immunostaining of leptospira in the kidney biopsy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old man presented with fever, tea-colored urine, myalgias, chills, headache, anorexia, nausea, abdominal pain, and oliguria 13 days after a houseboating excursion.",
+      "history_of_present_illness": "Thirteen days after exposure to muddy creek waters during the May 2000 New Melones Lake houseboating trip, the patient presented to the emergency department with fever (37.8 °C), chills, headache, myalgias, anorexia, nausea, abdominal pain, dark tea-colored urine, and oliguric acute renal failure.",
+      "past_medical_history": "Exposed to muddied creek waters during a houseboating excursion at New Melones Lake, California, 13 days prior to admission.",
+      "review_of_systems": "Positive for fever, chills, myalgias, headache, anorexia, nausea, abdominal pain, tea-colored urine, and oliguria."
+    },
+    "objective": {
+      "physical_examination": "Presented with fever of 37.8 °C and oliguria.",
+      "routine_investigations": "WBC count was normal at 5.6 K/µL. Peak chemistry and urinalysis abnormalities included serum creatinine 17.3 mg/dL, BUN 82 mg/dL, urine protein 100 mg/dL, and urine urobilinogen 4+ EU/dL. Serologies for hepatitis A, B, and C, Rickettsia, and Ehrlichia were negative. Ultrasonography revealed bilateral pleural effusions and increased renal cortical echogenicity.",
+      "advanced_workup": "Percutaneous renal biopsy performed 17 days post-exposure demonstrated acute tubulointerstitial nephritis; immunohistochemistry performed at the CDC demonstrated granular immunostaining for Leptospira antigen within the renal parenchyma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed leptospirosis complicated by severe oliguric acute tubulointerstitial nephritis, confirmed by positive CDC Leptospira IgM-ELISA and MAT titers on sera drawn 23 and 44 days post-exposure (strongest reactivity against Leptospira interrogans serogroup Mini) as well as positive renal biopsy Leptospira immunohistochemistry. Managed with broad-spectrum antimicrobials and hemodialysis over an approximately 1-month hospitalization, achieving complete resolution of renal failure."
+    }
+  }
+}

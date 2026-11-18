@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3914130_01",
+  "pair_id": "PMC3914130_01::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 65-years-old Swiss fisherman, known for hypertension, hypercholesterolemia, and gout presents with fever, epigastric pain, myalgia, and jaundice lasting for one week. Initial laboratory exam reveals acute kidney injury, liver failure, elevated troponin I, and thrombocytopenia (Table 1). Because of frequent arrhythmia (ventricular extrasystole) and an elevated troponin I raising the suspicion of myocarditis, he is admitted during 48 hours to the intensive care unit (ICU) for monitoring. \nBecause of the initial presentation and the patient's occupation, leptospirosis was immediately suspected and treated with antibiotics (ceftriaxone). Initially, renal function improved. Serologies for Leptospira icterohaemorrhagiae were positive, confirming the diagnosis.\nSuddenly, 7 days after the beginning of his hospitalization, he presented multiple-organ failure (MOF) of liver, kidney, and lung required mechanical ventilation and high doses of norepinephrine. His APACHE II and SAPS II scores were 37 and 80, respectively, which means an expected 90% mortality (see Table 1 for others parameters). \nPlasma exchanges were started, followed by continuous renal replacement therapy with high-volume hemofiltration (HVHF) at 70 mL/kg/h. He received five sessions of plasma exchanges and was treated during 72 hours by HVHF, followed then by 10 days of standard hemodiafiltration before renal function recovered. \nHis ICU stay was complicated by a penicillin-resistant enterococcus bacteremia requiring vancomycin treatment. Because of the large doses of amines, he developed dry necrosis of both extremities. He also required transient pacing for extreme bradycardia. Hemorrhagic bronchial secretions caused several respiratory arrests. Finally, he developed a severe CMV colitis requiring sigmoidectomy and ganciclovir.\nHe stayed in ICU for 45 days and was released from hospital after 70 days. He received care for skin necrosis of the feet and he had a brief hospitalization to restore bowel continuity.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old male fisherman presented with a 1-week history of fever, epigastric pain, myalgia, and jaundice.",
+      "history_of_present_illness": "The patient presented to the hospital in Switzerland after 1 week of fever, epigastric pain, diffuse myalgia, and jaundice.",
+      "past_medical_history": "History of hypertension, hypercholesterolemia, and gout. Worked as a professional fisherman in Switzerland.",
+      "review_of_systems": "Positive for fever, epigastric pain, myalgia, and jaundice."
+    },
+    "objective": {
+      "physical_examination": "Presented with fever, jaundice, epigastric tenderness, and frequent ventricular extrasystoles; deteriorated on hospital day 7 into severe multiorgan failure with hemorrhagic bronchial secretions, extreme bradycardia, and subsequent bilateral dry gangrene/necrosis of the distal extremities from high-dose vasopressors.",
+      "routine_investigations": "Admission labs demonstrated acute kidney injury, hepatic failure, thrombocytopenia, and elevated troponin I, with frequent ventricular extrasystoles on cardiac monitoring.",
+      "advanced_workup": "Diagnosed with severe cytomegalovirus (CMV) colitis during prolonged ICU course, confirmed on sigmoidectomy pathology/workup."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed severe icterohemorrhagic leptospirosis (Weil's syndrome) caused by Leptospira icterohaemorrhagiae (confirmed by positive specific serology). Initially treated with IV ceftriaxone and 48-hour ICU cardiac monitoring. On hospital day 7, he developed fulminant multiorgan failure (hepatic, renal, and pulmonary failure with hemorrhagic bronchial secretions; APACHE II 37, SAPS II 80) requiring mechanical ventilation, high-dose norepinephrine, transient cardiac pacing for severe bradycardia, 5 sessions of therapeutic plasma exchange, 72 hours of high-volume hemofiltration (HVHF at 70 mL/kg/h), and 10 days of standard hemodiafiltration. ICU stay (45 days) was further complicated by penicillin-resistant Enterococcus bacteremia (treated with vancomycin), vasopressor-induced dry necrosis of both feet, and severe CMV colitis requiring sigmoidectomy and ganciclovir. Discharged after 70 days with subsequent wound care and elective restoration of bowel continuity."
+    }
+  }
+}
