@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5928731_03",
+  "pair_id": "PMC5928731_03::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "In March 2014, a 27-year-old male presented to the ED because of a 5-day history of back pain, chills, fever, headache, eye pain, and arthralgia. On physical examination, he had jaundice and icteric sclera, dry oral mucosa, and tender calves. Laboratory results revealed thrombocytopenia and elevated total bilirubin and creatinine phosphokinase (CPK; 1,572 u/L). Urinalysis revealed hematuria and bilirubinemia. He was diagnosed with suspected leptospirosis with rhabdomyolysis, hospitalized, and given IV ceftriaxone and fluid replacement.\nApproximately 24 hours after arrival to the ED, the patient had worsening thrombocytopenia and elevated serum creatinine and LFTs. On the second day of hospitalization, he had vomiting but remained afebrile, serum creatinine and LFTs were further elevated, and CPK rose to 4,709 u/L. Ceftriaxone and fluid replacement were continued, and antiemetics were given. On day 3 of hospitalization, he remained afebrile, platelet count stabilized, and CPK decreased to 1,783 u/L. The patient's symptoms improved and vomiting stopped, but jaundice and icteric sclera persisted through the following day. A renal sonogram on day 5 of hospitalization showed fluid along the right upper quadrant. He was discharged home on day 8 of hospitalization.\nA leptospirosis IgM antibody test by a commercial reference laboratory with serum collected on the day of admission was negative. Tests for Hepatitis A, B, and C and blood cultures drawn on admission were negative. Leptospira interrogans DNA was detected by PCR in a serum specimen collected on day 3 of illness, which was negative by MAT. Serum collected upon patient discharge had a reciprocal MAT titer of 1,600 against serogroup Bataviae (serovar Bataviae).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 27-year-old man presented with a 5-day history of back pain, chills, fever, headache, eye pain, and arthralgia.",
+      "history_of_present_illness": "In March 2014, the patient presented to the emergency department after 5 days of fever, chills, back pain, arthralgia, headache, and ocular pain.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, chills, back pain, arthralgia, headache, and eye pain; developed inpatient vomiting on hospital day 2."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed cutaneous jaundice, scleral icterus, dry oral mucosa, and bilateral calf muscle tenderness.",
+      "routine_investigations": "Admission labs showed thrombocytopenia, hyperbilirubinemia, and elevated CPK (1,572 U/L), with urinalysis showing hematuria and bilirubinuria. Over hospital days 1–2, thrombocytopenia worsened, serum creatinine and liver transaminases rose, and CPK peaked at 4,709 U/L before declining to 1,783 U/L on day 3. Admission blood cultures, viral hepatitis A, B, and C panels, and commercial admission Leptospira IgM ELISA were negative. Day 5 renal ultrasound demonstrated right upper quadrant perihepatic fluid.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed icteric leptospirosis complicated by severe rhabdomyolysis, thrombocytopenia, and acute kidney injury, confirmed by positive serum Leptospira interrogans PCR on day 3 of illness and seroconversion on microscopic agglutination test (MAT) from negative on day 3 to a reciprocal titer of 1:1,600 against serogroup Bataviae (serovar Bataviae) at discharge. Treated with IV ceftriaxone, aggressive IV fluid hydration, and antiemetics, achieving clinical and biochemical recovery and discharge on hospital day 8."
+    }
+  }
+}

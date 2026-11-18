@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12884678_04",
+  "pair_id": "PMC12884678_04::Amoebiasis",
+  "target_disease": "Amoebiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 20.0,
+  "raw_case_text": "Blood cultures and abscess aspirate cultures were finalized as negative. Eravacycline monotherapy was continued from Day 12 to Day 19, during which time the patient defervesced (Figure 3). Stool antigen testing returned positive for E. histolytica, while universal PCR for fungi and bacteria was negative. The patient was then transitioned to the standard of care, oral metronidazole. Cytology and CEA, BCG, and AFP tests from the aspirate were also negative, lowering concerns for malignancy. HIV testing was negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A patient presented with a febrile hepatic abscess requiring antimicrobial therapy and diagnostic aspiration.",
+      "history_of_present_illness": "The patient experienced persistent fever associated with a liver abscess and was managed with eravacycline monotherapy from hospital day 12 to day 19, during which defervescence occurred.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever (defervesced between hospital days 12 and 19)."
+    },
+    "objective": {
+      "physical_examination": "Patient defervesced between hospital days 12 and 19.",
+      "routine_investigations": "Blood cultures and HIV testing were negative.",
+      "advanced_workup": "Liver abscess aspirate bacterial/fungal cultures, universal PCR for fungi and bacteria, cytology, and aspirate tumor/infectious markers (CEA, BCG, and AFP) were all negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Stool antigen testing returned positive for Entamoeba histolytica (while bacterial/fungal cultures, universal PCR, and cytology/tumor markers CEA, AFP, and BCG from the abscess aspirate were negative, ruling out pyogenic abscess and malignancy), confirming an amoebic infection. After defervescing on eravacycline monotherapy from Day 12 to Day 19, the patient was transitioned to standard-of-care oral metronidazole."
+    }
+  }
+}

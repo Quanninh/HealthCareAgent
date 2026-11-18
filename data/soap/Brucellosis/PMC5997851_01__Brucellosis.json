@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5997851_01",
+  "pair_id": "PMC5997851_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 42 years-old Caucasian male (weight: 84 kg, height: 178 cm), came to our observation in July 2013 complaining about asthenia associated with a right latero-cervical lymphadenomegaly, started two years before. The patient, along with these symptoms, has never reported fever. He was resident in a rural area, living in contact with several animals (in particular birds and cats) and worked as a volunteer in a human hospital. The patient reported allergy to diclofenac, cipressaceae and parietaria plants. He underwent two interventions for inguinal hernia, the first at the age of 11 years and the second at the age of 34. In 2004, he suffered from kidney stones. In 2004 he had toxoplasmosis. In July and in August 2014 he was referred twice to the Unit of Neurology because of a previous diagnosis of epilepsy treated with levetiracetam and topiramate from 2002 to 2007. Upon admission to the neurology ward, serological tests for several agents were performed (T. gondii, Cytomegalovirus, Epstein-Barr virus, Brucella, HBV, HCV, HIV, T. pallidum, Salmonella spp.), and all were negative. Full blood cell count was normal. Lymph node ultrasound (US) documented the presence of numerous lymph nodes at submandibular, lateral cervical, axillary and groin regions with maximum diameter of about 2.5 cm. So, we decided to perform both serology and RT PCR for Bartonella spp., for the suspicion of CSD. The result of a positive RT PCR for B. henselae led us to star therapy with doxycycline 100 mg, twice daily, per os for ten days. Then the patient discontinued treatment for epigastralgia. After 9 days, he restarted doxycycline 100 mg, twice daily, per os. We suggested him, in order to avoid further epigastralgia, to take a gastroprotective therapy, so he was able to continue an appropriate treatment for two weeks. This therapy was stopped after RT PCR for B. henselae DNA resulted to be undetectable. After antibiotic therapy, there was a significant reduction of lymphadenopathy and fatigue and asthenia recovered. At the last outpatient consultation, in June 2014, just a small left later cervical node was evident, followed by complete regression in January 2015.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old Caucasian male presented in July 2013 with a 2-year history of persistent asthenia and right laterocervical lymphadenopathy without fever.",
+      "history_of_present_illness": "A 42-year-old rural male presented with 2 years of chronic fatigue/asthenia and painless right lateral cervical lymph node enlargement in the absence of fever.",
+      "past_medical_history": "Resided in a rural area in contact with cats and birds and volunteered in a hospital. History of bilateral/recurrent inguinal hernia repairs at ages 11 and 34, nephrolithiasis and toxoplasmosis in 2004, and epilepsy treated with levetiracetam and topiramate from 2002 to 2007. Allergies to diclofenac and Cupressaceae/Parietaria pollens.",
+      "review_of_systems": "Positive for chronic asthenia/fatigue and neck lymph node swelling; negative for fever; developed transient doxycycline-induced epigastralgia during treatment."
+    },
+    "objective": {
+      "physical_examination": "Weight 84 kg, height 178 cm; afebrile; palpable right laterocervical lymphadenomegaly.",
+      "routine_investigations": "Normal complete blood count. Negative serologies for Toxoplasma gondii, CMV, EBV, Brucella, HBV, HCV, HIV, Treponema pallidum, and Salmonella spp. Ultrasound of the lymph nodes revealed multiple enlarged submandibular, bilateral lateral cervical, axillary, and inguinal lymph nodes up to 2.5 cm in maximum diameter.",
+      "advanced_workup": "Real-time PCR (RT-PCR) and serology for Bartonella henselae were positive."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive Bartonella henselae real-time PCR (with negative Brucella, Toxoplasma, viral, and treponemal serologies) confirmed chronic generalized cat-scratch disease (Bartonella henselae lymphadenitis). Treated with oral doxycycline (100 mg BID for 10 days, paused 9 days for epigastralgia, then resumed with gastroprotection for an additional 2 weeks until B. henselae DNA RT-PCR turned undetectable), achieving resolution of asthenia and complete regression of lymphadenopathy by January 2015."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3299074_01",
+  "pair_id": "PMC3299074_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A forty-two-year-old female PLHIV (people living with HIV) not on antiretroviral treatment (ART) was admitted with the history of sudden onset left hemiplegia and altered sensorium for 4 days. There was no history of fever, headache, vomiting or convulsion. She received antituberculosis treatment for pulmonary tuberculosis 6 months back. On examination she was afebrile, pulse was 54 per minute regular and blood pressure was 140/90 mmHg. Pallor and oral candidiasis were noted. There was no evidence of lymphadenopathy.\nCentral nervous system examination revealed GCS of 5/15. Right pupil was dilated and nonreacting, no papilledema on fundoscopy. Left upper motor neuron facial palsy present. Patient had left hemiplegia. Other systems examination was normal.\nOn investigations, her hemoglobin was 9 gm%, total leucocytic count was 8000/cumm. Metabolic lab was normal. Her CD4 count was 14/cumm and chest X-ray was normal. CT scan brain showed large 5x4x4.5 cm abscess in right frontoparietal region with severe mass effect and leptomeningitis. [Figure 1]. Urgent drainage of intracranial abscess was done by neurosurgeon. Approximately 50 cc pus was drained.\nPatient became ambulatory by fifth postoperative day with marked improvement in sensorium.\nAcid fast bacilli were seen on ZN staining of pus. Pus was inoculated on Lowenstein Jensen's medium. Single white colony was grown by second week which was not rough and dry as seen in typical myocobacterium tuberculosis growth, but was smooth and wet in appearance and nonpigmented. Smear was strongly positive for acid-fast bacilli which were long and slender. Further confirmation was done by niacin test which was negative which favored the infection by NTM. The organism was further identified as MAI by standard biochemical tests.\nPatient was started on tab Clarithromycin, tab Ethambutol, and ART. Repeat CT scan brain after 1 week, showed reduction in the size of abscess with perilesional edema [Figure 1].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old antiretroviral-naive HIV-positive female presented with a 4-day history of sudden-onset left hemiplegia and altered sensorium.",
+      "history_of_present_illness": "Four days prior to admission, the patient developed acute left-sided paralysis and progressive stupor/coma without preceding fever, headache, vomiting, or seizures.",
+      "past_medical_history": "Known HIV infection (not on antiretroviral therapy); treated for pulmonary tuberculosis 6 months prior.",
+      "review_of_systems": "Negative for fever, headache, vomiting, or convulsions."
+    },
+    "objective": {
+      "physical_examination": "Afebrile, pulse 54/min regular (bradycardia), BP 140/90 mmHg, pallor, and oral candidiasis; no peripheral lymphadenopathy. Neurological exam: GCS 5/15, dilated non-reactive right pupil, no papilledema on fundoscopy, left upper motor neuron facial palsy, and complete left hemiplegia.",
+      "routine_investigations": "Hb 9 g/dL, WBC 8,000/mm^3, normal metabolic panel, severe immunosuppression with CD4+ T-cell count 14 cells/mm^3, and normal chest X-ray.",
+      "advanced_workup": "Brain CT demonstrated a large 5 × 4 × 4.5 cm right frontoparietal brain abscess with severe mass effect and leptomeningitis. Emergency neurosurgical drainage evacuated ~50 cc of pus, which showed numerous long, slender acid-fast bacilli on Ziehl-Neelsen staining."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Culture of the evacuated brain abscess pus on Lowenstein-Jensen medium grew smooth, wet, non-pigmented colonies by week 2 that were niacin-test negative and biochemically identified as Mycobacterium avium-intracellulare (MAI; ruling out M. tuberculosis relapse). Following emergency neurosurgical evacuation (by postoperative day 5 the patient was alert and ambulatory), she was started on oral clarithromycin, ethambutol, and antiretroviral therapy (ART), with 1-week repeat head CT showing marked abscess reduction."
+    }
+  }
+}

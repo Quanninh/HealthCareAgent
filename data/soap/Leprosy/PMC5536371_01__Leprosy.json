@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5536371_01",
+  "pair_id": "PMC5536371_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A 40-year-old woman came to our attention for assistance in legal proceedings involving compensation for her compromised health condition. Her clinical history was significant for migraine, celiac disease, cephalosporin intolerance and nickel allergy. In 1996, she underwent Le Fort I osteotomy and bilateral positioning of two metal \"L\" plates and wires for maxillofacial malformation and malocclusion. There were no complications during surgery and follow-up. During the following years, the patient reported a significant increase in the pre-existing migraine with aura, photophobia and dizziness.\nIn 2004, the patient noticed the appearance of a skin rash located in the right regions of the forehead, nose, upper and lower jaw associated with trigeminal paresthesia. Ulcerations were painless but pruriginous. The right side of the face was severely disfigured; the left side had similar, but less severe, lesions. The tip of the nose was completely spared.\nDermatological examination diagnosed an allergy to nickel, a material found in the metal plates positioned during surgery 8 years before (Figure 1); plates and wires were therefore removed in 2005. Instrumental tests, including skin biopsy, were negative for human herpes virus, autoimmune vascular and connective diseases, leprosy, granulomatosis and skin cancer. No clinically evident neurologic deficits were reported during neurological examination. In 2008, a psychiatrist also diagnosed a severe reactive chronic depressive syndrome caused by the social difficulties following the disfiguring effects of the disease. In 2010, the ulceration of the right ala nasi caused the collapse of the nasal septum (Figures 2 and 3).\nThe diagnosis of TTS was based on the instrumental test results, clinical history and the exclusion of other possible causes of the painless, non-healing ulcerations present in the patient.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old woman presented for medicolegal evaluation of chronic, painless, pruritic, disfiguring right-predominant facial ulcerations, trigeminal paresthesia, and nasal septum collapse that evolved starting 8 years after maxillofacial osteotomy.",
+      "history_of_present_illness": "Following a Le Fort I osteotomy with bilateral metal 'L' plates and wires in 1996, the patient experienced worsening migraine with aura, photophobia, and dizziness. In 2004 (8 years postoperatively), she developed trigeminal paresthesias and a skin rash with painless, pruritic ulcerations over the right forehead, nose, maxilla, and mandible (and milder contralateral lesions) sparing the nasal tip. Removal of the nickel-containing plates and wires in 2005 failed to halt progression; she was diagnosed with severe reactive chronic depression in 2008, and by 2010 right ala nasi ulceration resulted in nasal septum collapse.",
+      "past_medical_history": "History of maxillofacial malformation/malocclusion treated with Le Fort I osteotomy in 1996, migraine with aura, celiac disease, cephalosporin intolerance, nickel allergy (diagnosed in 2004, hardware removed in 2005), and severe reactive chronic depressive syndrome (diagnosed in 2008).",
+      "review_of_systems": "Positive for trigeminal paresthesia, pruritic painless facial ulcerations, nasal collapse, migraine with aura, photophobia, dizziness, and chronic depression."
+    },
+    "objective": {
+      "physical_examination": "Facial examination revealed severe disfiguring ulcerations and scarring over the right forehead, nose (with right ala nasi destruction and nasal septum collapse, completely sparing the nasal tip), and upper and lower jaws, with milder similar lesions on the left hemiface. Neurological examination showed trigeminal territory sensory paresthesia without motor or other focal neurological deficits.",
+      "routine_investigations": null,
+      "advanced_workup": "Patch/dermatological testing confirmed nickel allergy; instrumental tests and facial skin biopsy were negative for herpes simplex/zoster viruses, autoimmune vasculitis and connective tissue diseases, leprosy, Wegener's granulomatosis, and cutaneous malignancy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Based on the post-surgical trigeminal sensory neuropathy, characteristic painless self-induced pruritic facial and alar ulcerations sparing the nasal tip, and exclusion of infectious (herpes, leprosy), neoplastic, and autoimmune/granulomatous etiologies on skin biopsy, a final diagnosis of trigeminal trophic syndrome (TTS) secondary to iatrogenic trigeminal nerve injury and nickel-plate hypersensitivity was established."
+    }
+  }
+}

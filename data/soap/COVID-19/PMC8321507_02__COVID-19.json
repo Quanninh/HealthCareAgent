@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8321507_02",
+  "pair_id": "PMC8321507_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "Patient 2 is an asymptomatic 51-year-old man with a history of oral cavity squamous cell carcinoma, associated swallowing difficulties, and repetitive aspiration pneumonia, previously treated by surgery, chemotherapy, and immunotherapy, who underwent [18F]FDG PET/CT for restaging in March 2020.\nFollow-up PET/CT (Fig. 2b) showed a good partial metabolic response of the primary tumor (black arrows) compared with the baseline scan (Fig. 2a). However, PET/CT showed the appearance of few bilateral GGOs (yellow arrows) in the posterior segments of the inferior lung lobes (Fig. 2 c-h) associated with hilar and mediastinal lymph nodes (Fig. 2b, red arrow), both mildly FDG-avid. \nDue to these findings suspicious for COVID-19, the patient was counseled, and isolation and sanitation measures were triggered. The patient was quarantined at home with adequate clinical monitoring. After 2 days, he developed fever > 38 C, which resolved spontaneously. RT-PCR for SARS-CoV-2 was negative in two consecutive tests.\nIn this patient, considering the clinical history, [18F]FDG PET/CT findings matched aspiration pneumonia, mimicking COVID-19 infection.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An asymptomatic 51-year-old man with treated oral cavity squamous cell carcinoma and chronic dysphagia presented for a routine restaging [18F]FDG PET/CT scan.",
+      "history_of_present_illness": "The patient underwent a restaging [18F]FDG PET/CT in March 2020 while asymptomatic, which revealed incidental bilateral lower-lobe ground-glass opacities; two days after being placed in home quarantine, he developed a transient self-limited fever >38 C.",
+      "past_medical_history": "Oral cavity squamous cell carcinoma (previously treated with surgery, chemotherapy, and immunotherapy), chronic swallowing difficulties (dysphagia), and recurrent aspiration pneumonia.",
+      "review_of_systems": "Asymptomatic at the time of PET/CT imaging, followed 2 days later by transient fever (>38 C)."
+    },
+    "objective": {
+      "physical_examination": "Asymptomatic at initial presentation; developed transient fever >38 C two days later during home quarantine.",
+      "routine_investigations": null,
+      "advanced_workup": "Restaging [18F]FDG PET/CT demonstrated a good partial metabolic response of the primary oral cavity tumor alongside new mildly FDG-avid bilateral ground-glass opacities in the posterior segments of the lower lobes and mildly FDG-avid hilar and mediastinal lymphadenopathy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Recurrent aspiration pneumonia mimicking COVID-19 on restaging [18F]FDG PET/CT in a patient with oral cavity squamous cell carcinoma and dysphagia; SARS-CoV-2 infection was ruled out by two consecutive negative RT-PCR tests, and his transient fever resolved spontaneously during home monitoring."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5389975_02",
+  "pair_id": "PMC5389975_02::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "White male, born in 1993, the first child of a non-consanguineous couple. BCG-vaccinated during the first month of life. At age 1 year, he presented with suppurative axillary adenopathy ipsilateral to the BCG vaccination site. He was treated with Isoniazid (10 mg/kg/day) for 6 months, with good clinical evolution. At age 13 years, he had cervical lymphadenopathy and fever. Histoplasmosis was confirmed by histopathology (Figure 1A) and was treated with ketoconazole (400 mg/day) with excellent response. At age 18 years, he had a relapse of histoplasmosis manifested by bulky cervical lymphadenopathy, hoarseness, dysphagia, and fever. Video laryngoscopy revealed bilateral granulomatous lesions of the aryepiglottic folds (Figure 1B). Immunological findings included hyper-IgE (17,300 and 17,937 IU/mL in two separate tests; Reference Value, RV: <87); IgG = 2,790 mg/dL (RV: 549-1584), IgA = 225 mg/dL (RV: 61-348), IgM = 106 mg/dL (RV: 23-259); CD4 = 350 cells/mm3 (41.5%), CD8 = 269 cells/mm3 (17.2%), CD4/CD8 = 1.30. Histoplasmosis recurrence was treated with Itraconazole (600 mg/day) for 2 years. He is currently healthy without prophylaxis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old white male presented with bulky cervical lymphadenopathy, hoarseness, dysphagia, and fever.",
+      "history_of_present_illness": "The patient had a history of ipsilateral suppurative axillary adenopathy after BCG vaccination at age 1 year (resolved with 6 months of isoniazid) and cervical lymphadenopathy with fever at age 13 years diagnosed histopathologically as histoplasmosis (treated successfully with ketoconazole 400 mg/day). At age 18 years, he presented with recurrent bulky cervical lymphadenopathy, hoarseness, dysphagia, and fever.",
+      "past_medical_history": "BCG-vaccinated in the first month of life; BCG-itis (suppurative axillary lymphadenitis) at age 1 year treated with isoniazid (10 mg/kg/day for 6 months); cervical lymph node histoplasmosis at age 13 years treated with ketoconazole (400 mg/day). Born in 1993 to non-consanguineous parents.",
+      "review_of_systems": "Positive for neck swelling, hoarseness, dysphagia, and fever."
+    },
+    "objective": {
+      "physical_examination": "Bulky cervical lymphadenopathy.",
+      "routine_investigations": null,
+      "advanced_workup": "Video laryngoscopy: bilateral granulomatous lesions of the aryepiglottic folds. Immunological evaluation: marked hyper-IgE (17,300 and 17,937 IU/mL on two tests; reference <87 IU/mL), IgG 2,790 mg/dL (ref 549-1,584), IgA 225 mg/dL (ref 61-348), IgM 106 mg/dL (ref 23-259), CD4 350 cells/mm3 (41.5%), CD8 269 cells/mm3 (17.2%), CD4/CD8 ratio 1.30. Prior lymph node histopathology confirmed histoplasmosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Relapsed cervical and laryngeal (aryepiglottic fold) histoplasmosis associated with hyper-IgE immunodeficiency phenotype. Confirmation: Prior lymph node histopathology confirming Histoplasma capsulatum and video laryngoscopy showing bilateral granulomatous aryepiglottic fold lesions alongside extreme hyper-IgE (17,300-17,937 IU/mL). Plan & clinical course: Treated with oral itraconazole 600 mg/day for 2 years, achieving complete clinical resolution and remaining healthy off prophylaxis."
+    }
+  }
+}

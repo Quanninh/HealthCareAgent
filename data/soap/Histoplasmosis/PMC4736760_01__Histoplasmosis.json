@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4736760_01",
+  "pair_id": "PMC4736760_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 4-year-old boy presented to our hospital with a 6-month history of on and off vague abdominal pain and anorexia. Two weeks prior to admission, the pain remained vague but was associated with occasional nonprojectile vomiting and nausea; he however continued to have normal bowel habits. A day prior to coming to the hospital, he started having projectile Bilious Vomiting.\nHe was admitted as a patient of acute absolute intestinal obstruction, possibly due to intussusception. The preliminary blood work revealed no derangement in function; that is, he had normal complete blood count, liver function tests, and renal function tests. Abdominal ultrasound was done, where reduced bowel peristalsis was seen, with no other remarkable findings. The plain abdominal X-ray showed a possible gross dilation of colon in the hepatic flexure with few air-fluid levels.\nOn Exploratory Laparotomy, we found a very large (15 cm in diameter) mesenteric cyst within the small bowel mesentery located 30 cm from the ileocecal junction and obstructing a portion (10 cm) of small bowel lying above it (Figures 1, 2, and 3).\nExcision of the cyst together with resection and anastomosis of the affected bowl were carried out. We drained 750 mL of chylous fluid from the excised cyst.\nHistopathological findings (Hematoxylin and Eosin stain, Ziehl-Neelsen stain, and periodic acid-Schiff stain) showed the presence of histoplasmosis spores within the lining of the cyst (Figures 4, 5, and 6).\nThe patient had an uneventful postoperative recovery period. He was discharged 5 days later after full recovery. Parents report that he has since gained an appetite for food. He also is currently on itraconazole treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 4-year-old boy presented with a 6-month history of intermittent vague abdominal pain and anorexia, worsening over 2 weeks with nausea and vomiting, and 1 day of projectile bilious vomiting.",
+      "history_of_present_illness": "The child experienced intermittent vague abdominal pain and anorexia for 6 months with normal bowel habits. Two weeks prior to admission, he developed occasional nonprojectile vomiting and nausea, which progressed 1 day prior to admission to acute projectile bilious vomiting.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for abdominal pain, anorexia, nausea, and projectile bilious vomiting; normal bowel habits prior to acute obstruction."
+    },
+    "objective": {
+      "physical_examination": "Admitted with clinical signs of acute absolute intestinal obstruction initially suspected to be intussusception.",
+      "routine_investigations": "Preliminary blood work: normal CBC, liver function tests, and renal function tests. Abdominal ultrasound: reduced bowel peristalsis without other remarkable findings. Plain abdominal X-ray: gross dilation of the colon at the hepatic flexure with air-fluid levels.",
+      "advanced_workup": "Exploratory laparotomy: large 15-cm mesenteric cyst within the small bowel mesentery located 30 cm from the ileocecal junction, obstructing a 10-cm segment of overlying small bowel and containing 750 mL of chylous fluid. Histopathology of excised mesenteric cyst (H&E, Ziehl-Neelsen, and PAS stains): Histoplasma spores identified within the cyst lining."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Giant chylous mesenteric cyst caused by gastrointestinal histoplasmosis resulting in acute small bowel obstruction. Confirmation: Histopathological examination (H&E, Ziehl-Neelsen, and PAS stains) of the excised mesenteric cyst wall demonstrating Histoplasma capsulatum spores. Plan & clinical course: Underwent surgical excision of the 15-cm mesenteric cyst with segmental small bowel resection and primary anastomosis, followed by oral itraconazole therapy; discharged after an uneventful 5-day postoperative recovery with restored appetite."
+    }
+  }
+}

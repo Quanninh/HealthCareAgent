@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8635719_01",
+  "pair_id": "PMC8635719_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 60-year-old previously healthy male farmer presented to the First Affiliated Hospital of Xi'an Jiaotong University with a 6-month history of intermittent fever. Five months ago, he was diagnosed with VL and treated with sodium antimony gluconate (SAG) (0.6 g/d) for 6 days. The patients' condition improved, and he was discharged from the hospital. However, he was readmitted to our hospital because of recrudesce fever. He had a history of working in coalmines and current hypertension treated with oral therapy. There was no complication related to hypertension. Medical, surgical, pharmacological and family histories were not significant. His body weight was 70 kg. Physical examination revealed splenomegaly, no superficial lymphadenopathy, and no edema of the lower limbs. Blood cultures as well as tests for bacteria, fungi, tuberculosis, parasites, and brucellosis agglutination were all negative. His laboratory findings included pancytopenia with a C-reactive protein (CRP) level of 82.8 mg/L and procalcitonin (PCT) level of 0.88 ng/mL. The patient's liver function and coagulation function were abnormal. Computed tomography of the abdomen confirmed the presence of splenomegaly. Examination of bone marrow aspirate revealed amastigotes, which is the typical sign of leishmaniasis. PACE-seq metagenomic next-generation sequencing (mNGS) (Hugobiotech, Beijing, China) detected 5,074 specific reads of Leishmania in the blood sample, also indicating leishmaniasis (Figure 1). The polymerase chain reaction (PCR) test of the bone marrow aspirate confirmed the diagnosis. He was thus diagnosed with recurrent VL.\nBecause the patient experienced relapse after treatment with antimonials, he received L-AmB. The starting dose of L-AmB was 10 mg/day (~0.15 mg/kg). Then dose escalation of the L-AmB for the patient is presented in Figure 2. On the 17th day of the treatment protocol when the accumulated dose reached 500 mg (10 mg/kg), PCR of the bone marrow aspirate of Leishmania was negative. The patient's blood cell counts (red blood cells, white blood cells, and platelets) increased gradually, and his spleen size decreased gradually. During the treatment, patient's liver function remained normal. There was no recurrence of VL at the 1-year follow-up visit. The patient's temperature and L-AmB dose were presented in Figure 2, and his basic information was summarized in Table 1.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old male farmer from northwestern China presented with a 6-month history of intermittent fever that relapsed 5 months after a 6-day course of sodium stibogluconate for visceral leishmaniasis.",
+      "history_of_present_illness": "Five months prior to admission to the First Affiliated Hospital of Xi'an Jiaotong University, the patient was diagnosed with visceral leishmaniasis and treated for 6 days with sodium antimony gluconate (0.6 g/day) with transient clinical improvement, followed by recrudescent intermittent fevers.",
+      "past_medical_history": "History of visceral leishmaniasis treated 5 months prior with short-course sodium stibogluconate; hypertension controlled on oral therapy; former coal-mine worker and farmer.",
+      "review_of_systems": "Taking oral antihypertensive medication; positive for recurrent fever."
+    },
+    "objective": {
+      "physical_examination": "Body weight 70 kg; febrile with palpable splenomegaly, no superficial lymphadenopathy, and no lower-extremity edema.",
+      "routine_investigations": "Labs showed pancytopenia, abnormal liver function and coagulation parameters, CRP 82.8 mg/L, and procalcitonin 0.88 ng/mL. Blood cultures and routine tests for bacteria, fungi, tuberculosis, parasites, and Brucella agglutination were negative.",
+      "advanced_workup": "Abdominal CT confirmed splenomegaly. Bone marrow aspirate microscopy revealed intracellular Leishmania amastigotes, bone marrow Leishmania PCR was positive, and peripheral blood PACE-seq metagenomic next-generation sequencing (mNGS) detected 5,074 specific Leishmania sequence reads."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Bone marrow aspirate microscopy, bone marrow PCR, and peripheral blood mNGS (5,074 Leishmania reads) confirmed antimony-relapsed Visceral Leishmaniasis. Gradual dose-escalation therapy with intravenous liposomal amphotericin B (starting at 10 mg/day [~0.15 mg/kg] and escalating to a cumulative dose of 500 mg [10 mg/kg] by day 17) achieved negative bone marrow Leishmania PCR on day 17, normalization of blood counts and spleen size, and no recurrence at 1-year follow-up."
+    }
+  }
+}

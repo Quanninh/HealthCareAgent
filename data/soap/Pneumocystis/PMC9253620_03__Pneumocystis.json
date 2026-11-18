@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9253620_03",
+  "pair_id": "PMC9253620_03::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Two days later, the sputum culture result was negative. Nevertheless, the mNGS results showed that PJ and CMV nucleic acid sequences were found in both sputum and venous blood, and the tests were performed by Genskey Medical Technology Co., Ltd. (Beijing, China) using the procedures described by Grumaz et al. The database referenced during analysis of the sequencing data contains 12,895 species of bacteria, 11,120 species of viruses, 1582 species of fungi, 312 species of parasites, 184 species of mycoplasma/chlamydia, and 177 species of mycobacteria. The other microorganisms detected by mNGS are listed in Table 1, which were mainly common bacteria and were not considered to be the cause of invasive lung infections. The genomic coverage depth map of the sequence obtained by mNGS is shown in Figures 3A-D. We also verified PJ infection by Sanger sequencing (Figure 3E). Using these results combined with other physical examination results, the patient was diagnosed with PJ and CMV caused multipathogenic pneumonia. The causative agent of pneumocystis is generally known to be unculturable in vitro. Although the NGS results showed the presence of other microbial sequences, multiple blood culture and sputum culture results were negative, At the same time, the number of DNA copies of CMV was less than 2000 copies/mL, and CR showed that there was still a large amount of exudation in the lungs (Figure 2B). TMP-SMX (120 mg/kg dose Q6H) combined with CAS (14.4 mg, QD) as well as MEM (100 mg Q8H) was continued for 11 days (Figure 1).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A critically ill pediatric patient with severe pneumonia and negative routine cultures underwent metagenomic next-generation sequencing of sputum and peripheral blood.",
+      "history_of_present_illness": "Following hospital admission for severe pneumonia with negative routine sputum and blood cultures, metagenomic next-generation sequencing (mNGS) was performed on both sputum and venous blood samples 2 days later to identify the underlying respiratory pathogens.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Routine microbiology and virology: Multiple blood and sputum bacterial/fungal cultures negative; quantitative blood cytomegalovirus (CMV) DNA <2,000 copies/mL. Chest radiograph (CR): Extensive bilateral pulmonary exudation.",
+      "advanced_workup": "Sputum and venous blood metagenomic next-generation sequencing (mNGS; Genskey Medical Technology) and Sanger sequencing: Detected nucleic acid sequences of both Pneumocystis jirovecii (PJ) and human cytomegalovirus (CMV) in paired sputum and venous blood specimens, with P. jirovecii infection further verified by targeted Sanger sequencing."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Severe multipathogenic pneumonia caused by Pneumocystis jirovecii and cytomegalovirus (CMV) co-infection, definitively confirmed by paired sputum and venous blood metagenomic next-generation sequencing (mNGS) and Sanger sequencing despite negative conventional sputum and blood cultures. Plan and clinical course: Treated with combined trimethoprim-sulfamethoxazole (TMP-SMX 120 mg/kg q6h), intravenous caspofungin (14.4 mg QD), and meropenem (100 mg q8h) for 11 days."
+    }
+  }
+}

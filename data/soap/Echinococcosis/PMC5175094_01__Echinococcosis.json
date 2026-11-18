@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5175094_01",
+  "pair_id": "PMC5175094_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 60-year-old Turkish woman came to our hospital with a growing mass in the left periumblical region of the abdominal wall. She had her mass for about six months. The mass was fluctuant, mobile and painful. The overlying skin was hyperemic. In the superficial tissue ultrasonography (US) a 3x2 cm cystic mass was detected in the subcutaneous tissue of left periumblical region of the abdominal wall. The lesion had a smooth contour and an avascular wall. It was doubtful for hydatid cyst. The hydatid serology was negative. The patient had no history of surgery for a hydatid cyst in any other organ. Magnetic Resonance Imaging (MRI) and computed tomography (CT) were performed to confirm the diagnosis of hydatid cyst and to demonstrate relationship of cyst to adjacent organs. There was no other organ involvement including liver or lung, and no additional cysts were observed on the abdominal, and thoracal MRI and CT (Figure 1).\nDuring the operation the cyst was found in the subcutaneous tissue and hypertonic saline (3% NaCl) was injected into the cyst and after waiting for 10 min, the cyst was surgically and carefully excised. Macroscopic exploration suggested a hydatid cyst with its germinative membrane (Figure 2). Histopathological examination of the specimen was reported as a hydatid cyst.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old Turkish woman presented with a 6-month history of a painful, enlarging mass in the left periumbilical abdominal wall.",
+      "history_of_present_illness": "The patient noticed a progressively growing, painful swelling in the left periumbilical region of her anterior abdominal wall over the preceding 6 months.",
+      "past_medical_history": "No history of prior hydatid cyst surgery in any organ; resided in Turkey.",
+      "review_of_systems": "Positive for a painful, enlarging left periumbilical mass."
+    },
+    "objective": {
+      "physical_examination": "A fluctuant, mobile, painful mass was palpated in the left periumbilical region of the anterior abdominal wall with overlying cutaneous hyperemia.",
+      "routine_investigations": "Hydatid serology was negative. Superficial soft-tissue ultrasonography revealed a smooth-contoured, avascular 3 x 2 cm cystic mass in the left periumbilical subcutaneous tissue.",
+      "advanced_workup": "Thoracic and abdominal CT and MRI confirmed an isolated 3 x 2 cm subcutaneous anterior abdominal wall cyst with no hepatic, pulmonary, or intraperitoneal involvement. Intraoperative injection of 3% hypertonic saline for 10 minutes followed by complete surgical excision revealed a typical germinative membrane, and histopathology confirmed a subcutaneous hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated subcutaneous hydatid cyst of the left periumbilical anterior abdominal wall (3 x 2 cm), confirmed by macroscopic identification of the germinative membrane and postoperative histopathology despite negative hydatid serology. Complete surgical excision following intralesional 3% NaCl scolicidal instillation was curative."
+    }
+  }
+}

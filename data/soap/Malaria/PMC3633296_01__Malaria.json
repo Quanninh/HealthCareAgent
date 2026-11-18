@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3633296_01",
+  "pair_id": "PMC3633296_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 50-year-old uneducated male of low socioeconomic status was scheduled for amputation of toes. To start with, he had complaint of fever associated with chills and rigors for 3 weeks. He consulted a local practitioner who prescribed some tablets about which patient could not give the details. He noticed blackening of toes of both the feet, which was slow and progressive over 1 week. As he was not responding to the treatment, he was rushed to our medical college. There was no history of trauma, significant drug ingestion particularly ergot, alcohol consumption or smoking. On physical examination, he was febrile, dehydrated, and had pallor; there was no icterus, cyanosis, edema, or significant lymphadenopathy. A pulse rate of 120/min, respiratory rate of 24/min, and blood pressure of 90/70 mmHg was recorded. All peripheral pulses were palpable. On systemic examination, mild hepatosplenomegaly was present and rest of the systemic examination was normal. On local examination, there was blackish discoloration of all toes, extending up to malleoli [Figures 1 and 2]. Intavenous line was secured. Ringer lactate was started and investigations were sent for. Reports were as follows [Table 1].\nPeripheral blood smear showed ring forms of P. falciparum with occasional gametocytes. Three consecutive blood cultures for bacteria were negative. Color Doppler study of the lower limbs revealed normal flow in both the femorals and the popliteal, with slightly reduced flow in tibial and dorsalis pedis artery with hypoechogenic shadow in its lumen.\nThe patient was given i.v. quinine, loading dose of 20 mg/kg followed by a maintenance dose of 10 mg/kg thrice a day for 2 days. Then, the patient was shifted to oral quinine (dose 10 mg/kg) thrice a day and oral paracetamol 500 mg thrice a day for 5 days. Two units of packed cell transfusion were also given. Fever subsided within 5 days of treatment. His peripheral smear for malarial parasite became negative after 7 days of quinine course. Line of demarcation did not progress any further. For management of gangrene, amputation was planned. All repeated blood investigations were within normal limits except prothrombin time 16.5 s, fibrinogen level 2.9 g/L (normal value 1.5-4 g/L), and D-dimer 1.7. The surgery was done under total i.v. anesthesia.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old male presented with a 3-week history of fever with chills and rigors and a 1-week history of progressive blackening of all toes on both feet.",
+      "history_of_present_illness": "The patient developed fever with chills and rigors 3 weeks prior to admission and took unidentified tablets from a local practitioner without relief. One week before presentation, he noticed slow, progressive blackening of the toes of both feet extending toward the ankles.",
+      "past_medical_history": "Uneducated male of low socioeconomic status; no history of trauma, ergot or other significant drug ingestion, smoking, or alcohol consumption.",
+      "review_of_systems": "Positive for fever, chills, rigors, and bilateral toe darkening/gangrene."
+    },
+    "objective": {
+      "physical_examination": "Febrile, dehydrated, and pale, without icterus, cyanosis, edema, or lymphadenopathy; pulse 120/min, RR 24/min, BP 90/70 mmHg, and palpable peripheral pulses. Mild hepatosplenomegaly on abdominal exam; local exam showed dry blackish discoloration (gangrene) of all toes bilaterally extending up to the malleoli with a clear demarcation line.",
+      "routine_investigations": "Three consecutive bacterial blood cultures were negative. Lower-limb color Doppler ultrasound showed normal femoral and popliteal arterial flow with slightly reduced flow and a luminal hypoechogenic shadow in the tibial and dorsalis pedis arteries. Repeat pre-amputation blood tests were normal except for PT 16.5 s, fibrinogen 2.9 g/L (normal 1.5-4 g/L), and D-dimer 1.7.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Plasmodium falciparum malaria complicated by bilateral lower-extremity symmetrical peripheral gangrene. Confirmed by peripheral blood smear showing P. falciparum ring forms and occasional gametocytes. Treated with Ringer's lactate resuscitation, 2 units of packed RBCs, IV quinine (20 mg/kg loading dose, then 10 mg/kg TID for 2 days) followed by oral quinine 10 mg/kg TID and oral paracetamol 500 mg TID for 5 days; fever resolved by day 5, blood smears cleared by day 7, and toe amputation was performed under total intravenous anesthesia."
+    }
+  }
+}

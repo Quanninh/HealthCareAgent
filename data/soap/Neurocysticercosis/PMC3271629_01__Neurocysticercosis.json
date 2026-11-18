@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3271629_01",
+  "pair_id": "PMC3271629_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 35-year-old man presented with sudden onset of headache, nausea, and giddiness of two-day duration. He did not have any significant medical history. On examination, his vital signs were normal. Neurological examination revealed exotropia of his right eye with hypotropia of his left eye in primary gaze [Figure 1]. His head position was tilted to left resulting in his left eye to be on a lower plane than the right. On attempted left gaze, there was loss of adduction in his right eye and mild dissociated nystagmus in his left eye. On attempted right gaze, his eye movements were normal [Figure 2] [Video 1]. His pupils were equal in size and reacted normally to light. His convergence was impaired on the right. Optokinetic test revealed an adduction lag in his right eye. His vertical saccades were normal. Ocular torsion (OT) and skew deviation were not measured objectively. There was no history of diplopia. Rest of his neurological examinations including fundus and other cranial nerves were normal. The above clinical features are characteristic of INO plus syndrome. MRI brain of the patient showed a typical well-defined cystic lesion with intracavitary scolex on the right side of mid pons [Figure 3]. The evidence of a typical scolex on a CT or MRI is considered the absolute criteria for diagnosis of neurocysticercosis. The presence of unilateral INO with ipsilesional exotropia in primary gaze is characteristic of WEMINO syndrome. The head tilt and skew torsion away from the lesion side comprised a contraversive OTR. Thus, this patient has isolated WEMINO syndrome with contraversive OTR.\nThe patient was started on a course of albendazole and oral steroids. The exotropia and nystagmus disappeared in two days. Patient was discharged after a week with near complete recovery of ocular movements. Follow up after two weeks of onset of symptoms revealed complete recovery of ocular movements.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old man presented with a 2-day history of sudden-onset headache, nausea, and giddiness.",
+      "history_of_present_illness": "The patient developed acute headache, nausea, and giddiness 2 days prior to presentation, without diplopia.",
+      "past_medical_history": "No significant past medical history.",
+      "review_of_systems": "Denied diplopia."
+    },
+    "objective": {
+      "physical_examination": "Vital signs were normal. Neurological and neuro-ophthalmologic examination revealed a leftward head tilt (left eye on a lower plane than the right), right eye exotropia and left eye hypotropia in primary gaze, loss of right eye adduction with mild dissociated left eye nystagmus on leftward gaze, impaired right convergence, right adduction lag on optokinetic testing, and normal rightward gaze and vertical saccades (characteristic of wall-eyed monocular internuclear ophthalmoplegia [WEMINO] syndrome with contraversive ocular tilt reaction [OTR]). Pupils were equal and reactive, and fundoscopy and remaining neurological examinations were normal.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI demonstrated a well-defined cystic lesion containing an intracavitary scolex on the right side of the mid-pons."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive pontine neurocysticercosis causing isolated WEMINO syndrome and contraversive OTR was diagnosed based on the Del Brutto absolute MRI criterion of an intracavitary scolex. Treatment with albendazole and oral corticosteroids led to resolution of exotropia and nystagmus within 2 days, hospital discharge at 1 week, and complete recovery of ocular motility at 2-week follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3322787_02",
+  "pair_id": "PMC3322787_02::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 35-year-old Caucasian man went to an urgent care clinic twice before being admitted to the hospital with fever as high as 39.4 C, myalgias, and renal insufficiency later. Additional symptoms included headache, photophobia, nausea, and anorexia, starting 10 days after returning from the boating trip. Signs included subtle diffuse flushing and conjunctival suffusions. Initial laboratory values showed a mild hepatitis with a rising creatinine that increased daily to peak at 4.0 mg/dL. Liver enzymes were elevated with peak values of alanine aminotransferase (ALT) 258 U/L, alkaline phosphatase 189 U/L, and bilirubin 3.5 mg/dL. Results of examination of the cerebrospinal fluid were normal. Leukocyte count was within normal range at 4.7 k/muL. By the third day of hospitalization, after IV rehydration and broad-spectrum antimicrobial agents, the patient's fever subsided with improvement of his myalgias and headache. He was discharged and given doxycyline 100 mg twice daily for 10 days. He had no clinical sequelae.\nSerologic tests for infectious hepatitis A, B, C, and brucella, and a Monospot test were negative. MAT and IgM-ELISA for leptospirosis were processed at the Centers for Disease Control and Prevention (CDC), and the California Department of Health Services (CDHS), respectively. Titers from serum drawn 15 days after the initial exposure were negative; however, convalescent-phase serum drawn 17 days later tested positive for leptospira by IgM-ELISA at CDHS, and MAT at CDC showed the strongest reaction with serovars from L. interrogans serogroups Australis and Mini (Table 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old Caucasian man presented with high fever up to 39.4 °C, myalgias, headache, photophobia, nausea, and anorexia starting 10 days after a houseboating trip.",
+      "history_of_present_illness": "Ten days after swimming and hiking along a rain-swollen muddy creek at New Melones Lake, California (May 5–7, 2000), the patient developed fever up to 39.4 °C, myalgias, headache, photophobia, nausea, and anorexia. He visited an urgent care clinic twice before hospital admission for progressive renal insufficiency.",
+      "past_medical_history": "Participated in a houseboating trip on New Melones Lake (Tuolumne County, California) May 5–7, 2000, where he swam to a remote cove and hiked through muddy creek waters after a thundershower.",
+      "review_of_systems": "Positive for high fever, myalgias, headache, photophobia, nausea, and anorexia."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed fever (up to 39.4 °C), subtle diffuse cutaneous flushing, and bilateral conjunctival suffusion.",
+      "routine_investigations": "Admission WBC count was normal at 4.7 K/µL. Chemistry panels showed rising serum creatinine peaking at 4.0 mg/dL, elevated ALT peaking at 258 U/L, ALP 189 U/L, and total bilirubin 3.5 mg/dL. Serologies for hepatitis A, B, and C, Brucella, and infectious mononucleosis (Monospot) were negative.",
+      "advanced_workup": "Lumbar puncture CSF examination was normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed leptospirosis complicated by acute kidney injury and mild hepatitis (part of the May 2000 New Melones Lake common-source outbreak). While acute serum at 15 days post-exposure was negative, convalescent serum drawn 17 days later tested positive by Leptospira IgM-ELISA at the California Department of Health Services (CDHS) and by microscopic agglutination test (MAT) at the CDC (highest titers against Leptospira interrogans serogroups Australis and Mini). Treated with IV hydration, empiric broad-spectrum IV antimicrobials (defervescing by hospital day 3), and a 10-day outpatient course of oral doxycycline 100 mg twice daily, achieving full recovery without sequelae."
+    }
+  }
+}

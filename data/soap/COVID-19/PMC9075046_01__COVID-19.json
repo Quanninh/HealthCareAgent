@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9075046_01",
+  "pair_id": "PMC9075046_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "We present a case of a male patient of North African origin in his late twenties who was brought to the emergency department with four days of abdominal pain, fever, diarrhea, and dyspnea. There was no medical history of relevance. On arrival, the physical exam was significant for a temperature of 38.2oC, heart rate of 128 beats/min, respiratory rate of 40 breaths/min, blood pressure of 90/60 mmHg, O2Sat of 87% at room air, and mild pain in the right upper quadrant without peritoneal irritation.\nLab work showed elevated D-dimer (3344 ng/dl), C-reactive protein (15 mg/L), and alkaline phosphatase (136.8 U/L). The chest X-ray depicted a right lower lobe opacity, accompanied by hypoxaemia (PaO2/FiO2 ratio 150); however, the COVID-19 RT-PCR test was negative.\nBased on the initial workup, a severe pneumonia was suspected without ruling out COVID-19 infection, despite the negative RT-PCR test, thus the majority of ED visits at that moment of the pandemic was still due to this virus. A combination of antibiotic therapy was started, with ceftriaxone and azithromycin to cover multiple possible pathogens in the context of sepsis caused by the suspected community-acquired pneumonia (CAP). Hydroxychloroquine and lopinavir/ritonavir were added to the treatment to cover nonbacterial infections. Due to worsening of respiratory distress and hypotension, enoxaparin infusion was started, and a CT pulmonary angiogram was requested to rule out pulmonary embolism (PE). The chest imaging showed segmental atelectasis in the right lower lobe, without signs of pulmonary infection. Incidentally a cystic liver lesion was identified on the upper abdominal sections (Figure 1).\nConsequently, an abdomimal CT was performed, depicting a liver cyst in segment V/VI with a detached hyperdense membrane floating within the cyst. In a posterior subcapsular region a wall defect was observed, associated to a focal intrahepatic bile duct dilatation that reached the cyst. Fat stranding and a small amount of free perihepatic fluid were also present (Figure 2). These findings suggested a liver hydatid cyst with direct rupture into the abdominal cavity causing a possible anaphylactic reaction that may explain the respiratory and gastrointestinal symptoms. The focal bile duct dilatation was probably due to intrabiliary rupture of the cyst or as a result of direct compression of biliary branches.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A male patient in his late twenties of North African origin presented to the emergency department with a 4-day history of abdominal pain, fever, diarrhea, and acute dyspnea.",
+      "history_of_present_illness": "The patient presented with 4 days of abdominal pain, fever, diarrhea, and shortness of breath, and was initially treated empirically for suspected severe community-acquired or COVID-19 pneumonia before thoracoabdominal CT revealed a ruptured hepatic cyst.",
+      "past_medical_history": "Unremarkable past medical history; originally from North Africa.",
+      "review_of_systems": "Positive for abdominal pain, fever, diarrhea, and shortness of breath."
+    },
+    "objective": {
+      "physical_examination": "On arrival, temperature was 38.2 C, HR 128 bpm, RR 40 breaths/min, BP 90/60 mmHg, SpO2 87% on room air, with mild right upper quadrant abdominal tenderness without peritoneal signs.",
+      "routine_investigations": "Labs showed elevated D-dimer (3344 ng/dL), CRP (15 mg/L), and alkaline phosphatase (136.8 U/L), and hypoxemia with a PaO2/FiO2 ratio of 150. Chest X-ray showed a right lower lobe opacity.",
+      "advanced_workup": "CT pulmonary angiography excluded pulmonary embolism, showed right lower lobe segmental atelectasis without pneumonia, and detected a cystic liver lesion. Dedicated abdominal CT revealed a hepatic hydatid cyst in segments V/VI containing a detached floating hyperdense membrane ('water-lily sign'), a posterior subcapsular wall defect with direct intraperitoneal rupture, focal intrahepatic bile duct dilatation, perihepatic fat stranding, and free perihepatic fluid."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Spontaneous intraperitoneal and intrabiliary rupture of a hepatic hydatid cyst (segments V/VI) causing secondary anaphylactic/septic shock and reactive right lower lobe atelectasis, initially mimicking severe COVID-19 pneumonia (SARS-CoV-2 RT-PCR was negative). Initially treated empirically with ceftriaxone, azithromycin, hydroxychloroquine, lopinavir/ritonavir, and enoxaparin prior to definitive CT diagnosis of ruptured hepatic echinococcosis."
+    }
+  }
+}

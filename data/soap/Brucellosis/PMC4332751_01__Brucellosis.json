@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4332751_01",
+  "pair_id": "PMC4332751_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 50-year-old male livestock farmer was admitted to Sparta General Hospital with a 4-day history of fever, malaise, night sweats, and shortness of breath. He had been diagnosed with blood culture proven Brucella infection 6 months ago and was treated with a double regimen of 21 days of streptomycin and two months of doxycycline. He had recovered completely and Brucella antibodies titers were negative after two months of treatment. On admission, he was febrile (38.7 C) and physical examination revealed cervical lymphadenopathy, hepatosplenomegaly, and a 2/6 diastolic aortic murmur not reported in his previous medical history. According to CBC he was anemic (Ht 24%) and leukopenic (3.200/muL), ESR was 102 mm/h, and biochemistry revealed a serum creatinine value of 2.1 mg/dL while BUN levels were 92 mg/dL. Wright standard tube agglutination test was positive in a titer of 1 : 1600. Blood cultures were positive for Brucella spp. that was identified later as melitensis. In transthoracic echocardiogram, vegetations were present on a bicuspid aortic valve (Figure 1). A triple antibiotic regimen with 900 mg of rifampicin, 200 mg of doxycycline daily, and streptomycin adjusted for renal failure was initiated. Transesophageal echocardiogram was performed the next day and confirmed the presence of active vegetations but also revealed severe aortic regurgitation and rupture of the noncoronary leaflet. He was referred for cardiothoracic consultation and a valve replacement surgery was decided. During hospitalization, fever, malaise, and renal failure had gradually resolved, but he developed decompensated heart failure requiring loop diuretics and oxygen supplementation. On the 21st day of treatment, streptomycin has been replaced with cotrimoxazole and three days later valve replacement was performed. The patient recovered without any surgical complications, continued antibiotic treatment for 6 months, and is currently well.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old male livestock farmer with a history of brucellosis 6 months earlier presented with a 4-day history of fever, malaise, night sweats, and shortness of breath.",
+      "history_of_present_illness": "A 50-year-old male livestock farmer who had been treated 6 months earlier for blood-culture-positive brucellosis (with 21 days of streptomycin and 2 months of doxycycline, achieving negative titers) presented with 4 days of high fever, malaise, night sweats, and dyspnea.",
+      "past_medical_history": "Livestock farmer; blood-culture-proven brucellosis 6 months prior (treated with 21 days of streptomycin and 2 months of doxycycline); previously unrecognized bicuspid aortic valve.",
+      "review_of_systems": "Positive for fever, malaise, night sweats, and dyspnea."
+    },
+    "objective": {
+      "physical_examination": "Temperature 38.7 C; cervical lymphadenopathy, hepatosplenomegaly, and a new grade 2/6 diastolic aortic murmur; subsequently developed decompensated congestive heart failure.",
+      "routine_investigations": "Anemia (hematocrit 24%), leukopenia (WBC 3,200/uL), ESR 102 mm/h, serum creatinine 2.1 mg/dL, and BUN 92 mg/dL. Transthoracic echocardiogram (TTE) revealed vegetations on a bicuspid aortic valve.",
+      "advanced_workup": "Transesophageal echocardiogram (TEE) confirmed active vegetations on the bicuspid aortic valve complicated by rupture of the noncoronary leaflet and severe aortic regurgitation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Serum Wright standard tube agglutination titer was 1:1,600 and blood cultures isolated Brucella melitensis, confirming relapsed Brucella melitensis endocarditis of a bicuspid aortic valve with leaflet rupture and acute renal failure. Initiated on triple antibiotic therapy with oral rifampicin (900 mg/day), oral doxycycline (200 mg/day), and renally adjusted intramuscular streptomycin (switched on day 21 to cotrimoxazole), alongside loop diuretics and oxygen for heart failure, followed on hospital day 24 by surgical aortic valve replacement. The patient had an uneventful surgical recovery, completed 6 months of antimicrobial therapy, and remained clinically well."
+    }
+  }
+}

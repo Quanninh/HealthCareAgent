@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7527865_04",
+  "pair_id": "PMC7527865_04::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "In 2017, an eight year-old Caucasian male from Salvador, Bahia, Brazil, presented with a hyperemic and pruritic lesion on the upper lip which had persisted for six months. Patient was treated with acyclovir cream, 5%, 5 times/day and cefadroxil (50 mg/kg/day) for seven days, with no response. He presented worsening of the lesion and Montenegro intradermal examination was performed ( Figure 2a). The patient was positive for American Tegumentary Leishmaniasis. Treatment with glucantime (10 mg/day) for 20 days was initiated. After three days of treatment, the patient developed vomiting episodes, intermittent fever, diarrhea, hypoglycemia, dark urine, and began developing a reaction of cardiotoxicity and hepatoxicity. Treatment with liposomal amphotericin B was initiated (3 mg/kg/day for 5 days, followed by 3 mg/kg). One month later, patient was discharged with remission of the lesion ( Figure 2b). Two months later, the patient was admitted at University Hospital with a new, erythematous and ulcerated lesion on the upper lip lesion, lymphadenopathy, and facial edema. Therapy with amoxicillin 250 mg (1g/day) and amphotericin B (100 mg/day) for 10 days was started. Patient is currently in psychological follow-up due to trauma caused by facial disfiguration and difficulty in returning to social life. Patient maintained outpatient follow-up and did not present with recurrence of the lesion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old Caucasian boy from Salvador, Bahia, Brazil, presented in 2017 with a 6-month history of a persistent hyperemic, pruritic, and ulcerated lesion on his upper lip.",
+      "history_of_present_illness": "The upper-lip lesion persisted and worsened over 6 months despite a 7-day course of topical 5% acyclovir cream (5 times daily) and oral cefadroxil (50 mg/kg/day). After diagnosis of tegumentary leishmaniasis, systemic meglumine antimoniate (Glucantime 10 mg/kg/day) caused severe hepatotoxicity and cardiotoxicity after 3 days; switching to liposomal amphotericin B achieved remission at 1 month, followed 2 months later by a local upper-lip relapse with facial edema and lymphadenopathy.",
+      "past_medical_history": "8-year-old boy from Salvador, Bahia, Brazil.",
+      "review_of_systems": "Positive for upper-lip pruritus, ulceration, facial edema, and reactive psychological distress from facial disfigurement; developed acute vomiting, fever, diarrhea, hypoglycemia, dark urine, hepatotoxicity, and cardiotoxicity on day 3 of Glucantime."
+    },
+    "objective": {
+      "physical_examination": "Hyperemic, pruritic, and subsequently ulcerated lesion on the upper lip, accompanied at the 2-month relapse by facial edema and regional lymphadenopathy.",
+      "routine_investigations": "Montenegro intradermal test was positive; day-3 labs on Glucantime showed hypoglycemia, hepatotoxicity, and cardiotoxicity.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Herpes labialis and bacterial impetigo were excluded by lack of response to acyclovir/cefadroxil and a strongly positive Montenegro intradermal test confirming labial American Tegumentary Leishmaniasis. After meglumine antimoniate (10 mg/kg/day) was discontinued on day 3 due to acute cardiotoxicity and hepatotoxicity, initial liposomal amphotericin B (3 mg/kg/day for 5 days plus consolidation dose) and subsequent retreatment of the 2-month relapse with amphotericin B (100 mg/day for 10 days) plus oral amoxicillin (1 g/day) and psychological counseling achieved complete, relapse-free healing."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6796742_01",
+  "pair_id": "PMC6796742_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 31-year old Tanzanian man presented to the Surgery clinic at *** General Hospital (an academic hospital of *** Medical Corporation, Doha, Qatar) with two-year history of right groin swelling that becomes more prominent with standing and exertion, with episodes of discomfort in the same area but without intense pain. He had no comorbidities, there were no other gastrointestinal or urologic symptoms, and the systemic review was unremarkable.\nThe patient had normal vital signs. Abdominal examination showed a right groin swelling, not reaching down the scrotum, with no skin changes or discoloration, exhibiting a cough impulse but incompletely reducible, yet not tender. Genitourinary examination was otherwise unremarkable. These findings were clinically in favor of inguinal hernia. Laboratory tests were not done as the patient was young with no comorbidities. He was booked for daycare right inguinal mesh hernioplasty (Lichtenstein repair). The patient was prepared in the classic manner for the surgery under general anesthesia. After incision and dissection, the hernia sac was found to be thick. Palpation revealed a texture of hard mass inside. The sac was opened distally, revealed the appendix with a hard mass on its tip (Fig. 1, Fig. 2), and the cecum formed part of the sac wall proximally. Appendectomy was carried out from the same incision, followed by reduction of the cecum to the peritoneal cavity and closure of the sac, then completion of the hernia repair. Post-operative diagnosis was right indirect sliding Amyand Hernia with mass. The patient recovered smoothly and was discharged. Follow up was arranged 10 days after discharge in order to review the histopathology report.\nAt follow up, the wound was healing well with no surgical complications, histopathology showed periappendiceal necrotizing granulomatous inflammation with calcified parasitic ova, consistent with schistosomiasis (Fig. 3, Fig. 4). Further subtyping of the Schistosoma was not possible due to the calcification of ova. The patient was informed about the histopathologic findings and was referred to infectious disease clinic.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old Tanzanian man presented in Doha, Qatar, with a 2-year history of a right groin swelling that increased with standing and exertion and caused intermittent mild discomfort.",
+      "history_of_present_illness": "Over the preceding 2 years, the patient noticed a right inguinal swelling that became more prominent during standing and physical exertion and was associated with occasional local discomfort without severe pain or gastrointestinal or urological symptoms.",
+      "past_medical_history": "From Tanzania; no known medical comorbidities.",
+      "review_of_systems": "Denied gastrointestinal, urological, or constitutional symptoms; review of systems was unremarkable."
+    },
+    "objective": {
+      "physical_examination": "Vital signs were normal. Abdominal and groin examination revealed a non-tender, incompletely reducible right inguinal swelling with a positive cough impulse that did not extend into the scrotum and had normal overlying skin; genitourinary examination was otherwise normal.",
+      "routine_investigations": "Preoperative laboratory tests were not performed due to the patient's young age and absence of comorbidities.",
+      "advanced_workup": "Intraoperative exploration during elective right inguinal Lichtenstein mesh hernioplasty revealed a thickened indirect sliding hernia sac whose proximal wall was formed by the cecum and which contained the appendix with a hard mass at its tip (Amyand hernia); appendectomy, cecal reduction, and mesh hernia repair were performed. Histopathology of the resected appendix demonstrated periappendiceal necrotizing granulomatous inflammation surrounding calcified Schistosoma ova."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed schistosomal appendicitis presenting as a right indirect sliding Amyand hernia with an appendiceal tip mass via histopathology showing calcified Schistosoma ova in necrotizing granulomas. Following uncomplicated appendectomy and Lichtenstein hernia repair, he had an uneventful wound recovery at 10-day follow-up and was referred to the infectious disease clinic for antiparasitic management."
+    }
+  }
+}

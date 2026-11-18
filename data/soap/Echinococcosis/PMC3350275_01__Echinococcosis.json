@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3350275_01",
+  "pair_id": "PMC3350275_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 50-year-old man presented with right leg and low-back pain. His medical history included a cholecystectomy and essential hypertension. On physical examination, a fixed hard mass was palpated in the right lower abdominal quadrant. Laboratory results were normal, including CEA and CA 19-9. Abdominal computed tomography (CT) revealed a thick-walled, cystic, multilocular mass measuring 10 x 10 cm in front of the right psoas and iliopsoas muscles and adjacent to the iliac vessels. Spotty calcification was seen in the thick, hyperdense wall on nonenhanced CT (Figure 1). On enhanced CT the wall and septae were not enhanced (Figure 2). On Doppler ultrasound (US), no vascular mapping was seen in the wall or septae, but fluid-fluid levels were seen. Based on the US, Doppler US, and pre- and postcontrast abdominal CT findings, a retroperitoneal type CE5 hydatid cyst was diagnosed preoperatively.\nAt surgery, the retroperitoneal mass was successfully resected en bloc without damaging the right iliac vein or artery. Chest CT to look for possible lung metastases was performed after MFH was diagnosed histopathologically. Chemotherapy was not planned. Adjuvant radiotherapy to the retroperitoneal region was recommended.\nMacroscopically, the postoperative pathologic examination showed that the tumor was a 12 x 10 x 9 cm solid mass, with a thin calcified capsule. Microscopically, the tumor contained spindle cells and fibroblast-like cells arranged in short fascicles and pleomorphic bizarre histiocyte-like cells, admixed with osteoclast-like multinucleate cells. There was an aneurismal bone cyst-appearing hemorrhagic area, with focal osteoid and mature bone in the tumor capsule (Figures 3 and 4). Immunohistochemically, the tumor cells were positive for CD68 and lysozyme and negative for S-100 and SMA (Figure 5).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old man presented with right leg and low-back pain.",
+      "history_of_present_illness": "The patient presented for evaluation of progressive right lower extremity and low-back pain.",
+      "past_medical_history": "Prior cholecystectomy and essential hypertension.",
+      "review_of_systems": "Positive for right leg pain and low-back pain."
+    },
+    "objective": {
+      "physical_examination": "Abdominal palpation revealed a fixed, hard mass in the right lower quadrant.",
+      "routine_investigations": "Routine laboratory results and serum tumor markers (CEA and CA 19-9) were normal. Abdominal ultrasound and color Doppler showed a 10 x 10 cm multilocular mass with fluid-fluid levels and no mural or septal vascularity.",
+      "advanced_workup": "Pre- and post-contrast abdominal CT demonstrated a 10 x 10 cm thick-walled multilocular mass anterior to the right psoas and iliopsoas muscles adjacent to the iliac vessels, with spotty mural calcifications and no wall or septal enhancement, preoperatively misdiagnosed as a type CE5 retroperitoneal hydatid cyst. Following en bloc surgical resection, gross and microscopic pathology revealed a 12 x 10 x 9 cm solid tumor with a thin calcified capsule, aneurysmal-bone-cyst-like hemorrhagic spaces, focal osteoid/mature bone, short fascicles of spindle/fibroblast-like cells, pleomorphic bizarre histiocyte-like cells, and osteoclast-like multinucleated giant cells (CD68 and lysozyme positive; S-100 and SMA negative on IHC). Postoperative chest CT was negative for pulmonary metastases."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Retroperitoneal malignant fibrous histiocytoma (MFH / undifferentiated pleomorphic sarcoma) with metaplastic bone and aneurysmal-bone-cyst-like changes initially mimicking a type CE5 calcified retroperitoneal hydatid cyst, confirmed by histopathology and CD68/lysozyme immunohistochemistry. Following complete en bloc surgical resection sparing the iliac vessels, adjuvant retroperitoneal radiotherapy was recommended."
+    }
+  }
+}

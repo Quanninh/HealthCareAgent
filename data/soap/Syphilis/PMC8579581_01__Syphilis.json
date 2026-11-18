@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8579581_01",
+  "pair_id": "PMC8579581_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 38-year-old mentally ill antenatal motherwas referred to the sexually transmitted diseases department for screening at 34 weeks of gestation. History could not be elicitedand there were no clinical features of syphilis. Her rapid plasma reagin (RPR) test was reactive in 1:2 dilution. The confirmatory treponema pallidum hemagglutination (TPHA) test was also positive. Lumbar puncture was done, and her cerebrospinal fluid examination was normal. She was diagnosed as latent syphilis of unknown duration and was treated with three doses of injection benzathine penicillin 2.4 MU after test dose at weekly intervals. She delivered a male baby 1 month after the last dose of injection penicillin, and the baby was referred to our department at birth. The baby was well without any clinical or radiological evidence of syphilis. However, RPR was reactive in 1:64 dilution, and TPHA was positive. Maternal RPR at the time of delivery was nonreactive. The child was diagnosed as a case of congenital syphilis and admitted in the neonatal intensive care unit. The baby was treated with injection aqueous crystalline penicillin 50,000 units/kg twice daily for 7 days followed by thrice daily for 3 more days after the test dose as per scenario 1 of the Centers for Disease Control and Prevention guidelines (serum quantitative nontreponemal serologic titer is fourfold higher than the mother's titer). The mother and the child are on follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A term male newborn delivered to a 38-year-old mother treated at 34 weeks' gestation for latent syphilis was referred at birth for congenital syphilis evaluation.",
+      "history_of_present_illness": "The infant's mother, a 38-year-old woman with mental illness, had been diagnosed at 34 weeks' gestation with latent syphilis of unknown duration (maternal RPR 1:2, TPHA positive, CSF normal) and treated with 3 weekly intramuscular doses of benzathine penicillin G 2.4 million units, delivering the male infant 1 month after her last injection. Although clinically and radiographically asymptomatic at birth, the newborn was found to have a high serum RPR titer of 1:64.",
+      "past_medical_history": "Born to a 38-year-old mentally ill mother treated with 3 weekly doses of benzathine penicillin G 2.4 MU starting at 34 weeks' gestation (maternal RPR seroreverted from 1:2 at 34 weeks to non-reactive at delivery).",
+      "review_of_systems": "Clinically well newborn with no overt symptoms at birth."
+    },
+    "objective": {
+      "physical_examination": "Newborn physical examination was completely normal with no clinical stigmata of congenital syphilis.",
+      "routine_investigations": "Newborn radiological skeletal survey was normal. Maternal RPR at delivery was non-reactive.",
+      "advanced_workup": "Maternal prenatal lumbar puncture CSF examination at 34 weeks' gestation was normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed asymptomatic congenital syphilis (CDC Scenario 1: infant quantitative nontreponemal titer >=4-fold higher than maternal titer at delivery), established via a neonatal serum RPR titer of 1:64 and positive neonatal TPHA compared with a non-reactive maternal RPR at delivery. Admitted to the NICU and treated with intravenous aqueous crystalline penicillin G 50,000 units/kg twice daily for 7 days followed by three times daily for 3 days (total 10 days) after a negative test dose."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3322801_01",
+  "pair_id": "PMC3322801_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 20.0,
+  "raw_case_text": "A previously healthy teenage girl, who had immigrated to Oregon from Mexico as an infant, sought care in January 2000 for progressively severe headaches of several months duration. After three office visits, \"tension headaches\" were diagnosed, and symptomatic therapy was prescribed. Neuroimaging was not performed. Several days later she was found dead at home in her bed. Autopsy showed no evidence of trauma, and results of a toxicology screening were negative. Examination of the brain showed obstructive hydrocephalus, bilateral uncal herniation, flattening of the cerebral gyri, and an intact cysticercus compressing the inferior 4th ventricle (Figure 1).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A teenage Mexican-American girl presented for outpatient care with several months of progressively severe headaches.",
+      "history_of_present_illness": "The patient sought medical attention across three outpatient office visits in January 2000 for progressively worsening headaches over several months. She was clinically diagnosed with 'tension headaches' and prescribed symptomatic medications without neuroimaging, and was found dead in bed at home several days later.",
+      "past_medical_history": "Previously healthy; immigrated to Oregon from Mexico as an infant.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Postmortem toxicology screening was negative.",
+      "advanced_workup": "Brain autopsy revealed an intact cysticercus compressing the inferior fourth ventricle, resulting in obstructive hydrocephalus, flattening of the cerebral gyri, and bilateral uncal herniation, with no evidence of trauma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Postmortem neuropathological examination confirmed fatal fourth-ventricular neurocysticercosis causing acute obstructive hydrocephalus and bilateral uncal herniation."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3135015_01",
+  "pair_id": "PMC3135015_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A European 20-year-old woman was referred from our mucous clinic with a history of a vulvar mass evolving for three weeks. Her past medical and surgical history was unremarkable. This mass was painful and was increased in size. The patient went to Senegal and Mali three months ago, and she had a history of swimming in fresh water lakes in these countries. Clinically, we observed a swelling of the right labium minus (Figure 1). This mass was painful with a soft consistency. No other cutaneous or genital lesion was found. She had no fever, urticarial rash, angioedema, dry cough, or wheeze. No hematuria and no dysuria were reported. Hepatomegaly and splenomegaly were absent. Following laboratory parameters were within normal limits: complete blood cell count, serum electrolyte profile, and liver function tests. No antischistosomal antibodies were found in the serum, and there was no eosinophilia. Microscopy of urine and stools was negative for ova, cysts, and parasites and did not contain red blood cells or white blood cells. Biopsy of the vulvar lesion was made. \nHistological examination at low-power view revealed a noncaseating granulomatous reaction to clusters of viable-appearing eggs in the dermis (Figure 2). The granuloma was composed of epitheloid histiocytes and a lot of eosinophils and plasma cells surrounded by a rim of lymphocytes (Figure 3). The epidermis was moderately acanthotic with hyperkeratosis. We observed foci of spongiosis and exocytosis in front of the infiltrate. At high-power view, histology revealed numerous schistosome ova with terminal spines, characteristic of Schistosoma haematobium. The ova contained multiple viable miracidia surrounded by a marked granulomatous inflammatory infiltrate (Figure 4). The diagnosis proposed was FGS. The patient was treated with oral praziquantel at a dose of 2400 mg for one day. She came back to our clinic six months later with disappearance of the vulvar lesion, and no others symptoms were reported.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 20-year-old European woman presented with a 3-week history of a painful, enlarging vulvar mass.",
+      "history_of_present_illness": "The patient was referred from a mucous membrane clinic with a painful swelling of the right labium minus that had progressively enlarged over 3 weeks.",
+      "past_medical_history": "Unremarkable past medical and surgical history. Traveled to Senegal and Mali 3 months prior to presentation, where she swam in freshwater lakes.",
+      "review_of_systems": "Denied fever, urticarial rash, angioedema, dry cough, wheezing, hematuria, or dysuria."
+    },
+    "objective": {
+      "physical_examination": "Genital examination revealed a painful, soft-consistency swelling of the right labium minus without other cutaneous or genital lesions. No hepatomegaly or splenomegaly was present.",
+      "routine_investigations": "CBC (without eosinophilia), serum electrolytes, and liver function tests were within normal limits. Serum antischistosomal antibodies were negative, and urine and stool microscopy were negative for ova, cysts, parasites, RBCs, and WBCs.",
+      "advanced_workup": "Vulvar lesion biopsy histopathology demonstrated moderate epidermal acanthosis, hyperkeratosis, focal spongiosis/exocytosis, and a dermal noncaseating granulomatous infiltrate (epithelioid histiocytes, abundant eosinophils, plasma cells, and a peripheral lymphocytic rim) surrounding clusters of viable Schistosoma haematobium ova with characteristic terminal spines and intact miracidia."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed female genital schistosomiasis (FGS) of the vulva caused by Schistosoma haematobium on dermal histopathology. Treatment with a single 1-day oral dose of praziquantel 2400 mg resulted in complete disappearance of the vulvar lesion and no recurrent symptoms at 6-month follow-up."
+    }
+  }
+}

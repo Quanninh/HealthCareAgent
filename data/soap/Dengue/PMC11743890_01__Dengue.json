@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11743890_01",
+  "pair_id": "PMC11743890_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 28-year-old male patient presented to the outpatient clinic with a two-day history of fever, epigastric pain, nausea, vomiting, body aches, and sweating. Physical examination, despite high grade fever, was unremarkable. Basic laboratory investigations were within the normal range except malaria and dengue fever testing returned positive and oral anti-malarial medication was started. After the first dose of anti-malarial drugs, he experienced severe vomiting, leading to a refusal to continue treatment and self-discharge. Epigastric pain became more severe, vomiting persisted, and he developed chills/rigors and high-grade fever as well. He came back to the health facility, referral hospital Borama regional hospital, after 3 days. His symptoms worsened, characterized by: Day 1: Low-grade fever, mild epigastric pain, nausea, vomiting. Day 2: Persistent fever (up to 39  C), severe epigastric pain, increased vomiting, and chills. Day 3: Severe abdominal pain, loss of appetite, and a fever of 40  C. Day 4: he presented with diffuse abdominal pain.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old male presented with a 2-day history of fever, epigastric pain, nausea, vomiting, body aches, and sweating, returning 3 days after self-discharge with worsening diffuse abdominal pain and high-grade fever up to 40 C.",
+      "history_of_present_illness": "The patient initially presented to the outpatient clinic with 2 days of fever, epigastric pain, nausea, vomiting, body aches, and diaphoresis, began oral antimalarial therapy, experienced severe vomiting after the first dose, and self-discharged against medical advice. Over the ensuing 4 days, his illness progressed from low-grade fever and mild epigastric pain (Day 1) to persistent fever up to 39 C with chills/rigors and severe epigastric pain (Day 2), 40 C fever with anorexia (Day 3), and diffuse abdominal pain upon representation to Borama Regional Hospital (Day 4).",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for high-grade fever (up to 40 C), chills/rigors, sweating, body aches, nausea, severe vomiting, anorexia, and epigastric progressing to diffuse abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Initial physical examination was unremarkable apart from high-grade fever.",
+      "routine_investigations": "Basic laboratory investigations were within normal limits except for positive malaria and dengue fever testing.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Concurrent malaria and dengue fever coinfection, confirmed by positive malaria and dengue diagnostic testing. Initial oral antimalarial therapy was interrupted by severe emesis and self-discharge, requiring readmission to Borama Regional Hospital 3 days later for escalating fever (40 C), persistent vomiting, and diffuse abdominal pain."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11388174_01",
+  "pair_id": "PMC11388174_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 42-year-old sexually active man with a well-controlled HIV infection treated with tenofovir-alafenamide/emtricitabine and dolutegravir presented with a fever of up to 39 degrees Celsius three days before. Two days prior to admission, he developed a severe sore throat to the point where he could not eat much, so he sought medical attention. He is an MSM (man who has sex with man) who engages in both receptive and insertive sexual practices and had multiple partners and high-risk sexual intercourse without condoms including oral sex. The last sexual intercourse was 10 days before symptoms occurred.\nOn examination, body temperature was 36.9 degrees Celsius and other vital signs were within the normal limit. His throat was injected, tonsils were not swollen. There was no lymphadenopathy on his neck. There was an ulcer on his uvula (Fig. A). On laboratory tests, white blood cells were elevated to 10,300/muL, and renal function, liver function, and electrolytes were all unremarkable. A rapid test of group A streptococci was negative. He was started with acyclovir 5 mg/kg IV every 8 h for suspicion of HSV infection, ceftriaxone 2 g IV every 24 h for suspicion of Neisseria gonorrhoeae, minocycline 100 mg IV every 12 h for suspicion of Chlamydia trachomatis. Within two days of starting treatment, his sore throat improved, and he was able to eat, therefore, we switched to oral medicine with amoxicillin/clavulanate, minocycline, and valacyclovir. The swab culture of pharynx turned out to be negative, and PCR tests of Neisseria gonorrhoeae, Chlamydia trachomatis, Mycoplasma genitalium, Mycoplasma hominis, Ureaplasma urealyticum, and Ureaplasma parvum were negative, the RPR (rapid plasma reagin) titer increased to 1:2 which had previously been negative. TPHA (treponema pallidum hemagglutination test) was also positive, and the titer was 1:1280. So, we added Benzylpenicillin 240 million units intramuscularly. His sore throat completely subsided (Fig. B) after Benzylpenicillin intramuscular shot without any recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old HIV-positive man presented with a 3-day history of fever up to 39 C and a 2-day history of severe odynophagia and sore throat.",
+      "history_of_present_illness": "Three days prior to presentation, the patient developed a high fever up to 39 C, followed 1 day later by a severe sore throat that impaired oral intake.",
+      "past_medical_history": "History of well-controlled HIV infection on antiretroviral therapy. Identifies as a man who has sex with men (MSM) engaging in unprotected receptive, insertive, and oral sexual intercourse with multiple partners; last sexual contact was 10 days before symptom onset.",
+      "review_of_systems": "Positive for fever and severe sore throat/odynophagia. Home medications: tenofovir alafenamide, emtricitabine, and dolutegravir."
+    },
+    "objective": {
+      "physical_examination": "On admission, body temperature was 36.9 C with normal vital signs. Oropharyngeal examination revealed pharyngeal erythema/injection, a discrete ulcer on the uvula, non-swollen tonsils, and no cervical lymphadenopathy.",
+      "routine_investigations": "Laboratory tests showed mild leukocytosis (WBC 10,300/uL) with normal renal function, liver function, and electrolytes. Rapid group A Streptococcus antigen test, pharyngeal bacterial culture, and pharyngeal PCR panel for Neisseria gonorrhoeae, Chlamydia trachomatis, Mycoplasma genitalium, Mycoplasma hominis, Ureaplasma urealyticum, and Ureaplasma parvum were all negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed primary/early oropharyngeal syphilis presenting as uvular chancre/ulceration (streptococcal, gonococcal, chlamydial, mycoplasmal, and HSV pharyngitis excluded), established via seroconversion of serum RPR from negative to 1:2 and a strongly positive serum TPHA (titer 1:1,280). After initial empiric IV acyclovir, ceftriaxone, and minocycline (transitioned to oral amoxicillin/clavulanate, minocycline, and valacyclovir), definitive intramuscular benzylpenicillin (benzathine penicillin G 2.4 million units) was administered, resulting in complete resolution of the uvular ulcer and sore throat without recurrence."
+    }
+  }
+}

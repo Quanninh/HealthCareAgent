@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4553664_01",
+  "pair_id": "PMC4553664_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "Twenty-one-year-old adult female with rural background presented in the OPD with chief complaints of headache since 3 years and difficulty in walking since 6 months. Physical examination was unremarkable. A neurologic examination revealed bilateral papilledema. The hematological investigation was within normal limits. No abnormality was found in X-ray chest, echocardiography, ultrasonography (USG) abdomen, and pelvis. Computed tomography (CT) scan of brain revealed mild asymmetrical dilatation of left ventricle with normal size right lateral, third and fourth ventricles without periventricular edematous changes suggesting possibility of outlet obstruction of lateral ventricle [Figure 1a]. Magnetic resonance imaging (MRI) of the brain showed evidence of altered signal intensity complex cystic lesion measuring, approximately 4 cm x 3 cm x 3 cm, noted in left lateral ventricle near foramen of Munro leading to widening of left lateral ventricle with mild midline shift toward right side. Few small daughter cysts noted within the cyst. No significant postcontrast enhancement noted within the lesion [Figure 1b]. Magnetic resonance spectroscopy (MRS) showed acetate peak. No evidence of any other lesions in ventricles and brain parenchyma noted. There was no family history of hydatid infection. The patient underwent left frontal craniotomy. Intraoperative USG of the cystic mass showed a hypoechoic cystic lesion in the left lateral ventricle with another small cystic lesion within this hypoechoic lesion [Figure 2a]. The left lateral ventricular wall including the choroid plexus was exposed. The cystic mass was removed successfully by gentle irrigation of the cleavage plane between the cyst wall and the brain interface with saline [Figure 2b]. After cyst removal, the ventricle was irrigated several times with 3% hypertonic saline. The histopathologic findings were consistent with hydatid cyst [Figure 3a and b]. The postoperative course was uneventful, and she was discharged 10 days after surgery. The patient was continued on anthelmintic albendazole 10 mg/kg 3 times daily for 3 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 21-year-old woman from a rural area presented with a 3-year history of headache and a 6-month history of difficulty walking.",
+      "history_of_present_illness": "The patient experienced chronic headaches for 3 years and developed progressive gait difficulty 6 months prior to outpatient presentation.",
+      "past_medical_history": "Resided in a rural background; no family history of hydatid disease.",
+      "review_of_systems": "Positive for chronic headache and gait difficulty."
+    },
+    "objective": {
+      "physical_examination": "General physical examination was unremarkable; neurological examination revealed bilateral papilledema.",
+      "routine_investigations": "Routine hematological investigations, chest X-ray, echocardiography, and abdominopelvic ultrasonography were all normal.",
+      "advanced_workup": "Brain CT showed asymmetrical dilatation of the left lateral ventricle suggesting foramen of Monro obstruction. Brain MRI and MR spectroscopy (MRS) demonstrated a 4 x 3 x 3 cm complex non-enhancing cystic lesion containing a few small daughter cysts within the left lateral ventricle near the foramen of Monro, causing left ventricular dilatation, mild rightward midline shift, and an MRS acetate peak. Left frontal craniotomy with intraoperative ultrasound guidance and saline cleavage hydrodissection excised the intraventricular cyst intact followed by 3% hypertonic saline ventricular irrigation; histopathology confirmed a hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary solitary intraventricular hydatid cyst of the left lateral ventricle causing obstructive hydrocephalus, confirmed by MRI/MRS (daughter cysts and acetate peak), intraoperative ultrasound, and postoperative histopathology. Following intact microsurgical removal via left frontal craniotomy, the patient had an uneventful recovery, was discharged on postoperative day 10, and completed a 3-month course of oral albendazole (10 mg/kg three times daily)."
+    }
+  }
+}

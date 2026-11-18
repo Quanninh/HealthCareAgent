@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11795238_03",
+  "pair_id": "PMC11795238_03::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "As shown in figure 1, 4 years after his first symptoms with extensive but unsuccessful diagnostics and treatments, including several MRIs, broad genetic analysis and multiple eye surgeries, he was referred to our neurological department for further evaluation. On referral, the patient suffered from severe gait ataxia due to diminished proprioception and absent deep tendon reflexes. Furthermore, diminished pupillary reflex to light with preserved constriction during convergence, described as an Argyll-Robertson pupil as well as an almost complete loss of vision were found. Syphilis screening test was positive, which was confirmed by serological confirmation tests and positive CSF studies (see 'Investigations'). On further interrogation, the patient disclosed a previous syphilis infection 30 years ago, which was likely treated insufficiently with an unknown oral antibiotic. Exact route or place of infection were not recallable. Due to the patient's history and clinical findings along with the laboratory results confirming serological and CSF syphilis activity, we were able to establish the diagnosis of tabes dorsalis.\nA laboratory screening was conducted and revealed positive titres for a syphilis screening test. The diagnosis of syphilis was further confirmed by positive T. pallidum haemagglutination assay and serological activity with a rapid plasma reagin (RPR) of 1:8. A CSF study revealed pleocytosis with 93 cells/microL, predominantly mononuclear, elevated protein, albumin and lactate as well as an intrathecal synthesis of IgG-directed against T. pallidum (table 1).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An adult male presented with a 4-year history of progressive severe gait ataxia and near-complete bilateral vision loss.",
+      "history_of_present_illness": "Over the preceding 4 years, the patient underwent extensive unsuccessful diagnostic workups (including multiple MRIs, broad genetic panels, and multiple eye surgeries) for progressive visual loss and gait instability before being referred to the neurology department.",
+      "past_medical_history": "Upon targeted questioning after positive syphilis screening, the patient disclosed a prior syphilis infection 30 years earlier that had been insufficiently treated with an unknown oral antibiotic.",
+      "review_of_systems": "Positive for severe gait unsteadiness and near-complete blindness."
+    },
+    "objective": {
+      "physical_examination": "Neurological and ophthalmic examination revealed severe sensory gait ataxia secondary to impaired proprioception, absent lower-extremity deep tendon reflexes (areflexia), bilateral Argyll Robertson pupils (diminished pupillary light reflex with preserved convergence constriction), and near-complete bilateral loss of vision.",
+      "routine_investigations": null,
+      "advanced_workup": "Lumbar puncture CSF analysis demonstrated mononuclear-predominant pleocytosis (93 cells/uL), elevated total protein, elevated CSF albumin and lactate, and positive intrathecal anti-Treponema pallidum IgG synthesis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed tertiary parenchymatous neurosyphilis (tabes dorsalis with optic atrophy and Argyll Robertson pupils) occurring 30 years after inadequately treated primary/early syphilis, established via positive syphilis screening, positive TPHA, reactive serum RPR (titer 1:8), CSF mononuclear pleocytosis (93 cells/uL), and intrathecal anti-Treponema pallidum IgG synthesis."
+    }
+  }
+}

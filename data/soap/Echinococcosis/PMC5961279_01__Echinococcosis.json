@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5961279_01",
+  "pair_id": "PMC5961279_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "This 35-year-old female consulted developed increasing paraparesis over two preoperative months. On presentation the motor exam was 3/5, reflexes were hyperactive with bilateral Babinski responses, and she had a relative T6 pin level with loss of vibration appreciation in the lower extremities. She had been undergone surge four times in over 6 years for recurrent hydatid disease affecting the lungs and liver.\nThe MRI of the thoracic spine revealed several multiloculated cystic lesions (hypointense on T1-WI and brightly hyperintense on T2-WI) dorsally and epidurally in the spinal canal extending from T2 to T7 [Figure 1]. The thoraco-abdominal CT scans were negative as were routine laboratory studies.\nThe patient underwent a T7 laminectomy. At surgery, multiple bony and extradural cysts were found and the dura was covered with thick epidural reactive tissue; the latter made the extraction of all cysts very difficult. Next, a silicon intraventricular catheter was inserted in the posterior epidural space through the T7 laminctomy, and passed/advanced cranially under fluoroscopic control to T2-T3 [Figures 2 and 3]. It was irrigated with isotonic saline; a few small cysts with whitish membranes were aspirated utilizing the syringe. This procedure was repeated until the hydatid debris was adequately removed.\nThe early postoperative MRI showed near-total removal of the epidural hydatid cystic lesions [Figure 4a]. The patient recovered and was able to walk with assistance at discharge on the 10th day. Parasitologic and histopathological examinations reconfirmed hydatid disease. She was given albendazole (400 mg daily) for the next 3 months. At one postoperative year, she was asymptomatic and disease free [Figure 4b].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old female with a history of recurrent pulmonary and hepatic hydatid disease presented with a 2-month history of progressive paraparesis.",
+      "history_of_present_illness": "The patient developed progressively worsening bilateral lower extremity weakness over the 2 months preceding neurosurgical consultation.",
+      "past_medical_history": "Underwent four prior surgical operations over the preceding 6 years for recurrent pulmonary and hepatic hydatid disease.",
+      "review_of_systems": "Positive for progressive bilateral lower limb weakness and sensory loss."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed 3/5 lower extremity motor strength, lower limb hyperreflexia with bilateral extensor plantar (Babinski) responses, a relative T6 pinprick sensory level, and impaired lower extremity vibration sense.",
+      "routine_investigations": "Routine laboratory studies were normal.",
+      "advanced_workup": "Thoracic spine MRI demonstrated multiple multiloculated dorsal epidural cystic lesions (T1 hypointense, brightly T2 hyperintense) extending from T2 to T7 with spinal cord compression, while thoracoabdominal CT scans were negative for active visceral cysts. Via a T7 laminectomy, fluoroscopically guided cranial advancement of a silicone intraventricular catheter in the dorsal epidural space to T2-T3 with repeated isotonic saline irrigation and syringe aspiration evacuated the extradural and bony cysts and whitish membranes; parasitologic and histopathological examinations confirmed recurrent spinal hydatid disease."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Recurrent thoracic dorsal epidural and vertebral (T2-T7) cystic echinococcosis causing compressive myelopathy, confirmed by thoracic spine MRI and postoperative parasitological and histopathological examinations. Following minimally invasive T7 laminectomy with fluoroscopy-guided epidural catheter irrigation/aspiration, the patient was discharged walking with assistance on postoperative day 10, completed 3 months of oral albendazole (400 mg/day), and remained asymptomatic and disease-free on 1-year follow-up MRI."
+    }
+  }
+}

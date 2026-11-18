@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4006554_01",
+  "pair_id": "PMC4006554_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 45-year-old Iranian man with renal transplant and with two tumoral lesions was admitted to our dermatology ward on March 2008. The patient was suffering from chronic renal failure due to diabetes (non-insulin-dependent diabetes mellitus, NIDDM) for several years before this admission.\nThe patient developed small popular lesion (2 x 5 millimeter) on his left wrist and right leg (shin) after traveling to an endemic leishmaniasis area (Natanz in Isfahan province, Iran) in April 2006. The diagnosis of CL was confirmed by a positive direct smear for leishman bodies. As the lesions were small, they remained untreated to obtain immunity for the patient.\nDue to chronic renal failure, renal transplantation was performed on the patient in August 2007. After transplantation, he received prednisolone tablets 50 mg/day and cyclosporine 7.5 mg/kg daily (equivalent to 600 mg for an 80 kg patient). Several weeks after renal transplantation and immunosuppressive therapy, these small popular lesions became large cauliflower-like and tumoral lesions measured 3 x 4 x 5 cm on his left wrist and 4 x 5 x 6 cm on his right leg (shin) (Figures 1 and 2).\nA slit-skin smear showed leishman bodies in Giemsa preparations. The leishmanin skin test (Montenegro) was positive with 5 mm induration.\nHistopathological examination of the biopsy obtained specimens demonstrated ulcerative changes and irregular acanthosis in the epidermis, namely, pseudoepitheliomatous hyperplasia. In dermis infiltration of lymphocyte, plasma cell and histiocyte with multinucleated Giant cell were shown. Leishman bodies were seen in histiocytes, especially in the specimen obtained from the lower leg lesion (Figure 3). With regard to the clinical and histopathological findings, the diagnosis of reactivation of CL was made.\nAfter admission to our dermatology department, he was treated with 800 mg/day IV sodium stibogluconate (Pentostam, pentavalent antimonials) for 3 weeks. In addition, his lesions were treated with local destructive cryotherapy; cryotherapy was applied by using the liquid nitrogen according to Asilian et al.. The patient responded favorably to the above treatment. Afterward, the patient was followed up for 5 years. At the latest visit on June 2013, the direct smear and polymerase chain reaction from the site of previous lesion were negative for leishman body.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old male renal transplant recipient presented in March 2008 with two large cauliflower-like tumoral skin lesions on his left wrist and right shin.",
+      "history_of_present_illness": "In April 2006, after traveling to Natanz (Isfahan province, Iran), the patient developed small 2 x 5 mm papular cutaneous leishmaniasis lesions on his left wrist and right shin (confirmed by positive direct smear) that were left untreated to induce natural immunity. Following renal transplantation and initiation of high-dose immunosuppression in August 2007, both lesions rapidly enlarged into large cauliflower-like tumoral masses.",
+      "past_medical_history": "Non-insulin-dependent diabetes mellitus complicated by chronic renal failure, status post renal transplantation in August 2007; prior travel to Natanz, an endemic focus of cutaneous leishmaniasis in Isfahan province, Iran.",
+      "review_of_systems": "Home immunosuppressive regimen (for 80-kg body weight): oral prednisolone 50 mg/day and cyclosporine 600 mg/day (7.5 mg/kg/day)."
+    },
+    "objective": {
+      "physical_examination": "Two large cauliflower-like, verrucous tumoral masses measuring 3 x 4 x 5 cm on the left wrist and 4 x 5 x 6 cm on the right anterior shin.",
+      "routine_investigations": null,
+      "advanced_workup": "Giemsa-stained slit-skin smears were positive for Leishman bodies, and the Montenegro (leishmanin) intradermal test was positive (5 mm induration). Skin biopsy histopathology revealed epidermal ulceration and pseudoepitheliomatous hyperplasia overlying a dermal infiltrate of lymphocytes, plasma cells, histiocytes, and multinucleated giant cells containing intracellular Leishman bodies."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Giemsa slit-skin smears, positive Montenegro skin test, and skin biopsy histopathology confirmed post-transplant reactivation of Cutaneous Leishmaniasis presenting as large cauliflower-like tumoral lesions. Combination therapy with intravenous sodium stibogluconate (Pentostam 800 mg/day for 3 weeks) and local liquid nitrogen cryotherapy achieved complete clinical resolution, with negative follow-up slit-skin smear and PCR at 5 years (June 2013)."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9085217_02",
+  "pair_id": "PMC9085217_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "At 5 years of age, the patient was admitted with a 3-week history of cutaneous changes affecting her face and upper limbs but was otherwise well. Her grandfather, who co-habited with the family, had developed a febrile illness and tested positive for COVID-19 by PCR a few weeks previously. Despite this, she had no history of fever, cough, or other systemic symptoms. No other family member was unwell, including the patient's sibling, who remained well and completely asymptomatic.\nOn physical examination of the new skin changes, there were dusky areas of induration involving the central and lower face, bilateral forearms, and extending onto her hands with associated oedema (Figure 1). There was notable sparing of dependent areas, including the back and posterior legs. Scattered petechial macules were also noted on the left forearm and foot. Aside from the cutaneous changes, no other extraneurological signs were found on examination. She was afebrile and the remaining observations were within the normal range. Investigations demonstrated a mild transaminitis with an ALT of 49 U/L (9-25), a raised amylase of 153 U/L (25-101), D-dimer of 1,785 mug/L (<500), and lactate dehydrogenase of 525 U/L (192-321). Throat swabs for SARS-CoV-2 RNA PCR were negative. Of note, chest radiography, renal function, autoimmune studies, and C-reactive protein levels were normal; however, there was a significant elevation in the terminal complement complex (TCC) at this stage at 244 ng/ml (0-80).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 5-year-old girl presented with a 3-week history of dusky indurated skin lesions and edema over her face, forearms, and hands without systemic symptoms.",
+      "history_of_present_illness": "A few weeks after her co-habiting grandfather had PCR-confirmed febrile COVID-19, the otherwise well child developed 3 weeks of painless dusky cutaneous induration and swelling over her central/lower face, bilateral forearms, and hands, along with scattered petechiae on the left forearm and foot.",
+      "past_medical_history": "Unremarkable past medical history; household exposure to her grandfather who tested positive for COVID-19 by PCR a few weeks prior.",
+      "review_of_systems": "Positive for facial and upper extremity skin induration, edema, and petechiae; negative for fever, cough, or systemic/neurological symptoms."
+    },
+    "objective": {
+      "physical_examination": "Afebrile with normal vital signs and no systemic or neurological abnormalities. Cutaneous examination revealed dusky indurated plaques with edema over the central and lower face, bilateral forearms, and hands (sparing dependent areas such as the back and posterior legs), plus scattered petechial macules on the left forearm and foot.",
+      "routine_investigations": "Labs showed mild transaminitis with ALT 49 U/L (ref 9-25), elevated amylase 153 U/L (ref 25-101), elevated D-dimer 1,785 ug/L (ref <500), elevated LDH 525 U/L (ref 192-321), and markedly elevated soluble terminal complement complex (TCC / sC5b-9) of 244 ng/mL (ref 0-80), while throat swab SARS-CoV-2 PCR, CRP, renal function, autoimmune panel, and chest X-ray were normal/negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "SARS-CoV-2-associated complement-mediated cutaneous thrombotic microangiopathy / panniculitis-like acral and facial induration in a 5-year-old child following household COVID-19 exposure, characterized by elevated D-dimer (1,785 ug/L), LDH (525 U/L), and terminal complement complex (244 ng/mL; throat SARS-CoV-2 PCR negative)."
+    }
+  }
+}

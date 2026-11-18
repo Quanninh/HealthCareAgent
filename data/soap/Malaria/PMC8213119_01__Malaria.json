@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8213119_01",
+  "pair_id": "PMC8213119_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 6-year-old female childadmitted to pediatrics emergency with high-grade fever without chills and rigors past 7 days, progressive pallor past 5 days, and bluish spots over the whole body for 2 days. In detailed history, she had a fever without any symptoms of vomiting, jaundice, or hematuria. There was no history oft previous hospitalization. At admission, a child was lethargic, febrile (102 F), severely pallor, petechial rashes, cervical lymphadenopathy, and body pain (paroxysms) with the features of shock. In the systemic examination, hepatosplenomegaly in per abdomen examination and respiratory, cardiovascular finding (except hemic murmur) were within normal limits. In the central nervous system examination, she was in altered sensorium without meningeal signs or focal deficits. Initially, we kept as lymphoreticular malignancy with febrile neutropenia and start supportive as well as symptomatic treatment and malignancy workup planed. After stabilization, bone marrow aspiration as well as biopsy was done. Bone marrow aspiration and biopsy revealed hemophagocytosis [Figure 1]. Due to persistent high-grade fever, fever workup, including rapid malarial antigen test, peripheral smear for malaria parasite, serology for typhoid and rickettsial infection, blood culture, etc., as well as a supportive workup for hemophagocytic lymphohistiocytosis (HLH) (liver transaminases, lactate dehydrogenase, triglyceride, serum ferritin, and fibrinogen) were sent [Table 1]. In peripheral smear, malaria parasite was seen as trophozoites for Pf malaria and revised the diagnosis as malaria-associated secondary HLH (sHLH) and the anti-malarial drug was started. On 3rd day of antimalarial therapy, the child fever responded and 5th-day fever was subsided and discharged the child.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 6-year-old female child presented with a 7-day history of high-grade fever without chills or rigors, 5 days of progressive pallor, and 2 days of generalized bluish cutaneous spots and paroxysmal body pain.",
+      "history_of_present_illness": "The child developed continuous high-grade fever 7 days prior to admission, followed by progressive pallor over 5 days and generalized petechial/ecchymotic spots over 2 days, presenting in shock with altered sensorium.",
+      "past_medical_history": "No previous hospitalizations.",
+      "review_of_systems": "Positive for high-grade fever, pallor, generalized petechial/bluish rash, paroxysmal body pain, lethargy, and altered sensorium. Negative for chills, rigors, vomiting, jaundice, or hematuria."
+    },
+    "objective": {
+      "physical_examination": "Lethargic with altered sensorium (no meningeal signs or focal neurological deficits), febrile (102 F), features of shock, severe pallor, generalized petechial rash, cervical lymphadenopathy, hemic cardiac murmur, and hepatosplenomegaly.",
+      "routine_investigations": "HLH and infectious workup showed pancytopenia, elevated liver transaminases, elevated LDH, hypertriglyceridemia, hyperferritinemia, and hypofibrinogenemia, with negative typhoid/rickettsial serologies and blood cultures.",
+      "advanced_workup": "Bone marrow aspiration and trephine biopsy demonstrated prominent hemophagocytosis without malignancy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Plasmodium falciparum malaria-associated secondary hemophagocytic lymphohistiocytosis (sHLH) (initially suspected to be lymphoreticular malignancy with febrile neutropenia). Confirmed by peripheral blood smear identifying P. falciparum trophozoites and bone marrow biopsy showing hemophagocytosis. Treated with targeted antimalarial therapy and supportive care; fever responded by day 3 and resolved by day 5, and the child was discharged home recovered."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4499272_01",
+  "pair_id": "PMC4499272_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 65-year-old man with a history of recurrent urinary tract infections presented after a 3-months of visible hematuria. Physical and laboratory examinations revealed anemia and impaired renal function. Ultrasound and magnetic resonnance imaging (MRI) showed an invasive bladder tumor developing in a large posterior diverticulum (A and B) with rectal deviation (A) and responsible of a left hydronephrosis. First, the patient underwent a blood transfusion and a left percutaneous nephrostomy. Two weeks later, we perfomed a cystoscopy and a transurethral resection of the tumor. Pathology revealed a locally advanced squamous cell carcinoma (SCC) (stage > p T2). The patient had no history of bilharziasis. Since the surgical extirpation was not possible, the patient was treated with chemoradiotherapy, but died 6 months later. Non-bilharzial SCC represents < 5% of vesical tumors, it is caused by chronic irritation of the urothelium and often diagnosed at an advanced stage. The intradiveticular location account for approximately 1% of all bladder tumors and make the prognosis poorer due to lack of muscle barrier. This case combine these two rares conditions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old man with recurrent urinary tract infections presented with a 3-month history of visible hematuria.",
+      "history_of_present_illness": "The patient presented for medical evaluation following 3 months of gross hematuria.",
+      "past_medical_history": "History of recurrent urinary tract infections; no history of schistosomiasis (bilharziasis).",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed clinical pallor/anemia.",
+      "routine_investigations": "Laboratory tests showed anemia and impaired renal function. Bladder/renal ultrasound revealed an invasive bladder tumor within a large posterior bladder diverticulum causing left hydronephrosis.",
+      "advanced_workup": "Pelvic MRI confirmed an invasive tumor arising within a large posterior bladder diverticulum with rectal deviation and left hydronephrosis. Following blood transfusion and left percutaneous nephrostomy, cystoscopy and transurethral resection of the bladder tumor (TURBT) were performed 2 weeks later; histopathology revealed locally advanced non-bilharzial squamous cell carcinoma (stage > pT2)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed locally advanced intradiverticular non-bilharzial squamous cell carcinoma of the urinary bladder (>pT2) complicated by left obstructive hydronephrosis. Due to unresectability, he was managed with left percutaneous nephrostomy, blood transfusion, TURBT, and palliative chemoradiotherapy, and died 6 months later."
+    }
+  }
+}

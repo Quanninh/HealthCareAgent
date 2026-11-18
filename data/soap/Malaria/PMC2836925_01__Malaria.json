@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2836925_01",
+  "pair_id": "PMC2836925_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 74-year-old gentleman presented to the Accident and Emergency Department following a 3-month stay in India. Four weeks into his return, he started developing daily episodes of fever and night sweats. Whilst in India, he was asymptomatic although he did not take any malaria prophylaxis or salmonella vaccine during his travel. \nThe patient had no comorbidities except for a renal calculi detected in 2004. He was also known to have a simple cyst measuring 5 cm in diameter in the right lobe of the liver, incidentally found on routine abdominal ultrasonography (USG). He did not take any regular medication, and was otherwise in good health.\nOn examination, he had a temperature of 38.2 C, pulse 90 beats per minute regular, and blood pressure of 116/60 mmHg. Systemic examinations of cardiovascular, respiratory, abdominal, and neurological systems were unremarkable.\nHis initial blood biochemical examination showed normal liver and kidney functions but a raised c-reactive protein (CRP) of 129 mg/dL. His haematological parameters showed a raised white cell count of 12 000/cumm with predominant neutrophilia. No malarial parasites were detected. Chest X-ray did not show any signs of underlying infection. \nRepeated blood and urine cultures were obtained and abdominal USG requested to find any abdominal collection as a source of sepsis. Our differential diagnosis at this stage was malaria, salmonellosis, or amoebiasis. The delayed start of his symptoms vis a vis his travel history made viral aetiology, namely, dengue fever unlikely. \nHis blood culture grew Salmonella paratyphi A. Serologies for amoeba and hydatid disease were negative. Abdominal USG showed a collection in the right liver lobe, the same site as the simple cyst noted on the previous scans. The area was significantly larger than previously noted with an underlying abscess. Abdominal and pelvic CT scan did not reveal any further abscesses.\nThe liver abscess was drained under ultrasound guidance using a pigtail catheter and the aspirate cultures also grew Salmonella paratyphi A. The patient received systemic antibiotic, Ceftriaxone 2 gm intravenously once daily for 10 days based on the sensitivity report and made an uneventful recovery. On followup, he remains asymptomatic.\nWe present a case of liver abscess caused by Salmonella paratyphi A, in a previously known simple cyst of the liver. Such a case has been reported only once previously.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 74-year-old man presented with daily episodes of fever and night sweats beginning 4 weeks after returning from a 3-month stay in India.",
+      "history_of_present_illness": "The patient remained asymptomatic during a 3-month trip to India without malaria prophylaxis or typhoid vaccination, and developed daily fevers and night sweats 4 weeks after returning home.",
+      "past_medical_history": "History of renal calculi (2004) and an incidental 5 cm simple cyst in the right hepatic lobe; on no regular medications. Three-month travel history to India without chemoprophylaxis or Salmonella vaccination.",
+      "review_of_systems": "Positive for daily fevers and night sweats."
+    },
+    "objective": {
+      "physical_examination": "Temperature 38.2 C, pulse 90 bpm (regular), BP 116/60 mmHg; cardiovascular, respiratory, abdominal, and neurological examinations were unremarkable.",
+      "routine_investigations": "Admission labs: WBC 12,000/cumm with predominant neutrophilia, CRP 129 mg/dL, and normal liver and kidney function tests. Chest X-ray was normal; amoebic and hydatid serologies were negative. Abdominal ultrasound showed enlargement of the known right hepatic lobe lesion with an underlying abscess.",
+      "advanced_workup": "Abdominal and pelvic CT confirmed the solitary right hepatic lobe abscess with no additional collections."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Salmonella paratyphi A infection of a pre-existing simple hepatic cyst (pyogenic liver abscess) and bacteremia. Malaria was excluded by negative peripheral blood films, and both blood cultures and ultrasound-guided pigtail abscess aspirate cultures grew Salmonella paratyphi A. Treated with ultrasound-guided pigtail catheter drainage and intravenous ceftriaxone 2 g once daily for 10 days, achieving complete recovery."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7266615_02",
+  "pair_id": "PMC7266615_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "The male patient was born on June 6, 1960, in Acaua municipality, Piaui State, was a married and was diagnosed with kala-azar in January 2014 and had a negative serology to HIV. Since then, he evolved with recurrent pancytopenia, persistent splenomegaly and a history of five previous hospitalizations at the IDTNP for the kala-azar treatment. After unsuccessful attempts with all the existing drug treatments against kala-azar, such as pentavalent antimony (glucantime, 20 mg of Sb + 5 kg/d for 30 d at first hospitalization) and liposomal amphotericin B (for 14 d at a dose of 3 mg/kg/d, in three hospitalizations), and in the face of an evolution with hypersplenism, clinical and laboratory repercussions, the patient was admitted in July 2015 to undergo a splenectomy, and at that time, on the physical examination, he presented with a palpable spleen at 12 cm from the left costal margin. In the preoperative period, an ultrasound of the abdomen was performed showing an enlarged spleen extending to the left iliac fossa. CBC with Hb 8.7 g/dL; Ht 27.9%; leukocytes 1,090/microL and 155,000/microL platelets. He underwent splenectomy on August 04, 2015, progressing uneventfully in the intra and postoperative periods. The surgical specimen measured 19.5 x 14.5 x 6 cm and weighed 1,066g (Figures 1 and 2). The histopathological study confirmed the presence of Leihmania parasites within the splenic parenchyma. He also had 7 d of liposomal amphotericin B during hospitalization. In the outpatient follow-up, cholelithiasis was identified, which became symptomatic and the patient underwent, a video cholecystectomy surgery on November 03, 2017, performed by the same team of the splenectomy, also evolving without complications. Nowadays, he has been followed-up at the outpatient clinic, for more than 4 years after the surgery, remaining asymptomatic, without further hospitalizations due to kala-azar or medications, and with a normal hematological profile.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old married male from Acaua, Piaui State, Brazil, was admitted in July 2015 with persistent massive splenomegaly and recurrent pancytopenia after five prior hospitalizations for drug-refractory visceral leishmaniasis since January 2014.",
+      "history_of_present_illness": "Diagnosed with visceral leishmaniasis in January 2014, the patient underwent five hospitalizations at the IDTNP and relapsed with persistent splenomegaly and hypersplenic pancytopenia despite full courses of meglumine antimoniate (Glucantime 20 mg Sb5+/kg/day for 30 days) and three 14-day courses of liposomal amphotericin B (3 mg/kg/day), leading to admission in July 2015 for therapeutic splenectomy.",
+      "past_medical_history": "Born June 6, 1960, in Acaua municipality, Piaui State, Brazil; five prior hospitalizations for visceral leishmaniasis since January 2014; HIV-negative.",
+      "review_of_systems": "Positive for abdominal mass/splenomegaly and recurrent cytopenias; later developed symptomatic cholelithiasis in 2017."
+    },
+    "objective": {
+      "physical_examination": "Massive splenomegaly palpable 12 cm below the left costal margin.",
+      "routine_investigations": "Preoperative CBC showed Hb 8.7 g/dL, Hct 27.9%, leukopenia (WBC 1,090/uL), and platelets 155,000/uL; HIV serology was negative. Preoperative abdominal ultrasound showed massive splenomegaly extending into the left iliac fossa.",
+      "advanced_workup": "Histopathological examination of the resected spleen (August 4, 2015; measuring 19.5 x 14.5 x 6 cm and weighing 1,066 g) confirmed intracellular Leishmania amastigotes within the splenic parenchyma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Splenic histopathology confirmed drug-refractory Visceral Leishmaniasis (kala-azar) with hypersplenism in an HIV-negative patient. Uncomplicated splenectomy on August 4, 2015, combined with a 7-day postoperative course of liposomal amphotericin B (and subsequent laparoscopic cholecystectomy in November 2017 for symptomatic gallstones) resulted in complete hematologic normalization and over 4 years of relapse-free survival without further antileishmanial therapy."
+    }
+  }
+}

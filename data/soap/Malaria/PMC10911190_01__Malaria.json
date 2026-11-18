@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10911190_01",
+  "pair_id": "PMC10911190_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "Here, we report the case of a 78-year-old female with a history relevant for multiple trips to the African Continent on missionary work over the last 25 years using mefloquine as prophylaxis against malaria as directed. She gave no previous history of symptomatic malaria despite her multiple trips to Sub-Saharan Africa. She presented approximately 1 month after returning to the U.S.A from her trip to Africa with a 10-day history of fever and chills. On presentation, she had a high fever of 103.7 F. Laboratory data were relevant for leukopenia, anemia, mildly elevated liver function tests, and an ultrasound with nonobstructing gallstones without murphy sign. She was admitted with a working diagnosis of possible cholecystitis and was expected to undergo surgery. Malaria was suspected due to her relevant travel history and appropriate labs were requested. Peripheral blood smear for parasites showed intraerythrocytic inclusion body suggestive of malaria, identified as malaria with specific Malaria Protein Antigen [Figure 1]. Species was confirmed as P. malariae by Plasmodium species polymerase chain reaction (PCR) methodology. She was started on Artemether-Lumefantrine with excellent response with reduction of parasitemia after initiation of treatment with improvement in her symptoms and laboratory values in complete blood count, liver function tests and parasitemia [Table 1-3].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 78-year-old female presented with a 10-day history of fever and chills approximately 1 month after returning to the United States from missionary travel in Sub-Saharan Africa.",
+      "history_of_present_illness": "Approximately 1 month after returning from missionary work in Africa (where she took directed mefloquine prophylaxis), the patient developed a 10-day history of persistent fever and chills.",
+      "past_medical_history": "History of multiple missionary trips to Sub-Saharan Africa over 25 years with adherence to mefloquine chemoprophylaxis; no prior history of symptomatic malaria.",
+      "review_of_systems": "Positive for fever and chills."
+    },
+    "objective": {
+      "physical_examination": "Febrile on presentation with a temperature of 103.7 F; negative Murphy's sign on abdominal examination.",
+      "routine_investigations": "Admission labs demonstrated leukopenia, anemia, and mildly elevated liver function tests. Abdominal ultrasound showed non-obstructing gallstones without sonographic Murphy's sign.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Imported Plasmodium malariae infection despite mefloquine chemoprophylaxis (initially admitted for suspected acute cholecystitis). Confirmed by peripheral blood smear showing intraerythrocytic inclusion bodies, positive specific Malaria Protein Antigen test, and Plasmodium species PCR confirming P. malariae. Treated with oral artemether-lumefantrine with rapid symptom resolution, clearance of parasitemia, and normalization of CBC and liver enzymes."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10750830_01",
+  "pair_id": "PMC10750830_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 35-year-old woman complained of episodic lower abdominal pain over 2 months. The pain was poorly localized and did not interfere with the patient's daily activities. There was no pain radiation and no associated symptoms. She was having regular menstrual cycles. There was no history of dysmenorrhoea, menorrhagia, hirsutism, weight loss, or gain. There was no significant past or family history. On examination, the patient was not pale or jaundiced, and her vital signs were normal. Abdominal examination elicited deep tenderness in the supra-pubic region. No organomegaly or any palpable mass was noted. There was no fever or any respiratory symptoms. Other systemic examinations were within normal limits.\nRoutine hematological and biochemical investigation, including hemogram, urine examination, renal and liver function tests, revealed no abnormality.\nThe abdominal ultrasonography showed evidence of a polycystic left adnexal lesion measuring 86 mm by 67 mm. No other lesion was found in the abdomen. Tumor markers were not done in this patient. A diagnosis of ovarian cystic disease was suggested based on radiological findings. Unilateral salpingo-oophorectomy was performed, and the specimen was sent to the Pathology Department. On gross examination, the ovarian parenchyma was replaced by a cyst measuring 8.0 x 5.5 x 4.5 cm. The cyst cavity was filled with serous fluid and multiple pearly white membranous structures, giving a multiloculated appearance. There were no papillary excrescences. The Fallopian tube was grossly dilated and filled with similar membranous material (Figure 1).\nOn microscopic examination, sections show a cyst lined by a lamellar membrane containing protoscolices and hooklets. (Figure 2A-2C). Hooklets were better highlighted on the Ziehl-Neelsen staining as acid-fast structures. (Figure 2D) Compressed ovarian parenchyma was noted at the periphery. (Figure 2A) Sections from the Fallopian tube show similar findings. Histopathology confirmed the diagnosis of a hydatid cyst involving the Ovary and Fallopian tube.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old woman presented with episodic lower abdominal pain for 2 months.",
+      "history_of_present_illness": "The patient experienced poorly localized, episodic lower abdominal pain over 2 months that did not radiate, had no associated symptoms, and did not interfere with her daily activities. She maintained regular menstrual cycles.",
+      "past_medical_history": "No significant past medical or family history.",
+      "review_of_systems": "Positive for episodic lower abdominal pain; negative for dysmenorrhea, menorrhagia, hirsutism, weight loss or gain, fever, or respiratory symptoms."
+    },
+    "objective": {
+      "physical_examination": "The patient was neither pale nor jaundiced, and vital signs were normal. Abdominal examination elicited deep tenderness in the suprapubic region without organomegaly or palpable mass. Other systemic examinations were within normal limits.",
+      "routine_investigations": "Routine hematological and biochemical investigations, including complete hemogram, urinalysis, renal function tests, and liver function tests, were normal. Abdominal ultrasonography revealed a polycystic left adnexal lesion measuring 86 mm x 67 mm with no other intra-abdominal lesions.",
+      "advanced_workup": "Unilateral salpingo-oophorectomy was performed. Gross examination showed the ovarian parenchyma replaced by an 8.0 x 5.5 x 4.5 cm cyst filled with serous fluid and multiple pearly-white membranous structures giving a multiloculated appearance without papillary excrescences, along with a grossly dilated Fallopian tube filled with similar membranous material. Microscopic examination revealed a cyst lined by a lamellar membrane containing protoscolices and acid-fast hooklets (highlighted on Ziehl-Neelsen stain) with compressed peripheral ovarian parenchyma and identical findings in the Fallopian tube."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary hydatid cyst involving the left ovary and Fallopian tube, definitively confirmed by histopathological identification of a lamellar membrane, protoscolices, and Ziehl-Neelsen-positive acid-fast hooklets following unilateral salpingo-oophorectomy."
+    }
+  }
+}

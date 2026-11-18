@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5820875_01",
+  "pair_id": "PMC5820875_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 30-year-old male patient presented with a low backache since 1-month, radiation of pain to the right lower limb and weakness of the right lower limb since 20 days. Neurological examination revealed, muscle strength grade III proximally and grade IV distally according to Medical Research Council (MRC) in the right lower limb and grade V in the left lower limb with impaired fine touch and pain sensation in L5 and S1 dermatome, with absent knee and ankle reflexes in the right lower limb and plantar reflex was mute on both sides.\nAn anatomical localization of thoracic spinal cord lesion was made. Magnetic resonance imaging (MRI) of spine revealed bulky edematous spinal cord from D4 vertebral body to D12 vertebral body along with a intramedullary ring enhancing lesion of size 1.1 cm x 0.9 cm located above the conus medullaris at the level of D11 vertebrae lesion was hypointense on T1 and hyperintense on T2 with ring enhancement on contrast [Figure 1]. Scolex could not be identified. MRI of the brain was normal.\nDifferential diagnosis of spinal NCC and tuberculoma was considered. Diagnostic cerebrospinal fluid analysis by nucleic acid amplification test was positive for anti-cysticercal antibodies; a final diagnosis of spinal neurocysticercosis was made. Peripheral smear revealed neutrophilic leukocytosis and stool examination was negative for ova and cyst. The patient had no history of consumption of pork.\nIn view of the small size of the lesion, extensive cord edema, and demyelination; the patient was managed conservatively, and surgery was deferred. The patient was initially treated with dexamethasone followed by addition of albendazole therapy (400 mg OD). At the time of discharge patient had significant neurological improvement and MRC grade IV in the left lower limb with improved sensations in L5 and S1 dermatome. At follow-up after 6 weeks of albendazole therapy, there was a significant reduction in symptoms with improved MRC grade V. Follow-up MRI showed a reduction in the size of lesion and edema of cord [Figure 2].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old man presented with a 1-month history of low back pain radiating to the right lower limb and a 20-day history of right lower limb weakness.",
+      "history_of_present_illness": "The patient developed low back pain 1 month prior to presentation that radiated down his right leg, followed 10 days later (20 days prior to admission) by progressive right lower extremity weakness.",
+      "past_medical_history": "He denied any history of pork consumption.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed right lower limb weakness (MRC grade 3/5 proximally and 4/5 distally) with normal left lower limb strength (5/5), impaired fine touch and pain sensation in the right L5 and S1 dermatomes, absent right knee and ankle deep tendon reflexes, and bilaterally mute plantar responses.",
+      "routine_investigations": "Peripheral blood smear showed neutrophilic leukocytosis, and stool microscopy was negative for ova and cysts.",
+      "advanced_workup": "Spine MRI demonstrated a bulky, edematous thoracic spinal cord extending from D4 to D12 with a 1.1 x 0.9 cm intramedullary ring-enhancing lesion (T1-hypointense, T2-hyperintense, without a visible scolex) at the D11 vertebral level just above the conus medullaris. Brain MRI was normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Diagnostic CSF analysis by nucleic acid amplification test (NAAT) was positive for anticysticercal antibodies/assay, confirming intramedullary thoracic spinal neurocysticercosis at D11 and excluding spinal tuberculoma. He was managed conservatively with dexamethasone followed by oral albendazole (400 mg once daily) for 6 weeks, achieving full motor recovery (MRC grade 5/5), improved L5-S1 sensation, and marked reduction in lesion size and cord edema on 6-week follow-up spine MRI."
+    }
+  }
+}

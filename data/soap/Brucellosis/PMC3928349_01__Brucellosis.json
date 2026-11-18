@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3928349_01",
+  "pair_id": "PMC3928349_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 50-year-old man working as an employee was admitted to neurosurgery clinic with severe low back, radicular right leg pain and hypoesthesia in right L4-5 dermatomes for 2 months. His past history revealed that he had weight loss, night sweats and chills, fatigue and severe malaise for 4 months, and he consumed unpaesteurized milk and dairy products. On neurological examination there was 3/5 motor strength of right ankle dorsiflexion and hypoesthesia in distribution of right leg L4-5 dermatomes. Brucellosis was common in the area where the patient was living and brucella tube agglutination (Wright) test was routinely studied in suspected patients coming from that area. Brucella tube agglutination (Wright) test was studied in serum sample of the patient and was positive with a titer of 1/640. Brucella melitensis was isolated from blood culture. X-ray of the lumber spine showed massive collapse of L4 vertebral body (Fig. 1A). Magnetic resonance imaging (MRI) revealed fracture and collapse of the body of L4 vertebrae (Fig. 1B, C). The spinal canal was narroved by posterior elements of the vertebrae, therefore neural tissue was compressed (Fig. 1D).\nThe patient was taken to the operation emergently a posterior midline approach and bilateral hemilaminotomy were done. Grey-yellow colored pathologic specimen was obtained from vertebral body and epidural space. Neural tissue was decompressed and then posterior L3-5 short segment transpedicular screw fixation and stabilization was performed (Fig. 2). Tricortical iliac crest wedge obtained from the same patient (autograft) was used for fusion. Neurological signs and symtoms of the patient were recovered after the operation. Brucella melitensis was isolated from microbiologic culture of pathologic specimen. Antibiotic therapy was given for brucellar infection as doxycycline 200 mg/day and rifampicin 600 mg/day for 6 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old man presented with a 2-month history of severe low back pain, right leg radicular pain, and right L4-L5 dermatomal numbness on a 4-month background of constitutional symptoms.",
+      "history_of_present_illness": "A 50-year-old male employee experienced 4 months of weight loss, night sweats, chills, fatigue, and severe malaise, followed 2 months prior to neurosurgical admission by severe low back pain, right lower extremity sciatica, right L4-L5 hypoesthesia, and right foot drop/weakness.",
+      "past_medical_history": "Resided in a brucellosis-endemic region and regularly consumed unpasteurized milk and dairy products.",
+      "review_of_systems": "Positive for severe low back pain, right leg radicular pain, right L4-L5 numbness, right ankle dorsiflexion weakness, weight loss, night sweats, chills, fatigue, and malaise."
+    },
+    "objective": {
+      "physical_examination": "Motor strength 3/5 in right ankle dorsiflexion and sensory hypoesthesia in the right L4 and L5 dermatomes.",
+      "routine_investigations": "Lumbar spine X-ray demonstrated massive pathological collapse of the L4 vertebral body.",
+      "advanced_workup": "Lumbar spine MRI revealed severe pathological fracture and collapse of the L4 vertebral body with retropulsion/posterior element narrowing of the spinal canal and compression of the cauda equina/neural tissue."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Serum Brucella standard tube agglutination (Wright) test was positive at 1:640, and both blood culture and intraoperative L4 vertebral/epidural tissue culture isolated Brucella melitensis, confirming Brucella melitensis lumbar spondylitis causing pathological L4 vertebral collapse and acute neural compression. Treated with emergency posterior midline bilateral hemilaminotomy, epidural/vertebral debridement, neural decompression, posterior L3-L5 transpedicular screw fixation, and autologous tricortical iliac crest bone graft fusion, followed by a 6-month course of oral doxycycline (200 mg/day) and rifampicin (600 mg/day), resulting in full neurological recovery."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4750307_05",
+  "pair_id": "PMC4750307_05::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 34-year-old male patient presented with high-grade continuous fever associated with chills and rigor for 7 days, persistent severe headache for 6 days, multiple episodes of vomiting, and disorientation for 5 days. There was a history of multiple episodes of GTCS for last 4 days. He had also purpuric spots in lower extremities for last 4 days.\nOn neurological examination, she had neck rigidity with positive Kernig sign. GCS Score was E1M4V2. No cranial nerve abnormality was noted. Motor examination revealed hypotonia on all four limbs. Planter was bilateral extensor. Rest of the CNS examination could not be done. Other systems were also within normal limit.\nMRI scan of brain (plain and contrast), done on 8th day of fever, showed mild diffusion restricted altered signal intensity (hypointense in T1, hyperintense in T2, and FLAIR) in both thalamic and splenium of corpus callosum region [Figure 6], and the diagnosis of dengue meningoencephalitis was done.\nAgain, treatment was started only with IV fluid, paracetamol as antipyretic and anticonvulsant. Patient had several episodes of GTCS till 7th day of hospital admission. Then it gradually decreased and 12th day onward he had no episode of GTCS. Neck rigidity was absent on 16th day. Thereafter he had an uneventful hospital stay and was discharged on 21st day.\nHe was the only patient to have IgM dengue positivity in CSF.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 34-year-old male presented with a 7-day history of continuous high-grade fever with chills and rigors, 6 days of severe headache, 5 days of recurrent vomiting and disorientation, and 4 days of multiple generalized tonic-clonic seizures and lower-extremity purpura.",
+      "history_of_present_illness": "The patient experienced 7 days of continuous high-grade fever with chills and rigors, 6 days of severe headache, 5 days of multiple vomiting episodes and disorientation, and 4 days of recurrent generalized tonic-clonic convulsions and lower-limb purpuric spots.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for continuous high-grade fever, chills, rigors, severe headache, multiple vomiting episodes, disorientation, recurrent generalized tonic-clonic seizures, and lower-extremity purpuric spots."
+    },
+    "objective": {
+      "physical_examination": "GCS E1M4V2, purpuric spots on the lower extremities, neck rigidity, positive Kernig sign, intact cranial nerves, hypotonia in all four limbs, and bilateral extensor plantar responses; other systemic examinations were normal.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI (plain and contrast) on day 8 of fever showed mild diffusion-restricted T1-hypointense and T2/FLAIR-hyperintense lesions in the bilateral thalami and splenium of the corpus callosum; CSF analysis was positive for dengue IgM antibodies."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue meningoencephalitis with bithalamic and splenial corpus callosum involvement, definitively confirmed by positive dengue IgM in the cerebrospinal fluid (CSF) and brain MRI. Treated with intravenous fluids, paracetamol, and anticonvulsants; seizures persisted until day 7 and ceased completely from day 12 onward, neck rigidity resolved on day 16, and he was discharged on hospital day 21."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4856911_04",
+  "pair_id": "PMC4856911_04::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Patient 4. A 68-year-old man presented with (R) knee swelling and back pain for 4 months. He was initially diagnosed as OA and spondylitis. He is known to have DM, HTN, and IHD with a permanent pacemaker. CT scan showed degenerative spinal canal stenosis at L4-L5 with mild degree of bilateral SI joints degeneration. He had received epidural injection of steroid and (R) knee injection with temporary improvement. There was no history of fever or contact with TB patients; however, there was strong history of animal contact. He received one month of antibiotics prior to presentation but without improvement. General examination was normal but the (R) knee was swollen, tender, and with decreased ROM (10-15). CT scan showed moderate to large effusion of the (R) knee with associated synovial thickening and OA changes (Figure 4). The WBC was normal, ESR 70 mm/hr., and CRP 47 mg/mL, and rheumatoid factor was negative. The blood urea and creatinine was raised at 16.8 mmol/L and 140 mumol/L. Synovial fluid cultures were positive for Brucella species but the blood culture was negative. Blood serology for brucella was 1 : 10240. He received 3/12 of doxycycline rifampicin with full functional recovery.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 68-year-old man (Patient 4) presented with a 4-month history of right knee swelling and low back pain refractory to intra-articular/epidural steroid injections and 1 month of empiric antibiotics.",
+      "history_of_present_illness": "A 68-year-old man experienced 4 months of right knee swelling and low back pain initially diagnosed as osteoarthritis and degenerative spondylitis. Prior epidural and right knee corticosteroid injections provided only transient relief, and a 1-month course of outpatient antibiotics yielded no improvement.",
+      "past_medical_history": "Diabetes mellitus, hypertension, and ischemic heart disease with a permanent cardiac pacemaker; lumbar canal stenosis (L4-L5) and mild bilateral sacroiliac joint degeneration. Strong history of animal contact; denied tuberculosis contact.",
+      "review_of_systems": "Positive for right knee pain/swelling and low back pain; negative for fever."
+    },
+    "objective": {
+      "physical_examination": "Right knee was swollen and tender with severely restricted range of motion (10-15 degrees); general physical examination otherwise normal.",
+      "routine_investigations": "Normal WBC count, ESR 70 mm/h, CRP 47 mg/L, negative rheumatoid factor, elevated blood urea 16.8 mmol/L, and elevated serum creatinine 140 umol/L; peripheral blood cultures were negative.",
+      "advanced_workup": "Lumbar and pelvic CT showed degenerative spinal canal stenosis at L4-L5 and mild bilateral sacroiliac joint degeneration; right knee CT demonstrated a moderate-to-large joint effusion with synovial thickening and osteoarthritic changes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Right knee synovial fluid culture grew Brucella species and serum Brucella serology was 1:10,240, confirming Brucella septic arthritis of the right knee. Treated with a 3-month course of oral doxycycline and rifampicin, achieving full functional recovery."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2827429_01",
+  "pair_id": "PMC2827429_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 39 year old Kosovan Albanian woman was referred to the Division of Abdominal Surgery at the University Clinical Center of Kosovo for an 18-month history of chronic (intermittently colicky) pain in the right upper quadrant, often accompanied by nausea. There was no history of jaundice. She had been treated by her primary care physician with antispasmodics, H2 receptor blockers and antibiotics, without resolution. On admission, physical examination showed no abnormal abdominal findings except mild tenderness in the right upper quadrant. Routine blood tests such as CBC, renal and liver panel proved unremarkable. Chest x-ray showed no signs of cardio-respiratory disease. Plain radiograph of the abdomen showed a calcified opacity at the level L2-L3 vertebrae on the right. The diagnosis, supported by ultrasound and computed tomography, was a calcified hydatid cyst of the liver with involvement and deformation of the gallbladder; the architecture and the size of biliary ducts were normal. The patient underwent right subcostal laparotomy. Intra-operatively, a calcified primary hydatid cyst of the fundus and body of the gallbladder was found with its pericyst attached to the liver (Figure 1). The inflammatory response of the liver tissue against the cyst was extensive and formed the structural part of the posterior wall of the pericyst. Complete pericystectomy along with cholecystectomy was performed. No other cysts were found during careful exploration of the peritoneal cavity. On opening the gallbladder, a calcified hydatid cyst (dimensions 7 cm x 5 cm) was found, located in the body and fundus of the gallbladder (Figure 2). Macroscopically, the hydatid cyst was part of the gallbladder. The cyst had reduced severely the lumen of the gallbladder and had grown entirely submucosally (Figure 3). The histopathology confirmed the presence of calcified hydatid cyst of the gallbladder (Figure 4). The patient's postoperative course was uneventful and she was discharged in good condition on the seventh postoperative day. She received two 21-day courses of oral Albendazol 400 mg/day with 14 days pause in between. At five-year follow up, she has had no recurrence of hydatid disease.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 39-year-old Kosovan Albanian woman presented with an 18-month history of chronic, intermittently colicky right upper quadrant abdominal pain and nausea.",
+      "history_of_present_illness": "The patient experienced chronic, intermittently colicky right upper quadrant pain often accompanied by nausea for 18 months, unresponsive to outpatient antispasmodics, H2-receptor blockers, and antibiotics.",
+      "past_medical_history": "Originated from Kosovo.",
+      "review_of_systems": "Positive for intermittent colicky RUQ pain and nausea; negative for jaundice. Prior medications: antispasmodics, H2 blockers, and antibiotics."
+    },
+    "objective": {
+      "physical_examination": "Mild tenderness in the right upper quadrant of the abdomen without other abnormal findings.",
+      "routine_investigations": "Complete blood count, renal panel, and liver panel were unremarkable. Chest X-ray was normal. Plain abdominal radiograph showed a calcified opacity on the right at the L2-L3 vertebral level. Abdominal ultrasound suggested a calcified hepatic hydatid cyst deforming the gallbladder with normal biliary ducts.",
+      "advanced_workup": "Abdominal CT supported a calcified hydatid cyst involving the gallbladder and liver with normal biliary architecture. Right subcostal laparotomy revealed a calcified 7 x 5 cm primary hydatid cyst located entirely submucosally within the body and fundus of the gallbladder, severely narrowing the gallbladder lumen with its posterior pericyst fused to the liver bed and no other hepatic or peritoneal cysts; cholecystectomy with complete pericystectomy and histopathology confirmed a calcified primary hydatid cyst of the gallbladder."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary calcified submucosal hydatid cyst of the gallbladder (7 x 5 cm), confirmed by intraoperative findings and histopathological examination. The patient underwent open cholecystectomy and complete pericystectomy, was discharged on postoperative day 7, and completed two 21-day courses of oral albendazole (400 mg/day separated by a 14-day interval), remaining recurrence-free at 5-year follow-up."
+    }
+  }
+}

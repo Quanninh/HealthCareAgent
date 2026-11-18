@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5928731_04",
+  "pair_id": "PMC5928731_04::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 20.0,
+  "raw_case_text": "A 22-year-old male was evaluated at the ED on March 24, 2014, because of a 3-day history of fever, malaise, myalgia, nausea, rhinorrhea, sore throat, and headache. Physical examination revealed fever, underweight (body mass index = 18.1), and tachycardia. He was given acetaminophen and discharged from the ED with a diagnosis of viral syndrome.\nSerum collected on day 2 of illness was negative by PCR and MAT. Convalescent serum collected 18 days after illness onset was positive by MAT with a reciprocal titer of 800 against serogroups Bataviae (serovar Bataviae) and Canicola (serovar Canicola) and was also positive for detection of anti-dengue virus IgM antibodies.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 22-year-old male presented to the emergency department with a 3-day history of fever, malaise, myalgia, nausea, rhinorrhea, sore throat, and headache.",
+      "history_of_present_illness": "The patient developed 3 days of acute fever, malaise, myalgia, nausea, rhinorrhea, sore throat, and headache prior to emergency department evaluation on March 24, 2014.",
+      "past_medical_history": "Underweight (BMI 18.1 kg/m2).",
+      "review_of_systems": "Positive for fever, malaise, myalgia, nausea, rhinorrhea, sore throat, and headache."
+    },
+    "objective": {
+      "physical_examination": "Febrile, tachycardic, and underweight with a body mass index of 18.1 kg/m2.",
+      "routine_investigations": "Acute-phase serum collected on day 2 of illness was negative by PCR and Leptospira microscopic agglutination test (MAT), whereas convalescent serum collected 18 days after symptom onset was positive by MAT with a reciprocal titer of 1:800 against Leptospira serogroups Bataviae (serovar Bataviae) and Canicola (serovar Canicola) and positive for anti-dengue virus IgM antibodies.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Concurrent leptospirosis and dengue virus coinfection, confirmed on day-18 convalescent serum by a Leptospira MAT titer of 1:800 (serogroups Bataviae and Canicola) and positive anti-dengue virus IgM ELISA. Managed as an outpatient with oral acetaminophen."
+    }
+  }
+}

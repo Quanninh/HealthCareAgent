@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2923418_01",
+  "pair_id": "PMC2923418_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 7-year-old boy was referred for pain in his legs, neck, and abdomen. We learned that the boy was suffering from abdominal and neck pains since a period of 2.5 months and that since 20 days he also experienced pain in his extremities. The patient had not fever, vomiting or diarrhea, but had reduced appetite since 2 months and had lost 2-3 kg weight. He had a history of measles and chorcoal poisoning 2 month ago. His sister also had abdominal pain for 2 months. No characteristic features were present in the family lineage. The physical examination revealed the followings: body temperature 37 C; heart rate 110/min; respiration rate 28/min; and arterial blood pressure 100/70 mmHg. Body weight was 26 kg and height was 128 cm. The general condition was moderate, however the patient showed fatigue. A diffused sensitivity was present while the extremities were palpated. On examination other systems were found to be normal. Laboratory test results include the following: routine urinary and blood studies are normal, and liver and renal function tests are normal, creatine kinase: 71 IU/L; lactate dehydrogenase: 316 IU/L; antistreptococcal antibody (ASO): 57 TU; C-reactive protein (CRP): <3 mg/dL; ANA: negative; antiDNA: negative; C3: 1.14; Brucella agglutination test: negative; Gruber-Widal agglutination test: negative; thyroid function tests were within the normal limits. Blood lead level: 2.3 ug/dL (N); blood mercury level: 9.3 ug/ dL [Table 1].\nThe patient's history led us to consider chronic mercury intoxication due to clinical features and high mercury levels in blood sample. Therapy with D-penicillamine was initiated. In the second month of the therapy, abdominal pain was diminished and the patient's extremity pain was reduced. At further controls, the patient showed no any complaints and therefore his blood mercury levels were assessed together with 2 months intervals. After receiving D-penicillamine for a period of 8 months, the patient showed no symptoms and is currently being followed-up in our out-patient clinic.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-year-old boy presented with a 2.5-month history of abdominal and neck pain and a 20-day history of extremity pain.",
+      "history_of_present_illness": "A 7-year-old boy experienced abdominal and neck pain for 2.5 months, accompanied by reduced appetite and a 2-3 kg weight loss over 2 months, and developed bilateral extremity pain 20 days prior to referral.",
+      "past_medical_history": "History of measles and charcoal poisoning 2 months earlier; history of playing with batteries at home with his 13-year-old brother (who also had a 2-month history of abdominal and extremity pain).",
+      "review_of_systems": "Positive for abdominal pain, neck pain, extremity pain,fatigue, anorexia, and 2-3 kg weight loss; negative for fever, vomiting, or diarrhea."
+    },
+    "objective": {
+      "physical_examination": "Temperature 37.0 C, heart rate 110/min, respiratory rate 28/min, blood pressure 100/70 mmHg, weight 26 kg, height 128 cm. Moderate general condition with visible fatigue and diffuse tenderness upon palpation of the extremities; other systemic examinations normal.",
+      "routine_investigations": "Routine CBC, urinalysis, liver and renal function tests, and thyroid function tests were normal. Creatine kinase 71 IU/L, LDH 316 IU/L, ASO 57 TU, CRP <3 mg/dL, C3 1.14. Blood lead level normal at 2.3 ug/dL.",
+      "advanced_workup": "ANA and anti-dsDNA negative. Whole-blood mercury level was elevated at 9.3 ug/dL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Brucella agglutination test and Gruber-Widal agglutination test were negative; elevated blood mercury level (9.3 ug/dL) and sibling exposure history confirmed chronic mercury intoxication. Treated with oral D-penicillamine chelation therapy for 8 months, with marked reduction of abdominal and extremity pain by month 2 and complete resolution of symptoms on outpatient follow-up."
+    }
+  }
+}

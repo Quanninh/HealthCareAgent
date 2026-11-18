@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2779291_01",
+  "pair_id": "PMC2779291_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 30-yr-old man was referred to our hospital for suspected rectal cancer. He complained of bowel habit change with tenesmus, mucous discharge, anal pain and intermittent presence of blood in stool. He had a 2 cm sized, firm, non-tender and indurated nodule on the left side of the inguinal area and multiple condyloma acuminatum around the anus. Routine blood chemistry was normal. Sigmoidoscopy in our gastrointestinal endoscopy unit showed two indurated masses of 1.5 to 2 cm on the posterior wall of the middle and lower rectum (Fig. 1A). The masses had a coin like appearance, and each of them had a slightly depressed and ulcerated surface. Owing to the suspected submucosal tumor, the coloproctologist obtained a biopsy specimen. Histologic findings of rectal biopsy showed heavy lymphoid hyperplasia without neoplastic changes (Fig. 2A). Additional histologic findings of the left inguinal mass were the same (Fig. 2B). The pathologist recommended evaluation for STD because pathologic findings were not malignancy but inflammation. So the patient was referred to the urology department. The VDRL quantitative test was 1:64 and the FTA-ABS IgM and IgG test was positive. A human immunodeficiency virus (HIV) antibody test was negative. Further questioning also revealed an episode of rectal intercourse before the onset of symptoms. The patient was treated with intramuscular penicillin G benzathine (2,400,000 IU IM/1 week, thrice). Follow-up sigmoidoscopy after 1 month showed nearly complete regression of the chancre (Fig. 1B). A repeat biopsy was done and the histologic result showed focal lymphoid hyperplasia. A VDRL quantitative test after 3 months was 1:1. The palpable nodule on the left inguinal area disappeared.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old man presented with bowel habit changes, tenesmus, rectal mucous discharge, anal pain, and intermittent hematochezia.",
+      "history_of_present_illness": "The patient was referred for suspected rectal cancer after developing changes in bowel habits, tenesmus, mucous rectal discharge, anal pain, and intermittent blood in his stool.",
+      "past_medical_history": "Upon targeted questioning after biopsy, the patient disclosed receptive anal intercourse prior to symptom onset.",
+      "review_of_systems": "Positive for tenesmus, mucous rectal discharge, anal pain, intermittent hematochezia, and a painless left inguinal lump."
+    },
+    "objective": {
+      "physical_examination": "Inguinal and perianal examination revealed a 2-cm firm, non-tender, indurated nodule in the left inguinal region and multiple perianal condylomata acuminata.",
+      "routine_investigations": "Routine blood chemistry was normal, and serum HIV antibody testing was negative.",
+      "advanced_workup": "Sigmoidoscopy revealed two 1.5-to-2-cm coin-like indurated masses with slightly depressed, ulcerated surfaces on the posterior wall of the middle and lower rectum. Histopathology of both the rectal mass biopsy and the left inguinal nodule biopsy demonstrated heavy lymphoid hyperplasia and chronic inflammation without neoplastic changes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed primary rectal syphilis (kissing/multiple rectal chancres with left inguinal lymphadenitis, initially mimicking rectal carcinoma), established via quantitative serum VDRL titer of 1:64 and positive FTA-ABS IgM and IgG. Treated with intramuscular benzathine penicillin G 2,400,000 IU once weekly for 3 weeks. At 1-month follow-up sigmoidoscopy, the rectal chancres had nearly completely regressed (repeat biopsy showed only focal lymphoid hyperplasia) and the left inguinal mass resolved; at 3 months, the quantitative VDRL titer declined to 1:1."
+    }
+  }
+}

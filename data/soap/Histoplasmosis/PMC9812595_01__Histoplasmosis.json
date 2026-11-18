@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9812595_01",
+  "pair_id": "PMC9812595_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 34-year-old woman was referred to our hospital with sepsis and prolonged fever. She had a productive cough for the last month. She had no previous history of any serious illness. She was a healthy person with an active life as a civil servant who travelled a lot in the country. Peripheral blood analysis showed pancytopenia with hemoglobin levels of 7.6 g/dl, a leukocyte count of 1.35 x 103/mul, a neutrophil count of 1.05 x 103/mul, and a platelet count of 12 x 103/mul. Procalcitonin was 15.69 ng/ml, albumin 1.85 g/dl, LDH 651 U/L, APTT 51.6 sec, and fibrinogen 0.62 g/L. She had negative results from any serological tests for HIV, hepatitis B, and C. Toxoplasma IgM, CMV IgM, and ANA IF were also negative. An abdominal computerized tomography (CT) showed hepatosplenomegaly, and a thorax X-ray showed bilateral pneumonia. She was initially managed with antibiotics, nutrition support, granulocyte colony-stimulating factor (G-CSF) injection, transfusion of packed red cells and platelets, albumin infusion, and symptomatic drugs to alleviate her clinical condition. The bone marrow aspiration (BMA) was performed in the second week, after a stable clinical condition. The result was a myelodysplasia syndrome (MDS) with a refractory cytopenia multilineage dysplasia (RCMD) subtype and infection with Histoplasma capsulatum (Figure 1). She was given voriconazole 200 mg intravenously every 12 hours for the first 3 days. Itraconazole at a dose of 3 x 200 mg was given on days 4-6 followed by 2 x 200 mg planned for 3 months. The sequential BMA revealed a gradual loss leading to complete clearance of H. capsulatum within ten weeks of treatment (Figures 2 and 3). We started to observe a gradual improvement in pancytopenia and the clinical condition after the commencement of the antifungal. The blood evaluation during treatment is shown in Figure 4. She was discharged from the hospital after forty days in good condition, with a hemoglobin level of 8.2 g/dl, a leukocyte count of 3.2 x 103/mul, a neutrophil count of 2.5 x 103/mul, and a platelet count of 73 x 103/mul. The peripheral blood profile continued to improve and returned to normal during visits to the outpatient clinic. She regained her active life when visiting our outpatient clinic five months after the last bone marrow assessment free of Histoplasma.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 34-year-old woman presented with prolonged fever, sepsis, and a 1-month history of productive cough.",
+      "history_of_present_illness": "Previously healthy, active 34-year-old female civil servant with frequent domestic travel developed a productive cough for 1 month accompanied by prolonged fever and sepsis.",
+      "past_medical_history": "No prior serious medical illness. Occupational/travel history: Civil servant with frequent domestic travel.",
+      "review_of_systems": "Positive for prolonged fever and 1-month productive cough."
+    },
+    "objective": {
+      "physical_examination": "Admitted with clinical sepsis and prolonged fever.",
+      "routine_investigations": "Labs: severe pancytopenia with Hb 7.6 g/dL, WBC 1.35 x 10^3/uL (ANC 1.05 x 10^3/uL), and platelets 12 x 10^3/uL; procalcitonin 15.69 ng/mL, albumin 1.85 g/dL, LDH 651 U/L, aPTT 51.6 s, fibrinogen 0.62 g/L. Negative HIV, HBV, HCV, Toxoplasma IgM, CMV IgM, and ANA IF. Thorax X-ray: bilateral pneumonia.",
+      "advanced_workup": "Abdominal CT: hepatosplenomegaly. Bone marrow aspiration (week 2, with sequential follow-up aspirates): myelodysplastic syndrome (MDS, refractory cytopenia with multilineage dysplasia [RCMD] subtype) and intracellular Histoplasma capsulatum infection."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated histoplasmosis with bilateral pneumonia, hepatosplenomegaly, and myelodysplastic syndrome (RCMD subtype) in an HIV-negative patient. Confirmation: Bone marrow aspirate microscopy demonstrating Histoplasma capsulatum alongside multilineage dysplasia, with complete clearance of H. capsulatum on sequential bone marrow aspirates within 10 weeks of antifungal therapy. Plan & clinical course: Stabilized with broad-spectrum antibiotics, G-CSF, PRBC/platelet transfusions, and albumin, and treated with IV voriconazole (200 mg q12h for 3 days) followed by oral itraconazole (200 mg TID on days 4-6, then 200 mg BID for 3 months); discharged after 40 days (Hb 8.2 g/dL, WBC 3.2 x 10^3/uL, platelets 73 x 10^3/uL) and achieved normal blood counts and full functional recovery at 5-month follow-up."
+    }
+  }
+}

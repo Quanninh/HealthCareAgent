@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10805500_01",
+  "pair_id": "PMC10805500_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 39-year-old transgender woman previously on hormone replacement therapy with a past medical history of hypertension, hyperlipidemia, and HIV with highly active antiretroviral therapy (HAART) noncompliance presented to the emengency department for diarrhea and daily intermittent fevers and chills for 1 week. On admission, she was febrile with pancytopenia. Her CD4 count was 123 cells/muL. Her HIV-1 viral load was 1300 copies/mL. Fungitell-measured (1,3)-beta-d-glucan was >500 pg/mL. Polymerase chain reaction (PCR) tests for Streptococcus pneumoniae, Bordetella pertussis, Mycoplasma and Chlamydia pneumoniae, Cryptococcus, Aspergillus galactomannan, and Clostridium difficile toxin were negative. Pneumocystis jirovecii was negative by direct immunofluorescence. Testing for Epstein-Barr virus using quantitative PCR showed 485 copies/mL. Computed tomography of chest, abdomen, and pelvis revealed retroperitoneal lymphadenopathy. She underwent lymph node and bone marrow biopsy, both of which revealed small budding yeasts consistent with H. capsulatum. She was initiated on amphotericin and discharged on itraconazole with advice for follow-up at the infectious disease outpatient clinic. After completing antifungal therapy, she remained noncompliant with HAART and readmitted a year later after developing a small bowel obstruction and large splenic infarct for which she underwent partial small bowel resection with splenectomy. Subsequent pathology revealed excessive fungal infiltration of Peyer's patches, with GMS and PAS stains positive for numerous budding yeasts within histiocytes. The patient was again treated with amphotericin followed by itraconazole and scheduled for outpatient follow-up visit.\nTwo years thereafter, a surveillance colonoscopy showed a non-obstructing large cecal and ileocecal valve mass with multiple colonic polypoid lesions. Immunohistopathology of the mass revealed histiocytic aggregates with GMS stains positive for fungal elements (Fig. 1a,b, respectively). Her CD4 count and HIV viral load were 203 copies/mL and 47 cells/muL, respectively. She was again treated with antifungals and scheduled for outpatient follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 39-year-old transgender woman presented with a 1-week history of diarrhea and daily intermittent fevers and chills.",
+      "history_of_present_illness": "The patient, who had a history of HIV infection and nonadherence to highly active antiretroviral therapy (HAART), developed diarrhea and daily intermittent fevers and chills for 1 week prior to emergency department presentation.",
+      "past_medical_history": "HIV infection with HAART noncompliance, hypertension, hyperlipidemia, and prior hormone replacement therapy.",
+      "review_of_systems": "Positive for diarrhea, daily fevers, and chills. Nonadherent to prescribed HAART."
+    },
+    "objective": {
+      "physical_examination": "Febrile on admission.",
+      "routine_investigations": "Admission labs revealed pancytopenia.",
+      "advanced_workup": "Immunology/virology: CD4 count 123 cells/uL, HIV-1 viral load 1,300 copies/mL, quantitative EBV PCR 485 copies/mL. Fungal & infectious markers: Fungitell (1,3)-beta-D-glucan >500 pg/mL; negative PCRs for Streptococcus pneumoniae, Bordetella pertussis, Mycoplasma pneumoniae, Chlamydia pneumoniae, Cryptococcus, Aspergillus galactomannan, and Clostridium difficile toxin; negative Pneumocystis jirovecii DFA. CT chest, abdomen, and pelvis: retroperitoneal lymphadenopathy. Lymph node and bone marrow biopsies: small budding yeasts consistent with Histoplasma capsulatum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Recurrent progressive disseminated and gastrointestinal histoplasmosis in a patient with HIV and HAART noncompliance. Confirmation: Initial lymph node and bone marrow biopsies showing small budding yeasts consistent with Histoplasma capsulatum; 1 year later, small bowel resection and splenectomy pathology showed fungal infiltration of Peyer's patches with GMS/PAS-positive budding yeasts within histiocytes; 2 years thereafter, surveillance colonoscopy biopsy of a large cecal/ileocecal valve mass and colonic polyps showed histiocytic aggregates with GMS-positive fungal elements. Plan & clinical course: Treated initially with amphotericin B followed by oral itraconazole; required partial small bowel resection and splenectomy 1 year later for small bowel obstruction and splenic infarct, and retreated with antifungals then and again 2 years later after surveillance colonoscopy."
+    }
+  }
+}

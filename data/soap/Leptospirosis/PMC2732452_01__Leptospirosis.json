@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2732452_01",
+  "pair_id": "PMC2732452_01::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 57-year-old woman was admitted to Chonnam National University Hospital, South Korea, with fatigue, generalized myalgia, and nausea of 2 weeks' duration. Three weeks before admission, she had worked in a field in a rural area. Her vital signs were blood pressure 140/90 mm Hg, heart rate 80/min, temperature 36.6 C, and respiratory rate 20/min. On examination, she appeared acutely ill and had conjunctival suffusion, petechiae in the throat, an erythematous rash on the chest, tender hepatosplenomegaly, and mild tenderness in both flanks. There were no palpable lymph nodes.\nHer leukocyte count was 3,200/muL, hemoglobin 9.9 g/dL, platelet count 25,000/muL, and reticulocyte count 0.3%. Blood chemistry revealed total serum protein 6.3 g/dL, albumin 3.0 g/dL, alkaline phosphatase 174 U/L, aspartate aminotransferase 369 U/L, alanine aminotransferase 175 U/L, total bilirubin 0.6 mg/dL (direct, 0.3 mg/dL), blood urea nitrogen 8.6 mg/dL, creatinine 0.5 mg/dL, lactic dehydrogenase 2,066 U/L, total cholesterol 100 mg/dL, HDL-cholesterol 22 mg/dL, triglyceride 285 mg/dL, and ferritin 20,000 mug/L. The coagulation profile included a prothrombin time of 13.6 seconds (control 12.5 seconds), a partial thromboplastin time of 45.2 seconds (control from 28 to 40 seconds), and a fibrinogen assay of 120 mg/dL. Serologic tests for viral infections--including antibodies against EBV, cytomegalovirus, herpes, Hepatitis A, B, and C viruses, and HIV--were negative. Serologic tests for Leptospira and Rickettsia tsutsugamushi and connective tissue diseases were also negative. HTNV titers using a particle agglutination kit (HANTADIA, Greencross, Korea) were 1:160 (normal <1:80). Cultures of blood, urine, and sputum were sterile. A computed tomographic scan of the abdomen showed moderate hepatosplenomegaly without lymphadenopathy. Bone marrow aspirate revealed proliferation of histiocytes with prominent hemophagocytosis (Figure). On day 8 of hospitalization, the second serologic titer for HTNV was elevated at 1:5,120. Fortunately, the patient recovered completely with only supportive care, including aggressive replacement of blood components, over 14 days (Table).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 57-year-old woman presented with a 2-week history of fatigue, generalized myalgia, and nausea.",
+      "history_of_present_illness": "The patient was admitted to Chonnam National University Hospital, South Korea, after 2 weeks of persistent fatigue, generalized muscle pain, and nausea that began 1 week after working in a rural field.",
+      "past_medical_history": "History of working in a rural field 3 weeks prior to hospital admission.",
+      "review_of_systems": "Positive for fatigue, generalized myalgia, and nausea."
+    },
+    "objective": {
+      "physical_examination": "Admission vital signs: blood pressure 140/90 mmHg, heart rate 80 beats/min, temperature 36.6 °C, and respiratory rate 20 breaths/min. She appeared acutely ill with conjunctival suffusion, pharyngeal petechiae, an erythematous chest rash, tender hepatosplenomegaly, and mild bilateral flank tenderness, without palpable lymphadenopathy.",
+      "routine_investigations": "Admission labs: WBC 3,200/µL, Hb 9.9 g/dL, platelets 25,000/µL, reticulocytes 0.3%, total protein 6.3 g/dL, albumin 3.0 g/dL, ALP 174 U/L, AST 369 U/L, ALT 175 U/L, total bilirubin 0.6 mg/dL (direct 0.3 mg/dL), BUN 8.6 mg/dL, creatinine 0.5 mg/dL, LDH 2,066 U/L, total cholesterol 100 mg/dL, HDL-C 22 mg/dL, triglycerides 285 mg/dL, ferritin 20,000 µg/L, PT 13.6 s (control 12.5 s), aPTT 45.2 s (control 28–40 s), and fibrinogen 120 mg/dL. Blood, urine, and sputum cultures were sterile. Serologies for EBV, CMV, HSV, hepatitis A, B, and C, HIV, Leptospira, Orientia (Rickettsia) tsutsugamushi, and connective tissue diseases were all negative.",
+      "advanced_workup": "Abdominal CT scan showed moderate hepatosplenomegaly without lymphadenopathy. Bone marrow aspirate demonstrated histiocytic proliferation with prominent hemophagocytosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed Hantaan virus (HTNV) infection (hemorrhagic fever with renal syndrome) complicated by reactive hemophagocytic lymphohistiocytosis (HLH); leptospirosis and scrub typhus were ruled out by negative serologies. HTNV particle agglutination titer rose from 1:160 on admission (normal <1:80) to 1:5,120 on hospital day 8. Managed with supportive care and blood component transfusions, achieving complete clinical and hematologic recovery over 14 days."
+    }
+  }
+}

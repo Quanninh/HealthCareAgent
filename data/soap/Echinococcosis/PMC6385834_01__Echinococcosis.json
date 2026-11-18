@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6385834_01",
+  "pair_id": "PMC6385834_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 22-year old male patient was referred to our clinic with exertional angina. His history revealed pulmonary hydatidosis treated through cystectomy and capitonnage followed by 12-week oral albendazole treatment (400 mg/twice a day) five years ago. Chest X-ray and thoracic computed tomography (CT) exposed only few scattered calcifications within pulmonary parenchyma (Figure 1). Cineangiography of the patient with ST segment depression in exercise test revealed that the left diagonal artery (LAD) and 1st diagonal arteries were proximally occluded (Figure 2). In transthoracic echocardiography, a cystic mass of 2x2 cm with well-defined borders was detected on the left ventricular anterior wall (Figure 3). The patient was taken into operation for coronary artery bypass grafting. Operation was carried out under cardiopulmonary bypass instituted after median sternotomy. The mass, with size of 2x2 cm and regular borders, was found to be located between the left main and LAD coronary arteries (Figure 3). Since calcified, the cyst was isolated en bloc with the coronary artery segments it had infiltrated (Figure 3). Free ends of the coronary arteries opening into the cavity left behind after cyst excision were ligated. Capitonnage was performed after irrigation with hypertonic saline solution. Following that, LAD artery and 1st diagonal artery were bypassed. Macroscopically, it was detected that the cyst contains clear colorless fluid (eau de rock). Microbiological and pathological analysis of both the cyst and its ingredients revealed findings consistent with the hydatid cyst. Echinococcal IgG-ELISA test was found to be positive (sensitivity: 94%, specificity: 99%). The patient received oral albendazole treatment (10 mg/kg/day; 2x400 mg/day) postoperatively for 12 weeks. During 1-year follow-up, diagnostic tests were negative and no recurrence was observed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 22-year-old male presented with exertional angina 5 years after surgical treatment of pulmonary hydatidosis.",
+      "history_of_present_illness": "The patient was referred to the cardiology clinic with typical exertional angina.",
+      "past_medical_history": "History of pulmonary hydatidosis 5 years earlier treated with cystectomy, capitonnage, and 12 weeks of oral albendazole (400 mg twice daily).",
+      "review_of_systems": "Positive for exertional angina."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Exercise stress test showed ST-segment depression. Transthoracic echocardiography (TTE) revealed a well-defined 2 x 2 cm cystic mass on the anterior wall of the left ventricle. Chest X-ray showed scattered pulmonary parenchymal calcifications. Echinococcal IgG ELISA was positive.",
+      "advanced_workup": "Thoracic CT showed only scattered pulmonary parenchymal calcifications. Coronary cineangiography demonstrated proximal total occlusion of the left anterior descending (LAD) and first diagonal coronary arteries. Median sternotomy under cardiopulmonary bypass identified a calcified 2 x 2 cm cyst located between the left main and LAD coronary arteries infiltrating the proximal vessel segments; en bloc excision of the cyst with ligation of the infiltrated coronary ends, hypertonic saline irrigation, capitonnage, and two-vessel CABG (to LAD and first diagonal) were performed. Macroscopic (clear rock-water fluid), microbiological, and pathological analyses confirmed a cardiac hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Calcified epicardial/myocardial hydatid cyst (2 x 2 cm) infiltrating and occluding the proximal LAD and first diagonal coronary arteries, confirmed by positive Echinococcus IgG ELISA, rock-water fluid, and histopathological analysis. The patient underwent en bloc cardiac cystectomy with capitonnage and coronary artery bypass grafting (CABG) to the LAD and first diagonal arteries, followed by 12 weeks of postoperative oral albendazole (10 mg/kg/day; 400 mg twice daily), remaining recurrence-free at 1-year follow-up."
+    }
+  }
+}

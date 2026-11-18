@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4524006_01",
+  "pair_id": "PMC4524006_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "This 8-year-old boy presented with complaints of progressively worsening headaches along with vomiting and intermittent fever since 20 days. There were no significant findings on general physical and neurological examination. The patient's routine laboratory investigations were normal. A magnetic resonance imaging (MRI) brain was performed which showed multiple intracranial cysts predominantly in the right frontal region with significant mass effect [Figure 1]. The patient's chest X-ray, ultrasound abdomen, and eosinophil counts were normal. The patient was started on dexamethasone, leviteracetem, and albendazole and scheduled for surgery.\nA frontoparietal craniotomy was performed. There was significant dural tension, and a c-shaped durotomy was done which revealed a huge hydatid cyst extending toward the lateral ventricle [Figure 2a]. A soft rubber catheter was inserted between the brain parenchyma and the cyst capsule (Dowling's technique); a cleavage plane was established using warm hypertonic saline and the cyst was delivered unruptured [Figure 2d]. Numerous daughter cysts were then identified which were carefully delivered unruptured using the same technique [Figure 2b and c]. We were able to remove all of the 19 cysts without rupturing the cyst capsule this way. An endoscope was used after removing all the cysts to make sure that none of the daughter cysts was left behind. The cavity was copiously irrigated with hypertonic saline and hydrogen peroxide. Histopathological examination confirmed hydatid cyst and no bacterial agent was isolated.\nThe patient continued taking albendazole (200 mg, BID), dexamethasone, cefazolin, and levetiracetam postoperatively and had an uneventful postoperative course. The patient was seen in clinic on 3 months postoperative visit and his complaints of headache and vomiting had completely resolved. His neurological examination was completely normal and considering financial constraints a follow-up computed tomography (CT) scan was thus not performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old boy presented with a 20-day history of progressively worsening headaches, vomiting, and intermittent fever.",
+      "history_of_present_illness": "The child developed progressively worsening headaches accompanied by vomiting and intermittent fever over the 20 days prior to admission.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for progressive headache, vomiting, and intermittent fever."
+    },
+    "objective": {
+      "physical_examination": "General physical and neurological examinations were unremarkable.",
+      "routine_investigations": "Routine blood tests, peripheral eosinophil count, chest X-ray, and abdominal ultrasound were all normal.",
+      "advanced_workup": "Brain MRI demonstrated multiple intracranial cysts predominantly in the right frontal lobe extending toward the lateral ventricle with marked mass effect. Right frontoparietal craniotomy and C-shaped durotomy delivered one giant mother cyst and 18 daughter cysts (19 cysts total) completely unruptured using Dowling's hydrodissection technique with warm hypertonic saline, followed by neuroendoscopic inspection and hypertonic saline/hydrogen peroxide irrigation; histopathology confirmed cerebral hydatid cysts with negative bacterial cultures."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary multiple right frontal cerebral hydatid cysts (19 cysts total), confirmed by intraoperative unruptured delivery via Dowling's technique and histopathological examination. The patient was treated perioperatively with oral albendazole (200 mg twice daily), dexamethasone, levetiracetam, and cefazolin, and at 3-month outpatient follow-up he was completely asymptomatic with a normal neurological examination."
+    }
+  }
+}

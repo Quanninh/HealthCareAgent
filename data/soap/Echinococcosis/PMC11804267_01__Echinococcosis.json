@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11804267_01",
+  "pair_id": "PMC11804267_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 60-year-old female presented to surgery outpatient department with pain in abdomen which was more on the left side and specifically in left hypochondrium. The nature of the pain was dull and dragging in nature. The patient also complained of feeling feverish for one month. Routine laboratory studies were normal. Serologic tests for E. granulosus by immunoblot assay were positive. An abdominal ultrasound revealed enlarged spleen measuring 18cm and a hypoechoic cystic lesion with internal tiny cysts within. Hydatid disease was first differential diagnosis, correlating with the history of pet dog at home. Imaging investigation with abdominal CT scan was done. It showed giant multiloculated hypodense cyst with internal solid component and multiple peripherally located daughter cysts as shown in Figs. 1, Fig. 2, Fig. 3. Wall of the lesion was partially calcified. The lesion measured 14 x 7.7 x 13.2cm. The lesion was classified as CE 3B by WHO classification.\nPatient was started on albendazole 400mg oral tablet. It was given for 3 weeks before surgery. Indirect hemagglutination (HAI) was done, which was positive for Echinococcus species. Open splenectomy was performed. Histopathological analysis of the specimen proved it to be Hydatid cyst.\nThe procedure was well tolerated by the patient. She was discharged on the 5th postoperative day. Albendazole therapy with dose of 10mg/kg/day was given for 3 months postsurgery. A year later the patient was symptom free and had no long-term complications during the follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old female presented with dull, dragging left hypochondriac abdominal pain and a 1-month history of feeling feverish.",
+      "history_of_present_illness": "The patient presented to the surgical outpatient clinic complaining of dull, dragging left-sided abdominal pain localized to the left hypochondrium accompanied by subjective feverishness for 1 month.",
+      "past_medical_history": "History of keeping a pet dog at home.",
+      "review_of_systems": "Positive for dull dragging left hypochondriac pain and 1 month of subjective fever."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Routine laboratory studies were normal. Echinococcus granulosus immunoblot assay and indirect hemagglutination (IHA) serology were both positive. Abdominal ultrasound showed splenomegaly (18 cm) containing a hypoechoic cystic lesion with internal daughter cysts.",
+      "advanced_workup": "Abdominal CT revealed a giant 14 x 7.7 x 13.2 cm multiloculated hypodense splenic cyst with a partially calcified wall, internal solid matrix component, and multiple peripheral daughter cysts classified as WHO stage CE3b. Following open splenectomy, histopathological analysis confirmed a splenic hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary giant splenic hydatid cyst (WHO stage CE3b), confirmed by positive Echinococcus granulosus immunoblot and IHA serologies and postoperative histopathology. The patient received 3 weeks of preoperative oral albendazole (400 mg), underwent open total splenectomy with discharge on postoperative day 5, and completed 3 months of postoperative albendazole (10 mg/kg/day), remaining asymptomatic without complications at 1-year follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3505946_01",
+  "pair_id": "PMC3505946_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A 54-year-old man presented with a one-year complaint of asymptomatic and diffuse skin lesions increasing gradually in number and size. These lesions first appeared on his upper limbs. His occupation was a house builder and he didnot report to work without shirt. The man's personal history included diabetes. According to the patient, the control of diabetes did not change the evolution of the skin lesions. There was no known family history of similar skin changes. Dermatological examination revealed asymmetric erythematous papules and atrophic plaques with slightly elevated border and annular configuration on the neck, trunk (Figure 1), arms, and forearms (Figure 2). There was no mucosal lesion or nails change. The initial differential diagnoses included GA and leprosy. Direct mycological examination and anti-HIVwere negative.\nOn histological examination of a skin biopsy taken from one of the forearm lesions, there was fragmentation of elastic fibers in the giant cell (Figure 3(a)) and superficial dermis (Figure 3(b)) and granuloma centered by necrobiosis and multinucleate giant cells with apparent palisading seen (Figure 3(c)). \nThe patient was treated with topical steroids and systemic steroids for 6 months without a satisfactory response. After an ophthalmologic examination, the patient was then treated with hydroxychloroquine 400 mg/d over a period of 4 months with good response. Unfortunately, at his followup, ophthalmology examination showed macular defects and the treatment was stopped. Recurrence of the lesions was observed 3 months later.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old male house builder presented with a 1-year history of progressively spreading, asymptomatic erythematous papules and annular plaques on his neck, trunk, and upper extremities.",
+      "history_of_present_illness": "One year prior to presentation, the patient developed asymptomatic skin lesions on his upper limbs that gradually increased in size and number to involve the neck, trunk, arms, and forearms, unaffected by glycemic control.",
+      "past_medical_history": "History of diabetes mellitus; worked as a house builder (reported not working shirtless); no family history of similar dermatoses.",
+      "review_of_systems": "Negative for pruritus, pain, mucosal lesions, or nail changes."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination demonstrated asymmetric erythematous papules and annular atrophic plaques with slightly raised borders distributed over the neck, trunk, arms, and forearms, with intact mucosae and nails.",
+      "routine_investigations": "Direct mycological examination and anti-HIV serology were negative.",
+      "advanced_workup": "Skin biopsy from a forearm lesion demonstrated fragmentation and phagocytosis of elastic fibers within multinucleated giant cells and the superficial dermis, accompanied by palisading granulomas centered around dermal necrobiosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathological demonstration of palisading necrobiotic granulomas with elastophagocytosis confirmed generalized perforating/annular elastolytic granuloma annulare (GA), excluding leprosy and fungal infection. Six months of topical and systemic corticosteroids failed to achieve a satisfactory response; oral hydroxychloroquine 400 mg/day produced good clinical clearance over 4 months but was discontinued due to ophthalmologic macular defects, followed by lesion recurrence 3 months later."
+    }
+  }
+}

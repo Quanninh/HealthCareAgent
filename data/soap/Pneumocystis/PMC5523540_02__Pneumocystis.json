@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5523540_02",
+  "pair_id": "PMC5523540_02::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 31-year-old African American male came to ER with complaints of progressive difficulty breathing for 4 months and unintentional weight loss of about 50 lbs. Chest X-ray was done which showed reticular nodular pattern. Infectious disease consultation was sought. Comprehensive blood profile along with renal functions tests and HIV testing were performed. He had an elevated BP and creatinine. HIV was positive. Nephrology consultation was done for an elevated creatinine (17 mg/dl) and proteinuria (3.7 g/24 h) with microscopic hematuria, and hemodialysis was initiated. CT scan showed bilateral ground-glass opacities. Bronchoalveolar lavage was done which confirmed Pneumocystis carinii pneumonia (PCP). A right renal needle biopsy was performed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old African American male presented to the emergency department with a 4-month history of progressive difficulty breathing and an unintentional 50-pound weight loss.",
+      "history_of_present_illness": "The patient presented to the emergency room after experiencing progressively worsening dyspnea over 4 months accompanied by approximately 50 pounds of unintentional weight loss.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for progressive shortness of breath (4 months) and 50-pound unintentional weight loss."
+    },
+    "objective": {
+      "physical_examination": "Elevated blood pressure on emergency department presentation.",
+      "routine_investigations": "Admission laboratory and urinary tests: Positive HIV test; severe renal failure with serum creatinine 17 mg/dL, nephrotic-range proteinuria (3.7 g/24 h), and microscopic hematuria. Chest X-ray: Bilateral reticulonodular pattern.",
+      "advanced_workup": "Chest CT scan: Bilateral ground-glass opacities. Bronchoscopy with bronchoalveolar lavage (BAL): Confirmed Pneumocystis carinii (jirovecii) pneumonia (PCP). Right percutaneous renal needle biopsy: Performed for evaluation of HIV-associated severe renal failure and nephrotic proteinuria."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Newly diagnosed HIV/AIDS presenting with Pneumocystis carinii (jirovecii) pneumonia (confirmed by bronchoalveolar lavage and bilateral ground-glass opacities on chest CT) and severe end-stage/acute kidney injury (creatinine 17 mg/dL, 24-h urine protein 3.7 g) evaluated by right renal biopsy. Plan and clinical course: Managed with infectious disease and nephrology consultations, targeted anti-PCP therapy, and initiation of hemodialysis."
+    }
+  }
+}

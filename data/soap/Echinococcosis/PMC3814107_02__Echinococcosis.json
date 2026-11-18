@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3814107_02",
+  "pair_id": "PMC3814107_02::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 45.0,
+  "raw_case_text": "A 3.5-year-old boy was referred to the hospital with constipation. Physical examination was normal. A hepatic cyst was detected by US. Hematologic test showed mild normocytic anemia (Hb: 10.9 gr/dL, normal range: 11-14; MCV: 81 FL, normal range: 73-85). Serum electrolytes and liver function test were within normal limits. Ultrasonography showed a heterogeneous lesion, measuring 3.6 x 3.2 cm in right lobe of liver (Figure 1(b)), and CT showed a hypodense cystic lesion without enhancement. The cyst was resected with clinical and radiological diagnosis of hydatid cyst and the specimen consisted of a previously opened cyst with rough brown external and internal surfaces, measuring 3.5 x 2.5 cm in diameter and up to 0.5 cm in wall thickness.\nAt histological examination, both cysts had four typical layers of ciliated hepatic foregut cyst, composed of inner ciliated, pseudostratified, columnar epithelium; subepithelial connective tissue; smooth muscle layer; and an outer fibrous layer (Figures 2(a) and 2(b)). Foci of squamous metaplasia without atypia were detected in case 2. The fibrous layers are stained green with Masson trichrome stain (Figure 2(c)). Postoperation course was uneventful in both patients.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 3.5-year-old boy was referred for evaluation of constipation and an incidentally detected hepatic cyst.",
+      "history_of_present_illness": "The child was evaluated for constipation and found to have a right hepatic lobe cystic lesion on abdominal ultrasonography.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for constipation."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was normal.",
+      "routine_investigations": "Hematological workup showed mild normocytic anemia (hemoglobin 10.9 g/dL [normal 11-14]; MCV 81 fL [normal 73-85]), while serum electrolytes and liver function tests were normal. Abdominal ultrasonography revealed a 3.6 x 3.2 cm heterogeneous cystic lesion in the right hepatic lobe.",
+      "advanced_workup": "Abdominal CT demonstrated a non-enhancing hypodense cystic lesion in the right lobe of the liver, preoperatively suspected to be a hepatic hydatid cyst. Surgical resection yielded a 3.5 x 2.5 cm cyst with a 0.5-cm-thick wall and rough brown surfaces; histopathology and Masson trichrome staining demonstrated four characteristic layers (inner ciliated pseudostratified columnar epithelium with focal benign squamous metaplasia, subepithelial connective tissue, smooth muscle layer, and outer fibrous capsule)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Benign ciliated hepatic foregut cyst (CHFC) with focal squamous metaplasia initially misdiagnosed clinically and radiologically as a hepatic hydatid cyst, confirmed by histopathological demonstration of a four-layered ciliated pseudostratified columnar epithelial wall. The patient had an uneventful postoperative course following complete surgical resection."
+    }
+  }
+}

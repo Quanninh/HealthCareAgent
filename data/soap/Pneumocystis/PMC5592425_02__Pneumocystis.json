@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5592425_02",
+  "pair_id": "PMC5592425_02::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 31-year-old woman, gravida 1, para 1, who had undergone conization due to stage IA1 uterine cervical cancer, noticed swelling of the right side of the pharynx shortly after she conceived; as a result, she visited an otolaryngologist. The tonsil biopsy at 13 weeks of gestation showed diffuse large B-cell lymphoma (DLBCL). The patient had multiple swollen lymph node groups on the same side of the diaphragm and was therefore classified as stage II according to the Cotswold modification of the Ann Arbor staging system. In all, 6 cycles of R-CHOP (rituximab 375 mg/m2, cyclophosphamide 750 mg/m2, doxorubicin 50 mg/m2, vincristine 1.4 mg/m2, and prednisone 100 mg/body) every 3 weeks were administered. At 32 weeks of gestation, she was hospitalized due to rapidly shortening cervical length (15 mm), and tocolysis with ritodrine was started. At 34 weeks and 0 days of gestation, she suddenly complained of dyspnea and a nonproductive cough, and chest CT showed a ground-glass pattern on both sides of the lungs (Figure 1(b)). Pneumocystis pneumonia was highly suspected in view of her history and CT findings, and she was presumptively treated with sulfamethoxazole-trimethoprim (ST), azithromycin, and oral prednisone. Then, tocolysis was stopped and she delivered a 1939 g female baby at 34 weeks and 1 day of gestation. Although Pneumocystis jirovecii was not observed in bronchoalveolar lavage (BAL) fluid by Grocott stain, Pneumocystis jirovecii-specific DNA was detected by PCR using BAL fluid. She recovered and was discharged home 14 days later, and her baby's course was uneventful. She has shown no signs of DLBCL recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old pregnant woman (gravida 1, para 1) with stage II tonsillar diffuse large B-cell lymphoma developed acute dyspnea and a nonproductive cough at 34 weeks and 0 days of gestation after six cycles of R-CHOP chemotherapy.",
+      "history_of_present_illness": "Shortly after conceiving, the patient noticed right pharyngeal swelling, and a tonsil biopsy at 13 weeks' gestation diagnosed stage II diffuse large B-cell lymphoma (DLBCL). She received six cycles of R-CHOP chemotherapy (rituximab 375 mg/m2, cyclophosphamide 750 mg/m2, doxorubicin 50 mg/m2, vincristine 1.4 mg/m2, prednisone 100 mg/body q3w) during pregnancy. At 32 weeks' gestation, she was hospitalized for threatened preterm labor (cervical length 15 mm) and started on ritodrine tocolysis. At 34 weeks and 0 days of gestation, she acutely developed shortness of breath and a nonproductive cough.",
+      "past_medical_history": "Stage II tonsillar diffuse large B-cell lymphoma diagnosed at 13 weeks' gestation, treated with 6 cycles of R-CHOP; stage IA1 uterine cervical cancer status post cervical conization; gravida 1, para 1.",
+      "review_of_systems": "Positive for sudden-onset dyspnea and nonproductive cough at 34 weeks' gestation. Inpatient medication prior to symptom onset was ritodrine tocolysis."
+    },
+    "objective": {
+      "physical_examination": "Shortened cervical length (15 mm) at 32 weeks' gestation; acute dyspnea and dry cough at 34 weeks' gestation.",
+      "routine_investigations": null,
+      "advanced_workup": "Chest CT at 34 weeks 0 days of gestation: Bilateral diffuse ground-glass opacities. Bronchoalveolar lavage (BAL) fluid analysis: Negative microscopic Grocott staining, but polymerase chain reaction (PCR) on BAL fluid was positive for Pneumocystis jirovecii-specific DNA."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Antepartum Pneumocystis jirovecii pneumonia (PCP) at 34 weeks' gestation following six cycles of R-CHOP immunochemotherapy for stage II tonsillar DLBCL, confirmed by positive BAL fluid Pneumocystis jirovecii DNA PCR and bilateral ground-glass opacities on chest CT (despite negative BAL Grocott staining). Plan and clinical course: Empiric sulfamethoxazole-trimethoprim (ST), azithromycin, and oral prednisone were initiated immediately at 34 weeks 0 days, and ritodrine tocolysis was discontinued, resulting in the delivery of a healthy 1,939 g female infant at 34 weeks and 1 day of gestation. The mother recovered completely, was discharged 14 days later, and remained free of DLBCL recurrence."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4430154_01",
+  "pair_id": "PMC4430154_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 32-year-old Moroccan traveling in the Democratic Republic of Congo for five month, had neglected his malaria chemoprophylaxis. He developed fever, confusion and became rapidly comatose. So he was transferred to Morocco. At neurologic examination, Glasgow Coma Scale (GCS) was at 7, and he experienced in the emergency department an episode of tonic-clonic seizures lasting 30 seconds that was controlled by phenytoin administration. Plasmodium falciparum was seen on the blood smear. Other complications of malaria included acute renal failure, hepatic failure and retinopathy was determined. The patient was placed on mechanical ventilation. Specific treatment was started with intravenous doxycycline and quinine dihydrochloride. A brain CT on the first day was normal. A first brain magnetic resonance imaging (MRI), on day 3, performed on a 1.5-T unit included sagittal and axial 5-mm-thick T1-weighted images, axial 4-mm-thick T2-weighted images, susceptibility-weighted imaging(SWI), Gradient Echo (T2*) sequence, axial 4-mm-thick T1-weighted images, before and after contrast injection, and axial fluid-attenuated inversion-recovery (FLAIR) sequences. The MRI showed diffuses hyperintensities on T2, T2- FLAIR-weighted and the SWI sequences images in the centrum semiovale, periventricular, frontal and occipital white matter, and in the cerebellum (Figure 1A, B, C) with central micro hemorrhages in the occipital, frontal and right semiovale centrum white matter lesions on Gradient Echo (T2*) sequence (Figure 1D). There was no enhancement on T1-weighted images. There was also no evidence for dural sinus thrombosis.\nThe GCS slightly improved up to 9. Two weeks after the onset of neurologic symptoms, He was progressively weaned from the mechanical ventilation. There was also a recovery of renal and hepatic function. Two weeks after the first examination (day 15), MRI showed disappearance of the cerebellum and periventricular lesions and minimal decrease in the size of the lesion of occipital, frontal and right semiovale centrum white matter (Figure 2A, B). There was a few central enhancement of white matter haemorrhagic lesions on post-contrast T1-weigted images (Figure 2C). On day 32, the patient regained consciousness, had been discharged to a rehabilitation unit. After a 4 months follow-up, no significant neurological improvement was noted and the patient was classified left hemiparesis post cerebral malaria.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old Moroccan man presented with fever and confusion rapidly progressing to coma and generalized tonic-clonic seizures after traveling in the Democratic Republic of Congo.",
+      "history_of_present_illness": "During a 5-month stay in the Democratic Republic of Congo without malaria chemoprophylaxis, the patient developed fever, confusion, and rapid progression to coma, prompting medical evacuation to Morocco where he had a 30-second generalized tonic-clonic seizure in the emergency department.",
+      "past_medical_history": "Five-month travel history in the Democratic Republic of Congo with neglected malaria chemoprophylaxis.",
+      "review_of_systems": "Positive for fever, confusion, coma, and tonic-clonic seizures."
+    },
+    "objective": {
+      "physical_examination": "Glasgow Coma Scale score of 7 on admission, generalized tonic-clonic seizure lasting 30 seconds in the ED, and malarial retinopathy on funduscopic examination.",
+      "routine_investigations": "Laboratory testing demonstrated acute renal failure and hepatic failure.",
+      "advanced_workup": "Day 1 brain CT was normal. Day 3 1.5T brain MRI (T1, T2, FLAIR, SWI, T2* GRE) showed diffuse T2/FLAIR/SWI hyperintensities in the centrum semiovale, periventricular, frontal, and occipital white matter, and cerebellum, with central microhemorrhages on T2* GRE and no dural sinus thrombosis. Day 15 repeat MRI showed resolution of cerebellar and periventricular lesions, slight reduction of fronto-occipital/centrum semiovale lesions, and mild central post-contrast T1 enhancement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Severe cerebral Plasmodium falciparum malaria complicated by white-matter hemorrhagic leukoencephalopathy, malarial retinopathy, acute renal failure, hepatic failure, and residual left hemiparesis. Confirmed by peripheral blood smear positive for P. falciparum. Managed with mechanical ventilation (weaned after 2 weeks), phenytoin for seizures, and intravenous quinine dihydrochloride plus IV doxycycline. Renal and hepatic function recovered, he regained consciousness and was discharged to rehabilitation on day 32, and he had persistent left hemiparesis at 4-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7264046_01",
+  "pair_id": "PMC7264046_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "In June 2017, a 78-year-old Frenchman, was hospitalized for episodic pain in the right hypochondrium for one month. His medical history included prostate local resection in 2013, inguinal hernia and daily both alcohol drinking and tobacco smoking. The patient was a traditional shepherd who never traveled outside the South-East of France. He had daily contact with sheep, sheepdogs, donkeys, horses and cats. Physical examination revealed a painful mass in the right hypochondrium. Computed tomography and magnetic resonance imaging scan showed three liver cysts, located in segments IV, V and VI (Fig. 1), that were classified following the WHO standardized US classifications in two CE5 cyst sized 5 cm and a bi-vesicular CE3b cyst sized 10 cm, respectively. No remarkable biological parameters were found, with the exception of a 78 mg/L C-reactive protein level (N < 5 mg/L). Hydatidosis serology was negative.\nBased on CT-scan images, a diagnosis of liver hydatid cyst was retained. The patient received albendazole (ABZ) 400 mg twice per day for six months. ABZ was stopped temporarily during a course of 2 months because of lymphopenia. The follow-up showed a suspected pre-rupture of the largest cyst: the serology switched to positive, thus precipitating the decision of surgical treatment by resection of the protruding dome in March 2018. The postoperative biological examination of the puncture fluid revealed scolex and typical hooklets (Fig. 2). Molecular test based on the cytochrome C oxidase subunit 1 nucleotide sequence has made it possible to identify Echinococcus granulosus sensu stricto genotype G1 (99 % on gene bank: HF947568.1). ABZ treatment was continued up to May 2018. At 2 months of follow-up, the patient had no pain and CT-scan images showed only the 4 cm calcified cyst in segment IV.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 78-year-old French shepherd presented with a 1-month history of episodic right hypochondriac pain.",
+      "history_of_present_illness": "The patient was hospitalized in June 2017 for episodic right upper quadrant abdominal pain lasting 1 month.",
+      "past_medical_history": "Local prostate resection in 2013, inguinal hernia, daily alcohol consumption, and daily tobacco smoking. Worked as a traditional shepherd in Southeastern France who never traveled outside the region and had daily contact with sheep, sheepdogs, donkeys, horses, and cats.",
+      "review_of_systems": "Positive for episodic right hypochondriac pain."
+    },
+    "objective": {
+      "physical_examination": "Abdominal palpation revealed a painful mass in the right hypochondrium.",
+      "routine_investigations": "Routine blood tests were unremarkable except for an elevated CRP of 78 mg/L (normal <5 mg/L). Baseline hydatid serology was negative, but subsequently seroconverted to positive during preoperative albendazole therapy when the largest cyst developed impending rupture.",
+      "advanced_workup": "Abdominal CT and MRI revealed three hepatic cysts in segments IV, V, and VI: two 5-cm WHO stage CE5 calcified cysts and one 10-cm bi-vesicular WHO stage CE3b cyst. Following surgical resection of the protruding dome in March 2018 (prompted by impending rupture of the 10-cm cyst and seroconversion), microscopy of the aspirated cyst fluid identified protoscolices and characteristic hooklets, and PCR sequencing of the mitochondrial cytochrome c oxidase subunit 1 (cox1) gene confirmed Echinococcus granulosus sensu stricto genotype G1 (99% identity to GenBank HF947568.1)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Autochthonous hepatic cystic echinococcosis (Echinococcus granulosus sensu stricto genotype G1; one 10-cm CE3b cyst and two 5-cm CE5 cysts) acquired in Southeastern France, confirmed by seroconversion, microscopic identification of protoscolices and hooklets, and cox1 PCR sequencing. Treated with oral albendazole 400 mg twice daily (temporarily interrupted for 2 months due to lymphopenia), surgical unroofing/resection of the protruding dome in March 2018, and postoperative albendazole until May 2018, with complete pain resolution at 2-month follow-up."
+    }
+  }
+}

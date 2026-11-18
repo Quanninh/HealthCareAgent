@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4331399_01",
+  "pair_id": "PMC4331399_01::HIV_AIDS",
+  "target_disease": "HIV_AIDS",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "Case 1: A 76-year-old female with a history of slowly progressive type 1 diabetes, treated for 30 years. She was being treated for rheumatoid arthritis (oral prednisolone, 5 mg/day, and had poor glycemic control specified by a glycated hemoglobin (HbA1c) level of 7.8% while on a regimen of 50% insulin lispro protamine suspension and 50% insulin lispro injection (HUMALOG  Mix50/50TM; Lilly USA, LLC, 2013) at 6 U in the morning and 4 U in the evening, as well as miglitol (10 mg/day) and mitiglinide (450 mg/day). She presented to the emergency unit of our hospital with a fever of 39 C, headache, erythema on the trunk, and joint pain. On admission, her body temperature was 40.2 C, pulse rate 134 beats/min, blood pressure 150/70 mmHg, height 145 cm, and body weight 38 kg. Routine laboratory testing showed an elevated leukocyte count of 11.8 x 103 cells/muL and a C-reactive protein level of 19.21 mg/dL. Serological tests for syphilis and HIV were negative. As a result, we suspected a bacterial infection, especially because of the significant inflammation reaction in blood sampling; therefore, we decided to begin empiric cefepime therapy at 2 g/day. During hospitalization, our patient complained of a decreased appetite; thus, we commenced blood glucose monitoring on a sliding scale to maintain her preprandial blood glucose level at approximately 120 mg/dL. On day 2 of admission, her fever declined and erythema improved. On day 4, she was discharged after a change to oral cefotiam at 1800 mg/day. On day 9, she again developed high fever, poor appetite, and fatigue, and on day 10, she was readmitted to our hospital. On the same day, H. cinaedi was detected from a blood culture taken on the first day of admission; we accordingly started administering minocycline at 200 mg/day. A blood culture taken on the second day of re-admission was positive for H. cinaedi, indicating persistent bacteremia. However, because her general condition was improving, oral minocycline (200 mg/day) was continued. On day 18 after the initial admission, the third blood culture was taken, then she was discharged a second time. Later, we confirmed that her third blood culture was negative in an outpatient clinic and prescribed completion of the antibiotic regimen.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 76-year-old female with slowly progressive type 1 diabetes mellitus and rheumatoid arthritis presented to the emergency unit with high fever (39.0 °C), headache, truncal erythema, and arthralgias.",
+      "history_of_present_illness": "The patient presented acutely with a fever of 39.0 °C, headache, erythematous truncal rash, and joint pain. After initial clinical improvement on empiric intravenous cefepime (days 1–4) and discharge on oral cefotiam, she relapsed on day 9 with recurrent high fever, anorexia, and fatigue, requiring hospital readmission on day 10.",
+      "past_medical_history": "30-year history of slowly progressive type 1 diabetes mellitus (poorly controlled, baseline HbA1c 7.8%); rheumatoid arthritis on chronic low-dose corticosteroid therapy.",
+      "review_of_systems": "Positive for high fever, headache, truncal erythema, joint pain, anorexia, and fatigue. Home medications: oral prednisolone 5 mg/day, Humalog Mix 50/50 insulin (6 U morning, 4 U evening), miglitol 10 mg/day, and mitiglinide 450 mg/day."
+    },
+    "objective": {
+      "physical_examination": "On admission: temperature 40.2 °C, heart rate 134 beats/min, blood pressure 150/70 mmHg, height 145 cm, and weight 38 kg, with truncal erythema.",
+      "routine_investigations": "Admission labs showed leukocytosis (WBC 11.8 x 10^3 cells/µL), markedly elevated CRP (19.21 mg/dL), HbA1c 7.8%, and negative syphilis and HIV serologies. Blood cultures drawn on hospital day 1 (reported positive on day 10) and repeat blood cultures on day 2 of readmission isolated Helicobacter cinaedi.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Persistent/relapsing Helicobacter cinaedi bacteremia and cellulitis/erythema in an HIV-negative 76-year-old woman with poorly controlled type 1 diabetes mellitus and rheumatoid arthritis on low-dose prednisolone. Initial empiric IV cefepime (2 g/day) followed by oral cefotiam (1,800 mg/day) resulted in clinical relapse on day 9; once admission and readmission blood cultures confirmed H. cinaedi on day 10, targeted therapy with oral minocycline (200 mg/day) alongside sliding-scale insulin glycemic control achieved clearance of blood cultures by day 18 and complete clinical recovery."
+    }
+  }
+}

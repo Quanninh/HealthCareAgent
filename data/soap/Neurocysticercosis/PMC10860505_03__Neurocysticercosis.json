@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10860505_03",
+  "pair_id": "PMC10860505_03::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 10.0,
+  "raw_case_text": "A 37-year-old male patient has a history of frequent headaches and recurrent seizures for 2 months. MRI revealed dilatation of the extra-axial CSF spaces with septations along the inferior aspect of the corpus callosum. The third ventricle roof was displaced posteriorly into the basal cisterns (Figure 3A and B). Moderate non-communicating hydrocephalus was also noted with the normal-sized fourth ventricle. The FIESTA sequence could depict the multiseptated nature of the lesion more clearly. Contrast enhancement and diffusion restriction were absent. The patient improved on conservative management and is currently on follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 37-year-old man presented with a 2-month history of frequent headaches and recurrent seizures.",
+      "history_of_present_illness": "The patient experienced frequent headaches and recurrent seizures over the 2 months preceding presentation.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI (including FIESTA sequences) demonstrated multiseptated cystic dilatation of the extra-axial CSF spaces along the inferior aspect of the corpus callosum displacing the roof of the third ventricle posteriorly into the basal cisterns, accompanied by moderate non-communicating hydrocephalus with a normal-sized fourth ventricle and no contrast enhancement or diffusion restriction."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Subarachnoid racemose neurocysticercosis was diagnosed based on the multiseptated extra-axial cisternal cysts seen on FIESTA MRI. The patient improved on conservative medical management and remains under follow-up."
+    }
+  }
+}

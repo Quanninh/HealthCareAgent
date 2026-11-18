@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4209706_01",
+  "pair_id": "PMC4209706_01::Nocardiosis",
+  "target_disease": "Nocardiosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 55.0,
+  "raw_case_text": "A 51-year-old male presented with progressive headaches, nausea, vomiting, left hip pain, and fatigue for 3 weeks. Neurological examination showed left leaning an talgi c gait and difficulty with tandem and heel-to-toe walking. Brain magnetic resonance imaging (MRI) showed extensive leptomeningeal enhancement with a small focus of nodular parenchymal enhancement [Figure 1a and b], and non-specific T2 white matter hypointensities [Figure 1c]. Cerebrospinal fluid (CSF) workup was suggestive of aseptic meningoencephalitis (lymphocyte predominance with elevated total protein and IgG). Over the next week, he had decreasing lower extremity strength. A repeat lumbar puncture (LP) revealed opening pressure of 45, with elevated protein level. Brain MRI was unchanged while spine MRI showed diffuse leptomeningeal nodular enhancement of the cervical, thoracic, and cauda equina nerve roots [Figure 1d-f]. The patient was started on empiric treatment for CNS fungal disease, while CSF serology and culture were pending. Multiple therapeutic LPs were performed during the hospital course with similar abnormal CSF profiles (persistently elevated total nucleated cells and protein, low glucose), but were ultimately non-diagnostic. A right temporal brain biopsy was then performed. Surgical pathology was initially concerning for Nocardia asteroides that was later determined as a contaminant. The patient's neurological status continued to deteriorate with intermittent leg weakness and episodes concerning clinical seizures.\nOwing to diagnostic dilemma and patient's deteriorating condition, a cauda equina biopsy was performed 3 weeks after the brain biopsy. Frozen section of the nerve root demonstrated pigmented cells, and final surgical pathology revealed primary leptomeningeal melanomatosis [Figure 2]. Tumor cells were strongly immunoreactive for HMB-45 and MART-1, with a high Ki-67 proliferation index. Fluorine-18 fluorodeoxyglucose positron emission tomography/computed tomography (FDG-18 PET CT) demonstrated absence of abnormal FDG activity outside the CNS.\nThe patient underwent palliative cranio-spinal radiation treatment with adjuvant Temozolomide. These were poorly tolerated and were discontinued after a month. Three months from initial presentation, he died from cardiopulmonary failure.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old male presented with a 3-week history of progressive headaches, nausea, vomiting, left hip pain, and fatigue.",
+      "history_of_present_illness": "The patient presented with 3 weeks of progressive headaches, nausea, vomiting, left hip pain, and fatigue. Over the first week of hospitalization, he developed progressive bilateral lower extremity weakness, clinical seizures, and neurological deterioration.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Initial neurological exam showed a left-leaning antalgic gait and impaired tandem/heel-to-toe walking, followed over the next week by progressive lower extremity weakness and clinical seizures.",
+      "routine_investigations": null,
+      "advanced_workup": "Initial brain MRI showed extensive leptomeningeal enhancement, a small focus of nodular parenchymal enhancement, and nonspecific T2 white-matter hyperintensities; repeat spine MRI demonstrated diffuse nodular leptomeningeal enhancement along the cervical, thoracic, and cauda equina nerve roots. Serial lumbar punctures revealed an opening pressure of 45 cmH2O, lymphocytic pleocytosis (elevated total nucleated cells), elevated protein and IgG, low glucose, and negative CSF cultures/serologies. Right temporal brain biopsy initially suggested Nocardia asteroides, which was determined to be a contaminant. Subsequent cauda equina nerve root biopsy 3 weeks later revealed pigmented malignant cells strongly immunoreactive for HMB-45 and MART-1 with a high Ki-67 index; whole-body 18F-FDG PET-CT showed no extra-CNS primary melanoma."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary leptomeningeal melanomatosis (with initial right temporal biopsy isolation of Nocardia asteroides determined to be a laboratory contaminant and CNS fungal infection excluded) was confirmed via cauda equina nerve root biopsy and HMB-45/MART-1 immunohistochemistry alongside negative whole-body 18F-FDG PET-CT. Following empirical antifungal therapy and serial therapeutic lumbar punctures, the patient underwent palliative craniospinal radiation and adjuvant temozolomide (discontinued after 1 month due to poor tolerance) and died of cardiopulmonary failure 3 months after initial presentation."
+    }
+  }
+}

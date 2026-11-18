@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9412163_01",
+  "pair_id": "PMC9412163_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "Our patient is a former 26-week gestation premature male infant with a birthweight of 915 grams and diagnoses of bronchopulmonary dysplasia and a small ventricular septal defect. He had a protracted NICU course notable for respiratory distress syndrome requiring surfactant therapy, intubation with mechanical ventilation for 6 days, and non-invasive positive pressure with through day of life (DOL) 52, and continued to require supplemental oxygen through DOL 68 and 36 weeks post-menstrual age, classifying his BPD as mild according to the current NICHD guidelines. Then, on DOL 82, he underwent an elective laparoscopic bilateral inguinal and umbilical hernia repair and circumcision. As per hospital policy, he had a negative COVID-19 screening test 2 days prior to this surgery. At this time, the patient weighed 2560 grams and had a stable supplemental oxygen requirement of 0.5 liters per minute FiO2 0.40 via nasal cannula. His parents visited regularly and were present on the day of surgery. The evening of his surgery, his mother began feeling ill and subsequently tested positive for COVID-19. The immediate post-operative course was uneventful.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 82-day-old former 26-week premature male infant in the NICU was evaluated following perioperative maternal exposure to COVID-19 on the day of his elective hernia repair and circumcision.",
+      "history_of_present_illness": "Hospitalized in the NICU since birth at 26 weeks gestation (915 g) for mild bronchopulmonary dysplasia (stable on 0.5 L/min nasal cannula at FiO2 0.40, weight 2560 g), the infant underwent elective laparoscopic bilateral inguinal and umbilical hernia repair and circumcision on day of life (DOL) 82 (with a negative preoperative COVID-19 test on DOL 80), and was exposed on the day of surgery to his visiting mother who developed symptoms that evening and tested positive for COVID-19.",
+      "past_medical_history": "Extreme prematurity (26 weeks gestation, birth weight 915 g), neonatal RDS (treated with surfactant, 6 days of mechanical ventilation, NIPPV through DOL 52, and low-flow O2), mild bronchopulmonary dysplasia (BPD), and small ventricular septal defect (VSD); maternal COVID-19 exposure on DOL 82.",
+      "review_of_systems": "Uneventful immediate postoperative status at baseline supplemental oxygen requirement."
+    },
+    "objective": {
+      "physical_examination": "On DOL 82, weight was 2560 g with stable respiratory status on 0.5 L/min nasal cannula oxygen (FiO2 0.40) and an uneventful immediate postoperative examination.",
+      "routine_investigations": "Routine preoperative SARS-CoV-2 screening test on DOL 80 (2 days prior to surgery) was negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Former 26-week premature male infant with mild bronchopulmonary dysplasia and small VSD who underwent uncomplicated laparoscopic bilateral inguinal/umbilical hernia repair and circumcision on DOL 82, with perioperative maternal COVID-19 exposure managed under NICU monitoring."
+    }
+  }
+}

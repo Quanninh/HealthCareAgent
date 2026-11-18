@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10367206_01",
+  "pair_id": "PMC10367206_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 15-year-old female, born in Rio de Janeiro reported the appearance of discreetly pruritic lesions on the face and left palmar region 3 months ago with no other associated symptoms. She reported having had unprotected sex in the last 3 months. Physical examination revealed two well-defined, rounded, non-scaly, brownish plaques with slightly elevated erythematous edges: one located superior to the right oral angle and the other lateral to the right nasal ala. Multiple whitish confluent plaques were observed in the ventral region of the tongue. In the left palmar region, two circular erythematous macules with peripheral whitish scaly collarettes were observed. Dermatological findings included elegant syphilides on the face (Figure 1), mucous plaques on the tongue (Figure 2), and syphilitic roseola with a Biett collarette in the palmar region (Figure 3). The clinical diagnosis was secondary syphilis, confirmed using quantitative VDRL (1/32) and rapid treponemal test (FTA-ABS) reagents. We administered 2,400,000 IU intramuscular single dose of benzathine penicillin that led to resolution of the lesions and treatment of sexual contacts. Secondary syphilis manifests as various types of rashes on the skin and mucous membranes. In afro-descent patients, the lesion on the face can present as elegant syphilide. It occurs infrequently around the nose and mouth, has an annular or circinate configuration, and is a characteristic finding during the secondary phase of the disease that requires further investigation for diagnostic confirmation.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old female from Rio de Janeiro presented with a 3-month history of mildly pruritic skin lesions on her face and left palm.",
+      "history_of_present_illness": "The patient noticed the appearance of mildly pruritic lesions on her face and left palmar region 3 months prior to presentation, without any systemic or constitutional symptoms.",
+      "past_medical_history": "Reported unprotected sexual intercourse within the preceding 3 months.",
+      "review_of_systems": "Positive for mildly pruritic facial and left palmar lesions and oral tongue plaques; negative for systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination revealed two well-defined, rounded, non-scaly brownish annular plaques with slightly elevated erythematous borders ('elegant syphilides') on the face—one superior to the right oral commissure and one lateral to the right nasal ala. Intraoral examination showed multiple whitish confluent mucous plaques on the ventral tongue. Examination of the left palm showed two circular erythematous macules surrounded by peripheral whitish scaly collarettes (Biett collarettes).",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis presenting with facial elegant syphilides, lingual mucous patches, and palmar syphilitic roseola with Biett collarettes, verified by reactive quantitative serum VDRL (titer 1:32) and positive FTA-ABS rapid treponemal test. Treated with a single intramuscular dose of benzathine penicillin G 2,400,000 IU along with partner treatment, resulting in complete resolution of the mucocutaneous lesions."
+    }
+  }
+}

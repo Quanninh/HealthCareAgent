@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2993023_01",
+  "pair_id": "PMC2993023_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 30.0,
+  "raw_case_text": "When a 44-year-old male first sought for medical advice in December 2009, he had already had a mutilating, horrifying tumor on the right side of his face for 10 months. He lived alone in a farmhouse in a rural, but quite densely populated area. Two years previously, his own dog had clawed on the right side of the patient's nose, with the injury leaving a scar. Eleven months before his presentation, he had suffered another minor injury in the same region caused by a splinter of wood. A gradually growing, ulcerating lesion had subsequently developed on his face (Figure 1). The clinical diagnosis was BCC, but the possibility of Wegener's granulomatosis also emerged together with a suspicion of leprosy or some other bacterial infection. The CT scan revealed an extensive bone defect: the maxillary sinus had perished, half of the nasal bone and the zygomatic arch were missing, and the external wall of the frontal sinus was involved. As three types of bacteria were identified, intravenous antibiotic treatment was started. Multiple biopsies confirmed the presence of BCC (Figure 2). The tumor was resected at the Oral and Maxillofacial Surgery Department and the defect was covered with a frontotemporal rotation flap and a latissimus dorsi musculocutaneous free flap. In the postoperative period, the patient suffered a right-sided temporal lobe emollition of the brain, resulting in left-sided hemiplegia. The skin layer of the flap necrotized, but the muscular layer remained intact, and healed by secondary epithelialization. After 6 months, recurrences around the mouth necessitated repeated excisions with a forearm fascio-cutaneous free flap reconstruction. This flap necrotized in full thickness and it had to be removed, and the defect was closed in a direct manner. The patient is now tumor-free, but his face has not been reconstructed functionally or esthetically (Figure 3). His nutrition is solved, and physiotherapy has led to a significant improvement in his extremity movements: he can walk alone and use his left hand.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old male presented in December 2009 with a 10-month history of a large, mutilating, ulcerating facial tumor on the right side of his face.",
+      "history_of_present_illness": "Two years prior to presentation, the patient's dog clawed the right side of his nose, leaving a scar; 11 months before presentation, a wood splinter injured the same site. One month later, a progressively enlarging, destructive ulcerating mass developed over the right midface.",
+      "past_medical_history": "He lived alone in a rural farmhouse; history of facial trauma from a dog scratch (2 years prior) and wood splinter (11 months prior).",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed an extensive, mutilating, ulcerated tumor destroying the right midface and nasal region.",
+      "routine_investigations": "Wound bacteriological cultures isolated three bacterial species.",
+      "advanced_workup": "Craniofacial CT demonstrated extensive osteolytic bone destruction with complete loss of the right maxillary sinus, destruction of half of the nasal bone and the zygomatic arch, and invasion of the external wall of the frontal sinus. Multiple tissue biopsies of the facial mass were performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Multiple biopsies confirmed invasive basal cell carcinoma (BCC), ruling out differential considerations of Wegener's granulomatosis, leprosy, and primary bacterial infection. Following targeted intravenous antibiotic therapy for bacterial superinfection, the tumor was resected and reconstructed with a frontotemporal rotation flap and latissimus dorsi musculocutaneous free flap (complicated postoperatively by right temporal lobe encephalomalacia causing left hemiplegia and partial skin-layer flap necrosis healing by secondary epithelialization). Local perioral recurrence at 6 months required repeat excisions and a radial forearm fasciocutaneous free flap (which underwent full-thickness necrosis and direct closure), leaving the patient tumor-free with improved ambulation and left hand function following physiotherapy."
+    }
+  }
+}

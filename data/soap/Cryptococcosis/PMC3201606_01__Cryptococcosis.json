@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3201606_01",
+  "pair_id": "PMC3201606_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 70 years old woman was admitted for paraplegia. Past medical history of the patient revealed bilateral sciatica evolving since July 2009, not alleviated by symptomatic treatment. A month prior admission, the sciatica symptoms worsened towards a gradual onset of paraplegia, prompting the current consultation. No other significant medical history was noted. On admission, body temperature was 37 , heart rate was 75b/mn, and blood pressure 130/60 mmhg. Neurological examination showed spastic paraparesis, deep tendon reflexes of the lower extremities were lively. Babinski reflex was bilaterally positive. Laboratory findings showed: erythrocyte sedimentation rate 100mm/h, white blood cell count 4800/ mm3, lymphocytes 1600/mm3 and haemoglobin level 12g/dl\nHIV serology was negative; complement levels and measurement of CD4/CD8 T-lymphocyte ratio were within the normal range.\nA lumbar magnetic resonance imaging was performed showing a lesion process extending from Th8 to Th10, with spinal cord compression. The lesion was hypo-intense on T1-weighted images and hyper-intense on T2-weighted images (Figure 1, 2). Culture of cerebrospinal fluid established the presence of C neoformans.\nPosterior laminectomy was performed, revealing an abnormal tissue lesion. Biopsy showed, on histological examination, numerous fungal organisms with thick capsules and a granulomatosis inflammatory process without necrosis. There were no malignant cells (Figure 3). Chest X ray examination and thoracic computed tomography were normal.\nThe diagnosis of spinal cryptococcosis in an immunocompetent patient was established and the patient was treated by intravenous amphotericin B (0.7 mg/ kg/day) with relay by fluconazol (400mg/d). On follow-up, the patient remains well with no neurological or other sequel.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 70-year-old woman presented with a 1-month history of progressive paraplegia on a background of chronic bilateral sciatica.",
+      "history_of_present_illness": "The patient had experienced bilateral sciatica since July 2009 that was refractory to symptomatic treatment. One month prior to admission, her symptoms progressed to gradual-onset paraplegia.",
+      "past_medical_history": "Bilateral sciatica; no other significant past medical history.",
+      "review_of_systems": "Positive for bilateral sciatica and progressive lower extremity paralysis."
+    },
+    "objective": {
+      "physical_examination": "Admission vital signs: temperature 37 C, heart rate 75 beats/min, blood pressure 130/60 mmHg. Neurological examination demonstrated spastic paraparesis, brisk lower extremity deep tendon reflexes, and bilateral positive Babinski reflexes.",
+      "routine_investigations": "ESR 100 mm/h, WBC 4800/mm3, lymphocytes 1600/mm3, hemoglobin 12 g/dL, negative HIV serology, and normal chest X-ray.",
+      "advanced_workup": "Complement levels and CD4/CD8 T-lymphocyte ratio were normal; thoracic CT was normal. Thoracolumbar spine MRI demonstrated a T1-hypointense, T2-hyperintense lesion extending from T8 to T10 causing spinal cord compression. Posterior laminectomy and biopsy of the abnormal epidural/spinal tissue revealed non-necrotizing granulomatous inflammation containing numerous thick-capsule fungal organisms without malignant cells, and CSF culture grew Cryptococcus neoformans."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of spinal cryptococcosis (epidural/vertebral cryptococcoma at T8-T10 causing spinal cord compression) in an immunocompetent patient, confirmed by CSF culture isolating Cryptococcus neoformans and surgical laminectomy biopsy histopathology demonstrating encapsulated yeast within granulomatous inflammation. Treated with posterior decompressive laminectomy, IV amphotericin B (0.7 mg/kg/day), and oral fluconazole consolidation/maintenance (400 mg/day), achieving full recovery with no residual neurological sequelae on follow-up."
+    }
+  }
+}

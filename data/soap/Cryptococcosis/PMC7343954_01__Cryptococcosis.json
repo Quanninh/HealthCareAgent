@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7343954_01",
+  "pair_id": "PMC7343954_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A skin punch biopsy was submitted from a 32-year-old woman with umbilicated skin lesions. Cryptococcal latex antigen on serum and cerebrospinal fluid (CSF) were positive and CSF fungal culture revealed Cryptococcus neoformans. Her CD4 count was 1 cell/microL. Numerous extracellular yeasts were seen on haematoxylin and eosin stained section (Figure 2). The capsules and cell walls were highlighted on Alcian Blue Periodic Acid Schiff (ABPAS) special stain (Figure 2, inset) and the diagnosis of cryptococcosis was made.\nComment: The histopathologist is often relied upon to make a timeous diagnosis of a fungal infection as tissue may not have been submitted for fungal culture or an 'extended' culture may be required, leading to a longer diagnostic turnaround time. Although fungal culture remains the gold standard, the diagnosis of a fungal infection can be reliably made on histological examination by identifying fungal yeasts (see Figure 1) or hyphae using histochemical stains such as Grocott and Periodic Acid Schiff (PAS). Histological features of fungal infection that should prompt special staining for fungal elements include granulomatous inflammation, neutrophilic micro-abscesses, foamy histiocytes, ulceration, pseudoepitheliomatous hyperplasia and suppurative inflammation. Some morphological clues may point towards a specific fungus; for example Cryptococcus yeasts, which are extracellular and variably sized. The typical staining on ABPAS special stain, as was noted in case 2 (see Figure 2), is supportive of the diagnosis. Pneumocystis jirovecii is typically present within a foamy exudate, the organisms are Grocott positive and appear as collapsed 'helmets' with a central dot. In a South African cohort of patients from the Western Cape, emergomycosis (previously emmonsiosis) was the most common systemic mycoses, followed by sporotrichosis and histoplasmosis. It is not possible to distinguish emergomycosis from other fungi on histological examination. Serum beta-D-glucan and urine Histoplasma capsulatum antigen testing can be used as adjuncts when a fungal infection is clinically suspected. It is worthwhile remembering that urine H. capsulatum antigen can be positive in patients with emergomycosis due to cross-reactivity. Once the histological diagnosis of a fungal infection is made, further material should be submitted for fungal culture or polymerase chain reaction (PCR). Although further confirmatory investigations were not performed in case 1, definitive identification of fungal species by these methods is critical as they will impact the choice and duration of antifungal therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old profoundly immunocompromised woman presented with umbilicated cutaneous lesions.",
+      "history_of_present_illness": "The patient presented with umbilicated skin lesions and underwent a diagnostic skin punch biopsy along with serum and cerebrospinal fluid evaluation.",
+      "past_medical_history": "Severe immunodeficiency (CD4 count 1 cell/uL).",
+      "review_of_systems": "Positive for umbilicated skin lesions."
+    },
+    "objective": {
+      "physical_examination": "Multiple umbilicated cutaneous lesions.",
+      "routine_investigations": "Serum cryptococcal latex antigen test was positive.",
+      "advanced_workup": "CD4+ T-cell count was 1 cell/uL. Lumbar puncture CSF cryptococcal latex antigen test was positive and CSF fungal culture grew Cryptococcus neoformans. Skin punch biopsy histopathology revealed numerous variably sized extracellular yeast organisms on H&E staining whose capsules and cell walls were highlighted by Alcian Blue-Periodic Acid-Schiff (ABPAS) special staining."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of disseminated Cryptococcus neoformans infection (cryptococcal meningitis, antigenemia, and secondary umbilicated cutaneous cryptococcosis) in a patient with profound CD4 lymphopenia (CD4 1 cell/uL), confirmed by positive serum and CSF cryptococcal latex antigen tests, CSF fungal culture isolating C. neoformans, and skin punch biopsy H&E and Alcian Blue-PAS staining."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3699943_01",
+  "pair_id": "PMC3699943_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A 79-year-old white man from Alagoas presented with a two-month-history of multiple asymptomatic disseminated erythematous papules. The dermatological examination showed erythematous papules, symmetrically distributed and widespread on the tegument, some in clusters, more evident on the dorsal aspect of the trunk and limbs (Figures 1 and 2). The scalp, mucous membranes, palms and soles were spared. The patient had no systemic signs or symptoms, and lesion sensitivity was preserved. \nConsidering the differential diagnosis of syphilis and leprosy, specific laboratory tests were performed and the results were negative. Skin biopsy showed dense mononuclear dermal infiltrate without atypia, occupying the entire dermis, and perivascular lymphocyte clusters on the superficial dermis (Figure 3). Wade staining was negative. The immunohistochemical examination was positive only for CD68 and negative for CD1a, CD34 and S100 (Figure 4). \nThe diagnosis of GEH was based on the association of clinical, histopathological and immunohistochemical findings. The lesions regressed spontaneously after two months and he has no history of recurrence to date.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 79-year-old white man from Alagoas, Brazil, presented with a 2-month history of multiple asymptomatic disseminated erythematous papules.",
+      "history_of_present_illness": "Over the 2 months prior to presentation, the patient developed widespread, painless, non-pruritic erythematous papules across his trunk and extremities without systemic symptoms.",
+      "past_medical_history": null,
+      "review_of_systems": "Negative for pruritus, pain, sensory loss, or systemic constitutional symptoms."
+    },
+    "objective": {
+      "physical_examination": "Dermatological examination revealed symmetrical, widespread erythematous papules—some arranged in clusters—predominantly over the dorsal trunk and extremities, with sparing of the scalp, mucous membranes, palms, and soles, and completely preserved lesional cutaneous sensation.",
+      "routine_investigations": "Specific laboratory and serological tests for syphilis and leprosy were negative.",
+      "advanced_workup": "Skin biopsy histopathology demonstrated a dense pan-dermal mononuclear infiltrate without cellular atypia accompanied by superficial perivascular lymphocytic clusters and negative Wade staining for acid-fast bacilli. Immunohistochemistry was positive solely for CD68 and negative for CD1a, CD34, and S100."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Clinical, histopathological, and immunohistochemical findings (CD68+, CD1a-, S100-) established the diagnosis of generalized eruptive histiocytoma (GEH), ruling out leprosy, secondary syphilis, and Langerhans cell histiocytosis. The cutaneous lesions regressed spontaneously within 2 months with no recurrence on follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3068585_01",
+  "pair_id": "PMC3068585_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 23-year-old Sistani (a certain ethnicity resided in Sistan Province of Iran) shepherd admitted to the infectious disease ward due to 2 weeks intermittent low-grade fever (38oC), severe pain in left sternoclavicular joint (SCJ), progressive dyspnea, and gradual loss of consciousness. A fluctuant, soft and tender abscess (4 x 4 cm2) was found in his right SCJ area.\nA thick wall hypoechoic mass was reported in ultrasonography. Bone appearance was normal in his chest X-ray (CXR) and computed topography scan (CTS). Brucella seroagglutination tests, Wright, and 2ME were requested with regards to his occupational state.\nPartial sternotomy and necrotic debridement were done by a thorax surgeon and repaired by the surrounding muscles and soft tissues. Significant laboratory data were as followings: Erythrocyte sedimentation rate (ESR) = 65 mm/first hour, white blood cells (WBC) = 6800 (63% poly morpho nuclear), Wright = 1/2560, 2ME = 1/1280 and hemoglobin (Hb) = 9.2 g/dL.\nCastaneda media culture of purulent material yielded to brucella melitensis infection. Smear and culture were negative for mycobacteria.\nCap. Doxycycline (100 mg/BID/Po), and Amp. Streptomycin (1 g/day, IM) were prescribed for 2 weeks and continued with Doxycycline (100 mg/BID) and Tab. Rifampin (600 mg/day) for 6 weeks. Complete recovery with no complication was reported after 6-month follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old male shepherd from Iran presented with a 2-week history of intermittent low-grade fever (38 C), severe left sternoclavicular joint pain, progressive dyspnea, and gradual obtundation.",
+      "history_of_present_illness": "A 23-year-old Sistani shepherd was admitted with 2 weeks of intermittent low-grade fever (38 C), severe sternoclavicular pain, progressive shortness of breath, and declining consciousness, accompanied by an anterior chest wall abscess.",
+      "past_medical_history": "Occupational history as a shepherd in Sistan Province, Iran.",
+      "review_of_systems": "Positive for intermittent fever, severe sternoclavicular pain, chest wall swelling, progressive dyspnea, and altered mental status."
+    },
+    "objective": {
+      "physical_examination": "Fever (38 C), progressive dyspnea, depressed level of consciousness, and a 4 x 4 cm fluctuant, soft, tender abscess over the sternoclavicular joint region.",
+      "routine_investigations": "ESR 65 mm/1st hour, WBC 6,800/mm3 (63% polymorphonuclear cells), hemoglobin 9.2 g/dL. Ultrasonography showed a thick-walled hypoechoic sternoclavicular mass; chest X-ray showed normal osseous appearance.",
+      "advanced_workup": "Chest CT showed normal bone appearance. Intraoperative partial sternotomy and necrotic tissue debridement with muscle/soft-tissue flap reconstruction; mycobacterial smear and culture of purulent material were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Serum Wright agglutination titer was 1:2,560, 2-mercaptoethanol (2ME) titer was 1:1,280, and Castaneda medium culture of evacuated sternoclavicular pus isolated Brucella melitensis, confirming sternoclavicular joint brucellosis with abscess formation. Managed with surgical partial sternotomy and debridement followed by oral doxycycline (100 mg BID) plus intramuscular streptomycin (1 g/day) for 2 weeks, and then oral doxycycline (100 mg BID) plus oral rifampin (600 mg/day) for 6 weeks, achieving complete recovery without complications at 6-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11087666_01",
+  "pair_id": "PMC11087666_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A healthy 12-year-old female Brazilian patient was referred to the the Acute Febrile Diseases Reference Center (CPD-Mal) at the Instituto Nacional de Infectologia Evandro Chagas, Fiocruz (Rio de Janeiro, Brazil) with high fever, chills, severe headache, and mild diarrhoea. The patient reported having been diagnosed with P. vivax malaria (15 parasites/mm3) on January 15th, 2021 in the local Reference Center during a consultation when she was living in the Brazilian Amazon. She was treated with a chloroquine and primaquine regimen, with correct drug dosage and treatment time.\nOn May 13th, 2021 (4 months after the first infection), a recurrence of P. vivax was diagnosed using a species-specific real time polymerase chain reaction (PCR) capable to detect submicroscopic parasitemias, as well as Abbot Pf/Pf/Pv RDT  and thick blood smear (TBS); no P. falciparum or P. malariae mixed infections were detected by PCR. A new treatment with chloroquine and primaquine was prescribed according to the Brazilian treatment guidelines. The same malaria tests (PCR, RDT  and TBS) were negative after this course of treatment. This new episode was considered a malaria relapse as the patient did not return to a malaria-endemic area and there was no epidemiological history to support the possibility of a new infection.\nIn July 2021 (6 months after the first infection), the patient developed high fever, chills, asthenia, and dyspnea. Again, the same PCR, RDT  and TBS tests diagnosed a new relapse of P. vivax infection. Treatment with artesunate and mefloquine was recommended for this second relapse. The patient required hospitalisation and evolved with thrombocytopenia without bleeding episodes. Laboratory tests confirmed clinical cure after the therapeutic regimen. The patient was hospitalised for four days during the second recurrence that did not progress to clinical severity. She was discharged from the hospital with clinical and parasitological cure attested by parasite clearance through PCR, RDT  and TBS clearance on July 29th, 2021. In this second relapse, the patient had a much greater parasitaemia, predisposing to greater destruction of red blood cells, causing congestion in the spleen and producing platelet sequestration, justifying the transient thrombocytopenia. Table 1 shows the main laboratory tests performed during first and second relapses follow-up.\nSubsequently, the patient received prophylactic treatment with chloroquine weekly for three months (July to October 2021) and after twelve months no malaria recurrence was detected by PCR, RDT  and TBS. Table 2 shows the therapeutic regimens used during follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 12-year-old Brazilian female presented with high fever, chills, severe headache, and mild diarrhea, followed by two subsequent febrile relapses 4 and 6 months after her initial malaria episode.",
+      "history_of_present_illness": "After an initial episode of Plasmodium vivax malaria in January 2021 acquired in the Brazilian Amazon and treated with chloroquine and primaquine, the patient presented in Rio de Janeiro in May 2021 (4 months later) with a first relapse and again in July 2021 (6 months later) with high fever, chills, asthenia, and dyspnea without re-exposure to an endemic area.",
+      "past_medical_history": "Healthy 12-year-old female; prior residence in the Brazilian Amazon with initial P. vivax diagnosis on January 15, 2021 (15 parasites/mm3) treated with chloroquine and primaquine; no subsequent travel to malaria-endemic areas.",
+      "review_of_systems": "Initial and relapse episodes positive for high fever, chills, severe headache, mild diarrhea, asthenia, and dyspnea; negative for bleeding episodes."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "During the second relapse in July 2021, laboratory testing revealed transient thrombocytopenia without clinical bleeding.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Recurrent relapsing Plasmodium vivax malaria (two relapses at 4 and 6 months post-initial infection). Confirmed at both relapses by thick blood smear (TBS), Abbott Pf/Pv rapid diagnostic test (RDT), and species-specific real-time PCR (excluding P. falciparum and P. malariae co-infection). First relapse (May 2021) was treated with chloroquine and primaquine; second relapse (July 2021, hospitalized 4 days) was treated with artesunate and mefloquine (parasite clearance confirmed on July 29, 2021) followed by 3 months of weekly prophylactic chloroquine (July-October 2021), with no further recurrences over 12 months of PCR/RDT/TBS follow-up."
+    }
+  }
+}

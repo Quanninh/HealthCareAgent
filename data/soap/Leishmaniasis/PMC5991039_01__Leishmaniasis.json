@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5991039_01",
+  "pair_id": "PMC5991039_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 38-year-old male patient presented to the Medicine Department with a history of low-grade fever, weight loss, and anorexia for the past 6 weeks. General examination revealed mild pallor, splenomegaly, and mild hepatomegaly with discrete enlarged lymph nodes at the right epitrochlear area and right cervical region. He was advised for all necessary investigations including FNAC of the lymph nodes. All biochemical tests were within normal limits, except mild elevation of liver enzymes (serum glutamic pyruvic transaminase - 60 IU/L, serum glutamic oxaloacetic transaminase - 53 IU/L, lactic dehydrogenase - 370 IU/L). On hematological examination, he had a hemoglobin level of 10.2 g% and erythrocyte sedimentation rate (ESR) was elevated (ESR - 68 mm/h). On serology screening, he was reactive to HIV I.\nFNAC was performed from both cervical and epitrochlear lymph nodes with a 24G needle attached with 20 cc syringe. The smears were stained with Leishman-Giemsa stain and Ziehl-Neelsen stain. The smears showed polymorphous cell population, comprised of reactive lymphoid cells, histiocytes, isolated epithelioid cells, many tangible body macrophages, and macrophages filled with leishmania amastigote form [Figures 1 and 2]. Subsequently, he had undergone bone marrow examination and the smears revealed high parasitic load of amastigote form of leishmania in the bone marrow smears (parasite load - [5+]). The diagnosis was established as visceral leishmaniasis with leishmanial lymphadenitis with HIV-reactive status. He was treated with stibogluconate for 28 days with antiretroviral therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old male presented with a 6-week history of low-grade fever, anorexia, and unintentional weight loss.",
+      "history_of_present_illness": "Over the 6 weeks prior to presentation to the Medicine Department, the patient experienced persistent low-grade fevers, loss of appetite, and weight loss.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for low-grade fever, anorexia, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Mild pallor, splenomegaly, mild hepatomegaly, and discrete enlarged right epitrochlear and right cervical lymph nodes.",
+      "routine_investigations": "Labs showed mild anemia (Hb 10.2 g/dL), elevated ESR (68 mm/h), mildly elevated hepatic enzymes (SGPT/ALT 60 IU/L, SGOT/AST 53 IU/L), elevated LDH (370 IU/L), and reactive HIV-1 serology.",
+      "advanced_workup": "Fine-needle aspiration cytology (FNAC; Leishman-Giemsa and Ziehl-Neelsen stains) of both the right cervical and right epitrochlear lymph nodes showed reactive lymphoid cells, isolated epithelioid cells, tingible-body macrophages, and macrophages packed with Leishmania amastigotes. Subsequent bone marrow aspirate smears confirmed a high Leishmania amastigote parasite load (grade 5+)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Cervical and epitrochlear lymph node FNAC and bone marrow aspirate microscopy (5+ amastigote load) confirmed Visceral Leishmaniasis presenting with peripheral leishmanial lymphadenitis and newly diagnosed HIV-1 co-infection. The patient was treated with a 28-day course of parenteral sodium stibogluconate alongside antiretroviral therapy."
+    }
+  }
+}

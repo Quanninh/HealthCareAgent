@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3206365_01",
+  "pair_id": "PMC3206365_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 10.0,
+  "raw_case_text": "A 49-year-old woman presented an abrupt onset of bilateral frontotemporal headache with vomiting, followed by generalized crisis. It was not possible to conduct computerized tomography (CT). The lumbar puncture confirmed subarachnoid haemorrhage. The angiography (Figure 1) showed an aneurysm at the right middle cerebral artery bifurcation. A right pterional approach to clip the aneurysm was performed. During surgery (Figure 2), a 2 cm of diameter cyst with clots and citrine liquid, suggestive of cysticercus was found in the distal portion of the aneurysm. Dissection and extirpation of the cyst were performed and followed by resection of the aneurysm body after its clipping. Their histopathology proved to be a whole cysticercus (Figure 3(a)) and a broken aneurysm with a coagulum in formation (Figure 3(b)). Postoperative CTs showed multiple calcifications compatible with cysticercosis (Figure 4(a)) and cyst in the left Sylvian cistern, with discrete contrast retention (Figure 4(b)). The patient received treatment with albendazole (15 mg/kg/day during 30 days) associated to dextrochlorpheniramine (12 mg/day). She released from the hospital 21 days after admission, without complains and using anticonvulant and antihypertensive drugs. Three years after surgery she abandoned the followup.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old woman presented with an abrupt onset of bilateral frontotemporal headache and vomiting followed by generalized seizures.",
+      "history_of_present_illness": "The patient experienced a sudden severe bilateral frontotemporal headache accompanied by vomiting and subsequent generalized tonic-clonic seizures.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Preoperative head CT was unavailable. Lumbar puncture confirmed subarachnoid hemorrhage, and cerebral angiography revealed an aneurysm at the right middle cerebral artery (MCA) bifurcation. Postoperative head CT demonstrated multiple parenchymal calcifications and a cyst in the left Sylvian cistern with discrete contrast retention."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "During right pterional craniotomy for MCA aneurysm clipping, a 2 cm cyst containing citrine fluid and clots was identified adjacent to the distal aspect of the aneurysm; the cyst was extirpated and the aneurysm clipped and resected. Histopathology confirmed a complete cysticercus alongside a ruptured cerebral aneurysm with organizing thrombus, establishing subarachnoid/parenchymal neurocysticercosis associated with a ruptured MCA aneurysm. She was treated with albendazole (15 mg/kg/day for 30 days) and dextrochlorpheniramine (12 mg/day), and was discharged asymptomatic on hospital day 21 on anticonvulsant and antihypertensive medications before being lost to follow-up 3 years later."
+    }
+  }
+}

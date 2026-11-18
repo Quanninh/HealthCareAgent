@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7468372_01",
+  "pair_id": "PMC7468372_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 44-year-old male presented with sudden onset, diminution of vision in both eyes for 10 days. He gave history of fever, myalgia, and weakness one week prior to onset of ocular problem. He was previously healthy, not known to have diabetes mellitus or hypertension. There was no relevant family or social history of medical significance. During clinical evaluation and laboratory investigation for fever; typhoid, malaria, tuberculosis, syphilis, collagen vascular disease and bleeding disorders were absent. He was diagnosed to have dengue fever as NS1 antigen and IgM antibody were positive. After conservative management, his platelet count had improved from 49x103/microL to 176x103/microL (normal range, 150-450x103/microL) over a week period. At presentation, his best-corrected visual acuity was 1/60 in the right eye (OD) and 6/18 in the left eye (OS). Anterior segment findings were normal. Fundus examination revealed vitritis, perivascular exudates, intraretinal hemorrhages, macular edema, peripapillary retinal whitening, and cotton wool spots in both eyes, with additional retinal whitening affecting the right macula (Figure 1). Fundus fluorescein angiography revealed disc and perivascular leakage limited to posterior pole along with patches of blocked fluorescence. In addition, there was capillary nonperfusion due to occlusion of multiple small arterioles supplying the macula of the right eye confirming macular ischemia (Figure 2). Optical coherence tomography of both eyes demonstrated macular edema with subretinal fluid. A diagnosis of bilateral retinal vasculitis with right eye macular infarction was made. Echocardiography and carotid Doppler studies revealed normal cardiac and carotid artery status. The patient was treated with intravenous methylprednisolone which was futile even after three days of treatment. Then he was counseled for treatment with immunoglobulin, which the patient refused and left for a second opinion without returning back to us.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old male presented with a 10-day history of sudden-onset bilateral diminution of vision beginning 1 week after an episode of acute dengue fever.",
+      "history_of_present_illness": "One week after developing fever, myalgia, and weakness treated conservatively with platelet recovery over 7 days, the previously healthy patient experienced sudden-onset bilateral visual loss (right worse than left) persisting for 10 days prior to ophthalmic presentation.",
+      "past_medical_history": "Previously healthy; no diabetes mellitus or hypertension; acute dengue fever 17 days prior.",
+      "review_of_systems": "Positive for sudden bilateral decreased vision, preceded 1 week earlier by fever, myalgia, and generalized weakness."
+    },
+    "objective": {
+      "physical_examination": "Best-corrected visual acuity 1/60 OD and 6/18 OS; normal anterior segment examination. Bilateral fundoscopy revealed vitritis, perivascular exudates, intraretinal hemorrhages, macular edema, peripapillary retinal whitening, and cotton-wool spots, with confluent ischemic retinal whitening of the right macula.",
+      "routine_investigations": "Platelet count improved from 49 x 10^3/uL during acute dengue illness to 176 x 10^3/uL (normal 150-450 x 10^3/uL); workup for typhoid, malaria, tuberculosis, syphilis, collagen vascular disease, and bleeding disorders was negative; echocardiography and carotid Doppler ultrasound were normal. Fundus fluorescein angiography (FFA) showed posterior-pole optic disc and perivascular leakage, blocked fluorescence, and severe macular capillary nonperfusion from arteriolar occlusion in the right eye; bilateral OCT demonstrated macular edema with subretinal fluid.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue-associated bilateral retinal vasculitis complicated by right macular infarction/ischemia, confirmed by positive dengue NS1 antigen and IgM serology, FFA, and OCT. Treated with intravenous methylprednisolone for 3 days without visual improvement; the patient declined intravenous immunoglobulin (IVIG) therapy and left to seek a second opinion."
+    }
+  }
+}

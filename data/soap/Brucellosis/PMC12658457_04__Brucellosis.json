@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12658457_04",
+  "pair_id": "PMC12658457_04::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 47-year-old female agricultural worker presented with a six-month history of persistent dull pain and weakness in the right knee joint, exacerbated by physical activity, without identifiable precipitating factors. Initial conservative management failed to alleviate symptoms, and MRI revealed a meniscal injury. On September 6, 2024, the patient underwent partial meniscectomy with joint debridement. Postoperatively, she continued to experience intermittent knee pain, which was refractory to conservative interventions, including oral analgesics and intra-articular sodium hyaluronate injections. She was subsequently readmitted on February 10, 2025, with a diagnosis of right knee osteoarthritis (Figure 1D). The patient's medical history included hypertension, diabetes mellitus, and hyperlipidemia. Clinical examination upon admission revealed a normal body temperature (36.5  C), mild soft tissue swelling around the right knee, negative patellar ballottement, slightly elevated local skin temperature, approximately 10  varus deformity, positive tenderness, and restricted flexion-extension range of motion (25-45 ). On February 12, 2025, the patient underwent arthroscopic exploration and debridement of the right knee joint with drainage tube placement, followed by 3-day anti-infective therapy with vancomycin (1 g IV drip q12h). However, laboratory findings includes high level of WBC, CRP, ESR, and elevated synovial fluid white blood cell count (16,160 x 106/L), suggestive of significant inflammation (Table 1). Synovial fluid mNGS identified Brucella (reads: 17,415) and Brucella melitensis (reads: 26), with only the second culture yielding positive results. The patient's history of consuming unpasteurized milk and inadequate separation of raw and cooked food preparation surfaces supported the epidemiological diagnosis. The patient was treated with rifampicin 0.9 g PO daily for 3 months, doxycycline 0.1 g PO daily for 3 months and ceftriaxone 2 g IV daily for 1 month, resulting in significant alleviation of joint pain and absence of fever or other notable symptoms. One-month follow-up post-discharge confirmed the patient's stable condition.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old female agricultural worker presented with a 6-month history of persistent right knee pain and weakness that failed partial meniscectomy and intra-articular hyaluronate injections.",
+      "history_of_present_illness": "A 47-year-old female agricultural worker developed dull right knee pain and weakness exacerbated by activity 6 months prior to presentation. After MRI showed a meniscal injury, she underwent arthroscopic partial meniscectomy and joint debridement on September 6, 2024, but experienced persistent postoperative knee pain refractory to oral analgesics and intra-articular sodium hyaluronate injections, leading to readmission on February 10, 2025.",
+      "past_medical_history": "Hypertension, diabetes mellitus, and hyperlipidemia; right knee arthroscopic partial meniscectomy on September 6, 2024. Epidemiological history significant for consuming unpasteurized milk and sharing cutting boards/surfaces between raw and cooked foods.",
+      "review_of_systems": "Positive for chronic right knee pain, weakness, swelling, and restricted motion; negative for fever."
+    },
+    "objective": {
+      "physical_examination": "Temperature 36.5 C. Mild periarticular soft tissue swelling of the right knee, slightly elevated local skin temperature, ~10-degree varus deformity, joint line tenderness, negative patellar ballottement, and severely restricted flexion-extension range of motion (25 to 45 degrees).",
+      "routine_investigations": "Elevated peripheral blood WBC, CRP, and ESR; synovial fluid analysis revealed marked leukocytosis of 16,160 x 10^6/L.",
+      "advanced_workup": "Preoperative MRI demonstrated meniscal injury; repeat arthroscopic exploration and debridement with drainage tube placement performed on February 12, 2025."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Synovial fluid mNGS identified Brucella spp. (17,415 reads) and Brucella melitensis (26 reads), and a second synovial fluid culture grew Brucella, confirming right knee Brucella melitensis septic arthritis. Following arthroscopic debridement and 3 days of empiric IV vancomycin (1 g q12h), targeted therapy with oral rifampicin (0.9 g QD for 3 months), oral doxycycline (0.1 g QD for 3 months), and IV ceftriaxone (2 g QD for 1 month) resulted in marked pain relief and clinical stability at 1-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6431392_01",
+  "pair_id": "PMC6431392_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 47-year-old man known to have hypothyroidism and hypertension on treatment presented to the gastroenterology clinic complaining of two-year history of abdominal distension that was worse after oral intake especially milk. He had normal bowel motions and denied nausea and vomiting. There was no previous abdominal surgery. On examination, the abdomen was distended with no tenderness. Colonoscopy was done and showed normal rectum, grossly dilated sigmoid with redundant colonic wall, and mild mucosal inflammation. Abdomen computerized tomography showed distended sigmoid colon with collapsed rectum and no obstruction (Figure 1).\nAs his symptoms were severe and he already failed conservative management, the patient was referred to general surgery. He underwent laparotomy (Figure 2(a)) and extended hemicolectomy of the affected segment, with colorectal anastomosis. He did well intra- and postoperatively. The pathology unexpectedly showed chronic schistosomiasis in the colonic wall (Figures 2(b) and 2(c)). Upon further evaluation, we found that he lived in the north of Saudi Arabia (Hail) but denied exposure to unclean water or recent travel. His Schistosoma serology titer was high (1 : 1024). Other laboratory findings included slightly elevated direct and total bilirubin (12.3 and 41.5 mumol/L, respectively), normal aminotransferases, erythrocyte sedimentation rate = 11 mm/hour, and C-reactive protein < 3.50 mg/L. He was referred to the infectious disease clinic and was treated with praziquantel. At six-month follow-up, the patient was doing well with resolution of his abdominal symptoms.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old man from northern Saudi Arabia presented with a 2-year history of chronic abdominal distension exacerbated by oral intake, particularly milk.",
+      "history_of_present_illness": "The patient presented to the gastroenterology clinic with a 2-year history of severe chronic abdominal distension that worsened after meals (especially dairy consumption) and failed conservative management, while maintaining normal bowel habits without nausea or vomiting.",
+      "past_medical_history": "Known hypothyroidism and hypertension on medical therapy; no prior abdominal surgery. Resided in Hail in northern Saudi Arabia and denied exposure to contaminated water or recent travel.",
+      "review_of_systems": "Normal bowel movements; denied nausea or vomiting."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed distension without tenderness.",
+      "routine_investigations": "Laboratory workup showed mildly elevated direct bilirubin (12.3 mcmol/L) and total bilirubin (41.5 mcmol/L), normal aminotransferases, ESR 11 mm/h, and CRP < 3.50 mg/L.",
+      "advanced_workup": "Colonoscopy revealed a normal rectum and a grossly dilated sigmoid colon with redundant colonic walls and mild mucosal inflammation. Abdominal CT confirmed a markedly distended sigmoid colon with a collapsed rectum and no mechanical obstruction. Following laparotomy and extended left hemicolectomy with primary colorectal anastomosis, histopathology of the resected colonic segment unexpectedly demonstrated chronic colonic schistosomiasis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed chronic sigmoid colonic schistosomiasis presenting as megasigmoid/chronic intestinal pseudo-obstruction via colonic resection histopathology and a markedly elevated serum Schistosoma antibody titer of 1:1024. Following extended hemicolectomy and referral to infectious diseases for oral praziquantel therapy, he had complete resolution of abdominal symptoms at 6-month follow-up."
+    }
+  }
+}

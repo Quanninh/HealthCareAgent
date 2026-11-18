@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8635719_04",
+  "pair_id": "PMC8635719_04::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 46-year-old man presented with a 3-week history of fever and pancytopenia. He had worked in coalmines in Hebei Province, Henan Province, and Shanxi Province for more than 10 years. There was negative past medical and past surgical history. His body weight was 70 kg. Physical examination suggested sporadic hemorrhagic spots on his skin of chest and back, palpable right sided cervical lymphadenopathy, and splenomegaly. Blood cultures as well as tests for bacteria, fungi, tuberculosis, parasites, and brucellosis agglutination were all negative. The laboratory examination revealed pancytopenia, coagulation abnormalities, and elevated liver enzyme levels. The patient's PCT and CRP levels were 0.99 ng/mL and 73.4 mg/L, respectively. Bone marrow biopsy disclosed hypocellular marrow with trilineage hematopoiesis and macrophages with microorganisms. The aspirate prominently contained hemophagocytic macrophages. Additional investigations identified elevated ferritin and soluble interleukin-2 receptor (sCD25) levels and absent natural killer (NK)-cell activity, supportive of hemophagocytic lymphohistiocytosis (HLH). Antibodies against Leishmania in peripheral blood and PCR were positive, confirming the diagnosis of VL. He was received intravenous gammaglobulin. The L-AmB protocol followed that presented in Figure 3. The initial dose was 10 mg (~ 0.14 mg/kg), and the maintenance dose was 70 mg (~1.0 mg/kg). The total accumulative dosage was 910 mg (13 mg/kg), which was close to the WHO-recommended dosage. The patient's liver enzymes (AST and ALT) were mild abnormal before the treatment. He received the low-dose L-AmB therapy in addition to liver-protecting treatment. His liver function gradually recovered and kidney function remained normal during the treatment. No complications occurred during treatment excluding hypokalaemia, which was corrected via potassium supplementation. The patient's blood routine parameters gradually normalized and spleen size gradually decreased during therapy. No VL recurrence was observed at the 6-month follow-up visit.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old male coal miner presented with a 3-week history of fever and pancytopenia.",
+      "history_of_present_illness": "Over the 3 weeks prior to admission, the patient developed persistent fever and pancytopenia.",
+      "past_medical_history": "Previously healthy man with no prior medical or surgical history; worked for over 10 years in coal mines across Hebei, Henan, and Shanxi Provinces (visceral leishmaniasis-endemic regions in China).",
+      "review_of_systems": "Positive for fever and cutaneous hemorrhagic spots."
+    },
+    "objective": {
+      "physical_examination": "Body weight 70 kg; febrile with sporadic cutaneous hemorrhagic spots over the chest and back, palpable right cervical lymphadenopathy, and splenomegaly.",
+      "routine_investigations": "Labs showed pancytopenia, coagulation abnormalities, mildly elevated liver transaminases (AST and ALT), procalcitonin 0.99 ng/mL, CRP 73.4 mg/L, hyperferritinemia, and positive peripheral blood anti-Leishmania antibodies. Blood cultures and tests for bacteria, fungi, tuberculosis, parasites, and Brucella agglutination were negative.",
+      "advanced_workup": "Immunological testing showed elevated soluble IL-2 receptor (sCD25) and absent NK-cell activity. Bone marrow aspirate and biopsy revealed a hypocellular marrow with trilineage hematopoiesis, prominent hemophagocytic macrophages, intracellular microorganisms within macrophages, and positive Leishmania PCR."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Bone marrow microscopy, positive peripheral blood anti-Leishmania antibodies, and positive Leishmania PCR confirmed Visceral Leishmaniasis triggering secondary hemophagocytic lymphohistiocytosis (HLH, supported by marrow hemophagocytosis, hyperferritinemia, elevated sCD25, and absent NK-cell activity). Treatment with intravenous immunoglobulin (IVIG), hepatoprotective agents, potassium supplementation for transient hypokalemia, and a low-dose escalating regimen of intravenous liposomal amphotericin B (starting at 10 mg [~0.14 mg/kg], maintained at 70 mg [~1.0 mg/kg] to a cumulative dose of 910 mg [13 mg/kg]) normalized his blood counts and liver function, shrank the spleen, and achieved relapse-free survival at 6-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7509366_01",
+  "pair_id": "PMC7509366_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 62-year-old non-smoker male patient presented to our hospital with a 6 months' history of progressively enlarging mass along his back. It was first noticed 2 years ago upon palpation, with time it has gradually increased in size and became cosmetically noticeable. No history of pain, fevers, weight loss, or trauma.\nPhysical exam revealed a 10 cm soft, immobile, painless mass along the right paravertebral with no overlying discoloration of the skin. Computed Tomography (CT) Scan (Fig. 1) revealed a 10 x 10 cm cystic lesion along the paravertebral muscles of the back. Given the patient's exposure to cattle and dogs as well as prolonged ingestion of raw food, the lesion was considered to be most likely hydatid disease of the back muscles. The decision was made to proceed with surgical excision by Dr. Walid Faraj and Dr. Mohamad J. Khalife both of whom are Hepatopancreaticobiliary surgeons with vast experience with hydatid disease. The patient was started on Albendazole 400 mg twice daily for one week prior to surgery. Intraoperatively, a vertical incision was made along the lesion. Dissection was done reaching the mass with care to avoid spillage of contents. The mass was then injected with scolicidal agent cetramide 1.5% to prevent dissemination. The mass surrounding attachments were lysed. The mass was dissected off its attachments to the underlying paravertebral muscles at its roots completely. A multilocular cyst showing outer adhesions was excised as one entity. On gross examination, the lesion looked irregular and contained beige yellowish creamy material (Fig. 2). The wall of the lesion was elastic in nature. The inner aspect of the lesion was focally beige and granular. On microscopic examination, the sections showed fibrous cystic wall adhering to the surrounding connective tissue. Furthermore, the inner aspect was covered by large clusters of macrophages having microvacuolated cystoplasm and mixed with few mononuclear leukocytes (Fig. 3). The mass was diagnosed as a pseudocyst formed around liquefied soft tissue, surrounded by fibrous capsule and histiocytic reaction.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 62-year-old male presented with a 2-year history of a right paravertebral back mass that progressively enlarged over the past 6 months.",
+      "history_of_present_illness": "The patient first noticed a painless lump along his right back upon palpation 2 years earlier, which progressively increased in size and became cosmetically prominent over the 6 months preceding presentation.",
+      "past_medical_history": "Nonsmoker with a history of exposure to cattle and dogs and prolonged ingestion of raw food; no history of back trauma.",
+      "review_of_systems": "Positive for enlarging painless right back mass; negative for pain, fever, weight loss, or trauma."
+    },
+    "objective": {
+      "physical_examination": "A 10-cm soft, immobile, painless mass was palpated along the right paravertebral muscles of the back without overlying skin discoloration.",
+      "routine_investigations": null,
+      "advanced_workup": "Thoracic/lumbar CT revealed a 10 x 10 cm cystic lesion along the right paravertebral muscles, preoperatively suspected to be intramuscular hydatid disease. Following 1 week of preoperative oral albendazole (400 mg twice daily), intraoperative 1.5% cetrimide injection, and complete en bloc excision of the multilocular-appearing mass, gross pathology showed an irregular elastic-walled cavity filled with beige-yellowish creamy material, and histopathology demonstrated a fibrous pseudocyst wall lined by sheets of microvacuolated foamy macrophages and mononuclear leukocytes around liquefied soft tissue without parasitic membranes or hooklets."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Benign paravertebral soft-tissue pseudocyst with liquefied necrosis and foamy histiocytic reaction mimicking a paravertebral intramuscular hydatid cyst, confirmed by histopathological examination of the excised mass."
+    }
+  }
+}

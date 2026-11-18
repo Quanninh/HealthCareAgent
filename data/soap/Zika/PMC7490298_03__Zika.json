@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7490298_03",
+  "pair_id": "PMC7490298_03::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "Case 3: A 21 year old patient that reported fever in the second trimester of pregnancy. Her IgM serology for ZIKV was positive and non-reactive for dengue, chikungunya, rubella, toxoplasmosis, HIV, syphilis and cytomegalovirus. The PRNT90% was positive for neutralizing antibodies. Her IgG serology was positive for cytomegalovirus and rubella. At 41 weeks of gestation, her baby girl was born by cesarean delivery that presented a cephalic circumference of 36 cm.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 21-year-old pregnant woman presented with acute fever during the second trimester of pregnancy.",
+      "history_of_present_illness": "The 21-year-old patient developed a febrile illness during the second trimester of gestation and was monitored through term delivery at 41 weeks of gestation.",
+      "past_medical_history": "Pregnant woman in the second trimester; positive maternal IgG serology for cytomegalovirus and rubella consistent with prior immunity.",
+      "review_of_systems": "Positive for fever during the second trimester of pregnancy."
+    },
+    "objective": {
+      "physical_examination": "At 41 weeks of gestation, her female newborn delivered via cesarean section had a head (cephalic) circumference of 36 cm.",
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Confirmed maternal Zika virus infection in the second trimester of pregnancy with delivery of a normocephalic female infant at 41 weeks of gestation. Maternal ZIKV infection was confirmed by positive ZIKV IgM serology and positive 90% plaque reduction neutralization test (PRNT90%) for neutralizing antibodies. Maternal IgM serologies were non-reactive for dengue, chikungunya, rubella, toxoplasmosis, HIV, syphilis, and cytomegalovirus (with reactive IgG for cytomegalovirus and rubella). She delivered a healthy baby girl by cesarean section at 41 weeks of gestation (head circumference 36 cm)."
+    }
+  }
+}

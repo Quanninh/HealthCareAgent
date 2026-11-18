@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5694027_01",
+  "pair_id": "PMC5694027_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 66-year-old female presented with a 3-month history of progressive hoarseness. She did not have any other localizing or systemic symptoms. She had a history of asthma controlled on inhaled corticosteroids for 6 years. Her other history was of congenital pulmonary stenosis and lifelong allergic rhinosinusitis. She was a non-smoker and drank alcohol rarely. She had no known exposure to Cryptococcus.\nHer inhaler medication, taken twice daily, was a combination powder product containing salmeterol (50 microg) and fluticasone (500 microg) per dose. In addition, she was taking an extra 500 microg twice daily of inhaled fluticasone, followed by inhaled nedocromil, 4 mg twice daily. She did not use a spacer or nebulizer but did rinse and gargle after each inhalation. She also took intra-nasal budesonide spray at a dose of 64 microg at night. She had never been on systemic steroid treatment.\nStroboscopy revealed a markedly erythematous and thickened right true vocal fold with a marked reduction in the mucosal wave. The left true vocal fold was normal (see Figure 1).\nShe underwent microlaryngoscopy and biopsy. Histological examination revealed collections of cryptococcal organisms lying within the superficial lamina propria, with an associated inflammatory infiltrate comprising abundant plasma cells, lymphocytes, and some histiocytes (see Figure 2). Her serum cryptococcal antigen was undetectable and her CXR unremarkable. She was HIV negative.\nTreatment involved oral fluconazole, 200 mg orally, twice daily, and a reduction in her daily inhaled corticosteroid dose by half to 1,000 microg per day. Her budesonide spray was continued.\nShe was reviewed 7 weeks into treatment and had noted some improvement of her symptoms. At 6 months, her voice had returned to normal and repeat laryngoscopy was unremarkable. Her fluconazole was ceased after 6 months of treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old female on high-dose inhaled corticosteroids for asthma presented with a 3-month history of progressive hoarseness.",
+      "history_of_present_illness": "Over the 3 months prior to presentation, the patient developed progressive dysphonia/hoarseness without any other localizing upper aerodigestive or systemic symptoms. She had used high-dose dry-powder fluticasone (2,000 ug/day total) without a spacer for asthma.",
+      "past_medical_history": "Asthma controlled on inhaled corticosteroids for 6 years, congenital pulmonary stenosis, and lifelong allergic rhinosinusitis; non-smoker and rare alcohol drinker; no known exposure to Cryptococcus and never treated with systemic steroids.",
+      "review_of_systems": "Positive for progressive hoarseness. Negative for fever, cough, dyspnea, dysphagia, or weight loss. Home medications: inhaled salmeterol/fluticasone (50/500 ug twice daily), additional inhaled fluticasone (500 ug twice daily; total 2,000 ug/day), inhaled nedocromil (4 mg twice daily), and intranasal budesonide spray (64 ug nightly)."
+    },
+    "objective": {
+      "physical_examination": "Video laryngeal stroboscopy demonstrated a markedly erythematous and thickened right true vocal fold with severely reduced mucosal wave, and a normal left true vocal fold.",
+      "routine_investigations": "Serum cryptococcal antigen was undetectable, HIV test was negative, and chest radiograph was unremarkable.",
+      "advanced_workup": "Microlaryngoscopy and biopsy of the right true vocal fold revealed collections of encapsulated cryptococcal organisms within the superficial lamina propria accompanied by a dense lymphoplasmacytic and histiocytic inflammatory infiltrate."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of primary isolated laryngeal cryptococcosis of the right true vocal fold associated with high-dose inhaled corticosteroid use in an HIV-negative host, confirmed by microlaryngoscopic vocal fold biopsy histopathology with negative serum CrAg and normal chest X-ray. Treated with oral fluconazole 200 mg twice daily for 6 months and a 50% reduction in daily inhaled fluticasone dose (to 1,000 ug/day), resulting in complete normalization of her voice and laryngoscopic exam at 6 months."
+    }
+  }
+}

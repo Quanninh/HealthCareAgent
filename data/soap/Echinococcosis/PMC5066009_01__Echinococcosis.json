@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5066009_01",
+  "pair_id": "PMC5066009_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 36-year-old female with no previous illness presented with an acute onset pain over the right hypochondrium for 3 days associated with intermittent fever and anorexia. Physical examination revealed a tender and guarded right upper abdomen. Hematological and biochemical tests were normal. Abdominal radiographs were unremarkable. Abdominal sonography revealed a double walled solid mass in the right upper abdomen very close to the liver and bilateral ovarian cysts. In view of patient's general condition and lack of facilities, CT scan and Colonoscopy could not be done. With differential diagnoses of ruptured hydatid cyst, duodenal ulcer perforation, acute acalculous cholecystitis, and an ulcerated GIST (Gastrointestinal Stromal Tumour) an emergency diagnostic laparoscopy followed by midline laparotomy was performed. At diagnostic laparoscopy purulent and fibrinous reaction in the subhepatic region was noted based on which decision to proceed further was made. At laparotomy, a mass measuring 8 x 7 x 5 cm arising from the hepatic flexure of colon was noted as shown in Figure 1. Right hemicolectomy with ileotransverse anastomosis was performed.\nHistopathologically, gross examination confirmed the operative findings and the cut section revealed an obvious bulge in the serosa caused by the mass that seemed to involve the full thickness of bowel wall, besides its glary myxoid appearance as shown in Figure 2.\nMicroscopically, there was an intact mucosal lining and the mass was located in the submucosa spreading up to the serosa. There was low cellularity with proliferation of spindle-to-stellate shaped cells in a myxoid-to-pink hyalinized background. The stellate cells had plump nuclei and conspicuous nucleoli. The intervening vascularity was prominent with associated moderate mixed inflammatory infiltrates with large number of eosinophils. The serosal aspect showed necrosis with collections of acute inflammatory exudates. There was no evidence of cellular atypia, pleomorphism, or increased mitotic activity as shown in Figure 3(a). The features were in favor of IFP with a differential diagnosis of GIST.\nImmunohistochemical staining was found negative for CD34, CK PAN, and CD117 as shown in Figures 3(b) and 3(c) and hence the diagnosis of IFP was confirmed.\nThe patient had an uneventful recovery and was discharged on the 10th postoperative day. At one-year follow-up, she remained symptom-free.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old female presented with a 3-day history of acute right hypochondriac pain, intermittent fever, and anorexia.",
+      "history_of_present_illness": "The previously healthy patient developed acute-onset right upper quadrant abdominal pain 3 days prior to admission, accompanied by intermittent fever and loss of appetite.",
+      "past_medical_history": "No prior medical illnesses.",
+      "review_of_systems": "Positive for acute right hypochondriac pain, intermittent fever, and anorexia."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed right upper quadrant tenderness and voluntary guarding.",
+      "routine_investigations": "Hematological and biochemical tests and plain abdominal radiographs were normal. Abdominal ultrasonography showed a double-walled solid mass in the right upper abdomen adjacent to the liver along with bilateral ovarian cysts.",
+      "advanced_workup": "Emergency diagnostic laparoscopy showed purulent and fibrinous exudate in the subhepatic space; conversion to midline laparotomy identified an 8 x 7 x 5 cm transmural mass arising from the hepatic flexure of the colon, treated with right hemicolectomy and ileotransverse anastomosis. Histopathology revealed a submucosal-to-serosal proliferation of low-cellularity spindle-to-stellate cells in a myxoid/hyalinized stroma with prominent vasculature and abundant eosinophils without atypia; immunohistochemistry was negative for CD117, CD34, and pan-cytokeratin."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Inflammatory fibroid polyp (IFP / Vanek's tumor) of the hepatic flexure of the colon presenting as acute abdomen and mimicking a ruptured hepatic hydatid cyst or gastrointestinal stromal tumor (GIST), confirmed by histopathology and negative CD117/CD34 immunohistochemistry. The patient recovered uneventfully after right hemicolectomy, was discharged on postoperative day 10, and remained symptom-free at 1-year follow-up."
+    }
+  }
+}

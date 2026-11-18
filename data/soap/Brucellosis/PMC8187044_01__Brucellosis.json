@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8187044_01",
+  "pair_id": "PMC8187044_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 41-year-old male farmer with a history of chronic hepatitis B treated with entecavir, and ankylosing spondyloarthritis treated since last year with weekly etanercept injections, presented to our internal medicine ward for prolonged fever and malaise two weeks prior to evaluation. Upon investigation, he appeared to have chills and night sweats but denied having coughs, myalgias, bowel movement abnormalities, headaches, or any burning sensation with urination. On physical examination, he had a fever of 39 C, a 1 cm large, not painful, cervical lymph node, a stooped over posture, and a totally rigid spine. He had a blood pressure of 120/60 mmHg, and on cardiovascular examination, he had no murmur. Laboratory tests demonstrated a normal blood count, an elevated CRP of 244 mg/L, an accelerated erythrocyte rate of 37 mmH1, an inflammatory pattern on serum protein electrophoresis, and slightly elevated liver enzymes (AST = 46 UI/L and ALT = 36 UI/L) while liver and renal functions were normal. Blood cultures were negative and serologic tests for EBV, CMV, Brucella, HSV, HIV, and HCV were negative. Transthoracic cardiac ultrasound showed no signs of endocarditis. Antinuclear antibodies were positive (1:100), but anti-ENA antibodies were negative and without other signs of systemic lupus erythematosus. C3 and C4 complement fractions were normal.\nTesting for hepatitis B surface antigen (HbsAg) and antibody to hepatitis B core antigen (anti-HBc) was positive and PCR test for HBV DNA showed a low viral load.\nA computed tomography scan of the neck, chest, and abdomen showed a lymph node of the 4th cervical chain but no abscesses or internal lymphadenopathy. By the end of the investigation, serologic diagnosis of Q fever appeared to be positive for both IgG and IgM. PCR for C. burnetii DNA was not performed. Treatment with etanercept was thus placed on hold and doxycycline 200 mg per day was prescribed for two weeks. The patient's physical condition improved as the fever stopped and he was checked on regularly for signs of progression to chronic Q fever. Liver enzymes were progressively back to normal as well as CRP levels that were negative during his last medical visit.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old male farmer with ankylosing spondylitis on etanercept and chronic hepatitis B on entecavir presented with a 2-week history of prolonged high fever (39 C), chills, night sweats, and malaise.",
+      "history_of_present_illness": "A 41-year-old male farmer treated with weekly etanercept injections for 1 year was admitted to the internal medicine ward with a 2-week history of persistent fever up to 39.0 C, chills, night sweats, and malaise.",
+      "past_medical_history": "Ankylosing spondyloarthritis treated with weekly subcutaneous etanercept for 1 year, and chronic hepatitis B virus infection treated with entecavir. Occupational exposure as a farmer.",
+      "review_of_systems": "Positive for 2-week fever (39 C), chills, night sweats, and malaise; negative for cough, myalgia, headache, diarrhea, or dysuria."
+    },
+    "objective": {
+      "physical_examination": "Temperature 39.0 C, blood pressure 120/60 mmHg; a 1-cm painless cervical lymph node; stooped posture and completely rigid spine from baseline ankylosing spondylitis; normal cardiovascular auscultation without murmurs.",
+      "routine_investigations": "Normal CBC, markedly elevated CRP (244 mg/L), ESR 37 mm/1st hour, inflammatory pattern on SPEP, mildly elevated transaminases (AST 46 IU/L, ALT 36 IU/L), and normal renal function. Positive HBsAg and anti-HBc with low HBV DNA viral load on PCR. Negative blood cultures and negative serologies for EBV, CMV, Brucella, HSV, HIV, and HCV. Transthoracic echocardiogram showed no signs of endocarditis.",
+      "advanced_workup": "ANA positive at 1:100 with negative anti-ENA antibodies and normal C3 and C4. Neck, chest, and abdominal CT showed a 1-cm level IV cervical lymph node without deep abscesses or visceral lymphadenopathy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive Coxiella burnetii phase IgM and IgG serologies (with negative Brucella, viral, and endocarditis workups) confirmed acute Q fever in an immunocompromised farmer on TNF-alpha inhibitor (etanercept) therapy. Etanercept was temporarily held and a 2-week course of oral doxycycline (200 mg/day) was administered, resulting in prompt defervescence and complete normalization of CRP and liver enzymes."
+    }
+  }
+}

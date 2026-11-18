@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6484239_01",
+  "pair_id": "PMC6484239_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "We present the case of a 49-year-old female patient with an isolated oral manifestation. In April 2017, she was admitted to our Division of Dermatology (IDI-IRCCS-FLMM) for a 3-month history of asymptomatic infiltrated plaques, exclusively located on the tongue. Her blood count and C-reactive protein (CRP) levels were normal, her past medical and dermatological history were unremarkable, and the oral examination revealed circular whitish and gray plaques, infiltrated and with tender consistency located on the tongue (Figure 1); physical examination did not show skin or genital lesions. Patient had no systemic involvement as fever or lymph node enlargement. Because the clinical presentation simulated an oral candidiasis (Figure 2), the patient received an antifungal treatment in the first instance, without any improvement.\nAt direct microscopic smear examination, no signs of fungal infection were seen; therefore, a biopsy was performed. Histological examination revealed inflammatory infiltrate of neutrophils and plasma cells in the dermis. Routine blood tests were normal and autoimmunity, serology for HIV, HBV, and HCV tests were negative. Serologic tests for syphilis showed a positive venereal diseases research laboratory (VDRL) at a titer of 1/32 and a reactive T. pallidum hemagglutination test. Based on these data, a diagnosis of secondary syphilis was made.\nThe WHO therapy guidelines suggest the use of intramuscolar benzathine penicillin G 2.4 million units once over two administrations of procaine penicillin G 1.2 million units in 10-14 days. However, this recommendation is marked as \"Conditional recommendation, very low quality evidence\"; hence, relying on our documented clinical experience, we decided to administer systemic therapy with penicillin G benzathine (1.2 million units, IM 2 fl). The lesions regressed completely 15 days after therapy (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old female presented with a 3-month history of asymptomatic infiltrated whitish-gray plaques exclusively on her tongue.",
+      "history_of_present_illness": "Admitted in April 2017, the patient had noticed asymptomatic circular whitish-gray plaques on her tongue for 3 months. She had initially been treated empirically with antifungal therapy for presumed oral candidiasis without improvement.",
+      "past_medical_history": "Unremarkable past medical and dermatological history.",
+      "review_of_systems": "Positive for asymptomatic lingual plaques; negative for fever, lymphadenopathy, or cutaneous or genital lesions. Prior ineffective antifungal treatment."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed circular, infiltrated, tender whitish-to-gray mucous plaques localized exclusively on the dorsal tongue. Complete skin, genital, and lymph node examinations were normal.",
+      "routine_investigations": "CBC, CRP, routine biochemistry, autoimmune panel, and serologies for HIV, HBV, and HCV were all normal or negative. Direct microscopic fungal smear of the tongue lesion was negative.",
+      "advanced_workup": "Incisional tongue biopsy histopathology demonstrated a dense dermal/lamina propria inflammatory infiltrate composed of neutrophils and plasma cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis presenting as isolated lingual mucous plaques (oral candidiasis excluded via negative fungal smear and plasma-cell biopsy infiltrate), established via reactive serum VDRL (titer 1:32) and positive TPHA. Treated with intramuscular benzathine penicillin G 2.4 million units (two 1.2-million-unit vials), resulting in complete regression of the tongue plaques within 15 days."
+    }
+  }
+}

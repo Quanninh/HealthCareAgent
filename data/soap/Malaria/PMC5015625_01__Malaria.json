@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5015625_01",
+  "pair_id": "PMC5015625_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "We report a 39-year-old caucasian man who has lived in Angola for 4 years. He presented to a hospital in California, during a trip, with a flu-like syndrome, jaundice and altered state of consciousness. On hospital admission, he had hemolytic anemia, thrombocytopenia, acidemia and acute renal failure. After the diagnosis of Plasmodium falciparum malaria, the patient initiated therapy with quinine and doxycycline, although developing severe encephalopathy (coma). After therapy with artesunate, he had hematologic and neurological improvement, and was transferred to Portugal. On initial eye examination at our hospital, he had 20/20 visual acuity in the right eye and a central scotoma in the left eye. Right eye indirect ophthalmoscopy revealed round deep layer retinal hemorrhage, with one disc diameter of radius, in the superior temporal arcade (Figure 1 (Fig. 1)). Left eye indirect ophthalmoscopy showed a foveal hemorrhage, several superficial hemorrhages in the interpapillomacular bundle (Figure 2 (Fig. 2)) and a deep white-centered peripheral hemorrhagic lesion (Figure 3 (Fig. 3)). Fluorescein angiography was not performed given the deterioration of the renal function warranting hemodialysis. At one-month follow-up, the patient had 20/20 visual acuity in both eyes and on examination almost all lesions shown on retinography had regressed (Figure 4 (Fig. 4) and Figure 5 (Fig. 5)).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 39-year-old Caucasian man who lived in Angola presented during a trip to California with a flu-like syndrome, jaundice, and altered consciousness, followed by a left-eye central scotoma.",
+      "history_of_present_illness": "While visiting California from Angola, the patient presented with a flu-like illness, jaundice, and altered sensorium, progressed to coma (cerebral malaria) while on initial quinine and doxycycline, improved neurologically and hematologically after switching to artesunate, and upon transfer to Portugal noted a central scotoma in the left eye.",
+      "past_medical_history": "Caucasian male residing in Angola for 4 years.",
+      "review_of_systems": "Positive for flu-like symptoms, jaundice, coma/altered consciousness, and left-eye central scotoma."
+    },
+    "objective": {
+      "physical_examination": "Initial admission: jaundice and altered consciousness progressing to coma. Ophthalmologic exam upon transfer to Portugal: visual acuity 20/20 OD and central scotoma OS; indirect ophthalmoscopy showed a 1-disc-diameter round deep retinal hemorrhage in the right superior temporal arcade, and a left foveal hemorrhage, multiple superficial hemorrhages in the interpapillomacular bundle, and a deep white-centered (Roth-like) peripheral retinal hemorrhage.",
+      "routine_investigations": "Admission labs demonstrated hemolytic anemia, thrombocytopenia, acidemia, and acute renal failure (fluorescein angiography deferred due to severe renal impairment).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Severe cerebral Plasmodium falciparum malaria complicated by acute kidney injury and bilateral malarial retinopathy with left foveal hemorrhage. Treated initially in California with quinine and doxycycline, switched to artesunate with hematologic and neurological recovery, and supported with hemodialysis; at 1-month ophthalmologic follow-up in Portugal, visual acuity was 20/20 in both eyes with near-complete regression of retinal hemorrhages."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3825978_01",
+  "pair_id": "PMC3825978_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 13-year old male with no previous medical history presented to the surgical unit of the University Hospital of the West Indies with a 3-day history of abdominal pain that began in the epigastrium but later became localized in the right iliac fossa. The pain was associated with several bouts of vomiting. There was no diarrhoea, joint pain, or petechial rash.\nPhysical examination revealed a temperature of 38  C, pulse rate 109 min-1 and normal blood pressure. Examination of the abdomen revealed marked tenderness in the right iliac fossa with mild guarding.\nComplete blood count revealed thrombocytopenia (platelet count 119 x 106 mm-3) and leucopenia (white blood cell count of 2.1 x 106 mm-3). Haemoglobin and haematocrit were normal. An abdominal ultrasound was performed and showed a small fluid collection in the right iliac fossa, however the appendix was not identified. There was normal peristalsis of bowel loops.\nThe patient was observed for 24 h in hospital and was noted to have worsening right iliac fossa pain and leucopenia on the second day. Examination at that time revealed marked right iliac fossa tenderness in keeping with a diagnosis of acute appendicitis. Because the signs were thought to be typical of appendicitis diagnostic laparoscopy was not deemed necessary and an appendicectomy performed via a Lanz incision, at which time a normal appendix was found with multiple enlarged mesenteric lymph nodes. Lymph node biopsy was not done.\nRepeat blood investigations again showed bicytopenia with platelet count of 99 x 106 mm-3 and a white cell count of 2.3 x 106 mm-3.\nDengue fever was suspected and was confirmed with a positive IgG and IgM enzyme-linked immmunoabsorbent assay.\nThe histology of the appendix showed no gross abnormality. The patient received supportive care, which included analgesics, bed rest and fluid therapy and made an uneventful recovery. Repeat blood investigations one week later were normal.\nThe patient was seen one year later in the outpatients department at which time blood results were repeated and were normal.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 13-year-old male presented with a 3-day history of abdominal pain migrating from the epigastrium to the right iliac fossa, accompanied by several episodes of vomiting.",
+      "history_of_present_illness": "Previously healthy boy developed epigastric pain 3 days prior to surgical admission that localized to the right iliac fossa and was associated with repeated bouts of vomiting. Over the first 24 hours of hospital observation, his right iliac fossa pain worsened, prompting surgical exploration for suspected acute appendicitis.",
+      "past_medical_history": "No previous medical history.",
+      "review_of_systems": "Positive for epigastric-to-right-iliac-fossa abdominal pain, vomiting, and fever. Negative for diarrhea, joint pain, or petechial rash."
+    },
+    "objective": {
+      "physical_examination": "Temperature 38 C, pulse rate 109/min, normal blood pressure, and marked right iliac fossa tenderness with mild guarding.",
+      "routine_investigations": "Admission CBC showed thrombocytopenia (platelets 119 x 10^6/mm3) and leukopenia (WBC 2.1 x 10^6/mm3) with normal hemoglobin and hematocrit; repeat CBC on day 2 showed platelets 99 x 10^6/mm3 and WBC 2.3 x 10^6/mm3 (normalizing 1 week later). Abdominal ultrasound showed a small right iliac fossa fluid collection with normal bowel peristalsis and non-visualized appendix.",
+      "advanced_workup": "Open appendicectomy via a Lanz incision revealed a grossly normal appendix and multiple enlarged mesenteric lymph nodes; histopathology of the resected appendix showed no abnormality."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue fever with mesenteric adenitis mimicking acute appendicitis, confirmed postoperatively by positive dengue IgM and IgG ELISA and normal appendiceal histopathology. Managed with supportive care including analgesics, bed rest, and fluid therapy, achieving an uneventful recovery with normal blood counts at 1-week and 1-year follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2833312_01",
+  "pair_id": "PMC2833312_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "The patient is a 24-year-old Iranian infertile male that referred to our clinic for work up of infertility. He was a married gentleman since 4 years. In the past medical history no noticeable point is noted. In the past surgical history, he underwent laparotomy for the bilateral orchiopexy of intraabdominal testes 5 years ago in another center. Vital signs were normal and BMI was 22. Upon physical examination, positive findings were atrophic testes and a scar of pfannensteil incision. The findings of laboratory examinations were unremarkable, with a normal cell count and normal biochemistry. Azospermia was noted in the semen analysis. In the hormone prophile, we noted elevated FSH and LH, 2-3 times of normal with normal serum levels of testosterone and prolactin. Due to mild and chronic nonspecific abdominal pain, abdominal ultrasonography was requested, in which a round mass of 5 to 10 cm size with fluid echogenicity is found (in the right lower quadrant). Finally in the abdominopelvic CT scan, a heterogenous soft tissue mass was found in the same reported area of the abdomen near the bladder. He scheduled for laparotomy with hydatid cyst diagnosis. After opening of the layers and peritoneum with low midline incision, the mass was intraperitoneal, that lied between loops of the small intestine. We were very careful about the tearing or rupture of the cyst wall, but because of some adherence it was ruptured and yellow, thick pus released in which a sponge was found (Figures 1, 2, and 3). The operation terminated unevently and the patient was discharged home after 3 days, without any problem.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old Iranian male presented for evaluation of 4-year primary infertility accompanied by mild chronic non-specific abdominal pain.",
+      "history_of_present_illness": "The patient had been married for 4 years with primary infertility and also reported mild, chronic non-specific lower abdominal pain.",
+      "past_medical_history": "Underwent laparotomy via Pfannenstiel incision for bilateral orchiopexy of intra-abdominal testes 5 years earlier at another center.",
+      "review_of_systems": "Positive for primary infertility and mild chronic non-specific abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Vital signs were normal; BMI was 22 kg/m2. Physical examination showed bilateral atrophic testes and a healed Pfannenstiel incision scar.",
+      "routine_investigations": "Routine blood cell counts and serum biochemistry were normal. Semen analysis revealed azoospermia, and hormonal profile showed FSH and LH elevated to 2-3 times the upper limit of normal with normal serum testosterone and prolactin. Abdominal ultrasonography detected a 5-10 cm round mass with fluid echogenicity in the right lower quadrant.",
+      "advanced_workup": "Abdominopelvic CT demonstrated a heterogeneous soft-tissue/cystic mass in the right lower quadrant adjacent to the urinary bladder, preoperatively suspected to be a pelvic hydatid cyst. Low midline laparotomy revealed an encapsulated intraperitoneal mass lying between small bowel loops that ruptured during dissection, releasing thick yellow pus and a retained surgical gauze sponge (gossypiboma)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Intraperitoneal gossypiboma (retained surgical sponge from bilateral orchiopexy 5 years prior) mimicking a pelvic hydatid cyst, confirmed intraoperatively upon surgical excision. The patient had an uneventful recovery and was discharged 3 days postoperatively."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11378234_03",
+  "pair_id": "PMC11378234_03::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 10-year-old boy with transfusion-dependent beta-thalassemia along with secondary hemophagocytic lymphohistiocytosis (proven on bone marrow biopsy) received matched-related donor transplant. On day +130 posttransplant, he reported in emergency department with 1 day history of continuous high-grade fever and myalgias. He was on tacrolimus, mycophenolate mofetil, and oral prednisolone for Graft vs host disease (GVHD) prophylaxis along with eltrombopag for poor graft function and incomplete blood count recovery. His blood counts revealed Hb = 10.5 g/dL, white blood cell (WBC) = 7.0 x 109/L, Absolute neutrophil count (ANC) = 4.2 x 109/L, Platelet = 16 x 109/L. Dengue NS1 antigen was detected. Supportive treatment was offered along with platelet transfusion. Coagulation profile was slightly deranged. He developed vomiting, loose stools, abdominal distension and periorbital puffiness, and rising creatinine and deranged liver function test. On the fourth day of admission, he became restless, his urine output decreased with increasing abdominal distension, developed tachycardia, tachypnea, and severe hypotension. Cardiac support was started following crystalloid administration, platelet, and Fresh frozen plasma (FFP) transfusion along with all other emergency measures but unfortunately he collapsed and could not be revived.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old boy presented on day +130 after matched-related donor stem cell transplantation with a 1-day history of continuous high-grade fever and myalgias.",
+      "history_of_present_illness": "On day +130 post-transplant, the patient presented to the emergency department with 1 day of continuous high-grade fever and myalgias. During hospitalization, he developed vomiting, loose stools, progressive abdominal distension, periorbital puffiness, restlessness, oliguria, and cardiopulmonary collapse on hospital day 4.",
+      "past_medical_history": "Transfusion-dependent beta-thalassemia complicated by secondary hemophagocytic lymphohistiocytosis (proven on prior bone marrow biopsy), status post matched-related donor stem cell transplant (day +130) with poor graft function.",
+      "review_of_systems": "Positive for continuous high-grade fever, myalgias, and subsequent inpatient vomiting, loose stools, abdominal distension, periorbital puffiness, restlessness, and oliguria. Home medications: tacrolimus, mycophenolate mofetil, oral prednisolone (GVHD prophylaxis), and eltrombopag."
+    },
+    "objective": {
+      "physical_examination": "Developed periorbital puffiness and progressive abdominal distension; on hospital day 4, exhibited restlessness, oliguria, tachycardia, tachypnea, and severe hypotension.",
+      "routine_investigations": "Admission CBC: hemoglobin 10.5 g/dL, WBC 7.0 x 10^9/L, absolute neutrophil count (ANC) 4.2 x 10^9/L, platelet count 16 x 10^9/L. Slightly deranged coagulation profile, rising serum creatinine, and deranged liver function tests.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Fatal dengue shock syndrome with multiorgan dysfunction in a post-transplant pediatric patient, confirmed by positive dengue NS1 antigen detection. Treated with crystalloid fluid resuscitation, platelet and fresh frozen plasma transfusions, and inotropic/cardiac support, but he suffered refractory shock and cardiopulmonary arrest on day 4 of admission."
+    }
+  }
+}

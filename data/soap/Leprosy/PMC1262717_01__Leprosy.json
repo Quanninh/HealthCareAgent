@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC1262717_01",
+  "pair_id": "PMC1262717_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 50-year-old non-diabetic, non-hypertensive lady presented with 2 months history of progressive blackish discoloration of the toes bilaterally. Examination revealed gangrene of the Right great toe, 2nd toe & early gangrenous changes in the 3rd toe. All the peripheral arteries were well felt, there was no radiofemoral delay. There was no cardiac murmur or a carotid bruit.\nShe was found to have madarosis & hypopigmented, hypoaesthetic macular lesions on the upper limb & thighs. Bilateral ulnar & popliteal nerves were thickened. A skin biopsy of the lesions revealed borderline tuberculoid leprosy. Slit skin smears revealed a bacteriological index of 1+. Erythrocyte sedimentation rate was 105, lipid profile & fasting sugars were normal & anti neutrophil cytoplsmic antibody (ANCA) negative.\nAnti Cardiolipin antibody (ACLA) was positive at presentation (IgG-8; IgM-28.5; ELISA Genesis Diagnostics, Cambridgeshire, UK) & also on another occasion 6 weeks later (IgG-7.5; IgM-29; ELISA Genesis Diagnostics, Cambridgeshire, UK). Thus, ACLAs were of the IgM type on both occasions. Lupus Anticoagulant (PT, aPPT, Mixing studies, DRVVT) & beta2 GPI antibody were negative (IgG-1; IgM-2.5; ELISA Genesis Diagnostics, Cambridgeshire, UK). DOPPLER of the lower limb arteries did not reveal any abnormality. Tests for other hypercoagulable states (protein C, protein S, Antithrombin III, homocystein, factor V Leiden) were normal.\nThe patient improved with the multi drug anti leprotics & anticoagulants. By 6 weeks, there was no progression of/ fresh gangrene & the pre gangrenous changes in the 3rd toe had resolved.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old non-diabetic, non-hypertensive woman presented with a 2-month history of progressive bilateral blackish discoloration of her toes.",
+      "history_of_present_illness": "Over the 2 months preceding presentation, the patient developed progressive dark discoloration and gangrenous changes of her toes bilaterally.",
+      "past_medical_history": "Negative for diabetes mellitus and hypertension.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Vascular and general examination revealed dry gangrene of the right great toe and second toe, early gangrenous changes in the third toe, well-palpable peripheral arterial pulses without radiofemoral delay, and absence of cardiac murmurs or carotid bruits. Dermatological and neurological examination demonstrated madarosis, hypopigmented and hypoesthetic macular lesions over the upper limbs and thighs, and thickened bilateral ulnar and popliteal nerves.",
+      "routine_investigations": "Erythrocyte sedimentation rate (ESR) was elevated at 105 mm/hr, while fasting blood glucose and lipid profile were normal. Lower limb arterial Doppler ultrasound showed normal arterial flow without stenosis or occlusion.",
+      "advanced_workup": "Autoimmune and thrombophilia workup showed positive IgM anticardiolipin antibodies (ACLA) at presentation (IgG 8, IgM 28.5; ELISA Genesis Diagnostics) and on repeat testing 6 weeks later (IgG 7.5, IgM 29), while ANCA, lupus anticoagulant (PT, aPTT, mixing studies, dRVVT), anti-beta2-glycoprotein I antibodies (IgG 1, IgM 2.5), protein C, protein S, antithrombin III, homocysteine, and Factor V Leiden were normal or negative. Slit-skin smears and a skin biopsy of the macular lesions were performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Skin biopsy confirmed borderline tuberculoid (BT) leprosy and slit-skin smears showed a bacteriological index (BI) of 1+, establishing a final diagnosis of borderline tuberculoid leprosy complicated by secondary antiphospholipid (IgM anticardiolipin) antibody-mediated digital gangrene. Treatment with multidrug anti-leprosy therapy (MDT) and systemic anticoagulation arrested gangrene progression and resolved the pre-gangrenous changes in the third toe within 6 weeks."
+    }
+  }
+}

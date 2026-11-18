@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8184239_01",
+  "pair_id": "PMC8184239_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "A 41-year-old Indonesian male came to our outpatient clinic due to swelling in fingers and toes for the last nine months. He had limitations in activities of daily living. There was no history of shortening of the digits and joint stiffness in the mornings. Upon physical examination, the patient had leonine facies and madarosis. Hypesthetic hypopigmented macules were found on the right side of the back. (Figure 1) Sensory nerves examination revealed glove and stocking hypesthesia. Fingers and toes were swollen, without redness, warmth, and tenderness on the overlying skin. (Figure 2A) The range of motion was limited in the proximal and distal interphalangeal joints of the fingers. Claw fingers, drop wrist, muscle atrophy, or contracture of the hands was not detected. Claw toes, drop foot, muscle atrophy, or contracture of the feet was not found. A slit-skin smear showed a bacterial index of 4.38+ (Figure 3) and a morphological index of 79%. We referred the patient to the Department of Orthopedic and Traumatology to perform synovial fluid aspiration from the interphalangeal joint of the hand (Figure 4A). Acid-fast staining of synovial fluid from the interphalangeal joint of the hand revealed numerous acid-fast bacilli (Figure 4B). Histopathological examination on a hypesthetic macule from the back showed epidermal atrophy with Grenz zone. The dermis was minimally infiltrated with lymphocytes and foamy histiocytes, which confirmed the diagnosis of lepromatous leprosy. Radiographic features showed osteolysis and destruction of some phalanges of the hands, bone erosion and destruction of some phalanges of the feet, as well as destruction and subluxation of some hand joints (Figure 2B). These bone changes were concluded as osteomyelitis. The final diagnosis was lepromatous leprosy, osteomyelitis and chronic arthritis due to leprosy, with hand and foot deformities. The patient received multidrug therapy (MDT) for multibacillary (MB) leprosy. Improvements in swollen fingers and toes were observed within two months after the start of treatment. The patient could move hands more freely to do daily activities. There were no changes on skin lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 41-year-old Indonesian male presented with a 9-month history of painless swelling of his fingers and toes causing functional limitation in activities of daily living.",
+      "history_of_present_illness": "Over the 9 months prior to outpatient presentation, the patient experienced persistent swelling and restricted movement of his fingers and toes that impaired his daily activities, without morning stiffness or digital shortening.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for finger and toe swelling and limited digital range of motion; negative for morning stiffness, digital shortening, or lesional warmth/pain."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed leonine facies, madarosis, hypoesthetic hypopigmented macules on the right side of the back, and bilateral glove-and-stocking hypoesthesia. Musculoskeletal examination showed fusiform swelling of the fingers and toes without overlying erythema, warmth, or tenderness, and restricted range of motion at the proximal and distal interphalangeal (PIP/DIP) joints, without clawing, wrist/foot drop, intrinsic muscle atrophy, or flexion contractures.",
+      "routine_investigations": "Hand and foot radiographs demonstrated phalangeal osteolysis, bone erosion, and destruction, as well as destruction and subluxation of multiple interphalangeal and metacarpophalangeal joints consistent with osteomyelitis and septic/granulomatous arthritis.",
+      "advanced_workup": "Slit-skin smear, orthopedic synovial fluid aspiration from a hand interphalangeal joint for acid-fast staining, and skin biopsy of a dorsal hypoesthetic macule were performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Slit-skin smear showed a Bacterial Index (BI) of 4.38+ and Morphological Index (MI) of 79%, synovial fluid aspirate from the hand interphalangeal joint demonstrated numerous acid-fast bacilli, and back macule histopathology revealed epidermal atrophy, a Grenz zone, and dermal lymphocytic and foamy histiocytic infiltration, confirming multibacillary lepromatous leprosy complicated by direct leprous osteomyelitis and chronic leprous arthritis of the hands and feet. Within 2 months of starting WHO multibacillary multidrug therapy (MDT-MB), finger and toe swelling regressed and hand mobility for daily activities significantly improved."
+    }
+  }
+}

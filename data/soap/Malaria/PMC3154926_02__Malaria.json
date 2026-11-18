@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3154926_02",
+  "pair_id": "PMC3154926_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "This 26-year old Zimbabwean-born Caucasian patient had lived in the UK for four years and reported having malaria 3 times before moving to the UK. The patient presented with circulating P. falciparum trophozoites and schizonts at a parasitaemia of 1.3% following a visit to Mozambique (Mapute/Tete) for a period of three weeks, during which no chemoprophylaxis or treatment was taken. A single pre-treatment blood sample was analysed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 26-year-old Zimbabwean-born Caucasian patient presented with acute malaria following a 3-week visit to Mozambique.",
+      "history_of_present_illness": "The patient developed clinical Plasmodium falciparum infection after returning to the UK from a 3-week trip to Maputo and Tete, Mozambique.",
+      "past_medical_history": "Born in Zimbabwe, resided in the UK for 4 years; history of 3 prior malaria episodes before moving to the UK. Took no antimalarial chemoprophylaxis or treatment during the 3-week visit to Mozambique.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Imported uncomplicated polyclonal Plasmodium falciparum malaria (isolate OX001/PL0001). Confirmed by peripheral blood microscopy showing circulating P. falciparum trophozoites and schizonts at 1.3% parasitemia, with massively parallel sequencing (MPS) and nested PCR of pfmsp1/pfmsp2 demonstrating a polyclonal infection harboring pfef2 amplification, a 587 bp deletion in pfrbp2b, a novel T496I substitution plus 86Y/1246Y mutations in pfmdr1, and the triple-mutant IRNI haplotype in pfdhfr."
+    }
+  }
+}

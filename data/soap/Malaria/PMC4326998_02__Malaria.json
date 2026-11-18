@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4326998_02",
+  "pair_id": "PMC4326998_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 25-year-old male presented with the complaints of fever with chills and rigor accompanied with severe headache, vomiting, convulsions, and altered sensorium for 6 days. He had no history of recreational drug use, diabetes, and hypertension. He also did not reveal any history suggestive of renal parenchymal disease or vasculitis.\nOn examination, he was comatose, febrile (102 F), pulse - 130/min, and BP - 140/70 mm Hg. Neurological examination revealed a comatose patient with bilateral constricted sluggish-reacting pupils without other cranial nerve deficits. Plantar response was bilaterally extensor. There was decerebrate posturing and neck rigidity was mild. Cardiovascular examination revealed no abnormality of peripheral pulses, bruits or cardiomegaly. Respiratory and abdominal examination revealed no abnormality.\nBlood counts revealed a normocytic, normochromic anemia (hemoglobin - 9.7 g/dl, mean corpuscular volume - 90 fl), ESR - 28 mm/h, and platelet count of 75,000/cu.mm. Thick and thin blood smears were prepared and it revealed ring forms and gametocytes of P. falciparum and immunochromatographic test for PfHRP-2 based assay (ICT, Access Bio. Inc., NJ, USA) was strongly positive. Biochemical investigations - LFTs, renal function tests, and serum electrolytes were within the normal limits. No abnormality was found on urine examination with respect to proteinuria, red blood cells, white blood cells or casts. Enzyme-linked immunosorbent assay for human immunodeficiency virus was negative.\nA clinical diagnosis of cerebral malaria caused by P. falciparum was established, and the patient was started on intravenous artesunate therapy. Following a lack of improvement in sensorium despite 3 days of antimalarial treatment, a non-contrast computed tomography (CT) scan brain was advised, which surprisingly revealed subarachnoid hemorrhage (SAH) [Figure 1]. A coagulation screen was found to be within normal range. Prothrombin time-international normalized ratio was 1.3 and activated partial thromboplastin time was 32 s. Fibrin degradation products by D-dimer were negative. A magnetic resonance angiography was carried out, which revealed no arterio-venous malformation or aneurysm. Anti-nuclear antibody titers were found to be negative by standard method. There was no family history of sickle cell anemia, and a sickling test on peripheral blood smear using sodium metabisulfite was negative.\nThe patient had a stormy clinical course and ultimately died 3 days later in spite of aggressive treatment with intravenous artesunate and supporting ventilator measures.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old male presented with a 6-day history of fever with chills and rigors, severe headache, vomiting, convulsions, and altered sensorium.",
+      "history_of_present_illness": "The patient experienced 6 days of high fever with chills and rigors accompanied by severe headache, vomiting, convulsions, and progressive loss of consciousness.",
+      "past_medical_history": "No history of diabetes, hypertension, renal parenchymal disease, vasculitis, recreational drug use, or family history of sickle cell anemia.",
+      "review_of_systems": "Positive for fever, chills, rigors, severe headache, vomiting, convulsions, and coma."
+    },
+    "objective": {
+      "physical_examination": "Comatose, febrile (102 F), pulse 130/min, BP 140/70 mmHg. Neurological exam revealed coma, bilateral constricted sluggishly reactive pupils, decerebrate posturing, mild neck rigidity, bilateral extensor plantar responses, and no other cranial nerve deficits; cardiovascular, respiratory, and abdominal exams were normal.",
+      "routine_investigations": "Normocytic normochromic anemia (Hb 9.7 g/dL, MCV 90 fL), ESR 28 mm/h, thrombocytopenia (platelets 75,000/cu.mm), normal LFTs, renal function, electrolytes, and urinalysis, normal coagulation profile (PT-INR 1.3, aPTT 32 s, negative D-dimer/FDPs), and negative HIV ELISA, ANA, and sodium metabisulfite sickling test.",
+      "advanced_workup": "Day 3 non-contrast head CT demonstrated subarachnoid hemorrhage (SAH); brain magnetic resonance angiography (MRA) showed no intracranial aneurysm or arteriovenous malformation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal cerebral Plasmodium falciparum malaria complicated by spontaneous non-aneurysmal subarachnoid hemorrhage (SAH). Confirmed by thick and thin blood smears showing P. falciparum ring forms and gametocytes and a strongly positive PfHRP-2 immunochromatographic test. Treated with intravenous artesunate and mechanical ventilation, but died 3 days after SAH detection (day 6 of hospitalization)."
+    }
+  }
+}

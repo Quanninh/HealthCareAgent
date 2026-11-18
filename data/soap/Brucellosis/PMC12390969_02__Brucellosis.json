@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12390969_02",
+  "pair_id": "PMC12390969_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "The patient underwent percutaneous puncture guided by ultrasound upon admission, and on July 8, 2023, he underwent lumbar vertebral infection lesion clearance and drainage surgery under local anesthesia using a percutaneous endoscopic approach. Necrotic tissue was removed, and a tri-cavity drainage tube was placed in the L3/4 intervertebral space. Postoperatively, he received antibiotic therapy for infection control. Brucella agglutination test was positive, and he was given intravenous doxycycline hydrochloride and sulfamethoxazole tablets.\nOn July 20, 2023, a procedure was performed to clear the lesion in the lumbar spine using an extreme lateral approach. The abdominal external oblique muscle, internal oblique muscle, and transverse abdominal muscle were bluntly dissected to expose the peritoneum perioperatively. The lumbar erector spinae muscle was then exposed, showing swelling and severe inflammation. A purulent abscess was found within the lumbar erector spinae muscle, which was thoroughly drained. The L3/4 vertebral body and intervertebral space were exposed, and necrotic and purulent tissues were completely removed. The wound was thoroughly cleaned, with a small amount of fresh blood oozing from the intervertebral space. A NPWT sponge was placed in the L3/4 intervertebral space (Figures 1A,B), covered with a biological dressing and continuous negative pressure suction, with no obvious air leakage observed.\nOn the 3rd postoperative day, blood test results showed albumin 28.4 g/L, sodium 132.0 mmol/L, ESR 34, and hemoglobin 119 g/L. A total of 420 mL of fluid was drained in the following 7 days. Due to the patient's long-term need for intravenous infusion, a peripherally inserted central catheter (PICC) was placed in the right upper limb on July 25, 2023. A Doppler ultrasound on August 3, 2023, revealed a thrombus in the right subclavian vein, for which therapeutic anticoagulation was administered (calcium heparin injection 0.4 mL subcutaneously every 12 h).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A male patient presented with L3-L4 lumbar vertebral infection and paraspinal erector spinae muscle abscess.",
+      "history_of_present_illness": "The patient presented with an infective spondylodiscitis at the L3-L4 level complicated by extensive necrosis and a purulent abscess within the lumbar erector spinae muscle.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "On postoperative day 3 following extreme lateral debridement, blood tests showed serum albumin 28.4 g/L, sodium 132.0 mmol/L, ESR 34 mm/h, and hemoglobin 119 g/L. Right upper limb Doppler ultrasound on August 3, 2023 (9 days after PICC line placement) revealed a right subclavian vein thrombosis.",
+      "advanced_workup": "Ultrasound-guided percutaneous puncture and intraoperative exploration revealed severe inflammation and a purulent abscess within the lumbar erector spinae muscle as well as necrotic and purulent tissue in the L3-L4 vertebral body and intervertebral disc space."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive serum Brucella agglutination test confirmed L3-L4 lumbar brucellous spondylitis with paraspinal erector spinae abscess. Managed with ultrasound-guided percutaneous puncture on admission, percutaneous endoscopic L3-L4 lesion clearance and tri-cavity tube drainage under local anesthesia on July 8, 2023, and extreme lateral approach debridement with continuous negative pressure wound therapy (NPWT sponge drainage, 420 mL drained over 7 days) on July 20, 2023, combined with intravenous doxycycline hydrochloride and oral sulfamethoxazole tablets. Catheter-related right subclavian vein thrombosis following PICC placement was treated with subcutaneous calcium heparin (0.4 mL q12h)."
+    }
+  }
+}

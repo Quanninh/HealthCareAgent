@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5292196_01",
+  "pair_id": "PMC5292196_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 75-year-old man with complaint of lesions extended on the hands, legs, face, and upper lid of right eye was referred to a health center of Kashan.\nHe was a farmer in Aran va Bidgol city from Isfahan province in the center of Iran. The patient about his infection said, sandflies have bitten him when referring to the farm for irrigation on the nights in the season of sandflies activity.\nBased on questioning, the patient described the appearance of 25 multiple nodular, ulcerative, and crusted lesions on his body. In physical examination the size of lesions was varied from a few millimeters to several centimeters. He had no particular medical history and systemic symptoms. There were eight lesions on the face that one of them was on the upper eyelid right eye (Figure 1).\nIn fact, the patient suffered from ocular leishmaniasis in addition to having multiple CL lesions. He had no fever and lesions were painless and his general condition was good.\nDirect smears were prepared from the edge of skin lesions on different parts of body by using vaccinostyle and were fixed with pure methanol. Samples were stained by Giemsa 10% and examined under a light microscope and amastigote forms of Leishmania species were observed and CL was confirmed (Figure 2).\nTo identify the leishman agent causative of the disease materials of skin lesions cultured on RPMI-1640 medium plus 10% FBS, DNA was extracted and PCR was performed. PCR was positive for Leishmania major (Figure 3).\nThe patient was treated intramuscularly by meglumine antimoniate (Glucantime).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 75-year-old male farmer from Aran va Bidgol, Isfahan province, Iran, presented with 25 painless nodular, ulcerative, and crusted lesions distributed over his hands, legs, face, and right upper eyelid.",
+      "history_of_present_illness": "The patient developed 25 painless cutaneous lesions across his extremities, face, and right upper eyelid after sustaining nocturnal sandfly bites while irrigating his farm during the active sandfly season.",
+      "past_medical_history": "Unremarkable past medical history; worked as a farmer in Aran va Bidgol (near Kashan, central Iran) with nocturnal agricultural exposure to sandfly bites.",
+      "review_of_systems": "Negative for fever, local pain, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Good general condition and afebrile; 25 nodular, ulcerative, and crusted cutaneous lesions ranging from a few millimeters to several centimeters across the hands, legs, and face (8 facial lesions, including 1 lesion on the right upper eyelid).",
+      "routine_investigations": null,
+      "advanced_workup": "Giemsa-stained (10%) direct smears scraped from lesion margins demonstrated intracellular Leishmania amastigotes; culture on RPMI-1640 medium supplemented with 10% FBS and PCR confirmed Leishmania major."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Giemsa-stained direct skin smears, RPMI-1640 promastigote culture, and species-specific PCR confirmed multifocal Cutaneous and Ocular (eyelid) Leishmaniasis caused by Leishmania major. The patient was treated with intramuscular meglumine antimoniate (Glucantime)."
+    }
+  }
+}

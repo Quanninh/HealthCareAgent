@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6442326_01",
+  "pair_id": "PMC6442326_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "We report a 53-year-old man presented with dropping of the right eyelid associated with a diminished vision for 4 months. He also complained of vertical diplopia especially when looking down. The past medical history revealed chronic sinusitis. There was no previous history of diabetes or hypertension. Ophthalmological examination revealed right blepharospasm associated with right hypertropia. There is palpable mass at the inferiomedial aspect of the right eye. Conjunctiva, cornea, anterior chamber, pupil, iris, and lens were normal. Magnetic resonance imaging revealed orbital mass in the form of abnormal signal intensity in the right orbit inferior aspect occupying the orbital floor, measured 2.7 cm x 2.5 cm x 1.2 cm and showed enhancement on postcontrast study. It was slightly of low-signal intensity on T2, intermediate on T1 and showed enhancement on postcontrast study. Laboratory investigation revealed normal complete blood count.\nThe patient underwent complete excision of the tumor. The tumor measured 4.5 cm x 3 cm x 0.6 cm. Serial sectioning of the specimen revealed a homogeneous, white tan cut surface. No areas of hemorrhage or necrosis were seen. Microscopic examination revealed aggregates of histiocytes with abundant cytoplasm admixed with numerous plasma cells and some lymphocytes [Figure 1a and b]. Some of the histiocytes appeared to engulf small lymphocytes and plasma cells (emperipolesis). There were fibroblastic proliferation and fibrous tissue formation. The proliferation surrounded and involved nerve bundles, skeletal muscle, and adipose tissue. Immunohistochemistry study revealed that the histiocytes were positive for CD68 and S100 [Figure 1c] and negative for CD1a and langerin. The plasma cells expressed CD79a, CD138 [Figure 1d] and appeared polyclonal with Kappa and Lambda light chain stains. The immunoglobulin G (IgG) 4/IgG ratio was <5% [Figure 1e and f], which against the diagnosis of IgG4-related disease. The lymphoid component was a mixed population of B-cells (CD20 positive) and T-cells (CD3 positive). The fibroblastic proliferation was positive for vimentin and focally for Muscle Specific Actin (MSA). They were negative for desmin, Smooth Muscle Actin (SMA), ALK-1, S100, and pankeratin. Special stains for acid-fast bacilli (Z-N) and fungi (periodic acid-Schiff and Gomori methenamine silver) were negative. These histological and immunohistochemical features are consistent with extranodal RDD. There was no complication after the complete excision. Clinical follow-up until 2 years after surgery did not show any evidence of recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 53-year-old man presented with a 4-month history of right upper eyelid drooping, diminished vision, and vertical diplopia on downgaze.",
+      "history_of_present_illness": "Over the 4 months prior to presentation, the patient noticed progressive right eyelid drooping, decreased visual acuity, and vertical double vision worse when looking downward.",
+      "past_medical_history": "Chronic sinusitis; no history of diabetes mellitus or hypertension.",
+      "review_of_systems": "Positive for right ptosis/blepharospasm, diminished vision, and vertical diplopia."
+    },
+    "objective": {
+      "physical_examination": "Right blepharospasm, right hypertropia, and a palpable mass in the inferomedial aspect of the right orbit; normal conjunctiva, cornea, anterior chamber, pupil, iris, and lens.",
+      "routine_investigations": "Complete blood count was normal.",
+      "advanced_workup": "Orbital MRI demonstrated a 2.7 × 2.5 × 1.2 cm T1-intermediate, slightly T2-hypointense, contrast-enhancing mass occupying the right inferior orbital floor. Complete surgical excision removed a 4.5 × 3 × 0.6 cm homogeneous white-tan mass; histopathology and immunohistochemistry revealed sheets of large S100-positive, CD68-positive, CD1a-negative, langerin-negative histiocytes exhibiting emperipolesis (engulfment of intact lymphocytes and polyclonal CD79a+/CD138+ plasma cells with IgG4/IgG ratio <5%), fibroblastic proliferation, and negative Ziehl-Neelsen, PAS, and GMS stains."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Orbital tuberculosis, fungal infection, Langerhans cell histiocytosis, and IgG4-related ophthalmic disease were excluded by negative Ziehl-Neelsen/PAS/GMS stains and immunohistochemistry, confirming primary extranodal orbital Rosai-Dorfman disease (S100+/CD68+ histiocytes with emperipolesis). Following complete surgical excision, the patient remained disease-free without recurrence over 2 years of follow-up."
+    }
+  }
+}

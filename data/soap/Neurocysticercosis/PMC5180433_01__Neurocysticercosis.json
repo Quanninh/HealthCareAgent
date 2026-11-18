@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5180433_01",
+  "pair_id": "PMC5180433_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 17-year-old male patient presented to the ophthalmology outpatient department with complaints of headache and diminution of vision for the last 20 days. There was no history of fever or trauma. There were no signs of meningeal irritation. The vitals were within normal limit. The clinical evaluation revealed relative afferent pupillary defect in the left eye with evidence of bilateral papilledema on fundoscopy. The patient was advised MRI of the brain to rule out any cerebral pathology. MRI revealed communicating hydrocephalus with no evidence of any space occupying lesion. No lesion could be identified on plain MRI. The MRI was reviewed due to a high index of clinical suspicion, and the possibility of a very tiny nodule in the fourth ventricle was raised, which necessitated further imaging with with constructive interference in steady state (CISS) sequence [Figure 1]. A ring lesion with an eccentric scolex in the fourth ventricle with no evidence of post-contrast enhancement was seen. Thus, an imaging diagnosis of isolated fourth ventricular NCC was made. The patient was started on albendazole and ventriculoperitoneal shunting was done to alleviate hydrocephalus for symptomatic relief of the headache. There was immediate relief of the symptoms with recurrence of severe headache on the left side within few days. Repeat MRI with CISS sequence was done which showed an intraventricular cystic lesion in the 3rd ventricle which was extending through the foramen of monro into the frontal horn of the left lateral ventricle with dilated left lateral ventricle [Figure 2]. No lesion could be identified in the fourth ventricle suggesting intraventricular migration of the cyst. Ventriculoperitoneal shunt in situ was noted in right lateral ventricle, which was not dilated. The patient was referred to neurosurgery for endoscopic retrieval of the cyst. However, due to limited resource setting, the patient was referred to a higher centre for endoscopic removal of the lesion, which was uneventful. The patient is now doing well and was last seen at 3 months follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old male presented to the ophthalmology outpatient clinic with a 20-day history of headache and decreased vision.",
+      "history_of_present_illness": "The patient experienced persistent headache and progressive diminution of vision for 20 days prior to presentation, without fever or trauma.",
+      "past_medical_history": "No history of trauma or febrile illness.",
+      "review_of_systems": "Negative for fever or trauma."
+    },
+    "objective": {
+      "physical_examination": "Vital signs were within normal limits and meningeal irritation signs were absent. Ocular examination revealed a relative afferent pupillary defect (RAPD) in the left eye and bilateral papilledema on fundoscopy.",
+      "routine_investigations": null,
+      "advanced_workup": "Initial conventional brain MRI showed communicating hydrocephalus without an obvious mass, but constructive interference in steady state (CISS) MRI delineated a non-enhancing ring lesion containing an eccentric scolex inside the fourth ventricle. Following right ventriculoperitoneal shunt placement and albendazole initiation, repeat CISS MRI performed for recurrent severe left-sided headache revealed intraventricular migration of the cyst from the fourth ventricle into the third ventricle, extending through the foramen of Monro into the frontal horn of a dilated left lateral ventricle."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Isolated mobile intraventricular neurocysticercosis (migrating from the fourth ventricle to the third and left lateral ventricles) was diagnosed via CISS MRI visualization of the cyst and eccentric scolex. After initial albendazole therapy and right ventriculoperitoneal shunting, the patient was referred to a tertiary neurosurgical center where he underwent uneventful endoscopic cyst retrieval, remaining asymptomatic at 3-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5641579_01",
+  "pair_id": "PMC5641579_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 44-year-old Zimbabwean-born male was referred with a 12-month history of cough, areas of patchy sub-pleural consolidation on thoracic Computed Tomography (CT) (Fig. 1), and a significantly elevated serum Immunoglobulin subclass 4 (IgG4) level (4.61 g/L; normal range 0.08-1.4 g/L). He was a lifelong non-smoker with no significant prior medical history and, particularly, no history of pancreatitis. He was not on any regular medications. Physical examination was unremarkable, and lung function testing revealed an isolated mild reduction in forced vital capacity (3.3 L, 78% predicted) with normal gas transfer. Connective tissue disease and vasculitic serology was negative, and C-reactive protein (CRP) was 2.7 mg/L (normal <5 mg/L). Absolute blood eosinophil count of 0.47 X 109/L (normal <0.60 X 109/L), however, was elevated as a proportion of white cells at 8%.\nBronchoscopy with bronchoalveolar lavage and trans-bronchial lung biopsy was non-diagnostic, and he proceeded to a surgical lung biopsy. Unexpectedly, this demonstrated adult schistosome worms within the pulmonary vessels and eggs with a florid granulomatous inflammatory reaction within the interstitium (Fig. 2). Subsequent stool microscopy confirmed the presence of Schistosoma mansoni ova; microscopy of urine did not reveal any schistosome ova. A screening echocardiogram revealed normal pulmonary artery pressures with no evidence of pulmonary hypertension.\nHe was treated with praziquantel at a total dose of 40 mg/kg (3600 mg), split into two doses administered 4 h apart. At three- and 12-month follow up, his cough had resolved, and serum IgG4 levels had reduced significantly (from 4.61 to 1.59 g/L). Stool microscopy became negative for schistosome ova, and the eosinophil percentage of total white cells normalized (4%). Repeat CT imaging 12 months after eradication treatment revealed unchanged patchy consolidation, consistent with localized fibrotic pulmonary change.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old Zimbabwean-born man presented with a 12-month history of chronic cough.",
+      "history_of_present_illness": "The patient was referred for evaluation of a persistent 12-month cough accompanied by patchy subpleural consolidation on thoracic CT and markedly elevated serum IgG4 levels.",
+      "past_medical_history": "Born in Zimbabwe; lifelong non-smoker with no significant past medical history and no history of pancreatitis.",
+      "review_of_systems": "Not taking any regular home medications."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was unremarkable.",
+      "routine_investigations": "Serum IgG4 was significantly elevated at 4.61 g/L (normal 0.08-1.4 g/L), CRP was 2.7 mg/L (normal < 5 mg/L), and absolute blood eosinophil count was 0.47 x 10^9/L (normal < 0.60 x 10^9/L) with an elevated eosinophil percentage of 8% of total WBCs. Pulmonary function tests showed an isolated mild reduction in FVC (3.3 L, 78% predicted) with normal gas transfer. Subsequent stool microscopy confirmed Schistosoma mansoni ova, whereas urine microscopy was negative for ova. Screening transthoracic echocardiogram showed normal pulmonary artery pressures without pulmonary hypertension.",
+      "advanced_workup": "Thoracic CT showed areas of patchy subpleural consolidation. Connective tissue disease and vasculitis serologies were negative. Bronchoscopy with bronchoalveolar lavage and transbronchial lung biopsy was non-diagnostic. Surgical lung biopsy demonstrated adult Schistosoma worms within the pulmonary vasculature and schistosome eggs surrounded by a florid granulomatous inflammatory reaction in the pulmonary interstitium."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed pulmonary and intestinal schistosomiasis caused by Schistosoma mansoni (presenting with elevated serum IgG4 mimicking IgG4-related lung disease) via surgical lung biopsy and stool microscopy. Treatment with oral praziquantel 40 mg/kg (3600 mg total) split into two doses 4 hours apart led to complete resolution of cough, normalization of blood eosinophil percentage (4%), negative stool microscopy, a marked decrease in serum IgG4 (from 4.61 to 1.59 g/L), and stable residual localized fibrotic consolidation on repeat CT at 3- and 12-month follow-ups."
+    }
+  }
+}

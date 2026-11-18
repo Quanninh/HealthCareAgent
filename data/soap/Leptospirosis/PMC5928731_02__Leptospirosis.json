@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5928731_02",
+  "pair_id": "PMC5928731_02::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 54-year-old female presented to the ED in March 2014 with complaints of a 3-day history of fever, abdominal pain, vomiting, diarrhea, headache, and anorexia. On evaluation she had dry oral mucosa, and laboratory results demonstrated leukocytosis and elevated serum creatinine, amylase (130 units per liter [u/L]), and lipase (118 u/L). Ultrasound examination revealed evidence of cholelithiasis. The initial diagnostic impression was acute kidney injury with dehydration, IV piperacillin-tazobactam and IV fluids were initiated, and the patient was hospitalized.\nOn day 3 of hospitalization, the patient developed shortness of breath and had bibasilar crackles. Chest X-ray revealed bilateral confluent alveolar opacities. Echocardiogram demonstrated mild tricuspid and mitral valve regurgitation. Laboratory results demonstrated leukocytosis, a 15% drop in hematocrit, thrombocytopenia, and mildly elevated LFTs. Because of the onset of pulmonary edema, developing acute respiratory distress syndrome and concerns of respiratory tract infection, the patient was transferred to the intensive care unit and placed on oxygen supplementation. Furosemide was given, and antimicrobial therapy was changed to include azithromycin, imipenem, trimethoprine-sulfamethoxazole, linezolid, and oseltamivir. Laboratory results demonstrated worsening leukocytosis and thrombocytopenia and prominently elevated LFTs and lactate dehydrogenase (LDH) (9,976 u/L).\nThe following day she was feeling better, but with mild shortness of breath and continued bibasilar crackles. She continued to improve daily thereafter, was transferred to the regular ward on the seventh hospitalization day, and was discharged home on the 12th day of hospitalization.\nAll blood and sputum cultures were negative. A serum specimen drawn on the sixth day of symptoms (third day of hospitalization) was negative for Leptospira IgM antibody test performed at a commercial reference laboratory and also negative for mycoplasma IgM antibody and HIV. DNA specific to L. interrogans was detected by PCR in a serum specimen collected on day 2 of illness, which was negative by MAT. Serum collected upon patient discharge had a reciprocal MAT titer of 3,200 against serogroup Australis (serovar Bratislava).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old woman presented with a 3-day history of fever, abdominal pain, vomiting, diarrhea, headache, and anorexia.",
+      "history_of_present_illness": "In March 2014, the patient presented to the emergency department after 3 days of acute fever, abdominal pain, vomiting, watery diarrhea, headache, and loss of appetite.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, abdominal pain, vomiting, diarrhea, headache, and anorexia; developed acute dyspnea on hospital day 3."
+    },
+    "objective": {
+      "physical_examination": "On admission, she had dry oral mucosa. On hospital day 3, she developed respiratory distress with bilateral basilar pulmonary crackles.",
+      "routine_investigations": "Admission labs showed leukocytosis, elevated serum creatinine, amylase 130 U/L, and lipase 118 U/L; abdominal ultrasound showed cholelithiasis. Day 3 labs (during respiratory deterioration) showed worsening leukocytosis, a 15% hematocrit drop, thrombocytopenia, elevated hepatic transaminases, and markedly elevated LDH (9,976 U/L). Day 3 chest X-ray revealed bilateral confluent alveolar opacities, and transthoracic echocardiogram showed mild mitral and tricuspid regurgitation. Blood and sputum cultures, HIV test, Mycoplasma IgM, and commercial day 6 Leptospira IgM antibody test were all negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed severe leptospirosis complicated by acute kidney injury and pulmonary edema / acute respiratory distress syndrome (ARDS), confirmed by positive serum Leptospira interrogans PCR on day 2 of illness and seroconversion on microscopic agglutination test (MAT) from negative on day 2 to a reciprocal titer of 1:3,200 against serogroup Australis (serovar Bratislava) at discharge. Treated initially with IV piperacillin-tazobactam and IV fluids, then transferred to the ICU on day 3 for supplemental oxygen, IV furosemide, and empiric azithromycin, imipenem, trimethoprim-sulfamethoxazole, linezolid, and oseltamivir. She improved steadily, transferred to the general ward on day 7, and was discharged home on hospital day 12."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8451682_02",
+  "pair_id": "PMC8451682_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "The second patient is a 17-year-old adolescent whose father had had COVID-19 5 weeks prior, and who had no other significant medical history (Table 1). He presented to the emergency room due to 5 days of headache with diarrhea and fever, abdominal pain and musculoskeletal pain. On admission, he was dehydrated and tachycardic, with abdominal pain without signs of peritoneal irritation. An RT-PCR was taken which was negative, but with positive IgG and negative IgM antibodies. An inflammatory response was seen with elevated nonspecific biomarkers such as C-reactive protein, procalcitonin and ferritin, as described in Table 1. Syndecan-1 was also elevated, and sublingual video microscopy parameters were altered. No coronary aneurysms were detected on the echocardiogram, and no mitral regurgitation or pericardial effusion were found. Fluid resuscitation was begun along with vasoactive support. Immunoglobulin was administered at 2 gr/kg along with 4 mg/kg/day of methylprednisolone for 10 days. He was discharged after 3 weeks of hospitalization. Two days prior to being transferred, the PBR was measured and found to be within the normal range (1.54). During this same period of time, a patient who underwent chest surgery for pectus excavatum correction was hospitalized in the PICU for postoperative monitoring. Inflammatory biomarkers, syndecan and sublingual video microscopy were taken as a control patient (Table 1). Figure 1B shows the normal appearance of the capillary network in the sublingual area. The capillaries, venules and arterioles can be seen. The Supplementary Video 2 shows good microvascular flow, with good capillary recruitment and microcirculation perfusion, and a normal red blood cell velocity.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old male adolescent presented to the emergency room with a 5-day history of headache, diarrhea, fever, abdominal pain, and musculoskeletal pain.",
+      "history_of_present_illness": "Five weeks after his father had COVID-19, the previously healthy adolescent developed 5 days of fever, headache, diarrhea, abdominal pain, and diffuse musculoskeletal pain.",
+      "past_medical_history": "No significant past medical history; household contact with his father who had COVID-19 5 weeks prior.",
+      "review_of_systems": "Positive for headache, diarrhea, fever, abdominal pain, and myalgia/arthralgia."
+    },
+    "objective": {
+      "physical_examination": "On admission, he was dehydrated and tachycardic with abdominal tenderness without peritoneal signs, and required vasoactive support.",
+      "routine_investigations": "Labs showed elevated CRP, procalcitonin, ferritin, and endothelial glycocalyx degradation marker syndecan-1. Echocardiography was normal with no coronary aneurysms, mitral regurgitation, or pericardial effusion.",
+      "advanced_workup": "Sublingual incident dark-field video microscopy demonstrated acute microvascular endothelial glycocalyx dysfunction, with normalization of the perfused boundary region (PBR 1.54) two days prior to discharge."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Multisystem inflammatory syndrome in children (MIS-C) with microvascular endothelial glycocalyx injury, confirmed by positive SARS-CoV-2 IgG antibodies (with negative IgM and negative nasopharyngeal RT-PCR) 5 weeks after paternal COVID-19 exposure. Treated with fluid resuscitation, vasoactive support, IVIG (2 g/kg), and IV methylprednisolone (4 mg/kg/day for 10 days), achieving complete clinical and microvascular recovery with hospital discharge after 3 weeks."
+    }
+  }
+}

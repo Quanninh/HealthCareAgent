@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3104539_01",
+  "pair_id": "PMC3104539_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 5-year-old male child presented with history of dull aching chest pain for the last 3 months. It was associated with low-grade intermittent fever and nonproductive cough for the last 20 days. The child's birth history was uneventful, with a birth weight of 2.8 kg, and he was fully immunized as per the schedule. On examination, the patient was sick and pale, with a pulse rate of 136/min. The respiratory system examination revealed bilaterally clear chest. On precordial examination, the heart sounds were soft and feeble. An abdominal examination revealed palpable liver, which was 5 cm below the costal margin. On hematological investigation, hemoglobin was 10.5 gm%, with a white blood cell count of 6.0 x 109/l and a platelet count of 350 x 109/l. The chest radiograph revealed widened mediastinum. An echocardiography suggested a large cystic lesion occupying the anterior mediastinum and compressing both the right and left ventricles and the right atrium. On contrast-enhanced computed tomography (CECT), a large cystic mass in the middle mediastinum was identified. It was seen extending from just above the arch of the aorta and up to the diaphragm. The cyst was displacing the great vessels, trachea and heart posteriorly [Figure 1]. Both the lung fields were clear and the heart chambers were normal in size, but were compressed posteriorly. The differential diagnoses of thymic cyst, lymphangioma, hydatid cyst and pericardial cyst were considered. The cyst was excised by median sternotomy. A large pericardial cystic structure measuring approximately 10.0 cm x 9.5 cm x 9.0 cm was seen loosely adherent to the pericardium [Figure 2]. Its outer surface was glistening and was filled with clear fluid. Histopathological examination revealed the structure of a cyst lined with flattened mesothelial cells suggestive of pericardial cyst. The postoperative period was uneventful and the patient is doing well in follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 5-year-old boy presented with a 3-month history of dull aching chest pain and a 20-day history of low-grade intermittent fever and nonproductive cough.",
+      "history_of_present_illness": "The child experienced dull aching chest pain for 3 months, complicated over the last 20 days by low-grade intermittent fever and dry cough.",
+      "past_medical_history": "Uneventful birth history (birth weight 2.8 kg) and up-to-date immunizations.",
+      "review_of_systems": "Positive for dull chest pain, low-grade intermittent fever, and nonproductive cough."
+    },
+    "objective": {
+      "physical_examination": "Ill-appearing and pale child with tachycardia (pulse 136/min). Chest auscultation was bilaterally clear, precordial heart sounds were soft and muffled, and the liver was palpable 5 cm below the right costal margin.",
+      "routine_investigations": "Labs showed hemoglobin 10.5 g/dL, WBC 6.0 x 10^9/L, and platelets 350 x 10^9/L. Chest radiograph showed a widened mediastinum. Transthoracic echocardiography revealed a large anterior mediastinal cystic mass compressing both ventricles and the right atrium.",
+      "advanced_workup": "Contrast-enhanced chest CT demonstrated a large cystic mass in the anterior/middle mediastinum extending from above the aortic arch to the diaphragm and displacing the heart, trachea, and great vessels posteriorly. Median sternotomy excised a glistening 10.0 x 9.5 x 9.0 cm clear-fluid-filled cyst loosely adherent to the pericardium; histopathology showed a cyst wall lined by flattened mesothelial cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Giant congenital pericardial cyst (10.0 x 9.5 x 9.0 cm) causing extrinsic cardiac compression, confirmed by histopathology showing a flattened mesothelial lining (ruling out mediastinal hydatid cyst, thymic cyst, and lymphangioma). Following complete excision via median sternotomy, the patient had an uneventful recovery."
+    }
+  }
+}

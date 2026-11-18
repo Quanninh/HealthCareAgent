@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5726694_01",
+  "pair_id": "PMC5726694_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "An 81-year-old male Caucasian patient was referred to our unit with a lesion on the soft palate that had appeared three months before (Figure 1). Past medical history included smoking, COPD, asthma, arthrosis, and a prostate cancer, already treated. For his pulmonary conditions, he needed to use immunosuppressant medication regularly. Physical examination revealed a 25-mm granular ulceration with red and yellow dots in the hard-soft palate transition zone. With an incisional biopsy, histoplasmosis was diagnosed. The slides with the specimens were stained with hematoxylin-eosin (HE) and Gomori's methenamine-silver (GMS), confirming the presence of the fungus (Figure 2). The patient was referred to assess pulmonary involvement, and there was no evidence of active pleuropulmonary lesions (Figure 3). Itraconazole 200 mg/day was prescribed for the treatment of oral histoplasmosis, with significant improvement after 30 days (Figure 4). However, 60 days after starting the treatment, the patient's respiratory condition worsened, with dyspnea on exertion. He quickly evolved to acute respiratory failure and sepsis of unknown origin. With no response to the treatment, the patient eventually died.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 81-year-old Caucasian male presented with a 3-month history of an ulcerative lesion on the soft palate.",
+      "history_of_present_illness": "The patient, who regularly used immunosuppressive medications for chronic pulmonary disease, was referred for evaluation of a palatal lesion that had appeared 3 months earlier.",
+      "past_medical_history": "COPD, asthma, arthrosis, treated prostate cancer, smoking history, and chronic immunosuppressant therapy.",
+      "review_of_systems": "Positive for a persistent palatal ulceration; on regular immunosuppressant medication."
+    },
+    "objective": {
+      "physical_examination": "Intraoral exam: 25-mm granular ulceration with red and yellow dots located at the hard-soft palate transition zone.",
+      "routine_investigations": "Pulmonary radiographic assessment showed no evidence of active pleuropulmonary lesions.",
+      "advanced_workup": "Incisional biopsy of the palatal ulcer (H&E and Gomori methenamine silver [GMS] stains): confirmed fungal organisms characteristic of Histoplasma capsulatum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Localized oral (palatal) histoplasmosis in an immunosuppressed elderly patient with COPD and asthma. Confirmation: Incisional palatal biopsy with H&E and GMS staining demonstrating Histoplasma capsulatum yeast forms. Plan & clinical course: Treated with oral itraconazole 200 mg/day with marked healing of the palatal ulcer at 30 days; however, at 60 days of treatment, his underlying respiratory status acutely worsened with exertional dyspnea, progressing to acute respiratory failure and fatal sepsis of unknown origin."
+    }
+  }
+}

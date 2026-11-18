@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2876252_01",
+  "pair_id": "PMC2876252_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "This is a 24-year-old man who presented with three weeks of headache, which occasionally resolved with ibuprofen and acetaminophen. The day prior to admission, the patient had a severe headache associated with nausea and multiple bouts of emesis. The patient had increasing forgetfulness, as relayed by his mother, and, on the day of admission, experienced general malaise. He did not have any photophobia. He denied history of migraine or recent sick contacts. He emigrated from Mexico one year prior to presentation. There was no family history of migraine or headaches. The patient was alert and oriented and cranial nerves II-XII were intact. Vision was intact to gross examination. Initial head CT obtained in the ER to evaluate for headache showed ventriculomegaly suggestive of obstructive hydrocephalus with obstruction in the posterior third ventricle and an atypical appearance in the third ventricle region (Figure 1). An EVD was placed urgently to treat the obstructive hydrocephalus. MR imaging after EVD placement revealed migration of cyst interiorly and superiorly with resultant return of normal CSF flow by MRI (Figure 2). Migration of the cyst resulted in restoration of CSF flow and complete resolution of the patient's symptoms. \nThe patient went to the OR where an endoscopic transcortical approach using frameless stereotaxy was used to remove the cyst from the brain. Postoperative brain MR revealed an absence of the cyst (Figure 3). The patient tolerated the procedure well and was eventually transferred to a rehab facility for a short inpatient stay. Postoperatively, the patient had complete resolution of his presenting symptoms. \nPathology findings showed portions of a cyst wall with an outer cuticle, middle cellular layer, and innermost reticular layer. The cyst contains larval stage of parasite showing gut and scolex with muscular suckers and rostellum containing hooklets, suggestive of neurocysticercosis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old Mexican man presented with a 3-week history of headache that acutely worsened the day prior to admission with nausea, recurrent vomiting, increasing forgetfulness, and malaise.",
+      "history_of_present_illness": "The patient experienced 3 weeks of headaches intermittently relieved by ibuprofen and acetaminophen. One day before admission, his headache became severe and was accompanied by nausea and multiple bouts of emesis. His mother noted progressive forgetfulness, and on the day of admission he developed generalized malaise without photophobia.",
+      "past_medical_history": "Emigrated from Mexico 1 year prior to presentation. Denied any personal or family history of migraine or headaches and denied recent sick contacts.",
+      "review_of_systems": "Positive for nausea, vomiting, forgetfulness, and general malaise; negative for photophobia. Prior medication use included ibuprofen and acetaminophen."
+    },
+    "objective": {
+      "physical_examination": "The patient was alert and oriented with intact cranial nerves II-XII and intact gross visual acuity.",
+      "routine_investigations": null,
+      "advanced_workup": "Initial emergency department head CT demonstrated ventriculomegaly consistent with obstructive hydrocephalus and an atypical lesion obstructing the posterior third ventricle. Following urgent external ventricular drain (EVD) placement, brain MRI revealed anterior and superior migration of the intraventricular cyst with restoration of normal CSF flow."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Urgent EVD placement and subsequent cyst migration restored CSF flow and resolved his acute symptoms. He then underwent frameless stereotactic endoscopic transcortical excision of the cyst, with postoperative brain MRI confirming complete cyst removal. Histopathology demonstrated a three-layered cyst wall (outer cuticle, middle cellular layer, and inner reticular layer) containing a larval parasite with gut and a scolex bearing muscular suckers and a rostellum with hooklets, confirming intraventricular neurocysticercosis. He tolerated surgery well with complete resolution of symptoms and was transferred to an inpatient rehabilitation facility."
+    }
+  }
+}

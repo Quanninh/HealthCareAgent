@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3927301_01",
+  "pair_id": "PMC3927301_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 32-year-old lady was admitted with a 3 day history of bilateral upper and lower limb weakness. A diagnosis of Guillain-Barre syndrome (GBS) was suspected and patient was shifted to the ICU. The nerve conduction studies were consistent with that of acute motor axonal neuropathy type of GBS. The patient received a 5 day course of intravenous immunoglobulin (Ig). The platelet count at admission was 60,000. The white blood cells and red blood cell (RBC) counts were found to be normal. Repeated counts were on the lower side ranging from 3,000 to 15,000. However, the patient was not symptomatic and had no evidence of bleeding.\nClinical hematology opinion was sought and a suspicion of sepsis, heparin induced thrombocytopenia, drug/immune mediated thrombocytopenia and dengue were entertained. Accordingly patient was extensively worked up. Immunological work-up including titers of anti-neutrophilic cytoplasmic antibody/anti-nuclear antibody and other investigations such as dengue serology were obtained. However, this extensive work-up did not reveal anything.\nA review of the treatment chart was done to exclude any drug induced low platelet count. The patient was on supportive measures and medications as directed by ICU protocol. The patient received ranitidine for stress ulcer prophylaxis and multi-vitamins. These are not known to cause thrombocytopenia. Noinvasive procedures were undertaken in the interim period and deep venous thrombosis (DVT) prophylaxis with heparin was discontinued in view of the suspicion of heparin induced thrombocytopenia. Mechanical prophylaxis was instituted for DVT.\nThe hematologist was consulted and it was found that there was in-vitro clumping of platelets with ethylene diamine tetra acetic acid (EDTA). After further discussion and in accordance with the hematologist's suggestion, EDTA, citrate and heparinized samples were dispatched to the lab. The problem of clumping; however, persisted. The hematologist suspected the presence of cold agglutinins against platelets and analyzed the count by raising the temperature and this revealed a normal platelet count. The count thus obtained was 213,000. The hematologist made a diagnosis of spontaneous EDTA independent platelet agglutination and these platelet cold agglutinins were responsible for considerable diagnostic confusion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old woman presented with a 3-day history of progressive bilateral upper and lower limb weakness.",
+      "history_of_present_illness": "The patient was admitted to the ICU with 3 days of symmetric four-limb weakness and found to have severely reduced automated platelet counts despite an absence of mucocutaneous bleeding.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for bilateral upper and lower limb weakness. Negative for bleeding manifestations."
+    },
+    "objective": {
+      "physical_examination": "Bilateral upper and lower limb motor weakness without clinical signs of bleeding.",
+      "routine_investigations": "Nerve conduction studies demonstrated acute motor axonal neuropathy (AMAN) subtype of Guillain-Barre syndrome. Normal WBC and RBC counts, but automated platelet count was 60,000/mm3 on admission with repeat counts ranging from 3,000 to 15,000/mm3. Peripheral smear inspection revealed in-vitro platelet clumping persisting across EDTA, citrate, and heparin anticoagulated tubes at room temperature, which resolved upon warming the sample to yield a true normal platelet count of 213,000/mm3. ANCA and ANA titers were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Guillain-Barre syndrome (acute motor axonal neuropathy subtype) accompanied by EDTA-independent cold-agglutinin pseudothrombocytopenia, confirmed by nerve conduction studies and temperature-dependent resolution of in-vitro platelet clumping (true platelet count 213,000/mm3). Dengue fever, sepsis, and autoimmune thrombocytopenia were ruled out by negative dengue serology and immunological workup; heparin DVT prophylaxis was switched to mechanical prophylaxis, and she completed a 5-day course of intravenous immunoglobulin (IVIG) and ICU supportive care."
+    }
+  }
+}

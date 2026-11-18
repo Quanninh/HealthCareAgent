@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5836235_01",
+  "pair_id": "PMC5836235_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 50-year-old woman has suffered from repeated abdominal pain for 6 years. She had had a history of lung tuberculosis 10 years ago; consequently, she had received standard anti-tuberculosis chemotherapy for 9 months. The patient presented with acute lower right abdominal pain for 1 day due to intestinal obstruction proved with plain abdominal radiography. She had no fever, no cough, and no weight loss. Physical examination revealed mild tenderness of the right lower quadrant abdomen. Barium enema showed filling defects of the ileum (Fig. 1). Blood analysis showed a white blood cell count of 7.5x109/L and her C-reactive protein level was 8 mg/L. Chest X-ray revealed pulmonary scars. Bowel thickening (approximately 8.5 mm), distal bowel dilation, and comb sign were seen on small bowel CT (Fig. 2). Colonoscopy was performed and returned without ulcers or nodularities. A purified protein derivative test revealed 15 mm of induration, and T-SPOT was positive. Furthermore, her HIV antibody test was negative. Chest contrast-enhanced CT showed pulmonary scar proliferation without active findings. Her intestinal obstruction was worsening with exclusive nutritional support treatment.\nWe held a multiple-discipline workshop involving a senior surgeon, gastroenterologist, radiologist, and pathologist. Fibrosis of the local small bowel was observed, and all experts reached the consensus that laparoscopic resection was indicated in this patient due to poor outcome of conservative therapy. Informed consent for surgical resection was obtained from the patient. The surgical specimen showed severe fibrosis and stenosis of 6 cm in length, the maximum depth of the lesion was 1.8 cm, additional to multiple cobblestone appearances (Fig. 3). Microscopically, these lesions consisted of granuloma and numerous macrophages. Hematoxylin and eosin staining and immunohistochemistry with periodic acid-Schiff revealed budding forms of histoplasma capsulatum within the macrophages (Fig. 4). Ileum histoplasmosis was diagnosed by the senior pathologist. No postoperative complications were seen.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old woman presented with a 1-day history of acute right lower quadrant abdominal pain on a background of 6 years of recurrent abdominal pain.",
+      "history_of_present_illness": "The patient had experienced recurrent episodes of abdominal pain for 6 years and presented with 1 day of acute right lower quadrant pain caused by intestinal obstruction.",
+      "past_medical_history": "Pulmonary tuberculosis 10 years prior, treated with 9 months of standard anti-tuberculosis chemotherapy.",
+      "review_of_systems": "Positive for acute-on-chronic abdominal pain and intestinal obstruction. Denied fever, cough, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "Abdomen: mild right lower quadrant tenderness.",
+      "routine_investigations": "Labs: WBC 7.5 x 10^9/L, CRP 8 mg/L, HIV antibody negative, PPD skin test 15 mm induration, and T-SPOT.TB positive. Plain abdominal radiograph: intestinal obstruction. Barium enema: filling defects in the ileum. Chest X-ray: old pulmonary scars.",
+      "advanced_workup": "Small bowel CT: ileal wall thickening (~8.5 mm), distal bowel dilation, and comb sign. Contrast-enhanced chest CT: old pulmonary scar proliferation without active lesions. Colonoscopy: no colonic ulcers or nodularity. Laparoscopic ileal resection pathology: 6-cm fibrotic and stenotic ileal segment (1.8 cm depth) with cobblestone mucosa; microscopy (H&E and PAS/IHC) revealed granulomas and macrophages containing budding yeast forms of Histoplasma capsulatum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated ileal histoplasmosis causing fibrotic small bowel stricture and intestinal obstruction in an HIV-negative patient. Confirmation: Histopathological examination (H&E and PAS staining) of the resected stenotic ileal specimen demonstrating granulomas and macrophages filled with budding forms of Histoplasma capsulatum. Plan & clinical course: After failing conservative nutritional support, she underwent laparoscopic segmental ileal resection with an uneventful postoperative recovery."
+    }
+  }
+}

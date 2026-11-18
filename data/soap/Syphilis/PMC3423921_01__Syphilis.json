@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3423921_01",
+  "pair_id": "PMC3423921_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 23-year-old non-Caucasian man presented with epigastric pain associated with nausea, postprandial vomiting, anorexia, generalized malaise, and 11 kg weight loss that started 1 month prior to his clinical consultation at Internal Medicine Department of Clinics Hospital of Sao Paulo University.\nHe had no other important symptoms, and his personal and family antecedents for gastrointestinal disorders, abdominal surgery, other diseases, or previous hospitalization were negative. Physical examination was normal except for mild abdominal tenderness in epigastrium.\nUpper endoscopy observed diminished gastric expandability and diffuse mucosal lesions, from cardia to pylorus. Gastric mucosa was thickened, friable, with nodular aspect, and associated with ulcers lesions (Figure 1). Gastric biopsies were performed, and histopathological analysis resulted in dense inflammatory infiltration rich in plasmocytes (Figure 2).\nLaboratory investigations revealed normal hemoglobin, hematocrit, white blood cell count, and liver and kidney function. Serology for HIV was negative. Syphilis serologies were positive for VDRL and Treponema pallidum reagents.\nBased on laboratory and endoscopic findings, the possibility of GS was raised, and further investigation proceeded with immunohistochemical tests, which were positive for Treponema pallidum and CD138 (Figure 2).\nThe patient was treated with 2.400.000 UI dose of penicillin, leading to resolution of his clinical complaints and endoscopic findings (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old non-Caucasian man presented with a 1-month history of epigastric pain, nausea, postprandial vomiting, anorexia, generalized malaise, and an 11-kg weight loss.",
+      "history_of_present_illness": "One month prior to consultation, the patient developed persistent epigastric pain accompanied by nausea, postprandial vomiting, loss of appetite, malaise, and an 11-kg weight loss.",
+      "past_medical_history": "Unremarkable personal and family medical history; no prior gastrointestinal disorders, abdominal surgeries, or hospitalizations.",
+      "review_of_systems": "Positive for epigastric pain, nausea, postprandial vomiting, anorexia, malaise, and 11-kg weight loss."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was normal except for mild tenderness to palpation in the epigastrium.",
+      "routine_investigations": "Hemoglobin, hematocrit, white blood cell count, liver function tests, and renal function tests were normal. Serum HIV serology was negative.",
+      "advanced_workup": "Upper gastrointestinal endoscopy demonstrated reduced gastric distensibility and diffuse thickened, friable, nodular, and ulcerated gastric mucosa extending from the cardia to the pylorus. Gastric mucosal biopsy histopathology showed a dense lamina propria inflammatory infiltrate rich in CD138-positive plasma cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed gastric syphilis, established via reactive serum VDRL, positive Treponema pallidum treponemal serology, and positive gastric biopsy immunohistochemistry (IHC) for Treponema pallidum and CD138+ plasmacytosis. Treated with intramuscular penicillin (2,400,000 IU), resulting in complete clinical and endoscopic resolution."
+    }
+  }
+}

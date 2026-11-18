@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5422738_01",
+  "pair_id": "PMC5422738_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 51-year-old transgender woman with a 20-year history of HIV currently on HAART (most recently CD4 485; viral load 209), diabetes mellitus type 2, hypertension, and asthma presented to the dermatology clinic with hypertrophic, pink, scaly plaques with some crusting, along with several pustules on the trunk, a thin pink-violaceous papule on the right lower leg, and a pink, friable exophytic nodule with a collarette of scale on the right fourth toe (Fig. 1). There was no associated lymphadenopathy. The patient reported that she first noticed the rash 2 weeks prior. At the time of the presentation, she denied fever and chills but reported dry cough and constitutional cold symptoms. Workup at our center included biopsies of the 3 lesions on the left abdomen, right lower leg, and right fourth toe, tissue cultures, wound cultures, and laboratory studies.\nLaboratory data were remarkable for an RPR titer of 1: 256. All 3 biopsies showed the same fundamental process on histology: psoriasiform and lichenoid dermatitis with significant pustulation, extensive plasmacytosis, and variable granulomatous inflammation. Immunohistochemistry for T. pallidum was positive in all 3 biopsies (Fig. 2). A diagnosis of papulonodular syphilis was established. The patient was treated with 3 weekly doses of long-acting benzathine penicillin G, 2.4 million units intramuscularly. Her lesions subsequently improved and her RPR titer decreased to 1: 8 six months following treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old HIV-positive transgender woman presented with a 2-week history of hypertrophic scaly crusted plaques and pustules on her trunk, a violaceous papule on her right leg, and an exophytic nodule on her right fourth toe.",
+      "history_of_present_illness": "Two weeks prior to presentation, the patient noticed the eruption of crusted scaly plaques and pustules on her trunk alongside lower-extremity papulonodular lesions, accompanied by a mild dry cough and upper respiratory symptoms.",
+      "past_medical_history": "20-year history of HIV infection well-controlled on HAART (most recent CD4 count 485 cells/mm3, HIV viral load 209 copies/mL), type 2 diabetes mellitus, hypertension, and asthma.",
+      "review_of_systems": "Positive for 2-week truncal and lower-limb rash, dry cough, and mild cold symptoms; negative for fever or chills. Home medications: HAART."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed hypertrophic, pink, scaly, crusted plaques with scattered pustules on the trunk/abdomen, a thin pink-to-violaceous papule on the right lower leg, and a pink, friable exophytic nodule surrounded by a collarette of scale on the right fourth toe, with no lymphadenopathy.",
+      "routine_investigations": "Tissue and wound bacterial/fungal cultures were performed.",
+      "advanced_workup": "Recent CD4 count was 485 cells/mm3. Skin biopsies of all three distinct lesions (left abdomen, right lower leg, and right fourth toe) demonstrated identical histopathological features: psoriasiform and lichenoid dermatitis with prominent intraepidermal pustulation, extensive dermal plasmacytosis, and variable granulomatous inflammation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary papulonodular and pustular syphilis in an HIV-positive transgender woman, established via a reactive serum RPR titer of 1:256 and positive Treponema pallidum immunohistochemistry (IHC) across all three skin biopsy sites. Treated with intramuscular benzathine penicillin G 2.4 million units once weekly for 3 consecutive weeks, resulting in resolution of the cutaneous lesions and a 32-fold decline in serum RPR titer from 1:256 to 1:8 at 6 months post-treatment."
+    }
+  }
+}

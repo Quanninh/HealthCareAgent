@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6590619_01",
+  "pair_id": "PMC6590619_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 7-year-old previously healthy girl (patient 1, family A) presented to a children's hospital in Houston, Texas, in the spring of 2017 (day 1) with symptomatic vivax malaria. On day 5, patient 2, the twin brother of patient 1, presented with symptomatic vivax malaria. Subsequently, on day 9, 15, 41, and 55, patient 3, patient 4, patient 5, and patient 6, respectively, sought medical care for the same diagnosis. Diagnoses were made via microscopic examination of blood smears in our institution's laboratories.  Table 1 summarizes demographic, clinical, and laboratory characteristics of the patients. The patients belong to 2 related families (families A and B; the fathers are brothers) who live in 2 different apartment units on the same floor of the same residential complex. Both families emigrated from the temperate Jowzjan province in Northern Afghanistan, a country where vivax malaria is endemic (70-95%), even at high altitudes. Patients were treated in Afghanistan for symptomatic vivax malaria with presumed chloroquine but the exact dates of their treatment could not be recalled by the parents. None of the patients received primaquine in the past. Patients arrived in Houston between 6 and 10.5 months prior to presentation with symptomatic vivax infection (Table 1). Both families reported exposure to mosquitoes in Houston. The 6 patients were initially treated by emergency physicians with atovaquone/proguanil as malaria speciation was not readily available. Patient 5 had an unusual high parasitemia (5%) and had no further confirmation of her results. All patients completely recovered after treatment and received primaquine as a hypnozoite-eradicating treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 7-year-old Afghan girl (followed over 55 days by her twin brother and 4 related household/complex members) presented to a children's hospital in Houston, Texas, in spring 2017 with symptomatic malaria.",
+      "history_of_present_illness": "Six to 10.5 months after emigrating from Jowzjan province, Northern Afghanistan, to Houston, Texas, the 7-year-old index patient presented on day 1 with symptomatic malaria, followed sequentially on days 5, 9, 15, 41, and 55 by her twin brother and 4 members of two paternally related families living on the same apartment floor.",
+      "past_medical_history": "Previously healthy 7-year-old girl and 5 relatives from two families who emigrated 6-10.5 months earlier from temperate Jowzjan province, Northern Afghanistan; previously treated in Afghanistan for symptomatic vivax malaria with presumed chloroquine without primaquine radical cure; reported local mosquito exposure in Houston.",
+      "review_of_systems": "Positive for febrile symptomatic malaria across the 6-patient family cluster."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Temporospatially clustered long-latency relapsing imported Plasmodium vivax malaria in 6 members of two related Afghan refugee families. Confirmed in all 6 patients by microscopic examination of peripheral blood smears (with Patient 5 exhibiting an unusually high 5% parasitemia). All 6 patients were initially treated in the emergency department with oral atovaquone/proguanil pending speciation, followed by radical cure with oral primaquine, resulting in complete recovery in all patients."
+    }
+  }
+}

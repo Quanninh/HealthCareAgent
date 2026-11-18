@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10115452_02",
+  "pair_id": "PMC10115452_02::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 63-year-old Caucasian female, with a medical history of ankylosing spondylitis under immunotherapy, was referred to our hospital for having a 3-month history of a rapidly enlarging painful mass with malodorous discharge and surrounding edema on her right hand (Figure 1B). The patient reported that the lesion initially appeared on her right index finger following a minor penetrating trauma by a rose thorn. On admission, the routine laboratory work-up revealed a mild elevation of the erythrocyte sedimentation rate and C-Reactive Protein (45 mm/h and 2.58 mg/dL, respectively). All other tests, including HIV, VDRL and PPD (Mantoux), were either negative or within the normal range. Bone X-rays were normal, whereas an MRI scan revealed an inflammation of soft tissues at the dorsal surface of the hand and a minor lesion at the bone cortex of the lunate bone. Biopsy specimen was submitted for microbiological and histological analysis. Histological analysis failed to identify any infectious agent despite the extended inflammation. Initial cultures on blood and Sabouraud agar plates were negative, however, growth was observed on LJ medium (Figure 3F) after 18 days of incubation. The Gram stain showed short beaded Gram-positive bacilli (Figure 2C), whereas ZN revealed acid-fast bacilli (Figure 2D). Subsequent subcultures were performed on both blood (Figure 3D) and Sabouraud dextrose agar plates (Figure 3E), resulting in the rapid growth of moist, smooth colonies that acquired a yellowish color upon prolonged culture and light exposure. Identification as M. marinum was performed by MALDI-TOF MS analysis. MALDI-TOF MS was performed by VITEK  MS system (bioMerieux) using the knowledge base 3.2 VITEK MS IVD. The identification confidence value was 99.9. Results were confirmed by gene analysis using a commercially available DNA strip assay (GenoType Mycobacterium Common Mycobacteria, CM) (HAIN Lifescience, Nehren, Germany). The test is based on a PCR technique targeting the 23S rRNA gene region and reverse hybridization of the PCR product to a nitrocellulose strip with immobilized probes for different mycobacterial species. The patient was successfully treated with minocycline and rifampicin and discharged on oral minocycline.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old Caucasian female presented with a 3-month history of a rapidly enlarging painful mass with malodorous discharge and surrounding edema on her right hand.",
+      "history_of_present_illness": "The lesion initially appeared on her right index finger following a minor penetrating trauma from a rose thorn 3 months prior to referral and progressively enlarged into a painful dorsal hand mass with malodorous discharge and edema.",
+      "past_medical_history": "History of ankylosing spondylitis treated with immunotherapy; history of minor penetrating rose thorn trauma to the right index finger.",
+      "review_of_systems": "Home medications include immunotherapy for ankylosing spondylitis."
+    },
+    "objective": {
+      "physical_examination": "Enlarging painful mass with malodorous discharge and surrounding edema on the dorsal aspect of the right hand.",
+      "routine_investigations": "ESR 45 mm/h, CRP 2.58 mg/dL. HIV, VDRL, and PPD (Mantoux) skin test were negative, and other routine laboratory tests were within normal limits. Plain bone X-rays of the right hand were normal.",
+      "advanced_workup": "MRI of the right hand revealed soft tissue inflammation on the dorsal surface of the hand and a minor cortical lesion of the lunate bone. Hand biopsy histopathology showed extended inflammation without identifiable infectious agents on routine histology. Initial blood and Sabouraud agar cultures were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Culture of the biopsy specimen on Lowenstein-Jensen (LJ) medium grew colonies after 18 days; Gram stain showed short beaded Gram-positive bacilli and Ziehl-Neelsen (ZN) staining confirmed acid-fast bacilli, with subcultures yielding photochromogenic yellowish moist colonies. MALDI-TOF MS (VITEK MS, confidence 99.9%) and GenoType Mycobacterium CM DNA strip assay (23S rRNA PCR-reverse hybridization) confirmed Mycobacterium marinum infection (tuberculosis ruled out). The patient was successfully treated with rifampicin and minocycline and discharged on oral minocycline."
+    }
+  }
+}

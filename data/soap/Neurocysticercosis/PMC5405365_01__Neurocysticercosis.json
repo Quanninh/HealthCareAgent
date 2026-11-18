@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5405365_01",
+  "pair_id": "PMC5405365_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 39-year-old white female complaining of the presence of conjunctival hyperemia and tearing in the right eye (RE) was sent to us for an outpatient surgical consultation.\nThe RE visual acuity was hand motion; the intraocular pressure was 14 mmHg. The ocular examination revealed the presence of a mild ptosis, ocular inflammation, and cataract, which did not allow the visualization of the posterior segment.\nHer history revealed she had undergone vitreoretinal surgery for retinal detachment few months earlier.\nIn the upper nasal quadrant a dome shaped lesion was detected, which arose with a differential diagnosis with scleral buckling extrusion, tumor, dermoid, ocular cysticercosis, and abscess (Figure 1(a)). The clinical diagnosis was suspected scleral buckling extrusion but, due to the lens opacities, the patient underwent an echographic examination to detect the posterior pole integrity. The echographic examination showed very poor pictures of the posterior eye wall for a typical shadowing, diagnostic for the presence of silicone oil in the vitreous chamber (Figure 1(b)), and demonstrated a cystic lesion, in the upper medial episcleral space (Figures 1(c) and 1(d)) that had the same echographic features as the silicone oil in the vitreous chamber, with a medium-low reflectivity followed by a chain of multiple signals due to the so-called surface waves, which do not occur in soft tissues but could appear in spherical foreign body-like structures.\nTherefore the echographic diagnosis was presence of silicone oil in the subconjunctival space.\nAfter the explanation of the purpose of the surgery, a written informed consent was obtained from the patient, and she was sent to the surgical theatre to remove the cystic lesion. During the conjunctival opening a leak of silicon oil was observed and visualization of a stitch on malacic sclera could be revealed.\nAfter the complete removal of the extruded silicone oil, the wound was closed with a conjunctival sliding flap.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 39-year-old white woman presented for outpatient surgical consultation with conjunctival hyperemia and tearing in her right eye.",
+      "history_of_present_illness": "The patient developed redness and tearing in her right eye several months after undergoing vitreoretinal surgery for a right retinal detachment.",
+      "past_medical_history": "Underwent vitreoretinal surgery with silicone oil tamponade for retinal detachment in the right eye a few months prior to presentation.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Right eye visual acuity was hand motion and intraocular pressure was 14 mmHg. Slit-lamp examination of the right eye showed mild ptosis, conjunctival hyperemia, ocular inflammation, a dome-shaped cystic lesion in the upper nasal quadrant, and a cataract precluding visualization of the fundus.",
+      "routine_investigations": "Ocular B-scan ultrasonography demonstrated posterior wall shadowing from intravitreal silicone oil and an upper medial episcleral/subconjunctival cystic lesion displaying medium-low reflectivity and multiple trailing surface-wave echoes identical to the intravitreal silicone oil.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Ocular ultrasonography and surgical exploration excluded ocular cysticercosis, scleral buckle extrusion, dermoid cyst, tumor, and abscess, confirming subconjunctival/episcleral silicone oil extrusion through a malacic scleral suture site. The extruded silicone oil cyst was surgically excised and the defect was closed with a conjunctival sliding flap."
+    }
+  }
+}

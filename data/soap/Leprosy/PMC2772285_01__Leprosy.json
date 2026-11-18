@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2772285_01",
+  "pair_id": "PMC2772285_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A middle-aged male, farmer by occupation, presented to us with recurrent trophic ulcer over the forefoot since the past four years. He had completed multi-drug therapy ten years back and was free of active disease. He was managed by various modalities including walking cast, regular dressings, skin grafting and fillet flap from the great toe and second toe at various centres including ours, but had developed a recurrence. He presented to us with a large trophic ulcer over the first, second and third metatarsal head region [Figures 1a and b]. There was a characteristic pencilling and tapering of the distal end of the metacarpal on X-ray. The dorsalis pedis and posterior tibial arteries showed good flow clinically and on handheld Doppler. Sensations were reduced over the entire sole and foot. Debridement of the ulcer was done under tourniquet control; bony prominences and osteomyelitic bone were nibbled off and recipient vessels dissected [Figure 2]. The defect size was 7 cm x 6 cm and local flap was not an option. The pedicle length needed was 13 cm. Considering the defect size and larger pedicle length, the radial artery forearm flap was considered. The flap was raised from the right non-dominant forearm under tourniquet control. End-to-side anastomosis of the radial artery was done to the dorsalis pedis. End-to-end anastomosis of the cephalic vein was done to the venae comitantes. Venous anastomosis was done prior to the arterial anastomosis. The donor area was split skin grafted. The salient intraoperative findings were:\nThe vein was tortuous in nature and was comparatively thin-walled as compared to non-leprosy patients.\nThe intima of the arterial wall was greatly thickened.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A middle-aged male farmer with previously cured leprosy presented with a 4-year history of a recurrent trophic ulcer over the forefoot.",
+      "history_of_present_illness": "Having completed multidrug therapy for leprosy 10 years earlier, the patient suffered from a recurrent forefoot trophic ulcer for 4 years that repeatedly relapsed despite conservative and surgical management at multiple centers, including walking casts, dressings, split-skin grafting, and great/second toe fillet flaps.",
+      "past_medical_history": "History of leprosy cured with multidrug therapy 10 years prior; prior forefoot skin grafts and great/second toe fillet flap reconstructions.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Examination revealed no signs of active leprosy, reduced sensation across the entire plantar surface and foot, a large trophic ulcer (resulting in a 7 x 6 cm post-debridement defect) over the first, second, and third metatarsal heads, and strong dorsalis pedis and posterior tibial arterial pulses clinically and on handheld Doppler.",
+      "routine_investigations": "Foot radiograph demonstrated characteristic distal tapering and pencilling of the metatarsals/metacarpals.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient was diagnosed with a chronic recurrent neuropathic plantar trophic ulcer secondary to burned-out Hansen's disease without active infection. He underwent surgical debridement with ostectomy of bony prominences and osteomyelitic bone under tourniquet control, followed by microvascular free radial artery forearm flap reconstruction (13-cm pedicle; radial artery anastomosed end-to-side to the dorsalis pedis artery and cephalic vein anastomosed end-to-end to the venae comitantes, noting intraoperative tortuous thin-walled veins and marked arterial intimal thickening) and split-thickness skin grafting of the forearm donor site."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10981262_01",
+  "pair_id": "PMC10981262_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 40-year-old male patient from Ica, a coastal city in Peru, with a medical history of epilepsy, has been on treatment with valproic acid and lamotrigine for the past 10 years. He denies alcohol, tobacco, or drug use. Five days before the consultation, the patient experienced \"red spots\" and had a fever of 39.2 C, leading to a diagnosis of dengue through a positive NS1 antigen test. New samples were sent to the national reference laboratory, which confirmed the case by positive IgM antibody test. Since the patient had no risk factors, he was advised for home treatment with hydration and paracetamol.\nDuring the dengue episode, the patient experienced general discomfort, ocular itching, and vesiculobullous skin lesions on the face, chest, and lower limbs, accompanied by fever and respiratory difficulty. These nonpruritic lesions, upon touch, would detach and secrete a serous fluid.\nThe physical examination revealed a patient in fair general and nutritional condition, with vital signs showing a blood pressure of 110/70 mmHg, a heart rate of 90 beats per minute, a respiratory rate of 16 breaths per minute, and oxygen saturation of 96% with an inspired oxygen fraction (FiO2) of 0.21%. Skin examination revealed bullous lesions with erythema on the head, upper limbs, lower limbs, and chest, while mucous membranes displayed bloody features and desquamative lesions. These manifestations affected approximately 10% of the total body surface. The Nikolsky sign was positive. Based on this clinical examination, SJS was diagnosed, and complementary tests were requested (Table 1).\nThe patient was admitted to the intensive care unit, where a treatment plan was implemented, including a hyperproteic liquid diet, hydration, dexamethasone administration, dermatological care, pain management, and modification of anticonvulsant therapy.\nDespite initially slow progress, the patient showed gradual improvement (Figure 1). After 6 days in the intensive care unit, he was transferred to the internal medicine department, where he continued with a modified diet and antibiotic treatment. The patient experienced a seizure episode that was successfully treated with diazepam. Finally, he was discharged after 14 days with appropriate instructions and follow-up care.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 40-year-old male from Ica, Peru presented with a 5-day history of fever (39.2 C) and red skin spots that progressed to vesiculobullous lesions over the face, chest, and limbs with mucosal bleeding and respiratory difficulty.",
+      "history_of_present_illness": "Five days prior to consultation, the patient developed fever (39.2 C) and erythematous skin spots and was initially advised outpatient hydration and paracetamol. During the acute illness, he developed general discomfort, ocular itching, respiratory difficulty, and nonpruritic vesiculobullous lesions across the face, chest, and extremities that detached upon touch and exuded serous fluid.",
+      "past_medical_history": "10-year history of epilepsy; denies alcohol, tobacco, or illicit drug use.",
+      "review_of_systems": "Positive for fever (39.2 C), general discomfort, ocular itching, respiratory difficulty, and painful/sloughing vesiculobullous skin and hemorrhagic mucosal lesions; experienced one inpatient seizure. Home medications: valproic acid and lamotrigine for 10 years; paracetamol."
+    },
+    "objective": {
+      "physical_examination": "Fair general and nutritional status; blood pressure 110/70 mmHg, heart rate 90 bpm, respiratory rate 16 breaths/min, and SpO2 96% on room air (FiO2 0.21). Dermatological exam revealed erythematous bullous lesions on the head, upper and lower limbs, and chest, with hemorrhagic, desquamative mucosal lesions involving ~10% of total body surface area and a positive Nikolsky sign.",
+      "routine_investigations": "Complementary laboratory tests were performed on ICU admission as summarized in Table 1.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue fever complicated by Stevens-Johnson syndrome (SJS, ~10% BSA detachment) in a patient on chronic valproic acid and lamotrigine, confirmed by positive dengue NS1 antigen test and national reference laboratory dengue IgM ELISA. Managed in the ICU for 6 days with hydration, hyperproteic liquid diet, systemic dexamethasone, specialized dermatological wound care, analgesia, anticonvulsant modification, antibiotics, and diazepam for an inpatient seizure, followed by discharge on hospital day 14 with clinical recovery."
+    }
+  }
+}

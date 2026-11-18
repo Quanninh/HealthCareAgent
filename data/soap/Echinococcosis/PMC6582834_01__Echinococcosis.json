@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6582834_01",
+  "pair_id": "PMC6582834_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 42-year-old multiparous woman presented with episodic, severe right upper quadrant pain associated with nausea and vomiting. Her past surgical history included a hysterectomy and left oophorectomy for unclear reasons. Several months prior she presented to another hospital for similar symptoms and was diagnosed with a hepatic mass. Physical examination demonstrated right upper quadrant tenderness without any palpable masses. Liver function and viral serologies for hepatitis B and C were normal. Tumor markers demonstrated normal CA 19-9 and AFP, with mildly elevated CA-125 40 U/mL (normal <38U/mL).\nComputed tomography with intravenous contrast showed a 3.2cm x 4cm x 1.8cm multiseptated cystic lesion in the left hepatic lobe and an ill-defined heterogeneous hyperdensity within the peripheral right hepatic lobe measuring 3cm x 1.3cm (Figure 1). Ultrasound-guided fine needle aspiration and core biopsy of the left hepatic lesion were inconclusive.\nFurther workup revealed a positive Echinococcal IgG antibody and she was started on Albendazole for a presumed hydatid cyst. After completion of therapy, she was scheduled for complete left lateral hepatic resection. However, she presented again several weeks later with progressive right upper quadrant pain. At this time repeat computed tomography redemonstrated the left hepatic mass which was unchanged in size but did not show the right hepatic lesion. Imaging also revealed a new pericardial effusion that was not present on previous imaging (Figure 2). Her liver tests were the following: AST 485 U/L (normal 10-40 U/L), ALT 308 U/L (normal 5-40 U/L), ALP 50 U/L (normal 35-104 U/L), and total bilirubin 0.5 mg/dL (normal <1.0 mg/dL). Given the concern for pericardial involvement, she urgently underwent a laparoscopic left partial hepatectomy (segment II and partial segment III). The postoperative course was uneventful. Final pathology was consistent with hepatic endometriosis (Figures 3 and 4). After 2 months of follow-up, the patient was asymptomatic and liver tests normalized. She was started on medroxyprogesterone acetate and remains well to date.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old multiparous woman presented with episodic severe right upper quadrant abdominal pain accompanied by nausea and vomiting.",
+      "history_of_present_illness": "The patient experienced recurrent episodes of severe right upper quadrant pain, nausea, and vomiting and had been told at an outside hospital several months earlier that she had a hepatic mass. After initial workup yielded a positive Echinococcus IgG serology and she completed a course of oral albendazole, she re-presented several weeks later with worsening right upper quadrant pain.",
+      "past_medical_history": "Multiparous woman with a prior hysterectomy and left oophorectomy for unknown indications.",
+      "review_of_systems": "Positive for episodic severe right upper quadrant pain, nausea, and vomiting."
+    },
+    "objective": {
+      "physical_examination": "Right upper quadrant abdominal tenderness without palpable masses.",
+      "routine_investigations": "Initial liver function tests, hepatitis B and C serologies, CA 19-9, and AFP were normal, while CA-125 was mildly elevated at 40 U/mL (normal <38 U/mL) and Echinococcus IgG antibody serology was positive. At readmission several weeks later, liver enzymes were acutely elevated: AST 485 U/L (normal 10-40 U/L), ALT 308 U/L (normal 5-40 U/L), ALP 50 U/L (normal 35-104 U/L), and total bilirubin 0.5 mg/dL (normal <1.0 mg/dL).",
+      "advanced_workup": "Initial contrast-enhanced abdominal CT showed a 3.2 x 4 x 1.8 cm multiseptated cystic lesion in the left hepatic lobe and an ill-defined 3 x 1.3 cm right hepatic lobe hyperdensity; ultrasound-guided FNA and core biopsy were inconclusive. Repeat CT at readmission showed persistence of the left hepatic mass, resolution of the right hepatic lesion, and a new pericardial effusion. Urgent laparoscopic left partial hepatectomy (segment II and partial segment III) was performed, and final histopathology demonstrated benign endometrial glands and stroma diagnostic of hepatic endometriosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Hepatic parenchymal endometriosis of the left hepatic lobe with a false-positive Echinococcus IgG antibody test (initially misdiagnosed as a hepatic hydatid cyst and treated with albendazole), definitively confirmed by surgical histopathology of the laparoscopic left partial hepatectomy specimen. Following resection, liver enzymes normalized, she was started on medroxyprogesterone acetate, and she remained asymptomatic at 2-month and subsequent follow-up."
+    }
+  }
+}

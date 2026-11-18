@@ -1,0 +1,22 @@
+{
+  "disease": "Cholera",
+  "slug": "cholera",
+  "total_input": 28,
+  "total_output": 28,
+  "label_counts": {
+    "EXCLUDED_NON_TARGET_CASE": 11,
+    "EXCLUDED_NON_SINGLE_PATIENT": 10,
+    "POSITIVE": 6,
+    "NEGATIVE": 1
+  },
+  "constraints_verified": {
+    "vpd_equivalence": "step11_vpd_satisfied == (step12_dataset_label == 'POSITIVE') [0 violations]",
+    "offset_verification": "all source_quotes match case_text[start_char:end_char] verbatim [0 violations]",
+    "canonical_schema": "all 23 canonical keys present [0 violations]"
+  },
+  "notes": "100% standardized across 23 canonical schema keys and clinical consistency rules with grounded evidence.",
+  "output_file": "annotation_workdir/labeled_pool/output/output_cholera.jsonl",
+  "status": "complete",
+  "annotator_id": "disease_agent_cholera",
+  "annotation_version": "1.0-labeled_pool"
+}

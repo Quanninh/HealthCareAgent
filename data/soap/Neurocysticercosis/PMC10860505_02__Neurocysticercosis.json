@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10860505_02",
+  "pair_id": "PMC10860505_02::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 10.0,
+  "raw_case_text": "A 10-year-old boy presented to our hospital with a history of frequent headaches and seizures for 3 months and visual disturbances for 4 days. MRI brain revealed a multiloculated cystic lesion in the pineal region extending into the third ventricle with resultant obstruction (Figure 2). It was hypointense on T1 (Figure 2A) with a thin rim of peripheral enhancement on the post-contrast study (Figure 2B). T2 and FIESTA images showed a characteristic multiloculated appearance (Figure 2C and D), classically called a \"cluster of grapes\" appearance. The lesion caused a mass effect on the tectum and thalami with the narrowing of the aqueduct of Sylvius.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old boy presented with a 3-month history of frequent headaches and seizures and a 4-day history of visual disturbances.",
+      "history_of_present_illness": "The patient had experienced frequent headaches and recurrent seizures for 3 months, followed by the onset of visual disturbances 4 days prior to hospital presentation.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI revealed a multiloculated cystic lesion in the pineal region extending into the third ventricle, appearing hypointense on T1-weighted images with a thin rim of peripheral post-contrast enhancement and a classic 'cluster of grapes' multiloculated appearance on T2 and FIESTA sequences, causing mass effect on the tectum and thalami, narrowing of the aqueduct of Sylvius, and obstructive hydrocephalus."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Racemose neurocysticercosis of the pineal region and third ventricle causing aqueductal stenosis and obstructive hydrocephalus was diagnosed based on the characteristic 'cluster of grapes' appearance on T2 and FIESTA brain MRI."
+    }
+  }
+}

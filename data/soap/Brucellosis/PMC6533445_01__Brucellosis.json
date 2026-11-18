@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6533445_01",
+  "pair_id": "PMC6533445_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 25-year-old female was referred to our clinic with double vision and restricted right eye abduction. In the ophthalmic examination, both pupils were round and reactive to light and accommodation. Extraocular movements were intact with the exception that the right eye was unable to abduct (Figure 1 (Fig. 1), Figure 2 (Fig. 2)). No nystagmus was detected and visual acuity was normal. Visual field examination revealed the enlargement of the blind spot and constriction of the peripheral fields. On fundus examination, bilateral papilledema with blurring of the disc margins was present.\nQuestioning her history revealed that the first symptoms were weakness and numbness in her lower limbs which had resolved spontaneously. Afterwards, she had developed an intractable headache associated with right gaze difficulty and diplopia and was referred from the emergency room to the neurology department. Magnetic resonance (MR) imaging revealed no pathology. After our finding of papilledema, despite the history of transient weakness in the lower limbs, the cause was firstly considered as idiopathic intracranial hypertension (IIH) and lumbar puncture was planned. But because she developed fever and neck rigidity at that time, she was referred to the department of infectious diseases to rule out meningitis.\nThe patient underwent a lumbar puncture, opening pressure was 255 mm H2O and the examination of the cerebrospinal fluid (CSF) showed 85 leukocytes/mul. Her Rose Bengal test was positive and the CSF culture yielded Brucella melitensis and diagnosis of neurobrucellosis was established. The patient was treated with a combination of doxycycline, rifampin, cotrimoxazole, and dexamethasone for 6 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old female presented with intractable headache, horizontal diplopia, and restricted right eye abduction preceded by transient bilateral lower limb weakness and numbness.",
+      "history_of_present_illness": "A 25-year-old woman initially experienced self-resolving bilateral lower extremity weakness and numbness, followed by an intractable headache, difficulty looking to the right, and horizontal diplopia. During initial evaluation for presumed idiopathic intracranial hypertension, she developed acute fever and neck rigidity, prompting referral to the infectious diseases department.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for transient lower limb weakness and numbness, intractable headache, diplopia, right gaze palsy, fever, and neck stiffness."
+    },
+    "objective": {
+      "physical_examination": "Febrile with neck rigidity. Ophthalmic and cranial nerve exam showed normal visual acuity, round and reactive pupils, isolated complete right abducens (sixth cranial nerve) palsy with inability to abduct the right eye, no nystagmus, and bilateral papilledema with blurred optic disc margins on funduscopy.",
+      "routine_investigations": "Automated perimetry showed blind spot enlargement and peripheral visual field constriction.",
+      "advanced_workup": "Brain MRI was normal. Lumbar puncture revealed elevated opening pressure (255 mmH2O) and CSF pleocytosis with 85 leukocytes/uL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive serum Rose Bengal test and CSF culture isolating Brucella melitensis confirmed acute neurobrucellosis presenting with intracranial hypertension, bilateral papilledema, and right sixth cranial nerve palsy. Treated with a 6-month regimen of doxycycline, rifampin, cotrimoxazole, and dexamethasone."
+    }
+  }
+}

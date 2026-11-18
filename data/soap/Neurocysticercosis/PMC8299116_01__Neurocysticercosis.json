@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8299116_01",
+  "pair_id": "PMC8299116_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 33-year-old man presented repeat seizures and progressive headache for six months. A complete blood count (CBC) showed: hemoglobin 123g/L, white blood cell count 7.73 x 109/L, and percentage of eosinophil 0.009. Liver function showed: alanine transaminase (ALT) 92.8 U/L, aspartate aminotransferase (AST) 44.9U/L, alkaline phosphatase (ALP) 135.1U/L, gamma-glutamyl transferase (gamma-GT) 313.4 U/L, total bilirubin (TBil) 22.7 mmol/L, direct bilirubin (DBil) 19.4 mmol/L. Head MRI (Figure 1) showed multiple masses with edema. Lung and abdominal CT (Figure 2) presented with several lesions in bilateral lungs, liver and right adrenal gland. Bacterial, tuberculosis and fungal infection were excluded by CSF examination. Serological evaluation of multiple parasite antigen by ELISA were applied. Cysticercosis Immunoglobulin G (IgG) and liver hydatid IgG antibody were both positive. Repeated target biopsy on the masses in the lung and liver showed fibrous connective tissue without positive findings. In addition, we performed positron emission tomography with fluorodeoxyglucose integrated with CT (18F-FDG PET/CT) that showed uptake in all masses with a maximum standardized uptake value of 7.2. Accordingly, it was still hard to draw a definitive pathogenic diagnosis. Therefore, the next-generation sequencing of CSF was performed. The CSF was collected according to standard procedures, and DNA was extracted directly from the sample with TIANamp Micro DNA Kit. The extracted DNA was sonicated to a size of 200-300 bp (Bioruptor Pico protocols). The DNA libraries were constructed and sequencing using the BGISEQ-100 platform. After removing human sequences, the remaining sequencing data were aligned to the microbial databases and detected 161 nucleic acid sequences of E. multilocularis (Table 1, E. multilocularis sequences which detected were provided as Supplementary Material). On this basis, the patient was diagnosed as having AE. Consequently, the patient was recommended a 1-year albendazole therapy. During 1 year of follow-up, symptoms and neurological signs were not aggravated, with decreased seizure frequency. Follow-up CT after 1 year of albendazole treatment revealed slightly decreased multiple lesions and partly relieved surrounding edema in brain. The lesion in the liver (red arrow) was evidently diminished and calcification was slightly increased. The thickened right adrenal gland (yellow arrow) has obviously decreased in size (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 33-year-old man presented with a 6-month history of recurrent seizures and progressive headache.",
+      "history_of_present_illness": "Over the 6 months prior to admission, the patient experienced repeated epileptic seizures accompanied by a progressively worsening headache.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Complete blood count showed hemoglobin 123 g/L, WBC 7.73 x 10^9/L, and eosinophil fraction 0.009 (0.9%). Liver biochemistry revealed elevated ALT 92.8 U/L, AST 44.9 U/L, ALP 135.1 U/L, GGT 313.4 U/L, total bilirubin 22.7 mmol/L [umol/L], and direct bilirubin 19.4 mmol/L [umol/L]. Multi-parasite serum ELISA was positive for both cysticercosis IgG and hepatic Echinococcus (hydatid) IgG antibodies.",
+      "advanced_workup": "Brain MRI revealed multiple cerebral parenchymal masses with surrounding perilesional edema. Chest and abdominal CT demonstrated multiple lesions in the bilateral lungs, liver, and right adrenal gland, all showing hypermetabolic uptake (SUVmax 7.2) on 18F-FDG PET/CT. CSF examination excluded bacterial, mycobacterial, and fungal infections, and repeated targeted lung and liver biopsies yielded only non-diagnostic fibrous connective tissue."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Metagenomic next-generation sequencing (mNGS; BGISEQ-100 platform) of cerebrospinal fluid identified 161 specific nucleic acid sequence reads of Echinococcus multilocularis, definitively confirming disseminated cerebral, pulmonary, hepatic, and adrenal alveolar echinococcosis (AE) and resolving the false-positive cross-reactive serum cysticercosis IgG ELISA. He was treated with continuous oral albendazole therapy for 1 year, resulting in reduced seizure frequency and decreased cerebral lesions/edema, hepatic lesion shrinkage with increased calcification, and regression of the right adrenal mass on 1-year follow-up CT."
+    }
+  }
+}

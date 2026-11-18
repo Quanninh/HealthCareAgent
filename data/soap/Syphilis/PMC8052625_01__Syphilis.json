@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8052625_01",
+  "pair_id": "PMC8052625_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 28-year-old male presented with a 6-month history of an erythematous patch around the anus to the Department of Dermatology and Venereology of Gatot Soebroto Army Hospital, Jakarta, Indonesia. Two months ago, erythematous macules also appeared on the scrotum. The patient did not complain of itching or pain. Initially, the patient was diagnosed with dermatophytosis and was treated with topical antifungal agents for four weeks without any improvement. The patient was not married and admitted a history of multiple occasions of unprotected same-sex sexual intercourse in the past one year.\nThe results of physical examination were within normal limit. Dermatological examination revealed plaques, annular erythematous, defined borders, with a fine scale overlying on the perianal region (Figure 1 A) and erythematous macules and erosions on the scrotum (Figure 1 B). The results of venereal disease research laboratory test (VDRL) and treponema pallidum particle agglutination assay (TPHA) examinations were positive (positive at 1: 256 and 1: 10240). Anti-HIV screening was reactive with a CD4 count of 569 cells/uL. Skin scraping examination for fungal infection came out negative. Based on the patient s history of unprotected sexual behavior, clinical manifestations and serological findings, the patient was diagnosed with secondary syphilis and HIV infection. The patient was treated with a single intramuscular injection of 2.4 million unit of benzathine penicillin G. After 1 week of treatment, the skin lesions markedly improved and the patient was advised to return for follow-up after three months (Figure 1C and Figure 1D).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old unmarried Indonesian male presented with a 6-month history of a painless, non-pruritic erythematous annular plaque around his anus and a 2-month history of erythematous macules and erosions on his scrotum.",
+      "history_of_present_illness": "Six months prior to presentation, the patient developed an asymptomatic erythematous perianal patch that was misdiagnosed as dermatophytosis (tinea) and treated with topical antifungals for 4 weeks without improvement. Two months prior to presentation, new erythematous macules and erosions appeared on his scrotum.",
+      "past_medical_history": "Unmarried male who reported multiple episodes of unprotected same-sex (MSM) intercourse over the preceding year.",
+      "review_of_systems": "Positive for painless, non-pruritic perianal annular plaque and scrotal macules/erosions. Prior ineffective medication: topical antifungal cream for 4 weeks."
+    },
+    "objective": {
+      "physical_examination": "General physical examination was normal. Dermatological examination revealed well-defined annular erythematous plaques with fine overlying scale in the perianal region and erythematous macules and superficial erosions on the scrotum.",
+      "routine_investigations": "Direct skin scraping KOH microscopy for fungal elements was negative. Anti-HIV screening test was reactive.",
+      "advanced_workup": "Baseline CD4+ T-lymphocyte count was 569 cells/uL."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary perianal and scrotal syphilis with newly diagnosed HIV co-infection (superficial fungal infection excluded via negative KOH scraping), established via high-titer serum VDRL (1:256) and positive TPHA (titer 1:10,240). Treated with a single intramuscular injection of benzathine penicillin G 2.4 million units, resulting in marked regression of the perianal and scrotal lesions within 1 week."
+    }
+  }
+}

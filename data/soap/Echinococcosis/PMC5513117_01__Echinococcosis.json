@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5513117_01",
+  "pair_id": "PMC5513117_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 25-year-old man, Middle Eastern origin, history of exposure to livestock was admitted to our unit complaining of a painful swelling of the right elbow. The swelling developed over 3 years and was associated with recent pain without fever or rigors, and pruritus. Anamnesis did not reveal any trauma to the elbow or prior medication.\nHe was afebrile on admission with good general conditions, and physical examination revealed a tender right lateral elbow mass with distension of overlying skin. Mass measured 4 cm by 6 cm and there were no signs of excoriations nor fistula (Fig. 1). \nOn day 3, patient became febrile with a temperature of 38.8  C. Lab test demonstrated a normal total WBC count of 5.0 x 109 cells/L, eosinophil level of 158 cells/L, and a normal erythrocyte sedimentation rate of 15 mm/h. Liver function tests were unremarkable. Hydatid serology was negative and there was no modification in the appearance of the mass.\nPlain elbow and chest radiographs were also unremarkable albeit diffuse soft tissue swelling of the elbow: there were no bone erosions nor calcifications. Ultrasound came back for a cystic lesion of the elbow with several floating membranes without color Doppler test. Magnetic resonance Imaging (MRI) depicted a unilocular cyst with multiple septations giving it a multivesicular or rosette appearance, confined to the soft tissues, adjacent to the medial elbow muscles without infiltrating bone nor surrounding neurovascular structures (Figs. 2 and 3).  \nPatient was prepared for elective surgery with consent and antihelminthic therapy was initiated preoperatively for 5 days. En block surgical excision of the mass under general anesthesia was undertaken. Care was taken to remove the mass en block without perforating the cyst wall, through meticulous pericystectomy along surrounding muscle fibers (Fig. 4). The cyst was multivesicular containing daughter cysts and were filled with muddy substance typical of hydatid disease (Fig. 5). After excision, extensive washout of the surgical field was carried out. Wound could not be closed due to massive soft tissue loss (Fig. 6).   \nThe operating field was covered with adequate dressing. Cutaneous skin flap was done subsequently with favorable outcome and no signs of local recurrence 2 years after surgery.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old Middle Eastern man presented with a 3-year history of a progressively enlarging right elbow swelling that recently became painful.",
+      "history_of_present_illness": "The patient noticed a slowly growing mass over his right lateral elbow for 3 years that recently became painful without fever, rigors, or pruritus. On hospital day 3, he developed a fever of 38.8 C.",
+      "past_medical_history": "Middle Eastern origin with a history of livestock exposure; no prior elbow trauma or regular medications.",
+      "review_of_systems": "Positive for right elbow swelling and recent pain; negative for prior trauma, rigors, or pruritus."
+    },
+    "objective": {
+      "physical_examination": "Afebrile on admission (subsequently febrile to 38.8 C on hospital day 3) in good general condition. Local examination revealed a tender 4 x 6 cm right lateral elbow mass with overlying skin distension but no excoriations or fistulae.",
+      "routine_investigations": "Labs showed normal WBC (5.0 x 10^9 cells/L), eosinophil count of 158 cells/L [cells/uL], ESR 15 mm/h, normal liver function tests, and negative hydatid serology. Plain elbow and chest radiographs showed diffuse elbow soft-tissue swelling without bone erosion, calcification, or pulmonary lesions. Elbow ultrasonography demonstrated a cystic lesion containing several floating membranes without Doppler flow.",
+      "advanced_workup": "Elbow MRI revealed a multivesicular/rosette-appearing septated cyst confined to the soft tissues adjacent to the medial/lateral elbow muscles without osseous or neurovascular invasion. Following 5 days of preoperative anthelmintic therapy, en bloc pericystectomy excised a multivesicular cyst filled with daughter cysts and muddy hydatid debris."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated subcutaneous/perimuscular hydatid cyst of the right elbow (4 x 6 cm), confirmed by MRI rosette sign and intraoperative visualization of daughter cysts despite negative hydatid serology. The patient received 5 days of preoperative anthelmintic therapy, underwent en bloc pericystectomy followed by staged cutaneous flap reconstruction for the soft-tissue defect, and had no local recurrence at 2-year follow-up."
+    }
+  }
+}

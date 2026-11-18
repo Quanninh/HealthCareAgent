@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9583206_02",
+  "pair_id": "PMC9583206_02::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "We performed the Histoplasma antigen tests using the Histoplasma antigen LFA (OIDx company, Scarborough, US). They were strongly positive (0.75) in all four patients (Figure 2). Histoplasmosis was later confirmed by skin biopsy and tissue stains with Giemsa [Figure 3(a)] at the hospital laboratory and Gomori-Grocott and periodic acid schiff (PAS) staining [Figure 3(b)] at the Centre Pasteur du Cameroon in one of the patients [Figure 1(a)]. The species was identified as Histoplasma capsulatum var capsulatum. In this same patient, in addition to Histoplasma, Pseudomonas aeruginosa and Proteus mirabilis were cultured from the forearm abscess.\nP.aeruginosa and P. mirabilis were treated with antibiotics (Levofloxacin 500 mg) and Histoplasma capsulatum var capsulatum with oral itraconazole (800 mg daily for 3 months and 400 mg daily for 9 months) immediately after the diagnosis was made. After 1 month of treatment with major improvement, she was discharged, reinitiated on antiretroviral therapy, and returned regularly for wound dressings. The other three patients could not access itraconazole, were discharged and lost to follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An HIV-positive female patient in Cameroon presented as part of a four-patient series with cutaneous lesions and a forearm abscess.",
+      "history_of_present_illness": "The patient presented in Cameroon with skin lesions and a forearm abscess and was evaluated alongside three other patients using point-of-care lateral flow antigen testing and tissue biopsy.",
+      "past_medical_history": "HIV infection (off antiretroviral therapy at presentation); resided in Cameroon.",
+      "review_of_systems": "Positive for cutaneous lesions and a forearm abscess."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous lesions and a forearm abscess.",
+      "routine_investigations": "Point-of-care OIDx Histoplasma antigen lateral flow assay (LFA): strongly positive (0.75) in all 4 patients. Forearm abscess bacterial culture: grew Pseudomonas aeruginosa and Proteus mirabilis.",
+      "advanced_workup": "Skin biopsy with Giemsa, Gomori-Grocott, and periodic acid-Schiff (PAS) staining (performed at the hospital laboratory and Centre Pasteur du Cameroon): confirmed intracellular yeast organisms identified as Histoplasma capsulatum var. capsulatum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Disseminated cutaneous Histoplasma capsulatum var. capsulatum infection with a polymicrobial (Pseudomonas aeruginosa and Proteus mirabilis) forearm abscess in an HIV-positive patient. Confirmation: Strongly positive Histoplasma antigen lateral flow assay (0.75) and skin biopsy Giemsa, Gomori-Grocott, and PAS staining confirming Histoplasma capsulatum var. capsulatum. Plan & clinical course: Treated with oral levofloxacin (500 mg) for P. aeruginosa and P. mirabilis and oral itraconazole (800 mg/day for 3 months, followed by 400 mg/day for 9 months) for histoplasmosis; discharged after 1 month with major clinical improvement, reinitiated on antiretroviral therapy, and followed regularly for wound care (the other 3 patients in the series lacked access to itraconazole and were lost to follow-up)."
+    }
+  }
+}

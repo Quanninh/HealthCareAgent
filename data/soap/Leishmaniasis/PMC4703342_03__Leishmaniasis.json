@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4703342_03",
+  "pair_id": "PMC4703342_03::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 37-year-old male from Georgia came to France in October 2012. He had HIV infection since 2006 inconstantly treated with HAART. Other medical conditions were adrenal insufficiency, cirrhosis due to chronic HCV, and treatment-controlled tuberculosis. VL was diagnosed in 2010 and treated in Georgia with meglumine antimoniate and L-AmB (doses and schedules unknown). In November 2012, he presented hepatosplenomegaly, lymphadenopathies, infiltrated cutaneous lesions, anemia, number of CD4 lymphocytes = 133/mm3, viral load < 50 copies/mL, and parasitemia of 6 Leishmania/ml. He received a course of L-AmB followed by maintenance therapy for 5 months (Fig 1B). In May 2013, he had weight loss, hepatosplenomegaly, anemia, number of CD4 lymphocytes = 177/mm3, viral load < 40 copies/mL and parasitemia of 12 Leishmania/ml. L-AmB treatment was intensified, but renal insufficiency and acute thrombocytopenia occurred. In June, the splenomegaly and parasitemia remained unchanged. A course of meglumine antimoniate was administered. Despite pre-existing liver disorders, the treatment was well tolerated except for mild neutropenia. One month later, a marked clinical improvement was observed and parasitemia decreased to 0.2 Leishmania/ml. In July, maintenance treatment with miltefosine (150 mg/day for 3 months) was started. Parasitemia was negative, the number of CD4 lymphocytes increased from 169 to 540/mm3, and viral load was undetectable. Parasitemia remained negative through 18 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 37-year-old HIV-positive male from Georgia presented in November 2012 with hepatosplenomegaly, lymphadenopathy, infiltrated cutaneous lesions, and anemia, followed by a clinical relapse in May 2013 with weight loss, hepatosplenomegaly, and anemia.",
+      "history_of_present_illness": "Diagnosed with visceral leishmaniasis in Georgia in 2010 and treated with meglumine antimoniate and liposomal amphotericin B (L-AmB), the patient arrived in France in October 2012 and presented in November 2012 with relapsing visceral and cutaneous leishmaniasis. He received an induction course of L-AmB followed by 5 months of maintenance therapy, but relapsed in May 2013 with weight loss, persistent hepatosplenomegaly, anemia, and rising parasitemia; L-AmB intensification caused acute kidney injury and acute thrombocytopenia without clearing parasitemia.",
+      "past_medical_history": "HIV-1 infection diagnosed in 2006 (inconsistently treated with HAART); adrenal insufficiency; chronic hepatitis C cirrhosis; treatment-controlled tuberculosis; prior visceral leishmaniasis in Georgia (2010).",
+      "review_of_systems": "Positive for weight loss, infiltrated skin lesions, and organomegaly."
+    },
+    "objective": {
+      "physical_examination": "Hepatosplenomegaly, peripheral lymphadenopathy, and infiltrated cutaneous lesions.",
+      "routine_investigations": "Labs showed anemia, undetectable HIV viral load (<50 copies/mL in Nov 2012, <40 copies/mL in May 2013), acute renal insufficiency and acute thrombocytopenia during intensified L-AmB in May 2013, and mild neutropenia during subsequent meglumine antimoniate therapy.",
+      "advanced_workup": "CD4+ T-lymphocyte count was 133 cells/mm3 in November 2012, 177 cells/mm3 in May 2013, and increased from 169 to 540 cells/mm3 during miltefosine maintenance. Quantitative blood PCR demonstrated 6 Leishmania/mL in November 2012 and 12 Leishmania/mL in May/June 2013."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Quantitative blood PCR confirmed L-AmB-refractory relapsing Visceral and Cutaneous Leishmaniasis in an HIV-1 and HCV-cirrhotic patient. Salvage therapy in June 2013 with systemic meglumine antimoniate reduced parasitemia to 0.2 Leishmania/mL within 1 month with only mild neutropenia, and subsequent 3-month maintenance therapy with oral miltefosine (150 mg/day starting July 2013) achieved complete parasite clearance, CD4 recovery to 540/mm3, and 18 months of relapse-free PCR-negative follow-up."
+    }
+  }
+}

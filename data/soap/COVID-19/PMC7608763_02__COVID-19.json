@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7608763_02",
+  "pair_id": "PMC7608763_02::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "It was a 36-year-old female patient with no medical history, no notion of recent travel or known contact with a patient infected with COVID-19. She consulted for mild dyspnea associated with a dry cough evolving for a week without fever or other signs suggestive of COVID-19. However, with the pandemic context, she was suspected of COVID-19 and referred to the imaging department for a chest CT scan pending the availability of a PCR test. This CT scan first showed bilateral patches of ground-glass opacity in favor of the diagnosis of COVID-19 (Figure 1). The radiologist suspecting a lack in deep inspiration when performing the CT, immediately requested a second acquisition with better inspiration. This second examination showed a complete disappearance of the ground-glass opacities (Figure 2) thus proving that they were falsely present on the first acquisition. The only abnormalities finally retained on CT were retractile opacities of non-specific sequelae (Figure 2). The nasopharyngeal swab PCR test was finally performed on the patient with a negative result. She was released from the hospital with symptomatic treatment and she completely recovered a week later.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old female presented with a 1-week history of mild dyspnea and dry cough without fever.",
+      "history_of_present_illness": "The patient consulted for mild shortness of breath and dry cough evolving over 1 week without fever or constitutional symptoms, and was referred for chest CT imaging to evaluate for suspected viral pneumonia.",
+      "past_medical_history": "No past medical history; no recent travel or known COVID-19 contact.",
+      "review_of_systems": "Positive for mild dyspnea and dry cough; negative for fever."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Initial chest CT performed with suboptimal inspiration showed apparent bilateral patchy ground-glass opacities; an immediate repeat chest CT acquisition performed in full deep inspiration demonstrated complete disappearance of the ground-glass opacities, showing only minor non-specific retractile sequelae."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Non-COVID-19 mild self-limited respiratory illness with expiratory artifact on initial chest CT mimicking ground-glass opacities; SARS-CoV-2 infection was definitively ruled out by a negative nasopharyngeal swab RT-PCR test and normal deep-inspiration chest CT. Discharged on symptomatic treatment with complete recovery 1 week later."
+    }
+  }
+}

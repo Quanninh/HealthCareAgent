@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5745971_02",
+  "pair_id": "PMC5745971_02::Cytomegalovirus",
+  "target_disease": "Cytomegalovirus",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "A 70-year-old Chinese man with bilateral Fuchs' endothelial dystrophy, bilateral pseudophakic and right eye complicated with posterior capsule rent and drop cortical matter about two years ago. The best corrected right eye visual acuity was 6/12 postoperatively. \nHis right eye vision dropped to 6/36 at 3 months postoperatively. He was noted to develop cornea decompensation and diagnosed as pseudophakic bullous keratopathy. The cornea was hazy with epithelial bedewing, descemet striae and coin-shaped pigmented KP on cornea endothelium (Figure 2a (Fig. 2)).\nRight eye descemet stripping automated endothelial keratoplasty (DSAEK) was done. He developed steroid induced glaucoma and underwent right eye trabeculectomy with mitomycin C 0.02%. About one week after that, right eye visual acuity worsened to 4/60 due to early graft rejection. Intravenous methylprednisolone 500 mg daily was instituted for three days alongwith topical dexaminim hourly followed by oral prednisolone with tapering dose. However right eye visual acuity further worsened to 1/60. Right eye re-DSAEK was done for graft failure. The second cycle of intravenous methylprednisolone 500 mg daily was given. Aqueous sampling done was positive for CMV. HSV and VZV PCR from the aqueous sample were negative. Serum CMV IgM and IgG were not taken. He was started on oral valganciclovir 900 mg bidaily for two weeks and 900 mg daily for six months. Visual acuity improved to 2/60 after two weeks of treatment and KP reduced (Figure 2b (Fig. 2)). Repeated AC tap will be done in six months time and re-PK considered.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 70-year-old Chinese man with bilateral Fuchs' endothelial dystrophy and pseudophakia presented with progressive right-eye vision loss (dropping from 6/12 to 6/36, 4/60, and 1/60) and recurrent corneal graft failure following Descemet stripping automated endothelial keratoplasty (DSAEK).",
+      "history_of_present_illness": "Two years after complicated right-eye cataract surgery (posterior capsule rent and dropped nuclear cortex, post-op BCVA 6/12), the patient's right-eye vision declined to 6/36 at 3 months due to pseudophakic bullous keratopathy with coin-shaped pigmented keratic precipitates (KPs). He underwent right-eye DSAEK complicated by steroid-induced glaucoma requiring trabeculectomy with mitomycin C 0.02%. One week post-trabeculectomy, vision dropped to 4/60 from presumed early graft rejection (unresponsive to 3 days of IV methylprednisolone 500 mg/day, hourly topical dexamethasone, and oral prednisolone taper), worsening further to 1/60 and requiring repeat DSAEK and a second pulse of IV methylprednisolone (500 mg/day) before diagnostic aqueous humor tap.",
+      "past_medical_history": "Bilateral Fuchs' endothelial corneal dystrophy, bilateral pseudophakia (right eye complicated 2 years prior by posterior capsule rupture and dropped cortical matter), right pseudophakic bullous keratopathy status post DSAEK and repeat DSAEK, and right steroid-induced glaucoma status post trabeculectomy with mitomycin C 0.02%.",
+      "review_of_systems": "Positive for progressive right-eye visual acuity loss (6/12 to 1/60). Medications: pulse IV methylprednisolone, oral prednisolone taper, and topical dexamethasone."
+    },
+    "objective": {
+      "physical_examination": "Right eye ophthalmic exam: BCVA 6/12 initially, declining to 6/36 at 3 months, 4/60 post-trabeculectomy, and 1/60 prior to re-DSAEK (improving to 2/60 after 2 weeks of valganciclovir). Slit-lamp examination of the right eye showed corneal stromal haze, epithelial bedewing, Descemet's striae, and coin-shaped pigmented keratic precipitates (KPs) on the corneal endothelium.",
+      "routine_investigations": "Serum CMV IgM and IgG were not obtained.",
+      "advanced_workup": "Diagnostic anterior chamber aqueous humor paracentesis PCR was positive for cytomegalovirus (CMV) and negative for herpes simplex virus (HSV) and varicella-zoster virus (VZV)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Definitive diagnosis of right-eye cytomegalovirus (CMV) corneal endotheliitis causing pseudophakic bullous keratopathy and recurrent DSAEK graft failure, confirmed by characteristic coin-shaped pigmented endothelial keratic precipitates and positive aqueous humor CMV PCR (with HSV and VZV excluded by negative aqueous PCR). Treated with oral valganciclovir (900 mg twice daily induction for 2 weeks followed by 900 mg once daily maintenance for 6 months), resulting in reduction of keratic precipitates and visual acuity improvement from 1/60 to 2/60 at 2 weeks, with repeat anterior chamber tap and penetrating keratoplasty planned at 6 months."
+    }
+  }
+}

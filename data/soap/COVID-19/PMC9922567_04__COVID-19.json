@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9922567_04",
+  "pair_id": "PMC9922567_04::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "The patient's SARS-CoV-2 Reverse Transcriptase -Polymerase Chain Reaction (RT-PCR) was sent, which was negative. However, SARS CoV-2 total antibodies report was positive [81,360 reference interval, 1000 index (S/C)] with SARS CoV-2 IgM positive. On admission patient's complete Blood count was normal. His renal function test was deranged with a creatinine of 2.5 mg/dl and urea of 74 mg/dl. The liver function tests were deranged with alanine transaminase of [944 U/L; reference interval 7 to 55 U/Lt] and aspartate transaminase of [1138 U/L; reference interval 8-48 U/Lt]. The patient's Inflammatory markers were as follows C-Reactive Protein- [16.2 mg/L reference interval low cardiovascular risk <2.0 mg/L], Ferritin- [794.12 ng/ml; male reference interval 21.81-274.66], d-dimer- 1612 ng/ml, which increased up to [>10,000 ng/ml; reference interval 0 to 500 ng/ml] on the fifth day of admission in subsequent days and serum Lactate Dehydrogenase [1674 U/L; reference interval 85 to 227 U/Lt]. The patient's Troponin I level was normal, and Creatinine Kinase MB (CKMB) was [78 IU/mL; reference interval < 24 U/Lt] interleukin-6 levels were done on day three of admission and were high at [12.94 pg/mL; reference interval < 7 pg/mL] The patient thyroid profile showed an elevated Thyroid Stimulating Hormone (TSH) of [37.25 microIU/mL; reference interval 0.35 to 4.94 microIU/mL, normal T3 and T4, but positive Anti-Thyroid Peroxidase antibodies [191.69 IU/mL; reference interval <5.61 IU/mL] (table 1). The patient was non-diabetic and was negative for dengue, typhoid, Leptospira, and Malaria serologies; in such a scenario, diagnosis of post-COVID-19, Multisystem inflammatory syndrome-Adult was considered as he fulfilled the validated clinical criteria. The patient's blood and urine cultures showed no growth of any micro-organisms.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An adult male non-diabetic patient presented with acute multiorgan dysfunction and systemic hyperinflammation following a recent SARS-CoV-2 infection.",
+      "history_of_present_illness": "The patient presented with acute renal and hepatic injury and marked systemic inflammation with a negative nasopharyngeal SARS-CoV-2 RT-PCR but strongly positive SARS-CoV-2 IgM and total antibodies.",
+      "past_medical_history": "Non-diabetic adult male; found during admission workup to have autoimmune hypothyroidism (Hashimoto's thyroiditis).",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Nasopharyngeal SARS-CoV-2 RT-PCR was negative, while SARS-CoV-2 total antibodies (81,360 S/C; ref <1000) and SARS-CoV-2 IgM were positive. CBC and troponin I were normal. Labs showed acute kidney injury (creatinine 2.5 mg/dL, urea 74 mg/dL), severe acute hepatitis (ALT 944 U/L [ref 7-55], AST 1138 U/L [ref 8-48]), elevated CK-MB (78 IU/mL; ref <24), elevated CRP (16.2 mg/L; ref <2.0), elevated ferritin (794.12 ng/mL; ref 21.81-274.66), elevated D-dimer (1612 ng/mL on admission, rising to >10,000 ng/mL on day 5; ref 0-500), elevated LDH (1674 U/L; ref 85-227), elevated day-3 IL-6 (12.94 pg/mL; ref <7), and elevated TSH (37.25 uIU/mL; ref 0.35-4.94) with normal T3/T4 and positive anti-TPO antibodies (191.69 IU/mL; ref <5.61). Dengue, typhoid, Leptospira, and malaria serologies and blood/urine cultures were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Post-COVID-19 multisystem inflammatory syndrome in adults (MIS-A) complicated by acute kidney injury, severe acute hepatitis, hypercoagulability (D-dimer >10,000 ng/mL), and newly identified anti-TPO-positive autoimmune hypothyroidism, confirmed by positive SARS-CoV-2 IgM and total antibodies (81,360 S/C) and exclusion of tropical/bacterial infections (dengue, typhoid, leptospirosis, malaria, and sepsis)."
+    }
+  }
+}

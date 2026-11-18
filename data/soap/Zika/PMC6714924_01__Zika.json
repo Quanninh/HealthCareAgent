@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6714924_01",
+  "pair_id": "PMC6714924_01::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "In early January 2016, a 46-year-old Brazilian non-Caucasian female previously healthy arrived at the emergency department of the University Hospital of Sergipe with a history of 3 days with high fever (>39 C), joint pain, arthralgia, and a red cutaneous rash. She was treated with hydration and discharged from the hospital with a paracetamol prescription. She returned to the emergency department 4 days later with right upper extremity painful edema, with no prior peripherally inserted central catheter or intravenous infusions in the arm that had brachial thrombosis (Figure 1). An upper limb venous duplex scan revealed right brachial vein thrombosis. She was treated with unfractionated heparin followed by vitamin K antagonists (VKAs). Polymerase chain reaction (PCR) test confirmed Zika infection.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old previously healthy Brazilian woman presented in early January 2016 with painful edema of the right upper extremity 4 days after presenting with a 3-day history of high fever, arthralgia, and red skin rash.",
+      "history_of_present_illness": "In early January 2016, the patient initially presented to the emergency department of the University Hospital of Sergipe, Brazil, with a 3-day history of high fever (>39 C), joint pain/arthralgia, and an erythematous cutaneous rash. She was treated with intravenous hydration and discharged home on paracetamol, but returned to the emergency department 4 days later with acute painful swelling of her right upper extremity.",
+      "past_medical_history": "Previously healthy non-Caucasian Brazilian woman with no history of peripherally inserted central catheters (PICC) or intravenous infusions in the affected right arm.",
+      "review_of_systems": "Positive for high fever (>39 C), arthralgia, red cutaneous rash, and painful right upper limb edema."
+    },
+    "objective": {
+      "physical_examination": "Painful edema of the right upper extremity noted on readmission (preceded by fever >39 C and erythematous skin rash).",
+      "routine_investigations": "Right upper extremity venous duplex ultrasound demonstrated right brachial vein thrombosis.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Acute Zika virus infection complicated by spontaneous right brachial vein deep venous thrombosis. Zika virus infection was confirmed by polymerase chain reaction (PCR) testing. She was treated initially with hydration and paracetamol, followed upon readmission by anticoagulation with unfractionated heparin transitioned to oral vitamin K antagonists (VKAs)."
+    }
+  }
+}

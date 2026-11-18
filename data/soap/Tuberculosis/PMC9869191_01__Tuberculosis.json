@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9869191_01",
+  "pair_id": "PMC9869191_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The patient was a 36-year-old female. The left side chest pain occurred more than 1 month ago and continued to deteriorate for 10 days. She had repeated pulmonary infection, accompanied by cough and expectoration. Her maximum temperature was 38.5 C, without chest tightness and dyspnea. Physical examination: the chest was barrel shaped, and no definite abnormality was found in chest auscultation and palpation. Cardiac examination was normal. The laboratory test of human immunodeficiency virus (HIV) was negative, and there was no contact history of tuberculosis. The patient's abdominal CT plain scan showed no obvious abnormality.\nThe lung window in axial and sagittal position of multi-detector spiral CT showed that the bilateral basal lung isthmus was connected, extending behind the pericardium and crossing the midline for fusion. The left lower lung basal segment had sparse lung markings, with increased transparency, and patchy shadows could be seen near the spine at the bottom of both lungs. There was an obvious pleural interface between the isthmus and the left lung (arrow) (Figures 1 and 2). Transparent imaging (Figure 3) showed the isthmus lung tissue among the lungs (arrow). The three-dimensional volume-rendered imaging of the bronchus (Figure 4) showed that the bronchial branches of the lower lobe of the left lung were thinner than those of the right side. Cystic changes could be seen at the beginning of the lower lobe of the left lung. The outer and posterior basal segments of the lower lobe of the left lung fused at the beginning, and the distal branches were sparse. Thoracic CT angiography scanning (Figures 5 and 6): consolidation shadow could be seen in the basal segment of the lower lobe of both lungs, with the left lung as the focus, and multiple calcified nodules could be seen in it. The blood supply arteries of bilateral lesions directly originated from the adjacent trunk of thoracic aorta (arrows).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old woman presented with a >1-month history of left-sided chest pain that worsened over the past 10 days alongside recurrent cough, expectoration, and fever up to 38.5 °C.",
+      "history_of_present_illness": "Over the month prior to presentation, the patient experienced left-sided chest pain that aggravated over the last 10 days in the setting of recurrent lower respiratory tract infections characterized by productive cough and fevers up to 38.5 °C without chest tightness or dyspnea.",
+      "past_medical_history": "History of recurrent pulmonary infections; no known history of tuberculosis contact.",
+      "review_of_systems": "Positive for left chest pain, recurrent cough, expectoration, and fever (38.5 °C); negative for chest tightness or dyspnea."
+    },
+    "objective": {
+      "physical_examination": "Barrel-shaped chest with normal chest palpation, pulmonary auscultation, and cardiac examination.",
+      "routine_investigations": "HIV serology was negative.",
+      "advanced_workup": "Plain abdominal CT was normal. Multidetector spiral chest CT, 3D bronchial volume rendering, and thoracic CT angiography (CTA) demonstrated a retropericardial parenchymal lung isthmus connecting the basal segments of both lower lobes across the midline (horseshoe lung), hypoplastic/fused left lower lobe bronchi with basal cystic changes and hyperlucency, bilateral basal consolidation (predominantly left-sided) containing multiple calcified nodules, and anomalous systemic arterial branches arising directly from the descending thoracic aorta supplying the bilateral basal lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Multidetector chest CT, 3D bronchial reconstruction, and thoracic CT angiography confirmed congenital horseshoe lung (retropericardial basal pulmonary parenchymal fusion across the midline) combined with bilateral intralobar pulmonary sequestration supplied by anomalous systemic arteries from the descending thoracic aorta, complicated by recurrent basal pulmonary infections."
+    }
+  }
+}

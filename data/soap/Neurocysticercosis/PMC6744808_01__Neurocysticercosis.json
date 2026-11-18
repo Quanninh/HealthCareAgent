@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6744808_01",
+  "pair_id": "PMC6744808_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 58-year-old female presented with a 6-month history of progressive paraparesis, sensory disturbance, and sphincter dysfunction. Ultimately she became paraplegic (motor function 0/5 in both lower extremities), was severely spastic, and exhibited a T4 sensory level to pin appreciation. The thoracic magnetic resonance (MR) imaging revealed multiple intradural extramedullary cystic lesions at the T4-6 and T9-11 levels [Figure 1].\nThe patient required two separate laminectomies involving both the T4-T6 and T9-T11 levels for resection of spinal NCC cysts. At the T4-T6 levels, once the dura was opened, 12 cystic lesions of different sizes protruded through the arachnoid gap and were removed along with the arachnoid membrane [Figure 2]. However, at the T9-T11 level, on opening the dura, severe arachnoiditis due to spinal NCC made it difficult to identify the spinal cord, a decompression and NCC cyst excision were attempted but ultimately resulted in rupture of a cystic lesion. The dura at both levels was then sutured in a watertight fashion followed by routine closure.\nThe histopathological report confirmed spinal NCC [Figure 3]. Postoperatively, the patient was treated with corticosteroids and Albendazole (30 mg/kg/day) for 15 days.\nImmediately postoperatively, the patient regained 2/5 motor function in the lower extremities. The MR 1 month later showed partial resolution of the preoperative cord compression at both the T4-6 and T9-11 levels. In addition, corticosteroids were continued for the next 3 months to reduce inflammation [Figure 4]. One year postoperatively, the patient was still paraparetic, but could take small steps with the help of a walker (e.g. motor 3-4/5 bilaterally).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 58-year-old woman presented with a 6-month history of progressive paraparesis, sensory loss, and sphincter dysfunction that culminated in complete paraplegia.",
+      "history_of_present_illness": "Over a 6-month period, the patient experienced progressively worsening bilateral lower extremity weakness, thoracic sensory loss, and bowel/bladder sphincter dysfunction until she became completely paraplegic.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for bowel/bladder sphincter dysfunction."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination revealed complete spastic paraplegia (motor strength 0/5 in both lower extremities), severe lower limb spasticity, and a sensory level to pinprick at the T4 dermatome.",
+      "routine_investigations": null,
+      "advanced_workup": "Thoracic spine MRI demonstrated multiple intradural extramedullary cystic lesions compressing the spinal cord at the T4-T6 and T9-T11 vertebral levels."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient underwent two separate thoracic laminectomies at T4-T6 (excising 12 protruding arachnoid cysts) and T9-T11 (where severe arachnoiditis caused intraoperative cyst rupture during decompression and cyst resection), and histopathology confirmed intradural extramedullary spinal neurocysticercosis. Postoperatively, she received oral albendazole (30 mg/kg/day for 15 days) and corticosteroids (continued for 3 months). Her lower limb strength improved to 2/5 immediately postoperatively with partial resolution of cord compression on 1-month MRI, and at 1-year follow-up she was able to walk short distances with a walker (bilateral lower extremity strength 3-4/5)."
+    }
+  }
+}

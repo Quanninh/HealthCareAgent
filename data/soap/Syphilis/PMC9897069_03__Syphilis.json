@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9897069_03",
+  "pair_id": "PMC9897069_03::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 29-year-old man was referred by the Department of Internal Medicine regarding lesions in his oral cavity. He complained about pain in the lower anterior jaw gum and lower lip for a week and had a fever history in the last 2 weeks. He was diagnosed by the Internist with HIV stage IV with wasting syndrome, hypothyroidism, latent syphilis, chronic hepatitis B, moderate dehydration et causa inadequate intake, stage 1 acute kidney injury (AKI), inflammatory anemia, and malnutrition. On extra oral examination, we found exfoliative lips, and the lips looked pale. From the intra-oral examination, we found multiple irregular painful erosion on the lower labial mucosa. The anterior mandibular gingiva was edematous and tended to bleed and there was an excruciating grayish-white plaque in the region of teeth 33 to 43 (Figure 3). On the upper anterior gingiva, reddish bands appeared on the attached gingiva of teeth 11 and 21 (Figure 3). Laboratory examinations showed reactive TPHA with titer 1:5120 and reactive VDRL with titer 1:64, reactive hepatitis B e antigen (HBeAg), reactive HBsAg, non-reactive anti-hepatitis c virus (HCV). Examination of Mycobacterium tuberculosis using the Assay method did not find Mycobacterium tuberculosis bacteria. The lesions on the gingiva were diagnosed with necrotizing ulcerative gingivitis (NUG). The lesion on the maxillary anterior gingiva was diagnosed as linear gingival erythema. \nNecrotizing ulcerative gingivitis in this patient was treated with 1.5% hydrogen peroxide irrigation and rinsed with saline solution. Patients were also asked to rinse their mouth with 0.2% chlorhexidine gluconate 3 times a day and regularly clean their teeth and tongue at least 2 times a day. We did not prescribe any antibiotic because Internal Medicine had given azithromycin for systemic infection. After 7 days of therapy, the lesions improved (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old man with stage IV HIV/AIDS was referred to the oral medicine service with a 1-week history of severe pain and bleeding in his lower anterior gingiva and lower lip, preceded by a 2-week history of fever.",
+      "history_of_present_illness": "Hospitalized under internal medicine for stage IV HIV wasting syndrome, hypothyroidism, latent syphilis, chronic hepatitis B, moderate dehydration from poor oral intake, stage 1 acute kidney injury, anemia of chronic inflammation, and malnutrition, the patient developed a 2-week fever and 1 week of excruciatingly painful, bleeding lower anterior mandibular gums and lower labial erosions.",
+      "past_medical_history": "History of stage IV HIV/AIDS with wasting syndrome, hypothyroidism, latent syphilis, chronic HBeAg-positive hepatitis B, stage 1 AKI, malnutrition, and anemia.",
+      "review_of_systems": "Positive for 2-week fever, severe lower gingival and labial pain, gingival bleeding, weight loss/wasting, and poor oral intake. Inpatient systemic antibiotic: azithromycin."
+    },
+    "objective": {
+      "physical_examination": "Extraoral examination showed pale, exfoliative lips. Intraoral examination revealed multiple irregular painful erosions on the lower labial mucosa, edematous and spontaneously bleeding anterior mandibular gingiva covered by an excruciating grayish-white necrotic pseudomembranous plaque spanning teeth 33 to 43, and distinct linear erythematous bands along the attached maxillary anterior gingiva of teeth 11 and 21.",
+      "routine_investigations": "Laboratory studies confirmed HIV stage IV, anemia, stage 1 AKI, reactive HBsAg and HBeAg, non-reactive anti-HCV, and negative Mycobacterium tuberculosis assay.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed latent syphilis (reactive serum VDRL titer 1:64 and reactive TPHA titer 1:5,120) co-existing with HIV stage IV wasting syndrome, HBeAg-positive chronic hepatitis B, mandibular necrotizing ulcerative gingivitis (NUG), and maxillary linear gingival erythema (LGE). Managed with local oral debridement/irrigation using 1.5% hydrogen peroxide and saline, 0.2% chlorhexidine gluconate mouthwash three times daily, twice-daily oral hygiene, and systemic azithromycin prescribed by internal medicine, achieving marked improvement of the gingival and labial lesions within 7 days."
+    }
+  }
+}

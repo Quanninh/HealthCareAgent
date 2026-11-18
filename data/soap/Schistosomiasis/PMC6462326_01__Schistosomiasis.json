@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6462326_01",
+  "pair_id": "PMC6462326_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 63-year-old Chinese woman from Wuhan was admitted to the First Affiliated Hospital of Wuhan University in October 2017 with left quadrant abdominal pain and weight loss for more than 6 months. The pain exacerbated after eating and was accompanied with abdominal distension, belching, and reduced flatus. The patient referred was taking traditional Chinese medicine that temporarily relieved the symptoms. She had previous history of hypertension with a poor control. She underwent colonoscopy examination in a local hospital and verbally reported no pathologic findings. The positive findings at the physical examination were the mesogastric tenderness and an enlarged spleen.\nThe blood laboratory examination reported only mild hypokalemia; the urinary and stool reports were normal. The enhanced computerized tomography showed splenomegaly, the jejunal wall with edema and a narrowed lumen, enlarged lymph nodes, mesenteric edema; the liver cleft was widened with atrophy of the right liver lobe and hypertrophy of the left and caudate lobes; calcification and periportal fibrosis signs were compatible with hepatic schistosomiasis (Figures 1-6).\nAt the moment of the double balloon enteroscopy, the patient's blood pressure was not stable and we could not reexamine the colon. The upper enteroscopy showed at 150 cm distal to the Treitz ligament a 3.0 x 2.0 cm size ulcer with bottom white coating, peripheral mucosal hyperemia, and edema occupying 2/3 of the lumen so that the endoscope could not pass through. Four biopsies were taken from the ulcer (Figures 7-10). And 20 cm proximal from the ulcer, there were many scattered irregular ulcers from where two biopsies were taken.\nThe histopathological examination reported chronic jejunal inflammation with ulcerative changes and old S. japonicum eggs deposition (Figures 11 and 12).\nDuring hospitalization, the patient received symptomatic treatment with intravenous fluids, electrolytes, antispasmodic medication, and proton-pump inhibitors. Unfortunately, the patient requested for a voluntary discharge from the hospital and decided to continue her treatment and follow-up at a local hospital.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 63-year-old Chinese woman from Wuhan presented in October 2017 with more than 6 months of left-sided abdominal pain and weight loss.",
+      "history_of_present_illness": "Over more than 6 months prior to admission, the patient experienced left quadrant abdominal pain exacerbated by eating and accompanied by abdominal distension, belching, reduced flatus, and weight loss. Traditional Chinese medicine provided only temporary relief, and a prior colonoscopy at a local hospital was verbally reported as normal.",
+      "past_medical_history": "History of poorly controlled hypertension; from Wuhan, China.",
+      "review_of_systems": "Positive for postprandial abdominal distension, belching, reduced flatus, and weight loss; took traditional Chinese medicine prior to admission."
+    },
+    "objective": {
+      "physical_examination": "Physical examination revealed mesogastric tenderness and splenomegaly; blood pressure became unstable during subsequent endoscopic evaluation.",
+      "routine_investigations": "Blood laboratory tests showed only mild hypokalemia, while routine urinalysis and stool examinations were normal.",
+      "advanced_workup": "Contrast-enhanced abdominal CT demonstrated splenomegaly, jejunal wall edema with luminal narrowing, mesenteric edema and lymphadenopathy, a widened hepatic cleft with right lobe atrophy and left/caudate lobe hypertrophy, and hepatic calcifications with periportal fibrosis characteristic of chronic hepatic schistosomiasis. Antegrade double-balloon enteroscopy revealed multiple scattered irregular jejunal ulcers at 130 cm distal to the ligament of Treitz and a large 3.0 x 2.0 cm white-coated ulcer with peripheral mucosal hyperemia and edema occupying two-thirds of the lumen at 150 cm distal to the ligament of Treitz (preventing further scope passage). Histopathology of six jejunal biopsy specimens revealed chronic ulcerative jejunitis with calcified/old Schistosoma japonicum egg deposition."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed chronic hepatosplenic and segmental ulcerative jejunal schistosomiasis due to Schistosoma japonicum on abdominal CT, double-balloon enteroscopy, and jejunal biopsy histopathology. She received inpatient supportive care with IV fluids, electrolyte replacement, antispasmodics, and proton-pump inhibitors before requesting voluntary discharge to continue treatment and follow-up at a local hospital."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6275170_01",
+  "pair_id": "PMC6275170_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "This is a case of 36-year-old man who presented with features of intestinal obstruction to our institution. He was diagnosed in Egypt as a case of intestinal Schistosomiasis one year prior to admission and received treatment. However, follow up investigation to confirm eradication of the disease was not done. The patient presented to our surgical department complaining of absolute constipation, abdominal pain, abdominal distention and vomiting. On examination the abdomen was distended and bowel sounds were absent. There was tenderness in the lower part of the abdomen and digital rectal examination revealed collapsed rectum. Computed tomography (CT) scan of the abdomen revealed dilated bowel loops (Fig. 1). The patient was resuscitated adequately and exploratory laparotomy was done through infra-umbilical midline incision. There was localized turbid fluid collection, dilated small and large bowel loops due to paralytic ileus and gangrenous appendix. Appendectomy was done (Fig. 2) followed by lavage and closure. The patient received antibiotics and passed through a smooth postoperative period and was discharged home after one week approximately. The appendix specimen was sent for histopathology and the result came back as extensive necrosis of the appendix with multiple viable Schistosomal ova (Fig. 3). Subsequent stool analysis revealed no ova. Despite of that the patient received a single dose of praziquantel therapy and he is quite well now.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old man presented with abdominal pain, abdominal distension, vomiting, and absolute constipation.",
+      "history_of_present_illness": "The patient presented to the surgical department with features of acute intestinal obstruction, including abdominal pain, progressive abdominal distension, vomiting, and absolute constipation.",
+      "past_medical_history": "Diagnosed and treated for intestinal schistosomiasis in Egypt 1 year prior to admission, without follow-up testing to confirm eradication.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Abdomen was distended with lower abdominal tenderness and absent bowel sounds; digital rectal examination revealed a collapsed rectum.",
+      "routine_investigations": "Postoperative stool microscopy was negative for Schistosoma ova.",
+      "advanced_workup": "Abdominal CT demonstrated dilated bowel loops. Exploratory laparotomy via an infra-umbilical midline incision revealed a localized turbid fluid collection, dilated small and large bowel loops secondary to paralytic ileus, and a gangrenous appendix, for which appendectomy and peritoneal lavage were performed. Histopathology of the resected appendix demonstrated extensive appendiceal necrosis containing multiple viable Schistosoma ova."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed acute gangrenous schistosomal appendicitis presenting as paralytic ileus and clinical intestinal obstruction on appendiceal histopathology. Following appendectomy, peritoneal lavage, perioperative antibiotics (discharged 1 week postoperatively), and a single oral dose of praziquantel, the patient recovered completely."
+    }
+  }
+}

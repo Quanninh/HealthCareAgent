@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4703342_04",
+  "pair_id": "PMC4703342_04::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 75-year-old male from Algeria had HIV infection since 2001 treated with nevirapine and lamivudine/zidovudine. He had cerebral toxoplasmosis, chronic hepatitis B, gastrointestinal CMV infection, and anal squamous cell carcinoma. In 2013, the patient started treatment with darunavir, ritonavir, raltegravir and emtricitabine. VL had been diagnosed in 2001, and treated with L-AmB 5 mg/Kg/d for 15 days with partial improvement. Maintenance therapy of 3 mg/kg weekly was planned but irregularly administered. Recurrence was reported in March 2011, the infecting specie was identified as L. infantum. The number of CD4 lymphocytes was 33/mm3, and viral load 75000 copies/mL. The patient received 40 mg/kg of L-AmB, followed by 3 mg/kg at 15-day interval. Clinical improvement was obtained but qualitative PCR remained positive. In 2012, L-AmB infusions were administered at 3-week intervals. In 2013, a last course of 50 mg/kg of L-AmB was administered, Despite this complete course of L-AmB, clinical symptoms worsened (weight loss, fatigue), clinical splenomegaly was present (greater diameter 20 cm on the CT scan), and parasitemia remained positive and stable (from 126 Leishmania/ml before treatment to 118 Leishmania/ml after completion of the course 3 weeks later). Meglumine antimoniate was thus administered, initially at low doses (4-10 mg/kg SbV every other day for 7 weeks) because of advanced age. Treatment was well tolerated except for moderate neutropenia. Fatigue resolved and weight increased from 50 to 61 Kg. The spleen was no longer palpable after 2 months of treatment. Number of CD4 lymphocytes increased from 75 to 134/mm3. Parasitemia cleared and remained negative through 13 months of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 75-year-old HIV-positive male from Algeria with chronic relapsing visceral leishmaniasis since 2001 presented in 2013 with worsening fatigue, weight loss, and massive splenomegaly refractory to liposomal amphotericin B.",
+      "history_of_present_illness": "Initially diagnosed with visceral leishmaniasis in 2001 and partially responsive to liposomal amphotericin B (L-AmB 5 mg/kg/day for 15 days) with irregular weekly maintenance (3 mg/kg), the patient relapsed in March 2011 and remained PCR-positive with worsening weight loss, fatigue, and massive splenomegaly in 2013 despite cumulative L-AmB courses of 40 mg/kg (followed by 3 mg/kg every 2-3 weeks) and 50 mg/kg.",
+      "past_medical_history": "HIV-1 infection diagnosed in 2001 (treated with nevirapine and lamivudine/zidovudine, switched in 2013 to darunavir, ritonavir, raltegravir, and emtricitabine); cerebral toxoplasmosis; chronic hepatitis B; gastrointestinal CMV infection; anal squamous cell carcinoma.",
+      "review_of_systems": "Home ART (from 2013): darunavir, ritonavir, raltegravir, and emtricitabine; positive for fatigue and weight loss (weight 50 kg)."
+    },
+    "objective": {
+      "physical_examination": "Cachexia/weight loss (50 kg) and massive clinical splenomegaly.",
+      "routine_investigations": "HIV viral load was 75,000 copies/mL at the March 2011 relapse; moderate neutropenia occurred during meglumine antimoniate therapy.",
+      "advanced_workup": "CD4+ T-lymphocyte count was 33 cells/mm3 in March 2011 and rose from 75 to 134 cells/mm3 after antimonial therapy. Abdominal CT in 2013 demonstrated a 20-cm enlarged spleen. Species identification confirmed Leishmania infantum, and quantitative blood PCR remained persistently positive before (126 Leishmania/mL) and 3 weeks after (118 Leishmania/mL) the 50 mg/kg L-AmB course in 2013."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Quantitative blood PCR and species typing confirmed L-AmB-refractory relapsing Visceral Leishmaniasis caused by Leishmania infantum in an elderly HIV-coinfected patient. Salvage therapy with low-dose meglumine antimoniate (4-10 mg/kg SbV every other day for 7 weeks) was well tolerated aside from moderate neutropenia, resulting in resolution of fatigue, an 11-kg weight gain (to 61 kg), non-palpable spleen at 2 months, CD4 increase to 134/mm3, and sustained negative Leishmania blood PCR over 13 months of follow-up."
+    }
+  }
+}

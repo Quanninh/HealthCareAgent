@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6261242_01",
+  "pair_id": "PMC6261242_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "An 80-year-old man of Caucasian origin diagnosed with late-onset plaque psoriasis was referred to our Department for a \"second-opinion\" evaluation and eventually administration of systemic treatment. All lesions appeared at least 2 years before the dermatologic assessment at our department. The patient had received topical therapy with fixed combination of calcipotriol/betamethasone once daily for 3 months and subsequently with clobetasol for around 4 months once daily without any response. The family history of the patient was negative for psoriasis or other chronic skin diseases. Our patient had no previous dermatologic history and was medicating for hypertension, GERD, and hyperlipidemia.\nThe clinical examination revealed well-demarcated erythematosquamous plaques with irregular shapes on the upper and the low extremities of the patient (Figures 1(a) and 1(b)). The clinical differential diagnosis included psoriasis, lupus erythematosus, tinea incognita, mycosis fungoides as well as leprae, leishmaniasis, sarcoidosis, and tuberculosis.\nThe dermatoscopic evaluation of the lesions revealed yellow-orange clods and focused, fine horizontal telangiectasias (Figures 1(c) and 1(d)). These findings are repetitively reported as suggestive for granulomatous skin diseases such as sarcoidosis, tuberculosis, and granuloma annulare. The correlation of the clinical and dermatoscopic features of the lesion suggested a diagnosis of a granulomatous disease such as cutaneous tuberculosis or sarcoidosis.\nBiopsy of a representative lesion was performed and the histological examination revealed the presence of tuberculoid granulomas accompanied by caseation necrosis. The tuberculin skin test was found positive. PCR for M. Tuberculosis DNA done on a tissue sample was positive. The clinical, dermatoscopic, and microscopic features were consistent with the diagnosis of lupus vulgaris. The screening for an extracutaneous focus of TB was negative. Our patient was treated with a 2-month course of isoniazide 5 mg/kg/d, rifampicin 10 mg/kg/d, pyrazinamide 35 mg/kg/d, and ethambutol 20 mg/d followed by rifampicin and isoniazid for a further 4 months. Complete resolution of the rash with minimal residual scarring was observed in follow-up examination at the end of the treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 80-year-old Caucasian man presented for a second opinion regarding a 2-year history of treatment-refractory erythematosquamous plaques on his upper and lower extremities.",
+      "history_of_present_illness": "The cutaneous plaques appeared at least 2 years prior to referral, were initially misdiagnosed as late-onset plaque psoriasis, and failed to respond to 3 months of topical calcipotriol/betamethasone once daily followed by 4 months of topical clobetasol once daily.",
+      "past_medical_history": "Hypertension, gastroesophageal reflux disease, and hyperlipidemia; no prior personal or family history of psoriasis or chronic skin disease.",
+      "review_of_systems": "Taking antihypertensive, GERD, and lipid-lowering medications; negative for extracutaneous symptoms."
+    },
+    "objective": {
+      "physical_examination": "Well-demarcated, irregularly shaped erythematosquamous plaques on the upper and lower extremities; dermoscopy revealed yellow-orange ('apple-jelly') clods and focused fine horizontal telangiectasias.",
+      "routine_investigations": "Tuberculin skin test was positive, and screening for extracutaneous tuberculosis was negative.",
+      "advanced_workup": "Skin biopsy histopathology demonstrated dermal tuberculoid granulomas with caseation necrosis, and tissue PCR was positive for Mycobacterium tuberculosis DNA."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Plaque psoriasis, cutaneous leishmaniasis, leprosy, sarcoidosis, mycosis fungoides, and lupus erythematosus were excluded; dermoscopy, caseating tuberculoid granulomas on biopsy, positive tuberculin test, and positive tissue Mycobacterium tuberculosis PCR confirmed lupus vulgaris (cutaneous tuberculosis). Standard antitubercular therapy with 2 months of isoniazid (5 mg/kg/day), rifampicin (10 mg/kg/day), pyrazinamide (35 mg/kg/day), and ethambutol (20 mg/kg/day) followed by 4 months of isoniazid and rifampicin achieved complete resolution of the plaques with minimal scarring."
+    }
+  }
+}

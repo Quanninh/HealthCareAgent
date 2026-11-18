@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5928731_01",
+  "pair_id": "PMC5928731_01::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "In July 2013, a 25-year-old male presented to the ED with complaints of a 4-day history of fever, myalgia, bone pain, headache, malaise, chills, and nausea (Table 1). Two days earlier he had sought care at a local health center where he was found to be dehydrated and was given intravenous (IV) fluids. Upon presentation to the ED, he was afebrile, and laboratory results demonstrated thrombocytopenia and mildly elevated liver function tests (LFTs) (Tables 2 and 3). He was given a provisional diagnosis of viral syndrome with a rule-out of dengue, given acetaminophen and IV fluids, and admitted for care.\nOn the first day of hospitalization, he remained afebrile and developed nausea, vomiting, and dry cough. His lungs were consistently clear to auscultation and chest X-rays were unremarkable. Repeat laboratory values on the third day of hospitalization demonstrated worsening thrombocytopenia. Additional laboratory results obtained the following day demonstrated leukocytosis and improving thrombocytopenia. He was discharged home on day 4 of hospitalization with a diagnosis of dengue.\nA serum specimen collected on day 5 of illness was positive by MAT with a reciprocal titer of 100 against serogroup Icterohaemorrhagiae (serovar Mankarso). Serum collected upon discharge 8 days after illness onset had a reciprocal MAT titer of 3,200 against serovar Mankarso.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old man presented with a 4-day history of fever, myalgia, bone pain, headache, malaise, chills, and nausea.",
+      "history_of_present_illness": "In July 2013, the patient presented to the emergency department after 4 days of fever, diffuse myalgia, bone pain, headache, malaise, chills, and nausea, having received outpatient IV fluids for dehydration at a local clinic 2 days earlier.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, chills, malaise, myalgia, bone pain, headache, and nausea; developed inpatient vomiting and dry cough on hospital day 1."
+    },
+    "objective": {
+      "physical_examination": "Afebrile on emergency department arrival and throughout hospitalization, with persistently clear lungs to auscultation.",
+      "routine_investigations": "Admission labs demonstrated thrombocytopenia and mildly elevated liver function tests. Hospital day 3 labs showed nadir thrombocytopenia, followed on day 4 by leukocytosis and recovering platelet counts. Chest radiographs were unremarkable.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed leptospirosis (initially misdiagnosed clinically as dengue fever at discharge), definitively diagnosed by a 32-fold rise in paired microscopic agglutination test (MAT) titers against Leptospira interrogans serogroup Icterohaemorrhagiae (serovar Mankarso) from 1:100 on day 5 of illness to 1:3,200 on day 8 at discharge. Managed supportively with IV fluids and acetaminophen and discharged recovered on hospital day 4."
+    }
+  }
+}

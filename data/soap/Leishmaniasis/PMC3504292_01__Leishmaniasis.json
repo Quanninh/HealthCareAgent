@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3504292_01",
+  "pair_id": "PMC3504292_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 36-year-old male patient presented to our department with painless nodules on his left foot for a two-month duration for which he received a three-week course of systemic (ampicillin-cloxacillin) antibiotic without any improvement. His medical and family history were unremarkable.\nDermatological examination revealed a large ulcerative plaque on the dorsal aspect of the left foot surrounded by two satellite purple papules (Figure 1(a)). In addition to multiple grouped dusky erythematous nontender ulcerative nodules behind the lateral malleolus of the left leg (Figure 1(b)). Histopathological examination of the margin of the ulcerative plaque showed ulceration of the epidermis, diffuse dense mononuclear cellular infiltration of lymphocytes, histiocytes, and plenty of plasma cells throughout the dermis with early granuloma formation. These changes even involved the panniculus causing septal and lobular panniculitis (Figure 1(c)).\n The Leishmania tropica (LT) bodies were seen in numerous numbers inside the macrophages of superficial dermis in sections stained with H&E and Gimesa. Some of them were extracellular. These bodies were distributed in the dermis in a form of foci. They were absent in the lesions of panniculitis.\nThe patient was given 1 mL intralesional sodium stibogluconate (100 mg per 1 mL) for each lesion weekly for 5 successive weeks with excellent gradual resolution of all skin lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 36-year-old male presented with a 2-month history of painless ulcerative nodules and plaques on his left foot and ankle.",
+      "history_of_present_illness": "The patient developed painless nodular and ulcerative skin lesions on his left foot 2 months prior to presentation and received a 3-week course of systemic ampicillin-cloxacillin without clinical improvement.",
+      "past_medical_history": "Unremarkable past medical and family history.",
+      "review_of_systems": "Negative for local pain or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "A large ulcerative plaque on the dorsal aspect of the left foot surrounded by two satellite purple papules, accompanied by multiple grouped dusky-erythematous, nontender ulcerative nodules behind the left lateral malleolus.",
+      "routine_investigations": null,
+      "advanced_workup": "Skin biopsy histopathology from the plaque margin (H&E and Giemsa stains) showed epidermal ulceration, a dense diffuse dermal infiltrate of lymphocytes, histiocytes, and abundant plasma cells with early granuloma formation extending into the subcutis as septal and lobular panniculitis, and numerous intracellular and extracellular Leishmania tropica amastigotes within superficial dermal macrophages."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathology and Giemsa staining of the skin biopsy confirmed sporotrichoid Cutaneous Leishmaniasis (Leishmania tropica) with associated septal and lobular panniculitis. Weekly intralesional sodium stibogluconate injections (1 mL [100 mg] per lesion) for 5 consecutive weeks achieved complete resolution of all skin lesions."
+    }
+  }
+}

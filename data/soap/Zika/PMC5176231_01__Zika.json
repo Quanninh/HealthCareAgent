@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5176231_01",
+  "pair_id": "PMC5176231_01::Zika",
+  "target_disease": "Zika",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A previously healthy 45-year-old man became ill 1 day after returning to the United Kingdom from a 1-week holiday in Rio de Janeiro, Brazil, in February 2016. His illness lasted for 10 days and consisted of severe retro-orbital headache, arthralgia, myalgia, and high fevers, followed by a pruritic maculopapular rash. He had no symptoms of prostatitis or gross hematospermia. He had no history of immunocompromise, and he was not on any regular medication. On day 3 of his illness, Zika virus RNA was detected in urine but not in serum; Zika virus IgM and IgG were not detected in serum by an ELISA IgM and IgG kit (EUROIMMUN AG, Lubeck, Germany). Results of serologic testing for chikungunya, dengue, and yellow fever were negative by commercial assays. \nSeventeen days after the initial testing, Zika virus IgM and IgG were detected in a new serum sample from the patient. The patient and his partner were planning to conceive and were reluctant to wait the 6 months recommended by Public Health England. Therefore, PCR for Zika virus RNA was performed on serial semen samples by using the Rare and Imported Pathogens Laboratory's in-house real-time reverse transcription PCR (rRT-PCR), based on an assay used by Pyke et al.. Zika virus RNA was detected 22, 55, and 92 days after symptom onset (cycle threshold values 21.3, 30.1, and 37.2, respectively). No microhematospermia was detected, and Zika virus could not be cultured at any point. No Zika virus RNA was detected in semen at day 132 or day 174. The patient and his partner did not have unprotected sex during this period; his partner remained well and was not tested for Zika virus.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old previously healthy man presented with severe retro-orbital headache, arthralgia, myalgia, high fevers, and a subsequent pruritic maculopapular rash beginning 1 day after returning from Brazil.",
+      "history_of_present_illness": "The patient developed an acute febrile illness 1 day after returning to the United Kingdom from Rio de Janeiro, Brazil, in February 2016. His illness lasted 10 days and was characterized by high fevers, severe retro-orbital headache, arthralgia, and myalgia, followed by a pruritic maculopapular rash. Because he and his partner were planning to conceive and were reluctant to wait the 6 months recommended by Public Health England, he underwent longitudinal follow-up for viral persistence in semen.",
+      "past_medical_history": "Previously healthy with no history of immunocompromise. Recent travel history: 1-week holiday in Rio de Janeiro, Brazil, in February 2016.",
+      "review_of_systems": "Positive for fever, retro-orbital headache, arthralgia, myalgia, and pruritic rash. Negative for symptoms of prostatitis or gross hematospermia. Taking no regular medications."
+    },
+    "objective": {
+      "physical_examination": "Pruritic maculopapular rash noted during the acute illness.",
+      "routine_investigations": "Semen analysis showed no microhematospermia.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Acute Zika virus infection with prolonged seminal shedding of Zika virus RNA. On day 3 of illness, Zika virus RNA was detected in urine but not in serum, while initial serum Zika virus IgM and IgG (EUROIMMUN ELISA) and commercial serologies for dengue, chikungunya, and yellow fever were all negative. Follow-up serum collected 17 days later demonstrated seroconversion with positive Zika virus IgM and IgG. Serial semen samples tested via in-house real-time RT-PCR (rRT-PCR) at the Rare and Imported Pathogens Laboratory were positive for Zika virus RNA at days 22 (Ct 21.3), 55 (Ct 30.1), and 92 (Ct 37.2) after symptom onset, becoming negative at days 132 and 174; viral cultures of semen were negative at all time points. The couple abstained from unprotected intercourse during viral shedding, and his partner remained asymptomatic."
+    }
+  }
+}

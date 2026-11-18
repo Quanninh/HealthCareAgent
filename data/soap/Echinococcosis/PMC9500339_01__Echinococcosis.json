@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9500339_01",
+  "pair_id": "PMC9500339_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 44-year-old woman presented to our department with a history of slight abdominal pain for 4 months. She had a long history of living in an area with echinococcosis, and there was no significant familial medical history for this patient. The medical examination found a mass located in the middle right abdominal region with tenderness and unclear boundaries.\nAfter admission, the laboratory tests indicated normal white blood cell (WBC) [4.74 x 109/L, (references 3.50-9.5 x 109/L)] and absolute eosinophil counts [0.45 x 109/L, (references 0.02-0.52 x 109/L)], the serum tumor markers were normal and a positive anti-echinococcus IgG antibody status. The contrast-enhanced CT scan showed a 12 x 12 cm \"egg-shelled\" mass located in the hepatorenal area (Figure 1A). This mass had a well-distributed calcified wall wrapping around the homogeneous content with point calcifications. The content showed mild enhancements during arterial phases (Figure 1B). The primary diagnosis was abdominal AE disease. This patient underwent laparotomy surgery for a mass resection. During surgery, we found a large calcified mass located near the upper right kidney arising from the right adrenal gland adjacent to the lower right hepatic lobes. The patient had the entire mass and the right adrenal gland resected. This patient recovered smoothly and was discharged uneventfully 20 days after the operation.\nThe resected specimen had a calculated shell (Figure 1C), which wrapped around the homogeneous necrotic content with point calcifications (Figure 1D). The pathological examination revealed calcification of the surface, necrosis and sclerotization of the contents. The immunohistochemical examination revealed positive expressions of CD-34, CD-31 and D2-40 but no expression of CK. These findings supported a pathologic diagnosis of adrenal lymphangioma with hemorrhage and hematoma formation. There were no significant findings in the follow-up 6 years after surgery for this patient.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 44-year-old woman presented with a 4-month history of mild right-sided abdominal pain.",
+      "history_of_present_illness": "The patient experienced slight right-sided abdominal pain for 4 months prior to presentation.",
+      "past_medical_history": "Longstanding residence in an echinococcosis-endemic area; negative family medical history.",
+      "review_of_systems": "Positive for mild right abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed a tender mass with indistinct margins in the right middle abdominal region.",
+      "routine_investigations": "Labs showed normal WBC (4.74 x 10^9/L; reference 3.50-9.5 x 10^9/L), normal absolute eosinophil count (0.45 x 10^9/L; reference 0.02-0.52 x 10^9/L), normal serum tumor markers, and a positive serum anti-Echinococcus IgG antibody test.",
+      "advanced_workup": "Contrast-enhanced abdominal CT demonstrated a 12 x 12 cm 'eggshell-calcified' mass in the right hepatorenal space with a continuous calcified rim, punctate internal calcifications, and mild arterial-phase enhancement, preoperatively diagnosed as hepatic/abdominal alveolar echinococcosis. Laparotomy resected the calcified mass en bloc with the right adrenal gland (adjacent to the inferior right hepatic lobe); pathology and immunohistochemistry showed a calcified shell enclosing necrotic, sclerotic, hemorrhagic hematoma content lined by vascular/lymphatic endothelium positive for CD34, CD31, and D2-40 and negative for cytokeratin."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Calcified right adrenal cystic lymphangioma complicated by intralesional hemorrhage and hematoma formation with a false-positive anti-Echinococcus IgG antibody test (initially misdiagnosed as abdominal alveolar echinococcosis), definitively confirmed by surgical histopathology and CD34/CD31/D2-40 immunohistochemical positivity. The patient was discharged on postoperative day 20 and remained recurrence-free at 6-year follow-up."
+    }
+  }
+}

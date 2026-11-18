@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8486024_03",
+  "pair_id": "PMC8486024_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "A 58-year-old male, a farmer by occupation presented with persistent watering and intermittent discharge for 1 year. He had had multiple consultations earlier and was treated with topical antibiotics. Ocular examination showed edema of the right lower eyelid localized to the medial aspect with a pouting punctum. Canalicular curettage revealed the presence of pus and concretions which were sent for microbiological evaluation. Gram's stain of the smear showed Gram-positive branching filamentous organisms and Gram-positive cocci in clusters.\nNonhemolytic nonpigmented small gray colonies [Figure 3] grew on blood agar. These were identified as Brucella melitensis. Staphylococcus epidermidis and Actinomycetes were also isolated from culture. The organisms were sensitive to chloramphenicol [Table 1].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 58-year-old male farmer presented with a 1-year history of persistent epiphora (watering) and intermittent purulent discharge from his right eye.",
+      "history_of_present_illness": "A 58-year-old male farmer experienced persistent tearing and intermittent discharge from the right eye for 1 year that failed multiple prior outpatient courses of topical antibiotics.",
+      "past_medical_history": "Occupational exposure as a farmer.",
+      "review_of_systems": "Positive for 1-year right eye epiphora, intermittent discharge, and medial lower eyelid swelling."
+    },
+    "objective": {
+      "physical_examination": "Localized edema of the medial aspect of the right lower eyelid with a classic pouting lower lacrimal punctum; canalicular curettage expressed purulent exudate and sulfur-like canalicular concretions.",
+      "routine_investigations": null,
+      "advanced_workup": "Microbiological evaluation of curetted right lacrimal canalicular pus and concretions: Gram stain showed Gram-positive branching filamentous organisms and Gram-positive cocci in clusters; blood agar culture grew small, nonhemolytic, nonpigmented gray colonies identified as Brucella melitensis alongside polymicrobial co-isolates of Actinomyces spp. and Staphylococcus epidermidis, all susceptible to chloramphenicol."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Culture of expressed lacrimal canalicular concretions and pus isolated Brucella melitensis co-infected with Actinomyces spp. and Staphylococcus epidermidis (all sensitive to chloramphenicol), confirming polymicrobial right lower lacrimal canaliculitis involving Brucella melitensis. Treated with thorough canalicular curettage and targeted chloramphenicol therapy."
+    }
+  }
+}

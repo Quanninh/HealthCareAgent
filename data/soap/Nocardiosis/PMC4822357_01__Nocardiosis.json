@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4822357_01",
+  "pair_id": "PMC4822357_01::Nocardiosis",
+  "target_disease": "Nocardiosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 64 year old male with well-controlled diabetes mellitus and fibrocystic sarcoidosis on steroids presented to the department of Pulmonology, Manipal Hospitals, Bengaluru, India, in October 2013 with a one week history of discharging ulcer and skin rash, and one day history of seizures with altered sensorium. His medications included oxygen at 1l/min, insulin, aspirin, 15 mg prednisolone, pantoprazole and calcium. Clinical examination showed a 2x2.5 cm ulcer with clean base and serous discharge over the left thigh. Multiple 2 x 3 cm reddish non-pruritic papules were present over both lower limbs and abdomen (Fig. 1). Repeat computed tomography of the chest did not show any new consolidation or cavitation (Fig. 2), but confirmed stage IV sarcoidosis. CT-head showed multiple space occupying lesions (Fig. 3A); magnetic resonance imaging of the head revealed multiple enhancing intracranial ring lesions (Fig. 3B). Cerebrospinal fluid examination showed 400 polymorphs/mul, elevated protein (105 mg/dl) and depressed sugar values (45 mg/dl, corresponding blood glucose 145 mg/dl) with normal adenosine deaminase levels (3 U/l, normal <8 U/l). Biopsy from nodules showed necrosis with lympho-mononuclear dermal infiltration and Grocott's stain revealed filamentous branching structures. Discharge from the ulcer showed long thin filamentous forms suggesting Nocardia that was confirmed on modified acid-fast staining (Fig. 4A); cultures were confirmed to be Nocardia asteroides (Fig. 4B). The patient was treated with phenytoin, ceftriaxone, amikacin and oral trimethoprim-sulphamethaxazole. Insulin and oxygen were continued and prednisolone tapered. Neurological abnormalities normalized by one week. At 12 months follow up, the patient was well.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old male with stage IV fibrocystic sarcoidosis on chronic prednisolone presented with a 1-week history of a discharging left thigh ulcer and skin rash, and a 1-day history of seizures and altered sensorium.",
+      "history_of_present_illness": "The patient presented in October 2013 with a 1-week history of a serous-discharging ulcer on the left thigh and a non-pruritic papular rash on the lower limbs and abdomen, followed 1 day prior to admission by new-onset seizures and altered mental status.",
+      "past_medical_history": "Fibrocystic sarcoidosis (stage IV) on long-term oral prednisolone (15 mg/day) and home oxygen (1 L/min), and well-controlled diabetes mellitus on insulin.",
+      "review_of_systems": "Home medications included oxygen (1 L/min), insulin, aspirin, prednisolone (15 mg/day), pantoprazole, and calcium."
+    },
+    "objective": {
+      "physical_examination": "Altered sensorium. Cutaneous exam revealed a 2 x 2.5 cm ulcer with a clean base and serous discharge over the left thigh, along with multiple 2 x 3 cm reddish, non-pruritic papules over both lower limbs and the abdomen.",
+      "routine_investigations": "Blood glucose was 145 mg/dL.",
+      "advanced_workup": "Repeat chest CT confirmed stage IV fibrocystic sarcoidosis without new consolidation or cavitation. Head CT showed multiple space-occupying lesions, and brain MRI revealed multiple contrast-enhancing intracranial ring lesions. CSF analysis showed polymorphonuclear pleocytosis (400 polymorphs/uL), elevated protein (105 mg/dL), hypoglycorrhachia (glucose 45 mg/dL vs. blood glucose 145 mg/dL), and normal adenosine deaminase (3 U/L, reference <8 U/L). Skin nodule biopsy demonstrated necrosis with lymphomononuclear dermal infiltration and filamentous branching organisms on Grocott methenamine silver stain."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Disseminated (cutaneous and central nervous system) nocardiosis caused by Nocardia asteroides in a steroid-treated sarcoidosis patient was confirmed: smear of the left thigh ulcer discharge showed long, thin filamentous organisms positive on modified acid-fast stain, Grocott stain of skin nodule biopsy showed branching filaments, and cultures isolated Nocardia asteroides. Treatment with phenytoin, ceftriaxone, amikacin, and oral trimethoprim-sulfamethoxazole alongside steroid tapering normalized his neurological status within 1 week, and he remained well at 12-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12638150_02",
+  "pair_id": "PMC12638150_02::Leptospirosis",
+  "target_disease": "Leptospirosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 52-year-old man with Type 2 diabetes presented with fever, arthralgia, and myalgia for three days after working in paddy fields. On admission, he was febrile, icteric, dyspneic, and hypotensive (blood pressure 93/60 mmHg), with bibasal lung crepitations. He had not urinated for over 6 hours.\nInitial tests indicated neutrophilic leukocytosis, severe thrombocytopenia, and elevated liver enzymes and serum creatinine (Table 2). Arterial blood gas analysis showed hypoxemia and metabolic acidosis with a lactate level of 7.1 mmol/L. Chest radiograph suggested severe pulmonary hemorrhagic syndrome. Leptospira MAT was positive at a titer of 1 : 640.\nAfter fluid resuscitation noradrenaline was initiated, the patient was transferred to the ICU. He was electively intubated due to severe hypoxemia. Intravenous ceftriaxone was commenced. Renal replacement therapy by continuous venovenous hemodiafiltration was commenced, and multiple platelet concentrates were given to correct thrombocytopenia. Once stabilized, intermittent hemodialysis was initiated.\nOn Day 13, the patient developed blood-stained nasogastric aspirate and significant anemia. Upper gastrointestinal endoscopy revealed gastric erosions. Anemia was corrected with multiple blood transfusions. The patient was gradually improving by this time with no fever and minimum ventilator support until Day 15, when abdominal tenderness and sluggish bowel sounds were detected. There was intolerance of nasogastric feeds and melena. The abdomen was distended, and an anteroposterior radiograph (Figure 3) showed dilated multiple small bowel loops, a collapsed large bowel but no free gas in the peritoneal cavity. An ultrasound scan confirmed small bowel obstruction. The patient was hemodynamically unstable for contrast-enhanced abdominal computed tomography scan or for any surgical intervention. He succumbed on Day 21 of illness.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old man presented with a 3-day history of fever, arthralgia, and myalgia accompanied by dyspnea and anuria.",
+      "history_of_present_illness": "The patient presented with 3 days of fever, joint pain, and muscle pain after working in paddy fields, accompanied on admission by shortness of breath and absence of urination for over 6 hours.",
+      "past_medical_history": "History of type 2 diabetes mellitus; recent occupational exposure to paddy fields.",
+      "review_of_systems": "Positive for fever, arthralgia, myalgia, dyspnea, and anuria; later developed hematemesis/blood-stained nasogastric aspirate, abdominal distension, feed intolerance, and melena."
+    },
+    "objective": {
+      "physical_examination": "On admission, febrile, icteric, dyspneic, anuric (>6 hours), and hypotensive (BP 93/60 mmHg) with bibasal lung crepitations. On hospital day 15, he developed abdominal distension, abdominal tenderness, and sluggish bowel sounds.",
+      "routine_investigations": "Initial labs showed neutrophilic leukocytosis, severe thrombocytopenia, elevated hepatic transaminases, and elevated serum creatinine. Arterial blood gas revealed hypoxemia and lactic metabolic acidosis (lactate 7.1 mmol/L). Chest X-ray showed features of severe pulmonary hemorrhagic syndrome. Day 15 abdominal X-ray showed multiple dilated small bowel loops and collapsed large bowel without pneumoperitoneum, and abdominal ultrasound confirmed small bowel obstruction.",
+      "advanced_workup": "Day 13 upper gastrointestinal endoscopy demonstrated multiple gastric erosions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed severe leptospirosis complicated by pulmonary hemorrhagic syndrome, septic shock, acute kidney injury, upper GI bleeding, and fatal small bowel obstruction, confirmed by a positive Leptospira microscopic agglutination test (MAT) at a titer of 1:640. Managed in the ICU with fluid resuscitation, norepinephrine, mechanical ventilation, IV ceftriaxone, continuous venovenous hemodiafiltration (CVVHDF) transitioning to intermittent hemodialysis, and multiple platelet and packed red cell transfusions. Complicated on day 13 by gastric erosions and on day 15 by acute small bowel obstruction and melena; due to severe hemodynamic instability precluding contrast CT or surgery, he died on day 21 of illness."
+    }
+  }
+}

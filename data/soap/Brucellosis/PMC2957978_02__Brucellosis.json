@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2957978_02",
+  "pair_id": "PMC2957978_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Patient 2 was a 15-year-old Peruvian boy seen in September 2001 with a 1-year history of headaches, nausea, vomiting, and progressive deterioration in visual function. A magnetic resonance imaging (MRI) scan performed in April 2001 showed several large, irregular enhancing mass lesions involving the left occipital and parietal lobes (Figure 2). He had come to the United States in September for further evaluation. On neurologic examination, the patient had a right homonymous hemianopsia, optic nerve atrophy, and major visual impairment (left eye:20/100; right eye:20/200). Repeat MRI showed several irregular areas of enhancement in the left parietooccipital area associated with marked brain edema, left-to-right shift, and mass effect (Figure 2).\nThe patient was taken to surgery, where a firm avascular mass was found beneath a 0.5-cm layer of softer gliotic cortical tissue. Frozen sections showed lymphohistiocytic infiltrates with granuloma formation. Specimens for cultures and histopathologic examination were obtained. Bacterial, fungal, and acid-fast bacilli stains were negative. Final histopathologic examination showed numerous granulomas with multinucleated giant cells but no organisms (Figure 1).\nSerologic test results for Brucella, T. gondii, and Taenia soleum were negative. On postoperative day 8, mycobacteria cultures (BacT/ALERT MP; Organon Teknika Corp., Durham, NC) showed growth of a gram-negative coccobaccillus, later confirmed as Brucella spp. Treatment with rifampin, doxycycline, and intravenous gentamicin was begun. After 1 week, the gentamicin was discontinued per current recommendations, and trimethoprim-sulfamethoxazole was started. Follow-up imaging 7 months later demonstrated resolution of the enhancing areas and edema, with residual areas of brain atrophy (Figure 2). The patient's vision improved, but some visual acuity deficits persisted. Anti-brucella therapy continued for 1 year.\nThe patient lived in a small town 7 hours from Lima and had not traveled outside of the country before coming to the United States. His diet included regular consumption of queso fresco and occasional ceviche but no other raw meats. He reported no direct contact with marine mammals and seldom visited the Peruvian coast.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-year-old Peruvian boy presented with a 1-year history of headaches, nausea, vomiting, and progressive visual loss.",
+      "history_of_present_illness": "A 15-year-old boy from rural Peru developed chronic headaches, nausea, vomiting, and progressive visual deterioration over 1 year. An April 2001 brain MRI in Peru showed multiple large irregular enhancing masses in the left occipital and parietal lobes, prompting travel to the United States in September 2001 for neurosurgical evaluation.",
+      "past_medical_history": "Lived in a small town 7 hours from Lima, Peru; regularly consumed unpasteurized cheese (queso fresco) and occasional ceviche, with no marine mammal contact.",
+      "review_of_systems": "Positive for chronic headache, nausea, vomiting, and severe visual loss."
+    },
+    "objective": {
+      "physical_examination": "Right homonymous hemianopsia, bilateral optic nerve atrophy, and marked visual acuity impairment (left eye 20/100, right eye 20/200).",
+      "routine_investigations": "Serologic tests for Brucella, Toxoplasma gondii, and Taenia solium were negative.",
+      "advanced_workup": "Repeat brain MRI in September 2001 demonstrated multiple large irregular contrast-enhancing mass lesions in the left parieto-occipital lobe with severe perilesional vasogenic edema, mass effect, and left-to-right midline shift. Craniotomy revealed a firm avascular subcortical mass beneath 0.5 cm of gliotic cortex; histopathology showed numerous non-caseating granulomas with multinucleated giant cells and negative bacterial, fungal, and AFB stains."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Despite negative serum Brucella serology, mycobacterial liquid culture (BacT/ALERT MP) of the resected brain mass grew Gram-negative coccobacilli on postoperative day 8 confirmed as Brucella spp., establishing a diagnosis of left parieto-occipital cerebral brucelloma. Treated with surgical resection followed by oral rifampin, oral doxycycline, and 1 week of IV gentamicin transitioned to oral trimethoprim-sulfamethoxazole for a total of 1 year. Follow-up brain MRI at 7 months showed complete resolution of enhancing masses and edema with residual focal encephalomalacia/atrophy and partial improvement in visual acuity."
+    }
+  }
+}

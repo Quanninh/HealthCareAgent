@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3291405_04",
+  "pair_id": "PMC3291405_04::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 40.0,
+  "raw_case_text": "Case 4: 37-year-old man who worked in the renovation of the golf course reported no illness during the period of interest. However, as in case 3, despite negative Histoplasma ID results on serologic testing, 1 line of nonidentity was observed. A serum sample drawn from this individual 6 weeks after the index patient's onset of illness was tested at CDC. ID for H. capsulatum was positive for M band only, and complement fixation testing was reported as positive for histoplasmin (titer 1:4) and whole yeast (1:64).\nOf the remaining 4 co-workers screened for clinical and exposure information, 1 reported onset of respiratory illness at the same time as the case-patients although all had negative H. capsulatum serology as conducted by the National Center for Mycology. Other golf course employees and contract workers were advised to be tested. Of the 70 staff, 51 provided a serum sample for testing. No additional cases were identified.\nExposure to disturbed soil during golf course renovation was investigated as a possible source of the cluster. Renovations included sod and tree removal, grading of existing soil (no soil was imported), and sod replacement. Workers reported that dust was generated on the course during these activities. Replacement sod came from British Columbia. The approximate incubation periods (i.e., period between the end of the renovation and date of illness onset) for the 3 symptomatic case patients (Cases 1-3) were 6, 6, and 12 days, respectively; however, these are likely underestimates, as the exact date of exposure during the 2-week renovation project is unknown. No accumulated bird or bat droppings within facility buildings nor bird or bat roosting sites on the golf course were evident. Soil samples were tested for H. capsulatum, but all were negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An asymptomatic 37-year-old male golf course renovation worker underwent epidemiological serologic screening 6 weeks after an index workplace cluster of respiratory illness.",
+      "history_of_present_illness": "The individual worked on a 2-week golf course fairway renovation involving sod/tree removal and soil grading in suburban Edmonton, Alberta, and reported no clinical illness during the outbreak period.",
+      "past_medical_history": "Occupational exposure to disturbed soil and dust during golf course renovation in suburban Edmonton, Alberta.",
+      "review_of_systems": "Asymptomatic; denied respiratory or constitutional symptoms during the period of interest."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Initial National Center for Mycology Histoplasma immunodiffusion (ID) serology: negative with 1 line of nonidentity. Follow-up CDC serology (drawn 6 weeks after index case onset): positive H. capsulatum ID for M band only, and positive complement fixation titers for histoplasmin (1:4) and whole yeast (1:64)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Asymptomatic acute Histoplasma capsulatum infection acquired during an occupational soil-disturbance outbreak. Confirmation: CDC reference serology demonstrating a positive H. capsulatum M band on immunodiffusion and positive complement fixation titers for histoplasmin (1:4) and whole yeast (1:64). Plan & clinical course: Remained asymptomatic without need for antifungal therapy; epidemiological investigation screened 51 of 70 staff members."
+    }
+  }
+}

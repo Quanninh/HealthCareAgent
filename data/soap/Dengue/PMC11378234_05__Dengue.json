@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11378234_05",
+  "pair_id": "PMC11378234_05::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 19-year-old male diagnosed case of T cell acute lymphoblastic leukemia presented on day +103 of matched-sibling donor transplant with fever, throat pain, and flu-like symptoms. His dengue NS1 antigen was positive, with mild thrombocytopenia. His posttransplant course remained uneventful with full donor chimerism and negative Measurable residual disease (MRD) status at day +100 posttransplant. No admission was required as he was managed with supportive care and serial monitoring of blood counts in outpatient department.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 19-year-old male stem cell transplant recipient presented on day +103 post-transplant with fever, throat pain, and flu-like symptoms.",
+      "history_of_present_illness": "On day +103 following matched-sibling donor stem cell transplantation for T-cell acute lymphoblastic leukemia, the patient presented with acute fever, sore throat, and flu-like symptoms.",
+      "past_medical_history": "T-cell acute lymphoblastic leukemia status post matched-sibling donor stem cell transplant (day +103), with full donor chimerism and negative measurable residual disease (MRD) at day +100.",
+      "review_of_systems": "Positive for fever, throat pain, and flu-like symptoms."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Mild thrombocytopenia on complete blood count.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Uncomplicated dengue fever in a post-transplant T-ALL patient, confirmed by positive dengue NS1 antigen testing. Managed successfully in the outpatient department with supportive care and serial blood count monitoring without requiring hospitalization."
+    }
+  }
+}

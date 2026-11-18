@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3892021_01",
+  "pair_id": "PMC3892021_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 64-year-old man was admitted to our institute with a history of severe headache, an unsteady gait, and occasional urinary incontinence. These symptoms began 2 days prior to admission, and the patient had previously been healthy without medical concerns. He denied a previous history of consuming raw pork meat. On examination, the patient was alert but disoriented with respect to time and place. No significant pathological reflex was detected, and papilledema was absent. His lower extremities were hypotonic, and the strength of both legs, particularly in the proximal musculature, was diminished. A computed tomographic (CT) scan of the brain showed marked ventricular dilatation but no intraparenchymal lesions or intraventricular cysticercal lesions (Figure 1). In addition, no subcutaneous nodules were found. The peripheral blood findings revealed a leukocyte count of 8700/mm3 (eosinophils 3%) and a hemoglobin level of 12.8 mg/dL, although the hematological findings were unremarkable. Motor examination showed normal strength in both upper extremities but reduced strength in both lower extremities (Grade 4/5 on the Medical Research Council [MRC] scale). Under a diagnosis of acute hydrocephalus, lumbar tapping was attempted repeatedly, but cerebrospinal fluid (CSF) was not obtained despite adequate lumbar puncture. Magnetic resonance imaging (MRI) of the thoraco-lumbar spine revealed multiple cystic contrast-enhancing intraspinal lesions extending from C7 to S1 (Figure 2). Ventriculoperitoneal shunting and microsurgical removal of the lesions following laminectomy from T12 to L1 and L3 to L4 were performed under general anesthesia. During surgery, lesions of a mixed solid and cystic nature were detected. Subsequent pathological findings showed fibrosis, local calcification, and chronic inflammation associated with the cysticercosis cyst walls.\nPostoperatively, an anticysticercal agent (Albendazole, Zentel  400 mg, manufactured by Smith Kline Beecham Pharmaceuticals) and an oral steroid were administered for 6 weeks. During the early postoperative period, the patient remained awake, alert, and oriented, although his muscle strength and occasional urinary incontinence were not improved. After the 6-month follow-up period, these symptoms remained, and the patient was unable to ambulate without assistance despite improvements in ventricular dilation (Figure 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 64-year-old man presented with a 2-day history of severe headache, unsteady gait, and occasional urinary incontinence.",
+      "history_of_present_illness": "Two days prior to admission, the previously healthy patient acutely developed severe headache, gait unsteadiness, bilateral lower limb weakness, and occasional urinary incontinence.",
+      "past_medical_history": "Previously healthy; denied any history of consuming raw pork.",
+      "review_of_systems": "Positive for urinary incontinence."
+    },
+    "objective": {
+      "physical_examination": "The patient was alert but disoriented to time and place. Papilledema, pathological reflexes, and subcutaneous nodules were absent. Motor examination showed normal upper extremity strength (5/5) but hypotonia and reduced strength (MRC grade 4/5, predominantly proximal) in both lower extremities.",
+      "routine_investigations": "Peripheral blood count showed WBC 8,700/mm3 with 3% eosinophils and hemoglobin 12.8 g/dL.",
+      "advanced_workup": "Brain CT demonstrated marked ventricular dilatation without intraparenchymal or intraventricular lesions. Repeated lumbar punctures failed to yield CSF ('dry taps'). Thoracolumbar spine MRI revealed multiple contrast-enhancing intraspinal cystic lesions extending from C7 to S1."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The patient underwent ventriculoperitoneal shunting and T12-L1 and L3-L4 laminectomies with microsurgical excision of mixed solid and cystic intraspinal lesions; histopathology confirmed spinal neurocysticercosis (fibrosis, focal calcification, and chronic inflammation of cysticercal cyst walls). He completed a 6-week postoperative course of oral albendazole (400 mg) and corticosteroids. At 6-month follow-up, ventricular dilation had resolved on CT and his sensorium was normal, though paraparesis (requiring assistance to ambulate) and occasional urinary incontinence persisted."
+    }
+  }
+}

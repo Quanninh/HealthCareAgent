@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3959392_01",
+  "pair_id": "PMC3959392_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 65-year-old female presented to our clinic with a two-month history of painless progressive jaundice with pruritus and clay colored stools, anorexia and weight loss. On examination she had icterus and a palpable gallbladder which was cystic in consistency. She had normal hematological parameters. Serum bilirubin was 16.9 mg/dL (0.2-1.1 mg/dL) with a conjugated fraction of 13.3 mg/dL, serum alkaline phosphatase was 678 IU/mL (<128 IU/mL), serum aspartate aminotransferase (AST) was 76 IU/mL (<35 IU/mL) and serum alanine aminotransferase (ALT) was 57 IU/mL (<40 IU/mL). She had normal coagulation parameters. Transabdominal ultrasound showed hugely distended gallbladder, dilated common bile duct up to its lower end along with dilated intrahepatic biliary radicles (IHBR). CECT of the abdomen showed dilated pancreatic duct and biliary system. However, a definite cause of the distal obstruction could not be identified. Side viewing endoscopy showed a bulky ulcerated papilla. Biopsies from the papilla showed adenocarcinoma of the ampulla. PET-CT scan was done to look for metastatic disease before surgery. It showed increased [18F]-Fluoro-Deoxy-Glucose (FDG) tracer uptake in the periampullary region (SUV max 4.1) (Fig. 1) as well as in the enlarged subcarinal nodes (SUV max 14.7) (Fig. 2). There were no positive loco-regional lymph nodes on PET-CT scan. Endoscopic ultrasound (EUS) showed a small hypoechoic lesion in the ampullary region with dilated common bile duct and IHBR (Fig. 3). Also large hypoechoic subcarinal nodes with echogenic foci were noted (Fig. 4, 5) and fine needle aspiration of the node was done using a 22 Gauge needle (EchoTip, Wilson-Cook, Winston-Salem, North Carolina, USA) was performed (Fig. 5). Cytological examination of the aspirate showed granulomatous inflammation consistent with tuberculosis. Stain for AFB was negative but PCR (polymerase chain reaction) was positive for Mycobacterium tuberculosis. She underwent pancreatioco-duodenectomy and achieved complete resection. Following six months of tuberculosis treatment she improved and is asymptomatic after 1 year of follow up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old female presented with a 2-month history of painless progressive obstructive jaundice, generalized pruritus, clay-colored stools, anorexia, and weight loss.",
+      "history_of_present_illness": "Over the 2 months prior to clinic presentation, the patient developed progressive painless jaundice with acholic stools, pruritus, anorexia, and unintentional weight loss.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for jaundice, pruritus, clay-colored stools, anorexia, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Scleral icterus and a palpable, non-tender, cystic distended gallbladder (Courvoisier's sign).",
+      "routine_investigations": "Normal CBC and coagulation profile. Total bilirubin 16.9 mg/dL (normal: 0.2–1.1 mg/dL), conjugated bilirubin 13.3 mg/dL, ALP 678 IU/mL (<128 IU/mL), AST 76 IU/mL (<35 IU/mL), ALT 57 IU/mL (<40 IU/mL). Transabdominal ultrasound showed a markedly distended gallbladder and dilated intrahepatic and extrahepatic bile ducts down to the distal common bile duct.",
+      "advanced_workup": "Abdominal CECT showed a 'double-duct' sign (dilated pancreatic and biliary ducts). Side-viewing duodenoscopy revealed a bulky ulcerated major duodenal papilla, with biopsy confirming ampullary adenocarcinoma. Staging 18F-FDG PET-CT demonstrated hypermetabolism in the primary periampullary tumor (SUVmax 4.1) and intensely FDG-avid enlarged subcarinal mediastinal lymph nodes (SUVmax 14.7) without locoregional nodal uptake. Endoscopic ultrasound (EUS) showed a hypoechoic ampullary mass and large hypoechoic subcarinal lymph nodes containing echogenic foci; EUS-guided 22G fine-needle aspiration (EUS-FNA) of the subcarinal node revealed granulomatous lymphadenitis (AFB stain negative)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "EUS-FNA of the FDG-avid subcarinal lymph node tested positive for Mycobacterium tuberculosis by PCR with granulomatous cytology, ruling out mediastinal stage IV metastasis and confirming synchronous tuberculous mediastinal lymphadenitis and resectable ampullary adenocarcinoma. She underwent curative pancreaticoduodenectomy (Whipple procedure) and completed 6 months of anti-tuberculous chemotherapy, remaining asymptomatic and disease-free at 1-year follow-up."
+    }
+  }
+}

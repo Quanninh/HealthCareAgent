@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5350300_01",
+  "pair_id": "PMC5350300_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 30.0,
+  "raw_case_text": "35-year-old female presented with a hyperkeratotic plaque on the left side of forehead. Lesion started as a small papule after 3 months following a roadside fall 2 years back, gradually increased in size, and spread in an annular fashion to form a plaque with warty surface [Figure 1], which started showing ulceration in last 3 months. Lupus vulgaris and leprosy were kept as the differential diagnosis. A detailed history and clinical examination were not in favour of leprosy. She had no history of visit to/residence in known endemic areas for leprosy, no family history of leprosy, no hypo/anaesthesia, tingling, or numbness of hands or feet, and no reduced sweating, loss of hair, dryness of eyes, or epistaxis. On clinical examination an erythematous annular hyperkeratotic plaque with a warty surface measuring 4 x 5 cm was present on the left side of forehead. The lesion showed some crusting and a small scar at the periphery. There was no lymphadenopathy. On clinical examination there were no hypopigmented lesions on body, there was no loss of sensations, and there was no nerve enlargement. Systemic examination also did not reveal any abnormalities. Routine investigations and X-ray chest were normal. Tuberculin skin test was positive with an induration of 20 mm.\nA punch biopsy from the lesion showed pseudoepitheliomatous hyperplasia with hyperkeratosis, acanthosis [Figure 2(a), H and E (40x), and Figure 2(b), H and E (400x)], and dense inflammatory infiltrates with epithelioid cells and giant cells in the dermis with few acid fast bacilli (AFB) [Figure 2(c), H and E (400x), and Figure 2(d), ZN Staining (1000x)]. PAS staining was not performed.\nA small scar was evident in the plaque, possibly secondary to an earlier biopsy. Also the histopathology was more in favour of TBVC than lupus vulgaris. A diagnosis of tuberculosis verrucosa cutis was made, and the patient was started on category 1 treatment as per Revised National TB Control Programme (RNTCP) with which the lesions improved.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old female presented with a 2-year history of a progressively enlarging annular warty hyperkeratotic plaque on the left forehead that ulcerated over the preceding 3 months.",
+      "history_of_present_illness": "Three months after sustaining a roadside fall 2 years prior to presentation, the patient developed a small papule on the left side of her forehead that gradually expanded centrifugally into a verrucous, hyperkeratotic plaque and developed focal ulceration over the last 3 months.",
+      "past_medical_history": "History of roadside forehead trauma 2 years prior; no residence in or travel to leprosy-endemic areas, and no family history of leprosy.",
+      "review_of_systems": "Negative for hypoesthesia, acral tingling or numbness, anhidrosis, madarosis/alopecia, dry eyes, or epistaxis."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed a 4 x 5 cm erythematous, annular, hyperkeratotic plaque with a verrucous surface, focal crusting, and a small peripheral scar on the left forehead. There were no hypopigmented skin lesions elsewhere, cutaneous sensation was intact, peripheral nerves were not thickened, regional lymphadenopathy was absent, and systemic examination was normal.",
+      "routine_investigations": "Routine blood investigations and chest radiograph were normal. Mantoux tuberculin skin test was strongly positive with 20 mm of induration.",
+      "advanced_workup": "Forehead punch biopsy was performed for H&E and Ziehl-Neelsen (ZN) staining."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Punch biopsy histopathology revealed pseudoepitheliomatous hyperplasia, hyperkeratosis, acanthosis, and dense dermal epithelioid and Langhans giant-cell granulomatous infiltrates with sparse acid-fast bacilli on Ziehl-Neelsen staining (1000x), confirming tuberculosis verrucosa cutis (TBVC) and ruling out leprosy and lupus vulgaris. The patient was treated with Revised National TB Control Programme (RNTCP) Category 1 anti-tubercular therapy with marked clinical improvement of the forehead plaque."
+    }
+  }
+}

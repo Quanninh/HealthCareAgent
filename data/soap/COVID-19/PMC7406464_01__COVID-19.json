@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7406464_01",
+  "pair_id": "PMC7406464_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 33-year-old man with no medical past history, victim of a right leg trauma resulting in a closed tibial shaft fracture initially treated on the 4th of May 2020 in orthopedic surgery by a centro-medullary nailing. On the 6th of May he presented an acute respiratory distress with fever (40.1 C) of which then a high-resolution chest computed tomography (CT) was performed, showing bilateral ground-glass opacities, with multilobe central and peripheral involvement (Figure 1, Figure 2). Given the current pandemic context, the patient was suspected of having a respiratory infection with SARS-CoV-2 and was transferred to the intensive care unit dedicated to the management of COVID-19.\nOn admission, the clinical evaluation revealed a normal neurological and hemodynamic state, the respiratory rate was at 40, the oxygen saturation at 52% without oxygen, and at 96% with high-concentration mask. Arterial blood gas analysis showed respiratory alkalosis with hypoxemia, arterial oxygen pressure (PaO2) at 55 mmHg. The initial conditioning included, a peripheral intravenous line (PIV), a high-concentration oxygen mask, a half-seated position (45 ). Biological assessment had revealed an important inflammatory syndrome with high CRP at 277 mg/L, a hemoglobin level of 10.4 g/L, hematocrit at 30% and hypoalbuminemia at 33 g/L without lymphopenia nor hyperferritinemia. The troponin level was high at 82.1 mug/L and CPK at 375 mg/l. Reverse transcription polymerase chain reaction (RT-PCR) on nasopharyngeal swab did not detect SARS-CoV-2 RNA. We also noted a drop in total cholesterol to 1.22 g/L and a low HDL level at 0.33 g/L. The renal and hepatic function, the electrolytes and the plasma procalcitonin were moreover without particularity.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 33-year-old man developed acute respiratory distress and high fever (40.1 C) two days after intramedullary nailing of a closed right tibial shaft fracture.",
+      "history_of_present_illness": "Following right leg trauma resulting in a closed tibial shaft fracture treated with centromedullary nailing on May 4, 2020, the patient acutely developed severe respiratory distress and fever (40.1 C) on May 6, 2020, prompting ICU transfer.",
+      "past_medical_history": "No prior medical history; sustained a closed right tibial shaft fracture treated with intramedullary nailing 2 days before respiratory onset.",
+      "review_of_systems": "Positive for acute dyspnea and high fever."
+    },
+    "objective": {
+      "physical_examination": "On ICU admission, neurological and hemodynamic status was normal, temperature was 40.1 C, respiratory rate was 40 breaths/min, and SpO2 was 52% on room air (improving to 96% on a high-concentration oxygen mask).",
+      "routine_investigations": "Arterial blood gas showed respiratory alkalosis and hypoxemia (PaO2 55 mmHg). Blood tests revealed markedly elevated CRP (277 mg/L), anemia (hemoglobin 10.4 g/dL, hematocrit 30%), hypoalbuminemia (33 g/L), elevated troponin (82.1 ug/L), elevated CPK (375 mg/L), decreased total cholesterol (1.22 g/L), and low HDL (0.33 g/L), with normal lymphocyte count, ferritin, procalcitonin, electrolytes, and renal/hepatic function.",
+      "advanced_workup": "High-resolution chest CT demonstrated bilateral ground-glass opacities with multilobar central and peripheral involvement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Post-traumatic fat embolism syndrome (initially suspected as severe COVID-19 pneumonia) following tibial intramedullary nailing; SARS-CoV-2 infection was ruled out by negative nasopharyngeal RT-PCR. Managed in the ICU with 45-degree semi-recumbent positioning, peripheral venous access, and high-concentration oxygen mask therapy."
+    }
+  }
+}

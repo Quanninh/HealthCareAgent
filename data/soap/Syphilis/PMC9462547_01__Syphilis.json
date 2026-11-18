@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9462547_01",
+  "pair_id": "PMC9462547_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 32-year-old heterosexual male was admitted to the Respiratory and Critical Care Department for a three-day history of left pleuritic chest pain and mild cough. He denied fever, weight loss, dyspnea, or nervous system symptoms. He had a medical history of 10-year chronic hepatitis B.\nPhysical examination revealed normal body temperature, normal breath sound, lack of mucosal or genitourinary lesion, and presence of erythematous papular rash over the palms and soles. The laboratory tests showed a white blood cell count of 8370/mL. The procalcitonin level of 0.336 ng/mL (normal range, <0.5) was normal. The erythrocyte sedimentation rate was increased to 69 mm/h. The serological tests of hepatitis C antibody and HIV antibody were negative, while the hepatitis B surface antigen was positive. The TP passive particle agglutination assay (TPPA) was positive, and the toluidine red unheated serum test (TRUST) revealed titer of 1:64. The TPPA kit was purchased from FUJIREBIO INC. (Tokyo, Japan), and the TRUST kit was obtained from Shanghai Rongsheng-Biotech (Shanghai, China). Based on the history of sex with partners, erythematous papular rash over the palms and soles, and positive serological tests, secondary syphilis was considered in this patient after consultation with a dermatologist.\nChest computed tomography (CT) showed left lower lobe pneumonia, mild left pleural effusion, and mediastinal adenopathy (Figures 1 and 2). Bronchoalveolar lavage fluid (BALF) samples were collected from the patient and sent to our microbiological laboratory for smear and culture and to Guangzhou Sagene Biotech Co., Ltd. (Guangzhou, China) for mNGS. The smear and culture were negative. The mNGS analysis of the BALF identified 56 sequence reads uniquely corresponding to the T. pallidum genome, with 0.37% coverage (Figure 3). The details of mNGS sequencing and analysis in the Guangzhou Sagene Biotech Co., Ltd were provided in Supplementary Materials. Combining with clinical manifestations and laboratory data, the diagnosis of secondary syphilis with pulmonary involvement was supported. Benzathine penicillin G (2.4 million units 3 doses, 1 dose per week x 3 weeks) was administered intramuscularly. After one month, the CT scan showed that pleural effusion disappeared and pneumonia was resolved (Figure 4). The TRUST titer decreased to 1:16.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old heterosexual male presented with a 3-day history of left pleuritic chest pain and mild cough.",
+      "history_of_present_illness": "The patient was admitted to the respiratory department with 3 days of left-sided pleuritic chest pain and a mild cough.",
+      "past_medical_history": "10-year history of chronic hepatitis B virus infection; heterosexual male with a history of sexual contact with multiple partners.",
+      "review_of_systems": "Positive for left pleuritic chest pain, mild cough, and a palmoplantar rash; negative for fever, weight loss, dyspnea, or neurological symptoms."
+    },
+    "objective": {
+      "physical_examination": "Body temperature and pulmonary auscultation were normal. Cutaneous examination revealed an erythematous papular rash over the bilateral palms and soles, with no oral or anogenital mucosal lesions.",
+      "routine_investigations": "WBC count was normal at 8,370/uL, procalcitonin was normal at 0.336 ng/mL (normal <0.5), and ESR was elevated at 69 mm/h. HBsAg was positive, while anti-HCV and anti-HIV antibodies were negative.",
+      "advanced_workup": "Chest CT demonstrated left lower lobe pneumonia/consolidation, a mild left pleural effusion, and mediastinal lymphadenopathy. Bronchoalveolar lavage fluid (BALF) routine smears and cultures were negative, whereas metagenomic next-generation sequencing (mNGS) of the BALF identified 56 sequence reads uniquely mapping to the Treponema pallidum genome (0.37% coverage)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis with pulmonary involvement (syphilitic pneumonia and pleuritis), established via palmoplantar papular syphilides, positive serum TPPA, reactive serum TRUST (titer 1:64), and direct detection of Treponema pallidum genomic sequences in bronchoalveolar lavage fluid by mNGS. Treated with intramuscular benzathine penicillin G 2.4 million units once weekly for 3 weeks; at 1-month follow-up, repeat chest CT showed complete resolution of the left lower lobe pneumonia and pleural effusion, and the serum TRUST titer declined fourfold to 1:16."
+    }
+  }
+}

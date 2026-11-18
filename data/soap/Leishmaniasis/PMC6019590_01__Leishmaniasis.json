@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6019590_01",
+  "pair_id": "PMC6019590_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 54 yr old man from Southwest of Iran (Yasuj) presented to the Emergency Ward with a 3-wk history of headache (continuous, throbbing, and general), fever, chills, weakness, anorexia, and weight loss. He also had a history of benign prostatic hyperplasia, gastroesophageal reflux disease, and hemorrhoid. Medications were tamsulosin, propranolol, rabeprazole, and cathartic syrup. His parents had no any congenital or infectious diseases.\nOn examination, the body temperature and blood pressure were 38  C and 130/82 mm Hg, respectively. Abdominal examination revealed mild tenderness in right upper quadrant and moderate splenomegaly. All other examinations were normal.\nThe hemoglobin was 8.1 (gr/dl), the white blood cell count 1900, retic count 0.5%, and the platelet count 20000. The ESR was 56 (mm/h), alanine aminotransferase 84 (Iu/l), aspartate aminotransferase 67 (Iu/l), alkaline phosphatase 401 (Iu/l), albumin 3.4 (gr/dl), conjugated bilirubin 0.6 (mg/dl), ferritin 658.6 (mcg/dl), serum iron 23 (mcg/dl), total iron binding capacity (TIBC) 116 (mcg/dl). Other laboratory tests such as creatinine, blood sugar, partial thromboplastin time, prothrombin time, urinalysis, stool exam, sputum exam, wright test, 2ME, calcium, phosphorus, magnesium, and prostate-specific antigen were normal. Serologic tests for HBV, HCV, and HIV were negative.\nAbdominal ultrasonography revealed mild hepatomegaly and moderate splenomegaly. Doppler ultrasound of abdomen showed dilation of splenic veins such as superior mesenteric vein (15 mm) and portal vein (15 mm).\nA computerized tomography (CT) scan of brain revealed no abnormal finding. Axial fluid-attenuated inversion recovery MRI image (FLAIR) revealed an increase in signal intensity of central part of right side of pons (Fig. 1). Bone marrow aspiration and biopsy revealed macrophages with numerous Leishmania amastigotes (Fig. 2). Treatment with amphotericin B was initiated and the patient symptoms resolved completely. In second bone marrow exam, no amastigote was observed.\nFive months after initial presentation and treatment with amphotericin B our patient has no any neurological morbidity and disability.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old man from Yasuj, southwestern Iran, presented with a 3-week history of continuous generalized throbbing headache, fever, chills, weakness, anorexia, and weight loss.",
+      "history_of_present_illness": "Over the 3 weeks prior to emergency department presentation, the patient experienced unremitting throbbing headache alongside fever, chills, generalized weakness, loss of appetite, and weight loss.",
+      "past_medical_history": "History of benign prostatic hyperplasia, gastroesophageal reflux disease, and hemorrhoids; resident of Yasuj, southwestern Iran; unremarkable family history.",
+      "review_of_systems": "Home medications: tamsulosin, propranolol, rabeprazole, and cathartic syrup; positive for continuous throbbing headache, fever, chills, weakness, anorexia, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Temperature 38 C, blood pressure 130/82 mmHg; mild right upper quadrant abdominal tenderness and moderate splenomegaly, with a normal neurological examination.",
+      "routine_investigations": "Labs showed pancytopenia (Hb 8.1 g/dL, WBC 1,900/mm3, reticulocytes 0.5%, platelets 20,000/mm3), ESR 56 mm/h, ALT 84 IU/L, AST 67 IU/L, ALP 401 IU/L, albumin 3.4 g/dL, conjugated bilirubin 0.6 mg/dL, ferritin 658.6 ug/dL, serum iron 23 ug/dL, and TIBC 116 ug/dL, with normal creatinine, glucose, PT, PTT, electrolytes, PSA, urinalysis, stool/sputum exams, Wright/2ME Brucella tests, and negative HBV, HCV, and HIV serologies. Abdominal Doppler ultrasound showed mild hepatomegaly, moderate splenomegaly, and dilated superior mesenteric (15 mm) and portal (15 mm) veins.",
+      "advanced_workup": "Non-contrast head CT was normal, whereas brain FLAIR MRI demonstrated central pontine hyperintensity on the right side. Bone marrow aspiration and biopsy revealed macrophages packed with numerous Leishmania amastigotes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Bone marrow aspiration and biopsy microscopy confirmed Visceral Leishmaniasis complicated by central pontine involvement on brain FLAIR MRI (presenting as intractable headache). Treatment with systemic amphotericin B achieved complete resolution of headache and systemic symptoms, clearance of amastigotes on repeat bone marrow examination, and absence of neurological sequelae at 5-month follow-up."
+    }
+  }
+}

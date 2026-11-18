@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11251414_01",
+  "pair_id": "PMC11251414_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Patient 1: A 30-year-old female patient diagnosed with human immunodeficiency virus (HIV) during her pregnancy in 2010. From 2013 to 2018, she returned for medical follow-up and received antiretroviral treatment, which included zidovudine (300 mg orally twice daily), lamivudine (150 mg orally twice daily) and efavirenz (600 mg orally once daily). However, the antiretroviral regimen was discontinued several times. In October 2020, she presented a single ulcer lesion in the lower limb [ (Fig. 1)], and the TL diagnosis was confirmed by Giemsa-stained slides from skin scraping. She was treated daily with a dose of meglumine antimoniate (Glucantime ) at 20 mg/Sb+5/kg administered intravenously for 20 days but discontinued the treatment soon after. In late 2021, she returned to hospital service with HIV-undetectable status, but new lesions on the left lower limb and right upper limb. At that time, a biopsy sample was collected for parasite isolation, resulting in the obtaining of the clinical isolate denominated as BG03. Then, she started liposomal amphotericin B (L-AmB) therapy (3 mg/kg) for 20 days. She experienced a new relapse and started a new antimonial regimen, which was abandoned after a few days. In August 2022, the lesion recurred on the lower limb, and she started a new course of L-AmB (3 mg/kg) for 10 days, with complete healing of the lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 30-year-old HIV-positive female presented in October 2020 with a single ulcerated cutaneous lesion on the lower limb, followed by recurrent cutaneous ulcers on the left lower limb and right upper limb in late 2021 and August 2022.",
+      "history_of_present_illness": "The patient developed a single lower-limb cutaneous ulcer in October 2020, was diagnosed with tegumentary leishmaniasis via Giemsa-stained skin scraping, and started intravenous meglumine antimoniate (Glucantime 20 mg Sb5+/kg/day for 20 days) but discontinued therapy early. She returned in late 2021 with recurrent lesions on the left lower limb and right upper limb, received liposomal amphotericin B (3 mg/kg for 20 days), experienced another relapse with an aborted antimonial course, and re-presented in August 2022 with a recurrent lower-limb ulcer.",
+      "past_medical_history": "Diagnosed with HIV infection during pregnancy in 2010; intermittently adherent to antiretroviral therapy (zidovudine 300 mg twice daily, lamivudine 150 mg twice daily, and efavirenz 600 mg once daily) between 2013 and 2018, achieving an undetectable HIV viral load by late 2021.",
+      "review_of_systems": "Negative for fever, hepatosplenomegaly, or visceral symptoms."
+    },
+    "objective": {
+      "physical_examination": "Single ulcerated lesion on the lower limb at initial presentation (October 2020), followed by recurrent ulcerated cutaneous lesions on the left lower limb and right upper limb without hepatosplenomegaly.",
+      "routine_investigations": "Complete blood counts were normal, HIV viral load was undetectable at the 2021 relapse, and visceral leishmaniasis serological screening (Leishmaniose VH Bio test) was negative.",
+      "advanced_workup": "Skin biopsy specimen (clinical isolate BG03) was obtained in late 2021 for promastigote culture and molecular typing."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Giemsa-stained skin scrapings, promastigote culture from skin biopsy (isolate BG03), kDNA minicircle multiplex PCR, and internal transcribed spacer (ITS) sequencing (GenBank PP002181; >=99.8% identity with Leishmania infantum) confirmed relapsing Cutaneous/Tegumentary Leishmaniasis caused by Leishmania (Leishmania) infantum in an HIV-coinfected patient without visceral involvement. After incomplete responses/adherence to meglumine antimoniate and a 20-day course of liposomal amphotericin B, a final 10-day course of intravenous liposomal amphotericin B (3 mg/kg/day) in August 2022 achieved complete healing of all cutaneous lesions."
+    }
+  }
+}

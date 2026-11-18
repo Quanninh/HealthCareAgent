@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2809364_01",
+  "pair_id": "PMC2809364_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 42-year-old female presented with complaints of hearing loss in her left ear for 2-3 months with occasional bilateral tinnitus. Prior to treatment, standard behavioral audiometry (250-8000 Hz) was obtained (Figure 1), as well as distortion product otoacoustic emissions (DPOAEs). DPOAEs were tested using Bio-logic Systems Corp. Scout Otoacoustic Emissions Testing System, software version 3.45.00, diagnostic protocols. Pretreatment results for the patient's right ear indicated moderate to mild sensorineural hearing loss, and the left ear revealed profound to moderate mixed hearing loss (left bone conduction similar to right bond responses). Speech discrimination scores were good in the right ear, 84% at 50 dBHL; poor in the left ear, 60% at 85 dBHL. DPOAE testing revealed distortion product minus noise floor was >5 dB for only 15% of measured points (750-8000 Hz) in the right ear and 32% in the left ear.\nLaboratory testing included collagen profile test, RPR, and fluorescent treponemal antibody absorption (FTA-ABS) test. Results revealed the patient's RPR and fluorescent treponemal antibody absorption test to be positive. Furthermore, a history of syphilis was confirmed. Following a course of 2.4 million units of Benzathine Penicillin G and Prednisone for three weeks, the patient reported improvement in hearing. Repeat audiologic evaluation obtained one month after diagnosis revealed improved hearing (Figure 2), and interestingly, the patient's DPOAEs recovered following treatment. Posttreatment results revealed improved left ear responses (mild, flat sensorineural hearing loss with moderate conductive component at 500-1000 Hz). Speech discrimination improved to 92% in the right ear and 96% in the left ear (both presented at 75 dBHL). Posttreatment DPOAEs were measured (2000-8000 Hz) and revealed right ear distortion product minus noise floor was >5 dB for 93% of measured points (range 5.1-15.6 dB) and left ear 86% (range 6.3-15.5 dB), reflecting a recovery of cochlear function. The patient continues to show recovery of both hearing and OAEs nearly one year from treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old female presented with a 2-to-3-month history of left-ear hearing loss and occasional bilateral tinnitus.",
+      "history_of_present_illness": "The patient presented with 2 to 3 months of progressive left-sided hearing loss accompanied by intermittent bilateral tinnitus.",
+      "past_medical_history": "History of syphilis was confirmed during evaluation.",
+      "review_of_systems": "Positive for left hearing loss and occasional bilateral tinnitus."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Collagen vascular profile testing was performed.",
+      "advanced_workup": "Pretreatment standard behavioral audiometry (250-8000 Hz) demonstrated mild-to-moderate right sensorineural hearing loss (speech discrimination 84% at 50 dBHL) and moderate-to-profound left mixed hearing loss (speech discrimination 60% at 85 dBHL). Baseline distortion-product otoacoustic emissions (DPOAEs, 750-8000 Hz) showed severe outer hair cell dysfunction, with DP minus noise floor >5 dB at only 15% of measured points in the right ear and 32% in the left ear."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed bilateral cochlear otosyphilis, established via reactive serum RPR and positive FTA-ABS alongside characteristic audiometric and DPOAE deficits. Treated with a 3-week course of intramuscular benzathine penicillin G 2.4 million units and oral prednisone. At 1-month post-treatment follow-up (sustained at ~1 year), pure-tone thresholds and speech discrimination improved to 92% (right) and 96% (left) at 75 dBHL, and DPOAEs (2000-8000 Hz) recovered dramatically to 93% (right, range 5.1-15.6 dB) and 86% (left, range 6.3-15.5 dB)."
+    }
+  }
+}

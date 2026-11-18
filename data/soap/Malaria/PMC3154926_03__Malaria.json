@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3154926_03",
+  "pair_id": "PMC3154926_03::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Following a visit to family in Ghana, this 49-year-old Ghanaian-born UK resident (of 22 years) presented with severe malaria and a peripheral P. falciparum parasitaemia of 3.0% (details presented in reference 34). Two sequential samples, F54840 and F55564, taken prior to treatment and 8 hours later (4 to 5 hours after commencement of quinine treatment), respectively, were analysed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old Ghanaian-born UK resident presented with severe malaria following a visit to family in Ghana.",
+      "history_of_present_illness": "The patient developed severe clinical malaria after returning to the UK from visiting family in Ghana.",
+      "past_medical_history": "Ghanaian-born resident of the UK for 22 years; recent travel to Ghana.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Imported severe Plasmodium falciparum malaria (isolates OX005A/F54840 and OX005B/F55564). Confirmed by peripheral blood smear showing P. falciparum parasitemia of 3.0%, with genomic sequencing and nested pfmsp1/pfmsp2 PCR of sequential blood samples (taken pre-treatment and 4-5 hours after starting quinine) revealing a >20 kb chromosome 3 deletion encompassing Clag3.1/Clag3.2, triple-mutant IRNI pfdhfr, and emergence of an additional P. falciparum genotype 9 hours after quinine initiation. Treated with quinine."
+    }
+  }
+}

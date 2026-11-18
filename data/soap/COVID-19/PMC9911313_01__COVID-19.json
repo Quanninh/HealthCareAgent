@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9911313_01",
+  "pair_id": "PMC9911313_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A healthy 59-year-old woman presented to the emergency department with a two-day history of progressively worsening abdominal pain, melena, and postprandial nausea. The patient had no significant chronic medical history and no recent infections. She was recently vaccinated with the second dose of the mRNA-1273 vaccine against SARS-CoV-2 approximately two days before her presentation. Physical examination was significant for diffuse tenderness to palpation of the abdomen with rebound tenderness of the right upper quadrant. Laboratory values were significant for a mild leukocytosis with a WBC count of 12,550 cells/mL (4,500-11,000), and an elevated erythrocyte sedimentation rate (ESR) of 91 mm/h (0-21). Serology for both hepatitis B and C was negative. Serum antibody testing was significant for a positive antinuclear antibody (ANA) with a level of titer of 1:160. Both myeloperoxidase-anti neutrophil cytoplasmic antibody (ANCA), and proteinase-3 antibody screening were negative. Urine analysis showed no gross blood and 3-5 red blood cells/high power field with no WBCs. The patient tested negative for SARS-CoV-2 via polymerase chain reaction (PCR). A computerized tomography (CT) scan of the abdomen showed numerous vascular irregularities in the celiac axis, bilateral renal arteries, and inferior mesenteric artery consistent with vasculitis. There was significant stenosis of the distal branch of the right renal artery resulting in renal parenchyma ischemia with heterogenous enhancement (Figure 1).\nThe patient was subsequently diagnosed with polyarteritis nodosa, a medium-vessel vasculitis, and was started on intravenous methylprednisolone 500 mg for three days with a one-week tapering dose. Her symptoms had significantly improved, and she was started on methotrexate (MTX) 12.5 mg daily for remission maintenance immunosuppression. At a three-month follow-up, the patient had a subsequent CT angiogram of the abdomen which showed resolution of the previous vascular irregularities and renal ischemia (Figure 2). At a one-year follow-up appointment, the patient remains in remission with the same MTX therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 59-year-old previously healthy woman presented to the emergency department with a 2-day history of progressively worsening abdominal pain, melena, and postprandial nausea beginning 2 days after her second mRNA-1273 COVID-19 vaccine dose.",
+      "history_of_present_illness": "Two days after receiving the second dose of the mRNA-1273 (Moderna) SARS-CoV-2 vaccine, the patient developed acute worsening abdominal pain, black tarry stools (melena), and postprandial nausea.",
+      "past_medical_history": "Previously healthy with no chronic medical conditions or recent infections; received second dose of mRNA-1273 COVID-19 vaccine 2 days prior to symptom onset.",
+      "review_of_systems": "Positive for worsening abdominal pain, melena, and postprandial nausea."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed diffuse tenderness to palpation with right upper quadrant rebound tenderness.",
+      "routine_investigations": "Labs showed mild leukocytosis (WBC 12,550/mL; ref 4,500-11,000), markedly elevated ESR (91 mm/h; ref 0-21), positive ANA (1:160), negative MPO-ANCA and PR3-ANCA, negative hepatitis B and C serologies, negative SARS-CoV-2 PCR, and microscopic hematuria (3-5 RBC/hpf, 0 WBCs) on urinalysis.",
+      "advanced_workup": "Abdominal CT angiography demonstrated multifocal medium-vessel vascular irregularities involving the celiac axis, bilateral renal arteries, and inferior mesenteric artery, with severe distal right renal artery branch stenosis causing heterogeneous right renal parenchymal ischemia (all of which completely resolved on 3-month follow-up abdominal CTA)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "New-onset polyarteritis nodosa (PAN, medium-vessel vasculitis involving the celiac, mesenteric, and bilateral renal arteries with right renal ischemia) temporally associated with the second dose of the mRNA-1273 COVID-19 vaccine (SARS-CoV-2 PCR, HBV/HCV, and ANCA negative). Treated with intravenous methylprednisolone (500 mg daily for 3 days) followed by a 1-week steroid taper and maintenance oral methotrexate (12.5 mg daily), achieving rapid symptomatic relief, complete resolution of visceral vascular abnormalities and renal ischemia on 3-month CTA, and sustained remission at 1-year follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11741092_01",
+  "pair_id": "PMC11741092_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 29-year-old Nepalese male, with no comorbidities, presented with progressive abdominal distension associated with dull aching non-radiating abdominal pain for one year. He had no history of fever, cough, jaundice, trauma, nausea, vomiting, altered bowel or bladder habits, or significant weight loss. There was no history of close association with dogs. He had not undergone prior surgery. The examination was normal except for a distended abdomen and dullness on percussion leading to a clinical diagnosis of ascites. Hematological tests revealed the following results: hemoglobin: 13.6 g/dL, white blood cell count: 11,500 cells/muL, eosinophils: 4 % (eosinophilia not present), and C-reactive protein (CRP) within normal limits. ELISA for Echinococcus granulosus was positive. Liver function and renal function tests were within normal limits.\nUltrasonography (USG) of the abdomen revealed multiple, well-defined hypoechoic masses with echogenic septations in the abdomen. A computed tomography (CT) scan of the abdomen and pelvis revealed well-defined hydatid cysts of variable sizes extending throughout the abdomen, with floating membrane in some cysts (Fig. 1).\nChest X-ray was normal. There was no evidence of similar cystic lesions in the liver, lungs, or other organs. Based on the clinical, serological, and radiological evidence, primary multiple intraperitoneal hydatid cysts were diagnosed preoperatively.\nThe patient was started on albendazole 400 mg twice daily for one month. After a month, exploratory laparotomy was performed. Intraoperatively, multiple hydatid cysts of various sizes ranging from 2 to 15 cm involving the whole of the peritoneal cavity, and adherent to the peritoneum were present. All the visible hydatid cysts were excised carefully without causing a rupture (Fig. 2).\nThere were no similar cystic masses in any other abdominal viscera. The patient had an uneventful recovery and was discharged on postoperative day 5. The patient was started albendazole on the third postoperative day and continued for five months. Histopathological analysis confirmed a hydatid cyst. The patient was asymptomatic with no recurrence on chest X-ray and USG after two years of follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old Nepalese male presented with a 1-year history of progressive abdominal distension and dull aching abdominal pain.",
+      "history_of_present_illness": "The patient experienced gradually progressive abdominal distension accompanied by dull, aching, non-radiating abdominal pain over 1 year.",
+      "past_medical_history": "No medical comorbidities, no prior surgeries, and no known close contact with dogs.",
+      "review_of_systems": "Positive for abdominal distension and dull abdominal pain; negative for fever, cough, jaundice, trauma, nausea, vomiting, altered bowel or bladder habits, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "General examination was normal; abdominal examination revealed a distended abdomen with dullness on percussion initially mimicking ascites.",
+      "routine_investigations": "Labs showed hemoglobin 13.6 g/dL, WBC 11,500 cells/uL, eosinophils 4% (no eosinophilia), and normal CRP, liver function tests, and renal function tests. ELISA for Echinococcus granulosus was positive. Chest X-ray was normal. Abdominal ultrasonography showed multiple well-defined hypoechoic intra-abdominal masses with echogenic septations.",
+      "advanced_workup": "Abdominopelvic CT demonstrated multiple well-defined hydatid cysts of varying sizes (2 to 15 cm) extending throughout the peritoneal cavity with floating membranes in several cysts and no hepatic, splenic, or pulmonary involvement. Exploratory laparotomy excised all peritoneal cysts intact without rupture, and histopathology confirmed hydatid cysts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary multiple intraperitoneal hydatidosis without solid-organ involvement, confirmed by positive Echinococcus granulosus ELISA and postoperative histopathology. The patient completed 1 month of preoperative oral albendazole (400 mg twice daily), underwent exploratory laparotomy with intact excision of all peritoneal cysts (2-15 cm), was discharged on postoperative day 5, and completed 5 months of postoperative albendazole, remaining asymptomatic without recurrence on chest X-ray and ultrasound at 2-year follow-up."
+    }
+  }
+}

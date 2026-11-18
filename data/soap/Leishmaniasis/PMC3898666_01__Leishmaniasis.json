@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3898666_01",
+  "pair_id": "PMC3898666_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Our case is that of a 32 year old male, who had a small dermal nodule on the dorsal aspect of middle finger for three years. There was no associated pain, joint swelling, redness or restriction of joint mobility. The patient did not recall any specific history of trauma. Later on the lesion becomes ulcerated due to which he seek medical attention. The patient was laborer by occupation and belonged to the rural part of the country. The initial clinical suspicion was leishmaniasis, due to which a punch biopsy was done. The biopsy revealed a dermal fibro-osseous lesion and therefore excision was advised. The lesion measured 1.7 x 1.5 x 1.2 cm and no connection with underlying bone was demonstrated. Post-operatively, the wound healed quickly. The patient was followed for one year, however no recurrence was noted.\nGrossly the specimen consisted of a skin covered fragment with a firm nodular lesion in dermis measuring 1.5 cm in maximum dimention. Microscopic sections examined revealed biphasic fibro-osseous lesion present in the dermis, composed of stromal and osseous components. Overlying skin appeared midly hyperplastic and borders of the lesion were well circumscribed. Stromal component of the tumor is composed of bland spindle shaped cells with interspersed blood vessels. Stromal cells appear fibroblastic with elongated nuclei, eiosinophillic cytoplasm and indistinct cell borders. They show minimal nuclear atypia and pleomorphism. Osseous component was formed by mature bony trabeculae with prominent osteoblastic rimming. Zonation pattern was not evident in the lesion. No mitotic activity was noted. The lesion appeared completely excised (Figure  1).\nImmunohistochemical stains were performed on the section by DAKO envision method using antibodies against pancytokeratin (CKAE1/AE3), ASMA, S100 and CD 34. Stromal cells were negative with cytokeratin, however focal positivity was noted with ASMA, CD 34 and S100 stains (Figure  2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old male rural laborer presented with a 3-year history of a painless dermal nodule on the dorsal aspect of his middle finger that recently ulcerated.",
+      "history_of_present_illness": "The patient had a small, asymptomatic dermal nodule on the dorsum of his middle finger for 3 years without pain, joint swelling, erythema, or restricted mobility, and sought medical attention only after the overlying skin ulcerated.",
+      "past_medical_history": "Rural laborer with no recalled history of local trauma.",
+      "review_of_systems": "Negative for pain, joint swelling, or restricted finger motion."
+    },
+    "objective": {
+      "physical_examination": "Ulcerated, firm dermal nodular lesion measuring 1.7 x 1.5 x 1.2 cm (1.5 cm maximal dermal dimension) on the dorsal aspect of the middle finger, completely mobile and unconnected to the underlying phalanx.",
+      "routine_investigations": null,
+      "advanced_workup": "Punch biopsy and subsequent complete excisional histopathology demonstrated a well-circumscribed biphasic dermal fibro-osseous lesion composed of bland fibroblastic spindle cells without atypia or mitoses and mature bony trabeculae with prominent osteoblastic rimming (without zonation); immunohistochemistry was negative for pancytokeratin (CK AE1/AE3) and focally positive for ASMA, CD34, and S100."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "The initial clinical suspicion of cutaneous leishmaniasis was ruled out by punch and excisional biopsy histopathology and immunohistochemistry, confirming a benign dermal fibro-osseous lesion (ossifying fibroma-like dermal lesion / osteoma cutis variant) of the middle finger. Complete surgical excision resulted in rapid wound healing and no recurrence over 1 year of follow-up."
+    }
+  }
+}

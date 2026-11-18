@@ -1,0 +1,219 @@
+================================================================================
+CLINICAL CLAIM ANNOTATION RUN LOG: MELIOIDOSIS
+MultiCaRe Clinical Gold Standard — new_disease_pool
+Timestamp: 2026-11-10T03:45:57Z
+================================================================================
+
+1. RUN CONFIGURATION & METADATA
+--------------------------------------------------------------------------------
+Target Disease        : Melioidosis
+Disease Slug          : melioidosis
+Annotation Pool       : new_disease_pool
+Input File            : input/input_melioidosis.jsonl
+Output File           : output/output_melioidosis.jsonl
+Total Candidate Pairs : 55
+Protocol              : 12-Step Gold Standard Clinical Claim Protocol (04_gold_standard_annotation_protocol.md)
+Evidence Specificity  : Disease Evidence Matrix (03_evidence_specificity_matrix.md Sec 5)
+
+2. EXECUTION & STATISTICAL AUDIT SUMMARY
+--------------------------------------------------------------------------------
+Total Candidates Input     : 55
+Total Candidates Evaluated : 55
+Validation Status          : PASSED (100% exact verbatim character offsets verified)
+VPD Criteria Satisfied     : 41 / 55 (74.5%)
+
+Decision Distribution:
+  - POSITIVE                    :   41 ( 74.5%)
+  - NEGATIVE                    :   12 ( 21.8%)
+  - EXCLUDED_NON_TARGET_CASE    :    2 (  3.6%)
+
+Evidence Strength Distribution:
+  - E1_CONFIRMATORY                   :   40 ( 72.7%)
+  - E0_CONTRADICTED                   :   11 ( 20.0%)
+  - E4_CONTEXT                        :    3 (  5.5%)
+  - E2_HIGHLY_SPECIFIC                :    1 (  1.8%)
+
+Clinical Role Distribution:
+  - PRIMARY_DIAGNOSIS               :   39 ( 70.9%)
+  - RULED_OUT_DIAGNOSIS             :   12 ( 21.8%)
+  - DIFFERENTIAL_DIAGNOSIS          :    2 (  3.6%)
+  - SECONDARY_DIAGNOSIS             :    2 (  3.6%)
+
+Quality & Confidence Audit:
+  - Confidence HIGH            :   55 (100.0%)
+Failure Flags Assigned:
+  - F4_ASSERTION_TEMPORAL       :   10
+  - F5_DISCOURSE_CONTEXT        :    3
+  - F6_EVIDENCE_SPECIFICITY     :    2
+
+3. PER-CASE CLINICAL TRACE & EVIDENCE AUDIT
+--------------------------------------------------------------------------------
+[01/55] Case: PMC6390555_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 49-year-old female presenting with prolonged fever, rash, arthritis, and ferritin 3200 U/L. Initial B. pseudomallei IHA serology was positive (1:640), but repeated blood and bone marrow cultures were negative, and she completely failed 4 weeks of targeted antibiotics (ceftazidime, imipenem, cotrimoxazole). High-dose steroids produced rapid defervescence within 2 days, establishing adult-onset Still's disease (AOSD). Melioidosis was ruled out as false-positive serology -> NEGATIVE.
+      Evidence [1]: [2005:2113] "Blood and bone marrow cultures for bacteria, tuberculosis, brucellosis, melioidosis and..." -> Blood and bone marrow culture (NEGATIVE)
+[02/55] Case: PMC7276627_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 48-year-old male farmer with poorly controlled type 2 diabetes presenting with multifocal osteomyelitis. Tissue PCR was positive for melioidosis and serial blood cultures grew B. pseudomallei with characteristic bipolar staining (E1 confirmatory). Treated with IV ceftazidime and oral cotrimoxazole with complete recovery -> POSITIVE.
+      Evidence [1]: [2542:2684] "Tissue sample for PCR for melioidosis was positive, and serial blood cultures grew Gram..." -> PCR and serial blood cultures (POSITIVE)
+[03/55] Case: PMC5971266_01 | Decision: NEGATIVE                 | Evidence: E4_CONTEXT           | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 33-year-old female with infected suprarenal abdominal aortic aneurysm. Blood and urine cultures remained sterile throughout; IV ceftazidime was administered strictly as empirical coverage for endemic B. pseudomallei and Salmonella in Thailand. Melioidosis was never confirmed or clinically affirmed -> NEGATIVE.
+      Evidence [1]: [1368:1548] "As such, intravenous ceftazidime and clindamycin were empirical to cover Burkholderia p..." -> Empirical antimicrobial coverage / Blood cultures (NEGATIVE)
+[04/55] Case: PMC8052143_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 48-year-old male farmer in Sri Lanka with paddy field mud exposure presenting with septic shock, acute kidney injury, and multiorgan failure. Positive blood and wound swab cultures confirmed Burkholderia pseudomallei (E1 confirmatory) -> POSITIVE.
+      Evidence [1]: [5696:5819] "On the 2nd day of ICU stay, the positive blood and wound swab culture reports for Burkh..." -> Blood and wound swab culture (POSITIVE)
+[05/55] Case: PMC6051266_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 54-year-old female presenting with pyrexia of unknown origin, lung opacities, and cholestasis. Melioidosis cultures and serology were negative; she was diagnosed with metastatic renal cell carcinoma with paraneoplastic Stauffer's syndrome. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [1492:1591] "Mantoux test revealed a wheal of 12 mm and the serology and cultures for melioidosis we..." -> Serology and cultures for melioidosis (NEGATIVE)
+[06/55] Case: PMC4621193_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 22-year-old female presenting with neuroretinitis due to Bartonella henselae (cat scratch disease) and presumed DUSN. Serology for Burkholderia pseudomallei was explicitly negative in the infective workup. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [2396:2507] "Venereal Disease Research Laboratory (VDRL) serology for Burkholderia pseudomallei and ..." -> Serology for Burkholderia pseudomallei (NEGATIVE)
+[07/55] Case: PMC4298925_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 52-year-old diabetic male with pleural effusion, splenic cysts, and chest wall abscess with rib osteomyelitis. Pus aspirate culture yielded B. pseudomallei with characteristic cornflower colonies and bipolar staining (E1 confirmatory). Successfully treated with imipenem and cotrimoxazole -> POSITIVE.
+      Evidence [1]: [1391:1555] "Pus culture and sensitivity report came as B. pseudomallei with corn flower colonies [F..." -> Pus culture and microscopy (POSITIVE)
+[08/55] Case: PMC4977379_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 44-year-old male farmer with diabetes presenting with a solitary liver abscess. Percutaneous aspiration and drainage yielded purulent material; culture studies grew Burkholderia pseudomallei (E1 confirmatory). Treated with IV meropenem and oral cotrimoxazole with complete recovery -> POSITIVE.
+      Evidence [1]: [1599:1669] "Culture studies revealed moderate growth of Burkholderia pseudomallei." -> Abscess aspirate culture (POSITIVE)
+[09/55] Case: PMC9372356_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 47-year-old male presenting with meningoencephalitis and comatose state (neuromelioidosis) following ear surgery. Cultures of ear drainage, CSF, and stereotactic brain biopsy all grew Burkholderia pseudomallei (E1 confirmatory). Treated with meropenem and cotrimoxazole -> POSITIVE.
+      Evidence [1]: [4161:4337] "from both the CSF and brain biopsy samples, which were sent for a supplementary examina..." -> CSF and brain biopsy culture (POSITIVE)
+[10/55] Case: PMC2808561_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 50-year-old male who lived in Indonesia presenting with migrating pulmonary infiltrates. Bronchial washing culture grew B. pseudomallei, confirmed by API20NE, VITEK GNI card, and 16S rRNA gene sequencing with 100% homology (E1 confirmatory). Treated with ceftazidime and amoxicillin-clavulanate with full resolution -> POSITIVE.
+      Evidence [1]: [1794:1953] "By biochemical examination of API20NE strip and VITEK GNI card (BioMerieux, Inc., Hazel..." -> Bronchial washing culture and biochemical identification (POSITIVE)
+[11/55] Case: PMC5103496_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 12-year-old boy in Hainan presenting with pediatric suppurative parotitis. Pus aspirate from the parotid abscess grew colonies on blood agar confirmed as Burkholderia pseudomallei by VITEK-2 (>99% identification) and 16S rRNA gene sequencing (E1 confirmatory). Successfully treated with imipenem and TMP-SMZ -> POSITIVE.
+      Evidence [1]: [2021:2186] "VITEK-2 suggested that the isolate was Burkholderia pseudomallei, with an excellent lev..." -> Parotid pus culture, VITEK-2, and 16S rRNA sequencing (POSITIVE)
+[12/55] Case: PMC8130703_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 41-year-old male with diabetes presenting with right knee septic arthritis, cavitary lung lesions, and liver hypodensities. Blood and joint aspiration fluid cultures both grew B. pseudomallei (E1 confirmatory). Treated with ceftazidime, levofloxacin, and cotrimoxazole with resolution -> POSITIVE.
+      Evidence [1]: [1396:1503] "Blood and joint aspiration fluid were sent for microbiological cultures both of which g..." -> Blood and synovial fluid culture (POSITIVE)
+[13/55] Case: PMC3294337_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: DIFFERENTIAL_DIAGNOSIS   | Quotes: 1
+      Rationale: A 71-year-old male diagnosed with disseminated coccidioidomycosis (confirmed Coccidioides immitis spherules and cultures). Melioidosis is mentioned solely in the discussion section as general epidemiological context for travelers with chronic pneumonia in Taiwan. Melioidosis was never diagnosed or tested in the patient -> EXCLUDED_NON_TARGET_CASE.
+      Evidence [1]: [6088:6306] "In addition to tuberculosis, melioidosis, and penicilliosis marneffii, coccidioidomycos..." -> Discussion literature review / Differential context (NOT_TESTED)
+[14/55] Case: PMC6145115_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 42-year-old female in Sri Lanka with infective sacroiliitis and intramuscular abscesses. Paired melioidosis antibody titers demonstrated a 16-fold rise from 1:640 to 1:10,240 (E2 criteria: demonstrable >=4-fold rise and high titer >=1:640 in endemic area) coupled with compatible multi-abscess deep musculoskeletal infection and complete cure on extended intensive meropenem and eradication cotrimoxazole -> POSITIVE.
+      Evidence [1]: [4579:4666] "Her Melioidosis antibody titers obtained 2 weeks apart increased from 1/640 to 1/10240." -> Paired Melioidosis antibody serology (POSITIVE)
+[15/55] Case: PMC6854222_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 53-year-old male with isolated wrist swelling. Synovial biopsy and Xpert MTB/RIF confirmed Mycobacterium tuberculosis with positive culture. Serological assessment for melioidosis was negative. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [1801:1853] "Serological assessment for melioidosis was negative." -> Serological assessment for melioidosis (NEGATIVE)
+[16/55] Case: PMC5095978_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 36-year-old diabetic male presenting with lung nodules, septic shock, and diffuse intramuscular abscesses (pyomyositis). Blood culture incubated in special media isolated Burkholderia pseudomallei (E1 confirmatory). Treated with IV ceftazidime and oral cotrimoxazole with complete resolution -> POSITIVE.
+      Evidence [1]: [2657:2733] "Blood culture incubated in special media isolated Burkholderia pseudomallei." -> Special media blood culture (POSITIVE)
+[17/55] Case: PMC5697124_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: An 82-year-old male with travel to the Philippines presenting with fever and a mycotic aneurysm of the descending thoracic aorta. Admission blood cultures prior to antimicrobial therapy grew Burkholderia pseudomallei (E1 confirmatory). Successfully treated with ceftazidime, Bactrim, and endovascular repair -> POSITIVE.
+      Evidence [1]: [2016:2133] "On day 3, blood cultures drawn on the day of admission prior to antimicrobial therapy g..." -> Blood culture (POSITIVE)
+[18/55] Case: PMC9587748_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 60-year-old female presenting with a pathological fracture and metaphyseal osteonecrosis of the proximal humerus. Melioidosis of bone was suspected in the differential diagnosis; however, intraoperative tissue and bone cultures showed no growth, and histology confirmed aseptic osteonecrosis without infection. (Her treated post-COVID melioidosis sepsis 2 months earlier was remote past history). For this episode, bone melioidosis was ruled out -> NEGATIVE.
+      Evidence [1]: [3049:3255] "considering the differentials of infection, malignancy, secondary hyperparathyroidism a..." -> Bone and tissue biopsy culture / Histology (NEGATIVE)
+[19/55] Case: PMC4285261_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 62-year-old Gabonese woman with diabetes presenting with a leg abscess, septic arthritis of the knee, and septic shock. Cultures of blood, wound, and synovial fluid grew gram-negative rods identified and confirmed as B. pseudomallei by MLST and whole-genome sequencing (E1 confirmatory) -> POSITIVE.
+      Evidence [1]: [1734:1892] "After the patient's death, the Pseudomonas species was classified as B. pseudomallei (p..." -> Blood/wound/synovial culture, MLST, and WGS (POSITIVE)
+[20/55] Case: PMC6233691_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 67-year-old diabetic male in Indonesia with a chronic ulcer/abscess on the right sole. Wound base culture yielded B. pseudomallei on Ashdown agar and nested PCR confirmed the 16S rRNA gene of B. pseudomallei (E1 confirmatory). Treated surgically and healed -> POSITIVE.
+      Evidence [1]: [2067:2154] "Microbiology examination on a swab sample from the wound base revealed B. pseudomallei." -> Wound swab culture on Ashdown agar and nested PCR (POSITIVE)
+[21/55] Case: PMC3952283_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 48-year-old female presenting with a subcutaneous inguinal abscess mimicking tuberculosis. Aerobic culture yielded wrinkled colonies identified as B. pseudomallei by characteristic biochemical tests (oxidase-positive, motile, nitrate reduction, Polymyxin B resistance) (E1 confirmatory). Successfully treated with IV ceftazidime, cotrimoxazole, and doxycycline -> POSITIVE.
+      Evidence [1]: [2720:2801] "The isolate was confirmed as B. pseudomallei by characteristic biochemical tests." -> Pus culture and biochemical confirmation (POSITIVE)
+[22/55] Case: PMC10374253_02 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: An 11-year-old girl presenting with fever and splenic abscesses. Initially treated empirically for melioidosis with ceftazidime, but she met SLICC criteria for childhood-onset SLE. Paired Burkholderia pseudomallei serology was reviewed, antibiotics were discontinued, and the splenic lesions completely resolved with corticosteroids, confirming aseptic lupus abscesses. Melioidosis was ruled out -> NEGATIVE.
+      Evidence [1]: [2859:3066] "Patient 1 completed a total of 2 weeks of ceftazidime and was subsequently started on o..." -> Paired Burkholderia pseudomallei serology (NEGATIVE)
+[23/55] Case: PMC4411813_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 48-year-old immunocompetent male presenting with small bowel perforations, peritonitis, and lung infiltrates. Peritoneal purulent fluid culture grew colonies confirmed as B. pseudomallei by culture characteristics and standard biochemical methods (E1 confirmatory). Treated with imipenem, doxycycline, and cotrimoxazole with complete recovery -> POSITIVE.
+      Evidence [1]: [3404:3558] "On 6th postoperative day, the organism was confirmed to be B. pseudomallei by the above..." -> Peritoneal pus culture and biochemical identification (POSITIVE)
+[24/55] Case: PMC3952392_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: An 81-year-old male with diabetes presenting with acute pyelonephritis due to reactivation of latent melioidosis. Blood and urine cultures both grew aerobic motile Gram-negative rods identified as B. pseudomallei (E1 confirmatory). Treated with imipenem/cilastatin followed by oral TMP-SMX with full clinical improvement -> POSITIVE.
+      Evidence [1]: [1829:1984] "We drew blood and urine cultures which both grew non-lactose fermenting, aerobic and mo..." -> Blood and urine culture (POSITIVE)
+[25/55] Case: PMC10464891_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 58-year-old diabetic male presenting with splenic and psoas abscesses. Serology demonstrated a >4-fold IgG titre rise by Hcp1 ELISA, and psoas pus aspirate culture grew B. pseudomallei confirmed by BD Phoenix-100 and 16S rDNA PCR direct sequencing (E1 confirmatory). Treated with ceftazidime and cefixime with abscess resolution -> POSITIVE.
+      Evidence [1]: [4670:4829] "The isolated strain was then subjected to BD Phoenix-100 Automated Microbiology System ..." -> Pus culture, BD Phoenix-100, and 16S rDNA PCR sequencing (POSITIVE)
+[26/55] Case: PMC3035558_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 61-year-old male with alcoholic cirrhosis presenting with necrotizing fasciitis, splenic abscesses, and prostatic abscesses. Intraoperative tissue, prostatic aspirate, and serial blood cultures grew B. pseudomallei on Ashdown's media (E1 confirmatory). Treated with surgical debridement, imipenem, ceftazidime, and doxycycline -> POSITIVE.
+      Evidence [1]: [1395:1621] "Tissue (taken during surgery) and blood cultures grew B. pseudomallei susceptible to ce..." -> Tissue and blood cultures on Ashdown's media (POSITIVE)
+[27/55] Case: PMC3295726_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 43-year-old male with diabetes presenting with an anterior mediastinal mass and cervical lymphadenopathy masquerading as malignancy. Blood culture and bone marrow culture grew B. pseudomallei (E1 confirmatory). Successfully treated with IV ceftazidime followed by cotrimoxazole and doxycycline for 6 months -> POSITIVE.
+      Evidence [1]: [1341:1559] "Blood culture and bone marrow culture grew B. pseudomallei sensitive to amoxicillin-cla..." -> Blood culture and bone marrow culture (POSITIVE)
+[28/55] Case: PMC6713098_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 54-year-old Chinese tunnel worker in Laos with diabetes presenting with prolonged fever, splenic abscess, and splenic vein thrombosis. Blood cultures grew B. pseudomallei, confirmed by sequencing and MLST (E1 confirmatory). Successfully treated with IV imipenem followed by oral doxycycline and sulfonamides for 6 months -> POSITIVE.
+      Evidence [1]: [1510:1590] "samples from two bottles showed positive in the second test for B. pseudomallei." -> Blood culture and MLST/WGS (POSITIVE)
+[29/55] Case: PMC3294329_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 40-year-old female with SLE on immunosuppressants in Mauritius presenting with fatal septicemia and cellulitis after muddy flood exposure. Blood cultures grew dry, rugose colonies identified as Burkholderia pseudomallei by API 20NE (E1 confirmatory) -> POSITIVE.
+      Evidence [1]: [1634:1744] "identified as B. pseudomallei by using API 20NE (BioMerieux, Marcy l'Etoile, France) wi..." -> Blood culture and API 20NE identification (POSITIVE)
+[30/55] Case: PMC3701398_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 65-year-old male with diabetes presenting with pneumonia, respiratory failure, and ankle cellulitis/abscess. Blood culture, endotracheal secretions, and ankle pus all grew Burkholderia pseudomallei identified via Microscan 96 SI (E1 confirmatory) -> POSITIVE.
+      Evidence [1]: [2103:2220] "which were subsequently identified as Burkholderia pseudomallei in Microscan 96 SI (Sie..." -> Blood, endotracheal, and pus culture (POSITIVE)
+[31/55] Case: PMC3701398_02 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 58-year-old diabetic male presenting with lung opacities, respiratory failure, and left knee septic arthritis. Multiple blood culture sets grew Burkholderia pseudomallei (E1 confirmatory). Treated with imipenem followed by cotrimoxazole and doxycycline with clinical response -> POSITIVE.
+      Evidence [1]: [1238:1306] "Burkholderia pseudomallei was isolated from all these blood samples." -> Serial blood cultures (POSITIVE)
+[32/55] Case: PMC7132350_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 54-year-old Thai female with breast cancer receiving chemotherapy presenting with febrile neutropenia, septic shock, and hepatosplenic microabscesses. Two blood cultures and a urine culture grew Burkholderia pseudomallei (E1 confirmatory). Treated with ceftazidime and TMP/SMX with complete resolution of abscesses -> POSITIVE.
+      Evidence [1]: [3221:3422] "On day 6, two blood cultures and a urine culture showed positive for Burkholderia pseud..." -> Blood and urine cultures (POSITIVE)
+[33/55] Case: PMC3959514_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 54-year-old male diabetic presenting with fever, arthritis, and a splenic abscess. Aspirate from the abscess revealed catalase- and oxidase-positive, gram-negative bacillus with bipolar staining and violet colonies with central umbonation in Ashdown's selective agar (Fig. 2), diagnostic of Burkholderia pseudomallei (E1 confirmatory). Treated with ceftazidime and co-trimoxazole -> POSITIVE.
+      Evidence [1]: [2932:3170] "The aspirate from the abscess revealed catalase- and oxidase-positive, gram-negative ba..." -> Splenic abscess aspirate culture on Ashdown's agar (POSITIVE)
+[34/55] Case: PMC5958587_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 53-year-old diabetic farmer with fever for over 1 year and multiple splenic granulomas/abscesses unresponsive to antitubercular drugs. Splenic aspirate bacterial culture grew B. pseudomellei (E1 confirmatory). Treated with IV antibiotics and oral cotrimoxazole/doxycycline with full recovery -> POSITIVE.
+      Evidence [1]: [1864:1977] "bacterial culture from the splenic aspirate grew B. pseudomellei and he was initiated o..." -> Splenic aspirate culture (POSITIVE)
+[35/55] Case: PMC4153165_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 69-year-old male diabetic returned from Malaysia and Thailand presenting with severe pneumonia and septic shock. Both blood and bronchoalveolar lavage (BAL) cultures revealed heavy growth of Burkholderia pseudomallei (E1 confirmatory). Treated with meropenem and TMP-SMX with excellent recovery -> POSITIVE.
+      Evidence [1]: [2333:2407] "Blood and BAL cultures revealed heavy growth of Burkholderia pseudomallei." -> Blood and BAL culture (POSITIVE)
+[36/55] Case: PMC7455599_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 1
+      Rationale: A 63-year-old kidney transplant recipient presenting with a left lung mass. Core-needle biopsy revealed primary lung adenocarcinoma co-existing with localized pulmonary melioidosis: Brown-Hopp stain showed bipolar rods with safety pin appearance and B. pseudomallei grew on tissue culture, with serum antibody titer of 1:1280 (E1 confirmatory). Melioidosis successfully resolved with ceftazidime and cotrimoxazole -> POSITIVE.
+      Evidence [1]: [2032:2171] "The Brown-Hopp stain revealed a single cluster of gram-negative bipolar rods with safet..." -> Lung biopsy Brown-Hopp stain and tissue culture (POSITIVE)
+[37/55] Case: PMC8054788_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 47-year-old diabetic male presenting with intractable hiccups, weight loss, and multiple ring-enhancing splenic abscesses. Pus culture from ultrasound-guided splenic aspiration identified B. pseudomallei on VITEK2 automated system with metallic sheen on MacConkey agar (E1 confirmatory). Successfully treated with IV ceftazidime -> POSITIVE.
+      Evidence [1]: [1423:1645] "B. pseudomallei was identified from the aspirate of the splenic abscess, using the VITE..." -> Splenic abscess aspirate culture and VITEK2 identification (POSITIVE)
+[38/55] Case: PMC8054788_02 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 62-year-old diabetic male presenting with fever, pancreatitis, and acute splenic vein thrombosis. Blood culture revealed Gram-negative bacilli with safety pin appearance and metallic sheen on MacConkey agar, identified as B. pseudomallei by VITEK2 (E1 confirmatory). Successfully treated with meropenem, cotrimoxazole, and enoxaparin -> POSITIVE.
+      Evidence [1]: [1744:1883] "After an incubation period of 72 h, using the VITEK2 (Biomerieux) automated system, the..." -> Blood culture and VITEK2 identification (POSITIVE)
+[39/55] Case: PMC8549391_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 52-year-old diabetic painter in Bihar presenting with septic shock, multiorgan involvement, and multiple deep abscesses in lungs, prostate, shoulder muscle, and spleen. Blood culture isolated Burkholderia pseudomallei confirmed by VITEK-II Compact with 98 % concordance (E1 confirmatory). Treated with high-dose IV meropenem and cotrimoxazole -> POSITIVE.
+      Evidence [1]: [3505:3631] "The identification was confirmed using the VITEK-II Compact system (bioMerieux, Marcy l..." -> Blood culture and VITEK-II Compact identification (POSITIVE)
+[40/55] Case: PMC5394413_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 54-year-old Thai farmer presenting with persistent fever, multiple small liver abscesses, and left portal vein thrombosis. Blood culture results showed Burkholderia pseudomallei (E1 confirmatory). Treated with ceftazidime, amoxicillin-clavulanic acid, and anticoagulation with complete recovery and recanalized portal vein -> POSITIVE.
+      Evidence [1]: [1294:1349] "Blood culture results showed Burkholderia pseudomallei." -> Blood culture (POSITIVE)
+[41/55] Case: PMC3366760_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 46-year-old male nurse in New Caledonia presenting with pneumonia, acute renal failure, and septic shock. Blood cultures and cutaneous abscesses grew B. pseudomallei, confirmed by Pasteur Institute and 16S rRNA gene sequencing (E1 confirmatory). Treated with imipenem and TMP-SMX with recovery -> POSITIVE.
+      Evidence [1]: [286:562] "Blood culture grew an oxidase-positive, gram-negative rod, which was initially identifi..." -> Blood culture and reference confirmation (POSITIVE)
+[42/55] Case: PMC9189518_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 68-year-old male with a pyogenic liver abscess caused by colonic perforation by an impacted denture; pus culture grew E. coli. Microbiological testing for Burkholderia pseudomallei was explicitly negative. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [1706:1877] "The mycobacterial investigations for tuberculosis, amoebiasis, and Burkholderia pseudom..." -> Microbiological and serological investigations for B. pseudomallei (NEGATIVE)
+[43/55] Case: PMC11025418_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 28-year-old male presenting with bilateral chylothorax and disseminated tuberculosis (confirmed by pleural biopsy and positive M. tuberculosis culture). Antibodies for melioidosis were tested in the differential and negative. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [2528:2577] "Antibodies for melioidosis and HIV were negative." -> Antibodies for melioidosis (NEGATIVE)
+[44/55] Case: PMC11070911_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: DIFFERENTIAL_DIAGNOSIS   | Quotes: 1
+      Rationale: A 67-year-old male with lymphoma diagnosed with disseminated Rhodococcus equi infection confirmed by 16S rDNA PCR. Burkholderia pseudomallei is mentioned solely in the discussion as one of several theoretical etiologies for pulmonary cavitary lesions. Never diagnosed or tested in the patient -> EXCLUDED_NON_TARGET_CASE.
+      Evidence [1]: [4089:4278] "Pulmonary cavitary lesions can also be caused by Mycobacterium tuberculosis, nontubercu..." -> Discussion literature review / Differential context (NOT_TESTED)
+[45/55] Case: PMC11279980_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 58-year-old male business traveler to Thailand presenting with severe pneumonia and septic bacteremia. Blood cultures flagged positive; initial standard library MALDI-TOF suggested B. thailandensis, but 16S rRNA gene sequencing definitively identified Burkholderia pseudomallei (99.8% match; E1 confirmatory). Successfully treated with ceftazidime and TMP-SMX -> POSITIVE.
+      Evidence [1]: [3955:4080] "Subsequently, 16 S rRNA gene sequencing identified the organism as Burkholderia pseudom..." -> Blood culture and 16S rRNA gene sequencing (POSITIVE)
+[46/55] Case: PMC11320668_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 50-year-old diabetic male in Sri Lanka presenting with left psoas, splenic, and hepatic abscesses. Burkholderia pseudomallei was isolated from psoas abscess aspiration culture, along with high antibody titers (E1 confirmatory). Treated with IV meropenem -> POSITIVE.
+      Evidence [1]: [1428:1556] "Burkholderia pseudomallei was isolated from psoas abscess aspiration culture and serum ..." -> Psoas abscess aspirate culture and serology (POSITIVE)
+[47/55] Case: PMC10569656_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 25-year-old female presenting on day 43 postpartum with puerperal sepsis and a tubo-ovarian abscess. Peripheral blood culture, high vaginal swab, and tubo-ovarian pus all isolated B. pseudomallei confirmed by Vitek 2 (E1 confirmatory) -> POSITIVE.
+      Evidence [1]: [3718:3822] "Blood culture grew   B. pseudomallei   which was sensitive to ceftazidime, meropenem an..." -> Blood culture, pus culture, and Vitek 2 identification (POSITIVE)
+[48/55] Case: PMC11377925_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 44-year-old male farmer in Laos with a deep foot abscess. Melioidosis was initially suspected; however, B. pseudomallei was not isolated. Species-specific PCR and whole genome sequencing unequivocally identified the organism as Burkholderia thailandensis capsular variant (98.97% ANI to B. thailandensis; only 92.95% to B. pseudomallei). B. pseudomallei melioidosis was definitively ruled out -> NEGATIVE.
+      Evidence [1]: [1763:1939] "B. pseudomallei was subsequently not isolated from any sample, but treatment was change..." -> Blood/pus culture, species PCR, and WGS (NEGATIVE)
+[49/55] Case: PMC10569653_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 24-year-old pregnant woman presenting with prolonged fever, hepatosplenomegaly, and hemophagocytic lymphohistiocytosis (HLH). Blood and bone marrow bacterial cultures isolated non-fermenting Gram-negative bacilli confirmed as Burkholderia pseudomallei by PCR-based 16S rRNA gene sequencing (GenBank OP764052; E1 confirmatory). Treated with ceftazidime, dexamethasone, and TMP-SMX with full recovery -> POSITIVE.
+      Evidence [1]: [2787:2972] "Further identification to the species level was done by PCR-based DNA sequencing of the..." -> Blood/bone marrow culture and 16S rRNA sequencing (POSITIVE)
+[50/55] Case: PMC10748894_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 1-year-old child presenting with Elizabethkingia meningoseptica bacteremia and liver abscesses. Disseminated melioidosis was suspected empirically, but serum melioidosis serology was negative. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [3385:3486] "Mycobacterium tuberculosis culture of the pus and serum melioidosis serology were other..." -> Serum melioidosis serology (NEGATIVE)
+[51/55] Case: PMC10869667_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 21-year-old diabetic male presenting with acute respiratory failure, cough, and multiple cavitary lung nodules (thoracic melioidosis / Whitmore's disease). Blood culture and sensitivity isolated Burkholderia pseudomallei within 3 days (E1 confirmatory). Treated with ceftazidime/avibactam, meropenem, and oral TMP-SMX with clinical recovery -> POSITIVE.
+      Evidence [1]: [1725:1906] "Samples were sent for blood culture and sensitivity, which revealed isolates of Burkhol..." -> Blood culture and sensitivity (POSITIVE)
+[52/55] Case: PMC11774432_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 31-year-old diabetic male presenting with acute undifferentiated febrile illness, jaundice, altered sensorium, hepatosplenic abscesses, and lung consolidation. Blood cultures confirmed the presence of Burkholderia pseudomallei (E1 confirmatory). Started on meropenem -> POSITIVE.
+      Evidence [1]: [2634:2784] "Based on the findings, meropenem was initiated for suspected melioidosis, and later blo..." -> Blood culture (POSITIVE)
+[53/55] Case: PMC11795047_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 57-year-old construction site worker with diabetes and alcohol misuse in non-endemic Australia presenting with cavitary lung disease and septic arthritis of the left elbow. Two peripheral blood cultures, sputum culture, and left elbow joint aspirate culture all grew Burkholderia pseudomallei (E1 confirmatory). Treated with IV meropenem, joint washouts, and eradication TMP-SMX -> POSITIVE.
+      Evidence [1]: [2131:2259] "Two peripheral blood cultures, sputum culture and left elbow joint aspirate culture gre..." -> Blood, sputum, and joint aspirate culture (POSITIVE)
+[54/55] Case: PMC11775950_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 70-year-old male presenting with culture-negative infective endocarditis following cataract surgery. Diagnostic workup for infective causes included serology/testing for melioidosis, which was negative. Melioidosis ruled out -> NEGATIVE.
+      Evidence [1]: [2144:2290] "Tests for Plasmodium falciparum, P. vivax, P. ovale, P. malariae, melioidosis, Brucella..." -> Infectious disease serology panel including melioidosis (NEGATIVE)
+[55/55] Case: PMC11806386_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 51-year-old diabetic dock worker in Malaysia presenting with lower back pain and a distal aortic mycotic aneurysm with acute rupture. Intraoperative aortic tissue and pus cultures grew B. pseudomallei (E1 confirmatory). Managed with open graft repair, meropenem, ceftazidime, and long-term oral doxycycline -> POSITIVE.
+      Evidence [1]: [1979:2134] "intraoperative tissue and pus cultures grew B. pseudomallei, which was sensitive to tri..." -> Intraoperative tissue and pus culture (POSITIVE)
+
+================================================================================
+END OF LOG — ALL 55 PAIRS AUDITED, VERIFIED AND COMPLETE
+================================================================================

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9053524_01",
+  "pair_id": "PMC9053524_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 20.0,
+  "raw_case_text": "A 29-year-old Nepalese woman, who has been living in Belgium for 14 years, presented to the emergency department with worsening headache. She described unilateral headaches since 10 days with nausea and vomiting, not responsive to analgesics.\nThe neurological examination was unremarkable. There was no evidence of papilledema.\nBrain computed tomography (CT) showed dilatation of the supratentorial ventricles with signs of transependymal edema (Figure 1a). A parenchymal calcification in the left occipital region was noticed. Brain MRI confirmed the acute triventricular hydrocephalus with aqueductal stenosis due to an intraluminal web (Figure 1b). A lobulated cystic lesion was seen in the occipital horn of the right lateral ventricle containing a small solid eccentric nodule with diffusion restriction (Figure 2a-c). There was no evidence of Gadolinium enhancement. Endoscopic ventriculostomy and septostomy under neuronavigation were performed. The changed location of the intraventricular cyst on the postoperative MRI confirmed its free-floating character (Figure 2d).\nSubsequently, medical treatment with antiparasitic therapy (Albendazole) and steroids was started for two weeks. The patient responded well to therapy and could leave the hospital after 10 days. Meanwhile the diagnosis of NC was confirmed by serological tests detecting Taenia solium antigen and antibodies (ELISA) in the CSF and serum.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old Nepalese woman living in Belgium presented to the emergency department with a 10-day history of worsening unilateral headache accompanied by nausea and vomiting.",
+      "history_of_present_illness": "Over the 10 days prior to presentation, the patient experienced progressively worsening unilateral headaches associated with nausea and vomiting that failed to respond to analgesics.",
+      "past_medical_history": "Originally from Nepal and had resided in Belgium for 14 years.",
+      "review_of_systems": "Positive for unilateral headache, nausea, and vomiting; prior analgesic use was ineffective."
+    },
+    "objective": {
+      "physical_examination": "Neurological examination was unremarkable, and fundoscopy showed no papilledema.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain CT demonstrated supratentorial ventricular dilatation with transependymal edema and a left occipital parenchymal calcification. Brain MRI confirmed acute triventricular hydrocephalus with aqueductal stenosis due to an intraluminal web and identified a non-enhancing lobulated cystic lesion in the occipital horn of the right lateral ventricle containing a small eccentric solid nodule (scolex) with diffusion restriction. Postoperative MRI following neuronavigation-guided endoscopic ventriculostomy and septostomy showed migration of the intraventricular cyst, confirming its free-floating nature."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Intraventricular and calcified parenchymal neurocysticercosis was confirmed by MRI visualization of the mobile cyst with scolex and positive Taenia solium antigen and antibody ELISAs in both CSF and serum. Following neuronavigation-guided endoscopic ventriculostomy and septostomy, she completed a 2-week regimen of albendazole and corticosteroids, responded well, and was discharged home after 10 days."
+    }
+  }
+}

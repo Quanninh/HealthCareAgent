@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10860505_01",
+  "pair_id": "PMC10860505_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 10.0,
+  "raw_case_text": "A 52-year-old female patient presented with a history of fever, headache, and vomiting for 2 months. Based on her symptoms and background, an initial diagnosis of CNS tuberculosis (TB) was suspected. Subsequently, a gene expert test for TB was negative, and CSF analysis revealed normal protein, sugar, and lactate levels.\nT2-weighted MRI imaging (T2WI) of the brain showed expansion of the left prepontine cistern with the subtle presence of fluid-signal intensity cystic lesions, which extended posterior to the midbrain and displaced it towards the contralateral side (Figure 1A and B). Moderate hydrocephalus was also noted. The lesions were better delineated on FIESTA images with thin septations as additional findings; these septations were not seen on T2 (Figure 1C and D). No scolex was identified, and there was no post-contrast enhancement. Based on imaging findings, a diagnosis of racemose NCC was made. The patient was put on conservative medications and is currently on follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old woman presented with a 2-month history of fever, headache, and vomiting.",
+      "history_of_present_illness": "The patient experienced persistent fever, headache, and vomiting over a 2-month period prior to presentation.",
+      "past_medical_history": null,
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "CSF analysis showed normal protein, glucose, and lactate levels, and a GeneXpert test for Mycobacterium tuberculosis was negative. Brain MRI (T2WI and FIESTA sequences) demonstrated expansion of the left prepontine cistern by fluid-signal cystic lesions with thin internal septations (delineated on FIESTA) extending posterior to and displacing the midbrain contralaterally, accompanied by moderate hydrocephalus, with no identifiable scolex and no post-contrast enhancement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Initial suspicion of CNS tuberculosis was ruled out by negative GeneXpert testing and normal CSF biochemistry, and a diagnosis of subarachnoid racemose neurocysticercosis was established based on characteristic FIESTA MRI findings. The patient was managed conservatively with medical therapy and remains on follow-up."
+    }
+  }
+}

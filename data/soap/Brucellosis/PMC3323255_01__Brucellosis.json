@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3323255_01",
+  "pair_id": "PMC3323255_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "In early November 2001, a 57-year-old female laboratory worker (laboratory worker 1) began experiencing nonspecific symptoms of malaise, vomiting, headache, lower leg cramping, anorexia, and fever. One week after onset of symptoms, she was evaluated for severe headaches at a local emergency room, where cerebrospinal fluid (CSF) and blood cultures were collected. The CSF culture was negative. From the blood culture, small, gram-positive bacilli were isolated and characterized as coryneform bacilli, which are usually interpreted as contaminants of unknown clinical importance. Despite multiple hospital admissions, the laboratory worker continued to have symptoms, but her condition remained undiagnosed. Approximately 5 weeks after symptom onset, colleagues from the hospital microbiology laboratory where she was employed (laboratory 1) drew her blood for culture again. After 5 days of incubation, gram-variable coccobacilli, later identified as Brucella spp., were isolated. Subculturing and biochemical tests were conducted in a class II biosafety cabinet. The Brucella serum agglutination test (SAT) was reactive (1:640) at the NYSDOH laboratory, Wadsworth Center. Laboratory worker 1 was initially treated with doxycycline and gentamicin, followed by doxycycline and rifampin, for 6 weeks of outpatient therapy. The isolate was later identified as B. melitensis by the Wadsworth Center and confirmed by the Centers for Disease Control and Prevention. The patient has not relapsed 18 months after completing treatment.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 57-year-old female microbiology laboratory worker presented in early November 2001 with a 5-week history of persistent fever, severe headache, malaise, vomiting, anorexia, and lower leg cramping.",
+      "history_of_present_illness": "In early November 2001, a 57-year-old female clinical microbiology technician (laboratory worker 1) developed malaise, vomiting, severe headache, lower leg cramps, anorexia, and fever. One week after symptom onset, an emergency department LP was negative and a blood culture grew tiny bacilli misidentified as coryneform contaminants. Despite multiple hospitalizations over 5 weeks, her febrile illness persisted until laboratory colleagues repeated her blood cultures.",
+      "past_medical_history": "Clinical microbiology laboratory technician who routinely subcultured blood culture bottles and performed catalase tests on an open bench without a biosafety cabinet (later linked to processing a blood culture from a 76-year-old Peruvian-born patient in September 2001). Denied foreign travel, unpasteurized dairy intake, or animal contact.",
+      "review_of_systems": "Positive for fever, severe headache, malaise, vomiting, anorexia, and lower leg cramping."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Initial emergency department blood culture at week 1 grew small bacilli misclassified as coryneform bacilli.",
+      "advanced_workup": "Emergency department lumbar puncture CSF culture was negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Repeat blood cultures drawn 5 weeks after symptom onset grew Gram-variable coccobacilli after 5 days of incubation, identified as Brucella melitensis by the NYSDOH Wadsworth Center and CDC, with a reactive Brucella serum agglutination test (SAT) titer of 1:640, confirming laboratory-acquired Brucella melitensis bacteremia. Treated with initial doxycycline and gentamicin followed by a 6-week outpatient course of oral doxycycline and rifampin, with no relapse at 18 months post-treatment."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6800944_01",
+  "pair_id": "PMC6800944_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A fifty-nine-year-old female, from Western Terai region of Nepal, presented with slightly itchy lesion on trunk and arm for one year. The first lesion was noted on chest, then gradually new lesions were seen on the arm and lower back. It started as skin color small palpable lesion that gradually increased in size giving ring shape. There was no history of other disease and drug intake. She was a farmer by occupation.\nOn examination, there were multiple skin color and slightly erythematous annular and polycyclic plaques with elevated, beaded border with central clearing. Lesions were distributed over chest, forearm, upper, and lower back with size ranging from 2 cm to 10 cm in diameter (Figures 1-3). The sensation was intact and peripheral nerves were not thickened.\nThe clinical possibilities considered were granuloma annulare, leprosy, annular sarcoid, and actinic granuloma.\nComplete haemogram, renal and liver function test, blood glucose level, and routine urine examination were within normal range.\nThe elliptical incisional biopsy was taken from the margin of lesion and sent for histopathological examination. It showed keratinized stratified squamous epithelium with normal maturation. There was loss of elastic fibres at focal area of upper dermis (Figure 4). The periphery of the lesion showed many multinucleated giant cell and histiocyte along with few lymphocyte and plasma cell. Engulfed elastic fibres by multinucleated giant cells were also noted (Figure 5).\nThe patient was prescribed topical steroid, but showed no improvement at follow up after six weeks.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 59-year-old female farmer from the Western Terai region of Nepal presented with a 1-year history of mildly pruritic annular plaques over her chest, upper and lower back, and forearm.",
+      "history_of_present_illness": "One year prior to presentation, the patient noticed a small skin-colored papule on her chest that gradually expanded centrifugally into a ring-shaped plaque, followed by the appearance of similar annular lesions over her forearm and upper and lower back.",
+      "past_medical_history": "Farmer from Western Terai, Nepal; no comorbidities or medication history.",
+      "review_of_systems": "Positive for mild lesional pruritus; negative for sensory loss or systemic complaints."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed multiple skin-colored to mildly erythematous annular and polycyclic plaques (2 to 10 cm in diameter) with elevated, beaded borders and central clearing distributed over the chest, forearm, and upper and lower back. Cutaneous sensation was intact and peripheral nerves were not thickened.",
+      "routine_investigations": "Complete hemogram, liver and renal function tests, blood glucose, and routine urinalysis were within normal limits.",
+      "advanced_workup": "An elliptical incisional biopsy from the raised lesion margin demonstrated normal epidermal maturation, focal upper dermal loss of elastic fibers, and a peripheral infiltrate of multinucleated giant cells and histiocytes with few lymphocytes and plasma cells exhibiting prominent elastophagocytosis (giant-cell engulfment of elastic fibers)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathological demonstration of upper dermal elastolysis and multinucleated giant-cell elastophagocytosis confirmed annular elastolytic giant cell granuloma (actinic granuloma), ruling out leprosy, classic granuloma annulare, and annular sarcoidosis. Topical corticosteroid therapy produced no clinical improvement at 6-week follow-up."
+    }
+  }
+}

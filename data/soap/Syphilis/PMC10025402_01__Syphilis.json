@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10025402_01",
+  "pair_id": "PMC10025402_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The eight patients reported here came from different parts of the southern region of Haiti. There was no temporal or geographic clustering of these patient cases. The available information on these eight lok cases is presented in Table 1. The ages of the eight children suggested that there were two periods when an infant was at risk of being given lok, either in the immediate neonatal period or at 2-3 weeks of age. We could not assume that the parent was responsible for giving the tea, as other women in the family, such as grandmothers and traditional birth attendants, play a prominent role in Haitian newborn care.\nA brief description of a representative patient is as follows:\nA term baby was born to a young mother after 18 h of labor at HIC. It was her first child and the pregnancy was unplanned. She had no routine prenatal care beyond being vaccinated with tetanus during pregnancy and having negative screens for HIV and syphilis. She had a urinary tract infection that was untreated. There was no diabetes or hypertension. The baby was born with a cephalic presentation with a spontaneous cry and was discharged home without pediatric evaluation.\nOn the third day of life, lok was given by a family member at home. The baby presented to the nursery the following day appearing to be septic. The infant was febrile, dyspneic, and dehydrated with yellow secretions from the mouth. He had a poor suck. Bowel sounds were present and there was no abdominal distention. After use of a nasogastric tube, dark oily secretions were aspirated. Over the next day, the infant developed seizures, and in spite of anticonvulsants and antibiotic therapy, he died on the sixth day of hospitalization.\nIn some of the patients, the clinical picture looked as though it included an aspiration pneumonia with the bitterness of the teas and the distastefulness of castor potentially contributing to vomiting and aspiration.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 4-day-old term male infant presented to the nursery appearing septic with fever, dyspnea, dehydration, poor suck, and yellow oral secretions.",
+      "history_of_present_illness": "The term male infant was born via cephalic presentation after 18 hours of labor with a spontaneous cry and was discharged home without pediatric evaluation. On the third day of life, he was given traditional herbal tea ('lok' containing castor oil) by a family member at home, which potentially contributed to vomiting and aspiration. The following day (day 4 of life), he presented to the nursery with fever, dyspnea, dehydration, yellow oral secretions, and poor suck.",
+      "past_medical_history": "Born at term to a young primigravida mother in southern Haiti following an unplanned pregnancy with no routine prenatal care except prenatal tetanus vaccination. Maternal prenatal screens for HIV and syphilis were negative; the mother had an untreated urinary tract infection during pregnancy and no history of diabetes or hypertension. Family members such as grandmothers and traditional birth attendants participated in newborn care.",
+      "review_of_systems": "Positive for fever, dyspnea, poor suck, and yellow oral secretions; negative for abdominal distention."
+    },
+    "objective": {
+      "physical_examination": "The infant appeared septic, febrile, dyspneic, and dehydrated with yellow secretions from the mouth and a poor suck. Abdominal examination revealed present bowel sounds and no abdominal distention. Nasogastric tube aspiration yielded dark oily secretions.",
+      "routine_investigations": "Maternal prenatal screening tests for HIV and syphilis were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Diagnosed with neonatal sepsis and suspected aspiration pneumonia secondary to traditional 'lok' administration (syphilis excluded via negative maternal prenatal screening). Over the next day, the infant developed seizures and was treated with anticonvulsants and antibiotic therapy, but died on the sixth day of hospitalization."
+    }
+  }
+}

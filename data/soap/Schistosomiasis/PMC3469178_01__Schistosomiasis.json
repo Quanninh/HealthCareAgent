@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3469178_01",
+  "pair_id": "PMC3469178_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "This patient was a 60-years-old man who attended urology outpatient clinic of our teaching hospital in May 2008 with a 3-month history of features of urinary frequency, dysuria and hematuria. There was no history of diabetes, sexually transmitted infection or trauma. Also he had a short stay history about 20 years ago in Khuzestan Province (neighboring province of Persian Gulf in Iran). Khuzestan is the only area in south-west Iran where urinary schistosomiasis was prevalent. On examination, his vital signs were essentially normal direct rectal examination showed a mild enlarged prostate with smooth surface and his serum prostatic specific antigen (PSA) was 2.2 ng/mL, which is normal for age/assumed prostatic volume. His preliminary hematological and renal function tests were normal, in suprapubic sonography that was done from his bladder, it showed a polypoid tumor on the floor of his bladder (Fig. 1), after cystoscopy and obtaining three specimens from bladder mass the histopathology study showed simultaneous squamous cell, transitional cell carcinoma (superficial type), and S. haematobium (Fig. 2 and 3), and then patient treated classically for bladder cancer (TUR-T, locally chemotherapy) and schistosomiasis (Praziquantel). After nearly 7 months treatment and follow-up (cystoscopy and biopsy), there was not any sign of disease.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 60-year-old man presented in May 2008 with a 3-month history of urinary frequency, dysuria, and hematuria.",
+      "history_of_present_illness": "The patient attended the urology outpatient clinic with a 3-month history of irritative lower urinary tract symptoms (urinary frequency and dysuria) accompanied by hematuria.",
+      "past_medical_history": "No history of diabetes, sexually transmitted infections, or trauma. History of a short stay approximately 20 years earlier in Khuzestan Province in southwestern Iran (an endemic region for urinary schistosomiasis).",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Vital signs were normal; digital rectal examination revealed a mildly enlarged prostate with a smooth surface.",
+      "routine_investigations": "Preliminary hematological and renal function tests were normal, and serum prostate-specific antigen (PSA) was 2.2 ng/mL (normal for age and prostatic volume). Suprapubic bladder ultrasonography demonstrated a polypoid tumor on the bladder floor.",
+      "advanced_workup": "Cystoscopy with three biopsy specimens of the bladder mass demonstrated synchronous superficial squamous cell carcinoma, transitional cell carcinoma, and Schistosoma haematobium ova on histopathology."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed synchronous superficial squamous cell and transitional cell bladder carcinoma associated with chronic urogenital Schistosoma haematobium infection. He was treated with transurethral resection of the bladder tumor (TURBT), intravesical chemotherapy, and oral praziquantel, with no evidence of residual or recurrent disease on follow-up cystoscopy and biopsy at nearly 7 months."
+    }
+  }
+}

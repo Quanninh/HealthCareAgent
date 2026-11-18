@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7294955_01",
+  "pair_id": "PMC7294955_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 53-year-old man presented with a 4-month history of painful lesions on the inner side of his left thigh with drainage of purulent secretion. His past medical history included gouty arthritis and chronic use of corticosteroids for eight years. On physical examination, he had ulcers with high, well-defined edges, covered with necrotic and purulent material on the inner side of the left thigh, resembling pyoderma gangrenosum (Figure A). Histopathological examination revealed dermis with a diffuse infiltrate mixed with lymphocytes, histiocytes, neutrophils and plasma cells. Numerous fungal structures involving yeast in the dermis were observed by the Grocott methanamine silver stain (Figure B). These findings allowed the diagnosis of cutaneous cryptococcosis. Extracutaneous involvement was ruled out by analyzing cerebrospinal fluid, and by performing chest radiography and bronchoalveolar lavage. However, blood cultures exhibited fungal growth. Treatment with 200 mg intravenous fluconazole 12/12 h was instituted, with clinical improvement after the third week, at which point the patient was discharged. After 80 days of oral treatment, the lesions were significantly improved, with approximately 75% regression (Figure C). \nCutaneous cryptococcosis is a rare disease characterized by varied lesion morphology, including umbilicated papules, plaques, nodules, pustules, granulomas, abscesses or ulcerations  . There are few reports in the literature of lesions mimicking pyoderma gangrenosum, which presents ulcers with high and well-defined edges. Cryptococcosis should be considered in the differential diagnosis of refractory ulcers, especially in immunosuppressed patients.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 53-year-old man on chronic corticosteroids for gouty arthritis presented with a 4-month history of painful purulent ulcerated lesions on the inner aspect of his left thigh.",
+      "history_of_present_illness": "Over the 4 months prior to presentation, the patient developed progressively painful ulcers with purulent drainage on his medial left thigh that resembled pyoderma gangrenosum.",
+      "past_medical_history": "Gouty arthritis treated with chronic systemic corticosteroids for 8 years.",
+      "review_of_systems": "Positive for painful purulent medial left thigh ulcers. Home medications included chronic corticosteroids (8 years)."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination of the medial left thigh revealed deep ulcers with high, well-defined undermined borders covered by necrotic and purulent material, clinically mimicking pyoderma gangrenosum.",
+      "routine_investigations": "Chest radiography was normal; blood cultures were positive for fungal growth (Cryptococcus).",
+      "advanced_workup": "Skin biopsy histopathology of the left thigh ulcer demonstrated a diffuse mixed dermal infiltrate (lymphocytes, histiocytes, neutrophils, and plasma cells) with numerous yeast structures highlighted by Grocott methenamine silver (GMS) staining. Cerebrospinal fluid analysis and bronchoalveolar lavage were negative for extracutaneous involvement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of pyoderma gangrenosum-like cutaneous cryptococcosis with cryptococcemia in a patient on long-term corticosteroid therapy, confirmed by skin biopsy Grocott methenamine silver staining and positive fungal blood cultures (with negative CSF, chest X-ray, and BAL). Treated with intravenous fluconazole 200 mg every 12 hours for 3 weeks followed by outpatient oral fluconazole, achieving clinical improvement by week 3 and ~75% ulcer regression after 80 days of oral therapy."
+    }
+  }
+}

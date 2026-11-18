@@ -1,0 +1,519 @@
+================================================================================
+CLINICAL CLAIM ANNOTATION RUN LOG: LEPROSY
+MultiCaRe Clinical Gold Standard — new_disease_pool
+Timestamp: 2026-11-10T03:45:57Z
+================================================================================
+
+1. RUN CONFIGURATION & METADATA
+--------------------------------------------------------------------------------
+Target Disease        : Leprosy
+Disease Slug          : leprosy
+Annotation Pool       : new_disease_pool
+Input File            : input/input_leprosy.jsonl
+Output File           : output/output_leprosy.jsonl
+Total Candidate Pairs : 121
+Protocol              : 12-Step Gold Standard Clinical Claim Protocol (04_gold_standard_annotation_protocol.md)
+Evidence Specificity  : Disease Evidence Matrix (03_evidence_specificity_matrix.md Sec 5)
+
+2. EXECUTION & STATISTICAL AUDIT SUMMARY
+--------------------------------------------------------------------------------
+Total Candidates Input     : 121
+Total Candidates Evaluated : 121
+Validation Status          : PASSED (100% exact verbatim character offsets verified)
+VPD Criteria Satisfied     : 29 / 121 (24.0%)
+
+Decision Distribution:
+  - POSITIVE                    :   66 ( 54.5%)
+  - NEGATIVE                    :   33 ( 27.3%)
+  - EXCLUDED_NON_TARGET_CASE    :   10 (  8.3%)
+  - EXCLUDED_NON_SINGLE_PATIENT :    5 (  4.1%)
+  - EXCLUDED_NON_CASE_REPORT    :    5 (  4.1%)
+  - EXCLUDED_NON_HUMAN          :    2 (  1.7%)
+
+Evidence Strength Distribution:
+  - E1_CONFIRMATORY                   :   50 ( 41.3%)
+  - E0_CONTRADICTED                   :   38 ( 31.4%)
+  - E2_HIGHLY_SPECIFIC                :   17 ( 14.0%)
+  - E4_CONTEXT                        :   15 ( 12.4%)
+  - E3_SUPPORTIVE                     :    1 (  0.8%)
+
+Clinical Role Distribution:
+  - PRIMARY_DIAGNOSIS               :   57 ( 47.1%)
+  - RULED_OUT_DIAGNOSIS             :   34 ( 28.1%)
+  - COMORBIDITY                     :    8 (  6.6%)
+  - BACKGROUND_ONLY                 :    5 (  4.1%)
+  - NOT_APPLICABLE                  :    3 (  2.5%)
+  - SECONDARY_DIAGNOSIS             :    3 (  2.5%)
+  - EPIDEMIOLOGICAL_CONTEXT         :    3 (  2.5%)
+  - EXCLUDED_ROLE                   :    3 (  2.5%)
+  - PAST_HISTORY                    :    3 (  2.5%)
+  - BACKGROUND_LITERATURE_REFERENCE :    2 (  1.7%)
+
+Quality & Confidence Audit:
+  - Confidence HIGH            :  121 (100.0%)
+
+3. PER-CASE CLINICAL TRACE & EVIDENCE AUDIT
+--------------------------------------------------------------------------------
+[001/121] Case: PMC6111644_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 46-year-old male presenting with sensory loss and paresthesia in bilateral lower legs was admitted and evaluated for Hansen's disease. Physical examination revealed no cutaneous lesions suggestive of leprosy and peripheral nerve trunks were not thickened. Slit skin smear from earlobes demonstrated no acid-fast bacilli. Leprosy was ruled out, and the patient was ultimately diagnosed with HIV neuropathy (distal symmetric polyneuropathy).
+      Evidence [1]: [692:770] "Slit skin smear taken from earlobes did not demonstrate any acid-fast bacilli." -> Slit skin smear acid-fast stain (NEGATIVE)
+      Evidence [2]: [209:277] "On examination, there was no cutaneous lesion suggestive of leprosy." -> Physical examination (NEGATIVE)
+[002/121] Case: PMC8184239_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 41-year-old male presented with leonine facies, madarosis, swollen digits, and hypesthetic macules. Slit-skin smear was positive with a bacteriological index of 4.38+, and synovial fluid aspiration from an interphalangeal joint revealed numerous acid-fast bacilli. Skin biopsy of a hypesthetic macule showed Grenz zone with foamy histiocytes confirming lepromatous leprosy. The patient was treated with multibacillary multidrug therapy with clinical improvement.
+      Evidence [1]: [858:954] "A slit-skin smear showed a bacterial index of 4.38+ (Figure 3) and a morphological inde..." -> Slit-skin smear (POSITIVE)
+      Evidence [2]: [1121:1249] "Acid-fast staining of synovial fluid from the interphalangeal joint of the hand reveale..." -> Synovial fluid acid-fast staining (POSITIVE)
+      Evidence [3]: [1250:1490] "Histopathological examination on a hypesthetic macule from the back showed epidermal at..." -> Skin biopsy histopathology (POSITIVE)
+[003/121] Case: PMC5015501_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 21-year-old male presented with generalized nodular lesions for 2 years. Slit skin smear stained by modified Ziehl-Neelsen stain revealed characteristic acid-fast bacilli with a bacterial index of 4+. Skin biopsy demonstrated diffuse histiocytic dermal infiltration with acid-fast bacilli highlighted by Fite-Faraco stain, and nerve examination demonstrated bilateral peripheral nerve thickening (greater auricular, ulnar, common peroneal). Multibacillary multidrug therapy led to marked clinical improvement.
+      Evidence [1]: [1840:1996] "Examination of stained smear revealed characteristic AFB in large numbers [Figure 2]. A..." -> Slit skin smear modified ZN stain (POSITIVE)
+      Evidence [2]: [2278:2331] "AFB were highlighted by Fite-Faraco stain [Figure 4]." -> Fite-Faraco stain of skin biopsy (POSITIVE)
+      Evidence [3]: [2537:2680] "bilateral greater auricular, ulnar, common peroneal nerves showing thickening. This fin..." -> Nerve stimulation and palpation examination (POSITIVE)
+[004/121] Case: PMC10141254_01 | Decision: EXCLUDED_NON_HUMAN       | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: The case subject is a 3-year-old neutered domestic shorthair cat presenting with nodular dermatitis caused by Exophiala spinifera (phaeohyphomycosis). Leprosy syndrome was mentioned only as a veterinary differential diagnostic consideration in an animal subject. Non-human/veterinary cases are excluded from the clinical gold standard.
+      Evidence [1]: [0:121] "A 3-year-old neutered domestic shorthair cat was referred for a nodular dermatitis that..." -> Veterinary clinical examination (POSITIVE)
+[005/121] Case: PMC4926288_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 60-year-old male with chronic ulcerating nodules at distal phalangeal joints was evaluated for systemic granulomatous diseases including sarcoidosis, mycobacteriosis, and Hansen's disease. Neurological examination was normal and biopsies of finger nodules showed non-caseating granulomas with negative microbiological tests and PCR for microbial DNA. The patient experienced complete recovery with systemic corticosteroid therapy, confirming sarcoidosis. Hansen's disease was ruled out.
+      Evidence [1]: [1265:1540] "Because of the persistence of symptoms and the concomitant appearance of chronic chest ..." -> Differential diagnostic consideration (NEGATIVE)
+      Evidence [2]: [3181:3475] "Biopsies of finger nodules and perimalleolar plaque were performed for pathologic and m..." -> Biopsy and PCR for microbial DNA (NEGATIVE)
+[006/121] Case: PMC9215351_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 65-year-old male with an extensive neck plaque of 11 years duration was evaluated for infectious and granulomatous etiologies. Microscopic examination for Mycobacterium leprae and serological/ELISPOT assays for leprosy were negative. Leprosy was excluded, and the patient was confirmed to have giant lupus vulgaris (cutaneous tuberculosis) via molecular detection and mycobacterial culture, responding completely to antitubercular therapy.
+      Evidence [1]: [998:1220] "microscopic examination of Mycobacterium leprae, IgM and IgG levels against NDO-LID as ..." -> Microscopic examination and serology for M. leprae (NEGATIVE)
+[007/121] Case: PMC5220437_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 22-year-old male presented with fever, arthritis, elbow/knee rash, and painful external ear lesions masquerading as relapsing polychondritis. Biopsy from an elbow lesion showed lymphohistiocytic infiltrate with acid-fast bacilli on Ziehl-Neelsen and positive Fite-Faraco stain confirming leprosy. The patient achieved complete resolution of symptoms on multidrug therapy (clofazimine, dapsone, and rifampicin).
+      Evidence [1]: [2608:2738] "Ziehl-Neelsen stain was positive for acid fast bacilli, and positive Fite-Faraco stain ..." -> Fite-Faraco stain and ZN stain (POSITIVE)
+      Evidence [2]: [2739:2927] "Patient was treated with the combination of clofazimine, dapsone, and rifampicin. He be..." -> Response to multidrug therapy (POSITIVE)
+[008/121] Case: PMC6526580_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 7-year-old girl presented with severe dapsone-induced agranulocytosis and submandibular abscess. History revealed she had been on rifampicin and dapsone for 2 months for underlying borderline leprosy, with two hypopigmented lesions on the left arm displaying definite loss of thermal sensation (WHO cardinal sign 1). The agranulocytosis resolved following cessation of dapsone and intensive supportive therapy. Leprosy is an affirmed underlying condition / comorbidity.
+      Evidence [1]: [516:657] "There were two hypopigmented skin lesions over the left arm with loss of thermal sensat..." -> Sensory testing of hypopigmented lesions (POSITIVE)
+      Evidence [2]: [704:861] "The underlying diagnosis of leprosy was apparent with direct questioning, and it was re..." -> MDT antileprosy treatment regimen (POSITIVE)
+[009/121] Case: PMC4700577_01 | Decision: EXCLUDED_NON_SINGLE_PATIENT | Evidence: E4_CONTEXT           | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: This publication is a retrospective review of 15 cases of leprosy diagnosed in Denmark between 1980 and 2010. It compiles aggregate demographic, geographic, and clinical data across a cohort rather than reporting a single individual patient episode. Non-single patient aggregate studies are excluded.
+      Evidence [1]: [0:83] "Leprosy was predominately imported to Denmark from South- and Southeast Asia (87 %)" -> Epidemiological cohort review (POSITIVE)
+[010/121] Case: PMC7411477_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 16-year-old female presented with fever and anetodermic plaques with decreased cold and touch sensation, accompanied by enlarged and tender bilateral ulnar and left common peroneal nerves. Slit-skin smear revealed acid-fast bacilli with a bacteriological index of 3+, and skin biopsy demonstrated epithelioid granulomas with perineural lymphocytic infiltration, confirming multibacillary leprosy with Type 1 reaction. Multidrug therapy was initiated with clinical improvement.
+      Evidence [1]: [1258:1387] "A slit skin smear with Ziehl-Neelsen stain was performed, revealing multiple acid-fast ..." -> Slit skin smear Ziehl-Neelsen stain (POSITIVE)
+      Evidence [2]: [1051:1193] "All the plaques had decreased sensation to cold and touch. Bilateral ulnar nerves and t..." -> Neurological and sensory examination (POSITIVE)
+      Evidence [3]: [1897:2111] "The patient was diagnosed as a case of multibacillary leprosy with Type 1 reaction. Tre..." -> Clinical diagnosis and MDT response (POSITIVE)
+[011/121] Case: PMC7670735_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 43-year-old female with chronic Chagas disease was under active medical care for dimorphic leprosy previously diagnosed by positive smear microscopy and asymmetric multiple mononeuritis. She presented with acute symptomatic COVID-19 infection confirmed by RT-PCR while undergoing treatment modifications for her leprosy. Dimorphic leprosy represents an affirmed comorbidity/coinfection.
+      Evidence [1]: [105:229] "diagnosed with dimorphic leprosy in 2010 via positive smear microscopy and the presence..." -> Smear microscopy and neurological examination (POSITIVE)
+      Evidence [2]: [230:314] "She started treatment with multibacillary multidrug therapy (MDT-MB) in August 2010." -> Multibacillary multidrug therapy (POSITIVE)
+[012/121] Case: PMC4763575_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 38-year-old male with HIV and disseminated tuberculosis on ART developed an anesthetic plaque on the forearm/hand and bilateral ulnar nerve enlargement with tenderness 5 months after ART initiation. Skin biopsy revealed granulomas composed of Langhans giant cells, epithelioid cells, and perivascular infiltrate consistent with borderline tuberculoid leprosy in Type 1 lepra reaction (IRIS). MB-MDT was started, resulting in marked alleviation of leprosy symptoms.
+      Evidence [1]: [887:1011] "All modalities of sensations were lost in these lesions. Both ulnar nerves were thicken..." -> Clinical and sensory examination (POSITIVE)
+      Evidence [2]: [1088:1452] "Histopathological examination showed dermal edema, diffuse granulomas composed of Langh..." -> Skin biopsy histopathology (POSITIVE)
+[013/121] Case: PMC7249544_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 75-year-old female presenting with facial swelling and erythema was found to have complete superior vena cava obstruction secondary to thrombosis. Leprosy was listed among infiltrative differential diagnostic considerations for solid facial edema. Facial skin biopsy revealed only solar elastosis, ruling out leprosy and other infiltrative disorders.
+      Evidence [1]: [1545:1730] "The differential diagnosis included solid facial edema (Morbihan's syndrome) and variou..." -> Differential diagnosis (NEGATIVE)
+      Evidence [2]: [1851:2038] "Biopsy of the facial skin reported benign solar elastosis, with no other significant pa..." -> Facial skin biopsy (NEGATIVE)
+[014/121] Case: PMC9300819_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 42-year-old male presenting with fever of unknown origin, wasting syndrome, and peripheral neuropathy was diagnosed with lepromatous leprosy. Bone marrow biopsy demonstrated Mycobacterium leprae forming globi. Slit-skin smear bacteriological index was 4.16, real-time qPCR for M. leprae was positive (Ct 19), and skin biopsy showed BI 6.0 and positive qPCR. Multidrug antileprosy therapy led to dramatic recovery.
+      Evidence [1]: [2430:2516] "A bone marrow biopsy (Figures 1, 2 ) revealed the presence of M. leprae forming globi." -> Bone marrow biopsy (POSITIVE)
+      Evidence [2]: [2658:2728] "The slit skin smear Bacilloscopy Index (BI) mean was 4.16 ( Table 3 )." -> Slit skin smear bacilloscopy (POSITIVE)
+      Evidence [3]: [3000:3105] "The slit skin smear DNA M. leprae qPCR was positive Ct = 19 (normal values <= 35) with ..." -> M. leprae qPCR (POSITIVE)
+[015/121] Case: PMC2993023_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 44-year-old male presented with a massive mutilating facial ulcer. Leprosy was raised as an initial clinical suspicion along with Wegener's granulomatosis, but multiple biopsies confirmed basal cell carcinoma. Leprosy was ruled out.
+      Evidence [1]: [578:742] "The clinical diagnosis was BCC, but the possibility of Wegener's granulomatosis also em..." -> Differential clinical suspicion (NEGATIVE)
+      Evidence [2]: [1031:1090] "Multiple biopsies confirmed the presence of BCC (Figure 2)." -> Histopathology biopsy (NEGATIVE)
+[016/121] Case: PMC5795734_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 60-year-old male with a history of lepromatous leprosy presented with an acutely tender left inguinal mass representing erythema nodosum leprosum (ENL). FNAC of the lesion demonstrated neutrophils, foamy macrophages, and numerous intracellular and extracellular lepra bacilli confirmed on Fite stain.
+      Evidence [1]: [697:866] "In view of clinical and cytological findings, Fite stain for lepra bacilli was performe..." -> FNAC Fite stain for lepra bacilli (POSITIVE)
+      Evidence [2]: [101:215] "The patient was a known case of lepromatous leprosy, and completed the multi drug treat..." -> Past medical history (POSITIVE)
+[017/121] Case: PMC7083362_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 32-year-old male presented with nodular skin lesions and bilateral peripheral nerve enlargement. Slit-skin smears demonstrated multibacillary leprosy with a high bacterial index, and skin punch biopsy showed intertwining spindle-cell proliferation packed with acid-fast bacilli on modified Ziehl-Neelsen and Fite stains, confirming histoid leprosy. Treatment with MB-MDT led to clinical resolution.
+      Evidence [1]: [560:679] "Skin slit smears from both the ear lobes confirmed the diagnosis as multibacillary lepr..." -> Ear lobe slit skin smears (POSITIVE)
+      Evidence [2]: [985:1137] "PAS, Warthin Starry, and a modified Ziehl-Neelsen stain highlighted numerous acid-fast ..." -> Biopsy modified ZN stain (POSITIVE)
+      Evidence [3]: [510:559] "There was bilateral peripheral nerve involvement." -> Nerve palpation examination (POSITIVE)
+[018/121] Case: PMC8075734_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: This manuscript details the institutional design and implementation of university postgraduate health education programs at Lúrio University in Mozambique. Leprosy is cited strictly in passing as an epidemiological prevalence percentage (0.006%) within the Nampula province. It does not describe an individual patient case.
+      Evidence [1]: [1622:1825] "Nampula is also amongst the provinces in the country with higher rates of intestinal pa..." -> Epidemiological demographic survey (POSITIVE)
+[019/121] Case: PMC10230526_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 30-year-old male developed claw hand and ulnar nerve thickening and was diagnosed with neuritic leprosy, initiated on triple-drug antileprosy therapy (rifampicin, dapsone, clofazimine). He presented with anaphylactic shock and acute tubular necrosis induced by rifampicin, requiring temporary hemodialysis. The patient's neuritic leprosy is an affirmed comorbidity/underlying condition satisfying WHO neurological criteria.
+      Evidence [1]: [0:151] "A 30-year-old male developed a claw hand associated with ulnar nerve thickening and was..." -> Neurological examination (POSITIVE)
+      Evidence [2]: [152:284] "He was initiated on triple-drug therapy for leprosy with dapsone 100 g OD, clofazimine ..." -> Triple-drug antileprosy therapy (POSITIVE)
+[020/121] Case: PMC4318046_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 38-year-old male with HIV on ART presented with painful erythema nodosum leprosum (ENL) nodules, peripheral nerve thickening (ulnar, radial cutaneous, lateral popliteal, posterior tibial), and distal sensory reduction. Slit-skin smear was positive for M. leprae with BI of 4, and skin biopsy showed Grenz zone with histiocytic and acute/chronic vasculitis consistent with ENL, confirming lepromatous leprosy unmasked by IRIS.
+      Evidence [1]: [1876:1994] "Slit skin smear examination for M. leprae revealed bacteriological index of 4 along wit..." -> Slit skin smear for M. leprae (POSITIVE)
+      Evidence [2]: [963:1137] "Sensations of pain and touch were reduced over both the feet. Ulnar, radial cutaneous, ..." -> Neurological and sensory examination (POSITIVE)
+      Evidence [3]: [2173:2274] "Vessels showed acute and chronic perivascular inflammatory infiltrate [Figure 5] consis..." -> Nodule histopathology (POSITIVE)
+[021/121] Case: PMC7169360_01 | Decision: EXCLUDED_NON_HUMAN       | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: The case describes an 11-year-old spayed female cat diagnosed with cutaneous nodular and ocular Cryptococcus neoformans infection. Feline leprosy syndrome was cited only as a veterinary differential diagnostic possibility. Non-human/veterinary cases are excluded.
+      Evidence [1]: [0:191] "An 11-year-old spayed female cat presented with a 6-month history of a progressive skin..." -> Veterinary clinical examination (POSITIVE)
+      Evidence [2]: [1764:2077] "Considering the history and clinical presentation, the differential diagnoses included ..." -> Differential diagnosis (NEGATIVE)
+[022/121] Case: PMC4066596_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 35-year-old male with AIDS and filariasis presented with tender erythematous nodules, glove-and-stocking anesthesia, and thickening of bilateral ulnar, superficial radial, and common peroneal nerves. Slit-skin smear demonstrated acid-fast bacilli with BI 6+, and skin biopsy revealed perivascular granulomatous inflammation with fragmented AFB on Lepra stain, confirming lepromatous leprosy with Type 2 reaction (ENL).
+      Evidence [1]: [2014:2076] "Skin-slit smear was 6+ for acid-fast bacilli (AFB) [Figure 3]." -> Skin-slit smear for AFB (POSITIVE)
+      Evidence [2]: [2077:2262] "Biopsy from a nodule showed superficial and deep periadnexal granulomatous inflammation..." -> Skin biopsy and Lepra stain (POSITIVE)
+      Evidence [3]: [1027:1183] "There was glove and stocking anesthesia on bilateral hands and feet with thickening of ..." -> Nerve palpation and sensory examination (POSITIVE)
+[023/121] Case: PMC8461103_02 | Decision: EXCLUDED_NON_SINGLE_PATIENT | Evidence: E4_CONTEXT           | Role: NOT_APPLICABLE           | Quotes: 1
+      Rationale: This article is an aggregate literature review synthesizing findings from 21 case reports and specimen surveys of Mycobacterium lepromatosis infections worldwide. It does not document a single individual patient encounter. Cohorts, reviews, and aggregate data are excluded.
+      Evidence [1]: [0:164] "Case reports since 2008 have identified M. lepromatosis infection in a further 15 patie..." -> Literature case review (POSITIVE)
+[024/121] Case: PMC6345088_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 36-year-old pregnant female presented with dapsone-induced methemoglobinemia 2 weeks after initiating multidrug therapy for multibacillary leprosy. The underlying diagnosis was established by hypoaesthetic annular plaques and a positive slit-skin smear with bacteriological index of 4.3 and morphological index of 3.2%. MB leprosy is an affirmed comorbidity.
+      Evidence [1]: [278:371] "positive slit skin smear (morphological index of 3.2% and bacteriological index (BI) of..." -> Slit skin smear (POSITIVE)
+      Evidence [2]: [162:276] "She was recently diagnosed as MB leprosy as evidenced by hypoaesthetic annular plaques ..." -> Sensory and clinical skin examination (POSITIVE)
+[025/121] Case: PMC3505946_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 54-year-old male presented with asymptomatic annular cutaneous lesions. Leprosy was considered in the initial differential diagnosis alongside granuloma annulare, but histopathological examination of skin biopsy revealed elastolytic giant cells and palisading necrobiotic granulomas, confirming an overlap of annular elastolytic giant cell granuloma and granuloma annulare. Leprosy was ruled out.
+      Evidence [1]: [721:780] "The initial differential diagnoses included GA and leprosy." -> Initial differential diagnosis (NEGATIVE)
+      Evidence [2]: [839:1146] "On histological examination of a skin biopsy taken from one of the forearm lesions, the..." -> Skin biopsy histopathology (NEGATIVE)
+[026/121] Case: PMC9934940_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 23-year-old female from Micronesia presented with tender subcutaneous nodules, peripheral sensory deficits, and hypopigmented macules. Skin punch biopsy revealed noncaseating granulomatous inflammation with numerous acid-fast bacilli highlighted by Fite stain, and acid-fast bacilli smear was positive, confirming lepromatous leprosy with Type 2 erythema nodosum leprosum reaction.
+      Evidence [1]: [999:1194] "An 8 mm punch biopsy was performed along the lateral aspect of her left leg, which reve..." -> Punch biopsy Fite stain (POSITIVE)
+      Evidence [2]: [1195:1236] "The acid-fast bacilli smear was positive." -> Acid-fast bacilli smear (POSITIVE)
+      Evidence [3]: [1237:1406] "Given the patient's clinical, laboratory, and histological findings, a diagnosis of lep..." -> Clinical diagnosis of ENL reaction (POSITIVE)
+[027/121] Case: PMC10018284_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 44-year-old male presented with severe pruritic crusted lesions and bullae confirmed as scabies bullosa with Sarcoptes scabiei mites identified on skin scrapings. Leprosy was explicitly negated in the past medical history alongside diabetes and HIV. Leprosy was absent.
+      Evidence [1]: [912:1003] "No history of diabetes mellitus, HIV/AIDS, leprosy, or other autoimmune diseases was no..." -> Past medical history review (NEGATIVE)
+[028/121] Case: PMC3699943_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 79-year-old male presenting with widespread asymptomatic erythematous papules was evaluated for syphilis and leprosy. Specific laboratory tests for leprosy were negative, and skin biopsy showed Wade stain negative with CD68-positive mononuclear infiltrates, confirming generalized eruptive histiocytoma. Leprosy was ruled out.
+      Evidence [1]: [488:623] "Considering the differential diagnosis of syphilis and leprosy, specific laboratory tes..." -> Specific laboratory tests for leprosy (NEGATIVE)
+      Evidence [2]: [799:826] "Wade staining was negative." -> Wade staining of skin biopsy (NEGATIVE)
+[029/121] Case: PMC10422032_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 65-year-old female with diagnosed multibacillary leprosy on MDT for 1 year developed a chronic neurotrophic ulceroproliferative wound with autoamputation of two toes and complete loss of pain and temperature sensation. Trophic neuropathic ulceration, digital autoamputation, and sensory loss in an active multibacillary leprosy patient establish confirmed leprosy.
+      Evidence [1]: [1284:1545] "Loss of sensation and pain due to Hansen's, forgoing appropriate footwear due to lack o..." -> Sensory neurological deficit examination (POSITIVE)
+      Evidence [2]: [497:627] "The image shows the right foot of a 65-year-old lady, with a case of multibacillary lep..." -> Multidrug therapy for multibacillary leprosy (POSITIVE)
+[030/121] Case: PMC3003994_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 32-year-old female presenting with painful nodules and leg ulcers was evaluated for infectious and vasculitic etiologies. Skin smear examination for Mycobacterium leprae was negative. Cutaneous biopsy demonstrated leukocytoclastic deep cutaneous vasculitis responsive to infliximab. Leprosy was excluded.
+      Evidence [1]: [831:912] "Examination of a skin smear sample to identify Mycobacterium leprae was negative." -> Skin smear for Mycobacterium leprae (NEGATIVE)
+[031/121] Case: PMC3633295_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 51-year-old female presenting with oral myiasis who had a remote history of treated leprosy. Clinical examination and medical specialist evaluation confirmed absence of active leprosy infection ('no signs of active infections with healed scar were mentioned in the report obtained'). Target active disease is ruled out for this episode -> NEGATIVE.
+      Evidence [1]: [1107:1191] "no signs of active infections with healed scar were mentioned in the report obtained" -> Medical evaluation for active leprosy (NEGATIVE)
+[032/121] Case: PMC4591341_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 54-year-old male with severe progressive facial deformity from rhinoentomophthoromycosis (Conidiobolus coronatus). Skin and indurated subcutaneous tissue biopsy histopathology explicitly excluded leprosy ('The histopathology did not show any evidence for tuberculosis, leprosy, or any malignancy.'). Leprosy was ruled out as a differential diagnosis -> NEGATIVE.
+      Evidence [1]: [1480:1570] "The histopathology did not show any evidence for tuberculosis, leprosy, or any malignancy." -> Skin and subcutaneous biopsy histopathology (NEGATIVE)
+[033/121] Case: PMC6112268_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 2
+      Rationale: A 13-year-old Marshallese female presenting with gastric volvulus and nodular skin eruptions. Skin biopsy confirmed numerous acid-fast bacilli with changes of lepromatous leprosy due to M. leprae, and M. leprae PCR from the Hansen's Disease Center was definitively positive. Confirmed active leprosy comorbidity -> POSITIVE.
+      Evidence [1]: [3864:3993] "Biopsies of the skin lesions confirmed the presence of many AFB with changes consistent..." -> Skin biopsy histopathology and AFB stain (POSITIVE)
+      Evidence [2]: [4620:4716] "PCR testing performed at the Hansen's Disease Center of skin samples was positive for M..." -> Hansen's Disease Center PCR (POSITIVE)
+[034/121] Case: PMC5977048_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 17-year-old farmer presenting with severe distal phalangeal atrophy, perforating plantar ulcers, hypochromic anesthetic macular lesions, and palpable hypertrophied ulnar and popliteal nerves, fulfilling 2 of the 3 WHO Cardinal Triad diagnostic criteria for leprosy. Full clinical regression was achieved following WHO multidrug therapy -> POSITIVE.
+      Evidence [1]: [1253:1454] "Clinical diagnosis of lepromatous leprosy was established on the basis of 2 of 3 criter..." -> WHO Cardinal Criteria Assessment (POSITIVE)
+      Evidence [2]: [1147:1221] "Hypertrophied nerve trunks were palpable at the ulnar and popliteal level." -> Peripheral nerve examination (POSITIVE)
+      Evidence [3]: [2064:2159] "After six months of therapy, the superficial skin lesions regressed and were completely..." -> Antileprosy MDT therapeutic response (POSITIVE)
+[035/121] Case: PMC5977048_02 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 65-year-old farmer in Mauritania with long-standing facial lesions demonstrating definite sensory loss (a WHO cardinal sign of leprosy), clinically diagnosed with lepromatous leprosy and concomitant pulmonary tuberculosis, and successfully treated with standard multidrug antileprosy therapy (rifampicin, dapsone, clofazimine) -> POSITIVE.
+      Evidence [1]: [682:849] "The physical examination revealed the presence of diffuse hypopigmented lichenoid lesio..." -> Cutaneous sensory examination (WHO cardinal sign) (POSITIVE)
+      Evidence [2]: [1334:1619] "The diagnosis of lepromatous leprosy with concomitant disseminated tuberculosis was mad..." -> Clinical diagnosis and therapeutic response (POSITIVE)
+[036/121] Case: PMC8687500_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 39-year-old female with confirmed multibacillary borderline lepromatous leprosy (BI 3+, M. leprae DNA amplified) who presented with severe refractory leprosy-related Type 1 reaction and neuritis requiring neurolysis, high-dose steroids, and secukinumab -> POSITIVE.
+      Evidence [1]: [43:185] "diagnosed with multibacillary leprosy (borderline lepromatous leprosy) in 2014 via posi..." -> Smear microscopy bacilloscopic index (POSITIVE)
+      Evidence [2]: [498:573] "Although M. leprae deoxyribonucleic acid was successfully amplified in 2016" -> M. leprae DNA PCR (POSITIVE)
+      Evidence [3]: [332:457] "The patient was treated again in 2019 because of an unmanageable TIR state, suggesting ..." -> Leprosy Type 1 reaction (T1R) assessment (POSITIVE)
+[037/121] Case: PMC3754489_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 66-year-old male with relapsed lepromatous leprosy. Slit-skin smear demonstrated bacillary index of 5.0, skin biopsy showed acid-fast bacilli, and PCR/gene sequencing confirmed 100% sequence identity to M. leprae with an rpoB resistance mutation -> POSITIVE.
+      Evidence [1]: [984:1035] "smears showing a bacillary index of 5.0 were taken." -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [1117:1189] "Acid-fast bacilli were isolated from a skin biopsy specimen (Figure 1A)." -> Skin biopsy acid-fast stain (POSITIVE)
+      Evidence [3]: [1346:1466] "The sequence analysis of M. leprae-specific repetitive element and 16S rDNA genes showe..." -> M. leprae PCR and sequencing (POSITIVE)
+[038/121] Case: PMC4844498_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 45-year-old female presenting with metastatic adenocarcinoma of the femur. Leprosy is solely mentioned in a routine review of systems denying past diseases ('was no history of... leprosy'). Negated condition -> NEGATIVE.
+      Evidence [1]: [1164:1298] "was no history of any gastrointestinal upset or urinary problem, any breast lump, traum..." -> Past medical history anamnesis (NEGATIVE)
+[039/121] Case: PMC5297268_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 65-year-old male presenting with a chronic sole ulcer. Examination specifically assessed for and ruled out signs of leprosy ('no loss of sensation, nerve thickening, or any other cutaneous signs of leprosy'), and incisional biopsy confirmed reactive eccrine syringofibroadenoma -> NEGATIVE.
+      Evidence [1]: [1462:1581] "There was no regional lymphadenopathy, no loss of sensation, nerve thickening, or any o..." -> Clinical physical examination for leprosy signs (NEGATIVE)
+[040/121] Case: PMC7094038_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 15-year-old girl with multibacillary leprosy on WHO MDT developing acute facial and ear swelling diagnosed as a Type 1 leprosy reaction, exhibiting marked clinical recovery with anti-inflammatory corticosteroid treatment -> POSITIVE.
+      Evidence [1]: [701:905] "The diagnosis of the type-1 leprosy reaction was based solely on the presentation of pr..." -> Clinical evaluation of Type 1 leprosy reaction (POSITIVE)
+      Evidence [2]: [148:265] "The patient was diagnosed with multibacillary leprosy; she had multiple patches on her ..." -> Clinical diagnosis of multibacillary leprosy (POSITIVE)
+      Evidence [3]: [906:1062] "Prednisolone was administered at an anti-inflammatory dose (1 mg/kg of body weight); th..." -> Corticosteroid therapeutic response (POSITIVE)
+[041/121] Case: PMC6170962_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 42-year-old male presenting with photodistributed cutaneous plaques and bone pain. Leprosy was evaluated in the differential diagnosis of infectious granulomas, but skin biopsy and blood smear were negative for leprosy, and systemic sarcoidosis was diagnosed -> NEGATIVE.
+      Evidence [1]: [2088:2162] "The skin biopsy (Figure 1(c)) and a blood smear were negative for leprosy." -> Skin biopsy and blood smear for leprosy (NEGATIVE)
+[042/121] Case: PMC3982350_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 29-year-old female presenting with de-novo histoid leprosy. Definitively confirmed by slit-skin smear showing BI 6+, skin biopsy showing heavy bacillary load on Fite-Faraco stain, and bilateral ulnar nerve thickening -> POSITIVE.
+      Evidence [1]: [1065:1118] "Split Skin Smear revealed acid-fast bacilli of BI: 6+" -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [1002:1064] "Heavy bacillary load was seen on Fite Faraco stain [Figure 2]." -> Skin biopsy Fite-Faraco stain (POSITIVE)
+      Evidence [3]: [529:567] "Bilateral ulnar nerves were thickened." -> Peripheral nerve examination (POSITIVE)
+[043/121] Case: PMC3982350_02 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 28-year-old pregnant female presenting with papulonodular lesions and epistaxis. Confirmed de-novo histoid leprosy with slit-skin smear demonstrating acid-fast bacilli with BI 6+, skin biopsy demonstrating heavy bacillary load on Fite-Faraco stain, and bilateral ulnar nerve thickening -> POSITIVE.
+      Evidence [1]: [1170:1223] "Split Skin Smear revealed acid-fast bacilli of BI: 6+" -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [1107:1169] "Heavy bacillary load was seen on Fite Faraco stain [Figure 3]." -> Skin biopsy Fite-Faraco stain (POSITIVE)
+      Evidence [3]: [626:659] "Both ulnar nerves were thickened." -> Peripheral nerve examination (POSITIVE)
+[044/121] Case: PMC6295293_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: BACKGROUND_LITERATURE_REFERENCE | Quotes: 1
+      Rationale: A report of sarcoidosis with oral involvement in a 12-year-old girl. Leprosy is cited strictly in the background introduction listing granulomatous differential diagnoses for oral lesions, with no patient-level evaluation -> EXCLUDED_NON_TARGET_CASE.
+      Evidence [1]: [1037:1242] "The differential diagnosis of oral soft tissue lesions must consider other granulomatou..." -> Introductory differential diagnosis review (NEGATIVE)
+[045/121] Case: PMC9263440_01 | Decision: EXCLUDED_NON_SINGLE_PATIENT | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: This case record unit describes an aggregate cohort of four patients presenting with ENL and leprosy ('All four patients presented with anesthetic skin patches and/or thickened nerves...'). As an aggregate study unit rather than a single-patient clinical episode, it is excluded -> EXCLUDED_NON_SINGLE_PATIENT.
+      Evidence [1]: [0:178] "All four patients presented with anesthetic skin patches and/or thickened nerves and ac..." -> Cohort aggregate diagnostic description (POSITIVE)
+[046/121] Case: PMC9263440_05 | Decision: EXCLUDED_NON_SINGLE_PATIENT | Evidence: E3_SUPPORTIVE        | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: This record describes aggregate outcome results and steroid reduction across four patients on anti-TNF-alpha therapy for ENL ('Overall, a reduction of at least half in thalidomide and systemic steroids was observed in all four patients...'). Excluded as an aggregate multi-patient unit -> EXCLUDED_NON_SINGLE_PATIENT.
+      Evidence [1]: [911:1082] "Overall, a reduction of at least half in thalidomide and systemic steroids was observed..." -> Cohort therapeutic outcome evaluation (POSITIVE)
+[047/121] Case: PMC4372314_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 51-year-old male with an aquarium granuloma on the finger. Tuberculoid leprosy was evaluated as a differential diagnosis. Skin biopsy showed absence of acid-fast bacilli on Fite-Faraco staining, and culture/PCR confirmed Mycobacterium marinum -> NEGATIVE.
+      Evidence [1]: [3905:3960] "absence of acid-fast bacilli (HE and Fite-Faraco stain)" -> Skin biopsy Fite-Faraco stain (NEGATIVE)
+[048/121] Case: PMC3670179_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: An 80-year-old male presenting with a burgeoning ulcerated foot lesion referred on suspicion of leprosy. Diagnostic testing for leprosy on the lesion was negative, and histopathology demonstrated pyogenic granuloma (botryomycome) with Staphylococcus aureus -> NEGATIVE.
+      Evidence [1]: [2083:2126] "test of leprosy on the lesion was negative." -> Lesion diagnostic test for leprosy (NEGATIVE)
+[049/121] Case: PMC3937497_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 35-year-old female presenting with multiple cutaneous nodules. Histoid leprosy was considered in the differential diagnosis, but excisional biopsy established multiple cutaneous reticulohistiocytoma with characteristic histiocytes and Touton-like giant cells -> NEGATIVE.
+      Evidence [1]: [1376:1477] "differential diagnosis of xanthoma, reticulohistiocytoma, sarcoidosis, and histoid lepr..." -> Clinical differential diagnosis (NEGATIVE)
+[050/121] Case: PMC3481803_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 45-year-old male presenting with papules, nodules, joint pains, and scleritis. Hansen's disease was clinically and microbiologically evaluated and excluded ('no clinical evidence of Hansen's disease and no acid fast bacilli were detected by slit skin smear using modified Ziehl Nielsen technique'), with skin biopsy confirming erythema elevatum diutinum -> NEGATIVE.
+      Evidence [1]: [651:799] "There was no clinical evidence of Hansen's disease and no acid fast bacilli were detect..." -> Slit-skin smear modified Ziehl-Neelsen stain (NEGATIVE)
+[051/121] Case: PMC5727651_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 33-year-old male diagnosed with Granulosis Rubra Nasi and treated with topical tacrolimus. Leprosy appears solely as part of the department's name ('department of dermatology and leprosy') without any patient-level clinical relevance -> EXCLUDED_NON_TARGET_CASE.
+      Evidence [1]: [93:142] "outpatient department of dermatology and leprosy." -> Department name mention (NEGATIVE)
+[052/121] Case: PMC4789561_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: BACKGROUND_LITERATURE_REFERENCE | Quotes: 1
+      Rationale: A comprehensive narrative review article on nasopharyngeal tuberculosis, not an individual clinical case report. Leprosy is only cited in an academic differential list of nasopharyngeal diseases -> EXCLUDED_NON_CASE_REPORT.
+      Evidence [1]: [8248:8358] "angiofibroma, fungal infection, sarcoidosis, periarteritis nodosa, leprosy, syphilis, a..." -> Review article differential diagnosis (NEGATIVE)
+[053/121] Case: PMC7821815_02 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A pediatric case report of disseminated and ulcerative basidiobolomycosis. Leprosy is mentioned solely in the name of the referral center ('center for screening and treatment of leprosy and Buruli ulcer of Pobe') with no patient claim -> EXCLUDED_NON_TARGET_CASE.
+      Evidence [1]: [77:147] "center for screening and treatment of leprosy and Buruli ulcer of Pobe" -> Facility name mention (NEGATIVE)
+[054/121] Case: PMC7471781_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A male in his 30s presenting with annular erythematous plaques and papules. Leprosy was definitively confirmed by skin biopsy showing Fite-positive acid-fast bacilli and positive M. leprae molecular line-probe assay -> POSITIVE.
+      Evidence [1]: [1872:1955] "Fite-positive bacilli were identified within the inflammatory infiltrate (Fig. 2c)." -> Skin punch biopsy Fite stain (POSITIVE)
+      Evidence [2]: [2403:2554] "The result was positive for  M. leprae  with no mutation detected at rpoB (rifampicin),..." -> GenoType LepraeDR molecular line-probe assay (POSITIVE)
+[055/121] Case: PMC7471781_02 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A male patient diagnosed with borderline lepromatous leprosy fulfilling WHO cardinal criteria with diminished sensation over an indurated annular plaque and bilateral thickened ulnar nerves, responding to multidrug therapy (rifampicin, clofazimine, dapsone) -> POSITIVE.
+      Evidence [1]: [455:553] "diminished sensation at the centre of the large annular indurated plaque over the right..." -> Cutaneous sensory examination (POSITIVE)
+      Evidence [2]: [558:609] "the ulnar nerves were mildly thickened bilaterally." -> Peripheral nerve examination (POSITIVE)
+      Evidence [3]: [639:909] "The patient was diagnosed to have borderline lepromatous leprosy and was counselled for..." -> WHO MDT therapeutic response (POSITIVE)
+[056/121] Case: PMC10362652_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 3
+      Rationale: A 76-year-old male presenting with severe ocular and neural sequelae of leprosy. Demonstrates extensive peripheral nerve thickening across bilateral ulnar, median, radial, popliteal, and tibial nerves with sensory loss in a glove-and-stocking distribution (WHO cardinal criteria), alongside complete madarosis, collapsed nasal bridge, and digital resorption -> POSITIVE.
+      Evidence [1]: [1684:1850] "peripheral nerve examination revealed thickened bilateral ulnar, bilateral median, bila..." -> Peripheral nerve examination (WHO cardinal sign) (POSITIVE)
+      Evidence [2]: [1851:1953] "Sensations were absent on the upper and diminished on the lower limbs in a glove and st..." -> Sensory examination (POSITIVE)
+      Evidence [3]: [814:955] "General examination of the patient revealed collapsed nasal bridge, resorption of multi..." -> Clinical examination for trophic deformities (POSITIVE)
+[057/121] Case: PMC3357522_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 3
+      Rationale: A 66-year-old male with HIV coinfection presenting with persistent hypopigmented and hypoaesthetic cutaneous patches. Skin smear confirmed acid-fast bacilli, fulfilling multibacillary leprosy criteria, with complete lesion resolution following WHO multibacillary MDT -> POSITIVE.
+      Evidence [1]: [2754:2813] "skin smear was done and was positive for acid fast bacilli." -> Skin smear acid-fast stain (POSITIVE)
+      Evidence [2]: [710:809] "His skin had 3 hypopigmented and hypoaesthetic patches on the right chest wall and righ..." -> Cutaneous sensory examination (POSITIVE)
+      Evidence [3]: [3528:3611] "Six months later, the skin lesions had resolved, there was no neurological sequelea" -> WHO MB-MDT therapeutic response (POSITIVE)
+[058/121] Case: PMC9109270_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: EPIDEMIOLOGICAL_CONTEXT  | Quotes: 1
+      Rationale: A 23-year-old male with disseminated drug-resistant tuberculosis and prothionamide-induced acute interstitial nephritis. Leprosy appears solely as part of the hospital's institutional name ('All Africa Leprosy Rehabilitation and Training Center'). Non-target case -> EXCLUDED_NON_TARGET_CASE.
+      Evidence [1]: [1173:1243] "All Africa Leprosy Rehabilitation and Training Center (ALERT) hospital" -> Hospital facility name mention (NEGATIVE)
+[059/121] Case: PMC1262717_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 4
+      Rationale: A 50-year-old female presenting with bilateral toe gangrene. Confirmed borderline tuberculoid leprosy via slit-skin smear with BI 1+, skin biopsy showing borderline tuberculoid leprosy, madarosis, thickened bilateral ulnar and popliteal nerves, and hypoaesthetic macules, responding to antileprotic MDT -> POSITIVE.
+      Evidence [1]: [603:659] "Slit skin smears revealed a bacteriological index of 1+." -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [533:602] "A skin biopsy of the lesions revealed borderline tuberculoid leprosy." -> Skin lesion biopsy histopathology (POSITIVE)
+      Evidence [3]: [409:481] "hypopigmented, hypoaesthetic macular lesions on the upper limb & thighs." -> Cutaneous sensory examination (POSITIVE)
+      Evidence [4]: [482:532] "Bilateral ulnar & popliteal nerves were thickened." -> Peripheral nerve examination (POSITIVE)
+[060/121] Case: PMC4283928_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 37-year-old male with chronic plaques initially suspected of having leprosy. However, antileprosy therapy failed and bone marrow/skin cultures grew Mycobacterium avium-intracellulare and M. simiae, definitively refuting M. leprae, in the setting of NEMO deficiency -> NEGATIVE.
+      Evidence [1]: [1571:1688] "culture isolates yielded Mycobacterium avium-intracellulare (MAI), rather than the prec..." -> Bone marrow and tissue mycobacterial culture (NEGATIVE)
+[061/121] Case: PMC5726683_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 63-year-old male presented with facial plaques and an ulcerated nasal tumor. Leprosy was considered in the differential diagnosis, but bacilloscopy was negative and histopathology with immunohistochemistry confirmed non-Hodgkin folliculotropic T-cell cutaneous lymphoma (mycosis fungoides). Leprosy was evaluated and ruled out.
+      Evidence [1]: [1007:1327] "The suspicion was of paracoccidioidomycosis, leishmaniasis, syphilis, leprosy, sarcoido..." -> bacilloscopy / slit-skin smear (NEGATIVE)
+[062/121] Case: PMC7470402_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 55-year-old male with a known diagnosis of leprosy on MDT for 6 months presented with limb weakness and was found to have coinfection with asymptomatic lymphatic filariasis. Slit-skin smear confirmed acid-fast bacilli under oil immersion (E1 confirmatory). Leprosy is affirmed as an active comorbidity.
+      Evidence [1]: [2254:2332] "In addition, short AFB were observed under the oil-immersion objective (100x)." -> Slit-skin smear acid-fast staining (POSITIVE)
+      Evidence [2]: [862:1080] "He had noticed hypo-pigmented patches with loss of sensation on the left forearm about ..." -> Clinical neuro-dermal evaluation (POSITIVE)
+[063/121] Case: PMC4546783_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 29-year-old nursing mother presented with generalized skin papules/nodules and dysphonia. Skin biopsy demonstrated dermal granulomas with multiple bacilli on Wade-Fite stain, and slit-skin smear confirmed numerous acid-fast bacilli, establishing multibacillary lepromatous leprosy (E1 confirmatory).
+      Evidence [1]: [1950:2124] "On further staining with wade-fite, multiple bacilli were seen (Figure 2). This was fol..." -> Wade-Fite skin biopsy stain and slit-skin smear (POSITIVE)
+      Evidence [2]: [2202:2321] "A final diagnosis of multibacillary leprosy was made. Treatment with dapsone, rifampici..." -> Clinical diagnosis and WHO MDT regimen (POSITIVE)
+[064/121] Case: PMC9005046_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E0_CONTRADICTED      | Role: EXCLUDED_ROLE            | Quotes: 1
+      Rationale: This publication describes an educational workshop and survey study evaluating 135 community health agents and endemic combat agents regarding their knowledge and surveillance of leprosy and Chagas disease. It is an aggregate educational study, not an individual clinical case report.
+      Evidence [1]: [0:106] "Altogether, 135 professionals participated in the study, including 107 ACS and 28 ACE, ..." -> Cohort/Survey demographic evaluation (POSITIVE)
+[065/121] Case: PMC10298620_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 15-year-old female presenting with multiple nodules mimicking juvenile xanthogranuloma had skin biopsy demonstrating Fite-Faraco stain with a bacillary index of 6+, confirming the histoid variant of Hansen's disease (E1 confirmatory), along with bilateral ulnar and common peroneal nerve thickening (E2 strong).
+      Evidence [1]: [1712:1794] "Fite-Faraco staining for lepra bacilli showed a bacillary index of 6+ [Figure 3D]." -> Fite-Faraco staining of skin punch biopsy (POSITIVE)
+      Evidence [2]: [2038:2113] "On re-evaluation, she had thick bilateral ulnar and common peroneal nerves." -> Peripheral nerve palpation (POSITIVE)
+[066/121] Case: PMC3140149_02 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 52-year-old HIV-positive man presented with papulonodular skin lesions. Hansen's disease was evaluated as a differential diagnosis, but slit-skin smear and biopsy revealed intra- and extracellular Leishman-Donovan bodies, confirming post-kala-azar dermal leishmaniasis. Leprosy was ruled out.
+      Evidence [1]: [174:264] "Differential diagnosis of Hansen's disease, sarcoidosis, and leishmaniasis were performed." -> Differential diagnosis evaluation (NEGATIVE)
+      Evidence [2]: [340:441] "Slit skin smear revealed multiple intra- and extracellular leishman donovan bodies with..." -> Slit-skin smear Giemsa stain (POSITIVE)
+[067/121] Case: PMC4447853_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 27-year-old male presented with fever, painful nodular skin lesions, polyarthritis, and bilateral ulnar nerve thickening. Skin biopsy revealed non-necrotizing granulomas with acid-fast bacilli in foamy macrophages (E1 confirmatory), and the patient experienced a Type 2 lepra reaction (erythema nodosum leprosum) successfully treated with MDT and corticosteroids.
+      Evidence [1]: [2398:2636] "Skin biopsy revealed non-necrotizing granuloma with numerous foamy macrophages in dermi..." -> Skin punch biopsy histopathology and AFB stain (POSITIVE)
+      Evidence [2]: [3983:4131] "This episode was considered to be secondary to type 2-lepra reaction and treated accord..." -> Clinical diagnosis of ENL (Type 2 lepra reaction) (POSITIVE)
+[068/121] Case: PMC3501807_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 64-year-old male farmer presented with extensive papules, nodules, and plaques. Slit-skin smear demonstrated acid-fast bacilli with bacteriological index 4+ to 5+, and skin biopsy ZN stain demonstrated abundant solid acid-fast bacilli (E1 confirmatory), establishing de novo histoid leprosy.
+      Evidence [1]: [2112:2295] "Slit skin smear revealed acid-fast bacilli with bacteriological index (BI) of 4+ to 5+ ..." -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [1803:2010] "However, Ziehl Neelsen (ZN) staining (5% sulphuric acid) revealed abundant, mostly soli..." -> Skin biopsy Ziehl-Neelsen modified stain (POSITIVE)
+[069/121] Case: PMC9154144_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E0_CONTRADICTED      | Role: EXCLUDED_ROLE            | Quotes: 1
+      Rationale: A 68-year-old male presented with cutaneous metastases from anaplastic thyroid carcinoma. The term 'Leprosy' appears exclusively as part of the department name ('Department of Dermatology, Venereology, and Leprosy') where the patient presented. Leprosy was neither diagnosed nor suspected in the patient.
+      Evidence [1]: [0:269] "A 68-year-old male presented to the Department of Dermatology, Venereology, and Leprosy..." -> Institutional departmental affiliation (NEGATIVE)
+[070/121] Case: PMC8494489_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 37-year-old male with multibacillary leprosy on WHO MDT presented with chronic distal paresthesia and thermal anesthesia with reduced hair density on his back and right leg (WHO cardinal signs, E2 strong), and developed dapsone-induced acute pancreatitis that resolved after replacing dapsone with ofloxacin.
+      Evidence [1]: [0:169] "A previously healthy 37-year-old man presented chronic distal paresthesia and areas of ..." -> Clinical sensory and cutaneous examination (WHO cardinal signs) (POSITIVE)
+      Evidence [2]: [170:423] "After three weeks of PCT/MB (rifampicin 600 mg monthly; dapsone 100 mg daily; along wit..." -> Multibacillary multidrug therapy (PCT/MB) (POSITIVE)
+[071/121] Case: PMC3884940_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 36-year-old male presented with progressive nodular and ulcerative skin lesions and fever. Histopathological examination with Fite stain demonstrated numerous acid-fast bacilli discretely and in clusters within dermal foam cell sheets (E1 confirmatory), establishing multibacillary lepromatous leprosy presenting with atypical erythema nodosum leprosum.
+      Evidence [1]: [1010:1121] "Fite stain showed numerous solid and fragmented acid fast bacilli discretely as well as..." -> Skin biopsy Fite stain (POSITIVE)
+      Evidence [2]: [1122:1280] "The patient was diagnosed to have lepromatous leprosy with type 2 reaction and treated ..." -> Clinical diagnosis and WHO MDT regimen (POSITIVE)
+[072/121] Case: PMC5869576_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 31-year-old female presented with high fever, facial/ear plaques, lymphadenopathy, and thickened greater auricular and lateral peroneal nerves. Skin biopsy revealed large numbers of acid-fast bacilli on Fite and ZN stains (E1 confirmatory), confirming lepromatous leprosy with erythema nodosum leprosum.
+      Evidence [1]: [3357:3545] "Large numbers of acid-fast bacilli were identified on Fite and Ziehl-Neelsen stains. Th..." -> Skin biopsy Fite and ZN stains (POSITIVE)
+      Evidence [2]: [2771:2921] "Closer examination revealed bilaterally thickened greater auricular nerves and lateral ..." -> Peripheral nerve examination (POSITIVE)
+[073/121] Case: PMC6607709_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E0_CONTRADICTED      | Role: EXCLUDED_ROLE            | Quotes: 1
+      Rationale: This publication is an aggregate retrospective case series and cohort study analyzing 16 cases of deep venous thrombosis in erythema nodosum leprosum patients from a cohort of 120 patients. It is not an individual single-patient clinical case report.
+      Evidence [1]: [0:275] "Table 1 presents a series of 16 clinical cases of DVT in ENL patients in the period of ..." -> Case series aggregation analysis (POSITIVE)
+[074/121] Case: PMC3035194_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: SECONDARY_DIAGNOSIS      | Quotes: 2
+      Rationale: A 60-year-old male with active lepromatous leprosy and recurrent refractory erythema nodosum leprosum (ENL) treated with thalidomide developed deep vein thrombosis and pulmonary embolism. Slit-skin smear confirmed M. leprae positivity on repeat testing (E1 confirmatory), along with active ENL and glove-stocking sensory neuropathy (E2 strong).
+      Evidence [1]: [802:972] "3 months before the current admission he was started on a second course of MDT-MB treat..." -> Slit-skin smear microscopy (POSITIVE)
+      Evidence [2]: [268:387] "3 years ago he was diagnosed to have lepromatous leprosy following a positive slit skin..." -> Diagnostic slit-skin smear (POSITIVE)
+[075/121] Case: PMC4934146_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A patient presenting with papulonodular skin eruptions was initially clinically misdiagnosed with leprosy and given MDT. However, subsequent slit-skin smear and skin biopsy were negative for acid-fast bacilli and epithelioid granulomas, there was no sensory loss or nerve hypertrophy, and smears and PCR confirmed diffuse cutaneous leishmaniasis (Leishmania mexicana). Leprosy was excluded.
+      Evidence [1]: [2609:2901] "There was no sensory loss on all over the body surface and no hypertrophy of the periph..." -> Slit-skin smear ZN stain and neurological examination (NEGATIVE)
+      Evidence [2]: [3277:3389] "No epithelioid cell granuloma was observed as seen in leprosy. No acid-fast bacilli wer..." -> Skin histology and AFB stain (NEGATIVE)
+[076/121] Case: PMC6800944_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 59-year-old female presented with annular polycyclic plaques. Leprosy was considered in the differential diagnosis, but sensation was intact, peripheral nerves were not thickened, and skin biopsy showed loss of elastic fibres with multinucleated giant cells engulfing elastic fibres, establishing granuloma multiforme. Leprosy was ruled out.
+      Evidence [1]: [776:887] "The clinical possibilities considered were granuloma annulare, leprosy, annular sarcoid..." -> Differential diagnosis consideration (NEGATIVE)
+      Evidence [2]: [709:775] "The sensation was intact and peripheral nerves were not thickened." -> Physical and neurological examination (NEGATIVE)
+[077/121] Case: PMC5350300_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 35-year-old female presented with a hyperkeratotic forehead plaque. Leprosy was considered in the differential diagnosis, but history and clinical examination (intact sensation, no nerve enlargement) were negative, and biopsy confirmed cutaneous tuberculosis (tuberculosis verrucosa cutis). Leprosy was ruled out.
+      Evidence [1]: [337:479] "Lupus vulgaris and leprosy were kept as the differential diagnosis. A detailed history ..." -> Clinical differential evaluation (NEGATIVE)
+      Evidence [2]: [967:1104] "On clinical examination there were no hypopigmented lesions on body, there was no loss ..." -> WHO Cardinal Triad clinical examination (NEGATIVE)
+[078/121] Case: PMC3937491_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 39-year-old male teacher presenting with facial erythematous plaques and burning fingertips initially suspected to have acute cutaneous lupus erythematosus was confirmed to have borderline tuberculoid leprosy with Type 1 reversal reaction by positive Fite stain for lepra bacilli on skin biopsy (E1 confirmatory), successfully treated with multidrug therapy.
+      Evidence [1]: [1749:2052] "H and E examination of skin biopsy specimen showed thinning and follicular plugging of ..." -> Skin biopsy Fite stain (POSITIVE)
+      Evidence [2]: [2053:2382] "A revised diagnosis of borderline tuberculoid leprosy with type 1 reaction was made and..." -> Clinical diagnosis and WHO MDT regimen (POSITIVE)
+[079/121] Case: PMC10313350_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 24-year-old male presented with >20 diffuse papules, nodules, and tubercles. Bacilloscopy was positive with bacteriological index 5.25 (E1 confirmatory), establishing borderline lepromatous leprosy (BL/LL). During MDT, he developed acute ulnar neuritis (Type 1 reaction) with sensory/motor deficit treated with perineural corticosteroid injection.
+      Evidence [1]: [596:794] "A Mitsuda test and bacilloscopy were requested, which were positive (5 mm) and 5.25, re..." -> Bacilloscopy / slit-skin smear (POSITIVE)
+      Evidence [2]: [1173:1471] "On examination, the patient had pain upon palpation in the region above the left elbow ..." -> Peripheral nerve examination (POSITIVE)
+[080/121] Case: PMC10313350_02 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 52-year-old female presented with erythematous/hypochromic skin lesions with hypoesthesia, bilateral ulnar nerve thickening with sensory and motor deficit, and biopsy showing epithelioid granulomas compatible with Type 1 reversal reaction, meeting WHO Cardinal Triad criteria and documented reversal reaction for borderline tuberculoid leprosy (E2 strong).
+      Evidence [1]: [646:802] "Physical and dermatological examination showed 11-20 well-defined, erythematous, and hy..." -> Dermatological sensory examination (WHO cardinal sign 1) (POSITIVE)
+      Evidence [2]: [833:1300] "skin biopsy revealed epithelioid granuloma in the dermis compatible with a reversal rea..." -> Skin biopsy and neurological examination (WHO cardinal sign 2 and Type 1 reaction) (POSITIVE)
+[081/121] Case: PMC4512596_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 6-year-old male presented with bleeding gingival lesions showing noncaseating granulomas on biopsy. AFB staining was performed to evaluate for mycobacterial infections including tuberculosis and leprosy and was negative; intestinal endoscopy and biopsy confirmed Crohn's disease. Leprosy was ruled out.
+      Evidence [1]: [2513:2785] "Periodic Acid-Schiff (PAS), Grocott-Gomori's methenamine silver (GMS), and Acid-Fast Ba..." -> Acid-Fast Bacilli (AFB) stain on gingival biopsy (NEGATIVE)
+[082/121] Case: PMC9664503_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 7-year-old child presented with multiple painless digital ulcers, loss of pain sensation in fingers, thickened peripheral nerve at the cuboidal site (WHO Cardinal Triad signs, E2 strong), and household contact with an uncle who had leprosy, clinically confirmed and remitted on WHO multidrug therapy (MDT).
+      Evidence [1]: [500:757] "Based on the typical symptoms such as no pain sensation in the fingers, thickness of th..." -> WHO Cardinal Triad clinical examination (POSITIVE)
+      Evidence [2]: [758:1004] "The treatment started as WHO recommended multi-drug therapy (MDT) regimen. It consists ..." -> WHO multi-drug therapy (MDT) (POSITIVE)
+[083/121] Case: PMC2628938_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 20-year-old male presented with a single anesthetic plaque on the thigh. Slit-skin smear from the lesion demonstrated acid-fast bacilli with a Bacteriological Index of 4+ (E1 confirmatory), and biopsy revealed solid acid-fast bacilli within neural/adnexal granulomas, confirming multibacillary borderline tuberculoid leprosy.
+      Evidence [1]: [1595:1882] "Slit skin smear examination for M. leprae from the lesion revealed a Bacterial Index (B..." -> Slit-skin smear bacteriological examination (POSITIVE)
+      Evidence [2]: [2223:2363] "Solid acid fast bacilli were seen in some of the granulomas, singly and in small cluste..." -> Skin biopsy AFB examination (POSITIVE)
+[084/121] Case: PMC7273538_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 51-year-old female with lepromatous leprosy presented with persistent subcutaneous nodules and extremity neuropathy. Fite stain showed acid-fast bacilli within cutaneous nerves and histiocytes, and PCR was positive for M. leprae DNA (E1 confirmatory), establishing persistent lepromatous infection with Type 2 reaction treated with thalidomide.
+      Evidence [1]: [2641:2830] "Fite stain showed beaded and granular acid-fast bacilli within the histiocytes and foca..." -> Fite stain and PCR for M. leprae DNA (POSITIVE)
+      Evidence [2]: [607:738] "Fite stain revealed numerous acid-fast bacilli within histiocytes and cutaneous nerves...." -> Fite stain of ear skin biopsy (POSITIVE)
+[085/121] Case: PMC6497491_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 28-year-old female misdiagnosed with lupus erythematosus panniculitis was found to have diffuse multibacillary leprosy with Lucio's phenomenon. Slit-skin smear showed bacteriological index 4+ and direct sequencing of 16S rRNA demonstrated 100% homology with Mycobacterium leprae (E1 confirmatory).
+      Evidence [1]: [1717:1850] "Slit-skin smear examination of the ears and elbows revealed a bacteriological index of ..." -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [2274:2399] "Sequence analysis of 16S rRNA genes indicated that 100% homology with the Mycobacterium..." -> 16S rRNA PCR and direct gene sequencing (POSITIVE)
+[086/121] Case: PMC9167051_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 23-year-old male with lepromatous leprosy presented with severe pustular erythema nodosum leprosum (ENL). Slit-skin smear demonstrated a bacteriological index of 6+ (E1 confirmatory), and ZN staining of pus showed acid-fast bacilli, accompanied by enlarged ulnar nerves and cutaneous hypesthesia (E2 strong), responsive to minocycline plus prednisone.
+      Evidence [1]: [2150:2253] "On slit-skin smear, mean bacterial index (BI) and morphological index (MI) were 6+ and ..." -> Slit-skin smear bacteriological index (POSITIVE)
+      Evidence [2]: [2254:2373] "Direct microscopic examination of the pus with Ziehl-Neelsen (ZN) staining revealed aci..." -> Ziehl-Neelsen staining of pustular fluid (POSITIVE)
+[087/121] Case: PMC2248584_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 42-year-old physician with prior exposure to leprosy presented with multiple nerve palsies. Leprosy was considered in the differential diagnosis along with HNPP, but genetic testing demonstrated a PMP-22 gene deletion confirming hereditary neuropathy with liability to pressure palsies. Leprosy was ruled out.
+      Evidence [1]: [3050:3154] "Based on the clinical suspicion and EMG findings leprosy and HNPP were considered as po..." -> Differential diagnosis consideration (NEGATIVE)
+      Evidence [2]: [3425:3504] "Genetic analysis identified a deletion of the PMP-22 gene consistent with HNPP." -> PMP-22 gene genetic deletion analysis (POSITIVE)
+[088/121] Case: PMC5824505_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 25-year-old male presented with a progressively enlarging hard palatal mass of 2 years duration. Incisional biopsy confirmed the histopathological diagnosis of lepromatous leprosy (E1 confirmatory / E2 strong).
+      Evidence [1]: [979:1097] "Incisional biopsy was performed, and a histopathological diagnosis of lepromatous lepro..." -> Incisional biopsy histopathology (POSITIVE)
+[089/121] Case: PMC5536371_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 40-year-old female developed trigeminal paresthesias and facial ulcerations following maxillofacial surgery. Extensive instrumental tests including skin biopsy were negative for leprosy, confirming trigeminal trophic syndrome (TTS). Leprosy was evaluated and ruled out.
+      Evidence [1]: [1161:1327] "Instrumental tests, including skin biopsy, were negative for human herpes virus, autoim..." -> Skin biopsy and diagnostic evaluation (NEGATIVE)
+[090/121] Case: PMC2772285_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: PAST_HISTORY             | Quotes: 2
+      Rationale: A middle-aged male presented with a recurrent forefoot trophic ulcer 10 years after completing multidrug therapy for leprosy, with explicit confirmation that he was free of active disease. This represents a chronic neuropathic sequela of cured past disease without active leprosy infection (no E1/E2 evidence of current infection; trophic ulcer is E3 sequelae). Temporality is HISTORICAL_PAST and case definition for active leprosy is NOT_MET -> NEGATIVE.
+      Evidence [1]: [0:214] "A middle-aged male, farmer by occupation, presented to us with recurrent trophic ulcer ..." -> Clinical history of completed therapy and disease inactivity (NEGATIVE)
+      Evidence [2]: [747:801] "Sensations were reduced over the entire sole and foot." -> Sensory examination (POSITIVE)
+[091/121] Case: PMC4150118_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 59-year-old male presenting with coinfection of lepromatous leprosy (with type 2 reaction) and perianal cutaneous tuberculosis. PCR and DNA analysis from upper limb skin lesions were positive for Mycobacterium leprae (E1 confirmatory), and histopathology showed foamy macrophages with globi of bacilli. The clinical role is PRIMARY_DIAGNOSIS (as a coinfection/comorbidity), assertion is AFFIRMED, and temporality is CURRENT_EPISODE. All VPD criteria for Leprosy are met.
+      Evidence [1]: [1701:1806] "Polymerase chain reaction (PCR) and DNA analysis from upper limb skin samples were posi..." -> Polymerase chain reaction (PCR) (POSITIVE)
+      Evidence [2]: [911:1051] "The histopathology of upper limbs papular and nodular lesions showed foamy macrophages ..." -> Histopathological examination (POSITIVE)
+[092/121] Case: PMC10634479_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A young adult male presenting with diffuse lepromatous leprosy complicated by the Lucio phenomenon due to dual infection with M. leprae and M. lepromatosis. Skin biopsy showed neurovascular foamy histiocytes with acid-fast bacilli on Fite-Faraco stain, and standard PCR definitively confirmed the presence of M. leprae in lymph node biopsies (E1 confirmatory). VPD criteria are fully satisfied.
+      Evidence [1]: [1280:1351] "Fite-Faraco staining revealed fragmented and granular acid fast bacilli" -> Fite-Faraco modified acid-fast stain (POSITIVE)
+      Evidence [2]: [1483:1623] "The presence of   M. leprae   in lymph node biopsies and M. lepromatosis in both lymph ..." -> Standard PCR (POSITIVE)
+[093/121] Case: PMC11366274_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 9-year-old boy presenting with generalized hypopigmented macules where leprosy was considered in the initial differential diagnosis. Clinical examination revealed intact cutaneous sensation (negating the WHO cardinal sign of hypoesthesia), and skin biopsy confirmed hypopigmented mycosis fungoides (cutaneous T-cell lymphoma), definitively ruling out leprosy.
+      Evidence [1]: [1097:1123] "Skin sensation was intact." -> Sensory examination (NEGATIVE)
+      Evidence [2]: [1293:1451] "The initial working diagnoses were pityriasis versicolor, pityriasis alba, leprosy, pos..." -> Clinical differential evaluation (NEGATIVE)
+[094/121] Case: PMC10890809_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 53-year-old male presenting with Lucio phenomenon complicating lepromatous leprosy. Slit-skin smear from forehead and ear helices revealed a 4+ bacteriological index (E1 confirmatory). Physical examination demonstrated WHO cardinal signs including thickened ulnar and common peroneal nerves with glove-and-stocking sensory anesthesia and madarosis. Treated with standard WHO multibacillary MDT and corticosteroids.
+      Evidence [1]: [2034:2178] "Slit-skin smear examination obtained from the forehead and ear helices showed 4+ (10-10..." -> Slit-skin smear examination (POSITIVE)
+      Evidence [2]: [1158:1302] "thickening of the bilateral ulnar and common peroneal nerve, along with neuritis, glove..." -> Peripheral nerve examination (POSITIVE)
+[095/121] Case: PMC11384573_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 40-year-old male diagnosed with multibacillary leprosy and type II lepra reaction. Nested PCR definitively detected M. leprae gene targets (folp, gyrA, rpoB) in blood and skin lesion tissue (E1 confirmatory), and metagenomic NGS detected M. leprae in blood and CSF. Physical examination also confirmed thickened peripheral nerves with sensory and motor deficits. Treated with WHO multibacillary MDT and systemic corticosteroids with full clinical resolution.
+      Evidence [1]: [2792:2960] "M.leprae gene targets (folp, gyrA, rpoB) were identified in the blood and skin lesion t..." -> Nested PCR (folp, gyrA, rpoB) (POSITIVE)
+      Evidence [2]: [3486:3748] "Subsequent neurological physical examinations revealed bilateral thickening of the ulna..." -> Neurological examination (POSITIVE)
+[096/121] Case: PMC11258579_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 15-year-old female presenting with relapsed borderline tuberculoid (BT) leprosy manifesting as segmental necrotizing granulomatous neuritis of the right ulnar nerve. Cytopathology demonstrated classic epithelioid cell collections, lymphocytes, and necrotic debris involving the nerve (E2 highly specific histopathology), accompanied by persistent neuropathic pain, tingling, and ulnar sensorineural deficit. The patient demonstrated excellent clinical response to reinstitution of MDT and corticosteroid therapy.
+      Evidence [1]: [1190:1393] "The patient was followed up with a cytopathological examination of the swelling, which ..." -> Cytopathological examination (POSITIVE)
+      Evidence [2]: [1571:1768] "The patient was considered relapsed from leprosy, and multi-drug therapy consisting of ..." -> Clinical adjudication and MDT response (POSITIVE)
+[097/121] Case: PMC11087286_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: BACKGROUND_ONLY          | Quotes: 1
+      Rationale: A 54-year-old male with multidrug-resistant tuberculosis who developed clofazimine-induced skin hyperpigmentation. The mention of leprosy occurs exclusively in the educational discussion describing the pharmacological indications of clofazimine ('It is used in leprosy...'). The patient does not have leprosy, nor was leprosy considered as a differential diagnosis. Therefore, this is an excluded non-target case.
+      Evidence [1]: [956:1067] "It is used in leprosy, multidrug-resistant tuberculosis, lepra reaction, and in other m..." -> Pharmacological background context (NEGATIVE)
+[098/121] Case: PMC10645054_02 | Decision: EXCLUDED_NON_SINGLE_PATIENT | Evidence: E4_CONTEXT           | Role: BACKGROUND_ONLY          | Quotes: 1
+      Rationale: This record is an aggregate multi-patient study unit / cohort excerpt describing laboratory evaluations and adverse events across a series of subjects ('all subjects performed the following laboratory evaluations', 'one patient (number 4) was diagnosed with latent tuberculosis'). Because it does not represent an individualized single-patient clinical claim unit, it is excluded under the unit-of-analysis protocol.
+      Evidence [1]: [150:231] "Before pulse therapy, all subjects performed the following laboratory evaluations" -> Cohort protocol description (NEGATIVE)
+[099/121] Case: PMC11149418_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 35-year-old male with an atypical presentation of pure neural leprosy involving peripheral nerves and the central nervous system (myelitis and ganglionitis). An ultrasound-guided biopsy of the right medial cutaneous nerve of the forearm definitively demonstrated acid-fast bacilli within foamy macrophages on Wade-Fite staining (1+/4+) — an E1 confirmatory finding. Patient showed marked improvement upon multidrug therapy and immunosuppression.
+      Evidence [1]: [7266:7341] "presence of acid-fast bacilli in foamy macrophages (Wade-Fite stain, 1+/4+)" -> Wade-Fite modified acid-fast stain (POSITIVE)
+      Evidence [2]: [1011:1107] "Upon neurological examination, thickening of the right ulnar nerve was detected above t..." -> Physical examination of peripheral nerve (POSITIVE)
+[100/121] Case: PMC10823326_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 43-year-old male presenting with a chronic facial plaque where leprosy was explicitly evaluated in the differential diagnosis. Physical examination confirmed that cutaneous sensation over the lesion was completely intact, thereby ruling out leprosy ('The sensations over the lesion were intact, which ruled out leprosy'). The patient was diagnosed with cutaneous leishmaniasis and cured with miltefosine.
+      Evidence [1]: [1051:1119] "The sensations over the lesion were intact, which ruled out leprosy." -> Cutaneous sensory examination (NEGATIVE)
+[101/121] Case: PMC10481806_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: BACKGROUND_ONLY          | Quotes: 1
+      Rationale: A 62-year-old female presenting with cervical tuberculosis on Pap smear. The mention of Mycobacterium leprae occurs strictly within an educational quiz question regarding the concentration of sulfuric acid used for acid-fast stains ('5% of acid is used for Mycobacterium leprae'). Leprosy was never considered, diagnosed, or relevant to the patient's care.
+      Evidence [1]: [1552:1595] "5% of acid is used for Mycobacterium leprae" -> Educational quiz discussion (NEGATIVE)
+[102/121] Case: PMC10911422_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 28-year-old individual presenting with pure neural leprosy. Physical examination demonstrated WHO cardinal signs: marked tactile anesthesia in the distribution of the common fibular and posterior tibial nerves, along with enlargement and tenderness of both nerves. In addition, the ML Flow rapid test for M. leprae was positive and electroneuromyography confirmed motor and sensory mononeuropathy multiplex. Patient was initiated on standard multidrug therapy.
+      Evidence [1]: [875:980] "rapid leprosy test (Bioclin fast ML flow leprosy, Brazil) was performed, which provided..." -> Rapid leprosy test (ML Flow) (POSITIVE)
+      Evidence [2]: [491:745] "Additionally, the patient exhibited no tactile sensitivity on the lateral side of the l..." -> Semmes-Weinstein esthesiometer sensory testing (POSITIVE)
+[103/121] Case: PMC10516185_02 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A patient from an endemic region with family history of leprosy presenting with borderline tuberculoid (BT) leprosy complicated by a Type 1 reversal reaction (T1R). Clinical presentation satisfies the WHO Cardinal Triad: hypopigmented anesthetic skin lesion with loss of thermal and tactile sensation, accompanied by palpable ulnar nerve enlargement with motor weakness and muscle atrophy, corroborated by MRI and ultrasound. Successfully treated with MDT and corticosteroids.
+      Evidence [1]: [674:753] "Pain and tactile sensation had diminished or vanished in the lesion's location." -> Sensory examination (POSITIVE)
+      Evidence [2]: [860:962] "Mild atrophy of the left thenar muscle and palpable enlargement of the left ulnar nerve..." -> Peripheral nerve examination (POSITIVE)
+[104/121] Case: PMC10765237_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 39-year-old female presenting with lepromatous leprosy coinfected with latent syphilis. Excisional biopsy of cutaneous nodules demonstrated chronic granulomatous inflammation with prominent globi of acid-fast bacilli on Fite-Faraco staining, definitively confirming multibacillary lepromatous leprosy (E1 confirmatory). Treatment with the standard WHO multibacillary MDT regimen resulted in marked clinical improvement.
+      Evidence [1]: [1808:2020] "Histopathology study (Fig 2, A) revealed chronic granulomatous inflammation with globi ..." -> Fite-Faraco stain on skin biopsy (POSITIVE)
+[105/121] Case: PMC11404777_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 58-year-old male with chronic sequelae of remote Hansen's disease who presented with malignant transformation of a 20-year-old trophic ulcer into invasive squamous cell carcinoma (Marjolin ulcer). The patient had no active leprosy, no active diagnostic evaluation for M. leprae, and no anti-leprosy treatment was administered. Leprosy is documented strictly as a remote historical past resolved condition and underlying sequela.
+      Evidence [1]: [0:72] "The patient was a 58-year-old white male with Hansen's disease sequelae." -> Clinical history of sequelae (NEGATIVE)
+[106/121] Case: PMC11033532_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: PAST_HISTORY             | Quotes: 1
+      Rationale: A 51-year-old male presenting with pulmonary Schistosoma haematobium infection and HIV. Hansen's disease is mentioned strictly as a past medical history item treated and resolved in the previous year ('He is also a treated case of Hansen's disease in August 2022'). The patient had no active leprosy during this care episode, and the report is focused entirely on pulmonary schistosomiasis.
+      Evidence [1]: [356:417] "He is also a treated case of Hansen's disease in August 2022." -> Past medical history (NEGATIVE)
+[107/121] Case: PMC10586894_01 | Decision: EXCLUDED_NON_TARGET_CASE | Evidence: E4_CONTEXT           | Role: BACKGROUND_ONLY          | Quotes: 1
+      Rationale: A 3-year-old girl with acute lymphoblastic leukemia who developed reactive granulomatous dermatitis (RGD). Leprosy was mentioned only as a theoretical differential entity that was dismissed without testing due to geographic rarity, lack of travel history, and absent pathological features ('Due to the rarity of leishmaniasis and leprosy in her geographic area... additional specialty microbiologic testing was not performed'). It does not constitute a tested or validated clinical claim.
+      Evidence [1]: [2579:2782] "Due to the rarity of leishmaniasis and leprosy in her geographic area, absence of trave..." -> Differential diagnosis exclusion (NEGATIVE)
+[108/121] Case: PMC10896749_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 72-year-old female presenting with nasal bridge collapse, mononeuritis multiplex, and crescentic glomerulonephritis. Leprosy was suspected in the differential diagnosis, but slit skin smears from both earlobes and nasal biopsy demonstrated no acid-fast bacilli or lepromatous features ('Slit skin smears taken from both her earlobes showed no acid-fast bacilli (AFB) to suggest leprosy'). The patient was definitively diagnosed with P-ANCA-positive Wegener's granulomatosis and treated with immunosuppressants.
+      Evidence [1]: [4188:4287] "Slit skin smears taken from both her earlobes showed no acid-fast bacilli (AFB) to sugg..." -> Slit skin smear for acid-fast bacilli (NEGATIVE)
+[109/121] Case: PMC10629858_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: COMORBIDITY              | Quotes: 1
+      Rationale: A 57-year-old male with recently diagnosed active lepromatous leprosy confirmed by skin biopsy and undergoing multidrug therapy (rifampicin/clofazimine/dapsone for 2 months), who presented with high-grade peripheral T-cell lymphoma and Lambert-Eaton myasthenia syndrome. Leprosy is an active comorbidity confirmed by diagnostic skin biopsy and actively treated with MDT. All VPD criteria for a secondary diagnosis / comorbidity are met.
+      Evidence [1]: [0:181] "A 57-year-old man recently diagnosed with lepromatous leprosy was confirmed with skin b..." -> Skin biopsy and WHO-MDT initiation (POSITIVE)
+[110/121] Case: PMC11109676_01 | Decision: EXCLUDED_NON_CASE_REPORT | Evidence: E4_CONTEXT           | Role: BACKGROUND_ONLY          | Quotes: 1
+      Rationale: This record represents an extensive historical and philological treatise analyzing medieval Byzantine medical texts ('Interpreting materia medica. A case study on Ioannes Archiatrus'). It is a scholarly historical commentary and literature review rather than a modern clinical case report involving a contemporary clinical patient care episode. Excluded under the document type and unit-of-analysis criteria.
+      Evidence [1]: [0:48] "158.[130] For an inflammation of the intestines." -> Historical text analysis (NEGATIVE)
+[111/121] Case: PMC11786606_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 16-year-old male presenting with pure neuritic leprosy (PNL) and grade 2 disability. Physical examination satisfied the WHO Cardinal Triad: symmetric peripheral nerve enlargement (ulnar, common peroneal, and posterior tibial nerves) accompanied by profound motor and sensory deficits (claw hand contractures, thenar/hypothenar atrophy, trophic foot ulcers, and toe amputation). Nerve conduction studies confirmed mononeuritis multiplex, and the patient exhibited recurrent severe Type 1 reversal reactions responsive to corticosteroids. Treated with multibacillary MDT.
+      Evidence [1]: [1652:1785] "Enlargement was observed in both the ulnar nerves, common peroneal nerves, and posterio..." -> Peripheral nerve physical examination (POSITIVE)
+      Evidence [2]: [3067:3216] "The patient had recurrent severe reversal reactions throughout a follow-up period of 14..." -> Documented lepra reaction (Type 1 reversal reaction) (POSITIVE)
+[112/121] Case: PMC11682806_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 1
+      Rationale: A 55-year-old female in Florida diagnosed with tuberculoid leprosy. Molecular testing definitively confirmed Mycobacterium leprae by PCR across multiple biopsied skin lesions (E1 confirmatory). Successfully managed with multi-agent antimycobacterial therapy (rifampin, moxifloxacin, and minocycline) and anti-inflammatory therapy for leprosy reaction.
+      Evidence [1]: [282:378] "Mycobacterium leprae was detected by PCR in multiple biopsied lesions, confirming the d..." -> Polymerase chain reaction (PCR) (POSITIVE)
+[113/121] Case: PMC11748035_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 30-year-old male originally misdiagnosed with psoriatic arthritis, definitively diagnosed with mid-borderline leprosy and severe reversal reaction. Slit-skin smear from anesthetic lesions demonstrated acid-fast bacilli with a Bacteriological Index of 3+ and Morphological Index of 34.8% (E1 confirmatory). Physical examination also revealed enlarged peripheral nerves and cutaneous sensory loss. Fully satisfied VPD criteria.
+      Evidence [1]: [2129:2343] "Slit-skin smear examinations from anesthetic psoriasiform plaques on the left arm revea..." -> Slit-skin smear examination (POSITIVE)
+      Evidence [2]: [1991:2128] "The right great auricular nerve and both common peroneal nerves were observed to have n..." -> Peripheral nerve physical examination (POSITIVE)
+[114/121] Case: PMC11769843_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 2
+      Rationale: A 37-year-old male referred with suspected leprosy bacillus infection. Detailed evaluation demonstrated normal cutaneous sensation without sensory impairment, and tissue fluid acid-fast bacillus smears were negative (E0 contradicted). Histopathology demonstrated abundant mucin deposition and positive Alcian blue staining, definitively establishing the diagnosis of scleromyxedema and ruling out leprosy.
+      Evidence [1]: [2616:2668] "tissue fluid acid-fast bacillus smear were negative." -> Acid-fast bacillus smear (NEGATIVE)
+      Evidence [2]: [1976:2011] "no superficial sensory disturbances" -> Sensory examination (NEGATIVE)
+[115/121] Case: PMC11799367_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: COMORBIDITY              | Quotes: 2
+      Rationale: A 52-year-old male with confirmed multibacillary leprosy and Erythema Nodosum Leprosum (ENL / Type 2 lepra reaction) presenting with hypertensive crisis and NSTEMI secondary to high-dose steroid therapy. Leprosy was definitively diagnosed by skin smear and biopsy demonstrating acid-fast bacilli confirming M. leprae (E1 confirmatory), and persistent ENL lesions showed AFB positivity on smear. Leprosy is an active confirmed comorbidity directly precipitating the acute presentation.
+      Evidence [1]: [848:966] "A skin smear for acid-fast bacilli was sent, which returned positive, confirming the pr..." -> Skin smear for acid-fast bacilli (POSITIVE)
+      Evidence [2]: [1643:1787] "Skin smears of the lesions were sent which came out positive for acid-fast bacilli, sup..." -> Skin smear for acid-fast bacilli during ENL (POSITIVE)
+[116/121] Case: PMC11801015_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 15-year-old boy presenting with lepromatous leprosy and severe secondary lepra reaction (erythema nodosum leprosum). Slit-skin smear examination was positive for acid-fast bacilli (E1 confirmatory). Physical examination demonstrated classic WHO cardinal signs including hypopigmented patches with decreased sensation, enlarged ulnar and radial cutaneous nerves, madarosis, and saddle nose deformity. Successfully treated with WHO multidrug therapy and corticosteroids.
+      Evidence [1]: [2262:2348] "The skin slit smear was taken for acid-fast bacilli, which turned positive for leprosy" -> Skin slit smear acid-fast stain (POSITIVE)
+      Evidence [2]: [2122:2249] "There were bilateral ulnar and radial cutaneous nerve enlargement, saddle nose, madaros..." -> Physical examination of nerves and facies (POSITIVE)
+[117/121] Case: PMC12682060_01 | Decision: NEGATIVE                 | Evidence: E0_CONTRADICTED      | Role: RULED_OUT_DIAGNOSIS      | Quotes: 1
+      Rationale: A 55-year-old female presenting with chronic lingual nodules where Hansen's disease (leprosy) was considered in the initial differential diagnosis. Slit-skin smears and special stains were negative for acid-fast bacilli (E0 contradicted). The definitive diagnosis was established as isolated lingual PKDL by positive Leishmania donovani PCR, and complete resolution was achieved following liposomal amphotericin B.
+      Evidence [1]: [2537:2622] "Slit-skin smear and special stains were negative for acid-fast bacilli and Congo red." -> Slit-skin smear and acid-fast stains (NEGATIVE)
+[118/121] Case: PMC12981038_01 | Decision: POSITIVE                 | Evidence: E2_HIGHLY_SPECIFIC   | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 28-year-old female presenting with borderline tuberculoid leprosy. Clinical presentation fulfills the WHO Cardinal Triad: a hypopigmented cutaneous plaque with complete loss of temperature and decreased touch sensation, combined with palpable enlargement of the right common peroneal nerve confirmed on high-resolution ultrasonography. Biopsy showed characteristic epithelioid granulomatous infiltration with Langhans' giant cells. Successfully initiated on WHO multibacillary MDT.
+      Evidence [1]: [357:533] "hypopigmented patch of size 5x6 cm below knee extending to medial and lateral side of l..." -> Cutaneous sensory examination (POSITIVE)
+      Evidence [2]: [534:611] "On nerve palpation thickening of the right common peroneal nerve was present." -> Peripheral nerve physical examination (POSITIVE)
+[119/121] Case: PMC12481899_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 52-year-old female diagnosed with borderline lepromatous leprosy. Slit-skin smear demonstrated high bacteriological indices (BI 3+ in earlobes, 4+ in trunk lesions), and skin biopsy anti-acid staining directly confirmed abundant acid-fast bacilli infiltrating dermal foam cell clusters (E1 confirmatory). VPD criteria are fully satisfied.
+      Evidence [1]: [3419:3502] "Antiacid staining of the lesion on the left trunk showed positive acid-fast bacilli" -> Acid-fast (antiacid) tissue stain (POSITIVE)
+      Evidence [2]: [3017:3152] "Bacterial Index (BI) test results: left eyebrow arch, 2+; right eyebrow arch, 2+; left ..." -> Bacterial Index (BI) slit-skin smear (POSITIVE)
+[120/121] Case: PMC12908493_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 58-year-old male presenting with very late relapse of lepromatous leprosy 35 years following initial therapy. Skin biopsy with molecular testing was positive for Mycobacterium leprae (E1 confirmatory), and clinical examination revealed classic neurocutaneous sequelae including clawing of fingers, bilateral plantar trophic ulcers, facial paresis, and sensory loss. Multidrug therapy was successfully reinitiated.
+      Evidence [1]: [2787:2850] "Skin biopsy with molecular analysis was positive for M. leprae." -> Skin biopsy molecular analysis (PCR) (POSITIVE)
+      Evidence [2]: [3283:3405] "multidrug therapy with dapsone, rifampicin, and clofazimine was reinitiated, which the ..." -> Re-institution of WHO-MDT (POSITIVE)
+[121/121] Case: PMC12931996_01 | Decision: POSITIVE                 | Evidence: E1_CONFIRMATORY      | Role: PRIMARY_DIAGNOSIS        | Quotes: 2
+      Rationale: A 62-year-old male in Missouri diagnosed with lepromatous leprosy. Histopathological examination of cutaneous punch biopsies demonstrated foamy histiocytes with numerous Fite-positive acid-fast bacilli, and tissue PCR definitively confirmed Mycobacterium leprae DNA (E1 confirmatory). Combination ROM therapy resulted in prompt improvement of hand numbness and cutaneous plaques.
+      Evidence [1]: [1483:1649] "histopathological evaluation showed aggregations of foamy and epithelioid histiocytes c..." -> Fite stain on skin biopsy (POSITIVE)
+      Evidence [2]: [1650:1773] "Polymerase chain reaction (PCR) was also performed on one of the tissue samples, which ..." -> Polymerase chain reaction (PCR) (POSITIVE)
+
+================================================================================
+END OF LOG — ALL 121 PAIRS AUDITED, VERIFIED AND COMPLETE
+================================================================================

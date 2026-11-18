@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3965942_01",
+  "pair_id": "PMC3965942_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "The case is of a 65-year-old migrant from Sierra Leone who has been living in the United States for more than a decade. The patient has had history of multiple episodes of malaria infection in childhood but no reported episode after emigrating to the United States. The patient had last been to the malaria endemic region of Sierra Leone in 2009 and denied any sickness during her trip or immediately after returning to the United States. She had her first episode of malaria in August of 2010 during which she was treated with full course of quinine and clindamycin. Her blood smears examined for parasites were reported as positive for Plasmodium falciparum trophozoites with very low parasite titer. The patient was readmitted in September of 2012 with complaint of recurrent fever and chills. She had no interval history of travel to any malaria endemic region. Blood smears obtained on the second hospitalization were reported showing Plasmodium malariae trophozoites. The patient's peripheral blood smears from the current and prior hospitalization were reviewed by the hospital's chief pathologist to answer why two different malariae species were identified on the two occasions without any evidence of reexposure. The final pathology report stated that the malaria parasite seen on both occasions was that of Plasmodium malariae and the initial reports of the parasite being Plasmodium falciparum were flawed. After this report the patient was treated with full course of chloroquine with resolution of fever and parasitemia. At 2-month followup a blood smear was obtained which did not show any parasites in her blood.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old female migrant from Sierra Leone living in the United States presented in September 2012 with recurrent fever and chills 2 years after treatment for a prior malaria episode.",
+      "history_of_present_illness": "Having last visited Sierra Leone in 2009 without immediate illness, the patient was first hospitalized in August 2010 for malaria (reported as low-titer Plasmodium falciparum and treated with a full course of quinine and clindamycin) and was readmitted in September 2012 with recurrent fever and chills despite no interval travel to any malaria-endemic region.",
+      "past_medical_history": "Emigrated from Sierra Leone to the United States >10 years prior; history of multiple childhood malaria episodes, last travel to Sierra Leone in 2009, and hospitalization for malaria in August 2010 treated with quinine and clindamycin.",
+      "review_of_systems": "Positive for recurrent fever and chills."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Chronic/recrudescent Plasmodium malariae infection (initially misidentified as Plasmodium falciparum in August 2010). Retrospective review of peripheral blood smears from both the August 2010 and September 2012 hospitalizations by the hospital's chief pathologist confirmed P. malariae trophozoites on both occasions. Treated with a full course of oral chloroquine with complete resolution of fever and parasitemia and a negative follow-up blood smear at 2 months."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6732635_02",
+  "pair_id": "PMC6732635_02::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 35-year-old woman with no particular history was hospitalized for a headache, fever, jaundice (Figure 1(b)), and impaired consciousness after 2 days of quinine injection administered at her home. On admission, clinical examination indicated a fever of 39.6 C, a weight of 60 kg, a Glasgow score of 10, a respiratory rate of 31 cycles/minute, a thick negative peripheral blood smear, but a malaria RDT positive for P. falciparum. The hemoglobin concentration was 5 g/dl, and the blood glucose level was 3.9 mmol/L. Urinary catheter insertion revealed port wine-colored urine, which prompted the BWF diagnosis. The urine test strip indicated hemoglobinuria at 2 plus; bilirubinuria 3 plus; proteinuria 2 plus; absence of urobilinogens, red blood cells, and leukocytes; creatinemia of 450 mumol/L; and urea of 31.39 mmol; and quinine discontinuation was followed by treatment with intramuscularly injected artemether at a dose of 3.2 mg/kg daily on day 1 and 1.6 mg/kg daily from day 2 to day 5. The patient had three sessions of extrarenal purification and transfusion with 4,450 ml bags of blood. Evolution was favorable with clinical improvement and recovery of renal function after 5 days.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 35-year-old woman presented with headache, high fever, jaundice, port-wine-colored urine, and impaired consciousness after 2 days of home quinine injections.",
+      "history_of_present_illness": "After receiving 2 days of parenteral quinine injections at home for a febrile illness, the patient was hospitalized with persistent fever, headache, jaundice, port-wine-colored urine, and altered sensorium.",
+      "past_medical_history": "Unremarkable past medical history; received 2 days of home quinine injections prior to admission.",
+      "review_of_systems": "Positive for headache, fever, jaundice, dark port-wine-colored urine, and impaired consciousness."
+    },
+    "objective": {
+      "physical_examination": "Temperature 39.6 C, weight 60 kg, Glasgow Coma Scale score 10, RR 31 cycles/min, clinical jaundice, and port-wine-colored urine upon urinary catheterization.",
+      "routine_investigations": "Severe anemia with Hb 5 g/dL, blood glucose 3.9 mmol/L, serum creatinine 450 umol/L, and urea 31.39 mmol/L. Urine dipstick showed hemoglobinuria 2+, bilirubinuria 3+, proteinuria 2+, and no RBCs, WBCs, or urobilinogen.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Quinine-induced blackwater fever (BWF) with severe acute intravascular hemolysis (Hb 5 g/dL) and oliguric/azotemic acute kidney injury associated with Plasmodium falciparum malaria. Malaria RDT was positive for P. falciparum with a negative thick peripheral blood smear. Managed by immediate discontinuation of quinine, initiation of intramuscular artemether (3.2 mg/kg on day 1, then 1.6 mg/kg/day on days 2-5), 3 sessions of hemodialysis, and transfusion of four 450 mL units of whole blood, achieving full clinical and renal recovery within 5 days."
+    }
+  }
+}

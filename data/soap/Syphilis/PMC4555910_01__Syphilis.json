@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4555910_01",
+  "pair_id": "PMC4555910_01::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 75.0,
+  "raw_case_text": "A 74-year-old man presented to our department with a history of nasal twang and nasal regurgitation since many years. He also had a swelling over the palate that ulcerated since 1 month. He gives a history of penile ulcer at the age of 18 following a premarital exposure. On examination, there was a white patch of 1 cm x 1 cm over the ventral aspect of the tongue [Figure 1]. There was also a perforation of 1.5 cm x 1 cm over the hard palate with induration and sloughing at the margins [Figure 2]. An atrophic scar of 2 cm x 2 cm was present over the prepuce. There was a firm to hard cervical lymphadenopathy. Neurological evaluation revealed features suggestive of bilateral pyramidal signs. His erythrocyte sedimentation rate was raised, venereal disease research laboratory (VDRL) was 1:1 and treponema pallidum hemagglutination assay was positive. His cerebrospinal fluid VDRL and HIV were negative. Biopsy from palatal lesion showed squamous cells with nuclear hyperchromasia and high mitotic index extending beyond the basement membrane [Figure 3a]. Epithelial pearl/keratin whorl/malignant pearl was seen as concentric squames of keratin within an epithelial island [Figure 3b]. There was also areas of necrosis with surrounding lymphocytic infiltrate [Figure 3c]. Biopsy from the leukoplakia of the tongue showed marked epithelial dysplasia with an intact basement membrane. There was cellular atypia with hyperchromatic nuclei [Figure 4]. Patient was treated with doxycycline twice a day for 28 days and was referred to surgery and radiotherapy for further management.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 74-year-old man presented with a 1-month history of an ulcerated palatal swelling superimposed on a multi-year history of hypernasal speech ('nasal twang') and nasal regurgitation.",
+      "history_of_present_illness": "The patient had experienced nasal regurgitation and a nasal twang for many years due to a chronic hard palate defect, and noticed a new swelling over the palate that ulcerated 1 month prior to presentation.",
+      "past_medical_history": "History of a penile ulcer at age 18 following premarital sexual exposure.",
+      "review_of_systems": "Positive for chronic nasal regurgitation, hypernasal speech, and a 1-month ulcerated palatal mass."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed a 1.5 x 1 cm perforation of the hard palate with indurated, sloughing ulcerated margins, and a 1 x 1 cm leukoplakic white patch on the ventral surface of the tongue. Genital examination showed a 2 x 2 cm healed atrophic scar on the prepuce. Neck palpation revealed firm-to-hard cervical lymphadenopathy, and neurological examination demonstrated bilateral pyramidal tract signs.",
+      "routine_investigations": "ESR was elevated, and serum HIV testing was negative.",
+      "advanced_workup": "Lumbar puncture CSF VDRL was negative. Incisional biopsy histopathology of the indurated palatal perforation margin demonstrated invasive well-differentiated squamous cell carcinoma (SCC) with nuclear hyperchromasia, high mitotic index, basement membrane invasion, concentric keratin pearls, and necrosis. Biopsy of the ventral tongue leukoplakia showed severe epithelial dysplasia with an intact basement membrane."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed tertiary gummatous hard-palate perforation complicated by malignant transformation into oral squamous cell carcinoma and lingual leukoplakia with severe dysplasia, established via reactive serum VDRL (titer 1:1), positive serum TPHA, healed preputial chancre scar, and diagnostic palatal biopsy histopathology. Treated with oral doxycycline twice daily for 28 days for tertiary syphilis and referred to surgical oncology and radiation oncology for definitive management of the palatal SCC."
+    }
+  }
+}

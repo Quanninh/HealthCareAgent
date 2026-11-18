@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4605260_04",
+  "pair_id": "PMC4605260_04::Nocardiosis",
+  "target_disease": "Nocardiosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 77-year-old woman with a history of bronchiectasis and MAC colonization presented with increasing sputum production. She is an ex-smoker with a 10-pack-year smoking history. She had a history of breast cancer treated with mastectomy and hormonal therapy. Three years ago, she underwent left lower lobectomy for lung adenocarcinoma. MAC infection was diagnosed on bronchoscopy eight years earlier and treated with triple drug therapy with symptom resolution. Subsequent sputum cultures revealed continued colonization with MAC. One week prior to presentation, she developed fever and cough and was prescribed Levofloxacin. Her fever resolved, but she continued to have persistent cough despite a short course of oral corticosteroid treatment.\nOn presentation, she was afebrile with room air oxygen saturation of 97%. Her chest radiograph is shown in Figure 4. An expectorated sputum sample was obtained for culture. The sputum culture grew multiple organisms, including Pseudomonas aeruginosa, Staphylococcus aureus, Chryseobacterium indologenes, MAC, and Nocardia nova. She was treated for bronchiectasis exacerbation with Levofloxacin, which relieved her fever and cough. She is being actively monitored for pulmonary nocardiosis with symptom monitoring and repeat sputum cultures. She has remained asymptomatic and has not been treated for Nocardia so far.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 77-year-old woman with bronchiectasis and chronic Mycobacterium avium complex colonization presented with a 1-week history of fever, persistent cough, and increased sputum production.",
+      "history_of_present_illness": "One week prior to presentation, the patient developed fever and worsening productive cough. Her fever resolved with oral levofloxacin, but her productive cough persisted despite a short course of oral corticosteroids.",
+      "past_medical_history": "Bronchiectasis; Mycobacterium avium complex (MAC) pulmonary disease diagnosed 8 years prior on bronchoscopy (treated with triple-drug therapy with persistent MAC colonization); breast cancer treated with mastectomy and hormonal therapy; left lower lobectomy 3 years prior for lung adenocarcinoma; former smoker (10 pack-years). Recent short course of oral corticosteroids and levofloxacin.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Afebrile on presentation with room air oxygen saturation of 97%.",
+      "routine_investigations": "Chest radiograph demonstrated chronic bronchiectatic changes; expectorated sputum culture was obtained.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Polymicrobial airway colonization with Nocardia nova, Mycobacterium avium complex (MAC), Pseudomonas aeruginosa, Staphylococcus aureus, and Chryseobacterium indologenes in the setting of a bronchiectasis exacerbation was identified on expectorated sputum culture. Her fever and cough resolved following a course of oral levofloxacin for bronchiectasis exacerbation; because she remained clinically asymptomatic, she was managed with active clinical and serial sputum surveillance without specific anti-nocardial therapy."
+    }
+  }
+}

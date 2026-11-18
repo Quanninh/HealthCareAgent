@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3299072_01",
+  "pair_id": "PMC3299072_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 15 month old male child born normally at full term to non-consanguineous parents of low socio-economic status was admitted in pediatric ward with complaints of continuous and generalized tremor involving all limbs and head for 2 days. The baby had grade II malnutrition. He had hyperpigmentation specially over hands, feet, and moderate pallor with mild hepatosplenomegaly. He had recent hair-cut for graying and fall of hair. His tremor was generalized, coarse, fast, and of low amplitude. Tremor disappeared during sleep but aggravated during activities. Tremor was disturbing his normal activities of sitting, walking, and feeding. The baby had history of motor delay but no mental delay and he took interest in surroundings. His other neurological examination findings were normal.\nRoutine blood revealed pallor (Hb - 6.8 gm/dl) with microcytic hypochromic anemia. Chest X-ray revealed mild hilar infective changes. USG abdomen showed hepatosplenomegaly without ascites. Slides for malaria parasite and dual antigen were negative. The Mantoux test was negative. Serum urea, creatinine, and other biochemical parameters (serum Na, K, Ca) were within normal limits. MRI showed a typical hyperintense lesion in T2-weighted image of central pons with sparing of periphery of pons consistent with CPM [Figure 1]. EEG was normal. The cerebrospinal fluid (CSF) study was normal. Serum vitaminB12 and mineral (Mg and Zn) levels were within normal limits.\nThe baby was treated according to the WHO protocol for malnutrition, vitamin (A, D, B-complex, and C) and mineral (Zn, Mg, Ca) supplementation, antibiotics, and propranolol for 2 weeks. Propranolol was started at a dose of 0.5 mg/kg/day 2 days after starting nutritional therapy as there was no considerable improvement of tremor. Propranolol was gradually increased up to 2 mg/kg/day. During this period tremor decreased in intensity and general condition of the baby improved substantially. The baby was discharged with above medications and iron and followed-up for 2 weeks with disappearance of tremor without any side effects of propranolol.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 15-month-old male child presented with a 2-day history of continuous generalized tremors involving all four limbs and the head.",
+      "history_of_present_illness": "The child developed continuous, coarse, fast, low-amplitude generalized tremors of the limbs and head 2 days prior to admission that worsened during activity, interfered with sitting, walking, and feeding, and disappeared during sleep.",
+      "past_medical_history": "Born full-term via normal delivery to non-consanguineous parents of low socioeconomic status. History of grade II malnutrition, motor developmental delay (with preserved mental development), and recent haircut for graying and hair loss.",
+      "review_of_systems": "Positive for generalized action/postural tremor, graying/loss of hair, and motor delay."
+    },
+    "objective": {
+      "physical_examination": "Grade II malnutrition, hyperpigmentation predominantly over the hands and feet, moderate pallor, and mild hepatosplenomegaly. Neurological exam showed generalized, coarse, fast, low-amplitude tremor of all limbs and head that resolved during sleep and worsened with activity; alert and interested in surroundings with otherwise normal neurological examination.",
+      "routine_investigations": "CBC showed moderate microcytic hypochromic anemia (Hb 6.8 g/dL). Serum urea, creatinine, electrolytes (Na, K, Ca), vitamin B12, magnesium, and zinc levels were normal; Mantoux test was negative. Chest X-ray showed mild hilar infective changes; abdominal ultrasound showed hepatosplenomegaly without ascites; EEG was normal.",
+      "advanced_workup": "Brain MRI demonstrated a characteristic central pontine hyperintense lesion on T2-weighted imaging with peripheral pontine sparing, consistent with central pontine myelinolysis (CPM). Cerebrospinal fluid (CSF) analysis was normal."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Infantile tremor syndrome (ITS) associated with central pontine myelinolysis (CPM) and grade II protein-energy malnutrition. Malaria was excluded by negative peripheral blood slides and negative malarial dual antigen test. Treated with WHO malnutrition nutritional protocol, multivitamins (A, D, B-complex, C), minerals (Zn, Mg, Ca, iron), antibiotics, and oral propranolol (initiated at 0.5 mg/kg/day and titrated to 2 mg/kg/day for 2 weeks), resulting in complete disappearance of tremors at 2-week follow-up."
+    }
+  }
+}

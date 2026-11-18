@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6169087_01",
+  "pair_id": "PMC6169087_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 28-year-old male patient with a previous history of immune thrombocytopenic purpura (ITP), diagnosed six years ago but had stopped had treatment approximately five years ago, was hospitalized with clinical and epidemiological diagnosis of arbovirus infection (fever, asthenia, myalgia and arthralgia). On admission, thrombocytopenia (12,000/mm3) and anemia (8.0 g/dL) were observed (Table 1). Oral corticosteroid therapy was started with prednisone 1 mg/kg/day. On the third day of hospitalization, he had headache with vomiting, associated with mental confusion and, subsequently, motor aphasia and right hemiplegia. Considering the sudden worsening of the patient's overall conditions, he was referred to the intensive care unit. Nuclear magnetic resonance imaging of the brain was performed to rule out acute ischemic or hemorrhagic events. The neuroimaging examination showed no alterations. Faced with an acute neurological worsening, the possibility of TTP was considered. Analysis of the peripheral smear showed innumerable schizocytes, confirming the presence of TMA. Plasmapheresis and pulse therapy with methylprednisolone were started due to the hypothesis of TTP.\nSerological results were IgM positive for chikungunya and dengue viruses, and initially, the presence of IgG only raised to chikungunya virus (Euroimmun Medizinische Labordiagnostika, Lubeck, Germany). Serological tests for hepatitis virus B and C were negative, as well as for retroviruses (only HIV). Regarding retroviruses, other representatives are not routinely investigated and, in this case, they were not suspected. The patient also had negative results for antinuclear antibody (ANA) (Table 2). During the follow-up, serological results for dengue and chikungunya were confirmed, at this time showing the presence of IgG antibodies to chikungunya as well as to dengue virus. The serological test for zika virus was not performed following guidelines from Brazilian Ministry of Health, which recommend not to test zika virus when serological tests for dengue and chikungunya are positive.\nThere was a decrease in lactate dehydrogenase (LDH) (Table 1). Plasmapheresis was maintained until platelet counts remained higher than 150,000 for three consecutive days (Figure 1). Complete remission of neurological signs occurred after the first plasmapheresis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 28-year-old male with a remote history of immune thrombocytopenic purpura (ITP) presented with fever, asthenia, myalgia, and arthralgia, complicated on hospital day 3 by headache, vomiting, confusion, motor aphasia, and right hemiplegia.",
+      "history_of_present_illness": "Admitted with an acute febrile arboviral syndrome (fever, asthenia, myalgia, arthralgia), severe thrombocytopenia, and anemia, the patient was started on oral prednisone 1 mg/kg/day. On hospital day 3, he acutely developed headache, vomiting, mental confusion, motor aphasia, and complete right-sided hemiplegia requiring ICU transfer.",
+      "past_medical_history": "History of immune thrombocytopenic purpura (ITP) diagnosed 6 years prior, off treatment for ~5 years.",
+      "review_of_systems": "Positive for fever, asthenia, myalgia, arthralgia, and day-3 headache, vomiting, confusion, motor aphasia, and right hemiplegia."
+    },
+    "objective": {
+      "physical_examination": "On hospital day 3: mental confusion, motor aphasia, and right-sided hemiplegia.",
+      "routine_investigations": "Admission CBC showed severe thrombocytopenia (platelets 12,000/mm3) and anemia (hemoglobin 8.0 g/dL) with elevated LDH. Peripheral blood smear on day 3 demonstrated innumerable schistocytes confirming thrombotic microangiopathy (TMA). Serologies for HBV, HCV, HIV, and ANA were negative.",
+      "advanced_workup": "Brain MRI on hospital day 3 showed no acute ischemic or hemorrhagic lesions."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Thrombotic thrombocytopenic purpura (TTP) triggered by concurrent dengue and chikungunya virus coinfection, confirmed by positive dengue and chikungunya IgM and IgG serologies (Euroimmun), innumerable peripheral smear schistocytes, elevated LDH, and normal brain MRI. Treated with daily therapeutic plasma exchange (plasmapheresis) and pulse IV methylprednisolone, achieving complete remission of neurological deficits after the first plasmapheresis session and sustained platelet recovery (>150,000/mm3 for 3 consecutive days)."
+    }
+  }
+}

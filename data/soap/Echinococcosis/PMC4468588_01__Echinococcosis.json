@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4468588_01",
+  "pair_id": "PMC4468588_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A nine-year old boy was admitted to our referral hospital in August 2013 with a history of trauma caused by a fall two days before admission. He had chest pain, and mild respiratory distress and four years with non productive cough. He was sent to our center due to suspicious diagnosis of ruptured giant pulmonary hydatid cysts confirmed by 5 ml hydatid fluid thoracentesis. Chest roentgenogram, demonstrated a mass density of right hemithorax supposed to be massive pleural effusion with mediastinal shifting to the left (Fig. 1). On admission, the patient status included the mild respiratory distress (i.e., RR=29, PR=80, T=37. 5), and normal vital signs on physical examinations. Respiratory sounds were not audible over the right side lung. Serologic hemagglutination test (ELISA) for Echinococcosis was also positive. Computed tomography (CT) scan of the chest confirmed the right side pulmonary giant mediastinal cyst with mediastinal shift to the left and an absent shadow of collapsed right lung (Fig. 2). He was scheduled for perfoming the thoracotomy. After right-thoracotomy, a giant hydatid cyst with dimensions of 30*22*20cm was found extending from the right diaphragm toward the apex of the lung. There was not any pneumothorax, or pleural effusion at the time of operation owing to severe adhesions of the right pulmonary hydatid cyst to the extensive surface of the chest wall. After lyses of the adhesions, the chest cavity, all around the cyst was covered with spongy hypertonic normal saline. Then, the cyst was removed without contamination, the pericyst was opened and the laminated membrane was extracted from the right lower lobe (RLL). No pulmonary parenchyma remained in the RLL, and right lower lobectomy was successfully performed. The remaining lobes of the lung were expanded completely. Two chest tubes were inserted into the hemithorax cavity, and then the chest was closed. The patient discharged the hospital on the fifth day without any complications. After six months, the controlled chest X-ray was normal (Fig. 3). He was in good condition during the six months follow up period while medically treated by Albendazole 800 mg/day. Moreover, pathologic examinations have confirmed the existence of a pulmonary hydatid cyst (Fig. 4).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 9-year-old boy presented with chest pain and mild respiratory distress 2 days after a fall, on a 4-year background of chronic nonproductive cough.",
+      "history_of_present_illness": "The child had a 4-year history of chronic dry cough and developed acute chest pain and mild respiratory distress 2 days after falling. Prior to referral, an outside thoracentesis aspirated 5 mL of hydatid fluid from the right hemithorax.",
+      "past_medical_history": "History of a fall 2 days prior to admission.",
+      "review_of_systems": "Positive for acute post-traumatic chest pain, mild dyspnea, and 4 years of chronic dry cough."
+    },
+    "objective": {
+      "physical_examination": "Mild respiratory distress with respiratory rate 29 breaths/min, pulse 80 bpm, temperature 37.5 C, and completely absent breath sounds over the right hemithorax.",
+      "routine_investigations": "Serologic hemagglutination/ELISA test for echinococcosis was positive. Chest radiograph showed complete opacification of the right hemithorax with contralateral mediastinal shift to the left.",
+      "advanced_workup": "Chest CT demonstrated a giant cystic lesion occupying the entire right hemithorax with leftward mediastinal shift and complete collapse of the right lung. Right thoracotomy revealed a giant 30 x 22 x 20 cm pulmonary hydatid cyst extending from the right hemidiaphragm to the lung apex with dense pleural adhesions and complete parenchymal destruction of the right lower lobe; laminated membranes were extracted, right lower lobectomy was performed, and histopathological examination confirmed a pulmonary hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Giant right lower lobe pulmonary hydatid cyst (30 x 22 x 20 cm) mimicking a massive pleural effusion with complete right lower lobe destruction, confirmed by positive Echinococcus serology, intraoperative extraction of laminated membranes, and histopathology. The patient underwent right thoracotomy, cyst evacuation with hypertonic saline protection, and right lower lobectomy, was discharged on postoperative day 5, and completed 6 months of oral albendazole (800 mg/day) with a normal chest X-ray at 6-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2590677_03",
+  "pair_id": "PMC2590677_03::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Patient 3. The patient is a 25-year-old woman with left kidney agenesis, history of psoriasis since childhood, and seven episodes of shingles. In August 2004, she began intravenous etanercept. One month later, she developed left cervical lymphadenopathy and right lower extremity numbness and tingling. A positive monospot test led to a diagnosis of mononucleosis. Etanercept was discontinued; her symptoms resolved. In October, she began prednisone (40 mg daily) treatment for increasing dyspnea attributed to asthma; this was tapered off in January 2005 when she saw her primary care provider and chest radiograph revealed bilateral infiltrates. Chest CT demonstrated infiltrates and three liver lesions. Lung biopsy revealed Pneumocystis carinii pneumonia. CT scan (1/05) confirmed three liver lesions, the largest measuring 7 cm with central necrosis.  Fine needle aspiration of a liver mass revealed a well-differentiated SMN. CT scan (4/05) noted that the largest liver lesion was 7.5 cm in size. Subsequent CT scan (8/05) revealed no change. Positron emission tomography (PET) scan (9/05) showed tracer uptake in the liver lesions (Figure 1). In October 2005, she underwent an extended right hepatectomy and cholecystectomy. Pathology revealed multicentric EBV-associated SMNs (Figure 2). She remains without disease as of October 2008.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old woman with psoriasis presented with increasing dyspnea and bilateral pulmonary infiltrates following sequential etanercept and oral prednisone therapy.",
+      "history_of_present_illness": "In August 2004, the patient initiated etanercept for childhood-onset psoriasis. One month later (September 2004), she developed left cervical lymphadenopathy, right lower extremity numbness and tingling, and a positive Monospot test diagnostic of infectious mononucleosis; etanercept was discontinued with symptom resolution. In October 2004, she was started on oral prednisone (40 mg daily) for worsening dyspnea initially attributed to asthma, which was tapered off in January 2005 when her primary care provider identified bilateral infiltrates on a chest radiograph.",
+      "past_medical_history": "Left renal agenesis; psoriasis since childhood; seven prior episodes of herpes zoster (shingles); recent infectious mononucleosis (September 2004) 1 month after starting etanercept.",
+      "review_of_systems": "Positive for increasing dyspnea; recent history of left cervical lymphadenopathy and right lower extremity paresthesias."
+    },
+    "objective": {
+      "physical_examination": "Left cervical lymphadenopathy noted during the preceding September 2004 mononucleosis episode.",
+      "routine_investigations": "Positive heterophile antibody (Monospot) test in September 2004; chest radiograph in January 2005 showed bilateral pulmonary infiltrates.",
+      "advanced_workup": "Chest and abdominal CT scans (January, April, and August 2005): Demonstrated bilateral pulmonary infiltrates alongside three focal liver lesions (the largest measuring 7.0 cm with central necrosis in January 2005 and 7.5 cm in April and August 2005). PET scan (September 2005): Increased FDG tracer uptake within the hepatic lesions. Lung biopsy (January 2005): Confirmed Pneumocystis carinii (jirovecii) pneumonia. Liver lesion fine-needle aspiration and subsequent extended right hepatectomy pathology (October 2005): Confirmed multicentric Epstein-Barr virus (EBV)-associated smooth muscle neoplasms (SMNs)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Biopsy-proven Pneumocystis carinii (jirovecii) pneumonia and synchronous multicentric Epstein-Barr virus (EBV)-associated hepatic smooth muscle neoplasms (SMNs) following etanercept and high-dose oral prednisone (40 mg/day) immunosuppression in a patient with psoriasis and recurrent shingles. Plan and clinical course: Prednisone and etanercept were discontinued, P. carinii pneumonia was treated, and in October 2005 she underwent an extended right hepatectomy and cholecystectomy for the multicentric hepatic EBV-associated SMNs, remaining disease-free at 3-year follow-up in October 2008."
+    }
+  }
+}

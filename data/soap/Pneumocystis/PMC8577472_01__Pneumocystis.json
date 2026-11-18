@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8577472_01",
+  "pair_id": "PMC8577472_01::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 34yearold female, mother of a boy with XL-CGD, was admitted to the hospital with fever (38.5  C), non-productive cough and difficulty in breathing. Computerized tomography of the chest showed infiltrates in both lower lobes. Antimicrobial treatment was initiated with ceftriaxone and azithromycin. On the 4th hospital day, the patient's clinical condition was not improving and she underwent bronchoscopy with bronchoalveolar lavage. Immunofluorescence staining of bronchoalveolar lavage was positive for Pneumocystis jirovecii. Results of serologic tests for HIV-1 and HIV-2 were negative. Leukocytes, lymphocytes subpopulations, levels of immunoglobulins, including IgG subclasses, and complement components C3, C4, CH50 were within normal limits. Trimethoprimsulfamethoxazole (TMP-SMX) was initiated and the patient had complete resolution of clinical symptoms and radiographic improvement. She was discharged home on secondary prophylaxis with TMP-SMX. One year later, six months following discontinuation of TMP-SMX, she presented with an abscess in the right thigh caused by Serratia marcescens which was treated successfully with drainage and administration of ciprofloxacin.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 34-year-old female X-linked chronic granulomatous disease carrier presented with fever (38.5 °C), nonproductive cough, and difficulty breathing.",
+      "history_of_present_illness": "The patient, who is the obligate carrier mother of a boy with X-linked chronic granulomatous disease (XL-CGD), was admitted to the hospital with high fever (38.5 °C), dry cough, and dyspnea that failed to improve after 4 days of empiric ceftriaxone and azithromycin.",
+      "past_medical_history": "X-linked chronic granulomatous disease (XL-CGD) carrier (mother of a son with XL-CGD).",
+      "review_of_systems": "Positive for fever (38.5 °C), nonproductive cough, and dyspnea."
+    },
+    "objective": {
+      "physical_examination": "Febrile at 38.5 °C with respiratory distress on admission.",
+      "routine_investigations": "Immunological and infectious screening: HIV-1 and HIV-2 serologies negative; normal total leukocyte count, serum immunoglobulin levels (including IgG subclasses), and complement components (C3, C4, CH50).",
+      "advanced_workup": "Lymphocyte subpopulations: Within normal limits. Chest CT scan: Bilateral lower lobe pulmonary infiltrates. Hospital day 4 bronchoscopy with bronchoalveolar lavage (BAL): Direct immunofluorescence staining of BAL fluid was positive for Pneumocystis jirovecii."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Pneumocystis jirovecii pneumonia (PCP; confirmed by positive immunofluorescence staining on bronchoalveolar lavage fluid) in an HIV-negative X-linked chronic granulomatous disease (XL-CGD) female carrier, followed 1 year later (6 months after stopping TMP-SMX prophylaxis) by a right thigh Serratia marcescens abscess (a classic CGD-spectrum catalase-positive pathogen). Plan and clinical course: After failing 4 days of ceftriaxone and azithromycin, targeted trimethoprim-sulfamethoxazole (TMP-SMX) was initiated upon BAL confirmation, resulting in complete clinical and radiographic resolution and discharge on secondary TMP-SMX prophylaxis; her subsequent right thigh S. marcescens abscess was cured with surgical drainage and oral ciprofloxacin."
+    }
+  }
+}

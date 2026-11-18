@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5408821_01",
+  "pair_id": "PMC5408821_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "The patient, a 17-year-old female, was admitted to the hospital on June 4, 2016, at 2:50 am. She had a history of seizures at eight years of age. She was managed with diphenylhydantoin for two years, after which the medication was discontinued. Her current illness began after returning from a school trip. At the end of the day, her teachers observed generalized tonic-clonic movements with increased muscle tone, though the duration was not noted. She was transferred to the regional hospital in Xochitepec, Morelos, where diphenylhydantoin was administered. However, her seizures continued. Epileptic status was suspected, and the decision was made to protect the airways with orotracheal intubation. She was then moved to Children's Hospital of Morelos. On admission, she did not exhibit respiratory effort, corneal reflex, or cough reflex. ACT revealed cerebral edema and severe ventricular collapse (Fig. 1). \nHer laboratory and blood tests reported are presented in Table 1. The patient remained on respiratory support. Two electroencephalograms (EEGs) were performed, with both being isoelectric. Based on the clinical and EEG reports, brain death was determined, and the patient was declared dead two days after admission. Reported serology for dengue NS1 via enzyme-linked immunoassay (ELISA) was positive; PCR to detect enterovirus in the cerebrospinal fluid (CSF) was negative.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old female presented in status epilepticus with generalized tonic-clonic seizures and hypertonia after returning from a school trip.",
+      "history_of_present_illness": "At the end of a school trip on June 3-4, 2016, the patient's teachers witnessed generalized tonic-clonic convulsions with increased muscle tone. She was taken to a regional hospital in Xochitepec, Morelos where IV phenytoin failed to control her seizures, and she was intubated for status epilepticus and transferred to Children's Hospital of Morelos.",
+      "past_medical_history": "History of childhood seizures at age 8 treated with diphenylhydantoin (phenytoin) for 2 years and subsequently discontinued; no toxic exposure history; two younger sisters (ages 14 and 6) developed acute dengue illness within the same household cluster.",
+      "review_of_systems": "Positive for generalized tonic-clonic status epilepticus and coma."
+    },
+    "objective": {
+      "physical_examination": "On admission to Children's Hospital of Morelos: intubated, absent spontaneous respiratory effort, and absent corneal and cough brainstem reflexes.",
+      "routine_investigations": "Admission toxicology/anti-doping screen was negative; routine blood and immunoglobulin results are detailed in Table 1. Two serial electroencephalograms (EEGs) demonstrated electrocerebral silence (isoelectric).",
+      "advanced_workup": "Cranial CT scan revealed diffuse severe cerebral edema and complete ventricular collapse; CSF PCR for enterovirus was negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Fulminant dengue encephalitis presenting with refractory status epilepticus, malignant cerebral edema, and brain death, confirmed by positive serum Platelia dengue NS1 antigen ELISA and negative CSF enterovirus PCR. Managed with IV diphenylhydantoin, orotracheal intubation, and mechanical ventilation, and declared brain dead via clinical criteria and two isoelectric EEGs 2 days after admission."
+    }
+  }
+}

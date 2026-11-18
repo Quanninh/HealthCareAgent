@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8349031_01",
+  "pair_id": "PMC8349031_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 54-year old male was diagnosed as having Crohn's disease in 2012 when he presented with symptoms suggestive of intestinal obstruction and underwent a right hemicolectomy and a jejunal stricture resection. Histopathology of the resected tissue showed extensive ulceration of the jejunum and the ascending colon, chronic crypt architectural distortion, and crypt abscesses. Two months later, he re-presented with abdominal pain and was found to have narrowing at the anastomotic site on coloscopy. The biopsy of the anastomotic site revealed severe inflammation and ulceration and therefore started on steroids and azathioprine.\nAzathioprine was later substituted with methotrexate due to gastrointestinal intolerance and leucopenia. He was started on infliximab in July 2019 (5 mg/kg Intravenous every eight weeks) because of his progressive disease. In October 2020, he was admitted to our department with a one-month history of fever, fatigue, and productive cough with yellowish sputum. He was febrile with a temperature of 39  C, and a chest examination revealed bilateral coarse crackles over mid-lower lung zones. He had no pets and no known contact with birds. His laboratory investigations are summarized in (Table 1). A Chest x-ray showed a right-sided ill-defined nodular infiltrate (Fig. 1A). He was initially treated as a community-acquired chest infection with ceftriaxone and azithromycin. A computerized tomography (CT) chest was requested as there was an inadequate clinical response to treatment. The CT scan revealed scattered nodules and patchy ground-glass opacities in the right lower lobe (Fig. 1B,C,D). Subsequently, bronchoscopy with transbronchial biopsies from the right lower zone was performed. Bronchoalveolar lavage showed 55% lymphocytes and a positive culture for cryptococcus neoformans. Histopathology was noticeable for non-necrotizing granulomatous inflammation, and Grocott stain identified rounded organisms with a thick capsule consistent with cryptococcus neoformans (Fig. 2). Based on the absence of neurological symptoms, lumbar puncture was not carried out. He was started on a 6- month course of daily oral fluconazole. At one month's follow-up, he reported total resolution of his symptoms with a chest X-ray showing mild regression of the right-sided infiltrates.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 54-year-old male with Crohn's disease on infliximab and methotrexate presented with a 1-month history of fever, fatigue, and productive cough with yellowish sputum.",
+      "history_of_present_illness": "Fifteen months after starting infliximab (5 mg/kg IV every 8 weeks) alongside methotrexate for refractory Crohn's disease, the patient presented in October 2020 with 1 month of persistent fever, fatigue, and cough productive of yellowish sputum that failed to respond to initial empirical ceftriaxone and azithromycin.",
+      "past_medical_history": "Crohn's disease diagnosed in 2012 status post right hemicolectomy and jejunal stricture resection, complicated by anastomotic stricture; no pets or known contact with birds.",
+      "review_of_systems": "Positive for fever, fatigue, and productive cough with yellowish sputum. Negative for neurological symptoms. Home medications: infliximab (5 mg/kg every 8 weeks) and methotrexate (previously steroids and azathioprine)."
+    },
+    "objective": {
+      "physical_examination": "Febrile with a temperature of 39 C; chest auscultation revealed bilateral coarse crackles over the mid-to-lower lung zones.",
+      "routine_investigations": "Chest X-ray showed an ill-defined right-sided nodular infiltrate.",
+      "advanced_workup": "Chest CT demonstrated scattered nodules and patchy ground-glass opacities in the right lower lobe. Bronchoscopy with bronchoalveolar lavage (BAL) and right lower lobe transbronchial biopsy revealed 55% alveolar lymphocytes, a positive BAL fungal culture for Cryptococcus neoformans, and non-necrotizing granulomatous inflammation on histopathology with thick-capsule rounded yeast organisms on Grocott methenamine silver staining (lumbar puncture was not performed due to absence of neurological symptoms)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of pulmonary cryptococcosis secondary to anti-TNF-alpha (infliximab) and methotrexate immunosuppression in a patient with Crohn's disease, confirmed by positive BAL fungal culture for Cryptococcus neoformans and transbronchial lung biopsy histopathology (non-necrotizing granulomas with Grocott-positive encapsulated yeasts). Treated with a 6-month course of daily oral fluconazole, achieving complete symptom resolution and mild radiographic regression at 1-month follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11072183_01",
+  "pair_id": "PMC11072183_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 47-year-old male was admitted with a history of palpitations and fatigue persisting for 10 years and a recent headache lasting 10 days. He has a medical history of hypertension, diabetes, hyperthyroidism, and heart disease. He has no family history of hereditary diseases, smoking, or alcohol consumption. He is allergic to strawberries. The patient has no history of previous COVID-19 infection, denies having visited any COVID-19 outbreak areas or countries in the past 14 days, and has had no direct or indirect contact with individuals from those regions. There has been no recent travel abroad, no involvement in any clustered outbreak events, and no contact with individuals exhibiting fever symptoms. Additionally, the patient has not received the COVID-19 vaccine. Physical examination revealed thyroid enlargement, irregular heart rhythm, and bilateral lower limb edema. Laboratory tests indicated a high white blood cell(WBC)count, abnormal neutrophil percentage, elevated high-sensitivity C-reactive protein, and positive results for syphilis and cryptococcal infections. The head magnetic resonance imaging (MRI) revealed a potential brain-related condition as shown in  Figure 1 . Analysis of the cerebrospinal fluid (CSF) indicated abnormalities, including a positive finding for cryptococcal infection. Utilizing CSF microscopy examination, morphological analysis can be conducted to diagnose Cryptococcus infection using India ink staining and Wright-Giemsa stain. Confirmation of the Cryptococcus species could be obtained through microbial culture and mass spectrometry identification. The final results showed a medium quantity of Cryptococcus neoformans in the CSF. Based on the comprehensive examination results, the diagnosis of cryptococcal intracranial infection has been confirmed. Initially, treatment was initiated with amphotericin B cholesterol sulfate complex and fluconazole. On the third day, the patient developed symptoms consistent withCOVID-19 and tested positive for SARS-CoV-2 using nucleic acid testing (PCR). The condition rapidly deteriorated, leading to multiple systemic complications. The medical team discontinued amphotericin B cholesterol sulfate complex and fluconazole, switching to voriconazole, and initiated antiviral therapy with remdesivir. Despite aggressive antiviral and resuscitative treatments, the patient unfortunately passed away on the 13th day of admission due to respiratory failure.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old male presented with a 10-day history of headache on a background of a 10-year history of palpitations and fatigue.",
+      "history_of_present_illness": "The patient was admitted with a 10-day history of acute headache superimposed on 10 years of chronic palpitations and fatigue. He was unvaccinated against COVID-19 and denied recent travel or known infectious contacts.",
+      "past_medical_history": "Hypertension, diabetes mellitus, hyperthyroidism, and heart disease; unvaccinated against COVID-19; non-smoker and non-drinker; no family history of hereditary diseases.",
+      "review_of_systems": "Positive for headache, palpitations, and fatigue. Drug/food allergies: allergic to strawberries."
+    },
+    "objective": {
+      "physical_examination": "Thyroid enlargement, irregular heart rhythm, and bilateral lower limb edema.",
+      "routine_investigations": "Elevated WBC count, abnormal neutrophil percentage, elevated high-sensitivity C-reactive protein (hs-CRP), and positive serological testing for syphilis and cryptococcal infection. On hospital day 3, SARS-CoV-2 nucleic acid PCR tested positive.",
+      "advanced_workup": "Head MRI demonstrated intracranial abnormalities. Lumbar puncture CSF analysis revealed abnormalities with positive India ink and Wright-Giemsa staining and CSF microbial culture yielding a medium quantity of Cryptococcus neoformans."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of Cryptococcus neoformans intracranial infection (meningitis) complicated by hospital-acquired/co-incident severe COVID-19 and syphilis, confirmed by CSF India ink and Wright-Giemsa staining, CSF fungal culture, and mass spectrometry identification of Cryptococcus neoformans, alongside positive SARS-CoV-2 PCR on day 3. Initially treated with amphotericin B cholesterol sulfate complex and fluconazole; following rapid systemic deterioration from COVID-19 on day 3, antifungal therapy was switched to voriconazole and antiviral therapy with remdesivir was initiated, but the patient died of respiratory failure on hospital day 13."
+    }
+  }
+}

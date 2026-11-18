@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7572673_01",
+  "pair_id": "PMC7572673_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 60.0,
+  "raw_case_text": "A 66-year-old German woman presented in a university hospital with nasal obstruction. Clinically the patient showed nodular and ulcerative lesion at the nasal septum. Histology of the left nasal septum biopsy revealed necrosis, chronic inflammation and intracellular amastigote that was suggestive of leishmaniasis (Figure 1). The molecular-pathological detection of parasite DNA was positive for leishmania infantum. The medical history includes hypothyroidism and rheumatoid arthritis for which she was under continuous immunosuppressive treatment with methotrexate and anti-TNF-blocker (Humira ) several years ago. Moreover, she was treated for cutaneous leishmaniasis in the left elbow after a travel history in Mallorca five years ago (4 weeks, amphotericin B). The patient successfully retreated as a case of mucocutaneous leishmaniasis receiving at first liposomal amphotericin B for 2 weeks. Under the treatment showed the patient an increased level of creatinine, therefore, the therapy was changed to a phospholipid (Hexadecylphosphocholin = Miltefosin ) for 4 weeks with a side effect of vomiting. Follow up visits showed significant improvement with no recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 66-year-old German woman with rheumatoid arthritis presented with nasal obstruction caused by a nodular and ulcerative nasal septal lesion.",
+      "history_of_present_illness": "Five years after being treated with a 4-week course of amphotericin B for left elbow cutaneous leishmaniasis acquired in Mallorca, the patient presented to a university hospital with progressive nasal obstruction and an ulcerated nodular lesion on the left nasal septum.",
+      "past_medical_history": "Rheumatoid arthritis treated for several years with continuous methotrexate and adalimumab (Humira); hypothyroidism; history of cutaneous leishmaniasis on the left elbow 5 years earlier following travel to Mallorca, Spain.",
+      "review_of_systems": "History of immunosuppressive therapy with methotrexate and adalimumab; positive for nasal obstruction; developed acute creatinine elevation on liposomal amphotericin B and vomiting on oral miltefosine."
+    },
+    "objective": {
+      "physical_examination": "Nodular and ulcerative mucosal lesion located on the left nasal septum.",
+      "routine_investigations": "Serum creatinine increased after 2 weeks of liposomal amphotericin B therapy.",
+      "advanced_workup": "Biopsy histopathology of the left nasal septum revealed mucosal necrosis, chronic inflammation, and intracellular Leishmania amastigotes; molecular PCR testing on the biopsy tissue confirmed Leishmania infantum."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Left nasal septal biopsy histopathology and species-specific tissue PCR confirmed nasal Mucosal Leishmaniasis caused by Leishmania infantum in an immunosuppressed rheumatoid arthritis patient. Initial treatment with intravenous liposomal amphotericin B for 2 weeks was switched due to rising serum creatinine to a 4-week course of oral miltefosine (which caused transient vomiting), achieving complete mucosal healing with no recurrence on follow-up."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11803889_01",
+  "pair_id": "PMC11803889_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 52-year-old woman presented to our hospital with a painless left axillary swelling persisting for two years. Fig. 1. The patient reported no history of breast masses, fever, or other symptoms and had no previous diagnosis of hydatid cysts.\nOn examination, a firm to hard, mobile mass measuring (10 x 5) cm was palpated in the left axilla. There was no evidence of lymphadenopathy or noticeable changes in the overlying skin.\nLaboratory investigations revealed normal blood counts and biochemical results, including liver function tests and inflammatory markers.\nUltrasound imaging demonstrated a (10 x 5) cm thick-walled cystic lesion. The nature of the cyst was further elucidated, noting that it appeared anechoic without internal echoes. A mammographic examination of both breasts showed no abnormalities.\nPreoperative imaging studies were conducted to evaluate potential involvement of other organs, including abdominal ultrasound and chest X-ray, which showed no signs of liver or lung involvement. Based on characteristic ultrasound findings, the lesion was suspected to be a hydatid cyst.\nUnder general anesthesia, total cystectomy was performed. The cyst was carefully excised without rupture to minimize the risk of intraoperative dissemination. The exocyst was excised to ensure complete removal of all cyst components, which is crucial for preventing recurrence. Fig. 2.\nMacroscopic examination revealed a unilocular cyst with a hard fibrotic wall, measuring (12 x 10 x 6) cm. Fig. 3. Microscopic examination confirmed the diagnosis of a hydatid cyst, revealing the typical laminated structure associated with the infection, characterized by an acellular double-layered laminated capsule with inner cell monolayer (germinal membrane) and the presence of congested fibrovascular wall surrounded by a reactive fibrous capsule. (Fig. 4).\nThe postoperative course was uneventful. The patient was started on a regimen of albendazole at a dosage of 400 mg twice daily for four weeks to limit the risk of intraoperative dissemination of daughter cysts.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 52-year-old woman presented with a 2-year history of a painless left axillary swelling.",
+      "history_of_present_illness": "The patient noticed a slowly enlarging, painless mass in her left axilla over 2 years without breast masses, fever, or systemic symptoms.",
+      "past_medical_history": "No prior history of hydatid cysts or breast disease.",
+      "review_of_systems": "Positive for painless left axillary mass; negative for breast lumps, fever, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "A firm-to-hard, mobile mass measuring 10 x 5 cm was palpated in the left axilla without overlying skin changes or regional lymphadenopathy.",
+      "routine_investigations": "Complete blood count, liver function tests, and inflammatory markers were normal. Axillary ultrasonography revealed a 10 x 5 cm thick-walled anechoic cystic lesion without internal echoes. Bilateral mammography, chest X-ray, and abdominal ultrasound were normal.",
+      "advanced_workup": "Total cystectomy and pericystectomy under general anesthesia excised an intact 12 x 10 x 6 cm unilocular cyst with a hard fibrotic wall. Microscopic examination demonstrated an acellular double-layered laminated capsule lined by an inner germinal cell monolayer and surrounded by a congested fibrovascular reactive capsule."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated subcutaneous/axillary hydatid cyst in the left axilla, confirmed by histopathological identification of an acellular double-layered laminated membrane and inner germinal monolayer. The patient underwent intact total cystectomy without rupture and completed a 4-week postoperative course of oral albendazole 400 mg twice daily with an uneventful recovery."
+    }
+  }
+}

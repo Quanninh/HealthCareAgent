@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3415053_01",
+  "pair_id": "PMC3415053_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 23- year old male Nigerian undergraduate presented with 12 months history of colicky left loin pain of insidious onset which has slowly but progressively worsened. There was no lower urinary tract symptom, haematuria, loin swelling, weight loss, cough and no previous retroperitoneal surgery. He grew up in a rural community of south western Nigeria where he swam in local shallow stream which is the main source of water in the community. Two years before presentation, he had painless, terminal haematuria which was treated with praziquantel with complete clinical resolution of haematuria. Based on the medical counselling given, he never swam in shallow stream after the treatment and has since relocated from the rural area to an urban area. Renal ultrasonography on presentation showed dilatation of the renal calyces and pelvis on the left side with grossly normal right kidney and ureter. Urine microscopy showed no microscopic haematuria and 4-5 white blood cells per high power field. There were no ova or parasite seen in the urine and no bacterial growth on incubation. Serum electrolyte, urea and creatinine were all within normal limits.\nIntravenous urography (Figure 1) showed dilatation of the left renal calyces, pelvis and ureter. There were 2 areas of stenosis at the distal portion of the left ureter (Figure 1). The plane film also showed calcification at the area of obstruction. Initial diagnosis of ureteric obstruction secondary to calculi was made. Intra-operatively, the findings on urography were confirmed, no calculus was seen and the bladder was grossly normal (Figure 2). Resection of the strictured segment with left ureteroneocystostomy and psoas hitch was done. Post operative period was uneventful and patient was discharged from the hospital on the 8th post operative day.\nHistopathology report however showed a left ureteric mass with numerous Schistosoma ova within the ureteric wall (Figure 3). He was subsequently treated with a repeat dose of praziquantel and has been on follow up for over 3 years with no related complaints.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old male Nigerian undergraduate presented with a 12-month history of insidiously progressive, colicky left loin pain.",
+      "history_of_present_illness": "The patient experienced colicky left flank pain of insidious onset that slowly and progressively worsened over 12 months without lower urinary tract symptoms, gross hematuria, or loin swelling.",
+      "past_medical_history": "Grew up in a rural community in southwestern Nigeria where he swam in a local shallow stream; experienced painless terminal hematuria 2 years before presentation that resolved completely after praziquantel therapy, after which he avoided stream exposure and relocated to an urban area. No prior retroperitoneal surgery.",
+      "review_of_systems": "Denied lower urinary tract symptoms, hematuria, loin swelling, weight loss, or cough."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Renal ultrasound demonstrated dilated left renal calyces and pelvis with a normal right kidney and ureter. Urine microscopy showed 4-5 WBCs/HPF, no microscopic hematuria, and no ova or parasites; urine bacterial culture showed no growth. Serum electrolytes, urea, and creatinine were normal.",
+      "advanced_workup": "Intravenous urography (IVU) and plain abdominal radiography showed left hydroureteronephrosis, two distal left ureteric strictures, and calcification at the site of obstruction without intraluminal calculi at exploratory surgery. Histopathology of the resected strictured distal left ureter revealed a ureteric mass containing numerous intramural Schistosoma ova."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed schistosomal left distal ureteric stricture (initially suspected to be calculous ureteric obstruction) via histopathological identification of intramural Schistosoma ova. He underwent surgical resection of the strictured distal left ureter with left ureteroneocystostomy and psoas hitch (discharged on postoperative day 8 after an uneventful recovery), followed by a repeat course of oral praziquantel, remaining asymptomatic over more than 3 years of follow-up."
+    }
+  }
+}

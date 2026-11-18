@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3884178_01",
+  "pair_id": "PMC3884178_01::Amoebiasis",
+  "target_disease": "Amoebiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 45.0,
+  "raw_case_text": "The 45-year-old male patient denied any prior systemic disease. He had been buying and selling merchandise in Indonesia for 18 years. According to the patient's statement, he had suffered from intermittent bloody stool for nearly 1 month. He also denied any history of hemorrhoids and had not suffered from the same episode before. The increased bloody stool amount was first noted 4 days previously (on February 14) and subsequently about 5-6 times per day with a volume of 20-30 ml/time. He had also been suffering from abdominal pain over the periumbilical area, especially on the right site, for about 1 month. Intermittent fever was also during that week. He had eaten raw food with sashimi and uncooked eggs about 1 month previously. According to his statement, the locals clean the dishes with groundwater.\nDue to the above problem, he was taken to our emergency room. Colonoscopy was also done at the emergency room and showed multiple small polyps over the terminal ileum and multiple indurated ulcerations over the rectum and cecum (fig. 1). A mild elevation in C-reactive protein and erythrocyte sedimentation rate were noted. Normocytic anemia was also noted and suspected to be related to the bloody stool. Bedside abdominal echography showed no obvious liver abscess. Pathologic examination was also performed and showed chronic inflammatory infiltrate of lymphoplasma cells, eosinophils and neutrophils in the edematous fibrous lamina propria. Focal aggregations of amoeba trophozoites were demonstrated by periodic acid-Schiff stain (fig. 2). Ameboma was diagnosed and metronidazole was prescribed for invasive dysentery for 14 days. Additionally, iodoquinol was also prescribed for luminal infection and to prevent colonization. After 3 days of treatment the symptoms, including bloody stool and fever, had resolved. Follow-up colonoscopy showed much improvement 4 months post treatment and complete remission after 8 months (fig. 3).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old male merchant presented to the emergency department with a 1-month history of intermittent bloody stools and right-sided periumbilical abdominal pain that acutely worsened over the past 4 days, accompanied by 1 week of intermittent fever.",
+      "history_of_present_illness": "The patient experienced intermittent hematochezia and right-predominant periumbilical abdominal pain for nearly 1 month. Four days prior to emergency presentation (February 14), his bloody stools increased to 5-6 episodes daily (20-30 mL per episode), accompanied by intermittent fever over the preceding week.",
+      "past_medical_history": "Denied any prior systemic diseases, hemorrhoids, or similar prior episodes. Worked as a merchant in Indonesia for 18 years; consumed raw sashimi and uncooked eggs 1 month prior to onset, and reported that local dishes were washed with untreated groundwater.",
+      "review_of_systems": "Positive for bloody stools (5-6 times/day, 20-30 mL/episode), periumbilical/right-sided abdominal pain, and intermittent fever. Negative for prior hemorrhoids."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Laboratory studies showed normocytic anemia (attributed to hematochezia) and mild elevations in C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR). Bedside abdominal ultrasonography showed no liver abscess.",
+      "advanced_workup": "Emergency room colonoscopy revealed multiple small polyps in the terminal ileum and multiple indurated ulcerations in the cecum and rectum, which were biopsied for histopathology."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Histopathological examination of the colonic biopsies showed an edematous fibrous lamina propria with chronic lymphoplasmacytic, eosinophilic, and neutrophilic infiltration, and Periodic acid-Schiff (PAS) staining demonstrated focal aggregations of amoebic trophozoites, confirming colonic ameboma / invasive intestinal amoebiasis. The patient was treated with oral metronidazole for 14 days for invasive dysentery followed by iodoquinol for luminal cyst eradication. Bloody stools and fever resolved within 3 days of starting therapy, and follow-up colonoscopy demonstrated marked improvement at 4 months and complete mucosal remission at 8 months."
+    }
+  }
+}

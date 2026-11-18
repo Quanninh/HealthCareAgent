@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7772024_03",
+  "pair_id": "PMC7772024_03::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 46-year-old male with a long history of alcohol abuse was transferred to our department with a novel diagnosis of alcoholic cirrhosis. He had been admitted to another hospital with delirium tremens and rhabdomyolysis. A diagnosis of alcoholic cirrhosis was made following evaluation. During that hospitalization, mild fever was observed, which was considered as a consequence of aspiration and treated with amoxicillin-clavulanate. During hospitalization to our department for further evaluation of cirrhosis (which demonstrated extensive ascites, splenomegaly, prolongation of international normalized ratio (INR), hypoalbuminemia, and mild lower esophageal varices), low-grade fever persisted. Medical history revealed a recent, 50 days ago, trip to Spain and consumption of nonpasteurized dairy products (sheep's products).\nBlood cultures were positive for B. melitensis, confirmed by Rose Bengal plate agglutination, Wright seroagglutination test, and ELISA serology (Serion ELISA IgG/IgM/IgA antibodies to Brucella melitensis). The patient was treated with doxycycline 100 mg twice daily and ciprofloxacin 500 mg twice daily, but on day 4, he exhibited rapid worsening of liver function and laboratory indices of diffuse intravascular coagulation (DIC). Discontinuation of doxycycline and subsequently ciprofloxacin, along with supportive treatment, did not reverse the rapid evolution of the syndrome towards hepatic encephalopathy, spontaneous intracranial hemorrhage, and death on day 33.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old male with newly diagnosed decompensated alcoholic cirrhosis presented with persistent low-grade fever following hospitalization for delirium tremens and rhabdomyolysis.",
+      "history_of_present_illness": "A 46-year-old man with chronic alcohol abuse who was recently hospitalized at an outside facility for delirium tremens, rhabdomyolysis, and newly diagnosed alcoholic cirrhosis (where low-grade fever was empirically treated with amoxicillin-clavulanate for presumed aspiration) was transferred with persistent low-grade fever and extensive ascites.",
+      "past_medical_history": "Chronic alcohol abuse with newly diagnosed decompensated alcoholic cirrhosis (ascites, splenomegaly, mild lower esophageal varices); recent travel to Spain 50 days prior with consumption of unpasteurized sheep dairy products.",
+      "review_of_systems": "Positive for persistent low-grade fever and abdominal distension."
+    },
+    "objective": {
+      "physical_examination": "Low-grade fever, extensive ascites, and splenomegaly; progressed to hepatic encephalopathy and fatal spontaneous intracranial hemorrhage.",
+      "routine_investigations": "Baseline prolonged INR and hypoalbuminemia; developed rapid hepatic decompensation and disseminated intravascular coagulation (DIC) on day 4 of anti-Brucella therapy.",
+      "advanced_workup": "Upper GI endoscopy/evaluation demonstrated mild lower esophageal varices, splenomegaly, and extensive ascites."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Blood cultures isolating Brucella melitensis, positive Rose Bengal plate test, Wright seroagglutination, and Serion anti-Brucella IgG/IgM/IgA ELISA confirmed acute Brucella melitensis bacteremia in decompensated alcoholic cirrhosis. Initiation of oral doxycycline (100 mg BID) and ciprofloxacin (500 mg BID) was complicated on day 4 by fulminant hepatic failure and DIC; despite immediate antibiotic withdrawal and supportive care, he progressed to hepatic encephalopathy and fatal spontaneous intracranial hemorrhage on hospital day 33."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11746083_02",
+  "pair_id": "PMC11746083_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 33-year-old male had developed headache and fever 15 days prior, mainly paroxysmal pain in the forehead with his body temperature peaking at 37.5  C. There was no significant improvement after symptomatic treatment for analgesia and fever reduction. He experienced clonic and impaired awareness 10 days prior, which improved in approximately 10 minutes. This was accompanied by his eyes gaze, which was not preceded by aura. He did not experience tongue biting, urinary or fecal incontinence, salivation, or trauma. He had persistent headache with a body temperature of up to 40 C 1 day prior, accompanied by muscle soreness and general fatigue.\nAt the time of examination, he was conscious but ill, with a temperature of 38.5 C, respiratory rate of 20/minutes, pulse rate of 100/minutes, and blood pressure of 103/67 mmHg. His neurological examination was normal, and initial laboratory tests, including complete blood count, showed hemoglobin levels of 88 g/L, total leukocyte count of 3.04 x109/L, and platelet count of 72 x109/L. C-reactive protein (CRP) levels, erythrocyte sedimentation rate, and renal and liver function test results were within normal limits. Immunochromatographic tests for hepatitis B surface antigen, hepatitis C virus, and human immunodeficiency virus were negative, and a quantitative enzyme-linked immunosorbent assay for brucellosis demonstrated high levels of immunoglobulin (Ig) M and IgG for B. abortus. Blood culture revealed the presence of Brucella.\nLumbar puncture revealed clear CSF. The CSF leukocyte count was 6 x106/L (89% lymphocytes); CSF protein level, 0.96 g/L (normal range, 0.15-0.45 g/L); and glucose level, within normal range. Serum blood glucose was 5.4 mmol/L. The CSF was negative for oligoclonal bands ( Table 1 ).\nEnhanced brain MRI revealed abnormal bilateral frontotemporal subcortical signals, no enhancement was seen in the abnormal signal lesions ( Figure 2 ).\nThe patient was treated with ceftriaxone, rifampicin (900 mg once daily), and doxycycline (100 mg twice daily) for 12 weeks. At a follow-up 12 weeks post-discharge, the patient was doing well and was compliant with medication.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 33-year-old male presented with a 15-day history of paroxysmal forehead headache and fever peaking at 40 C, complicated by a 10-minute generalized clonic seizure with impaired awareness 10 days prior.",
+      "history_of_present_illness": "A 33-year-old male developed paroxysmal frontal headaches and low-grade fever (37.5 C) 15 days prior to admission that failed to respond to analgesics and antipyretics. Ten days before admission, he experienced a 10-minute episode of clonic seizure activity with impaired awareness and upward eye gaze without aura, tongue biting, or incontinence. One day prior to admission, his fever spiked to 40 C accompanied by persistent headache, myalgia, and generalized fatigue.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for frontal headache, high fever (up to 40 C), clonic seizure with impaired awareness and eye gaze deviation, myalgia, and fatigue; negative for aura, tongue biting, urinary/fecal incontinence, hypersalivation, or head trauma."
+    },
+    "objective": {
+      "physical_examination": "Conscious but ill-appearing; temperature 38.5 C, respiratory rate 20 breaths/min, pulse rate 100 beats/min, blood pressure 103/67 mmHg. Neurological examination was completely normal.",
+      "routine_investigations": "CBC showed pancytopenia: hemoglobin 88 g/L, WBC 3.04 x 10^9/L, platelets 72 x 10^9/L. CRP, ESR, and hepatic and renal function tests were within normal limits; serum glucose 5.4 mmol/L. Rapid immunochromatographic tests for HBsAg, HCV, and HIV were negative.",
+      "advanced_workup": "Lumbar puncture revealed clear CSF with mild lymphocytic pleocytosis (WBC 6 x 10^6/L, 89% lymphocytes), elevated protein 0.96 g/L (normal: 0.15-0.45 g/L), normal CSF glucose, and negative oligoclonal bands. Contrast-enhanced brain MRI showed non-enhancing abnormal T2/FLAIR subcortical signals in the bilateral frontotemporal lobes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Quantitative ELISA demonstrated high serum IgM and IgG titers against Brucella abortus, and blood culture isolated Brucella spp., confirming neurobrucellosis with pancytopenia and symptomatic epilepsy. Treated with ceftriaxone, oral rifampicin (900 mg QD), and oral doxycycline (100 mg BID) for 12 weeks, remaining clinically well and adherent at 12-week post-discharge follow-up."
+    }
+  }
+}

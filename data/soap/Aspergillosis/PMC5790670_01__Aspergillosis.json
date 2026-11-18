@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5790670_01",
+  "pair_id": "PMC5790670_01::Aspergillosis",
+  "target_disease": "Aspergillosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 49-year-old male smoker (with a smoking history of 90 pack-years) presented with vague complaints of dyspnea. Laboratory test results were normal. Serology for HIV was negative. A CT scan of the chest showed a nodule with the halo sign in the left lower lobe (Figure 1). Fungal serology was negative. \nThe halo sign is a nonspecific CT finding consisting of a halo of ground-glass opacity surrounding a nodule or, less commonly, a mass or a rounded area of consolidation. \nIn most cases, a halo of ground-glass opacity represents perinodular hemorrhage. In cases of angioinvasive aspergillosis (AIA), for example, a nodule represents pulmonary infarction secondary to fungal angioinvasion and a surrounding halo of ground-glass opacity represents perinodular alveolar hemorrhage. In other infectious processes, the halo sign represents perilesional inflammatory infiltration. In cases of adenocarcinoma, the halo sign represents tumor cell proliferation along the alveolar septa, the pulmonary architecture being preserved (lepidic growth). The same features can be seen in some cases of metastatic adenocarcinoma (particularly in cases of adenocarcinoma originating from the gastrointestinal tract or pancreas). \nAs an initial diagnostic approach, it is useful to determine patient immune status. In immunocompromised patients, the halo sign is most commonly due to infectious diseases, the most common being invasive fungal diseases, such as AIA. Therefore, in the presence of febrile neutropenia, especially in patients with hematological malignancies and in bone marrow transplant recipients, AIA is the major cause of the halo sign. In such cases, the halo sign is considered to constitute early evidence of AIA, warranting initiation of antifungal therapy before serologic test results are known. Early diagnosis is essential because the disease is associated with high mortality rates. In immunocompetent patients, especially asymptomatic patients and smokers, bronchial carcinoma, particularly lepidic adenocarcinoma (formerly known as bronchioloalveolar carcinoma), is the major cause of the halo sign. The differential diagnosis should also include the following: hemorrhagic metastases, particularly those related to angiosarcomas and choriocarcinomas; lymphomas; Kaposi's sarcoma; bacterial infections (including tuberculosis and actinomycosis); fungal infections (including candidiasis, mucormycosis, cryptococcosis, histoplasmosis, and paracoccidioidomycosis); viral infections (including infection with cytomegalovirus, herpes simplex virus, and varicella-zoster virus); sarcoidosis; granulomatosis with polyangiitis (Wegener's granulomatosis); and organizing pneumonia. \nAlthough the halo sign is a nonspecific finding with a broad differential diagnosis, the differential diagnosis can be considerably narrowed by correlating clinical data, laboratory test results, and associated CT findings. However, in many cases, a final diagnosis requires histopathological examination. In our patient, a biopsy revealed adenocarcinoma with a lepidic growth pattern.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 49-year-old male heavy smoker presented with vague complaints of dyspnea.",
+      "history_of_present_illness": "The patient, an immunocompetent man with a 90 pack-year smoking history, presented for evaluation of vague shortness of breath and was found on chest CT to have a left lower lobe pulmonary nodule surrounded by a ground-glass halo.",
+      "past_medical_history": "90 pack-year tobacco smoking history; HIV-negative and immunocompetent.",
+      "review_of_systems": "Positive for vague dyspnea."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Routine laboratory tests were normal, and HIV serology was negative.",
+      "advanced_workup": "Fungal serologies were negative. Chest CT demonstrated a pulmonary nodule in the left lower lobe with a surrounding ground-glass halo sign. Histopathological examination of a lung biopsy specimen revealed pulmonary adenocarcinoma with a lepidic growth pattern."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary left lower lobe lepidic-predominant lung adenocarcinoma presenting with a radiographic CT halo sign (reflecting lepidic tumor cell proliferation along intact alveolar septa); angioinvasive pulmonary aspergillosis and other infectious causes of the CT halo sign were ruled out by immunocompetent host status, negative fungal serology, and definitive lung biopsy histopathology."
+    }
+  }
+}

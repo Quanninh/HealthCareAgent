@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4378610_02",
+  "pair_id": "PMC4378610_02::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Ultrasound-guided 200 cc hemopurulent liquid aspiration was applied for diagnostic and palliative treatment of patient who had respiratory distress. The pathology of the thin needle aspiration biopsy was considered compatible with the abscess formation containing blood elements, dense neutrophils and leucocytes, many degenerated cells of no clear nature, and dense histiocyte. Examination of the culture of the liquid showed Brucella melitensis positive. In serology, tube agglutination test showed 1/1200 titer positive. Later, contrasted neck MRI of the patient was conducted in order to investigate the relationship between the abscess and thyroid gland and neighboring structures. On MRI, a cystic mass lesion, approximately 10.5 x 8.5 x 7 cm, thick-walled, slightly hyperintense on T1-oriented images, and hyperintense on T2-oriented images, with peripheral contrast following intravenous contrasting material injection, containing thin septa, attracted attention (Figure 2).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A patient presented with a large anterior neck mass causing acute respiratory distress.",
+      "history_of_present_illness": "The patient presented with a massive deep neck/thyroid-region abscess resulting in compressive respiratory distress requiring urgent ultrasound-guided aspiration.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for neck swelling and compressive dyspnea/respiratory distress."
+    },
+    "objective": {
+      "physical_examination": "Large anterior/cervical mass with respiratory distress.",
+      "routine_investigations": "Ultrasound-guided aspiration yielded 200 mL of hemopurulent fluid.",
+      "advanced_workup": "Fine-needle aspiration cytology/pathology showed abscess formation with blood elements, dense neutrophils, leukocytes, degenerated cells, and abundant histiocytes. Contrast-enhanced neck MRI demonstrated a 10.5 x 8.5 x 7 cm thick-walled, multiseptated cystic abscess (slightly hyperintense on T1WI, hyperintense on T2WI, with peripheral rim enhancement) adjacent to the thyroid gland and cervical structures."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Culture of the 200 mL aspirated cervical hemopurulent fluid isolated Brucella melitensis and the serum standard tube agglutination titer was positive at 1:1,200, confirming a giant cervical/thyroid-region Brucella melitensis abscess. Initial palliative and diagnostic decompression was achieved via ultrasound-guided aspiration of 200 mL of pus."
+    }
+  }
+}

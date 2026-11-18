@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4634015_01",
+  "pair_id": "PMC4634015_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 50 year old Moroccan female patient of rural origin presented in Avicenna hospital Rabat-Morocco with history of pain and swelling of the medial aspect of the right leg for two years. The patient had been operated, in another hospital, three years earlier for echinococcosis of the subcutaneous tissue of the right leg with no adjuvant treatment. No history of trauma, fever and weight loss was reported. A painful mass (Figure 1) next the previous incision was palpated on the medial side of the right leg; it was 5x7cm in diameter and there was no erythema and no sign of neurovascular compression, recurrence of hydatid disease was suspected. X-ray of the right leg showed an increased density of soft tissue in the medial aspect of the tibia (Figure 2). MRI (Magnetic Resonance Imaging) revealed the presence of a subcutaneous collection in proximity to the medial surface of the tibia at the junction of his upper and middle third adherent to the periosteum with a thick and scalloped wall, enhanced after gadolinium injection and fluid filled measuring 52x28x72 mm and a second deep collection at the tibialis posterior muscle measuring 21x9x38 mm sitting in front of the posterior tibial and peroneal arteries (Figure 3). Chest X-ray and abdominal ultrasonography did not reveal any abnormality. Complete blood count and electrolytes was normal, ELISA (Enzyme-linked immunosorbent assay) test for echinococcosis was positive. The diagnosis of recurrent hydatidosis has been retained. A three stages Therapeutic protocol was carried out in: Preoperative Albendazole chemotherapy for one month was performed followed by a complete surgical excision of subcutaneous cyst with two-centimeter margin of medial gastrocnemius and intraoperative drainage of the tibialis posterior muscle cyst with hydrogen peroxide irrigation of its pouch as it was adherent to the posterior tibial artery (Figure 4 A;B). Pathological examination of the cyst confirmed the diagnosis. Adjuvant Albendazole chemotherapy was prescribed postoperatively for one year. At two years follow up, no sign of local or distant recurrence was noted and the patient sill under medical surveillance each six months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 50-year-old rural Moroccan woman presented with a 2-year history of pain and swelling on the medial aspect of her right leg at the site of a prior hydatid cyst excision.",
+      "history_of_present_illness": "The patient developed progressive pain and swelling over the medial aspect of her right leg for 2 years, adjacent to the surgical scar from a subcutaneous hydatid cyst resection performed 3 years earlier without adjuvant anthelmintic therapy.",
+      "past_medical_history": "Operated 3 years earlier at an outside hospital for a subcutaneous hydatid cyst of the right leg without adjuvant medical therapy; rural Moroccan resident; no history of trauma.",
+      "review_of_systems": "Positive for right leg pain and swelling; negative for fever or weight loss."
+    },
+    "objective": {
+      "physical_examination": "A painful 5 x 7 cm mass was palpated on the medial aspect of the right leg adjacent to the prior surgical incision, without overlying erythema or neurovascular deficit.",
+      "routine_investigations": "Complete blood count and serum electrolytes were normal, and Echinococcus IgG ELISA was positive. Plain radiograph of the right leg showed increased soft-tissue density along the medial tibia without bone erosion. Chest X-ray and abdominal ultrasonography were normal.",
+      "advanced_workup": "Right leg MRI demonstrated two fluid-filled cystic collections with thick, scalloped, gadolinium-enhancing walls: a 52 x 28 x 72 mm subcutaneous collection adherent to the medial tibial periosteum at the upper-middle third junction, and a deep 21 x 9 x 38 mm collection within the tibialis posterior muscle anterior to the posterior tibial and peroneal arteries. Histopathology of the excised surgical specimen confirmed recurrent hydatidosis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Recurrent subcutaneous and deep intramuscular (tibialis posterior) hydatidosis of the right leg, confirmed by positive Echinococcus ELISA, MRI, and postoperative histopathology. A three-stage therapeutic protocol was implemented: 1 month of preoperative oral albendazole, wide surgical excision of the subcutaneous cyst (with a 2-cm medial gastrocnemius margin) plus intraoperative drainage and hydrogen peroxide pouch irrigation of the deep tibialis posterior cyst adherent to the posterior tibial artery, and 1 year of postoperative adjuvant albendazole, achieving 2-year recurrence-free survival."
+    }
+  }
+}

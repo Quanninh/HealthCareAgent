@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11760300_01",
+  "pair_id": "PMC11760300_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "We present the case of a 43-year-old woman from a rural area who had been experiencing mechanical pain in her right hip radiating to the thigh and knee for the past 6 years. Initially treated as lumbar sciatica, her condition showed no clinical improvement. The pain started off mild but progressively worsened over the past 4 months, becoming more intense and significantly limiting her walking capacity. On physical examination, there was swelling and tenderness in the right thigh, but no signs of fever, anorexia, or weight loss were observed. Blood tests, including C-reactive protein (CRP) and white blood cell count, were within normal limits. Standard radiographs (Fig. 1) revealed significant diaphyseal widening of the femoral bone along with cortical thickening.\nMagnetic resonance imaging (MRI) of the thigh (Fig. 2) showed a large centromedullary lesion in the right femoral diaphysis, measuring 25 cm in length. The lesion was characterized by multiple cystic formations, which were hyperintense on T2-weighted images, hypointense on T1-weighted images, and did not enhance postcontrast. This multi-vesicular appearance was highly suggestive of intraosseous hydatid cysts. A bone biopsy was performed, and histopathological examination (Fig. 3) confirmed the diagnosis of an infected intraosseous hydatid cyst. A microbiological culture was also taken, and PCR testing for Mycobacterium tuberculosis complex DNA was negative. Following histological confirmation, the patient was started on an antiparasitic treatment regimen with albendazole 400 mg twice daily, in addition to an antibiotic therapy consisting of Oroken 200 mg twice daily and Catex 1 mg 3 times daily. Three months later, the patient underwent surgical intervention for centromedullary lavage of the hydatid cyst. The immediate postoperative course was uneventful, and albendazole treatment was continued for 6 weeks to prevent recurrence. The patient then underwent a full radiological workup, including abdominal ultrasound and CT scans of the brain, spine, thorax, and abdomen, to rule out any hepatic or pulmonary involvement. The results confirmed that the hydatid disease was limited solely to the femoral bone, with no other sites of infection. Unfortunately, the patient was lost to follow-up and did not undergo postoperative imaging to assess disease progression.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 43-year-old woman presented with a 6-year history of mechanical right hip pain radiating to the thigh and knee that markedly worsened over the past 4 months.",
+      "history_of_present_illness": "The patient experienced mechanical right hip pain radiating to the thigh and knee for 6 years, initially misdiagnosed and treated as lumbar sciatica without improvement. Over the 4 months prior to presentation, the pain intensified and severely limited her ambulation.",
+      "past_medical_history": "Resided in a rural area.",
+      "review_of_systems": "Positive for severe right hip, thigh, and knee pain and gait limitation; negative for fever, anorexia, or weight loss."
+    },
+    "objective": {
+      "physical_examination": "Swelling and tenderness of the right thigh without fever or constitutional signs.",
+      "routine_investigations": "White blood cell count and C-reactive protein (CRP) were within normal limits. Plain radiographs of the right femur demonstrated marked diaphyseal widening and cortical thickening. Abdominal ultrasound was normal.",
+      "advanced_workup": "Thigh MRI revealed a 25-cm centromedullary multivesicular lesion in the right femoral diaphysis with multiple T2-hyperintense, T1-hypointense non-enhancing cysts. Bone biopsy histopathology confirmed an infected intraosseous hydatid cyst, while microbiological culture and Mycobacterium tuberculosis complex PCR were negative. Staging CT scans of the brain, spine, thorax, and abdomen excluded hepatic, pulmonary, or other extraosseous involvement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary isolated intraosseous hydatid cyst of the right femoral diaphysis, confirmed by bone biopsy histopathology (tuberculosis excluded by negative PCR). The patient received 3 months of preoperative oral albendazole (400 mg twice daily) combined with antibiotics (cefixime [Oroken] 200 mg twice daily and Catex 1 mg three times daily), followed by surgical centromedullary lavage of the femoral cyst and 6 weeks of postoperative albendazole; the immediate postoperative course was uneventful, after which she was lost to follow-up."
+    }
+  }
+}

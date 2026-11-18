@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3515951_01",
+  "pair_id": "PMC3515951_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 22-year-old female, farmer by occupation, presented with complaints of chest pain and progressive weakness of left lower limb that had persisted for 3 months. There was no history of fever, weight loss, or trauma. The general physical examination was unremarkable. Respiratory system examination revealed dullness on percussion and tenderness in left infraclavicular, suprascapular, and interscapular regions. The routine laboratory investigations were normal.\nRadiographs of chest, performed in posterior-anterior (PA) and lateral projections, demonstrated well-defined homogenous soft tissue opacity in the posterior mediastinum. There was erosion of the 4th rib posteriorly, scalloping of superior margin of 5th rib, and widened fourth intercostal space [Figure 1a and b]. Contrast enhanced computed tomography (CT) of the thorax revealed a well-defined, multiloculated cystic mass in the left paravertebral space, extending into the spinal canal by causing erosion of the adjoining pedicle and lamina of fourth thoracic vertebra. There was erosion of the overlying 4th rib with scalloping of the 5th rib and widened intervening intercostal space [Figures 2 and 3].\nBased on the imaging findings, the possible differential diagnosis included neurogenic tumors, aggressive malignant masses like round cell tumors (Ewing's sarcoma, primitive neuroectodermal tumors, and others), lymphoma, or metastasis. Since the mass was predominantly cystic with multiloculated appearance and considering the occupation of the patient, hydatid cyst was also considered a possible differential diagnosis.\nThe serological test with enzyme linked immunosorbant assay (ELISA) was positive for echinococcosis, thus suggesting hydatid cyst as a possible etiology. The patient was operated and the cystic mass along with the involved 4th rib were completely excised. The diagnosis was confirmed macroscopically preoperatively and by histopathological studies postoperatively. Postoperative recovery was uneventful and the patient was discharged and put on adjuvant chemotherapy with mebendazole for 2 years. The patient was monitored with routine follow-ups for 5 years with no evidence of recurrence.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 22-year-old female farmer presented with a 3-month history of chest pain and progressive left lower limb weakness.",
+      "history_of_present_illness": "The patient developed persistent chest pain and progressively worsening weakness of her left lower extremity over 3 months without fever, weight loss, or trauma.",
+      "past_medical_history": "Worked as a farmer; no history of trauma.",
+      "review_of_systems": "Positive for chest pain and progressive left lower limb weakness; negative for fever or weight loss."
+    },
+    "objective": {
+      "physical_examination": "General physical examination was unremarkable; chest examination revealed dullness to percussion and local tenderness over the left infraclavicular, suprascapular, and interscapular regions.",
+      "routine_investigations": "Routine blood tests were normal. Echinococcus IgG ELISA serology was positive. PA and lateral chest radiographs demonstrated a well-defined homogeneous posterior mediastinal opacity with posterior erosion of the left 4th rib, superior margin scalloping of the 5th rib, and widening of the 4th intercostal space.",
+      "advanced_workup": "Contrast-enhanced thoracic CT revealed a well-defined multiloculated cystic mass in the left paravertebral posterior mediastinum eroding the left 4th rib, scalloping the 5th rib, and extending through the eroded T4 pedicle and lamina into the spinal canal. Complete surgical excision of the cystic mass and involved 4th rib with macroscopic and histopathological evaluation confirmed a hydatid cyst."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Primary posterior mediastinal paravertebral hydatid cyst with rib erosion and T4 intraspinal extradural extension, confirmed by positive Echinococcus ELISA and postoperative histopathology (ruling out neurogenic tumor, Ewing sarcoma/PNET, lymphoma, and metastasis). Following complete surgical excision of the cyst and involved 4th rib, the patient received adjuvant oral mebendazole for 2 years and remained recurrence-free over 5 years of follow-up."
+    }
+  }
+}

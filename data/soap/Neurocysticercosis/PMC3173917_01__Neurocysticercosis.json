@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3173917_01",
+  "pair_id": "PMC3173917_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 10-year-old female patient presented with gradual weakness in both lower limbs and numbness from lower thorax to foot for 3 months. There was also history of bowel and bladder incontinence. There was no history of fever, rash, or trauma. The child was conscious with preserved higher functions. Neurological examination revealed spastic paraplegia (motor power 3/5), brisk B/L deep tendon reflexes with extensor plantar and loss of sensations to pinprick bilaterally below T5 dermatomes. Peripheral blood count was normal. Mantoux test was negative and radiographs of the spine and chest revealed no abnormality.\nContrast-enhanced MRI of the spine revealed an isolated, well-defined, intramedullary cystic lesion measuring 1.8 1.0 cm at the level of D2 vertebral body. On T1-weighted imaging, the lesion was hypointense with a central isointense mural nodule [Figure 1a]. The lesion was hyperintense on T2-weighted image with an isointense mural nodule [Figure 1b and c]. There was edema of the surrounding cord. Ring enhancement was seen on post-contrast T1-weighted image [Figure 1d]. Based on these findings, a diagnosis of cysticercus cyst was suggested. Screening of MRI brain was normal. CSF examination done revealed elevated protein and normal glucose levels with increased lymphocytes, and few eosinophils and positive enzyme-linked immunosorbent assay (ELISA) for anti-T. solium IgG immunoglobulin.\nKeeping the provisional diagnosis of cysticercosis in mind, empirical treatment with antihelminthic along with steroids was started. Marked clinical improvement was seen within a few days in the form of increase in limb power and return of tendon reflexes. Complete improvement was seen during the follow-up period of 3 months.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 10-year-old girl presented with a 3-month history of progressive bilateral lower limb weakness, numbness from the lower thorax to the feet, and bowel and bladder incontinence.",
+      "history_of_present_illness": "Over the 3 months preceding presentation, the patient developed gradual bilateral lower extremity weakness accompanied by sensory numbness extending from the lower chest to both feet as well as bowel and bladder incontinence, without fever, rash, or trauma.",
+      "past_medical_history": "No history of trauma, fever, or rash.",
+      "review_of_systems": "Positive for bowel and bladder incontinence; negative for fever or rash."
+    },
+    "objective": {
+      "physical_examination": "The child was conscious with preserved higher mental functions. Neurological examination demonstrated spastic paraplegia with 3/5 lower limb motor power, brisk bilateral deep tendon reflexes, bilateral extensor plantar responses, and bilateral loss of pinprick sensation below the T5 dermatome.",
+      "routine_investigations": "Peripheral blood count was normal, Mantoux tuberculin test was negative, and spine and chest radiographs were unremarkable.",
+      "advanced_workup": "Contrast-enhanced spine MRI demonstrated an isolated, well-defined intramedullary cystic lesion measuring 1.8 x 1.0 cm at the D2 vertebral level, appearing T1-hypointense and T2-hyperintense with an isointense central mural nodule (scolex), surrounding spinal cord edema, and ring enhancement on post-contrast T1 imaging. Screening brain MRI was normal. CSF examination revealed elevated protein, normal glucose, lymphocytic pleocytosis, and a few eosinophils."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "CSF anti-Taenia solium IgG ELISA was positive, confirming isolated intramedullary spinal neurocysticercosis at the D2 level. Empirical treatment with anthelmintic therapy and corticosteroids was initiated, yielding marked improvement in limb strength and deep tendon reflexes within days and complete neurological recovery at 3-month follow-up."
+    }
+  }
+}

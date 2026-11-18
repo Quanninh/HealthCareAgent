@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10230527_01",
+  "pair_id": "PMC10230527_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 29-year-old unmarried female, who is a known case of schizophrenia for the past 10 years, was admitted to the MICU of our institute.\nShe was on tablet risperidone 6 mg, tablet aripiprazole 15 mg, and tablet carbamazepine 800 mg for the past 1 year as prescribed by a psychiatrist from another institute. The patient had presented with complaint of gradually progressive generalized weakness, loss of appetite, lethargy, and giddiness for the past 6 months, with increasing severity from the past 1 month, with a history of fever for 4 days. There was no history of any chronic illness and substance use. A family history of pancytopenia was absent.\nGeneral physical examination revealed pallor and generalized swelling all over the body. Pulse rate was 102/min, blood pressure 78/40 mmHg, respiratory rate 16/min, temperature 102 F, and SpO2 97% on room air. Systemic examination was within normal limits.\nOn laboratory investigations, there was severe anemia (Hb: 4.4g%), thrombocytopenia (60,000/mm3), and decreased TLC (3940/mm3). Urine routine microscopy revealed 4-6 pus cells/high-power field. Malaria serology, dengue serology test, Widal test, and viral markers tested negative. Renal function test, liver function test, and serum electrolytes were within normal limits. Vitamin B12 and B9 levels were low (82 pg/ml and 1.8 ng/ml, respectively). Based on the above clinical and laboratory data patient was diagnosed with carbamazepine-induced pancytopenia.\nDuring hospitalization, the following medications were prescribed; tablet folic acid 5 mg once daily (OD), tablet calcium + Vitamin d3 (500 mg + 250IU) OD, tablet B complex OD, injection of Neurobion forte two ampules intravenous of (IV) in normal saline (NS), three units packed red blood cells were transfused, IV fluids (NS altering with Ringer Lactate) were being transfused hourly, to treat hypotension, and injection noradrenaline four ampules were administered in NS. A combination injection of piperacillin and tazobactam was administered for 5 days and fever had then subsided. Subsequently, the tablet carbamazepine was tapered off in 1 week. After cessation of the drug, the platelet count showed a significant improvement to 113, 000/mm3, Hb 8.3 g%, and TLC count 4650/mm3.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old unmarried female presented with progressive generalized weakness, loss of appetite, lethargy, and giddiness for 6 months (worsening over 1 month) and fever for 4 days.",
+      "history_of_present_illness": "The patient, treated for schizophrenia with risperidone, aripiprazole, and carbamazepine for the preceding year, developed insidiously progressive generalized weakness, anorexia, lethargy, and dizziness over 6 months that worsened significantly over the past month, complicated by acute fever for 4 days prior to MICU admission.",
+      "past_medical_history": "10-year history of schizophrenia; no other chronic illnesses or substance use; negative family history of pancytopenia.",
+      "review_of_systems": "Positive for generalized weakness, loss of appetite, lethargy, giddiness, fever (4 days), and anasarca/generalized body swelling. Home medications: tablet risperidone 6 mg, tablet aripiprazole 15 mg, and tablet carbamazepine 800 mg daily for 1 year."
+    },
+    "objective": {
+      "physical_examination": "Pallor and generalized swelling all over the body; pulse rate 102/min, blood pressure 78/40 mmHg, respiratory rate 16/min, temperature 102 F, and SpO2 97% on room air. Systemic examination was within normal limits.",
+      "routine_investigations": "Severe pancytopenia with hemoglobin 4.4 g%, platelet count 60,000/mm3, and total leukocyte count 3,940/mm3. Urine routine microscopy showed 4-6 pus cells/HPF. Renal function tests, liver function tests, and serum electrolytes were normal. Vitamin B12 (82 pg/mL) and folate/vitamin B9 (1.8 ng/mL) levels were low. Malaria serology, Widal test, and viral markers were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Carbamazepine-induced pancytopenia with megaloblastic nutritional deficiency (low vitamin B12 and folate) and febrile hypotension. Dengue fever was ruled out by negative dengue serology. Managed with carbamazepine taper and discontinuation over 1 week, transfusion of 3 units of packed red blood cells, hourly IV fluids (normal saline alternating with Ringer's lactate), IV noradrenaline infusion, IV piperacillin-tazobactam for 5 days, oral folic acid 5 mg OD, calcium + vitamin D3 (500 mg + 250 IU) OD, B-complex OD, and IV Neurobion Forte. Fever subsided and hematological parameters improved to platelets 113,000/mm3, hemoglobin 8.3 g%, and TLC 4,650/mm3."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7527865_03",
+  "pair_id": "PMC7527865_03::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Female, 31 years old, Caucasian, unemployed, from Salvador, State of Bahia, was diagnosed (Montenegro positive test) with American Tegumentary Leishmaniasis in October, 2011. The patient was treated with Glucantime, 20 mg/kg/day for 30 days. A lesion in her back region was partially healed. In 2012, two episodes of recurrence occurred and restarted treatment with Glucantime in January and May. In a third recurrence episode (August, 2012), due to the maintenance of the lesion, a lesion biopsy was performed and Leishmania braziliensis was diagnosed. Treatment with amphotericin B was initiated at a dose of 250 mg/d up to a maximum dose of 2,400 mg, resulting in wound healing. In 2013, the patient was admitted with submandibular lymphadenopathy and ulcerated lesions in the lower lip frenulum ( Figure 1d), gingiva, nasal septum and in the back region. She was hospitalized for diagnosis and treatment of lesions with liposomal amphotericin B. Due to persistence of the lesions, HIV serology was performed. The patient was HIV positive and antiretroviral therapy was started (efavirenz 600mg, tenofovir 300mg, lamivudine 300mg, per day, one tablet containing the three drugs). Excisional biopsies of oral lesions were performed with unspecific result. Microbiological analysis for fungi was negative. Two months later, the patient was discharged and a maintenance dose of liposomal amphotericin B (150 mg/day) was prescribed.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 31-year-old Caucasian female from Salvador, Bahia, Brazil, with recurrent cutaneous leishmaniasis on her back since October 2011 presented in 2013 with submandibular lymphadenopathy and ulcerated lesions of the lower lip frenulum, gingiva, nasal septum, and back.",
+      "history_of_present_illness": "Diagnosed with American tegumentary leishmaniasis on her back in October 2011 (Montenegro positive), the patient had partial healing and three relapses in 2012 despite three courses of meglumine antimoniate (Glucantime 20 mg/kg/day for 30 days in October 2011, January 2012, and May 2012), responded temporarily to amphotericin B (250 mg/day to 2,400 mg cumulative) after an August 2012 biopsy confirmed Leishmania braziliensis, and re-presented in 2013 with new oral and nasal mucosal ulcers and recurrent back lesions.",
+      "past_medical_history": "Unemployed Caucasian female from Salvador, Bahia, Brazil; history of recurrent cutaneous leishmaniasis since October 2011; newly diagnosed HIV infection in 2013.",
+      "review_of_systems": "Positive for recurrent back ulcer and painful oral/gingival and nasal mucosal ulcers."
+    },
+    "objective": {
+      "physical_examination": "Submandibular lymphadenopathy and ulcerated lesions on the lower labial frenulum, gingiva, nasal septum, and dorsal trunk (back).",
+      "routine_investigations": "Montenegro intradermal test (2011) was positive; HIV serology performed in 2013 was positive; fungal microbiological workup was negative.",
+      "advanced_workup": "August 2012 back lesion biopsy identified Leishmania braziliensis; 2013 excisional biopsy of the oral mucosal lesions showed nonspecific chronic inflammation."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive Montenegro skin test and skin biopsy identification of Leishmania braziliensis confirmed relapsing Mucocutaneous American Tegumentary Leishmaniasis co-existing with newly diagnosed HIV infection (with fungal co-infection excluded). Hospitalization for intravenous liposomal amphotericin B induction alongside initiation of single-tablet antiretroviral therapy (efavirenz 600 mg / tenofovir 300 mg / lamivudine 300 mg daily), followed by outpatient maintenance liposomal amphotericin B (150 mg/day), stabilized the disease."
+    }
+  }
+}

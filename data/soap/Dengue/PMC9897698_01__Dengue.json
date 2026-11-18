@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9897698_01",
+  "pair_id": "PMC9897698_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 65.0,
+  "raw_case_text": "A 37-year-old male presented with on-and-off fever (102 degrees F) for four days and generalized weakness in both upper and lower limbs. All necessary investigations were performed. On evaluation, the patient was diagnosed with dengue fever with thrombocytopenia. On examination, the patient was conscious and coherent with the following vital signs: blood pressure of 180/100 mmHg, pulse rate of 54 bpm, and saturation of peripheral oxygen (Spo2) of 95%. Neurological examination revealed sensory loss below the T4 level with absent deep tendon reflexes. The patient had a Glasgow coma score (GCS) of 15 without any signs of meningeal irritation. The pupillary size and reaction were normal. Serological tests for malaria and typhoid infection were negative. He had a hematocrit of 46%, and thrombocytopenia (1.01 lakhs/cumm) with an increased total leukocyte count (19,400 cells/cumm) and a normal coagulation profile (prothrombin time (PT) 14.1 sec, international normalized ratio (INR) 1.2). The rest of the laboratory results were unremarkable.\nThe patient was started on intravenous antibiotics (doxycycline 100mg), analgesics, and other supportive medications. His weakness gradually progressed with the inability to walk or stand. The patient was referred for a spine MRI, which showed long-segment spinal epidural hemorrhage in the cervical and dorsal spine (up to D8 level) causing mild to moderate lateral compression and anterior displacement of the cord at these levels (Figures 1, 2). An MRI of the brain was also performed which revealed mild diffuse subarachnoid hemorrhage with subtle dependent hemorrhage in the bilateral occipital horns of the lateral ventricles which correlated with CT (Figure 3). After the radiology report, a neurosurgeon was consulted regarding the MRI findings and explained the grave risk and poor prognosis in relation to the radiological findings. Since the epidural hemorrhage was a long-segment (cervicodorsal spine epidural hematoma from C2 to D7 level) and not focal, surgical treatment was not possible and conservative management was advised. The patient was intubated due to unresponsiveness on day 10 of the dengue fever diagnosis. On the same day, the patient's family members decided to have the patient discharged against medical advice. Subsequently, the patient died of the disease.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 37-year-old male presented with a 4-day history of intermittent fever (102 F) and progressive generalized weakness in both upper and lower limbs.",
+      "history_of_present_illness": "The patient developed 4 days of intermittent fever (102 F) and four-limb weakness that progressively worsened during hospitalization to complete inability to stand or walk, culminating in unresponsiveness requiring endotracheal intubation on day 10 of illness.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for intermittent fever (102 F), progressive four-limb weakness, inability to stand or walk, and sensory loss below the upper chest."
+    },
+    "objective": {
+      "physical_examination": "On admission: conscious and coherent (GCS 15/15), blood pressure 180/100 mmHg, bradycardia with pulse 54 bpm, SpO2 95%, normal pupillary size and reaction, no meningeal irritation signs, sensory loss below the T4 dermatome level, and globally absent deep tendon reflexes; progressed to inability to stand/walk and unresponsiveness on day 10.",
+      "routine_investigations": "Hematocrit 46%, thrombocytopenia with platelet count 1.01 lakhs/cumm, leukocytosis with TLC 19,400 cells/cumm, normal coagulation profile (PT 14.1 s, INR 1.2), and negative malaria and typhoid serologies.",
+      "advanced_workup": "Cervicodorsal spine MRI revealed a long-segment spinal epidural hemorrhage extending from C2 to D7/D8 causing mild-to-moderate lateral compression and anterior displacement of the spinal cord. Brain MRI and head CT demonstrated mild diffuse subarachnoid hemorrhage with subtle dependent intraventricular hemorrhage in the bilateral occipital horns."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Severe dengue fever with thrombocytopenia complicated by spontaneous long-segment cervicodorsal spinal epidural hematoma (C2-D8) with compressive myelopathy and spontaneous cranial subarachnoid and intraventricular hemorrhage, confirmed by dengue diagnostic workup and brain/spine MRI. Deemed non-operable due to the extensive longitudinal span of the epidural hemorrhage and managed conservatively with IV doxycycline (100 mg), analgesics, and endotracheal intubation on day 10; the family took discharge against medical advice on day 10 and the patient subsequently died."
+    }
+  }
+}

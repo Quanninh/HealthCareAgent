@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6222226_01",
+  "pair_id": "PMC6222226_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "An 18-year-old female presented to our hospital with chief complaints of progressive fatigue, fever, myalgia, and shortness of breath for last 3 weeks. There was no significant past illness. There was no history of significant weight loss, cough, orthopnea, pain abdomen. On physical examination, she was febrile, pale, and icteric. The spleen was palpable 2 cm below the left costal margin. Her pulse rate was 102/minute with a blood pressure of 106/70 mmHg.\nA complete blood count (CBC) revealed severe anemia (hemoglobin:5.8 g/dl, mean corpuscular volume (MCV):92 fl) with a platelet count of 148 x 103/microL and white blood cell count (WBC) of 3.37 x 103/microL. A peripheral blood smear showed few spherocytes, nucleated red blood cells. Biochemistry showed indirect hyperbilirubinemia with high lactate dehydrogenase (LDH:1540 IU/L). On further investigations, corrected reticulocyte count was 5.4%. A direct Coombs test was strongly positive (4+). Based on initial investigations, we made an initial diagnosis of autoimmune hemolytic anemia. Viral markers (HIV, HBs Ag, anti-HCV) were negative. Serology for Epstein-Barr virus (EBV) and mycoplasma was also negative. Antinuclear antibodies were absent. Our patient remained febrile during hospitalisation, which was not explained by hemolytic anemia; on further evaluation, there was a recent history of consumption of unpasteurized milk. Since Brucella is one of the common zoonotic diseases in western India, we suspected brucellosis. The serology for brucellosis was positive in high titre (standard agglutination test:1:640). The diagnosis was confirmed with positive blood culture for Brucella melitensis. We made a final diagnosis of acute brucellosis with Coombs-positive hemolytic anemia. The patient was prescribed a combination of oral doxycycline (100 mg twice a day) with rifampicin (600 mg once a day). She was also prescribed corticosteroids (prednisolone 1 mg/kg/day). 1 week after starting steroids, the patient showed significant clinical improvement with a hemoglobin count of 9 gm/dl and serum LDH of 988 IU/L. The patient was discharged, and steroid was gradually tapered with doxycycline, and rifampicin was advised for further 5 weeks. After 6 weeks, corticosteroid was tapered successfully. The patient was symptomatically better with a hemoglobin count of 13 gm/dl (Figure 1). She was doing well with complete remission of hemolytic anemia at 3-month follow-up.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 18-year-old female from western India presented with a 3-week history of progressive fatigue, fever, myalgia, and exertional shortness of breath.",
+      "history_of_present_illness": "An 18-year-old previously healthy female presented with 3 weeks of progressive fatigue, persistent fever, myalgia, and dyspnea accompanied by pallor and jaundice.",
+      "past_medical_history": "No significant past medical history; recent history of consuming unpasteurized milk in western India.",
+      "review_of_systems": "Positive for progressive fatigue, fever, myalgia, dyspnea, pallor, and jaundice; negative for weight loss, cough, orthopnea, or abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Febrile, pale, and icteric; pulse rate 102/min, blood pressure 106/70 mmHg; splenomegaly palpable 2 cm below the left costal margin.",
+      "routine_investigations": "Severe normocytic anemia (Hb 5.8 g/dL, MCV 92 fL), leukopenia (WBC 3.37 x 10^3/uL), platelets 148 x 10^3/uL, corrected reticulocyte count 5.4%; peripheral blood smear showed spherocytes and nucleated RBCs. Indirect hyperbilirubinemia and markedly elevated LDH (1,540 IU/L). Strongly positive direct Coombs test (4+). Negative HIV, HBsAg, anti-HCV, EBV, and Mycoplasma serologies.",
+      "advanced_workup": "Antinuclear antibodies (ANA) were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "High-titer serum Brucella standard tube agglutination test (1:640) and blood culture isolating Brucella melitensis, alongside a 4+ direct Coombs test and spherocytic hemolysis, confirmed acute Brucella melitensis bacteremia complicated by severe Coombs-positive autoimmune hemolytic anemia (AIHA). Treated with oral doxycycline (100 mg BID) and oral rifampicin (600 mg QD) for 6 weeks combined with oral prednisolone (1 mg/kg/day tapered over 6 weeks). Hemoglobin rose to 9 g/dL (LDH 988 IU/L) after 1 week and normalized to 13 g/dL at 6 weeks, with complete remission maintained at 3-month follow-up."
+    }
+  }
+}

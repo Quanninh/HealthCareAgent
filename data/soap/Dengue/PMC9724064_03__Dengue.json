@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9724064_03",
+  "pair_id": "PMC9724064_03::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 20-year-old male presented with a 1-day history of fever, chills and severe vomiting, associated with myalgia, frontal headache and arthralgia. He tested positive for dengue NS1 antigen and was dengue IgM positive on the second day of fever. The patient progressed to a lower level of consciousness over 12 h after admission.\nBrain MRI revealed an oval-shaped lesion in the splenium of the corpus callosum, which was hyperintense on T2-weighted and FLAIR images and showed no post-contrast enhancement (Figures 5a-c). The lesion revealed increased signal on diffusion imaging with corresponding low values on ADC and no blooming on GRE images (Figures 5e-f).\nThe patient was managed conservatively with intravenous fluid, antipyretics and close clinical monitoring. He recovered completely and was released from the hospital on the 14th day of his illness. A follow-up MRI revealed complete resolution of the splenial lesion. A diagnosis of transient lesion of the splenium of corpus callosum, also known as reversible splenial lesion syndrome (RESLES), was made.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 20-year-old male presented with a 1-day history of fever, chills, severe vomiting, myalgia, frontal headache, and arthralgia, followed 12 hours after admission by decreased consciousness.",
+      "history_of_present_illness": "The patient presented with 1 day of acute fever, chills, severe vomiting, myalgia, frontal headache, and arthralgia, and progressed over the first 12 hours of hospitalization to a depressed level of consciousness.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever, chills, severe vomiting, myalgia, frontal headache, arthralgia, and drowsiness/decreased consciousness."
+    },
+    "objective": {
+      "physical_examination": "Depressed level of consciousness developing 12 hours after hospital admission.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI demonstrated an isolated, non-enhancing, oval-shaped T2/FLAIR-hyperintense lesion in the splenium of the corpus callosum with restricted diffusion (high DWI, low ADC) and no hemorrhage on GRE; follow-up brain MRI confirmed complete resolution of the splenial lesion."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue-associated reversible splenial lesion syndrome (RESLES / cytotoxic lesion of the corpus callosum), confirmed by positive dengue NS1 antigen and day-2 dengue IgM serology and characteristic reversible diffusion restriction in the splenium of the corpus callosum on MRI. Managed conservatively with intravenous fluids, antipyretics, and close monitoring, achieving complete clinical recovery and discharge on day 14 of illness."
+    }
+  }
+}

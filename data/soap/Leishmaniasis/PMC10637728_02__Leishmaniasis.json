@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10637728_02",
+  "pair_id": "PMC10637728_02::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 13-year-old boy, born in Sao Paulo, with a history of traveling at age 12 to the state of Minas Gerais (Southeast Brazil). He had fever on alternate days, pallor, increased abdominal volume and unquantified weight loss. He did not have a history of recurrent infections. Anemia and thrombocytopenia were found on admission (Table 1). Bone marrow aspirate showed amastigotes of Leishmania. He received treatment with LAB at a dose of 35 mg/kg. Four months after hospital discharge, he again presented with fever and thrombocytopenia at the outpatient clinic. A bone marrow aspirate was performed, showing amastigotes of Leishmania that were also detected in his bone marrow culture. He was treated with meglumine antimoniate and intravenous human immunoglobulin, with clinical and laboratory improvement, and was discharged in good health. Three weeks later, with a seven-day history of fever, weakness, pallor and increased abdominal volume, a palpable spleen was detected 23 cm below the left costal margin and a palpable liver 5 cm from the right costal margin. Leishmania ELISA immunoassay and the rK-39 antigen test were negative. Bone marrow biopsy showed a lymphocytic and histiocytic inflammatory reaction with a granulomatous pattern; no amastigotes were observed in the bone marrow aspirate. He was re-treated for VL, on an empirical basis, with LAB. The patient had a phenotype suggestive of Griscelli Syndrome (silvery hair and eyebrows). Next-generation sequencing (NGS) was performed for a panel of genes associated with familial hemophagocytic lymphohistiocytosis, which showed a compound heterozygous mutation in the RAB27A gene (Figure 1), diagnostic of Griscelli Syndrome type II. He received LAB every 15 days as secondary prophylaxis for 6 months, with follow-up at an immunology service at another institution.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 13-year-old boy from Sao Paulo presented with alternate-day fever, pallor, increased abdominal volume, and weight loss, followed by two clinical relapses of febrile hepatosplenomegaly and cytopenias.",
+      "history_of_present_illness": "The patient initially presented with alternate-day fevers, pallor, abdominal enlargement, and unquantified weight loss, was diagnosed with visceral leishmaniasis and treated with liposomal amphotericin B (35 mg/kg), relapsed 4 months post-discharge with fever and thrombocytopenia (treated with meglumine antimoniate and IVIG), and presented again 3 weeks later with a 7-day history of fever, weakness, pallor, and abdominal distension.",
+      "past_medical_history": "Born in Sao Paulo with travel history at age 12 to Minas Gerais (a visceral leishmaniasis-endemic state in Southeast Brazil); no history of recurrent infections.",
+      "review_of_systems": "Positive for fever, weakness, pallor, weight loss, and abdominal enlargement."
+    },
+    "objective": {
+      "physical_examination": "Phenotype notable for silvery hair and eyebrows; pallor, massive splenomegaly (23 cm below the left costal margin), and hepatomegaly (5 cm below the right costal margin).",
+      "routine_investigations": "Admission and relapse labs demonstrated anemia and thrombocytopenia.",
+      "advanced_workup": "Initial and first-relapse bone marrow aspirates and bone marrow culture demonstrated Leishmania amastigotes. At the second relapse (3 weeks after meglumine antimoniate/IVIG), bone marrow biopsy showed a granulomatous lymphohistiocytic inflammatory reaction without visible amastigotes, while next-generation sequencing (NGS) for familial HLH genes identified a compound heterozygous mutation in the RAB27A gene."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Recurrent Visceral Leishmaniasis was confirmed by bone marrow aspirate microscopy and culture at initial presentation and first relapse, and NGS identified compound heterozygous RAB27A mutations confirming underlying Griscelli Syndrome type II (explaining the silvery hair/eyebrows and predisposition to VL/hemophagocytic inflammation, even when repeat rK39/ELISA and aspirate microscopy were negative at the third episode). The patient responded to liposomal amphotericin B (35 mg/kg initially, meglumine antimoniate plus IVIG at first relapse, and empirical re-treatment followed by secondary prophylaxis with liposomal amphotericin B every 15 days for 6 months) and was referred to an immunology center."
+    }
+  }
+}

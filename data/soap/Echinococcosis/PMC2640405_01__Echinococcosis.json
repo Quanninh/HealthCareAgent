@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC2640405_01",
+  "pair_id": "PMC2640405_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 17-year-old man, suffering from a cough, fever and weight loss for the previous 5 days, was admitted to the emergency department following hemoptysis a day before admission. He was conscious and pale. Blood pressure was 100/60 mmHg, pulse 110 beats per minute, respiratory rate 26 breaths per minute and body temperature 37.8 C. At physical examination, breathing sounds were roughened and inspiratory crackles were present in the right hemithorax. The other results of the physical examination were normal. (No other pathology was obtained.) In laboratory findings, values for C-reactive protein of 1.99 mg/dl, alanine transaminase of 26 U/litre, aspartate transferase of 14 U/litre, hemoglobin (Hb) of 9.7 mg/dl, Htc of 29.2%, mean corpuscular volume of 86 fl, prothrombin time of 29.7 seconds, activated partial thromboplastin time of 13.8 seconds and international normalized ratio of 1.09 seconds were obtained. A 5 x 6 cm circular lesion was located in the apex of the right lung at X-ray (Figure 1). A computed tomography (CT) scan revealed a cystic lesion 4 cm in diameter in the posterior segment of the upper lobe of the right lung and multiple lesions neighboring the former, some of which were cystic and the others solid (the largest was 2 cm in diameter). In addition, a 2 cm lesion was revealed in the superior segment of the lower lobe of the right lung (Figure 2).\nOn the first day of hospitalization, massive hemoptysis persisted. Increased respiratory failure and decreased Hb values (from 9.7 to 7.4 mg/dl) forced us to administer blood transfusion, after which surgery was indicated. The upper lobe bronchus of the right lung was completely obliterated while the anterior and posterior segments of the upper lobe were destroyed. In addition, one of the cysts in the lower lobe was ruptured. During surgery, lobectomy of the upper lobe of the right lung and cystectomy with capitonnage of the lower lobe cysts was performed. Capitonnage is obliteration of the pericystic cavity. The material obtained revealed hydatid cyst disease. Following medication with albendazole, the patient was discharged in a healthy condition on the eighth day postoperatively.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old male presented with a 5-day history of cough, fever, and weight loss, complicated by acute hemoptysis 1 day prior to admission.",
+      "history_of_present_illness": "The patient experienced cough, fever, and weight loss for 5 days and presented to the emergency department after developing hemoptysis the day before admission.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for cough, fever, weight loss, and hemoptysis."
+    },
+    "objective": {
+      "physical_examination": "Conscious and pale. Vital signs: blood pressure 100/60 mmHg, pulse 110 bpm, respiratory rate 26 breaths/min, and temperature 37.8 C. Chest auscultation revealed roughened breath sounds and inspiratory crackles over the right hemithorax; the remainder of the physical exam was normal.",
+      "routine_investigations": "Admission labs showed hemoglobin 9.7 g/dL [reported as mg/dl] (dropping to 7.4 g/dL on hospital day 1), hematocrit 29.2%, MCV 86 fL, CRP 1.99 mg/dL, ALT 26 U/L, AST 14 U/L, PT 29.7 s, aPTT 13.8 s, and INR 1.09. Chest X-ray revealed a 5 x 6 cm circular opacity at the apex of the right lung.",
+      "advanced_workup": "Chest CT demonstrated a 4-cm cystic lesion in the posterior segment of the right upper lobe surrounded by multiple satellite cystic and solid lesions (up to 2 cm), plus a 2-cm lesion in the superior segment of the right lower lobe. Emergency right thoracotomy (for massive hemoptysis and acute respiratory failure) revealed complete obliteration of the right upper lobe bronchus, destruction of the anterior and posterior upper lobe segments, and a ruptured lower lobe cyst; pathology of the resected right upper lobectomy and lower lobe cystectomy specimens confirmed pulmonary hydatid cyst disease."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Multiple bilateral-segment right pulmonary hydatid cysts (right upper and lower lobes) complicated by cyst rupture and life-threatening massive hemoptysis, confirmed by postoperative pathology. Following blood transfusion, emergency right upper lobectomy, and right lower lobe cystectomy with capitonnage, the patient was treated with oral albendazole and discharged in good condition on postoperative day 8."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC8343584_01",
+  "pair_id": "PMC8343584_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 39-year-old woman - a known case of HIV infection from 1 year ago - who was admitted to our hospital (Shahid Faghihi Hospital, Shiraz, Iran) with a 6-month history of skin lesions that initially was present on her face, later extending onto the chest, abdomen, and extremities. Our physical examination revealed varying size skin papules and nodules (Figure-1). Laboratory data showed the only leukopenia (WBC: 1700 cells / mm3) and a CD4 cell count of 280 cells / mm3. Skin lesion biopsy was performed, and histopathological studies showed a busy dermis with infiltration of many inflammatory cells, including histiocytes-macrophages, lymphocytes, and plasma cells (Figure-2). High power field images revealed aggregates of macrophages filled with numerous leishman bodies (Figure-2). These findings confirmed the diagnosis of CL. Regarding patient's immune deficiency and the extent of skin lesions, the diagnosis of diffuse CL was made. She received liposomal amphotericin B with a total dose of 40 mg/kg as a case of diffuse CL. Her skin lesions showed significant improvement in follow-up visits after completion of treatment (particularly after six months).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 39-year-old HIV-positive woman presented in Shiraz, Iran, with a 6-month history of progressive papulonodular skin lesions that began on her face and spread to her chest, abdomen, and extremities.",
+      "history_of_present_illness": "Over the 6 months prior to admission at Shahid Faghihi Hospital, the patient noticed skin lesions on her face that gradually disseminated across her chest, abdomen, and upper and lower limbs.",
+      "past_medical_history": "Known HIV infection diagnosed 1 year prior; resident of Shiraz, Iran.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Multiple variably sized cutaneous papules and nodules distributed over the face, chest, abdomen, and extremities.",
+      "routine_investigations": "Laboratory evaluation showed leukopenia (WBC 1,700 cells/mm3) with no other routine lab abnormalities.",
+      "advanced_workup": "CD4+ T-lymphocyte count was 280 cells/mm3. Skin lesion biopsy histopathology revealed a dense dermal infiltrate of histiocytes/macrophages, lymphocytes, and plasma cells, with high-power fields showing aggregates of macrophages packed with numerous Leishman bodies (amastigotes)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Skin biopsy histopathology demonstrating abundant intra-macrophage Leishman bodies in the setting of HIV immunodeficiency and widespread cutaneous dissemination confirmed Diffuse Cutaneous Leishmaniasis (DCL). Treatment with intravenous liposomal amphotericin B (total cumulative dose 40 mg/kg) achieved marked regression of the skin lesions, particularly evident at 6-month follow-up."
+    }
+  }
+}

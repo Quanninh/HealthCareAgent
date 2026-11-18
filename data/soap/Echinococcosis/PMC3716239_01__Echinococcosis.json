@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3716239_01",
+  "pair_id": "PMC3716239_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 45.0,
+  "raw_case_text": "A 62-year-old male presented to outpatient department of surgery with a painless, gradually increasing swelling over anterior abdominal wall for the last three years. There were no other symptoms and the patient did not have any other past medical history suggestive of tuberculosis. Physical examination revealed a nontender swelling (7 cm x 5 cm) on the anterior abdominal wall to left of midline which extended from left hypochondrium above to the umbilicus below [Figure 1]. The swelling was soft and cystic in consistency and failed to disappear while making the anterior wall muscles taut. Rest of the abdominal examination was normal. There was no associated lymphadenopathy and systemic examination was normal. Routine blood and urine examinations were normal. Chest radiograph and blood chemistry including human immunodeficiency virus (HIV) test did not reveal any abnormality. Ultrasonography and computerized tomography (CT) Scan examination revealed two cystic masses one 3.7 x 5.2 cm and another 7.4 x 5.4 cm abdominal parietal wall mass (predominantly cystic) of mixed echogenicity, one in right hypochondrium and another in left hypochondrium extending to umbilical region with peripheral enhancement [Figure 2]. contrast enhanced computerized tomography (CECT) abdomen and pelvis was normal. The differential diagnosis multiple hydatid cyst of anterior abdominal wall was excluded once indirect hemagglutition test was reported to be negative. Fine needle aspiration cytology revealed caseating granuloma with central necrosis, lymphocytes and giant cells, consistent with tuberculosis. The patient was diagnosed to have multiple tubercular cold abscess of anterior abdominal wall. Patient responded favorably to antitubercular drugs and anti gravity needle aspiration.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 62-year-old male presented with a 3-year history of a painless, gradually enlarging swelling on his anterior abdominal wall.",
+      "history_of_present_illness": "The patient noticed a painless swelling over the anterior abdominal wall that progressively increased in size over the preceding 3 years without any constitutional or gastrointestinal symptoms.",
+      "past_medical_history": "No past medical history suggestive of tuberculosis or other chronic illnesses.",
+      "review_of_systems": "Positive for painless anterior abdominal wall swelling; negative for constitutional or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "A soft, cystic, non-tender 7 x 5 cm swelling was palpated on the anterior abdominal wall to the left of the midline extending from the left hypochondrium to the umbilicus, which persisted when the anterior abdominal wall muscles were tensed (Carnett's test). There was no lymphadenopathy, and the remainder of the abdominal and systemic examination was normal.",
+      "routine_investigations": "Routine blood and urine examinations, blood chemistry, HIV test, and chest radiograph were normal. Indirect hemagglutination (IHA) serology for Echinococcus was negative. Abdominal ultrasonography showed two mixed-echogenicity predominantly cystic parietal wall masses (3.7 x 5.2 cm in the right hypochondrium and 7.4 x 5.4 cm in the left hypochondrium/umbilical region).",
+      "advanced_workup": "Abdominal CT confirmed two peripherally enhancing predominantly cystic parietal wall masses (3.7 x 5.2 cm and 7.4 x 5.4 cm) with normal intra-abdominal and pelvic viscera. Fine-needle aspiration cytology (FNAC) revealed caseating granulomas with central necrosis, lymphocytes, and Langhans giant cells."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Multiple primary tuberculous cold abscesses of the anterior abdominal wall, confirmed by FNAC showing caseating granulomatous inflammation and negative Echinococcus IHA serology (ruling out anterior abdominal wall hydatid cysts). The patient responded favorably to anti-tuberculous chemotherapy and antigravity needle aspiration."
+    }
+  }
+}

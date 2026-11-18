@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC12658457_01",
+  "pair_id": "PMC12658457_01::Brucellosis",
+  "target_disease": "Brucellosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 55-year-old male farmer presented with a history of right knee pain and weakness persisting for three years, exacerbated by physical exertion. The symptoms were significantly aggravated following an accidental right knee sprain two weeks prior to admission. On April 26, 2022, the patient was hospitalized with a diagnosis of severe osteoarthritis of the right knee joint. Clinical examination revealed a normal body temperature (37  C), knee joint swelling, localized skin temperature elevation, and a 5  varus deformity. Tenderness was noted on the anteromedial aspect of the right knee, with restricted flexion-extension range (5 -90 ) and a positive patellar ballottement test. Magnetic resonance imaging (MRI) demonstrated injuries to the medial and lateral menisci, patellar ligament, anterior and posterior cruciate ligaments, and medial and lateral collateral ligaments. Additionally, osteochondral damage and bone marrow edema were observed in the medial femoral and tibial condyles, accompanied by subcutaneous edema on the anterolateral knee and effusion in the joint cavity and suprapatellar bursa (Figure 1A). Laboratory findings shows elevated white blood cell count (WBC) and C-reactive protein (CRP) level, along with increased erythrocyte sedimentation rate (ESR), indicate significant inflammation, possibly suggestive of septic arthritis (Table 1). While joint fluid culture (bioMerieux blood culture system) was negative, mNGS identified Brucella (14 reads), and the Brucella agglutination test yielded a positive result. Following confirmation of Brucella joint infection, the patient was transferred to Jinan Infectious Disease Hospital for subsequent treatment. The six-month follow-up showed that the patient has recovered well.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old male farmer presented with a 3-year history of right knee pain and weakness that acutely worsened after an accidental right knee sprain 2 weeks prior to admission.",
+      "history_of_present_illness": "A 55-year-old male farmer experienced chronic right knee pain and weakness exacerbated by physical exertion for 3 years, which aggravated markedly after a right knee sprain 2 weeks before being hospitalized on April 26, 2022, with an initial working diagnosis of severe right knee osteoarthritis.",
+      "past_medical_history": "Occupational history as a farmer; right knee sprain 2 weeks prior to admission.",
+      "review_of_systems": "Positive for right knee pain, swelling, weakness, and limited range of motion; negative for fever."
+    },
+    "objective": {
+      "physical_examination": "Temperature 37.0 C. Right knee joint swelling, elevated local skin temperature, 5-degree varus deformity, anteromedial joint line tenderness, restricted flexion-extension range of motion (5 to 90 degrees), and positive patellar ballottement test.",
+      "routine_investigations": "Elevated peripheral blood WBC, CRP, and ESR indicative of acute inflammation.",
+      "advanced_workup": "Right knee MRI demonstrated medial and lateral meniscal tears, injuries to the patellar, anterior/posterior cruciate, and medial/lateral collateral ligaments, osteochondral damage and bone marrow edema in the medial femoral and tibial condyles, anterolateral subcutaneous edema, and joint/suprapatellar bursal effusion."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Although synovial fluid culture (bioMerieux blood culture system) was negative, synovial fluid mNGS identified Brucella (14 sequence reads) and the serum Brucella agglutination test was positive, confirming right knee Brucella septic arthritis. The patient was transferred to Jinan Infectious Disease Hospital for targeted anti-Brucella therapy and achieved full clinical recovery at 6-month follow-up."
+    }
+  }
+}

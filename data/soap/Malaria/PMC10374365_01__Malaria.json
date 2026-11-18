@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10374365_01",
+  "pair_id": "PMC10374365_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 65-year-old, Middle-Eastern male was admitted with a high fever, chills, and vomiting. The symptoms had begun while he was in Liberia, and he came back to Syria as soon as his fever worsened. The patient had no other clinical symptoms and no medical history of other illnesses or drug consumption.\nA blood test was performed, and a blood smear was examined under the light microscope (Table 1). He was diagnosed with Plasmodium falciparum, and the test was run twice in two different labs. The patient was treated accordingly with artemisinin, 4 tablets per dose twice a day for three days (each tablet contains 20 mg artemether and 120 mg lumefantrine).\nTwenty days after malaria treatment, the patient continued to suffer from fever, shivers, and general fatigue. Clinical presentation included pale skin, mucosa, and right hypochondriac pain without jaundice. A blood test with further lab examinations was performed (Table 2).\nBlood smears were run for three consecutive days to detect Plasmodium falciparum organisms, while a computed tomography (CT) scan and abdominal echography were also scheduled.\nThe smears returned negative, and the CT scan revealed liver abscesses (Figures 1 and 2); thus, further tests were required.\nA blood test was performed searching for Echinococcus granulosus antibodies and Entamoeba histolytica antibodies, and the test rendered positive results for Entamoeba histolytica.\nThe abscess was drained as a therapeutic and diagnostic measure, followed by a course of 500 mg intravenous metronidazole every 8 hours for 14 days (Flagyl), to complete the treatment. After improvement, the patient was discharged and instructed to contact his physician if any of his symptoms relapsed, which did not occur.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 65-year-old Middle-Eastern male initially presented with high fever, chills, and vomiting after travel to Liberia, and re-presented 20 days later with persistent fever, shivers, general fatigue, and right hypochondriac pain.",
+      "history_of_present_illness": "The patient developed high fever, chills, and vomiting while in Liberia and returned to Syria when his fever worsened. Twenty days after completing a 3-day oral artemether-lumefantrine regimen for confirmed malaria, he continued to experience fever, shivers, general fatigue, and right hypochondriac pain.",
+      "past_medical_history": "No medical history of other illnesses or regular drug consumption; recent travel to Liberia.",
+      "review_of_systems": "Positive for high fever, chills/shivers, vomiting, general fatigue, and right hypochondriac pain. Negative for other clinical symptoms or drug consumption."
+    },
+    "objective": {
+      "physical_examination": "At 20-day re-presentation, physical examination revealed pale skin and mucosa and right hypochondriac tenderness/pain without jaundice.",
+      "routine_investigations": "Abdominal echography (ultrasound) and repeat blood panels were performed at re-presentation.",
+      "advanced_workup": "Abdominal computed tomography (CT) scan revealed liver abscesses."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Imported Plasmodium falciparum malaria followed by Entamoeba histolytica amoebic liver abscess. Initial light microscopy of peripheral blood smears (verified in two laboratories) confirmed P. falciparum, which was treated with oral artemether-lumefantrine (20 mg/120 mg, 4 tablets twice daily for 3 days). Upon re-presentation 20 days later, three consecutive daily malaria blood smears were negative, Echinococcus granulosus serology was negative, and Entamoeba histolytica antibodies were positive. Treated with therapeutic and diagnostic liver abscess drainage followed by intravenous metronidazole (Flagyl) 500 mg every 8 hours for 14 days, resulting in complete recovery without relapse."
+    }
+  }
+}

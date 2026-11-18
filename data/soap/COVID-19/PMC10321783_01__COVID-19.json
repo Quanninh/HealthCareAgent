@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10321783_01",
+  "pair_id": "PMC10321783_01::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "A 23-year-old man attended a private clinic complaining of an uncomfortable, slowly progressing mass on his tongue that impaired speech and swallowing and had been present for two weeks. During anamnesis, he mentioned that he used to smoke Cannabis sativa. He did not indicate comorbidities. He denied having a cough, runny nose, nasal congestion, or fever. The intraoral examination revealed a painless exophytic irregular dark red-violaceous nodular lesion in the tongue's right ventral and lateral border and a similar papule in the ipsilateral dorsal region surrounded by white plaques (Figure 1A).\nUnder the clinical hypotheses of Kaposi's sarcoma (KS) and COVID-19-related lesions, an incisional biopsy was performed. And a complete blood count and serology for Human Immunodeficiency Virus (HIV) 1 and 2, as well as a SARS-CoV-2 reverse-transcriptase-polymerase-chain-reaction test (RT-PCR test for COVID-19) were requested. Nasopharyngeal and oropharyngeal swabs were taken for RT-PCR test. None of the examinations showed abnormalities.\nMicroscopically, hyperparakeratosis, acanthosis, and papillomatosis in close association with large, dilated vessels lined by normal-appearing endothelial cells and containing inside erythrocytes and proteinaceous eosinophilic material were observed (Figure 1C-D).\nAn immunohistochemical panel was performed. Most vessels were CD34 positive; some were highlighted by alpha-SMA, whereas D2-40 was focal (Figure 2A-C). Human Herpes Virus 8 (HHV-8) was negative.\nBased on the clinical, microscopical, and immunohistochemical features, a definitive diagnosis of hemangiolymphangioma was obtained. The patient underwent minimally invasive surgical excision. After 18 months of follow-up, there were no signs of relapse (Figure 1B).\nAn electronic search was conducted in PubMed, Scopus, and Web of Science for studies published up to August 2022, with the following keywords: (\"hemangiolymphangioma\" OR \"lymphangiohemangioma\") AND (\"oral lesions\" OR \"mucosal lesions\"). Related articles were also searched in the reference lists of the found full-text articles. 16 full-text articles were evaluated, of which two were excluded because the lesions were in the parotid gland and neck, respectively. Table 1 summarizes cases reported in scientific journals. Eight were located on the tongue, being 3 cases reported by Jian.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 23-year-old man presented with a 2-week history of an uncomfortable, slowly enlarging mass on his tongue impairing speech and swallowing.",
+      "history_of_present_illness": "The patient noticed a painless, slowly progressing nodular lesion on the right side of his tongue over 2 weeks that interfered with speech and deglutition.",
+      "past_medical_history": "No known medical comorbidities; history of smoking Cannabis sativa.",
+      "review_of_systems": "Positive for tongue mass causing dysarthria and dysphagia; negative for pain, cough, rhinorrhea, nasal congestion, or fever."
+    },
+    "objective": {
+      "physical_examination": "Intraoral examination revealed a painless, exophytic, irregular dark red-violaceous nodular lesion on the right ventral and lateral border of the tongue, along with a similar papule on the ipsilateral dorsal tongue surrounded by white plaques.",
+      "routine_investigations": "Complete blood count and HIV-1/2 serology were completely normal.",
+      "advanced_workup": "Incisional tongue biopsy histopathology demonstrated hyperparakeratosis, acanthosis, and papillomatosis closely associated with large dilated vascular and lymphatic channels lined by normal endothelial cells containing erythrocytes and eosinophilic proteinaceous material. Immunohistochemistry was positive for CD34 in most vessels, alpha-SMA in some vessels, and focal D2-40, and negative for HHV-8."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Oral hemangiolymphangioma of the tongue; SARS-CoV-2 infection (negative nasopharyngeal/oropharyngeal RT-PCR), HIV infection, and Kaposi's sarcoma (HHV-8 negative) were ruled out. Treated with minimally invasive surgical excision, with complete healing and no recurrence at 18-month follow-up."
+    }
+  }
+}

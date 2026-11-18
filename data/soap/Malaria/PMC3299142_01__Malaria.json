@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3299142_01",
+  "pair_id": "PMC3299142_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 42-year-old Italian man, who had been living in Nigeria because of his job since two years, was urgently repatriated following diagnosis of acute Plasmodium falciparum malaria. Fourteen days after anti-malarial treatment started, with quick resolution of fever, he suddenly complained of acute left flank pain.\nAt emergency department (ED) admission, his vital parameters appeared stable. Physical examination revealed tender left hemiabdomen without frank peritonism. Laboratory tests disclosed severe anemia (hemoglobin 7.7 g/dL), moderate leukocytosis, markedly elevated C-Reactive Protein (232 mg/L), plasma D-Dimer (2188 ug/L), lactic dehydrogenase (654 IU/L) and creatine kinase (1255 IU/L); platelet count and coagulation assays were within normal limits. Rapid blood assay tested positive for P. falciparum antigen, with negative blood cultures for bacteria and parasites.\nPrompt investigation with multi-detector CT [Figure 1] allowed confident diagnosis of diffuse, moderately hyperdense peritoneal effusion consistent with hemoperitoneum and splenomegaly with hyperdense, stratified subcapsular and perisplenic clotted hematoma. Bilateral pleural effusion and lung base atelectasis were also present.\nUrgent laparotomic surgery confirmed abundant hemorrhagic peritoneal effusion without detectable active bleeding. Splenomegaly with multiple blood clots was resected. Pathology specimen reported 850-g enlarged spleen measuring 17x14x8 cm after fixation, with large capsular interruption and underlying hematoma. Histologically, diffuse parenchymal hemorrhage and markedly hypertrophic red pulp were observed, without follicular structure abnormalities nor signs of malignancy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 42-year-old Italian man presented to the emergency department with sudden-onset acute left flank pain 14 days after starting treatment for acute malaria.",
+      "history_of_present_illness": "The patient, who had been working in Nigeria for 2 years, was urgently repatriated to Italy following a diagnosis of acute Plasmodium falciparum malaria. Fourteen days after starting antimalarial therapy with rapid resolution of fever, he developed sudden-onset acute left flank pain.",
+      "past_medical_history": "Italian expatriate living in Nigeria for 2 years; diagnosed and treated for acute P. falciparum malaria 14 days prior.",
+      "review_of_systems": "Positive for acute left flank pain; afebrile at presentation."
+    },
+    "objective": {
+      "physical_examination": "Vital parameters were stable on ED arrival. Abdominal examination revealed tenderness over the left hemiabdomen without frank peritonism.",
+      "routine_investigations": "Admission labs: severe anemia (Hb 7.7 g/dL), moderate leukocytosis, normal platelet count and coagulation assays, markedly elevated CRP (232 mg/L), plasma D-dimer (2188 ug/L), LDH (654 IU/L), and creatine kinase (1255 IU/L). Bacterial and parasitic blood cultures were negative.",
+      "advanced_workup": "Multi-detector abdominal CT demonstrated diffuse moderately hyperdense peritoneal effusion (hemoperitoneum), splenomegaly with hyperdense stratified subcapsular and perisplenic clotted hematoma, bilateral pleural effusions, and basal lung atelectasis. Splenic histopathology (850 g spleen, 17 x 14 x 8 cm) showed a large capsular tear, subcapsular hematoma, diffuse parenchymal hemorrhage, and markedly hypertrophic red pulp without malignancy."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Delayed spontaneous malarial splenic rupture with hemoperitoneum following recent Plasmodium falciparum malaria. Rapid blood assay remained positive for P. falciparum antigen with negative blood smears/cultures. Treated with urgent laparotomy and total splenectomy."
+    }
+  }
+}

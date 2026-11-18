@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4338052_01",
+  "pair_id": "PMC4338052_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 45.0,
+  "raw_case_text": "A 20 year-old man presented with a history of single hydatid cyst of the right lower lobe removed 14 months earlier. He was readmitted because of intermittent hemoptysis, raising the possibility of local recurrence of the cyst. A chest CT scan (Figure 1) further increased this suspicion. Bronchoscopy showed fresh blood clots in the right lower lobe bronchus. During thoracotomy, an irregular cavity was found in the right lower lobe just beneath the major fissure, measuring seven centimeters in diameter. The cavity contained frank pus, two large knotted 2-0 monofilament nylon suture segments and no hydatid material. More than six separate bronchial side holes opened into the irregular linings of the pericyst cavity, two of them larger than 4 mm in diameter. The suture material was removed and all bronchial openings were closed individually with 3-0 nylon sutures. The pericyst cavity was left open to the pleural surface and the edges of the opening were overrun with 3-0 chromic catgut sutures. The postoperative course was uncomplicated.\nThe patient did well on long-term follow up with no more hemoptysis.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 20-year-old man presented with intermittent hemoptysis 14 months after surgical excision of a right lower lobe pulmonary hydatid cyst.",
+      "history_of_present_illness": "The patient had undergone surgical removal of a solitary right lower lobe pulmonary hydatid cyst 14 months earlier and was readmitted for recurrent intermittent hemoptysis raising suspicion of local cyst recurrence.",
+      "past_medical_history": "Prior right lower lobe pulmonary hydatid cystectomy 14 months earlier.",
+      "review_of_systems": "Positive for intermittent hemoptysis."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": null,
+      "advanced_workup": "Chest CT showed a 7-cm cavitary lesion in the right lower lobe beneath the major fissure suggestive of recurrent hydatid cyst. Bronchoscopy revealed fresh blood clots in the right lower lobe bronchus. Repeat right thoracotomy identified an irregular 7-cm residual pericystic cavity containing frank pus, more than six bronchial fistulous openings (two >4 mm), and two large knotted 2-0 monofilament nylon suture segments, with complete absence of hydatid membranes or parasites."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Post-hydatid-cystectomy chronic foreign-body pericystic cavity abscess and bronchocavitary fistulae caused by retained 2-0 nonabsorbable nylon sutures (no recurrent pulmonary echinococcosis), confirmed at re-thoracotomy. Removal of the retained nylon sutures, individual closure of all bronchial openings with 3-0 nylon sutures, and marsupialization of the cavity to the pleural surface resulted in complete resolution of hemoptysis on long-term follow-up."
+    }
+  }
+}

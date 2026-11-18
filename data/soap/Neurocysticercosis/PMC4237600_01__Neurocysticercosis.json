@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4237600_01",
+  "pair_id": "PMC4237600_01::Neurocysticercosis",
+  "target_disease": "Neurocysticercosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 10.0,
+  "raw_case_text": "13-year old girl presented to the medical outpatient department with epilepsy diagnosed within the preceding 3 months. However, her seizures were becoming more frequent despite being on Carbamazepine and Phenobarbital at maximal tolerable dosages. She had no recent history of head trauma neither any other medical illness. Her physical examination was unremarkable. Her full blood count, liver and kidney function tests were within normal limits. A Brain CT scan was ordered which revealed multiple calcified and vesicular cysts within the Brain parenchyma; features consistent with Neurocysticercosis. The stool examination was negative for Taenia species ova. She was treated with Albendazole 400mg tid for 1 month and subsequent CT scans at 4 weekly intervals showed marked reduction in the number of active (vesicular cysts). Brain CT scans showing multiple vesicular cysts before treatment with Albendazole (A and B) and after treatment (C and D)",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 13-year-old girl presented to the medical outpatient clinic with worsening frequency of epileptic seizures over a 3-month period despite maximal tolerable antiepileptic therapy.",
+      "history_of_present_illness": "The patient had been diagnosed with epilepsy 3 months prior to presentation, but her seizures became progressively more frequent despite treatment with maximally tolerated doses of carbamazepine and phenobarbital.",
+      "past_medical_history": "No recent history of head trauma or other medical illnesses.",
+      "review_of_systems": "Taking carbamazepine and phenobarbital at presentation."
+    },
+    "objective": {
+      "physical_examination": "Physical examination was unremarkable.",
+      "routine_investigations": "Full blood count, liver function tests, and kidney function tests were within normal limits. Stool microscopy was negative for Taenia species ova.",
+      "advanced_workup": "Brain CT demonstrated multiple parenchymal calcified and active vesicular cysts."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Parenchymal neurocysticercosis (vesicular and calcified stages) was diagnosed based on characteristic brain CT findings. She was treated with oral albendazole 400 mg three times daily for 1 month, with serial brain CT scans at 4-week intervals demonstrating a marked reduction in active vesicular cysts."
+    }
+  }
+}

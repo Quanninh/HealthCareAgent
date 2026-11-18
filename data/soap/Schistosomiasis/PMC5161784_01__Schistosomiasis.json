@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5161784_01",
+  "pair_id": "PMC5161784_01::Schistosomiasis",
+  "target_disease": "Schistosomiasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 51-year-old female with a past medical history of hypertension and dyslipidemia was referred from her primary care physician to the gastroenterology clinic with complaints of intermittent non-specific abdominal pain for 9 months and mild intermittent watery diarrhea. The patient was an immigrant from Senegal, a country on Africa's west coast, where she was born and lived for more than 30 years, and where schistosomiasis is endemic.\nVital signs were within normal limits. Physical examination revealed soft and non-tender abdomen with normal bowel sounds. No organomegaly was found on palpation. The rest of the physical examinations were within normal limits. Laboratory studies revealed hemoglobin of 13.6 g/dL, hematocrit 41%, mean corpuscular volume 90 fL, white blood cells 9.5x109/L, neutrophil 44.6% (normal=36-78%), lymphocyte 30.5% (normal=12-48%), monocyte 6.2% (normal=0-13%), eosinophil 18.0% (normal 0-8%), and basophil count 0.5% (normal 0-2%). Comprehensive metabolic panel was within normal limits. Abdominal ultrasound was normal. The patient underwent colonoscopy, which revealed a sessile polyp in the sigmoid colon measuring about 5-10 mm in size with overlying red mucosa (Fig. 1). Polyp was removed by snare cautery polypectomy.\nHematoxylin and eosin section of the biopsy specimen showed non-neoplastic colonic mucosa and a hyperplastic polyp with multiple focal granuloma formation surrounding S. mansoni eggs, which were characterized by prominent lateral spine in the lamina propria and submucosa of the colonic wall with surrounding fibrosis (Fig. 2a-c). Hemorrhage in the submucosa was seen (Fig. 2b). Acid-fast bacilli (AFB) stain and Grocott-Gomori's methenamine silver stain (GMS) were negative.\nThe first stool samples for ova and parasites were negative. The patient refused to give second sample. Serum Schistosoma antibody immunoglobulin G level that uses the microsomal fraction of adult S. mansoni worms (MAMA) as antigen was 2.98 (normal<=1.0). Serum antigen testing was not performed. S. mansoni infection was confirmed by colonoscopy, which showed colonic polyp and characteristic granuloma with Schistosoma eggs. The patient was treated with praziquantel with resolution of her symptoms.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 51-year-old Senegalese woman presented with a 9-month history of intermittent non-specific abdominal pain and mild intermittent watery diarrhea.",
+      "history_of_present_illness": "The patient was referred by her primary care physician to the gastroenterology clinic after experiencing 9 months of intermittent, non-specific abdominal pain accompanied by mild intermittent watery diarrhea.",
+      "past_medical_history": "Past medical history of hypertension and dyslipidemia. Born and lived for over 30 years in Senegal (endemic for schistosomiasis) before immigrating.",
+      "review_of_systems": null
+    },
+    "objective": {
+      "physical_examination": "Vital signs were normal; abdominal examination revealed a soft, non-tender abdomen with normal bowel sounds and no hepatosplenomegaly. Remaining physical examination was unremarkable.",
+      "routine_investigations": "CBC revealed hemoglobin 13.6 g/dL, hematocrit 41%, MCV 90 fL, WBC 9.5 x 10^9/L, neutrophils 44.6% (normal 36-78%), lymphocytes 30.5% (normal 12-48%), monocytes 6.2% (normal 0-13%), marked eosinophilia of 18.0% (normal 0-8%), and basophils 0.5% (normal 0-2%). Comprehensive metabolic panel and abdominal ultrasound were normal. First stool examination for ova and parasites was negative (patient declined a second sample).",
+      "advanced_workup": "Colonoscopy identified a 5-10 mm sessile polyp with overlying erythematous mucosa in the sigmoid colon, which was removed via snare cautery polypectomy. Histopathology of the polyp demonstrated non-neoplastic hyperplastic colonic mucosa with submucosal hemorrhage, surrounding fibrosis, and multiple focal granulomas in the lamina propria and submucosa encasing Schistosoma mansoni eggs with characteristic prominent lateral spines; AFB and Grocott-Gomori methenamine silver (GMS) stains were negative."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed colonic schistosomiasis caused by Schistosoma mansoni via sigmoid polypectomy histopathology demonstrating lateral-spined eggs and positive serum anti-S. mansoni adult microsomal antigen (MAMA) IgG serology of 2.98 (normal <= 1.0). She was treated with oral praziquantel and achieved complete resolution of her abdominal pain and diarrhea."
+    }
+  }
+}

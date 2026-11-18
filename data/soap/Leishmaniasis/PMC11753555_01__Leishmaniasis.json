@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11753555_01",
+  "pair_id": "PMC11753555_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 45 year old male patient, a chef by occupation, with no comorbidities presented with a single raised asymptomatic lesion over the right forearm for 20 years. The lesion was initially pea sized which gradually increased to the current size. There was no history of similar complaints in past or in the family. Examination revealed a solitary, well-defined, firm to hard, non-tender, indurated plaque of 5cm diameter over the right forearm. The lesion was freely mobile over the underlying structures with a positive finger insinuation sign [Figure 1]. There was no local rise in temperature and no regional lymphadenopathy. Basidiobolomycosis, sarcoidosis, and leishmaniasis were considered as differential diagnoses, and an incisional biopsy was done and sent for histopathological examination. The pathologist's initial report was suggestive of syringoma, however, this did not correlate with the clinical presentation, further revaluation of the slide was done and a final diagnosis of MAC was concluded. Histopathology showed a dermal neoplasm arranged in ducts-like structures and cords. These cells were small and monomorphic with finely granular chromatin, prominent nucleoli, and moderate eosinophilic cytoplasm. Small keratin cysts were noted [Figures 2-4]. Immunohistochemistry showed S100 positivity [Figure 5].",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 45-year-old male chef presented with a single asymptomatic raised plaque over the right forearm slowly enlarging over 20 years.",
+      "history_of_present_illness": "The lesion began 20 years earlier as a pea-sized nodule on the right forearm and gradually enlarged to a 5-cm plaque without pain, pruritus, or systemic symptoms.",
+      "past_medical_history": "No medical comorbidities; worked as a chef; negative family history for similar skin lesions.",
+      "review_of_systems": "Negative for local pain, fever, or systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Solitary, well-defined, firm-to-hard, non-tender, indurated 5-cm plaque on the right forearm, freely mobile over underlying structures with a positive finger insinuation sign, no local warmth, and no regional lymphadenopathy.",
+      "routine_investigations": null,
+      "advanced_workup": "Incisional skin biopsy histopathology revealed a dermal neoplasm arranged in cords and duct-like structures composed of small monomorphic cells with finely granular chromatin, prominent nucleoli, moderate eosinophilic cytoplasm, and small keratin cysts; immunohistochemistry was positive for S100."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Clinical differentials of basidiobolomycosis, sarcoidosis, and cutaneous leishmaniasis (as well as an initial preliminary pathological impression of syringoma) were excluded upon histopathological re-evaluation and S100 immunohistochemistry, confirming microcystic adnexal carcinoma (MAC) of the right forearm."
+    }
+  }
+}

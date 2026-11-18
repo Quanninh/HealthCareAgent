@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5820895_01",
+  "pair_id": "PMC5820895_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "A 47-year-old man presented with fever, headache, and myalgia for 7 days associated with vomiting and hematemesis of three episodes. He had reduced consciousness and suffered an episode of generalized tonic-clonic seizure on the day of the presentation. On initial assessment, his Glasgow Coma Scale (GCS) was E1V1M3 with unequal pupils of the right 3 mm and left 2 mm. The patient was hemodynamically stable with a pulse rate of 82, blood pressure of 148/87 mmHg and he was febrile with a temperature of 38.7 C. He was intubated and stabilized. Following that, his computed tomography (CT) brain revealed left thalamic bleed and right frontotemporoparietal acute subdural hemorrhage 30 mm in thickness with compression of adjacent brain parenchyma and the right lateral ventricle. There was midline shift of 20 mm to the left and effacement of basal cisterns [Figure 1].\nThe first blood tests on day 7 of fever recorded a total white cell count of 4.53 x 109/L, platelet count of 31 x 109/L, hematocrit 42.7%, and a lymphocyte count of 1.40 x 109/L. International normalized ratio (INR) was 2.63 with activated prothrombin time (APTT) 40.5 s. Nonstructural protein (NS1) antigen test was positive, dengue IgM negative and dengue IgG positive.\nCoagulopathy and thrombocytopenia were treated with transfusion of fresh frozen plasma and platelet concentrate. The patient was sedated for cerebral resuscitation. The platelet count improved to 56 x 109/L and the INR reduced to 1.2 with APTT of 34.5 s. Unfortunately, the pupils were both dilated (5 mm) and were nonreactive prior to operation.\nAn operation was attempted 8 h after admission. A right decompressive craniectomy, evacuation of blood clots, external ventricular drainage catheter insertion, and fascia duraplasty was done.\nPostoperatively, pupils remained 5 mm and nonreactive with GCS of E1VTM1 without sedation. There was no cough or gag reflex present. A repeat CT brain postoperation showed generalized cerebral edema with loss of grey-white matter differentiation, effacement of sulci and basal cisterns, bilateral thalamic bleeds, and midline shift of 10 mm to the right. Soon after, the patient's hemodynamic status deteriorated and required inotropic support. The patient died on the 3rd day of admission.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 47-year-old man presented with a 7-day history of fever, headache, and myalgia, 3 episodes of vomiting and hematemesis, reduced consciousness, and a generalized tonic-clonic seizure on the day of presentation.",
+      "history_of_present_illness": "The patient experienced 7 days of fever, headache, and myalgia complicated by three episodes of vomiting and hematemesis, culminating on the day of admission in acute obtundation and a generalized tonic-clonic convulsion.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for fever (7 days), headache, myalgia, vomiting, hematemesis (3 episodes), reduced consciousness, and generalized tonic-clonic seizure."
+    },
+    "objective": {
+      "physical_examination": "On arrival: GCS E1V1M3 (5/15), unequal pupils (right 3 mm, left 2 mm; progressing preoperatively and postoperatively to bilateral fixed dilated 5 mm pupils with absent cough/gag reflexes and GCS E1VTM1), pulse 82/min, blood pressure 148/87 mmHg, and temperature 38.7 C.",
+      "routine_investigations": "Day 7 labs: WBC 4.53 x 10^9/L, lymphocyte count 1.40 x 10^9/L, severe thrombocytopenia with platelet count 31 x 10^9/L (improving to 56 x 10^9/L after transfusion), hematocrit 42.7%, INR 2.63 (improving to 1.2), and aPTT 40.5 s (improving to 34.5 s).",
+      "advanced_workup": "Admission head CT revealed a left thalamic hemorrhage and a 30 mm thick right frontotemporoparietal acute subdural hemorrhage (SDH) compressing the right lateral ventricle with a 20 mm leftward midline shift and basal cisternal effacement. Postoperative head CT showed generalized cerebral edema, loss of grey-white differentiation, bilateral thalamic hemorrhages, and 10 mm rightward midline shift."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Fatal secondary dengue hemorrhagic fever complicated by coagulopathy, severe thrombocytopenia (31 x 10^9/L), acute right frontotemporoparietal subdural hematoma, and bilateral thalamic intracerebral hemorrhages, confirmed by positive dengue NS1 antigen, positive dengue IgG, and negative dengue IgM. Managed with endotracheal intubation, fresh frozen plasma and platelet concentrate transfusions, emergency right decompressive craniectomy, clot evacuation, external ventricular drain placement, and fascia duraplasty 8 hours after admission, plus postoperative inotropes; the patient died on hospital day 3."
+    }
+  }
+}

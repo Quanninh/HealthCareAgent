@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5850760_01",
+  "pair_id": "PMC5850760_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 13-month-old male child from Koraput district, Orissa, was diagnosed to have malaria with smear positive for PF. He was treated with a 3-day course of oral artesunate-SP. In view of persistent fever and failure of parasite clearance after 3 days, he was administered second course of 3 days oral artesunate-SP. He was referred to our hospital in view of severe anemia and persistence of ring forms of PF in blood smear. He was started on parenteral quinine along with clindamycin and a dose of primaquine was administered. Serial peripheral smears were performed which showed parasitological clearance after 48 h of initiating therapy.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 13-month-old male child from Koraput district, Odisha, India, was referred with persistent fever and severe anemia after failing two 3-day courses of oral artesunate-sulfadoxine/pyrimethamine.",
+      "history_of_present_illness": "Diagnosed locally with smear-positive Plasmodium falciparum malaria, the infant received a 3-day course of oral artesunate-sulfadoxine/pyrimethamine (SP) followed by a second 3-day oral artesunate-SP course due to persistent fever and parasitemia, and was referred for severe anemia and refractory parasitemia.",
+      "past_medical_history": "Resident of Koraput district, Odisha (malaria-endemic area); received two consecutive 3-day courses of oral artesunate-SP.",
+      "review_of_systems": "Positive for persistent fever and pallor/anemia."
+    },
+    "objective": {
+      "physical_examination": "Febrile with severe clinical anemia.",
+      "routine_investigations": "Severe anemia on hematological evaluation.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Artesunate-sulfadoxine/pyrimethamine-refractory Plasmodium falciparum malaria with severe anemia. Referral peripheral blood smear confirmed persistent P. falciparum ring forms. Treated with parenteral quinine plus clindamycin and a single gametocytocidal dose of primaquine, achieving documented parasitological clearance on serial peripheral smears after 48 hours of therapy."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9884631_03",
+  "pair_id": "PMC9884631_03::COVID-19",
+  "target_disease": "COVID-19",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "After consultation, we agreed at this time to do a second bronchoscopy and a right lower bronchial biopsy. Multiple degrees of alveolar damage, a thick intraalveolar septum, fluid accumulation in bronchial sacs, and fungal hyphae branching at 45  angles were identified in the analyses. Alveolar gaps were entirely obliterated and infiltrated by lymphoid and plasma cells. In addition, there was multilayer pneumocyte hyperplasia (Figure 4). All of the symptoms were consistent with the diagnosis of organizing pneumonia following SARS-CoV-2 infection with fungal infection. Immunohistochemistry study revealed CK7 (+) in lung cells, TTF-1 (+) in lung cells, CD34 (+) in vascular cells, and GMS (Grocott) (+) on fungal hyphae; consistent with organized pneumonia subsequent to SARS-CoV-2 infection. After getting the results, we decided to discontinue all previous antibiotics and commence treatment with methylprednisolon at 1 mg/kg/day and voriconazole at 800 mg/day. The patient felt better after 1 day, with no fever and minimal coughing. With WBC of 6.45 G/L and CRP of 12.8 mg/L, inflammation reaction also dropped dramatically. Chest X-ray obtained 3 days after corticoid initiation showed consolidation lesion of the right lung, which meant significantly reducing (Figure 5).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A post-COVID-19 patient underwent a second diagnostic bronchoscopy and right lower bronchial biopsy for persistent febrile cough and right lung consolidation.",
+      "history_of_present_illness": "Following incomplete response to broad-spectrum antibacterial therapy for post-SARS-CoV-2 pulmonary consolidations, the patient underwent a second bronchoscopy with right lower lobe bronchial biopsy.",
+      "past_medical_history": "Recent prior SARS-CoV-2 infection.",
+      "review_of_systems": "Positive for fever and persistent cough (which resolved within 24 hours of corticosteroid and voriconazole initiation)."
+    },
+    "objective": {
+      "physical_examination": "Became afebrile with minimal cough within 24 hours of starting targeted therapy.",
+      "routine_investigations": "Following treatment initiation, WBC normalized to 6.45 G/L, CRP dropped markedly to 12.8 mg/L, and repeat chest X-ray at 3 days demonstrated significant regression of the right lung consolidation.",
+      "advanced_workup": "Second bronchoscopy with right lower bronchial biopsy histopathology and immunohistochemistry demonstrated organizing pneumonia (alveolar obliteration by lymphoplasmacytic infiltrate, thickened interalveolar septa, multilayer pneumocyte hyperplasia positive for CK7 and TTF-1, and vascular CD34 positivity) alongside invasive pulmonary aspergillosis/fungal co-infection confirmed by 45-degree branching septate fungal hyphae positive on Grocott methenamine silver (GMS) stain."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Post-COVID-19 organizing pneumonia with concurrent invasive pulmonary fungal infection (45-degree branching GMS-positive hyphae consistent with Aspergillus spp.), definitively confirmed by right lower bronchial biopsy histopathology and immunohistochemistry. All prior empiric antibiotics were discontinued, and treatment with methylprednisolone (1 mg/kg/day) and voriconazole (800 mg/day) produced rapid defervescence within 24 hours and marked radiographic clearing within 3 days."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4750307_06",
+  "pair_id": "PMC4750307_06::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 12-year-old boy presented with 5 days continuous high-grade fever with chills and rigor, severe headache, anorexia, nausea, vomiting for 3 days, neck stiffness for 2 days, and drowsiness for 1-day. However, there was no history of loss of consciousness and convulsion.\nHis GCS was E4M6V5 on admission. On neurological examination, he had only neck rigidity with positive Kernig sign. Rest of the CNS examination was within normal limit. Other systems were also within normal limit.\nMRI of the brain done on the 6th day of fever showed no detectable abnormality. A diagnosis of dengue meningitis was made based on the clinical presentation that is, fever and neck rigidity, MAC ELISA positivity for dengue, and the suggestive CSF profile.\nHis clinical condition improved gradually on conservative management with IV fluids and paracetamol. Neck rigidity disappeared after 10 days. He was discharged from the hospital after 2 weeks of hospital stay in a stable condition.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 12-year-old boy presented with a 5-day history of continuous high-grade fever with chills and rigors, 3 days of severe headache, anorexia, nausea, and vomiting, 2 days of neck stiffness, and 1 day of drowsiness.",
+      "history_of_present_illness": "The patient developed 5 days of continuous high-grade fever with chills and rigors, followed by 3 days of severe headache, anorexia, nausea, and vomiting, 2 days of neck stiffness, and 1 day of drowsiness without convulsions or loss of consciousness.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for continuous high-grade fever, chills, rigors, severe headache, anorexia, nausea, vomiting, neck stiffness, and drowsiness. Negative for loss of consciousness or convulsions."
+    },
+    "objective": {
+      "physical_examination": "GCS E4M6V5 on admission with isolated neck rigidity and positive Kernig sign; remainder of the CNS and systemic examinations were within normal limits.",
+      "routine_investigations": null,
+      "advanced_workup": "Brain MRI on day 6 of fever showed no structural abnormality; lumbar puncture and CSF profile were consistent with viral meningitis."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue meningitis confirmed by positive dengue IgM MAC-ELISA, CSF profile, and normal brain MRI. Managed conservatively with intravenous fluids and paracetamol, with resolution of neck rigidity after 10 days and discharge in stable condition after 2 weeks."
+    }
+  }
+}

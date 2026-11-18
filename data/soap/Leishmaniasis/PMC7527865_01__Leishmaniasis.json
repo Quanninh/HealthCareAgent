@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7527865_01",
+  "pair_id": "PMC7527865_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "Male, 24-years-old, Caucasian, unemployed, from Tancredo Neves, State of Bahia, Brazil, was admitted to the University Hospital, in January 2012, presenting diffuse bullous lesions on the body, osteoarthritis of the distal interphalangeal joints and proteinuria 399 mg/day (reference value >150mg/day). He was diagnosed with systemic lupus erythematosus (SLE) and treated with mycophenolate mofetil (MMF). The starting dose for MMF was 0.5 g per day and it was increased up to 1 g per day intravenously. In 2014, two years after SLE diagnosis, he was hospitalized, presenting with ulcerated-painless-skin lesions on the face, upper lip, scalp, neck, upper and lower limbs. Oral examination evidenced crusty upper lip lesions, poor oral health status and amelogenesis imperfecta ( Figure 1a and 1b). He developed secondary infection associated with fever, and antibiotic therapy with cephalexin was initiated (1g/day) and a maintenance dose of prednisone (5 mg/day intravenously). On the third day, biopsies were performed on the left nasal mucosa and on the right lower limb lesions. The diagnosis of disseminated leishmaniasis was confirmed (positive PCR and Montenegro intradermal test). Liposomal amphotericin B was introduced on the fourth day of hospitalization at a dose of 150 mg/day up to a maximum dose of 2,400 mg. The patient treatment was followed-up for six months, and lesions were observed to have healed. One month later, during the follow-up for SLE, we observed new development of ulcerated skin lesions on the face and on the upper and lower right limbs. Blisters and fever were absent and the recurrence of disseminated leishmaniasis was confirmed. Few weeks later, the patient was admitted for treatment of new lesions, presenting with erythema, diffuse facial edema, lymphadenopathy and ulcerated and pustular lesions. Patient was treated with liposomal amphotericin B at a cumulative dose of 3,050 mg and followed-up until complete remission of the lesions. Currently, patient is under maintenance treatment for SLE.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 24-year-old Caucasian male with systemic lupus erythematosus from Tancredo Neves, Bahia, Brazil, presented in 2014 with painless ulcerated skin and mucosal lesions over his face, upper lip, scalp, neck, and extremities accompanied by secondary bacterial infection and fever.",
+      "history_of_present_illness": "Two years after being diagnosed with bullous SLE in January 2012 and treated with mycophenolate mofetil (0.5-1 g/day), the patient was hospitalized in 2014 with disseminated painless ulcerated cutaneous and upper-lip lesions complicated by secondary bacterial infection and fever. Following initial healing after liposomal amphotericin B (2,400 mg cumulative dose), he relapsed 7 months later with facial erythema, diffuse facial edema, lymphadenopathy, and recurrent ulcerated and pustular lesions on the face and right limbs.",
+      "past_medical_history": "Unemployed Caucasian male from Tancredo Neves, Bahia, Brazil; diagnosed with systemic lupus erythematosus (diffuse bullous lesions, DIP osteoarthritis, and proteinuria of 399 mg/day) in January 2012; amelogenesis imperfecta.",
+      "review_of_systems": "Home immunosuppressive medications: mycophenolate mofetil (0.5-1 g/day) and maintenance prednisone (5 mg/day)."
+    },
+    "objective": {
+      "physical_examination": "Initial 2014 admission: painless ulcerated cutaneous lesions on the face, scalp, neck, and upper and lower extremities, crusted upper-lip lesions, poor oral hygiene, amelogenesis imperfecta, and fever. At relapse 7 months later: diffuse facial edema, erythema, lymphadenopathy, and ulcerated and pustular lesions on the face and right upper and lower limbs.",
+      "routine_investigations": "Baseline 24-hour urine protein at SLE diagnosis in 2012 was 399 mg/day (ref <150 mg/day); Montenegro intradermal test in 2014 was positive.",
+      "advanced_workup": "Biopsies of the left nasal mucosa and right lower-limb skin ulcer on hospital day 3 were positive for Leishmania by PCR."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Positive Montenegro intradermal reaction and positive Leishmania PCR on nasal mucosal and lower-limb skin biopsies confirmed Disseminated Mucocutaneous Leishmaniasis in an immunosuppressed SLE patient. Initial treatment with intravenous cephalexin (1 g/day), maintenance IV prednisone (5 mg/day), and liposomal amphotericin B (150 mg/day to 2,400 mg cumulative) healed the lesions for 6 months, and retreatment of the subsequent relapse with liposomal amphotericin B (cumulative dose 3,050 mg) achieved complete durable remission."
+    }
+  }
+}

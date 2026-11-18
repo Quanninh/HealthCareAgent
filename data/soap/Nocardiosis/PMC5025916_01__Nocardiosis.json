@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC5025916_01",
+  "pair_id": "PMC5025916_01::Nocardiosis",
+  "target_disease": "Nocardiosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 55.0,
+  "raw_case_text": "A 55-year-old man with a 10-year history of DM was admitted to our hospital with a 2 months history of dyspnea and cough. The patient was alert and afebrile and complained of chronic nonproductive cough. The patient had no history of immunosuppressive treatment or disease except the history of DM. The patient denied alcohol abuse and smoking. His vital sign was stable. Physical examination was not notable. Cell blood count (CBC) showed hemoglobin (Hgb) 9.9g/dl, white blood cell count (WBC) 6500, with polymorphonuclear dominant (56%). The level of C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR) were 50mg/dl and 105 mm/hour respectively. HIV test was negative. In chest X-ray, nodular pattern was seen. This pattern also was showed in thorax computed tomography (CT) scan [Figure 1].\nConsidering the course of the disease, clinical manifestations and stable vital signs, the antibiotic was not started.\n3 sets of blood cultures and echocardiogram were negative for endocarditis. Examination of the sputum specimen showed C.albicans. As the patient complained of a chronic cough and according to pulmonary lesions, bronchoscopy and bronchoalveolar lavage (BAL) was performed. The specimens evaluated for bacteria, nocardia, actinomyces, fungi and mycobacterium tuberculosis (TB) smear and culture, polymerase chain reaction for TB and also cytology for malignancies. The results were all negative except the culture of BAL fluid which revealed C. albicans. The serum and BAL fluid galactomannan were negative.\nHence, CT-guided percutaneous biopsy of the lesion of the lung was performed. The result showed yeast and pseudohyphae that was compatible with the diagnosis of Candida. The tissue culture yielded C. albicans as well. Furthermore, microscopic studies for other microorganism such as acid-fast staining were negative. On special sectioning, no evidence of granuloma or malignancy was reported. Considering diagnosis, antifungal regimen (intravenous fluconazole) was started. Parenteral antifungal therapy continued for 2 weeks and then followed with oral fluconazole. Control chest CT scan was done 5 weeks later, which showed significant regression of pulmonary lesions [Figure 2]. At the completion of treatment, the level of CRP and ESR decrease to 6 mg/dl and 17mm/hr, respectively.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 55-year-old man with type 2 diabetes mellitus presented with a 2-month history of progressive dyspnea and chronic nonproductive cough.",
+      "history_of_present_illness": "The patient was admitted with a 2-month history of shortness of breath and chronic nonproductive cough without fever.",
+      "past_medical_history": "10-year history of diabetes mellitus; no other immunosuppressive diseases or medications; denied smoking or alcohol abuse.",
+      "review_of_systems": "Negative for fever or sputum production."
+    },
+    "objective": {
+      "physical_examination": "Alert, afebrile, with stable vital signs and an unremarkable physical examination.",
+      "routine_investigations": "CBC showed hemoglobin 9.9 g/dL and WBC 6,500/uL (56% polymorphonuclear cells); CRP was 50 mg/dL and ESR was 105 mm/hour. HIV test, three sets of blood cultures, and transthoracic echocardiogram were negative. Sputum examination showed Candida albicans. Chest X-ray revealed a bilateral nodular pattern.",
+      "advanced_workup": "Thoracic CT confirmed multiple bilateral pulmonary nodules. Bronchoscopy with bronchoalveolar lavage (BAL) was negative for routine bacteria, Nocardia, Actinomyces, Mycobacterium tuberculosis (smear, culture, and PCR), serum/BAL galactomannan, and malignant cells, while BAL culture grew Candida albicans. CT-guided percutaneous transthoracic lung biopsy demonstrated yeast and pseudohyphae without granulomas, acid-fast organisms, or malignancy, and lung tissue culture grew Candida albicans."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Primary Candida albicans pulmonary nodulosis/pneumonia in a diabetic host (with Nocardia, Actinomyces, tuberculosis, aspergillosis, and malignancy excluded) was confirmed via CT-guided percutaneous lung biopsy histopathology (showing yeast and pseudohyphae) and positive BAL and lung tissue cultures for Candida albicans. Treatment with intravenous fluconazole for 2 weeks followed by oral fluconazole resulted in marked regression of pulmonary nodules on 5-week follow-up chest CT and normalization of inflammatory markers (CRP 6 mg/dL, ESR 17 mm/h)."
+    }
+  }
+}

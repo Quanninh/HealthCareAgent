@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7392875_01",
+  "pair_id": "PMC7392875_01::Cryptococcosis",
+  "target_disease": "Cryptococcosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 43-year-old male patient was admitted to the emergency department with a complaint of shortness of breath since 2 weeks prior to admission. Shortness of breath was accompanied with cough. Other complains include fever and decreased appetite since 4 months ago due to oral ulcer. He was newly diagnosed with HIV in the previous hospital 2 weeks before being admitted to RSUD Dr. Soetomo Surabaya. From the physical examination, it was found that the patient was somnolent, in which he scored 13 on the Glasgow coma scale and Rhonchi were found in both of his hemithoraces. The chest X-ray showed reticulogranular pattern in both hemithoraces. Trachea in the middle, left and right costophrenicus angle were sharp, soft tissue and visualized bone did not show abnormalities (Figure 1). Head computed tomography (CT) was performed and showed no hypodense/hyperdense lesion in the parenchymal brain. No contrast enhancement were found. Sulcus and gyrus seemed to be normal. The ventricular system and cysterna were normal. Pons and cerebellum were normal. There was no apparent abnormal calcification. No midline deviation was found.\nFrom the sputum and blood culture we found Gram-positive cocci of Staphylococcus hominis and yeast cell of Cryptococcus neoformans (Figure 2). Blood culture of yeast cell in the form of Cryptococcus neoformans is BTA negative. Based on his clinical symptoms, head CT result and blood culture, a diagnosis of Cryptococcus neoformans in AIDS was made and the patient received fluconazole treatment at the dose of 750 mg/day and was given ARV therapy with duviral and neviral twice daily. After 2 weeks of treatments, a clinical improvement was obtained and patient was discharged.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 43-year-old newly diagnosed HIV-positive male presented with a 2-week history of shortness of breath and cough on a 4-month background of fever, oral ulcers, and decreased appetite.",
+      "history_of_present_illness": "The patient had experienced fever and decreased appetite secondary to painful oral ulcers for 4 months. Two weeks prior to admission (when he was newly diagnosed with HIV at an outside hospital), he developed progressive shortness of breath accompanied by cough.",
+      "past_medical_history": "Newly diagnosed HIV infection (diagnosed 2 weeks prior to admission).",
+      "review_of_systems": "Positive for dyspnea, cough, chronic fever, oral ulcers, anorexia, and somnolence."
+    },
+    "objective": {
+      "physical_examination": "Somnolent with a Glasgow Coma Scale score of 13, oral ulcers, and bilateral rhonchi across both hemithoraces on lung auscultation.",
+      "routine_investigations": "Chest X-ray demonstrated a bilateral reticulogranular pattern across both lung fields; sputum and blood cultures grew Staphylococcus hominis and encapsulated yeast cells of Cryptococcus neoformans (acid-fast/BTA negative).",
+      "advanced_workup": "Contrast-enhanced head CT was completely normal without parenchymal lesions, hydrocephalus, or meningeal enhancement."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis of AIDS-associated disseminated/pulmonary Cryptococcus neoformans infection (cryptococcemia and cryptococcal pneumonia with Staphylococcus hominis co-isolation), confirmed by blood and sputum cultures isolating Cryptococcus neoformans alongside a normal head CT. Treated with oral/systemic fluconazole (750 mg/day) and antiretroviral therapy (Duviral [zidovudine/lamivudine] and Neviral [nevirapine] twice daily), achieving clinical improvement and hospital discharge after 2 weeks of treatment."
+    }
+  }
+}

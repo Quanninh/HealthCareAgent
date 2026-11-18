@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4314865_01",
+  "pair_id": "PMC4314865_01::Malaria",
+  "target_disease": "Malaria",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "An 8-year-old Nigerian male presented with a history of multiple bee stings on the head and passage of bloody urine 50 minutes prior to hospitalisation. He was initially rushed to a private clinic where he received intravenous (I.V) 5% dextrose saline fluid, I.V Ampiclox, I.V hydrocortisone and intramuscular diclofenac before referral to our facility for further care. He is a known sickle cell anaemia patient diagnosed at the age of 8 months in a tertiary health facility. He has been in stable state of health for over 1 year prior to the bee stings.\nOn admission, he was observed to be vomiting and passing watery non-bloody stools. Physical examination revealed extensive swelling on the head and face, he was moderately pale, febrile (temperature 37.6[0] C), and mildly jaundiced. His blood pressure was 90/60 mmHg. Other vital signs were essentially normal. Significant systemic finding was splenomegaly of 3 cm. His laboratory investigations revealed a packed cell volume of 20%, white blood cell count of 28,700/mm with normal differential count. Peripheral blood film showed evidence of haemolysis in the form of poikilocytosis and anisocytosis. His platelet count was 84,000/mm. Serum electrolyte urea and creatinine were within normal limits, malaria parasite test was positive (+). Dipstick urinalysis showed blood (++++), other parameters were normal. He was transfused with 1 unit of fresh whole blood and was also commenced on IV antibiotics, IV antihistamines, I.V antimalarial, zinc and acetaminophen tablet. Hydrocortisone was discontinued. Visible stingers were scrapped off from this head. He developed incoherent speech and became delirious within 24 hours, and died after 36 hours on admission.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "An 8-year-old Nigerian boy with sickle cell anemia presented 50 minutes after sustaining multiple bee stings to the head, accompanied by gross hematuria/bloody urine, vomiting, and watery diarrhea.",
+      "history_of_present_illness": "The child sustained multiple bee stings to the head and passed bloody urine within 50 minutes. He received IV 5% dextrose saline, IV Ampiclox, IV hydrocortisone, and IM diclofenac at a private clinic before referral, and developed vomiting and watery non-bloody stools on admission, progressing within 24 hours to incoherent speech and delirium.",
+      "past_medical_history": "Known sickle cell anemia (HbSS) diagnosed at 8 months of age, clinically stable for over 1 year prior to the bee stings.",
+      "review_of_systems": "Positive for multiple head bee stings, facial/head swelling, bloody urine, fever, vomiting, watery non-bloody stools, incoherent speech, and delirium."
+    },
+    "objective": {
+      "physical_examination": "Extensive head and facial swelling with visible embedded bee stingers on the scalp, moderate pallor, mild jaundice, fever (37.6 C), BP 90/60 mmHg (other vitals normal), and splenomegaly of 3 cm; developed delirium and incoherent speech within 24 hours.",
+      "routine_investigations": "Packed cell volume 20%, leukocytosis with WBC 28,700/mm3 (normal differential), thrombocytopenia with platelets 84,000/mm3, peripheral blood film showing hemolysis (poikilocytosis and anisocytosis), normal serum electrolytes, urea, and creatinine, and dipstick urinalysis showing 4+ blood (++++).",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal massive bee envenomation complicated by intravascular hemolysis, hemoglobinuria, encephalopathy, and co-existing malaria in a child with sickle cell anemia. Malaria parasite test was positive (+). Treated with mechanical scraping of scalp bee stingers, 1 unit of fresh whole blood transfusion, IV antimalarials, IV antibiotics, IV antihistamines, oral zinc, and acetaminophen (hydrocortisone discontinued), but deteriorated into delirium within 24 hours and died 36 hours after admission."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3573448_01",
+  "pair_id": "PMC3573448_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 95.0,
+  "raw_case_text": "A 33-year-old male presented with multiple, reddish-brown plaques, and nodules involving the face for last 14 years. The lesions were insidious in onset, starting from the cheek, slowly increasing in size and number to involve forehead, nose, chin and had progressed to involve the left shoulder in last 1 year. The patient did not have any other complaints, except mild itching at times in the lesions. He did not give any history of trauma.\nOn examination, multiple, reddish-brown plaques and nodules, firm in consistency, were present on bilateral cheeks, forehead, nose, chin and left shoulder ranging in size from 0.5 x 0.5 cm to 2.5 x 2 cm. There was no systemic involvement [Figures 1 and 2]. The clinical differential diagnoses considered were keloid, lupus vulgaris, nodular sarcoidosis, cutaneous leishmaniasis, granuloma annulare, and erythema elevatum diutinum.\nBiopsy was taken from the lesion on the forehead and shoulder and both showed similar histology. Biopsy showed a diffuse dense infiltrate in most of reticular dermis, mainly consisting of neutrophils and histiocytes, with scattered lymphocytes and occasional plasma cells. The infiltrate surrounded small thickened vessels and extended extensively into the interstitium, and small amount of nuclear dust also was seen. Overlying epidermis and dermo-epidermal junction was completely spared [Figures 3-5].\nThe above findings were consistent with a diagnosis of granuloma faciale. The patient received intralesional triamcinolone acetonide 40 mg/ml every 4 weeks for 6 months, but there was no response. The patient is currently on intralesional triamcinolone 40 mg/ml every 4 weeks with topical tacrolimus. There is slight flattening of few lesions.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 33-year-old male presented with a 14-year history of multiple slowly progressive reddish-brown plaques and nodules on his face that extended to his left shoulder over the past year.",
+      "history_of_present_illness": "The lesions began insidiously 14 years earlier on the cheek and gradually increased in size and number to involve the forehead, nose, chin, and—over the preceding year—the left shoulder, associated only with occasional mild pruritus.",
+      "past_medical_history": "No history of prior trauma or systemic illness.",
+      "review_of_systems": "Positive for occasional mild lesional itching; negative for systemic symptoms."
+    },
+    "objective": {
+      "physical_examination": "Multiple firm, reddish-brown plaques and nodules ranging from 0.5 x 0.5 cm to 2.5 x 2 cm on the bilateral cheeks, forehead, nose, chin, and left shoulder, with no systemic abnormalities.",
+      "routine_investigations": null,
+      "advanced_workup": "Skin biopsies from both the forehead and left shoulder lesions demonstrated a spared epidermis and dermo-epidermal junction (grenz zone) overlying a dense diffuse reticular dermal infiltrate composed predominantly of neutrophils and histiocytes with scattered lymphocytes, plasma cells, perivascular thickening, and leukocytoclasia (nuclear dust)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Clinical differentials of cutaneous leishmaniasis, lupus vulgaris, nodular sarcoidosis, keloid, granuloma annulare, and erythema elevatum diutinum were excluded by characteristic histopathology, confirming facial and extrafacial granuloma faciale. After 6 months of monthly intralesional triamcinolone acetonide (40 mg/mL every 4 weeks) yielded no response, addition of topical tacrolimus to monthly intralesional triamcinolone produced slight flattening of several lesions."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC11378234_01",
+  "pair_id": "PMC11378234_01::Dengue",
+  "target_disease": "Dengue",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 17-year-old male recipient of matched-sibling donor transplant for myelodysplastic syndrome, on immunosuppressive agent, presented with fever and body ache on day +317. Donor chimerism at day +180 was >90%. At presentation, CBC showed Hb = 16.5 g/dL, hematocrit (HCT) = 48%, platelet = 90 x 109/L. Physical examination revealed harsh vesicular breathing. Dengue NS1 antigen was detected. Blood cultures were negative. He was managed conservatively for 1 week as inpatient with intravenous hydration, analgesics, and antipyretics. Platelet count dropped to 24 x 109/L followed by recovery without need for transfusion.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 17-year-old male hematopoietic stem cell transplant recipient presented on day +317 post-transplant with fever and body ache.",
+      "history_of_present_illness": "The patient, who underwent matched-sibling donor transplantation for myelodysplastic syndrome and remained on immunosuppressive therapy, presented on post-transplant day +317 with acute fever and generalized body aches.",
+      "past_medical_history": "Myelodysplastic syndrome status post matched-sibling donor stem cell transplant (day +317; donor chimerism >90% at day +180).",
+      "review_of_systems": "Positive for fever and body ache. Home medication: immunosuppressive agent."
+    },
+    "objective": {
+      "physical_examination": "Harsh vesicular breathing on chest auscultation.",
+      "routine_investigations": "At presentation: hemoglobin 16.5 g/dL, hematocrit 48%, platelet count 90 x 10^9/L (subsequently dropping to a nadir of 24 x 10^9/L). Blood cultures were negative.",
+      "advanced_workup": null
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Dengue fever in a post-allogeneic stem cell transplant recipient, confirmed by positive dengue NS1 antigen and negative blood cultures. Managed conservatively as an inpatient for 1 week with intravenous hydration, analgesics, and antipyretics, achieving full platelet count recovery from a nadir of 24 x 10^9/L without platelet transfusion."
+    }
+  }
+}

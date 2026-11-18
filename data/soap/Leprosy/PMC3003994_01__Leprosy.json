@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3003994_01",
+  "pair_id": "PMC3003994_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 30.0,
+  "raw_case_text": "The patient felt well until September 2005, when palpable painful nodules and multiple ulcerated lesions developed in both legs and ankles. There was no history of arthritis, rashes, photosensitivity, other skin lesions, mouth ulcers, gastrointestinal, or urogenital symptoms. Antinuclear antibody (ANA), rheumatoid factor (RF), anti-neutrophil cytoplasmatic antibodies (ANCA), anti-RO, anti-LA, anti-HIV, HBsAg, HCV, antistreptolysin O (ASO), and cryoglobulins tested negative; complete blood count and a serum thyroid-stimulating hormone (TSH) determination were normal, as were a chest X-ray. Erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) were markedly elevated (90 mmHg on the first hour and 45 mg/dL:normal: 0-6 mg/dL; resp.), and there was a polyclonal gammopathy on a serum protein electrophoresis test. Examination of a skin smear sample to identify Mycobacterium leprae was negative. A cutaneous biopsy revealed fibrinoid degeneration of the perivascular and vessels walls collagen, as well as mononuclear and neutrophilic infiltrates extending to the deeper dermis and the presence of leukocytoclasia, corroborating the diagnosis of cutaneous deep vasculitis. The patient was given 60 mg/day of prednisone (approximately 1 mg/kg), with merely partial resolution of the signs and symptoms, even after 2 months of appropriate usage (Figure 1). As a steroid-sparing drug, methotrexate was given in a dosage up to 25 mg/week, unsuccessfully. Five monthly pulses of cyclophosphamide (0.75 g/m2/body surface) and dapsone 200 mg/day were also ineffective in reducing the oral prednisone dosage, and when the reduction was attempted, the vasculitis signs and symptoms recurred promptly. In August 2007, taking into consideration these therapeutic failures, the patient was started on infusions of 3 mg/kg infliximab on days 0, 15, and 45 and then every 8 weeks. As early as by the fourth infusion, prednisone dosage had already been tapered to zero and no vasculitis recurrence was observed (Figure 2). As of January 2009, no recurrences have occurred and no adverse drug effects were registered.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A patient presented in September 2005 with painful palpable nodules and multiple ulcerated skin lesions on both legs and ankles.",
+      "history_of_present_illness": "Previously healthy until September 2005, the patient developed painful subcutaneous nodules and multiple cutaneous ulcerations over the bilateral lower legs and ankles.",
+      "past_medical_history": null,
+      "review_of_systems": "Positive for painful lower limb nodules and ulcers; negative for arthritis, other rashes, photosensitivity, oral ulcers, or gastrointestinal or urogenital symptoms."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed palpable tender nodules and multiple necrotic/ulcerated lesions distributed over both legs and ankles.",
+      "routine_investigations": "Complete blood count, serum TSH, and chest X-ray were normal. ESR (90 mm/1st hour) and CRP (45 mg/dL; normal: 0-6 mg/dL) were markedly elevated, and serum protein electrophoresis showed polyclonal gammopathy. Serologies for HIV, HBsAg, HCV, and antistreptolysin O (ASO) were negative.",
+      "advanced_workup": "Autoimmune serologies including ANA, rheumatoid factor, ANCA, anti-Ro, anti-La, and cryoglobulins were negative. Slit-skin smear for Mycobacterium leprae was negative. Skin biopsy of a leg lesion was performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Skin biopsy demonstrated fibrinoid degeneration of perivascular and vascular wall collagen with deep dermal mononuclear and neutrophilic infiltrates and leukocytoclasia, confirming cutaneous deep leukocytoclastic vasculitis (and excluding leprosy). High-dose oral prednisone (60 mg/day, ~1 mg/kg) for 2 months achieved only partial control, and steroid-sparing attempts with methotrexate (up to 25 mg/week), five monthly intravenous cyclophosphamide pulses (0.75 g/m2), and oral dapsone (200 mg/day) failed to prevent flare-ups upon steroid tapering. Initiation of intravenous infliximab (3 mg/kg on days 0, 15, and 45, then every 8 weeks) in August 2007 enabled complete discontinuation of prednisone by the fourth infusion with sustained remission through January 2009."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4279710_01",
+  "pair_id": "PMC4279710_01::Echinococcosis",
+  "target_disease": "Echinococcosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "A 38-year-old lady presented to our surgical clinics with the complaints of pain and lump right side lower abdomen 3 years ago. She had a history of emergency caesarean section done in a different country 4 years back. The patient had some discomfort at the right iliac fossa region in the postoperative phase which was explained to the patient as postoperative pain. No further advanced investigations were carried out at that stage. Following this the patient started to notice a lump formation at the site of the discomfort in the right iliac fossa region. The lump was gradually progressive in nature and the pain associated with the lump also gradually increased in intensity. The patient underwent an ultrasound and a CECT abdomen (Figure 1) before consulting us. Both these tests revealed a well-defined lump in relation to the small bowel in the right iliac fossa region suggestive of mesenteric cyst. On clinical examination there was a large lump in the right iliac fossa region of 20 cm x 15 cm. An MRI scan of the abdomen was conducted to ascertain the exact nature of the mass. The MRI was also inconclusive in making a definitive diagnosis and it revealed a cystic mass in relation to the bowel with a thick membrane inside the mass. A differential diagnosis of hydatid cyst was suggested upon the MRI.\nThe patient was optimized and taken up for elective exploratory laparotomy. Upon laparotomy it was discovered that the lump in question was actually a tense encapsulated cystic mass of 20 cm x 15 cm x 14 cm densely adhered to the surrounding small bowel and omentum. The lump got open during dissection revealing thick pus along with a retained sponge as its contents (Figure 2). Resection of the mass along with a foot of the terminal ileum (Figure 3) was done. The postoperative period was uneventful and the patient was discharged on the seventh postoperative day.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 38-year-old woman presented with a 3-year history of a progressively enlarging painful lump in the right lower abdomen.",
+      "history_of_present_illness": "Following an emergency cesarean section performed in another country 4 years earlier, the patient experienced persistent right iliac fossa discomfort and noticed a progressively enlarging, increasingly painful mass in the right iliac fossa over the past 3 years.",
+      "past_medical_history": "Emergency cesarean section 4 years prior.",
+      "review_of_systems": "Positive for progressive right iliac fossa mass and abdominal pain."
+    },
+    "objective": {
+      "physical_examination": "Abdominal examination revealed a large 20 x 15 cm palpable mass in the right iliac fossa.",
+      "routine_investigations": "Abdominal ultrasound showed a well-defined cystic mass related to the small bowel in the right iliac fossa.",
+      "advanced_workup": "Contrast-enhanced abdominal CT and abdominal MRI demonstrated a 20 x 15 x 14 cm cystic mass containing an internal thick membrane closely adherent to the small bowel in the right iliac fossa, raising differential diagnoses of mesenteric cyst or hydatid cyst. Elective exploratory laparotomy revealed a tense encapsulated mass densely adherent to the terminal ileum and omentum that opened during dissection, discharging thick pus and a retained surgical sponge; en bloc resection with 1 foot of terminal ileum was performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Right iliac fossa transmural/intraperitoneal gossypiboma (retained surgical sponge from cesarean section 4 years earlier) mimicking a mesenteric or hydatid cyst, confirmed intraoperatively upon surgical exploration and segmental ileal resection. The patient had an uneventful postoperative course and was discharged on postoperative day 7."
+    }
+  }
+}

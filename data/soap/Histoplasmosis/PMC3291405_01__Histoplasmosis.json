@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC3291405_01",
+  "pair_id": "PMC3291405_01::Histoplasmosis",
+  "target_disease": "Histoplasmosis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 50.0,
+  "raw_case_text": "Case 1 (index case-patient): 25-year-old woman with a history of headache, vomiting, fever, and cough sought treatment at a hospital. A chest radiograph showed diffuse nodular pulmonary infiltrates. Computed tomography showed numerous small nodules throughout both lungs. Thorascopic lung biopsy yielded necrotizing granulomata; stains did not show an organism. Histoplasma H and M bands were demonstrated in blood by immunodiffusion (ID) conducted by the National Center for Mycology (Edmonton), and culture of sputum and lung biopsy material yielded Histoplasma capsulatum. Itraconazole therapy was initiated. The patient previously resided in a village in Newfoundland but had relocated to Alberta 5 months before onset of illness. She was a maintenance worker at a golf course in suburban Edmonton and reported that several co-workers had experienced similar symptoms after the renovation of a fairway.\nClinical and exposure information was collected from a core group of 7 persons who worked with the index patient. Three additional probable or possible cases of histoplasmosis were identified and are described as follows.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 25-year-old woman presented with headache, vomiting, fever, and cough.",
+      "history_of_present_illness": "The patient sought hospital treatment for headache, vomiting, fever, and cough that developed after participating in a fairway renovation at a suburban Edmonton golf course, noting that several co-workers had similar symptoms.",
+      "past_medical_history": "Previously resided in Newfoundland and relocated to Alberta, Canada, 5 months before illness onset; worked as a golf course maintenance worker in suburban Edmonton exposed to disturbed soil/dust during fairway renovation.",
+      "review_of_systems": "Positive for headache, vomiting, fever, and cough."
+    },
+    "objective": {
+      "physical_examination": null,
+      "routine_investigations": "Chest radiograph: diffuse nodular pulmonary infiltrates.",
+      "advanced_workup": "Chest CT: numerous small nodules throughout both lungs. Thoracoscopic lung biopsy: necrotizing granulomata (fungal stains negative for organisms)."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Acute pulmonary histoplasmosis (index patient of an occupational golf course outbreak in Alberta, Canada). Confirmation: Positive serum Histoplasma H and M precipitin bands on immunodiffusion, and positive fungal cultures of both sputum and thoracoscopic lung biopsy tissue yielding Histoplasma capsulatum. Plan & clinical course: Initiated on oral itraconazole therapy."
+    }
+  }
+}

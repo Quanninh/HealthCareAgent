@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC7343954_04",
+  "pair_id": "PMC7343954_04::Syphilis",
+  "target_disease": "Syphilis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 90.0,
+  "raw_case_text": "A 32-year-old woman who was recently commenced on ART presented to the dermatology clinic with a generalised maculopapular rash involving her palms and soles. Her CD4 count was 219 cells/microL. A lichenoid lymphoplasmacytic infiltrate was noted on haematoxylin and eosin stained section (Figure 5, inset). Numerous spirochaetes were identified on Treponema pallidum immunohistochemistry, confirming the diagnosis of secondary syphilis (Figure 5). Serum T. pallidum antibody was positive and rapid plasma reagin test was reactive with a titer of 1024.\nComment: The prevalence of syphilis is increasing. In Canada, the United States and the United Kingdom, an increasing incidence is noted in men who have sex with men. Skin lesions are the most amenable to biopsy in suspected syphilis. Papulosquamous lesions with palmo-plantar involvement are the typical clinical findings but atypical presentations such as alopecia, pustular lesions, annular rash and nodules have also been described. Patients with HIV infection are more likely to have atypical presentations and secondary syphilis at the time of diagnosis. Histopathological findings in secondary syphilis include epidermal hyperplasia and a moderate to dense lymphoplasmacytic infiltrate as were noted in case 5 (Figure 5, inset). The T. pallidum immunohistochemical stain (Figure 5) is more sensitive than a silver stain. The sensitivity of immunohistochemistry was 64% compared to 9% for the silver stain, in detecting spirochaetes in one study. The same study also showed that patients with CD4 counts less than 250 cells/mL had more organisms (> 100 treponemes in 10 high power fields) demonstrated on skin biopsy than those with CD4 counts above 250 cells/mL.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 32-year-old HIV-positive woman recently initiated on antiretroviral therapy presented with a generalized maculopapular rash involving her palms and soles.",
+      "history_of_present_illness": "Shortly after commencing antiretroviral therapy, the patient presented to the dermatology clinic with a generalized papulosquamous/maculopapular eruption affecting her trunk, extremities, palms, and soles.",
+      "past_medical_history": "Known HIV infection, recently started on antiretroviral therapy (ART).",
+      "review_of_systems": "Positive for generalized maculopapular and palmoplantar rash. Home medications: antiretroviral therapy."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination revealed a generalized maculopapular/papulosquamous rash with prominent involvement of the bilateral palms and soles.",
+      "routine_investigations": null,
+      "advanced_workup": "CD4+ T-lymphocyte count was 219 cells/uL. Skin biopsy H&E histopathology demonstrated epidermal hyperplasia and a moderate-to-dense lichenoid lymphoplasmacytic infiltrate."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Confirmed secondary syphilis in an HIV-positive woman (CD4 219 cells/uL), established via positive serum Treponema pallidum antibody, high-titer serum RPR (1:1,024), and Treponema pallidum immunohistochemistry (IHC) on the skin biopsy demonstrating numerous abundant epidermal and dermal spirochetes."
+    }
+  }
+}

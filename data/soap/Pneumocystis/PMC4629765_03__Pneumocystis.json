@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC4629765_03",
+  "pair_id": "PMC4629765_03::Pneumocystis",
+  "target_disease": "Pneumocystis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 35.0,
+  "raw_case_text": "A 70-year-old man with Mantle-cell lymphoma was referred to our institution complaining of severe dyspnea and dry cough. Prior to initiation of RTX therapy, physical examination and chest CT were normal. The symptoms developed 1 week after the completion of the second cycle of R-CHOP therapy. He had severe hypoxemia and received high flow oxygen, and due to signs of infection broad-spectrum antibiotics were initiated. Spirometry revealed restrictive pattern with DLco at 26%. His condition worsened under admission; therefore, he was transferred to the intensive care unit, intubated, and mechanically ventilated. He was treated with high-dose intravenous steroid.\nChest CT demonstrated diffuse GGO with areas of consolidation. The diagnosis of RTX-ILD was considered possible, although severe infectious pneumonia was an obvious alternative. Bronchoalveolar lavage (BAL) was PCR positive for Pneumocystis jirovecii and he was switched to appropriate antibiotics. The last CT scan showed extensive consolidation and GGO intervening with normal lung and bilateral pleural effusion. After 2 weeks of intensive therapy, the patient died due to respiratory failure. No postmortem investigations were undertaken.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 70-year-old man with mantle-cell lymphoma presented with severe dyspnea and dry cough 1 week after completing his second cycle of R-CHOP immunochemotherapy.",
+      "history_of_present_illness": "The patient, who had a normal physical examination and normal baseline chest CT prior to starting rituximab-containing chemotherapy, developed acute severe shortness of breath and a nonproductive cough 1 week after completing his second cycle of R-CHOP (rituximab, cyclophosphamide, doxorubicin, vincristine, prednisone) for mantle-cell lymphoma.",
+      "past_medical_history": "Mantle-cell lymphoma status post 2 cycles of R-CHOP chemotherapy.",
+      "review_of_systems": "Positive for severe dyspnea and dry cough."
+    },
+    "objective": {
+      "physical_examination": "Severe hypoxemia on admission requiring high-flow supplemental oxygen, rapidly progressing to respiratory failure requiring ICU transfer, endotracheal intubation, and mechanical ventilation.",
+      "routine_investigations": "Spirometry and diffusing capacity: Restrictive ventilatory pattern with severely reduced diffusing capacity for carbon monoxide (DLCO 26% predicted).",
+      "advanced_workup": "Serial chest CT scans: Admission chest CT demonstrated diffuse bilateral ground-glass opacities (GGO) with areas of consolidation; final chest CT showed extensive consolidation and GGO interspersed with normal lung parenchyma plus bilateral pleural effusions. Bronchoalveolar lavage (BAL) molecular analysis: Polymerase chain reaction (PCR) positive for Pneumocystis jirovecii."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Final diagnosis: Fatal Pneumocystis jirovecii pneumonia (PCP; confirmed by positive bronchoalveolar lavage PCR and diffuse GGO/consolidation on chest CT, initially mimicking rituximab-induced interstitial lung disease) following two cycles of R-CHOP immunochemotherapy for mantle-cell lymphoma. Plan and clinical course: Treated initially with high-flow oxygen, empiric broad-spectrum antibiotics, high-dose intravenous corticosteroids, and invasive mechanical ventilation in the ICU, then switched to targeted anti-Pneumocystis antibiotic therapy upon positive BAL PCR. Despite 2 weeks of intensive ICU therapy, the patient died of refractory respiratory failure."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC9132688_01",
+  "pair_id": "PMC9132688_01::Tuberculosis",
+  "target_disease": "Tuberculosis",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 100.0,
+  "raw_case_text": "The patient was a 67-year-old man who had been on HD for 39 years due to chronic renal failure. About 3 months earlier, he had noticed discomfort in the tongue and was referred by a dialysis doctor for examination. His medical history other than chronic renal failure (at 27 years old) included right nephrectomy for renal cell carcinoma (at 47 years old), left nephrectomy for renal cell carcinoma (at 50 years old), parathyroidectomy (at 51 years old), surgery for lumbar spinal stenosis (at 56 years old), surgery for destructive spondyloarthropathy (at 59 years old), right-side colon resection for ileus due to intestinal tuberculosis (at 63 years old), surgical decompression of carpal tunnel syndrome (at 66 years old), and ileal biopsy suggestive of amyloidosis (at 67 years old). Histopathological examination of the specimen from ileal biopsy showed amorphous eosinophilic deposits on the vessel wall (Figures 1(a) and 1(b)). Immumohistochemically, deposits were positive for beta2m (Figure 1(c)). Current medications included alfacalcidol, ursodeoxycholic acid, sevelamer hydrochloride, and lanthanum carbonate hydrate, and the serum beta2m level was 20.7 mg/L. In addition, the renal cell carcinomas and surgical decompression of carpal tunnel syndrome were not treated at the referring hospital and detailed data were not available. On oral examination, a collection of painless, relatively hard, rugged whitish-yellow papules was found on the ventral surface of the tongue tip (Figure 2). No movement disorder of the tongue was apparent. The patient showed no difficulty in eating or dysphagia. No abnormal findings were found in other sites of the oral cavity or regional lymph nodes. Biopsy was performed under local anesthesia. Histopathologically, the specimen showed amorphous eosinophilic extracellular deposits in the subepithelial region (Figure 3(a)). Extracellular deposits showed positive results from DFS staining, and also from potassium permanganate- (KMnO4-) DFS staining and beta2m staining (Figures 3(b)-3(d)). The pathological diagnosis was amyloidosis, strongly suggestive of DRA. At the 6-month follow-up, no significant change in systemic DRA was seen, including tongue symptoms.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 67-year-old man on maintenance hemodialysis for 39 years presented with a 3-month history of tongue tip discomfort and painless hard whitish-yellow sublingual papules.",
+      "history_of_present_illness": "Three months prior to dental/oral surgery referral by his dialysis physician, the patient noticed lingual discomfort and nodular papules on the ventral surface of his tongue tip without dysphagia or impaired tongue mobility.",
+      "past_medical_history": "End-stage renal failure on maintenance hemodialysis for 39 years (since age 27); bilateral nephrectomies for renal cell carcinoma (right at age 47, left at age 50); parathyroidectomy (age 51); lumbar spinal stenosis surgery (age 56); destructive spondyloarthropathy surgery (age 59); right hemicolectomy for ileus secondary to intestinal tuberculosis (age 63); carpal tunnel decompression (age 66); and ileal biopsy confirming beta2-microglobulin amyloidosis (age 67).",
+      "review_of_systems": "Positive for mild tongue discomfort; negative for dysphagia, mastication difficulty, or lingual dysmotility. Home medications: alfacalcidol, ursodeoxycholic acid, sevelamer hydrochloride, and lanthanum carbonate hydrate."
+    },
+    "objective": {
+      "physical_examination": "A cluster of painless, firm, rugged whitish-yellow papules on the ventral surface of the tongue tip with intact tongue motility and no regional cervical lymphadenopathy.",
+      "routine_investigations": "Elevated serum beta2-microglobulin (beta2m) level at 20.7 mg/L.",
+      "advanced_workup": "Prior ileal biopsy had shown vascular wall amorphous eosinophilic deposits positive for beta2-microglobulin. Excisional/incisional biopsy of the ventral tongue papules under local anesthesia demonstrated subepithelial extracellular amorphous eosinophilic deposits that stained positively with direct fast scarlet (DFS), potassium permanganate-pretreated DFS (KMnO4-DFS), and anti-beta2-microglobulin immunohistochemistry."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Lingual biopsy histopathology with DFS, KMnO4-DFS, and anti-beta2-microglobulin immunohistochemistry confirmed oral/lingual dialysis-related beta2-microglobulin amyloidosis (DRA) in a 39-year hemodialysis patient with prior resected intestinal tuberculosis. At 6-month follow-up, his lingual and systemic DRA remained clinically stable."
+    }
+  }
+}

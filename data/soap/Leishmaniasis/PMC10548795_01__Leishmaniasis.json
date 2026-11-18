@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC10548795_01",
+  "pair_id": "PMC10548795_01::Leishmaniasis",
+  "target_disease": "Leishmaniasis",
+  "clinical_label": "POSITIVE",
+  "quality_ranking_score": 80.0,
+  "raw_case_text": "On July 2019, a 29-year-old female with no history of immunodeficiency or underlying diseases presented to an ENT clinic in Mazandaran province, northern Iran. She had a 3-month history of an itching intranasal lesion on the right side of her nasal canal and recurrent nasal congestion each year. An ENT specialist diagnosed her with an intranasal polyp and recommended polypectomy and rhinoplasty. Three months after surgery, she returned to the specialist with swelling and inflammation in the nasal cavity, suggesting recurrence. To rule out bacterial infections as possible complications of polypectomy, the specialist performed a fine needle aspiration (FNA) from the intranasal lesion. The FNA fluid specimen was stored at ambient temperature for 3 hours before being delivered to the laboratory, where a direct smear was prepared, fixed, and stained using the Gram technique. Microscopic examination revealed spindle-shaped Leishmania promastigote-like structures without any amastigotes of the parasite (Figure 1).\nTo definitively confirm these identified promastigotes, an internal transcribed spacer1 (ITS1) -polymerase chain reaction (ITS1-PCR)-based assay was used.   To DNA extraction, the first step was to scrape the stained FNA smear using a sterile scalpel. The obtained scraping was then mixed with 100 muL of lysis buffer containing Tris-Hcl (50 mM pH7.6), EDTA (1 mm), Tween 20 (1%), and proteinase K solution (19 mg/mL) in the amount of 10 muL. Subsequently, the modified salting-out method was employed for DNA purification. Then, using ITS1-PCR, Leishmania major were identified.  \nIt makes clear that the delay in sample preparation and storage the FNA sample at room temperature (about 24 C-26 C) caused the amastigotes to transform into promastigotes, as seen in sandflies' midgut after feeding on blood. Also, in reviewing the history, the patient reported traveling to an endemic area of CL in Mashhad (eastern Iran) suburb area 3 months prior and noticing a bite in her nasal cavity. Finally, with this history and laboratory sample, intranasal ML was diagnosed, and the patient received glucantime treatment (20 mg/kg/day for 4 weeks). Six months later, there were no reported side effects, and the lesion improved. Written informed consent for publication of this case report was obtained from the patient. This study was conducted according to the Declaration of Helsinki Principles. Also, CARE guidelines and methodology were followed in this study.",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 29-year-old female presented in July 2019 with a 3-month history of a pruritic right intranasal lesion and recurrent nasal congestion, followed by postoperative nasal swelling and inflammation 3 months after nasal polypectomy.",
+      "history_of_present_illness": "The patient initially presented to an ENT clinic in Mazandaran province, northern Iran, with a 3-month history of an itchy right intranasal lesion and annual nasal congestion. Diagnosed clinically with a nasal polyp, she underwent polypectomy and rhinoplasty, but returned 3 months postoperatively with recurrent intranasal swelling and inflammation.",
+      "past_medical_history": "No history of immunodeficiency or chronic comorbidities. Traveled 3 months prior to illness onset to a cutaneous leishmaniasis-endemic suburb of Mashhad (eastern Iran), where she recalled an insect bite inside her nasal cavity.",
+      "review_of_systems": "Positive for intranasal pruritus, swelling, and nasal congestion."
+    },
+    "objective": {
+      "physical_examination": "Swelling, inflammation, and an intranasal mucosal lesion on the right side of the nasal cavity.",
+      "routine_investigations": null,
+      "advanced_workup": "Fine-needle aspiration (FNA) of the intranasal lesion (stored at ambient temperature 24-26 C for 3 hours prior to Gram staining) revealed spindle-shaped Leishmania promastigote-like structures without amastigotes."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Postoperative bacterial infection and simple nasal polyp recurrence were excluded; microscopic detection of promastigotes (resulting from ex vivo transformation of amastigotes during 3-hour room-temperature storage of the FNA specimen) and ITS1-PCR on DNA scraped from the stained FNA smear confirmed intranasal mucosal leishmaniasis caused by Leishmania major. Treatment with systemic meglumine antimoniate (Glucantime 20 mg/kg/day for 4 weeks) resulted in lesion improvement without side effects at 6-month follow-up."
+    }
+  }
+}

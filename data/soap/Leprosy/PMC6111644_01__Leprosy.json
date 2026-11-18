@@ -1,0 +1,24 @@
+{
+  "case_id": "PMC6111644_01",
+  "pair_id": "PMC6111644_01::Leprosy",
+  "target_disease": "Leprosy",
+  "clinical_label": "NEGATIVE",
+  "quality_ranking_score": 25.0,
+  "raw_case_text": "A 46-year-old male patient presented to the dermatology outpatient department with 1-year history of sensory loss and paresthesia over bilateral lower legs. He was admitted and evaluated for Hansen's disease. On examination, there was no cutaneous lesion suggestive of leprosy. Peripheral nerve trunks were not thickened. Sensory loss to touch, pain, and temperature was present over the distal part of legs and feet bilaterally. Ankle jerk was diminished bilaterally. No trophic ulcer was present. Higher mental function and cranial nerve examination were within normal limits. There was no sign of meningeal irritation. Motor examination did not reveal weakness in any major muscle groups. Slit skin smear taken from earlobes did not demonstrate any acid-fast bacilli. A skin biopsy was taken from hypoesthetic skin of the right leg and sent for histopathology. Initial investigations including complete blood count, liver and renal function tests, fasting plasma glucose, and urine examination did not reveal any abnormality. In such a clinical scenario, the possibility of Hansen's disease was remote, and therefore, a neurologist's opinion was sought. The patient was then advised to go for HIV serology and to our surprise found to be reactive for HIV-1 with CD4 count of 160 cells/mm3. On retrospective questioning, the patient gave a history of on-and-off fever, fatigue, weight loss, and recurrent pyodermas. He also had multiple high-risk sexual exposures several years back. He was diagnosed as a case of HIV neuropathy-distal symmetric polyneuropathy (DSP) type and started on antiretroviral therapy (ART).",
+  "soap_note": {
+    "subjective": {
+      "chief_complaint": "A 46-year-old male presented with a 1-year history of progressive sensory loss and paresthesias over both lower legs.",
+      "history_of_present_illness": "The patient presented to the dermatology outpatient clinic with a 1-year history of bilateral lower leg numbness and paresthesia and was admitted for evaluation of suspected pure neural Hansen's disease. Upon retrospective questioning following serological workup, he disclosed a history of intermittent fevers, fatigue, weight loss, and recurrent pyodermas.",
+      "past_medical_history": "History of multiple high-risk sexual exposures several years prior and recurrent pyodermas.",
+      "review_of_systems": "Positive for bilateral lower leg numbness and paresthesia, intermittent fever, fatigue, and weight loss."
+    },
+    "objective": {
+      "physical_examination": "Cutaneous examination showed no leprosy-related skin lesions or trophic ulcers, and peripheral nerve trunks were not thickened. Neurological examination demonstrated distal symmetric loss of touch, pain, and temperature sensation over both lower legs and feet and diminished bilateral ankle reflexes, with normal higher mental function, intact cranial nerves, no meningeal signs, and 5/5 motor strength throughout.",
+      "routine_investigations": "Complete blood count, liver and renal function tests, fasting plasma glucose, and routine urinalysis were normal. Subsequent HIV serology was reactive for HIV-1 with an absolute CD4 count of 160 cells/mm3.",
+      "advanced_workup": "Earlobe slit-skin smears were negative for acid-fast bacilli, and a skin biopsy from hypoesthetic skin of the right leg was performed."
+    },
+    "assessment_and_plan": {
+      "assessment_and_confirmation": "Based on the absence of cutaneous lesions, normal peripheral nerve trunk caliber, negative slit-skin smears (excluding Hansen's disease), and newly confirmed HIV-1 infection with advanced immunodeficiency (CD4 160 cells/mm3), a final diagnosis of HIV-associated distal symmetric polyneuropathy (DSP) was established and the patient was initiated on antiretroviral therapy (ART)."
+    }
+  }
+}
