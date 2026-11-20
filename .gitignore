@@ -69,3 +69,7 @@ ehthumbs.db
 *.swp
 *.swo
 *~
+
+# Documentation & Technical Report
+document/
+
