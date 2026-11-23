@@ -3,51 +3,65 @@
 > **Authoritative Technical & Epistemic Reference Manual**  
 > **Target Artifact:** [`codebases/data_processing/data/mismacht-gpt-oss/README.md`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/README.md)  
 > **Associated Notebook:** [`codebases/data_processing/scripts/mismatch_cross_validation_and_prompts.ipynb`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/scripts/mismatch_cross_validation_and_prompts.ipynb)  
-> **Interactive Architecture Schematic:** [`codebases/data_processing/data/mismacht-gpt-oss/assets/adjudication_pipeline.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/adjudication_pipeline.html)  
+> **Interactive Cohort Routing Blueprint:** [`assets/tripartite_cohort_routing.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/tripartite_cohort_routing.html)  
+> **Interactive Normative Framework Blueprint:** [`assets/normative_prompting_framework.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/normative_prompting_framework.html)  
+> **Interactive End-to-End Pipeline Schematic:** [`assets/adjudication_pipeline.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/adjudication_pipeline.html)  
 > **Master Consolidated Summary:** [`codebases/data_processing/data/mismacht-gpt-oss/outputs/consolidated_tripartite_summary.json`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/consolidated_tripartite_summary.json)  
 > **Literature Repository:** [`literature/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/literature/)
 
 ---
 
-## 1. Executive Summary & Consolidated Cohort Statistics
+## 1. System & Pipeline Architecture
 
-This repository document formalizes the complete theoretical grounding, methodological ontology, prompt engineering foundations, and headless batch execution architecture for cross-validating the **Stanford MedCaseReasoning (GPT-OSS 120B)** clinical diagnostic pipeline against the **MultiCaRe 12-Step Gold-Standard Forensic Pipeline**.
+This framework establishes the formal system architecture and cross-validation methodology between the **Stanford MedCaseReasoning (GPT-OSS 120B)** clinical diagnostic pipeline and the **MultiCaRe 12-Step Gold-Standard Forensic Pipeline**. 
 
-Across a cohort of **591 candidate discrepancy cases** distributed across 5 independent candidate split partitions (`unmatched_part_1_Khai.jsonl` through `unmatched_part_5_Quan.jsonl`), our clinical cross-validation reveals that raw surface-level diagnostic "mismatches" do not reflect uniform model failure. Rather, they decompose systematically into three distinct, mutually exclusive epistemic categories governed by an overarching **Tripartite Architecture**:
+Across a candidate cohort of **591 discrepancy records** distributed across 5 independent candidate split partitions (`unmatched_part_1_Khai.jsonl` through `unmatched_part_5_Quan.jsonl`), automated string matching is fundamentally insufficient. The architecture decouples ingestion, indexing, cohort partitioning, and dual-LLM arbitration into four distinct, mathematically bounded computational zones.
 
-1. **Group 1: Multi-Pathogen Agreement (293 cases, 49.58%)**  
-   *Clinical Reality:* Both diagnostic systems agree on the confirmed underlying positive condition. Discrepancy was an artifact of multiclass single-selection constraints versus multi-disease hypothesis testing (e.g., patient presented with multimorbid *Pneumocystis jirovecii* pneumonia and disseminated *Cytomegalovirus*; MedCase selected one pathogen while MultiCaRe evaluated the other). Both models are factually concordant with gold-standard microbiology.
-2. **Group 2: Out of Scope Integrity (248 cases, 41.96%)**  
-   *Clinical Reality:* MedCase correctly recognized that the primary presenting condition was outside the closed 21/29 target disease taxonomy (e.g., diagnosing *Mycobacterium avium-intracellulare*, *Histoplasmosis*, *Sarcoidosis*, or rare neoplasms as `OUT_OF_SCOPE`). This demonstrates high closed-world taxonomy integrity and guards against forced false-positive hallucination.
-3. **Group 3: Genuine Diagnostic Divergence (50 cases, 8.46%)**  
-   *Clinical Reality:* True high-stakes diagnostic conflicts, rule-in versus rule-out tensions, assertion/temporality confusions, or complex syndromic look-alikes. These 50 critical cases cannot be adjudicated by automated string equality and are routed directly to elite **LLM-as-a-Judge Forensic Arbiters** (Anthropic Claude 3.5 Sonnet and DeepSeek-R1 DeepThink) under a strict 5-dimensional evidence-based evaluation rubric ($D_1 \to D_5$).
+### 1.1 MultiCaRe Clinical Adjudication Architecture
 
-### 1.1 Consolidated Tripartite Distribution Scorecard (591 Cases)
+Within [`codebases/data_processing/scripts/mismatch_cross_validation_and_prompts.ipynb`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/scripts/mismatch_cross_validation_and_prompts.ipynb), all execution principles are orchestrated across four modular processing stages:
 
-| Split Partition Identifier | Total Cases | Group 1: Multi-Pathogen Agreement | Group 2: Out-of-Scope Integrity | Group 3: Genuine Divergence | Split Output Directory |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **`unmatched_part_1_Khai`** | 119 | 47 (39.5%) | 54 (45.4%) | 18 (15.1%) | [`outputs/unmatched_part_1_Khai/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_1_Khai/) |
-| **`unmatched_part_2_Khoi`** | 118 | 49 (41.5%) | 58 (49.2%) | 11 (9.3%) | [`outputs/unmatched_part_2_Khoi/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_2_Khoi/) |
-| **`unmatched_part_3_AMinh`** | 118 | 47 (39.8%) | 67 (56.8%) | 4 (3.4%) | [`outputs/unmatched_part_3_AMinh/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_3_AMinh/) |
-| **`unmatched_part_4_Khoa`** | 118 | 74 (62.7%) | 37 (31.4%) | 7 (5.9%) | [`outputs/unmatched_part_4_Khoa/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_4_Khoa/) |
-| **`unmatched_part_5_Quan`** | 118 | 76 (64.4%) | 32 (27.1%) | 10 (8.5%) | [`outputs/unmatched_part_5_Quan/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_5_Quan/) |
-| **TOTAL CONSOLIDATED COHORT** | **591** | **293 (49.58%)** | **248 (41.96%)** | **50 (8.46%)** | [`outputs/consolidated_tripartite_summary.json`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/consolidated_tripartite_summary.json) |
+![MultiCaRe Clinical Adjudication Architecture](assets/adjudication.png)
 
-```
-                                 591 Mismatch Cases
-                                         │
-        ┌────────────────────────────────┼────────────────────────────────┐
-        ▼                                ▼                                ▼
-   [ Group 1 ]                      [ Group 2 ]                      [ Group 3 ]
- Multi-Pathogen Agreement         Out-of-Scope Integrity          Genuine Diagnostic Divergence
-   293 Cases (49.6%)                248 Cases (42.0%)                50 Cases (8.5%)
-        │                                │                                │
- ┌──────┴──────┐                  ┌──────┴──────┐                  ┌──────┴──────┐
- ▼             ▼                  ▼             ▼                  ▼             ▼
-Concordant    Reconciled         Closed-World  Hallucination       Claude        DeepSeek-R1
-Evidence      Taxonomy           Taxonomy      Prevention          Sonnet        DeepThink
-Reports       Artifacts          Reports       Safeguards          Arbiters      Arbiters
-```
+> **MultiCaRe Clinical Adjudication Architecture**  
+> End-to-end pipeline formalizing clinical cross-validation between Stanford MedCaseReasoning (GPT-OSS 120B) and MultiCaRe gold standards across 591 discrepancy cases.  
+> *Interactive standalone visual:* [`assets/adjudication_pipeline.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/adjudication_pipeline.html)
+
+1. **Data Ingestion & Dual Indexing (Cells 0–3):** Ingests 591 candidate split records alongside 24,750 verified MultiCaRe gold-standard annotation pairs, compiling two hash indexes (`annotated_map` and `annotated_by_case`) for $O(1)$ set lookups (~84.4 ns).
+2. **Tripartite Partitioning Engine (Cells 4–7):** Executes tokenized clinical entity set matching (`partition_records`), decomposing surface mismatches into three canonical cohorts.
+3. **Dual LLM Judicial Arbitration (Cells 8–13):** Serializes high-stakes conflict cases (Group 3) into normative adjudication packages tailored for Anthropic Claude Sonnet 5.5 and DeepSeek-R1 DeepThink arbiters.
+4. **Batch Pipeline Orchestration (Cells 14–17):** Headlessly executes the pipeline across all 5 candidate splits via `run_batch_pipeline()`, deterministically generating 31 split dossiers, individual audit reports, and consolidated JSON metrics.
+
+---
+
+### 1.2 Tripartite Cohort Decomposition Architecture
+
+Clinical cross-validation demonstrates that raw diagnostic discrepancies between MedCase and MultiCaRe do not represent uniform algorithmic errors. Instead, they decompose systematically into three mutually exclusive epistemic categories:
+
+![Tripartite Cohort Decomposition & Downstream Routing](assets/tripartite.png)
+
+> **Tripartite Cohort Decomposition & Downstream Routing**  
+> Systematic forensic breakdown of 591 mismatch cases into multi-pathogen agreement, closed-world out-of-scope integrity, and 50 high-stakes diagnostic divergences routed directly to elite LLM-as-a-Judge arbiters.  
+> *Interactive standalone visual:* [`assets/tripartite_cohort_routing.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/tripartite_cohort_routing.html)
+
+* **Group 1: Multi-Pathogen Agreement (Comorbid Consensus):**  
+  Both systems agree on verified positive conditions in multimorbid presentations. The discrepancy arises from single-selection label constraints versus multi-disease hypothesis testing (e.g., patient presented with concurrent *Pneumocystis jirovecii* pneumonia and disseminated *Cytomegalovirus*; MedCase predicted one while MultiCaRe evaluated the other). Both models are factually concordant with gold-standard microbiology.
+* **Group 2: Out of Scope Integrity (Closed-World Scope Preservation):**  
+  MedCase correctly recognized that the primary presenting condition was outside the closed 21/29 target disease taxonomy (e.g., diagnosing *Mycobacterium avium-intracellulare*, *Histoplasmosis*, *Sarcoidosis*, or rare neoplasms as `OUT_OF_SCOPE`). This demonstrates high closed-world taxonomy integrity and guards against forced false-positive hallucination.
+* **Group 3: Genuine Diagnostic Divergence (High-Stakes Conflict):**  
+  True high-stakes diagnostic conflicts, rule-in versus rule-out tensions, assertion/temporality confusions, or complex syndromic look-alikes. These cases cannot be adjudicated by automated string equality and are routed directly to elite **LLM-as-a-Judge Forensic Arbiters** under a strict 5-dimensional evidence-based evaluation rubric ($D_1 \to D_5$).
+
+---
+
+### 1.3 Dual-Arbiter Judicial & Prompting Architecture
+
+To resolve Group 3 diagnostic conflicts with absolute medical-legal defensibility, the framework synthesizes official prompt engineering foundations from Anthropic and DeepSeek with premier clinical LLM-as-a-judge evaluation literature:
+
+![Normative Scientific Reference Framework for Clinical Adjudication Prompts](assets/normative.png)
+
+> **Normative Scientific Reference Framework for Clinical Adjudication Prompts**  
+> Tripartite grounding architecture coupling official Anthropic technical engineering, DeepSeek-R1 pure reinforcement learning foundations, and premier peer-reviewed Clinical LLM-as-a-Judge literature for defensible forensic adjudication.  
+> *Interactive standalone visual:* [`assets/normative_prompting_framework.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/normative_prompting_framework.html)
 
 ---
 
@@ -185,31 +199,9 @@ Rooted in the Diagnostic Error Evaluation and Research (DEER) taxonomy, discrepa
 
 ## 5. Official Prompting Technical Foundations & Clinical Judge Literature
 
-The prompt engineering principles for **Anthropic Claude (Claude 3.5 Sonnet / Claude 3 Opus / Claude 3.7)** and **DeepSeek-R1 (DeepThink)** within the MultiCaRe Clinical Adjudication framework are not ad-hoc heuristics or empirical trial-and-error artifacts. Rather, they are formally derived from **Anthropic's official technical documentation**, **DeepSeek-AI's foundational scientific research**, and **premier peer-reviewed clinical artificial intelligence venues (Nature Medicine, npj Digital Medicine, ACL, NeurIPS)**:
+The prompt engineering principles for **Anthropic Claude (Claude Sonnet 5.5)** and **DeepSeek-R1 (DeepThink)** within the MultiCaRe Clinical Adjudication framework are formally derived from official architectural documentation and premier peer-reviewed AI venues:
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│             NORMATIVE SCIENTIFIC REFERENCE FRAMEWORK FOR CLINICAL ADJUDICATION PROMPTS │
-├───────────────────────────────────────────┬────────────────────────────────────────────┤
-│       1. ANTHROPIC CLAUDE FOUNDATIONS     │        2. DEEPSEEK-R1 RL FOUNDATIONS       │
-│  - XML Semantic Demarcation               │  - Pure Reinforcement Learning (GRPO)      │
-│  - Cognitive Scratchpad (Thinking Time)   │  - Strict Zero-Shot Policy (No Few-Shot)   │
-│  - Anti-Sycophancy Hard Prohibitions      │  - Unconstrained Internal <think> Trace    │
-│  - Senior Forensic Arbiter Persona        │  - Unified Single-Turn Context             │
-│  - Late-Binding JSON Schema               │  - Comparative Scorecard Matrix            │
-├───────────────────────────────────────────┴────────────────────────────────────────────┤
-│                 3. CLINICAL LLM-AS-A-JUDGE EVALUATION LITERATURE                       │
-│  - PDSQI-9: Physician Decision Support Quality Index (Nature npj Digital Medicine 2025)│
-│  - DiagnosisArena: Multi-Model Diagnostic Competition Benchmark (ACL 2026)             │
-│  - MedVAL: Clinical Evidence Extraction & Hallucination Auditing (Stanford 2026)        │
-│  - MT-Bench / Chatbot Arena: Pairwise Adjudication & Order-Bias Mitigation (NeurIPS 2023)│
-│  - MedCaseReasoning: Clinical Breakpoint & Trajectory Analysis (Stanford 2025)         │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-### 5.1 Technical Foundations & Design Principles for Anthropic Claude (Claude Sonnet 5.5 / 3.7 / 3.5)
+### 5.1 Technical Foundations & Design Principles for Anthropic Claude (Claude Sonnet 5.5)
 
 * **Official Anthropic Technical Documentation:**
   * Model Overview & Architecture: [Claude Sonnet 5.5 Overview](https://platform.claude.com/docs/en/models/sonnet-5-5/overview)
@@ -340,431 +332,30 @@ All aforementioned scientific principles are mechanically implemented with zero 
 
 ---
 
-## 6. Notebook Architecture & Implementation in `mismatch_cross_validation_and_prompts.ipynb`
+## 6. Consolidated Empirical Results & Cohort Distribution Scorecard
 
-Within the notebook [`codebases/data_processing/scripts/mismatch_cross_validation_and_prompts.ipynb`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/scripts/mismatch_cross_validation_and_prompts.ipynb), all aforementioned principles are automated via two specialized generators in Cells 10–13 coupled with the Batch Pipeline Orchestrator in Cells 14–17.
+Executing the complete batch pipeline across all 5 candidate split partitions generates the empirical cross-validation results summarized below.
 
-> 🏛️ **Interactive Architecture Schematic:**  
-> A standalone, publication-grade interactive SVG diagram adhering to the §9 Taste Gate is available at [`codebases/data_processing/data/mismacht-gpt-oss/assets/adjudication_pipeline.html`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/assets/adjudication_pipeline.html).
+### 6.1 Consolidated Tripartite Distribution Scorecard (591 Cases)
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#4f5d75,stroke-width:1px,color:#2d3142;
-    classDef focal fill:#fdf3f0,stroke:#bf4520,stroke-width:2px,color:#bf4520;
-    classDef output fill:#f0f4fa,stroke:#2e5aa8,stroke-width:1.5px,color:#2e5aa8;
+| Split Partition Identifier | Total Cases | Group 1: Multi-Pathogen Agreement | Group 2: Out-of-Scope Integrity | Group 3: Genuine Divergence | Split Output Directory |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **`unmatched_part_1_Khai`** | 119 | 47 (39.5%) | 54 (45.4%) | 18 (15.1%) | [`outputs/unmatched_part_1_Khai/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_1_Khai/) |
+| **`unmatched_part_2_Khoi`** | 118 | 49 (41.5%) | 58 (49.2%) | 11 (9.3%) | [`outputs/unmatched_part_2_Khoi/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_2_Khoi/) |
+| **`unmatched_part_3_AMinh`** | 118 | 47 (39.8%) | 67 (56.8%) | 4 (3.4%) | [`outputs/unmatched_part_3_AMinh/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_3_AMinh/) |
+| **`unmatched_part_4_Khoa`** | 118 | 74 (62.7%) | 37 (31.4%) | 7 (5.9%) | [`outputs/unmatched_part_4_Khoa/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_4_Khoa/) |
+| **`unmatched_part_5_Quan`** | 118 | 76 (64.4%) | 32 (27.1%) | 10 (8.5%) | [`outputs/unmatched_part_5_Quan/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/unmatched_part_5_Quan/) |
+| **TOTAL CONSOLIDATED COHORT** | **591** | **293 (49.58%)** | **248 (41.96%)** | **50 (8.46%)** | [`outputs/consolidated_tripartite_summary.json`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/outputs/consolidated_tripartite_summary.json) |
 
-    subgraph Ingestion ["1. Data Ingestion & Dual Indexing (Cells 0-3)"]
-        RawCand["Candidate Splits (591 Cases)<br/><code>unmatched_part_1..5.jsonl</code>"]
-        DB["Ground Truth DB (24,750 Pairs)<br/><code>data/annotated/**/*.jsonl</code>"]
-        Index1[("annotated_map<br/>Key: (case_id, disease)<br/>O(1) · 84.4 ns")]
-        Index2[("annotated_by_case<br/>Key: case_id<br/>O(1) · 105.9 ns")]
-        RawCand --> Index1
-        DB --> Index1
-        DB --> Index2
-    end
+### 6.2 Key Empirical Cross-Validation Findings
 
-    subgraph Partitioning ["2. Tripartite Partitioning Engine (Cells 4-7)"]
-        PartEngine{"partition_records()<br/>Tokenized Set Match"}
-        Index1 --> PartEngine
-        Index2 --> PartEngine
-        G1["Group 1: Multi-Pathogen Agreement<br/>293 Cases (49.58%)<br/><i>Comorbid Consensus</i>"]
-        G2["Group 2: Out of Scope Integrity<br/>248 Cases (41.96%)<br/><i>Closed-World Rejection</i>"]
-        G3["Group 3: Genuine Divergence<br/>50 Cases (8.46%)<br/><i>High-Stakes Conflict</i>"]:::focal
-        PartEngine --> G1
-        PartEngine --> G2
-        PartEngine --> G3
-    end
-
-    subgraph Arbitration ["3. Dual LLM Judicial Arbitration (Cells 8-13)"]
-        G3 --> ClaudeGen["Claude 3.5 Sonnet Judge<br/>• 5-Step XML Scratchpad<br/>• 4 Hard Prohibitions<br/>• Calibrated T=0.3–0.4"]:::focal
-        G3 --> DeepSeekGen["DeepSeek-R1 DeepThink Arbiter<br/>• Zero-Shot Single Prompt<br/>• Unconstrained CoT Reasoning<br/>• 5D Comparative Scorecard"]
-        G1 --> Rep1["build_report_group1()<br/>Markdown Report + Summary"]
-        G2 --> Rep2["build_report_group2()<br/>Markdown Report + Summary"]
-    end
-
-    subgraph Orchestration ["4. Batch Pipeline Orchestration (Cells 14-17)"]
-        ClaudeGen --> Batch["run_batch_pipeline()<br/>Headless 5-Split Batch Runner"]
-        DeepSeekGen --> Batch
-        Rep1 --> Batch
-        Rep2 --> Batch
-        Batch --> SplitDirs["31 Split Dossiers in outputs/<br/>• tripartite_summary.json<br/>• group1_agreement.md<br/>• group2_out_of_scope.md<br/>• group3_divergence.md<br/>• claude_prompt.md<br/>• deepseek_prompt.md"]:::output
-        Batch --> MasterJSON["Master Consolidated Summary<br/><code>consolidated_tripartite_summary.json</code><br/>591 Cases Verified"]:::output
-        Batch --> RichScorecard["Rich Terminal Scorecard<br/>Interactive Console Table"]:::output
-    end
-```
-
-### 6.1 Notebook Cell-by-Cell Structural Mapping (Cells 0 to 17)
-
-| Cell Index | Cell Type | Cell Heading / Scope | Primary Operational Responsibilities & Technical Invariants |
-| :---: | :---: | :--- | :--- |
-| **Cell 0** | Markdown | `# MultiCaRe Tripartite Cross-Validation & Clinical LLM Judicial Benchmarking` | Executive title, tripartite architecture, and complete Epistemic Literature Grounding Schema ($D_1 \to D_5$, Archetypes A–C, Traps $F_1 \to F_6$, literature citations). |
-| **Cell 1** | Code | `Setup, Imports & Path Configurations` | Standard library first (`glob`, `json`, `os`, `re`, `pathlib`, `typing`) plus `rich` library (`Console`, `Table`, `box`) for terminal rendering. |
-| **Cell 2** | Markdown | `## 1. Global Ground Truth Annotation Ingestion & Normalization` | Documentation on 24,750 candidate pairs, tokenized entity matching, and dual-indexing mechanics. |
-| **Cell 3** | Code | `normalize_disease_key()`, `parse_disease_entities()` & `load_annotated_database()` | Builds `annotated_map` and `annotated_by_case` across 87 annotation files with $O(1)$ set matching. |
-| **Cell 4** | Markdown | `## 2. Tripartite Partitioning Engine (`partition_records`)` | Theoretical criteria separating Group 1, Group 2, and Group 3. |
-| **Cell 5** | Code | `partition_records()` | Pure functional partitioning logic with tokenized entity set matching returning `(group1, group2, group3)`. |
-| **Cell 6** | Markdown | `## 3. Clinical Forensic Helpers & Cognitive Error Framework (DEER Taxonomy)` | Documentation on evidence extraction and DEER taxonomy (Class 3.2, 2.4, 4.1). |
-| **Cell 7** | Code | `format_evidence_block(r_12)` | Renders verified gold-standard microbiological and histological evidence blocks (`step9_key_evidence`). |
-| **Cell 8** | Markdown | `## 4. Clinical Cross-Validation Report Generators` | Specifications for clinical markdown reports and JSON summaries. |
-| **Cell 9** | Code | `build_report_group1(), group2(), group3(), build_tripartite_summary_json()` | Generates exhaustive clinical audit dossiers for each partition cohort. |
-| **Cell 10** | Markdown | `## 5. Anthropic Claude Forensic Adjudication Prompt Generator` | Anthropic prompt engineering guide, XML tags, scratchpad, 4 prohibitions, epistemic citations. |
-| **Cell 11** | Code | `build_claude_system_prompt()`, `build_claude_user_header()`, `format_claude_case_entry()`, `generate_claude_prompt()` | Compiles `<system_instructions>` and `<case>` entries with late-binding JSON. |
-| **Cell 12** | Markdown | `## 6. DeepSeek (R1 / DeepThink) Forensic Judicial Prompt Generator` | DeepSeek-R1 prompting principles, zero-shot single prompt, and scorecard format. |
-| **Cell 13** | Code | `build_deepseek_header()`, `format_deepseek_case_entry()`, `generate_deepseek_prompt()` | Compiles CMO header, unconstrained `<think>`, and head-to-head comparative scorecard table. |
-| **Cell 14** | Markdown | `## 7. Batch Pipeline Orchestrator Across All 5 GPT-OSS Splits` | Orchestration design pattern across all 5 candidate split files. |
-| **Cell 15** | Code | `process_single_split() & run_batch_pipeline()` | Iterates through splits, executes generators, and saves 31 artifacts to `outputs/`. |
-| **Cell 16** | Markdown | `## 8. Live Execution & Consolidated Scorecard Display` | Explanatory note on headless execution and summary reporting. |
-| **Cell 17** | Code | `Pipeline Execution & Rich Table Scorecard Display` | Headless execution invocation; renders consolidated scorecard across all 591 cases using `rich.table.Table` with ASCII fallback. |
+1. **High Comorbid Concordance (Group 1, 49.58%):** Nearly half of all discrepancy candidates are false mismatches arising from multimorbid co-infections where both models identified valid microbiological targets.
+2. **Robust Closed-World Taxonomy Safeguard (Group 2, 41.96%):** Stanford MedCase appropriately assigns `OUT_OF_SCOPE` labels when case pathologies fall outside the target taxonomy, resisting forced-choice hallucination.
+3. **Focal High-Stakes Diagnostic Conflicts (Group 3, 8.46%):** Exactly 50 cases represent authentic medical-legal diagnostic divergence. These 50 cases are successfully compiled into automated judicial arbitration dossiers for Claude Sonnet 5.5 and DeepSeek-R1.
 
 ---
 
-### 6.2 Core Code Implementations
-
-#### A. Canonical Disease Normalizer & Entity Parser (`parse_disease_entities`)
-
-*Why Stdlib `re` Beats RapidFuzz, C `regex`, and `ahocorasick`:*
-In forensic clinical entity evaluation, string distance metrics (Levenshtein, Token Set Ratio) fail because:
-1. `fuzz.ratio('tb', 'tuberculosis')` = **28.6%** (Fails to match semantic acronyms).
-2. `fuzz.partial_ratio('hiv', 'patient had shivers')` = **100.0%** (Catastrophic false positive).
-3. Naive substring `in` falsely matches `"tb"` in `"heartbeat"`, `"extubation"`, and `"total bilirubin"`.
-
-The optimal solution is **pure stdlib `re` tokenization + taxonomy-backed alias normalization + $O(1)$ set intersection**, executing at 267,000 queries/s with zero external dependencies:
-
-```python
-import re
-from typing import Set
-
-def normalize_disease_key(disease: str) -> str:
-    """Standardizes disease names for robust clinical cross-matching."""
-    if not disease:
-        return ""
-    # Strip common suffixes like '-> OUT_OF_SCOPE'
-    cleaned = re.sub(r"->.*$", "", disease, flags=re.IGNORECASE).strip()
-    return cleaned.lower().replace("-", " ").replace("_", " ").strip()
-
-
-def parse_disease_entities(text: str) -> Set[str]:
-    """Extracts and normalizes individual disease entity tokens from a prediction string.
-    Handles comma-separated, slashed, or compound disease mentions (e.g. 'COVID-19, Aspergillosis', 'HIV / Tuberculosis').
-    """
-    if not text:
-        return set()
-    cleaned = re.sub(r"->.*$", "", text, flags=re.IGNORECASE).strip()
-    # Split on commas, slashes, semicolons, plus signs, or conjunctions
-    parts = re.split(r"[,;/+]|\band\b|\bwith\b", cleaned, flags=re.IGNORECASE)
-    entities = set()
-    for part in parts:
-        norm = normalize_disease_key(part)
-        if norm and norm != "out of scope":
-            entities.add(norm)
-    return entities
-```
-
-#### B. Tripartite Partitioning Engine (`partition_records`)
-
-```python
-def partition_records(
-    records: List[Dict[str, Any]], 
-    annotated_map: Dict[Tuple[str, str], Dict[str, Any]], 
-    annotated_by_case: Optional[Dict[str, List[Dict[str, Any]]]] = None
-) -> Tuple[List[Any], List[Any], List[Any]]:
-    """Partitions mismatch candidate records into three mutually exclusive clinical cohorts:
-    - Group 1: Multi-Pathogen Agreement (MedCase final_diagnosis confirmed POSITIVE in 12-step)
-    - Group 2: Out of Scope Integrity (final_diagnosis contains OUT_OF_SCOPE)
-    - Group 3: Genuine Diagnostic Divergence (remaining clinical dilemma cases)
-    
-    Returns:
-        group1: List of tuples (record_medcase, record_positive_12step, all_case_annotations)
-        group2: List of tuples (record_medcase, all_case_annotations)
-        group3: List of tuples (record_medcase, all_case_annotations)
-    """
-    if annotated_by_case is None:
-        annotated_by_case = {}
-        for (cid, _), rec in annotated_map.items():
-            annotated_by_case.setdefault(cid, []).append(rec)
-            
-    group1: List[Tuple[Dict[str, Any], Dict[str, Any], List[Dict[str, Any]]]] = []
-    group2: List[Tuple[Dict[str, Any], List[Dict[str, Any]]]] = []
-    group3: List[Tuple[Dict[str, Any], List[Dict[str, Any]]]] = []
-    
-    for r in records:
-        cid_full = r.get("case_id", "").strip()
-        cid_base = cid_full.split("__")[0].strip()
-        fd = r.get("final_diagnosis", "").strip()
-        all_anns = annotated_by_case.get(cid_base, [])
-        
-        # Rule 2: Out of Scope Check
-        if "out_of_scope" in fd.lower():
-            group2.append((r, all_anns))
-            continue
-            
-        # Rule 1: Multi-Pathogen Agreement Check (Tokenized Entity Set Matching)
-        pred_entities = parse_disease_entities(fd) | {normalize_disease_key(fd)}
-        match_pos_rec: Optional[Dict[str, Any]] = None
-        
-        for ann in all_anns:
-            ann_d_norm = normalize_disease_key(ann.get("target_disease", ""))
-            if ann.get("step12_dataset_label") == "POSITIVE":
-                if any(ann_d_norm == pe or (len(pe) >= 4 and (ann_d_norm in pe or pe in ann_d_norm)) for pe in pred_entities if pe):
-                    match_pos_rec = ann
-                    break
-                
-        if match_pos_rec is not None:
-            group1.append((r, match_pos_rec, all_anns))
-        else:
-            group3.append((r, all_anns))
-            
-    return group1, group2, group3
-```
-
-#### C. Anthropic Claude Generator Implementation (Cells 10–11)
-
-````python
-def build_claude_system_prompt() -> str:
-    """Constructs Anthropic Claude System Prompt with clinical forensic persona and hard anti-sycophancy rules."""
-    return """<system_instructions>
-
-<persona>
-You are a Senior Clinical Forensic Arbiter — an elite physician-scientist with dual board certification in
-Infectious Disease and Clinical Pathology, and extensive expertise in Diagnostic Decision Systems and Evidence-Based Medicine.
-You chair hospital Diagnostic Quality Assurance Boards and specialize in resolving high-stakes clinical diagnostic conflicts
-between autonomous clinical reasoning algorithms. Your adjudications are rigorous, evidence-grounded, and defensible at grand rounds.
-</persona>
-
-<analytical_stance>
-You are strictly EVIDENCE-FIRST, not narrative-first. Diagnostic intuition, syndromic plausibility, and travel history are
-hypothesis generators, NEVER substitutes for objective microbiological verification.
-
-Under evidence-based diagnostic heuristics (Sackett et al., Evidence-Based Medicine 2000; Schiff et al., Arch Intern Med 2009):
-1. Definitive negative gold-standard laboratory testing (negative smears, negative cultures, non-reactive specific serology/PCR,
-   or contradicting biopsy findings) conclusively rules OUT the disease under SpPIn/SnNOut principles. Affirming an excluded diagnosis
-   constitutes an unacceptable breach of evidence-based clinical reasoning.
-2. Inactive past medical history cured years/decades prior (F4) MUST NOT be affirmed as the etiology of an acute current illness
-   (Uzuner et al., JAMIA 2011).
-3. Prophylactic interventions, vaccination scars (e.g. BCG scar), and negative screening history (F5) MUST NOT be confused
-   with active pathologic infection (Harkema et al., JBI 2009).
-4. Presumptive or empiric clinical therapy without laboratory confirmation (F6) must be annotated as UNRESOLVED / PRESUMPTIVE,
-   never as an established definitive gold-standard positive (CDC MMWR Case Definitions 1997).
-
-You aggressively detect and penalize:
-- FALSE POSITIVE RULE-IN errors (DEER Class 2.4/3.2): Affirming a diagnosis despite definitive negative lab testing.
-- TEMPORALITY CONFUSION (DEER Class 3.2 / F4): Confusing cured historical disease with current acute presentation.
-- DISCOURSE SCOPE DRIFT (DEER Class 2.4 / F5): Confusing vaccines/prophylaxis with active infection.
-- DIPLOMATIC HEDGING: Unwillingness to declare an objective winner when one system is scientifically superior.
-- VERBOSITY BIAS: Do not reward verbose reasoning traces that arrive at an ungrounded or contradicted conclusion.
-</analytical_stance>
-
-<epistemic_literature_grounding>
-Your judicial evaluation must strictly embody peer-reviewed diagnostic error and clinical AI consensus:
-- Dimension 1 (Diagnostic Accuracy, D1): Grounded in Singhal et al. (Med-PaLM, Nature 2023) and Tu et al. (AMIE, Nature 2025). Evaluates identification of true etiologic pathogen confirmed by CDC/WHO criteria [E1/E2].
-- Dimension 2 (Rule-Out Rigor, D2): Grounded in Sackett et al. (EBM 2000; SpPIn/SnNOut) and Schiff et al. (DEER Taxonomy, Arch Intern Med 2009). Disregarding definitive negative laboratory or biopsy testing constitutes a catastrophic diagnostic error (score <= 2).
-- Dimension 3 (Temporality & Context, D3): Grounded in Uzuner et al. (i2b2 Assertion, JAMIA 2011) and Harkema et al. (ConText, JBI 2009). Demands strict discrimination between acute pathology vs cured past history [F4] or prophylactic vaccination/screening [F5].
-- Dimension 4 (Evidence Grounding, D4): Grounded in Goyal et al. / CliniFact (JAMIA 2025). Demands strict factual alignment between generated clinical claims and source case text, heavily penalizing hallucinated labs or findings.
-- Dimension 5 (Patient Safety, D5): Grounded in Singh & Graber (Diagnosis 2014) and Med-PaLM Harm Stratification Matrix (Nature 2023). Penalizes preventable patient harm, toxic unneeded therapy cascades, and missed life-threatening infections.
-</epistemic_literature_grounding>
-
-<evidence_grading_framework>
-You apply the MultiCaRe Evidence Hierarchy grounded in CDC MMWR Case Definitions (1997) and WHO surveillance criteria in all assessments:
-- E1_CONFIRMATORY_LAB: Definitive gold-standard pathogen proof (culture, PCR, biopsy histopathology with organism, direct visualization).
-- E2_HIGHLY_SPECIFIC: Highly specific validated assays (specific antigen EIA, IgM seroconversion, IgG avidity).
-- E3_SUGGESTIVE_NON_SPECIFIC: Clinical syndrome, non-specific lab trends, imaging patterns — suggestive but INSUFFICIENT alone for definitive confirmation.
-- E0_CONTRADICTED: Objective testing performed and explicitly NEGATIVE — disease is RULED OUT unless proven false-negative.
-- E0_NO_EVIDENCE: Diagnostic testing absent or non-confirmatory — absence of evidence is not evidence of disease.
-- E4_CONTEXT: Mentions strictly relating to background, differential discussion, cured history, or vaccination (F4, F5).
-</evidence_grading_framework>
-
-<anti_sycophancy_directives>
-The following are HARD PROHIBITIONS — violating any of these constitutes an adjudication failure:
-- PROHIBITION 1: NEVER split the difference or declare a diplomatic tie when one method is objectively superior on evidence (Sackett et al. 2000).
-- PROHIBITION 2: NEVER accept narrative plausibility over negative laboratory results. If a test is explicitly negative, any method claiming that disease is POSITIVE has committed an egregious diagnostic failure (Schiff et al. 2009).
-- PROHIBITION 3: NEVER penalize Method Y for correctly annotating a disease as NEGATIVE simply because the patient presented with symptoms resembling that disease.
-- PROHIBITION 4: NEVER confuse historical conditions (e.g., childhood TB cured 20 years ago) with active presenting diagnoses (Uzuner et al. 2011; Harkema et al. 2009).
-</anti_sycophancy_directives>
-
-<scoring_rubric>
-Score each method independently on 5 dimensions (1 to 5 integer scale):
-
-D1: diagnostic_accuracy (1-5)
-  5: Accurately identifies true etiologic condition backed by definitive gold-standard evidence (E1/E2).
-  3: Plausible differential but misses primary etiologic pathogen or over-specifies without proof.
-  1: Entirely incorrect, hallucinated diagnosis, or contradicts confirmed laboratory reality.
-
-D2: rule_out_rigor (1-5)
-  5: Flawlessly respects negative laboratory/biopsy findings; correctly excludes non-viable candidates.
-  3: Incomplete exclusion; leaves ruled-out conditions ambiguous.
-  1: Catastrophic false-positive rule-in; affirms disease directly contradicted by negative lab/pathology.
-
-D3: temporality_context (1-5)
-  5: Perfectly differentiates active acute illness from remote history (F4) and prophylactic exposure (F5).
-  3: Minor ambiguity in temporal anchoring but reaches acceptable conclusion.
-  1: Gross conflation of remote past history or vaccination with acute active pathology.
-
-D4: evidence_grounding (1-5)
-  5: Every assertion is directly anchored in documented case facts; zero hallucination.
-  3: Mostly grounded but includes unverified clinical extrapolations.
-  1: Severe hallucination of clinical facts, tests, or results not in the source text.
-
-D5: patient_safety (1-5)
-  5: Adjudication leads to correct, targeted management; minimizes unnecessary toxicity.
-  3: Suboptimal management path with moderate risk of delayed treatment or overtreatment.
-  1: Dangerous failure; triggers toxic unneeded therapies (e.g. toxic leprosy MDT) or misses lethal disease.
-</scoring_rubric>
-
-<mandatory_workflow>
-For each case, you MUST execute your analysis sequentially inside `<clinical_scratchpad>` before producing the final JSON verdict:
-Step 1: Clinical Fact Extraction — Extract all objective laboratory tests, imaging, and biopsy findings with exact results.
-Step 2: Method X (MedCase) Audit — Evaluate whether Method X's diagnosis is confirmed, contradicted, or unproven. Check for F1-F6 errors.
-Step 3: Method Y (12-Step) Audit — Evaluate whether Method Y's labels are supported by the MultiCaRe evidence hierarchy. Check for F1-F6 errors.
-Step 4: Tension Archetype Classification — Determine whether this case exemplifies Archetype A (Rule-in vs Rule-out/Temporality), Archetype B (Context/Prophylaxis/Presumptive), or Archetype C (Syndromic mimic/Bystander).
-Step 5: Forensic Synthesis — Determine the definitively superior method with zero diplomatic hedging.
-</mandatory_workflow>
-
-<output_format>
-Your final output for each case MUST be valid JSON enclosed in `<forensic_adjudication>` tags matching this schema:
-```json
-{
-  "case_id": "string",
-  "dilemma_archetype": "ARCHETYPE_A | ARCHETYPE_B | ARCHETYPE_C",
-  "method_x_audit": {
-    "predicted_diagnosis": "string",
-    "clinical_status": "CONFIRMED_CORRECT | FALSE_POSITIVE_RULE_IN | HISTORICAL_CONFLATION | PROPHYLAXIS_CONFUSION | PLAUSIBLE_BUT_UNPROVEN | INCORRECT",
-    "failure_modes": ["F1_LEXICAL_HOMONYM | F2_DOCUMENT_SCOPE | F3_PATIENT_ANCHORING | F4_TEMPORALITY_BIAS | F5_DISCOURSE_CONTEXT | F6_SPECIFICITY_GAP"],
-    "scores": {"D1": int, "D2": int, "D3": int, "D4": int, "D5": int, "total": int}
-  },
-  "method_y_audit": {
-    "evaluated_hypotheses": [{"disease": "string", "label": "POSITIVE | NEGATIVE", "verdict_soundness": "CORRECT | ERRONEOUS"}],
-    "failure_modes": [],
-    "scores": {"D1": int, "D2": int, "D3": int, "D4": int, "D5": int, "total": int}
-  },
-  "judicial_verdict": {
-    "winner": "METHOD_X | METHOD_Y | BOTH_PARTIALLY_CORRECT | NEITHER_CORRECT",
-    "definitive_explanation": "string (evidence-based justification citing specific lab findings)",
-    "prevented_clinical_harm": "string (what clinical harm was avoided by the winning method)"
-  }
-}
-```
-</output_format>
-
-Think the problem through before you answer.
-</system_instructions>"""
-````
-
-#### D. DeepSeek-R1 Generator Implementation (Cells 12–13)
-
-````python
-def build_deepseek_header(n_cases: int, split_name: str) -> str:
-    """Constructs DeepSeek judicial header with CMO persona and evaluation rubric."""
-    return f"""# DeepSeek Clinical Adjudication Benchmark: {n_cases} Genuine Diagnostic Divergence Cases ({split_name})
-
-> **INSTRUCTION FOR DEEPSEEK (DEEPTHINK / R1):**
-> You are an expert Chief Medical Officer, Infectious Disease Specialist, and Master Forensic Arbiter.
-> Below are **{n_cases} REAL CLINICAL CASES** representing genuine diagnostic divergence between:
-> - **Method X:** Stanford MedCaseReasoning (GPT-OSS 120B) — Multiclass diagnostic generation model.
-> - **Method Y:** MultiCaRe 12-Step Clinical Annotation — Rigorous targeted evidentiary verification engine.
->
-> In all cases, the two systems reached opposing conclusions regarding disease presence, rule-out status, or diagnostic attribution.
-> Conduct an impartial, rigorous, clinical and microbiological forensic trial to determine which system is medically correct.
-
----
-
-## Forensic Evaluation Rubric (Rate 1 to 5 for each method)
-
-1. **Diagnostic Accuracy & Consensus Alignment ($D_1$, 1–5):** (Singhal et al., Nature 2023; Tu et al., Nature 2025) Does the method identify the true etiologic pathogen supported by CDC/WHO confirmatory laboratory standards (E1/E2)?
-2. **Rule-Out Integrity vs False-Positive Rule-In ($D_2$, 1–5):** (Sackett et al., 2000; Schiff et al., DEER Class 2.4, 2009) Does the method properly respect definitive negative laboratory tests (e.g. negative blood smears, negative biopsies), or does it commit confirmation bias?
-3. **Assertion State & Temporal Discrimination ($D_3$, 1–5):** (Uzuner et al., JAMIA 2011; Harkema et al., 2009; DEER Class 3.2) Does the method distinguish between active current illness vs resolved past medical history (F4) or prophylactic vaccination (F5)?
-4. **Evidentiary Grounding & Verbatim Fidelity ($D_4$, 1–5):** (Goyal et al. / CliniFact, JAMIA 2025) Are claims strictly anchored in objective clinical findings from the text without hallucinated clinical assumptions?
-5. **Patient Safety & Harm Stratification ($D_5$, 1–5):** (Singh & Graber, Diagnosis 2014) Would acting on this method's diagnosis protect the patient, or lead to toxic/unnecessary therapies (e.g. toxic anti-leprosy multidrug therapy, toxic anti-helminthics)?
-
----
-
-## Diagnostic Dilemma Archetypes & Pitfalls (DEER Cognitive Taxonomy)
-- **Archetype A (Rule-In vs Rule-Out / Temporality - DEER Class 3.2):** Inactive remote past history (F4) or affirmation despite negative confirmatory testing (F6).
-- **Archetype B (Context / Prophylaxis / Presumptive - DEER Class 2.4 & 3.2):** Prophylactic vaccination or screening mistaken for active disease (F5), or presumptive treatment without proof.
-- **Archetype C (Syndromic Mimic / Ambiguity - DEER Class 3.2 & 4.1):** True clinical mimicry, multi-condition overlap, or viral bystander reactivation.
-
----
-
-## Required Output Format for Each Case
-
-```markdown
-### Adjudication Case [Case #]: [Case ID]
-
-#### 1. Clinical Forensic Scratchpad
-- **True Underlying Pathology:** [Concise clinical diagnosis and pathophysiology]
-- **Archetype Classification:** [Archetype A | Archetype B | Archetype C]
-- **Diagnostic Traps Identified:** [Method X: None / F1-F6; Method Y: None / F1-F6]
-- **Laboratory & Microbiological Reality:** [What objective tests actually showed]
-
-#### 2. Comparative Scorecard
-| Evaluation Dimension | Method X (MedCase) | Method Y (12-Step) | Forensic Comment |
-|:---|:---:|:---:|:---|
-| 1. Diagnostic Accuracy & Consensus Alignment | [1-5] | [1-5] | [Brief critique] |
-| 2. Rule-Out Integrity vs False-Positive Rule-In | [1-5] | [1-5] | [Brief critique] |
-| 3. Assertion State & Temporal Discrimination | [1-5] | [1-5] | [Brief critique] |
-| 4. Evidentiary Grounding & Verbatim Fidelity | [1-5] | [1-5] | [Brief critique] |
-| 5. Patient Safety & Harm Stratification | [1-5] | [1-5] | [Brief critique] |
-| **OVERALL TOTAL** | **/25** | **/25** | |
-
-#### 3. Clinical Forensic Critique
-- **Method X Failure/Success Analysis:** [Detailed breakdown of MedCase's diagnostic trajectory]
-- **Method Y Failure/Success Analysis:** [Detailed breakdown of 12-Step's evidentiary grounding]
-
-#### 4. Final Judicial Verdict
-- **Adjudicated Winner:** **[METHOD_X | METHOD_Y | TIE_BOTH_VALID | NEITHER_VALID]**
-- **Definitive Medical Rationale:** [Clear, authoritative evidence-based justification]
-- **Prevented Clinical Harm:** [Explanation of what medical harm is prevented by following the winning method]
-```
-"""
-````
-
-#### E. Headless Pipeline Execution & Rich Scorecard (Cells 16–17)
-
-```python
-# Execute complete batch pipeline
-master_summary = run_batch_pipeline(MISMATCH_DIR, OUTPUT_BASE_DIR, annotated_map, annotated_by_case)
-
-# Display tabular executive summary
-agg = master_summary["aggregate_metrics"]
-total = master_summary["total_cohort_cases"]
-
-if RICH_AVAILABLE:
-    console = Console()
-    table = Table(
-        title="MultiCaRe Tripartite Cross-Validation Consolidated Scorecard (591 Cases)",
-        box=box.ROUNDED,
-        header_style="bold cyan",
-        title_style="bold magenta"
-    )
-    table.add_column("Cohort Split", style="bold white", width=26)
-    table.add_column("Total", justify="right", style="cyan")
-    table.add_column("Group 1 (Agreement)", justify="right", style="green")
-    table.add_column("Group 2 (Out-of-Scope)", justify="right", style="yellow")
-    table.add_column("Group 3 (Divergence)", justify="right", style="red")
-    
-    for sp in master_summary["per_split_breakdown"]:
-        table.add_row(
-            sp["split_name"],
-            str(sp["total_cases"]),
-            f"{sp['group1_multi_pathogen_agreement']['count']} ({sp['group1_multi_pathogen_agreement']['percentage']:.1f}%)",
-            f"{sp['group2_out_of_scope_integrity']['count']} ({sp['group2_out_of_scope_integrity']['percentage']:.1f}%)",
-            f"{sp['group3_genuine_diagnostic_divergence']['count']} ({sp['group3_genuine_diagnostic_divergence']['percentage']:.1f}%)"
-        )
-    
-    table.add_section()
-    table.add_row(
-        "TOTAL CONSOLIDATED",
-        str(total),
-        f"{agg['group1_multi_pathogen_agreement']['count']} ({agg['group1_multi_pathogen_agreement']['percentage']:.1f}%)",
-        f"{agg['group2_out_of_scope_integrity']['count']} ({agg['group2_out_of_scope_integrity']['percentage']:.1f}%)",
-        f"{agg['group3_genuine_diagnostic_divergence']['count']} ({agg['group3_genuine_diagnostic_divergence']['percentage']:.1f}%)",
-        style="bold magenta"
-    )
-    console.print(table)
-```
-
----
-
-## 7. Manifest & File Directory Structure
+## 7. Artifact Manifest & Directory Structure
 
 All artifacts generated by the batch pipeline orchestrator reside within [`codebases/data_processing/data/mismacht-gpt-oss/`](file:///mnt/DATA/VSCode/Clinicians_MultiModel/codebases/data_processing/data/mismacht-gpt-oss/). The file manifest and directory hierarchy are strictly organized as follows:
 
@@ -776,6 +367,13 @@ codebases/data_processing/data/mismacht-gpt-oss/
 ├── unmatched_part_3_AMinh.jsonl                 # Raw Candidate Split 3 (118 Discrepancy Records, 552 KB)
 ├── unmatched_part_4_Khoa.jsonl                  # Raw Candidate Split 4 (118 Discrepancy Records, 545 KB)
 ├── unmatched_part_5_Quan.jsonl                  # Raw Candidate Split 5 (118 Discrepancy Records, 572 KB)
+├── assets/
+│   ├── adjudication_pipeline.html               # Interactive SVG/HTML System Architecture Blueprint
+│   ├── adjudication.png                         # High-Resolution Architectural Schematic
+│   ├── normative_prompting_framework.html       # Interactive SVG/HTML Normative Prompting Blueprint
+│   ├── normative.png                            # High-Resolution Normative Prompting Framework
+│   ├── tripartite_cohort_routing.html           # Interactive SVG/HTML Tripartite Routing Blueprint
+│   └── tripartite.png                           # High-Resolution Tripartite Cohort Decomposition
 └── outputs/
     ├── consolidated_tripartite_summary.json     # Master Consolidated Cohort Metrics (28.6 KB)
     ├── unmatched_part_1_Khai/
