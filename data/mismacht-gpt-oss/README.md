@@ -201,96 +201,172 @@ Rooted in the Diagnostic Error Evaluation and Research (DEER) taxonomy, discrepa
 
 The prompt engineering principles for **Anthropic Claude (Claude Sonnet 5.5)** and **DeepSeek-R1 (DeepThink)** within the MultiCaRe Clinical Adjudication framework are formally derived from official architectural documentation and premier peer-reviewed AI venues:
 
-### 5.1 Technical Foundations & Design Principles for Anthropic Claude (Claude Sonnet 5.5)
+### 5.1 Technical Foundations & Schema Specification for Anthropic Claude (Claude Sonnet 5.5)
 
-* **Official Anthropic Technical Documentation:**
-  * Model Overview & Architecture: [Claude Sonnet 5.5 Overview](https://platform.claude.com/docs/en/models/sonnet-5-5/overview)
-  * Model-Specific Prompting Guide: [Prompting Claude Sonnet 5.5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5)
-  * Core Best Practices (XML Tags & Persona): [Claude Prompting Best Practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-  * Adaptive & Extended Thinking Guide: [Anthropic Adaptive Thinking Documentation](https://platform.claude.com/docs/en/build-with-claude/thinking)
+* **Official Technical References:** [Claude Sonnet 5.5 Overview](https://platform.claude.com/docs/en/models/sonnet-5-5/overview) · [Prompting Claude Sonnet 5.5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5) · [Claude Best Practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) · [Anthropic Thinking Documentation](https://platform.claude.com/docs/en/build-with-claude/thinking)
 
-#### A. Multi-Tiered XML Semantic Demarcation (`Multi-Tiered XML Semantic Demarcation`)
-* **Anthropic Technical Mechanism:** Claude models are extensively pre-trained on text hierarchically partitioned by XML tags. XML tags function as **explicit self-attention boundaries**, enabling the model to rigorously discriminate between judicial mandates, clinical case context, intermediate reasoning scratchpads, and definitive rulings.
-* **Pipeline Implementation:**
-  * `<system_instructions>`: Encapsulates the sovereign directives of the Clinical Adjudication Board.
-  * `<persona>`: Establishes the authoritative role of a Senior Clinical Forensic Arbiter.
-  * `<analytical_stance>`: Enforces an objective, empirical *evidence-first* evidentiary posture.
-  * `<case id="..." index="...">`: Isolates each clinical case into an independent data container.
-  * `<case_metadata>` & `<clinical_case_presentation>`: Encapsulates raw clinical notes, preventing prompt injection and context leakage from sensitive diagnostic terms.
-  * `<method_x_reasoning>` & `<method_y_grounding>`: Strictly separates the multiclass model trajectory (MedCase) from the rule-based verification dossier (12-Step).
-  * `<clinical_scratchpad>`: Enforces mandatory sequential verbalization prior to numerical scoring.
-  * `<forensic_adjudication>`: Delimits the final normative JSON adjudication schema.
+#### A. Multi-Tiered XML Wireframe & Late-Binding Output Schema
 
-#### B. Structured Clinical Thinking Extension (`Clinical Scratchpad / Thinking Time`)
-* **The Premature Probability Collapse Phenomenon:** According to Anthropic's official guideline *Give Claude Thinking Time*, forcing an LLM to emit structured JSON or numerical scores ($D_1 \dots D_5$) at early decoding tokens compels the model to "guess" outcomes before forming complete semantic representations in latent space. This triggers classic cognitive breakdowns: premature cognitive closure (DEER Class 3.2) and sycophantic mimicry of confident surface narratives.
-* **Mandatory 5-Step Scratchpad Protocol:**
-  In `build_claude_system_prompt()`, Claude is strictly bound to execute five sequential audit steps before opening `<forensic_adjudication>`:
-  1. **Step 1: Clinical Fact Extraction** — Extract all microbiological cultures, histopathology, molecular assays, and negative confirmatory findings verbatim.
-  2. **Step 2: Method X (MedCase) Audit** — Audit whether MedCase's prediction represents a confirmed positive, a false-positive rule-in over an explicit negative test, or historical/contextual confusion.
-  3. **Step 3: Method Y (12-Step) Audit** — Independently audit MultiCaRe's rule-based hypothesis against the 12-step evidentiary matrix.
-  4. **Step 4: Tension Archetype Classification** — Classify the case into Archetype A (Rule-In vs Rule-Out), Archetype B (Contextual Misattribution), or Archetype C (Syndromic Look-Alike).
-  5. **Step 5: Forensic Synthesis** — Formulate a rigorous synthesis weighing patient safety ($D_5$) and declare a definitive winner.
+In accordance with Anthropic's XML demarcation standard and late-binding JSON evaluation protocol, the batch pipeline compiles judicial packages using the following structural schema:
 
-#### C. Judicial Rigor & Anti-Sycophancy Directives (`Anti-Sycophancy Directives`)
-* **The Nature of Sycophantic Drift:** Modern RLHF alignment frequently induces conversational hedging and diplomatic compromise ("both models demonstrate valid reasoning"), which is catastrophic in high-stakes clinical forensic arbitration.
-* **Four Hard Prohibitions Grounded in Medical Law:**
-  * **Prohibition 1 (No Diplomatic Compromise):** Strictly prohibits concluding "both models have merit" when one system exhibits superior evidentiary grounding; declaring a decisive winner (`METHOD_X`, `METHOD_Y`, or `NEITHER_BOTH_ERRONEOUS`) is mandatory.
-  * **Prohibition 2 (Negative Laboratory Respect):** Forbids awarding Dimension 2 (Rule-Out Rigor) or Dimension 1 (Diagnostic Accuracy) scores $\ge 3$ if a model affirms a diagnosis explicitly ruled out by negative biopsy, culture, or gold-standard laboratory testing ($E_0$ violation).
-  * **Prohibition 3 (Temporal & Contextual Discrimination):** Forbids awarding Dimension 3 scores $\ge 2$ if a model confuses remote cured history ($F_4$) or prophylactic vaccination/scars ($F_5$) with acute presenting illness.
-  * **Prohibition 4 (Non-Maleficence & Patient Safety):** Forbids awarding Dimension 5 scores $\ge 3$ if a model's diagnostic conclusion would trigger toxic, inappropriate, or harmful clinical interventions.
+```xml
+<!-- 1. System Prompt Container: Sovereign Directives & Medical Law -->
+<system_instructions>
+  <persona>Senior Clinical Forensic Arbiter & Chief Medical Jurist</persona>
+  <analytical_stance>Objective, empirical, evidence-first diagnostic adjudication</analytical_stance>
+  <anti_sycophancy_mandates>
+    <!-- 4 Hard Prohibitions: No Compromise | Lab Respect | Temporal Integrity | Patient Safety -->
+  </anti_sycophancy_mandates>
+  <evaluation_protocol>
+    <!-- Five-Dimensional Scoring Rubric: D1 (Accuracy), D2 (Rule-Out), D3 (Temporality), D4 (Grounding), D5 (Safety) -->
+  </evaluation_protocol>
+</system_instructions>
 
-#### D. Late-Binding JSON Output Schema (`Late-Binding JSON Output Schema`)
-* The final verdict is strictly bound to a parseable JSON schema placed inside `<forensic_adjudication>` at the conclusion of the generation.
-* This late-binding architecture ensures 100% mechanical compatibility with downstream automated parsing pipelines while insulating numerical scores from premature hallucination.
+<!-- 2. Independent Case Container: Context Isolation & Double-Blind Trajectories -->
+<case id="unmatched_case_042" index="1">
+  <case_metadata>
+    <target_condition>Pneumocystis jirovecii pneumonia</target_condition>
+    <primary_split>unmatched_part_1_Khai.jsonl</primary_split>
+  </case_metadata>
+  <clinical_case_presentation>
+    <!-- Verbatim Longitudinal Patient Narrative & Objective Diagnostic Workup -->
+  </clinical_case_presentation>
+  <candidate_evaluation>
+    <method_x_reasoning label="Candidate X">
+      <!-- Stanford MedCaseReasoning (GPT-OSS 120B) Trajectory & Prediction -->
+    </method_x_reasoning>
+    <method_y_grounding label="Candidate Y">
+      <!-- MultiCaRe 12-Step Gold-Standard Forensic Verification Dossier -->
+    </method_y_grounding>
+  </candidate_evaluation>
+</case>
 
-#### E. Model Hyperparameter Governance & Sonnet 5.5 Native Specifications
-* **Critical Sonnet 5.5 API Constraint (No Temperature/Top-p):** On **Claude Sonnet 5.5** (`claude-sonnet-5-5`), **Adaptive Thinking is enabled by default**. Setting `temperature`, `top_p`, or `top_k` returns an **HTTP 400 error**. Hyperparameters are governed exclusively via **Thinking Effort**.
-* **Effort Level Calibration:** For high-stakes clinical adjudication and reasoning tasks with JSON output, Anthropic officially specifies configuring `effort: "high"` (default) or `effort: "xhigh"`. At `xhigh`, the model maximizes latent causal exploration before emitting verdicts.
-* **Reasoning Tasks with JSON Output:** Per official Anthropic guidance (*Prompting Claude Sonnet 5.5*), when requesting JSON for multi-step reasoning tasks, two rules must be strictly followed:
-  1. Append `"Think the problem through before you answer."` to the end of the system prompt to guarantee upfront adaptive thinking before token generation.
-  2. Employ **Late-Binding JSON in text** (via `<clinical_scratchpad>` followed by `<forensic_adjudication>`), extracting the final parsed JSON object from the response.
-* **Legacy Models (Claude 3.5 / 3.0):** For legacy non-adaptive API endpoints, maintain temperature at `0.3 – 0.4` and top-p at `0.95`.
-* **Max Output Tokens:** Configured to `>= 8,192` tokens (up to 128K tokens supported on Sonnet 5.5) to fully accommodate extensive internal thinking blocks and granular clinical scratchpads.
+<!-- 3. Target Late-Binding Generation Container: Deliberation Precedes Scoring -->
+<clinical_scratchpad>
+  <!-- Step 1: Fact Extraction (Verbatim microbiology, histology, molecular assays) -->
+  <!-- Step 2: Method X Audit (Confirmed positive vs false-positive rule-in over negative test) -->
+  <!-- Step 3: Method Y Audit (12-step evidentiary matrix compliance & target alignment) -->
+  <!-- Step 4: Dilemma Archetype (Archetype A: Rule-In/Rule-Out | Archetype B: Context | Archetype C: Mimic) -->
+  <!-- Step 5: Forensic Synthesis (Patient safety risk audit & definitive winner determination) -->
+</clinical_scratchpad>
+<forensic_adjudication>
+{
+  "case_id": "unmatched_case_042",
+  "dilemma_archetype": "ARCHETYPE_A",
+  "method_x_audit": {
+    "predicted_diagnosis": "Pneumocystis jirovecii pneumonia",
+    "clinical_status": "FALSE_POSITIVE_RULE_IN",
+    "failure_modes": ["F6_SPECIFICITY_GAP"],
+    "scores": {"D1": 2, "D2": 1, "D3": 4, "D4": 2, "D5": 2, "total": 11}
+  },
+  "method_y_audit": {
+    "evaluated_hypotheses": [
+      {
+        "disease": "Pneumocystis jirovecii pneumonia",
+        "label": "NEGATIVE",
+        "verdict_soundness": "CORRECT"
+      }
+    ],
+    "failure_modes": [],
+    "scores": {"D1": 5, "D2": 5, "D3": 5, "D4": 5, "D5": 5, "total": 25}
+  },
+  "judicial_verdict": {
+    "winner": "METHOD_Y",
+    "definitive_explanation": "Method X affirmed diagnosis despite negative confirmatory bronchoalveolar lavage stain; Method Y correctly enforced rule-out.",
+    "prevented_clinical_harm": "Avoided inappropriate administration of high-dose trimethoprim-sulfamethoxazole and preventable drug toxicity."
+  }
+}
+</forensic_adjudication>
+```
+
+#### B. XML Structural Elements & Clinical Governance Constraints
+
+| Container Scope | XML Tag Name | Architectural Attention Role | Clinical & Legal Governance Constraint |
+|:---|:---|:---|:---|
+| **System Level** | `<system_instructions>` | Global self-attention root | Encapsulates sovereign directives; eliminates persona drift and conversational acquiescence. |
+| **System Level** | `<anti_sycophancy_mandates>` | Negative constraints layer | Imposes 4 hard prohibitions: bans diplomatic ties, bans high scores on negative test violations ($E_0$). |
+| **Data Boundary** | `<case id="..." index="...">` | Independent case boundary | Isolates case tokens; eliminates inter-case context leakage and adversarial prompt injection. |
+| **Data Boundary** | `<clinical_case_presentation>` | Objective raw evidence | Encapsulates longitudinal patient narrative strictly separated from diagnostic model assertions. |
+| **Candidate Scope** | `<method_x_reasoning>` | Model trajectory X | Anonymizes Stanford MedCaseReasoning (GPT-OSS 120B) to guarantee double-blind judicial evaluation. |
+| **Candidate Scope** | `<method_y_grounding>` | Model trajectory Y | Anonymizes MultiCaRe 12-Step Gold-Standard Dossier to guarantee symmetric evidentiary scrutiny. |
+| **Deliberation** | `<clinical_scratchpad>` | Pre-scoring reasoning trace | Enforces 5-step clinical audit; eliminates premature probability collapse (DEER Class 3.2). |
+| **Terminal Output** | `<forensic_adjudication>` | Late-binding JSON container | Emits schema-valid JSON strictly at completion; guarantees 100% automated downstream parsing. |
+
+#### C. Hyperparameter Governance & Native Sonnet 5.5 Specifications
+
+| Hyperparameter / Feature | Operational Configuration | Anthropic Technical Specification & Medical-Legal Rationale |
+|:---|:---|:---|
+| **Thinking Architecture** | **Adaptive Thinking (Default)** | Native on `claude-sonnet-5-5`. Setting `temperature`, `top_p`, or `top_k` returns **HTTP 400**. |
+| **Effort Calibration** | `effort: "high"` (or `"xhigh"`) | Maximizes latent causal exploration before token emission for high-stakes clinical adjudication. |
+| **System Prompt Directive** | `"Think the problem through..."` | Officially mandated by Anthropic for multi-step reasoning tasks requesting structured JSON. |
+| **Max Output Tokens** | `max_tokens >= 8,192` | Allocates sufficient token budget for extensive scratchpad deliberation without truncation. |
 
 ---
 
-### 5.2 Technical Foundations & Design Principles for DeepSeek-R1 (DeepThink)
+### 5.2 Technical Foundations & Schema Specification for DeepSeek-R1 (DeepThink)
 
-* **Foundational Scientific Paper:**
-  * DeepSeek-AI. *DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning*. arXiv:2501.12948 (2025). [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
-* **Official Prompting Guidelines:**
-  * [DeepSeek-R1 Official Repository & Usage Recommendations](https://github.com/deepseek-ai/DeepSeek-R1)
+* **Official Technical References:** DeepSeek-AI (arXiv:2501.12948, 2025; [DeepSeek-R1 Paper](https://arxiv.org/abs/2501.12948)) · [DeepSeek-R1 Usage Guidelines](https://github.com/deepseek-ai/DeepSeek-R1)
 
-#### A. Scientific Foundation: Pure Reinforcement Learning (GRPO)
-* Unlike conventional instruction-tuned models conditioned via Supervised Fine-Tuning (SFT), DeepSeek-R1 develops autonomous reasoning capabilities through large-scale Group Relative Policy Optimization (GRPO) without initial human demonstration data.
-* R1 spontaneously generates multi-branch exploration, retrospective verification, error identification, and dynamic hypothesis generation inside its native `<think>` reasoning trace.
+#### A. Single User Prompt Wireframe & Markdown Output Schema
 
-#### B. Strict Zero-Shot Policy (No Few-Shot Demonstrations)
-* **Official Guideline:** DeepSeek-AI explicitly mandates: *"Zero-shot prompting is recommended. Providing few-shot demonstrations induces stylistic bias and restricts the model's exploratory reasoning capacity."*
-* **Clinical Adjudication Impact:** Providing few-shot exemplars causes DeepSeek-R1 to superficially mimic template formatting and prematurely converge to example patterns rather than autonomously exploring clinical contradictions, negative test results, and microbiological differential diagnoses.
+DeepSeek-R1 utilizes pure reinforcement learning (GRPO). To preserve exploratory reasoning dynamics without disruption, all case context is packaged into a unified single-turn user prompt producing an unconstrained `<think>` trace and structured comparative markdown output:
 
-#### C. Unified Single User Prompt Architecture
-* DeepSeek-R1 and the DeepThink engine optimize computational graph allocation when the entire adjudication task is packaged into a **single, self-contained User Prompt**.
-* Eliminating separate multi-turn System/User conversations avoids disrupting RL policy conditioning, while framing the persona ("Chief Medical Officer, Infectious Disease Specialist, and Master Forensic Arbiter") directly in the Markdown header ensures full executive authority.
+```markdown
+# DeepSeek Clinical Adjudication Benchmark: [N] Genuine Diagnostic Divergence Cases
+> **INSTRUCTION FOR DEEPSEEK (DEEPTHINK / R1):**
+> You are an expert Chief Medical Officer, Infectious Disease Specialist, and Master Forensic Arbiter.
+> Conduct an impartial clinical trial between Method X (Stanford MedCase) and Method Y (MultiCaRe 12-Step).
+> Strictly apply the Five-Dimensional Forensic Scoring Rubric (D1 to D5) and DEER Cognitive Taxonomy.
 
-#### D. Unconstrained Internal Thinking Space (`Unconstrained <think> Space`)
-* **Strict Prohibition of `<think>` Prompt Injection:** No constraints, formatting templates, or stylistic rules are injected inside the internal `<think>` block.
-* DeepSeek-R1 requires uninhibited cognitive freedom within `<think>` to:
-  * Systematically compare granular clinical findings between Method X and Method Y.
-  * Formulate adversarial clinical inquiries: *"Is this positive serology a cross-reaction?", "Did the patient actually have invasive disease or mere colonization?"*
-  * Verify rule-out robustness and resolve diagnostic tensions prior to finalizing the verdict.
+---
+## Case Evaluation [i]: [Case ID]
+- Target Condition Under Audit: [Target Disease Name]
+- Clinical Presentation Narrative: [Verbatim Longitudinal Patient Notes & Laboratory Workup]
+- Method X (Stanford MedCaseReasoning): [Diagnostic Generation Trajectory & Ruled-In Pathogen]
+- Method Y (MultiCaRe 12-Step Verification): [EBM Gold-Standard Rule-In/Rule-Out Forensic Dossier]
 
-#### E. Comparative Scorecard Table & Late-Binding Verdict
-* Once the internal `<think>` phase terminates, the prompt enforces a standardized four-tier output structure:
-  1. **Clinical Forensic Scratchpad:** Summary of underlying etiologic pathology, dilemma archetype classification, and identified failure modes.
-  2. **Comparative Scorecard Table:** Markdown matrix directly contrasting Method X (MedCase) and Method Y (MultiCaRe) across all five dimensions ($D_1 \dots D_5$).
-  3. **Clinical Forensic Critique:** Granular analysis of each system's evidentiary hits, misses, and cognitive error breakdowns.
-  4. **Final Judicial Verdict:** Decisive declaration of the winning system (`METHOD_X | METHOD_Y | TIE_BOTH_VALID | NEITHER_BOTH_ERRONEOUS`).
+---
+<!-- Expected Autonomous Generation from DeepSeek-R1 Engine -->
+<think>
+[Unconstrained Latent Causal Deliberation: Dynamic hypothesis exploration, adversarial counter-checking
+of serological cross-reactivity, verification of negative biopsies, and backward clinical auditing]
+</think>
 
-#### F. Model Hyperparameter Governance
-* **Temperature:** Strictly maintained at DeepSeek-AI's recommended setting of **0.6** (controllable range 0.5 – 0.7).
-* Temperatures `<0.5`: Trigger cyclic reasoning loops where the model gets trapped repeating intermediate deduction chains.
-* Temperatures `>0.8`: Dilute clinical causal reasoning, leading to lexical wandering and imprecise diagnostic entity terminology.
+### Adjudication Case [i]: [Case ID]
+
+#### 1. Clinical Forensic Scratchpad
+- **True Underlying Pathology:** [Microbiological etiology and verified clinical diagnosis]
+- **Archetype Classification:** [Archetype A (Rule-In vs Rule-Out) | Archetype B (Context) | Archetype C (Syndromic)]
+- **Diagnostic Failure Traps:** [Method X: None | F1-F6; Method Y: None | F1-F6]
+- **Laboratory Reality:** [Objective culture, molecular, and histological verification]
+
+#### 2. Comparative Scorecard Table
+| Evaluation Dimension | Method X (MedCase) | Method Y (12-Step) | Forensic Evidentiary Critique |
+|:---|:---:|:---:|:---|
+| **1. Diagnostic Accuracy ($D_1$)** | [1–5] | [1–5] | [Assessment against CDC/WHO microbiological criteria] |
+| **2. Rule-Out Rigor ($D_2$)** | [1–5] | [1–5] | [Respect for negative biopsy/culture findings ($E_0$)] |
+| **3. Temporality & Context ($D_3$)** | [1–5] | [1–5] | [Discrimination of acute vs remote history/prophylaxis] |
+| **4. Evidentiary Grounding ($D_4$)** | [1–5] | [1–5] | [Verbatim source-text extraction vs hallucination] |
+| **5. Patient Safety ($D_5$)** | [1–5] | [1–5] | [Stratification of toxic, inappropriate, or missed therapies] |
+
+#### 3. Clinical Forensic Critique
+[Granular analysis contrasting each system's evidentiary hits, misses, and diagnostic breakdown]
+
+#### 4. Final Judicial Verdict
+`VERDICT: METHOD_X | METHOD_Y | TIE_BOTH_VALID | NEITHER_BOTH_ERRONEOUS`
+```
+
+#### B. Pipeline Execution Principles & Optimization Mechanisms
+
+| Execution Phase | Technical Implementation | Optimization Mechanism (DeepSeek-R1 / GRPO) | Clinical Objective & Evidentiary Safeguard |
+|:---|:---|:---|:---|
+| **Context Delivery** | Unified Single Turn | Self-contained user prompt without multi-turn chat framing | Preserves computational graph efficiency; avoids disrupting RL policy state. |
+| **In-Context Policy** | **Strict Zero-Shot** | Zero few-shot exemplar demonstrations | Prevents stylistic pattern convergence; unleashes autonomous exploration. |
+| **Reasoning Space** | Native `<think>` Trace | Unconstrained, unformatted latent thinking token allocation | Permits adversarial self-questioning, backtracking, and cross-checking. |
+| **Deliberation** | Forensic Scratchpad | Standardized 4-point clinical synthesis header | Explicitly maps errors to DEER taxonomy (Class 3.2, 2.4, 4.1). |
+| **Comparative Audit** | Head-to-Head Table | 5D comparative markdown matrix ($D_1 \dots D_5$) | Enforces side-by-side numerical accountability across all clinical axes. |
+| **Terminal Ruling** | Discrete Enum Verdict | Mandatory declaration of 1 of 4 canonical outcome labels | Eliminates ambiguous conversational hedging and diplomatic equivocation. |
+| **Sampling Control** | `temperature = 0.6` | Fixed within official recommended range (0.5 – 0.7) | Balances exploratory depth; prevents cyclic loops ($<0.5$) and lexical drift ($>0.8$). |
 
 ---
 
