@@ -28,9 +28,12 @@ guideline/
 guidelines/
 milestone*
 reports/
+resources/config/syndromes_criteria.md
 
 # In scripts/, only include candidate extraction script
 scripts/*
+!scripts/soap_extraction_tutorial.ipynb
+!scripts/mismatch_cross_validation_and_prompts.ipynb
 
 related_materials
 .env
