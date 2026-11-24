@@ -41,3 +41,6 @@ rag-anything/rag_eval_langsmith_ragas
 
 # Documentation & Report files
 document/
+
+# Generated mismatch cross-validation outputs
+data/mismacht-gpt-oss/outputs/
