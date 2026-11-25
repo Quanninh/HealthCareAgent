@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC3770490_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (BK virus hemorrhagic cystitis)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC4322376_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (DiGeorge syndrome / 22q11.2 deletion syndrome)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC4345234_01__Cytomegalovirus","Method Y","Diagnostic Primacy Holder: BOTH (Cytomegalovirus infection)","29/30 (5,5,5,5,4,5)","30/30 (5,5,5,5,5,5)"
+"PMC4753742_02__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Behçet disease)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC4759996_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Strongyloides stercoralis hyperinfection syndrome)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"

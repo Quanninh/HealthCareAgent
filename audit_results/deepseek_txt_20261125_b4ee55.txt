@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10328099_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Listeria monocytogenes meningitis)","30/30 (5,5,5,5,5,5)","24/30 (4,4,5,5,3,3)"
+"PMC10337682_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Clostridium ramosum bacteremia)","30/30 (5,5,5,5,5,5)","24/30 (4,4,5,5,3,3)"
+"PMC7533056_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (rectus sheath hematoma)","30/30 (5,5,5,5,5,5)","24/30 (4,4,5,5,3,3)"
+"PMC7537980_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (toxic epidermal necrolysis)","29/30 (4,5,5,5,5,5)","24/30 (4,4,5,5,3,3)"
+"PMC7724101_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (MOGAD)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"

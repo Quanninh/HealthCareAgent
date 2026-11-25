@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC6670215_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (bilateral femoral head osteonecrosis)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC6702861_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Kaposi sarcoma)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC6739527_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Mycobacterium genavense)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC6792356_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (HPV-induced epithelial proliferation)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC6837767_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (primary cerebral lymphoma)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"

@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11755310_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Infective endocarditis)","29/30 (5,4,5,5,5,5)","24/30 (5,3,4,5,4,3)"
+"PMC11797575_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Subacute thyroiditis)","30/30 (5,5,5,5,5,5)","22/30 (5,4,2,5,3,3)"
+"PMC13054369_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Subdural hematoma)","30/30 (5,5,5,5,5,5)","23/30 (5,4,3,5,3,3)"
+"PMC2636058_01__Dengue","Method Y","Diagnostic Primacy Holder: METHOD_Y (Classic Dengue Fever)","29/30 (5,5,5,5,4,5)","30/30 (5,5,5,5,5,5)"
+"PMC4340331_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Plasmodium ovale malaria)","29/30 (5,5,5,5,4,5)","24/30 (5,3,4,5,4,3)"

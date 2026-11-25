@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC7522604_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Collapsing Glomerulopathy)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC8197045_02__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (T. ptyseos Septicemia)","24/30 (4,4,5,3,3,5)","26/30 (5,4,5,5,4,3)"
+"PMC8579963_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (SLE with TTP)","29/30 (5,4,5,5,5,5)","24/30 (5,3,4,5,4,3)"
+"PMC8801417_01__Malaria","Method X","Diagnostic Primacy Holder: METHOD_X (Cold Autoimmune Hemolytic Anemia)","30/30 (5,5,5,5,5,5)","17/30 (4,3,1,4,2,3)"
+"PMC10408627_01__Neurocysticercosis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Neurocysticercosis)","17/30 (2,2,5,5,2,1)","26/30 (4,3,5,4,5,5)"

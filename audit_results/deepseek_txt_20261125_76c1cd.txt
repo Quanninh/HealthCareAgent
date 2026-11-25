@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC4804675_01__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Voriconazole-induced photosensitivity)","30/30 (5,5,5,5,5,5)","26/30 (5,5,4,5,4,3)"
+"PMC5462915_01__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (ACTH-secreting carcinoid tumor with ectopic ACTH syndrome)","30/30 (5,5,5,5,5,5)","21/30 (5,4,2,5,2,3)"
+"PMC5899866_01__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Necrotizing soft tissue infection due to Stenotrophomonas maltophilia)","30/30 (5,5,5,5,5,5)","22/30 (4,4,4,4,3,3)"
+"PMC6462151_02__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Chronic beryllium disease)","30/30 (5,5,5,5,5,5)","21/30 (5,4,2,5,2,3)"
+"PMC7838496_02__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Transplant-associated thrombotic microangiopathy)","27/30 (4,4,5,4,5,5)","25/30 (5,4,4,5,4,3)"

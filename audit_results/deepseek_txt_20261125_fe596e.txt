@@ -1,0 +1,4 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8308854_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (pharyngeal-cervical-brachial variant of Guillain-Barré syndrome)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC9724064_03__Dengue","Both right","Diagnostic Primacy Holder: METHOD_Y (Dengue)","28/30 (5,5,5,5,5,3)","30/30 (5,5,5,5,5,5)"
+"PMC4695514_01__Ebola_Filovirus","Method Y","Diagnostic Primacy Holder: METHOD_Y (Ebola virus disease)","28/30 (5,4,5,4,5,5)","30/30 (5,5,5,5,5,5)"

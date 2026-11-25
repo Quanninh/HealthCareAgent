@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC6083644_01__Syphilis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Congenital syphilis)","30/30 (5,5,5,5,5,5)","30/30 (5,5,5,5,5,5)"
+"PMC6477499_01__Syphilis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Neurosyphilis)","30/30 (5,5,5,5,5,5)","30/30 (5,5,5,5,5,5)"
+"PMC6927064_01__Syphilis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Syphilitic hepatitis)","27/30 (5,4,5,3,5,5)","30/30 (5,5,5,5,5,5)"
+"PMC7343954_04__Syphilis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Secondary syphilis)","30/30 (5,5,5,5,5,5)","30/30 (5,5,5,5,5,5)"
+"PMC9674327_01__Syphilis","Both right","Diagnostic Primacy Holder: METHOD_X (Monkeypox infection)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"

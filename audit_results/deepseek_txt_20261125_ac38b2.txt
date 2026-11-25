@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10024499_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Clostridium paraputrificum bacteremia)","28/30 (5,5,4,4,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC10203351_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (pseudomembranous oral candidiasis)","27/30 (5,5,3,4,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC10360453_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (reticular erythematous mucinosis)","28/30 (5,5,4,4,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC10715021_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (amoebic liver/pulmonary abscess)","27/30 (5,5,3,4,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC10844135_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (gastric adenocarcinoma)","27/30 (5,5,3,4,5,5)","25/30 (5,4,5,5,3,3)"

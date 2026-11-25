@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11791120_01__Histoplasmosis","Both right","Diagnostic Primacy Holder: METHOD_X (Listeria monocytogenes prosthetic joint infection)","28/30 (5,4,5,5,4,5)","28/30 (5,5,5,5,5,3)"
+"PMC4243466_03__Histoplasmosis","Both right","Diagnostic Primacy Holder: METHOD_X (Disseminated nontuberculous mycobacterial infection)","29/30 (5,5,5,5,4,5)","26/30 (5,4,5,5,4,3)"
+"PMC5300990_01__Histoplasmosis","Both right","Diagnostic Primacy Holder: METHOD_Y (Cutaneous histoplasmosis)","27/30 (5,5,5,5,4,3)","29/30 (5,4,5,5,5,5)"
+"PMC6450135_01__Histoplasmosis","Both right","Diagnostic Primacy Holder: METHOD_Y (Histoplasma osteomyelitis)","27/30 (4,5,5,5,4,4)","30/30 (5,5,5,5,5,5)"
+"PMC3523429_01__Leishmaniasis","Both right","Diagnostic Primacy Holder: METHOD_X (Basal cell carcinoma)","29/30 (5,4,5,5,5,5)","22/30 (5,3,3,5,3,3)"

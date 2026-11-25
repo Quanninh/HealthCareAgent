@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8637609_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (chronic fatigue syndrome)","29/30 (4,5,5,5,5,5)","19/30 (4,3,2,4,3,3)"
+"PMC9047909_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (acute interstitial nephritis)","30/30 (5,5,5,5,5,5)","21/30 (5,4,2,5,2,3)"
+"PMC9091387_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (fracture-dislocation of the right elbow)","29/30 (5,4,5,5,5,5)","21/30 (5,4,2,5,2,3)"
+"PMC9126225_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_Y (COVID-19)","25/30 (4,4,4,5,5,3)","26/30 (5,4,5,5,2,5)"
+"PMC9198841_02__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (metastatic melanoma)","30/30 (5,5,5,5,5,5)","22/30 (5,4,3,5,2,3)"

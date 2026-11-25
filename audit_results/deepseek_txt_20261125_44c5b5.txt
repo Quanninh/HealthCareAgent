@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8565698_01__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Pulmonary Mucormycosis)","29/30 (5,4,5,5,5,5)","18/30 (3,2,4,4,2,3)"
+"PMC6639843_01__Brucellosis","Method X","Diagnostic Primacy Holder: METHOD_X (Anti-NMDAR Encephalitis)","30/30 (5,5,5,5,5,5)","15/30 (3,2,2,3,2,3)"
+"PMC9813502_01__Brucellosis","Both right","Diagnostic Primacy Holder: METHOD_X (Intracerebral Hemorrhage)","29/30 (5,4,5,5,5,5)","23/30 (4,4,4,4,4,3)"
+"PMC10012167_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Lymphocytic Myocarditis)","30/30 (5,5,5,5,5,5)","23/30 (4,4,5,3,4,3)"
+"PMC10050710_01__COVID-19","Method X","Diagnostic Primacy Holder: METHOD_X (Adult-Onset Still's Disease)","30/30 (5,5,5,5,5,5)","9/30 (1,1,1,2,3,1)"

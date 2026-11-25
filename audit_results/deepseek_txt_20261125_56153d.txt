@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC7470402_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_Y (Leprosy with asymptomatic filariasis co-infection)","25/30 (5,5,4,4,4,3)","26/30 (5,4,4,5,5,3)"
+"PMC8687500_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_Y (Multibacillary leprosy with refractory type 1 reaction)","28/30 (5,5,5,5,5,3)","27/30 (5,4,4,5,4,5)"
+"PMC9167051_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_Y (Lepromatous leprosy with pustular ENL)","28/30 (5,5,5,5,5,3)","27/30 (5,4,4,5,4,5)"
+"PMC11402080_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Intestinal obstruction secondary to post-operative adhesions)","30/30 (5,5,5,5,5,5)","21/30 (5,3,3,5,2,3)"
+"PMC11722198_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Subdural hematoma)","29/30 (5,5,5,4,5,5)","21/30 (5,3,3,5,2,3)"

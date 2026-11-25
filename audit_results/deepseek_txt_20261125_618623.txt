@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC7596908_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Philadelphia chromosome-negative B-ALL)","30/30 (5,5,5,5,5,5)","26/30 (5,5,5,5,3,3)"
+"PMC9169891_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (STAT3 gain-of-function syndrome)","30/30 (5,5,5,5,5,5)","23/30 (4,4,4,5,3,3)"
+"PMC9197158_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (STEC-HUS)","30/30 (5,5,5,5,5,5)","26/30 (5,5,5,5,3,3)"
+"PMC9637682_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Stevens-Johnson syndrome)","30/30 (5,5,5,5,5,5)","26/30 (5,5,5,5,3,3)"
+"PMC9638093_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Leukocyte adhesion deficiency type I)","30/30 (5,5,5,5,5,5)","26/30 (5,5,5,5,3,3)"

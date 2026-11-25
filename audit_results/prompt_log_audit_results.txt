@@ -1,0 +1,28 @@
+Now summarize your adjudication for all cases audited in this chat as a single raw CSV block (to be saved as a .txt file).
+
+STRICT FORMATTING RULES:
+1. Output ONLY a single fenced code block (` ```txt `) with NO extra commentary before or after.
+2. Line 1 MUST be this exact header:
+"case_id","whos_right","notes","method_x_score","method_y_score"
+3. Wrap EVERY field in double quotes ("...") because the score tuples contain commas.
+4. Output 1 row per case in the exact order audited, using these strict column formats:
+   - "case_id": The exact case ID from the prompt (e.g., "PMC1234567__aspergillosis").
+   - "whos_right": MUST be one of these 4 exact strings only:
+     * "Method X" (if Verdict = METHOD_X)
+     * "Method Y" (if Verdict = METHOD_Y)
+     * "Both right" (if Verdict = BOTH_RIGHT or TIE_BOTH_VALID)
+     * "Both wrong" (if Verdict = NEITHER_VALID)
+   - "notes": State the Diagnostic Primacy Holder and the primary disease name, formatted as:
+     "Diagnostic Primacy Holder: <METHOD_X | METHOD_Y | NEITHER> (<Primary Disease Name>)"
+     (Do not use double quotes inside this field.)
+   - "method_x_score": Total score out of 30 followed by the 6 dimension scores (D1,D2,D3,D4,D5,D6) with no spaces after commas, formatted strictly as:
+     "XX/30 (d1,d2,d3,d4,d5,d6)" — e.g., "30/30 (5,5,5,5,5,5)"
+   - "method_y_score": Same exact format as method_x_score:
+     "YY/30 (d1,d2,d3,d4,d5,d6)" — e.g., "28/30 (5,5,5,5,4,4)"
+
+Example output:
+```txt
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC1000001__aspergillosis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Invasive Pulmonary Aspergillosis)","18/30 (2,3,3,4,3,3)","29/30 (5,5,5,5,5,4)"
+"PMC1000002__aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Granulomatosis with Polyangiitis)","28/30 (5,5,4,5,4,5)","27/30 (5,5,5,5,4,3)"
+```

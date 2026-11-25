@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8459926_01__COVID-19","Method X","Diagnostic Primacy Holder: METHOD_X (MIS-C following preceding SARS-CoV-2 infection)","30/30 (5,5,5,5,5,5)","12/30 (2,2,2,1,2,3)"
+"PMC8498326_01__COVID-19","Method X","Diagnostic Primacy Holder: METHOD_X (Vaccine-induced immune thrombotic thrombocytopenia)","30/30 (5,5,5,5,5,5)","6/30 (1,1,1,1,1,1)"
+"PMC8554241_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Cerebral venous sinus thrombosis)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC8566005_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Catastrophic antiphospholipid syndrome)","30/30 (5,5,5,5,5,5)","23/30 (4,3,5,5,3,3)"
+"PMC8604041_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_Y (Severe COVID-19 pneumonia)","26/30 (5,4,5,5,4,3)","24/30 (5,3,5,2,4,5)"

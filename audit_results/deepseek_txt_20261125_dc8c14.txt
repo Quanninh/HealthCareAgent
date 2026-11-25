@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC9897069_03__Syphilis","Both right","Diagnostic Primacy Holder: METHOD_X (Necrotizing ulcerative gingivitis)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC10601749_01__Tuberculosis","Both right","Diagnostic Primacy Holder: METHOD_X (Pegfilgrastim-induced aortitis)","30/30 (5,5,5,5,5,5)","17/30 (5,2,2,3,2,3)"
+"PMC10702734_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Salmonella Dublin paravertebral abscess)","30/30 (5,5,5,5,5,5)","10/30 (2,1,1,2,1,3)"
+"PMC10919296_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Pulmonary lophomoniasis)","30/30 (5,5,5,5,5,5)","7/30 (1,1,1,2,1,1)"
+"PMC10953646_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Parvimonas micra pleural empyema)","30/30 (5,5,5,5,5,5)","11/30 (2,1,1,3,1,3)"

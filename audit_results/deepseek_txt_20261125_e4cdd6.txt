@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC4822807_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (EBV-associated smooth muscle tumor)","30/30 (5,5,5,5,5,5)","25/30 (5,4,5,5,3,3)"
+"PMC4826087_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Methicillin-sensitive Staphylococcus aureus brain abscess)","30/30 (5,5,5,5,5,5)","25/30 (5,4,5,5,3,3)"
+"PMC4857691_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Erythema elevatum diutinum)","30/30 (5,5,5,5,5,5)","22/30 (5,4,3,3,4,3)"
+"PMC4925684_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Possible recurrent progressive multifocal leukoencephalopathy)","29/30 (4,5,5,5,5,5)","25/30 (5,4,5,4,4,3)"
+"PMC4943741_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Primary effusion lymphoma)","30/30 (5,5,5,5,5,5)","25/30 (5,4,5,5,3,3)"

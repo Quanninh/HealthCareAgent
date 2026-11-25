@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8363969_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (isoniazid-induced pellagra)","29/30 (5,4,5,5,5,5)","25/30 (4,4,5,5,4,3)"
+"PMC8377973_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Corynebacterium pseudodiphtheriticum infection)","27/30 (4,4,5,5,4,5)","28/30 (5,5,5,5,5,3)"
+"PMC8549385_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (disseminated sporotrichosis)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC8579583_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (HIV-associated Kaposi sarcoma)","29/30 (5,4,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC8663728_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (sleep state misperception)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"

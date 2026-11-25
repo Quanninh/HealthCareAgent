@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8140727_02__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_Y (COVID-19 pneumonia with central adrenal insufficiency and diabetes insipidus)","26/30 (4,4,5,5,5,3)","28/30 (5,4,5,5,4,5)"
+"PMC8298113_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Massive saddle pulmonary embolism with right atrial thrombus in transit)","30/30 (5,5,5,5,5,5)","22/30 (5,3,5,4,2,3)"
+"PMC8369030_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (X-linked lymphoproliferative syndrome type 1 with EBV-driven HLH)","30/30 (5,5,5,5,5,5)","17/30 (4,2,2,4,2,3)"
+"PMC8425345_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Acute myeloid leukemia with concurrent COVID-19 pneumonia)","30/30 (5,5,5,5,5,5)","24/30 (5,3,5,5,3,3)"
+"PMC8436184_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (p-ANCA vasculitis with alveolar hemorrhage and rapidly progressive glomerulonephritis)","30/30 (5,5,5,5,5,5)","23/30 (5,3,5,5,2,3)"

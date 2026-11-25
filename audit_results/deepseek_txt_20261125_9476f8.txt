@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC5209553_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (CNS Toxoplasmosis)","29/30 (4,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC5292830_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Subdural Hematoma)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC5346920_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Peripheral CD8+ T-cell Lymphoma)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC5382901_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Thoracoabdominal Aortic Aneurysm)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC5463670_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_Y (Neurosyphilis)","29/30 (5,5,5,4,5,5)","29/30 (5,4,5,5,5,5)"

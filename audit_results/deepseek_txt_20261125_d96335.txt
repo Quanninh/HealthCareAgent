@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC4285266_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (artesunate-associated delayed hemolysis)","30/30 (5,5,5,5,5,5)","24/30 (5,4,3,5,4,3)"
+"PMC4314865_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (acute hemolytic crisis in sickle cell disease)","30/30 (5,5,5,5,5,5)","26/30 (5,5,4,5,4,3)"
+"PMC5748105_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Lassa fever)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC6462305_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Primary Angiitis of the CNS)","30/30 (5,5,5,5,5,5)","26/30 (5,5,4,5,4,3)"
+"PMC6556338_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (artemether toxicity)","29/30 (4,5,5,5,5,5)","24/30 (5,4,3,5,4,3)"

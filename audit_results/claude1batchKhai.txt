@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10329462_01__Aspergillosis","Method Y","Diagnostic Primacy Holder: METHOD_Y (Aspergillus tubingensis spondylitis)","27/30 (3,5,5,5,4,5)","29/30 (5,5,5,4,5,5)"
+"PMC10443690_01__Aspergillosis","Both right","Diagnostic Primacy Holder: METHOD_X (Voriconazole-induced drug-induced liver injury)","29/30 (5,5,5,4,5,5)","25/30 (5,5,5,3,4,3)"
+"PMC10588001_01__Aspergillosis","Method X","Diagnostic Primacy Holder: METHOD_X (Trichosporon asahii infection)","29/30 (5,5,5,5,4,5)","13/30 (2,3,2,2,2,2)"
+"PMC10601723_01__Aspergillosis","Method X","Diagnostic Primacy Holder: METHOD_X (Generalized lymphatic anomaly)","28/30 (5,5,5,3,5,5)","18/30 (3,3,4,2,3,3)"
+"PMC10771727_01__Aspergillosis","Method X","Diagnostic Primacy Holder: METHOD_X (Pichia ohmeri fungemia with complicated upper urinary tract infection)","28/30 (5,5,5,3,5,5)","15/30 (2,2,5,3,2,1)"

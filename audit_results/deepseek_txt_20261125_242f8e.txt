@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11731052_02__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Mycoplasma pneumoniae pneumonia / mediastinal lymphadenitis)","30/30 (5,5,5,5,5,5)","10/30 (1,1,2,3,2,1)"
+"PMC11823877_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Hodgkin lymphoma)","29/30 (5,5,4,5,5,5)","9/30 (1,1,2,3,1,1)"
+"PMC3896960_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Constrictive pericarditis)","30/30 (5,5,5,5,5,5)","10/30 (1,2,1,3,2,1)"
+"PMC4189908_01__Tuberculosis","Both right","Diagnostic Primacy Holder: METHOD_X (Pulmonary embolism)","29/30 (5,4,5,5,5,5)","25/30 (5,4,5,5,3,3)"
+"PMC4314884_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Mycobacterium chelonae-abscessus infection)","30/30 (5,5,5,5,5,5)","8/30 (1,1,1,3,1,1)"

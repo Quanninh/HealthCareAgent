@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC3326850_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Immune reconstitution disease due to Mycobacterium avium complex in AIDS)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC3568014_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: NEITHER (CD56bright NK-cell expansion with HIV/AIDS comorbidity)","23/30 (3,4,4,5,4,3)","26/30 (5,4,5,5,4,3)"
+"PMC3696471_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Calcified right atrial thrombus extending from inferior vena cava)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC3832319_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Systemic lupus erythematosus-associated aplastic anemia)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC3902409_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Acute hepatitis B flare)","29/30 (5,4,5,5,5,5)","26/30 (5,4,5,5,4,3)"

@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC9769073_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (PTCL-NOS)","30/30 (5,5,5,5,5,5)","23/30 (5,4,4,4,3,3)"
+"PMC10805995_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Transverse Myelitis)","27/30 (4,4,5,4,5,5)","24/30 (5,4,4,5,3,3)"
+"PMC10981262_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Stevens-Johnson Syndrome)","30/30 (5,5,5,5,5,5)","24/30 (5,4,4,5,3,3)"
+"PMC10995331_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Acute Macular Neuroretinopathy)","30/30 (5,5,5,5,5,5)","24/30 (5,4,4,5,3,3)"
+"PMC11298969_02__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Precursor B Acute Lymphoblastic Leukemia/Lymphoma)","30/30 (5,5,5,5,5,5)","21/30 (5,3,3,5,2,3)"

@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC12728737_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (GP with concomitant candidiasis)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC12758109_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (KSHV-MCD)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC12789941_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (angiolymphoid hyperplasia with eosinophilia)","29/30 (4,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC12916020_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (primary antiphospholipid syndrome)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC13096707_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (multicentric Castleman disease)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"

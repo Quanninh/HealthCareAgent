@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11056499_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Sulfasalazine-induced DRESS triggering secondary HLH)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC11217477_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Sintilimab-induced agranulocytosis)","29/30 (5,4,5,5,5,5)","19/30 (4,2,3,4,3,3)"
+"PMC11250386_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Retinoblastoma)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC11753413_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Strongyloides stercoralis pneumonia)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC11757135_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Kikuchi-Fujimoto disease)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"

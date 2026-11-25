@@ -1,0 +1,3 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC8046485_01__Tuberculosis","Both right","Diagnostic Primacy Holder: METHOD_X (Tuberculous arthritis)","29/30 (5,4,5,5,5,5)","25/30 (5,4,3,4,5,4)"
+"PMC8696155_01__Tuberculosis","Method X","Diagnostic Primacy Holder: METHOD_X (Diffuse leptomeningeal glioneuronal tumor)","30/30 (5,5,5,5,5,5)","8/30 (1,1,2,2,1,1)"

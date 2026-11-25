@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC12945748_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (EBV+ DLBCL-NOS)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC12962722_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Disseminated Monkeypox Infection)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC13160640_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (DRESS/DIHS)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC3083534_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: BOTH (CMV-Associated Hemophagocytic Lymphohistiocytosis)","30/30 (5,5,5,5,5,5)","30/30 (5,5,5,5,5,5)"
+"PMC3561114_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Immunodeficiency Secondary to Anti-IFN-Gamma Autoantibodies)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"

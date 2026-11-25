@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10857780_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Severe disseminated necrotizing mpox)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC1087842_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (CMV-associated gastric perforation)","29/30 (5,5,5,5,4,5)","25/30 (5,4,4,5,4,3)"
+"PMC10905307_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (TDF-related Fanconi syndrome)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC10928406_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Bacillus pumilus bacteremia)","30/30 (5,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC10932491_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Reactive arthritis with anterior uveitis)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"

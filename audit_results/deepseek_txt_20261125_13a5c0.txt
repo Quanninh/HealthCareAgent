@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11771136_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Disseminated toxoplasmosis with toxoplasmic encephalitis)","30/30 (5,5,5,5,5,5)","26/30 (5,5,4,5,4,3)"
+"PMC11810437_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Autoimmune pulmonary alveolar proteinosis)","30/30 (5,5,5,5,5,5)","26/30 (5,5,4,5,4,3)"
+"PMC11825476_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (Common variable immunodeficiency)","28/30 (4,5,5,5,5,4)","26/30 (5,5,4,5,4,3)"
+"PMC11828756_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (ACTH-secreting pheochromocytoma)","30/30 (5,5,5,5,5,5)","20/30 (4,3,3,4,3,3)"
+"PMC12758035_01__Cytomegalovirus","Both right","Diagnostic Primacy Holder: METHOD_X (EBV-negative diffuse large B-cell lymphoma)","30/30 (5,5,5,5,5,5)","26/30 (5,5,4,5,4,3)"

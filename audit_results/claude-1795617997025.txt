@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11699597_01","Both right","Diagnostic Primacy Holder: METHOD_X (Lomentospora)","30/30 (5,5,5,5,5,5)","24/30 (5,5,5,3,3,3)"
+"PMC12764324_01","Method X","Diagnostic Primacy Holder: METHOD_X (RA)","28/30 (5,5,5,4,4,5)","15/30 (2,4,1,2,3,3)"
+"PMC12996111_01","Both right","Diagnostic Primacy Holder: METHOD_X (ICF2)","29/30 (5,5,5,4,5,5)","22/30 (4,4,5,3,3,3)"
+"PMC4531034_01","Both right","Diagnostic Primacy Holder: METHOD_X (IgA-PIGN)","29/30 (5,5,5,4,5,5)","21/30 (3,4,5,3,3,3)"
+"PMC4735106_01","Method Y","Diagnostic Primacy Holder: BOTH (ABPM/ABPA)","28/30 (4,5,5,4,5,5)","29/30 (5,5,5,5,5,4)"

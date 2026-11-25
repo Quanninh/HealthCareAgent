@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10629858_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_X (Lambert-Eaton myasthenic syndrome)","27/30 (4,5,4,5,4,5)","26/30 (5,4,5,5,4,3)"
+"PMC11799367_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_X (NSTEMI)","29/30 (5,5,4,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC3035194_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_X (pulmonary embolism)","29/30 (5,5,4,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC6345088_01__Leprosy","Both right","Diagnostic Primacy Holder: METHOD_X (methaemoglobinemia)","29/30 (4,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC7273538_01__Leprosy","Method Y","Diagnostic Primacy Holder: METHOD_Y (Lepromatous leprosy)","26/30 (5,5,5,4,4,3)","29/30 (5,4,5,5,5,5)"

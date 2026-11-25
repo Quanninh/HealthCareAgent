@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC1198256_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Subserosal uterine fibroid)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC3290876_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Symmetrical peripheral gangrene)","29/30 (5,4,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC3299142_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Splenic rupture)","30/30 (5,5,5,5,5,5)","28/30 (5,5,5,5,5,3)"
+"PMC3549447_01__Malaria","Both right","Diagnostic Primacy Holder: NEITHER (Nephrotic syndrome)","25/30 (4,4,5,5,4,3)","28/30 (5,5,5,5,5,3)"
+"PMC3927189_01__Malaria","Both right","Diagnostic Primacy Holder: METHOD_X (Atypical hemolytic uremic syndrome)","30/30 (5,5,5,5,5,5)","27/30 (5,5,4,5,5,3)"

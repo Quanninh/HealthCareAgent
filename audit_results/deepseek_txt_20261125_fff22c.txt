@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC11215114_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Disseminated Acanthamoeba castellanii infection)","29/30 (5,5,4,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC11340849_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Cancrum oris / noma)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC11771136_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Disseminated toxoplasmosis with toxoplasmic encephalitis)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC12178708_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Amoebic liver abscess complicated by Salmonella Typhi and Salmonella Typhimurium)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC1261268_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Severe combined lipodystrophy)","29/30 (4,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"

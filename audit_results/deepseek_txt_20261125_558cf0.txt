@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10946419_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Cerebral toxoplasmosis-related lesion)","27/30 (4,5,4,5,4,5)","27/30 (5,5,5,5,4,3)"
+"PMC10964487_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Disseminated Talaromyces marneffei infection)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC10991849_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Severe spontaneous intracranial hypotension)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC11000848_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (HIV-associated diffuse large B-cell lymphoma)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"
+"PMC11204988_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Ureteral stent encrustation and kidney stone)","30/30 (5,5,5,5,5,5)","27/30 (5,5,5,5,4,3)"

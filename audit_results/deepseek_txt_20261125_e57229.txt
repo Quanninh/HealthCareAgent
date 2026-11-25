@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC4516346_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Panuveitis)","28/30 (4,4,5,5,5,5)","25/30 (5,4,5,5,3,3)"
+"PMC5088483_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Central retinal vein occlusion)","29/30 (5,5,4,5,5,5)","24/30 (5,4,4,5,3,3)"
+"PMC5288990_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Pituitary apoplexy)","29/30 (5,4,5,5,5,5)","24/30 (5,4,5,5,2,3)"
+"PMC6169087_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Thrombotic thrombocytopenic purpura)","29/30 (5,5,4,5,5,5)","23/30 (5,4,4,5,2,3)"
+"PMC7370471_01__Dengue","Both right","Diagnostic Primacy Holder: METHOD_X (Chronic immune thrombocytopenic purpura)","30/30 (5,5,5,5,5,5)","21/30 (5,4,2,5,2,3)"

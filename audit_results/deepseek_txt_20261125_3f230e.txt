@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC9364196_02__Pneumocystis","Both right","Diagnostic Primacy Holder: METHOD_X (non-infectious inflammation)","29/30 (4,5,5,5,5,5)","25/30 (5,4,4,5,4,3)"
+"PMC9464917_02__Pneumocystis","Both right","Diagnostic Primacy Holder: METHOD_X (chronic myeloid leukemia)","29/30 (5,5,5,5,4,5)","27/30 (5,4,5,5,5,3)"
+"PMC10343119_01__Syphilis","Method Y","Diagnostic Primacy Holder: METHOD_Y (secondary syphilis)","28/30 (5,4,5,5,4,5)","29/30 (5,4,5,5,5,5)"
+"PMC10913495_01__Syphilis","Both right","Diagnostic Primacy Holder: METHOD_X (Kaposi sarcoma)","30/30 (5,5,5,5,5,5)","27/30 (5,4,5,5,5,3)"
+"PMC11233052_01__Syphilis","Both right","Diagnostic Primacy Holder: METHOD_X (Kaposi sarcoma)","29/30 (5,4,5,5,5,5)","27/30 (5,4,5,5,5,3)"

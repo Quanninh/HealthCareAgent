@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC4531542_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Lactic acidosis)","29/30 (5,5,4,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC4555913_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Giant molluscum contagiosum)","29/30 (5,5,4,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC4677581_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Kaposi sarcoma)","29/30 (5,5,4,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC4723101_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Primary biliary cirrhosis and autoimmune hepatitis overlap syndrome)","30/30 (5,5,5,5,5,5)","26/30 (5,4,5,5,4,3)"
+"PMC4792042_01__HIV_AIDS","Both right","Diagnostic Primacy Holder: METHOD_X (Anaplastic large cell lymphoma)","27/30 (5,5,4,5,3,5)","27/30 (5,5,5,5,4,3)"

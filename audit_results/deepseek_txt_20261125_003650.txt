@@ -1,0 +1,6 @@
+"case_id","whos_right","notes","method_x_score","method_y_score"
+"PMC10071921_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Post-COVID Mucormycosis)","30/30 (5,5,5,5,5,5)","16/30 (3,3,2,3,2,3)"
+"PMC10075219_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (AIH-PBC Overlap Syndrome)","30/30 (5,5,5,5,5,5)","22/30 (3,4,5,5,2,3)"
+"PMC10126396_02__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (PIMS-TS)","30/30 (5,5,5,5,5,5)","15/30 (3,3,2,2,2,3)"
+"PMC10149062_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Secondary Hemophagocytic Lymphohistiocytosis)","30/30 (5,5,5,5,5,5)","17/30 (4,3,3,2,2,3)"
+"PMC10244661_01__COVID-19","Both right","Diagnostic Primacy Holder: METHOD_X (Thrombotic Thrombocytopenic Purpura)","30/30 (5,5,5,5,5,5)","21/30 (4,4,3,5,2,3)"
