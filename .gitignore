@@ -73,3 +73,7 @@ ehthumbs.db
 # Documentation & Technical Report
 document/
 
+# Other Branch Directories
+/data/
+/scripts/
+
