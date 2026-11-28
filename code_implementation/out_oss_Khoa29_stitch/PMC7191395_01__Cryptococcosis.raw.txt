@@ -1,0 +1,11 @@
+<stitched_reasoning>
+
+Intestinal tuberculosis is considered as a potential diagnosis due to the patient's exposure to a tuberculosis-endemic region and the appearance of the lesions, which simulated intestinal tuberculosis. Since our patient lived in a tuberculosis endemic area and that the lesions simulated intestinal tuberculosis, empirical antituberculosis therapy ... was started until biopsy results came back. However, liver disease is ruled out due to normal liver profile and the negative liver ultrasound. Liver disease was ruled out due to normal liver profile ... and the negative liver ultrasound.
+
+Nephrotic syndrome is also ruled out as a possible diagnosis, as there is no evidence of renal protein loss and the renal work-up is normal. Nephrotic syndrome was also ruled out as a possible diagnosis. Structural tumor processes are deemed unlikely, as the abdominal CT only showed edema in the small intestine wall suggesting chronic enteropathy. Abdominal CT only showed edema in the small intestine wall suggesting chronic enteropathy.
+
+Protein-losing enteropathy is suspected from the patient's hypoalbuminemia and lymphangiectasia, but it has not yet been confirmed. An exhaustive workout was performed to identify the underlying cause of the edema and low protein levels. Inflammatory bowel disease is considered given the presence of ulcerated colonic lesions, but biopsy is pending for a definitive diagnosis. Multiple ulcerated lesions in sigma, and elevated, pseudopolypoid, infiltrative lesions in cecum and ileocecal valve.
+
+Considering the patient's low complement levels and markedly reduced immunoglobulins, a diagnosis of an immune-mediated condition is possible. Complement levels were low (C3 0.5 g/L, C4 0.03 g/L) and immunoglobulins were markedly reduced (IgA 22 mg/dL, IgG 150 mg/dL, IgM 20 mg/dL). Alpha-1-antitrypsin clearance was 20 mL/24 h, which is within normal limits.
+
+The patient's symptoms and laboratory findings are most consistent with a diagnosis of cryptococcosis, a fungal infection that can cause immune suppression and protein-losing enteropathy.

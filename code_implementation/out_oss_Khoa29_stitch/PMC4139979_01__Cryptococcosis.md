@@ -1,0 +1,7 @@
+<stitched_reasoning>
+The patient presents with fever, loss of appetite, burning epigastrium, and a non-productive cough of seven days' duration, with mild hepatosplenomegaly on examination. Initially, acid-peptic disease is suspected based on the epigastric burning and cough, and she is provisionally diagnosed as a case of acid peptic disease. However, further investigation reveals anemia and pancytopenia, suggesting a marrow process, prompting aspiration. Hemoglobin of 7 gm/dl, total leucocyte count of 3600/cu.mm, and reduced platelets are noted.
+
+The bone-marrow aspiration reveals a hypercellular marrow with erythroid hyperplasia, normal myelopoiesis and megakaryocytes, but granulomatous inflammation is observed, raising concern for tuberculosis, but acid-fast bacilli are not demonstrable. This rules out tuberculosis, and the presence of encapsulated yeast organisms suggests cryptococcosis, an opportunistic infection seen in immunocompromised hosts. Encapsulated round organisms suggestive of Cryptococcus are also seen around the granulomas.
+
+The presence of cryptococcosis and unexplained cytopenias prompts evaluation for underlying immunodeficiency, leading to HIV testing. It was reported as a case of chronic granulomatous infection with cryptococcosis and test for HIV was advised. The positive ELISA confirmed HIV infection, establishing the underlying cause of the opportunistic fungal disease. The ELISA test for detection of HIV was positive.
+</stitched_reasoning>

@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The patient, a 64-year-old woman, presents with sudden weakness of her left arm and leg lasting 3 hours, along with drowsiness, rightward gaze, aphasia, left facial palsy, and left-sided hemiplegia, with an NIHSS score of 13. Based on these findings, the patient was diagnosed with acute ischemic stroke of undetermined cause. However, head and neck computed tomography (CT) angiography did not show any signs of cerebral hemorrhage or large vessel occlusion, which excludes large-vessel occlusion as the primary event. 
+
+The patient received intravenous rt-PA (40 mg) in the emergency room, after which her NIHSS improved to 8. MRI performed 24 hours later demonstrated infarction confined to the right temporal lobe and posterior horn of the ventricle. Ten hours after transfer to the stroke unit, the patient developed a high fever and marked mental status decline. Lumbar puncture revealed CSF protein of 374 mg/dL, nucleated cell count of 2.58 × 10⁶/L, and a reduced CSF/blood glucose ratio. These findings suggest typical bacterial meningitis, which is considered due to the common pathogens associated with these CSF profile results.
+
+To treat the infection, we immediately administered ceftriaxone (2 g, q12h). However, even after three days of ceftriaxone treatment, the patient's fever persisted and the cause of the infection remained unknown. This lack of fever resolution suggests an atypical or resistant organism, which warrants further investigation. We discontinued ceftriaxone and transitioned to meropenem (2 g q8h) for continued anti-infective therapy.
+
+Despite the change in antibiotics, the patient's condition did not improve, and the infectious source remained unidentified. This scenario raises the possibility of an atypical or resistant organism, which may not be responsive to standard antibiotic therapy. Considering the patient's symptoms and CSF profile, tuberculous meningitis is considered, but it is not supported due to the absence of acid-fast bacilli and the rapid deterioration despite ceftriaxone/meropenem.
+
+Viral encephalitis, such as HSV or CMV, is also considered, but the CSF pleocytosis with high protein and low glucose is more typical of bacterial infection. Furthermore, no antiviral therapy was trialed. Fungal meningitis, such as cryptococcosis, is unlikely given the acute course and lack of typical CSF opening pressure data, and it was not investigated before metagenomic sequencing.
+
+Metagenome next-generation sequencing (mNGS) of CSF and venous blood cultures confirmed infection with Brucella melitensis. This diagnosis explains the persistent fever, CSF abnormalities, and poor response to standard antibiotics.
+</stitched_reasoning>

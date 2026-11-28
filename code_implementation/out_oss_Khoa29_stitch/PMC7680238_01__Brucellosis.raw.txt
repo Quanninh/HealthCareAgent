@@ -1,0 +1,15 @@
+<stitched_reasoning>
+
+Infective endocarditis is considered due to the patient's fever, murmur, and dental infections. However, cultures and serologies were negative, and vegetations were not visualized on initial transthoracic echocardiography. Blood cultures, serology for Bartonella, Brucellosis, Q fever, and syphilis were all negative. Dental examination found multiple dental infectious locations that required extractions. This makes infective endocarditis less likely, but not impossible.
+
+A congenital or acquired ventricular septal defect (VSD) is considered because of the left-to-right shunt. However, the shunt was localized at the aortic valve level rather than interventricular septum, and no VSD was seen on TTE. TTE found a left to right shunt at the level of the aortic valve without apparent origin. This suggests that the shunt may not be due to a VSD, but rather something more localized to the aortic valve.
+
+Aortic regurgitation or valvular insufficiency is considered given the systolic/diastolic murmurs. Yet, TTE showed a normal aortic valve morphology and preserved ejection fraction, making severe regurgitation unlikely. TTE found preserved ejection fraction and left ventricular hypertrophy. This makes aortic regurgitation less likely.
+
+An aortic root aneurysm or dissection is considered because of the ascending aorta dilation (44 mm). However, there was no flap, intimal tear, or hemopericardium on imaging, and the patient lacked typical chest-pain radiation. Ascending aorta was moderately dilated (44 mm) with dry pericardial sac. This makes an aortic root aneurysm or dissection less likely.
+
+A ruptured sinus of Valsalva (RSOV) is considered as a cause of an aortic-to-right-atrial shunt, especially given the left-to-right flow at the aortic valve level, aortic root dilation, and absence of another identifiable source. The left to right shunt at the level of the aortic valve without apparent origin implies a need for further imaging to locate the source of the shunt. This is consistent with a RSOV, which would cause a shunt at the level of the aortic valve.
+
+Other infectious etiologies (e.g., Bartonella, Q fever) are ruled out by negative serology, and syphilis is excluded similarly, narrowing the focus to culture-negative endocarditis or structural rupture. Blood cultures, serology for Bartonella, Brucellosis, Q fever, and syphilis were all negative. This makes other infectious etiologies less likely, and focuses the differential diagnosis on culture-negative endocarditis or structural rupture.
+
+Based on the evidence, the most likely diagnosis is a ruptured sinus of Valsalva, which would explain the left-to-right shunt at the level of the aortic valve, aortic root dilation, and absence of other identifiable sources of the shunt.

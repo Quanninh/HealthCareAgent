@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Considering the patient's presentation, COVID-19 pneumonia is entertained due to the positive SARS-CoV-2 RT-PCR and diffuse ground-glass opacities on CT. She tested positive for SARS-CoV-2 by RT-PCR, and computed tomography of the chest revealed diffuse ground glass opacities (GGO). However, the patient's respiratory status deteriorated, progressing to acute respiratory distress syndrome, which raises the possibility of a secondary bacterial infection.
+
+Bacterial superinfection with Pseudomonas aeruginosa is suspected because tracheal aspirate grew the organism and the patient received broad-spectrum antibiotics. Tracheal aspirate cultures revealed Pseudomonas aeruginosa and Aspergillus flavus, and the patient was receiving cefepime and vancomycin. However, the presence of Aspergillus flavus and cavitary lesions also suggests the possibility of invasive pulmonary aspergillosis.
+
+Invasive pulmonary aspergillosis is entertained given the isolation of Aspergillus flavus from respiratory samples and cavitary lesions; initial therapy with voriconazole was instituted. The patient was started on voriconazole, which is a common treatment for invasive aspergillosis. However, the presence of multiple Candida species in the BAL cultures raises the possibility of concurrent candidiasis.
+
+Candidiasis is considered after BAL cultures grew multiple Candida species, but the lack of typical yeast forms on histology and the presence of necrotic airway lesions makes it less likely as the primary cause of pulmonary destruction. Culture results were significant for isolated Candida albicans, glabrata, and krusei. However, the extensive necrotic airway lesions and cavitary disease suggest a more aggressive fungal infection.
+
+Pulmonary mucormycosis is favored by histopathology showing pauciseptated hyphae characteristic of zygomycetes, extensive necrotic airway lesions, cavitary disease, and the patient's poorly controlled diabetes. Grocott's methenamine silver stain revealed pauciseptated hyphae consistent with zygomycetes. Given the endobronchial destruction and evidence of poorly controlled diabetes, a clinical diagnosis of pulmonary mucormycosis was made.
+</stitched_reasoning>

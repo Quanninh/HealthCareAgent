@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Considering the patient's presentation with a palpable, painful mass in the left breast, the differential diagnosis would include phyllodes tumor, PASH (Pseudoangiomatous stromal hyperplasia), and well-circumscribed carcinoma. The large, multilobulated, and well-circumscribed appearance of the lesion on imaging is consistent with phyllodes tumor, which is a consideration given the lesion's size and shape. PASH was also included in the initial differential due to the well-circumscribed, multilobulated appearance mimicking a benign stromal lesion. Additionally, well-circumscribed carcinoma is a concern given the patient's age and the BIRAD 4A rating, which indicates a moderate suspicion of malignancy.
+
+However, the lack of internal vascularity on Doppler makes a malignant process, such as phyllodes tumor or carcinoma, less likely. The absence of microcalcifications on mammography also argues against typical invasive carcinoma. Furthermore, no axillary lymphadenopathy on physical exam, ultrasound, or CT decreases the likelihood of metastatic carcinoma.
+
+The presence of internal anechoic cysts and thin septations on ultrasound and CT suggests a cystic lesion rather than a solid tumor. The peripheral (but not internal) enhancement on CT further supports a cystic process rather than a solid, vascular tumor. These findings are consistent with a cystic lesion, but the differential diagnosis still includes the possibility of a benign stromal lesion or a well-circumscribed carcinoma.
+
+Ultimately, the histopathology report revealed scanty material formed of fragmented eosinophilic membranes with laminated appearance in keeping with hydatid cyst. This finding confirms the diagnosis of a cystic lesion, and the lack of internal vascularity, absence of microcalcifications, and peripheral enhancement on CT are all consistent with a hydatid cyst. The presence of internal anechoic cysts and thin septations on ultrasound and CT also supports this diagnosis.
+
+The final diagnosis is echinococcosis, a parasitic infection caused by the Echinococcus tapeworm. The patient's presentation and imaging findings are consistent with a hydatid cyst, which is a characteristic feature of echinococcosis.
+</stitched_reasoning>

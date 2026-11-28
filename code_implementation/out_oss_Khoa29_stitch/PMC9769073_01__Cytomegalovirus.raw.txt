@@ -1,0 +1,11 @@
+<stitched_reasoning>
+
+Considering the patient's recent exposure to terbinafine, pruritic maculopapular rash, eosinophilia, and fever, a drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome is considered. On the presumption of a DRESS syndrome, the patient started empirical topical betamethasone, which led to resolution of the skin findings over 14 days. However, the patient's persistent B symptoms and poor response to antibiotics raise suspicion for a lymphoproliferative neoplasm involving the Waldeyer ring. Tonsillar scrapings showed nonspecific necrotizing inflammation; EBV PCR from the tonsil was positive; anti-streptolysin O titer was negative. The antimicrobial course was completed.
+
+Given the patient's presentation, a bacterial tonsillitis (streptococcal) was entertained due to purulent tonsillitis and dysphagia, but the lack of clinical improvement despite clindamycin and ceftriaxone argued against it. He also developed purulent tonsillitis... initially interpreted as streptococcal... due to poor response.
+
+Viral reactivations (HHV-6, CMV, EBV) were identified by serum PCR, but viral loads were insufficient to explain extensive adenopathy and B symptoms, and EBV in situ hybridization of the node was negative. Serum virologic panel was strongly positive for HHV-6... slightly positive for EBV... EBV-encoded RNAs in situ hybridization (EBER) was negative.
+
+Mycobacterial infection was ruled out because lymph node cultures and Ziehl-Neelsen staining showed no acid-fast organisms. Lymph node cultures and Ziehl-Neelsen histochemical staining were negative.
+
+Considering the patient's persistent B symptoms, generalized painless adenopathy, eosinophilia, and lack of response to antibiotics, a lymphoproliferative neoplasm (peripheral T-cell lymphoma) remains plausible. At this point, lymphoproliferative neoplasm with probable involvement of the Waldeyer ring was contemplated, since the patient responded poorly to the antibiotics.

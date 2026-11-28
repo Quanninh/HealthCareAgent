@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient, an 8-year-old boy from rural Mpumalanga, South Africa, presents with a bladder mass and a two-year history of nocturnal enuresis. As part of the routine pre-operative work-up, a blood culture was obtained before he was discharged home. The morphology of the Gram-negative coccobacilli revealed by the Gram stain is notable, as they are catalase- and oxidase-positive and indole-negative, which is in keeping with a preliminary identification of Brucella species. This requires differentiation between true pathogen and contaminant, and the morphology aligns with Brucella rather than common contaminants.
+
+Further identification was performed using Automated Vitek 2, which yielded B. melitensis, narrowing the diagnosis to Brucella spp. and excluding other Gram-negative organisms. The identification of the organism was confirmed using matrix-assisted laser desorption/ionisation time of flight (MALDI-TOF) mass spectrometry, definitively ruling out alternative bacterial species.
+
+The epidemiologic exposure is also relevant, as the child's family had been consuming unpasteurised cow's milk from a farm where 13 of 68 cattle tested positive for B. melitensis, supporting a zoonotic source and making brucellosis the most plausible explanation. It is also worth noting that the child had no symptoms or clinical signs, which may have led one to consider brucellosis as a possible differential diagnosis, but the organism can cause asymptomatic bacteremia, especially in endemic settings.
+
+Considering the evidence, the diagnosis of brucellosis is supported by the identification of B. melitensis, the epidemiologic exposure to unpasteurised cow's milk, and the ability of the organism to cause asymptomatic bacteremia. The morphology of the Gram-negative coccobacilli and the confirmation of the Vitek result using MALDI-TOF mass spectrometry further support this diagnosis.
+</stitched_reasoning>

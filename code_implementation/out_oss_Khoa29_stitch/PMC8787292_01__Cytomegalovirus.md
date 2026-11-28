@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Invasive aspergillosis is considered due to persistent positive serum galactomannan and β-D-glucan despite negative cultures, and progressive interstitial pneumonia on CT, indicating a probable angio-invasive fungal infection. Positivity for Aspergillus and pan-fungal antigens (i.e., galatomannan and beta-D-glucan, respectively) was detected, and a computed tomography (CT) scan showed the presence of a worsening interstitial pneumonia.
+
+Bacterial sepsis is initially suspected because of fever and neutropenia, leading to piperacillin-tazobactam therapy; however, this is excluded by repeated negative bacterial cultures and lack of response to antibiotics alone. Therapy consisted of antibiotics (Piperacillin-Tazobactam)... mycete culture in nasopharyngeal aspirate and peripheral blood were negative.
+
+Viral respiratory infection (rhinovirus) is identified early but deemed insufficient to explain worsening pulmonary infiltrates and antigenemia. Diagnostic insights also revealed positivity only for Rhinovirus in the superficial respiratory secretions.
+
+Cytomegalovirus infection is considered given CMV DNA detection and interstitial pneumonitis; treated with foscarnet, yet the clinical picture does not improve without antifungal escalation, suggesting CMV alone could not account for the severe course. Cytomegalovirus (CMV) presence was also shown... antifungal therapy... dosage of Amphotericin B therapy was increased... the dosage of Amphotericin B therapy was increased to 6.25 mg/kg/day.
+
+Drug-induced mucosal toxicity (antifungal or chemotherapy) is contemplated as a cause of oral bleeding, but the rapid fatal hemorrhage from a tracheal arterial lesion indicates a structural ulcerative process rather than medication side-effects. Blood presence was observed in the lumen... three ulcerative lesions with destruction of the cartilage components were observed... Death occurred as a consequence of right inferior thyroid artery lesion due to full-thickness ulcerative perforation of the tracheal wall.
+
+Considering the persistent positive serum galactomannan and β-D-glucan, despite negative cultures, and the progressive interstitial pneumonia on CT, invasive aspergillosis is a likely diagnosis. The clinical picture does not improve without antifungal escalation, suggesting that cytomegalovirus alone could not account for the severe course. The rapid fatal hemorrhage from a tracheal arterial lesion indicates a structural ulcerative process, which is consistent with invasive aspergillosis. Therefore, the final diagnosis is aspergillosis, cytomegalovirus.
+</stitched_reasoning>

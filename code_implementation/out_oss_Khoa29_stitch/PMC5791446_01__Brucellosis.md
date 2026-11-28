@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient presents with a two-week history of dysuria, weak urinary stream, suprapubic pain radiating to the perineal area, urethral pus discharge, and fever. The symptoms had not improved after a one-week course of antibiotics, which argues against typical pathogens. Common bacterial prostatitis is considered due to the presence of dysuria, fever, and pus on urine analysis, but the lack of improvement after standard antibiotics makes this less likely. The patient reports ingestion of raw milk prior to symptom onset, which raises the possibility of Brucellosis, but we must consider other typical causes of prostatic abscess, such as E. coli and Staphylococcus.
+
+However, definitive microbiology later identifies Brucella, and a postoperative Staphylococcus infection occurred only after drainage, indicating it was not the primary etiology. The patient undergoes transurethral drainage of the abscess with placement of Foley and suprapubic catheters. One week after surgery, the patient develops low-grade fever and urine culture shows Staphylococcus species, which suggests a secondary infection rather than the primary cause of the abscess.
+
+Further investigation reveals that the pus culture and titration are positive for Brucella Bacteria, confirming the diagnosis of Brucellosis. This diagnosis is supported by the patient's history of raw milk ingestion, which is a known risk factor for Brucellosis. The enlarged, tender prostate on digital rectal examination and the presence of a prostatic abscess on transrectal ultrasonography and computed tomography of the pelvis are also consistent with this diagnosis.
+
+In conclusion, the patient's symptoms, laboratory results, and microbiology findings all support a diagnosis of Brucellosis, which is a zoonotic infection caused by Brucella bacteria. The patient's history of raw milk ingestion and the presence of a prostatic abscess are key factors in this diagnosis.
+</stitched_reasoning>

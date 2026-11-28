@@ -1,0 +1,17 @@
+<stitched_reasoning>
+The patient's presentation with a 3-year history of atypical chest pain, intensified over the past month, raises concerns for a cardiac condition. The physical examination is unremarkable, but laboratory studies reveal a positive hydatid cyst antibody by enzyme-linked immunosorbent assay (ELISA), indicating parasitic infection as a leading cause of the cystic cardiac mass. This positive serologic test with enzyme-linked immunosorbent assay (ELISA) suggests that the patient may have a parasitic infection, specifically echinococcosis.
+
+Further evaluation with echocardiography and cardiac MRI demonstrates a huge, well-defined intramyocardial multicystic mass in the posterolateral and basal inferoseptal segments of the left ventricle, with multiple cysts of varying size suggestive of daughter cysts. This multicystic intramyocardial mass with daughter cysts on echocardiography and cardiac MRI is characteristic of cardiac hydatid cysts rather than solid tumors, making echinococcosis a strong consideration.
+
+The absence of systemic involvement on abdominal CT and normal hepatic/splenic imaging supports an isolated cardiac hydatid lesion, reducing the likelihood of disseminated infection or metastatic tumor. Liver and renal function tests, complete blood count, and troponin are normal, further supporting the isolated nature of the cardiac lesion.
+
+The electrocardiography shows a pathologic Q wave in leads III and aVF and T-wave inversion in leads II, III, aVF, V6, and left atrial abnormality, which could suggest myocardial infarction. However, regional wall hypokinesia is attributed to the compressive effect of the cyst, and troponin is negative, arguing against acute infarction. Negative troponin and hypokinesia secondary to compressive effect of huge mass suggest that the patient's symptoms are more likely related to the cystic mass rather than ischemia.
+
+Coronary artery disease is considered given the occluded obtuse marginal branch, but the extensive cystic mass explains the patient's symptoms and wall motion abnormalities better than ischemia alone. Coronary angiography reveals ectatic coronary arteries with a single-vessel disease: the obtuse marginal branch was completely occluded after its origin.
+
+Alternative cardiac masses, such as myxoma, fibroma, or metastatic tumor, are not supported by imaging features such as cystic nature, daughter cysts, and lack of enhancement, making them less likely. The multicystic and encapsulated intramyocardial cystic LV mass without solid components further supports the diagnosis of echinococcosis.
+
+The combination of serologic positivity, imaging morphology, and epidemiologic exposure (farmer) collectively confirms cardiac echinococcosis as the most plausible diagnosis. The patient's occupation as a farmer, along with the presence of a large heterogeneous soft-tissue mass in the lower mediastinum adjacent to the posterior heart and extending toward the fundus of the stomach, further supports the diagnosis of echinococcosis.
+
+In conclusion, the patient's presentation, laboratory findings, imaging results, and epidemiologic exposure all support the diagnosis of cardiac echinococcosis. The presence of a positive hydatid cyst antibody, characteristic imaging features of cardiac hydatid cysts, and the patient's occupation as a farmer all contribute to the diagnosis of echinococcosis.
+</stitched_reasoning>

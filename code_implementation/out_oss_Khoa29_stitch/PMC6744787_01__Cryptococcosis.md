@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation with gait imbalance, occasional urinary incontinence, and memory impairment, an intraventricular mass was suspected. The head CT showed an intraventricular mass attached to the posterior third of the septum pellucidum and the fornix commissure, with enlargement of the lateral and third ventricles. MRI confirmed a 1.6 cm polylobulated intraventricular tumor that enhanced in a ring-like fashion after gadolinium, accompanied by active hydrocephalus. Glioma was considered the primary diagnosis, as the lesion was partially necrotic with a dense cellular component containing atypical multinucleated cells and reactive glial proliferation, favoring primary glioma.
+
+However, the routine culture of the EVD tip yielded Cryptococcus spp. (>15 colony-forming units), which was confirmed as C. neoformans. This suggests that the patient may have a cryptococcal infection. To determine if the patient is immunocompromised, blood tests for HIV Types 1 and 2 were negative, and immunoglobulin levels and CD4 cell counts were normal, reducing the likelihood of opportunistic infection in a severely immunocompromised patient. Additionally, no bacterial growth was reported in cultures, making bacterial infection unlikely.
+
+The definitive histology identified numerous round yeasts with a characteristic thick capsule, confirming its fungal nature. This, combined with the presence of Cryptococcus neoformans in the EVD tip culture, strongly suggests that the patient has cryptococcosis.
+</stitched_reasoning>

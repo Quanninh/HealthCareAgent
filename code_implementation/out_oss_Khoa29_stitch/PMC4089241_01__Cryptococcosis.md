@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation, Burkholderia cepacia infection is a potential diagnosis because bronchoalveolar lavage was positive for B. cepacia. This is supported by the fact that the organism was initially the only pathogen isolated. However, tuberculosis is also a consideration given the patient's known exposure, but it is excluded by a negative PPD test and negative cultures. Furthermore, bacterial pneumonia other than Burkholderia is considered, but it is excluded by multiple negative cultures from bronchoscopy and CT-guided biopsy, with all of the cultures being negative for bacteria, fungi, tuberculosis, and viruses.
+
+Additionally, acute rejection is considered after trans-bronchial biopsy showed grade A2 changes, but it is dismissed because the patient was still completely asymptomatic and had stable lung function, with no treatment given. Despite the lack of response to antibiotics, other fungal infections such as aspergillosis are considered, but initial cultures and biopsies did not reveal fungal elements, leading to continued diagnostic uncertainty, with cultures being negative for fungi and the pathologically inadequate sample not providing any clues.
+
+However, the presence of poorly preserved yeast-like structures suspicious for cryptococcal infection in the wedge biopsy, along with the detection of cryptococcal antigen in both cerebrospinal fluid (CSF) and serum, confirms the diagnosis of cryptococcosis.
+</stitched_reasoning>

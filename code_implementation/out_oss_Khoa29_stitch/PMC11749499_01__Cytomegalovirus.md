@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation with a large polypoid mass at a prior anastomosis in a patient with NF1, a prior gastrointestinal stromal tumor, and a history of inflammatory fibroid polyp raises a high suspicion for malignancy. The mass was biopsied, with high suspicion for malignancy at that time given her histories of NF1, GIST, and inflammatory fibroid polyp of the colon. However, the biopsy revealed ulcerated granulation tissue without evidence of malignancy, which excludes carcinoma or recurrent GIST.
+
+Given the histologic findings, we consider the possibility of a non-neoplastic process. Interestingly, the presence of "owl's eye" inclusions was noted on histologic examination; CMV immunostaining was positive. This suggests that the patient may have a viral infection, specifically cytomegalovirus (CMV). Systemic CMV replication is supported by the presence of detectable viremia and positive IgG serology indicating reactivation rather than primary infection. The patient's serum studies demonstrated CMV viremia with a level of 32 IU/mL on CMV DNA polymerase chain reaction, positive IgG antibodies to CMV, and negative IgM antibodies to CMV.
+
+To rule out a common predisposition for CMV disease, we consider the patient's HIV status. HIV combined antigen/antibody testing was nonreactive, indicating that the patient is HIV-negative. This reinforces that the CMV colitis occurred in an HIV-negative host.
+
+Considering all the evidence, the most likely diagnosis is cytomegalovirus colitis, a condition characterized by CMV infection of the colon. The presence of "owl's eye" inclusions and positive CMV immunostaining on histologic examination, combined with systemic CMV replication and the absence of HIV infection, supports this diagnosis.
+</stitched_reasoning>

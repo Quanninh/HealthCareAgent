@@ -1,0 +1,11 @@
+<stitched_reasoning>
+
+Considering the patient's presentation with non-specific upper abdominal pain and the findings on imaging, a congenital hepatic cyst is initially suggested due to the direct contact to segment 5 of the liver. The larger structure was interpreted as a congenital hepatic cyst due to the direct contact to segment 5 of the liver. However, cystic echinococcosis is also considered because of the cystic appearance, but it is excluded by negative serology. Cystic echinococcosis was excluded serologically.
+
+Given the intra-operative view of two bile ducts and the assumption of eroded bile ducts, clips were attached to effect closure. Laparoscopic evaluation of the inner cyst revealed two bile ducts and, under the assumption of eroded bile ducts, clips were attached to effect closure. However, this assumption may not be accurate, as the clips had not closed the suspected fistular ducts, but had occluded the right and left hepatic ducts.
+
+The patient developed biliary leakage, rising bilirubin, and jaundice post-operatively, which suggests that the clips may have caused obstruction of the hepatic ducts. The clips had not closed the suspected fistular ducts, but had occluded the right and left hepatic ducts. This obstruction led to the placement of a stent from the duodenum into the dilated duct.
+
+Despite the initial suspicion of pancreatitis as a secondary complication, the imaging findings suggest that it is a secondary effect rather than the primary cause of the biliary abnormalities. Computer tomography showed incipient pancreatitis.
+
+Considering all the evidence, the most likely diagnosis is a choledochal cyst, which is a congenital anomaly of the bile ducts. The presence of two bile ducts within the cyst, the obstruction of the hepatic ducts, and the biliary leakage all support this diagnosis.

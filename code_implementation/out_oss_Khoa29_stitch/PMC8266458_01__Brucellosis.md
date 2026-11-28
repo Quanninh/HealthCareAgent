@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Considering the patient's history of Brucella melitensis infection, which was previously treated for pneumonia and brucellosis, and the fact that repeat blood cultures grew Brucella melitensis, it is plausible that the patient has a Brucella infection of the cardiac device. Blood cultures were positive for Brucella melitensis, and high C-reactive protein level (77 mg/L) suggests active brucellosis with device involvement. Furthermore, transthoracic echocardiography demonstrated a single oscillating mass measuring 0.8 × 0.4 cm attached to the tip of the right-atrial lead of the ICD, suggestive of vegetation.
+
+However, Staphylococcal or other bacterial device infection is also a common cause of ICD-related infection. Physical examination revealed no skin changes over the ICD pocket, no cardiac murmurs on auscultation, and no apparent localized signs of infection, which could suggest that the infection is not limited to the skin or the cardiac device itself. Nevertheless, the fact that cultures repeatedly isolated Brucella only makes this diagnosis less likely.
+
+Another possibility is that the oscillating mass represents a sterile thrombus attached to the lead. Blood tests revealed a normal white blood cell count, and high C-reactive protein level (77 mg/L) could be indicative of an inflammatory response, but the presence of a positive Brucella culture makes an infectious etiology more plausible. The fact that the oscillating mass is attached to the tip of the right-atrial lead of the ICD also supports this diagnosis.
+
+A non-infectious inflammatory mass, such as fibrous tissue, is also considered, but the clinical picture favours infection. A positron emission tomography (PET) scan was performed to confirm the nature of the vegetation, yet the results were being inconclusive. However, the presence of a positive Brucella culture and the clinical presentation of the patient make an infectious etiology, specifically Brucella infection of the cardiac device, the most likely diagnosis.
+
+Therefore, the most plausible explanation for the patient's condition is Brucella infection of the cardiac device, supported by the positive blood cultures, high C-reactive protein level, and the presence of a vegetation attached to the ICD lead.
+</stitched_reasoning>

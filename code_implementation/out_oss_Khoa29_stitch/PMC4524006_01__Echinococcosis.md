@@ -1,0 +1,7 @@
+<stitched_reasoning>
+The patient's presentation of progressively worsening headaches, vomiting, and intermittent fever for 20 days suggests a serious underlying condition. The general physical and neurological examinations were unremarkable, but routine laboratory investigations were within normal limits, which argues against a bacterial brain abscess, as no bacterial agent was isolated. This is further supported by the normal eosinophil count, which reduces the likelihood of other eosinophil-associated parasitic infections.
+
+However, the presence of multiple intracranial cystic lesions with mass effect on MRI suggests a space-occupying cystic process, with multiple intracranial cysts predominantly in the right frontal region with significant mass effect. The lack of systemic involvement, as evidenced by normal chest X-ray, abdominal ultrasound, and eosinophil counts, makes disseminated visceral hydatid disease unlikely, but does not exclude isolated cerebral involvement. The patient's chest X-ray, ultrasound abdomen, and eosinophil counts were normal.
+
+Considering the combination of cystic MRI appearance, normal systemic work-up, and epidemiologic considerations, the most plausible cystic etiology is intracerebral hydatid cyst, also known as echinococcosis. This diagnosis is supported by the normal eosinophil count, which further reduces the likelihood of other eosinophil-associated parasitic infections.
+</stitched_reasoning>

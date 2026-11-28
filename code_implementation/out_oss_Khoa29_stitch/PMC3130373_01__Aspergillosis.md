@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Given her history of a distant squamous cell carcinoma of the anus, the presence of an erosive mediastinal mass, and recent solid-organ transplant, metastatic or recurrent malignancy and post-transplant lymphoproliferative disease were of concern. Metastatic or recurrent malignancy was a primary consideration because of the patient's prior squamous cell carcinoma and new mediastinal mass, but tissue diagnosis was required to exclude it. To further investigate these concerns, metastatic or recurrent malignancy as well as post-transplant lymphoproliferative disease were of concern and it was felt that a biopsy was needed of both foci.
+
+However, other opportunistic fungal infections, such as cryptococcosis and histoplasmosis, were also evaluated with antigen testing that returned negative. Cryptococcal antigen, galactomannan, and beta-d-glucan antigen tests were negative; urinary histoplasma antigen was also negative. Toxoplasma infection was considered, but serum toxoplasma IgG and IgM were negative. Bacterial infection was investigated through blood cultures, which showed no growth.
+
+Given the negative results of these tests, the focus shifted to the possibility of a malignancy or lymphoproliferative disease. But then, a critical finding emerged: the patient's biopsy specimens revealed septated, branching hyphae and cultures grew Aspergillus fumigatus. This definitive diagnosis of Aspergillus fumigatus was the key to understanding the patient's condition.
+</stitched_reasoning>

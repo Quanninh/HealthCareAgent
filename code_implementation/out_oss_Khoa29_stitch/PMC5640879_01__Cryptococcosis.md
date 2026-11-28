@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Tuberculous meningitis was initially considered because of chronic headache, meningeal signs, high CSF pressure, low glucose, high protein, and meningeal enhancement. It was excluded after lack of clinical improvement with anti-tubercular therapy and negative CSF PCR and cultures. Tuberculous meningitis was suspected and treated, but anti-tubercular therapy was given for 2 months, and then it proved to be ineffective.
+
+Bacterial, fungal, and viral meningitis were entertained due to aseptic meningitis presentation, but were ruled out by negative CSF cultures, India-Ink stain, and viral antibody panels. Negative results were reported in the following CSF etiological investigations: polymerase chain reaction for tuberculosis, bacteria and fungi cultures, India Ink stain for Cryptococcus, and IgG and IgM antibodies targeting various viruses and parasites.
+
+Metastatic carcinomatous meningitis was a differential given diffuse meningeal enhancement and cystic lesions; however, chest and abdominal CT scans showed no primary tumor, and the thalamic biopsy yielded only scant lymphocytes. Chest CT and abdomen CT scans did not indicate any abnormality, and the infiltration by a few lymphocytes was the only observation.
+
+Primary diffuse leptomeningeal gliomatosis was ultimately diagnosed after brain biopsy demonstrated glial tumor cells strongly positive for GFAP and S100, partly positive for OLIG2 and P53, and negative for IDH1(R132H), confirming an anaplastic astrocytoma, IDH-wildtype. Brain biopsy of the left temporal lobe was performed and spindle-shaped tumor cells were found... strongly positive for glial fibrillary acidic protein (GFAP) and S100, partly positive for OLIG2 and P53, and negative for IDH1(R132H)... anaplastic astrocytoma, IDH-wildtype (WHO grade III) was confirmed. Combined with the extensive changes in brain MRI, PDLG was diagnosed.
+</stitched_reasoning>

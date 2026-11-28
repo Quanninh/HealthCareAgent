@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Bacterial pneumonia/sepsis due to Klebsiella pneumoniae was considered because bronchoalveolar lavage culture grew this organism, but the extensive pulmonary infiltrates, gastrointestinal ileus, and lack of clinical improvement despite targeted antibiotics suggested an additional process. The patient's presentation was not consistent with a simple bacterial infection, as the extensive pulmonary infiltrates and gastrointestinal ileus indicated a more complex underlying condition.
+
+Cytomegalovirus reactivation was evaluated given the high viral load, yet CMV alone does not explain the cutaneous purpura, paralytic ileus, and motile larvae observed later. The high CMV DNA quantification of 1.81 x 10⁶/ml suggested that CMV reactivation was a possibility, but the presence of other symptoms and findings pointed to a more complex diagnosis.
+
+Drug-induced vasculitis/purpura fulminans was a differential because of purpuric rash and histology showing thrombi, but the skin biopsy did not reveal any parasitic elements and systemic findings were disproportionate. The skin biopsy showed occasional thrombi in dermal vessels with extravasation of red blood cells; epidermis was largely unremarkable which is compatible with purpura fulminans. No larvae were seen, which made drug-induced vasculitis a less likely explanation for the patient's symptoms.
+
+Strongyloides stercoralis hyperinfection syndrome was identified as the unifying diagnosis after microscopy revealed motile larvae in the bronchoalveolar lavage, correlating with immunosuppression from high-dose steroids, gastrointestinal dysmotility, and multi-organ involvement. A wet mount was seen which revealed motile larvae resembling larvae of Strongyloides stercoralis. This finding, combined with the patient's immunosuppressed state and multi-organ involvement, made Strongyloides stercoralis hyperinfection syndrome the most likely diagnosis.
+</stitched_reasoning>

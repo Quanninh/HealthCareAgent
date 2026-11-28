@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Bacterial discitis/osteomyelitis is considered because of imaging evidence of infection, with a repeat MR study demonstrating abnormal intradiscal signal between the L3 and L4 vertebral bodies consistent with disc space infection and adjacent vertebral osteomyelitis, along with a small amount of enhancing phlegmon. However, this diagnosis is ruled out by repeatedly negative blood cultures and a nondiagnostic CT-guided biopsy with negative cultures. Blood cultures were obtained and were negative. CT-guided biopsy of the disc space was nondiagnostic with negative cultures.
+
+Given the negative cultures and lack of response to empiric broad-spectrum antibiotics, tuberculous vertebral osteomyelitis is considered as a less common cause of spinal infection. However, this diagnosis is not supported by any positive acid-fast bacilli stain, culture, or epidemiologic clues, and the patient showed no response to antibacterial therapy. No specific positive findings for Mycobacterium were present, and the lack of improvement despite antibiotics implied exclusion.
+
+The patient's lack of response to antibacterial therapy and the absence of a bacterial isolate suggest that a fungal infection, including Aspergillus, may be the underlying cause. Fungal culture revealed growth of Aspergillus nidulans, and serum Aspergillus antigen and Fungitell assays were significantly elevated. These findings confirm the diagnosis of a fungal infection, specifically aspergillosis.
+</stitched_reasoning>

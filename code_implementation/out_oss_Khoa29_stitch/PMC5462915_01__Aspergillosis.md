@@ -1,0 +1,7 @@
+<stitched_reasoning>
+We begin by considering the possibility of ACTH-dependent Cushing syndrome, which is suspected because basal ACTH was elevated, leading us to expect ACTH-dependent Cushing syndrome. However, primary hyperaldosteronism is excluded by plasma renin activity and aldosterone being within normal ranges, despite severe hypokalemia. Furthermore, primary adrenal cortisol-producing tumor is ruled out by both adrenal glands being diffusely thickened without any evidence of a mass. 
+
+Given these findings, Cushing disease, which is a pituitary source of ACTH, is excluded by the absence of a pituitary lesion on MRI. Additionally, Cushing disease is further excluded by the lack of an ACTH gradient on bilateral inferior petrosal sinus sampling, which revealed no petrosal to peripheral ACTH gradient. 
+
+Considering these possibilities, ectopic ACTH secretion is favored because serum cortisol was not suppressed by an 8 mg high-dose DMST, implying EAS. The only identifiable extrathoracic lesion is a right anterior cardiophrenic-angle mass on CT/MRI, making it the most probable ectopic source. Contrast-enhanced computed tomography (CT) of the thorax showed a round-shaped mass with cystic components measuring approximately 27 mm × 21 mm at the right anterior cardiophrenic angle, with partial contrast enhancement; the mass had been unchanged for 3 years on prior abdominal CT. Chest MRI identified a lobulating nodule corresponding to the previously seen thoracic lesion.
+</stitched_reasoning>

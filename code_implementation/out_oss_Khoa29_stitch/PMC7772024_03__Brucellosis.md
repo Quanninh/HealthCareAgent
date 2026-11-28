@@ -1,0 +1,11 @@
+<stitched_reasoning>
+A 46-year-old man with a long history of alcohol abuse was transferred to our department for further evaluation of newly diagnosed alcoholic cirrhosis. He had previously been admitted to another hospital for delirium tremens and rhabdomyolysis. During that admission he developed a mild fever, which was attributed to aspiration and treated with amoxicillin-clavulanate. On transfer, physical examination and imaging demonstrated extensive ascites, splenomegaly, prolonged international normalized ratio (INR), hypoalbuminemia, and mild lower esophageal varices. Low-grade fever persisted despite the antibiotic course.
+
+Aspiration pneumonia was initially considered because of recent delirium tremens and a prior mild fever, but fever persisted despite appropriate amoxicillin-clavulanate therapy. Mild fever was observed, which was considered as a consequence of aspiration and treated with amoxicillin-clavulanate. However, the persistence of fever suggests that aspiration pneumonia may not be the sole cause of the patient's symptoms.
+
+Brucellosis was suspected due to recent travel to an endemic area and ingestion of unpasteurized sheep dairy products, fitting the classic exposure risk profile. Medical history revealed a recent, 50 days ago, trip to Spain and consumption of nonpasteurized dairy products (sheep's products). This exposure history raises the possibility of brucellosis, particularly given the patient's recent travel to an area where the disease is endemic.
+
+Persistent low-grade fever in a patient with cirrhosis prompted investigation beyond common bacterial infections, leading to blood culture and serologic testing that confirmed Brucella melitensis infection. Blood cultures were positive for B. melitensis, confirmed by Rose Bengal plate agglutination, Wright seroagglutination test, and ELISA serology. This confirms the suspicion of brucellosis, and further investigation is warranted to determine the extent of the infection.
+
+In conclusion, the patient's symptoms and exposure history are consistent with brucellosis, and laboratory testing confirms the presence of Brucella melitensis infection. The final diagnosis is brucellosis.
+</stitched_reasoning>

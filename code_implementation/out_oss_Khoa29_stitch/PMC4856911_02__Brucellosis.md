@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient presents with a systemic febrile illness, characterized by fever, drenching sweats, headache, generalized fatigue, and joint pain. Examination reveals fever and swelling of the right ankle, with the joint being hot, tender, and having a restricted range of motion. Ultrasound and MRI of the right ankle demonstrate a large effusion with tibialis posterior tenosynovitis. Laboratory studies show a white-blood-cell count of 7.7 × 10⁹/L, erythrocyte sedimentation rate of 45 mm/hr, and C-reactive protein of 53 mg/L. Synovial fluid obtained from the ankle is cloudy, straw-colored, with a cell count of 3.3 × 10⁹/L and 53% polymorphonuclear cells. The patient reports that his father and brother had become ill around the same time, and all three had consumed raw milk.
+
+This constellation of symptoms and findings suggests an infectious or inflammatory etiology, with the epidemiologic link to raw-milk consumption pointing toward a zoonotic infection. He, his father, and his brother developed brucellosis concurrently. They all consumed the same raw milk. This raises the suspicion of brucellosis, a zoonotic infection caused by the Brucella species.
+
+To confirm this suspicion, we need to establish evidence of exposure to the Brucella species. Positive serology with a high immunocapture assay titer is a key diagnostic criterion for brucellosis. Brucella serology done by immunocapture assay was significantly raised 1:10240. This high titer suggests a recent or ongoing exposure to the Brucella species.
+
+However, we also need to confirm the presence of the organism in the patient's body. Isolation of the organism from blood culture provided microbiologic confirmation of the diagnosis. Blood culture isolated Brucella species. The negative synovial fluid culture argues against a primary septic arthritis caused by common bacterial pathogens.
+
+Taking all these findings together, we can conclude that the patient has brucellosis. The systemic febrile illness, joint pain, and tenosynovitis, combined with the epidemiologic link to raw-milk consumption, positive serology, and isolation of the organism from blood culture, all point to this diagnosis.
+</stitched_reasoning>

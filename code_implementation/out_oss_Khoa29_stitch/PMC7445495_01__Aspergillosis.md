@@ -1,0 +1,7 @@
+<stitched_reasoning>
+A 45-year-old Chinese woman presented with a 2-week history of cough and sputum production. Physical examination was unremarkable. Initial laboratory studies, including complete blood count, serum biochemistry, and tumor markers, were within normal limits. A non-contrast chest CT demonstrated a high-density opacity in the inferior lobe of the right lung. Bacterial pneumonia was considered initially because of cough and sputum, prompting moxifloxacin therapy; however, the lesion showed only minimal improvement on repeat CT, suggesting an atypical or non-bacterial process. The enhanced CT was performed after 2 weeks' treatment with oral moxifloxacin on June 7, which revealed a little progress of the lesion.
+
+Pulmonary aspergillosis was suspected after Aspergillus fumigatus was cultured from BAL fluid, leading to voriconazole therapy; the lack of clinical improvement and further radiographic progression argued against true invasive aspergillosis. However, the patient's symptoms worsened. The re-checked CT on July 27 demonstrated marked progression of the lesion... Then, voriconazole treatment was discontinued.
+
+Given the progressive infiltrates despite appropriate antimicrobial therapy and the appearance of a new ground-glass opacity, primary lung malignancy (adenocarcinoma) became the most likely diagnosis. CT-guided percutaneous lung biopsy and pathological results showed lung adenocarcinoma.
+</stitched_reasoning>

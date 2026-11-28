@@ -1,0 +1,15 @@
+<stitched_reasoning>
+
+We consider the possibility of infective endocarditis, but it is excluded by cardiac imaging, specifically a transthoracic echocardiogram (TTE) that shows no evidence of endocarditis. This rules out a potential source of sepsis.
+
+Next, we evaluate the possibility of right-sided endocarditis, but it is also excluded with transesophageal imaging, which on hospital day eight did not show any evidence of right-sided endocarditis. This further supports the conclusion that the source of sepsis is not related to endocarditis.
+
+We also consider the possibility of HIV infection and associated opportunistic fungal disease, but serology results, including Fungitell, Aspergillus galactomannan assay, and HIV 1/2 testing, are negative. This rules out HIV infection as a potential source of sepsis.
+
+The patient's presentation with isolated pulmonary embolism is considered, but imaging demonstrates septic-appearing emboli, specifically changes consistent with septic pulmonary emboli on CT angiography of the chest with IV contrast. This suggests that the pulmonary embolism is not a non-infectious process.
+
+We also consider the possibility of non-infectious deep-vein thrombosis, but infection is favored due to overlying cellulitis, purulent drainage, and systemic sepsis. The left antecubital fossa is erythematous and painful, with purulent fluid expression, which supports the diagnosis of infection.
+
+Finally, we consider the possibility that the sepsis is due to a catheter-related bloodstream infection, and this is supported by local catheter site inflammation and subsequent culture growth of gram-positive bacteria. Preliminary cultures growing gram-positive bacteria imply that the catheter is the portal of entry for the infection.
+
+Taking all of these points into consideration, we conclude that the patient has septic thrombophlebitis, which is a complication of the catheter-related bloodstream infection.

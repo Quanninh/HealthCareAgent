@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Given the patient's presentation of swelling and pain in his left lower back, persisting for five years, with a gradual onset and progressive worsening over time, a tuberculous psoas abscess is considered due to prior diagnosis and endemic TB exposure. The patient, originating from an echinococcus-endemic region, previously been diagnosed with a tuberculous cold abscess in the psoas muscle. However, despite the resolution of the fever, his abdominal pain and swelling persisted and gradually worsened, correlating with the progression observed in imaging, suggesting a lack of clinical and radiologic response to anti-TB therapy, indicating an alternative etiology.
+
+Imaging characteristics, such as multiloculated, septated, peripheral enhancement, and displacement of the ureter, are atypical for a simple TB cold abscess, further supporting the need to consider alternative diagnoses. CT revealed multiloculated collection along the anterior, medial, and lateral aspects of the middle and distal one-third of the left psoas muscle, measuring 4 cm craniocaudal, 3 cm anteroposterior, and 3 cm transverse, displacing the left ureter medially and the psoas muscle laterally. MRI showed a multiloculated septate, peripherally enhancing collection/abscess along the anterior left psoas fascia with an exophytic component in the left iliac fossa measuring approximately 30 × 70 mm.
+
+Given the patient's endemic exposure to echinococcus, suspicion for hydatid disease is raised. The patient's lack of response to anti-TB therapy and the atypical imaging characteristics further support this suspicion. The lesion was initially managed as a multiloculated tuberculous cold abscess, but the imaging characteristics and clinical presentation suggest an alternative diagnosis.
+
+Perioperative aspiration revealed clear fluid, leading to the diagnosis being revised to a hydatid cyst. Histopathology demonstrated the classic laminated chitinous wall and germinal layer confirming echinococcus. Sections of the cyst wall with a lining composed of an inner germinal layer and an outer chitinous, acellular, lamellate layer, consistent with an echinococcus cyst.
+
+Based on the patient's presentation, imaging characteristics, and histopathology, the final diagnosis is echinococcosis.
+</stitched_reasoning>

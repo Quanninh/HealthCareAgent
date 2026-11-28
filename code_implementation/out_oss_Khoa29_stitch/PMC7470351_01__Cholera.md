@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Infectious watery diarrhea is a consideration, given the patient's symptoms of severe watery diarrhea and vomiting. Stool microscopy showed actively motile, darting bacteria consistent with Vibrio spp. This suggests that the cause of the patient's symptoms may be a non-invasive bacterial pathogen. The presence of motile, darting organisms in the stool is a key finding that points towards Vibrio species.
+
+Further investigation of the stool culture characteristics reveals that the bacteria are sucrose-fermenting, as indicated by yellow colonies on TCBS agar. This is a characteristic feature of Vibrio species. Additionally, the bacteria are non-lactose-fermenting on MacConkey agar, which is consistent with Vibrio species. The oxidase positivity, gas production, and biochemical profile of the bacteria also support the suspicion of Vibrio species.
+
+However, not all Vibrio species are created equal, and further investigation is needed to determine the specific species involved. The biochemical pattern of the bacteria is similar to that of V. furnissii, but specific PCR for V. furnissii is negative, which prompts exclusion of this species. This means that the bacteria are not V. furnissii, but the exact species remains to be determined.
+
+Further investigation using PCR amplification of the 16S rRNA gene shows that the bacteria have 99% homology with V. cholerae. This is a strong indication that the bacteria are indeed V. cholerae. Additionally, a positive species-specific PCR for V. cholerae confirms this finding. Serology of V. cholerae is determined, and it is identified as gas-producing V. cholerae serogroup O1, biovar El Tor, serotype Ogawa. This is a specific and well-defined strain of V. cholerae, and the findings are consistent with a diagnosis of cholera.
+</stitched_reasoning>

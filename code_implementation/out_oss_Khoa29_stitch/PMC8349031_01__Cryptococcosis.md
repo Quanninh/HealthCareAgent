@@ -1,0 +1,7 @@
+<stitched_reasoning>
+He was initially treated as a community-acquired chest infection with ceftriaxone and azithromycin, given his presentation of fever, productive cough, and infiltrates. However, the lack of response to these antibiotics and the atypical CT findings prompted further work-up. Tuberculosis was a differential because nodular infiltrates can represent granulomatous disease, but no acid-fast bacilli were reported and the CT pattern was not classic for TB.
+
+He had no pets and no known contact with birds, reducing the likelihood of bird-associated fungi, such as histoplasmosis, which was also considered as a possible cause. Pneumocystis pneumonia (PJP) was a possible opportunistic infection in an immunosuppressed host, but BAL cytology showed a predominance of lymphocytes rather than the typical foamy alveolar casts of PJP, and no organism consistent with PJP was identified.
+
+Given the patient's history of Crohn's disease and treatment with infliximab, an immunosuppressed state was a concern, making opportunistic infections a consideration. The BAL cytology showed 55% lymphocytes, which, combined with the lack of response to initial antibiotics and atypical CT findings, led to further investigation. The culture of bronchoalveolar lavage grew Cryptococcus neoformans, and Grocott stain highlighted rounded yeasts with a thick capsule, confirming cryptococcosis as the cause of the pulmonary infiltrates.
+</stitched_reasoning>

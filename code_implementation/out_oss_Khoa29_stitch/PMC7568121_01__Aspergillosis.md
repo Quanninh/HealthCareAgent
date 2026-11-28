@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation of a 4-month history of generalized, holocranial headache of mild-to-moderate intensity, non-progressive, without features of raised intracranial pressure or fever, and the neurological examination revealing bilateral sixth-nerve palsy, a clival chordoma was considered the most likely diagnosis based on imaging characteristics typical for this tumor, including an expansile osteolytic clival lesion with iso- to hypointense T1 signal, T2 hypointensity due to fibrous content, and strong contrast enhancement. These features were spot-on match with a radiological diagnosis of clival chordoma.
+
+However, further investigation revealed that the intra-operative frozen section revealed fungal elements and culture grew Aspergillus flavus, leading to a change in management and clinical improvement with voriconazole. Peroperative squash analysis of tissue sent for frozen section revealed fungal infection... Aspergillus flavus growth was seen after aerobic incubation of tissue sample for four weeks.
+
+Given the radiologic features initially interpreted as consistent with a clival chordoma, it is clear that the imaging characteristics were not sufficient to rule out other diagnoses. The presence of fungal elements and Aspergillus flavus growth in the tissue sample suggests that the patient's symptoms and imaging findings are more consistent with a fungal infection, specifically aspergillosis.
+</stitched_reasoning>

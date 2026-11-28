@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Initially, the patient's presentation of isolated thrombocytopenia and mucosal bleeding led to consideration of immune thrombocytopenic purpura (ITP). However, this diagnosis was ruled out by the lack of response to Intravenous Immunoglobulin (IVIG) 1 g/kg, which was administered without effect, and the presence of hemolysis with schistocytes, indicating a more complex underlying process. The final result of the bone marrow aspiration revealed peripheral destruction of blood cells, indicating microangiopathic hemolytic anemia (MAHA), likely thrombotic microangiopathy (TTP/HUS), which is supported by the presence of low platelets, elevated LDH, and schistocytes.
+
+The presence of granulomas in the bone marrow also necessitated consideration of infectious causes, including Mycobacterium tuberculosis. However, the QuantiFERON-TB Gold test was negative, ruling out tuberculosis. Viral infections, such as EBV, CMV, and HIV, were also considered as possible triggers for marrow granulomas and cytopenias, but their negative serologies excluded these possibilities.
+
+The non-necrotizing granulomas in the bone marrow could also be attributed to sarcoidosis, but this diagnosis was deemed nonspecific due to the patient's exposure to endemic infectious agents and the lack of other systemic features. Malignancy, including leukemia or lymphoma, was also considered due to the presence of hepatosplenomegaly and lymphadenopathy, but the bone marrow aspirate did not suggest malignancy.
+
+Given the patient's consumption of unpasteurized goat milk and cheese, which is endemic in Saudi Arabia, and the presence of granulomatous marrow changes, brucellosis became a consideration. The negative work-up for other infections, including viral and bacterial causes, further supported this possibility. Therefore, brucella titers were sent to confirm the diagnosis, which ultimately revealed that the patient had brucellosis.
+</stitched_reasoning>

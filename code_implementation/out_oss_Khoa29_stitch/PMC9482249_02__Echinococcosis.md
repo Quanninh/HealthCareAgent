@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation with a large cystic mass in the left abdomen, along with the imaging findings of a huge intraperitoneal hypodense cystic mass, prompts consideration of several differential diagnoses. Initially, mesenchymal tumors are considered because the CT revealed a large cystic mass without solid components; however, the lack of vascularity and absence of invasive features make this less likely. The main differential diagnosis is mesenchymal tumors, germ-cell tumors, and hydatid cysts, given the endemicity of echinococcosis.
+
+Further evaluation of the patient's serology and tumor markers reveals that they are negative, which reduces the probability of a germ-cell tumor. This is consistent with the fact that hydatid serology and tumor markers were negative. Additionally, the imaging characteristics of the cyst, including its thin-walled, non-vascularized nature without typical daughter cysts, make hydatid cyst (echinococcosis) a primary consideration, yet the serology was negative, which further reduces its probability.
+
+Given the concern for echinococcosis, fine-needle aspiration is deliberately avoided to prevent spillage of potential hydatid contents. Therefore, a fine needle aspiration was not an option. The patient undergoes a midline laparotomy, and intra-operatively, a retroperitoneal cyst on the left side is identified, measuring 20 × 15 cm. Due to its size, a monobloc resection is deemed hazardous, so the cyst is opened and 1500 ml of fluid aspirated before careful total cystectomy.
+
+During the exploration, a 1.5 cm mass of the cephalic pancreas is identified, which is easily enucleated. This lesion is considered incidental given its small size and separate location from the large retroperitoneal cyst. The histopathological examination of the specimens shows large dilated cysts lined by flattened endothelial cells, suggestive of cystic lymphangioma.
+</stitched_reasoning>

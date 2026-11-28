@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Considering the patient's presentation, we first consider the possibility of invasive fungal sinusitis due to Aspergillus. The serum β-d-Glucan level was 46 pg/ml (upper limit of normal: 19 pg/ml), which is significantly elevated, pointing toward a fungal etiology. Furthermore, imaging is consistent with fungal involvement, and pathology later confirmed Aspergillus. The beta-d-Glucan serum level was 46 pg/ml (upper limit of normal: 19 pg/ml). Based on the pathological analysis of the fungal ball, the sinusitis was found to be due to an Aspergillus species.
+
+However, we must also consider the possibility of bacterial sinusitis. Elevated β-d-Glucan levels are not typically seen in bacterial infections, as this marker is specific to fungal cell wall components. The beta-d-Glucan serum level was 46 pg/ml (upper limit of normal: 19 pg/ml). Although this is a plausible consideration, the elevated β-d-Glucan level makes it less likely.
+
+The patient's presentation also raises the possibility of non-infectious causes of epistaxis, such as trauma from instrumentation. However, the bleeding persisted after hemostatic balloon removal, and cerebral angiography revealed an aneurysm directly communicating with the sinus. Cerebral angiography showed an irregularly shaped de novo aneurysm at the medial side of the cavernous portion of the right ICA, the tip of which was projecting into the sphenoid sinus. This makes a non-infectious cause of epistaxis unlikely.
+
+Furthermore, we consider the possibility of a degenerative (non-infectious) aneurysm. However, earlier CT showed loss of bony integrity surrounding the aneurysm, suggesting direct fungal invasion rather than a purely atherosclerotic process. The retrospective review of the computed tomography before the first stenting intervention revealed the gap of bony structure around the aneurysm, which suggested that the direct invasion of Aspergillus adjacent to the cavernous ICA had been already occurred. This makes a degenerative aneurysm an unlikely explanation.
+
+Considering all the above points, the most likely diagnosis is invasive fungal sinusitis due to Aspergillus, which is consistent with the elevated β-d-Glucan level, imaging findings, and pathology results.
+</stitched_reasoning>

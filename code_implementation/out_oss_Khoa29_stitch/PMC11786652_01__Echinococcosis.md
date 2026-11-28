@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's presentation of intermittent light yellowish discoloration of the eyes, epigastric and right upper quadrant colicky pain, and laboratory studies showing elevated liver enzymes and bilirubin, a hydatid cyst of the liver is entertained due to cystic liver lesions on ultrasound, "multiple thin-walled cysts in the right lobe and hilum of the liver, the largest measuring 8 × 7 cm, suggesting a hydatid cyst of the liver." This diagnosis is further supported by the patient's history of cholangitis treated with antibiotics, which may indicate a predisposition to parasitic infections.
+
+However, the CT scan demonstrates a unilocular cystic mass in segment 4, measuring 8 × 7.6 cm, without internal septations, and the mass compressed the common hepatic duct, leading to a preliminary diagnosis of hydatid cyst of the liver with intraductal rupture. This finding suggests that the hydatid cyst may be causing biliary obstruction, which could explain the patient's symptoms.
+
+Despite the initial suspicion of a hydatid cyst, the MRCP reveals characteristic ductal dilatation and central-dot sign, indicating a type IV-A choledochal cyst. The central dot signs were noted, indicating dilated intra-hepatic bile ducts surrounding portal-vein branches, suggesting a type IV-A choledochal cyst. This finding is more consistent with the MRCP results, which show dilated intra-hepatic and extra-hepatic biliary ducts, including the common hepatic duct, cystic duct, and common bile duct (CBD), with the CBD being the largest.
+
+Given the MRCP findings, biliary obstruction from gallstones or malignancy is deemed less likely because no filling defects or strictures were seen on MRCP. This rules out other potential causes of biliary obstruction, making the diagnosis of a type IV-A choledochal cyst more likely.
+</stitched_reasoning>

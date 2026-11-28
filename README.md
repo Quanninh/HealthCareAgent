@@ -1,4 +1,7 @@
 # This is the branch where I update progress on my reasoning labeling
+
+> **Note:** `code_implementation/out_oss_Khoa29/` currently contains **dummy placeholder data** (since real data is stored in oss_extracted_cases.jsonl already)(`DUMMY_CASE_01__Aspergillosis.md`, `DUMMY_CASE_02__COVID-19.md`, and a matching `manifest.jsonl`) rather than the real 2,949 clinical case outputs. See [`code_implementation/README.md`](code_implementation/README.md) for instructions on regenerating the full extraction outputs.
+
 ## `oss_extracted_cases.jsonl` Schema
 
 Each line is a JSON object (2,949 records total) joining the OSS model extraction output (`out_oss_Khoa29/*.md`) with the ground-truth SOAP labels (`model_inputs_soap_21_final.jsonl`):

@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Lupus nephritis was considered because of positive ANA and anti-dsDNA antibodies, but lack of typical systemic manifestations and low complement C4 (with normal C3) made isolated renal involvement less certain. However, ANCA-associated vasculitis was also entertained given rapid renal dysfunction and hematuria; however, ANCA testing was negative and there were no respiratory or ENT manifestations. Furthermore, anti-GBM disease (Goodpasture) was a potential cause of rapidly progressive glomerulonephritis, but anti-GBM antibodies were absent. 
+
+Infectious granulomatous disease, including tuberculosis, was a differential because of the solitary cervical lymph node, elevated CRP, and imaging showing lymphadenopathy; the Mantoux test later proved positive, supporting TB exposure. Brucellosis can present with granulomatous renal involvement, yet serology was negative, making it unlikely. Other causes of granulomatous interstitial nephritis, such as sarcoidosis, were less likely given normal chest radiograph and lack of systemic sarcoid features. Her admission chest radiograph was normal.
+
+Considering the presence of a solitary cervical lymph node, elevated CRP, and imaging showing lymphadenopathy, the likelihood of infectious granulomatous disease, including tuberculosis, increased. The Mantoux test later proved positive, supporting TB exposure. She had been vaccinated with BCG in her childhood. A mantoux test was subsequently performed and was positive at 12 mm. 
+
+The combination of positive ANA and anti-dsDNA antibodies, but lack of typical systemic manifestations and low complement C4, made lupus nephritis a consideration, but the absence of anti-GBM antibodies and negative ANCA testing made other diagnoses more likely. The presence of a solitary cervical lymph node, elevated CRP, and imaging showing lymphadenopathy, pointed towards infectious granulomatous disease, including tuberculosis. The negative serology for brucellosis and normal chest radiograph further supported this diagnosis.
+
+In view of the presentation of acute renal failure, haematuria, and proteinuria with serological evidence suggestive of lupus, a renal biopsy was performed to clarify the diagnosis. However, the renal biopsy results were not provided, but the subsequent diagnosis of tuberculosis suggests that the renal biopsy was not necessary to confirm the diagnosis.
+
+The final diagnosis was tuberculosis, which was supported by the positive Mantoux test and the clinical presentation of a solitary cervical lymph node, elevated CRP, and imaging showing lymphadenopathy. The negative serology for brucellosis and normal chest radiograph further supported this diagnosis.
+</stitched_reasoning>

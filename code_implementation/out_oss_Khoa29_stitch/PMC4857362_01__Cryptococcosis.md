@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The patient's presentation with sudden dysphasia and a poorly localized headache, initially presumed to be a stroke, warrants further investigation. The imaging findings of multifocal, asymmetric cortical infarcts with leptomeningeal enhancement and micro-haemorrhages are atypical for common ischemic stroke and suggest an inflammatory vascular process. Multifocal regions of diffusion restriction, prominent areas of cortical fluid-attenuated inversion recovery (FLAIR) hyperintensity and thickening of the cortex, extensive leptomeningeal enhancement, subcortical micro-haemorrhages and minor convexity subarachnoid blood are observed, which are more suggestive of an inflammatory vascular process rather than a typical ischemic stroke.
+
+Systemic vasculitis is considered as a potential diagnosis, but extensive serologic testing for ANCA, rheumatoid factor, anti-cyclic citrullinated peptide, double-stranded DNA, antiphospholipid antibodies, cryoglobulins, and lupus anticoagulant were all negative or normal, and there were no systemic clinical features. This makes systemic vasculitis an unlikely diagnosis.
+
+Infectious meningitis/encephalitis is also considered, but CSF PCR for HSV, enterovirus, VZV, EBV was negative, cryptococcal antigen titre was negative, and serology for HIV, hepatitis B, hepatitis C, and syphilis was negative. This rules out infectious meningitis/encephalitis as a potential diagnosis.
+
+Primary demyelinating disease is considered less likely given the absence of oligoclonal bands, normal inflammatory markers (ESR, CRP), and the progressive, infarct-type imaging pattern rather than typical demyelinating plaques. Oligoclonal bands were not present, and full blood count, erythrocyte sedimentation rate, C-reactive protein were normal.
+
+Neoplastic infiltration is also considered unlikely, as tumor markers (CA 125, CA 153, CA 199, CEA) were within normal limits and imaging showed infarct-type lesions without mass effect. Results for tumour markers CA 125, CA 153, CA 199 and carcinoembryonic antigen (CEA) were also normal.
+
+Considering the above points, the most likely diagnosis is primary angiitis of the central nervous system (PACNS). Brain and meningeal biopsy demonstrated lymphocytic transmural infiltrates with fibrinoid change in small muscular vessels, confirming the diagnosis of PACNS. The findings were consistent with PACNS - showing patchy infarcts of variable age and vasculitic changes in small muscular cerebral and meningeal blood vessels consisting of transmural infiltrates predominantly of lymphocytes with fibrinoid change...
+</stitched_reasoning>

@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation of facial swelling, fatigue, weight gain, hypertension, insomnia, weakness, and easy bruising, along with laboratory studies showing elevated midnight cortisol, ACTH, and urinary free cortisol, suggests ACTH-dependent Cushing syndrome. These findings were consistent with an ACTH-dependent CS. However, the lack of suppression on the low-dose dexamethasone test raises the possibility of ectopic ACTH production, which typically does not suppress. No suppression was seen with high-dose dexamethasone test. This possibility is further supported by the absence of cortisol suppression on the high-dose dexamethasone test.
+
+To determine the source of ACTH, inferior petrosal sinus sampling was performed, which demonstrated a central-to-peripheral ACTH gradient, confirming a pituitary origin and excluding ectopic sources. Inferior petrosal sinus (IPS) sampling confirmed a pituitary source of ACTH secretion. This finding suggests that the patient has an ACTH-secreting pituitary adenoma.
+
+However, the presence of pulmonary nodules and positive antigen testing and histology for Cryptococcus neoformans indicates that the patient also has a cryptococcal infection. Bronchoalveolar lavage fluid (BALF) and serum cryptococcal antigen was positive. Lung biopsy histology confirmed pulmonary Cryptococcus neoformans. This finding suggests that the patient's pulmonary symptoms are due to the cryptococcal infection rather than metastatic disease or other opportunistic infections.
+
+Considering the patient's presentation and the findings from the diagnostic tests, the most likely diagnosis is an ACTH-secreting pituitary adenoma, which is a pituitary adenoma that secretes ACTH, leading to Cushing syndrome. The patient's symptoms and laboratory studies are consistent with this diagnosis, and the inferior petrosal sinus sampling confirmed a pituitary source of ACTH secretion.
+</stitched_reasoning>

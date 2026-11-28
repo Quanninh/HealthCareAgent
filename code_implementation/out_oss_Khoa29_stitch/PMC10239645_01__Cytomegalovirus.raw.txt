@@ -1,0 +1,19 @@
+<stitched_reasoning>
+
+Infectious optic neuropathy is considered as a potential diagnosis, but it is excluded by comprehensive negative serologies. Laboratory workup was all negative and included Lyme, Toxoplasma, QuantiFERON, Syphilis, COVID‑19, Herpes simplex virus, Herpes zoster virus, Varicella‑zoster virus, Epstein‑Barr virus, Bartonella, Cytomegalovirus, liver function tests, basic metabolic panel, thyroid panel, vitamin B1, B12, folic acid, rheumatoid factors (RF), antinuclear antibodies (ANA), antineutrophil cytoplasmic antibodies (ANCA), and angiotensin converting enzyme (ACE). 
+
+Syphilis is specifically ruled out by negative serology. 
+
+Viral etiologies such as Herpes simplex virus, Herpes zoster virus, Varicella‑zoster virus, Epstein‑Barr virus, and Cytomegalovirus are excluded by negative testing. 
+
+Tuberculosis is excluded via negative QuantiFERON. 
+
+Inflammatory sarcoid or autoimmune optic neuropathy is deemed unlikely given normal ACE, ANA, and ANCA. 
+
+Ischemic optic neuropathy is deemed less likely because the MRI lacked enhancement, a pattern more typical of toxic neuropathy. These findings have been previously seen in toxic optic neuropathies rather than ischemic optic neuropathies. 
+
+Given the MRI pattern and exclusion of other etiologies, a toxic etiology is considered. 
+
+Demyelinating or infiltrative processes are excluded by normal CSF opening pressure and analysis. Spinal tap showed a normal opening pressure of 16.5 cmH₂O, normal cerebrospinal fluid analysis, negative culture, and cytology. 
+
+Considering all the above points, the most likely diagnosis is toxic optic neuropathy.

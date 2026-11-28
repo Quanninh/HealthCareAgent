@@ -1,0 +1,9 @@
+<stitched_reasoning>
+
+Considering the patient's presentation, we first note the presence of cotton-wool spots and pre- and intraretinal hemorrhages in both eyes, which point toward a microvascular HIV-related retinopathy rather than necrotizing infectious retinitis. Dilated fundus examination revealed cotton-wool spots and pre- and intraretinal hemorrhages in both eyes compatible with HIV retinopathy. This suggests that the patient's retinal findings are more consistent with a microvascular etiology rather than a necrotizing infectious process.
+
+Furthermore, the absence of anterior segment inflammation makes anterior uveitis or keratitis unlikely. Anterior segment evaluation was unremarkable, indicating that the inflammation is likely posterior segment-related.
+
+Multimodal imaging, including OCT thinning, OCTA capillary loss, and FA leakage, supports non-necrotizing microvascular injury consistent with HIV retinopathy and argues against focal infectious lesions such as CMV or toxoplasma, which typically show full-thickness necrotizing lesions. Imaging findings described without mention of necrotizing lesions further support this conclusion.
+
+Based on these findings, the most likely diagnosis is HIV retinopathy.

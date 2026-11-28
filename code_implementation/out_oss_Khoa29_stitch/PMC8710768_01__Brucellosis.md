@@ -1,0 +1,11 @@
+<stitched_reasoning>
+We are presented with a 67-year-old male farmer who raises sheep and swine, and he has a 3-day history of back pain. Over the preceding month, he had experienced fever up to 39°C, fatigue, and excessive sweating, with the fever partially relieved by non-steroidal anti-inflammatory drugs. He denied joint pain. Past medical and family histories were unremarkable. Physical examination showed no jaundice, abdominal tenderness, rebound, or organomegaly. Vital signs were temperature 36.3°C, heart rate 78/min, respiratory rate 18/min, blood pressure 146/80 mmHg. Laboratory studies revealed C-reactive protein 8.19 mg/L, erythrocyte sedimentation rate 29 mm/h, white-blood-cell count 5.95 × 10^9/L, hemoglobin 127 g/L; other tests were normal. Computed tomography angiography demonstrated a left common iliac artery pseudoaneurysm.
+
+The Brucella tube agglutination test showed a titer of 1:400, and a solid and accurate diagnosis was made by isolating Brucella in the blood culture. This confirms the infectious etiology of the vascular lesion. Brucellosis is a zoonotic disease caused by Brucella species, which can be transmitted to humans through contact with infected animals or their products.
+
+Non-infectious causes of pseudoaneurysm, such as atherosclerotic degeneration or trauma, are deemed unlikely because a specific pathogen was isolated, eliminating other etiologies. We found pseudoaneurysm formation using computed tomography angiography (CTA) … a solid and accurate diagnosis was made by isolating Brucella in the blood culture. This suggests that the pseudoaneurysm is likely caused by the infection, rather than a non-infectious mechanism.
+
+Considering the patient's occupation as a farmer and the isolation of Brucella in the blood culture, it is likely that the patient acquired the infection through contact with infected animals. The presence of fever, fatigue, and excessive sweating also supports the diagnosis of brucellosis.
+
+Therefore, the final diagnosis is brucellosis, a zoonotic disease caused by Brucella species, which is supported by the isolation of the pathogen in the blood culture and the patient's clinical presentation.
+</stitched_reasoning>

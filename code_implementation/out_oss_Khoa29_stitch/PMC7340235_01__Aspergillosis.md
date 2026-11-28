@@ -1,0 +1,17 @@
+<stitched_reasoning>
+Classic Hodgkin lymphoma was considered because Reed-Sternberg and Lacunar cells were present, but the EBV latency pattern (type III) and CD20 negativity were atypical for EBV-associated HL, which usually shows latency type II. EBV-associated HL typically shows EBV infection with latency type II. This discrepancy led us to consider other possibilities.
+
+Other EBV-driven lymphoproliferative disorders (e.g., EBV-positive diffuse large B-cell lymphoma) were evaluated; however, the lack of CD20 expression and the presence of Hodgkin-like morphology favored an EBV-positive LPD with Hodgkin-like features. These malignant cells were negative for CD20 in immunohistochemistry. This suggested that the lymphoma-like cells were not of B-cell origin, but rather had features of Hodgkin lymphoma.
+
+Mycobacterium tuberculosis infection was a differential for granulomatous lymphadenitis, but PCR for M. tuberculosis and MAC were negative, and cultures failed to grow organisms. PCR tests of the right inguinal lymph node were negative for Mycobacterium tuberculosis and MAC, and culture tests of bacteria, fungi, and mycobacterium species were also negative. This made TB infection less likely.
+
+Non-tuberculous mycobacterial infection remained possible because Ziehl-Neelsen staining showed acid-fast bacilli within granulomas, indicating mycobacterial presence despite negative cultures. Ziehl-Neelsen staining of the biopsy specimen showed acid-fast bacilli in granulomas. This suggested that the granulomatous inflammation was due to a mycobacterial infection, but the negative cultures made it unclear which species was responsible.
+
+HIV-associated lymphadenopathy and opportunistic infections were ruled out by negative HIV serology and a normal CD4+ count. HIV antibody were negative. CD4-positive T cell count of 678 µL. This made it unlikely that the lymphadenopathy was due to HIV-related complications.
+
+HTLV-1 infection and other opportunistic pathogens (MAC, Candida, Aspergillus) were excluded by negative serologies and antigen tests. HTLV-1 antibody, mycobacterium avium complex (MAC) antibody, candida antigen, aspergillus antigen were negative. This ruled out these other potential causes of the lymphadenopathy.
+
+T-cell lymphoma was considered but dismissed due to absent T-cell receptor clonality on PCR and a normal PHA lymphocyte transformation test, indicating no T-cell dysfunction. PCR assays for the detection of clonally rearranged T cell receptors in the peripheral blood showed no clonality... lymphocyte blastoid transformation test... suggested no apparent T cell dysfunction. This made T-cell lymphoma an unlikely diagnosis.
+
+Considering all these points, the most likely diagnosis is EBV-positive LPD with Hodgkin lymphoma-like features. The presence of EBV latency type III and the lack of CD20 expression are characteristic of this diagnosis. The granulomatous inflammation and acid-fast bacilli seen on Ziehl-Neelsen staining are consistent with a mycobacterial infection, but the negative cultures make it unclear which species is responsible. The normal CD4+ count and negative HIV serology rule out HIV-related complications. The absence of T-cell receptor clonality and normal PHA lymphocyte transformation test make T-cell lymphoma unlikely. Therefore, the final diagnosis is EBV-positive LPD with Hodgkin lymphoma-like features.
+</stitched_reasoning>

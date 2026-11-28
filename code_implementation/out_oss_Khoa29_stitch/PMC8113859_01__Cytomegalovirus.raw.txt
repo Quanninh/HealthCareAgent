@@ -1,0 +1,13 @@
+<stitched_reasoning>
+
+The boy was diagnosed as GPA based on upper airway, lung, and kidney involvements, and positive ANCA (refer to EULAR/PRINTO/PRES criteria). This constellation of symptoms is most consistent with granulomatosis with polyangiitis, particularly given the presence of PR3-ANCA positivity, upper-airway sinusitis, cavitary pulmonary nodules, and glomerular hematuria. 
+
+However, primary infectious etiologies (EBV, CMV) were considered because of positive IgM antibodies, but they were deemed unlikely as the clinical picture showed vasculitic organ involvement rather than isolated viral disease. Epstein-Barr (EB) virus IgM and cytomegalovirus (CMV) IgM were detected, but the patient's symptoms suggest a more complex underlying condition.
+
+Lymphoproliferative disease was entertained due to widespread lymphadenopathy and organomegaly, yet lymph-node biopsy revealed only reactive hyperplasia, arguing against malignancy. This finding suggests that the patient's lymphadenopathy is not due to a malignant process, but rather a reactive response to another underlying condition.
+
+Other ANCA-associated vasculitides (e.g., microscopic polyangiitis) were less compatible because they typically lack upper-airway disease, whereas this patient had sinusitis and PR3-ANCA positivity, favoring GPA. Based on upper airway, lung, and kidney involvements, and positive ANCA, the patient's symptoms are most consistent with granulomatosis with polyangiitis.
+
+Primary immunodeficiency was not yet identified at this stage; the persistent infections were attributed to ongoing vasculitic lung disease rather than an underlying genetic defect. This suggests that the patient's recurrent infections are a result of his underlying vasculitis, rather than an underlying immunodeficiency.
+
+Based on these findings, the patient's diagnosis is most consistent with granulomatosis with polyangiitis, a condition characterized by upper airway, lung, and kidney involvement, and positive ANCA.

@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient, a 21-year-old G2P1 cisgender woman at 16 weeks 5 days gestation, presented with a left-sided headache and photophobia, concerning for relapsed cryptococcal disease. This suspicion is based on her prior disseminated disease, profound immunosuppression (CD4⁺ 9 cells/mm³), and meningeal symptoms. She has uncontrolled congenital HIV and a history of disseminated cryptococcosis diagnosed at 9 weeks gestation, which increases the likelihood of relapsed cryptococcal disease.
+
+However, immune reconstitution inflammatory syndrome (IRIS) is also considered as a potential cause of worsening neurologic status later in the course. This is distinguished by MRI leptomeningeal enhancement and negative CSF cultures. The patient's MRI brain revealed new leptomeningeal enhancement suggestive of IRIS, but CSF culture at this time was negative, making IRIS a less likely explanation.
+
+Another potential cause of her symptoms is severe pre-eclampsia, an obstetric complication that could mimic or exacerbate neurologic symptoms. However, its timing (later in admission) and distinct clinical features (hypertension, proteinuria) differentiated it from the patient's current condition. She developed severe pre-eclampsia, received peripartum zidovudine, and underwent cesarean delivery, but this does not explain her current symptoms.
+
+The patient's recent treatment history also provides clues to her current condition. She had started single-agent liposomal amphotericin B (L-AmB) 4 mg/kg daily, which was stopped due to worsening renal function and gastrointestinal intolerance. However, within minutes of starting L-AmB, the patient became tachycardic, tachypneic, and hypoxemic. L-AmB was discontinued, and she received antihistamines and supplemental oxygen, indicating an acute hypersensitivity reaction to L-AmB.
+
+Considering all these factors, the most likely diagnosis is cryptococcosis. The patient's prior disseminated disease, profound immunosuppression, and meningeal symptoms, combined with the acute hypersensitivity reaction to L-AmB, support this diagnosis. The negative CSF culture and lack of leptomeningeal enhancement on MRI make IRIS a less likely explanation, and the patient's obstetric complications do not explain her current symptoms.
+</stitched_reasoning>

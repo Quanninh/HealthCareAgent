@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Malignancy, specifically metastatic breast cancer or primary lung cancer, was initially favored due to the presence of an FDG-avid pulmonary mass with mediastinal invasion and new brain lesions. However, repeated bronchoscopic, CT-guided, EBUS-TBNA, and surgical biopsies consistently failed to demonstrate malignant cells. Bronchoscopic sampling showed neither proof of malignancy nor infection, and transthoracic biopsy of the mass showed fibrosis and a chronic inflammation, with pathologic analysis revealing fibrosis but no malignancy.
+
+Considering the lack of malignant cells in the biopsies, a diagnosis of cryptogenic organizing pneumonia (COP) was considered due to histologic findings of fibrosis with bronchiolisation and an initial response to low-dose steroids. With a diagnosis suggestive of cryptogenic organizing pneumonia, prednisone 0.5 mg/kg/day was initiated, but despite the steroids, her complaints worsened, and higher dose of prednisone 1 mg/kg/day was escalated with a macrolide for three months under suspicion of organizing pneumonia, yet the lesion continued to enlarge.
+
+Non-Aspergillus opportunistic infection remained a possibility, as cultures from multiple bronchoscopic and biopsy specimens were repeatedly negative, and no organisms were identified on histology until later. Cultures were negative, and cytology of the bronchial aspirate showed sporadic hyphae (most probable Aspergillus), but without growth on culture and these were considered contamination or colonization.
+
+The patient's clinical presentation and imaging findings also raised the possibility of cerebral metastases versus ischemia versus abscess. Brain MRI initially read as metastases, later re-interpreted as possible ischemia, but the later MRI showed restricted diffusion and perilesional edema, favoring atypical cerebral abscesses, which kept infection on the differential. The radiologic appearance with restrictive diffusion of these lesions was suggestive for (atypical) cerebral abscesses rather than metastases.
+
+Furthermore, immunosuppression from prolonged corticosteroid use was identified as a predisposing factor for an opportunistic fungal infection, supporting invasive aspergillosis as a plausible etiology. Only the use of prednisone could be identified as immunosuppressant factor which aided the further dissemination of this opportunistic infection.
+
+Considering all the evidence, the most likely diagnosis is aspergillosis, which is supported by the patient's immunosuppressed state, the presence of hyphae in the bronchial aspirate, and the imaging findings suggestive of cerebral abscesses.
+</stitched_reasoning>

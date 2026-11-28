@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation with worsening paraparesis and examination findings of hyperactive reflexes, bilateral Babinski signs, and a sensory level at T6 with loss of vibration sense below that level suggests a spinal cord lesion. The patient's history of recurrent cystic lesions involving the lungs and liver also raises the possibility of a systemic disease. The MRI of the thoracic spine revealed several multiloculated cystic lesions (hypointense on T1-WI and brightly hyperintense on T2-WI) dorsally and epidurally in the spinal canal, which are characteristic of parasitic cysts rather than solid tumors or abscesses. These lesions are situated in the dorsal epidural space, which is a common location for parasitic cysts.
+
+Intra-operatively, multiple extradural cysts containing whitish membranes were encountered, which is typical of hydatid (echinococcal) cysts and distinguishes them from pyogenic abscesses (which contain purulent material) or neoplastic cystic lesions (which lack a discrete translucent wall). The presence of whitish membranes in the cysts is a key feature that points towards a parasitic etiology.
+
+Histopathologic confirmation of parasitic disease would validate the diagnosis of echinococcosis, thereby excluding neoplastic, inflammatory, or infectious (non-parasitic) etiologies. Although not explicitly stated in the case, the presence of multiple cystic lesions and the characteristic features of the cysts suggest that echinococcosis is the most likely diagnosis.
+
+The final diagnosis is echinococcosis, which is a parasitic disease caused by the Echinococcus tapeworm. The disease is characterized by the formation of cystic lesions in various organs, including the lungs, liver, and spinal cord. The diagnosis is supported by the imaging findings, intra-operative observations, and the characteristic features of the cysts.
+</stitched_reasoning>

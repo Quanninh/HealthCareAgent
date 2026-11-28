@@ -1,0 +1,11 @@
+<stitched_reasoning>
+A 45-year-old woman with type-II diabetes presented with a 5-month history of severe back pain. She was a homemaker who kept pigeons as pets. Laboratory investigations showed an erythrocyte sedimentation rate of 38 mm/1st h and a C-reactive protein of 18 mg/L. Magnetic resonance imaging (MRI) demonstrated T4 osteomyelitis with relatively well-preserved intervertebral disc spaces. Fine-needle aspiration cytology was inconclusive, and the patient was presumptively placed on antitubercular drugs. 
+
+Chronic vertebral osteomyelitis in an immunocompromised host raises tuberculosis as a common cause; the authors started empiric antitubercular therapy despite inconclusive aspiration. Although fine-needle aspiration cytology was inconclusive, the patient was presumptively placed on antitubercular drugs. However, the lack of intervertebral disc involvement on MRI argues against typical tuberculous spondylitis, which often destroys disc space. There was, however, no disc space involvement.
+
+The rapid progression to paraplegia and development of paraspinal soft-tissue masses suggest an aggressive infectious process not typical for indolent TB. MRI demonstrated osteolytic lesions of the T4 vertebral body with cord compression, accompanied by bilateral paraspinal soft tissue masses. This aggressive presentation makes us consider other causes of osteomyelitis, such as pyogenic bacterial osteomyelitis. However, the subacute course over months, lack of systemic sepsis, and poor response to antitubercular therapy make pyogenic bacterial osteomyelitis less likely.
+
+Exposure to pigeons is a recognized risk factor for cryptococcal infection, prompting consideration of a fungal etiology. She was a homemaker who kept pigeons as pets. The presence of bilateral retinal fungal deposits and endophthalmitis points toward disseminated fungal disease rather than bacterial or tuberculous infection. Ophthalmological examination revealed bilateral retinal fungal deposits and endophthalmitis.
+
+Other endemic mycoses (e.g., histoplasmosis) were considered but are less associated with pigeon exposure and were not identified on culture; the definitive culture grew Cryptococcus species, confirming cryptococcosis. The culture and histopathological examinations revealed a cryptococcal fungal infection...
+</stitched_reasoning>

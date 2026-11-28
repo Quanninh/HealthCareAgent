@@ -1,0 +1,9 @@
+<stitched_reasoning>
+
+Considering the patient's presentation with a slowly progressing, uncomfortable mass on his tongue that impaired speech and swallowing, Kaposi's sarcoma (KS) is a primary hypothesis due to the violaceous oral lesions. However, this diagnosis is excluded by the negative Human Herpes Virus 8 (HHV-8) staining and the presence of normal endothelial cells rather than spindle-cell proliferation. "Human Herpes Virus 8 (HHV-8) was negative." This rules out KS, but we must also consider other possibilities.
+
+Given the pandemic context, COVID-19-related oral lesions are also considered. However, these are excluded by a negative SARS-CoV-2 RT-PCR and the absence of systemic COVID-19 symptoms. "None of the examinations showed abnormalities." This eliminates COVID-19 as a potential cause.
+
+The patient's symptoms and examination findings suggest a vascular or lymphatic malformation. The microscopic examination of the biopsy reveals hyperparakeratosis, acanthosis, and papillomatosis associated with large, dilated vessels lined by normal-appearing endothelial cells containing erythrocytes and eosinophilic proteinaceous material. Immunohistochemistry shows most vessels were CD34 positive; some displayed α-smooth muscle actin (α-SMA) staining, and D2-40 was focally positive. "Most vessels were CD34 positive; some were highlighted by alpha-SMA, whereas D2-40 was focal." This combined immunoprofile supports a mixed vascular-lymphatic malformation rather than a pure entity.
+
+Considering the above findings, the most likely diagnosis is a hemangiolymphangioma, a type of mixed vascular-lymphatic malformation.

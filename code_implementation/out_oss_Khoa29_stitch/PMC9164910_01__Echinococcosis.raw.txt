@@ -1,0 +1,15 @@
+<stitched_reasoning>
+
+We are presented with a 26-year-old man with type 1 diabetes who has been admitted for a 2-week history of fever, fatigue, malaise, and loss of appetite. The initial differential diagnosis includes a large septic vegetation versus a papillary hydatid cyst, as evidenced by a 15 mm x 11 mm mobile, oscillating, echogenic mass attached to the anterolateral papillary muscle of the mitral valve. The diagnoses of a large septic vegetation or a papillary hydatid cyst were hypothesized.
+
+However, despite the initiation of empiric intravenous antibiotics, fever persists, suggesting that the underlying cause may not be a simple septic vegetation or hydatid cyst. The presence of an inflammatory syndrome and the lack of clinical amelioration with broad-spectrum antibiotics suggest infective endocarditis as a possible diagnosis.
+
+Further investigation reveals multiple hypodense lesions in the brain, liver, and spleen consistent with septic emboli, supporting the notion that the patient has a systemic infectious source rather than an isolated cyst. This finding is particularly suggestive of infective endocarditis, which can lead to the formation of septic emboli.
+
+The electrocardiogram shows no changes suggestive of acute or sub-acute myocardial infarction, ruling out acute myocardial infarction as a cause of papillary rupture. This finding is consistent with the presence of a septic vegetation or other infectious process.
+
+Mycobacterium tuberculosis studies were performed, but yielded no diagnostic evidence, making tuberculosis an unlikely diagnosis. Similarly, hydatid disease was excluded by negative serology and the lack of response to antiparasitic therapy.
+
+The patient's physical examination now reveals a new pansystolic murmur consistent with mitral regurgitation, indicating that the mitral valve or papillary muscle pathology has progressed. This finding is likely secondary to valve or papillary pathology, such as a septic vegetation or papillary muscle rupture.
+
+Considering all of these findings, the most likely diagnosis is infective endocarditis with papillary muscle rupture.

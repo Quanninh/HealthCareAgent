@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's presentation of vague right-upper-quadrant abdominal pain and left flank discomfort, along with fatigue and fever, is concerning for a variety of potential diagnoses. However, the patient's past medical history of multiple previously diagnosed hepatic and pulmonary hydatid cysts, and a solitary renal cyst identified three months earlier, for which she had been started on albendazole 400 mg twice daily, raises the suspicion of echinococcosis. This suspicion is further supported by the patient's serologic testing for hydatid cysts using an indirect hemagglutination assay, which was positive with a titer of 1:16384. Positive serology for hydatid disease strongly supports echinococcosis, as the serologic test for hydatid cysts (indirect hemagglutination test) was positive with a titer of 1:16384.
+
+The patient's imaging studies, including computed tomography of the chest and abdomen, demonstrate multiple cystic lesions in the liver, lung, and kidney, which are characteristic of hydatid infection. Multiloculated cystic lesions in liver, lung, and kidney on CT are characteristic of hydatid infection, as CT scan revealed three cysts in the left lung and eight cysts in the liver, including a centrally located cyst up to 4 cm, and a solitary cyst in the left kidney measuring 6.6 cm.
+
+The patient's elevated aspartate transaminase (AST) of 92 U/L may reflect hepatic involvement of the parasitic cysts, further aligning with hydatid disease. Elevated AST may reflect hepatic involvement of the parasitic cysts, further aligning with hydatid disease, as other blood tests were within normal limits except for elevated AST (92 U/L).
+
+Finally, the patient's prior documented hydatid cysts and ongoing albendazole therapy make alternative cystic etiologies, such as simple cysts or neoplasms, less likely. Prior documented hydatid cysts and ongoing albendazole therapy make alternative cystic etiologies (e.g., simple cysts, neoplasm) less likely, as her past medical history was notable for multiple hydatid cysts in the liver and lungs, diagnosed three months ago.
+
+Considering all of these factors, the most likely diagnosis is echinococcosis.
+</stitched_reasoning>

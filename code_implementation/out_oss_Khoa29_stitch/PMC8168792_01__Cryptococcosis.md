@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's presentation with progressive, disabling weakness in all four limbs, accompanied by bilateral accessory nerve palsy and loss of pain and temperature sensation below the neck, a diagnosis of cryptococcosis is entertained. Histopathology demonstrated numerous spherical organisms with a thick clear capsule surrounded by granulomatous inflammation, consistent with Cryptococcus. These findings are suggestive of a fungal infection, specifically cryptococcosis, which is known to cause granulomatous inflammation.
+
+Other chronic leptomeningeal processes, such as neoplastic meningitis, are considered less likely because intra-operative findings showed granulomatous inflammation rather than malignant cells. The presence of granulomatous inflammation is a key feature of cryptococcosis, and the absence of malignant cells on histopathology further supports this diagnosis. Furthermore, there was no evidence of tumor on imaging, which also makes neoplastic meningitis less likely.
+
+Intra-operatively, the dura's meningeal layer showed multiple adhesions to a thickened arachnoid with numerous surface nodules of poor vascularization. This finding is consistent with the granulomatous inflammation seen on histopathology, and suggests that the infection is causing inflammation and scarring in the meninges. The presence of these adhesions and nodules also supports the diagnosis of cryptococcosis, as they are characteristic of the infection.
+
+The patient's exposure to Cryptococcus, given their residence in a region endemic for the fungus, further supports the diagnosis of cryptococcosis. The combination of these findings, including the histopathology, intra-operative findings, and epidemiological factors, leads to a diagnosis of cryptococcosis.
+</stitched_reasoning>

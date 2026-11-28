@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient is a 27-year-old woman, gravida 2 para 1, who presented with fetal ascites at 19 weeks' gestation. Serial fetal magnetic resonance imaging at 27 weeks showed massive ascites and compressed low-intensity lungs. This finding is characteristic of congenital cytomegalovirus (CMV) rather than isolated structural anomalies, as severe hydrops and pulmonary hypoplasia are typical of CMV infections. The massive ascites and compressed low-intensity lungs, as described by the MRI, and the marked reduction in lung volume, as seen on the post-natal X-ray, are consistent with this diagnosis.
+
+Furthermore, the patient's laboratory values show hematologic and hepatic dysfunction, including thrombocytopenia, hypo-albuminemia, low total protein, and prolonged prothrombin time. These findings align with congenital CMV hepatic involvement and are atypical for other TORCH infections lacking such profound coagulopathy. The laboratory values, which include mild leukopenia, anemia, thrombocytopenia, hypogammaglobulinemia, hypoalbuminemia, normal AST and ALT, but markedly reduced total protein, fibrinogen, and prothrombin activity, support this diagnosis.
+
+Additionally, the detection of viral DNA in fetal ascites and low-avidity IgG, confirming recent maternal infection, establishes primary congenital infection. The positive CMV-DNA (3.4 × 10^5 copies/ml) of fetal ascites and low CMV-IgG avidity (16.6%) at 20 weeks' gestation, indicates that the mother has recently been infected with CMV, and the virus has been transmitted to the fetus.
+
+Considering all these findings, the most likely diagnosis is congenital cytomegalovirus infection. The severe hydrops and pulmonary hypoplasia, characteristic of CMV infections, combined with the hematologic and hepatic dysfunction, and the detection of viral DNA in fetal ascites, confirm this diagnosis.
+</stitched_reasoning>

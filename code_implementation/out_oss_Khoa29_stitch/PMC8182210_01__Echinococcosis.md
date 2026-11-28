@@ -1,0 +1,7 @@
+<stitched_reasoning>
+A large septate intra-splenic cyst on CT suggests a cystic splenic lesion; the absence of systemic signs (fever, weight loss) and normal labs make an infectious or malignant process less likely. The CT abdomen and pelvis revealed a large septate intra-splenic cyst, measuring 18 cm × 14 cm × 10 cm. This finding prompts consideration of parasitic splenic cysts, such as echinococcosis, which is a common cause of splenic cysts. However, negative hydatid disease serology argues against echinococcosis, as hydatid disease serology was performed to exclude parasitic splenic cyst, which came out to be negative. This rules out a parasitic origin for the cyst.
+
+Another potential cause of a splenic cyst is a post-traumatic pseudocyst, which typically follows injury. However, there was no history of abdominal trauma, reducing the likelihood of a post-traumatic pseudocyst. Additionally, the differential consideration of lymphangioma is mentioned, but imaging did not show the classic multiloculated, fluid-filled spaces typical of lymphangioma, supporting its exclusion.
+
+Given the imaging findings and the absence of systemic signs, the most likely diagnosis is a non-parasitic splenic cyst. Histopathology later demonstrated a mesothelial lining with pan-keratin and calretinin positivity, confirming a primary non-parasitic mesothelial splenic cyst and excluding parasitic or lymphatic origins. Immunostaining with PanKeratin and Calratinin were positive supporting the primary mesothelial nature of the cyst.
+</stitched_reasoning>

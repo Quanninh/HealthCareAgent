@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient presents with a clinical triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure, which raises suspicion for Hemolytic-Uremic Syndrome (HUS). Suspecting a HUS, the patient was transferred to the pediatric emergency room of Fondazione IRCCS Ca’ Granda-Ospedale Maggiore Policlinico. However, the search for Shiga toxin genes in the stools was positive, which led to a diagnosis of STEC-HUS. This diagnosis is supported by the presence of Shiga-toxin genes in the stool, confirming the STEC etiology of HUS.
+
+To further rule out other potential causes, autoimmune diabetes was considered. Glutamic acid decarboxylase and islet cell antibodies were negative and C-peptide was undetectable, which excludes autoimmune diabetes as a possible cause of the patient's symptoms. Additionally, cytomegalovirus infection was identified later by DNA positivity and treated with antivirals, indicating that the patient's symptoms were not caused by CMV infection.
+
+The patient's condition worsened over the next few days with the development of arterial hypertension, and whole-body computed tomography demonstrated bilateral pneumonia, bilateral pleural and abdominal effusions, ischemia of the kidneys and pancreas, edema of the colonic wall and the submucosa of the stomach and duodenum, and massive ileal distension. These findings support the diagnosis of STEC-HUS, which is characterized by the presence of Shiga toxin genes in the stool and the clinical triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure.
+
+Therefore, the final diagnosis is STEC-HUS, which is supported by the positive PCR for Shiga-toxin genes in stool, the clinical triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure, and the exclusion of other potential causes such as autoimmune diabetes and CMV infection.
+</stitched_reasoning>

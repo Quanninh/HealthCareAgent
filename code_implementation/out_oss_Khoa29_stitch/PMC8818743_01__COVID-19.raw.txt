@@ -1,0 +1,13 @@
+<stitched_reasoning>
+
+Acute coronary syndrome is considered as a potential diagnosis given the patient's chest distress and massive troponin rise. However, urgent coronary angiography excluded coronary artery disease, which makes this diagnosis less likely. 
+
+Active COVID-19 infection is also entertained as a potential cause given the patient's recent vaccination and systemic symptoms. Two nucleic acid amplification tests for COVID-19 were performed, and the result was negative, which rules out this diagnosis.
+
+Other viral respiratory infections, such as influenza, parainfluenza, RSV, rhinovirus, adenovirus, and common coronaviruses, are considered as potential triggers of myocardial injury. Tests for these infections were also negative, which suggests that these are unlikely causes.
+
+Hypertensive heart disease is considered as a chronic cause of LV dysfunction, but the patient had no prior cardiac symptoms and imaging showed acute diffuse hypokinesia rather than concentric hypertrophy, which makes this diagnosis unlikely.
+
+Pericarditis or other inflammatory cardiac conditions are also considered, but the lack of chest pain, pericardial rub, and diffuse ventricular involvement on echo favors myocarditis as the explanation.
+
+Given the patient's presentation and the results of the diagnostic tests, the most likely diagnosis is fulminant myocarditis.

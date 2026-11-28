@@ -1,0 +1,9 @@
+<stitched_reasoning>
+A 24-year-old patient presents with a left humeral diaphyseal fracture that has failed to heal after four months of treatment with a brace, complaining of pain and limited motion of the shoulder and elbow. Plain radiographs demonstrate an oblique fracture line in the distal third of the diaphysis and heterogeneous osteolytic, multiloculated lesions extending throughout the entire humerus. Magnetic resonance imaging shows pathological changes involving the whole humeral diaphysis and surrounding soft tissues at the fracture site, with thinning of the cortical bone. Persistent non-union with extensive osteolytic, multiloculated lesions raises concern for an atypical infection or tumor, prompting tissue sampling; the definitive pathology is needed to guide therapy. It was decided to perform a biopsy, which resulted in hydatid cysts.
+
+The biopsy revealing hydatid cysts confirms echinococcosis and excludes other entities such as chronic osteomyelitis or primary bone sarcoma that can present with similar lytic lesions. The macroscopic anatomy shows involvement of the entire humerus, including the proximal and distal end with fistulas and vesicles with parasites.
+
+Confirmation of echinococcosis justifies oncologic-type resection and adjuvant albendazole therapy, aligning with standard management of bone hydatid disease. Treatment was therefore oncological resection of the humerus and total replacement, and the patient was also treated with albendazole as adjuvant therapy.
+
+The diagnosis of echinococcosis is confirmed by the presence of hydatid cysts in the biopsy, which is consistent with the radiographic and MRI findings of heterogeneous osteolytic, multiloculated lesions and pathological changes involving the whole humeral diaphysis and surrounding soft tissues.
+</stitched_reasoning>

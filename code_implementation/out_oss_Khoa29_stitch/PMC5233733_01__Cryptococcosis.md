@@ -1,0 +1,15 @@
+<stitched_reasoning>
+A 25-year-old man presented with a 1-month history of spinal osteosarcoma that had been misdiagnosed at a local county hospital and a 5-week history of progressive lower back pain with occasional radiation to the left lower limb. He had no other medical history. General physical examination and central nervous system examination were normal. Initial laboratory tests showed an erythrocyte sedimentation rate (ESR) of 14 mm/h (normal 0-20) and a C-reactive protein (CRP) of 11.2 mg/L (normal 0-5.0); other blood counts were normal.
+
+Transverse computed tomography demonstrated nonadjacent low-intensity lesions with clear boundaries at L1 and S1. Lumbar magnetic resonance imaging revealed destruction of the left half of the L1 vertebral body and an S1 lesion extending into the soft tissues. Whole-body bone scintigraphy showed abnormal increased uptake in L1 and S1-S2, suggesting a possible bone tumor, but the exact type could not be determined.
+
+Malignant bone tumor (osteosarcoma) is considered because imaging showed destructive vertebral lesions and bone scan abnormalities; however, this diagnosis is excluded when biopsy and later pathology demonstrate infection rather than neoplastic cells. All of these findings indicated a malignant tumor, but the type of tumor could not be diagnosed clearly and needed further examination.
+
+The patient develops night-time fever, and repeat labs show a white blood cell count of 10.2 × 10^9/L, ESR 46 mm/h, and CRP 27.3 mg/L. An S1 vertebral puncture biopsy yields an infected lesion with massive neutrophil infiltration, prompting intravenous moxifloxacin and teicoplanin therapy. Pyogenic bacterial spondylodiscitis is considered after fever, leukocytosis, elevated ESR/CRP, and biopsy showing massive neutrophil infiltration; however, this diagnosis is excluded by the lack of clinical improvement despite broad-spectrum antibiotics and by pathology later revealing a fungal rather than bacterial process. The biopsy results revealed an infected lesion with massive neutrophil infiltration, and we started treating the patient using intravenous moxifloxacin and teicoplanin, but the patient continued to exhibit pain, fever, ESR, and CRP.
+
+Despite antibiotics, the patient continues to have left-leg radiating pain, a fever up to 39.8 °C, ESR 62 mm/h, and CRP 44 mg/L. Fungal vertebral infection is considered after persistent infection despite antibiotics and intra-operative finding of a large purulent cavity; this diagnosis is supported by pathology showing inflammatory changes consistent with fungal infection. Postoperative pathology report identified inflammatory changes at L1 and S1, which indicated a fungal infection.
+
+Specific identification of Cryptococcus spp. is confirmed by culture of tissue and blood specimens, guiding targeted antifungal therapy. The tissue and blood specimens revealed a cryptococcal infection that was sensitive to amphotericin B.
+
+Based on the evidence, the diagnosis is cryptococcosis.
+</stitched_reasoning>
