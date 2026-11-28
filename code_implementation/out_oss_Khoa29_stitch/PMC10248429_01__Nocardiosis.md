@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation of a large lung mass with regression of the primary lesion on CT makes tumor progression unlikely, as the lung cancer in the upper lobe of the left lung was less extensive than before. However, the patient's recent chemotherapy-induced neutropenia raises concern for opportunistic infection, but initial etiologic work-up was negative for bacteria, fungus, and Pneumocystis carinii, No abnormalities were found in etiological examinations for bacteria, fungus, M. tuberculosis, Pneumocystis carinii...
+
+Given the recent use of immune-checkpoint-inhibitor (ICI) camrelizumab, immune-checkpoint-inhibitor (ICI)–related pneumonitis is a differential, yet imaging showed multiple nodular infiltrates rather than the diffuse, ground-glass pattern typical of ICI pneumonitis, ...could not exclude pneumonia or infection associated with ICIs. Bacterial pneumonia is also considered due to new infiltrates and hemoptysis, but lack of fever, normal white-cell count, and prior negative bacterial cultures made it less likely, routine blood test...were unremarkable.
+
+The patient's immunosuppression from chemotherapy and ICI, combined with the appearance of new bilateral nodular shadows with hemoptysis, classic for active TB, prompts consideration of reactivation of latent Mycobacterium tuberculosis. Nocardia, Actinomyces, and other atypical infections were ruled out by negative specific stains and cultures reported earlier, No abnormalities were found in etiological examinations for ... nocardiosis, and cytomegalovirus.
+
+Upon further investigation, the patient was diagnosed with a tracheoscopy and a 13-item nucleic acid test for respiratory pathogens in the lavage fluid, which was positive for MTB. This confirms the suspicion of reactivation of latent Mycobacterium tuberculosis, making tuberculosis the most likely diagnosis.
+</stitched_reasoning>

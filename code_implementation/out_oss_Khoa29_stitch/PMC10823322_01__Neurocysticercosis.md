@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient presents with a complex neurological profile, including a history of progressive difficulty walking, a generalized tonic-clonic seizure, and various neurological examination findings. To approach this case, we must consider the possibility of neurocysticercosis, a parasitic infection of the central nervous system caused by the pork tapeworm (Taenia solium). The imaging pattern of multiple intracerebral cystic lesions with eccentric calcifications and meningeal racemose cysts fulfills absolute neuroimaging criteria for neurocysticercosis. Those suggested a massive neurocysticercosis lesions, which is a critical finding in this case.
+
+However, we must also consider other potential diagnoses, such as bacterial meningitis, tuberculous meningitis, or other parasitic CNS infections. The absence of inflammatory or infectious markers in the cerebrospinal fluid (CSF) reduces the likelihood of these conditions. Biological assessment did not reveal any inflammatory or infectious syndrome. Cell count, protein, glucose level in CSF were normal, which makes these conditions less likely.
+
+Another important finding is the presence of a subcutaneous temporal-muscle cystic lesion, which supports disseminated cysticercosis rather than isolated neoplastic or vascular cysts. A round cystic hypodensity is also visible in the left temporal muscle, suggestive of muscle cysticercosis. This finding further supports the diagnosis of neurocysticercosis.
+
+Considering all the evidence, the most likely diagnosis is neurocysticercosis. The imaging findings, the absence of inflammatory markers in the CSF, and the presence of a subcutaneous temporal-muscle cystic lesion all point towards this diagnosis. Therefore, the final diagnosis is neurocysticercosis.
+</stitched_reasoning>

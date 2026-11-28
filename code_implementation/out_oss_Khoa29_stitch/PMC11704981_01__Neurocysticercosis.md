@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient presented with an altered level of awareness, sudden tingling, and rapidly progressing paraparesis. Based on the clinical presentation, Guillain-Barré syndrome was initially considered due to the findings of paraparesis progressing to quadriplegia with an MRC muscle power score of 0/5 and decreased sensation to pinprick. However, further investigation revealed a prior episode of lower-limb sensory deficits that had resolved after corticosteroid therapy, suggesting an alternative diagnosis.
+
+The patient reported a prior MRI describing "multiple sclerosis lesions with gadolinium enhancement" but not describing the lesion signal changes or even their locations. This raised the possibility of acute disseminated encephalomyelitis or multiple sclerosis. Additionally, the patient's history of childhood periodic fevers diagnosed as TNF-receptor-associated periodic syndrome and ADA2 deficiency, IgA nephropathy, and a purported neurocysticercosis infection after travel to Thailand eight years ago, suggested a potential underlying autoimmune or inflammatory disorder.
+
+Neurocysticercosis relapse was also contemplated given the remote history of infection and prior seizures. However, the patient's current presentation did not align with the typical symptoms of neurocysticercosis. Furthermore, the patient's known genetic autoinflammatory disorders, TRAPS and DADA2, raised the possibility of TRAPS/DADA2-related vasculopathy or neuropathy.
+
+Systematic inconsistencies became apparent, not only in her clinical history and neurological examination but also in the documentation provided, including conflicting MRI reports, lack of verifiable imaging, and an atypical lesion description. These discrepancies prompted a request for a psychiatric evaluation, which ultimately led to the conclusion that the patient's symptoms were fabricated, consistent with a diagnosis of factitious disorder.
+</stitched_reasoning>

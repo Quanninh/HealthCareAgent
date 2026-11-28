@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The patient presented with a four-day history of cough that progressed from dry to productive with occasional bloody sputum, dyspnea, orthopnea, new lower-extremity edema, and preceding nausea, vomiting, and diarrhea. He had an extensive alcohol consumption history and quit smoking six years ago. Bacterial pneumonia was initially suspected due to cough, fever-like presentation, and infiltrates; empiric ceftriaxone and doxycycline were started. He was started on empiric treatment with ceftriaxone and doxycycline for suspected bacterial pneumonia.
+
+However, typical and atypical pathogens (Legionella, Streptococcus pneumoniae) were ruled out by negative urinary antigen and direct antigen tests. Urine Legionella antigen, Streptococcus pneumoniae direct antigen were all negative. Viral respiratory infections (SARS-CoV-2, influenza) were excluded by negative nasal screens and repeat PCR testing. Testing for SARS-CoV-2, influenza, was negative, and repeat SARS-CoV-2 testing were all negative.
+
+Fungal infections (Aspergillus, Blastomyces, Coccidioides, Histoplasma) were considered given immunocompromised-like state but serologies were negative. Aspergillus, Blastomyces, Coccidiodes, histoplasma antibodies were all negative. Tuberculosis and other mycobacterial infections were excluded via negative acid-fast bacilli smears, cultures, QuantiFERON, and PPD. Bronchoalveolar lavage sampling was negative for acid-fast bacilli, and TB testing (QuantiFERON, sputum acid-fast bacilli, and PPD) were all negative.
+
+Nocardia infection was ruled out by negative BAL cultures. Bronchoalveolar lavage sampling was negative for Nocardia cultures. Cytomegalovirus infection was excluded by negative CMV DNA on BAL. Bronchoalveolar lavage sampling was negative for CMV DNA.
+
+Diffuse alveolar hemorrhage secondary to pulmonary edema was initially diagnosed on bronchoscopy, leading to steroid therapy, but the underlying trigger remained unclear. Bronchoscopy was performed revealing DAH thought secondary to pulmonary edema. Alcoholic hepatitis-related pulmonary edema was considered given heavy alcohol use and hypoalbuminemia, but lack of marked transaminitis and persistent hemorrhage suggested another etiology. Management of possible alcoholic hepatitis with thiamine and folic acid was instituted.
+
+Q fever, leptospirosis, and toxoplasmosis were investigated due to rodent/animal exposure; serologies were negative. He was tested for Hantavirus, Q fever, leptospirosis, and toxoplasmosis, and antibodies for leptospirosis and Q fever were all negative. However, Hantavirus infection was entertained after exposure to sick kittens and mice; serology later returned positive IgM, confirming HCPS.
+</stitched_reasoning>

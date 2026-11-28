@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation with severe headache, unsteady gait, and occasional urinary incontinence, along with marked ventricular dilatation on the CT scan, suggests an obstructive hydrocephalus rather than an intracerebral tumor or diffuse infection. The CT scan of the brain showed marked ventricular dilatation but no intraparenchymal lesions or intraventricular cysticercal lesions. This pattern of ventricular dilation without parenchymal lesions is more indicative of an obstructive process, which could be caused by a blockage of cerebrospinal fluid (CSF) flow.
+
+Repeated unsuccessful lumbar puncture attempts indicate a blockage of CSF flow, supporting an obstructive process localized to the spinal canal. Lumbar tapping was attempted repeatedly, but cerebrospinal fluid (CSF) was not obtained despite adequate lumbar puncture. This further supports the presence of an obstructive process, which is likely caused by a lesion within the spinal canal.
+
+The MRI of the thoraco-lumbar spine revealed multiple cystic contrast-enhancing intraspinal lesions extending from C7 to S1. This pattern of multiple cystic, contrast-enhancing lesions throughout the spinal canal is characteristic of parasitic cystic lesions such as cysticercosis, and less typical for solid neoplasms. The presence of these lesions in the spinal canal is likely causing the blockage of CSF flow, leading to the patient's symptoms and the failure of lumbar puncture.
+
+Histopathology later demonstrated fibrosis, calcification, and chronic inflammation associated with cysticercosis cyst walls, confirming the infectious etiology. However, this information is not yet available, and we must rely on the imaging findings to guide our diagnosis. The presence of multiple cystic lesions in the spinal canal, along with the clinical presentation and the failure of lumbar puncture, strongly suggests a diagnosis of neurocysticercosis.
+</stitched_reasoning>

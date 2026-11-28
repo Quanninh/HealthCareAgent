@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient presents with chronic, painless-to-painful subcutaneous nodules with draining sinuses and grains, which suggests mycetoma. The "grain" morphology points toward an actinomycetoma rather than eumycetoma, as the extrusion of grains is compatible with an actinomycetoma. Histopathology revealing filamentous bacterial-type structures supports an actinomycetoma caused by filamentous bacteria such as Nocardia. The presence of filamentous structures is compatible with an actinomycetoma.
+
+However, repeated negative cultures argue against a typical bacterial pathogen, but are common in actinomycetoma. The causative agent is therefore presumed to be Nocardia spp. based on clinical and histopathological findings. This presumption is further supported by the long-term trimethoprim-sulfamethoxazole therapy, the standard treatment for nocardial infection, which was instituted. This further implicates nocardiosis as the working diagnosis.
+
+Alternative diagnoses such as fungal (eumycetoma) infection were considered but excluded because histology showed bacterial-type grains and cultures did not grow fungi. The presence of filamentous bacterial structures and the lack of fungal growth in cultures also support this exclusion. Other actinomycete genera (Actinomadura, Streptomyces) were possible, yet the clinical pattern and standard empiric therapy for Nocardia make nocardiosis the most plausible diagnosis pending culture confirmation.
+
+Considering all the evidence, the most likely diagnosis is nocardiosis, which is supported by the clinical presentation, histopathology, and treatment response. The patient's symptoms and histopathology are consistent with an actinomycetoma caused by filamentous bacteria such as Nocardia, and the standard treatment for nocardial infection was effective, albeit not curative.
+</stitched_reasoning>

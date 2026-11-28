@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The hypothesis of tuberculosis has been discussed at that moment in spite of negative results for acid-fast bacilli from sputum and culture. This led to the consideration of other potential causes of the patient's symptoms. Given the granulomatous disease, HIV infection was evaluated because it can cause similar manifestations, but the normal CD4/CD8 lymphocyte count and negative HIV test excluded this possibility. The CD4/CD8 lymphocyte count and rate were normal. Tests for human immunodeficiency virus (HIV) were negative.
+
+The patient's serology for *Histoplasma capsulatum* was positive, suggesting exposure, yet bronchoalveolar lavage failed to isolate the organism, indicating that serology alone could not confirm active infection. Among the requested serological exams, it has been found antibodies against H. capsulatum on immunodiffusion test. However, culture and histology of the specimens obtained by bronchoalveolar lavage failed to confirm the presence of fungi.
+
+In order to establish a definitive diagnosis, tissue confirmation was required. The incisional biopsy showed granulomatous inflammation with Langhans-type giant cells, and silver staining revealed characteristic oval budding yeasts, while culture on Sabouraud agar grew the typical filamentous colony of *H. capsulatum*. Staining slides with Grocott-Gomori methenamine silver, scarce oval structures with apparent single budding... suggesting histoplasmosis... The incubation of this material on Sabouraud Dextrose Agar... revealed the typical growth pattern of *H. capsulatum*.
+
+Based on the evidence from the biopsy, the diagnosis of histoplasmosis is confirmed. The patient's symptoms, including the oral lesions and pulmonary infiltrates, are consistent with this diagnosis. The presence of granulomatous inflammation and the characteristic oval budding yeasts on silver staining are diagnostic features of histoplasmosis.
+</stitched_reasoning>

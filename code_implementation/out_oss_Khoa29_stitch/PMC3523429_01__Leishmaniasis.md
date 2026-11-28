@@ -1,0 +1,7 @@
+<stitched_reasoning>
+The initial diagnosis of cutaneous leishmaniasis was considered based on a positive smear showing Leishmania bodies about 1 year before. The patient had a known history of leishmaniasis, and all five family members had a history of proven leishmaniasis, which supported this diagnosis. The patient was treated with intralesional glucantime injections, but after completing a therapeutic course of 20 sessions, she was considered as glucantime therapy resistant. This led to the consideration of alternative explanations for the chronic lesion.
+
+The patient's history of renal failure, renal transplantation, and immunosuppressive therapy with mycophenolate mofetil and cyclosporine may have contributed to the development of a skin lesion, but the initial diagnosis of leishmaniasis was confirmed with a positive smear of the lesion showing Leishmania bodies about 1 year before. The lesion measured 3 × 3 cm, was indurated, ulcerated, and had elevated borders on the tip of the nose, which was consistent with a chronic skin lesion.
+
+The histopathology of the excised lesion was that of a basal cell carcinoma, which demonstrated that the chronic lesion was not leishmaniasis. This diagnosis was unexpected, given the patient's history of leishmaniasis and the initial treatment with intralesional glucantime injections. However, the histopathology results provided a clear explanation for the chronic lesion, and the diagnosis of basal cell carcinoma was confirmed.
+</stitched_reasoning>

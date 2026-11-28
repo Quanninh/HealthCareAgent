@@ -1,0 +1,7 @@
+<stitched_reasoning>
+The patient presents with acute symmetrical tetraparesis, facial palsy, areflexia, and albuminocytologic dissociation in CSF, which suggests Guillain-Barre syndrome (acute motor axonal polyradiculoneuropathy). Electroneuromyography shows reduced motor amplitudes in all limbs, slightly slowed velocities, and absent F-waves, leading to a diagnosis of acute motor axonal polyradiculoneuropathy. However, the patient also experienced fever, dry cough, and vomiting one week before the onset of GBS symptoms, and given the existing epidemiological scenario and symptoms, COVID-19 infection is suspected.
+
+Standard laboratory tests and serologies (HIV, hepatitis C virus (HCV), treponema pallidum) were also negative, ruling out alternative infectious etiologies. The thrombophilia assessment is unremarkable, in particular no deficiency in protein C, S, and antithrombin III, excluding thrombotic disorders such as protein C/S deficiency, antithrombin III deficiency, and antiphospholipid syndrome. Additionally, p-ANCA, c-ANCA antibodies, antinuclear antibodies (ANA), and angiotensin converting enzyme (ACE) were negative, excluding autoimmune vasculitis.
+
+The examination of the ear, nose, and throat (ENT) sphere was normal, excluding ENT sources of sinus thrombosis. However, a cerebral MRI with angiography demonstrated a cerebral venous thrombosis of the left sigmoid sinus. A polymerase chain reaction (PCR) test for COVID-19 resulted positive, confirming COVID-19 as the unifying cause of the patient's symptoms.
+</stitched_reasoning>

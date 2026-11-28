@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's history of progressive paraparesis, inability to walk, sensory loss below the D2 dermatome, and refractory cervicodorsal pain, we need to evaluate the possibility of a primary neoplasm or metastatic tumor. However, the patient's prior cystic liver disease and similar cystic lesions in the mediastinum and spine strongly suggest recurrent hydatid infection rather than a primary neoplasm. He was operated 10 years ago for a cystic lesion of the liver, and CT demonstrated cystic tissue localized to the mediastinum and paravertebral muscles, with erosion of the second rib and the vertebral bodies of D1 and D2. MRI showed multiple heterogeneous lesions in the intraspinal extradural space at D1-D2, causing severe spinal cord compression and involving transverse and spinous processes, the left laminae, the second rib, the mediastinum on the right, and cervical paraspinal muscles from C4 to D2.
+
+The cystic nature of the lesions, which are non-solid and non-enhancing, and the bone erosion are characteristic of echinococcal involvement, making infectious cystic disease more likely than metastatic tumor or abscess. CT demonstrated cystic tissue, and MRI showed multiple and heterogeneous lesions, with severe spinal cord compression.
+
+Furthermore, the patient's recurrence after voluntarily stopping anthelmintic therapy supports the persistence of echinococcosis rather than a self-limited process. Three years later, after he voluntarily stopped medical treatment, the patient develops a rapid worsening of symptoms.
+
+Considering all these factors, the most likely diagnosis is echinococcosis, a condition characterized by the presence of echinococcal cysts, which are caused by the Echinococcus parasite. The patient's symptoms, including progressive paraparesis, sensory loss, and bone erosion, are consistent with this diagnosis.
+</stitched_reasoning>

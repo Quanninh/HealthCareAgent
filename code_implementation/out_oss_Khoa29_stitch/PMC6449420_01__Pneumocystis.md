@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Given the patient's history of common variable immunodeficiency (CVID) and the presentation of worsening dyspnea, we consider infectious etiologies as a potential cause. However, extensive bronchoalveolar lavage cultures and PCR panels were negative, making infection unlikely. Bronchoalveolar lavage obtained by bronchoscopy did not show any evidence of infection. This leads us to exclude viral, bacterial, fungal, mycobacterial, and Pneumocystis jirovecii infections, as specific targeted PCR and culture testing has been performed. Specific testing included bacterial, fungal, mycobacterial, and viral cultures along with PCR assays for influenza, respiratory syncytial virus, parainfluenza, human metapneumovirus, adenovirus, cytomegalovirus, Epstein-Barr virus, human herpesvirus-8, and Pneumocystis jirovecii.
+
+With the infectious etiologies ruled out, we consider other potential causes of the patient's symptoms. The chest CT scan shows mediastinal and hilar lymphadenopathy, peripheral interlobular septal thickening, peripheral consolidation, and ground-glass opacities, which are suggestive of an immune-mediated process. Hypersensitivity pneumonitis and other interstitial lung diseases are in the differential, yet the lack of exposure history and negative infectious work-up shifts our focus toward an immune-mediated process associated with CVID.
+
+Furthermore, the pattern of interstitial fibrosis and the presence of non-caseating granulomatous inflammation on the biopsy are consistent with Granulomatous-lymphocytic interstitial lung disease (GLILD). The biopsy, which was performed via thoracoscopy, showed non-caseating granulomatous inflammation, confirming the diagnosis of GLILD.
+
+Therefore, based on the extensive evaluation and diagnostic testing, the final diagnosis is GLILD.
+</stitched_reasoning>

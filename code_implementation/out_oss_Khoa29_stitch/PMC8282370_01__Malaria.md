@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The infant's presentation of high-grade fever, irritability, poor breastfeeding, and yellowing of the eyes and skin at 36 hours of life suggests a serious underlying condition. Neonatal malaria is strongly suggested by a positive Malaria Rapid Diagnostic Test (MRDT) and species-specific thin smear showing P. falciparum parasites in the infant's blood. Malaria rapid diagnostic test (MRDT) for P. falciparum was positive; thin blood smear showed P. falciparum malaria species with 1.846*10³ malaria-infected red blood cells. This is a critical finding that warrants further investigation.
+
+However, before concluding on malaria, it is essential to consider other potential causes of the infant's symptoms. Neonatal sepsis was considered because of early-onset fever and irritability, leading to empiric cloxacillin and cefotaxime. After 48 hours of antibiotics, C-reactive protein (CRP) was done and it was nonreactive, and the antibiotics were stopped. This suggests that the infant's symptoms may not be due to a bacterial infection, as the CRP was nonreactive, indicating a lack of inflammation.
+
+Another potential cause of the infant's jaundice is hemolytic disease of the newborn. However, the normal hemoglobin, low direct bilirubin fraction, and absence of anemia argue against significant hemolysis. Complete blood count was normal with Hb of 15.2 g/dL... Total serum bilirubin was 200.33 µmol/L with direct bilirubin 7.48 µmol/L. This makes hemolytic disease of the newborn an unlikely diagnosis.
+
+The mother's antenatal care was regular, and screening for HIV, syphilis, hepatitis B, and urinalysis were negative. She had been screened for HIV, syphilis, hepatitis B, and urinalysis, and all were negative. This makes congenital infection (e.g., TORCH, syphilis, hepatitis B) an unlikely diagnosis, as there were no dysmorphic features.
+
+Maternal malaria transmission was also considered, but it was excluded by negative maternal MRDT and smear. The rapid diagnostic test for P. falciparum was negative, and no haemoparasites were seen on the peripheral smear of maternal blood. This supports the diagnosis of early-onset neonatal malaria rather than placental transmission.
+
+Considering all the evidence, the most likely diagnosis is neonatal malaria. The positive MRDT and species-specific thin smear showing P. falciparum parasites in the infant's blood strongly support this diagnosis. The absence of other potential causes, such as bacterial infection, hemolytic disease of the newborn, and congenital infection, further supports this conclusion.
+</stitched_reasoning>

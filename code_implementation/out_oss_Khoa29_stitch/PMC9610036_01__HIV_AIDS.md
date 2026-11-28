@@ -1,0 +1,15 @@
+<stitched_reasoning>
+Embolic stroke is considered as a potential diagnosis due to the patient's atrial fibrillation and diabetes, but the specific patterns of sensory loss in the left upper extremity and loss of the left triceps reflex were more suggestive of either nerve root or brachial plexus pathology, and MRI showed no evidence of ischemic stroke. This led to the consideration of idiopathic brachial neuritis, which was entertained due to the isolated upper-limb deficits, yet the presence of a suprasellar hyperdense lesion on CT and subsequent cranial-nerve palsy made a peripheral plexus process less likely.
+
+The presence of a suprasellar hyperdense lesion on CT and subsequent cranial-nerve palsy broadened the differential to neoplastic, infectious, and inflammatory processes. Laboratory studies showed normal vitamin B12, B6, folate, and lead levels; a non-reactive rapid plasma reagin test; a negative HIV-1 assay; and a mildly elevated hemoglobin A1c of 6.7%. These results made certain conditions, such as vitamin B12 deficiency and HIV, less likely.
+
+The pattern of weakness and sensory loss suggested involvement of the C7/8 nerve roots or the middle and lower trunks of the brachial plexus. The initial differential included an extradural or intradural-extramedullary spinal mass versus idiopathic brachial neuritis. However, the presence of a suprasellar hyperdense lesion on CT and subsequent cranial-nerve palsy made a peripheral plexus process less likely.
+
+Leptomeningeal metastasis from carcinoma was considered; however, CSF demonstrated elevated protein and IgG index but neither malignant cells nor other inflammatory and infectious markers. This made metastatic carcinoma less likely. The thyroid nodules were later found, but they did not explain the CNS lesions.
+
+Primary central nervous system lymphoma (PCNSL) remained on the list because of the patient's age and multifocal nature of her symptoms, and MRI showed multiple enhancing lesions concerning for a lymphoproliferative process. Tuberculosis, histoplasmosis, coccidioidomycosis, and cryptococcosis were included as infectious possibilities, but extensive serologies and CSF studies were negative for other inflammatory and infectious markers.
+
+Sarcoidosis was a differential given the enhancing lesions, yet lack of systemic sarcoid findings and negative CSF studies made this unlikely. Metastatic carcinoma from an unknown primary was suggested by thyroid nodules, but stereotactic biopsy later established the diagnosis of diffuse large B-cell lymphoma, confirming the neoplastic etiology and excluding carcinoma.
+
+The combination of enhancing lesions with heterogeneous signal intensity concerning for a lymphoproliferative process and the exclusion of infectious and ischemic causes pointed toward lymphoma. The definitive diagnosis was reached after tissue sampling, and prior to biopsy, the combination of these findings led to the consideration of lymphoma as the most likely diagnosis.
+</stitched_reasoning>

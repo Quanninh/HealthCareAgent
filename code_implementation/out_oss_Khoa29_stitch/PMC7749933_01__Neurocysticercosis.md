@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's presentation with chronic severe headaches and progressive decline in visual acuity, particularly with blurring of vision in the left eye followed by similar symptoms in the right eye, suggests a possible mass effect on the optic chiasm. The neurological examination reveals visual acuities of 20/60 (right) and 20/80 (left), isochoric pupils measuring 2 mm with normal light reflexes, and a bitemporal hemianopia. These findings are consistent with a lesion in the sellar and suprasellar region.
+
+Pituitary hormonal assays were carried out and were found to be normal, arguing against a functional pituitary adenoma or other endocrine sellar tumors. This is an important consideration, as it rules out a common cause of sellar masses. However, the presence of a cystic lesion in the sellar and suprasellar region, as demonstrated by brain magnetic resonance imaging, is atypical for solid sellar neoplasms such as adenoma, craniopharyngioma, or meningioma. The cystic nature of the lesion without contrast enhancement is particularly notable, as it suggests a different underlying pathology.
+
+Brain magnetic resonance (MR) showed a cystic image in the sellar and suprasellar region, hyperintense on T2 sequence and hypointense on T1 with no capsule enhancement on the contrast study. This imaging characteristic is more consistent with a parasitic infection, such as neurocysticercosis. Histologic identification of a parasitic wall with wavy cuticle and inflammatory infiltrate confirms a cysticercal cyst, which is a key finding in the diagnosis of neurocysticercosis.
+
+Furthermore, postoperative lentil lectin glycoprotein enzyme-linked immunoelectrotransfer blot was positive, providing serologic confirmation of cysticercosis. This test result, in conjunction with the histologic findings and imaging characteristics, strongly supports the diagnosis of neurocysticercosis.
+</stitched_reasoning>

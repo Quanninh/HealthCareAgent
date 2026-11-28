@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Bacterial pneumonia caused by Streptococcus pneumoniae was initially suspected because of the positive blood cultures and right-sided consolidation on chest X-ray. Blood cultures were positive for Streptococcus pneumoniae... A chest X-ray ... showed a right lung consolidation consistent with pneumonia thus the patient was started on empiric vancomycin. However, despite completing a course of antibiotics for pneumonia, his symptoms did not improve, which argued against simple bacterial pneumonia as the sole explanation.
+
+Pulmonary involvement by disseminated Kaposi’s sarcoma was considered given the known cutaneous disease and CT findings of multiple nodular opacities. CT ... showed numerous nodular opacities throughout each lung which were suspected to be consistent with KS. Opportunistic infections typical of immunocompromised hosts (Pneumocystis jirovecii pneumonia, fungal infections, mycobacterial tuberculosis) were evaluated and excluded by negative BAL stains, cultures, and PCRs. BAL stains and cultures were negative for bacteria, fungi or acid fast bacilli. Pneumocystis jiroveci PCR and fluid cytology were also negative.
+
+Malignant pleural effusion due to lymphoma or other cancer was considered but cytology did not demonstrate malignant cells, and the effusion was exudative, supporting a non-malignant process. Histopathology failed to demonstrate malignant cells. However, HHV-8 DNA detection in BAL fluid confirmed the presence of Kaposi’s sarcoma in the lung, establishing the final diagnosis.
+</stitched_reasoning>

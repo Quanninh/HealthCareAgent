@@ -1,0 +1,15 @@
+<stitched_reasoning>
+The patient's presentation of fever, chills, and myalgia three days before returning from a trip to Guinea, Senegal, and Sierra Leone, and the subsequent worsening of symptoms upon return, raises suspicion for a tropical infection. Thick and thin blood films revealed 3% parasitemia with *Plasmodium falciparum*, which explains the fever and parasitemia, but does not fully account for the severe hemorrhagic manifestations and disseminated intravascular coagulation (DIC). Acute malaria confirmed by peripheral smear explains fever and parasitemia but does not fully account for severe hemorrhagic manifestations and DIC. Thick and thin blood films showed 3% parasitemia with Plasmodium falciparum.
+
+However, the patient's persistent high-grade fever, conjunctival jaundice, and hemorrhagic signs raise suspicion for another tropical infection such as dengue. Three days later, she was still febrile and had conjunctival jaundice, vomiting, insomnia, and moderate hemorrhagic manifestations (epistaxis, blood in urine and feces).
+
+Laboratory evidence of DIC, marked by thrombocytopenia, prolonged prothrombin time and activated clotting time, and low fibrinogen, is characteristic of severe dengue infection (dengue hemorrhagic fever) and is less typical of uncomplicated falciparum malaria. Biologic analyses showed disseminated intravascular coagulation with platelet count of 22,000/mL, an elevated prothrombin time (54% higher than the control value), a longer activated clotting time (51 seconds versus a control value of 34 seconds), a fibrinogen level of 0.9 g/dL...
+
+The patient's history of recent travel to West Africa, a region endemic for dengue, supports possible dengue exposure. A 37-year-old woman … returned … from Guinea, Senegal, and Sierra Leone. The clinicians ordered viral serologies because fever after tropical travel warrants broad screening, indicating they considered dengue among other viruses. Viral serologic tests were performed because the patient had returned from a tropical country with a fever.
+
+Other tropical infections (e.g., yellow fever, chikungunya, leptospirosis, typhoid) were considered but are less consistent with the combination of high parasitemia, DIC, and the specific hemorrhagic pattern; the authors note prior reports of dengue co-infection with bacteria or viruses but not with malaria, highlighting the uniqueness of this case. Only 6 published studies reported concurrent infection with dengue virus and a bacterium ... or with a virus such as Chikungunya virus.
+
+Definitive confirmation of dengue was obtained later by IgM/IgG ELISA and dengue-3 RNA detection, which ruled in dengue as the concurrent infection. Serologic tests for dengue performed on the acute-phase serum … showed the presence of immunoglobulin M … and IgG … 
+
+The combination of severe hemorrhagic manifestations, DIC, and the patient's recent travel to a region endemic for dengue, along with the laboratory evidence of DIC and the clinicians' consideration of dengue among other viruses, strongly suggests that the patient has dengue as the concurrent infection.
+</stitched_reasoning>

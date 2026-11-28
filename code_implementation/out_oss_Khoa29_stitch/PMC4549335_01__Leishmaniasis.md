@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's presentation of persistent febrile illness with hepatosplenomegaly and pancytopenia in an HIV-infected host suggests opportunistic infections, but bone-marrow examination demonstrates Leishmania amastigotes, confirming visceral leishmaniasis. In April 1996 he developed drenching sweats and hepatosplenomegaly, and in March 1997 the diagnosis of VL was confirmed by the visualization of amastigotes in bone marrow samples.
+
+The re-occurrence of amastigotes in serial bone-marrow, skin, lymph-node and sigmoid biopsies indicates ongoing Leishmania infection despite therapy, arguing against other causes of splenomegaly such as lymphoma or Kaposi’s sarcoma. Leishmania amastigotes were visualized in bone marrow samples collected in September 2004, March, May, and December 2005, ... and also in skin lesions biopsied in November 2003, September 2007, and May 2009; lymph nodes biopsied in May 2009 and September 2011; and a sigmoid biopsy in March 2000.
+
+Drug-related toxicities (visual impairment, hearing loss) and catheter-related bacteremia explain some clinical findings but do not account for the persistent amastigote burden, thus they were excluded as primary causes of the patient’s disease progression. Treatment of VL was complicated by significant adverse drug effects including: marked visual impairment presumed secondary to antimonial toxicity; hearing loss presumed secondary to various agents including paromomycin; and multiple episodes of bacteremia arising from the indwelling cannula...
+
+In vitro resistance testing shows stibogluconate resistance, supporting the failure of antimonial regimens and confirming that lack of response was due to drug resistance rather than poor adherence. An isolate of Leishmania infantum cultured ... was reported to be resistant to stibogluconate (IC50 > 60 mg/L) but susceptible to amphotericin B, miltefosine and paromomycin.
+
+Considering the persistent presence of Leishmania amastigotes in the patient's bone marrow and other tissues, despite multiple treatment regimens, and the evidence of in vitro resistance to stibogluconate, it is clear that the patient's disease progression is due to visceral leishmaniasis.
+</stitched_reasoning>

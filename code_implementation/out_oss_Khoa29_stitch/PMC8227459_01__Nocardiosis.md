@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Tuberculosis was considered as a potential diagnosis due to the presence of cavitary lesions and lymphadenopathy. However, this was excluded by three negative Acid-Fast Bacilli sputum smears and a negative purified protein derivative test. Sputum Gram stain and bacterial culture, 3 Acid-Fast Bacilli sputum smears and purified protein derivative testing were negative.
+
+Given the patient's immunocompromised state and the presence of cavitary lung lesions, typical bacterial pneumonia was entertained, leading to empiric ceftriaxone and azithromycin. However, the lack of clinical improvement and negative sputum cultures argued against this diagnosis. The patient was started on ceftriaxone 1 g IV daily, azithromycin 500 mg IV daily, and TMP/SMX 2 double-strength tablets orally every 8 hours. All cultures and smears were negative.
+
+Nocardiosis was also considered as a possibility, given the patient's immunocompromised state and the presence of cavitary lung lesions. This led to the restart of TMP/SMX, but ultimately, lung tissue pathology did not reveal Nocardia organisms. because of suspicion for nocardiosis, TMP/SMX was restarted... Pathology revealed... organisms within morphologically consistent with Pneumocystis jiroveci... and negative Acid-Fast Bacilli stain.
+
+Pneumocystis jiroveci pneumonia remained a possibility throughout, and the initial BAL cytology was negative. However, definitive diagnosis was achieved by visualization of organisms on Gomori methenamine silver stain from the core-needle biopsy. Cytology was negative for malignancy and PCP... Pathology revealed... granulomas with coagulation necrosis with organisms within morphologically consistent with Pneumocystis jiroveci noted on Gomori methenamine silver (GMS) stain.
+</stitched_reasoning>

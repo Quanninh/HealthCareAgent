@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Imaging features of disc space loss and paraspinal/iliopsoas collection are classic for spinal tuberculosis. Contrast MRI of the lumbosacral region demonstrated loss of disc space with paraspinal collection at L3-4 extending into bilateral iliopsoas muscle suggesting tuberculosis. This classic presentation is highly suggestive of spinal tuberculosis, a condition that requires prompt treatment with anti-tubercular therapy.
+
+However, we must also consider the possibility of an alternative diagnosis. Molecular (Xpert MTB/RIF) and culture (MGIT) confirmation of Mycobacterium tuberculosis with rifampicin resistance establishes a diagnosis of rifampicin-resistant (multidrug-resistant) TB. Needle aspiration of pus along with Xpert MTB/RIF and liquid culture (MGIT) both showed the presence of MTB resistant to rifampicin. This finding is crucial in determining the appropriate treatment regimen, as rifampicin resistance requires a modified anti-tubercular therapy.
+
+Furthermore, an alternative diagnosis of a secondary bacterial infection was considered after the patient developed fever and pus discharge; anaerobic culture grew Peptoniphilus asaccharolyticus, guiding additional antimicrobial therapy. Aerobic culture of the sample did not show growth of any bacteria and anaerobic culture showed growth of bacteria ... identified as Peptoniphilus asaccharolyticus. However, this finding does not alter the primary diagnosis of tuberculosis, as the imaging and molecular/culture findings remain consistent with this diagnosis.
+
+In conclusion, the combination of imaging findings, molecular/culture confirmation, and clinical presentation all support a diagnosis of tuberculosis. The patient's response to initial treatment and subsequent relapse with rifampicin-resistant TB further solidify this diagnosis. Therefore, the final diagnosis is tuberculosis.
+</stitched_reasoning>

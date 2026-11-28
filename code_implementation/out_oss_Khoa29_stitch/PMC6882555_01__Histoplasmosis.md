@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation with chest pain, dysphagia, and coughing, and the imaging findings of enlarged mediastinal lymph nodes, a differential diagnosis of infectious etiologies such as tuberculosis or fungal infection is suggested by the presence of necrotic granulomatous inflammation on histology. The authors noted "Acid-alcohol-resistant negative bacillus (BAAR; Ziehl-Neelsen)" indicating TB was considered but excluded. However, the presence of yeasts on fungal stain supports a fungal cause, and the authors performed Grocott staining, which was positive for different-sized yeast, narrowing the differential to dimorphic fungi.
+
+Further investigation revealed serologic evidence of high-titer Histoplasma antibodies, confirming histoplasmosis, with a complement-fixation titer of 1:32 exceeding the positive threshold (>1:8). This finding makes neoplastic processes less likely, as benign elastography and the absence of malignant cytology are noted, with qualitative elastography showing a benign pattern (green). The absence of necrosis and the presence of yeasts also argue against sarcoidosis, as anatomopathological study showed epithelioid granuloma, and central necrosis areas were identified.
+
+Considering these findings, the most likely diagnosis is histoplasmosis, supported by the presence of yeasts on fungal stain, serologic evidence of high-titer Histoplasma antibodies, and the absence of necrosis and malignant cytology.
+</stitched_reasoning>

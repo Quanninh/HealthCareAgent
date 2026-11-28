@@ -1,0 +1,9 @@
+<stitched_reasoning>
+A 46-year-old woman presents with intermittent fever, mild abdominal pain, anorexia, and significant weight loss. The physical examination reveals cervical and inguinal lymphadenopathy, moderate right-upper-quadrant tenderness, and hepatomegaly. Laboratory studies show mild normocytic anemia, leukocytosis, elevated ESR, and elevated alkaline phosphatase. The contrast-enhanced CT of the abdomen and pelvis demonstrates a well-defined, peripherally enhancing hypodense lesion in the right hepatic lobe, coalescing with a sub-centimetric lesion suggestive of a liquefied hepatic abscess. Multiple enlarged, centrally necrotic lymph nodes are seen, suggesting an infectious process.
+
+Pyogenic liver abscess is considered because imaging shows a hepatic collection, but it is ruled out by negative bacterial culture of the pus. Both tests came back negative. Amoebic liver abscess is also considered given the hepatic lesion, but it is excluded by a negative Entamoeba histolytica IgG ELISA. We sent an Entamoeba histolytica immunoglobulin G (IgG) enzyme-linked immunosorbent assay (ELISA), and both tests came back negative.
+
+Pulmonary tuberculosis is considered as a source, but the sputum AFB smear is negative, indicating the need to search for extrapulmonary disease. The sputum samples did not show any acid-fast bacilli (AFB). However, extrapulmonary tuberculosis, specifically hepatic TB, remains plausible due to necrotic lymphadenopathy and the hepatic lesion. Findings suggested an infectious disease. TB needs to be ruled out.
+
+Given the negative bacterial culture and ELISA results, and the presence of necrotic lymphadenopathy and a hepatic lesion, the most likely diagnosis is tuberculosis, specifically extrapulmonary tuberculosis affecting the liver.
+</stitched_reasoning>

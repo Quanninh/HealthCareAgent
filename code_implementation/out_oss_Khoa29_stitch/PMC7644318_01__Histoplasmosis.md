@@ -1,0 +1,13 @@
+<stitched_reasoning>
+A 56-year-old man with a 12-year history of seropositive rheumatoid arthritis presents with a one-week history of polyarthritis and sudden onset of forgetfulness. On exam, he has moderate lumbar back tenderness with decreased range of motion, swelling and tenderness of the metacarpophalangeal joints, wrists, ankles, and left knee. He was oriented only to person and place; he could follow commands, walked steadily, and had no focal neurologic deficits. Cardiac exam was normal. Laboratory studies showed a leukocyte count of 12.09 × 10⁹/L and hemoglobin 11.9 g/dL; electrolytes, serum creatinine (0.89 mg/dL) and estimated GFR (>60 mL/min/1.73 m²) were within normal limits.
+
+Initially, a rheumatoid arthritis flare is considered due to longstanding seropositive RA and polyarthritis, but the lack of improvement after increasing steroids and opioids makes this unlikely. On the third day of hospitalization, the patient's polyarthritis showed no improvement, and thus rheumatology was consulted. Infectious etiologies (HIV, hepatitis, histoplasmosis) are evaluated due to systemic symptoms and rash; all serologies were negative, reducing the probability of an infectious cause. Serology for acute HIV, hepatitis A, B, and C were negative, as well as histoplasma antibodies.
+
+Cryoglobulinemic vasculitis is considered because of rash and renal involvement; negative cryoglobulin testing rules it out. Systemic lupus erythematosus is a differential given renal findings and elevated inflammatory markers, but negative ANA, anti-dsDNA, and normal complement levels argue against it. Negative dsDNA antibody, and negative ANA... normal complement levels.
+
+Other ANCA-associated vasculitides (e.g., microscopic polyangiitis) are possible; however, the presence of a high-titer C-ANCA with PR3 specificity strongly points toward granulomatosis with polyangiitis rather than MPO-ANCA disease. Positive 1:512 C-ANCA, positive proteinase 3 antibody >8.0, negative P-ANCA.
+
+A primary CNS vascular event (stroke) could explain the infarct, but the concurrent multisystem involvement (rash, glomerulonephritis, elevated ANCA) suggests a systemic vasculitic process. MRI of the brain... showed a small region of acute infarction in the left mammillary body.
+
+Drug-induced vasculitis from tocilizumab or methotrexate is considered, but the timing of symptom onset and serologic profile favors primary ANCA-associated vasculitis. The combination of these findings leads to a diagnosis of granulomatosis with polyangiitis, a systemic vasculitic process characterized by the presence of ANCA, renal involvement, and a high-titer C-ANCA with PR3 specificity.
+</stitched_reasoning>

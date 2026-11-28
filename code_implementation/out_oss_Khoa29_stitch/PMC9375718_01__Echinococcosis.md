@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Imaging demonstrated a large, multilocular cystic lesion within skeletal muscle, raising suspicion for a parasitic cyst rather than a solid neoplasm. MRI showed a lesion consisting of cystic components within the right vastus lateralis muscle. This presentation is concerning for a parasitic cyst, as it is less likely to be a solid neoplasm. The patient's history of a right-thigh mass that had been present for ten years but had enlarged over the past few months also supports this suspicion.
+
+The history of hepatic cystic echinococcosis and prior albendazole therapy increased the pre-test probability of a secondary muscular hydatid cyst. Four months before, the patient was also diagnosed with liver CE, and she had already received albendazole treatment for 3 months preoperatively. This information is crucial in considering the possibility of a secondary muscular hydatid cyst, as it suggests that the patient may have been exposed to the parasite through her liver disease.
+
+Intra-operative preservation of an intact cyst membrane without spillage suggested a hydatid cyst rather than an abscess or sarcoma, which would usually have friable or solid tissue. Total excision was performed without damaging the cyst membrane. This finding is consistent with a hydatid cyst, as it would not typically have a friable or solid texture.
+
+Pathology later confirmed daughter cysts and dense hydatid sand, findings characteristic of CE and not compatible with other soft-tissue tumors. The macroscopic examination of the removed cyst, daughter cysts were seen and it was found that the hydatid sand structure was denser and more caseified than normal. This confirms the suspicion of a hydatid cyst, and the presence of daughter cysts and dense hydatid sand is characteristic of CE.
+
+Based on the imaging findings, the patient's history, the intra-operative findings, and the pathology results, the diagnosis of echinococcosis is supported. The presence of a large, multilocular cystic lesion within skeletal muscle, the history of hepatic cystic echinococcosis, the preservation of an intact cyst membrane, and the pathology findings all point towards this diagnosis.
+</stitched_reasoning>

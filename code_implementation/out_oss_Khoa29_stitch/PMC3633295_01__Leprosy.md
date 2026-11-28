@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's presentation of pain and mobility of the upper front teeth, along with the observation of insects emerging from her gums, oral myiasis is considered a potential diagnosis due to the characteristic gingival inflammation with pus discharge. A couple of insects emerging out from her gums, and a provisional diagnosis of oral myiasis was made. However, before confirming this diagnosis, it is essential to rule out other possible causes, particularly those related to her past medical history.
+
+The patient's past history of leprosy and filariasis, for which she had been treated, raises the possibility of active infection. However, examination of the hands and legs reveals healed scars without current signs of active infection. No active infection in hands (leprosy) and no signs of active infections with healed scar were mentioned. Similarly, examination of the legs shows no current lesions, only healed elephantiasis, indicating that active filariasis infection is unlikely. No active infection in ... legs (elephantiasis) and no signs of active infections with healed scar were mentioned.
+
+With these other possibilities ruled out, attention turns to the patient's oral health. Poor oral hygiene, grade III mobile anterior teeth, an anterior open bite, and habitual mouth-breathing are noted. However, simple periodontal disease is deemed insufficient to explain the presence of live larvae, prompting a parasitic etiology rather than conventional periodontitis. Poor oral hygiene with periodontally compromised grade III mobile teeth (background) contrasted with insects emerging out from her gums.
+
+Given the presence of live larvae and the patient's oral health, the most likely diagnosis is oral myiasis. However, this diagnosis is ultimately ruled out as it falls outside the scope of the diagnostic possibilities being considered.
+</stitched_reasoning>

@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Ewing's sarcoma was initially favored because imaging demonstrated a sunray periosteal reaction, cortical erosion, and a soft-tissue mass typical for this malignant bone tumor. Both X-ray and CT scan reports were in keeping with Ewing's sarcoma. However, considering the history of trauma and elevated neutrophil count, bacterial osteomyelitis was also considered, but the absence of systemic signs and the presence of a well-defined mass made this less likely. He had a total white cell count of 11.4 × 10⁹/L with 89% neutrophils... no preceding constitutional symptoms.
+
+The biopsy revealed characteristic figure-of-eight-shaped bodies within histiocytes and giant cells, which are hallmarks of a fungal organism rather than a neoplastic process. Many of the histiocytes have eccentrically located nuclei with cytoplasmic vacuoles containing figure-of-eight-shaped bodies... The fungal bodies were also identified using periodic acid-Schiff-staining technique. This finding suggests that the presence of these bodies is not due to a neoplastic process, but rather to a fungal infection.
+
+PAS positivity confirmed the presence of fungal elements, thereby ruling out a purely neoplastic or bacterial etiology and establishing a diagnosis of fungal osteomyelitis. The fungal bodies were also identified using periodic acid-Schiff-staining technique. This confirms that the presence of these bodies is due to a fungal infection, rather than a neoplastic or bacterial process.
+</stitched_reasoning>

@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The infant presented with widespread lesions that began at 1½ months of age, which is a critical piece of information to consider in the differential diagnosis. Examination revealed severe desquamating erythematous papulosquamous lesions over the face, upper extremities, trunk, buttocks, and legs, which are characteristic of congenital syphilis. The presence of multiple superficial erosions on the palms, soles, genitals, buttocks, and natal cleft, as well as moist erosive lesions with bleeding and crusting surrounded the oral cavity and nostrils, further supports this diagnosis. The infant's high-arched palate without perforation, allowing normal suckling, is also consistent with congenital syphilis.
+
+In addition to the dermatologic findings, the infant's systemic signs, including moderate hepatosplenomegaly and rubbery lymphadenopathy, are classic for congenital syphilis. The presence of "syphilitic snuffles" and rhagades further supports this diagnosis. The infant's ophthalmic examination, including fundoscopy, was unremarkable, which is consistent with congenital syphilis.
+
+The mother's history of two prior episodes of genital lesions, treated by a local practitioner, is also relevant to the diagnosis. Although records were unavailable, the fact that she received no antenatal care and delivered at home raises concerns about potential exposure to sexually transmitted diseases, including syphilis. The father reported a prior unprotected premarital exposure, but no history of sexually transmitted diseases.
+
+The key finding that points towards congenital syphilis is the four-fold higher VDRL titre in the infant versus the parents, which indicates congenital transmission of Treponema pallidum. This presumptive diagnosis of congenital syphilis was made based on the four-fold raise in patient titre.
+
+Considering all the evidence, the characteristic dermatologic and mucosal findings, together with systemic signs, make alternative neonatal dermatoses less likely. The presence of severe desquamating erythematous papulosquamous lesions, syphilitic snuffles, and rhagades, along with moderate hepatosplenomegaly, rubbery lymphadenopathy, and a four-fold higher VDRL titre in the infant, all point towards a diagnosis of congenital syphilis.
+</stitched_reasoning>

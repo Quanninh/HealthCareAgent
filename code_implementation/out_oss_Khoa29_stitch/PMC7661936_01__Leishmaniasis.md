@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The patient's presentation with persistent fever, pancytopenia, hyperferritinemia, hypertriglyceridemia, and hemophagocytosis met criteria for hemophagocytic lymphohistiocytosis, prompting a search for an underlying trigger. Bone marrow biopsy showed a distinct hemophagocytosis, which is a hallmark of this condition. However, hereditary HLH was excluded by normal NK-cell degranulation and normal perforin, CD27, SAP, XIAP expression. Normal fresh degranulation of natural killer cells (14.7%; normal: >10%) and normal expressions of perforin, CD27, SAP, and XIAP indicate that the patient's immune system is functioning normally, making hereditary HLH an unlikely cause.
+
+Common bacterial sepsis was unlikely because repeated blood, urine, and tracheal cultures were negative despite broad-spectrum antibiotics. Results of infectious work-up remained negative, ruling out bacterial sepsis as a potential trigger. Viral etiologies were also ruled out by comprehensive negative serologies and PCRs for EBV, HIV, CMV, and other respiratory viruses. All serological and PCR tests for viruses were negative, making viral infections an unlikely cause.
+
+Fungal infections such as aspergillosis and Pneumocystis pneumonia were excluded by negative PCR/antigen tests. All testing for leishmania, legionella, aspergillus, Pneumocystis jirovecii, and other fungal pathogens were negative, ruling out fungal infections as a potential trigger. Parasitic infections (leishmania) were also excluded by negative serology and PCR. All testing for leishmania were negative, making parasitic infections an unlikely cause.
+
+Malignancy was considered but tumor markers (AFP, NSE, β-hCG, HVA, VMA) were unrevealing, and imaging could not be performed. All tumors markers were unrevealing, making malignancy an unlikely cause. However, the patient's presentation with hemophagocytosis and pancytopenia suggests that an underlying infection or inflammatory process may be triggering this condition.
+
+The eventual confirmation of M. tuberculosis by culture and PCR (performed later) validated TB as the trigger of secondary HLH. A positive result from the interferon-gamma release assay (IGRA) was the first indication for possible TBC infection on d 12, making TB a leading candidate. The IGRA result was a crucial finding that pointed towards TB as the underlying cause of the patient's condition.
+
+The combination of hemophagocytosis, pancytopenia, and a positive IGRA result ultimately led to the diagnosis of tuberculosis as the trigger of secondary hemophagocytic lymphohistiocytosis.
+</stitched_reasoning>

@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's persistent cough and incidentally discovered pulmonary nodules prompted consideration of granulomatous infection, especially histoplasmosis, which is endemic in many regions. The decision was made to pursue biopsy of the enlarged subcarinal LN to test for old granulomatous disease, in particular, histoplasmosis. Initial EBUS-TBNA showing excessive necrosis raised concern for necrotic tumor or infectious process, but rapid on-site evaluation and cultures were negative for malignancy, bacteria, fungi, and AFB. ROSE commented on excessive necrosis from each pass. Cultures including bacterial, fungal, and acid-fast bacteria (AFB) were negative. Final cytology was negative for infectious and malignant etiologies.
+
+However, the development of fever, pleuritic chest pain, and leukocytosis after the bronchoscopic procedure suggested a post-procedural complication such as mediastinitis or an abscess rather than a primary pulmonary neoplasm, which would be less likely to cause acute systemic symptoms. She presented to the Emergency Room with complaints of a low-grade fever, shortness of breath, and sharp and posterior right-sided chest pain which worsened since the procedure.
+
+The marked increase in size of the subcarinal mass on repeat CT (from 1.4 × 2.8 cm to 5.5 × 2.6 cm) with mass effect reinforced the possibility of an infectious collection (abscess) rather than a slowly enlarging malignant node. CT chest was significant for a large subcarinal mass measuring 5.5 × 2.6 cm causing mass effect on adjacent vessels and esophagus.
+
+Differential diagnoses such as lymphoma, metastatic carcinoma, tuberculous lymphadenitis, and fungal infection were considered but were less favored because prior cultures were negative, there was no evidence of systemic B symptoms, and the rapid evolution favored a suppurative process. Cultures including bacterial, fungal, and acid-fast bacteria (AFB) were negative.
+
+Intra-operatively, the subcarinal mass had thick fluid inside which grew Propionibacterium acnes (P. acnes). Final histopathology showed fibroadipose tissue with fibrin, fat necrosis, and chronic inflammation consistent with abscess.
+</stitched_reasoning>

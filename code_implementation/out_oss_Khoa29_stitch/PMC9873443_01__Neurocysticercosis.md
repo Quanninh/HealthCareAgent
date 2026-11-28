@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's presentation with progressive right-sided weakness, dysesthesias, and headaches, and the neurologic examination revealing upper-motor-neuron-type weakness in the right upper and lower extremities, increased temperature sensitivity on the right side, and gait abnormalities affecting the right lower extremity, a differential diagnosis is necessary. Neurocysticercosis is considered because of multiple cystic brain lesions in an endemic region; empiric albendazole and praziquantel were started despite negative serology. Despite cysticercosis antibodies being tested negative, the patient was also initiated on albendazole, praziquantel, and levetiracetam for the empiric treatment of neurocysticercosis.
+
+However, the patient's reactive Quantiferon, lack of prior LTBI therapy, and cystic lesions that can mimic tuberculomas raise suspicion for brain tuberculoma. Due to high suspicion of brain tuberculoma, the patient was treated for latent tuberculosis. Additionally, the presence of atypical CSF cytology and rapid neurologic decline suggest a primary brain malignancy, such as glioma. CSF cytology was significant for atypical cells, raising concern for malignancy. Imaging showed mass effect and hemorrhagic components, further supporting this concern.
+
+Other infectious etiologies, including syphilis, HIV, cryptococcosis, toxoplasmosis, and fungal infections, were excluded by negative serologies and antigen tests. Syphilis serology was nonreactive, and other infectious workup including HIV, galactomannan, Cryptococcus antigen, toxoplasmosis serology were negative. Metastatic disease is also considered, given the multiple brain lesions, but CT chest and abdomen did not show any primary or metastatic masses.
+
+Considering the combination of these findings, the most likely diagnosis is a primary brain malignancy, specifically glioblastoma.
+</stitched_reasoning>

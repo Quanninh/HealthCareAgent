@@ -1,0 +1,5 @@
+<stitched_reasoning>
+The patient's presentation of progressive hip pain in the setting of steroid exposure raises concern for osteonecrosis rather than simple mechanical strain. He began to develop various joint complains including heel, knee and right hip pain. The right hip pain persisted for several months. This is particularly concerning given the patient's history of taking high-dose megestrol, a glucocorticoid-like agent, which can cause Cushingoid signs and predispose to avascular necrosis of bone. He had developed moon facies and striae on his abdomen... He had increased the dose to 400 mg a day... to make it work faster. The patient's symptoms and history are consistent with the potential for osteonecrosis, and further investigation is warranted.
+
+Imaging is necessary to confirm the suspected diagnosis and rule out other musculoskeletal etiologies. An x-ray of his hips with arthroscopy confirmed bilateral femoral head osteonecrosis with increased degeneration on the right side. This confirms the suspicion of osteonecrosis, and the patient's symptoms and history are now fully explained.
+</stitched_reasoning>

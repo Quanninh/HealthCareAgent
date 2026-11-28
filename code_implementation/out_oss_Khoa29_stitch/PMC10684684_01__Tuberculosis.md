@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Upon presentation, a 40-year-old woman was admitted with a 2-year history of progressive enlargement of the right forearm. The initial concern was a benign soft-tissue tumor, specifically a lipoma, due to the mass being soft, non-tender, mobile, and imaging showing an ill-defined but localized lesion without systemic symptoms. Physical examination revealed a 6 cm × 3 cm mass with a soft texture, no tenderness, and superficial ultrasonography showed an irregular mass measuring approximately 56.7 mm × 16.4 mm with unclear borders. The lipoma diagnosis was established according to the examination results.
+
+However, postoperative pathology revealed granulomatous inflammation, multinucleated giant cells, and acid-fast bacilli, confirming Mycobacterium tuberculosis infection. This led to the consideration of infectious etiologies, such as soft-tissue tuberculosis, which was identified by postoperative pathology showing granulation tissue and granuloma formation, and staining for acid-fast bacilli were positive, with the IS6110 gene detected by qPCR, resulting in positive amplification.
+
+Initially, pulmonary or disseminated tuberculosis was deemed unlikely preoperatively because the patient lacked respiratory or constitutional symptoms and chest CT was normal. The patient had no cough, sputum, hypothermia, night sweats, dyspnea, or chest tightness, and the chest CT examination showed no abnormality. However, the presence of Mycobacterium tuberculosis infection in the soft tissue of the right forearm suggests that the patient may have been infected through a cutaneous route, rather than through respiratory or systemic dissemination.
+
+Considering the evidence, the most likely diagnosis is tuberculosis, specifically soft-tissue tuberculosis of the right forearm, which was identified by postoperative pathology and confirmed by molecular testing.
+</stitched_reasoning>

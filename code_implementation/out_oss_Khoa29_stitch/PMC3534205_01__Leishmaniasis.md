@@ -1,0 +1,9 @@
+<stitched_reasoning>
+The patient's chronic immunosuppression with a CD4 count of less than 100 cells/µL predisposes to opportunistic infections and disseminated skin disease, prompting consideration of HIV-related infections such as cryptococcosis, histoplasmosis, and mycobacterial disease. The patient was known to be HIV positive for about 20 years, and his CD4 cells never exceeded 100 cells/µL. However, the combination of longstanding generalized erythematous-pustular plaques, pancytopenia, and hepatosplenomegaly raises suspicion for systemic infections endemic to the Mediterranean, including leishmaniasis, especially given repeated travel to Ischia. He reported yearly holiday trips to Ischia (Gulf of Naples) during prior decades.
+
+Negative Leishmania serology does not exclude infection in severely immunocompromised hosts, directing the work-up toward tissue-based diagnosis. Leishmania serology was negative, but PCR from blood and skin samples was positive for L. donovani/infantum complex. This finding, in conjunction with the patient's immunocompromised state and travel history, suggests that leishmaniasis is a likely diagnosis.
+
+Histopathology demonstrating a dense infiltrate of histiocytic cells with Donovan bodies confirmed cutaneous leishmaniasis; bone-marrow infiltration confirmed visceral involvement, establishing the definitive diagnosis. A skin biopsy revealed a dense infiltrate of histiocytic cells with Donovan bodies compatible with cutaneous leishmaniasis, and bone marrow aspiration showed infiltration with Leishmania confirming visceral leishmaniasis.
+
+Therefore, the patient's diagnosis is leishmaniasis, a systemic infection caused by the Leishmania donovani/infantum complex, which is endemic to the Mediterranean region and likely acquired during his repeated travel to Ischia.
+</stitched_reasoning>

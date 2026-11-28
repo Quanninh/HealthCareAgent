@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's presentation with multiple draining sinuses on the scalp, discharging white grains, suggests a mycetoma, but the orbital involvement points toward an aggressive infective process rather than a benign fungal etiology. The presence of multiple sinuses on the scalp which were draining white grains, along with the orbital involvement, as seen on CT of the orbit, indicates a more aggressive process. This is further supported by the fact that the orbital involvement is not limited to the pre-septal space, but rather extends into the orbit itself.
+
+The CT scan of the brain revealed extradural invasion, indicating a deep-seated infection that can extend beyond the subcutaneous tissue. This finding favors bacterial (actinomycetoma) over purely cutaneous fungal causes, as the infection is able to spread beyond the superficial tissues. The presence of leukocytosis supports an acute bacterial infection rather than a chronic granulomatous disease such as tuberculosis or leprosy. Apart from leukocytosis, all routine investigations were within normal limits, further supporting the presence of an acute bacterial infection.
+
+The microbiologic identification of *Nocardia* spp. in the lesions confirms nocardial actinomycetoma, differentiating it from actinomycosis or eumycetoma, which would show different organisms on culture. This finding is crucial in establishing the diagnosis, as it specifically identifies the causative organism as *Nocardia* spp.
+
+The rapid clinical improvement with sulfonamide-based therapy (streptomycin and cotrimoxazole) is characteristic of nocardial infection and less typical for fungal mycetoma, reinforcing the diagnosis. He responded well to treatment with healing of sinuses and reduction in dystopia, further supporting the diagnosis of nocardial actinomycetoma.
+
+Based on the evidence, the diagnosis of nocardiosis is established. The combination of orbital involvement, extradural invasion, leukocytosis, and microbiologic identification of *Nocardia* spp. all point towards this diagnosis. The rapid clinical improvement with sulfonamide-based therapy further supports this diagnosis, making nocardiosis the most likely diagnosis.
+</stitched_reasoning>

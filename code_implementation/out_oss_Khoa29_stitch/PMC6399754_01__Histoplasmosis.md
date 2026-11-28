@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Systemic fungal infection is a consideration, but special stains reveal yeast-like organisms, suggesting a fungal cause. These organisms were more clearly defined using periodic acid-Schiff, Grocott's methenamine silver (Figure 4), and Giemsa stains, supporting a fungal etiology. This leads us to consider mycobacterial infection, but the lack of acid-fast organisms in any samples excludes this possibility. No acid-fast bacilli were detected in any samples.
+
+Next, we consider viral exanthem, but extensive viral serologies were negative or indicated past exposure only. Additional pertinent negative laboratory investigations included: cerebrospinal fluid cryptococcal antigen, hepatitis C antibody, syphilis, Strongyloides, and Schistosoma serologies. Disseminated leishmaniasis is also excluded, as tissue cultures grew a fungus, not Leishmania, and histology showed yeast rather than amastigotes. A second lesional skin biopsy for culture grew Histoplasma capsulatum.
+
+Crusted scabies is ruled out by histopathology showing intracellular yeast rather than mites. Dermal infiltrate of histiocytes containing numerous ovoid, yeast-like organisms... This finding is consistent with a fungal infection, and the morphology of the organisms is most consistent with Histoplasma capsulatum. Cutaneous lymphoma is excluded by the absence of atypical lymphoid infiltrates on H&E staining. Dermal infiltrate of histiocytes containing numerous ovoid, yeast-like organisms...
+
+Kaposi’s sarcoma is also excluded, as the biopsy lacked vascular spindle cell proliferation characteristic of KS. Dermal infiltrate of histiocytes containing numerous ovoid, yeast-like organisms... The diagnosis of Histoplasma capsulatum is further supported by the growth of the fungus in multiple specimens, including skin, bone marrow, lymph node, and blood specimens. Biopsies of her bone marrow and retroperitoneal lymph nodes also grew H. capsulatum, as did her blood cultures.
+
+Finally, PCR testing failed to further subspeciate the fungus, but the morphology and size of the organisms seen on staining were most consistent with H. capsulatum var. capsulatum, confirming the diagnosis. The patient's clinical presentation, laboratory findings, and histopathology all support a diagnosis of histoplasmosis.
+</stitched_reasoning>

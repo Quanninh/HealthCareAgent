@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Endogenous bacterial endophthalmitis is considered due to the patient's acute vision loss and intraocular inflammation, so broad-spectrum IV antibiotics were initiated as initial therapy. She was immediately started on broad-spectrum intravenous antibiotics, which is a standard approach to treating suspected endogenous endophthalmitis. However, given her immunosuppression due to prednisone and suboptimal ocular response, fungal endophthalmitis is also kept in the differential. Due to her worsening ocular exam, oral fluconazole is added for possible fungal pathogen.
+
+The patient's presentation with ring-enhancing brain and muscle lesions also raises the possibility of metastatic or neoplastic lesions. However, all blood cultures, echocardiography, and extensive infectious work-up were negative, making metastasis less likely. This suggests that the lesions may be due to an infectious process rather than a neoplastic one.
+
+The Gram stain and culture of the gluteal abscess culture returned with Nocardia farcinica, which is a characteristic branching Gram-positive, partially acid-fast organism. This finding is consistent with Nocardia infection, which is a type of bacterial infection that can cause disseminated lesions and endogenous endophthalmitis. The patient's clinical response to targeted antimicrobial therapy also supports this diagnosis, as the identification of her gluteal abscess culture returned with Nocardia farcinica.
+
+Considering all the evidence, the most likely diagnosis is Nocardia infection, which is confirmed by tissue microbiology and clinical response to targeted antimicrobial therapy. This diagnosis explains the patient's presentation with disseminated lesions and endogenous endophthalmitis, and it is consistent with the findings on Gram stain and culture.
+</stitched_reasoning>

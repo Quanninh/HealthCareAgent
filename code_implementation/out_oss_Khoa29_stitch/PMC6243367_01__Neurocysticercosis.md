@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's presentation with left-eye ptosis and down-and-out deviation, along with meningeal signs and a complete left oculomotor nerve palsy, suggests a serious underlying condition affecting the central nervous system. The lumbar puncture results reveal clear fluid with lymphocytic pleocytosis and a markedly low CSF glucose of 18 mg/dL, which is a critical finding. The CSF adenosine deaminase level was 23.3 IU/L, and CSF polymerase chain reaction detected Mycobacterium tuberculosis complex, strongly supporting the diagnosis of tuberculous meningitis. The CSF ... lymphocytic pleocytosis with very low cerebrospinal fluid (CSF) glucose level of 18 mg dl-1 ... CSF adenosine deaminase level was 23.3 ... CSF polymerase chain reaction detected M. tuberculosis and M. tuberculosis complex.
+
+However, we must also consider other potential causes of meningitis. Cysticercosis is a possibility, but it is unlikely given the negative IgG serology, as the cysticercosis immunoglobulin G level was found to be 0.9 ( >1.1 ng dl-1 is considered positive). Additionally, HIV-associated opportunistic CNS infection is ruled out by the negative HIV serology, which states that Serology was negative for human immunodeficiency virus infection.
+
+Other bacterial or fungal meningitis is also unlikely, given the PCR specificity for Mycobacterium and the characteristic imaging pattern. The MRI of the brain with contrast performed at this time showed multiple parenchymal nodular enhancing lesions in all the lobes of the bilateral cerebral hemispheres with mild surrounding oedema.
+
+At this point, we must consider the possibility of a paradoxical reaction versus recurrence of the tuberculous process. However, the initial presentation favors a primary tuberculous process, and the patient was started on antitubercular chemotherapy. A differential diagnosis of paradoxical response was considered, but the evidence points towards a primary tuberculous process.
+
+In conclusion, the combination of low CSF glucose, lymphocytic pleocytosis, elevated ADA, and PCR detection of M. tuberculosis complex, along with the characteristic imaging pattern, strongly supports the diagnosis of tuberculosis.
+</stitched_reasoning>

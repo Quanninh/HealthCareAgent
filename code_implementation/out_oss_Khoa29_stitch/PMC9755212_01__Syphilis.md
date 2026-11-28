@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Considering the patient's presentation with numerous ulcerations or nodules within his psoriatic lesions, cutaneous lymphoma is a potential consideration due to the presence of pseudolymphomatous infiltrates. However, tissue clonality analyses demonstrated polyclonal IgH and TCR gamma chain gene expression, thus excluding lymphoma. Tissue clonality analyses demonstrated polyclonal IgH and TCR gamma chain gene expression, thus excluding lymphoma.
+
+Another possibility is secondary syphilis, which can present with plasma cells in the tissue. However, syphilis serology, carried out due to numerous plasma cells in the tissue, yielded negative results. Syphilis serology, carried out due to numerous plasma cells in the tissue, yielded negative results.
+
+The patient's HIV status is also a consideration, as HIV-associated opportunistic skin disease is a possibility. However, an HIV infection, as well as borreliosis and tuberculosis, were ruled out by negative antibody or PCR tests. Moreover, an HIV infection, as well as borreliosis and tuberculosis, were ruled out by negative antibody or PCR tests.
+
+Autoimmune connective-tissue disease, such as lupus, is also a consideration, given the presence of plasma cells and interface dermatitis. However, a serum sample was negative for antibodies against (extractable) nuclear antigens. Complement factors were within normal ranges. A serum sample was negative for antibodies against (extractable) nuclear antigens. Complement factors were within normal ranges.
+
+Given the patient's long-standing psoriasis and biologic therapy, primary psoriatic ulceration or drug-induced ulceration is a consideration. However, histology showed interface dermatitis with plasma cells, and infectious causes were systematically excluded, prompting further investigation. The patient's long-standing psoriasis and biologic therapy make primary psoriatic ulceration or drug-induced ulceration a consideration. However, histology showed interface dermatitis with plasma cells, and infectious causes were systematically excluded, prompting further investigation.
+
+After systematically excluding infectious causes, further investigation revealed the presence of intracellular Leishmania amastigotes with kinetoplasts in multiple stains, which were identified by culture, miniexon PCR, and restriction fragment length polymorphism-analysis as L. infantum. In hematoxylin-eosin (Figure 1C), Giemsa (Figure 1D) and Feulgen stains, intracellular Leishmania amastigotes with kinetoplasts were seen, which were identified by culture, miniexon PCR, and restriction fragment length polymorphism-analysis as L. infantum.
+</stitched_reasoning>

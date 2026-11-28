@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Considering the highly aggressive presentation, widespread mediastinal and hilar lymphadenopathy above and below the diaphragm, and absence of skeletal lytic lesions, plasmablastic lymphoma is a favored diagnosis. The clinical factors, including the highly aggressive presentation, lymphadenopathy both above and below the diaphragm, and absence of lytic lesions, support this consideration. The patient's presentation is consistent with a highly aggressive lymphoma, and the absence of lytic lesions makes plasmablastic lymphoma a more likely diagnosis.
+
+However, plasmablastic plasma-cell myeloma is also entertained as a possibility due to the markedly elevated free κ light chains, κ-restricted plasmacytoid population in peripheral blood and bone marrow, and plasma-cell immunophenotype (CD138+, CD38 bright+). Peripheral blood flow cytometry showed an aberrant κ-restricted monotypic plasmacytoid population, and bone marrow biopsy showed plasmacytoid cells that were CD138+, κ+, λ-. These findings suggest a plasma-cell disorder, and the elevated free κ light chains and κ-restricted plasmacytoid population are consistent with plasmablastic plasma-cell myeloma.
+
+Conventional multiple myeloma is deemed less likely given the lack of characteristic bone lesions and predominant nodal disease rather than skeletal involvement. CT imaging showed extensive mediastinal and hilar lymphadenopathy, but no lytic lesions of the bone were identified. This suggests that the disease is more nodal than skeletal, which is less typical of conventional multiple myeloma.
+
+Acute leukemic processes are excluded because flow cytometry did not demonstrate myeloid blasts; instead, it revealed a plasmacytoid immunophenotype with CD138 positivity and absence of CD19/CD20 typical of B-cell leukemia. Peripheral blood flow cytometry showed CD138+, CD38 bright+, cytoplasmic κ+, CD19-, CD20-. These findings are consistent with a plasma-cell disorder rather than an acute leukemic process.
+
+Considering all of these factors, the diagnosis of plasmablastic lymphoma is the most likely explanation for the patient's presentation. The highly aggressive presentation, widespread lymphadenopathy, and absence of lytic lesions are all consistent with this diagnosis.
+</stitched_reasoning>

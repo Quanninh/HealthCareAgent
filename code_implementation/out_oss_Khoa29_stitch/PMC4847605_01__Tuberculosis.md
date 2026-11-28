@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The patient's presentation with distortion of central vision in the right eye at age 40 raises suspicion of choroidal dystrophy, which was initially considered based on early visual distortion, but lacked supportive imaging patterns. Choroidal dystrophy was suspected in Damascus (Syria) due to the early visual distortion. However, infectious etiologies such as syphilis and tuberculosis were evaluated because they can cause chorioretinal lesions, and serologies were negative, ruling them out. Rheumatology and infectious workup was negative (syphilis, tuberculosis, anti-double-stranded DNA, anti-single-stranded DNA, rheumatoid factor).
+
+Further investigation revealed choroidal neovascularization (CNV) in the macular area, which was treated with ranibizumab. However, optical coherence tomography later showed no subretinal fluid or hemorrhage, suggesting that CNV was not the primary driver. CNV was also detected in the macular area in Dubai (United Arab Emirates) and intravitreal injections were advised. She subsequently received three monthly intravitreal ranibizumab injections in Barcelona (Spain) (Figure 3A and B). 
+
+The differential diagnoses narrowed down to myopic chorioretinal degeneration versus lacquer crack-associated myopic degeneration. Dilated fundoscopy revealed bilateral areas of vertically linear atrophy, more extensive in the right eye, without subretinal fluid or hemorrhage by optical coherence tomography. The reported clinical impression then was myopic chorioretinal degeneration versus lacquer crack-associated myopic degeneration.
+
+The patient's history of bilateral refractive surgery, including excimer laser and LASIK, raises the possibility of LASIK-induced changes as a trigger for the condition. However, the progressive widening of choroidal ruptures suggests an intrinsic myopic process. Our working diagnosis was lacquer crack from high myopia (without pseudoxanthoma elasticum) possibly initiated by LASIK and exacerbated by ocular rubbing and intravitreal injections.
+
+Pseudoxanthoma elasticum was considered due to the presence of pinkish papules on the neck, but two separate dermatology consultations and skin biopsies did not favor this diagnosis. The patient's strong family history of myopia and lack of parental consanguinity also support the diagnosis of lacquer crack-associated myopic degeneration.
+
+In conclusion, the patient's presentation and investigation results are most consistent with lacquer crack-associated myopic degeneration, which is an intrinsic myopic process that can be exacerbated by factors such as LASIK and intravitreal injections.
+</stitched_reasoning>

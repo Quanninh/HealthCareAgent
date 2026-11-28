@@ -1,0 +1,9 @@
+<stitched_reasoning>
+At the outset, post-partum psychosis was initially considered as a potential diagnosis, but it was deemed unlikely due to the delayed onset of psychiatric symptoms 5 to 8 months after delivery, a period longer than typical for this diagnosis. This led to the consideration of other primary psychiatric illnesses, such as schizophrenia, but the presence of encephalopathic EEG changes suggested an organic etiology rather than a primary psychotic disorder. The EEG showed a widespread slowing of background activity without sharp-waves, suggestive of encephalopathy.
+
+Further investigation was conducted to rule out structural brain disease, and brain imaging including CT-scan, magnetic resonance imaging (MRI) scan, and single photon emission computed tomography (SPECT-scan) were all normal. This led to the consideration of infectious encephalitis, and serological tests for herpes simplex virus, cytomegalovirus, viral hepatitis B and C, human immunodeficiency virus, syphilis, and CSF cultures were all negative, ruling out this potential cause.
+
+Other autoimmune disorders were also excluded by negative autoimmune panels, and metabolic deficiencies such as vitamin B12, pancreatic polypeptide, and ceruloplasmin were excluded by normal laboratory values. However, the patient was euthyroid, but had elevated titres of anti-thyroglobulin (TGAB) and anti-thyroperoxidase (TPOAB) antibodies (200 and 10 times compared to normal, respectively), which pointed toward an autoimmune thyroid-related encephalopathy.
+
+Given the combination of high anti-thyroid antibody titres, encephalopathic EEG, normal imaging, and exclusion of infectious, metabolic, and other autoimmune causes, Hashimoto's encephalopathy was suspected. The association of high concentrations of anti-thyroid antibodies and the presence of an otherwise unexplained neuropsychiatric condition led to this diagnosis.
+</stitched_reasoning>

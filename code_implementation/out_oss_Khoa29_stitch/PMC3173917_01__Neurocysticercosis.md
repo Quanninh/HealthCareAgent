@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's presentation of gradual weakness in both lower limbs, numbness from the lower thorax to the feet, and bowel and bladder incontinence, an intramedullary neoplasm such as an astrocytoma or ependymoma is considered because cystic lesions with mural nodules can represent tumors. However, the rapid clinical improvement with anti-helminthic therapy and the presence of eosinophils in CSF argue against a neoplastic process. Ring enhancement was seen, and keeping the provisional diagnosis of cysticercosis in mind, empirical treatment with anti-helminthic therapy was initiated, resulting in marked clinical improvement.
+
+Given the patient's exposure to the endemic region, spinal tuberculoma is also considered, but it is excluded by the negative Mantoux test, normal chest radiograph, and lack of systemic symptoms such as fever or weight loss. Mantoux test was negative and radiographs of the spine and chest revealed no abnormality.
+
+Infectious abscess or bacterial meningitis is also considered, but it is unlikely due to the patient's lack of fever, normal peripheral white count, and CSF glucose was normal, making bacterial infection unlikely. Peripheral blood count was normal, and CSF examination done revealed elevated protein and normal glucose levels.
+
+However, the characteristic MRI appearance of an intramedullary cyst with mural nodule and ring enhancement, CSF eosinophilia, and epidemiologic plausibility in a child suggest neurocysticercosis. Based on these findings, a diagnosis of cysticercus cyst was suggested. CSF examination revealed elevated protein, normal glucose, a lymphocytic predominance with a few eosinophils, which further supports this diagnosis. The positive enzyme-linked immunosorbent assay (ELISA) for anti-T. solium IgG confirms the diagnosis of neurocysticercosis.
+</stitched_reasoning>

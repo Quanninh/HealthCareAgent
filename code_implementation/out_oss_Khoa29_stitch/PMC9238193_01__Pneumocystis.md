@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Atypical pneumonia was initially considered because of the acute dyspnea, pleuritic pain, and ground-glass opacities. However, the patient received a 10-day course of antibiotics, imipenem/cilastatin and levofloxacin, which did not result in any significant clinical improvement. This lack of response to broad-spectrum agents suggests a non-bacterial etiology. Bacterial pneumonia was entertained and empirically treated with these broad-spectrum agents, yet the lack of response suggests a non-bacterial etiology.
+
+Fungal infection, such as aspergillosis, can produce nodular lesions, but the follow-up CT showed resolution of ground-glass infiltrates with persistent nodules lacking cavitation. Additionally, no other organisms were found on pathology, arguing against a typical fungal pathogen. Tuberculosis can present with nodules, but the absence of mediastinal lymphadenopathy and the eventual biopsy showing no bacilli make it unlikely.
+
+Relapse of multiple myeloma or other malignancy could cause pulmonary nodules, yet the rapid radiologic evolution, with the ground-glass disappearance, and eventual identification of a specific organism on biopsy support an infectious cause rather than neoplastic. The definitive finding of necrotic granulomas containing Pneumocystis jiroveci organisms on biopsy establishes Pneumocystis infection as the cause of the persistent nodules.
+</stitched_reasoning>

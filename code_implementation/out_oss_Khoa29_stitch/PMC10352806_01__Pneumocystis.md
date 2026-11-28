@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Tuberculosis was strongly considered due to chronic fever, cough, vertebral involvement, and CT findings, but multiple AFB smears, cultures, TB-qPCR, and lack of clinical response to six months of standard anti-TB therapy argued against it. She was prescribed anti-tuberculosis treatment... She was non-responsive to the medications for up to six months... AFB, mucous card red staining, and TB-qPCR were negative. This led us to consider other potential causes of her symptoms.
+
+Bacterial sepsis was entertained because of marked neutrophilia, elevated CRP and procalcitonin, and hypotension; however, broad-spectrum antibiotics (cefoperazone-sulbactam, piperacillin-sulbactam, meropenem, levofloxacin) failed to control fever, and repeated blood cultures remained sterile. The possibility of bacterial infection was first considered... intravenously administered piperacillin-sulbactam and levofloxacin... however, the patient was feverish... Multiple peripheral blood cultures yielded normal results. This made us consider other types of infections.
+
+Other endemic fungal infections (aspergillosis, cryptococcosis, pneumocystis) were investigated; all antigen or DNA assays were negative, making these etiologies unlikely. The beta-1,3-D-glucan test, Aspergillus galactomannan test, Cryptococcus antigen test, Pneumocystis japonicum DNA test... all negative for their associated infections. This led us to consider other causes of her symptoms.
+
+Autoimmune or inflammatory disorders (e.g., vasculitis, ankylosing spondylitis) were considered given the vertebral lesions, but comprehensive autoantibody panels (ANA, anti-dsDNA, ANCA, HLA-B27) were negative. We did not find any of the following antibodies in the patient: antinuclear antibodies, anti-double stranded DNA antibodies, anti-cyclic citrullinated peptide antibody, anti-keratin antibody, anti-neutrophil cytoplasmic antibodies, and HLA-B27. This made us consider other potential causes of her symptoms.
+
+Malignancy was a differential because of lung lesions, yet the lung biopsy showed no tumor cells, only granulomatous inflammation. Tumors were not detected. This led us to consider other causes of her symptoms.
+
+Despite granulomatous inflammation and suspicious silver/PAS positivity, the absence of AFB and TB-qPCR, together with negative fungal antigen tests, left the etiology uncertain. Eventually, we performed mNGS, which detected 1655 reads of Talaromyces spp... including 1160 reads of T. marneffei... AFB smear, silver hexamine, PAS staining, and TB-qPCR results were negative. This led us to conclude that the patient had a Talaromyces marneffei infection.
+</stitched_reasoning>

@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the epidemiologic setting and the patient's presentation, disseminated cutaneous leishmaniasis is supported by the initial insect-bite-like papule, progressive skin and mucosal lesions, positive Montenegro skin test, strongly positive rK39 kit, and direct visualization of amastigotes on smear. The lesion began with an insect-bite-like papular lesion on the forearm, and the Montenegro skin test showed positive with a 17-mm induration, and rK39 kit test revealed a strongly positive band. The smear specimen revealed positive for the Leishmania amastigote.
+
+However, diffuse cutaneous leishmaniasis was considered as a potential diagnosis, but it was excluded because the identified organism belongs to the Viannia subgenus, which is more typical of disseminated-CL. The patient responded to antimonials, whereas diffuse-CL is often drug-resistant, and mucosal involvement is not a feature of diffuse-CL. Thus, the case was clinically very similar to diffuse-CL but showed the following marked differences: (1) the organisms isolated were identified as the subgenus Viannia... (2) the patient was sensitive against antimonials; and (3) the superficial involvement of mucosae was recognized as seen...a mucosal sign is never seen in diffuse-CL cases.
+
+Given the evidence, the most likely diagnosis is disseminated cutaneous leishmaniasis, which is supported by the epidemiologic setting, clinical presentation, and laboratory findings.
+</stitched_reasoning>

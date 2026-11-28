@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's clinical history and laboratory parameters, rickettsial infection is a strong consideration due to the patient's exposure to rodents, fever, rash, and multisystem involvement. In the view of clinical history and laboratory parameters, it was suspected to be rickettsiosis from R. typhi. However, leptospirosis is excluded because serology was negative despite overlapping hepatic and renal dysfunction. Serological tests of Leptospira... were negative.
+
+Brucellosis is also excluded by negative Brucella serology and lack of typical osteoarticular findings. Serological tests of ... Brucella spp... were negative. Similarly, Leishmaniasis is excluded by negative Leishmania serology and absence of cutaneous lesions typical for visceral disease. Serological tests of ... Leishmania spp... were negative.
+
+Common viral infections such as HIV, hepatitis B and C, CMV, and EBV are ruled out by negative serologies and normal immunologic panels. Serological tests of ... HIV, hepatitis B and C, CMV, and EBV were negative. Bacterial sepsis is less likely because all blood cultures remained sterile and white-blood-cell count was normal. All three blood cultures taken were negative.
+
+Autoimmune vasculitis is deemed unlikely given normal ANA, complement levels, and rheumatoid factor. Protein electrophoresis and immunological examination such as ANA, C3, C4, and FR were normal. Given the patient's exposure to rodents and the clinical presentation, doxycycline, the preferred therapy for rickettsial disease, could not be used, prompting the use of ceftriaxone and levofloxacin, which are also active against Rickettsia spp. He could not undergo treatment with doxycycline... therefore we initiated intravenous antibiotic treatment with Levofloxacine and Ceftriaxone as they are effective against Rickettsia spp.
+</stitched_reasoning>

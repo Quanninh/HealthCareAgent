@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Considering the patient's presentation of a one-year history of right eyelid droop and painless right cheek swelling, and a six-month history of progressive difficulty opening her mouth, an initial suspicion of an en-plaque meningioma was raised due to imaging showing an extra-axial, contrast-enhancing lesion with dural thickening and hyperostosis. "Diagnosis of an en-plaque meningioma was suspected..." However, intraoperative frozen section revealed a granulomatous lesion, and hence, aggressive resection was avoided. "Intraoperative frozen section revealed a granulomatous lesion, and hence, aggressive resection was avoided."
+
+Given the granulomatous histology, tuberculosis was considered as a differential due to its endemic prevalence in the region. "Due to the endemic nature of tuberculosis in India... diagnosis of tubercular granulomatous inflammation was made..." However, acid-fast staining was negative for tubercular and Nocardia species, which led to the exclusion of tuberculosis. "Staining for acid-fast bacilli was negative for tubercular and Nocardia species."
+
+The presence of filamentous bacterial morphology led to the consideration of Nocardia infection. "Staining for acid-fast bacilli was negative for tubercular and Nocardia species." However, the same negative acid-fast result and the organism's Gram-positive nature led to the exclusion of Nocardia. "The colonies were highlighted on Grams stain and Gomori methenamine silver stain."
+
+Further examination of the colonies revealed that they were Gram-positive and filamentous, forming colonies within suppurative micro-abscesses, consistent with Actinomyces-like organisms. "The colonies were highlighted on Grams stain and Gomori methenamine silver stain." This led to the identification of Actinomycosis.
+</stitched_reasoning>

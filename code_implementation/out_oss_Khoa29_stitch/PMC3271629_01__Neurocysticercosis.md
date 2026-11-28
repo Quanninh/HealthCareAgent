@@ -1,0 +1,3 @@
+<stitched_reasoning>
+Considering the patient's presentation with sudden onset of headache, nausea, and giddiness, we must consider the possibility of a cystic brain-stem lesion. The presence of a well-defined cystic lesion with an intracavitary scolex on the right side of the mid pons on MRI brain is highly suggestive of neurocysticercosis. The scolex on neuroimaging is considered the absolute criterion for neurocysticercosis, excluding other cystic brain-stem lesions such as tuberculoma, abscess, or neoplasm. The evidence of a typical scolex on a CT or MRI is considered the absolute criteria for diagnosis of neurocysticercosis. This finding is pathognomonic for neurocysticercosis, making it the most likely diagnosis in this case.
+</stitched_reasoning>

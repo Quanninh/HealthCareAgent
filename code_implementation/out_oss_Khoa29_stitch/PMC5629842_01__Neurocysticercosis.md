@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation with poor hygiene and dietary habits, and the high prevalence of neurocysticercosis in our country, we decided to perform a fourth ventricle exploration. Obstructive hydrocephalus caused by a cystic lesion is most likely in this endemic region. The patient's symptoms, including an intermittent holocranial headache that escalated suddenly, accompanied by nausea and vomiting unresponsive to medication, suggest a mass effect causing increased intracranial pressure. The presence of bilateral papilledema further supports this diagnosis.
+
+We also considered primary brain tumors, such as ependymoma, as a potential cause of the patient's symptoms. However, the third ventricle and cerebral aqueduct were not sufficiently dilated to allow endoscopic passage, making this diagnosis less likely. The marked dilatation of the fourth ventricle, as seen on the non-contrast computed tomography scan of the brain, suggests that the obstruction is located in this region.
+
+Given the high prevalence of neurocysticercosis in our country and the patient's symptoms and imaging findings, we believe that obstructive hydrocephalus caused by a cystic lesion, most likely a neurocysticercus, is the most likely diagnosis. The patient's gait disturbance with right-side lateralization and the presence of bilateral papilledema further support this diagnosis.
+</stitched_reasoning>

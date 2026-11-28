@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Considering the patient's presentation of gait disturbance, urinary incontinence, and cognitive decline, a diagnosis of normal-pressure hydrocephalus (NPH) is entertained. However, the presence of papilledema and cystic lesions in the Sylvian fissure argues against a pure diagnosis of NPH. Fundoscopy revealed bilateral papilledema in regression, and CT scan revealed increased ventricular enlargement, which suggests that the patient's symptoms may be related to an underlying mass lesion or other pathology.
+
+Given the lymphocytic CSF pleocytosis and elevated protein, tuberculous meningitis is considered. However, the presence of eosinophils in the CSF and negative serologies for common infections, such as toxoplasmosis, cytomegalovirus, and Epstein-Barr virus, make TB less likely. CSF analysis revealed 35 leukocytes (predominantly lymphomononuclear cells with 5% eosinophils), 77 mg/dL of proteins, which does not strongly support a diagnosis of TB.
+
+Other parasitic infections, such as toxoplasmosis, are evaluated, but serologic tests were negative. Serological tests for toxoplasmosis, cytomegalovirus, and Epstein-Barr virus (both IgG and IgM), and HIV were all negative, which makes these diagnoses less likely.
+
+The presence of enhancing lesions in the Sylvian fissure, described as multiple cysts without a solid mass, and the characteristic "bunch of grapes" pattern, suggests a parasitic etiology. The imaging findings are consistent with a diagnosis of neurocysticercosis, a parasitic infection caused by the pork tapeworm (Taenia solium).
+
+However, the patient's symptoms and imaging findings could also be explained by a shunt malfunction or obstruction, particularly given the history of ventriculoperitoneal shunt placement and the recurrence of hydrocephalus. Shunt malfunction or obstruction is a possible cause of recurrent hydrocephalus; however, placement of a new shunt led to clinical improvement, supporting that hydrocephalus was secondary to obstructive cystic lesions rather than primary shunt failure. The patient experienced clinical improvement, with improvement of gait disorders, urinary incontinence, and remission of papilledema after new shunt insertion.
+
+The combination of these findings, including the imaging characteristics of the cystic lesions and the response to shunt placement, strongly suggests a diagnosis of neurocysticercosis. The patient's symptoms and imaging findings are most consistent with this diagnosis, and further evaluation and treatment should be directed towards managing this condition.
+</stitched_reasoning>

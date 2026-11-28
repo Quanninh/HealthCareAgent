@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's history of right upper lobectomy eight years earlier for complicated tuberculosis with hemoptysis, and the current presentation of chronic cough, severe right upper arm and shoulder pain, and sweating, tuberculosis recurrence is a potential consideration. However, three sputum analyses and examinations were negative for tuberculosis, and BK and cytology examinations of the sputum and BAL smears were also negative, making this diagnosis less likely. 
+
+Given the severe right arm and shoulder pain, electromyography examination of the right arm muscles was in favor of superior sulcus tumor, which is a type of Pancoast tumor. This diagnosis is further supported by the chest CT findings of an irregular mass with calcification in the right upper lobe fossa. Although the initial percutaneous biopsy was negative for the diagnosis of the tumor, the imaging and clinical picture kept malignancy high on the list.
+
+However, the possibility of a malignant process cannot be ruled out solely based on imaging and clinical findings. Invasive chest tumor is a consideration, and direct visualization of a lesion infiltrating the brachial plexus and subclavian vessels during thoracotomy would support a malignant process, despite prior negative biopsies. On exploration, severe adhesions caused by the previous operation, and tumor lesion invasion to upper brachial plexus and major subclavian vessels were observed.
+</stitched_reasoning>

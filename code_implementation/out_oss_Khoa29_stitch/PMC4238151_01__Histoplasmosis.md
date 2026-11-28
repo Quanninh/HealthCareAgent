@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Considering the patient's recent travel to Mexico, Peru, and Argentina, and the ingestion of potentially contaminated food, acute viral hepatitis A is considered due to the cholestatic hepatitis pattern and the fact that his symptoms started one week after eating street tacos while traveling. His symptoms began one week after eating street tacos while traveling through Mexico, Peru, and Argentina for business. Initial treatment in Argentina included a 10-day course of amoxicillin, 6 days of methylprednisolone, and 5 days of azithromycin with minimal improvement.
+
+Other viral hepatitis, such as hepatitis B virus and hepatitis C virus, are ruled out by negative serologies. Further evaluation was negative for hepatitis B virus, hepatitis C virus... However, the patient's symptoms and laboratory evaluation suggest that hepatitis A is a more likely diagnosis.
+
+Epstein-Barr virus and cytomegalovirus are excluded by negative testing. ...Epstein-Barr virus, cytomegalovirus... The patient's symptoms and laboratory evaluation do not suggest an autoimmune process, but autoimmune hepatitis is considered because of the elevated ASMA. However, his antismooth muscle antibody (ASMA) screen was elevated at 37 units (normal < 19 units). The elevated ASMA could be consistent with an autoimmune process, but the lack of other autoantibodies makes this less likely.
+
+Drug-induced liver injury is entertained, but biopsy favored HAV or autoimmune process. The liver test elevation was likely from cholestatic HAV infection versus HAV triggered autoimmune process and/or drug induced from amoxicillin and azithromycin. Leptospirosis and Rocky Mountain spotted fever are evaluated as travel-related zoonoses and found negative. Rocky mountain spotted fever, IgG and IgM antibodies, leptospirosis antibody... were negative.
+
+Histoplasmosis, coccidioidomycosis, and parvovirus B19 are considered due to systemic symptoms, but serologies and urinary antigen were negative. histoplasmosis antibody and urinary antigen, coccidioidomycosis antibody, parvovirus IgM... were negative. Microangiopathic hemolytic anemia is considered because of hemolysis and renal injury, but excluded by normal ADAMTS13, absence of schistocytes, and negative Coombs. ADAMTS13 51% (> 67%), schistocytes absent on peripheral smear, negative Coombs' test.
+
+Immune-mediated hemolysis is considered, but Coombs negative and low reticulocyte response made it less likely. negative Coombs' test... reticulocyte indices remained low. Consumptive coagulopathy is considered given thrombocytopenia and elevated D-dimer, but fibrinogen was within normal range. fibrinogen 358 mg/dL (240-450), D-dimer 1.4 mcg/mL (0.2-0.4).
+</stitched_reasoning>

@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient presents with a four-day history of cough that progressed from dry to productive with occasional bloody sputum, dyspnea, orthopnea, new lower-extremity edema, and preceding nausea, vomiting, and diarrhea. Bacterial pneumonia was initially presumed due to the cough and fever-ish presentation, but blood cultures and sputum cultures were obtained and were found to have no growth, and the patient's condition worsened despite broad-spectrum antibiotics, arguing against a typical bacterial etiology.
+
+Pulmonary edema secondary to alcoholic hepatitis was considered, supported by Bronchoscopy was performed revealing DAH thought secondary to pulmonary edema. However, the diffuse alveolar hemorrhage persisted despite diuresis and steroids, making pure edema less likely. Viral pneumonia, including COVID-19, was excluded because Testing for SARS-CoV-2 … was negative and repeat testing remained negative.
+
+Cytomegalovirus infection was ruled out by negative PCR: BAL sampling was negative for … CMV DNA. Atypical bacterial pathogens such as Legionella and Mycoplasma were excluded: Urine Legionella antigen … were all negative. Fungal infections (Aspergillus, Blastomyces, Coccidioides, Histoplasma) were excluded by serology: Aspergillus, Blastomyces, Coccidiodes, histoplasma antibodies … were all negative.
+
+Mycobacterial tuberculosis was excluded: TB testing (QuantiFERON, sputum acid-fast bacilli, and PPD) … were all negative. Nocardia infection was excluded: BAL sampling was negative for … Nocardia cultures. Q fever and leptospirosis were considered due to animal exposure but serologies were negative: antibodies for leptospirosis and Q fever were all negative.
+
+The patient's condition worsened despite broad-spectrum antibiotics, arguing against a typical bacterial etiology, and the presence of diffuse alveolar hemorrhage and hyponatremia matched reported HCPS features. He was tested for Hantavirus … and empiric treatment with doxycycline … was initiated. The clinical picture of diffuse alveolar hemorrhage, rapid respiratory decline, and hyponatremia matched reported HCPS features, making Hantavirus pulmonary syndrome the leading diagnosis.
+</stitched_reasoning>

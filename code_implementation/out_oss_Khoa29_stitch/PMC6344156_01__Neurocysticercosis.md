@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Infectious disease etiologies, such as aspergillosis, filarial worms, lungworms, cysticercosis, and Trichinella spiralis, are considered because eosinophilic lung disease can be parasite-related. However, serologies were negative and stool examinations showed no ova/parasites. Infectious disease etiologies workup including serologies for aspergillus, filarial worms, lungworms, cysticercosis, and trichinella spiralis was negative. Stool examinations for ova and parasites were negative.
+
+Vasculitic or connective-tissue disease processes are entertained given systemic symptoms (nocturnal sweats) and pulmonary infiltrates. Yet, comprehensive autoantibody testing was unrevealing. Vasculitides and connective tissue diseases workup including antinuclear antibody, anti-double-stranded DNA, rheumatoid factor, and anti-neutrophil cytoplasmic antibody was negative.
+
+Hematologic malignancies or hypereosinophilic syndromes are contemplated because of marked eosinophilia. However, bone-marrow biopsy and molecular testing for FIP1L1-PDGFRα were normal, excluding these possibilities. Bone marrow biopsy and FIP1L1-PDGFR alpha test excluded hematological diseases such as myeloproliferative neoplasms and hypereosinophilic syndrome.
+
+Radiation-induced lung injury or drug-induced eosinophilic pneumonia are possible given recent cancer therapy. However, the presence of a high BAL eosinophil fraction (85%) and tissue eosinophilia without evidence of radiation fibrosis or drug reaction steers away from these. Bronchoalveolar lavage fluid demonstrated eosinophil count of 85%... transbronchial biopsy ... suggestive of eosinophilic pneumonia with marked increased eosinophils without evidence of vasculitis, malignancy, or infection.
+
+Asthma exacerbation is less likely because pulmonary function tests were near normal, and the imaging showed a focal consolidation with pleural effusion rather than typical bronchial hyper-responsiveness. She had a 6-year past medical history of well-controlled asthma... Pulmonary function tests revealed forced expiratory volume ... 97.0% predicted, FEV1/FVC ratio of 73.73%.
+
+The synthesis of peripheral eosinophilia, high BAL eosinophils, radiographic consolidation with pleural effusion, and eosinophilic infiltrates on biopsy, after exclusion of infections, autoimmune, hematologic, and malignant causes, fulfilled criteria for chronic eosinophilic pneumonia. The diagnosis of chronic eosinophilic pneumonia (CEP) was made based on peripheral eosinophilia, pulmonary consolidation with pleural effusion, high percentage of BAL eosinophils, the finding of eosinophilic pneumonia on transbronchial biopsy, and the absence of other causes of eosinophilia.
+</stitched_reasoning>

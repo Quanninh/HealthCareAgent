@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's presentation with upper-respiratory symptoms and new bilateral pulmonary nodules on chest CT prompts consideration of atypical pulmonary infection, such as The pulmonary nodules were not a typical manifestation of CLL and other etiologies were considered such as atypical pulmonary infection... This is further supported by the patient's fever and worsening condition despite initial treatment with antibiotics and steroids. Sarcoidosis is also entertained due to the bilateral peribronchovascular nodules, as well as Kaposi sarcoma given the skin lesions and immunosuppression. Metastasis is listed despite the patient having no other known malignancy.
+
+However, further testing helps to rule out some of these possibilities. The QuantiFERON was negative for tuberculosis, which makes tuberculosis an unlikely diagnosis. The serologies for aspergillus, blastomycosis, coccidioides, cryptococcus, histoplasma... were negative, which helps to exclude a broad range of fungal infections. HIV infection is also ruled out by negative serology, as well as toxoplasma infection. The bronchoalveolar lavage was negative for... pneumocystis, which excludes pneumocystis pneumonia. Additionally, the BAL was negative for acid-fast bacilli, which helps to exclude mycobacterial infections.
+
+Immunologic evaluation was negative for ANCA, proteinase 3, and myeloperoxidase antibodies. This excluded granulomatosis with polyangiitis... and also helps to rule out other autoimmune and vascular processes. The skin exam showed erythematous/purple papules on both lower extremities, which, combined with the negative results for cutaneous lymphoma and leukocytoclastic vasculitis, helps to narrow down the differential.
+
+The punch biopsy of a skin lesion showed poorly circumscribed granulomas surrounding blood vessels and skin appendages, mild lymphocytic infiltrate, and no features of cutaneous lymphoma or leukocytoclastic vasculitis. This finding, combined with the negative stains for fungi and acid-fast bacilli, suggests that the patient's condition is not due to a typical infection or autoimmune process.
+
+The biopsies revealed EBV-positive DLBCL with features of LG grade 3...
+</stitched_reasoning>

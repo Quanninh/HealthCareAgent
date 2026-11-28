@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Subcutaneous mycoses were initially favored due to the chronic nodular plaques and a prior biopsy "suggestive of fungal infection," leading to antifungal therapy. The patient was treated with itraconazole and amoxicillin-clavulanic acid without improvement, and microscopy as well as culture for both fungal and bacterial agents were negative. This lack of clinical improvement after itraconazole and negative fungal microscopy and cultures argued against a fungal etiology. 
+
+The patient's symptoms, including chronic nodular plaques and a history of lesions that began as small reddish papules over the right knee, gradually enlarged, and ruptured with blood-stained purulent discharge, did not align with typical fungal infections. Examination of the lesions revealed multiple erythematous nodules and plaques ranging from 3 mm to 3 cm, some with hemorrhagic crusts, which further supported the absence of a fungal etiology.
+
+Detection of numerous acid-fast bacilli on modified Ziehl-Neelsen stained slit-skin smear confirmed Mycobacterium leprae infection. The presence of acid-fast bacilli in large numbers on the stained smear was a critical finding that pointed towards leprosy. Nerve conduction studies demonstrating sensory mononeuritis multiplex and polyneuropathy with nerve thickening supported leprosy involvement of peripheral nerves. The standard nerve stimulation test showed evidence of mild axonal sensory mononeuritis multiplex, which further supported the microbiological diagnosis of leprosy.
+
+The combination of the patient's symptoms, the negative fungal and bacterial cultures, the presence of acid-fast bacilli on the stained smear, and the nerve conduction studies all pointed towards a diagnosis of leprosy. The patient's history of lesions that began as small reddish papules and gradually enlarged, along with the presence of acid-fast bacilli, was consistent with the diagnosis of leprosy.
+</stitched_reasoning>

@@ -1,0 +1,13 @@
+<stitched_reasoning>
+The patient's presentation with nausea, non-bloody, non-bilious vomiting, and abdominal pain, along with left-ear drainage and leukocytosis, initially suggested a viral infection. However, the lack of improvement after discharge and the development of diffuse nodular skin lesions prompted consideration of a more complex and potentially infectious etiology. The patient's immunization history was unknown, and she lived in a small house in rural North Carolina with 21 other Marshallese immigrants, which may have increased her risk for certain infections.
+
+The presence of diffuse small nodular lesions on her hands, feet, lower legs, and face, along with chronic weight loss and productive cough with post-tussive emesis, raised suspicion for pulmonary tuberculosis, especially given unknown TB exposure. However, the positive respiratory viral screen for rhino/enterovirus supported a concurrent viral infection but did not explain the skin lesions or worsening renal function.
+
+Empiric treatment for community-acquired pneumonia and reverse isolation for tuberculosis reflected the clinical team's differential of bacterial pneumonia versus TB. However, the acid-fast bacilli seen on skin biopsies indicated a mycobacterial infection, but the species remained uncertain pending further testing. The rapid growth of AFB cultures from skin suggested Mycobacterium tuberculosis, yet PCR of sputum and skin samples failed to detect MTB DNA, arguing against active TB.
+
+The patient's symptoms and laboratory results, including leukocytosis, prerenal azotemia, elevated liver enzymes, and mildly elevated lipase, were not fully explained by the initial diagnosis of gastroparesis secondary to a nonspecific viral infection. The development of scattered focal pulmonary infiltrates, splenomegaly, and a markedly distended stomach without an obvious mechanical obstruction on CT scan further supported the need for a more comprehensive evaluation.
+
+The upper gastrointestinal study suggested gastric volvulus, and the endogastroduodenoscopy demonstrated a "cobblestone" appearance of the stomach mucosa with one ulcerated area; biopsies of the stomach showed Helicobacter pylori and chronic active gastritis, negative for acid-fast bacilli. However, the gastric aspirates were negative for acid-fast bacilli, which helped exclude gastric TB as the cause of the outlet obstruction.
+
+The presence of diffuse small nodular lesions and the patient's symptoms, including chronic weight loss and productive cough with post-tussive emesis, were ultimately explained by the diagnosis of lepromatous leprosy, confirmed by PCR testing performed at the Hansen's Disease Center of skin samples, which was positive for M. leprae.
+</stitched_reasoning>

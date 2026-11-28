@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation, congenital syphilis is suspected due to the rising maternal non-treponemal titers and positive treponemal test together with multiple fetal abnormalities typical of syphilitic infection. The VDRL was 1/64 and the specific treponemal test (ELISA-TPMA) was positive, and ultrasonography revealed voluminous ascites, splenomegaly, pericardial effusion, twisting of the toes, and hyperechogenicity of the cerebral parenchyma. These findings are characteristic of syphilitic infection, which is a significant concern in this case.
+
+Other intra-uterine infections, such as CMV, toxoplasmosis, or parvovirus B19, are considered less likely because the combination of maternal serology and characteristic sonographic findings pointed toward syphilis, and no alternative serologic or imaging evidence for these infections was reported. In order to better assess the surface malformations, 3D imaging enabled clear assessment, allowing us to provide better counseling, which further supports the suspicion of syphilis.
+
+The evidence from the maternal serology and fetal ultrasound findings strongly suggests that the patient has congenital syphilis. The rising VDRL titers and positive treponemal test are indicative of active syphilis infection, and the characteristic fetal abnormalities are consistent with this diagnosis. Therefore, the final diagnosis is syphilis.
+</stitched_reasoning>

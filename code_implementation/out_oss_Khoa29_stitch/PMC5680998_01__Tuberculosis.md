@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Given the patient's chronic cough, weight loss, night sweats, and mediastinal lymphadenopathy, tuberculosis was a primary consideration. However, the tuberculin skin test and the sputum acid fast bacilli were negative, which led to the exclusion of tuberculosis as a potential diagnosis. 
+
+The patient's presentation also raised the possibility of Hodgkin lymphoma, particularly given the chronic nature of the symptoms and the presence of mediastinal lymphadenopathy. The patient's symptoms, including productive cough, hemoptysis, anterior chest pain, dyspnea, dysphagia, dysphonia, and secondary amenorrhea, were consistent with a systemic illness. The physical examination findings, including absent tactile fremitus, dullness to percussion, and decreased breath sounds over the lower right thorax, along with crackles in the upper right chest and additional percussion dullness, further supported the possibility of a lymphoproliferative disorder.
+
+The laboratory studies showed neutrophilic leukocytosis, thrombocytosis, hypochromic microcytic anemia, elevated C-reactive protein, ESR, LDH, and hypocalcaemia, which are consistent with a systemic illness. The tuberculin skin test and sputum acid-fast bacilli were negative, which further supported the exclusion of tuberculosis. The chest radiograph demonstrated a heterogeneous pulmonary and mediastinal opacity with a pleural effusion, which is consistent with a lymphoproliferative disorder.
+
+The chest CT revealed mediastinal and axillary lymphadenopathies, pulmonary nodules, and alveolar consolidation, which further supported the possibility of Hodgkin lymphoma. The abdominal CT showed mesenteric lymphadenopathies and hepatomegaly, which is consistent with a systemic illness. The cervical ultrasound identified a thyroid nodule and bilateral necrotic cervical lymph nodes, which further supported the possibility of a lymphoproliferative disorder.
+
+The bronchoscopy exposed four white lesions at the entrances of the middle lobe bronchus and the right upper lobe bronchus, which is consistent with a lymphoproliferative disorder. A pathology study with immunohistochemistry of the biopsies was performed and concluded to an endobronchial localization of Hodgkin's lymphoma, which established Hodgkin lymphoma as the definitive diagnosis.
+</stitched_reasoning>

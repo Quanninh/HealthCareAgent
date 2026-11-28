@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation with abdominal pain, anorexia, hematochezia, post-prandial fullness, and significant weight loss, along with her history of orthotopic liver transplantation and lack of isoniazid prophylaxis, we must carefully evaluate the differential diagnosis. Initially, pancreatic neoplasia is considered due to imaging and duodenal papilla lesion, but histopathology reveals chronic atrophic pancreatitis without signs of malignancy in the pancreas lesions, ruling out malignancy as a cause of the pancreatic mass.
+
+However, the presence of chronic inflammatory schistosomal fibrosing reaction, with the presence of numerous viable eggs of the parasite in the peritoneum jejunal lesions, suggests an infectious etiology. Yet, despite antiparasitic therapy with praziquantel, the pancreatic mass persists, making it an unlikely sole cause of the mass. This raises the possibility of another underlying infectious process.
+
+Given the exclusion of malignancy and the persistence of the pancreatic mass despite antiparasitic therapy, tuberculosis is pursued as a potential cause. The patient's history of originating from a tuberculosis-endemic region and lack of screening for latent tuberculosis infection further supports this consideration. GeneXpert testing is performed on a new biopsy of the pancreatic mass, and the exam yields a positive result, characterizing the bacteria as being sensitive to rifampicin. This confirms Mycobacterium tuberculosis as the cause of the pancreatic lesion.
+</stitched_reasoning>

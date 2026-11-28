@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient presents with a complex clinical picture, including a rash on the medial aspect of her right thigh, which developed several days after admission. The rash has a central area of necrosis with slight purulent drainage, and is surrounded by firm skin without crepitus. This presentation initially suggests bacterial cellulitis, and broad-spectrum antibiotics, including vancomycin, were added to the regimen. However, the lesion worsened despite therapy, leading to a consideration of necrotizing fasciitis. Yet, the lack of crepitus and absence of gas on examination argues against this diagnosis.
+
+Upon further examination, the Gram-stain of the purulent wound drainage shows many budding yeasts, and tissue biopsy reveals numerous fungal elements. This finding raises the possibility of disseminated candidiasis, but immunohistochemistry specifically identifies Histoplasma rather than Candida species. This discrepancy, combined with the patient's immunocompromised state due to cirrhosis and diabetes, points towards a more specific diagnosis.
+
+The presence of budding yeasts on Gram-stain, fungal elements on biopsy, and the patient's immunocompromised state align with disseminated histoplasmosis. This diagnosis is further supported by the fact that the tissue biopsy and later immunohistochemistry specifically identified Histoplasma rather than Candida species. The patient's clinical presentation, including the worsening of the skin lesion despite broad-spectrum antibiotics, also supports this diagnosis.
+
+The initial antimicrobial therapy, including intravenous piperacillin/tazobactam for the peritonitis, was later switched to cefepime, and vancomycin was added for presumed bacterial cellulitis. However, the regimen was escalated to daptomycin and meropenem when leukocytosis and the skin lesion worsened, indicating a need for more targeted therapy.
+
+In conclusion, the patient's clinical presentation and laboratory findings are most consistent with disseminated histoplasmosis, a diagnosis that is supported by the presence of Histoplasma species on tissue biopsy, the patient's immunocompromised state, and the worsening of the skin lesion despite broad-spectrum antibiotics.
+</stitched_reasoning>

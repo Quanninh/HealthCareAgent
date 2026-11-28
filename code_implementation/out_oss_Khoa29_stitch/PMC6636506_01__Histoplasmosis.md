@@ -1,0 +1,13 @@
+<stitched_reasoning>
+Considering the patient's presentation with low-grade fever, sudden severe right upper-quadrant abdominal pain, nausea, and vomiting, along with the findings of an intraluminal polypoid filling defect arising from the isthmus of the aorta and extending into the proximal descending aorta, and infarctions of the spleen and right kidney, we first consider the possibility of infectious aortitis or septic emboli. However, this is excluded because the infectious work-up was negative and included testing for bacterial infection, fungal infection, HIV, Bartonella henselae antibody, Coxiella burnetii antibodies, Leptospira antibodies, syphilis, aspergillus galactomannan antigen, and histoplasma antigen.
+
+Next, we evaluate the possibility of hypercoagulable disorders, such as antiphospholipid syndrome, factor V Leiden, or protein C/S deficiency. The hypercoagulability work-up was also unremarkable and included DRVVT screening for lupus anticoagulant, anticardiolipin antibodies, homocysteine, paroxysmal nocturnal hemoglobinuria screen, protein C and S activity, antithrombin mutations, and factor V Leiden and prothrombin genotyping, which all came back negative.
+
+We also consider the possibility of autoimmune vasculitis or connective-tissue disease, but this is excluded because the autoimmune work-up was also unyielding and included testing for antinuclear antibody, antineutrophil cytoplasmic antibody, antidouble-stranded DNA antibody, rheumatoid factor, cyclic citrullinated peptide, Sjogren antibody, myeloperoxidase antibodies, proteinase 3 autoantibodies, complement levels, Smith antibody, and RNP antibody, all of which were negative.
+
+The cardiac source of embolus, such as infective endocarditis or intracardiac thrombus, is also investigated with TTE, bubble study, and TEE, and deemed unlikely because a transthoracic echocardiogram showed no findings to suggest valvular or cardiac source of embolus, and the transesophageal echocardiogram revealed a large echogenic mobile mass attached to the wall of the descending thoracic aorta without cardiac involvement.
+
+We also consider the possibility of a primary aortic neoplasm, such as sarcoma, but this is not supported by imaging or pathology, and the mass resolved with anticoagulation, leading us to conclude that it was most likely an aortic thrombus.
+
+Given the combination of a mobile intraluminal aortic mass, multiple systemic infarcts, exclusion of infectious, hypercoagulable, autoimmune, and cardiac sources, and radiographic resolution after anticoagulation, we infer that the final diagnosis is an arterial thrombus.
+</stitched_reasoning>

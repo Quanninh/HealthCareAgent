@@ -1,0 +1,17 @@
+<stitched_reasoning>
+The patient's presentation of fever, severe persistent diffuse headache, nausea, vomiting, anorexia, and weight loss over 4 months, with worsening symptoms in the last week, raises concerns for a serious underlying condition. The history of recurrent respiratory infections since infancy, with multiple hospital admissions, suggests a possible immunocompromised state. The patient's brother reported that the patient had suffered from recurrent respiratory infections since infancy with multiple hospital admissions. Two months earlier, after an MRI that suggested meningeal enhancement and small ring-enhancing lesions, he had been started on antituberculosis therapy. He had no history of seizures or loss of consciousness. On examination the child was listless, emaciated, and extremely irritable, with left-sided weakness of both the upper and lower extremities.
+
+An urgent head CT showed multiple ring-enhancing lesions in the left parieto-occipital region with significant surrounding edema and mass effect. Laboratory studies revealed a white blood cell count of 17,900 µL (neutrophils 77.4%, lymphocytes 15.7%), hemoglobin 10.9 g/dL, and an erythrocyte sedimentation rate of 88 mm/h. The imaging description emphasizes "multiple rings enhancing the left parieto-occipital region, with significant surrounding edema and mass effect." This pattern is suggestive of an invasive process, rather than a typical cysticercal lesion.
+
+Considering the presence of fungal hyphae in the granulomatous brain lesions, Aspergillosis is a strong consideration. Microscopic examination of the wall showed granulomas with fungal hyphae. This is characteristic of invasive Aspergillus infection in immunocompromised hosts. Aspergillosis suggested by demonstration of fungal hyphae in granulomatous brain lesions, which is characteristic of invasive Aspergillus infection in immunocompromised hosts.
+
+However, the patient's history of prior MRI findings, ongoing antituberculosis therapy, and a family history of disseminated tuberculosis, raises the possibility of Tuberculous meningoencephalitis. Physicians started him on antituberculosis (ATT) drugs 2 months back after an MRI, which suggested meningeal enhancement and small ring-enhancing lesions. This consideration is further supported by the patient's family history of disseminated tuberculosis.
+
+The patient's high peripheral white-cell count, neutrophilia, and purulent material obtained at surgery, also raises the possibility of a bacterial brain abscess. Thick purulent material was obtained during craniotomy, and the leukocytosis (WBC 17,900, neutrophils 77.4%) supports a bacterial process.
+
+Neurocysticercosis is less likely, given the aggressive surrounding inflammation and mass effect, which is not typical of cysticercal lesions. The imaging description emphasizes "multiple rings enhancing the left parieto-occipital region, with significant surrounding edema and mass effect."
+
+Finally, the confirmation of Pulmonary tuberculosis by PCR of tracheal aspirate, but the CNS lesions were attributed to Aspergillus rather than Mycobacterium tuberculosis owing to the presence of fungal hyphae. Tracheal aspirate... was positive for Mycobacterium tuberculosis polymerase chain reaction assay.
+
+Considering all the evidence, the most likely diagnosis is Aspergillosis, given the presence of fungal hyphae in the granulomatous brain lesions, and the patient's immunocompromised state.
+</stitched_reasoning>

@@ -1,0 +1,7 @@
+<stitched_reasoning>
+A patient with known HIV infection presented with a forearm abscess. Culture of the abscess grew Pseudomonas aeruginosa and Proteus mirabilis. Bacterial soft-tissue infection is considered because cultures yielded P. aeruginosa and P. mirabilis. P. aeruginosa and P. mirabilis were cultured from the forearm abscess. However, an inadequate response to antibiotics in an immunocompromised host raises suspicion for an additional pathogen. After 1 month of treatment with major improvement, she was discharged, implying residual concern prompting further work-up.
+
+Given the patient's immunocompromised state and exposure to endemic areas, fungal infection is a potential consideration. Fungal infection, specifically histoplasmosis, is pursued based on endemic exposure and HIV-related immunosuppression. Antigen testing was performed, and the results were strongly positive (0.75). Histoplasma capsulatum was confirmed by skin-biopsy staining with Giemsa, Gomori-Grocott, and PAS. Histoplasmosis was later confirmed by skin biopsy and tissue stains with Giemsa, Gomori-Grocott, and periodic acid schiff (PAS) staining. The species was identified as Histoplasma capsulatum var capsulatum.
+
+Alternative fungal etiologies, such as cryptococcosis and blastomycosis, are excluded because the antigen assay was specific for Histoplasma, and histopathology showed characteristic yeast forms. Therefore, the final diagnosis is histoplasmosis.
+</stitched_reasoning>

@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Cytokine-release syndrome (CRS) is considered due to recent blinatumomab initiation; however, the patient's fever persisted beyond the typical transient CRS window and was accompanied by progressive hypoxemia and radiographic changes, making CRS less likely. On the second day of blinatumomab infusion, she presented with subfebrile fever, which was thought attributed to mild cytokine release syndrome... However, on the 9th day after blinatumomab use, she experienced intermittent fever... On the 17th day of blinatumomab treatment, she developed obvious shortness of breath, and her pulse oxygen saturation decreased to 78%.
+
+Bacterial pneumonia is considered because of fever and infiltrates; empiric piperacillin/tazobactam was administered, yet the patient failed to improve and cultures were negative, arguing against bacterial etiology. The patient received empiric treatment with piperacillin/tazobactam... Despite treatment, the fever persisted.
+
+Viral reactivation (e.g., HSV, CMV) is considered, prompting acyclovir therapy; lack of clinical response and absence of viral PCR findings diminished this possibility. The patient received ... acyclovir... Despite treatment, the fever persisted.
+
+Drug-induced pulmonary toxicity from blinatumomab is considered, but the pattern of diffuse ground-glass opacities with nodules, markedly elevated β-D-glucan, and lymphopenia are more characteristic of an opportunistic fungal infection. Chest CT showed diffuse GGO with scattered small nodules... beta-D-glucan assays showed 298.6 (reference <100.5) pg/mL, all indicative of possible PCP infection.
+
+Pneumocystis jirovecii pneumonia (PCP) is supported by (a) profound lymphopenia, (b) high serum β-D-glucan, (c) elevated LDH, (d) diffuse ground-glass opacities with nodules on CT, (e) dry cough, and (f) later confirmation by pathogen-specific sequencing. her lymphocyte count decreased to 0.59 × 10⁹/L, C-reactive protein increased... LDH increased... beta-D-glucan assays showed 298.6... all indicative of possible PCP infection. The dry cough... prompted next-generation sequencing of peripheral blood, which tested positive for pneumocystis jirovecii without evidence of other pathogens.
+</stitched_reasoning>

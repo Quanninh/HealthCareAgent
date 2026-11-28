@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient, a 13-year-old girl, presented with a diagnosis of epilepsy made within the preceding 3 months. However, her seizures had become more frequent despite treatment with carbamazepine and phenobarbital at maximal tolerable dosages. This suggests that the seizures may not be due to primary epilepsy, but rather a structural intracranial lesion. Her seizures were becoming more frequent despite being on Carbamazepine and Phenobarbital at maximal tolerable dosages. This is a critical consideration, as refractory seizures in a previously healthy adolescent are more likely to be caused by a structural intracranial lesion rather than primary epilepsy.
+
+Further investigation revealed a brain CT scan that demonstrated multiple calcified and vesicular cysts within the brain parenchyma. This finding is highly suggestive of a parasitic cystic lesion, most characteristically neurocysticercosis. Multiple calcified and vesicular cysts within the Brain parenchyma; features consistent with Neurocysticercosis. The presence of these cysts is a key diagnostic feature of neurocysticercosis, and it is essential to consider this diagnosis in the differential.
+
+To further support the diagnosis of neurocysticercosis, a stool examination was performed to rule out active intestinal taeniasis as the source of ongoing infection. The stool examination was negative for Taenia species ova. Although this finding reduces the likelihood of active intestinal taeniasis, it does not exclude the possibility of pre-existing cystic brain lesions.
+
+The patient was subsequently treated with albendazole, and subsequent CT scans at 4-weekly intervals showed marked reduction in the number of active (vesicular cysts). This response to antiparasitic therapy is a critical diagnostic criterion for neurocysticercosis, as marked reduction in active vesicular cysts after a month of albendazole therapy confirms that the lesions were antiparasitic-responsive cysts, supporting neurocysticercosis and excluding non-parasitic cystic tumors.
+
+In conclusion, the combination of refractory seizures, brain CT findings, stool examination results, and response to antiparasitic therapy all support the diagnosis of neurocysticercosis.
+</stitched_reasoning>

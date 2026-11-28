@@ -1,0 +1,11 @@
+<stitched_reasoning>
+Considering the patient's presentation with a skin lesion on the nose, the initial suspicion of cutaneous leishmaniasis is entertained due to the patient's endemic exposure to the rural sector of Ghafsai, Morocco, and the slowly progressive ulcerative nasal lesion unresponsive to antibiotics. He consulted for a skin lesion in the nose... The disease started around May 2018 with a small localized lesion... Four months later, the lesion has spread over the entire lobe of the nose and appeared erythematous. This pattern of disease progression and lack of response to antibiotics is consistent with cutaneous leishmaniasis.
+
+However, sarcoidosis is also entertained due to the granulomatous histology, but it is excluded by the lack of characteristic features and absence of Leishmania organisms. The pathological anatomy results... showed an inflammatory reaction composed of mononuclear cells, sometimes epithelioid with a vaguely granulomatous arrangement without caseous necrosis... the absence of a formal argument for sarcoidosis as well as the absence of an obvious Leishmania body. This rules out sarcoidosis as a potential diagnosis.
+
+Bacterial infection is initially suspected, treated with antibiotics, but it is ruled out by the lack of clinical improvement and non-specific histology. In front of all these clinical elements, the patient had received antibiotic treatment without improvement. This suggests that the infection is not bacterial in nature.
+
+Other infectious granulomatous diseases, such as mycobacterial infection, are not supported by histopathology (no caseous necrosis) or imaging (no bone involvement). As for the X-ray results, no lysis of the specific bones of the nose was detected and no damage to the underlying mucosa was observed. This further supports the exclusion of other infectious granulomatous diseases.
+
+The definitive diagnosis of cutaneous leishmaniasis is established by the demonstration of Leishmania amastigotes in macrophages and species-specific ITS1 PCR-RFLP matching *L. tropica*. The microscopic diagnosis from skin samples showed the presence of Leishmania amastigotes within the macrophages... the electrophoretic profile was comparable to that of L. tropica. This confirms the initial suspicion of cutaneous leishmaniasis and establishes the definitive diagnosis.
+</stitched_reasoning>

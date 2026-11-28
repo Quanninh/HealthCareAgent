@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Fungal endophthalmitis was initially considered due to the delayed postoperative period and cotton-ball-like exudates. Because of the delayed onset and the type of exudates in the anterior chamber, fungal endophthalmitis was a strong suspicion. However, because of the nature of the anterior-chamber exudates, bacterial endophthalmitis (including common gram-positive organisms) remained in the differential, prompting empirical vancomycin and ceftazidime administration. Intravitreal vancomycin, ceftazidime, and voriconazole were given.
+
+Direct microscopic examination of the vitreous and anterior-chamber fluid demonstrated Gram-positive thin, long, beaded, branching filaments, which favored a filamentous bacterium over typical yeasts or molds, narrowing the differential toward Nocardia or Actinomycetes. The presence of Gram-positive, beaded, branching filaments on Gram stain further pointed to Nocardia, as most fungi are not acid-fast, while Nocardia species are weakly acid-fast.
+
+The acid-fast positivity on Kinyoun stain further supported the suspicion of Nocardia, as it is a characteristic feature of this organism. Acid-fast thin, long filaments in modified acid-fast staining (Kinyoun stain) were observed. Subsequent culture characteristics, including dry, raised, chalky white colonies, confirmed the organism as Nocardia asteroides, establishing the final diagnosis of nocardial endophthalmitis.
+</stitched_reasoning>

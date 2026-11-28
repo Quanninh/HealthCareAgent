@@ -1,0 +1,9 @@
+<stitched_reasoning>
+To approach this complex case, we must consider the patient's presentation of pancreatic masses, lymphadenopathy, and hepatomegaly, which raises the possibility of lymphoma. To exclude the presence of a lymphoma, the patient underwent exploratory laparotomy, and histology showed chronic cholecystitis with hypertrophic reactive lymphadenitis, fibrosis of the cystic duct with a strong intramural inflammatory infiltrate, portal fibrosis and cholestasis, but no biliary tract alteration. This suggests that the lymphadenopathy is reactive rather than neoplastic.
+
+However, the patient's subsequent presentation with interstitial pneumonitis, tubulointerstitial nephritis, severe lymphopenia, and a marked reduction of CD4 cells, as well as the presence of autoantibodies and elevated ESR and CRP, necessitates further investigation into infectious and autoimmune etiologies. Tests for leishmaniasis, toxoplasma, and HIV were also negative, and the infections did not account for the multiorgan fibrosis and IgG4 elevation. Furthermore, autoantibodies such as ANA, anti-mitochondrial, anti-liver-kidney-microsomal, anti-smooth muscle, pANCA, cANCA were all negative, arguing against classic autoimmune serology.
+
+Given the persistent low CD4 counts with systemic symptoms, idiopathic CD4 lymphocytopenia is considered, although it does not explain all manifestations. After the exclusion of HIV and malignancies, an idiopathic CD4 lymphocytopenia was diagnosed. Nevertheless, only a part of the signs was explained by CD4 lymphocytopenia.
+
+The constellation of obstructive jaundice, pancreatic mass, tubulointerstitial nephritis, elevated serum IgG4, organ enlargements, and marked steroid responsiveness suggests IgG4-related disease. The medical history of obstructive jaundice pancreatic mass and interstitial nephritis, together with a marked elevation of IgG4, was suggestive of a IgG4-related disease.
+</stitched_reasoning>

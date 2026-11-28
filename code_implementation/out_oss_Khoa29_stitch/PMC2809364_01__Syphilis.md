@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Considering the patient's presentation of left-ear hearing loss and occasional bilateral tinnitus, we must evaluate the potential causes of this sensorineural hearing loss. One possible explanation is otosyphilis due to syphilis, which is supported by the patient's positive serology. Results revealed the patient's RPR and fluorescent treponemal antibody absorption test to be positive. Furthermore, a history of syphilis was confirmed. This diagnosis is further strengthened by the mixed conductive-sensorineural pattern observed in the left ear, which is less compatible with other causes of sensorineural hearing loss such as presbycusis or noise-induced loss.
+
+However, we must also consider the possibility of autoimmune inner-ear disease, which is a potential cause of sensorineural hearing loss. Laboratory testing included a collagen profile test, RPR, and fluorescent treponemal antibody absorption (FTA-ABS) test. The authors did not report abnormal collagen results, and the positive syphilis serology made an autoimmune etiology less likely. This suggests that autoimmune inner-ear disease is not a likely explanation for the patient's symptoms.
+
+Given the positive syphilis serology and the mixed conductive-sensorineural pattern, other causes of sensorineural hearing loss are less compatible with the patient's presentation. The patient's symptoms and test results are most consistent with otosyphilis due to syphilis.
+</stitched_reasoning>

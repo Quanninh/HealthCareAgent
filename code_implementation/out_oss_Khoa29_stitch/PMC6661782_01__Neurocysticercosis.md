@@ -1,0 +1,15 @@
+<stitched_reasoning>
+The patient's presentation with new-onset seizure, numbness, and "locking" sensation in the left hand, followed by confusion, raises concern for a neurological condition. The CT of the head shows hypodense areas in the right frontoparietal and left parieto-occipital lobes, which could represent metastatic tumors. However, the patient's age, lack of known primary cancer, and absence of systemic symptoms make metastasis less likely, as enhancing brain lesions could represent metastatic tumors, but the patient's age, lack of known primary cancer, and absence of systemic symptoms make metastasis less likely. MRI demonstrated enhancing masses suspicious for metastasis versus abscesses, but the patient's age and lack of systemic symptoms make metastasis less likely.
+
+Given the edema and ring enhancement, cerebral abscess was considered, but bacterial culture of CSF was negative and no systemic infection was identified. CSF culture was negative, and the absence of systemic infection makes cerebral abscess less likely. However, the possibility of an abscess cannot be entirely ruled out, as the edema and ring enhancement are consistent with this diagnosis.
+
+Tuberculosis was also considered due to granulomatous inflammation, but the acid-fast stain was negative, and TB serology was negative. The patient's negative acid-fast bacilli special stain and negative TB serology make tuberculosis less likely.
+
+Parasitic cysts, such as Echinococcus/hydatid disease and neurocysticercosis, were entertained due to cystic morphology, but Echinococcus serology was negative, and the cyst wall stains (PAS, GMS, mucicarmine) are atypical for hydatid cysts. The pathology suggested fragments of non-epithelialized fibrous cyst wall containing neutrophils, lymphocytes, plasma cells, and occasional eosinophils; focal necrosis and numerous small cystic structures within the wall. Special stains were positive for periodic acid-Schiff, Gomori's methenamine silver, and mucicarmine, and negative for acid-fast bacilli. The initial interpretation was "consistent with the walls of Echinococcus/hydatid cyst." However, the negative Echinococcus serology and atypical cyst wall stains make Echinococcus/hydatid disease less likely.
+
+Toxoplasma encephalitis was excluded because toxoplasma IgG/IgM were negative and the patient was HIV-negative. The patient's negative toxoplasma immunoglobulin G and immunoglobulin M, and HIV-negative status, make toxoplasma encephalitis less likely.
+
+The cyst wall's PAS-, GMS-, and mucicarmine-positive staining is characteristic of a fungal capsule, and despite initial negative CSF antigen, the histology raised suspicion. Special stains showed positive for periodic acid-Schiff, Gomori's methenamine silver, and mucicarmine special stain, which is characteristic of a fungal capsule. This, combined with the negative CSF antigen, makes cryptococcal infection a plausible diagnosis.
+
+Given the patient's presentation, imaging findings, and laboratory results, the most likely diagnosis is cryptococcosis.
+</stitched_reasoning>

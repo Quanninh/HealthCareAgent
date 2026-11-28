@@ -1,0 +1,9 @@
+<stitched_reasoning>
+Infectious causes such as HIV, tuberculosis, syphilis, and viral hepatitis are considered, but they are excluded by negative serologic and T-Spot.TB testing. Testing for HIV, T-Spot.TB, syphilis (VDRL), and hepatitis B and C were negative. This rules out these common causes of peripheral neuropathy, but we must consider other possibilities.
+
+Common causes of peripheral neuropathy, such as diabetic neuropathy and chronic inflammatory demyelinating polyneuropathy, are less likely given the absence of diabetes, normal reflexes, and the presence of nerve thickening on ultrasound suggestive of a granulomatous process. Electroneuromyography showed an asymmetrical sensory and motor axonal neuropathy... Ultrasonography of peripheral nerves displayed echographic findings suggestive of hypertrophic neuropathy... This pattern of neuropathy is not typical of these common causes, and we must consider other explanations.
+
+Systemic vasculitic or autoimmune neuropathies are considered, but they lack supporting laboratory markers, such as negative inflammatory panels, and do not explain the extensive skin infiltration and lepromas. The physical exam revealed diffuse skin infiltration all over the body... and the presence of small lepromas on the posterior thighs and legs. This pattern of skin involvement is not typical of vasculitic or autoimmune neuropathies, and we must consider other explanations.
+
+Leprosy is suspected based on family history, characteristic skin lesions, thickened neural trunks, and neuropathy pattern. A bone marrow biopsy revealed the presence of M. leprae forming globi... The ELISA anti-phenolic glycolipid I (PGL-I) IgM antibodies and M. leprae DNA were positive... The diagnosis of lepromatous leprosy was made. This combination of clinical and laboratory findings is highly suggestive of leprosy, and we can conclude that this is the most likely diagnosis.
+</stitched_reasoning>

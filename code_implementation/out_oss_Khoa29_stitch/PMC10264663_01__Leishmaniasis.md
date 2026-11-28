@@ -1,0 +1,11 @@
+<stitched_reasoning>
+The patient's presentation of intermittent high-grade fever and hepatosplenomegaly suggests an infectious or malignant process. Intermittent fever of 1-month duration and hepatosplenomegaly below the costal margin are notable findings that warrant further investigation. Marked cytopenias (leukopenia, thrombocytopenia) raise concern for bone-marrow infiltration or hemophagocytic activity, with WBC 3.12 × 10⁹/L and platelets 100 × 10⁹/L indicating a potential issue with bone marrow function.
+
+PET/CT showed intense diffuse FDG uptake in the spleen, a pattern that can be seen in lymphoma, infection, or HLH. Significant diffuse increase in the uptake of FDG in the splenomegaly and slightly diffuse FDG uptake in the bone marrow are concerning findings that suggest a possible underlying condition. Bone-marrow aspirate demonstrated phagocytosis of reticular cells, supporting hemophagocytic lymphohistiocytosis. Phagocytosis of reticulum cells in the bone marrow aspiration and biopsy is a key finding that points towards HLH.
+
+CT identified multinodular splenic lesions, leading clinicians to suspect an angioma or splenic lymphoma. An enlarged spleen with sustained strengthening multinodular enhancement, and angioma was suspected, are findings that suggest a possible underlying condition. The lack of response to antibiotics and corticosteroids, together with worsening cytopenias, argues against a simple bacterial infection and maintains suspicion for lymphoma or HLH. After 2 weeks of antibiotic and cortical therapy, the patient still had intermittent fever with progressive deterioration, indicating that the initial treatment was not effective.
+
+The decision to perform splenectomy was based on the need for definitive tissue diagnosis because prior work-up could not exclude lymphoma. Splenectomy to confirm the initial diagnosis and remove a significant burden of disease is a necessary step to determine the underlying cause of the patient's symptoms.
+
+Histopathology later revealed intracellular amastigotes, confirming visceral leishmaniasis and explaining the HLH picture. The presence of intracellular amastigotes in the histopathology report is a key finding that shifts the diagnosis from lymphoma/HLH to leishmaniasis.
+</stitched_reasoning>

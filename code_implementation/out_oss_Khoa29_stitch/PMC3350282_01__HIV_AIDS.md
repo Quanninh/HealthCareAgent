@@ -1,0 +1,7 @@
+<stitched_reasoning>
+Papilledema is considered but deemed unlikely because his presentation was not consistent with papilledema. This led to further exploration of other potential causes of his symptoms. Idiopathic optic neuritis is considered given the unilateral visual changes, but the lack of typical pain pattern and MRI findings make it less likely. The patient has asymmetric disc edema, greater in the left eye, and MRI and MRV were unremarkable, showing no mass lesions or venous occlusion. This suggests that the cause of his symptoms may be related to the optic nerve itself.
+
+Further investigation reveals that the patient has increased optic nerve sheath fluid, especially posterior to the globes, and contrast enhancement of the optic nerve sheaths, which is suggestive of optic perineuritis. Since the clinical and imaging findings appeared consistent with optic perineuritis, secondary infectious/inflammatory causes are explored, leading to serologic testing for syphilis. The patient tests positive for syphilis, which is a common cause of optic perineuritis. Given the patient's positive serology for syphilis, it is also important to evaluate for HIV infection as a common co-factor for neurosyphilis. However, the patient's HIV testing is negative.
+
+The presence of syphilis as a secondary cause of the patient's symptoms is the most likely explanation for his symptoms, given the positive serology and the lack of other obvious causes. Therefore, the final diagnosis is syphilis.
+</stitched_reasoning>
